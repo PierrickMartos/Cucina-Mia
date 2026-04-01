@@ -1,0 +1,47 @@
+{
+  "slug": "pesto-trofie",
+  "title": "Trofie al Pesto Genovese",
+  "description": "Pasta ligure con pesto fresco di basilico, pinoli, aglio, Parmigiano e Pecorino.",
+  "image": "images/recipes/pesto-trofie/cover.svg",
+  "prepTime": 20,
+  "cookTime": 12,
+  "servings": 4,
+  "difficulty": "Facile",
+  "category": "Primi",
+  "tags": ["pasta", "ligure", "pesto"],
+  "ingredients": [
+    {
+      "group": "Pesto",
+      "items": [
+        "60g foglie di basilico fresco",
+        "30g pinoli",
+        "1 spicchio d'aglio",
+        "40g Parmigiano Reggiano grattugiato",
+        "20g Pecorino Sardo grattugiato",
+        "80ml olio extravergine d'oliva",
+        "Sale grosso q.b."
+      ]
+    },
+    {
+      "group": "Pasta",
+      "items": [
+        "400g trofie",
+        "1 patata media",
+        "100g fagiolini",
+        "Sale per la pasta q.b."
+      ]
+    }
+  ],
+  "steps": [
+    { "text": "Lavare e asciugare delicatamente il basilico. Pestare nel mortaio con aglio, pinoli e sale grosso." },
+    { "text": "Aggiungere i formaggi grattugiati e l'olio a filo, mescolando sempre con il pestello in senso orario." },
+    { "text": "Pelare la patata e tagliarla a cubetti piccoli. Mondare i fagiolini e tagliarli a pezzetti." },
+    { "text": "Cuocere le trofie in acqua salata, aggiungendo patate e fagiolini a metà cottura." },
+    { "text": "Scolare conservando un po' d'acqua di cottura. Condire con il pesto, diluendo con acqua di cottura se necessario." }
+  ],
+  "tips": [
+    "Il mortaio dà un pesto molto migliore del frullatore: non scalda il basilico.",
+    "Patate e fagiolini sono il condimento tradizionale ligure.",
+    "Il pesto non va mai cotto: aggiungerlo sempre a crudo."
+  ]
+}

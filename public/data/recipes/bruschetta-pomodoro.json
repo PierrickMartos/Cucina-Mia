@@ -1,0 +1,35 @@
+{
+  "slug": "bruschetta-pomodoro",
+  "title": "Bruschetta al Pomodoro",
+  "description": "Pane tostato con pomodorini freschi, basilico e olio extravergine: l'antipasto estivo perfetto.",
+  "image": "images/recipes/bruschetta-pomodoro/cover.svg",
+  "prepTime": 15,
+  "cookTime": 5,
+  "servings": 4,
+  "difficulty": "Facile",
+  "category": "Antipasti",
+  "tags": ["antipasto", "estivo", "pomodoro"],
+  "ingredients": [
+    {
+      "items": [
+        "4 fette di pane casereccio",
+        "300g pomodorini maturi",
+        "1 spicchio d'aglio",
+        "Basilico fresco q.b.",
+        "Olio extravergine d'oliva q.b.",
+        "Sale e pepe q.b."
+      ]
+    }
+  ],
+  "steps": [
+    { "text": "Tagliare i pomodorini a cubetti e condirli con olio, sale, pepe e basilico spezzettato. Lasciar marinare 10 minuti." },
+    { "text": "Tostare le fette di pane sulla griglia o in forno fino a doratura." },
+    { "text": "Strofinare leggermente l'aglio sulla superficie del pane caldo." },
+    { "text": "Distribuire i pomodorini conditi sul pane e completare con un filo d'olio a crudo." }
+  ],
+  "tips": [
+    "Usare pomodorini maturi e dolci, meglio se datterini.",
+    "Il pane deve essere croccante fuori e morbido dentro.",
+    "Preparare il condimento di pomodori almeno 10 minuti prima per far uscire i succhi."
+  ]
+}

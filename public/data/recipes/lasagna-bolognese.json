@@ -1,0 +1,56 @@
+{
+  "slug": "lasagna-bolognese",
+  "title": "Lasagna alla Bolognese",
+  "description": "Strati di pasta all'uovo, ragù bolognese e besciamella, gratinati al forno.",
+  "image": "images/recipes/lasagna-bolognese/cover.svg",
+  "prepTime": 45,
+  "cookTime": 40,
+  "servings": 8,
+  "difficulty": "Difficile",
+  "category": "Primi",
+  "tags": ["pasta", "forno", "bolognese"],
+  "ingredients": [
+    {
+      "group": "Ragù",
+      "items": [
+        "400g macinato di manzo",
+        "150g macinato di maiale",
+        "400g passata di pomodoro",
+        "1 carota, 1 sedano, 1 cipolla",
+        "100ml vino rosso",
+        "Olio extravergine d'oliva",
+        "Sale e pepe q.b."
+      ]
+    },
+    {
+      "group": "Besciamella",
+      "items": [
+        "80g burro",
+        "80g farina",
+        "1 litro di latte intero",
+        "Noce moscata q.b.",
+        "Sale q.b."
+      ]
+    },
+    {
+      "group": "Assemblaggio",
+      "items": [
+        "500g sfoglie di lasagna all'uovo",
+        "150g Parmigiano Reggiano grattugiato"
+      ]
+    }
+  ],
+  "steps": [
+    { "text": "Preparare il soffritto con carota, sedano e cipolla tritati finemente. Rosolare nell'olio, poi aggiungere le carni macinate." },
+    { "text": "Sfumare con il vino rosso, aggiungere la passata e cuocere a fuoco basso per almeno 2 ore." },
+    { "text": "Preparare la besciamella: sciogliere il burro, aggiungere la farina, mescolare e versare il latte poco alla volta. Cuocere fino a densità, aggiungere noce moscata e sale." },
+    { "text": "In una teglia imburrata, alternare strati di sfoglia, ragù, besciamella e Parmigiano." },
+    { "text": "Terminare con besciamella e Parmigiano abbondante. Infornare a 180°C per 35-40 minuti fino a doratura." },
+    { "text": "Lasciar riposare 10 minuti prima di servire." }
+  ],
+  "tips": [
+    "Il ragù è migliore se preparato il giorno prima.",
+    "Se usate sfoglie secche, non serve precuocerle: la besciamella le ammorbidisce.",
+    "Per una crosta più croccante, gratinare gli ultimi 5 minuti sotto il grill."
+  ]
+}

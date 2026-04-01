@@ -1,0 +1,48 @@
+{
+  "slug": "ossobuco",
+  "title": "Ossobuco alla Milanese",
+  "description": "Stinco di vitello brasato con gremolata di prezzemolo, aglio e scorza di limone.",
+  "image": "images/recipes/ossobuco/cover.svg",
+  "prepTime": 20,
+  "cookTime": 120,
+  "servings": 4,
+  "difficulty": "Medio",
+  "category": "Secondi",
+  "tags": ["carne", "milanese", "brasato"],
+  "ingredients": [
+    {
+      "group": "Ossobuco",
+      "items": [
+        "4 fette di ossobuco di vitello (3cm)",
+        "Farina per infarinare",
+        "50g burro",
+        "1 cipolla, 1 carota, 1 sedano",
+        "200ml vino bianco",
+        "400g pomodori pelati",
+        "300ml brodo di carne",
+        "Sale e pepe q.b."
+      ]
+    },
+    {
+      "group": "Gremolata",
+      "items": [
+        "Prezzemolo fresco tritato",
+        "Scorza grattugiata di 1 limone",
+        "1 spicchio d'aglio tritato finemente"
+      ]
+    }
+  ],
+  "steps": [
+    { "text": "Infarinare leggermente le fette di ossobuco. In una casseruola capiente, rosolarle nel burro su entrambi i lati fino a doratura." },
+    { "text": "Rimuovere la carne e nello stesso fondo soffriggere cipolla, carota e sedano tritati." },
+    { "text": "Sfumare con il vino bianco, poi aggiungere i pomodori pelati schiacciati e il brodo." },
+    { "text": "Rimettere gli ossibuchi nella casseruola, coprire e cuocere a fuoco basso per 2 ore, girando ogni tanto." },
+    { "text": "Preparare la gremolata mescolando prezzemolo, scorza di limone e aglio." },
+    { "text": "Servire gli ossibuchi con il fondo di cottura e la gremolata sopra. Accompagnare con risotto alla milanese." }
+  ],
+  "tips": [
+    "Non rimuovere lo spago dagli ossibuchi durante la cottura: mantiene la forma.",
+    "Il midollo è la parte più pregiata: servirlo con il piatto.",
+    "Cuocere a fuoco molto dolce per una carne tenerissima."
+  ]
+}

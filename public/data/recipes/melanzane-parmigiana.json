@@ -1,0 +1,38 @@
+{
+  "slug": "melanzane-parmigiana",
+  "title": "Parmigiana di Melanzane",
+  "description": "Strati di melanzane fritte, salsa di pomodoro, mozzarella e Parmigiano gratinati al forno.",
+  "image": "images/recipes/melanzane-parmigiana/cover.svg",
+  "prepTime": 40,
+  "cookTime": 35,
+  "servings": 6,
+  "difficulty": "Medio",
+  "category": "Secondi",
+  "tags": ["melanzane", "forno", "campano"],
+  "ingredients": [
+    {
+      "items": [
+        "3 melanzane grandi",
+        "500g passata di pomodoro",
+        "250g mozzarella fiordilatte",
+        "100g Parmigiano Reggiano grattugiato",
+        "Basilico fresco q.b.",
+        "Olio per friggere q.b.",
+        "Sale q.b."
+      ]
+    }
+  ],
+  "steps": [
+    { "text": "Tagliare le melanzane a fette di 5mm, salarle e lasciarle spurgare per 30 minuti. Asciugare bene." },
+    { "text": "Friggere le fette di melanzane in olio abbondante fino a doratura. Scolare su carta assorbente." },
+    { "text": "Preparare la salsa: cuocere la passata con basilico, olio e sale per 15 minuti." },
+    { "text": "In una teglia, alternare strati di melanzane, salsa, mozzarella a fettine e Parmigiano." },
+    { "text": "Terminare con salsa e Parmigiano abbondante. Infornare a 180°C per 30-35 minuti." },
+    { "text": "Lasciar riposare 15 minuti prima di tagliare. Servire tiepida." }
+  ],
+  "tips": [
+    "Salare le melanzane toglie l'amaro e le rende meno spugnose in frittura.",
+    "Per una versione più leggera, grigliare le melanzane invece di friggerle.",
+    "La parmigiana è ancora più buona il giorno dopo, riscaldata."
+  ]
+}

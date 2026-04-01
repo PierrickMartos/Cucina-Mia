@@ -1,0 +1,38 @@
+{
+  "slug": "focaccia-genovese",
+  "title": "Focaccia Genovese",
+  "description": "La focaccia ligure originale: alta, soffice, con crosta dorata e olio d'oliva in superficie.",
+  "image": "images/recipes/focaccia-genovese/cover.svg",
+  "prepTime": 30,
+  "cookTime": 25,
+  "servings": 6,
+  "difficulty": "Medio",
+  "category": "Pane",
+  "tags": ["pane", "ligure", "lievitato"],
+  "ingredients": [
+    {
+      "items": [
+        "500g farina Manitoba",
+        "350ml acqua tiepida",
+        "10g sale",
+        "10g zucchero",
+        "7g lievito di birra secco",
+        "80ml olio extravergine d'oliva",
+        "Sale grosso per la superficie"
+      ]
+    }
+  ],
+  "steps": [
+    { "text": "Sciogliere il lievito e lo zucchero nell'acqua tiepida. Aggiungere la farina e il sale, impastare per 10 minuti." },
+    { "text": "Aggiungere 40ml di olio e continuare a impastare fino a ottenere un impasto liscio." },
+    { "text": "Far lievitare coperto per 2 ore fino al raddoppio del volume." },
+    { "text": "Ungere abbondantemente una teglia con olio. Stendere l'impasto nella teglia con le dita, creando le caratteristiche fossette." },
+    { "text": "Emulsionare il restante olio con un po' d'acqua e sale, versare sulla focaccia. Cospargere di sale grosso." },
+    { "text": "Far lievitare altri 30 minuti, poi infornare a 220°C per 20-25 minuti fino a doratura." }
+  ],
+  "tips": [
+    "L'emulsione di olio e acqua salata è il segreto della crosta croccante.",
+    "Le fossette devono arrivare quasi al fondo della teglia.",
+    "Servire tiepida, mai fredda."
+  ]
+}

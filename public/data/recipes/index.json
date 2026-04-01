@@ -12,16 +12,88 @@
     "tags": ["pasta", "romano", "tradizionale"]
   },
   {
-    "slug": "tiramisu",
-    "title": "Tiramisù Classico",
-    "description": "Il dolce italiano più amato al mondo con mascarpone, caffè e savoiardi.",
-    "image": "images/recipes/tiramisu/cover.svg",
-    "prepTime": 30,
-    "cookTime": 0,
-    "servings": 8,
+    "slug": "cacio-e-pepe",
+    "title": "Cacio e Pepe",
+    "description": "Tre ingredienti, sapore infinito: tonnarelli, pecorino romano e pepe nero macinato al momento.",
+    "image": "images/recipes/cacio-e-pepe/cover.svg",
+    "prepTime": 5,
+    "cookTime": 12,
+    "servings": 4,
+    "difficulty": "Medio",
+    "category": "Primi",
+    "tags": ["pasta", "romano", "tradizionale"]
+  },
+  {
+    "slug": "risotto-milanese",
+    "title": "Risotto alla Milanese",
+    "description": "Il classico risotto allo zafferano, cremoso e dorato, simbolo della cucina lombarda.",
+    "image": "images/recipes/risotto-milanese/cover.svg",
+    "prepTime": 10,
+    "cookTime": 25,
+    "servings": 4,
+    "difficulty": "Medio",
+    "category": "Primi",
+    "tags": ["risotto", "milanese", "zafferano"]
+  },
+  {
+    "slug": "pesto-trofie",
+    "title": "Trofie al Pesto Genovese",
+    "description": "Pasta ligure con pesto fresco di basilico, pinoli, aglio, Parmigiano e Pecorino.",
+    "image": "images/recipes/pesto-trofie/cover.svg",
+    "prepTime": 20,
+    "cookTime": 12,
+    "servings": 4,
     "difficulty": "Facile",
-    "category": "Dolci",
-    "tags": ["dolce", "caffè", "no-cottura"]
+    "category": "Primi",
+    "tags": ["pasta", "ligure", "pesto"]
+  },
+  {
+    "slug": "lasagna-bolognese",
+    "title": "Lasagna alla Bolognese",
+    "description": "Strati di pasta all'uovo, ragù bolognese e besciamella, gratinati al forno.",
+    "image": "images/recipes/lasagna-bolognese/cover.svg",
+    "prepTime": 45,
+    "cookTime": 40,
+    "servings": 8,
+    "difficulty": "Difficile",
+    "category": "Primi",
+    "tags": ["pasta", "forno", "bolognese"]
+  },
+  {
+    "slug": "bruschetta-pomodoro",
+    "title": "Bruschetta al Pomodoro",
+    "description": "Pane tostato con pomodorini freschi, basilico e olio extravergine: l'antipasto estivo perfetto.",
+    "image": "images/recipes/bruschetta-pomodoro/cover.svg",
+    "prepTime": 15,
+    "cookTime": 5,
+    "servings": 4,
+    "difficulty": "Facile",
+    "category": "Antipasti",
+    "tags": ["antipasto", "estivo", "pomodoro"]
+  },
+  {
+    "slug": "ossobuco",
+    "title": "Ossobuco alla Milanese",
+    "description": "Stinco di vitello brasato con gremolata di prezzemolo, aglio e scorza di limone.",
+    "image": "images/recipes/ossobuco/cover.svg",
+    "prepTime": 20,
+    "cookTime": 120,
+    "servings": 4,
+    "difficulty": "Medio",
+    "category": "Secondi",
+    "tags": ["carne", "milanese", "brasato"]
+  },
+  {
+    "slug": "melanzane-parmigiana",
+    "title": "Parmigiana di Melanzane",
+    "description": "Strati di melanzane fritte, salsa di pomodoro, mozzarella e Parmigiano gratinati al forno.",
+    "image": "images/recipes/melanzane-parmigiana/cover.svg",
+    "prepTime": 40,
+    "cookTime": 35,
+    "servings": 6,
+    "difficulty": "Medio",
+    "category": "Secondi",
+    "tags": ["melanzane", "forno", "campano"]
   },
   {
     "slug": "margherita-pizza",
@@ -34,5 +106,53 @@
     "difficulty": "Difficile",
     "category": "Pizze",
     "tags": ["pizza", "napoletana", "tradizionale"]
+  },
+  {
+    "slug": "focaccia-genovese",
+    "title": "Focaccia Genovese",
+    "description": "La focaccia ligure originale: alta, soffice, con crosta dorata e olio d'oliva in superficie.",
+    "image": "images/recipes/focaccia-genovese/cover.svg",
+    "prepTime": 30,
+    "cookTime": 25,
+    "servings": 6,
+    "difficulty": "Medio",
+    "category": "Pane",
+    "tags": ["pane", "ligure", "lievitato"]
+  },
+  {
+    "slug": "tiramisu",
+    "title": "Tiramisù Classico",
+    "description": "Il dolce italiano più amato al mondo con mascarpone, caffè e savoiardi.",
+    "image": "images/recipes/tiramisu/cover.svg",
+    "prepTime": 30,
+    "cookTime": 0,
+    "servings": 8,
+    "difficulty": "Facile",
+    "category": "Dolci",
+    "tags": ["dolce", "caffè", "no-cottura"]
+  },
+  {
+    "slug": "panna-cotta",
+    "title": "Panna Cotta alla Vaniglia",
+    "description": "Dolce al cucchiaio piemontese, delicato e vellutato, con salsa ai frutti di bosco.",
+    "image": "images/recipes/panna-cotta/cover.svg",
+    "prepTime": 15,
+    "cookTime": 5,
+    "servings": 6,
+    "difficulty": "Facile",
+    "category": "Dolci",
+    "tags": ["dolce", "piemontese", "vaniglia"]
+  },
+  {
+    "slug": "cannoli-siciliani",
+    "title": "Cannoli Siciliani",
+    "description": "Cialde croccanti ripiene di ricotta fresca, gocce di cioccolato e pistacchio tritato.",
+    "image": "images/recipes/cannoli-siciliani/cover.svg",
+    "prepTime": 45,
+    "cookTime": 15,
+    "servings": 12,
+    "difficulty": "Difficile",
+    "category": "Dolci",
+    "tags": ["dolce", "siciliano", "fritto"]
   }
 ]

@@ -1,0 +1,49 @@
+{
+  "slug": "cannoli-siciliani",
+  "title": "Cannoli Siciliani",
+  "description": "Cialde croccanti ripiene di ricotta fresca, gocce di cioccolato e pistacchio tritato.",
+  "image": "images/recipes/cannoli-siciliani/cover.svg",
+  "prepTime": 45,
+  "cookTime": 15,
+  "servings": 12,
+  "difficulty": "Difficile",
+  "category": "Dolci",
+  "tags": ["dolce", "siciliano", "fritto"],
+  "ingredients": [
+    {
+      "group": "Cialde",
+      "items": [
+        "250g farina 00",
+        "20g zucchero",
+        "20g strutto o burro",
+        "1 uovo",
+        "50ml Marsala",
+        "Pizzico di sale",
+        "Olio per friggere"
+      ]
+    },
+    {
+      "group": "Ripieno",
+      "items": [
+        "500g ricotta di pecora ben sgocciolata",
+        "150g zucchero a velo",
+        "80g gocce di cioccolato fondente",
+        "Pistacchi tritati per decorare",
+        "Scorza d'arancia candita (facoltativo)"
+      ]
+    }
+  ],
+  "steps": [
+    { "text": "Impastare farina, zucchero, strutto, uovo, Marsala e sale. Lavorare fino a ottenere un impasto liscio. Far riposare 1 ora in frigo." },
+    { "text": "Stendere la pasta molto sottile e ricavare dei dischi da 12cm. Avvolgerli sugli stampi per cannoli." },
+    { "text": "Friggere in olio a 180°C fino a doratura. Scolare e lasciar raffreddare, poi sfilare dagli stampi." },
+    { "text": "Lavorare la ricotta con lo zucchero a velo fino a renderla cremosa. Aggiungere le gocce di cioccolato." },
+    { "text": "Farcire le cialde con la crema di ricotta usando una sac-à-poche." },
+    { "text": "Decorare le estremità con pistacchi tritati. Servire immediatamente." }
+  ],
+  "tips": [
+    "La ricotta di pecora è fondamentale: quella vaccina è troppo acquosa.",
+    "Farcire i cannoli solo al momento di servire per mantenerli croccanti.",
+    "Il Marsala nell'impasto dà croccantezza e il caratteristico sapore."
+  ]
+}

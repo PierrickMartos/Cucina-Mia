@@ -1,0 +1,39 @@
+{
+  "slug": "risotto-milanese",
+  "title": "Risotto alla Milanese",
+  "description": "Il classico risotto allo zafferano, cremoso e dorato, simbolo della cucina lombarda.",
+  "image": "images/recipes/risotto-milanese/cover.svg",
+  "prepTime": 10,
+  "cookTime": 25,
+  "servings": 4,
+  "difficulty": "Medio",
+  "category": "Primi",
+  "tags": ["risotto", "milanese", "zafferano"],
+  "ingredients": [
+    {
+      "items": [
+        "320g riso Carnaroli",
+        "1 bustina di zafferano",
+        "1 litro di brodo di carne",
+        "80g burro",
+        "1 cipolla piccola",
+        "100ml vino bianco secco",
+        "80g Parmigiano Reggiano grattugiato",
+        "Sale q.b."
+      ]
+    }
+  ],
+  "steps": [
+    { "text": "Sciogliere metà del burro in una casseruola e soffriggere la cipolla tritata finemente fino a doratura." },
+    { "text": "Aggiungere il riso e tostarlo per 2 minuti, mescolando costantemente." },
+    { "text": "Sfumare con il vino bianco e lasciare evaporare completamente." },
+    { "text": "Aggiungere il brodo caldo un mestolo alla volta, mescolando spesso. Dopo 10 minuti aggiungere lo zafferano sciolto in un po' di brodo." },
+    { "text": "Continuare la cottura per altri 15 minuti, aggiungendo brodo man mano." },
+    { "text": "A cottura ultimata, mantecare fuori dal fuoco con il burro rimasto e il Parmigiano. Servire subito." }
+  ],
+  "tips": [
+    "Usare riso Carnaroli per una cremosità superiore.",
+    "Il brodo deve essere sempre caldo quando lo aggiungete.",
+    "Lo zafferano in pistilli è molto più profumato di quello in bustina."
+  ]
+}
