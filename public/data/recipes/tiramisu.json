@@ -1,0 +1,49 @@
+{
+  "slug": "tiramisu",
+  "title": "Tiramisù Classico",
+  "description": "Il dolce italiano più amato al mondo con mascarpone, caffè e savoiardi.",
+  "image": "images/recipes/tiramisu/cover.svg",
+  "prepTime": 30,
+  "cookTime": 0,
+  "servings": 8,
+  "difficulty": "Facile",
+  "category": "Dolci",
+  "tags": ["dolce", "caffè", "no-cottura"],
+  "ingredients": [
+    {
+      "items": [
+        "500g mascarpone",
+        "4 uova",
+        "100g zucchero",
+        "300ml caffè espresso freddo",
+        "300g savoiardi",
+        "Cacao amaro in polvere q.b."
+      ]
+    }
+  ],
+  "steps": [
+    {
+      "text": "Separare i tuorli dagli albumi. Sbattere i tuorli con lo zucchero fino a ottenere un composto chiaro e spumoso."
+    },
+    {
+      "text": "Aggiungere il mascarpone ai tuorli e mescolare delicatamente fino a ottenere una crema liscia."
+    },
+    {
+      "text": "Montare gli albumi a neve ferma e incorporarli delicatamente alla crema di mascarpone."
+    },
+    {
+      "text": "Inzuppare rapidamente i savoiardi nel caffè freddo e disporli in uno strato sul fondo di una pirofila."
+    },
+    {
+      "text": "Coprire con uno strato di crema al mascarpone. Ripetere gli strati."
+    },
+    {
+      "text": "Spolverare con cacao amaro, coprire e riporre in frigorifero per almeno 4 ore."
+    }
+  ],
+  "tips": [
+    "Il tiramisù è ancora più buono il giorno dopo.",
+    "Inzuppare i savoiardi velocemente: non devono diventare troppo molli.",
+    "Usare caffè espresso vero, non quello solubile."
+  ]
+}

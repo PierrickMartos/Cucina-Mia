@@ -1,0 +1,49 @@
+{
+  "slug": "pasta-carbonara",
+  "title": "Pasta alla Carbonara",
+  "description": "La vera carbonara romana con guanciale, pecorino, uova e pepe nero.",
+  "image": "images/recipes/pasta-carbonara/cover.svg",
+  "prepTime": 10,
+  "cookTime": 15,
+  "servings": 4,
+  "difficulty": "Medio",
+  "category": "Primi",
+  "tags": ["pasta", "romano", "tradizionale"],
+  "ingredients": [
+    {
+      "items": [
+        "400g spaghetti o rigatoni",
+        "200g guanciale",
+        "6 tuorli d'uovo",
+        "100g pecorino romano grattugiato",
+        "Pepe nero q.b.",
+        "Sale per la pasta q.b."
+      ]
+    }
+  ],
+  "steps": [
+    {
+      "text": "Portare a ebollizione una pentola d'acqua salata per la pasta."
+    },
+    {
+      "text": "Tagliare il guanciale a listarelle spesse circa 1 cm."
+    },
+    {
+      "text": "In una padella, rosolare il guanciale a fuoco medio senza aggiungere olio, fino a quando diventa croccante e dorato."
+    },
+    {
+      "text": "In una ciotola, sbattere i tuorli con il pecorino grattugiato e una generosa macinata di pepe nero."
+    },
+    {
+      "text": "Cuocere la pasta al dente, scolarla conservando un po' di acqua di cottura."
+    },
+    {
+      "text": "Versare la pasta nella padella con il guanciale (fuoco spento), mescolare bene, poi aggiungere la crema di uova e pecorino. Mantecare aggiungendo acqua di cottura se necessario."
+    }
+  ],
+  "tips": [
+    "Non usare la pancetta: il guanciale è fondamentale per il sapore autentico.",
+    "Il fuoco deve essere spento quando si aggiunge la crema di uova per evitare la frittata.",
+    "Usare solo pecorino romano, non parmigiano."
+  ]
+}
