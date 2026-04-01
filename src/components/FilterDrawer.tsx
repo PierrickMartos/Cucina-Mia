@@ -48,40 +48,41 @@ export function FilterDrawer({
 
   return (
     <>
-      <Button
-        variant="outline"
-        size="sm"
+      <button
         onClick={() => setOpen(true)}
-        className="gap-2"
+        className="flex items-center justify-center bg-primary text-primary-foreground w-10 h-10 rounded-full hover:bg-primary-container transition-colors active:scale-95 duration-300 shrink-0 relative"
       >
         <SlidersHorizontal className="h-4 w-4" />
-        Filtri
         {activeCount > 0 && (
-          <Badge className="ml-1 h-5 w-5 rounded-full p-0 text-xs flex items-center justify-center">
+          <span className="absolute -top-1 -right-1 bg-destructive text-destructive-foreground h-4 w-4 rounded-full text-[10px] flex items-center justify-center font-bold">
             {activeCount}
-          </Badge>
+          </span>
         )}
-      </Button>
+      </button>
 
       <Sheet open={open} onOpenChange={setOpen}>
-        <SheetContent onClose={() => setOpen(false)}>
+        <SheetContent onClose={() => setOpen(false)} className="bg-surface">
           <SheetHeader>
-            <SheetTitle>Filtra ricette</SheetTitle>
+            <SheetTitle className="font-headline text-lg font-bold text-foreground">
+              Filtra ricette
+            </SheetTitle>
           </SheetHeader>
 
           <div className="mt-6 space-y-6">
             <div>
-              <h4 className="font-medium mb-3">Categoria</h4>
+              <h4 className="font-semibold text-[10px] uppercase tracking-widest text-muted-foreground mb-3">
+                Categoria
+              </h4>
               <div className="flex flex-wrap gap-2">
                 {categories.map((cat) => (
                   <Badge
                     key={cat}
-                    variant={
+                    variant={selectedCategories.includes(cat) ? "default" : "outline"}
+                    className={
                       selectedCategories.includes(cat)
-                        ? "default"
-                        : "outline"
+                        ? "cursor-pointer bg-primary text-primary-foreground"
+                        : "cursor-pointer border-border text-muted-foreground hover:bg-surface-high"
                     }
-                    className="cursor-pointer"
                     onClick={() => toggleCategory(cat)}
                   >
                     {cat}
@@ -91,17 +92,19 @@ export function FilterDrawer({
             </div>
 
             <div>
-              <h4 className="font-medium mb-3">Difficoltà</h4>
+              <h4 className="font-semibold text-[10px] uppercase tracking-widest text-muted-foreground mb-3">
+                Difficoltà
+              </h4>
               <div className="flex flex-wrap gap-2">
                 {difficulties.map((diff) => (
                   <Badge
                     key={diff}
-                    variant={
+                    variant={selectedDifficulties.includes(diff) ? "default" : "outline"}
+                    className={
                       selectedDifficulties.includes(diff)
-                        ? "default"
-                        : "outline"
+                        ? "cursor-pointer bg-primary text-primary-foreground"
+                        : "cursor-pointer border-border text-muted-foreground hover:bg-surface-high"
                     }
-                    className="cursor-pointer"
                     onClick={() => toggleDifficulty(diff)}
                   >
                     {diff}
@@ -115,7 +118,7 @@ export function FilterDrawer({
                 variant="ghost"
                 size="sm"
                 onClick={clearAll}
-                className="w-full"
+                className="w-full text-muted-foreground hover:text-foreground"
               >
                 Rimuovi tutti i filtri
               </Button>

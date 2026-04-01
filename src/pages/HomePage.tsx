@@ -1,118 +1,140 @@
 import { useState, useEffect, useMemo } from "react"
-import Fuse from "fuse.js"
-import { SearchBar } from "@/components/SearchBar"
-import { FilterDrawer } from "@/components/FilterDrawer"
-import { RecipeCard } from "@/components/RecipeCard"
+import { Link, useNavigate } from "react-router-dom"
+import { Search, SlidersHorizontal } from "lucide-react"
+import { Input } from "@/components/ui/input"
 import { Skeleton } from "@/components/ui/skeleton"
 import type { RecipeSummary } from "@/types/recipe"
 
 const BASE = import.meta.env.BASE_URL
 
+/** Maps a category to a display label for the card overlay */
+const CATEGORY_LABELS: Record<string, string> = {
+  Antipasti: "Entrée",
+  Primi: "Primo",
+  Secondi: "Plat",
+  Contorni: "Contorno",
+  Dolci: "Dessert",
+  Pizze: "Pizza",
+  Pane: "Pain",
+  Bevande: "Boisson",
+}
+
+interface CategoryCard {
+  category: string
+  label: string
+  image: string
+  count: number
+}
+
 export function HomePage() {
   const [recipes, setRecipes] = useState<RecipeSummary[]>([])
   const [loading, setLoading] = useState(true)
   const [search, setSearch] = useState("")
-  const [selectedCategories, setSelectedCategories] = useState<string[]>([])
-  const [selectedDifficulties, setSelectedDifficulties] = useState<string[]>([])
+  const navigate = useNavigate()
 
   useEffect(() => {
     fetch(`${BASE}data/recipes/index.json`)
       .then((res) => res.json())
-      .then((data) => {
+      .then((data: RecipeSummary[]) => {
         setRecipes(data)
         setLoading(false)
       })
       .catch(() => setLoading(false))
   }, [])
 
-  const categories = useMemo(
-    () => [...new Set(recipes.map((r) => r.category))].sort(),
-    [recipes]
-  )
-
-  const difficulties = useMemo(
-    () => [...new Set(recipes.map((r) => r.difficulty))],
-    [recipes]
-  )
-
-  const fuse = useMemo(
-    () =>
-      new Fuse(recipes, {
-        keys: [
-          { name: "title", weight: 2 },
-          { name: "description", weight: 1 },
-          { name: "tags", weight: 1.5 },
-          { name: "category", weight: 1 },
-        ],
-        threshold: 0.4,
-        ignoreLocation: true,
-      }),
-    [recipes]
-  )
-
-  const filtered = useMemo(() => {
-    let result = search.trim()
-      ? fuse.search(search).map((r) => r.item)
-      : recipes
-
-    if (selectedCategories.length > 0) {
-      result = result.filter((r) => selectedCategories.includes(r.category))
+  const categories = useMemo<CategoryCard[]>(() => {
+    const map = new Map<string, RecipeSummary[]>()
+    for (const r of recipes) {
+      const existing = map.get(r.category) ?? []
+      existing.push(r)
+      map.set(r.category, existing)
     }
+    return Array.from(map.entries()).map(([category, items], _i) => ({
+      category,
+      label: CATEGORY_LABELS[category] ?? category,
+      image: items[0].image,
+      count: items.length,
+    }))
+  }, [recipes])
 
-    if (selectedDifficulties.length > 0) {
-      result = result.filter((r) =>
-        selectedDifficulties.includes(r.difficulty)
-      )
+  function handleSearch(e: React.FormEvent) {
+    e.preventDefault()
+    if (search.trim()) {
+      navigate(`/recipes?q=${encodeURIComponent(search.trim())}`)
     }
-
-    return result
-  }, [recipes, fuse, search, selectedCategories, selectedDifficulties])
+  }
 
   return (
-    <div className="container mx-auto px-4 py-6">
-      <div className="mb-6">
-        <h1 className="text-2xl font-bold mb-1">Ricette</h1>
-        <p className="text-muted-foreground text-sm">
-          Scopri le nostre ricette italiane tradizionali
-        </p>
-      </div>
+    <div className="flex flex-col px-6 space-y-4 pb-4 h-full">
+      {/* Hero Header */}
+      <header className="space-y-3 shrink-0">
+        <div className="max-w-2xl">
+          <span className="font-body text-secondary text-[10px] uppercase tracking-[0.2em] mb-1 block">
+            Le ricette del cuore
+          </span>
+          <h2 className="font-headline text-3xl text-primary font-bold tracking-tight leading-none">
+            Un Sapore di Eterna Estate
+          </h2>
+        </div>
 
-      <div className="flex items-center gap-3 mb-6">
-        <div className="flex-1">
-          <SearchBar value={search} onChange={setSearch} />
-        </div>
-        <FilterDrawer
-          categories={categories}
-          difficulties={difficulties}
-          selectedCategories={selectedCategories}
-          selectedDifficulties={selectedDifficulties}
-          onCategoriesChange={setSelectedCategories}
-          onDifficultiesChange={setSelectedDifficulties}
-        />
-      </div>
+        {/* Search Bar */}
+        <form onSubmit={handleSearch} className="relative group">
+          <div className="flex items-center bg-surface-high rounded-full px-4 py-2 transition-all duration-300 focus-within:bg-card focus-within:ring-1 focus-within:ring-primary/20">
+            <Search className="text-outline h-4 w-4 mr-3 shrink-0" />
+            <Input
+              type="search"
+              placeholder="Cerca una ricetta..."
+              value={search}
+              onChange={(e) => setSearch(e.target.value)}
+              className="bg-transparent border-none focus-visible:ring-0 focus-visible:ring-offset-0 w-full text-sm font-body placeholder:text-outline p-0 h-auto"
+            />
+            <Link
+              to="/recipes"
+              className="ml-2 flex items-center justify-center bg-primary text-primary-foreground w-8 h-8 rounded-full hover:bg-primary-container transition-colors active:scale-95 duration-300 shrink-0"
+            >
+              <SlidersHorizontal className="h-4 w-4" />
+            </Link>
+          </div>
+        </form>
+      </header>
 
-      {loading ? (
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
-          {[1, 2, 3].map((i) => (
-            <div key={i} className="space-y-3">
-              <Skeleton className="aspect-[4/3] w-full rounded-xl" />
-              <Skeleton className="h-4 w-3/4" />
-              <Skeleton className="h-4 w-1/2" />
-            </div>
-          ))}
-        </div>
-      ) : filtered.length === 0 ? (
-        <div className="text-center py-12 text-muted-foreground">
-          <p className="text-lg">Nessuna ricetta trovata</p>
-          <p className="text-sm mt-1">Prova a modificare i filtri o la ricerca</p>
-        </div>
-      ) : (
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
-          {filtered.map((recipe) => (
-            <RecipeCard key={recipe.slug} recipe={recipe} />
-          ))}
-        </div>
-      )}
+      {/* Category Cards Grid */}
+      <section className="flex-1 min-h-0 flex flex-col gap-3">
+        {loading ? (
+          <>
+            {[1, 2, 3].map((i) => (
+              <div key={i} className="flex-1 min-h-0">
+                <Skeleton className="h-full w-full rounded-[1.5rem]" />
+              </div>
+            ))}
+          </>
+        ) : (
+          categories.map((cat, index) => (
+            <Link
+              key={cat.category}
+              to={`/recipes?category=${encodeURIComponent(cat.category)}`}
+              className="flex-1 group cursor-pointer min-h-0"
+            >
+              <article className="relative h-full overflow-hidden rounded-[1.5rem] editorial-grain">
+                <img
+                  src={`${BASE}${cat.image}`}
+                  alt={cat.category}
+                  className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105"
+                  loading="lazy"
+                />
+                <div className="vignette-overlay absolute inset-0 flex flex-col justify-end p-5">
+                  <span className="text-white/80 font-body uppercase tracking-widest text-[10px] mb-1">
+                    {String(index + 1).padStart(2, "0")} — {cat.category}
+                  </span>
+                  <h3 className="font-headline text-3xl text-white font-bold tracking-tighter">
+                    {cat.label}
+                  </h3>
+                </div>
+              </article>
+            </Link>
+          ))
+        )}
+      </section>
     </div>
   )
 }

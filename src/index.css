@@ -4,30 +4,41 @@
 
 :root {
   --radius: 0.625rem;
-  --background: oklch(1 0 0);
-  --foreground: oklch(0.145 0 0);
-  --card: oklch(1 0 0);
-  --card-foreground: oklch(0.145 0 0);
-  --popover: oklch(1 0 0);
-  --popover-foreground: oklch(0.145 0 0);
-  --primary: oklch(0.47 0.13 25);
-  --primary-foreground: oklch(0.985 0 0);
-  --secondary: oklch(0.97 0.005 90);
-  --secondary-foreground: oklch(0.205 0 0);
-  --muted: oklch(0.97 0.005 90);
-  --muted-foreground: oklch(0.556 0 0);
-  --accent: oklch(0.97 0.005 90);
-  --accent-foreground: oklch(0.205 0 0);
-  --destructive: oklch(0.577 0.245 27.325);
-  --destructive-foreground: oklch(0.577 0.245 27.325);
-  --border: oklch(0.922 0.005 90);
-  --input: oklch(0.922 0.005 90);
-  --ring: oklch(0.47 0.13 25);
-  --chart-1: oklch(0.646 0.222 41.116);
-  --chart-2: oklch(0.6 0.118 184.704);
-  --chart-3: oklch(0.398 0.07 227.392);
-  --chart-4: oklch(0.828 0.189 84.429);
-  --chart-5: oklch(0.769 0.188 70.08);
+
+  /* Material Design 3 – Cucina Mia terracotta palette */
+  --background: #fbfaee;
+  --foreground: #1b1c15;
+  --card: #ffffff;
+  --card-foreground: #1b1c15;
+  --popover: #ffffff;
+  --popover-foreground: #1b1c15;
+  --primary: #9b3f25;
+  --primary-foreground: #ffffff;
+  --secondary: #5c614d;
+  --secondary-foreground: #ffffff;
+  --muted: #e9e9dd;
+  --muted-foreground: #56423d;
+  --accent: #e0e5cc;
+  --accent-foreground: #1b1c15;
+  --destructive: #ba1a1a;
+  --destructive-foreground: #ffffff;
+  --border: #ddc0b9;
+  --input: #e9e9dd;
+  --ring: #9b3f25;
+
+  /* Extended palette from design */
+  --surface: #fbfaee;
+  --surface-container: #efeee3;
+  --surface-container-high: #e9e9dd;
+  --surface-container-low: #f5f4e8;
+  --surface-variant: #e4e3d7;
+  --outline: #89726c;
+  --primary-container: #bb563b;
+  --secondary-container: #e0e5cc;
+  --tertiary: #715c00;
+  --tertiary-container: #c7a938;
+  --inverse-surface: #303129;
+  --inverse-on-surface: #f2f1e5;
 }
 
 @theme inline {
@@ -50,15 +61,24 @@
   --color-border: var(--border);
   --color-input: var(--input);
   --color-ring: var(--ring);
-  --color-chart-1: var(--chart-1);
-  --color-chart-2: var(--chart-2);
-  --color-chart-3: var(--chart-3);
-  --color-chart-4: var(--chart-4);
-  --color-chart-5: var(--chart-5);
+  --color-surface: var(--surface);
+  --color-surface-container: var(--surface-container);
+  --color-surface-high: var(--surface-container-high);
+  --color-surface-low: var(--surface-container-low);
+  --color-surface-variant: var(--surface-variant);
+  --color-outline: var(--outline);
+  --color-primary-container: var(--primary-container);
+  --color-secondary-container: var(--secondary-container);
+  --color-tertiary: var(--tertiary);
+  --color-tertiary-container: var(--tertiary-container);
+  --color-inverse-surface: var(--inverse-surface);
+  --color-inverse-on-surface: var(--inverse-on-surface);
   --radius-sm: calc(var(--radius) - 4px);
   --radius-md: calc(var(--radius) - 2px);
   --radius-lg: var(--radius);
   --radius-xl: calc(var(--radius) + 4px);
+  --font-headline: "Noto Serif", serif;
+  --font-body: "Manrope", system-ui, sans-serif;
 }
 
 @layer base {
@@ -67,6 +87,22 @@
   }
   body {
     @apply bg-background text-foreground;
-    font-family: "Inter", system-ui, -apple-system, sans-serif;
+    font-family: var(--font-body);
   }
+}
+
+/* Editorial grain overlay for images */
+.editorial-grain::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 256 256' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noise'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23noise)' opacity='0.4'/%3E%3C/svg%3E");
+  opacity: 0.05;
+  pointer-events: none;
+  border-radius: inherit;
+}
+
+/* Vignette gradient for category cards */
+.vignette-overlay {
+  background: linear-gradient(to top, rgba(27, 28, 21, 0.75) 0%, rgba(27, 28, 21, 0) 70%);
 }

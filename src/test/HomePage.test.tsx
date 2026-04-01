@@ -1,5 +1,4 @@
 import { render, screen, waitFor } from "@testing-library/react"
-import userEvent from "@testing-library/user-event"
 import { MemoryRouter } from "react-router-dom"
 import { describe, it, expect, beforeEach } from "vitest"
 import { HomePage } from "@/pages/HomePage"
@@ -47,46 +46,29 @@ describe("HomePage", () => {
       }) as Response
   })
 
-  it("renders recipe cards after loading", async () => {
+  it("renders category cards after loading", async () => {
     renderHomePage()
     await waitFor(() => {
-      expect(screen.getByText("Pasta alla Carbonara")).toBeInTheDocument()
-      expect(screen.getByText("Tiramisù Classico")).toBeInTheDocument()
+      expect(screen.getByText("Primo")).toBeInTheDocument()
+      expect(screen.getByText("Dessert")).toBeInTheDocument()
     })
   })
 
-  it("filters recipes by search query", async () => {
-    const user = userEvent.setup()
+  it("renders the hero headline", () => {
     renderHomePage()
-    await waitFor(() => {
-      expect(screen.getByText("Pasta alla Carbonara")).toBeInTheDocument()
-    })
-
-    const searchInput = screen.getByPlaceholderText("Cerca ricette...")
-    await user.type(searchInput, "carbonara")
-
-    expect(screen.getByText("Pasta alla Carbonara")).toBeInTheDocument()
-    expect(screen.queryByText("Tiramisù Classico")).not.toBeInTheDocument()
+    expect(screen.getByText("Un Sapore di Eterna Estate")).toBeInTheDocument()
   })
 
-  it("shows empty state when no recipes match", async () => {
-    const user = userEvent.setup()
+  it("renders search input", () => {
     renderHomePage()
-    await waitFor(() => {
-      expect(screen.getByText("Pasta alla Carbonara")).toBeInTheDocument()
-    })
-
-    const searchInput = screen.getByPlaceholderText("Cerca ricette...")
-    await user.type(searchInput, "xyznonexistent")
-
-    expect(screen.getByText("Nessuna ricetta trovata")).toBeInTheDocument()
+    expect(screen.getByPlaceholderText("Cerca una ricetta...")).toBeInTheDocument()
   })
 
-  it("renders the search bar and filter button", async () => {
+  it("links category cards to filtered recipes page", async () => {
     renderHomePage()
     await waitFor(() => {
-      expect(screen.getByPlaceholderText("Cerca ricette...")).toBeInTheDocument()
-      expect(screen.getByText("Filtri")).toBeInTheDocument()
+      const primiLink = screen.getByText("Primo").closest("a")
+      expect(primiLink).toHaveAttribute("href", "/recipes?category=Primi")
     })
   })
 })

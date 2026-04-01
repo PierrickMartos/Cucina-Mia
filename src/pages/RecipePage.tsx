@@ -1,16 +1,21 @@
 import { useState, useEffect } from "react"
-import { useParams, Link } from "react-router-dom"
-import { ArrowLeft, Clock, Users, ChefHat } from "lucide-react"
+import { useParams, Link, useNavigate } from "react-router-dom"
+import { ArrowLeft, Clock, CookingPot, Users, ChefHat } from "lucide-react"
 import { Badge } from "@/components/ui/badge"
 import { Skeleton } from "@/components/ui/skeleton"
 import type { RecipeDetail } from "@/types/recipe"
 
 const BASE = import.meta.env.BASE_URL
 
+type Tab = "ingredienti" | "procedimento"
+
 export function RecipePage() {
   const { slug } = useParams<{ slug: string }>()
+  const navigate = useNavigate()
   const [recipe, setRecipe] = useState<RecipeDetail | null>(null)
   const [loading, setLoading] = useState(true)
+  const [activeTab, setActiveTab] = useState<Tab>("ingredienti")
+  const [checked, setChecked] = useState<Set<string>>(new Set())
 
   useEffect(() => {
     if (!slug) return
@@ -26,27 +31,36 @@ export function RecipePage() {
       .catch(() => setLoading(false))
   }, [slug])
 
+  function toggleCheck(key: string) {
+    setChecked((prev) => {
+      const next = new Set(prev)
+      if (next.has(key)) next.delete(key)
+      else next.add(key)
+      return next
+    })
+  }
+
   if (loading) {
     return (
-      <div className="container mx-auto px-4 py-6 max-w-3xl">
-        <Skeleton className="h-8 w-32 mb-4" />
-        <Skeleton className="aspect-video w-full rounded-xl mb-6" />
-        <Skeleton className="h-8 w-3/4 mb-2" />
-        <Skeleton className="h-4 w-full mb-8" />
-        <Skeleton className="h-64 w-full rounded-xl" />
+      <div className="px-6 py-4">
+        <Skeleton className="h-8 w-24 mb-4 rounded-full" />
+        <Skeleton className="aspect-[3/4] w-full rounded-[1.5rem] mb-4" />
+        <Skeleton className="h-6 w-48 mb-6" />
+        <Skeleton className="h-12 w-full rounded-full mb-6" />
+        <Skeleton className="h-64 w-full" />
       </div>
     )
   }
 
   if (!recipe) {
     return (
-      <div className="container mx-auto px-4 py-12 text-center">
-        <p className="text-lg text-muted-foreground mb-4">
+      <div className="px-6 py-12 text-center">
+        <p className="text-lg text-muted-foreground mb-4 font-headline">
           Ricetta non trovata
         </p>
         <Link
-          to="/"
-          className="inline-flex items-center justify-center rounded-md border border-input bg-background px-4 py-2 text-sm font-medium hover:bg-accent hover:text-accent-foreground"
+          to="/recipes"
+          className="inline-flex items-center justify-center rounded-full border border-border bg-card px-5 py-2.5 text-sm font-medium hover:bg-surface-high transition-colors"
         >
           Torna alle ricette
         </Link>
@@ -54,113 +68,192 @@ export function RecipePage() {
     )
   }
 
-  const totalTime = recipe.prepTime + recipe.cookTime
-
   return (
-    <div className="container mx-auto px-4 py-6 max-w-3xl">
-      <Link
-        to="/"
-        className="mb-4 -ml-2 inline-flex items-center rounded-md px-3 py-2 text-sm font-medium hover:bg-accent hover:text-accent-foreground"
+    <div className="px-6 py-2 pb-6">
+      {/* Back button */}
+      <button
+        onClick={() => navigate(-1)}
+        className="mb-3 inline-flex items-center text-sm text-muted-foreground hover:text-foreground transition-colors"
       >
         <ArrowLeft className="h-4 w-4 mr-1" />
-        Tutte le ricette
-      </Link>
+        Indietro
+      </button>
 
-      <div className="aspect-video overflow-hidden rounded-xl mb-6">
-        <img
-          src={`${BASE}${recipe.image}`}
-          alt={recipe.title}
-          className="h-full w-full object-cover"
-        />
+      {/* Hero Card */}
+      <div className="relative overflow-hidden rounded-[1.5rem] mb-4 editorial-grain">
+        <div className="aspect-[3/4] sm:aspect-[4/3]">
+          <img
+            src={`${BASE}${recipe.image}`}
+            alt={recipe.title}
+            className="h-full w-full object-cover"
+          />
+        </div>
+        <div className="vignette-overlay absolute inset-0 flex flex-col justify-end p-5">
+          <Badge className="bg-primary-container text-primary-foreground border-0 text-[10px] uppercase tracking-widest w-fit mb-2 rounded-full px-3 py-1">
+            {recipe.category}
+          </Badge>
+          <h1 className="font-headline text-3xl sm:text-4xl text-white font-bold tracking-tight leading-tight">
+            {recipe.title}
+          </h1>
+        </div>
       </div>
 
-      <div className="mb-6">
-        <div className="flex flex-wrap items-center gap-2 mb-2">
-          <Badge variant="secondary">{recipe.category}</Badge>
-          <Badge variant="outline">{recipe.difficulty}</Badge>
+      {/* Time & Info Row */}
+      <div className="flex items-center gap-6 mb-6 px-1">
+        <div className="flex items-center gap-2 text-sm text-foreground">
+          <Clock className="h-5 w-5 text-primary" />
+          <span>
+            Prep: <strong>{recipe.prepTime} min</strong>
+          </span>
+        </div>
+        <div className="flex items-center gap-2 text-sm text-foreground">
+          <CookingPot className="h-5 w-5 text-primary" />
+          <span>
+            Cottura: <strong>{recipe.cookTime} min</strong>
+          </span>
+        </div>
+      </div>
+
+      {/* Servings & Difficulty */}
+      <div className="flex items-center gap-6 mb-6 px-1">
+        <div className="flex items-center gap-2 text-sm text-muted-foreground">
+          <Users className="h-4 w-4" />
+          <span>{recipe.servings} porzioni</span>
+        </div>
+        <div className="flex items-center gap-2 text-sm text-muted-foreground">
+          <ChefHat className="h-4 w-4" />
+          <span>{recipe.difficulty}</span>
+        </div>
+        <div className="flex flex-wrap gap-1 ml-auto">
           {recipe.tags.map((tag) => (
-            <Badge key={tag} variant="outline" className="text-xs">
+            <Badge
+              key={tag}
+              variant="outline"
+              className="text-[10px] border-border text-outline rounded-full"
+            >
               {tag}
             </Badge>
           ))}
         </div>
-        <h1 className="text-2xl sm:text-3xl font-bold mb-2">{recipe.title}</h1>
-        <p className="text-muted-foreground">{recipe.description}</p>
       </div>
 
-      <div className="grid grid-cols-3 gap-4 rounded-xl bg-muted/50 p-4 mb-8">
-        <div className="flex flex-col items-center gap-1 text-center">
-          <Clock className="h-5 w-5 text-primary" />
-          <span className="text-sm font-medium">{totalTime} min</span>
-          <span className="text-xs text-muted-foreground">Tempo totale</span>
-        </div>
-        <div className="flex flex-col items-center gap-1 text-center">
-          <Users className="h-5 w-5 text-primary" />
-          <span className="text-sm font-medium">{recipe.servings}</span>
-          <span className="text-xs text-muted-foreground">Porzioni</span>
-        </div>
-        <div className="flex flex-col items-center gap-1 text-center">
-          <ChefHat className="h-5 w-5 text-primary" />
-          <span className="text-sm font-medium">{recipe.difficulty}</span>
-          <span className="text-xs text-muted-foreground">Difficoltà</span>
-        </div>
+      {/* Tab Switcher */}
+      <div className="bg-surface-high rounded-full p-1 flex mb-6">
+        <button
+          onClick={() => setActiveTab("ingredienti")}
+          className={`flex-1 rounded-full py-2.5 text-xs font-semibold uppercase tracking-widest transition-all duration-300 ${
+            activeTab === "ingredienti"
+              ? "bg-primary text-primary-foreground shadow-sm"
+              : "text-muted-foreground hover:text-foreground"
+          }`}
+        >
+          Ingredienti
+        </button>
+        <button
+          onClick={() => setActiveTab("procedimento")}
+          className={`flex-1 rounded-full py-2.5 text-xs font-semibold uppercase tracking-widest transition-all duration-300 ${
+            activeTab === "procedimento"
+              ? "bg-primary text-primary-foreground shadow-sm"
+              : "text-muted-foreground hover:text-foreground"
+          }`}
+        >
+          Procedimento
+        </button>
       </div>
 
-      <section className="mb-8">
-        <h2 className="text-xl font-semibold mb-4">Ingredienti</h2>
-        {recipe.ingredients.map((group, gi) => (
-          <div key={gi} className="mb-4">
-            {group.group && (
-              <h3 className="font-medium text-sm text-muted-foreground mb-2 uppercase tracking-wide">
-                {group.group}
-              </h3>
-            )}
-            <ul className="space-y-2">
-              {group.items.map((item, ii) => (
-                <li
-                  key={ii}
-                  className="flex items-start gap-2 text-sm"
-                >
-                  <span className="mt-1.5 h-1.5 w-1.5 rounded-full bg-primary shrink-0" />
-                  {item}
-                </li>
-              ))}
-            </ul>
-          </div>
-        ))}
-      </section>
-
-      <section className="mb-8">
-        <h2 className="text-xl font-semibold mb-4">Preparazione</h2>
-        <ol className="space-y-4">
-          {recipe.steps.map((step, i) => (
-            <li key={i} className="flex gap-4">
-              <span className="flex h-7 w-7 shrink-0 items-center justify-center rounded-full bg-primary text-primary-foreground text-sm font-medium">
-                {i + 1}
-              </span>
-              <div className="pt-0.5">
-                <p className="text-sm leading-relaxed">{step.text}</p>
-                {step.image && (
-                  <img
-                    src={`${BASE}${step.image}`}
-                    alt={`Passo ${i + 1}`}
-                    className="mt-3 rounded-lg max-w-full"
-                    loading="lazy"
-                  />
-                )}
-              </div>
-            </li>
+      {/* Tab Content */}
+      {activeTab === "ingredienti" ? (
+        <section className="mb-8">
+          {recipe.ingredients.map((group, gi) => (
+            <div key={gi} className="mb-6">
+              {group.group && (
+                <h3 className="font-semibold text-[10px] uppercase tracking-widest text-muted-foreground mb-4">
+                  {group.group}
+                </h3>
+              )}
+              <ul className="space-y-1">
+                {group.items.map((item, ii) => {
+                  const key = `${gi}-${ii}`
+                  const isChecked = checked.has(key)
+                  return (
+                    <li key={key}>
+                      <label
+                        className="flex items-center gap-4 py-3 cursor-pointer group"
+                        onClick={() => toggleCheck(key)}
+                      >
+                        <div
+                          className={`h-6 w-6 rounded-md border-2 shrink-0 flex items-center justify-center transition-colors ${
+                            isChecked
+                              ? "bg-primary border-primary"
+                              : "border-border group-hover:border-outline"
+                          }`}
+                        >
+                          {isChecked && (
+                            <svg
+                              className="h-3.5 w-3.5 text-primary-foreground"
+                              fill="none"
+                              viewBox="0 0 24 24"
+                              stroke="currentColor"
+                              strokeWidth={3}
+                            >
+                              <path
+                                strokeLinecap="round"
+                                strokeLinejoin="round"
+                                d="M5 13l4 4L19 7"
+                              />
+                            </svg>
+                          )}
+                        </div>
+                        <span
+                          className={`text-base transition-colors ${
+                            isChecked
+                              ? "line-through text-outline"
+                              : "text-foreground"
+                          }`}
+                        >
+                          {item}
+                        </span>
+                      </label>
+                    </li>
+                  )
+                })}
+              </ul>
+            </div>
           ))}
-        </ol>
-      </section>
+        </section>
+      ) : (
+        <section className="mb-8">
+          <ol className="space-y-6">
+            {recipe.steps.map((step, i) => (
+              <li key={i} className="flex gap-4">
+                <span className="flex h-8 w-8 shrink-0 items-center justify-center rounded-full bg-primary text-primary-foreground text-sm font-bold">
+                  {i + 1}
+                </span>
+                <div className="pt-1">
+                  <p className="text-base leading-relaxed">{step.text}</p>
+                  {step.image && (
+                    <img
+                      src={`${BASE}${step.image}`}
+                      alt={`Passo ${i + 1}`}
+                      className="mt-3 rounded-[1rem] max-w-full"
+                      loading="lazy"
+                    />
+                  )}
+                </div>
+              </li>
+            ))}
+          </ol>
+        </section>
+      )}
 
+      {/* Tips */}
       {recipe.tips && recipe.tips.length > 0 && (
-        <section className="mb-8 rounded-xl border border-primary/20 bg-primary/5 p-5">
-          <h2 className="text-lg font-semibold mb-3">Consigli</h2>
+        <section className="mb-6 rounded-[1.5rem] bg-surface-high p-5">
+          <h2 className="font-headline text-lg font-bold mb-3">Consigli</h2>
           <ul className="space-y-2">
             {recipe.tips.map((tip, i) => (
-              <li key={i} className="flex items-start gap-2 text-sm">
-                <span className="text-primary">💡</span>
+              <li key={i} className="flex items-start gap-2 text-sm text-muted-foreground">
+                <span className="text-primary shrink-0 mt-0.5">*</span>
                 {tip}
               </li>
             ))}
@@ -168,10 +261,16 @@ export function RecipePage() {
         </section>
       )}
 
+      {/* Source Card */}
       {recipe.source && (
-        <p className="text-xs text-muted-foreground">
-          Fonte: {recipe.source}
-        </p>
+        <div className="rounded-[1.5rem] bg-surface-variant p-5 flex items-center gap-4">
+          <div>
+            <span className="text-[10px] uppercase tracking-widest text-primary font-semibold block">
+              Fonte
+            </span>
+            <span className="font-semibold text-foreground">{recipe.source}</span>
+          </div>
+        </div>
       )}
     </div>
   )

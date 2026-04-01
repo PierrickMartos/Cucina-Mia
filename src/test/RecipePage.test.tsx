@@ -1,4 +1,5 @@
 import { render, screen, waitFor } from "@testing-library/react"
+import userEvent from "@testing-library/user-event"
 import { MemoryRouter, Route, Routes } from "react-router-dom"
 import { describe, it, expect, beforeEach } from "vitest"
 import { RecipePage } from "@/pages/RecipePage"
@@ -38,16 +39,47 @@ describe("RecipePage", () => {
       }) as Response
   })
 
-  it("renders recipe details", async () => {
+  it("renders recipe title in hero card", async () => {
     renderRecipePage("pasta-carbonara")
     await waitFor(() => {
       expect(screen.getByText("Pasta alla Carbonara")).toBeInTheDocument()
     })
-    expect(screen.getByText("La vera carbonara romana.")).toBeInTheDocument()
-    expect(screen.getByText("400g spaghetti")).toBeInTheDocument()
-    expect(screen.getByText("200g guanciale")).toBeInTheDocument()
+  })
+
+  it("renders prep and cook times", async () => {
+    renderRecipePage("pasta-carbonara")
+    await waitFor(() => {
+      expect(screen.getByText(/Prep:/)).toBeInTheDocument()
+      expect(screen.getByText("10 min")).toBeInTheDocument()
+      expect(screen.getByText(/Cottura:/)).toBeInTheDocument()
+      expect(screen.getByText("15 min")).toBeInTheDocument()
+    })
+  })
+
+  it("shows ingredients tab by default with checkable items", async () => {
+    const user = userEvent.setup()
+    renderRecipePage("pasta-carbonara")
+    await waitFor(() => {
+      expect(screen.getByText("400g spaghetti")).toBeInTheDocument()
+      expect(screen.getByText("200g guanciale")).toBeInTheDocument()
+    })
+
+    // Click label to check an ingredient
+    const label = screen.getByText("400g spaghetti").closest("label")!
+    await user.click(label)
+    expect(screen.getByText("400g spaghetti")).toHaveClass("line-through")
+  })
+
+  it("switches to procedimento tab", async () => {
+    const user = userEvent.setup()
+    renderRecipePage("pasta-carbonara")
+    await waitFor(() => {
+      expect(screen.getByText("400g spaghetti")).toBeInTheDocument()
+    })
+
+    await user.click(screen.getByText("Procedimento"))
     expect(screen.getByText("Portare a ebollizione l'acqua.")).toBeInTheDocument()
-    expect(screen.getByText("Usare solo pecorino romano.")).toBeInTheDocument()
+    expect(screen.getByText("Rosolare il guanciale.")).toBeInTheDocument()
   })
 
   it("shows not found for missing recipe", async () => {
@@ -60,12 +92,11 @@ describe("RecipePage", () => {
     })
   })
 
-  it("displays time, servings, and difficulty", async () => {
+  it("renders tips section", async () => {
     renderRecipePage("pasta-carbonara")
     await waitFor(() => {
-      expect(screen.getByText("25 min")).toBeInTheDocument()
-      expect(screen.getByText("4")).toBeInTheDocument()
-      expect(screen.getAllByText("Medio")).toHaveLength(2) // badge + info card
+      expect(screen.getByText("Pasta alla Carbonara")).toBeInTheDocument()
     })
+    expect(screen.getByText("Usare solo pecorino romano.")).toBeInTheDocument()
   })
 })
