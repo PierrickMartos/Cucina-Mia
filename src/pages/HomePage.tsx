@@ -1,4 +1,5 @@
 import { useState, useEffect, useMemo } from "react"
+import Fuse from "fuse.js"
 import { SearchBar } from "@/components/SearchBar"
 import { FilterDrawer } from "@/components/FilterDrawer"
 import { RecipeCard } from "@/components/RecipeCard"
@@ -34,18 +35,25 @@ export function HomePage() {
     [recipes]
   )
 
-  const filtered = useMemo(() => {
-    let result = recipes
+  const fuse = useMemo(
+    () =>
+      new Fuse(recipes, {
+        keys: [
+          { name: "title", weight: 2 },
+          { name: "description", weight: 1 },
+          { name: "tags", weight: 1.5 },
+          { name: "category", weight: 1 },
+        ],
+        threshold: 0.4,
+        ignoreLocation: true,
+      }),
+    [recipes]
+  )
 
-    if (search.trim()) {
-      const q = search.toLowerCase()
-      result = result.filter(
-        (r) =>
-          r.title.toLowerCase().includes(q) ||
-          r.description.toLowerCase().includes(q) ||
-          r.tags.some((t) => t.toLowerCase().includes(q))
-      )
-    }
+  const filtered = useMemo(() => {
+    let result = search.trim()
+      ? fuse.search(search).map((r) => r.item)
+      : recipes
 
     if (selectedCategories.length > 0) {
       result = result.filter((r) => selectedCategories.includes(r.category))
@@ -58,7 +66,7 @@ export function HomePage() {
     }
 
     return result
-  }, [recipes, search, selectedCategories, selectedDifficulties])
+  }, [recipes, fuse, search, selectedCategories, selectedDifficulties])
 
   return (
     <div className="container mx-auto px-4 py-6">
