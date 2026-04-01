@@ -1,0 +1,59 @@
+{
+  "slug": "margherita-pizza",
+  "title": "Pizza Margherita",
+  "description": "La pizza napoletana per eccellenza con pomodoro San Marzano, mozzarella e basilico.",
+  "image": "images/recipes/margherita-pizza/cover.svg",
+  "prepTime": 120,
+  "cookTime": 5,
+  "servings": 4,
+  "difficulty": "Difficile",
+  "category": "Pizze",
+  "tags": ["pizza", "napoletana", "tradizionale"],
+  "ingredients": [
+    {
+      "group": "Impasto",
+      "items": [
+        "500g farina tipo 00",
+        "325ml acqua tiepida",
+        "10g sale",
+        "3g lievito di birra fresco",
+        "10ml olio extravergine d'oliva"
+      ]
+    },
+    {
+      "group": "Condimento",
+      "items": [
+        "400g pomodori San Marzano pelati",
+        "250g mozzarella di bufala",
+        "Basilico fresco q.b.",
+        "Olio extravergine d'oliva q.b.",
+        "Sale q.b."
+      ]
+    }
+  ],
+  "steps": [
+    {
+      "text": "Sciogliere il lievito nell'acqua tiepida. Aggiungere la farina e il sale, impastare per 10 minuti fino a ottenere un impasto liscio ed elastico."
+    },
+    {
+      "text": "Lasciar lievitare coperto per almeno 2 ore a temperatura ambiente, poi dividere in 4 panetti e lasciar lievitare altri 30 minuti."
+    },
+    {
+      "text": "Schiacciare i pomodori San Marzano a mano, condire con un filo d'olio e sale."
+    },
+    {
+      "text": "Stendere ogni panetto a mano formando un disco, lasciando il bordo più alto."
+    },
+    {
+      "text": "Distribuire la salsa di pomodoro, infornare nel forno più caldo possibile (ideale 450°C) per 60-90 secondi."
+    },
+    {
+      "text": "Aggiungere la mozzarella di bufala a pezzi e il basilico fresco appena sfornata."
+    }
+  ],
+  "tips": [
+    "Il segreto è il forno: più è caldo, meglio è. Un forno per pizza raggiunge i 450°C.",
+    "La lievitazione lunga (24-48 ore in frigo) rende l'impasto più digeribile.",
+    "Non stendere l'impasto con il mattarello: usare le mani."
+  ]
+}

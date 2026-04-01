@@ -1,0 +1,38 @@
+[
+  {
+    "slug": "pasta-carbonara",
+    "title": "Pasta alla Carbonara",
+    "description": "La vera carbonara romana con guanciale, pecorino, uova e pepe nero.",
+    "image": "images/recipes/pasta-carbonara/cover.svg",
+    "prepTime": 10,
+    "cookTime": 15,
+    "servings": 4,
+    "difficulty": "Medio",
+    "category": "Primi",
+    "tags": ["pasta", "romano", "tradizionale"]
+  },
+  {
+    "slug": "tiramisu",
+    "title": "Tiramisù Classico",
+    "description": "Il dolce italiano più amato al mondo con mascarpone, caffè e savoiardi.",
+    "image": "images/recipes/tiramisu/cover.svg",
+    "prepTime": 30,
+    "cookTime": 0,
+    "servings": 8,
+    "difficulty": "Facile",
+    "category": "Dolci",
+    "tags": ["dolce", "caffè", "no-cottura"]
+  },
+  {
+    "slug": "margherita-pizza",
+    "title": "Pizza Margherita",
+    "description": "La pizza napoletana per eccellenza con pomodoro San Marzano, mozzarella e basilico.",
+    "image": "images/recipes/margherita-pizza/cover.svg",
+    "prepTime": 120,
+    "cookTime": 5,
+    "servings": 4,
+    "difficulty": "Difficile",
+    "category": "Pizze",
+    "tags": ["pizza", "napoletana", "tradizionale"]
+  }
+]

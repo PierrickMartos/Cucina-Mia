@@ -1,0 +1,48 @@
+import { Link } from "react-router-dom"
+import { Clock, Users } from "lucide-react"
+import { Card, CardContent } from "@/components/ui/card"
+import { Badge } from "@/components/ui/badge"
+import type { RecipeSummary } from "@/types/recipe"
+
+const BASE = import.meta.env.BASE_URL
+
+export function RecipeCard({ recipe }: { recipe: RecipeSummary }) {
+  const totalTime = recipe.prepTime + recipe.cookTime
+
+  return (
+    <Link to={`/recipe/${recipe.slug}`}>
+      <Card className="overflow-hidden py-0 hover:shadow-md transition-shadow h-full">
+        <div className="aspect-[4/3] overflow-hidden">
+          <img
+            src={`${BASE}${recipe.image}`}
+            alt={recipe.title}
+            className="h-full w-full object-cover transition-transform hover:scale-105"
+            loading="lazy"
+          />
+        </div>
+        <CardContent className="p-4">
+          <div className="flex items-center gap-2 mb-2">
+            <Badge variant="secondary">{recipe.category}</Badge>
+            <Badge variant="outline">{recipe.difficulty}</Badge>
+          </div>
+          <h3 className="font-semibold text-lg leading-tight mb-1">
+            {recipe.title}
+          </h3>
+          <p className="text-sm text-muted-foreground line-clamp-2 mb-3">
+            {recipe.description}
+          </p>
+          <div className="flex items-center gap-4 text-xs text-muted-foreground">
+            <span className="flex items-center gap-1">
+              <Clock className="h-3.5 w-3.5" />
+              {totalTime} min
+            </span>
+            <span className="flex items-center gap-1">
+              <Users className="h-3.5 w-3.5" />
+              {recipe.servings}
+            </span>
+          </div>
+        </CardContent>
+      </Card>
+    </Link>
+  )
+}

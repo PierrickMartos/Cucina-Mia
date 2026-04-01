@@ -1,0 +1,231 @@
+name: Publish Recipe from Issue
+
+on:
+  issues:
+    types: [labeled]
+
+permissions:
+  contents: write
+  issues: write
+
+jobs:
+  publish:
+    if: github.event.label.name == 'approved'
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Parse issue and publish recipe
+        uses: actions/github-script@v7
+        with:
+          script: |
+            const issue = context.payload.issue;
+            const body = issue.body;
+
+            // Parse form fields from issue body
+            function getField(label) {
+              const regex = new RegExp(`### ${label}\\s*\\n\\s*([\\s\\S]*?)(?=\\n### |$)`);
+              const match = body.match(regex);
+              return match ? match[1].trim() : '';
+            }
+
+            const title = getField('Recipe Title');
+            const slug = getField('Slug');
+            const description = getField('Description');
+            const category = getField('Category');
+            const difficulty = getField('Difficulty');
+            const prepTime = parseInt(getField('Prep Time \\(minutes\\)')) || 0;
+            const cookTime = parseInt(getField('Cook Time \\(minutes\\)')) || 0;
+            const servings = parseInt(getField('Servings')) || 4;
+            const tagsRaw = getField('Tags');
+            const tags = tagsRaw.split(',').map(t => t.trim()).filter(Boolean);
+            const ingredientsRaw = getField('Ingredients');
+            const stepsRaw = getField('Steps');
+            const tipsRaw = getField('Tips \\(optional\\)');
+            const source = getField('Source \\(optional\\)');
+            const coverImageSection = getField('Cover Image');
+
+            if (!slug || !title) {
+              core.setFailed('Missing required fields: slug and title');
+              return;
+            }
+
+            // Parse ingredients into groups
+            const ingredientGroups = [];
+            let currentGroup = { items: [] };
+            for (const line of ingredientsRaw.split('\n')) {
+              const trimmed = line.trim();
+              if (!trimmed || trimmed === '_No response_') continue;
+              if (trimmed.startsWith('## ')) {
+                if (currentGroup.items.length > 0) {
+                  ingredientGroups.push(currentGroup);
+                }
+                currentGroup = { group: trimmed.slice(3).trim(), items: [] };
+              } else {
+                currentGroup.items.push(trimmed);
+              }
+            }
+            if (currentGroup.items.length > 0) {
+              ingredientGroups.push(currentGroup);
+            }
+
+            // Parse steps
+            const steps = stepsRaw
+              .split('\n')
+              .map(s => s.trim())
+              .filter(s => s && s !== '_No response_')
+              .map(text => ({ text }));
+
+            // Parse tips
+            const tips = tipsRaw
+              ? tipsRaw.split('\n').map(s => s.trim()).filter(s => s && s !== '_No response_')
+              : [];
+
+            // Download cover image
+            const imageUrlMatch = coverImageSection.match(/!\[.*?\]\((.*?)\)/);
+            let coverFileName = 'cover.jpg';
+            if (imageUrlMatch) {
+              const imageUrl = imageUrlMatch[1];
+              const ext = imageUrl.match(/\.(png|jpg|jpeg|gif|webp|svg)/i);
+              if (ext) coverFileName = `cover.${ext[1].toLowerCase()}`;
+
+              const fetch = (await import('node-fetch')).default;
+              const imgResponse = await fetch(imageUrl);
+              const imgBuffer = Buffer.from(await imgResponse.arrayBuffer());
+              const imgBase64 = imgBuffer.toString('base64');
+
+              // Create image directory and file
+              const imgPath = `public/images/recipes/${slug}/${coverFileName}`;
+              const { data: refData } = await github.rest.git.getRef({
+                owner: context.repo.owner,
+                repo: context.repo.repo,
+                ref: 'heads/main',
+              });
+              const commitSha = refData.object.sha;
+              const { data: commitData } = await github.rest.git.getCommit({
+                owner: context.repo.owner,
+                repo: context.repo.repo,
+                commit_sha: commitSha,
+              });
+              const baseTreeSha = commitData.tree.sha;
+
+              const imagePath = `public/images/recipes/${slug}/${coverFileName}`;
+              const recipeImage = `images/recipes/${slug}/${coverFileName}`;
+
+              // Build recipe JSON
+              const recipeDetail = {
+                slug,
+                title,
+                description,
+                image: recipeImage,
+                prepTime,
+                cookTime,
+                servings,
+                difficulty,
+                category,
+                tags,
+                ingredients: ingredientGroups,
+                steps,
+              };
+              if (tips.length > 0) recipeDetail.tips = tips;
+              if (source && source !== '_No response_') recipeDetail.source = source;
+
+              const recipeSummary = {
+                slug,
+                title,
+                description,
+                image: recipeImage,
+                prepTime,
+                cookTime,
+                servings,
+                difficulty,
+                category,
+                tags,
+              };
+
+              // Read current index.json
+              let indexRecipes = [];
+              try {
+                const { data: indexFile } = await github.rest.repos.getContent({
+                  owner: context.repo.owner,
+                  repo: context.repo.repo,
+                  path: 'public/data/recipes/index.json',
+                  ref: 'main',
+                });
+                indexRecipes = JSON.parse(Buffer.from(indexFile.content, 'base64').toString());
+              } catch (e) {
+                // index.json doesn't exist yet
+              }
+
+              // Remove existing entry with same slug, then add new one
+              indexRecipes = indexRecipes.filter(r => r.slug !== slug);
+              indexRecipes.push(recipeSummary);
+
+              // Create tree with all files
+              const { data: imgBlob } = await github.rest.git.createBlob({
+                owner: context.repo.owner,
+                repo: context.repo.repo,
+                content: imgBase64,
+                encoding: 'base64',
+              });
+
+              const { data: recipeBlob } = await github.rest.git.createBlob({
+                owner: context.repo.owner,
+                repo: context.repo.repo,
+                content: JSON.stringify(recipeDetail, null, 2),
+                encoding: 'utf-8',
+              });
+
+              const { data: indexBlob } = await github.rest.git.createBlob({
+                owner: context.repo.owner,
+                repo: context.repo.repo,
+                content: JSON.stringify(indexRecipes, null, 2),
+                encoding: 'utf-8',
+              });
+
+              const { data: tree } = await github.rest.git.createTree({
+                owner: context.repo.owner,
+                repo: context.repo.repo,
+                base_tree: baseTreeSha,
+                tree: [
+                  { path: imagePath, mode: '100644', type: 'blob', sha: imgBlob.sha },
+                  { path: `public/data/recipes/${slug}.json`, mode: '100644', type: 'blob', sha: recipeBlob.sha },
+                  { path: 'public/data/recipes/index.json', mode: '100644', type: 'blob', sha: indexBlob.sha },
+                ],
+              });
+
+              const { data: newCommit } = await github.rest.git.createCommit({
+                owner: context.repo.owner,
+                repo: context.repo.repo,
+                message: `Add recipe: ${title}`,
+                tree: tree.sha,
+                parents: [commitSha],
+              });
+
+              await github.rest.git.updateRef({
+                owner: context.repo.owner,
+                repo: context.repo.repo,
+                ref: 'heads/main',
+                sha: newCommit.sha,
+              });
+
+              // Add comment and close issue
+              await github.rest.issues.createComment({
+                owner: context.repo.owner,
+                repo: context.repo.repo,
+                issue_number: issue.number,
+                body: `✅ Recipe **${title}** has been published!\n\nIt will be live after the next deployment.`,
+              });
+
+              await github.rest.issues.update({
+                owner: context.repo.owner,
+                repo: context.repo.repo,
+                issue_number: issue.number,
+                state: 'closed',
+                labels: ['recipe-submission', 'approved', 'published'],
+              });
+            } else {
+              core.setFailed('No image found in the Cover Image field');
+            }

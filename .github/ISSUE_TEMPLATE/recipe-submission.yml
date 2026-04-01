@@ -1,0 +1,141 @@
+name: "Recipe Submission"
+description: "Submit a new recipe to Cucina Mia"
+title: "[Recipe] "
+labels: ["recipe-submission"]
+body:
+  - type: input
+    id: title
+    attributes:
+      label: Recipe Title
+      description: "The name of the recipe"
+      placeholder: "e.g. Pasta alla Norma"
+    validations:
+      required: true
+
+  - type: input
+    id: slug
+    attributes:
+      label: Slug
+      description: "URL-friendly identifier (lowercase, hyphens only)"
+      placeholder: "e.g. pasta-alla-norma"
+    validations:
+      required: true
+
+  - type: textarea
+    id: description
+    attributes:
+      label: Description
+      description: "A short description of the recipe (1-2 sentences)"
+      placeholder: "A classic Sicilian pasta dish with fried eggplant..."
+    validations:
+      required: true
+
+  - type: dropdown
+    id: category
+    attributes:
+      label: Category
+      options:
+        - Antipasti
+        - Primi
+        - Secondi
+        - Contorni
+        - Dolci
+        - Pizze
+        - Pane
+        - Bevande
+    validations:
+      required: true
+
+  - type: dropdown
+    id: difficulty
+    attributes:
+      label: Difficulty
+      options:
+        - Facile
+        - Medio
+        - Difficile
+    validations:
+      required: true
+
+  - type: input
+    id: prep_time
+    attributes:
+      label: Prep Time (minutes)
+      placeholder: "15"
+    validations:
+      required: true
+
+  - type: input
+    id: cook_time
+    attributes:
+      label: Cook Time (minutes)
+      placeholder: "20"
+    validations:
+      required: true
+
+  - type: input
+    id: servings
+    attributes:
+      label: Servings
+      placeholder: "4"
+    validations:
+      required: true
+
+  - type: input
+    id: tags
+    attributes:
+      label: Tags
+      description: "Comma-separated tags"
+      placeholder: "pasta, siciliana, melanzane"
+    validations:
+      required: true
+
+  - type: textarea
+    id: ingredients
+    attributes:
+      label: Ingredients
+      description: "One ingredient per line. Use '## Group Name' to create groups."
+      placeholder: |
+        ## Pasta
+        400g rigatoni
+        Sale q.b.
+        ## Condimento
+        2 melanzane
+        400g pomodori pelati
+    validations:
+      required: true
+
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps
+      description: "One step per line"
+      placeholder: |
+        Tagliare le melanzane a cubetti e friggerle in olio.
+        Preparare il sugo con i pomodori pelati.
+        Cuocere la pasta al dente.
+    validations:
+      required: true
+
+  - type: textarea
+    id: tips
+    attributes:
+      label: Tips (optional)
+      description: "One tip per line"
+      placeholder: |
+        Salare le melanzane 30 minuti prima per togliere l'amaro.
+
+  - type: input
+    id: source
+    attributes:
+      label: Source (optional)
+      description: "Where this recipe comes from"
+      placeholder: "Nonna Maria"
+
+  - type: textarea
+    id: cover_image
+    attributes:
+      label: Cover Image
+      description: "Drag and drop or paste an image of the finished dish here"
+    validations:
+      required: true
