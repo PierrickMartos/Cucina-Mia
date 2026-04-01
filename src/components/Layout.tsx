@@ -1,11 +1,9 @@
 import { Outlet, Link, useLocation } from "react-router-dom"
-import { Home, BookOpen, Bookmark, User } from "lucide-react"
+import { Home, BookOpen } from "lucide-react"
 
 const navItems = [
   { to: "/", icon: Home, label: "Home" },
   { to: "/recipes", icon: BookOpen, label: "Ricette" },
-  { to: "/saved", icon: Bookmark, label: "Salvate" },
-  { to: "/profile", icon: User, label: "Profilo" },
 ]
 
 export function Layout() {
@@ -30,7 +28,7 @@ export function Layout() {
       </main>
 
       {/* Bottom Nav Bar */}
-      <nav className="shrink-0 flex justify-around items-center px-4 pb-4 pt-2 bg-surface/90 backdrop-blur-md rounded-t-2xl shadow-[0_-4px_10px_rgba(0,0,0,0.03)] z-50">
+      <nav className="shrink-0 flex justify-around items-center px-4 pb-1.5 pt-1.5 bg-surface/90 backdrop-blur-md rounded-t-xl shadow-[0_-2px_8px_rgba(0,0,0,0.03)] z-50">
         {navItems.map(({ to, icon: Icon, label }) => {
           const isActive = to === "/"
             ? pathname === "/"
@@ -41,8 +39,8 @@ export function Layout() {
               to={to}
               className={
                 isActive
-                  ? "flex flex-col items-center justify-center bg-primary text-primary-foreground rounded-xl px-4 py-1 scale-95 transition-all"
-                  : "flex flex-col items-center justify-center text-outline p-1.5 hover:text-primary transition-colors"
+                  ? "flex flex-col items-center justify-center bg-primary text-primary-foreground rounded-xl px-5 py-1 scale-95 transition-all"
+                  : "flex flex-col items-center justify-center text-outline px-5 py-1 hover:text-primary transition-colors"
               }
             >
               <Icon className="h-5 w-5" strokeWidth={isActive ? 2.5 : 2} />
