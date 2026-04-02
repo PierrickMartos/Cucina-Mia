@@ -228,9 +228,11 @@ export function RecipePage() {
           <div className="flex flex-wrap justify-center gap-1.5">
             {recipe.tags.map((tag) => (
               <motion.div key={tag} variants={itemVariants}>
-                <Badge variant="outline" className="text-[10px] text-outline rounded-full">
-                  {tag}
-                </Badge>
+                <Link to={`/recipes?tag=${encodeURIComponent(tag)}`}>
+                  <Badge variant="outline" className="text-[10px] text-outline rounded-full cursor-pointer hover:bg-primary/10 hover:border-primary/30 hover:text-primary transition-colors">
+                    {tag}
+                  </Badge>
+                </Link>
               </motion.div>
             ))}
           </div>

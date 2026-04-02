@@ -1,7 +1,7 @@
 import { render, screen, waitFor } from "@testing-library/react"
 import userEvent from "@testing-library/user-event"
 import { MemoryRouter, Route, Routes } from "react-router-dom"
-import { describe, it, expect, beforeEach } from "vitest"
+import { describe, it, expect, beforeEach, vi } from "vitest"
 import i18n from "i18next"
 import { RecipePage } from "@/pages/RecipePage"
 
@@ -26,6 +26,7 @@ function renderRecipePage(slug: string) {
     <MemoryRouter initialEntries={[`/recipe/${slug}`]}>
       <Routes>
         <Route path="/recipe/:slug" element={<RecipePage />} />
+        <Route path="/recipes" element={<div data-testid="recipes-page" />} />
       </Routes>
     </MemoryRouter>
   )
@@ -100,5 +101,28 @@ describe("RecipePage", () => {
       expect(screen.getByText("Pasta alla Carbonara")).toBeInTheDocument()
     })
     expect(screen.getByText("Usare solo pecorino romano.")).toBeInTheDocument()
+  })
+
+  it("renders tags as links to /recipes?tag=<tag>", async () => {
+    renderRecipePage("pasta-carbonara")
+    await waitFor(() => {
+      expect(screen.getByText("pasta")).toBeInTheDocument()
+    })
+    const pastaLink = screen.getByText("pasta").closest("a")!
+    expect(pastaLink).toHaveAttribute("href", "/recipes?tag=pasta")
+    const romanoLink = screen.getByText("romano").closest("a")!
+    expect(romanoLink).toHaveAttribute("href", "/recipes?tag=romano")
+  })
+
+  it("navigates to recipes page filtered by tag when tag is clicked", async () => {
+    const user = userEvent.setup()
+    renderRecipePage("pasta-carbonara")
+    await waitFor(() => {
+      expect(screen.getByText("pasta")).toBeInTheDocument()
+    })
+    await user.click(screen.getByText("pasta").closest("a")!)
+    await waitFor(() => {
+      expect(screen.getByTestId("recipes-page")).toBeInTheDocument()
+    })
   })
 })

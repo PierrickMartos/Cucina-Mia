@@ -1,9 +1,14 @@
 import { render, screen, waitFor } from "@testing-library/react"
 import userEvent from "@testing-library/user-event"
-import { MemoryRouter, Route, Routes } from "react-router-dom"
+import { MemoryRouter, Route, Routes, useLocation } from "react-router-dom"
 import { describe, it, expect, beforeEach } from "vitest"
 import i18n from "i18next"
 import { RecipesPage } from "@/pages/RecipesPage"
+
+function LocationDisplay() {
+  const location = useLocation()
+  return <div data-testid="location">{location.pathname}{location.search}</div>
+}
 
 const mockRecipes = [
   {
@@ -65,6 +70,17 @@ function renderRecipesPageWithCategory(category: string) {
   )
 }
 
+function renderRecipesPageWithTag(tag: string) {
+  return render(
+    <MemoryRouter initialEntries={[`/recipes?tag=${encodeURIComponent(tag)}`]}>
+      <LocationDisplay />
+      <Routes>
+        <Route path="/recipes" element={<RecipesPage />} />
+      </Routes>
+    </MemoryRouter>
+  )
+}
+
 describe("RecipesPage", () => {
   beforeEach(() => {
     localStorage.clear()
@@ -116,6 +132,43 @@ describe("RecipesPage", () => {
       expect(screen.queryByText("Pasta alla Carbonara")).not.toBeInTheDocument()
     })
     expect(screen.getByDisplayValue("pizza")).toBeInTheDocument()
+  })
+
+  it("pre-filters by tag from URL param", async () => {
+    renderRecipesPageWithTag("pasta")
+    await waitFor(() => {
+      expect(screen.getByText("Pasta alla Carbonara")).toBeInTheDocument()
+      expect(screen.queryByText("Tiramisù Classico")).not.toBeInTheDocument()
+      expect(screen.queryByText("Pizza Margherita")).not.toBeInTheDocument()
+    })
+  })
+
+  it("shows active tag chip when tag param is present", async () => {
+    renderRecipesPageWithTag("dolce")
+    await waitFor(() => {
+      expect(screen.getByText("dolce")).toBeInTheDocument()
+    })
+  })
+
+  it("clears tag filter and removes tag from URL when chip X is clicked", async () => {
+    const user = userEvent.setup()
+    renderRecipesPageWithTag("pasta")
+    await waitFor(() => {
+      expect(screen.getByText("Pasta alla Carbonara")).toBeInTheDocument()
+    })
+    expect(screen.getByTestId("location").textContent).toContain("tag=pasta")
+
+    // Click the X on the tag chip
+    const chip = screen.getByText("pasta").closest("button")!
+    await user.click(chip)
+
+    await waitFor(() => {
+      expect(screen.getByText("Pasta alla Carbonara")).toBeInTheDocument()
+      expect(screen.getByText("Tiramisù Classico")).toBeInTheDocument()
+      expect(screen.getByText("Pizza Margherita")).toBeInTheDocument()
+    })
+    expect(screen.queryByText("Tag:")).not.toBeInTheDocument()
+    expect(screen.getByTestId("location").textContent).not.toContain("tag=")
   })
 
   it("shows empty state when search has no matches", async () => {

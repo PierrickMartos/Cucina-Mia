@@ -23,10 +23,11 @@ function loadFilters() {
 }
 
 export function RecipesPage() {
-  const [searchParams] = useSearchParams()
+  const [searchParams, setSearchParams] = useSearchParams()
   const [recipes, setRecipes] = useState<RecipeSummary[]>([])
   const [loading, setLoading] = useState(true)
   const [search, setSearch] = useState(searchParams.get("q") ?? "")
+  const [selectedTag, setSelectedTag] = useState<string | null>(searchParams.get("tag"))
   const [selectedCategories, setSelectedCategories] = useState<string[]>(() => {
     const cat = searchParams.get("category")
     if (cat) return [cat]
@@ -193,8 +194,12 @@ export function RecipesPage() {
       )
     }
 
+    if (selectedTag) {
+      result = result.filter((r) => r.tags.includes(selectedTag))
+    }
+
     return result
-  }, [localizedRecipes, fuse, search, selectedCategories, selectedDifficulties, selectedTimes, selectedPrepTimes, selectedSteps, selectedIngredients, selectedDietTags, selectedSeasonTags])
+  }, [localizedRecipes, fuse, search, selectedCategories, selectedDifficulties, selectedTimes, selectedPrepTimes, selectedSteps, selectedIngredients, selectedDietTags, selectedSeasonTags, selectedTag])
 
   return (
     <div className="px-6 py-6">
@@ -248,6 +253,26 @@ export function RecipesPage() {
           </button>
         )}
       </div>
+
+      {selectedTag && (
+        <div className="flex items-center gap-2 mb-4 -mt-4">
+          <span className="text-xs text-muted-foreground">{t("filter.tag", "Tag")}:</span>
+          <button
+            onClick={() => {
+              setSelectedTag(null)
+              setSearchParams((prev) => {
+                const next = new URLSearchParams(prev)
+                next.delete("tag")
+                return next
+              })
+            }}
+            className="cursor-pointer inline-flex items-center gap-1 rounded-full bg-primary/10 text-primary text-xs font-medium px-3 py-1 hover:bg-primary/20 transition-colors"
+          >
+            {selectedTag}
+            <X className="h-3 w-3" />
+          </button>
+        </div>
+      )}
 
       <RecipeGrid recipes={filtered} loading={loading} />
     </div>
