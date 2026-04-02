@@ -135,7 +135,6 @@ body:
   - type: textarea
     id: cover_image
     attributes:
-      label: Cover Image
-      description: "Drag and drop or paste an image of the finished dish here"
-    validations:
-      required: true
+      label: Cover Image (optional)
+      description: "Drag and drop or paste an image of the finished dish here — we'll use it to create the recipe illustration"
+      placeholder: "Drop an image here or paste from clipboard"

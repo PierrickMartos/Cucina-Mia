@@ -27,6 +27,13 @@ body:
       required: true
 
   - type: textarea
+    id: cover_image
+    attributes:
+      label: Recipe Image (optional)
+      description: "Drag and drop or paste a photo of the finished dish — we'll use it to create the recipe illustration"
+      placeholder: "Drop an image here or paste from clipboard"
+
+  - type: textarea
     id: notes
     attributes:
       label: Notes (optional)
