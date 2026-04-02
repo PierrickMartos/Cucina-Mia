@@ -23,6 +23,8 @@ export function RecipesPage() {
   })
   const [selectedDifficulties, setSelectedDifficulties] = useState<string[]>([])
   const [selectedTimes, setSelectedTimes] = useState<TimeBucket[]>([])
+  const [selectedDietTags, setSelectedDietTags] = useState<string[]>([])
+  const [selectedSeasonTags, setSelectedSeasonTags] = useState<string[]>([])
   const { t, i18n } = useTranslation()
 
   const localizedRecipes = useMemo(
@@ -93,8 +95,20 @@ export function RecipesPage() {
       )
     }
 
+    if (selectedDietTags.length > 0) {
+      result = result.filter((r) =>
+        selectedDietTags.some((tag) => r.tags.includes(tag))
+      )
+    }
+
+    if (selectedSeasonTags.length > 0) {
+      result = result.filter((r) =>
+        selectedSeasonTags.some((tag) => r.tags.includes(tag))
+      )
+    }
+
     return result
-  }, [localizedRecipes, fuse, search, selectedCategories, selectedDifficulties, selectedTimes])
+  }, [localizedRecipes, fuse, search, selectedCategories, selectedDifficulties, selectedTimes, selectedDietTags, selectedSeasonTags])
 
   return (
     <div className="px-6 py-6">
@@ -115,16 +129,22 @@ export function RecipesPage() {
           selectedCategories={selectedCategories}
           selectedDifficulties={selectedDifficulties}
           selectedTimes={selectedTimes}
+          selectedDietTags={selectedDietTags}
+          selectedSeasonTags={selectedSeasonTags}
           onCategoriesChange={setSelectedCategories}
           onDifficultiesChange={setSelectedDifficulties}
           onTimesChange={setSelectedTimes}
+          onDietTagsChange={setSelectedDietTags}
+          onSeasonTagsChange={setSelectedSeasonTags}
         />
-        {(selectedCategories.length > 0 || selectedDifficulties.length > 0 || selectedTimes.length > 0) && (
+        {(selectedCategories.length > 0 || selectedDifficulties.length > 0 || selectedTimes.length > 0 || selectedDietTags.length > 0 || selectedSeasonTags.length > 0) && (
           <button
             onClick={() => {
               setSelectedCategories([])
               setSelectedDifficulties([])
               setSelectedTimes([])
+              setSelectedDietTags([])
+              setSelectedSeasonTags([])
             }}
             className="cursor-pointer flex items-center justify-center w-10 h-10 rounded-full bg-surface-high text-muted-foreground hover:bg-destructive/10 hover:text-destructive transition-colors shrink-0"
             aria-label={t("filter.clearAll")}

@@ -8,15 +8,22 @@ import { Sheet, SheetContent, SheetHeader, SheetTitle } from "@/components/ui/sh
 const TIME_BUCKETS = ["quick", "medium", "long"] as const
 export type TimeBucket = (typeof TIME_BUCKETS)[number]
 
+export const DIET_TAGS = ["végétarien", "végétalien", "vegan", "sans-gluten", "sans-lactose", "léger"] as const
+export const SEASON_TAGS = ["printemps", "été", "automne", "hiver", "noël", "pâques", "apéro", "fête"] as const
+
 interface FilterDrawerProps {
   categories: string[]
   difficulties: string[]
   selectedCategories: string[]
   selectedDifficulties: string[]
   selectedTimes: TimeBucket[]
+  selectedDietTags: string[]
+  selectedSeasonTags: string[]
   onCategoriesChange: (categories: string[]) => void
   onDifficultiesChange: (difficulties: string[]) => void
   onTimesChange: (times: TimeBucket[]) => void
+  onDietTagsChange: (tags: string[]) => void
+  onSeasonTagsChange: (tags: string[]) => void
 }
 
 export function FilterDrawer({
@@ -25,14 +32,23 @@ export function FilterDrawer({
   selectedCategories,
   selectedDifficulties,
   selectedTimes,
+  selectedDietTags,
+  selectedSeasonTags,
   onCategoriesChange,
   onDifficultiesChange,
   onTimesChange,
+  onDietTagsChange,
+  onSeasonTagsChange,
 }: FilterDrawerProps) {
   const [open, setOpen] = useState(false)
   const { t } = useTranslation()
 
-  const activeCount = selectedCategories.length + selectedDifficulties.length + selectedTimes.length
+  const activeCount =
+    selectedCategories.length +
+    selectedDifficulties.length +
+    selectedTimes.length +
+    selectedDietTags.length +
+    selectedSeasonTags.length
 
   function toggleCategory(cat: string) {
     if (selectedCategories.includes(cat)) {
@@ -58,10 +74,28 @@ export function FilterDrawer({
     }
   }
 
+  function toggleDietTag(tag: string) {
+    if (selectedDietTags.includes(tag)) {
+      onDietTagsChange(selectedDietTags.filter((t) => t !== tag))
+    } else {
+      onDietTagsChange([...selectedDietTags, tag])
+    }
+  }
+
+  function toggleSeasonTag(tag: string) {
+    if (selectedSeasonTags.includes(tag)) {
+      onSeasonTagsChange(selectedSeasonTags.filter((t) => t !== tag))
+    } else {
+      onSeasonTagsChange([...selectedSeasonTags, tag])
+    }
+  }
+
   function clearAll() {
     onCategoriesChange([])
     onDifficultiesChange([])
     onTimesChange([])
+    onDietTagsChange([])
+    onSeasonTagsChange([])
   }
 
   return (
@@ -148,6 +182,50 @@ export function FilterDrawer({
                     onClick={() => toggleTime(bucket)}
                   >
                     {t(`timeOptions.${bucket}`)}
+                  </Badge>
+                ))}
+              </div>
+            </div>
+
+            <div>
+              <h4 className="font-semibold text-[10px] uppercase tracking-widest text-muted-foreground mb-3">
+                {t("filter.diet")}
+              </h4>
+              <div className="flex flex-wrap gap-2">
+                {DIET_TAGS.map((tag) => (
+                  <Badge
+                    key={tag}
+                    variant={selectedDietTags.includes(tag) ? "default" : "outline"}
+                    className={
+                      selectedDietTags.includes(tag)
+                        ? "cursor-pointer gradient-primary text-primary-foreground"
+                        : "cursor-pointer text-muted-foreground hover:bg-surface-high"
+                    }
+                    onClick={() => toggleDietTag(tag)}
+                  >
+                    {t(`tags.${tag}`, tag)}
+                  </Badge>
+                ))}
+              </div>
+            </div>
+
+            <div>
+              <h4 className="font-semibold text-[10px] uppercase tracking-widest text-muted-foreground mb-3">
+                {t("filter.season")}
+              </h4>
+              <div className="flex flex-wrap gap-2">
+                {SEASON_TAGS.map((tag) => (
+                  <Badge
+                    key={tag}
+                    variant={selectedSeasonTags.includes(tag) ? "default" : "outline"}
+                    className={
+                      selectedSeasonTags.includes(tag)
+                        ? "cursor-pointer gradient-primary text-primary-foreground"
+                        : "cursor-pointer text-muted-foreground hover:bg-surface-high"
+                    }
+                    onClick={() => toggleSeasonTag(tag)}
+                  >
+                    {t(`tags.${tag}`, tag)}
                   </Badge>
                 ))}
               </div>

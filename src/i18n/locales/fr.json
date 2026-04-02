@@ -35,7 +35,25 @@
     "category": "Catégorie",
     "difficulty": "Difficulté",
     "time": "Temps total",
+    "diet": "Régime & style",
+    "season": "Saison & occasion",
     "clearAll": "Supprimer tous les filtres"
+  },
+  "tags": {
+    "végétarien": "Végétarien",
+    "végétalien": "Végétalien",
+    "vegan": "Vegan",
+    "sans-gluten": "Sans gluten",
+    "sans-lactose": "Sans lactose",
+    "léger": "Léger",
+    "printemps": "Printemps",
+    "été": "Été",
+    "automne": "Automne",
+    "hiver": "Hiver",
+    "noël": "Noël",
+    "pâques": "Pâques",
+    "apéro": "Apéro",
+    "fête": "Fête"
   },
   "timeOptions": {
     "quick": "⚡ ≤ 20 min",
