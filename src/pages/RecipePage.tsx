@@ -1,8 +1,9 @@
-import { useState, useEffect } from "react"
+import { useState, useEffect, useRef } from "react"
 import { createPortal } from "react-dom"
 import { useParams, Link, useNavigate } from "react-router-dom"
 import { useTranslation } from "react-i18next"
 import { ArrowLeft, Clock, CookingPot, Users, ChefHat } from "lucide-react"
+import { motion, useMotionValue, useTransform, type Variants } from "motion/react"
 import { Badge } from "@/components/ui/badge"
 import { Skeleton } from "@/components/ui/skeleton"
 import { localizeRecipeDetail } from "@/lib/localize"
@@ -11,6 +12,16 @@ import type { RecipeDetail } from "@/types/recipe"
 const BASE = import.meta.env.BASE_URL
 
 type Tab = "ingredients" | "instructions"
+
+const itemVariants: Variants = {
+  hidden: { opacity: 0, y: 12 },
+  visible: { opacity: 1, y: 0, transition: { duration: 0.4, ease: [0.25, 0.1, 0.25, 1] } },
+}
+
+const staggerContainer: Variants = {
+  hidden: {},
+  visible: { transition: { staggerChildren: 0.07, delayChildren: 0.15 } },
+}
 
 export function RecipePage() {
   const { slug } = useParams<{ slug: string }>()
@@ -23,15 +34,21 @@ export function RecipePage() {
   const [checked, setChecked] = useState<Set<string>>(new Set())
   const [headerBackVisible, setHeaderBackVisible] = useState(false)
 
+  // Parallax: track main scroll via motion value, transform to a slow Y offset
+  const scrollY = useMotionValue(0)
+  const heroY = useTransform(scrollY, (v) => v * 0.35)
+  const heroRef = useRef<HTMLDivElement>(null)
+
   useEffect(() => {
     const scrollEl = document.querySelector("main")
     if (!scrollEl) return
     function onScroll() {
+      scrollY.set(scrollEl!.scrollTop)
       setHeaderBackVisible(scrollEl!.scrollTop > 80)
     }
     scrollEl.addEventListener("scroll", onScroll, { passive: true })
     return () => scrollEl.removeEventListener("scroll", onScroll)
-  }, [])
+  }, [scrollY])
 
   useEffect(() => {
     if (!slug) return
@@ -120,7 +137,7 @@ export function RecipePage() {
       )}
 
       {/* Full-width Hero Image */}
-      <div className="relative overflow-hidden aspect-[4/5] sm:aspect-[16/10] lg:aspect-auto lg:h-[60vh]">
+      <div ref={heroRef} className="relative overflow-hidden aspect-[4/5] sm:aspect-[16/10] lg:aspect-auto lg:h-[60vh]">
         {/* Back button overlaid on image */}
         <button
           onClick={() => navigate(-1)}
@@ -131,10 +148,11 @@ export function RecipePage() {
           <ArrowLeft className="h-5 w-5" />
         </button>
 
-        <img
+        <motion.img
           src={`${BASE}${recipe.images.cover}`}
           alt={recipe.title}
-          className="absolute inset-0 h-full w-full object-cover object-center"
+          style={{ y: heroY }}
+          className="absolute inset-0 h-[115%] w-full object-cover object-center"
         />
         {/* Bottom gradient fade */}
         <div className="absolute inset-x-0 bottom-0 h-32 bg-gradient-to-t from-background to-transparent" />
@@ -153,8 +171,13 @@ export function RecipePage() {
         )}
       </div>
 
-      {/* Recipe Info Card — overlaps image */}
-      <div className="relative -mt-16 mx-4 bg-background rounded-[1.5rem] pt-8 pb-6 px-6 text-center shadow-lg">
+      {/* Recipe Info Card — overlaps image, settles in on mount */}
+      <motion.div
+        initial={{ opacity: 0, y: 24 }}
+        animate={{ opacity: 1, y: 0 }}
+        transition={{ duration: 0.5, ease: "easeOut" }}
+        className="relative -mt-16 mx-4 bg-background rounded-[1.5rem] pt-8 pb-6 px-6 text-center shadow-lg"
+      >
         {/* Category label */}
         <span className="text-[11px] uppercase tracking-[0.2em] text-primary font-semibold">
           {t(`categories.${recipe.category}`, recipe.category)}
@@ -165,53 +188,65 @@ export function RecipePage() {
           {recipe.title}
         </h1>
 
-        {/* Time info */}
-        <div className="flex items-center justify-center gap-8 mb-5">
-          <div className="flex flex-col items-center gap-1.5">
+        {/* Time + Difficulty — staggered */}
+        <motion.div
+          variants={staggerContainer}
+          initial="hidden"
+          animate="visible"
+          className="flex items-center justify-center gap-8 mb-5"
+        >
+          <motion.div variants={itemVariants} className="flex flex-col items-center gap-1.5">
             <Clock className="h-5 w-5 text-primary" />
             <span className="text-[10px] uppercase tracking-widest text-muted-foreground font-medium">{t("recipe.prep")}</span>
             <span className="text-sm font-bold">{formatTime(recipe.prepTime)}</span>
-          </div>
-          <div className="w-px h-10 bg-border" />
-          <div className="flex flex-col items-center gap-1.5">
+          </motion.div>
+          <motion.div variants={itemVariants} className="w-px h-10 bg-border" />
+          <motion.div variants={itemVariants} className="flex flex-col items-center gap-1.5">
             <CookingPot className="h-5 w-5 text-primary" />
             <span className="text-[10px] uppercase tracking-widest text-muted-foreground font-medium">{t("recipe.cook")}</span>
             <span className="text-sm font-bold">{formatTime(recipe.cookTime)}</span>
-          </div>
-        </div>
+          </motion.div>
+          <motion.div variants={itemVariants} className="w-px h-10 bg-border" />
+          <motion.div variants={itemVariants} className="flex flex-col items-center gap-1.5">
+            <ChefHat className="h-5 w-5 text-primary" />
+            <span className="text-[10px] uppercase tracking-widest text-muted-foreground font-medium">{t("recipe.difficulty")}</span>
+            <span className="text-sm font-bold">{t(`difficulties.${recipe.difficulty}`, recipe.difficulty)}</span>
+          </motion.div>
+        </motion.div>
 
-        {/* Difficulty */}
-        <div className="flex flex-col items-center gap-1.5 mb-4">
-          <ChefHat className="h-5 w-5 text-primary" />
-          <span className="text-[10px] uppercase tracking-widest text-muted-foreground font-medium">{t("recipe.difficulty")}</span>
-          <span className="text-sm font-bold">{t(`difficulties.${recipe.difficulty}`, recipe.difficulty)}</span>
-        </div>
-
-        {/* Servings & Tags */}
-        <div className="flex items-center justify-center gap-4 pt-4 border-t border-border">
-          <div className="flex items-center gap-1.5 text-sm text-muted-foreground">
+        {/* Servings & Tags — staggered */}
+        <motion.div
+          variants={staggerContainer}
+          initial="hidden"
+          animate="visible"
+          className="flex items-center justify-center gap-4 pt-4 border-t border-border"
+        >
+          <motion.div variants={itemVariants} className="flex items-center gap-1.5 text-sm text-muted-foreground">
             <Users className="h-4 w-4" />
             <span>{recipe.servings} {t("recipe.servings")}</span>
-          </div>
+          </motion.div>
           <div className="flex flex-wrap justify-center gap-1.5">
             {recipe.tags.map((tag) => (
-              <Badge
-                key={tag}
-                variant="outline"
-                className="text-[10px] text-outline rounded-full"
-              >
-                {tag}
-              </Badge>
+              <motion.div key={tag} variants={itemVariants}>
+                <Badge variant="outline" className="text-[10px] text-outline rounded-full">
+                  {tag}
+                </Badge>
+              </motion.div>
             ))}
           </div>
-        </div>
+        </motion.div>
 
-      </div>
+      </motion.div>
 
       <div className="px-6 mt-8">
 
-      {/* Tab Switcher */}
-      <div className="bg-surface-high rounded-full p-1.5 flex mb-8 max-w-2xl mx-auto">
+      {/* Tab Switcher — delayed fade in */}
+      <motion.div
+        initial={{ opacity: 0, y: 10 }}
+        animate={{ opacity: 1, y: 0 }}
+        transition={{ delay: 0.35, duration: 0.4, ease: "easeOut" }}
+        className="bg-surface-high rounded-full p-1.5 flex mb-8 max-w-2xl mx-auto"
+      >
         <button
           onClick={() => setActiveTab("ingredients")}
           className={`flex-1 rounded-full py-2.5 text-xs font-semibold uppercase tracking-widest transition-all duration-300 cursor-pointer ${
@@ -232,7 +267,7 @@ export function RecipePage() {
         >
           {t("recipe.instructions")}
         </button>
-      </div>
+      </motion.div>
 
       {/* Tab Content */}
       <div key={activeTab} className="tab-enter">
