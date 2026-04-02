@@ -57,12 +57,20 @@ export function RecipePage() {
 
   if (loading) {
     return (
-      <div className="px-6 py-4">
-        <Skeleton className="h-8 w-24 mb-4 rounded-full" />
-        <Skeleton className="aspect-[3/4] w-full rounded-[1.5rem] mb-4" />
-        <Skeleton className="h-6 w-48 mb-6" />
-        <Skeleton className="h-12 w-full rounded-full mb-6" />
-        <Skeleton className="h-64 w-full" />
+      <div>
+        <Skeleton className="aspect-[4/5] sm:aspect-[16/10] w-full" />
+        <div className="relative -mt-16 mx-4 bg-background rounded-[1.5rem] p-6 text-center">
+          <Skeleton className="h-3 w-32 mx-auto mb-4 rounded-full" />
+          <Skeleton className="h-8 w-48 mx-auto mb-6 rounded" />
+          <div className="flex justify-center gap-8 mb-4">
+            <Skeleton className="h-16 w-20 rounded" />
+            <Skeleton className="h-16 w-20 rounded" />
+          </div>
+          <Skeleton className="h-12 w-full rounded-full mt-6" />
+        </div>
+        <div className="px-6 mt-6">
+          <Skeleton className="h-64 w-full rounded-[1.5rem]" />
+        </div>
       </div>
     )
   }
@@ -75,7 +83,7 @@ export function RecipePage() {
         </p>
         <Link
           to="/recipes"
-          className="inline-flex items-center justify-center rounded-full border border-border bg-card px-5 py-2.5 text-sm font-medium hover:bg-surface-high transition-colors"
+          className="inline-flex items-center justify-center rounded-full bg-surface-high px-5 py-2.5 text-sm font-medium hover:bg-surface-container transition-colors"
         >
           {t("recipe.backToRecipes")}
         </Link>
@@ -85,8 +93,17 @@ export function RecipePage() {
 
   const headerSlot = document.getElementById("header-left-slot")
 
+  const formatTime = (minutes: number) => {
+    if (minutes >= 60) {
+      const hours = Math.floor(minutes / 60)
+      const mins = minutes % 60
+      return mins > 0 ? `${hours}h ${mins}min` : `${hours}h`
+    }
+    return `${minutes} min`
+  }
+
   return (
-    <div className="px-6 py-2 pb-6">
+    <div className="pb-8">
       {/* Back button — portaled into header when scrolled */}
       {headerSlot && createPortal(
         <button
@@ -101,101 +118,111 @@ export function RecipePage() {
         headerSlot
       )}
 
-      {/* Back button — inline, fades out when header version appears */}
-      <button
-        onClick={() => navigate(-1)}
-        className={`mb-3 inline-flex items-center text-sm text-muted-foreground hover:text-foreground transition-all duration-200 ${
-          headerBackVisible ? "opacity-0 pointer-events-none" : "opacity-100"
-        }`}
-      >
-        <ArrowLeft className="h-4 w-4 mr-1" />
-        {t("recipe.back")}
-      </button>
+      {/* Full-width Hero Image */}
+      <div className="relative">
+        {/* Back button overlaid on image */}
+        <button
+          onClick={() => navigate(-1)}
+          className={`absolute top-4 left-4 z-10 inline-flex items-center justify-center h-10 w-10 rounded-full bg-black/30 backdrop-blur-sm text-white hover:bg-black/50 transition-all duration-200 ${
+            headerBackVisible ? "opacity-0 pointer-events-none" : "opacity-100"
+          }`}
+        >
+          <ArrowLeft className="h-5 w-5" />
+        </button>
 
-      {/* Hero Card */}
-      <div className="relative overflow-hidden rounded-[1.5rem] mb-4 editorial-grain">
-        <div className="aspect-[3/4] sm:aspect-[4/3]">
+        <div className="aspect-[4/5] sm:aspect-[16/10]">
           <img
             src={`${BASE}${recipe.images.cover}`}
             alt={recipe.title}
             className="h-full w-full object-cover"
           />
         </div>
-        <div className="vignette-overlay absolute inset-0 flex flex-col justify-end p-5">
-          <Badge className="bg-primary-container text-primary-foreground border-0 text-[10px] uppercase tracking-widest w-fit mb-2 rounded-full px-3 py-1">
-            {t(`categories.${recipe.category}`, recipe.category)}
-          </Badge>
-          <h1 className="font-headline text-3xl sm:text-4xl text-white font-bold tracking-tight leading-tight">
-            {recipe.title}
-          </h1>
-        </div>
+        {/* Bottom gradient fade */}
+        <div className="absolute inset-x-0 bottom-0 h-32 bg-gradient-to-t from-background to-transparent" />
       </div>
 
-      {/* Image Credit */}
-      {recipe.imageCredit && (recipe.imageCredit.name || recipe.imageCredit.url) && (
-        <p className="text-[11px] text-muted-foreground mb-2 px-1">
-          📷{" "}
-          {recipe.imageCredit.url ? (
-            <a
-              href={recipe.imageCredit.url}
-              target="_blank"
-              rel="noopener noreferrer"
-              className="underline hover:text-foreground transition-colors"
-            >
-              {recipe.imageCredit.name || recipe.imageCredit.url}
-            </a>
-          ) : (
-            recipe.imageCredit.name
-          )}
-        </p>
-      )}
+      {/* Recipe Info Card — overlaps image */}
+      <div className="relative -mt-16 mx-4 bg-background rounded-[1.5rem] pt-8 pb-6 px-6 text-center shadow-lg">
+        {/* Category label */}
+        <span className="text-[11px] uppercase tracking-[0.2em] text-primary font-semibold">
+          {t(`categories.${recipe.category}`, recipe.category)}
+        </span>
 
-      {/* Time & Info Row */}
-      <div className="flex items-center gap-6 mb-6 px-1">
-        <div className="flex items-center gap-2 text-sm text-foreground">
-          <Clock className="h-5 w-5 text-primary" />
-          <span>
-            {t("recipe.prep")} <strong>{recipe.prepTime} min</strong>
-          </span>
+        {/* Title */}
+        <h1 className="font-headline text-3xl sm:text-4xl font-bold tracking-[-0.02em] leading-tight mt-3 mb-6">
+          {recipe.title}
+        </h1>
+
+        {/* Time info */}
+        <div className="flex items-center justify-center gap-8 mb-5">
+          <div className="flex flex-col items-center gap-1.5">
+            <Clock className="h-5 w-5 text-primary" />
+            <span className="text-[10px] uppercase tracking-widest text-muted-foreground font-medium">{t("recipe.prep")}</span>
+            <span className="text-sm font-bold">{formatTime(recipe.prepTime)}</span>
+          </div>
+          <div className="w-px h-10 bg-border" />
+          <div className="flex flex-col items-center gap-1.5">
+            <CookingPot className="h-5 w-5 text-primary" />
+            <span className="text-[10px] uppercase tracking-widest text-muted-foreground font-medium">{t("recipe.cook")}</span>
+            <span className="text-sm font-bold">{formatTime(recipe.cookTime)}</span>
+          </div>
         </div>
-        <div className="flex items-center gap-2 text-sm text-foreground">
-          <CookingPot className="h-5 w-5 text-primary" />
-          <span>
-            {t("recipe.cook")} <strong>{recipe.cookTime} min</strong>
-          </span>
+
+        {/* Difficulty */}
+        <div className="flex flex-col items-center gap-1.5 mb-4">
+          <ChefHat className="h-5 w-5 text-primary" />
+          <span className="text-[10px] uppercase tracking-widest text-muted-foreground font-medium">{t("recipe.difficulty")}</span>
+          <span className="text-sm font-bold">{t(`difficulties.${recipe.difficulty}`, recipe.difficulty)}</span>
         </div>
+
+        {/* Servings & Tags */}
+        <div className="flex items-center justify-center gap-4 pt-4 border-t border-border">
+          <div className="flex items-center gap-1.5 text-sm text-muted-foreground">
+            <Users className="h-4 w-4" />
+            <span>{recipe.servings} {t("recipe.servings")}</span>
+          </div>
+          <div className="flex flex-wrap justify-center gap-1.5">
+            {recipe.tags.map((tag) => (
+              <Badge
+                key={tag}
+                variant="outline"
+                className="text-[10px] text-outline rounded-full"
+              >
+                {tag}
+              </Badge>
+            ))}
+          </div>
+        </div>
+
+        {/* Image Credit */}
+        {recipe.imageCredit && (recipe.imageCredit.name || recipe.imageCredit.url) && (
+          <p className="text-[11px] text-muted-foreground mt-4">
+            📷{" "}
+            {recipe.imageCredit.url ? (
+              <a
+                href={recipe.imageCredit.url}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="underline hover:text-foreground transition-colors"
+              >
+                {recipe.imageCredit.name || recipe.imageCredit.url}
+              </a>
+            ) : (
+              recipe.imageCredit.name
+            )}
+          </p>
+        )}
       </div>
 
-      {/* Servings & Difficulty */}
-      <div className="flex items-center gap-6 mb-6 px-1">
-        <div className="flex items-center gap-2 text-sm text-muted-foreground">
-          <Users className="h-4 w-4" />
-          <span>{recipe.servings} {t("recipe.servings")}</span>
-        </div>
-        <div className="flex items-center gap-2 text-sm text-muted-foreground">
-          <ChefHat className="h-4 w-4" />
-          <span>{t(`difficulties.${recipe.difficulty}`, recipe.difficulty)}</span>
-        </div>
-        <div className="flex flex-wrap gap-1 ml-auto">
-          {recipe.tags.map((tag) => (
-            <Badge
-              key={tag}
-              variant="outline"
-              className="text-[10px] border-border text-outline rounded-full"
-            >
-              {tag}
-            </Badge>
-          ))}
-        </div>
-      </div>
+      <div className="px-6 mt-8">
 
       {/* Tab Switcher */}
-      <div className="bg-surface-high rounded-full p-1 flex mb-6">
+      <div className="bg-surface-high rounded-full p-1.5 flex mb-8 max-w-2xl mx-auto">
         <button
           onClick={() => setActiveTab("ingredients")}
           className={`flex-1 rounded-full py-2.5 text-xs font-semibold uppercase tracking-widest transition-all duration-300 cursor-pointer ${
             activeTab === "ingredients"
-              ? "bg-primary text-primary-foreground shadow-sm"
+              ? "gradient-primary text-primary-foreground"
               : "text-muted-foreground hover:text-foreground"
           }`}
         >
@@ -205,7 +232,7 @@ export function RecipePage() {
           onClick={() => setActiveTab("instructions")}
           className={`flex-1 rounded-full py-2.5 text-xs font-semibold uppercase tracking-widest transition-all duration-300 cursor-pointer ${
             activeTab === "instructions"
-              ? "bg-primary text-primary-foreground shadow-sm"
+              ? "gradient-primary text-primary-foreground"
               : "text-muted-foreground hover:text-foreground"
           }`}
         >
@@ -224,21 +251,21 @@ export function RecipePage() {
                   {group.group}
                 </h3>
               )}
-              <ul className="space-y-1">
+              <ul className="space-y-1.5">
                 {group.items.map((item, ii) => {
                   const key = `${gi}-${ii}`
                   const isChecked = checked.has(key)
                   return (
                     <li key={key}>
                       <label
-                        className="flex items-center gap-4 py-1.5 cursor-pointer group"
+                        className="flex items-center gap-4 py-2 cursor-pointer group"
                         onClick={() => toggleCheck(key)}
                       >
                         <div
-                          className={`h-6 w-6 rounded-md border-2 shrink-0 flex items-center justify-center transition-colors ${
+                          className={`h-6 w-6 rounded-lg shrink-0 flex items-center justify-center transition-colors ${
                             isChecked
-                              ? "bg-primary border-primary"
-                              : "border-border group-hover:border-outline"
+                              ? "gradient-primary"
+                              : "bg-surface-high group-hover:bg-surface-container"
                           }`}
                         >
                           {isChecked && (
@@ -276,10 +303,10 @@ export function RecipePage() {
         </section>
       ) : (
         <section className="mb-8">
-          <ol className="space-y-4">
+          <ol className="space-y-6">
             {recipe.steps.map((step, i) => (
               <li key={i} className="flex gap-4">
-                <span className="flex h-8 w-8 shrink-0 items-center justify-center rounded-full bg-primary text-primary-foreground text-sm font-bold">
+                <span className="flex h-8 w-8 shrink-0 items-center justify-center rounded-full gradient-primary text-primary-foreground text-sm font-bold">
                   {i + 1}
                 </span>
                 <div className="pt-1">
@@ -288,7 +315,7 @@ export function RecipePage() {
                     <img
                       src={`${BASE}${step.image}`}
                       alt={t("recipe.step", { number: i + 1 })}
-                      className="mt-3 rounded-[1rem] max-w-full"
+                      className="mt-3 rounded-xl max-w-full"
                       loading="lazy"
                     />
                   )}
@@ -302,8 +329,8 @@ export function RecipePage() {
 
       {/* Tips */}
       {recipe.tips && recipe.tips.length > 0 && (
-        <section className="mb-6 rounded-[1.5rem] bg-surface-high p-5">
-          <h2 className="font-headline text-lg font-bold mb-3">{t("recipe.tips")}</h2>
+        <section className="mb-8 rounded-[1.5rem] bg-surface-low p-6">
+          <h2 className="font-headline text-lg font-bold mb-4 tracking-[-0.02em]">{t("recipe.tips")}</h2>
           <ul className="space-y-2">
             {recipe.tips.map((tip, i) => (
               <li key={i} className="flex items-start gap-2 text-sm text-muted-foreground">
@@ -317,7 +344,7 @@ export function RecipePage() {
 
       {/* Source Card */}
       {recipe.source && (
-        <div className="rounded-[1.5rem] bg-surface-variant p-5 flex items-center gap-4">
+        <div className="rounded-[1.5rem] bg-surface-container p-6 flex items-center gap-4">
           <div>
             <span className="text-[10px] uppercase tracking-widest text-primary font-semibold block">
               {t("recipe.source")}
@@ -326,6 +353,7 @@ export function RecipePage() {
           </div>
         </div>
       )}
+      </div>
     </div>
   )
 }

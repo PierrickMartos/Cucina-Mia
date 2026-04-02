@@ -10,7 +10,7 @@ interface SearchBarProps {
 export function SearchBar({ value, onChange }: SearchBarProps) {
   const { t } = useTranslation()
   return (
-    <div className="relative flex items-center bg-surface-high rounded-full px-4 py-2 transition-all duration-300 focus-within:bg-card focus-within:ring-1 focus-within:ring-primary/20">
+    <div className="relative flex items-center bg-surface-high rounded-full px-4 py-2.5 transition-all duration-300 focus-within:bg-surface-lowest focus-within:shadow-[inset_0_0_0_1px_rgba(192,90,62,0.2)]">
       <Search className="text-outline h-4 w-4 mr-3 shrink-0" />
       <Input
         type="search"

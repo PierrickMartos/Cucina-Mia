@@ -15,7 +15,7 @@ export function RecipeCard({ recipe: rawRecipe }: { recipe: RecipeSummary }) {
 
   return (
     <Link to={`/recipe/${recipe.slug}`} className="group">
-      <Card className="overflow-hidden py-0 border-border/50 hover:shadow-md transition-shadow h-full bg-card rounded-[1.5rem]">
+      <Card className="overflow-hidden py-0 h-full bg-surface-lowest rounded-[1.5rem] transition-all duration-300 hover:shadow-ambient">
         <div className="aspect-[4/3] overflow-hidden relative editorial-grain">
           <img
             src={`${BASE}${recipe.images.web}`}
@@ -24,19 +24,19 @@ export function RecipeCard({ recipe: rawRecipe }: { recipe: RecipeSummary }) {
             loading="lazy"
           />
         </div>
-        <CardContent className="p-4">
-          <div className="flex items-center gap-2 mb-2">
-            <Badge variant="secondary" className="bg-accent text-accent-foreground text-[10px] uppercase tracking-wider">
+        <CardContent className="p-5">
+          <div className="flex items-center gap-2 mb-3">
+            <Badge variant="secondary" className="text-[10px] uppercase tracking-wider">
               {t(`categories.${recipe.category}`, recipe.category)}
             </Badge>
-            <Badge variant="outline" className="border-border text-muted-foreground text-[10px]">
+            <Badge variant="outline" className="text-muted-foreground text-[10px]">
               {t(`difficulties.${recipe.difficulty}`, recipe.difficulty)}
             </Badge>
           </div>
-          <h3 className="font-headline font-bold text-lg leading-tight mb-1 text-foreground">
+          <h3 className="font-headline font-bold text-lg leading-tight mb-1.5 text-foreground tracking-[-0.02em]">
             {recipe.title}
           </h3>
-          <p className="text-sm text-muted-foreground line-clamp-2 mb-3">
+          <p className="text-sm text-muted-foreground line-clamp-2 mb-4">
             {recipe.description}
           </p>
           <div className="flex items-center gap-4 text-xs text-outline">

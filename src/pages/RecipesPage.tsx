@@ -83,15 +83,15 @@ export function RecipesPage() {
   }, [localizedRecipes, fuse, search, selectedCategories, selectedDifficulties])
 
   return (
-    <div className="px-6 py-4">
-      <div className="mb-4">
-        <h1 className="font-headline text-3xl font-bold text-primary">{t("recipes.title")}</h1>
-        <span className="font-body text-secondary text-[10px] uppercase tracking-[0.2em] block">
+    <div className="px-6 py-6">
+      <div className="mb-6">
+        <h1 className="font-headline text-3xl font-bold text-primary tracking-[-0.02em]">{t("recipes.title")}</h1>
+        <span className="font-body text-secondary text-[10px] uppercase tracking-[0.2em] block mt-2">
           {t("recipes.description")}
         </span>
       </div>
 
-      <div className="flex items-center gap-3 mb-6">
+      <div className="flex items-center gap-3 mb-8">
         <div className="flex-1">
           <SearchBar value={search} onChange={setSearch} />
         </div>

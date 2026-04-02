@@ -37,13 +37,13 @@ function LanguageSwitcher() {
     <div ref={ref} className="relative w-10 flex justify-end">
       <button
         onClick={() => setOpen((v) => !v)}
-        className="cursor-pointer text-[10px] font-semibold uppercase tracking-widest text-outline hover:text-primary transition-colors px-1 py-0.5"
+        className="cursor-pointer text-sm font-semibold uppercase tracking-widest text-outline hover:text-primary transition-colors px-2 py-1"
         aria-label="Switch language"
       >
         {currentCode}
       </button>
       {open && (
-        <div className="absolute top-7 right-0 bg-surface border border-outline/20 rounded-xl shadow-lg overflow-hidden z-50 min-w-[110px]">
+        <div className="absolute top-7 right-0 bg-surface/70 backdrop-blur-[20px] rounded-xl shadow-ambient overflow-hidden z-50 min-w-[110px]">
           {LANGUAGES.map(({ code, label }) => (
             <button
               key={code}
@@ -96,7 +96,7 @@ export function Layout() {
       </main>
 
       {/* Bottom Nav Bar */}
-      <nav className="shrink-0 flex justify-around items-center px-4 pb-1.5 pt-1.5 bg-surface/90 backdrop-blur-md rounded-t-xl shadow-[0_-2px_8px_rgba(0,0,0,0.03)] z-50">
+      <nav className="shrink-0 flex justify-around items-center px-4 pb-1.5 pt-1.5 bg-surface/70 backdrop-blur-[20px] rounded-t-xl z-50">
         {navItems.map(({ to, icon: Icon, label }) => {
           const isActive = to === "/"
             ? pathname === "/"
@@ -107,7 +107,7 @@ export function Layout() {
               to={to}
               className={
                 isActive
-                  ? "flex flex-col items-center justify-center bg-primary text-primary-foreground rounded-xl px-5 py-1 scale-95 transition-all"
+                  ? "flex flex-col items-center justify-center gradient-primary text-primary-foreground rounded-xl px-5 py-1 scale-95 transition-all"
                   : "flex flex-col items-center justify-center text-outline px-5 py-1 hover:text-primary transition-colors"
               }
             >

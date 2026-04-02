@@ -86,32 +86,32 @@ export function HomePage() {
   const isSearching = search.trim().length > 0
 
   return (
-    <div className="flex flex-col px-6 space-y-4 pb-4 h-full">
+    <div className="flex flex-col px-6 space-y-6 pb-6 h-full">
       {/* Hero Header */}
-      <header className="space-y-3 shrink-0">
+      <header className="space-y-5 shrink-0">
         <div>
-          <h1 className="font-headline text-3xl text-primary font-bold tracking-tight leading-none">
+          <h1 className="font-headline text-3xl text-primary font-bold tracking-[-0.02em] leading-none">
             {t("home.title")}
           </h1>
-          <span className="font-body text-secondary text-[10px] uppercase tracking-[0.2em] block mt-2">
+          <span className="font-body text-secondary text-[10px] uppercase tracking-[0.2em] block mt-3">
             {t("home.subtitle")}
           </span>
         </div>
 
         {/* Search Bar */}
         <div className="relative group">
-          <div className="flex items-center bg-surface-high rounded-full px-4 py-2 transition-all duration-300 focus-within:bg-card focus-within:ring-1 focus-within:ring-primary/20">
+          <div className="flex items-center bg-surface-high rounded-full px-4 py-2.5 transition-all duration-300 focus-within:bg-surface-lowest focus-within:shadow-[inset_0_0_0_1px_rgba(192,90,62,0.2)]">
             <Search className="text-outline h-4 w-4 mr-3 shrink-0" />
             <Input
               type="search"
               placeholder={t("home.searchPlaceholder")}
               value={search}
               onChange={(e) => setSearch(e.target.value)}
-              className="bg-transparent border-none focus-visible:ring-0 focus-visible:ring-offset-0 w-full text-sm font-body placeholder:text-outline p-0 h-auto"
+              className="bg-transparent border-none shadow-none focus-visible:shadow-none focus-visible:ring-0 focus-visible:ring-offset-0 w-full text-sm font-body placeholder:text-outline p-0 h-auto"
             />
             <Link
               to="/recipes"
-              className="ml-2 flex items-center justify-center bg-primary text-primary-foreground w-8 h-8 rounded-full hover:bg-primary-container transition-colors active:scale-95 duration-300 shrink-0"
+              className="ml-2 flex items-center justify-center gradient-primary text-primary-foreground w-8 h-8 rounded-full hover:opacity-90 transition-all active:scale-95 duration-300 shrink-0"
             >
               <SlidersHorizontal className="h-4 w-4" />
             </Link>
@@ -124,7 +124,7 @@ export function HomePage() {
         {isSearching ? (
           <RecipeGrid recipes={searchResults} />
         ) : loading ? (
-          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-3">
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
             {[1, 2, 3].map((i) => (
               <div key={i} className="h-48">
                 <Skeleton className="h-full w-full rounded-[1.5rem]" />
@@ -132,7 +132,7 @@ export function HomePage() {
             ))}
           </div>
         ) : (
-          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-3">
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
             {categories.map((cat, index) => (
               <Link
                 key={cat.category}
@@ -150,7 +150,7 @@ export function HomePage() {
                     <span className="text-white/80 font-body uppercase tracking-widest text-[10px] mb-1">
                       {String(index + 1).padStart(2, "0")} — {cat.category}
                     </span>
-                    <h3 className="font-headline text-3xl text-white font-bold tracking-tighter">
+                    <h3 className="font-headline text-3xl text-white font-bold tracking-[-0.02em]">
                       {cat.label}
                     </h3>
                   </div>

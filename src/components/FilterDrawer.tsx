@@ -52,11 +52,11 @@ export function FilterDrawer({
     <>
       <button
         onClick={() => setOpen(true)}
-        className="cursor-pointer flex items-center justify-center bg-primary text-primary-foreground w-10 h-10 rounded-full hover:bg-primary-container transition-colors active:scale-95 duration-300 shrink-0 relative"
+        className="cursor-pointer flex items-center justify-center gradient-primary text-primary-foreground w-10 h-10 rounded-full hover:opacity-90 transition-all active:scale-95 duration-300 shrink-0 relative"
       >
         <SlidersHorizontal className="h-4 w-4" />
         {activeCount > 0 && (
-          <span className="absolute -top-1 -right-1 bg-destructive text-destructive-foreground h-4 w-4 rounded-full text-[10px] flex items-center justify-center font-bold">
+          <span className="absolute -top-1 -right-1 bg-lemon-zest text-foreground h-4 w-4 rounded-full text-[10px] flex items-center justify-center font-bold">
             {activeCount}
           </span>
         )}
@@ -82,8 +82,8 @@ export function FilterDrawer({
                     variant={selectedCategories.includes(cat) ? "default" : "outline"}
                     className={
                       selectedCategories.includes(cat)
-                        ? "cursor-pointer bg-primary text-primary-foreground"
-                        : "cursor-pointer border-border text-muted-foreground hover:bg-surface-high"
+                        ? "cursor-pointer gradient-primary text-primary-foreground"
+                        : "cursor-pointer text-muted-foreground hover:bg-surface-high"
                     }
                     onClick={() => toggleCategory(cat)}
                   >
@@ -104,8 +104,8 @@ export function FilterDrawer({
                     variant={selectedDifficulties.includes(diff) ? "default" : "outline"}
                     className={
                       selectedDifficulties.includes(diff)
-                        ? "cursor-pointer bg-primary text-primary-foreground"
-                        : "cursor-pointer border-border text-muted-foreground hover:bg-surface-high"
+                        ? "cursor-pointer gradient-primary text-primary-foreground"
+                        : "cursor-pointer text-muted-foreground hover:bg-surface-high"
                     }
                     onClick={() => toggleDifficulty(diff)}
                   >
