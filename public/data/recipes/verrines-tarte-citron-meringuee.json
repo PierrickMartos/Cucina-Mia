@@ -3,12 +3,8 @@
   "title": "Verrines façon tarte au citron meringuée",
   "description": "Revisitation en verrines de la tarte au citron meringuée : crumble aux amandes croquant, lemon curd onctueux et meringue italienne brillante.",
   "images": {
-    "cover": "images/recipes/verrines-tarte-citron-meringuee/cover.jpg",
-    "web": "images/recipes/verrines-tarte-citron-meringuee/web.jpg"
-  },
-  "imageCredit": {
-    "author": "congerdesign",
-    "url": "https://pixabay.com/users/congerdesign-509903/"
+    "cover": "images/recipes/verrines-tarte-citron-meringuee/cover.svg",
+    "web": "images/recipes/verrines-tarte-citron-meringuee/cover.svg"
   },
   "prepTime": 30,
   "cookTime": 25,
