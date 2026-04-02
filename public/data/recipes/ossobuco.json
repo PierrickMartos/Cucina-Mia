@@ -44,5 +44,85 @@
     "Non rimuovere lo spago dagli ossibuchi durante la cottura: mantiene la forma.",
     "Il midollo è la parte più pregiata: servirlo con il piatto.",
     "Cuocere a fuoco molto dolce per una carne tenerissima."
-  ]
+  ],
+  "translations": {
+    "en": {
+      "description": "Braised veal shank with a gremolata of parsley, garlic and lemon zest.",
+      "ingredients": [
+        {
+          "group": "Ossobuco",
+          "items": [
+            "4 veal ossobuco slices (3cm)",
+            "Flour for dusting",
+            "50g butter",
+            "1 onion, 1 carrot, 1 celery stalk",
+            "200ml white wine",
+            "400g peeled tomatoes",
+            "300ml meat stock",
+            "Salt and pepper to taste"
+          ]
+        },
+        {
+          "group": "Gremolata",
+          "items": [
+            "Chopped fresh parsley",
+            "Grated zest of 1 lemon",
+            "1 garlic clove, finely chopped"
+          ]
+        }
+      ],
+      "steps": [
+        { "text": "Lightly flour the ossobuco slices. In a large casserole, brown them in butter on both sides until golden." },
+        { "text": "Remove the meat and in the same pan cook the chopped onion, carrot and celery." },
+        { "text": "Deglaze with white wine, then add the crushed peeled tomatoes and stock." },
+        { "text": "Return the ossobuco to the casserole, cover and cook over low heat for 2 hours, turning occasionally." },
+        { "text": "Make the gremolata by combining parsley, lemon zest and garlic." },
+        { "text": "Serve the ossobuco with the cooking juices and gremolata on top. Accompany with Milanese risotto." }
+      ],
+      "tips": [
+        "Do not remove the string from the ossobuco during cooking: it keeps the shape.",
+        "The marrow is the most prized part: serve it with the dish.",
+        "Cook over very gentle heat for incredibly tender meat."
+      ]
+    },
+    "fr": {
+      "description": "Jarret de veau braisé avec une gremolata de persil, ail et zeste de citron.",
+      "ingredients": [
+        {
+          "group": "Ossobuco",
+          "items": [
+            "4 tranches d'ossobuco de veau (3cm)",
+            "Farine pour fariner",
+            "50g de beurre",
+            "1 oignon, 1 carotte, 1 branche de céleri",
+            "200ml de vin blanc",
+            "400g de tomates pelées",
+            "300ml de bouillon de viande",
+            "Sel et poivre q.s."
+          ]
+        },
+        {
+          "group": "Gremolata",
+          "items": [
+            "Persil frais haché",
+            "Zeste râpé d'1 citron",
+            "1 gousse d'ail finement hachée"
+          ]
+        }
+      ],
+      "steps": [
+        { "text": "Fariner légèrement les tranches d'ossobuco. Dans une cocotte, les faire dorer dans le beurre des deux côtés." },
+        { "text": "Retirer la viande et faire revenir dans le même fond l'oignon, la carotte et le céleri hachés." },
+        { "text": "Déglacer au vin blanc, puis ajouter les tomates pelées écrasées et le bouillon." },
+        { "text": "Remettre les ossibuchi dans la cocotte, couvrir et cuire à feu doux pendant 2 heures en retournant de temps en temps." },
+        { "text": "Préparer la gremolata en mélangeant persil, zeste de citron et ail." },
+        { "text": "Servir les ossibuchi avec le jus de cuisson et la gremolata par-dessus. Accompagner d'un risotto à la milanaise." }
+      ],
+      "tips": [
+        "Ne pas retirer la ficelle des ossibuchi pendant la cuisson : elle maintient la forme.",
+        "La moelle est la partie la plus précieuse : la servir avec le plat.",
+        "Cuire à feu très doux pour une viande ultra-tendre."
+      ]
+    }
+  }
 }

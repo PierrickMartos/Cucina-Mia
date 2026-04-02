@@ -31,5 +31,59 @@
     "L'acqua di cottura deve essere tiepida (non bollente) quando la mescolate al pecorino, o si formeranno grumi.",
     "Il pepe va tostato e pestato fresco: non usate quello già macinato.",
     "Mantecare sempre fuori dal fuoco diretto per evitare che il pecorino si attacchi."
-  ]
+  ],
+  "translations": {
+    "en": {
+      "description": "Three ingredients, infinite flavour: tonnarelli, pecorino romano and freshly ground black pepper.",
+      "ingredients": [
+        {
+          "items": [
+            "400g tonnarelli or thick spaghetti",
+            "200g grated Pecorino Romano",
+            "Black peppercorns to taste",
+            "Salt for pasta water to taste"
+          ]
+        }
+      ],
+      "steps": [
+        { "text": "Toast the black peppercorns in a large pan, then coarsely crush them in a mortar." },
+        { "text": "Cook the pasta in slightly less salted water than usual (pecorino is already salty)." },
+        { "text": "In a bowl, mix the pecorino with a few tablespoons of warm cooking water until a smooth cream forms." },
+        { "text": "Transfer the pasta to the pan with the pepper, add a ladleful of cooking water and stir." },
+        { "text": "Remove from the heat and add the pecorino cream, stirring vigorously. Add more cooking water if needed." },
+        { "text": "Serve immediately with extra pecorino and freshly ground pepper on top." }
+      ],
+      "tips": [
+        "The cooking water must be warm (not boiling) when you mix it into the pecorino, or lumps will form.",
+        "The pepper must be toasted and freshly ground — do not use pre-ground pepper.",
+        "Always stir away from direct heat to prevent the pecorino from sticking."
+      ]
+    },
+    "fr": {
+      "description": "Trois ingrédients, une saveur infinie : tonnarelli, pecorino romano et poivre noir moulu à la minute.",
+      "ingredients": [
+        {
+          "items": [
+            "400g de tonnarelli ou gros spaghetti",
+            "200g de Pecorino Romano râpé",
+            "Grains de poivre noir q.s.",
+            "Sel pour l'eau de cuisson q.s."
+          ]
+        }
+      ],
+      "steps": [
+        { "text": "Faire torréfier les grains de poivre dans une grande poêle, puis les piler grossièrement dans un mortier." },
+        { "text": "Cuire les pâtes dans une eau légèrement moins salée que d'habitude (le pecorino est déjà salé)." },
+        { "text": "Dans un bol, mélanger le pecorino avec quelques cuillères d'eau de cuisson tiède jusqu'à obtenir une crème lisse." },
+        { "text": "Transvaser les pâtes dans la poêle avec le poivre, ajouter une louche d'eau de cuisson et mélanger." },
+        { "text": "Retirer du feu et ajouter la crème de pecorino, en remuant vigoureusement. Ajouter de l'eau de cuisson si nécessaire." },
+        { "text": "Servir immédiatement avec du pecorino supplémentaire et du poivre fraîchement moulu." }
+      ],
+      "tips": [
+        "L'eau de cuisson doit être tiède (pas bouillante) quand vous la mélangez au pecorino, sinon des grumeaux se formeront.",
+        "Le poivre doit être torréfié et fraîchement pilé : n'utilisez pas de poivre déjà moulu.",
+        "Remuez toujours hors du feu direct pour éviter que le pecorino ne colle."
+      ]
+    }
+  }
 }

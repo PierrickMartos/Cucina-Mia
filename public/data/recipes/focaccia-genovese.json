@@ -34,5 +34,65 @@
     "L'emulsione di olio e acqua salata è il segreto della crosta croccante.",
     "Le fossette devono arrivare quasi al fondo della teglia.",
     "Servire tiepida, mai fredda."
-  ]
+  ],
+  "translations": {
+    "en": {
+      "description": "The original Ligurian focaccia: thick, soft, with a golden crust and olive oil on top.",
+      "ingredients": [
+        {
+          "items": [
+            "500g Manitoba flour",
+            "350ml warm water",
+            "10g salt",
+            "10g sugar",
+            "7g dry yeast",
+            "80ml extra virgin olive oil",
+            "Coarse salt for the surface"
+          ]
+        }
+      ],
+      "steps": [
+        { "text": "Dissolve the yeast and sugar in the warm water. Add the flour and salt, knead for 10 minutes." },
+        { "text": "Add 40ml of oil and continue kneading until smooth." },
+        { "text": "Leave to rise covered for 2 hours until doubled in size." },
+        { "text": "Generously oil a baking tray. Spread the dough with your fingers, creating the characteristic dimples." },
+        { "text": "Emulsify the remaining oil with a little water and salt, pour over the focaccia. Sprinkle with coarse salt." },
+        { "text": "Leave to rise for another 30 minutes, then bake at 220°C for 20-25 minutes until golden." }
+      ],
+      "tips": [
+        "The oil and salted water emulsion is the secret to the crispy crust.",
+        "The dimples should reach almost to the bottom of the tray.",
+        "Serve warm, never cold."
+      ]
+    },
+    "fr": {
+      "description": "La vraie focaccia ligure : épaisse, moelleuse, avec une croûte dorée et de l'huile d'olive en surface.",
+      "ingredients": [
+        {
+          "items": [
+            "500g de farine Manitoba",
+            "350ml d'eau tiède",
+            "10g de sel",
+            "10g de sucre",
+            "7g de levure sèche",
+            "80ml d'huile d'olive extra vierge",
+            "Gros sel pour la surface"
+          ]
+        }
+      ],
+      "steps": [
+        { "text": "Dissoudre la levure et le sucre dans l'eau tiède. Ajouter la farine et le sel, pétrir 10 minutes." },
+        { "text": "Ajouter 40ml d'huile et continuer à pétrir jusqu'à obtenir une pâte lisse." },
+        { "text": "Laisser lever couvert pendant 2 heures jusqu'au doublement du volume." },
+        { "text": "Huiler généreusement un moule. Étaler la pâte avec les doigts en créant les caractéristiques petits trous." },
+        { "text": "Émulsionner l'huile restante avec un peu d'eau et de sel, verser sur la focaccia. Parsemer de gros sel." },
+        { "text": "Laisser lever encore 30 minutes, puis enfourner à 220°C pendant 20-25 minutes jusqu'à dorure." }
+      ],
+      "tips": [
+        "L'émulsion d'huile et d'eau salée est le secret de la croûte croustillante.",
+        "Les trous doivent arriver presque au fond du moule.",
+        "Servir tiède, jamais froide."
+      ]
+    }
+  }
 }

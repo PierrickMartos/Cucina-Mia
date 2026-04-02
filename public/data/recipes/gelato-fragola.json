@@ -22,28 +22,74 @@
     }
   ],
   "steps": [
-    {
-      "text": "Lavare le fragole, togliere il picciolo e tagliarle a pezzetti. Frullarle con lo zucchero a velo e il succo di limone fino a ottenere una purea liscia."
-    },
-    {
-      "text": "In una ciotola a parte, montare la panna fresca fino a ottenere una consistenza soffice ma non troppo ferma."
-    },
-    {
-      "text": "Mescolare lo yogurt greco alla purea di fragole."
-    },
-    {
-      "text": "Incorporare delicatamente la panna montata al composto di fragole con movimenti dal basso verso l'alto."
-    },
-    {
-      "text": "Versare in un contenitore adatto al freezer e congelare per almeno 4 ore, mescolando con una forchetta ogni 45 minuti per le prime 3 ore."
-    },
-    {
-      "text": "Togliere dal freezer 10 minuti prima di servire. Formare le palline con un porzionatore e decorare con codette colorate!"
-    }
+    { "text": "Lavare le fragole, togliere il picciolo e tagliarle a pezzetti. Frullarle con lo zucchero a velo e il succo di limone fino a ottenere una purea liscia." },
+    { "text": "In una ciotola a parte, montare la panna fresca fino a ottenere una consistenza soffice ma non troppo ferma." },
+    { "text": "Mescolare lo yogurt greco alla purea di fragole." },
+    { "text": "Incorporare delicatamente la panna montata al composto di fragole con movimenti dal basso verso l'alto." },
+    { "text": "Versare in un contenitore adatto al freezer e congelare per almeno 4 ore, mescolando con una forchetta ogni 45 minuti per le prime 3 ore." },
+    { "text": "Togliere dal freezer 10 minuti prima di servire. Formare le palline con un porzionatore e decorare con codette colorate!" }
   ],
   "tips": [
     "I bambini possono aiutare a frullare le fragole e decorare il gelato.",
     "Per un gelato ancora più cremoso, sostituite metà yogurt con latte condensato.",
     "Si può fare anche con mirtilli, pesche o banane."
-  ]
+  ],
+  "translations": {
+    "en": {
+      "description": "Creamy homemade strawberry gelato, without an ice cream maker — fresh, natural and loved by kids!",
+      "ingredients": [
+        {
+          "items": [
+            "400g ripe fresh strawberries",
+            "200ml fresh cream",
+            "150g icing sugar",
+            "200g Greek yoghurt",
+            "1 tablespoon lemon juice",
+            "Rainbow sprinkles for decoration"
+          ]
+        }
+      ],
+      "steps": [
+        { "text": "Wash the strawberries, remove the stems and chop them. Blend with the icing sugar and lemon juice until smooth." },
+        { "text": "In a separate bowl, whip the cream to a soft but not too stiff consistency." },
+        { "text": "Mix the Greek yoghurt into the strawberry purée." },
+        { "text": "Gently fold the whipped cream into the strawberry mixture with upward strokes." },
+        { "text": "Pour into a freezer-safe container and freeze for at least 4 hours, stirring with a fork every 45 minutes for the first 3 hours." },
+        { "text": "Remove from the freezer 10 minutes before serving. Scoop into balls and decorate with rainbow sprinkles!" }
+      ],
+      "tips": [
+        "Kids can help blend the strawberries and decorate the gelato.",
+        "For an even creamier result, replace half the yoghurt with condensed milk.",
+        "Can also be made with blueberries, peaches or bananas."
+      ]
+    },
+    "fr": {
+      "description": "Glace crémeuse à la fraise maison, sans sorbetière — fraîche, naturelle et adorée des enfants !",
+      "ingredients": [
+        {
+          "items": [
+            "400g de fraises fraîches mûres",
+            "200ml de crème fraîche liquide",
+            "150g de sucre glace",
+            "200g de yaourt grec",
+            "1 cuillère à soupe de jus de citron",
+            "Vermicelles colorés pour décorer"
+          ]
+        }
+      ],
+      "steps": [
+        { "text": "Laver les fraises, enlever les queues et les couper en morceaux. Les mixer avec le sucre glace et le jus de citron jusqu'à obtenir une purée lisse." },
+        { "text": "Dans un autre bol, fouetter la crème fraîche jusqu'à obtenir une consistance souple mais pas trop ferme." },
+        { "text": "Mélanger le yaourt grec à la purée de fraises." },
+        { "text": "Incorporer délicatement la crème fouettée au mélange de fraises avec des mouvements de bas en haut." },
+        { "text": "Verser dans un récipient allant au congélateur et congeler pendant au moins 4 heures, en remuant avec une fourchette toutes les 45 minutes pendant les 3 premières heures." },
+        { "text": "Sortir du congélateur 10 minutes avant de servir. Former des boules avec une cuillère à glace et décorer avec des vermicelles colorés !" }
+      ],
+      "tips": [
+        "Les enfants peuvent aider à mixer les fraises et décorer la glace.",
+        "Pour une glace encore plus crémeuse, remplacez la moitié du yaourt par du lait concentré sucré.",
+        "On peut aussi la faire avec des myrtilles, des pêches ou des bananes."
+      ]
+    }
+  }
 }

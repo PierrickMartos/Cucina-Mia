@@ -9,7 +9,11 @@
     "servings": 4,
     "difficulty": "Medio",
     "category": "Secondi",
-    "tags": ["pasta", "romano", "tradizionale"]
+    "tags": ["pasta", "romano", "tradizionale"],
+    "translations": {
+      "en": { "description": "The authentic Roman carbonara with guanciale, pecorino, eggs and black pepper." },
+      "fr": { "description": "La vraie carbonara romaine avec guanciale, pecorino, œufs et poivre noir." }
+    }
   },
   {
     "slug": "cacio-e-pepe",
@@ -21,7 +25,11 @@
     "servings": 4,
     "difficulty": "Medio",
     "category": "Secondi",
-    "tags": ["pasta", "romano", "tradizionale"]
+    "tags": ["pasta", "romano", "tradizionale"],
+    "translations": {
+      "en": { "description": "Three ingredients, infinite flavour: tonnarelli, pecorino romano and freshly ground black pepper." },
+      "fr": { "description": "Trois ingrédients, une saveur infinie : tonnarelli, pecorino romano et poivre noir moulu à la minute." }
+    }
   },
   {
     "slug": "risotto-milanese",
@@ -33,7 +41,11 @@
     "servings": 4,
     "difficulty": "Medio",
     "category": "Secondi",
-    "tags": ["risotto", "milanese", "zafferano"]
+    "tags": ["risotto", "milanese", "zafferano"],
+    "translations": {
+      "en": { "description": "The classic saffron risotto, creamy and golden, symbol of Lombard cuisine." },
+      "fr": { "description": "Le classique risotto au safran, crémeux et doré, symbole de la cuisine lombarde." }
+    }
   },
   {
     "slug": "pesto-trofie",
@@ -45,7 +57,11 @@
     "servings": 4,
     "difficulty": "Facile",
     "category": "Secondi",
-    "tags": ["pasta", "ligure", "pesto"]
+    "tags": ["pasta", "ligure", "pesto"],
+    "translations": {
+      "en": { "description": "Ligurian pasta with fresh basil pesto, pine nuts, garlic, Parmigiano and Pecorino." },
+      "fr": { "description": "Pâtes ligures avec un pesto frais de basilic, pignons, ail, Parmigiano et Pecorino." }
+    }
   },
   {
     "slug": "lasagna-bolognese",
@@ -57,7 +73,11 @@
     "servings": 8,
     "difficulty": "Difficile",
     "category": "Secondi",
-    "tags": ["pasta", "forno", "bolognese"]
+    "tags": ["pasta", "forno", "bolognese"],
+    "translations": {
+      "en": { "description": "Layers of egg pasta, bolognese ragù and béchamel, gratinated in the oven." },
+      "fr": { "description": "Couches de pâtes aux œufs, ragù bolognaise et béchamel, gratinées au four." }
+    }
   },
   {
     "slug": "bruschetta-pomodoro",
@@ -69,7 +89,11 @@
     "servings": 4,
     "difficulty": "Facile",
     "category": "Antipasti",
-    "tags": ["antipasto", "estivo", "pomodoro"]
+    "tags": ["antipasto", "estivo", "pomodoro"],
+    "translations": {
+      "en": { "description": "Toasted bread with fresh cherry tomatoes, basil and extra virgin olive oil: the perfect summer starter." },
+      "fr": { "description": "Pain grillé avec des tomates cerise fraîches, du basilic et de l'huile d'olive extra vierge : l'entrée estivale parfaite." }
+    }
   },
   {
     "slug": "ossobuco",
@@ -81,7 +105,11 @@
     "servings": 4,
     "difficulty": "Medio",
     "category": "Secondi",
-    "tags": ["carne", "milanese", "brasato"]
+    "tags": ["carne", "milanese", "brasato"],
+    "translations": {
+      "en": { "description": "Braised veal shank with a gremolata of parsley, garlic and lemon zest." },
+      "fr": { "description": "Jarret de veau braisé avec une gremolata de persil, ail et zeste de citron." }
+    }
   },
   {
     "slug": "melanzane-parmigiana",
@@ -93,7 +121,11 @@
     "servings": 6,
     "difficulty": "Medio",
     "category": "Secondi",
-    "tags": ["melanzane", "forno", "campano"]
+    "tags": ["melanzane", "forno", "campano"],
+    "translations": {
+      "en": { "description": "Layers of fried aubergine, tomato sauce, mozzarella and Parmigiano gratinated in the oven." },
+      "fr": { "description": "Couches d'aubergines frites, sauce tomate, mozzarella et Parmigiano gratinées au four." }
+    }
   },
   {
     "slug": "margherita-pizza",
@@ -105,7 +137,11 @@
     "servings": 4,
     "difficulty": "Difficile",
     "category": "Pizze",
-    "tags": ["pizza", "napoletana", "tradizionale"]
+    "tags": ["pizza", "napoletana", "tradizionale"],
+    "translations": {
+      "en": { "description": "The quintessential Neapolitan pizza with San Marzano tomato, mozzarella and basil." },
+      "fr": { "description": "La pizza napolitaine par excellence avec tomate San Marzano, mozzarella et basilic." }
+    }
   },
   {
     "slug": "focaccia-genovese",
@@ -117,7 +153,11 @@
     "servings": 6,
     "difficulty": "Medio",
     "category": "Pane",
-    "tags": ["pane", "ligure", "lievitato"]
+    "tags": ["pane", "ligure", "lievitato"],
+    "translations": {
+      "en": { "description": "The original Ligurian focaccia: thick, soft, with a golden crust and olive oil on top." },
+      "fr": { "description": "La vraie focaccia ligure : épaisse, moelleuse, avec une croûte dorée et de l'huile d'olive en surface." }
+    }
   },
   {
     "slug": "tiramisu",
@@ -129,7 +169,11 @@
     "servings": 8,
     "difficulty": "Facile",
     "category": "Dolci",
-    "tags": ["dolce", "caffè", "no-cottura"]
+    "tags": ["dolce", "caffè", "no-cottura"],
+    "translations": {
+      "en": { "description": "The world's most beloved Italian dessert with mascarpone, coffee and savoiardi biscuits." },
+      "fr": { "description": "Le dessert italien le plus aimé au monde avec mascarpone, café et savoiardi." }
+    }
   },
   {
     "slug": "panna-cotta",
@@ -141,7 +185,11 @@
     "servings": 6,
     "difficulty": "Facile",
     "category": "Dolci",
-    "tags": ["dolce", "piemontese", "vaniglia"]
+    "tags": ["dolce", "piemontese", "vaniglia"],
+    "translations": {
+      "en": { "description": "A Piedmontese spoon dessert, delicate and velvety, with a mixed berry sauce." },
+      "fr": { "description": "Dessert piémontais à la cuillère, délicat et velouté, avec un coulis de fruits rouges." }
+    }
   },
   {
     "slug": "cannoli-siciliani",
@@ -153,7 +201,11 @@
     "servings": 12,
     "difficulty": "Difficile",
     "category": "Dolci",
-    "tags": ["dolce", "siciliano", "fritto"]
+    "tags": ["dolce", "siciliano", "fritto"],
+    "translations": {
+      "en": { "description": "Crispy shells filled with fresh ricotta, chocolate chips and chopped pistachio." },
+      "fr": { "description": "Coques croustillantes garnies de ricotta fraîche, pépites de chocolat et pistaches concassées." }
+    }
   },
   {
     "slug": "pizza-faccine",
@@ -165,7 +217,11 @@
     "servings": 8,
     "difficulty": "Facile",
     "category": "Bambini",
-    "tags": ["pizza", "bambini", "divertente", "facile"]
+    "tags": ["pizza", "bambini", "divertente", "facile"],
+    "translations": {
+      "en": { "description": "Fun mini pizzas with smiling faces made of olives, cherry tomatoes and peppers — perfect for little chefs!" },
+      "fr": { "description": "Mini pizzas amusantes avec des petites têtes souriantes faites d'olives, tomates cerises et poivrons — parfaites pour les petits chefs !" }
+    }
   },
   {
     "slug": "gnocchi-pomodoro",
@@ -177,7 +233,11 @@
     "servings": 4,
     "difficulty": "Facile",
     "category": "Bambini",
-    "tags": ["gnocchi", "bambini", "pomodoro", "patate"]
+    "tags": ["gnocchi", "bambini", "pomodoro", "patate"],
+    "translations": {
+      "en": { "description": "Ultra-soft potato gnocchi with fresh tomato sauce and basil — kids' favourite dish!" },
+      "fr": { "description": "Gnocchi de pommes de terre ultra-moelleux avec sauce tomate fraîche et basilic — le plat préféré des enfants !" }
+    }
   },
   {
     "slug": "gelato-fragola",
@@ -189,6 +249,10 @@
     "servings": 6,
     "difficulty": "Facile",
     "category": "Bambini",
-    "tags": ["gelato", "bambini", "fragola", "no-cottura", "dolce"]
+    "tags": ["gelato", "bambini", "fragola", "no-cottura", "dolce"],
+    "translations": {
+      "en": { "description": "Creamy homemade strawberry gelato, without an ice cream maker — fresh, natural and loved by kids!" },
+      "fr": { "description": "Glace crémeuse à la fraise maison, sans sorbetière — fraîche, naturelle et adorée des enfants !" }
+    }
   }
 ]

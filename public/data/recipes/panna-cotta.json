@@ -40,5 +40,77 @@
     "Non far bollire la panna o perderà la sua cremosità.",
     "Potete sostituire la vaniglia con scorza di limone o caffè.",
     "Per sformare facilmente, immergere brevemente lo stampino in acqua calda."
-  ]
+  ],
+  "translations": {
+    "en": {
+      "description": "A Piedmontese spoon dessert, delicate and velvety, with a mixed berry sauce.",
+      "ingredients": [
+        {
+          "group": "Panna cotta",
+          "items": [
+            "500ml fresh cream",
+            "100g sugar",
+            "1 vanilla pod",
+            "8g sheet gelatine"
+          ]
+        },
+        {
+          "group": "Berry sauce",
+          "items": [
+            "200g mixed berries",
+            "50g sugar",
+            "1 tablespoon lemon juice"
+          ]
+        }
+      ],
+      "steps": [
+        { "text": "Soak the gelatine in cold water for 10 minutes." },
+        { "text": "Heat the cream with the sugar and vanilla seeds without bringing to a boil." },
+        { "text": "Remove from the heat, squeeze out the gelatine and dissolve it in the warm cream." },
+        { "text": "Pour into moulds and refrigerate for at least 4 hours." },
+        { "text": "Make the sauce: cook the berries with sugar and lemon for 5 minutes. Partially blend." },
+        { "text": "Unmould the panna cotta and serve with the berry sauce." }
+      ],
+      "tips": [
+        "Do not boil the cream or it will lose its creaminess.",
+        "You can substitute the vanilla with lemon zest or coffee.",
+        "To unmould easily, briefly dip the mould in hot water."
+      ]
+    },
+    "fr": {
+      "description": "Dessert piémontais à la cuillère, délicat et velouté, avec un coulis de fruits rouges.",
+      "ingredients": [
+        {
+          "group": "Panna cotta",
+          "items": [
+            "500ml de crème fraîche liquide",
+            "100g de sucre",
+            "1 gousse de vanille",
+            "8g de gélatine en feuilles"
+          ]
+        },
+        {
+          "group": "Coulis de fruits rouges",
+          "items": [
+            "200g de fruits rouges mélangés",
+            "50g de sucre",
+            "1 cuillère à soupe de jus de citron"
+          ]
+        }
+      ],
+      "steps": [
+        { "text": "Faire tremper la gélatine dans de l'eau froide pendant 10 minutes." },
+        { "text": "Chauffer la crème avec le sucre et les graines de vanille sans la faire bouillir." },
+        { "text": "Retirer du feu, essorer la gélatine et la dissoudre dans la crème chaude." },
+        { "text": "Verser dans des moules et réfrigérer pendant au moins 4 heures." },
+        { "text": "Préparer le coulis : cuire les fruits rouges avec le sucre et le citron pendant 5 minutes. Mixer partiellement." },
+        { "text": "Démouler la panna cotta et servir avec le coulis de fruits rouges." }
+      ],
+      "tips": [
+        "Ne pas faire bouillir la crème ou elle perdra son onctuosité.",
+        "Vous pouvez remplacer la vanille par du zeste de citron ou du café.",
+        "Pour démouler facilement, tremper brièvement le moule dans de l'eau chaude."
+      ]
+    }
+  }
 }

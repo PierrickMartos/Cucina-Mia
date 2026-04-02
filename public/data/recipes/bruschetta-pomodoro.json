@@ -31,5 +31,59 @@
     "Usare pomodorini maturi e dolci, meglio se datterini.",
     "Il pane deve essere croccante fuori e morbido dentro.",
     "Preparare il condimento di pomodori almeno 10 minuti prima per far uscire i succhi."
-  ]
+  ],
+  "translations": {
+    "en": {
+      "description": "Toasted bread with fresh cherry tomatoes, basil and extra virgin olive oil: the perfect summer starter.",
+      "ingredients": [
+        {
+          "items": [
+            "4 slices of rustic bread",
+            "300g ripe cherry tomatoes",
+            "1 garlic clove",
+            "Fresh basil to taste",
+            "Extra virgin olive oil to taste",
+            "Salt and pepper to taste"
+          ]
+        }
+      ],
+      "steps": [
+        { "text": "Dice the cherry tomatoes and season with oil, salt, pepper and torn basil. Leave to marinate for 10 minutes." },
+        { "text": "Toast the bread slices on a grill or in the oven until golden." },
+        { "text": "Lightly rub the garlic on the surface of the warm bread." },
+        { "text": "Spoon the seasoned tomatoes onto the bread and finish with a drizzle of raw olive oil." }
+      ],
+      "tips": [
+        "Use ripe, sweet cherry tomatoes — datterini are best.",
+        "The bread should be crispy outside and soft inside.",
+        "Prepare the tomato topping at least 10 minutes ahead to let the juices come out."
+      ]
+    },
+    "fr": {
+      "description": "Pain grillé avec des tomates cerise fraîches, du basilic et de l'huile d'olive extra vierge : l'entrée estivale parfaite.",
+      "ingredients": [
+        {
+          "items": [
+            "4 tranches de pain de campagne",
+            "300g de tomates cerise mûres",
+            "1 gousse d'ail",
+            "Basilic frais q.s.",
+            "Huile d'olive extra vierge q.s.",
+            "Sel et poivre q.s."
+          ]
+        }
+      ],
+      "steps": [
+        { "text": "Couper les tomates cerise en dés et les assaisonner avec de l'huile, du sel, du poivre et du basilic émietté. Laisser mariner 10 minutes." },
+        { "text": "Faire griller les tranches de pain sur un gril ou au four jusqu'à dorure." },
+        { "text": "Frotter légèrement l'ail sur la surface du pain chaud." },
+        { "text": "Répartir les tomates assaisonnées sur le pain et terminer avec un filet d'huile crue." }
+      ],
+      "tips": [
+        "Utilisez des tomates cerise mûres et sucrées, de préférence des datterini.",
+        "Le pain doit être croustillant dehors et moelleux dedans.",
+        "Préparez les tomates au moins 10 minutes à l'avance pour qu'elles rendent leurs jus."
+      ]
+    }
+  }
 }

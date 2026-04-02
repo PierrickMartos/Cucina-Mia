@@ -5,6 +5,7 @@ import { useTranslation } from "react-i18next"
 import { ArrowLeft, Clock, CookingPot, Users, ChefHat } from "lucide-react"
 import { Badge } from "@/components/ui/badge"
 import { Skeleton } from "@/components/ui/skeleton"
+import { localizeRecipeDetail } from "@/lib/localize"
 import type { RecipeDetail } from "@/types/recipe"
 
 const BASE = import.meta.env.BASE_URL
@@ -14,7 +15,7 @@ type Tab = "ingredients" | "instructions"
 export function RecipePage() {
   const { slug } = useParams<{ slug: string }>()
   const navigate = useNavigate()
-  const { t } = useTranslation()
+  const { t, i18n } = useTranslation()
   const [recipe, setRecipe] = useState<RecipeDetail | null>(null)
   const [loading, setLoading] = useState(true)
   const [activeTab, setActiveTab] = useState<Tab>("ingredients")
@@ -39,7 +40,7 @@ export function RecipePage() {
         return res.json()
       })
       .then((data) => {
-        setRecipe(data)
+        setRecipe(localizeRecipeDetail(data, i18n.language))
         setLoading(false)
       })
       .catch(() => setLoading(false))

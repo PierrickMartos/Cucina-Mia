@@ -7,6 +7,7 @@ import { SearchBar } from "@/components/SearchBar"
 import { FilterDrawer } from "@/components/FilterDrawer"
 import { RecipeGrid } from "@/components/RecipeGrid"
 import { sortCategories, sortDifficulties } from "@/lib/categories"
+import { localizeRecipeSummary } from "@/lib/localize"
 import type { RecipeSummary } from "@/types/recipe"
 
 const BASE = import.meta.env.BASE_URL
@@ -21,7 +22,12 @@ export function RecipesPage() {
     return cat ? [cat] : []
   })
   const [selectedDifficulties, setSelectedDifficulties] = useState<string[]>([])
-  const { t } = useTranslation()
+  const { t, i18n } = useTranslation()
+
+  const localizedRecipes = useMemo(
+    () => recipes.map((r) => localizeRecipeSummary(r, i18n.language)),
+    [recipes, i18n.language]
+  )
 
   useEffect(() => {
     fetch(`${BASE}data/recipes/index.json`)
@@ -45,7 +51,7 @@ export function RecipesPage() {
 
   const fuse = useMemo(
     () =>
-      new Fuse(recipes, {
+      new Fuse(localizedRecipes, {
         keys: [
           { name: "title", weight: 2 },
           { name: "description", weight: 1 },
@@ -55,13 +61,13 @@ export function RecipesPage() {
         threshold: 0.4,
         ignoreLocation: true,
       }),
-    [recipes]
+    [localizedRecipes]
   )
 
   const filtered = useMemo(() => {
     let result = search.trim()
       ? fuse.search(search).map((r) => r.item)
-      : recipes
+      : localizedRecipes
 
     if (selectedCategories.length > 0) {
       result = result.filter((r) => selectedCategories.includes(r.category))
@@ -74,7 +80,7 @@ export function RecipesPage() {
     }
 
     return result
-  }, [recipes, fuse, search, selectedCategories, selectedDifficulties])
+  }, [localizedRecipes, fuse, search, selectedCategories, selectedDifficulties])
 
   return (
     <div className="px-6 py-4">

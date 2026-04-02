@@ -1,12 +1,16 @@
 import { Link } from "react-router-dom"
+import { useTranslation } from "react-i18next"
 import { Clock, Users } from "lucide-react"
 import { Card, CardContent } from "@/components/ui/card"
 import { Badge } from "@/components/ui/badge"
+import { localizeRecipeSummary } from "@/lib/localize"
 import type { RecipeSummary } from "@/types/recipe"
 
 const BASE = import.meta.env.BASE_URL
 
-export function RecipeCard({ recipe }: { recipe: RecipeSummary }) {
+export function RecipeCard({ recipe: rawRecipe }: { recipe: RecipeSummary }) {
+  const { i18n } = useTranslation()
+  const recipe = localizeRecipeSummary(rawRecipe, i18n.language)
   const totalTime = recipe.prepTime + recipe.cookTime
 
   return (

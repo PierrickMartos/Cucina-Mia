@@ -34,5 +34,65 @@
     "Salare le melanzane toglie l'amaro e le rende meno spugnose in frittura.",
     "Per una versione più leggera, grigliare le melanzane invece di friggerle.",
     "La parmigiana è ancora più buona il giorno dopo, riscaldata."
-  ]
+  ],
+  "translations": {
+    "en": {
+      "description": "Layers of fried aubergine, tomato sauce, mozzarella and Parmigiano gratinated in the oven.",
+      "ingredients": [
+        {
+          "items": [
+            "3 large aubergines",
+            "500g tomato passata",
+            "250g fior di latte mozzarella",
+            "100g grated Parmigiano Reggiano",
+            "Fresh basil to taste",
+            "Oil for frying to taste",
+            "Salt to taste"
+          ]
+        }
+      ],
+      "steps": [
+        { "text": "Slice the aubergines 5mm thick, salt them and leave to drain for 30 minutes. Pat dry." },
+        { "text": "Fry the aubergine slices in plenty of oil until golden. Drain on kitchen paper." },
+        { "text": "Make the sauce: cook the passata with basil, oil and salt for 15 minutes." },
+        { "text": "In a baking dish, alternate layers of aubergine, sauce, sliced mozzarella and Parmigiano." },
+        { "text": "Finish with sauce and plenty of Parmigiano. Bake at 180°C for 30-35 minutes." },
+        { "text": "Leave to rest for 15 minutes before cutting. Serve warm." }
+      ],
+      "tips": [
+        "Salting the aubergines removes the bitterness and makes them less spongy when frying.",
+        "For a lighter version, grill the aubergines instead of frying.",
+        "The parmigiana is even better the next day, reheated."
+      ]
+    },
+    "fr": {
+      "description": "Couches d'aubergines frites, sauce tomate, mozzarella et Parmigiano gratinées au four.",
+      "ingredients": [
+        {
+          "items": [
+            "3 grosses aubergines",
+            "500g de coulis de tomates",
+            "250g de mozzarella fior di latte",
+            "100g de Parmigiano Reggiano râpé",
+            "Basilic frais q.s.",
+            "Huile pour friture q.s.",
+            "Sel q.s."
+          ]
+        }
+      ],
+      "steps": [
+        { "text": "Couper les aubergines en tranches de 5mm, les saler et les laisser dégorger 30 minutes. Bien les sécher." },
+        { "text": "Faire frire les tranches d'aubergines dans beaucoup d'huile jusqu'à dorure. Égoutter sur du papier absorbant." },
+        { "text": "Préparer la sauce : cuire le coulis avec le basilic, l'huile et le sel pendant 15 minutes." },
+        { "text": "Dans un plat, alterner des couches d'aubergines, sauce, mozzarella en tranches et Parmigiano." },
+        { "text": "Terminer avec de la sauce et beaucoup de Parmigiano. Enfourner à 180°C pendant 30-35 minutes." },
+        { "text": "Laisser reposer 15 minutes avant de découper. Servir tiède." }
+      ],
+      "tips": [
+        "Saler les aubergines élimine l'amertume et les rend moins spongieuses à la friture.",
+        "Pour une version plus légère, griller les aubergines au lieu de les frire.",
+        "La parmigiana est encore meilleure le lendemain, réchauffée."
+      ]
+    }
+  }
 }

@@ -35,28 +35,100 @@
     }
   ],
   "steps": [
-    {
-      "text": "Sciogliere il lievito nell'acqua tiepida con lo zucchero. Mescolare la farina con il sale, aggiungere il composto di lievito e l'olio. Impastare per 5 minuti fino a ottenere un impasto liscio."
-    },
-    {
-      "text": "Lasciare lievitare l'impasto coperto per 30 minuti in un luogo tiepido."
-    },
-    {
-      "text": "Preriscaldare il forno a 220°C. Dividere l'impasto in 8 palline e stenderle in dischetti rotondi su una teglia con carta forno."
-    },
-    {
-      "text": "Spalmare un cucchiaio di passata su ogni dischetto, lasciando un bordo."
-    },
-    {
-      "text": "Aggiungere la mozzarella a pezzetti. Decorare ogni pizza con una faccina: olive tagliate a metà per gli occhi, mezzo pomodorino per il naso e una striscia di peperone per il sorriso."
-    },
-    {
-      "text": "Infornare per 10-12 minuti fino a doratura. Aggiungere una fogliolina di basilico come cappello e servire!"
-    }
+    { "text": "Sciogliere il lievito nell'acqua tiepida con lo zucchero. Mescolare la farina con il sale, aggiungere il composto di lievito e l'olio. Impastare per 5 minuti fino a ottenere un impasto liscio." },
+    { "text": "Lasciare lievitare l'impasto coperto per 30 minuti in un luogo tiepido." },
+    { "text": "Preriscaldare il forno a 220°C. Dividere l'impasto in 8 palline e stenderle in dischetti rotondi su una teglia con carta forno." },
+    { "text": "Spalmare un cucchiaio di passata su ogni dischetto, lasciando un bordo." },
+    { "text": "Aggiungere la mozzarella a pezzetti. Decorare ogni pizza con una faccina: olive tagliate a metà per gli occhi, mezzo pomodorino per il naso e una striscia di peperone per il sorriso." },
+    { "text": "Infornare per 10-12 minuti fino a doratura. Aggiungere una fogliolina di basilico come cappello e servire!" }
   ],
   "tips": [
     "Lasciate che i bambini decorino le loro faccine — ognuna sarà unica!",
     "Potete usare anche mais, piselli o carote per decorazioni extra.",
     "L'impasto si può preparare in anticipo e conservare in frigo per una notte."
-  ]
+  ],
+  "translations": {
+    "en": {
+      "description": "Fun mini pizzas with smiling faces made of olives, cherry tomatoes and peppers — perfect for little chefs!",
+      "ingredients": [
+        {
+          "group": "Dough",
+          "items": [
+            "250g 00 flour",
+            "125ml warm water",
+            "5g fresh yeast",
+            "1 teaspoon sugar",
+            "1 tablespoon extra virgin olive oil",
+            "A pinch of salt"
+          ]
+        },
+        {
+          "group": "Topping",
+          "items": [
+            "200g tomato passata",
+            "150g mozzarella",
+            "8 black olives (for the eyes)",
+            "4 cherry tomatoes (for the nose)",
+            "1 yellow pepper (for the smile)",
+            "Fresh basil leaves",
+            "Oregano to taste"
+          ]
+        }
+      ],
+      "steps": [
+        { "text": "Dissolve the yeast in the warm water with the sugar. Mix the flour with the salt, add the yeast mixture and oil. Knead for 5 minutes until smooth." },
+        { "text": "Leave the dough to rise covered for 30 minutes in a warm place." },
+        { "text": "Preheat the oven to 220°C. Divide the dough into 8 balls and press them into round discs on a lined baking tray." },
+        { "text": "Spread a spoonful of passata on each disc, leaving a border." },
+        { "text": "Add the mozzarella in pieces. Decorate each pizza with a face: halved olives for eyes, a halved cherry tomato for the nose and a pepper strip for the smile." },
+        { "text": "Bake for 10-12 minutes until golden. Add a basil leaf as a hat and serve!" }
+      ],
+      "tips": [
+        "Let the kids decorate their own faces — each one will be unique!",
+        "You can also use corn, peas or carrots for extra decorations.",
+        "The dough can be made in advance and kept in the fridge overnight."
+      ]
+    },
+    "fr": {
+      "description": "Mini pizzas amusantes avec des petites têtes souriantes faites d'olives, tomates cerises et poivrons — parfaites pour les petits chefs !",
+      "ingredients": [
+        {
+          "group": "Pâte",
+          "items": [
+            "250g de farine 00",
+            "125ml d'eau tiède",
+            "5g de levure fraîche",
+            "1 cuillère à café de sucre",
+            "1 cuillère à soupe d'huile d'olive extra vierge",
+            "Une pincée de sel"
+          ]
+        },
+        {
+          "group": "Garniture",
+          "items": [
+            "200g de coulis de tomates",
+            "150g de mozzarella",
+            "8 olives noires (pour les yeux)",
+            "4 tomates cerises (pour le nez)",
+            "1 poivron jaune (pour le sourire)",
+            "Feuilles de basilic frais",
+            "Origan q.s."
+          ]
+        }
+      ],
+      "steps": [
+        { "text": "Dissoudre la levure dans l'eau tiède avec le sucre. Mélanger la farine avec le sel, ajouter le mélange de levure et l'huile. Pétrir 5 minutes jusqu'à obtenir une pâte lisse." },
+        { "text": "Laisser lever la pâte couverte pendant 30 minutes dans un endroit tiède." },
+        { "text": "Préchauffer le four à 220°C. Diviser la pâte en 8 boules et les étaler en disques ronds sur une plaque avec du papier cuisson." },
+        { "text": "Étaler une cuillère de coulis sur chaque disque en laissant un bord." },
+        { "text": "Ajouter la mozzarella en morceaux. Décorer chaque pizza avec une petite tête : olives coupées en deux pour les yeux, demi-tomate cerise pour le nez et une lanière de poivron pour le sourire." },
+        { "text": "Enfourner 10-12 minutes jusqu'à dorure. Ajouter une petite feuille de basilic en guise de chapeau et servir !" }
+      ],
+      "tips": [
+        "Laissez les enfants décorer leurs propres têtes — chacune sera unique !",
+        "Vous pouvez aussi utiliser du maïs, des petits pois ou des carottes pour des décorations supplémentaires.",
+        "La pâte peut être préparée à l'avance et conservée au réfrigérateur pour la nuit."
+      ]
+    }
+  }
 }
