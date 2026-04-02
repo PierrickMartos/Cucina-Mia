@@ -1702,8 +1702,8 @@
     "title": "Polpette al sugo",
     "description": "Des boulettes de viande juteuses mijotées dans une riche sauce tomate aux herbes fraîches, un grand classique de la cuisine italienne.",
     "images": {
-      "cover": "images/recipes/polpette-al-sugo/cover.svg",
-      "web": "images/recipes/polpette-al-sugo/cover.svg"
+      "cover": "images/recipes/polpette-al-sugo/cover.jpg",
+      "web": "images/recipes/polpette-al-sugo/web.jpg"
     },
     "prepTime": 30,
     "cookTime": 45,
