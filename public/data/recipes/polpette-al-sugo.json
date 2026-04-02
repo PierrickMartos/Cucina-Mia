@@ -1,0 +1,191 @@
+{
+  "slug": "polpette-al-sugo",
+  "title": "Polpette al sugo",
+  "description": "De savoureuses boulettes de viande mijotées dans une sauce tomate parfumée au basilic, un grand classique de la cuisine italienne.",
+  "images": {
+    "cover": "images/recipes/polpette-al-sugo/cover.svg",
+    "web": "images/recipes/polpette-al-sugo/cover.svg"
+  },
+  "prepTime": 20,
+  "cookTime": 35,
+  "servings": 7,
+  "difficulty": "Facile",
+  "category": "Secondi",
+  "tags": [
+    "bœuf",
+    "tomate",
+    "mijoté",
+    "italien",
+    "plat-principal",
+    "réconfortant",
+    "enfants",
+    "chaud",
+    "convivial",
+    "économique"
+  ],
+  "ingredients": [
+    {
+      "group": "Boulettes",
+      "items": [
+        "400 à 500g de bœuf haché",
+        "1 à 2 œufs",
+        "2 c.à.s. de parmesan râpé",
+        "2 tranches de pain de mie trempées dans du lait",
+        "Ail en poudre",
+        "1 c.à.c. de persil plat haché",
+        "Sel et poivre"
+      ]
+    },
+    {
+      "group": "Sauce",
+      "items": [
+        "50g de beurre",
+        "1,5 c.à.s. d'huile d'olive",
+        "1 gousse d'ail hachée",
+        "400 à 500g de passata",
+        "2 c.à.s. de coulis de tomate",
+        "2 c.à.s. de basilic haché",
+        "Sel et poivre"
+      ]
+    }
+  ],
+  "steps": [
+    {
+      "text": "Dans un grand récipient, mélanger le bœuf haché, les œufs, le parmesan, la mie de pain essorée, l'ail en poudre, le persil, le sel et le poivre jusqu'à obtenir une farce homogène."
+    },
+    {
+      "text": "Former des boulettes de la taille d'une balle de golf, environ 4 à 5 cm de diamètre."
+    },
+    {
+      "text": "Dans une large poêle, faire fondre le beurre avec l'huile d'olive à feu moyen. Faire revenir l'ail haché 1 minute sans le laisser colorer."
+    },
+    {
+      "text": "Ajouter la passata et le coulis de tomate. Saler, poivrer et laisser mijoter 5 minutes."
+    },
+    {
+      "text": "Déposer délicatement les boulettes dans la sauce. Couvrir et laisser cuire à feu doux pendant 25 à 30 minutes en retournant les boulettes à mi-cuisson."
+    },
+    {
+      "text": "Parsemer de basilic haché juste avant de servir."
+    }
+  ],
+  "tips": [
+    "Ne pas trop mélanger la farce pour que les boulettes restent tendres.",
+    "La sauce peut être préparée à l'avance et réchauffée avec les boulettes.",
+    "Servir avec des spaghetti ou des pâtes courtes, ou simplement du pain croustillant."
+  ],
+  "translations": {
+    "en": {
+      "title": "Polpette al sugo",
+      "description": "Tender Italian meatballs simmered in a fragrant tomato and basil sauce, a comforting classic from Italian cuisine.",
+      "tags": ["beef", "tomato", "simmered", "italian", "main-course", "comfort-food", "kids", "hot", "sharing", "budget-friendly"],
+      "ingredients": [
+        {
+          "group": "Meatballs",
+          "items": [
+            "400 to 500g ground beef",
+            "1 to 2 eggs",
+            "2 tbsp grated parmesan",
+            "2 slices of white bread soaked in milk",
+            "Garlic powder",
+            "1 tsp chopped flat-leaf parsley",
+            "Salt and pepper"
+          ]
+        },
+        {
+          "group": "Sauce",
+          "items": [
+            "50g butter",
+            "1.5 tbsp olive oil",
+            "1 garlic clove, minced",
+            "400 to 500g passata",
+            "2 tbsp tomato coulis",
+            "2 tbsp chopped basil",
+            "Salt and pepper"
+          ]
+        }
+      ],
+      "steps": [
+        {
+          "text": "In a large bowl, mix together the ground beef, eggs, parmesan, squeezed bread, garlic powder, parsley, salt and pepper until well combined."
+        },
+        {
+          "text": "Shape the mixture into meatballs about the size of a golf ball, roughly 4 to 5 cm in diameter."
+        },
+        {
+          "text": "In a wide pan, melt the butter with the olive oil over medium heat. Sauté the minced garlic for 1 minute without browning."
+        },
+        {
+          "text": "Add the passata and tomato coulis. Season with salt and pepper and simmer for 5 minutes."
+        },
+        {
+          "text": "Gently place the meatballs into the sauce. Cover and cook over low heat for 25 to 30 minutes, turning the meatballs halfway through."
+        },
+        {
+          "text": "Scatter chopped basil over the top just before serving."
+        }
+      ],
+      "tips": [
+        "Do not overmix the meat mixture so the meatballs stay tender.",
+        "The sauce can be made in advance and reheated with the meatballs.",
+        "Serve with spaghetti or short pasta, or simply with crusty bread."
+      ]
+    },
+    "it": {
+      "title": "Polpette al sugo",
+      "description": "Soffici polpette di manzo cotte a fuoco lento in un saporito sugo di pomodoro al basilico, un grande classico della cucina italiana.",
+      "tags": ["manzo", "pomodoro", "stufato", "italiano", "secondo-piatto", "comfort-food", "bambini", "caldo", "conviviale", "economico"],
+      "ingredients": [
+        {
+          "group": "Polpette",
+          "items": [
+            "400-500g di carne macinata di manzo",
+            "1-2 uova",
+            "2 cucchiai di parmigiano grattugiato",
+            "2 fette di pane in cassetta ammollate nel latte",
+            "Aglio in polvere",
+            "1 cucchiaino di prezzemolo tritato",
+            "Sale e pepe"
+          ]
+        },
+        {
+          "group": "Sugo",
+          "items": [
+            "50g di burro",
+            "1,5 cucchiai di olio d'oliva",
+            "1 spicchio d'aglio tritato",
+            "400-500g di passata di pomodoro",
+            "2 cucchiai di concentrato di pomodoro",
+            "2 cucchiai di basilico tritato",
+            "Sale e pepe"
+          ]
+        }
+      ],
+      "steps": [
+        {
+          "text": "In una ciotola capiente, mescolare la carne macinata, le uova, il parmigiano, il pane strizzato, l'aglio in polvere, il prezzemolo, il sale e il pepe fino ad ottenere un impasto omogeneo."
+        },
+        {
+          "text": "Formare delle polpette delle dimensioni di una pallina da golf, circa 4-5 cm di diametro."
+        },
+        {
+          "text": "In una larga padella, sciogliere il burro con l'olio d'oliva a fuoco medio. Soffriggere l'aglio tritato per 1 minuto senza farlo dorare."
+        },
+        {
+          "text": "Aggiungere la passata e il concentrato di pomodoro. Salare, pepare e lasciar cuocere 5 minuti."
+        },
+        {
+          "text": "Adagiare delicatamente le polpette nel sugo. Coprire e cuocere a fuoco basso per 25-30 minuti, girando le polpette a metà cottura."
+        },
+        {
+          "text": "Cospargere di basilico tritato appena prima di servire."
+        }
+      ],
+      "tips": [
+        "Non impastare troppo il composto per mantenere le polpette morbide.",
+        "Il sugo può essere preparato in anticipo e riscaldato con le polpette.",
+        "Servire con spaghetti o pasta corta, oppure semplicemente con del pane croccante."
+      ]
+    }
+  }
+}
