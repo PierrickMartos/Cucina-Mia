@@ -180,7 +180,7 @@ export function RecipePage() {
                   return (
                     <li key={key}>
                       <label
-                        className="flex items-center gap-4 py-3 cursor-pointer group"
+                        className="flex items-center gap-4 py-1.5 cursor-pointer group"
                         onClick={() => toggleCheck(key)}
                       >
                         <div
@@ -225,7 +225,7 @@ export function RecipePage() {
         </section>
       ) : (
         <section className="mb-8">
-          <ol className="space-y-6">
+          <ol className="space-y-4">
             {recipe.steps.map((step, i) => (
               <li key={i} className="flex gap-4">
                 <span className="flex h-8 w-8 shrink-0 items-center justify-center rounded-full bg-primary text-primary-foreground text-sm font-bold">
