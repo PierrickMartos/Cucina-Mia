@@ -19,8 +19,13 @@
     "japonais",
     "porc",
     "riz",
-    "panko",
-    "friture"
+    "friture",
+    "réconfortant",
+    "chaud",
+    "plat-principal",
+    "umami",
+    "asiatique",
+    "œufs"
   ],
   "ingredients": [
     {
@@ -91,6 +96,7 @@
     "en": {
       "title": "Katsudon",
       "description": "Katsudon is a comforting Japanese dish of panko-breaded pork cutlet (tonkatsu) simmered in a dashi-soy sauce with onions and eggs, served over a bowl of steamed rice.",
+      "tags": ["japanese", "pork", "rice", "fried", "comforting", "hot", "main-course", "umami", "asian", "eggs"],
       "ingredients": [
         {
           "group": "For the meat",
@@ -160,6 +166,7 @@
     "it": {
       "title": "Katsudon",
       "description": "Il katsudon è un piatto giapponese confortante a base di cotoletta di maiale impanata nel panko (tonkatsu), cotta a fuoco lento in una salsa dashi-soia con cipolla e uova, servita su una ciotola di riso caldo.",
+      "tags": ["giapponese", "maiale", "riso", "fritto", "confortante", "caldo", "piatto-principale", "umami", "asiatico", "uova"],
       "ingredients": [
         {
           "group": "Per la carne",

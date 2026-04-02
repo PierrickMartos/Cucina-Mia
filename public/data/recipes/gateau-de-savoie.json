@@ -16,11 +16,15 @@
   "difficulty": "Medio",
   "category": "Dolci",
   "tags": [
-    "gateau",
-    "sponge",
-    "citron",
-    "maizena",
-    "moelleux"
+    "four",
+    "dessert",
+    "français",
+    "végétarien",
+    "moelleux",
+    "léger",
+    "traditionnel",
+    "goûter",
+    "acidulé"
   ],
   "ingredients": [
     {
@@ -78,6 +82,7 @@
     "en": {
       "title": "Gâteau de Savoie",
       "description": "Traditional Savoyard cake, ultra-light and airy, made with cornstarch and whipped egg whites with a delicate lemon flavor.",
+      "tags": ["oven", "dessert", "french", "vegetarian", "soft", "light", "traditional", "snack", "tangy"],
       "ingredients": [
         {
           "items": [
@@ -133,6 +138,7 @@
     "it": {
       "title": "Torta di Savoia",
       "description": "Torta tradizionale savoiarda, leggerissima e ariosa, realizzata con amido di mais e albumi montati a neve con un delicato aroma di limone.",
+      "tags": ["forno", "dessert", "francese", "vegetariano", "morbido", "leggero", "tradizionale", "merenda", "acidulo"],
       "ingredients": [
         {
           "items": [

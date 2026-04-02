@@ -17,7 +17,7 @@ export function SearchBar({ value, onChange }: SearchBarProps) {
         placeholder={t("recipes.searchPlaceholder")}
         value={value}
         onChange={(e) => onChange(e.target.value)}
-        className="bg-transparent border-none focus-visible:ring-0 focus-visible:ring-offset-0 w-full text-base md:text-sm font-body placeholder:text-outline p-0 h-auto"
+        className="bg-transparent border-none focus-visible:ring-0 focus-visible:ring-offset-0 focus-visible:shadow-none w-full text-base md:text-sm font-body placeholder:text-outline p-0 h-auto"
       />
     </div>
   )

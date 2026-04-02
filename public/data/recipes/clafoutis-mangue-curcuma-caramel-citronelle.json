@@ -12,11 +12,15 @@
   "difficulty": "Facile",
   "category": "Dolci",
   "tags": [
-    "clafoutis",
-    "mangue",
-    "curcuma",
-    "caramel",
-    "citronelle"
+    "four",
+    "dessert",
+    "végétarien",
+    "fruits",
+    "exotique",
+    "moelleux",
+    "fondant",
+    "été",
+    "épicé"
   ],
   "ingredients": [
     {
@@ -80,6 +84,7 @@
     "en": {
       "title": "Mango Turmeric Clafoutis with Lemongrass Caramel",
       "description": "A soft mango and turmeric clafoutis, drizzled with a velvety caramel sauce infused with lemongrass and kaffir lime leaves.",
+      "tags": ["oven", "dessert", "vegetarian", "fruit", "exotic", "soft", "melt-in-mouth", "summer", "spiced"],
       "ingredients": [
         {
           "group": "Clafoutis",
@@ -141,6 +146,7 @@
     "it": {
       "title": "Clafoutis di Mango alla Curcuma con Caramello alla Citronella",
       "description": "Un morbido clafoutis di mango alla curcuma, nappato di una vellutata salsa caramello alla citronella e foglie di combava.",
+      "tags": ["forno", "dessert", "vegetariano", "frutta", "esotico", "morbido", "fondente", "estate", "speziato"],
       "ingredients": [
         {
           "group": "Clafoutis",

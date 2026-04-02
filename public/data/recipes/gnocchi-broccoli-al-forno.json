@@ -12,11 +12,16 @@
   "difficulty": "Facile",
   "category": "Secondi",
   "tags": [
-    "gnocchi",
-    "brocoli",
     "four",
     "végétarien",
-    "pecorino"
+    "rapide",
+    "légumes",
+    "plat-principal",
+    "chaud",
+    "réconfortant",
+    "fromage",
+    "one-pot",
+    "italien"
   ],
   "source": "https://owiowifouettemoi.com",
   "ingredients": [
@@ -68,6 +73,7 @@
     "en": {
       "title": "Baked Gnocchi & Broccoli Madness",
       "description": "Gnocchi and broccoli oven-roasted on a single pan with lemon, garlic and pecorino. Ready in 25 minutes.",
+      "tags": ["oven", "vegetarian", "quick", "vegetables", "main-course", "hot", "comforting", "cheese", "one-pan", "italian"],
       "ingredients": [
         {
           "items": [
@@ -117,6 +123,7 @@
     "it": {
       "title": "Gnocchi e Broccoli al Forno",
       "description": "Gnocchi e broccoli arrostiti in forno in un'unica teglia, con limone, aglio e pecorino. Pronti in 25 minuti.",
+      "tags": ["forno", "vegetariano", "veloce", "verdure", "primo-piatto", "caldo", "confortante", "formaggio", "one-pan", "italiano"],
       "ingredients": [
         {
           "items": [

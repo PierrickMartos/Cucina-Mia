@@ -8,6 +8,12 @@ import { Sheet, SheetContent, SheetHeader, SheetTitle } from "@/components/ui/sh
 const TIME_BUCKETS = ["quick", "medium", "long"] as const
 export type TimeBucket = (typeof TIME_BUCKETS)[number]
 
+const STEPS_BUCKETS = ["simple", "medium", "complex"] as const
+export type StepsBucket = (typeof STEPS_BUCKETS)[number]
+
+const INGREDIENTS_BUCKETS = ["few", "moderate", "many"] as const
+export type IngredientsBucket = (typeof INGREDIENTS_BUCKETS)[number]
+
 export const DIET_TAGS = ["végétarien", "végétalien", "vegan", "sans-gluten", "sans-lactose", "léger"] as const
 export const SEASON_TAGS = ["printemps", "été", "automne", "hiver", "noël", "pâques", "apéro", "fête"] as const
 
@@ -17,11 +23,15 @@ interface FilterDrawerProps {
   selectedCategories: string[]
   selectedDifficulties: string[]
   selectedTimes: TimeBucket[]
+  selectedSteps: StepsBucket[]
+  selectedIngredients: IngredientsBucket[]
   selectedDietTags: string[]
   selectedSeasonTags: string[]
   onCategoriesChange: (categories: string[]) => void
   onDifficultiesChange: (difficulties: string[]) => void
   onTimesChange: (times: TimeBucket[]) => void
+  onStepsChange: (steps: StepsBucket[]) => void
+  onIngredientsChange: (ingredients: IngredientsBucket[]) => void
   onDietTagsChange: (tags: string[]) => void
   onSeasonTagsChange: (tags: string[]) => void
 }
@@ -32,11 +42,15 @@ export function FilterDrawer({
   selectedCategories,
   selectedDifficulties,
   selectedTimes,
+  selectedSteps,
+  selectedIngredients,
   selectedDietTags,
   selectedSeasonTags,
   onCategoriesChange,
   onDifficultiesChange,
   onTimesChange,
+  onStepsChange,
+  onIngredientsChange,
   onDietTagsChange,
   onSeasonTagsChange,
 }: FilterDrawerProps) {
@@ -47,6 +61,8 @@ export function FilterDrawer({
     selectedCategories.length +
     selectedDifficulties.length +
     selectedTimes.length +
+    selectedSteps.length +
+    selectedIngredients.length +
     selectedDietTags.length +
     selectedSeasonTags.length
 
@@ -74,6 +90,22 @@ export function FilterDrawer({
     }
   }
 
+  function toggleSteps(bucket: StepsBucket) {
+    if (selectedSteps.includes(bucket)) {
+      onStepsChange(selectedSteps.filter((s) => s !== bucket))
+    } else {
+      onStepsChange([...selectedSteps, bucket])
+    }
+  }
+
+  function toggleIngredients(bucket: IngredientsBucket) {
+    if (selectedIngredients.includes(bucket)) {
+      onIngredientsChange(selectedIngredients.filter((i) => i !== bucket))
+    } else {
+      onIngredientsChange([...selectedIngredients, bucket])
+    }
+  }
+
   function toggleDietTag(tag: string) {
     if (selectedDietTags.includes(tag)) {
       onDietTagsChange(selectedDietTags.filter((t) => t !== tag))
@@ -94,6 +126,8 @@ export function FilterDrawer({
     onCategoriesChange([])
     onDifficultiesChange([])
     onTimesChange([])
+    onStepsChange([])
+    onIngredientsChange([])
     onDietTagsChange([])
     onSeasonTagsChange([])
   }
@@ -182,6 +216,50 @@ export function FilterDrawer({
                     onClick={() => toggleTime(bucket)}
                   >
                     {t(`timeOptions.${bucket}`)}
+                  </Badge>
+                ))}
+              </div>
+            </div>
+
+            <div>
+              <h4 className="font-semibold text-[10px] uppercase tracking-widest text-muted-foreground mb-3">
+                {t("filter.steps")}
+              </h4>
+              <div className="flex flex-wrap gap-2">
+                {STEPS_BUCKETS.map((bucket) => (
+                  <Badge
+                    key={bucket}
+                    variant={selectedSteps.includes(bucket) ? "default" : "outline"}
+                    className={
+                      selectedSteps.includes(bucket)
+                        ? "cursor-pointer gradient-primary text-primary-foreground"
+                        : "cursor-pointer text-muted-foreground hover:bg-surface-high"
+                    }
+                    onClick={() => toggleSteps(bucket)}
+                  >
+                    {t(`stepsOptions.${bucket}`)}
+                  </Badge>
+                ))}
+              </div>
+            </div>
+
+            <div>
+              <h4 className="font-semibold text-[10px] uppercase tracking-widest text-muted-foreground mb-3">
+                {t("filter.ingredients")}
+              </h4>
+              <div className="flex flex-wrap gap-2">
+                {INGREDIENTS_BUCKETS.map((bucket) => (
+                  <Badge
+                    key={bucket}
+                    variant={selectedIngredients.includes(bucket) ? "default" : "outline"}
+                    className={
+                      selectedIngredients.includes(bucket)
+                        ? "cursor-pointer gradient-primary text-primary-foreground"
+                        : "cursor-pointer text-muted-foreground hover:bg-surface-high"
+                    }
+                    onClick={() => toggleIngredients(bucket)}
+                  >
+                    {t(`ingredientsOptions.${bucket}`)}
                   </Badge>
                 ))}
               </div>

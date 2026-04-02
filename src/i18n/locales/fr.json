@@ -35,9 +35,21 @@
     "category": "Catégorie",
     "difficulty": "Difficulté",
     "time": "Temps total",
+    "steps": "Nombre d'étapes",
+    "ingredients": "Nombre d'ingrédients",
     "diet": "Régime & style",
     "season": "Saison & occasion",
     "clearAll": "Supprimer tous les filtres"
+  },
+  "stepsOptions": {
+    "simple": "✌️ ≤ 4 étapes",
+    "medium": "👨‍🍳 5–7 étapes",
+    "complex": "🎓 ≥ 8 étapes"
+  },
+  "ingredientsOptions": {
+    "few": "🛒 ≤ 6 ingrédients",
+    "moderate": "🧺 7–11 ingrédients",
+    "many": "📦 ≥ 12 ingrédients"
   },
   "tags": {
     "végétarien": "🌿 Végétarien",

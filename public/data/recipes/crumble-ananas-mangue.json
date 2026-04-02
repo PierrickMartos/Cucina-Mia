@@ -16,11 +16,15 @@
   "difficulty": "Facile",
   "category": "Dolci",
   "tags": [
-    "crumble",
-    "ananas",
-    "mangue",
+    "four",
+    "dessert",
+    "végétarien",
+    "fruits",
     "exotique",
-    "dessert"
+    "croustillant",
+    "été",
+    "réconfortant",
+    "gourmand"
   ],
   "ingredients": [
     {
@@ -86,6 +90,7 @@
     "en": {
       "title": "Pineapple and Mango Crumble",
       "description": "An exotic fruit crumble with vanilla-caramelized pineapple, mango, and passion fruit, topped with a crunchy cinnamon biscuit.",
+      "tags": ["oven", "dessert", "vegetarian", "fruit", "exotic", "crispy", "summer", "comforting", "indulgent"],
       "ingredients": [
         {
           "group": "Fruit",
@@ -149,6 +154,7 @@
     "it": {
       "title": "Crumble Ananas e Mango",
       "description": "Un crumble ai frutti esotici con ananas caramellato alla vaniglia, mango e frutto della passione, ricoperto da un croccante biscotto alla cannella.",
+      "tags": ["forno", "dessert", "vegetariano", "frutta", "esotico", "croccante", "estate", "confortante", "goloso"],
       "ingredients": [
         {
           "group": "Frutta",

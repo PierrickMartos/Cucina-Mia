@@ -16,11 +16,14 @@
   "difficulty": "Medio",
   "category": "Dolci",
   "tags": [
-    "vanille",
-    "rhum",
-    "bordeaux",
-    "caramel",
-    "fours"
+    "four",
+    "dessert",
+    "français",
+    "croustillant",
+    "moelleux",
+    "préparation-à-lavance",
+    "gourmand",
+    "festif"
   ],
   "ingredients": [
     {
@@ -74,6 +77,7 @@
     "en": {
       "title": "Cannelés",
       "description": "Small Bordeaux pastries with a caramelized, crispy crust and a soft interior fragrant with vanilla and rum.",
+      "tags": ["oven", "dessert", "french", "crispy", "soft", "make-ahead", "indulgent", "festive"],
       "ingredients": [
         {
           "items": [
@@ -126,6 +130,7 @@
     "it": {
       "title": "Cannelés",
       "description": "Piccoli dolcetti bordolesi dalla crosta caramellata e croccante, con un interno morbido profumato alla vaniglia e al rum.",
+      "tags": ["forno", "dessert", "francese", "croccante", "morbido", "preparazione-in-anticipo", "goloso", "festivo"],
       "ingredients": [
         {
           "items": [

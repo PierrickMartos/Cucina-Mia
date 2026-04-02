@@ -7,6 +7,7 @@ export function localizeRecipeSummary(recipe: RecipeSummary, lang: string): Reci
     ...recipe,
     title: t.title ?? recipe.title,
     description: t.description ?? recipe.description,
+    tags: t.tags ?? recipe.tags,
   }
 }
 
@@ -17,6 +18,7 @@ export function localizeRecipeDetail(recipe: RecipeDetail, lang: string): Recipe
     ...recipe,
     title: t.title ?? recipe.title,
     description: t.description ?? recipe.description,
+    tags: t.tags ?? recipe.tags,
     ingredients: t.ingredients ?? recipe.ingredients,
     steps: t.steps ?? recipe.steps,
     tips: t.tips ?? recipe.tips,

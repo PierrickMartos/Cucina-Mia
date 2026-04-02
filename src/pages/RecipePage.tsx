@@ -16,8 +16,9 @@ export function RecipePage() {
   const { slug } = useParams<{ slug: string }>()
   const navigate = useNavigate()
   const { t, i18n } = useTranslation()
-  const [recipe, setRecipe] = useState<RecipeDetail | null>(null)
+  const [rawRecipe, setRawRecipe] = useState<RecipeDetail | null>(null)
   const [loading, setLoading] = useState(true)
+  const recipe = rawRecipe ? localizeRecipeDetail(rawRecipe, i18n.language) : null
   const [activeTab, setActiveTab] = useState<Tab>("ingredients")
   const [checked, setChecked] = useState<Set<string>>(new Set())
   const [headerBackVisible, setHeaderBackVisible] = useState(false)
@@ -40,7 +41,7 @@ export function RecipePage() {
         return res.json()
       })
       .then((data) => {
-        setRecipe(localizeRecipeDetail(data, i18n.language))
+        setRawRecipe(data)
         setLoading(false)
       })
       .catch(() => setLoading(false))

@@ -12,11 +12,16 @@
   "difficulty": "Facile",
   "category": "Breakfast",
   "tags": [
-    "avocado",
-    "œufs",
-    "toast",
     "petit-déjeuner",
-    "healthy"
+    "végétarien",
+    "rapide",
+    "léger",
+    "brunch",
+    "œufs",
+    "fruits",
+    "croquant",
+    "équilibré",
+    "finger-food"
   ],
   "ingredients": [
     {
@@ -55,6 +60,7 @@
     "en": {
       "title": "Avocado Toast",
       "description": "Crispy toast topped with cream cheese, sliced avocado, soft-boiled egg and crunchy radishes.",
+      "tags": ["breakfast", "vegetarian", "quick", "light", "brunch", "eggs", "fruit", "crispy", "balanced", "finger-food"],
       "ingredients": [
         {
           "items": [
@@ -88,6 +94,7 @@
     "it": {
       "title": "Avocado Toast",
       "description": "Toast croccante guarnito con formaggio fresco, fettine di avocado, uovo barzotto e ravanelli croccanti.",
+      "tags": ["colazione", "vegetariano", "veloce", "leggero", "brunch", "uova", "frutta", "croccante", "equilibrato", "finger-food"],
       "ingredients": [
         {
           "items": [

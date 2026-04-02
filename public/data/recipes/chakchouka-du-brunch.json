@@ -13,9 +13,15 @@
   "category": "Brunch",
   "tags": [
     "brunch",
-    "oeufs",
-    "tomate",
-    "épicé"
+    "végétarien",
+    "épicé",
+    "œufs",
+    "rapide",
+    "méditerranéen",
+    "poêle",
+    "convivial",
+    "chaud",
+    "léger"
   ],
   "ingredients": [
     {
@@ -68,6 +74,7 @@
     "en": {
       "title": "Brunch Shakshuka",
       "description": "Eggs poached in a spiced tomato sauce with peppers and onions, perfect for a gourmet brunch.",
+      "tags": ["brunch", "vegetarian", "spicy", "eggs", "quick", "mediterranean", "pan", "convivial", "hot", "light"],
       "ingredients": [
         {
           "items": [
@@ -119,6 +126,7 @@
     "it": {
       "title": "Chakchouka da Brunch",
       "description": "Uova in camicia in salsa di pomodoro speziata con peperoni e cipolle, perfetta per un brunch goloso.",
+      "tags": ["brunch", "vegetariano", "piccante", "uova", "veloce", "mediterraneo", "padella", "conviviale", "caldo", "leggero"],
       "ingredients": [
         {
           "items": [

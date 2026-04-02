@@ -4,7 +4,7 @@ import { useTranslation } from "react-i18next"
 import Fuse from "fuse.js"
 import { X } from "lucide-react"
 import { SearchBar } from "@/components/SearchBar"
-import { FilterDrawer, type TimeBucket } from "@/components/FilterDrawer"
+import { FilterDrawer, type TimeBucket, type StepsBucket, type IngredientsBucket } from "@/components/FilterDrawer"
 import { RecipeGrid } from "@/components/RecipeGrid"
 import { sortCategories, sortDifficulties } from "@/lib/categories"
 import { localizeRecipeSummary } from "@/lib/localize"
@@ -23,6 +23,8 @@ export function RecipesPage() {
   })
   const [selectedDifficulties, setSelectedDifficulties] = useState<string[]>([])
   const [selectedTimes, setSelectedTimes] = useState<TimeBucket[]>([])
+  const [selectedSteps, setSelectedSteps] = useState<StepsBucket[]>([])
+  const [selectedIngredients, setSelectedIngredients] = useState<IngredientsBucket[]>([])
   const [selectedDietTags, setSelectedDietTags] = useState<string[]>([])
   const [selectedSeasonTags, setSelectedSeasonTags] = useState<string[]>([])
   const { t, i18n } = useTranslation()
@@ -74,6 +76,29 @@ export function RecipesPage() {
     return "long"
   }
 
+  function getStepsBucket(stepCount: number | undefined): StepsBucket {
+    if (stepCount === undefined) return "medium"
+    if (stepCount <= 4) return "simple"
+    if (stepCount <= 7) return "medium"
+    return "complex"
+  }
+
+  function getIngredientsBucket(ingredientCount: number | undefined): IngredientsBucket {
+    if (ingredientCount === undefined) return "moderate"
+    if (ingredientCount <= 6) return "few"
+    if (ingredientCount <= 11) return "moderate"
+    return "many"
+  }
+
+  const hasActiveFilters =
+    selectedCategories.length > 0 ||
+    selectedDifficulties.length > 0 ||
+    selectedTimes.length > 0 ||
+    selectedSteps.length > 0 ||
+    selectedIngredients.length > 0 ||
+    selectedDietTags.length > 0 ||
+    selectedSeasonTags.length > 0
+
   const filtered = useMemo(() => {
     let result = search.trim()
       ? fuse.search(search).map((r) => r.item)
@@ -84,14 +109,24 @@ export function RecipesPage() {
     }
 
     if (selectedDifficulties.length > 0) {
-      result = result.filter((r) =>
-        selectedDifficulties.includes(r.difficulty)
-      )
+      result = result.filter((r) => selectedDifficulties.includes(r.difficulty))
     }
 
     if (selectedTimes.length > 0) {
       result = result.filter((r) =>
         selectedTimes.includes(getTimeBucket(r.prepTime, r.cookTime))
+      )
+    }
+
+    if (selectedSteps.length > 0) {
+      result = result.filter((r) =>
+        selectedSteps.includes(getStepsBucket(r.stepCount))
+      )
+    }
+
+    if (selectedIngredients.length > 0) {
+      result = result.filter((r) =>
+        selectedIngredients.includes(getIngredientsBucket(r.ingredientCount))
       )
     }
 
@@ -108,7 +143,7 @@ export function RecipesPage() {
     }
 
     return result
-  }, [localizedRecipes, fuse, search, selectedCategories, selectedDifficulties, selectedTimes, selectedDietTags, selectedSeasonTags])
+  }, [localizedRecipes, fuse, search, selectedCategories, selectedDifficulties, selectedTimes, selectedSteps, selectedIngredients, selectedDietTags, selectedSeasonTags])
 
   return (
     <div className="px-6 py-6">
@@ -129,20 +164,26 @@ export function RecipesPage() {
           selectedCategories={selectedCategories}
           selectedDifficulties={selectedDifficulties}
           selectedTimes={selectedTimes}
+          selectedSteps={selectedSteps}
+          selectedIngredients={selectedIngredients}
           selectedDietTags={selectedDietTags}
           selectedSeasonTags={selectedSeasonTags}
           onCategoriesChange={setSelectedCategories}
           onDifficultiesChange={setSelectedDifficulties}
           onTimesChange={setSelectedTimes}
+          onStepsChange={setSelectedSteps}
+          onIngredientsChange={setSelectedIngredients}
           onDietTagsChange={setSelectedDietTags}
           onSeasonTagsChange={setSelectedSeasonTags}
         />
-        {(selectedCategories.length > 0 || selectedDifficulties.length > 0 || selectedTimes.length > 0 || selectedDietTags.length > 0 || selectedSeasonTags.length > 0) && (
+        {hasActiveFilters && (
           <button
             onClick={() => {
               setSelectedCategories([])
               setSelectedDifficulties([])
               setSelectedTimes([])
+              setSelectedSteps([])
+              setSelectedIngredients([])
               setSelectedDietTags([])
               setSelectedSeasonTags([])
             }}

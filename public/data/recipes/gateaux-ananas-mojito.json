@@ -16,11 +16,16 @@
   "difficulty": "Medio",
   "category": "Dolci",
   "tags": [
-    "ananas",
-    "rhum",
-    "mojito",
-    "caramel",
-    "dessert"
+    "four",
+    "dessert",
+    "végétarien",
+    "fruits",
+    "exotique",
+    "moelleux",
+    "festif",
+    "été",
+    "gourmand",
+    "réconfortant"
   ],
   "ingredients": [
     {
@@ -66,6 +71,7 @@
     "en": {
       "title": "Pineapple Cakes with Mojito Syrup",
       "description": "Individual upside-down cakes with caramelized pineapple, drizzled with a mojito-style syrup of rum, mint, and lime.",
+      "tags": ["oven", "dessert", "vegetarian", "fruit", "exotic", "soft", "festive", "summer", "indulgent", "comforting"],
       "ingredients": [
         {
           "items": [
@@ -109,6 +115,7 @@
     "it": {
       "title": "Tortine all'Ananas con Sciroppo Mojito",
       "description": "Tortine rovesciate all'ananas caramellato, irrorate con uno sciroppo profumato al rum, menta e lime stile mojito.",
+      "tags": ["forno", "dessert", "vegetariano", "frutta", "esotico", "morbido", "festivo", "estate", "goloso", "confortante"],
       "ingredients": [
         {
           "items": [
