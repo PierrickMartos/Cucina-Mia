@@ -390,9 +390,11 @@
     ],
     "translations": {
       "en": {
+        "title": "Gâteau de Savoie",
         "description": "Traditional Savoyard cake, ultra-light and airy, made with cornstarch and whipped egg whites with a delicate lemon flavor."
       },
       "it": {
+        "title": "Torta di Savoia",
         "description": "Torta tradizionale savoiarda, leggerissima e ariosa, realizzata con amido di mais e albumi montati a neve con un delicato aroma di limone."
       }
     }
@@ -419,9 +421,11 @@
     ],
     "translations": {
       "en": {
+        "title": "Country Ham and Fresh Goat Cheese Ravioli with Pesto and Rocket",
         "description": "Ravioles filled with fresh goat cheese and country ham, topped with basil pesto and served with arugula and sun-dried tomatoes."
       },
       "it": {
+        "title": "Ravioli di Prosciutto Crudo e Caprino Fresco con Pesto e Rucola",
         "description": "Ravioli ripieni di caprino fresco e prosciutto crudo, nappati di pesto al basilico e serviti con rucola e pomodori secchi."
       }
     }
@@ -448,9 +452,11 @@
     ],
     "translations": {
       "en": {
+        "title": "Panna Cotta with Raspberries and Crispy Tuile",
         "description": "A silky Italian cream dessert served with a homemade raspberry coulis and a crunchy almond tuile."
       },
       "it": {
+        "title": "Panna Cotta ai Lamponi con Tegola Croccante",
         "description": "Un morbido dessert italiano alla panna, servito con un coulis di lamponi fatto in casa e una croccante tuile alle mandorle."
       }
     }
@@ -477,9 +483,11 @@
     ],
     "translations": {
       "en": {
+        "title": "Avocado Cream, Cucumber Mousse and Marinated Cherry Tomato",
         "description": "An elegant appetizer served in glasses: a creamy avocado base topped with a light cucumber mousse and basil-marinated cherry tomatoes."
       },
       "it": {
+        "title": "Crema di Avocado, Mousse al Cetriolo e Pomodorino Marinato",
         "description": "Un elegante antipasto in verrine: una crema di avocado vellutata sormontata da una mousse leggera al cetriolo e pomodorini marinati al basilico."
       }
     }
@@ -506,9 +514,11 @@
     ],
     "translations": {
       "en": {
+        "title": "Chicken Korma with Basmati Rice",
         "description": "Golden chicken cubes simmered in coconut milk flavored with garam masala, turmeric and cumin, served on a bed of basmati rice."
       },
       "it": {
+        "title": "Pollo Korma con Riso Basmati",
         "description": "Bocconcini di pollo dorati stufati in latte di cocco profumato con garam masala, curcuma e cumino, serviti su un letto di riso basmati."
       }
     }
@@ -535,9 +545,11 @@
     ],
     "translations": {
       "en": {
+        "title": "Macaroni with Ham and Black Truffle",
         "description": "Pasta tubes sautéed in butter and simmered in chicken stock, topped with sliced cooked ham and shaved black truffle, served with grated parmesan."
       },
       "it": {
+        "title": "Coquillettes Prosciutto e Tartufo Nero",
         "description": "Coquillettes saltate nel burro e cotte nel brodo di pollo, guarnite con lamelle di prosciutto cotto e tartufo nero affettato, servite con parmigiano grattugiato."
       }
     }
@@ -564,9 +576,11 @@
     ],
     "translations": {
       "en": {
+        "title": "Chocolate Lava Cake",
         "description": "Individual dark chocolate cake with a molten, flowing center, ready in just 20 minutes with only 5 ingredients."
       },
       "it": {
+        "title": "Coulant al Cioccolato",
         "description": "Piccolo tortino al cioccolato fondente con cuore morbido e colante, pronto in soli 20 minuti con 5 ingredienti."
       }
     }
@@ -593,9 +607,11 @@
     ],
     "translations": {
       "en": {
+        "title": "Katsudon",
         "description": "Katsudon is a comforting Japanese dish of panko-breaded pork cutlet (tonkatsu) simmered in a dashi-soy sauce with onions and eggs, served over a bowl of steamed rice."
       },
       "it": {
+        "title": "Katsudon",
         "description": "Il katsudon è un piatto giapponese confortante a base di cotoletta di maiale impanata nel panko (tonkatsu), cotta a fuoco lento in una salsa dashi-soia con cipolla e uova, servita su una ciotola di riso caldo."
       }
     }
@@ -622,9 +638,11 @@
     ],
     "translations": {
       "en": {
+        "title": "Baked Gnocchi & Broccoli Madness",
         "description": "Gnocchi and broccoli oven-roasted on a single pan with lemon, garlic and pecorino. Ready in 25 minutes."
       },
       "it": {
+        "title": "Gnocchi e Broccoli al Forno",
         "description": "Gnocchi e broccoli arrostiti in forno in un'unica teglia, con limone, aglio e pecorino. Pronti in 25 minuti."
       }
     }
@@ -651,10 +669,128 @@
     ],
     "translations": {
       "en": {
+        "title": "Gnocchi with Bell Pepper Cream",
         "description": "Potato gnocchi topped with a creamy roasted red pepper and parmesan sauce, a quick and flavourful recipe inspired by Tuscany."
       },
       "it": {
+        "title": "Gnocchi alla Crema di Peperone",
         "description": "Gnocchi di patate conditi con una vellutata crema di peperone rosso e parmigiano, una ricetta saporita e veloce ispirata alla Toscana."
+      }
+    }
+  },
+  {
+    "slug": "palets-cereales-abricots",
+    "title": "Palets aux céréales et abricots",
+    "description": "Biscuits énergétiques aux flocons d'avoine, amandes, noisettes, abricots secs et baies de goji, sans lactose et sans sucre ajouté.",
+    "images": {
+      "cover": "images/recipes/palets-cereales-abricots/cover.jpg",
+      "web": "images/recipes/palets-cereales-abricots/web.jpg"
+    },
+    "prepTime": 10,
+    "cookTime": 15,
+    "servings": 12,
+    "difficulty": "Facile",
+    "category": "Breakfast",
+    "tags": [
+      "sans-lactose",
+      "végétarien",
+      "avoine",
+      "abricot",
+      "céréales"
+    ],
+    "translations": {
+      "en": {
+        "description": "Energy biscuits made with oat flakes, almonds, hazelnuts, dried apricots and goji berries, lactose-free and with no added sugar."
+      },
+      "it": {
+        "description": "Biscotti energetici con fiocchi d'avena, mandorle, nocciole, albicocche secche e bacche di goji, senza lattosio e senza zuccheri aggiunti."
+      }
+    }
+  },
+  {
+    "slug": "creme-de-carottes-aux-pommes",
+    "title": "Crème de carottes aux pommes",
+    "description": "Une crème de carotte à la pomme, fraîche et colorée, parfaite pour un apéro dînatoire ou une entrée légère et gourmande.",
+    "images": {
+      "cover": "images/recipes/creme-de-carottes-aux-pommes/cover.jpg",
+      "web": "images/recipes/creme-de-carottes-aux-pommes/web.jpg"
+    },
+    "prepTime": 12,
+    "cookTime": 18,
+    "servings": 2,
+    "difficulty": "Facile",
+    "category": "Antipasti",
+    "tags": [
+      "verrine",
+      "vegan",
+      "végétarien",
+      "carotte",
+      "apéro"
+    ],
+    "translations": {
+      "en": {
+        "description": "A fresh and colorful carrot and apple cream, perfect for a cocktail appetizer or a light, indulgent starter."
+      },
+      "it": {
+        "description": "Una crema di carote alla mela, fresca e colorata, perfetta per un aperitivo sfiziante o un antipasto leggero e goloso."
+      }
+    }
+  },
+  {
+    "slug": "rouleaux-de-printemps",
+    "title": "Rouleaux de printemps",
+    "description": "Des rouleaux de printemps frais et légers à la thaïlandaise, garnis de légumes croquants et d'herbes aromatiques, servis avec une sauce citronnée.",
+    "images": {
+      "cover": "images/recipes/rouleaux-de-printemps/cover.jpg",
+      "web": "images/recipes/rouleaux-de-printemps/web.jpg"
+    },
+    "prepTime": 10,
+    "cookTime": 20,
+    "servings": 2,
+    "difficulty": "Facile",
+    "category": "Antipasti",
+    "tags": [
+      "rouleaux",
+      "riz",
+      "thaï",
+      "végétarien",
+      "fraîcheur"
+    ],
+    "translations": {
+      "en": {
+        "description": "Fresh and light Thai-inspired spring rolls filled with crunchy vegetables and aromatic herbs, served with a citrusy dipping sauce."
+      },
+      "it": {
+        "description": "Freschi e leggeri rotolini primavera in stile tailandese, ripieni di verdure croccanti ed erbe aromatiche, serviti con una salsa al limone."
+      }
+    }
+  },
+  {
+    "slug": "rouleaux-de-saison-fleurs-fruits-legumes",
+    "title": "Rouleaux de saison, fleurs, fruits et légumes",
+    "description": "Des rouleaux de riz garnis de légumes de saison, fleurs comestibles et basilic thaï, accompagnés d'une sauce tamarin, soja et cacahuètes.",
+    "images": {
+      "cover": "images/recipes/rouleaux-de-saison-fleurs-fruits-legumes/cover.jpg",
+      "web": "images/recipes/rouleaux-de-saison-fleurs-fruits-legumes/web.jpg"
+    },
+    "prepTime": 20,
+    "cookTime": 0,
+    "servings": 4,
+    "difficulty": "Facile",
+    "category": "Antipasti",
+    "tags": [
+      "rouleaux",
+      "riz",
+      "thaï",
+      "végétarien",
+      "tamarin"
+    ],
+    "translations": {
+      "en": {
+        "description": "Rice paper rolls filled with seasonal vegetables, edible flowers and Thai basil, served with a tamarind, soy and peanut dipping sauce."
+      },
+      "it": {
+        "description": "Rotolini di riso ripieni di verdure di stagione, fiori commestibili e basilico tailandese, accompagnati da una salsa al tamarindo, soia e arachidi."
       }
     }
   }

@@ -1,0 +1,112 @@
+{
+  "slug": "creme-de-carottes-aux-pommes",
+  "title": "Crème de carottes aux pommes",
+  "description": "Une crème de carotte à la pomme, fraîche et colorée, parfaite pour un apéro dînatoire ou une entrée légère et gourmande.",
+  "images": {
+    "cover": "images/recipes/creme-de-carottes-aux-pommes/cover.jpg",
+    "web": "images/recipes/creme-de-carottes-aux-pommes/web.jpg"
+  },
+  "imageCredit": {
+    "author": "congerdesign",
+    "url": "https://pixabay.com/users/congerdesign-509903/"
+  },
+  "prepTime": 12,
+  "cookTime": 18,
+  "servings": 2,
+  "difficulty": "Facile",
+  "category": "Antipasti",
+  "tags": [
+    "verrine",
+    "vegan",
+    "végétarien",
+    "carotte",
+    "apéro"
+  ],
+  "ingredients": [
+    {
+      "items": [
+        "2 carottes de taille moyenne",
+        "1/2 pomme rouge",
+        "1/2 cc de gingembre en poudre",
+        "1 pincée de sel",
+        "ciboulette ciselée (pour garnir, optionnel)"
+      ]
+    }
+  ],
+  "steps": [
+    {
+      "text": "Éplucher et couper les carottes en rondelles. Dans une casserole, couvrir d'eau à hauteur des carottes, bien saler et cuire environ 20 minutes jusqu'à ce qu'elles soient fondantes. Ajouter de l'eau si elle s'évapore trop vite."
+    },
+    {
+      "text": "Éplucher et couper la pomme en cubes. Placer dans le bol d'un mixeur avec les carottes cuites, un peu d'eau de cuisson et le gingembre en poudre. Mixer jusqu'à obtenir une crème soyeuse. Rectifier l'assaisonnement si besoin."
+    },
+    {
+      "text": "Verser dans de petites verrines et garnir de ciboulette ciselée pour un peu de verdure."
+    }
+  ],
+  "tips": [
+    "Le goût légèrement sucré et acidulé de la pomme apporte beaucoup de légèreté à cette crème.",
+    "Servir frais pour une entrée fraîcheur, ou tiède pour un amuse-bouche plus réconfortant."
+  ],
+  "source": "Dans l'assiette d'une confinée",
+  "translations": {
+    "en": {
+      "description": "A fresh and colorful carrot and apple cream, perfect for a cocktail appetizer or a light, indulgent starter.",
+      "ingredients": [
+        {
+          "items": [
+            "2 medium carrots",
+            "1/2 red apple",
+            "1/2 tsp ground ginger",
+            "1 pinch of salt",
+            "chives, chopped (for garnish, optional)"
+          ]
+        }
+      ],
+      "steps": [
+        {
+          "text": "Peel and slice the carrots into rounds. In a saucepan, cover with water, season well with salt and cook for about 20 minutes until tender. Add more water if it evaporates too quickly."
+        },
+        {
+          "text": "Peel and dice the apple. Place in a blender with the cooked carrots, a little cooking water and the ground ginger. Blend until silky smooth. Adjust seasoning if needed."
+        },
+        {
+          "text": "Pour into small glasses and garnish with chopped chives for a touch of green."
+        }
+      ],
+      "tips": [
+        "The slightly sweet and tangy flavor of the apple brings a wonderful lightness to this cream.",
+        "Serve cold as a refreshing starter, or warm as a comforting appetizer."
+      ]
+    },
+    "it": {
+      "description": "Una crema di carote alla mela, fresca e colorata, perfetta per un aperitivo sfiziante o un antipasto leggero e goloso.",
+      "ingredients": [
+        {
+          "items": [
+            "2 carote di media grandezza",
+            "1/2 mela rossa",
+            "1/2 cucchiaino di zenzero in polvere",
+            "1 pizzico di sale",
+            "erba cipollina tritata (per guarnire, facoltativo)"
+          ]
+        }
+      ],
+      "steps": [
+        {
+          "text": "Sbucciare e tagliare le carote a rondelle. In un pentolino, coprire d'acqua, salare bene e cuocere per circa 20 minuti fino a quando saranno morbide. Aggiungere acqua se evapora troppo in fretta."
+        },
+        {
+          "text": "Sbucciare e tagliare la mela a cubetti. Mettere nel bicchiere di un frullatore con le carote cotte, un po' di acqua di cottura e lo zenzero in polvere. Frullare fino a ottenere una crema vellutata. Aggiustare di sale se necessario."
+        },
+        {
+          "text": "Versare in piccole verrine e guarnire con erba cipollina tritata per un tocco di colore."
+        }
+      ],
+      "tips": [
+        "Il sapore leggermente dolce e acidulo della mela conferisce molta leggerezza a questa crema.",
+        "Servire fredda come antipasto fresco, o tiepida come amuse-bouche più confortante."
+      ]
+    }
+  }
+}

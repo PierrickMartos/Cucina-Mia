@@ -34,7 +34,13 @@
     "title": "Filtrer les recettes",
     "category": "Catégorie",
     "difficulty": "Difficulté",
+    "time": "Temps total",
     "clearAll": "Supprimer tous les filtres"
+  },
+  "timeOptions": {
+    "quick": "⚡ ≤ 20 min",
+    "medium": "🕐 21–45 min",
+    "long": "🍳 > 45 min"
   },
   "categories": {
     "Antipasti": "Entrées",

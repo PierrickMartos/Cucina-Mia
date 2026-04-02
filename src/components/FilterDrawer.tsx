@@ -5,13 +5,18 @@ import { Button } from "@/components/ui/button"
 import { Badge } from "@/components/ui/badge"
 import { Sheet, SheetContent, SheetHeader, SheetTitle } from "@/components/ui/sheet"
 
+const TIME_BUCKETS = ["quick", "medium", "long"] as const
+export type TimeBucket = (typeof TIME_BUCKETS)[number]
+
 interface FilterDrawerProps {
   categories: string[]
   difficulties: string[]
   selectedCategories: string[]
   selectedDifficulties: string[]
+  selectedTimes: TimeBucket[]
   onCategoriesChange: (categories: string[]) => void
   onDifficultiesChange: (difficulties: string[]) => void
+  onTimesChange: (times: TimeBucket[]) => void
 }
 
 export function FilterDrawer({
@@ -19,13 +24,15 @@ export function FilterDrawer({
   difficulties,
   selectedCategories,
   selectedDifficulties,
+  selectedTimes,
   onCategoriesChange,
   onDifficultiesChange,
+  onTimesChange,
 }: FilterDrawerProps) {
   const [open, setOpen] = useState(false)
   const { t } = useTranslation()
 
-  const activeCount = selectedCategories.length + selectedDifficulties.length
+  const activeCount = selectedCategories.length + selectedDifficulties.length + selectedTimes.length
 
   function toggleCategory(cat: string) {
     if (selectedCategories.includes(cat)) {
@@ -43,9 +50,18 @@ export function FilterDrawer({
     }
   }
 
+  function toggleTime(bucket: TimeBucket) {
+    if (selectedTimes.includes(bucket)) {
+      onTimesChange(selectedTimes.filter((t) => t !== bucket))
+    } else {
+      onTimesChange([...selectedTimes, bucket])
+    }
+  }
+
   function clearAll() {
     onCategoriesChange([])
     onDifficultiesChange([])
+    onTimesChange([])
   }
 
   return (
@@ -110,6 +126,28 @@ export function FilterDrawer({
                     onClick={() => toggleDifficulty(diff)}
                   >
                     {t(`difficulties.${diff}`, diff)}
+                  </Badge>
+                ))}
+              </div>
+            </div>
+
+            <div>
+              <h4 className="font-semibold text-[10px] uppercase tracking-widest text-muted-foreground mb-3">
+                {t("filter.time")}
+              </h4>
+              <div className="flex flex-wrap gap-2">
+                {TIME_BUCKETS.map((bucket) => (
+                  <Badge
+                    key={bucket}
+                    variant={selectedTimes.includes(bucket) ? "default" : "outline"}
+                    className={
+                      selectedTimes.includes(bucket)
+                        ? "cursor-pointer gradient-primary text-primary-foreground"
+                        : "cursor-pointer text-muted-foreground hover:bg-surface-high"
+                    }
+                    onClick={() => toggleTime(bucket)}
+                  >
+                    {t(`timeOptions.${bucket}`)}
                   </Badge>
                 ))}
               </div>

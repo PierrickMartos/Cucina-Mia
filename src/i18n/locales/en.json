@@ -34,7 +34,13 @@
     "title": "Filter recipes",
     "category": "Category",
     "difficulty": "Difficulty",
+    "time": "Total time",
     "clearAll": "Clear all filters"
+  },
+  "timeOptions": {
+    "quick": "⚡ ≤ 20 min",
+    "medium": "🕐 21–45 min",
+    "long": "🍳 > 45 min"
   },
   "categories": {
     "Antipasti": "Starters",

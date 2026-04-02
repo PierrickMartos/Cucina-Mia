@@ -4,7 +4,7 @@ import { useTranslation } from "react-i18next"
 import Fuse from "fuse.js"
 import { X } from "lucide-react"
 import { SearchBar } from "@/components/SearchBar"
-import { FilterDrawer } from "@/components/FilterDrawer"
+import { FilterDrawer, type TimeBucket } from "@/components/FilterDrawer"
 import { RecipeGrid } from "@/components/RecipeGrid"
 import { sortCategories, sortDifficulties } from "@/lib/categories"
 import { localizeRecipeSummary } from "@/lib/localize"
@@ -22,6 +22,7 @@ export function RecipesPage() {
     return cat ? [cat] : []
   })
   const [selectedDifficulties, setSelectedDifficulties] = useState<string[]>([])
+  const [selectedTimes, setSelectedTimes] = useState<TimeBucket[]>([])
   const { t, i18n } = useTranslation()
 
   const localizedRecipes = useMemo(
@@ -64,6 +65,13 @@ export function RecipesPage() {
     [localizedRecipes]
   )
 
+  function getTimeBucket(prepTime: number, cookTime: number): TimeBucket {
+    const total = prepTime + cookTime
+    if (total <= 20) return "quick"
+    if (total <= 45) return "medium"
+    return "long"
+  }
+
   const filtered = useMemo(() => {
     let result = search.trim()
       ? fuse.search(search).map((r) => r.item)
@@ -79,8 +87,14 @@ export function RecipesPage() {
       )
     }
 
+    if (selectedTimes.length > 0) {
+      result = result.filter((r) =>
+        selectedTimes.includes(getTimeBucket(r.prepTime, r.cookTime))
+      )
+    }
+
     return result
-  }, [localizedRecipes, fuse, search, selectedCategories, selectedDifficulties])
+  }, [localizedRecipes, fuse, search, selectedCategories, selectedDifficulties, selectedTimes])
 
   return (
     <div className="px-6 py-6">
@@ -100,14 +114,17 @@ export function RecipesPage() {
           difficulties={difficulties}
           selectedCategories={selectedCategories}
           selectedDifficulties={selectedDifficulties}
+          selectedTimes={selectedTimes}
           onCategoriesChange={setSelectedCategories}
           onDifficultiesChange={setSelectedDifficulties}
+          onTimesChange={setSelectedTimes}
         />
-        {(selectedCategories.length > 0 || selectedDifficulties.length > 0) && (
+        {(selectedCategories.length > 0 || selectedDifficulties.length > 0 || selectedTimes.length > 0) && (
           <button
             onClick={() => {
               setSelectedCategories([])
               setSelectedDifficulties([])
+              setSelectedTimes([])
             }}
             className="cursor-pointer flex items-center justify-center w-10 h-10 rounded-full bg-surface-high text-muted-foreground hover:bg-destructive/10 hover:text-destructive transition-colors shrink-0"
             aria-label={t("filter.clearAll")}

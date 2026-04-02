@@ -42,12 +42,35 @@ Parse the issue body. Each field appears as `### Field Name` followed by the val
 | Prep Time (minutes) | `prepTime` | Integer |
 | Cook Time (minutes) | `cookTime` | Integer |
 | Servings | `servings` | Integer |
-| Tags | `tags` | Split on commas, trim, lowercase array |
+| Tags | `tags` | Split on commas, trim, lowercase French array — see Tag Strategy below |
 | Ingredients | `ingredients` | See below |
 | Steps | `steps` | One per line -> `{"text": "..."}` |
 | Tips | `tips` | One per line, omit field if empty |
 | Source | `source` | Omit field if empty |
 | Cover Image | (for images) | If present, download and use as recipe cover |
+
+**Tag Strategy:**
+
+Tags are always in **French** in the base JSON (and translated into EN/IT in the translations block). Aim for 4–8 tags per recipe chosen from the discovery dimensions below. Pick only tags that genuinely apply.
+
+| Dimension | French examples |
+|---|---|
+| Cooking method | `four`, `vapeur`, `poêle`, `plancha`, `wok`, `grillé`, `friture`, `cru`, `no-cuisson`, `mijoté`, `bain-marie` |
+| Season / occasion | `printemps`, `été`, `automne`, `hiver`, `noël`, `pâques`, `apéro`, `fête`, `pique-nique`, `anniversaire`, `brunch`, `buffet` |
+| Diet / lifestyle | `végétarien`, `végétalien`, `sans-gluten`, `sans-lactose`, `léger`, `protéiné`, `riche-en-fibres`, `faible-calories`, `sans-sucre`, `équilibré` |
+| Ease of eating | `finger-food`, `à-la-cuillère`, `à-partager`, `en-verrines`, `en-sandwich` |
+| Audience | `enfants`, `toute-la-famille`, `adultes`, `bébés` |
+| Effort | `rapide`, `facile`, `économique`, `batch-cooking`, `préparation-à-lavance`, `5-ingrédients`, `one-pot` |
+| Texture / format | `croustillant`, `moelleux`, `fondant`, `croquant`, `onctueux` |
+| Meal type | `petit-déjeuner`, `goûter`, `entrée`, `plat-principal`, `dessert`, `snack` |
+| Cuisine origin | `italien`, `français`, `asiatique`, `méditerranéen`, `mexicain`, `japonais`, `indien`, `espagnol`, `américain` |
+| Main ingredient | `poulet`, `bœuf`, `porc`, `poisson`, `fruits-de-mer`, `pâtes`, `riz`, `œufs`, `légumes`, `fromage`, `chocolat`, `fruits` |
+| Mood / vibe | `réconfortant`, `festif`, `romantique`, `convivial`, `nostalgique`, `léger`, `gourmand` |
+| Served temperature | `chaud`, `froid`, `glacé`, `tiède` |
+| Practical life | `se-congèle`, `restes-bienvenus`, `meal-prep` |
+| Allergen-aware | `sans-noix`, `sans-œufs`, `sans-porc`, `halal`, `casher` |
+
+Single lowercase words or hyphenated compounds only. No accents in tag slugs (use `no-cuisson` not `no-cuisson` — keep accents where natural, e.g. `léger` is fine).
 
 **Ingredient parsing:**
 - Lines starting with `## ` begin a new group: `{"group": "Group Name", "items": [...]}`
@@ -69,7 +92,7 @@ Parse the issue body. Each field appears as `### Field Name` followed by the val
    - `prepTime`/`cookTime`: estimate from recipe
    - `servings`: default 4 if unclear
    - `category`: infer from dish type
-   - `tags`: 3-5 relevant lowercase Italian tags
+   - `tags`: 3-8 relevant lowercase tags
 
 ### From Unstructured URL Issues
 
@@ -84,7 +107,7 @@ Parse the issue body. Each field appears as `### Field Name` followed by the val
    - `prepTime`/`cookTime`: estimate from recipe or page metadata
    - `servings`: default 4 if unclear
    - `category`: infer from dish type
-   - `tags`: 3-5 relevant lowercase Italian tags
+   - `tags`: 3-8 relevant lowercase tags
 
 ## Step 3: Translate
 
@@ -98,6 +121,7 @@ Whatever language the source content is in, translate it to all three languages.
   "en": {
     "title": "English title",
     "description": "English description",
+    "tags": ["oven", "winter", "kids", "easy"],
     "ingredients": [{"items": ["ingredient in English"]}],
     "steps": [{"text": "Step in English"}],
     "tips": ["Tip in English"]
@@ -105,6 +129,7 @@ Whatever language the source content is in, translate it to all three languages.
   "it": {
     "title": "Italian title",
     "description": "Italian description",
+    "tags": ["forno", "inverno", "bambini", "facile"],
     "ingredients": [{"items": ["ingredient in Italian"]}],
     "steps": [{"text": "Step in Italian"}],
     "tips": ["Tip in Italian"]
@@ -112,11 +137,11 @@ Whatever language the source content is in, translate it to all three languages.
 }
 ```
 
-### Index JSON translations structure (title + description)
+### Index JSON translations structure (title + description + tags)
 ```json
 "translations": {
-  "en": { "title": "English title", "description": "English description" },
-  "it": { "title": "Italian title", "description": "Italian description" }
+  "en": { "title": "English title", "description": "English description", "tags": ["oven", "winter", "kids"] },
+  "it": { "title": "Italian title", "description": "Italian description", "tags": ["forno", "inverno", "bambini"] }
 }
 ```
 
@@ -131,7 +156,7 @@ Before writing files, check:
 3. **Required fields**: slug, title, description, prepTime, cookTime, servings, difficulty, category, tags (non-empty), ingredients (at least one item), steps (at least one)
 4. **Enums**: difficulty is "Facile"|"Medio"|"Difficile"; category is a known value
 5. **Numbers**: prepTime, cookTime, servings are non-negative integers
-6. **Translations**: both `en` and `it` translations are present with title, description, ingredients, steps, and tips (if tips exist in base)
+6. **Translations**: both `en` and `it` translations are present with title, description, tags, ingredients, steps, and tips (if tips exist in base)
 
 ## Step 5: Write the Recipe Detail JSON
 
@@ -235,6 +260,6 @@ Summarize:
 - **Unreachable URL** (unstructured URL): report the error and stop. Do not guess recipe content.
 - **Non-French source content**: translate to French for base fields, then to EN and IT for translations.
 - **Long descriptions**: keep to 1-2 sentences (<200 chars). Extra detail goes to tips.
-- **Tags**: single lowercase words or hyphenated compounds (e.g., `no-cottura`, `frutti-di-bosco`).
+- **Tags**: single lowercase words or hyphenated compounds in French (e.g., `four`, `no-cuisson`, `enfants`, `sans-gluten`, `été`). Translate to EN and IT in the translations block.
 - **Cook time 0**: valid (e.g., tiramisu, gelato).
 - **Category not in template dropdown**: accept if reasonable (e.g., "Bambini" is valid).
