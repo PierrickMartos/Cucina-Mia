@@ -5,6 +5,7 @@ import Fuse from "fuse.js"
 import { Input } from "@/components/ui/input"
 import { Skeleton } from "@/components/ui/skeleton"
 import { RecipeGrid } from "@/components/RecipeGrid"
+import { sortCategories } from "@/lib/categories"
 import { useTranslation } from "react-i18next"
 import type { RecipeSummary } from "@/types/recipe"
 
@@ -49,13 +50,16 @@ export function HomePage() {
       existing.push(r)
       map.set(r.category, existing)
     }
-    return Array.from(map.entries()).map(([category, items]) => ({
+    const cards = Array.from(map.entries()).map(([category, items]) => ({
       category,
       label: t(`categories.${category}`, category),
       image: CATEGORY_IMAGES[category] ?? items[0].image,
       count: items.length,
     }))
-  }, [recipes])
+    return sortCategories(cards.map((c) => c.category)).map(
+      (cat) => cards.find((c) => c.category === cat)!
+    )
+  }, [recipes, t])
 
   const fuse = useMemo(
     () =>
