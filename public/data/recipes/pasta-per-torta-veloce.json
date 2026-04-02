@@ -1,35 +1,55 @@
 {
   "slug": "pasta-per-torta-veloce",
   "title": "Pasta per Torta Veloce",
-  "description": "Impasto per torte salate pronto in 3 minuti con soli 3 ingredienti: farina, olio e acqua calda. Perfetto per i più piccoli.",
-  "image": "images/recipes/pasta-per-torta-veloce/cover.svg",
+  "description": "Pâte à tarte prête en 3 minutes avec seulement 3 ingrédients : farine, huile et eau chaude. Parfaite pour les tout-petits.",
+  "images": {
+    "cover": "images/recipes/pasta-per-torta-veloce/cover.svg",
+    "web": "images/recipes/pasta-per-torta-veloce/cover.svg"
+  },
   "prepTime": 3,
   "cookTime": 10,
   "servings": 6,
   "difficulty": "Facile",
   "category": "Bambini",
-  "tags": ["bambini", "base", "veloce", "facile"],
+  "tags": [
+    "enfants",
+    "base",
+    "rapide",
+    "facile"
+  ],
   "ingredients": [
     {
       "items": [
-        "200g di farina",
-        "80 ml di olio vegetale",
-        "80 ml di acqua calda"
+        "200g de farine",
+        "80 ml d'huile végétale",
+        "80 ml d'eau chaude"
       ]
     }
   ],
   "steps": [
-    { "text": "Versare la farina, l'olio e l'acqua calda in un contenitore ermetico." },
-    { "text": "Chiudere il contenitore e agitare energicamente una decina di volte in tutte le direzioni." },
-    { "text": "Aprire e raccogliere l'impasto a palla: è pronto subito, senza bisogno di riposo." },
-    { "text": "Stendere l'impasto su carta forno o un tappetino da pasticceria." },
-    { "text": "Trasferire nella teglia da torta e bucherellare con una forchetta." },
-    { "text": "Cuocere in bianco a 200°C per 10 minuti, poi aggiungere il ripieno e infornare per 20-40 minuti." }
+    {
+      "text": "Verser la farine, l'huile et l'eau chaude dans un contenant hermétique."
+    },
+    {
+      "text": "Fermer le contenant et secouer vigoureusement une dizaine de fois dans tous les sens."
+    },
+    {
+      "text": "Ouvrir et rassembler la pâte en boule : elle est prête immédiatement, sans temps de repos."
+    },
+    {
+      "text": "Étaler la pâte sur du papier cuisson ou un tapis de pâtisserie."
+    },
+    {
+      "text": "Transférer dans un moule à tarte et piquer avec une fourchette."
+    },
+    {
+      "text": "Cuire à blanc à 200°C pendant 10 minutes, puis ajouter la garniture et enfourner 20 à 40 minutes."
+    }
   ],
   "tips": [
-    "Si può sostituire la farina con farina di grano saraceno per una versione senza glutine (200g di farina di grano saraceno, 40 ml di olio, 120 ml di acqua calda).",
-    "Adatto dai 12 mesi in su.",
-    "Si può personalizzare aggiungendo semi, spezie o erbe aromatiche all'impasto."
+    "On peut remplacer la farine par de la farine de sarrasin pour une version sans gluten (200g de farine de sarrasin, 40 ml d'huile, 120 ml d'eau chaude).",
+    "Adaptée à partir de 12 mois.",
+    "On peut personnaliser en ajoutant des graines, des épices ou des herbes aromatiques à la pâte."
   ],
   "source": "https://www.cuisinez-pour-bebe.fr/pate-a-tarte-facile-et-rapide-inratable/",
   "translations": {
@@ -45,12 +65,24 @@
         }
       ],
       "steps": [
-        { "text": "Pour the flour, oil, and hot water into an airtight container." },
-        { "text": "Close the container and shake vigorously about ten times in all directions." },
-        { "text": "Open and gather the dough into a ball — it's ready immediately, no resting needed." },
-        { "text": "Roll out the dough on parchment paper or a pastry mat." },
-        { "text": "Transfer to a pie pan and prick with a fork." },
-        { "text": "Blind bake at 200°C for 10 minutes, then add the filling and bake for 20-40 minutes." }
+        {
+          "text": "Pour the flour, oil, and hot water into an airtight container."
+        },
+        {
+          "text": "Close the container and shake vigorously about ten times in all directions."
+        },
+        {
+          "text": "Open and gather the dough into a ball — it's ready immediately, no resting needed."
+        },
+        {
+          "text": "Roll out the dough on parchment paper or a pastry mat."
+        },
+        {
+          "text": "Transfer to a pie pan and prick with a fork."
+        },
+        {
+          "text": "Blind bake at 200°C for 10 minutes, then add the filling and bake for 20-40 minutes."
+        }
       ],
       "tips": [
         "You can substitute buckwheat flour for a gluten-free version (200g buckwheat flour, 40 ml oil, 120 ml hot water).",
@@ -58,29 +90,41 @@
         "Customize by adding seeds, spices, or herbs to the dough."
       ]
     },
-    "fr": {
-      "description": "Pâte à tarte prête en 3 minutes avec seulement 3 ingrédients : farine, huile et eau chaude. Parfaite pour les tout-petits.",
+    "it": {
+      "description": "Impasto per torte salate pronto in 3 minuti con soli 3 ingredienti: farina, olio e acqua calda. Perfetto per i più piccoli.",
       "ingredients": [
         {
           "items": [
-            "200g de farine",
-            "80 ml d'huile végétale",
-            "80 ml d'eau chaude"
+            "200g di farina",
+            "80 ml di olio vegetale",
+            "80 ml di acqua calda"
           ]
         }
       ],
       "steps": [
-        { "text": "Verser la farine, l'huile et l'eau chaude dans un contenant hermétique." },
-        { "text": "Fermer le contenant et secouer vigoureusement une dizaine de fois dans tous les sens." },
-        { "text": "Ouvrir et rassembler la pâte en boule : elle est prête immédiatement, sans temps de repos." },
-        { "text": "Étaler la pâte sur du papier cuisson ou un tapis de pâtisserie." },
-        { "text": "Transférer dans un moule à tarte et piquer avec une fourchette." },
-        { "text": "Cuire à blanc à 200°C pendant 10 minutes, puis ajouter la garniture et enfourner 20 à 40 minutes." }
+        {
+          "text": "Versare la farina, l'olio e l'acqua calda in un contenitore ermetico."
+        },
+        {
+          "text": "Chiudere il contenitore e agitare energicamente una decina di volte in tutte le direzioni."
+        },
+        {
+          "text": "Aprire e raccogliere l'impasto a palla: è pronto subito, senza bisogno di riposo."
+        },
+        {
+          "text": "Stendere l'impasto su carta forno o un tappetino da pasticceria."
+        },
+        {
+          "text": "Trasferire nella teglia da torta e bucherellare con una forchetta."
+        },
+        {
+          "text": "Cuocere in bianco a 200°C per 10 minuti, poi aggiungere il ripieno e infornare per 20-40 minuti."
+        }
       ],
       "tips": [
-        "On peut remplacer la farine par de la farine de sarrasin pour une version sans gluten (200g de farine de sarrasin, 40 ml d'huile, 120 ml d'eau chaude).",
-        "Adaptée à partir de 12 mois.",
-        "On peut personnaliser en ajoutant des graines, des épices ou des herbes aromatiques à la pâte."
+        "Si può sostituire la farina con farina di grano saraceno per una versione senza glutine (200g di farina di grano saraceno, 40 ml di olio, 120 ml di acqua calda).",
+        "Adatto dai 12 mesi in su.",
+        "Si può personalizzare aggiungendo semi, spezie o erbe aromatiche all'impasto."
       ]
     }
   }

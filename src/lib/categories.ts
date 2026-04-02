@@ -18,6 +18,8 @@ export const CATEGORY_ORDER = [
   "Pane",
   "Dolci",
   "Bambini",
+  "Breakfast",
+  "Brunch",
 ]
 
 export function sortCategories(categories: string[]): string[] {

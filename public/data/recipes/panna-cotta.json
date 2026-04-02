@@ -1,45 +1,64 @@
 {
   "slug": "panna-cotta",
   "title": "Panna Cotta alla Vaniglia",
-  "description": "Dolce al cucchiaio piemontese, delicato e vellutato, con salsa ai frutti di bosco.",
-  "image": "images/recipes/panna-cotta/cover.svg",
+  "description": "Dessert piémontais à la cuillère, délicat et velouté, avec un coulis de fruits rouges.",
+  "images": {
+    "cover": "images/recipes/panna-cotta/cover.svg",
+    "web": "images/recipes/panna-cotta/cover.svg"
+  },
   "prepTime": 15,
   "cookTime": 5,
   "servings": 6,
   "difficulty": "Facile",
   "category": "Dolci",
-  "tags": ["dolce", "piemontese", "vaniglia"],
+  "tags": [
+    "dessert",
+    "piémontais",
+    "vanille"
+  ],
   "ingredients": [
     {
       "group": "Panna cotta",
       "items": [
-        "500ml panna fresca",
-        "100g zucchero",
-        "1 bacca di vaniglia",
-        "8g gelatina in fogli"
+        "500ml de crème fraîche liquide",
+        "100g de sucre",
+        "1 gousse de vanille",
+        "8g de gélatine en feuilles"
       ]
     },
     {
-      "group": "Salsa ai frutti di bosco",
+      "group": "Coulis de fruits rouges",
       "items": [
-        "200g frutti di bosco misti",
-        "50g zucchero",
-        "1 cucchiaio di succo di limone"
+        "200g de fruits rouges mélangés",
+        "50g de sucre",
+        "1 cuillère à soupe de jus de citron"
       ]
     }
   ],
   "steps": [
-    { "text": "Ammollare la gelatina in acqua fredda per 10 minuti." },
-    { "text": "Scaldare la panna con lo zucchero e i semi della bacca di vaniglia senza farla bollire." },
-    { "text": "Togliere dal fuoco, strizzare la gelatina e scioglierla nella panna calda." },
-    { "text": "Versare negli stampini e riporre in frigorifero per almeno 4 ore." },
-    { "text": "Preparare la salsa: cuocere i frutti di bosco con zucchero e limone per 5 minuti. Frullare parzialmente." },
-    { "text": "Sformare la panna cotta e servire con la salsa ai frutti di bosco." }
+    {
+      "text": "Faire tremper la gélatine dans de l'eau froide pendant 10 minutes."
+    },
+    {
+      "text": "Chauffer la crème avec le sucre et les graines de vanille sans la faire bouillir."
+    },
+    {
+      "text": "Retirer du feu, essorer la gélatine et la dissoudre dans la crème chaude."
+    },
+    {
+      "text": "Verser dans des moules et réfrigérer pendant au moins 4 heures."
+    },
+    {
+      "text": "Préparer le coulis : cuire les fruits rouges avec le sucre et le citron pendant 5 minutes. Mixer partiellement."
+    },
+    {
+      "text": "Démouler la panna cotta et servir avec le coulis de fruits rouges."
+    }
   ],
   "tips": [
-    "Non far bollire la panna o perderà la sua cremosità.",
-    "Potete sostituire la vaniglia con scorza di limone o caffè.",
-    "Per sformare facilmente, immergere brevemente lo stampino in acqua calda."
+    "Ne pas faire bouillir la crème ou elle perdra son onctuosité.",
+    "Vous pouvez remplacer la vanille par du zeste de citron ou du café.",
+    "Pour démouler facilement, tremper brièvement le moule dans de l'eau chaude."
   ],
   "translations": {
     "en": {
@@ -64,12 +83,24 @@
         }
       ],
       "steps": [
-        { "text": "Soak the gelatine in cold water for 10 minutes." },
-        { "text": "Heat the cream with the sugar and vanilla seeds without bringing to a boil." },
-        { "text": "Remove from the heat, squeeze out the gelatine and dissolve it in the warm cream." },
-        { "text": "Pour into moulds and refrigerate for at least 4 hours." },
-        { "text": "Make the sauce: cook the berries with sugar and lemon for 5 minutes. Partially blend." },
-        { "text": "Unmould the panna cotta and serve with the berry sauce." }
+        {
+          "text": "Soak the gelatine in cold water for 10 minutes."
+        },
+        {
+          "text": "Heat the cream with the sugar and vanilla seeds without bringing to a boil."
+        },
+        {
+          "text": "Remove from the heat, squeeze out the gelatine and dissolve it in the warm cream."
+        },
+        {
+          "text": "Pour into moulds and refrigerate for at least 4 hours."
+        },
+        {
+          "text": "Make the sauce: cook the berries with sugar and lemon for 5 minutes. Partially blend."
+        },
+        {
+          "text": "Unmould the panna cotta and serve with the berry sauce."
+        }
       ],
       "tips": [
         "Do not boil the cream or it will lose its creaminess.",
@@ -77,39 +108,51 @@
         "To unmould easily, briefly dip the mould in hot water."
       ]
     },
-    "fr": {
-      "description": "Dessert piémontais à la cuillère, délicat et velouté, avec un coulis de fruits rouges.",
+    "it": {
+      "description": "Dolce al cucchiaio piemontese, delicato e vellutato, con salsa ai frutti di bosco.",
       "ingredients": [
         {
           "group": "Panna cotta",
           "items": [
-            "500ml de crème fraîche liquide",
-            "100g de sucre",
-            "1 gousse de vanille",
-            "8g de gélatine en feuilles"
+            "500ml panna fresca",
+            "100g zucchero",
+            "1 bacca di vaniglia",
+            "8g gelatina in fogli"
           ]
         },
         {
-          "group": "Coulis de fruits rouges",
+          "group": "Salsa ai frutti di bosco",
           "items": [
-            "200g de fruits rouges mélangés",
-            "50g de sucre",
-            "1 cuillère à soupe de jus de citron"
+            "200g frutti di bosco misti",
+            "50g zucchero",
+            "1 cucchiaio di succo di limone"
           ]
         }
       ],
       "steps": [
-        { "text": "Faire tremper la gélatine dans de l'eau froide pendant 10 minutes." },
-        { "text": "Chauffer la crème avec le sucre et les graines de vanille sans la faire bouillir." },
-        { "text": "Retirer du feu, essorer la gélatine et la dissoudre dans la crème chaude." },
-        { "text": "Verser dans des moules et réfrigérer pendant au moins 4 heures." },
-        { "text": "Préparer le coulis : cuire les fruits rouges avec le sucre et le citron pendant 5 minutes. Mixer partiellement." },
-        { "text": "Démouler la panna cotta et servir avec le coulis de fruits rouges." }
+        {
+          "text": "Ammollare la gelatina in acqua fredda per 10 minuti."
+        },
+        {
+          "text": "Scaldare la panna con lo zucchero e i semi della bacca di vaniglia senza farla bollire."
+        },
+        {
+          "text": "Togliere dal fuoco, strizzare la gelatina e scioglierla nella panna calda."
+        },
+        {
+          "text": "Versare negli stampini e riporre in frigorifero per almeno 4 ore."
+        },
+        {
+          "text": "Preparare la salsa: cuocere i frutti di bosco con zucchero e limone per 5 minuti. Frullare parzialmente."
+        },
+        {
+          "text": "Sformare la panna cotta e servire con la salsa ai frutti di bosco."
+        }
       ],
       "tips": [
-        "Ne pas faire bouillir la crème ou elle perdra son onctuosité.",
-        "Vous pouvez remplacer la vanille par du zeste de citron ou du café.",
-        "Pour démouler facilement, tremper brièvement le moule dans de l'eau chaude."
+        "Non far bollire la panna o perderà la sua cremosità.",
+        "Potete sostituire la vaniglia con scorza di limone o caffè.",
+        "Per sformare facilmente, immergere brevemente lo stampino in acqua calda."
       ]
     }
   }

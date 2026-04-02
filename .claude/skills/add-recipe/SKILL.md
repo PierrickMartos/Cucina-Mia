@@ -47,7 +47,7 @@ Parse the issue body. Each field appears as `### Field Name` followed by the val
 | Steps | `steps` | One per line -> `{"text": "..."}` |
 | Tips | `tips` | One per line, omit field if empty |
 | Source | `source` | Omit field if empty |
-| Cover Image | (for SVG) | If present, use as visual reference for the SVG |
+| Cover Image | (for images) | If present, download and use as recipe cover |
 
 **Ingredient parsing:**
 - Lines starting with `## ` begin a new group: `{"group": "Group Name", "items": [...]}`
@@ -136,7 +136,14 @@ Before writing files, check:
 Create `public/data/recipes/{slug}.json` following the exact structure of existing recipes. Reference `public/data/recipes/pasta-carbonara.json` for format.
 
 Key rules:
-- `image` is always `images/recipes/{slug}/cover.svg`
+- `images` is an object with two keys:
+  ```json
+  "images": {
+    "cover": "images/recipes/{slug}/cover.jpg",
+    "web": "images/recipes/{slug}/web.jpg"
+  }
+  ```
+  Use `.jpg` extension when the image comes from Pixabay or an uploaded photo. Use `.svg` only if an SVG illustration was generated.
 - Omit `tips` entirely if none (no empty array)
 - Omit `source` entirely if none (no empty string)
 - Omit `group` from ingredient objects when there's no group
@@ -146,40 +153,53 @@ Key rules:
 
 ## Step 6: Update the Recipe Index
 
-Read `public/data/recipes/index.json`, parse it, append a new entry at the END of the array with the RecipeSummary fields plus translations (description only). Write back with 2-space indentation and trailing newline.
+Read `public/data/recipes/index.json`, parse it, append a new entry at the END of the array with the RecipeSummary fields plus translations (description only). The index entry uses the same `images` object format as the detail JSON:
+```json
+"images": {
+  "cover": "images/recipes/{slug}/cover.jpg",
+  "web": "images/recipes/{slug}/web.jpg"
+}
+```
+
+Write back with 2-space indentation and trailing newline.
 
 Do NOT re-sort the array. The existing order is intentional.
 
-## Step 7: Generate the SVG Cover Illustration
+## Step 7: Get the Recipe Cover Image
 
-Create directory `public/images/recipes/{slug}/` if needed, then write `cover.svg`.
+Create directory `public/images/recipes/{slug}/` if needed.
 
 ### If a cover image was uploaded in the issue
-Read the uploaded image and use it as visual reference. Create an SVG illustration that depicts the same dish in the project's art style (described below).
+Download the uploaded image and save it as `public/images/recipes/{slug}/cover.jpg` (or the appropriate extension). Also create a web-sized version at `public/images/recipes/{slug}/web.jpg` if the uploaded image is large (resize or use it directly if already web-appropriate).
 
-### If no cover image
-Generate the SVG based on the recipe title and description.
+### If no cover image was provided
+Use the **pixabay-recipe-image** skill (`.claude/skills/pixabay-recipe-image/SKILL.md`) to find and download a professional food photograph from Pixabay. Pass the recipe title and a brief summary of ingredients/description as context. The skill will:
+- Search Pixabay with `category=food` using the recipe name
+- Score candidates by metadata and visual inspection
+- Download both `cover.jpg` (1280px) and `web.jpg` (640px) to `public/images/recipes/{slug}/`
 
-### SVG Art Style (match existing illustrations)
+The `PIXABAY_API_KEY` environment variable must be set. If it's not available, fall back to generating an SVG illustration (see below).
 
-Read 1-2 existing SVGs from `public/images/recipes/*/cover.svg` for reference before creating a new one. The consistent style is:
+### Fallback: SVG illustration (only if Pixabay is unavailable)
+
+If the Pixabay API key is not set or the search returns no results, generate an SVG cover illustration. Read 1-2 existing SVGs from `public/images/recipes/*/cover.svg` for reference. The style is:
 
 1. **ViewBox**: `0 0 800 600`
 2. **Background**: dark warm tones via `<radialGradient>`. Center ~`#2e2822`, edges ~`#1a1510`
-3. **Gradient IDs**: prefix with a 2-3 letter abbreviation of the slug (e.g., `pc` for pasta-carbonara) to avoid collisions
-4. **Composition**: dish centered, often on a plate/surface. Subtle environment (wood grain, shadows, utensils) at low opacity
-5. **Food rendering**: basic SVG shapes (circles, ellipses, rects, paths) with gradients and opacity. Painterly, hand-drawn feel. No text, no photorealism
+3. **Gradient IDs**: prefix with a 2-3 letter abbreviation of the slug to avoid collisions
+4. **Composition**: dish centered, on a plate/surface. Subtle environment at low opacity
+5. **Food rendering**: basic SVG shapes with gradients and opacity. Painterly feel. No text, no photorealism
 6. **Colors**: warm, rich, food-appropriate. Dark background makes food pop
-7. **Details**: scattered crumbs, steam, sauce drops at very low opacity (0.1-0.2)
-8. **Shadow**: elliptical shadow beneath main element, dark fill at ~0.4-0.5 opacity
-9. **Size**: target 2.5-5.5KB. Efficient SVG, no unnecessary coordinate precision
-10. **No embedded images or text**: pure SVG shapes only
+7. **Size**: target 2.5-5.5KB
+8. **No embedded images or text**: pure SVG shapes only
+
+When using SVG, set both `cover` and `web` in the `images` object to the same `.svg` path.
 
 ## Step 8: Verify
 
 1. Validate JSON syntax: `cat public/data/recipes/{slug}.json | python3 -m json.tool`
 2. Validate index: `cat public/data/recipes/index.json | python3 -m json.tool`
-3. Confirm SVG exists and starts with `<svg` with `viewBox="0 0 800 600"`
+3. Confirm cover image exists at `public/images/recipes/{slug}/cover.{jpg,svg}` and web image at `public/images/recipes/{slug}/web.{jpg,svg}`
 4. Run `npm run build` to confirm nothing breaks
 
 ## Step 9: Report

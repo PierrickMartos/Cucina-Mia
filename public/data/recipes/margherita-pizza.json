@@ -1,48 +1,67 @@
 {
   "slug": "margherita-pizza",
   "title": "Pizza Margherita",
-  "description": "La pizza napoletana per eccellenza con pomodoro San Marzano, mozzarella e basilico.",
-  "image": "images/recipes/margherita-pizza/cover.svg",
+  "description": "La pizza napolitaine par excellence avec tomate San Marzano, mozzarella et basilic.",
+  "images": {
+    "cover": "images/recipes/margherita-pizza/cover.svg",
+    "web": "images/recipes/margherita-pizza/cover.svg"
+  },
   "prepTime": 120,
   "cookTime": 5,
   "servings": 4,
   "difficulty": "Difficile",
   "category": "Pizze",
-  "tags": ["pizza", "napoletana", "tradizionale"],
+  "tags": [
+    "pizza",
+    "napolitaine",
+    "traditionnel"
+  ],
   "ingredients": [
     {
-      "group": "Impasto",
+      "group": "Pâte",
       "items": [
-        "500g farina tipo 00",
-        "325ml acqua tiepida",
-        "10g sale",
-        "3g lievito di birra fresco",
-        "10ml olio extravergine d'oliva"
+        "500g de farine type 00",
+        "325ml d'eau tiède",
+        "10g de sel",
+        "3g de levure fraîche",
+        "10ml d'huile d'olive extra vierge"
       ]
     },
     {
-      "group": "Condimento",
+      "group": "Garniture",
       "items": [
-        "400g pomodori San Marzano pelati",
-        "250g mozzarella di bufala",
-        "Basilico fresco q.b.",
-        "Olio extravergine d'oliva q.b.",
-        "Sale q.b."
+        "400g de tomates San Marzano pelées",
+        "250g de mozzarella de bufflonne",
+        "Basilic frais q.s.",
+        "Huile d'olive extra vierge q.s.",
+        "Sel q.s."
       ]
     }
   ],
   "steps": [
-    { "text": "Sciogliere il lievito nell'acqua tiepida. Aggiungere la farina e il sale, impastare per 10 minuti fino a ottenere un impasto liscio ed elastico." },
-    { "text": "Lasciar lievitare coperto per almeno 2 ore a temperatura ambiente, poi dividere in 4 panetti e lasciar lievitare altri 30 minuti." },
-    { "text": "Schiacciare i pomodori San Marzano a mano, condire con un filo d'olio e sale." },
-    { "text": "Stendere ogni panetto a mano formando un disco, lasciando il bordo più alto." },
-    { "text": "Distribuire la salsa di pomodoro, infornare nel forno più caldo possibile (ideale 450°C) per 60-90 secondi." },
-    { "text": "Aggiungere la mozzarella di bufala a pezzi e il basilico fresco appena sfornata." }
+    {
+      "text": "Dissoudre la levure dans l'eau tiède. Ajouter la farine et le sel, pétrir 10 minutes jusqu'à obtenir une pâte lisse et élastique."
+    },
+    {
+      "text": "Laisser lever couvert pendant au moins 2 heures à température ambiante, puis diviser en 4 boules et laisser lever encore 30 minutes."
+    },
+    {
+      "text": "Écraser les tomates San Marzano à la main, assaisonner avec un filet d'huile et du sel."
+    },
+    {
+      "text": "Étirer chaque boule à la main en formant un disque, en laissant le bord plus épais."
+    },
+    {
+      "text": "Répartir la sauce tomate, enfourner dans le four le plus chaud possible (idéalement 450°C) pendant 60-90 secondes."
+    },
+    {
+      "text": "Ajouter la mozzarella de bufflonne en morceaux et le basilic frais dès la sortie du four."
+    }
   ],
   "tips": [
-    "Il segreto è il forno: più è caldo, meglio è. Un forno per pizza raggiunge i 450°C.",
-    "La lievitazione lunga (24-48 ore in frigo) rende l'impasto più digeribile.",
-    "Non stendere l'impasto con il mattarello: usare le mani."
+    "Le secret, c'est le four : plus il est chaud, mieux c'est. Un four à pizza atteint 450°C.",
+    "Une longue levée (24-48 heures au réfrigérateur) rend la pâte plus digeste.",
+    "Ne pas étaler la pâte au rouleau : utiliser les mains."
   ],
   "translations": {
     "en": {
@@ -70,12 +89,24 @@
         }
       ],
       "steps": [
-        { "text": "Dissolve the yeast in warm water. Add the flour and salt, knead for 10 minutes until smooth and elastic." },
-        { "text": "Leave to rise covered for at least 2 hours at room temperature, then divide into 4 balls and rise for another 30 minutes." },
-        { "text": "Crush the San Marzano tomatoes by hand, season with a drizzle of oil and salt." },
-        { "text": "Stretch each ball by hand into a disc, leaving the edge higher." },
-        { "text": "Spread the tomato sauce, bake in the hottest oven possible (ideally 450°C) for 60-90 seconds." },
-        { "text": "Add the torn buffalo mozzarella and fresh basil as soon as it comes out of the oven." }
+        {
+          "text": "Dissolve the yeast in warm water. Add the flour and salt, knead for 10 minutes until smooth and elastic."
+        },
+        {
+          "text": "Leave to rise covered for at least 2 hours at room temperature, then divide into 4 balls and rise for another 30 minutes."
+        },
+        {
+          "text": "Crush the San Marzano tomatoes by hand, season with a drizzle of oil and salt."
+        },
+        {
+          "text": "Stretch each ball by hand into a disc, leaving the edge higher."
+        },
+        {
+          "text": "Spread the tomato sauce, bake in the hottest oven possible (ideally 450°C) for 60-90 seconds."
+        },
+        {
+          "text": "Add the torn buffalo mozzarella and fresh basil as soon as it comes out of the oven."
+        }
       ],
       "tips": [
         "The secret is the oven: the hotter the better. A pizza oven reaches 450°C.",
@@ -83,42 +114,54 @@
         "Do not roll the dough with a rolling pin: use your hands."
       ]
     },
-    "fr": {
-      "description": "La pizza napolitaine par excellence avec tomate San Marzano, mozzarella et basilic.",
+    "it": {
+      "description": "La pizza napoletana per eccellenza con pomodoro San Marzano, mozzarella e basilico.",
       "ingredients": [
         {
-          "group": "Pâte",
+          "group": "Impasto",
           "items": [
-            "500g de farine type 00",
-            "325ml d'eau tiède",
-            "10g de sel",
-            "3g de levure fraîche",
-            "10ml d'huile d'olive extra vierge"
+            "500g farina tipo 00",
+            "325ml acqua tiepida",
+            "10g sale",
+            "3g lievito di birra fresco",
+            "10ml olio extravergine d'oliva"
           ]
         },
         {
-          "group": "Garniture",
+          "group": "Condimento",
           "items": [
-            "400g de tomates San Marzano pelées",
-            "250g de mozzarella de bufflonne",
-            "Basilic frais q.s.",
-            "Huile d'olive extra vierge q.s.",
-            "Sel q.s."
+            "400g pomodori San Marzano pelati",
+            "250g mozzarella di bufala",
+            "Basilico fresco q.b.",
+            "Olio extravergine d'oliva q.b.",
+            "Sale q.b."
           ]
         }
       ],
       "steps": [
-        { "text": "Dissoudre la levure dans l'eau tiède. Ajouter la farine et le sel, pétrir 10 minutes jusqu'à obtenir une pâte lisse et élastique." },
-        { "text": "Laisser lever couvert pendant au moins 2 heures à température ambiante, puis diviser en 4 boules et laisser lever encore 30 minutes." },
-        { "text": "Écraser les tomates San Marzano à la main, assaisonner avec un filet d'huile et du sel." },
-        { "text": "Étirer chaque boule à la main en formant un disque, en laissant le bord plus épais." },
-        { "text": "Répartir la sauce tomate, enfourner dans le four le plus chaud possible (idéalement 450°C) pendant 60-90 secondes." },
-        { "text": "Ajouter la mozzarella de bufflonne en morceaux et le basilic frais dès la sortie du four." }
+        {
+          "text": "Sciogliere il lievito nell'acqua tiepida. Aggiungere la farina e il sale, impastare per 10 minuti fino a ottenere un impasto liscio ed elastico."
+        },
+        {
+          "text": "Lasciar lievitare coperto per almeno 2 ore a temperatura ambiente, poi dividere in 4 panetti e lasciar lievitare altri 30 minuti."
+        },
+        {
+          "text": "Schiacciare i pomodori San Marzano a mano, condire con un filo d'olio e sale."
+        },
+        {
+          "text": "Stendere ogni panetto a mano formando un disco, lasciando il bordo più alto."
+        },
+        {
+          "text": "Distribuire la salsa di pomodoro, infornare nel forno più caldo possibile (ideale 450°C) per 60-90 secondi."
+        },
+        {
+          "text": "Aggiungere la mozzarella di bufala a pezzi e il basilico fresco appena sfornata."
+        }
       ],
       "tips": [
-        "Le secret, c'est le four : plus il est chaud, mieux c'est. Un four à pizza atteint 450°C.",
-        "Une longue levée (24-48 heures au réfrigérateur) rend la pâte plus digeste.",
-        "Ne pas étaler la pâte au rouleau : utiliser les mains."
+        "Il segreto è il forno: più è caldo, meglio è. Un forno per pizza raggiunge i 450°C.",
+        "La lievitazione lunga (24-48 ore in frigo) rende l'impasto più digeribile.",
+        "Non stendere l'impasto con il mattarello: usare le mani."
       ]
     }
   }

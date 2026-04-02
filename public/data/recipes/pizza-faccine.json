@@ -1,51 +1,71 @@
 {
   "slug": "pizza-faccine",
   "title": "Pizza Faccine",
-  "description": "Mini pizze divertenti con faccine sorridenti fatte di olive, pomodorini e peperoni — perfette per i piccoli chef!",
-  "image": "images/recipes/pizza-faccine/cover.svg",
+  "description": "Mini pizzas amusantes avec des petites têtes souriantes faites d'olives, tomates cerises et poivrons — parfaites pour les petits chefs !",
+  "images": {
+    "cover": "images/recipes/pizza-faccine/cover.svg",
+    "web": "images/recipes/pizza-faccine/cover.svg"
+  },
   "prepTime": 20,
   "cookTime": 12,
   "servings": 8,
   "difficulty": "Facile",
   "category": "Bambini",
-  "tags": ["pizza", "bambini", "divertente", "facile"],
+  "tags": [
+    "pizza",
+    "enfants",
+    "amusant",
+    "facile"
+  ],
   "ingredients": [
     {
-      "group": "Impasto",
+      "group": "Pâte",
       "items": [
-        "250 g di farina 00",
-        "125 ml di acqua tiepida",
-        "5 g di lievito di birra fresco",
-        "1 cucchiaino di zucchero",
-        "1 cucchiaio di olio extravergine di oliva",
-        "Un pizzico di sale"
+        "250g de farine 00",
+        "125ml d'eau tiède",
+        "5g de levure fraîche",
+        "1 cuillère à café de sucre",
+        "1 cuillère à soupe d'huile d'olive extra vierge",
+        "Une pincée de sel"
       ]
     },
     {
-      "group": "Condimento",
+      "group": "Garniture",
       "items": [
-        "200 g di passata di pomodoro",
-        "150 g di mozzarella",
-        "8 olive nere (per gli occhi)",
-        "4 pomodorini ciliegini (per il naso)",
-        "1 peperone giallo (per il sorriso)",
-        "Foglie di basilico fresco",
-        "Origano q.b."
+        "200g de coulis de tomates",
+        "150g de mozzarella",
+        "8 olives noires (pour les yeux)",
+        "4 tomates cerises (pour le nez)",
+        "1 poivron jaune (pour le sourire)",
+        "Feuilles de basilic frais",
+        "Origan q.s."
       ]
     }
   ],
   "steps": [
-    { "text": "Sciogliere il lievito nell'acqua tiepida con lo zucchero. Mescolare la farina con il sale, aggiungere il composto di lievito e l'olio. Impastare per 5 minuti fino a ottenere un impasto liscio." },
-    { "text": "Lasciare lievitare l'impasto coperto per 30 minuti in un luogo tiepido." },
-    { "text": "Preriscaldare il forno a 220°C. Dividere l'impasto in 8 palline e stenderle in dischetti rotondi su una teglia con carta forno." },
-    { "text": "Spalmare un cucchiaio di passata su ogni dischetto, lasciando un bordo." },
-    { "text": "Aggiungere la mozzarella a pezzetti. Decorare ogni pizza con una faccina: olive tagliate a metà per gli occhi, mezzo pomodorino per il naso e una striscia di peperone per il sorriso." },
-    { "text": "Infornare per 10-12 minuti fino a doratura. Aggiungere una fogliolina di basilico come cappello e servire!" }
+    {
+      "text": "Dissoudre la levure dans l'eau tiède avec le sucre. Mélanger la farine avec le sel, ajouter le mélange de levure et l'huile. Pétrir 5 minutes jusqu'à obtenir une pâte lisse."
+    },
+    {
+      "text": "Laisser lever la pâte couverte pendant 30 minutes dans un endroit tiède."
+    },
+    {
+      "text": "Préchauffer le four à 220°C. Diviser la pâte en 8 boules et les étaler en disques ronds sur une plaque avec du papier cuisson."
+    },
+    {
+      "text": "Étaler une cuillère de coulis sur chaque disque en laissant un bord."
+    },
+    {
+      "text": "Ajouter la mozzarella en morceaux. Décorer chaque pizza avec une petite tête : olives coupées en deux pour les yeux, demi-tomate cerise pour le nez et une lanière de poivron pour le sourire."
+    },
+    {
+      "text": "Enfourner 10-12 minutes jusqu'à dorure. Ajouter une petite feuille de basilic en guise de chapeau et servir !"
+    }
   ],
   "tips": [
-    "Lasciate che i bambini decorino le loro faccine — ognuna sarà unica!",
-    "Potete usare anche mais, piselli o carote per decorazioni extra.",
-    "L'impasto si può preparare in anticipo e conservare in frigo per una notte."
+    "Laissez les enfants décorer leurs propres têtes — chacune sera unique !",
+    "Vous pouvez aussi utiliser du maïs, des petits pois ou des carottes pour des décorations supplémentaires.",
+    "La pâte peut être préparée à l'avance et conservée au réfrigérateur pour la nuit."
   ],
   "translations": {
     "en": {
@@ -76,12 +96,24 @@
         }
       ],
       "steps": [
-        { "text": "Dissolve the yeast in the warm water with the sugar. Mix the flour with the salt, add the yeast mixture and oil. Knead for 5 minutes until smooth." },
-        { "text": "Leave the dough to rise covered for 30 minutes in a warm place." },
-        { "text": "Preheat the oven to 220°C. Divide the dough into 8 balls and press them into round discs on a lined baking tray." },
-        { "text": "Spread a spoonful of passata on each disc, leaving a border." },
-        { "text": "Add the mozzarella in pieces. Decorate each pizza with a face: halved olives for eyes, a halved cherry tomato for the nose and a pepper strip for the smile." },
-        { "text": "Bake for 10-12 minutes until golden. Add a basil leaf as a hat and serve!" }
+        {
+          "text": "Dissolve the yeast in the warm water with the sugar. Mix the flour with the salt, add the yeast mixture and oil. Knead for 5 minutes until smooth."
+        },
+        {
+          "text": "Leave the dough to rise covered for 30 minutes in a warm place."
+        },
+        {
+          "text": "Preheat the oven to 220°C. Divide the dough into 8 balls and press them into round discs on a lined baking tray."
+        },
+        {
+          "text": "Spread a spoonful of passata on each disc, leaving a border."
+        },
+        {
+          "text": "Add the mozzarella in pieces. Decorate each pizza with a face: halved olives for eyes, a halved cherry tomato for the nose and a pepper strip for the smile."
+        },
+        {
+          "text": "Bake for 10-12 minutes until golden. Add a basil leaf as a hat and serve!"
+        }
       ],
       "tips": [
         "Let the kids decorate their own faces — each one will be unique!",
@@ -89,45 +121,57 @@
         "The dough can be made in advance and kept in the fridge overnight."
       ]
     },
-    "fr": {
-      "description": "Mini pizzas amusantes avec des petites têtes souriantes faites d'olives, tomates cerises et poivrons — parfaites pour les petits chefs !",
+    "it": {
+      "description": "Mini pizze divertenti con faccine sorridenti fatte di olive, pomodorini e peperoni — perfette per i piccoli chef!",
       "ingredients": [
         {
-          "group": "Pâte",
+          "group": "Impasto",
           "items": [
-            "250g de farine 00",
-            "125ml d'eau tiède",
-            "5g de levure fraîche",
-            "1 cuillère à café de sucre",
-            "1 cuillère à soupe d'huile d'olive extra vierge",
-            "Une pincée de sel"
+            "250 g di farina 00",
+            "125 ml di acqua tiepida",
+            "5 g di lievito di birra fresco",
+            "1 cucchiaino di zucchero",
+            "1 cucchiaio di olio extravergine di oliva",
+            "Un pizzico di sale"
           ]
         },
         {
-          "group": "Garniture",
+          "group": "Condimento",
           "items": [
-            "200g de coulis de tomates",
-            "150g de mozzarella",
-            "8 olives noires (pour les yeux)",
-            "4 tomates cerises (pour le nez)",
-            "1 poivron jaune (pour le sourire)",
-            "Feuilles de basilic frais",
-            "Origan q.s."
+            "200 g di passata di pomodoro",
+            "150 g di mozzarella",
+            "8 olive nere (per gli occhi)",
+            "4 pomodorini ciliegini (per il naso)",
+            "1 peperone giallo (per il sorriso)",
+            "Foglie di basilico fresco",
+            "Origano q.b."
           ]
         }
       ],
       "steps": [
-        { "text": "Dissoudre la levure dans l'eau tiède avec le sucre. Mélanger la farine avec le sel, ajouter le mélange de levure et l'huile. Pétrir 5 minutes jusqu'à obtenir une pâte lisse." },
-        { "text": "Laisser lever la pâte couverte pendant 30 minutes dans un endroit tiède." },
-        { "text": "Préchauffer le four à 220°C. Diviser la pâte en 8 boules et les étaler en disques ronds sur une plaque avec du papier cuisson." },
-        { "text": "Étaler une cuillère de coulis sur chaque disque en laissant un bord." },
-        { "text": "Ajouter la mozzarella en morceaux. Décorer chaque pizza avec une petite tête : olives coupées en deux pour les yeux, demi-tomate cerise pour le nez et une lanière de poivron pour le sourire." },
-        { "text": "Enfourner 10-12 minutes jusqu'à dorure. Ajouter une petite feuille de basilic en guise de chapeau et servir !" }
+        {
+          "text": "Sciogliere il lievito nell'acqua tiepida con lo zucchero. Mescolare la farina con il sale, aggiungere il composto di lievito e l'olio. Impastare per 5 minuti fino a ottenere un impasto liscio."
+        },
+        {
+          "text": "Lasciare lievitare l'impasto coperto per 30 minuti in un luogo tiepido."
+        },
+        {
+          "text": "Preriscaldare il forno a 220°C. Dividere l'impasto in 8 palline e stenderle in dischetti rotondi su una teglia con carta forno."
+        },
+        {
+          "text": "Spalmare un cucchiaio di passata su ogni dischetto, lasciando un bordo."
+        },
+        {
+          "text": "Aggiungere la mozzarella a pezzetti. Decorare ogni pizza con una faccina: olive tagliate a metà per gli occhi, mezzo pomodorino per il naso e una striscia di peperone per il sorriso."
+        },
+        {
+          "text": "Infornare per 10-12 minuti fino a doratura. Aggiungere una fogliolina di basilico come cappello e servire!"
+        }
       ],
       "tips": [
-        "Laissez les enfants décorer leurs propres têtes — chacune sera unique !",
-        "Vous pouvez aussi utiliser du maïs, des petits pois ou des carottes pour des décorations supplémentaires.",
-        "La pâte peut être préparée à l'avance et conservée au réfrigérateur pour la nuit."
+        "Lasciate che i bambini decorino le loro faccine — ognuna sarà unica!",
+        "Potete usare anche mais, piselli o carote per decorazioni extra.",
+        "L'impasto si può preparare in anticipo e conservare in frigo per una notte."
       ]
     }
   }

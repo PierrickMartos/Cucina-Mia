@@ -1,36 +1,55 @@
 {
   "slug": "cacio-e-pepe",
   "title": "Cacio e Pepe",
-  "description": "Tre ingredienti, sapore infinito: tonnarelli, pecorino romano e pepe nero macinato al momento.",
-  "image": "images/recipes/cacio-e-pepe/cover.svg",
+  "description": "Trois ingrédients, une saveur infinie : tonnarelli, pecorino romano et poivre noir moulu à la minute.",
+  "images": {
+    "cover": "images/recipes/cacio-e-pepe/cover.svg",
+    "web": "images/recipes/cacio-e-pepe/cover.svg"
+  },
   "prepTime": 5,
   "cookTime": 12,
   "servings": 4,
   "difficulty": "Medio",
   "category": "Secondi",
-  "tags": ["pasta", "romano", "tradizionale"],
+  "tags": [
+    "pâtes",
+    "romain",
+    "traditionnel"
+  ],
   "ingredients": [
     {
       "items": [
-        "400g tonnarelli o spaghettoni",
-        "200g Pecorino Romano grattugiato",
-        "Pepe nero in grani q.b.",
-        "Sale per la pasta q.b."
+        "400g de tonnarelli ou gros spaghetti",
+        "200g de Pecorino Romano râpé",
+        "Grains de poivre noir q.s.",
+        "Sel pour l'eau de cuisson q.s."
       ]
     }
   ],
   "steps": [
-    { "text": "Tostare il pepe nero in grani in una padella larga, poi pestarlo grossolanamente nel mortaio." },
-    { "text": "Cuocere la pasta in acqua leggermente meno salata del solito (il pecorino è già salato)." },
-    { "text": "In una ciotola, mescolare il pecorino con qualche cucchiaio di acqua di cottura tiepida fino a ottenere una crema liscia." },
-    { "text": "Trasferire la pasta nella padella con il pepe, aggiungere un mestolo di acqua di cottura e mantecare." },
-    { "text": "Togliere dal fuoco e aggiungere la crema di pecorino, mantecare vigorosamente. Aggiungere acqua di cottura se necessario." },
-    { "text": "Servire immediatamente con altro pecorino e pepe macinato sopra." }
+    {
+      "text": "Faire torréfier les grains de poivre dans une grande poêle, puis les piler grossièrement dans un mortier."
+    },
+    {
+      "text": "Cuire les pâtes dans une eau légèrement moins salée que d'habitude (le pecorino est déjà salé)."
+    },
+    {
+      "text": "Dans un bol, mélanger le pecorino avec quelques cuillères d'eau de cuisson tiède jusqu'à obtenir une crème lisse."
+    },
+    {
+      "text": "Transvaser les pâtes dans la poêle avec le poivre, ajouter une louche d'eau de cuisson et mélanger."
+    },
+    {
+      "text": "Retirer du feu et ajouter la crème de pecorino, en remuant vigoureusement. Ajouter de l'eau de cuisson si nécessaire."
+    },
+    {
+      "text": "Servir immédiatement avec du pecorino supplémentaire et du poivre fraîchement moulu."
+    }
   ],
   "tips": [
-    "L'acqua di cottura deve essere tiepida (non bollente) quando la mescolate al pecorino, o si formeranno grumi.",
-    "Il pepe va tostato e pestato fresco: non usate quello già macinato.",
-    "Mantecare sempre fuori dal fuoco diretto per evitare che il pecorino si attacchi."
+    "L'eau de cuisson doit être tiède (pas bouillante) quand vous la mélangez au pecorino, sinon des grumeaux se formeront.",
+    "Le poivre doit être torréfié et fraîchement pilé : n'utilisez pas de poivre déjà moulu.",
+    "Remuez toujours hors du feu direct pour éviter que le pecorino ne colle."
   ],
   "translations": {
     "en": {
@@ -46,12 +65,24 @@
         }
       ],
       "steps": [
-        { "text": "Toast the black peppercorns in a large pan, then coarsely crush them in a mortar." },
-        { "text": "Cook the pasta in slightly less salted water than usual (pecorino is already salty)." },
-        { "text": "In a bowl, mix the pecorino with a few tablespoons of warm cooking water until a smooth cream forms." },
-        { "text": "Transfer the pasta to the pan with the pepper, add a ladleful of cooking water and stir." },
-        { "text": "Remove from the heat and add the pecorino cream, stirring vigorously. Add more cooking water if needed." },
-        { "text": "Serve immediately with extra pecorino and freshly ground pepper on top." }
+        {
+          "text": "Toast the black peppercorns in a large pan, then coarsely crush them in a mortar."
+        },
+        {
+          "text": "Cook the pasta in slightly less salted water than usual (pecorino is already salty)."
+        },
+        {
+          "text": "In a bowl, mix the pecorino with a few tablespoons of warm cooking water until a smooth cream forms."
+        },
+        {
+          "text": "Transfer the pasta to the pan with the pepper, add a ladleful of cooking water and stir."
+        },
+        {
+          "text": "Remove from the heat and add the pecorino cream, stirring vigorously. Add more cooking water if needed."
+        },
+        {
+          "text": "Serve immediately with extra pecorino and freshly ground pepper on top."
+        }
       ],
       "tips": [
         "The cooking water must be warm (not boiling) when you mix it into the pecorino, or lumps will form.",
@@ -59,30 +90,42 @@
         "Always stir away from direct heat to prevent the pecorino from sticking."
       ]
     },
-    "fr": {
-      "description": "Trois ingrédients, une saveur infinie : tonnarelli, pecorino romano et poivre noir moulu à la minute.",
+    "it": {
+      "description": "Tre ingredienti, sapore infinito: tonnarelli, pecorino romano e pepe nero macinato al momento.",
       "ingredients": [
         {
           "items": [
-            "400g de tonnarelli ou gros spaghetti",
-            "200g de Pecorino Romano râpé",
-            "Grains de poivre noir q.s.",
-            "Sel pour l'eau de cuisson q.s."
+            "400g tonnarelli o spaghettoni",
+            "200g Pecorino Romano grattugiato",
+            "Pepe nero in grani q.b.",
+            "Sale per la pasta q.b."
           ]
         }
       ],
       "steps": [
-        { "text": "Faire torréfier les grains de poivre dans une grande poêle, puis les piler grossièrement dans un mortier." },
-        { "text": "Cuire les pâtes dans une eau légèrement moins salée que d'habitude (le pecorino est déjà salé)." },
-        { "text": "Dans un bol, mélanger le pecorino avec quelques cuillères d'eau de cuisson tiède jusqu'à obtenir une crème lisse." },
-        { "text": "Transvaser les pâtes dans la poêle avec le poivre, ajouter une louche d'eau de cuisson et mélanger." },
-        { "text": "Retirer du feu et ajouter la crème de pecorino, en remuant vigoureusement. Ajouter de l'eau de cuisson si nécessaire." },
-        { "text": "Servir immédiatement avec du pecorino supplémentaire et du poivre fraîchement moulu." }
+        {
+          "text": "Tostare il pepe nero in grani in una padella larga, poi pestarlo grossolanamente nel mortaio."
+        },
+        {
+          "text": "Cuocere la pasta in acqua leggermente meno salata del solito (il pecorino è già salato)."
+        },
+        {
+          "text": "In una ciotola, mescolare il pecorino con qualche cucchiaio di acqua di cottura tiepida fino a ottenere una crema liscia."
+        },
+        {
+          "text": "Trasferire la pasta nella padella con il pepe, aggiungere un mestolo di acqua di cottura e mantecare."
+        },
+        {
+          "text": "Togliere dal fuoco e aggiungere la crema di pecorino, mantecare vigorosamente. Aggiungere acqua di cottura se necessario."
+        },
+        {
+          "text": "Servire immediatamente con altro pecorino e pepe macinato sopra."
+        }
       ],
       "tips": [
-        "L'eau de cuisson doit être tiède (pas bouillante) quand vous la mélangez au pecorino, sinon des grumeaux se formeront.",
-        "Le poivre doit être torréfié et fraîchement pilé : n'utilisez pas de poivre déjà moulu.",
-        "Remuez toujours hors du feu direct pour éviter que le pecorino ne colle."
+        "L'acqua di cottura deve essere tiepida (non bollente) quando la mescolate al pecorino, o si formeranno grumi.",
+        "Il pepe va tostato e pestato fresco: non usate quello già macinato.",
+        "Mantecare sempre fuori dal fuoco diretto per evitare che il pecorino si attacchi."
       ]
     }
   }

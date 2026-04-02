@@ -10,7 +10,7 @@ const mockRecipes = [
     slug: "pasta-carbonara",
     title: "Pasta alla Carbonara",
     description: "La vera carbonara romana con guanciale.",
-    image: "images/recipes/pasta-carbonara/cover.svg",
+    images: { cover: "images/recipes/pasta-carbonara/cover.svg", web: "images/recipes/pasta-carbonara/cover.svg" },
     prepTime: 10,
     cookTime: 15,
     servings: 4,
@@ -22,7 +22,7 @@ const mockRecipes = [
     slug: "tiramisu",
     title: "Tiramisù Classico",
     description: "Il dolce italiano più amato al mondo.",
-    image: "images/recipes/tiramisu/cover.svg",
+    images: { cover: "images/recipes/tiramisu/cover.svg", web: "images/recipes/tiramisu/cover.svg" },
     prepTime: 30,
     cookTime: 0,
     servings: 8,
@@ -52,8 +52,8 @@ describe("HomePage", () => {
   it("renders category cards after loading", async () => {
     renderHomePage()
     await waitFor(() => {
-      expect(screen.getByText("Starters")).toBeInTheDocument()
-      expect(screen.getByText("Desserts")).toBeInTheDocument()
+      expect(screen.getByText(/01 — Antipasti/)).toBeInTheDocument()
+      expect(screen.getByText(/02 — Dolci/)).toBeInTheDocument()
     })
   })
 
@@ -70,7 +70,7 @@ describe("HomePage", () => {
   it("links category cards to filtered recipes page", async () => {
     renderHomePage()
     await waitFor(() => {
-      const antipastiLink = screen.getByText("Starters").closest("a")
+      const antipastiLink = screen.getByText(/01 — Antipasti/).closest("a")
       expect(antipastiLink).toHaveAttribute("href", "/recipes?category=Antipasti")
     })
   })
@@ -79,7 +79,7 @@ describe("HomePage", () => {
     const user = userEvent.setup()
     renderHomePage()
     await waitFor(() => {
-      expect(screen.getByText("Starters")).toBeInTheDocument()
+      expect(screen.getByText(/01 — Antipasti/)).toBeInTheDocument()
     })
 
     const input = screen.getByPlaceholderText("Search a recipe...")
@@ -87,7 +87,7 @@ describe("HomePage", () => {
 
     await waitFor(() => {
       expect(screen.getByText("Pasta alla Carbonara")).toBeInTheDocument()
-      expect(screen.queryByText("Starters")).not.toBeInTheDocument()
+      expect(screen.queryByText(/01 — Antipasti/)).not.toBeInTheDocument()
     })
   })
 
@@ -95,18 +95,18 @@ describe("HomePage", () => {
     const user = userEvent.setup()
     renderHomePage()
     await waitFor(() => {
-      expect(screen.getByText("Starters")).toBeInTheDocument()
+      expect(screen.getByText(/01 — Antipasti/)).toBeInTheDocument()
     })
 
     const input = screen.getByPlaceholderText("Search a recipe...")
     await user.type(input, "carbonara")
     await waitFor(() => {
-      expect(screen.queryByText("Starters")).not.toBeInTheDocument()
+      expect(screen.queryByText(/01 — Antipasti/)).not.toBeInTheDocument()
     })
 
     await user.clear(input)
     await waitFor(() => {
-      expect(screen.getByText("Starters")).toBeInTheDocument()
+      expect(screen.getByText(/01 — Antipasti/)).toBeInTheDocument()
     })
   })
 
@@ -114,7 +114,7 @@ describe("HomePage", () => {
     const user = userEvent.setup()
     renderHomePage()
     await waitFor(() => {
-      expect(screen.getByText("Starters")).toBeInTheDocument()
+      expect(screen.getByText(/01 — Antipasti/)).toBeInTheDocument()
     })
 
     const input = screen.getByPlaceholderText("Search a recipe...")
@@ -122,7 +122,7 @@ describe("HomePage", () => {
 
     await waitFor(() => {
       expect(screen.getByText("No recipe found")).toBeInTheDocument()
-      expect(screen.queryByText("Starters")).not.toBeInTheDocument()
+      expect(screen.queryByText(/01 — Antipasti/)).not.toBeInTheDocument()
     })
   })
 })

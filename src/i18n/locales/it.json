@@ -37,12 +37,12 @@
   "categories": {
     "Antipasti": "Antipasti",
     "Secondi": "Secondi",
-    "Contorni": "Contorni",
     "Dolci": "Dolci",
     "Pizze": "Pizze",
     "Pane": "Pane",
-    "Bevande": "Bevande",
-    "Bambini": "Bambini"
+    "Bambini": "Bambini",
+    "Breakfast": "Colazione",
+    "Brunch": "Brunch"
   },
   "difficulties": {
     "Facile": "Facile",

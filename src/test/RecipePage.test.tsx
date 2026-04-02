@@ -9,7 +9,7 @@ const mockRecipe = {
   slug: "pasta-carbonara",
   title: "Pasta alla Carbonara",
   description: "La vera carbonara romana.",
-  image: "images/recipes/pasta-carbonara/cover.svg",
+  images: { cover: "images/recipes/pasta-carbonara/cover.svg", web: "images/recipes/pasta-carbonara/cover.svg" },
   prepTime: 10,
   cookTime: 15,
   servings: 4,

@@ -116,20 +116,39 @@ export function RecipePage() {
       <div className="relative overflow-hidden rounded-[1.5rem] mb-4 editorial-grain">
         <div className="aspect-[3/4] sm:aspect-[4/3]">
           <img
-            src={`${BASE}${recipe.image}`}
+            src={`${BASE}${recipe.images.cover}`}
             alt={recipe.title}
             className="h-full w-full object-cover"
           />
         </div>
         <div className="vignette-overlay absolute inset-0 flex flex-col justify-end p-5">
           <Badge className="bg-primary-container text-primary-foreground border-0 text-[10px] uppercase tracking-widest w-fit mb-2 rounded-full px-3 py-1">
-            {recipe.category}
+            {t(`categories.${recipe.category}`, recipe.category)}
           </Badge>
           <h1 className="font-headline text-3xl sm:text-4xl text-white font-bold tracking-tight leading-tight">
             {recipe.title}
           </h1>
         </div>
       </div>
+
+      {/* Image Credit */}
+      {recipe.imageCredit && (recipe.imageCredit.name || recipe.imageCredit.url) && (
+        <p className="text-[11px] text-muted-foreground mb-2 px-1">
+          📷{" "}
+          {recipe.imageCredit.url ? (
+            <a
+              href={recipe.imageCredit.url}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="underline hover:text-foreground transition-colors"
+            >
+              {recipe.imageCredit.name || recipe.imageCredit.url}
+            </a>
+          ) : (
+            recipe.imageCredit.name
+          )}
+        </p>
+      )}
 
       {/* Time & Info Row */}
       <div className="flex items-center gap-6 mb-6 px-1">
@@ -155,7 +174,7 @@ export function RecipePage() {
         </div>
         <div className="flex items-center gap-2 text-sm text-muted-foreground">
           <ChefHat className="h-4 w-4" />
-          <span>{recipe.difficulty}</span>
+          <span>{t(`difficulties.${recipe.difficulty}`, recipe.difficulty)}</span>
         </div>
         <div className="flex flex-wrap gap-1 ml-auto">
           {recipe.tags.map((tag) => (

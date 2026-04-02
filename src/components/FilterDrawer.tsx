@@ -87,7 +87,7 @@ export function FilterDrawer({
                     }
                     onClick={() => toggleCategory(cat)}
                   >
-                    {cat}
+                    {t(`categories.${cat}`, cat)}
                   </Badge>
                 ))}
               </div>
@@ -109,7 +109,7 @@ export function FilterDrawer({
                     }
                     onClick={() => toggleDifficulty(diff)}
                   >
-                    {diff}
+                    {t(`difficulties.${diff}`, diff)}
                   </Badge>
                 ))}
               </div>

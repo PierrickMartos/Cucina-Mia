@@ -1,54 +1,74 @@
 {
   "slug": "gnocchi-pomodoro",
   "title": "Gnocchi al Pomodoro",
-  "description": "Gnocchi di patate morbidissimi con sugo di pomodoro fresco e basilico — il piatto preferito dei bambini!",
-  "image": "images/recipes/gnocchi-pomodoro/cover.svg",
+  "description": "Gnocchi de pommes de terre ultra-moelleux avec sauce tomate fraîche et basilic — le plat préféré des enfants !",
+  "images": {
+    "cover": "images/recipes/gnocchi-pomodoro/cover.svg",
+    "web": "images/recipes/gnocchi-pomodoro/cover.svg"
+  },
   "prepTime": 30,
   "cookTime": 20,
   "servings": 4,
   "difficulty": "Facile",
   "category": "Bambini",
-  "tags": ["gnocchi", "bambini", "pomodoro", "patate"],
+  "tags": [
+    "gnocchi",
+    "enfants",
+    "tomate",
+    "pommes-de-terre"
+  ],
   "ingredients": [
     {
       "group": "Gnocchi",
       "items": [
-        "1 kg di patate a pasta bianca",
-        "300 g di farina 00",
-        "1 uovo",
-        "Sale q.b."
+        "1 kg de pommes de terre farineuses",
+        "300g de farine 00",
+        "1 œuf",
+        "Sel q.s."
       ]
     },
     {
-      "group": "Sugo",
+      "group": "Sauce",
       "items": [
-        "400 g di pomodori pelati",
-        "2 cucchiai di olio extravergine di oliva",
-        "1 spicchio d'aglio",
-        "Foglie di basilico fresco",
-        "Sale e un pizzico di zucchero"
+        "400g de tomates pelées en boîte",
+        "2 cuillères à soupe d'huile d'olive extra vierge",
+        "1 gousse d'ail",
+        "Feuilles de basilic frais",
+        "Sel et une pincée de sucre"
       ]
     },
     {
-      "group": "Per servire",
+      "group": "Pour servir",
       "items": [
-        "Parmigiano Reggiano grattugiato",
-        "Foglie di basilico fresco"
+        "Parmigiano Reggiano râpé",
+        "Feuilles de basilic frais"
       ]
     }
   ],
   "steps": [
-    { "text": "Lessare le patate con la buccia in acqua salata per circa 30-40 minuti. Scolarle, sbucciarle ancora calde e schiacciarle con uno schiacciapatate." },
-    { "text": "Aggiungere la farina, l'uovo e un pizzico di sale. Impastare delicatamente senza lavorare troppo l'impasto." },
-    { "text": "Formare dei rotolini e tagliare pezzetti di circa 2 cm. Rigare ogni gnocco con i rebbi di una forchetta — i bambini possono aiutare!" },
-    { "text": "Per il sugo: scaldare l'olio con l'aglio, aggiungere i pomodori pelati schiacciati, sale, zucchero e basilico. Cuocere per 15 minuti a fuoco medio." },
-    { "text": "Cuocere gli gnocchi in abbondante acqua salata. Quando vengono a galla, scolarli e condirli con il sugo." },
-    { "text": "Servire con una generosa spolverata di Parmigiano e foglie di basilico fresco." }
+    {
+      "text": "Faire cuire les pommes de terre avec leur peau dans de l'eau salée pendant 30-40 minutes. Les égoutter, les éplucher encore chaudes et les passer au presse-purée."
+    },
+    {
+      "text": "Ajouter la farine, l'œuf et une pincée de sel. Mélanger délicatement sans trop travailler la pâte."
+    },
+    {
+      "text": "Former des rouleaux et couper des morceaux d'environ 2 cm. Strier chaque gnocco avec les dents d'une fourchette — les enfants peuvent aider !"
+    },
+    {
+      "text": "Pour la sauce : chauffer l'huile avec l'ail, ajouter les tomates pelées écrasées, le sel, le sucre et le basilic. Cuire 15 minutes à feu moyen."
+    },
+    {
+      "text": "Cuire les gnocchi dans de l'eau bouillante salée. Quand ils remontent à la surface, les égoutter et les napper de sauce."
+    },
+    {
+      "text": "Servir avec une généreuse quantité de Parmigiano râpé et des feuilles de basilic frais."
+    }
   ],
   "tips": [
-    "I bambini adorano rigare gli gnocchi con la forchetta — è un'attività divertente!",
-    "Se l'impasto è troppo appiccicoso, aggiungete un po' di farina alla volta.",
-    "Gli gnocchi crudi si possono congelare su un vassoio e poi trasferire in sacchetti."
+    "Les enfants adorent strier les gnocchi avec la fourchette — c'est une activité amusante !",
+    "Si la pâte est trop collante, ajouter un peu de farine à la fois.",
+    "Les gnocchi crus peuvent être congelés sur un plateau puis transférés dans des sachets."
   ],
   "translations": {
     "en": {
@@ -82,12 +102,24 @@
         }
       ],
       "steps": [
-        { "text": "Boil the potatoes in their skins in salted water for 30-40 minutes. Drain, peel while hot and pass through a potato ricer." },
-        { "text": "Add the flour, egg and a pinch of salt. Mix gently without overworking the dough." },
-        { "text": "Roll into logs and cut into 2cm pieces. Roll each gnocco on a fork — kids can help!" },
-        { "text": "For the sauce: heat the oil with the garlic, add the crushed peeled tomatoes, salt, sugar and basil. Cook for 15 minutes over medium heat." },
-        { "text": "Cook the gnocchi in plenty of salted water. When they float to the surface, drain them and toss with the sauce." },
-        { "text": "Serve with a generous grating of Parmigiano and fresh basil leaves." }
+        {
+          "text": "Boil the potatoes in their skins in salted water for 30-40 minutes. Drain, peel while hot and pass through a potato ricer."
+        },
+        {
+          "text": "Add the flour, egg and a pinch of salt. Mix gently without overworking the dough."
+        },
+        {
+          "text": "Roll into logs and cut into 2cm pieces. Roll each gnocco on a fork — kids can help!"
+        },
+        {
+          "text": "For the sauce: heat the oil with the garlic, add the crushed peeled tomatoes, salt, sugar and basil. Cook for 15 minutes over medium heat."
+        },
+        {
+          "text": "Cook the gnocchi in plenty of salted water. When they float to the surface, drain them and toss with the sauce."
+        },
+        {
+          "text": "Serve with a generous grating of Parmigiano and fresh basil leaves."
+        }
       ],
       "tips": [
         "Kids love rolling the gnocchi on the fork — it's a fun activity!",
@@ -95,48 +127,60 @@
         "Raw gnocchi can be frozen on a tray then transferred to bags."
       ]
     },
-    "fr": {
-      "description": "Gnocchi de pommes de terre ultra-moelleux avec sauce tomate fraîche et basilic — le plat préféré des enfants !",
+    "it": {
+      "description": "Gnocchi di patate morbidissimi con sugo di pomodoro fresco e basilico — il piatto preferito dei bambini!",
       "ingredients": [
         {
           "group": "Gnocchi",
           "items": [
-            "1 kg de pommes de terre farineuses",
-            "300g de farine 00",
-            "1 œuf",
-            "Sel q.s."
+            "1 kg di patate a pasta bianca",
+            "300 g di farina 00",
+            "1 uovo",
+            "Sale q.b."
           ]
         },
         {
-          "group": "Sauce",
+          "group": "Sugo",
           "items": [
-            "400g de tomates pelées en boîte",
-            "2 cuillères à soupe d'huile d'olive extra vierge",
-            "1 gousse d'ail",
-            "Feuilles de basilic frais",
-            "Sel et une pincée de sucre"
+            "400 g di pomodori pelati",
+            "2 cucchiai di olio extravergine di oliva",
+            "1 spicchio d'aglio",
+            "Foglie di basilico fresco",
+            "Sale e un pizzico di zucchero"
           ]
         },
         {
-          "group": "Pour servir",
+          "group": "Per servire",
           "items": [
-            "Parmigiano Reggiano râpé",
-            "Feuilles de basilic frais"
+            "Parmigiano Reggiano grattugiato",
+            "Foglie di basilico fresco"
           ]
         }
       ],
       "steps": [
-        { "text": "Faire cuire les pommes de terre avec leur peau dans de l'eau salée pendant 30-40 minutes. Les égoutter, les éplucher encore chaudes et les passer au presse-purée." },
-        { "text": "Ajouter la farine, l'œuf et une pincée de sel. Mélanger délicatement sans trop travailler la pâte." },
-        { "text": "Former des rouleaux et couper des morceaux d'environ 2 cm. Strier chaque gnocco avec les dents d'une fourchette — les enfants peuvent aider !" },
-        { "text": "Pour la sauce : chauffer l'huile avec l'ail, ajouter les tomates pelées écrasées, le sel, le sucre et le basilic. Cuire 15 minutes à feu moyen." },
-        { "text": "Cuire les gnocchi dans de l'eau bouillante salée. Quand ils remontent à la surface, les égoutter et les napper de sauce." },
-        { "text": "Servir avec une généreuse quantité de Parmigiano râpé et des feuilles de basilic frais." }
+        {
+          "text": "Lessare le patate con la buccia in acqua salata per circa 30-40 minuti. Scolarle, sbucciarle ancora calde e schiacciarle con uno schiacciapatate."
+        },
+        {
+          "text": "Aggiungere la farina, l'uovo e un pizzico di sale. Impastare delicatamente senza lavorare troppo l'impasto."
+        },
+        {
+          "text": "Formare dei rotolini e tagliare pezzetti di circa 2 cm. Rigare ogni gnocco con i rebbi di una forchetta — i bambini possono aiutare!"
+        },
+        {
+          "text": "Per il sugo: scaldare l'olio con l'aglio, aggiungere i pomodori pelati schiacciati, sale, zucchero e basilico. Cuocere per 15 minuti a fuoco medio."
+        },
+        {
+          "text": "Cuocere gli gnocchi in abbondante acqua salata. Quando vengono a galla, scolarli e condirli con il sugo."
+        },
+        {
+          "text": "Servire con una generosa spolverata di Parmigiano e foglie di basilico fresco."
+        }
       ],
       "tips": [
-        "Les enfants adorent strier les gnocchi avec la fourchette — c'est une activité amusante !",
-        "Si la pâte est trop collante, ajouter un peu de farine à la fois.",
-        "Les gnocchi crus peuvent être congelés sur un plateau puis transférés dans des sachets."
+        "I bambini adorano rigare gli gnocchi con la forchetta — è un'attività divertente!",
+        "Se l'impasto è troppo appiccicoso, aggiungete un po' di farina alla volta.",
+        "Gli gnocchi crudi si possono congelare su un vassoio e poi trasferire in sacchetti."
       ]
     }
   }

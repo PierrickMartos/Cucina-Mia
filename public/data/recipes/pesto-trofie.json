@@ -1,48 +1,65 @@
 {
   "slug": "pesto-trofie",
   "title": "Trofie al Pesto Genovese",
-  "description": "Pasta ligure con pesto fresco di basilico, pinoli, aglio, Parmigiano e Pecorino.",
-  "image": "images/recipes/pesto-trofie/cover.svg",
+  "description": "Pâtes ligures avec un pesto frais de basilic, pignons, ail, Parmigiano et Pecorino.",
+  "images": {
+    "cover": "images/recipes/pesto-trofie/cover.svg",
+    "web": "images/recipes/pesto-trofie/cover.svg"
+  },
   "prepTime": 20,
   "cookTime": 12,
   "servings": 4,
   "difficulty": "Facile",
   "category": "Secondi",
-  "tags": ["pasta", "ligure", "pesto"],
+  "tags": [
+    "pâtes",
+    "ligurien",
+    "pesto"
+  ],
   "ingredients": [
     {
       "group": "Pesto",
       "items": [
-        "60g foglie di basilico fresco",
-        "30g pinoli",
-        "1 spicchio d'aglio",
-        "40g Parmigiano Reggiano grattugiato",
-        "20g Pecorino Sardo grattugiato",
-        "80ml olio extravergine d'oliva",
-        "Sale grosso q.b."
+        "60g de feuilles de basilic frais",
+        "30g de pignons de pin",
+        "1 gousse d'ail",
+        "40g de Parmigiano Reggiano râpé",
+        "20g de Pecorino Sardo râpé",
+        "80ml d'huile d'olive extra vierge",
+        "Gros sel q.s."
       ]
     },
     {
-      "group": "Pasta",
+      "group": "Pâtes",
       "items": [
-        "400g trofie",
-        "1 patata media",
-        "100g fagiolini",
-        "Sale per la pasta q.b."
+        "400g de trofie",
+        "1 pomme de terre moyenne",
+        "100g de haricots verts",
+        "Sel pour l'eau de cuisson q.s."
       ]
     }
   ],
   "steps": [
-    { "text": "Lavare e asciugare delicatamente il basilico. Pestare nel mortaio con aglio, pinoli e sale grosso." },
-    { "text": "Aggiungere i formaggi grattugiati e l'olio a filo, mescolando sempre con il pestello in senso orario." },
-    { "text": "Pelare la patata e tagliarla a cubetti piccoli. Mondare i fagiolini e tagliarli a pezzetti." },
-    { "text": "Cuocere le trofie in acqua salata, aggiungendo patate e fagiolini a metà cottura." },
-    { "text": "Scolare conservando un po' d'acqua di cottura. Condire con il pesto, diluendo con acqua di cottura se necessario." }
+    {
+      "text": "Laver et sécher délicatement le basilic. Piler dans un mortier avec l'ail, les pignons et le gros sel."
+    },
+    {
+      "text": "Ajouter les fromages râpés et l'huile en filet, en remuant toujours avec le pilon dans le sens des aiguilles d'une montre."
+    },
+    {
+      "text": "Éplucher la pomme de terre et la couper en petits dés. Équeueter les haricots et les couper en morceaux."
+    },
+    {
+      "text": "Cuire les trofie dans de l'eau salée, en ajoutant la pomme de terre et les haricots à mi-cuisson."
+    },
+    {
+      "text": "Égoutter en conservant un peu d'eau de cuisson. Mélanger avec le pesto, en le diluant avec l'eau de cuisson si nécessaire."
+    }
   ],
   "tips": [
-    "Il mortaio dà un pesto molto migliore del frullatore: non scalda il basilico.",
-    "Patate e fagiolini sono il condimento tradizionale ligure.",
-    "Il pesto non va mai cotto: aggiungerlo sempre a crudo."
+    "Le mortier donne un pesto bien meilleur que le mixeur : il ne chauffe pas le basilic.",
+    "Pommes de terre et haricots verts sont l'accompagnement traditionnel ligurien.",
+    "Le pesto ne doit jamais cuire : l'ajouter toujours cru."
   ],
   "translations": {
     "en": {
@@ -71,11 +88,21 @@
         }
       ],
       "steps": [
-        { "text": "Wash and gently dry the basil. Pound in a mortar with garlic, pine nuts and coarse salt." },
-        { "text": "Add the grated cheeses and oil in a trickle, always stirring the pestle clockwise." },
-        { "text": "Peel the potato and cut into small cubes. Trim the beans and cut into pieces." },
-        { "text": "Cook the trofie in salted water, adding the potato and beans halfway through cooking." },
-        { "text": "Drain, reserving some cooking water. Toss with the pesto, thinning with cooking water if needed." }
+        {
+          "text": "Wash and gently dry the basil. Pound in a mortar with garlic, pine nuts and coarse salt."
+        },
+        {
+          "text": "Add the grated cheeses and oil in a trickle, always stirring the pestle clockwise."
+        },
+        {
+          "text": "Peel the potato and cut into small cubes. Trim the beans and cut into pieces."
+        },
+        {
+          "text": "Cook the trofie in salted water, adding the potato and beans halfway through cooking."
+        },
+        {
+          "text": "Drain, reserving some cooking water. Toss with the pesto, thinning with cooking water if needed."
+        }
       ],
       "tips": [
         "The mortar gives a far better pesto than a blender: it doesn't heat the basil.",
@@ -83,42 +110,52 @@
         "Pesto must never be cooked: always add it raw."
       ]
     },
-    "fr": {
-      "description": "Pâtes ligures avec un pesto frais de basilic, pignons, ail, Parmigiano et Pecorino.",
+    "it": {
+      "description": "Pasta ligure con pesto fresco di basilico, pinoli, aglio, Parmigiano e Pecorino.",
       "ingredients": [
         {
           "group": "Pesto",
           "items": [
-            "60g de feuilles de basilic frais",
-            "30g de pignons de pin",
-            "1 gousse d'ail",
-            "40g de Parmigiano Reggiano râpé",
-            "20g de Pecorino Sardo râpé",
-            "80ml d'huile d'olive extra vierge",
-            "Gros sel q.s."
+            "60g foglie di basilico fresco",
+            "30g pinoli",
+            "1 spicchio d'aglio",
+            "40g Parmigiano Reggiano grattugiato",
+            "20g Pecorino Sardo grattugiato",
+            "80ml olio extravergine d'oliva",
+            "Sale grosso q.b."
           ]
         },
         {
-          "group": "Pâtes",
+          "group": "Pasta",
           "items": [
-            "400g de trofie",
-            "1 pomme de terre moyenne",
-            "100g de haricots verts",
-            "Sel pour l'eau de cuisson q.s."
+            "400g trofie",
+            "1 patata media",
+            "100g fagiolini",
+            "Sale per la pasta q.b."
           ]
         }
       ],
       "steps": [
-        { "text": "Laver et sécher délicatement le basilic. Piler dans un mortier avec l'ail, les pignons et le gros sel." },
-        { "text": "Ajouter les fromages râpés et l'huile en filet, en remuant toujours avec le pilon dans le sens des aiguilles d'une montre." },
-        { "text": "Éplucher la pomme de terre et la couper en petits dés. Équeueter les haricots et les couper en morceaux." },
-        { "text": "Cuire les trofie dans de l'eau salée, en ajoutant la pomme de terre et les haricots à mi-cuisson." },
-        { "text": "Égoutter en conservant un peu d'eau de cuisson. Mélanger avec le pesto, en le diluant avec l'eau de cuisson si nécessaire." }
+        {
+          "text": "Lavare e asciugare delicatamente il basilico. Pestare nel mortaio con aglio, pinoli e sale grosso."
+        },
+        {
+          "text": "Aggiungere i formaggi grattugiati e l'olio a filo, mescolando sempre con il pestello in senso orario."
+        },
+        {
+          "text": "Pelare la patata e tagliarla a cubetti piccoli. Mondare i fagiolini e tagliarli a pezzetti."
+        },
+        {
+          "text": "Cuocere le trofie in acqua salata, aggiungendo patate e fagiolini a metà cottura."
+        },
+        {
+          "text": "Scolare conservando un po' d'acqua di cottura. Condire con il pesto, diluendo con acqua di cottura se necessario."
+        }
       ],
       "tips": [
-        "Le mortier donne un pesto bien meilleur que le mixeur : il ne chauffe pas le basilic.",
-        "Pommes de terre et haricots verts sont l'accompagnement traditionnel ligurien.",
-        "Le pesto ne doit jamais cuire : l'ajouter toujours cru."
+        "Il mortaio dà un pesto molto migliore del frullatore: non scalda il basilico.",
+        "Patate e fagiolini sono il condimento tradizionale ligure.",
+        "Il pesto non va mai cotto: aggiungerlo sempre a crudo."
       ]
     }
   }

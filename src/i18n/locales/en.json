@@ -37,12 +37,12 @@
   "categories": {
     "Antipasti": "Starters",
     "Secondi": "Main courses",
-    "Contorni": "Side dishes",
     "Dolci": "Desserts",
     "Pizze": "Pizzas",
     "Pane": "Breads",
-    "Bevande": "Drinks",
-    "Bambini": "Kids"
+    "Bambini": "Kids",
+    "Breakfast": "Breakfast",
+    "Brunch": "Brunch"
   },
   "difficulties": {
     "Facile": "Easy",

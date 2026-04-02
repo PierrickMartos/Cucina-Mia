@@ -36,13 +36,13 @@ body:
       label: Category
       options:
         - Antipasti
-        - Primi
         - Secondi
-        - Contorni
-        - Dolci
         - Pizze
         - Pane
-        - Bevande
+        - Dolci
+        - Bambini
+        - Breakfast
+        - Brunch
     validations:
       required: true
 

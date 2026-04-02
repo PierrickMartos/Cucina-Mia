@@ -1,50 +1,69 @@
 {
   "slug": "cannoli-siciliani",
   "title": "Cannoli Siciliani",
-  "description": "Cialde croccanti ripiene di ricotta fresca, gocce di cioccolato e pistacchio tritato.",
-  "image": "images/recipes/cannoli-siciliani/cover.svg",
+  "description": "Coques croustillantes garnies de ricotta fraîche, pépites de chocolat et pistaches concassées.",
+  "images": {
+    "cover": "images/recipes/cannoli-siciliani/cover.svg",
+    "web": "images/recipes/cannoli-siciliani/cover.svg"
+  },
   "prepTime": 45,
   "cookTime": 15,
   "servings": 12,
   "difficulty": "Difficile",
   "category": "Dolci",
-  "tags": ["dolce", "siciliano", "fritto"],
+  "tags": [
+    "dessert",
+    "sicilien",
+    "frit"
+  ],
   "ingredients": [
     {
-      "group": "Cialde",
+      "group": "Coques",
       "items": [
-        "250g farina 00",
-        "20g zucchero",
-        "20g strutto o burro",
-        "1 uovo",
-        "50ml Marsala",
-        "Pizzico di sale",
-        "Olio per friggere"
+        "250g de farine 00",
+        "20g de sucre",
+        "20g de saindoux ou beurre",
+        "1 œuf",
+        "50ml de Marsala",
+        "Pincée de sel",
+        "Huile pour friture"
       ]
     },
     {
-      "group": "Ripieno",
+      "group": "Garniture",
       "items": [
-        "500g ricotta di pecora ben sgocciolata",
-        "150g zucchero a velo",
-        "80g gocce di cioccolato fondente",
-        "Pistacchi tritati per decorare",
-        "Scorza d'arancia candita (facoltativo)"
+        "500g de ricotta de brebis bien égouttée",
+        "150g de sucre glace",
+        "80g de pépites de chocolat noir",
+        "Pistaches concassées pour décorer",
+        "Écorce d'orange confite (facultatif)"
       ]
     }
   ],
   "steps": [
-    { "text": "Impastare farina, zucchero, strutto, uovo, Marsala e sale. Lavorare fino a ottenere un impasto liscio. Far riposare 1 ora in frigo." },
-    { "text": "Stendere la pasta molto sottile e ricavare dei dischi da 12cm. Avvolgerli sugli stampi per cannoli." },
-    { "text": "Friggere in olio a 180°C fino a doratura. Scolare e lasciar raffreddare, poi sfilare dagli stampi." },
-    { "text": "Lavorare la ricotta con lo zucchero a velo fino a renderla cremosa. Aggiungere le gocce di cioccolato." },
-    { "text": "Farcire le cialde con la crema di ricotta usando una sac-à-poche." },
-    { "text": "Decorare le estremità con pistacchi tritati. Servire immediatamente." }
+    {
+      "text": "Mélanger la farine, le sucre, le saindoux, l'œuf, le Marsala et le sel. Pétrir jusqu'à obtenir une pâte lisse. Reposer 1 heure au réfrigérateur."
+    },
+    {
+      "text": "Étaler la pâte très finement et découper des disques de 12cm. Les enrouler sur des moules à cannoli."
+    },
+    {
+      "text": "Frire dans de l'huile à 180°C jusqu'à dorure. Égoutter et laisser refroidir, puis retirer des moules."
+    },
+    {
+      "text": "Travailler la ricotta avec le sucre glace jusqu'à obtenir une crème. Incorporer les pépites de chocolat."
+    },
+    {
+      "text": "Garnir les coques avec la crème de ricotta à l'aide d'une poche à douille."
+    },
+    {
+      "text": "Décorer les extrémités avec des pistaches concassées. Servir immédiatement."
+    }
   ],
   "tips": [
-    "La ricotta di pecora è fondamentale: quella vaccina è troppo acquosa.",
-    "Farcire i cannoli solo al momento di servire per mantenerli croccanti.",
-    "Il Marsala nell'impasto dà croccantezza e il caratteristico sapore."
+    "La ricotta de brebis est indispensable : celle de vache est trop aqueuse.",
+    "Garnir les cannoli juste avant de servir pour les conserver croustillants.",
+    "Le Marsala dans la pâte donne le croustillant et la saveur caractéristique."
   ],
   "translations": {
     "en": {
@@ -74,12 +93,24 @@
         }
       ],
       "steps": [
-        { "text": "Mix flour, sugar, lard, egg, Marsala and salt. Knead until smooth. Rest in the fridge for 1 hour." },
-        { "text": "Roll the dough very thin and cut out 12cm discs. Wrap them around cannoli moulds." },
-        { "text": "Fry in oil at 180°C until golden. Drain and cool, then remove from the moulds." },
-        { "text": "Beat the ricotta with the icing sugar until creamy. Fold in the chocolate chips." },
-        { "text": "Fill the shells with the ricotta cream using a piping bag." },
-        { "text": "Decorate the ends with chopped pistachios. Serve immediately." }
+        {
+          "text": "Mix flour, sugar, lard, egg, Marsala and salt. Knead until smooth. Rest in the fridge for 1 hour."
+        },
+        {
+          "text": "Roll the dough very thin and cut out 12cm discs. Wrap them around cannoli moulds."
+        },
+        {
+          "text": "Fry in oil at 180°C until golden. Drain and cool, then remove from the moulds."
+        },
+        {
+          "text": "Beat the ricotta with the icing sugar until creamy. Fold in the chocolate chips."
+        },
+        {
+          "text": "Fill the shells with the ricotta cream using a piping bag."
+        },
+        {
+          "text": "Decorate the ends with chopped pistachios. Serve immediately."
+        }
       ],
       "tips": [
         "Sheep's ricotta is essential: cow's milk ricotta is too watery.",
@@ -87,44 +118,56 @@
         "The Marsala in the dough gives crunchiness and the characteristic flavour."
       ]
     },
-    "fr": {
-      "description": "Coques croustillantes garnies de ricotta fraîche, pépites de chocolat et pistaches concassées.",
+    "it": {
+      "description": "Cialde croccanti ripiene di ricotta fresca, gocce di cioccolato e pistacchio tritato.",
       "ingredients": [
         {
-          "group": "Coques",
+          "group": "Cialde",
           "items": [
-            "250g de farine 00",
-            "20g de sucre",
-            "20g de saindoux ou beurre",
-            "1 œuf",
-            "50ml de Marsala",
-            "Pincée de sel",
-            "Huile pour friture"
+            "250g farina 00",
+            "20g zucchero",
+            "20g strutto o burro",
+            "1 uovo",
+            "50ml Marsala",
+            "Pizzico di sale",
+            "Olio per friggere"
           ]
         },
         {
-          "group": "Garniture",
+          "group": "Ripieno",
           "items": [
-            "500g de ricotta de brebis bien égouttée",
-            "150g de sucre glace",
-            "80g de pépites de chocolat noir",
-            "Pistaches concassées pour décorer",
-            "Écorce d'orange confite (facultatif)"
+            "500g ricotta di pecora ben sgocciolata",
+            "150g zucchero a velo",
+            "80g gocce di cioccolato fondente",
+            "Pistacchi tritati per decorare",
+            "Scorza d'arancia candita (facoltativo)"
           ]
         }
       ],
       "steps": [
-        { "text": "Mélanger la farine, le sucre, le saindoux, l'œuf, le Marsala et le sel. Pétrir jusqu'à obtenir une pâte lisse. Reposer 1 heure au réfrigérateur." },
-        { "text": "Étaler la pâte très finement et découper des disques de 12cm. Les enrouler sur des moules à cannoli." },
-        { "text": "Frire dans de l'huile à 180°C jusqu'à dorure. Égoutter et laisser refroidir, puis retirer des moules." },
-        { "text": "Travailler la ricotta avec le sucre glace jusqu'à obtenir une crème. Incorporer les pépites de chocolat." },
-        { "text": "Garnir les coques avec la crème de ricotta à l'aide d'une poche à douille." },
-        { "text": "Décorer les extrémités avec des pistaches concassées. Servir immédiatement." }
+        {
+          "text": "Impastare farina, zucchero, strutto, uovo, Marsala e sale. Lavorare fino a ottenere un impasto liscio. Far riposare 1 ora in frigo."
+        },
+        {
+          "text": "Stendere la pasta molto sottile e ricavare dei dischi da 12cm. Avvolgerli sugli stampi per cannoli."
+        },
+        {
+          "text": "Friggere in olio a 180°C fino a doratura. Scolare e lasciar raffreddare, poi sfilare dagli stampi."
+        },
+        {
+          "text": "Lavorare la ricotta con lo zucchero a velo fino a renderla cremosa. Aggiungere le gocce di cioccolato."
+        },
+        {
+          "text": "Farcire le cialde con la crema di ricotta usando una sac-à-poche."
+        },
+        {
+          "text": "Decorare le estremità con pistacchi tritati. Servire immediatamente."
+        }
       ],
       "tips": [
-        "La ricotta de brebis est indispensable : celle de vache est trop aqueuse.",
-        "Garnir les cannoli juste avant de servir pour les conserver croustillants.",
-        "Le Marsala dans la pâte donne le croustillant et la saveur caractéristique."
+        "La ricotta di pecora è fondamentale: quella vaccina è troppo acquosa.",
+        "Farcire i cannoli solo al momento di servire per mantenerli croccanti.",
+        "Il Marsala nell'impasto dà croccantezza e il caratteristico sapore."
       ]
     }
   }

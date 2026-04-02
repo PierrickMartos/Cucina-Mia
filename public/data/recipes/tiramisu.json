@@ -1,38 +1,57 @@
 {
   "slug": "tiramisu",
   "title": "Tiramisù Classico",
-  "description": "Il dolce italiano più amato al mondo con mascarpone, caffè e savoiardi.",
-  "image": "images/recipes/tiramisu/cover.svg",
+  "description": "Le dessert italien le plus aimé au monde avec mascarpone, café et savoiardi.",
+  "images": {
+    "cover": "images/recipes/tiramisu/cover.svg",
+    "web": "images/recipes/tiramisu/cover.svg"
+  },
   "prepTime": 30,
   "cookTime": 0,
   "servings": 8,
   "difficulty": "Facile",
   "category": "Dolci",
-  "tags": ["dolce", "caffè", "no-cottura"],
+  "tags": [
+    "dessert",
+    "café",
+    "sans-cuisson"
+  ],
   "ingredients": [
     {
       "items": [
-        "500g mascarpone",
-        "4 uova",
-        "100g zucchero",
-        "300ml caffè espresso freddo",
-        "300g savoiardi",
-        "Cacao amaro in polvere q.b."
+        "500g de mascarpone",
+        "4 œufs",
+        "100g de sucre",
+        "300ml de café espresso froid",
+        "300g de savoiardi (biscuits à la cuillère)",
+        "Cacao amer en poudre q.s."
       ]
     }
   ],
   "steps": [
-    { "text": "Separare i tuorli dagli albumi. Sbattere i tuorli con lo zucchero fino a ottenere un composto chiaro e spumoso." },
-    { "text": "Aggiungere il mascarpone ai tuorli e mescolare delicatamente fino a ottenere una crema liscia." },
-    { "text": "Montare gli albumi a neve ferma e incorporarli delicatamente alla crema di mascarpone." },
-    { "text": "Inzuppare rapidamente i savoiardi nel caffè freddo e disporli in uno strato sul fondo di una pirofila." },
-    { "text": "Coprire con uno strato di crema al mascarpone. Ripetere gli strati." },
-    { "text": "Spolverare con cacao amaro, coprire e riporre in frigorifero per almeno 4 ore." }
+    {
+      "text": "Séparer les jaunes des blancs. Battre les jaunes avec le sucre jusqu'à obtenir un mélange clair et mousseux."
+    },
+    {
+      "text": "Ajouter le mascarpone aux jaunes et mélanger délicatement jusqu'à obtenir une crème lisse."
+    },
+    {
+      "text": "Monter les blancs en neige ferme et les incorporer délicatement à la crème au mascarpone."
+    },
+    {
+      "text": "Tremper rapidement les savoiardi dans le café froid et les disposer en couche au fond d'un plat."
+    },
+    {
+      "text": "Couvrir d'une couche de crème au mascarpone. Répéter les couches."
+    },
+    {
+      "text": "Saupoudrer de cacao amer, couvrir et réfrigérer pendant au moins 4 heures."
+    }
   ],
   "tips": [
-    "Il tiramisù è ancora più buono il giorno dopo.",
-    "Inzuppare i savoiardi velocemente: non devono diventare troppo molli.",
-    "Usare caffè espresso vero, non quello solubile."
+    "Le tiramisù est encore meilleur le lendemain.",
+    "Tremper les savoiardi rapidement : ils ne doivent pas devenir trop mous.",
+    "Utiliser du vrai café espresso, pas du café soluble."
   ],
   "translations": {
     "en": {
@@ -50,12 +69,24 @@
         }
       ],
       "steps": [
-        { "text": "Separate the yolks from the whites. Beat the yolks with the sugar until pale and fluffy." },
-        { "text": "Add the mascarpone to the yolks and stir gently until a smooth cream forms." },
-        { "text": "Whisk the egg whites to stiff peaks and gently fold them into the mascarpone cream." },
-        { "text": "Quickly dip the savoiardi in the cold coffee and arrange in a single layer in a dish." },
-        { "text": "Cover with a layer of mascarpone cream. Repeat the layers." },
-        { "text": "Dust with bitter cocoa, cover and refrigerate for at least 4 hours." }
+        {
+          "text": "Separate the yolks from the whites. Beat the yolks with the sugar until pale and fluffy."
+        },
+        {
+          "text": "Add the mascarpone to the yolks and stir gently until a smooth cream forms."
+        },
+        {
+          "text": "Whisk the egg whites to stiff peaks and gently fold them into the mascarpone cream."
+        },
+        {
+          "text": "Quickly dip the savoiardi in the cold coffee and arrange in a single layer in a dish."
+        },
+        {
+          "text": "Cover with a layer of mascarpone cream. Repeat the layers."
+        },
+        {
+          "text": "Dust with bitter cocoa, cover and refrigerate for at least 4 hours."
+        }
       ],
       "tips": [
         "Tiramisù is even better the next day.",
@@ -63,32 +94,44 @@
         "Use real espresso coffee, not instant."
       ]
     },
-    "fr": {
-      "description": "Le dessert italien le plus aimé au monde avec mascarpone, café et savoiardi.",
+    "it": {
+      "description": "Il dolce italiano più amato al mondo con mascarpone, caffè e savoiardi.",
       "ingredients": [
         {
           "items": [
-            "500g de mascarpone",
-            "4 œufs",
-            "100g de sucre",
-            "300ml de café espresso froid",
-            "300g de savoiardi (biscuits à la cuillère)",
-            "Cacao amer en poudre q.s."
+            "500g mascarpone",
+            "4 uova",
+            "100g zucchero",
+            "300ml caffè espresso freddo",
+            "300g savoiardi",
+            "Cacao amaro in polvere q.b."
           ]
         }
       ],
       "steps": [
-        { "text": "Séparer les jaunes des blancs. Battre les jaunes avec le sucre jusqu'à obtenir un mélange clair et mousseux." },
-        { "text": "Ajouter le mascarpone aux jaunes et mélanger délicatement jusqu'à obtenir une crème lisse." },
-        { "text": "Monter les blancs en neige ferme et les incorporer délicatement à la crème au mascarpone." },
-        { "text": "Tremper rapidement les savoiardi dans le café froid et les disposer en couche au fond d'un plat." },
-        { "text": "Couvrir d'une couche de crème au mascarpone. Répéter les couches." },
-        { "text": "Saupoudrer de cacao amer, couvrir et réfrigérer pendant au moins 4 heures." }
+        {
+          "text": "Separare i tuorli dagli albumi. Sbattere i tuorli con lo zucchero fino a ottenere un composto chiaro e spumoso."
+        },
+        {
+          "text": "Aggiungere il mascarpone ai tuorli e mescolare delicatamente fino a ottenere una crema liscia."
+        },
+        {
+          "text": "Montare gli albumi a neve ferma e incorporarli delicatamente alla crema di mascarpone."
+        },
+        {
+          "text": "Inzuppare rapidamente i savoiardi nel caffè freddo e disporli in uno strato sul fondo di una pirofila."
+        },
+        {
+          "text": "Coprire con uno strato di crema al mascarpone. Ripetere gli strati."
+        },
+        {
+          "text": "Spolverare con cacao amaro, coprire e riporre in frigorifero per almeno 4 ore."
+        }
       ],
       "tips": [
-        "Le tiramisù est encore meilleur le lendemain.",
-        "Tremper les savoiardi rapidement : ils ne doivent pas devenir trop mous.",
-        "Utiliser du vrai café espresso, pas du café soluble."
+        "Il tiramisù è ancora più buono il giorno dopo.",
+        "Inzuppare i savoiardi velocemente: non devono diventare troppo molli.",
+        "Usare caffè espresso vero, non quello solubile."
       ]
     }
   }

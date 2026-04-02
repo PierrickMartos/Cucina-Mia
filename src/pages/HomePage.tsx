@@ -12,12 +12,14 @@ import type { RecipeSummary } from "@/types/recipe"
 const BASE = import.meta.env.BASE_URL
 
 const CATEGORY_IMAGES: Record<string, string> = {
-  Antipasti: "images/categories/antipasti.svg",
-  Secondi: "images/categories/secondi.svg",
-  Pizze: "images/categories/pizze.svg",
-  Pane: "images/categories/pane.svg",
-  Dolci: "images/categories/dolci.svg",
-  Bambini: "images/categories/bambini.svg",
+  Antipasti: "images/categories/antipasti.jpg",
+  Secondi: "images/categories/pasta.jpg",
+  Pizze: "images/categories/pizza.jpg",
+  Pane: "images/categories/focacia.jpg",
+  Dolci: "images/categories/dolci.jpg",
+  Bambini: "images/categories/bambini.jpg",
+  Breakfast: "images/categories/breakfast.jpg",
+  Brunch: "images/categories/brunch.jpg",
 }
 
 interface CategoryCard {
@@ -53,7 +55,7 @@ export function HomePage() {
     const cards = Array.from(map.entries()).map(([category, items]) => ({
       category,
       label: t(`categories.${category}`, category),
-      image: CATEGORY_IMAGES[category] ?? items[0].image,
+      image: CATEGORY_IMAGES[category] ?? items[0].images.web,
       count: items.length,
     }))
     return sortCategories(cards.map((c) => c.category)).map(

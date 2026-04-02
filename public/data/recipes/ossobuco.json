@@ -1,49 +1,68 @@
 {
   "slug": "ossobuco",
   "title": "Ossobuco alla Milanese",
-  "description": "Stinco di vitello brasato con gremolata di prezzemolo, aglio e scorza di limone.",
-  "image": "images/recipes/ossobuco/cover.svg",
+  "description": "Jarret de veau braisé avec une gremolata de persil, ail et zeste de citron.",
+  "images": {
+    "cover": "images/recipes/ossobuco/cover.svg",
+    "web": "images/recipes/ossobuco/cover.svg"
+  },
   "prepTime": 20,
   "cookTime": 120,
   "servings": 4,
   "difficulty": "Medio",
   "category": "Secondi",
-  "tags": ["carne", "milanese", "brasato"],
+  "tags": [
+    "viande",
+    "milanais",
+    "braisé"
+  ],
   "ingredients": [
     {
       "group": "Ossobuco",
       "items": [
-        "4 fette di ossobuco di vitello (3cm)",
-        "Farina per infarinare",
-        "50g burro",
-        "1 cipolla, 1 carota, 1 sedano",
-        "200ml vino bianco",
-        "400g pomodori pelati",
-        "300ml brodo di carne",
-        "Sale e pepe q.b."
+        "4 tranches d'ossobuco de veau (3cm)",
+        "Farine pour fariner",
+        "50g de beurre",
+        "1 oignon, 1 carotte, 1 branche de céleri",
+        "200ml de vin blanc",
+        "400g de tomates pelées",
+        "300ml de bouillon de viande",
+        "Sel et poivre q.s."
       ]
     },
     {
       "group": "Gremolata",
       "items": [
-        "Prezzemolo fresco tritato",
-        "Scorza grattugiata di 1 limone",
-        "1 spicchio d'aglio tritato finemente"
+        "Persil frais haché",
+        "Zeste râpé d'1 citron",
+        "1 gousse d'ail finement hachée"
       ]
     }
   ],
   "steps": [
-    { "text": "Infarinare leggermente le fette di ossobuco. In una casseruola capiente, rosolarle nel burro su entrambi i lati fino a doratura." },
-    { "text": "Rimuovere la carne e nello stesso fondo soffriggere cipolla, carota e sedano tritati." },
-    { "text": "Sfumare con il vino bianco, poi aggiungere i pomodori pelati schiacciati e il brodo." },
-    { "text": "Rimettere gli ossibuchi nella casseruola, coprire e cuocere a fuoco basso per 2 ore, girando ogni tanto." },
-    { "text": "Preparare la gremolata mescolando prezzemolo, scorza di limone e aglio." },
-    { "text": "Servire gli ossibuchi con il fondo di cottura e la gremolata sopra. Accompagnare con risotto alla milanese." }
+    {
+      "text": "Fariner légèrement les tranches d'ossobuco. Dans une cocotte, les faire dorer dans le beurre des deux côtés."
+    },
+    {
+      "text": "Retirer la viande et faire revenir dans le même fond l'oignon, la carotte et le céleri hachés."
+    },
+    {
+      "text": "Déglacer au vin blanc, puis ajouter les tomates pelées écrasées et le bouillon."
+    },
+    {
+      "text": "Remettre les ossibuchi dans la cocotte, couvrir et cuire à feu doux pendant 2 heures en retournant de temps en temps."
+    },
+    {
+      "text": "Préparer la gremolata en mélangeant persil, zeste de citron et ail."
+    },
+    {
+      "text": "Servir les ossibuchi avec le jus de cuisson et la gremolata par-dessus. Accompagner d'un risotto à la milanaise."
+    }
   ],
   "tips": [
-    "Non rimuovere lo spago dagli ossibuchi durante la cottura: mantiene la forma.",
-    "Il midollo è la parte più pregiata: servirlo con il piatto.",
-    "Cuocere a fuoco molto dolce per una carne tenerissima."
+    "Ne pas retirer la ficelle des ossibuchi pendant la cuisson : elle maintient la forme.",
+    "La moelle est la partie la plus précieuse : la servir avec le plat.",
+    "Cuire à feu très doux pour une viande ultra-tendre."
   ],
   "translations": {
     "en": {
@@ -72,12 +91,24 @@
         }
       ],
       "steps": [
-        { "text": "Lightly flour the ossobuco slices. In a large casserole, brown them in butter on both sides until golden." },
-        { "text": "Remove the meat and in the same pan cook the chopped onion, carrot and celery." },
-        { "text": "Deglaze with white wine, then add the crushed peeled tomatoes and stock." },
-        { "text": "Return the ossobuco to the casserole, cover and cook over low heat for 2 hours, turning occasionally." },
-        { "text": "Make the gremolata by combining parsley, lemon zest and garlic." },
-        { "text": "Serve the ossobuco with the cooking juices and gremolata on top. Accompany with Milanese risotto." }
+        {
+          "text": "Lightly flour the ossobuco slices. In a large casserole, brown them in butter on both sides until golden."
+        },
+        {
+          "text": "Remove the meat and in the same pan cook the chopped onion, carrot and celery."
+        },
+        {
+          "text": "Deglaze with white wine, then add the crushed peeled tomatoes and stock."
+        },
+        {
+          "text": "Return the ossobuco to the casserole, cover and cook over low heat for 2 hours, turning occasionally."
+        },
+        {
+          "text": "Make the gremolata by combining parsley, lemon zest and garlic."
+        },
+        {
+          "text": "Serve the ossobuco with the cooking juices and gremolata on top. Accompany with Milanese risotto."
+        }
       ],
       "tips": [
         "Do not remove the string from the ossobuco during cooking: it keeps the shape.",
@@ -85,43 +116,55 @@
         "Cook over very gentle heat for incredibly tender meat."
       ]
     },
-    "fr": {
-      "description": "Jarret de veau braisé avec une gremolata de persil, ail et zeste de citron.",
+    "it": {
+      "description": "Stinco di vitello brasato con gremolata di prezzemolo, aglio e scorza di limone.",
       "ingredients": [
         {
           "group": "Ossobuco",
           "items": [
-            "4 tranches d'ossobuco de veau (3cm)",
-            "Farine pour fariner",
-            "50g de beurre",
-            "1 oignon, 1 carotte, 1 branche de céleri",
-            "200ml de vin blanc",
-            "400g de tomates pelées",
-            "300ml de bouillon de viande",
-            "Sel et poivre q.s."
+            "4 fette di ossobuco di vitello (3cm)",
+            "Farina per infarinare",
+            "50g burro",
+            "1 cipolla, 1 carota, 1 sedano",
+            "200ml vino bianco",
+            "400g pomodori pelati",
+            "300ml brodo di carne",
+            "Sale e pepe q.b."
           ]
         },
         {
           "group": "Gremolata",
           "items": [
-            "Persil frais haché",
-            "Zeste râpé d'1 citron",
-            "1 gousse d'ail finement hachée"
+            "Prezzemolo fresco tritato",
+            "Scorza grattugiata di 1 limone",
+            "1 spicchio d'aglio tritato finemente"
           ]
         }
       ],
       "steps": [
-        { "text": "Fariner légèrement les tranches d'ossobuco. Dans une cocotte, les faire dorer dans le beurre des deux côtés." },
-        { "text": "Retirer la viande et faire revenir dans le même fond l'oignon, la carotte et le céleri hachés." },
-        { "text": "Déglacer au vin blanc, puis ajouter les tomates pelées écrasées et le bouillon." },
-        { "text": "Remettre les ossibuchi dans la cocotte, couvrir et cuire à feu doux pendant 2 heures en retournant de temps en temps." },
-        { "text": "Préparer la gremolata en mélangeant persil, zeste de citron et ail." },
-        { "text": "Servir les ossibuchi avec le jus de cuisson et la gremolata par-dessus. Accompagner d'un risotto à la milanaise." }
+        {
+          "text": "Infarinare leggermente le fette di ossobuco. In una casseruola capiente, rosolarle nel burro su entrambi i lati fino a doratura."
+        },
+        {
+          "text": "Rimuovere la carne e nello stesso fondo soffriggere cipolla, carota e sedano tritati."
+        },
+        {
+          "text": "Sfumare con il vino bianco, poi aggiungere i pomodori pelati schiacciati e il brodo."
+        },
+        {
+          "text": "Rimettere gli ossibuchi nella casseruola, coprire e cuocere a fuoco basso per 2 ore, girando ogni tanto."
+        },
+        {
+          "text": "Preparare la gremolata mescolando prezzemolo, scorza di limone e aglio."
+        },
+        {
+          "text": "Servire gli ossibuchi con il fondo di cottura e la gremolata sopra. Accompagnare con risotto alla milanese."
+        }
       ],
       "tips": [
-        "Ne pas retirer la ficelle des ossibuchi pendant la cuisson : elle maintient la forme.",
-        "La moelle est la partie la plus précieuse : la servir avec le plat.",
-        "Cuire à feu très doux pour une viande ultra-tendre."
+        "Non rimuovere lo spago dagli ossibuchi durante la cottura: mantiene la forma.",
+        "Il midollo è la parte più pregiata: servirlo con il piatto.",
+        "Cuocere a fuoco molto dolce per una carne tenerissima."
       ]
     }
   }

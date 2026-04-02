@@ -41,8 +41,8 @@
     "Dolci": "Desserts",
     "Pizze": "Pizzas",
     "Pane": "Pains",
-    "Bevande": "Boissons",
-    "Bambini": "Enfants"
+    "Breakfast": "Petit-dej",
+    "Brunch": "Brunch"
   },
   "difficulties": {
     "Facile": "Facile",

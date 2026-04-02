@@ -9,7 +9,7 @@ import type { RecipeSummary } from "@/types/recipe"
 const BASE = import.meta.env.BASE_URL
 
 export function RecipeCard({ recipe: rawRecipe }: { recipe: RecipeSummary }) {
-  const { i18n } = useTranslation()
+  const { t, i18n } = useTranslation()
   const recipe = localizeRecipeSummary(rawRecipe, i18n.language)
   const totalTime = recipe.prepTime + recipe.cookTime
 
@@ -18,7 +18,7 @@ export function RecipeCard({ recipe: rawRecipe }: { recipe: RecipeSummary }) {
       <Card className="overflow-hidden py-0 border-border/50 hover:shadow-md transition-shadow h-full bg-card rounded-[1.5rem]">
         <div className="aspect-[4/3] overflow-hidden relative editorial-grain">
           <img
-            src={`${BASE}${recipe.image}`}
+            src={`${BASE}${recipe.images.web}`}
             alt={recipe.title}
             className="h-full w-full object-cover transition-transform duration-500 group-hover:scale-105"
             loading="lazy"
@@ -27,10 +27,10 @@ export function RecipeCard({ recipe: rawRecipe }: { recipe: RecipeSummary }) {
         <CardContent className="p-4">
           <div className="flex items-center gap-2 mb-2">
             <Badge variant="secondary" className="bg-accent text-accent-foreground text-[10px] uppercase tracking-wider">
-              {recipe.category}
+              {t(`categories.${recipe.category}`, recipe.category)}
             </Badge>
             <Badge variant="outline" className="border-border text-muted-foreground text-[10px]">
-              {recipe.difficulty}
+              {t(`difficulties.${recipe.difficulty}`, recipe.difficulty)}
             </Badge>
           </div>
           <h3 className="font-headline font-bold text-lg leading-tight mb-1 text-foreground">

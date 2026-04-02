@@ -1,36 +1,51 @@
 {
   "slug": "bruschetta-pomodoro",
   "title": "Bruschetta al Pomodoro",
-  "description": "Pane tostato con pomodorini freschi, basilico e olio extravergine: l'antipasto estivo perfetto.",
-  "image": "images/recipes/bruschetta-pomodoro/cover.svg",
+  "description": "Pain grillé avec des tomates cerise fraîches, du basilic et de l'huile d'olive extra vierge : l'entrée estivale parfaite.",
+  "images": {
+    "cover": "images/recipes/bruschetta-pomodoro/cover.svg",
+    "web": "images/recipes/bruschetta-pomodoro/cover.svg"
+  },
   "prepTime": 15,
   "cookTime": 5,
   "servings": 4,
   "difficulty": "Facile",
   "category": "Antipasti",
-  "tags": ["antipasto", "estivo", "pomodoro"],
+  "tags": [
+    "entrée",
+    "estival",
+    "tomate"
+  ],
   "ingredients": [
     {
       "items": [
-        "4 fette di pane casereccio",
-        "300g pomodorini maturi",
-        "1 spicchio d'aglio",
-        "Basilico fresco q.b.",
-        "Olio extravergine d'oliva q.b.",
-        "Sale e pepe q.b."
+        "4 tranches de pain de campagne",
+        "300g de tomates cerise mûres",
+        "1 gousse d'ail",
+        "Basilic frais q.s.",
+        "Huile d'olive extra vierge q.s.",
+        "Sel et poivre q.s."
       ]
     }
   ],
   "steps": [
-    { "text": "Tagliare i pomodorini a cubetti e condirli con olio, sale, pepe e basilico spezzettato. Lasciar marinare 10 minuti." },
-    { "text": "Tostare le fette di pane sulla griglia o in forno fino a doratura." },
-    { "text": "Strofinare leggermente l'aglio sulla superficie del pane caldo." },
-    { "text": "Distribuire i pomodorini conditi sul pane e completare con un filo d'olio a crudo." }
+    {
+      "text": "Couper les tomates cerise en dés et les assaisonner avec de l'huile, du sel, du poivre et du basilic émietté. Laisser mariner 10 minutes."
+    },
+    {
+      "text": "Faire griller les tranches de pain sur un gril ou au four jusqu'à dorure."
+    },
+    {
+      "text": "Frotter légèrement l'ail sur la surface du pain chaud."
+    },
+    {
+      "text": "Répartir les tomates assaisonnées sur le pain et terminer avec un filet d'huile crue."
+    }
   ],
   "tips": [
-    "Usare pomodorini maturi e dolci, meglio se datterini.",
-    "Il pane deve essere croccante fuori e morbido dentro.",
-    "Preparare il condimento di pomodori almeno 10 minuti prima per far uscire i succhi."
+    "Utilisez des tomates cerise mûres et sucrées, de préférence des datterini.",
+    "Le pain doit être croustillant dehors et moelleux dedans.",
+    "Préparez les tomates au moins 10 minutes à l'avance pour qu'elles rendent leurs jus."
   ],
   "translations": {
     "en": {
@@ -48,10 +63,18 @@
         }
       ],
       "steps": [
-        { "text": "Dice the cherry tomatoes and season with oil, salt, pepper and torn basil. Leave to marinate for 10 minutes." },
-        { "text": "Toast the bread slices on a grill or in the oven until golden." },
-        { "text": "Lightly rub the garlic on the surface of the warm bread." },
-        { "text": "Spoon the seasoned tomatoes onto the bread and finish with a drizzle of raw olive oil." }
+        {
+          "text": "Dice the cherry tomatoes and season with oil, salt, pepper and torn basil. Leave to marinate for 10 minutes."
+        },
+        {
+          "text": "Toast the bread slices on a grill or in the oven until golden."
+        },
+        {
+          "text": "Lightly rub the garlic on the surface of the warm bread."
+        },
+        {
+          "text": "Spoon the seasoned tomatoes onto the bread and finish with a drizzle of raw olive oil."
+        }
       ],
       "tips": [
         "Use ripe, sweet cherry tomatoes — datterini are best.",
@@ -59,30 +82,38 @@
         "Prepare the tomato topping at least 10 minutes ahead to let the juices come out."
       ]
     },
-    "fr": {
-      "description": "Pain grillé avec des tomates cerise fraîches, du basilic et de l'huile d'olive extra vierge : l'entrée estivale parfaite.",
+    "it": {
+      "description": "Pane tostato con pomodorini freschi, basilico e olio extravergine: l'antipasto estivo perfetto.",
       "ingredients": [
         {
           "items": [
-            "4 tranches de pain de campagne",
-            "300g de tomates cerise mûres",
-            "1 gousse d'ail",
-            "Basilic frais q.s.",
-            "Huile d'olive extra vierge q.s.",
-            "Sel et poivre q.s."
+            "4 fette di pane casereccio",
+            "300g pomodorini maturi",
+            "1 spicchio d'aglio",
+            "Basilico fresco q.b.",
+            "Olio extravergine d'oliva q.b.",
+            "Sale e pepe q.b."
           ]
         }
       ],
       "steps": [
-        { "text": "Couper les tomates cerise en dés et les assaisonner avec de l'huile, du sel, du poivre et du basilic émietté. Laisser mariner 10 minutes." },
-        { "text": "Faire griller les tranches de pain sur un gril ou au four jusqu'à dorure." },
-        { "text": "Frotter légèrement l'ail sur la surface du pain chaud." },
-        { "text": "Répartir les tomates assaisonnées sur le pain et terminer avec un filet d'huile crue." }
+        {
+          "text": "Tagliare i pomodorini a cubetti e condirli con olio, sale, pepe e basilico spezzettato. Lasciar marinare 10 minuti."
+        },
+        {
+          "text": "Tostare le fette di pane sulla griglia o in forno fino a doratura."
+        },
+        {
+          "text": "Strofinare leggermente l'aglio sulla superficie del pane caldo."
+        },
+        {
+          "text": "Distribuire i pomodorini conditi sul pane e completare con un filo d'olio a crudo."
+        }
       ],
       "tips": [
-        "Utilisez des tomates cerise mûres et sucrées, de préférence des datterini.",
-        "Le pain doit être croustillant dehors et moelleux dedans.",
-        "Préparez les tomates au moins 10 minutes à l'avance pour qu'elles rendent leurs jus."
+        "Usare pomodorini maturi e dolci, meglio se datterini.",
+        "Il pane deve essere croccante fuori e morbido dentro.",
+        "Preparare il condimento di pomodori almeno 10 minuti prima per far uscire i succhi."
       ]
     }
   }

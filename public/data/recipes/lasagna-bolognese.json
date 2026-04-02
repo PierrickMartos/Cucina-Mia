@@ -1,57 +1,76 @@
 {
   "slug": "lasagna-bolognese",
   "title": "Lasagna alla Bolognese",
-  "description": "Strati di pasta all'uovo, ragù bolognese e besciamella, gratinati al forno.",
-  "image": "images/recipes/lasagna-bolognese/cover.svg",
+  "description": "Couches de pâtes aux œufs, ragù bolognaise et béchamel, gratinées au four.",
+  "images": {
+    "cover": "images/recipes/lasagna-bolognese/cover.svg",
+    "web": "images/recipes/lasagna-bolognese/cover.svg"
+  },
   "prepTime": 45,
   "cookTime": 40,
   "servings": 8,
   "difficulty": "Difficile",
   "category": "Secondi",
-  "tags": ["pasta", "forno", "bolognese"],
+  "tags": [
+    "pâtes",
+    "four",
+    "bolognaise"
+  ],
   "ingredients": [
     {
       "group": "Ragù",
       "items": [
-        "400g macinato di manzo",
-        "150g macinato di maiale",
-        "400g passata di pomodoro",
-        "1 carota, 1 sedano, 1 cipolla",
-        "100ml vino rosso",
-        "Olio extravergine d'oliva",
-        "Sale e pepe q.b."
+        "400g de bœuf haché",
+        "150g de porc haché",
+        "400g de coulis de tomates",
+        "1 carotte, 1 branche de céleri, 1 oignon",
+        "100ml de vin rouge",
+        "Huile d'olive extra vierge",
+        "Sel et poivre q.s."
       ]
     },
     {
-      "group": "Besciamella",
+      "group": "Béchamel",
       "items": [
-        "80g burro",
-        "80g farina",
-        "1 litro di latte intero",
-        "Noce moscata q.b.",
-        "Sale q.b."
+        "80g de beurre",
+        "80g de farine",
+        "1 litre de lait entier",
+        "Noix de muscade q.s.",
+        "Sel q.s."
       ]
     },
     {
-      "group": "Assemblaggio",
+      "group": "Assemblage",
       "items": [
-        "500g sfoglie di lasagna all'uovo",
-        "150g Parmigiano Reggiano grattugiato"
+        "500g de feuilles de lasagne aux œufs",
+        "150g de Parmigiano Reggiano râpé"
       ]
     }
   ],
   "steps": [
-    { "text": "Preparare il soffritto con carota, sedano e cipolla tritati finemente. Rosolare nell'olio, poi aggiungere le carni macinate." },
-    { "text": "Sfumare con il vino rosso, aggiungere la passata e cuocere a fuoco basso per almeno 2 ore." },
-    { "text": "Preparare la besciamella: sciogliere il burro, aggiungere la farina, mescolare e versare il latte poco alla volta. Cuocere fino a densità, aggiungere noce moscata e sale." },
-    { "text": "In una teglia imburrata, alternare strati di sfoglia, ragù, besciamella e Parmigiano." },
-    { "text": "Terminare con besciamella e Parmigiano abbondante. Infornare a 180°C per 35-40 minuti fino a doratura." },
-    { "text": "Lasciar riposare 10 minuti prima di servire." }
+    {
+      "text": "Préparer le soffritto avec la carotte, le céleri et l'oignon finement hachés. Faire revenir dans l'huile, puis ajouter les viandes hachées."
+    },
+    {
+      "text": "Déglacer au vin rouge, ajouter le coulis de tomates et cuire à feu doux pendant au moins 2 heures."
+    },
+    {
+      "text": "Préparer la béchamel : faire fondre le beurre, ajouter la farine, remuer et verser le lait peu à peu. Cuire jusqu'à épaississement, ajouter la noix de muscade et le sel."
+    },
+    {
+      "text": "Dans un plat beurré, alterner des couches de feuilles de lasagne, ragù, béchamel et Parmigiano."
+    },
+    {
+      "text": "Terminer avec de la béchamel et beaucoup de Parmigiano. Enfourner à 180°C pendant 35-40 minutes jusqu'à dorure."
+    },
+    {
+      "text": "Laisser reposer 10 minutes avant de servir."
+    }
   ],
   "tips": [
-    "Il ragù è migliore se preparato il giorno prima.",
-    "Se usate sfoglie secche, non serve precuocerle: la besciamella le ammorbidisce.",
-    "Per una crosta più croccante, gratinare gli ultimi 5 minuti sotto il grill."
+    "Le ragù est meilleur s'il est préparé la veille.",
+    "Si vous utilisez des feuilles sèches, inutile de les précuire : la béchamel les ramollira.",
+    "Pour une croûte plus croustillante, gratiner les 5 dernières minutes sous le gril."
   ],
   "translations": {
     "en": {
@@ -88,12 +107,24 @@
         }
       ],
       "steps": [
-        { "text": "Make a soffritto with finely chopped carrot, celery and onion. Cook in oil, then add the minced meats." },
-        { "text": "Deglaze with red wine, add the passata and cook over low heat for at least 2 hours." },
-        { "text": "Make the béchamel: melt the butter, add the flour, stir and pour in the milk a little at a time. Cook until thick, add nutmeg and salt." },
-        { "text": "In a buttered dish, alternate layers of lasagna sheets, ragù, béchamel and Parmigiano." },
-        { "text": "Finish with béchamel and plenty of Parmigiano. Bake at 180°C for 35-40 minutes until golden." },
-        { "text": "Leave to rest for 10 minutes before serving." }
+        {
+          "text": "Make a soffritto with finely chopped carrot, celery and onion. Cook in oil, then add the minced meats."
+        },
+        {
+          "text": "Deglaze with red wine, add the passata and cook over low heat for at least 2 hours."
+        },
+        {
+          "text": "Make the béchamel: melt the butter, add the flour, stir and pour in the milk a little at a time. Cook until thick, add nutmeg and salt."
+        },
+        {
+          "text": "In a buttered dish, alternate layers of lasagna sheets, ragù, béchamel and Parmigiano."
+        },
+        {
+          "text": "Finish with béchamel and plenty of Parmigiano. Bake at 180°C for 35-40 minutes until golden."
+        },
+        {
+          "text": "Leave to rest for 10 minutes before serving."
+        }
       ],
       "tips": [
         "The ragù is better if made the day before.",
@@ -101,51 +132,63 @@
         "For a crispier top, grill for the last 5 minutes."
       ]
     },
-    "fr": {
-      "description": "Couches de pâtes aux œufs, ragù bolognaise et béchamel, gratinées au four.",
+    "it": {
+      "description": "Strati di pasta all'uovo, ragù bolognese e besciamella, gratinati al forno.",
       "ingredients": [
         {
           "group": "Ragù",
           "items": [
-            "400g de bœuf haché",
-            "150g de porc haché",
-            "400g de coulis de tomates",
-            "1 carotte, 1 branche de céleri, 1 oignon",
-            "100ml de vin rouge",
-            "Huile d'olive extra vierge",
-            "Sel et poivre q.s."
+            "400g macinato di manzo",
+            "150g macinato di maiale",
+            "400g passata di pomodoro",
+            "1 carota, 1 sedano, 1 cipolla",
+            "100ml vino rosso",
+            "Olio extravergine d'oliva",
+            "Sale e pepe q.b."
           ]
         },
         {
-          "group": "Béchamel",
+          "group": "Besciamella",
           "items": [
-            "80g de beurre",
-            "80g de farine",
-            "1 litre de lait entier",
-            "Noix de muscade q.s.",
-            "Sel q.s."
+            "80g burro",
+            "80g farina",
+            "1 litro di latte intero",
+            "Noce moscata q.b.",
+            "Sale q.b."
           ]
         },
         {
-          "group": "Assemblage",
+          "group": "Assemblaggio",
           "items": [
-            "500g de feuilles de lasagne aux œufs",
-            "150g de Parmigiano Reggiano râpé"
+            "500g sfoglie di lasagna all'uovo",
+            "150g Parmigiano Reggiano grattugiato"
           ]
         }
       ],
       "steps": [
-        { "text": "Préparer le soffritto avec la carotte, le céleri et l'oignon finement hachés. Faire revenir dans l'huile, puis ajouter les viandes hachées." },
-        { "text": "Déglacer au vin rouge, ajouter le coulis de tomates et cuire à feu doux pendant au moins 2 heures." },
-        { "text": "Préparer la béchamel : faire fondre le beurre, ajouter la farine, remuer et verser le lait peu à peu. Cuire jusqu'à épaississement, ajouter la noix de muscade et le sel." },
-        { "text": "Dans un plat beurré, alterner des couches de feuilles de lasagne, ragù, béchamel et Parmigiano." },
-        { "text": "Terminer avec de la béchamel et beaucoup de Parmigiano. Enfourner à 180°C pendant 35-40 minutes jusqu'à dorure." },
-        { "text": "Laisser reposer 10 minutes avant de servir." }
+        {
+          "text": "Preparare il soffritto con carota, sedano e cipolla tritati finemente. Rosolare nell'olio, poi aggiungere le carni macinate."
+        },
+        {
+          "text": "Sfumare con il vino rosso, aggiungere la passata e cuocere a fuoco basso per almeno 2 ore."
+        },
+        {
+          "text": "Preparare la besciamella: sciogliere il burro, aggiungere la farina, mescolare e versare il latte poco alla volta. Cuocere fino a densità, aggiungere noce moscata e sale."
+        },
+        {
+          "text": "In una teglia imburrata, alternare strati di sfoglia, ragù, besciamella e Parmigiano."
+        },
+        {
+          "text": "Terminare con besciamella e Parmigiano abbondante. Infornare a 180°C per 35-40 minuti fino a doratura."
+        },
+        {
+          "text": "Lasciar riposare 10 minuti prima di servire."
+        }
       ],
       "tips": [
-        "Le ragù est meilleur s'il est préparé la veille.",
-        "Si vous utilisez des feuilles sèches, inutile de les précuire : la béchamel les ramollira.",
-        "Pour une croûte plus croustillante, gratiner les 5 dernières minutes sous le gril."
+        "Il ragù è migliore se preparato il giorno prima.",
+        "Se usate sfoglie secche, non serve precuocerle: la besciamella le ammorbidisce.",
+        "Per una crosta più croccante, gratinare gli ultimi 5 minuti sotto il grill."
       ]
     }
   }

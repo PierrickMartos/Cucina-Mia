@@ -5,11 +5,22 @@ export interface RecipeTranslation {
   tips?: string[]
 }
 
+export interface ImageCredit {
+  name?: string
+  url?: string
+}
+
+export interface RecipeImages {
+  cover: string
+  web: string
+}
+
 export interface RecipeSummary {
   slug: string
   title: string
   description: string
-  image: string
+  images: RecipeImages
+  imageCredit?: ImageCredit
   prepTime: number
   cookTime: number
   servings: number
