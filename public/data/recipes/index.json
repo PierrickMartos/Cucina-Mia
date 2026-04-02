@@ -198,5 +198,92 @@
         "description": "Toast croccante guarnito con formaggio fresco, fettine di avocado, uovo barzotto e ravanelli croccanti."
       }
     }
+  },
+  {
+    "slug": "clafoutis-mangue-curcuma-caramel-citronelle",
+    "title": "Clafoutis de mangue au curcuma, sauce caramel à la citronnelle",
+    "description": "Un clafoutis moelleux à la mangue et au curcuma, nappé d'une onctueuse sauce caramel à la citronnelle et aux feuilles de combava.",
+    "images": {
+      "cover": "images/recipes/clafoutis-mangue-curcuma-caramel-citronelle/cover.jpg",
+      "web": "images/recipes/clafoutis-mangue-curcuma-caramel-citronelle/web.jpg"
+    },
+    "prepTime": 10,
+    "cookTime": 20,
+    "servings": 4,
+    "difficulty": "Facile",
+    "category": "Dolci",
+    "tags": [
+      "clafoutis",
+      "mangue",
+      "curcuma",
+      "caramel",
+      "citronelle"
+    ],
+    "translations": {
+      "en": {
+        "description": "A soft mango and turmeric clafoutis, drizzled with a velvety caramel sauce infused with lemongrass and kaffir lime leaves."
+      },
+      "it": {
+        "description": "Un morbido clafoutis di mango alla curcuma, nappato di una vellutata salsa caramello alla citronella e foglie di combava."
+      }
+    }
+  },
+  {
+    "slug": "gateaux-ananas-mojito",
+    "title": "Gâteaux à l'Ananas, Sirop Façon Mojito",
+    "description": "Moelleux renversés à l'ananas caramélisé, nappés d'un sirop parfumé au rhum, menthe et citron vert façon mojito.",
+    "images": {
+      "cover": "images/recipes/gateaux-ananas-mojito/cover.jpg",
+      "web": "images/recipes/gateaux-ananas-mojito/web.jpg"
+    },
+    "prepTime": 25,
+    "cookTime": 45,
+    "servings": 6,
+    "difficulty": "Medio",
+    "category": "Dolci",
+    "tags": [
+      "ananas",
+      "rhum",
+      "mojito",
+      "caramel",
+      "dessert"
+    ],
+    "translations": {
+      "en": {
+        "description": "Individual upside-down cakes with caramelized pineapple, drizzled with a mojito-style syrup of rum, mint, and lime."
+      },
+      "it": {
+        "description": "Tortine rovesciate all'ananas caramellato, irrorate con uno sciroppo profumato al rum, menta e lime stile mojito."
+      }
+    }
+  },
+  {
+    "slug": "canneles",
+    "title": "Cannelés",
+    "description": "Petits gâteaux bordelais à la croûte caramélisée et croustillante, avec un intérieur moelleux parfumé à la vanille et au rhum.",
+    "images": {
+      "cover": "images/recipes/canneles/cover.jpg",
+      "web": "images/recipes/canneles/web.jpg"
+    },
+    "prepTime": 20,
+    "cookTime": 50,
+    "servings": 12,
+    "difficulty": "Medio",
+    "category": "Dolci",
+    "tags": [
+      "vanille",
+      "rhum",
+      "bordeaux",
+      "caramel",
+      "fours"
+    ],
+    "translations": {
+      "en": {
+        "description": "Small Bordeaux pastries with a caramelized, crispy crust and a soft interior fragrant with vanilla and rum."
+      },
+      "it": {
+        "description": "Piccoli dolcetti bordolesi dalla crosta caramellata e croccante, con un interno morbido profumato alla vaniglia e al rum."
+      }
+    }
   }
 ]
