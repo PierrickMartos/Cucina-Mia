@@ -12,9 +12,6 @@ permissions:
 
 jobs:
   add-recipe:
-    if: |
-      contains(github.event.issue.labels.*.name, 'recipe-submission') ||
-      contains(github.event.issue.labels.*.name, 'needs-formatting')
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4

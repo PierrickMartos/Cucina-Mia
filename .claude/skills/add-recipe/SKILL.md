@@ -90,18 +90,20 @@ Parse the issue body. Each field appears as `### Field Name` followed by the val
 
 The base language is **French**. All top-level text fields (description, ingredients, steps, tips) must be in French. Then provide translations for English (`en`) and Italian (`it`).
 
-Whatever language the source content is in, translate it to all three languages. The recipe `title` is the dish name and is NOT translated.
+Whatever language the source content is in, translate it to all three languages. The recipe `title` must also be translated — use the natural name in the target language (e.g. "Gâteau de Savoie" → "Torta di Savoia" in Italian, kept as-is in English since it has no common equivalent).
 
 ### Detail JSON translations structure
 ```json
 "translations": {
   "en": {
+    "title": "English title",
     "description": "English description",
     "ingredients": [{"items": ["ingredient in English"]}],
     "steps": [{"text": "Step in English"}],
     "tips": ["Tip in English"]
   },
   "it": {
+    "title": "Italian title",
     "description": "Italian description",
     "ingredients": [{"items": ["ingredient in Italian"]}],
     "steps": [{"text": "Step in Italian"}],
@@ -110,11 +112,11 @@ Whatever language the source content is in, translate it to all three languages.
 }
 ```
 
-### Index JSON translations structure (description only)
+### Index JSON translations structure (title + description)
 ```json
 "translations": {
-  "en": { "description": "English description" },
-  "it": { "description": "Italian description" }
+  "en": { "title": "English title", "description": "English description" },
+  "it": { "title": "Italian title", "description": "Italian description" }
 }
 ```
 
@@ -129,7 +131,7 @@ Before writing files, check:
 3. **Required fields**: slug, title, description, prepTime, cookTime, servings, difficulty, category, tags (non-empty), ingredients (at least one item), steps (at least one)
 4. **Enums**: difficulty is "Facile"|"Medio"|"Difficile"; category is a known value
 5. **Numbers**: prepTime, cookTime, servings are non-negative integers
-6. **Translations**: both `en` and `it` translations are present with description, ingredients, steps, and tips (if tips exist in base)
+6. **Translations**: both `en` and `it` translations are present with title, description, ingredients, steps, and tips (if tips exist in base)
 
 ## Step 5: Write the Recipe Detail JSON
 
