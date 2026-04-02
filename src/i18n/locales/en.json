@@ -10,7 +10,7 @@
   },
   "recipes": {
     "title": "Recipes",
-    "description": "Home recipes, from grandma, grandpa, mother-in-law, the internet or elsewhere",
+    "description": "Home recipes, from grandma, grandpa, mother-in-law, mum, dad, the internet or elsewhere",
     "noResults": "No recipe found",
     "noResultsHint": "Try adjusting the filters or search",
     "searchPlaceholder": "Search recipes..."

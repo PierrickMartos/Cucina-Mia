@@ -10,7 +10,7 @@
   },
   "recipes": {
     "title": "Ricette",
-    "description": "Ricette di casa, della nonna, del nonno, della suocera, da internet o da altrove",
+    "description": "Ricette di casa, della nonna, del nonno, della suocera, della mamma, del papà, da internet o da altrove",
     "noResults": "Nessuna ricetta trovata",
     "noResultsHint": "Prova a modificare i filtri o la ricerca",
     "searchPlaceholder": "Cerca ricette..."
