@@ -8,7 +8,7 @@
     "cookTime": 15,
     "servings": 4,
     "difficulty": "Medio",
-    "category": "Antipasti",
+    "category": "Secondi",
     "tags": ["pasta", "romano", "tradizionale"]
   },
   {
@@ -20,7 +20,7 @@
     "cookTime": 12,
     "servings": 4,
     "difficulty": "Medio",
-    "category": "Antipasti",
+    "category": "Secondi",
     "tags": ["pasta", "romano", "tradizionale"]
   },
   {
@@ -32,7 +32,7 @@
     "cookTime": 25,
     "servings": 4,
     "difficulty": "Medio",
-    "category": "Antipasti",
+    "category": "Secondi",
     "tags": ["risotto", "milanese", "zafferano"]
   },
   {
@@ -44,7 +44,7 @@
     "cookTime": 12,
     "servings": 4,
     "difficulty": "Facile",
-    "category": "Antipasti",
+    "category": "Secondi",
     "tags": ["pasta", "ligure", "pesto"]
   },
   {
@@ -56,7 +56,7 @@
     "cookTime": 40,
     "servings": 8,
     "difficulty": "Difficile",
-    "category": "Antipasti",
+    "category": "Secondi",
     "tags": ["pasta", "forno", "bolognese"]
   },
   {
