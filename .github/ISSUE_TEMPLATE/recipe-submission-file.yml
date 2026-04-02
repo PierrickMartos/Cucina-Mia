@@ -1,0 +1,34 @@
+name: "Recipe Submission (File)"
+description: "Submit a recipe by uploading a document, PDF, or image"
+title: "[Recipe] "
+labels: ["recipe-submission", "needs-formatting"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Got a recipe in a document, PDF, scan, or photo? Just upload it here — we'll take care of formatting it for the site.
+
+  - type: input
+    id: title
+    attributes:
+      label: Recipe Name
+      description: "What's the name of the recipe?"
+      placeholder: "e.g. Lasagna della Nonna"
+    validations:
+      required: true
+
+  - type: textarea
+    id: file
+    attributes:
+      label: Recipe File
+      description: "Drag and drop your file here (PDF, Word doc, image, photo of a handwritten recipe…)"
+      placeholder: "Drop your file here or paste an image"
+    validations:
+      required: true
+
+  - type: textarea
+    id: notes
+    attributes:
+      label: Notes (optional)
+      description: "Anything we should know — origin, who it's from, variations, tips…"
+      placeholder: "This is my grandmother's recipe from Palermo, she always added a pinch of cinnamon…"
