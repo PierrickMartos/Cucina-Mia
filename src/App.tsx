@@ -8,7 +8,7 @@ import { RecipePage } from "./pages/RecipePage"
 function ScrollToTop() {
   const { pathname } = useLocation()
   useEffect(() => {
-    window.scrollTo(0, 0)
+    document.querySelector("main")?.scrollTo(0, 0)
   }, [pathname])
   return null
 }
