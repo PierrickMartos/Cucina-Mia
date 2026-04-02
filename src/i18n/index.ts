@@ -20,7 +20,8 @@ i18n
       escapeValue: false,
     },
     detection: {
-      order: ["navigator"],
+      order: ["localStorage", "navigator"],
+      lookupLocalStorage: "cucina-mia-lang",
     },
   })
 

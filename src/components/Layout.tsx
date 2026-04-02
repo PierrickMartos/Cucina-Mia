@@ -2,6 +2,64 @@ import { Outlet, Link, useLocation } from "react-router-dom"
 import { Home, BookOpen } from "lucide-react"
 import { useTranslation } from "react-i18next"
 import { motion } from "motion/react"
+import { useState, useRef, useEffect } from "react"
+
+const LANGUAGES = [
+  { code: "en", label: "English" },
+  { code: "fr", label: "Français" },
+  { code: "it", label: "Italiano" },
+]
+
+function LanguageSwitcher() {
+  const { i18n } = useTranslation()
+  const [open, setOpen] = useState(false)
+  const ref = useRef<HTMLDivElement>(null)
+
+  useEffect(() => {
+    function handleClickOutside(e: MouseEvent) {
+      if (ref.current && !ref.current.contains(e.target as Node)) {
+        setOpen(false)
+      }
+    }
+    document.addEventListener("mousedown", handleClickOutside)
+    return () => document.removeEventListener("mousedown", handleClickOutside)
+  }, [])
+
+  const currentCode = i18n.language?.slice(0, 2) ?? "en"
+
+  function selectLanguage(code: string) {
+    i18n.changeLanguage(code)
+    localStorage.setItem("cucina-mia-lang", code)
+    setOpen(false)
+  }
+
+  return (
+    <div ref={ref} className="relative w-10 flex justify-end">
+      <button
+        onClick={() => setOpen((v) => !v)}
+        className="cursor-pointer text-[10px] font-semibold uppercase tracking-widest text-outline hover:text-primary transition-colors px-1 py-0.5"
+        aria-label="Switch language"
+      >
+        {currentCode}
+      </button>
+      {open && (
+        <div className="absolute top-7 right-0 bg-surface border border-outline/20 rounded-xl shadow-lg overflow-hidden z-50 min-w-[110px]">
+          {LANGUAGES.map(({ code, label }) => (
+            <button
+              key={code}
+              onClick={() => selectLanguage(code)}
+              className={`cursor-pointer w-full text-left px-4 py-2.5 text-xs font-medium transition-colors hover:bg-primary/10 ${
+                currentCode === code ? "text-primary font-semibold" : "text-outline"
+              }`}
+            >
+              {label}
+            </button>
+          ))}
+        </div>
+      )}
+    </div>
+  )
+}
 
 export function Layout() {
   const { pathname } = useLocation()
@@ -22,7 +80,7 @@ export function Layout() {
             CUCINA MIA
           </h1>
         </Link>
-        <div className="w-10" />
+        <LanguageSwitcher />
       </nav>
 
       {/* Main Content */}

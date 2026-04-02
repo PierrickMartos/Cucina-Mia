@@ -79,10 +79,10 @@ export function RecipesPage() {
   return (
     <div className="px-6 py-4">
       <div className="mb-4">
-        <h1 className="font-headline text-2xl font-bold text-primary">{t("recipes.title")}</h1>
-        <p className="text-muted-foreground text-sm">
+        <h1 className="font-headline text-3xl font-bold text-primary">{t("recipes.title")}</h1>
+        <span className="font-body text-secondary text-[10px] uppercase tracking-[0.2em] block">
           {t("recipes.description")}
-        </p>
+        </span>
       </div>
 
       <div className="flex items-center gap-3 mb-6">

@@ -87,13 +87,13 @@ export function HomePage() {
     <div className="flex flex-col px-6 space-y-4 pb-4 h-full">
       {/* Hero Header */}
       <header className="space-y-3 shrink-0">
-        <div className="max-w-2xl">
-          <span className="font-body text-secondary text-[10px] uppercase tracking-[0.2em] mb-1 block">
+        <div>
+          <h1 className="font-headline text-3xl text-primary font-bold tracking-tight leading-none">
+            {t("home.title")}
+          </h1>
+          <span className="font-body text-secondary text-[10px] uppercase tracking-[0.2em] block mt-2">
             {t("home.subtitle")}
           </span>
-          <h2 className="font-headline text-3xl text-primary font-bold tracking-tight leading-none">
-            {t("home.title")}
-          </h2>
         </div>
 
         {/* Search Bar */}
