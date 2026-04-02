@@ -51,7 +51,7 @@ Parse the issue body. Each field appears as `### Field Name` followed by the val
 
 **Tag Strategy:**
 
-Tags are always in **French** in the base JSON (and translated into EN/IT in the translations block). Aim for 4–8 tags per recipe chosen from the discovery dimensions below. Pick only tags that genuinely apply.
+Tags are always in **French** in the base JSON (and translated into EN/IT in the translations block). Aim for 4–10 tags per recipe chosen from the discovery dimensions below. Pick only tags that genuinely apply.
 
 | Dimension | French examples |
 |---|---|
@@ -69,6 +69,8 @@ Tags are always in **French** in the base JSON (and translated into EN/IT in the
 | Served temperature | `chaud`, `froid`, `glacé`, `tiède` |
 | Practical life | `se-congèle`, `restes-bienvenus`, `meal-prep` |
 | Allergen-aware | `sans-noix`, `sans-œufs`, `sans-porc`, `halal`, `casher` |
+| Flavor profile | `sucré-salé`, `épicé`, `acidulé`, `doux`, `umami`, `herbacé` |
+| Equipment required | `thermomix`, `robot-pâtissier`, `mixeur-plongeant`, `cocotte-minute`, `sans-équipement-spécial` |
 
 Single lowercase words or hyphenated compounds only. No accents in tag slugs (use `no-cuisson` not `no-cuisson` — keep accents where natural, e.g. `léger` is fine).
 
