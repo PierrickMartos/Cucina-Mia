@@ -195,6 +195,7 @@ export function RecipePage() {
       </div>
 
       {/* Tab Content */}
+      <div key={activeTab} className="tab-enter">
       {activeTab === "ingredients" ? (
         <section className="mb-8">
           {recipe.ingredients.map((group, gi) => (
@@ -278,6 +279,7 @@ export function RecipePage() {
           </ol>
         </section>
       )}
+      </div>
 
       {/* Tips */}
       {recipe.tips && recipe.tips.length > 0 && (
