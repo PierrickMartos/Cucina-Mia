@@ -14,7 +14,7 @@ const mockRecipes = [
     cookTime: 15,
     servings: 4,
     difficulty: "Medio" as const,
-    category: "Primi",
+    category: "Antipasti",
     tags: ["pasta", "romano"],
   },
   {
@@ -51,7 +51,7 @@ describe("HomePage", () => {
   it("renders category cards after loading", async () => {
     renderHomePage()
     await waitFor(() => {
-      expect(screen.getByText("First courses")).toBeInTheDocument()
+      expect(screen.getByText("Starters")).toBeInTheDocument()
       expect(screen.getByText("Desserts")).toBeInTheDocument()
     })
   })
@@ -69,8 +69,8 @@ describe("HomePage", () => {
   it("links category cards to filtered recipes page", async () => {
     renderHomePage()
     await waitFor(() => {
-      const primiLink = screen.getByText("First courses").closest("a")
-      expect(primiLink).toHaveAttribute("href", "/recipes?category=Primi")
+      const antipastiLink = screen.getByText("Starters").closest("a")
+      expect(antipastiLink).toHaveAttribute("href", "/recipes?category=Antipasti")
     })
   })
 })
