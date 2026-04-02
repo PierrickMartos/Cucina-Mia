@@ -24,6 +24,7 @@ jobs:
       - run: npm ci
 
       - name: Process recipe with Claude Code
+        id: process_recipe
         uses: anthropics/claude-code-action@v1
         with:
           claude_code_oauth_token: ${{ secrets.CLAUDE_CODE_OAUTH_TOKEN }}
@@ -48,3 +49,17 @@ jobs:
             If there are errors (missing required fields, duplicate slug, unreadable file/URL),
             comment on the issue explaining the problem and do NOT create a branch or PR.
           claude_args: "--allowedTools Bash,Read,Write,Edit,Glob,Grep,WebFetch"
+
+      - name: Save Claude execution logs
+        if: always()
+        run: cp /home/runner/work/_temp/claude-execution-output.json /tmp/claude-log-add-recipe.json 2>/dev/null || true
+
+      - name: Upload Claude execution logs
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: claude-logs-issue-${{ github.event.issue.number }}
+          retention-days: 7
+          if-no-files-found: ignore
+          path: |
+            /tmp/claude-log-add-recipe.json
