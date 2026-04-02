@@ -119,7 +119,7 @@ export function RecipePage() {
       )}
 
       {/* Full-width Hero Image */}
-      <div className="relative">
+      <div className="relative overflow-hidden lg:max-h-[70vh]">
         {/* Back button overlaid on image */}
         <button
           onClick={() => navigate(-1)}
@@ -139,6 +139,19 @@ export function RecipePage() {
         </div>
         {/* Bottom gradient fade */}
         <div className="absolute inset-x-0 bottom-0 h-32 bg-gradient-to-t from-background to-transparent" />
+
+        {/* Image Credit */}
+        {recipe.imageCredit && (recipe.imageCredit.author || recipe.imageCredit.url) && (
+          <p className="absolute bottom-20 right-4 text-[12px] text-white/90">
+            {recipe.imageCredit.url ? (
+              <a href={recipe.imageCredit.url} target="_blank" rel="noopener noreferrer">
+                {recipe.imageCredit.author || "Pixabay"}
+              </a>
+            ) : (
+              recipe.imageCredit.author || "Pixabay"
+            )}
+          </p>
+        )}
       </div>
 
       {/* Recipe Info Card — overlaps image */}
@@ -194,24 +207,6 @@ export function RecipePage() {
           </div>
         </div>
 
-        {/* Image Credit */}
-        {recipe.imageCredit && (recipe.imageCredit.name || recipe.imageCredit.url) && (
-          <p className="text-[11px] text-muted-foreground mt-4">
-            📷{" "}
-            {recipe.imageCredit.url ? (
-              <a
-                href={recipe.imageCredit.url}
-                target="_blank"
-                rel="noopener noreferrer"
-                className="underline hover:text-foreground transition-colors"
-              >
-                {recipe.imageCredit.name || recipe.imageCredit.url}
-              </a>
-            ) : (
-              recipe.imageCredit.name
-            )}
-          </p>
-        )}
       </div>
 
       <div className="px-6 mt-8">

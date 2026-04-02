@@ -26,6 +26,7 @@
     "instructions": "Instructions",
     "tips": "Tips",
     "source": "Source",
+    "difficulty": "Difficulty",
     "step": "Step {{number}}"
   },
   "filter": {

@@ -1,7 +1,7 @@
 {
   "slug": "pasta-carbonara",
   "title": "Pasta alla Carbonara",
-  "description": "La vraie carbonara romaine avec guanciale, pecorino, œufs et poivre noir.",
+  "description": "La vraie carbonara romaine avec guanciale croustillant, œufs entiers et pecorino romano, sans crème ni oignons.",
   "images": {
     "cover": "images/recipes/pasta-carbonara/cover.jpg",
     "web": "images/recipes/pasta-carbonara/cover.jpg"
@@ -12,126 +12,137 @@
   "difficulty": "Medio",
   "category": "Secondi",
   "tags": [
-    "pâtes",
+    "pasta",
+    "guanciale",
+    "pecorino",
     "romain",
     "traditionnel"
   ],
   "ingredients": [
     {
       "items": [
-        "400g de spaghetti ou rigatoni",
-        "200g de guanciale",
-        "6 jaunes d'œufs",
+        "400g de spaghetti ou rigatoni (UNIQUEMENT ces deux formes)",
+        "200g de guanciale (joue de porc)",
+        "4 œufs (1 par personne)",
         "100g de pecorino romano râpé",
         "Poivre noir q.s.",
-        "Sel pour l'eau de cuisson q.s."
+        "Sel gros pour la cuisson q.s."
       ]
     }
   ],
   "steps": [
     {
-      "text": "Porter une casserole d'eau salée à ébullition pour les pâtes."
+      "text": "Couper le guanciale en petits morceaux et le faire cuire à feu vif dans une poêle. Lorsque la graisse a fondu et que le guanciale est légèrement doré, éteindre le feu."
     },
     {
-      "text": "Couper le guanciale en lamelles d'environ 1 cm d'épaisseur."
+      "text": "Dans un bol, battre vigoureusement les œufs à la fourchette. Ajouter le pecorino romano râpé et le poivre noir. Bien mélanger."
     },
     {
-      "text": "Dans une poêle, faire revenir le guanciale à feu moyen sans ajouter d'huile, jusqu'à ce qu'il soit croustillant et doré."
+      "text": "Porter une casserole d'eau à ébullition, ajouter le sel gros et cuire les pâtes selon le temps indiqué."
     },
     {
-      "text": "Dans un bol, battre les jaunes d'œufs avec le pecorino râpé et une généreuse mouture de poivre noir."
+      "text": "1 à 2 minutes avant la fin de cuisson, égoutter les pâtes en gardant un peu d'eau de cuisson dans un verre."
     },
     {
-      "text": "Cuire les pâtes al dente, les égoutter en conservant un peu d'eau de cuisson."
+      "text": "Verser les pâtes dans le bol avec les œufs et le guanciale. Mélanger vigoureusement."
     },
     {
-      "text": "Verser les pâtes dans la poêle avec le guanciale (feu éteint), bien mélanger, puis ajouter la crème aux œufs et au pecorino. Mélanger en ajoutant de l'eau de cuisson si nécessaire."
+      "text": "Ajouter un peu de pecorino romano et, si la carbonara est trop sèche, une cuillère d'eau de cuisson. Continuer à mélanger jusqu'à obtenir une crème onctueuse."
+    },
+    {
+      "text": "Servir immédiatement et se préparer à toucher le paradis !"
     }
   ],
   "tips": [
-    "N'utilisez pas de lardons : le guanciale est indispensable pour le goût authentique.",
-    "Le feu doit être éteint quand vous ajoutez la crème aux œufs pour éviter une omelette.",
-    "Utilisez uniquement du pecorino romano, pas du parmesan."
+    "Ne jamais ajouter de crème : ce n'est pas une carbonara.",
+    "Le feu doit être éteint quand vous mélangez les œufs pour éviter une omelette.",
+    "Version végétarienne : remplacer le guanciale par des courgettes coupées en petits morceaux et dorées à l'huile d'olive."
   ],
   "translations": {
     "en": {
-      "description": "The authentic Roman carbonara with guanciale, pecorino, eggs and black pepper.",
+      "description": "The authentic Roman carbonara with crispy guanciale, whole eggs and pecorino romano, no cream, no onions.",
       "ingredients": [
         {
           "items": [
-            "400g spaghetti or rigatoni",
-            "200g guanciale",
-            "6 egg yolks",
+            "400g spaghetti or rigatoni (ONLY these two shapes)",
+            "200g guanciale (pork cheek)",
+            "4 eggs (1 per person)",
             "100g grated pecorino romano",
             "Black pepper to taste",
-            "Salt for pasta water to taste"
+            "Coarse salt for cooking to taste"
           ]
         }
       ],
       "steps": [
         {
-          "text": "Bring a pot of salted water to a boil for the pasta."
+          "text": "Cut the guanciale into small pieces and cook over high heat in a pan. When the fat has melted and the guanciale is lightly browned, turn off the heat."
         },
         {
-          "text": "Cut the guanciale into strips about 1 cm thick."
+          "text": "In a bowl, beat the eggs vigorously with a fork. Add the grated pecorino romano and black pepper. Mix well."
         },
         {
-          "text": "In a pan, cook the guanciale over medium heat without adding oil, until crispy and golden."
+          "text": "Bring a pot of water to a boil, add coarse salt and cook the pasta as directed."
         },
         {
-          "text": "In a bowl, beat the egg yolks with the grated pecorino and a generous grind of black pepper."
+          "text": "1 to 2 minutes before the end of cooking, drain the pasta keeping a little cooking water in a glass."
         },
         {
-          "text": "Cook the pasta al dente, drain it reserving some cooking water."
+          "text": "Pour the pasta into the bowl with the eggs and the guanciale. Mix vigorously."
         },
         {
-          "text": "Transfer the pasta to the pan with the guanciale (heat off), mix well, then add the egg and pecorino cream. Stir in cooking water as needed."
+          "text": "Add a little more pecorino romano and, if the carbonara is too dry, a spoonful of cooking water. Keep mixing until you get a creamy sauce."
+        },
+        {
+          "text": "Serve immediately and get ready to reach paradise!"
         }
       ],
       "tips": [
-        "Don't use pancetta: guanciale is essential for the authentic flavour.",
-        "The heat must be off when adding the egg cream to avoid scrambling.",
-        "Use only pecorino romano, not parmesan."
+        "Never add cream: that is not a carbonara.",
+        "The heat must be off when mixing in the eggs to avoid scrambling.",
+        "Vegetarian version: replace the guanciale with zucchini cut into small pieces and browned in olive oil."
       ]
     },
     "it": {
-      "description": "La vera carbonara romana con guanciale, pecorino, uova e pepe nero.",
+      "description": "La vera carbonara romana con guanciale croccante, uova intere e pecorino romano, senza panna né cipolle.",
       "ingredients": [
         {
           "items": [
-            "400g spaghetti o rigatoni",
-            "200g guanciale",
-            "6 tuorli d'uovo",
-            "100g pecorino romano grattugiato",
+            "400g di spaghetti o rigatoni (SOLO questi due formati)",
+            "200g di guanciale",
+            "4 uova (1 a persona)",
+            "100g di pecorino romano grattugiato",
             "Pepe nero q.b.",
-            "Sale per la pasta q.b."
+            "Sale grosso per la cottura q.b."
           ]
         }
       ],
       "steps": [
         {
-          "text": "Portare a ebollizione una pentola d'acqua salata per la pasta."
+          "text": "Tagliare il guanciale a pezzetti e farlo rosolare a fuoco alto in una padella. Quando il grasso si è sciolto e il guanciale è leggermente dorato, spegnere il fuoco."
         },
         {
-          "text": "Tagliare il guanciale a listarelle spesse circa 1 cm."
+          "text": "In una ciotola, sbattere vigorosamente le uova con una forchetta. Aggiungere il pecorino romano grattugiato e il pepe nero. Mescolare bene."
         },
         {
-          "text": "In una padella, rosolare il guanciale a fuoco medio senza aggiungere olio, fino a quando diventa croccante e dorato."
+          "text": "Portare a ebollizione una pentola d'acqua, aggiungere il sale grosso e cuocere la pasta secondo i tempi indicati."
         },
         {
-          "text": "In una ciotola, sbattere i tuorli con il pecorino grattugiato e una generosa macinata di pepe nero."
+          "text": "1-2 minuti prima della fine della cottura, scolare la pasta conservando un po' di acqua di cottura in un bicchiere."
         },
         {
-          "text": "Cuocere la pasta al dente, scolarla conservando un po' di acqua di cottura."
+          "text": "Versare la pasta nella ciotola con le uova e il guanciale. Mescolare vigorosamente."
         },
         {
-          "text": "Versare la pasta nella padella con il guanciale (fuoco spento), mescolare bene, poi aggiungere la crema di uova e pecorino. Mantecare aggiungendo acqua di cottura se necessario."
+          "text": "Aggiungere altro pecorino romano e, se la carbonara è troppo asciutta, un cucchiaio di acqua di cottura. Continuare a mescolare fino ad ottenere una crema vellutata."
+        },
+        {
+          "text": "Servire immediatamente e prepararsi a toccare il paradiso!"
         }
       ],
       "tips": [
-        "Non usare la pancetta: il guanciale è fondamentale per il sapore autentico.",
-        "Il fuoco deve essere spento quando si aggiunge la crema di uova per evitare la frittata.",
-        "Usare solo pecorino romano, non parmigiano."
+        "Non aggiungere mai la panna: non è una carbonara.",
+        "Il fuoco deve essere spento quando si mescolano le uova per evitare la frittata.",
+        "Versione vegetariana: sostituire il guanciale con le zucchine tagliate a pezzetti e dorate in olio d'oliva."
       ]
     }
   }

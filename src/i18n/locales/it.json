@@ -26,6 +26,7 @@
     "instructions": "Procedimento",
     "tips": "Consigli",
     "source": "Fonte",
+    "difficulty": "Difficoltà",
     "step": "Passo {{number}}"
   },
   "filter": {

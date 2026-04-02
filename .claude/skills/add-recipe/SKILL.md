@@ -144,6 +144,14 @@ Key rules:
   }
   ```
   Use `.jpg` extension when the image comes from Pixabay or an uploaded photo. Use `.svg` only if an SVG illustration was generated.
+- When the image comes from Pixabay, add an `imageCredit` object immediately after `images`:
+  ```json
+  "imageCredit": {
+    "author": "photographer_username",
+    "url": "https://pixabay.com/users/username-123456/"
+  }
+  ```
+  Use the `user` field from the Pixabay hit for `name`, and `userImageURL` or construct the URL as `https://pixabay.com/users/{user}-{user_id}/`. Omit `imageCredit` entirely when using an SVG illustration or an uploaded image without attribution.
 - Omit `tips` entirely if none (no empty array)
 - Omit `source` entirely if none (no empty string)
 - Omit `group` from ingredient objects when there's no group

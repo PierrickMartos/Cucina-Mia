@@ -6,7 +6,7 @@ export interface RecipeTranslation {
 }
 
 export interface ImageCredit {
-  name?: string
+  author?: string
   url?: string
 }
 

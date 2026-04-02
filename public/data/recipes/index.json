@@ -2,7 +2,7 @@
   {
     "slug": "pasta-carbonara",
     "title": "Pasta alla Carbonara",
-    "description": "La vraie carbonara romaine avec guanciale, pecorino, œufs et poivre noir.",
+    "description": "La vraie carbonara romaine avec guanciale croustillant, œufs entiers et pecorino romano, sans crème ni oignons.",
     "images": {
       "cover": "images/recipes/pasta-carbonara/cover.jpg",
       "web": "images/recipes/pasta-carbonara/cover.jpg"
@@ -13,443 +13,35 @@
     "difficulty": "Medio",
     "category": "Secondi",
     "tags": [
-      "pâtes",
+      "pasta",
+      "guanciale",
+      "pecorino",
       "romain",
       "traditionnel"
     ],
     "translations": {
       "en": {
-        "description": "The authentic Roman carbonara with guanciale, pecorino, eggs and black pepper."
+        "description": "The authentic Roman carbonara with crispy guanciale, whole eggs and pecorino romano, no cream, no onions."
       },
       "it": {
-        "description": "La vera carbonara romana con guanciale, pecorino, uova e pepe nero."
-      }
-    }
-  },
-  {
-    "slug": "cacio-e-pepe",
-    "title": "Cacio e Pepe",
-    "description": "Trois ingrédients, une saveur infinie : tonnarelli, pecorino romano et poivre noir moulu à la minute.",
-    "images": {
-      "cover": "images/recipes/cacio-e-pepe/cover.svg",
-      "web": "images/recipes/cacio-e-pepe/cover.svg"
-    },
-    "prepTime": 5,
-    "cookTime": 12,
-    "servings": 4,
-    "difficulty": "Medio",
-    "category": "Secondi",
-    "tags": [
-      "pâtes",
-      "romain",
-      "traditionnel"
-    ],
-    "translations": {
-      "en": {
-        "description": "Three ingredients, infinite flavour: tonnarelli, pecorino romano and freshly ground black pepper."
-      },
-      "it": {
-        "description": "Tre ingredienti, sapore infinito: tonnarelli, pecorino romano e pepe nero macinato al momento."
-      }
-    }
-  },
-  {
-    "slug": "risotto-milanese",
-    "title": "Risotto alla Milanese",
-    "description": "Le classique risotto au safran, crémeux et doré, symbole de la cuisine lombarde.",
-    "images": {
-      "cover": "images/recipes/risotto-milanese/cover.svg",
-      "web": "images/recipes/risotto-milanese/cover.svg"
-    },
-    "prepTime": 10,
-    "cookTime": 25,
-    "servings": 4,
-    "difficulty": "Medio",
-    "category": "Secondi",
-    "tags": [
-      "risotto",
-      "milanais",
-      "safran"
-    ],
-    "translations": {
-      "en": {
-        "description": "The classic saffron risotto, creamy and golden, symbol of Lombard cuisine."
-      },
-      "it": {
-        "description": "Il classico risotto allo zafferano, cremoso e dorato, simbolo della cucina lombarda."
-      }
-    }
-  },
-  {
-    "slug": "pesto-trofie",
-    "title": "Trofie al Pesto Genovese",
-    "description": "Pâtes ligures avec un pesto frais de basilic, pignons, ail, Parmigiano et Pecorino.",
-    "images": {
-      "cover": "images/recipes/pesto-trofie/cover.svg",
-      "web": "images/recipes/pesto-trofie/cover.svg"
-    },
-    "prepTime": 20,
-    "cookTime": 12,
-    "servings": 4,
-    "difficulty": "Facile",
-    "category": "Secondi",
-    "tags": [
-      "pâtes",
-      "ligurien",
-      "pesto"
-    ],
-    "translations": {
-      "en": {
-        "description": "Ligurian pasta with fresh basil pesto, pine nuts, garlic, Parmigiano and Pecorino."
-      },
-      "it": {
-        "description": "Pasta ligure con pesto fresco di basilico, pinoli, aglio, Parmigiano e Pecorino."
-      }
-    }
-  },
-  {
-    "slug": "lasagna-bolognese",
-    "title": "Lasagna alla Bolognese",
-    "description": "Couches de pâtes aux œufs, ragù bolognaise et béchamel, gratinées au four.",
-    "images": {
-      "cover": "images/recipes/lasagna-bolognese/cover.svg",
-      "web": "images/recipes/lasagna-bolognese/cover.svg"
-    },
-    "prepTime": 45,
-    "cookTime": 40,
-    "servings": 8,
-    "difficulty": "Difficile",
-    "category": "Secondi",
-    "tags": [
-      "pâtes",
-      "four",
-      "bolognaise"
-    ],
-    "translations": {
-      "en": {
-        "description": "Layers of egg pasta, bolognese ragù and béchamel, gratinated in the oven."
-      },
-      "it": {
-        "description": "Strati di pasta all'uovo, ragù bolognese e besciamella, gratinati al forno."
-      }
-    }
-  },
-  {
-    "slug": "bruschetta-pomodoro",
-    "title": "Bruschetta al Pomodoro",
-    "description": "Pain grillé avec des tomates cerise fraîches, du basilic et de l'huile d'olive extra vierge : l'entrée estivale parfaite.",
-    "images": {
-      "cover": "images/recipes/bruschetta-pomodoro/cover.svg",
-      "web": "images/recipes/bruschetta-pomodoro/cover.svg"
-    },
-    "prepTime": 15,
-    "cookTime": 5,
-    "servings": 4,
-    "difficulty": "Facile",
-    "category": "Antipasti",
-    "tags": [
-      "entrée",
-      "estival",
-      "tomate"
-    ],
-    "translations": {
-      "en": {
-        "description": "Toasted bread with fresh cherry tomatoes, basil and extra virgin olive oil: the perfect summer starter."
-      },
-      "it": {
-        "description": "Pane tostato con pomodorini freschi, basilico e olio extravergine: l'antipasto estivo perfetto."
-      }
-    }
-  },
-  {
-    "slug": "ossobuco",
-    "title": "Ossobuco alla Milanese",
-    "description": "Jarret de veau braisé avec une gremolata de persil, ail et zeste de citron.",
-    "images": {
-      "cover": "images/recipes/ossobuco/cover.svg",
-      "web": "images/recipes/ossobuco/cover.svg"
-    },
-    "prepTime": 20,
-    "cookTime": 120,
-    "servings": 4,
-    "difficulty": "Medio",
-    "category": "Secondi",
-    "tags": [
-      "viande",
-      "milanais",
-      "braisé"
-    ],
-    "translations": {
-      "en": {
-        "description": "Braised veal shank with a gremolata of parsley, garlic and lemon zest."
-      },
-      "it": {
-        "description": "Stinco di vitello brasato con gremolata di prezzemolo, aglio e scorza di limone."
-      }
-    }
-  },
-  {
-    "slug": "melanzane-parmigiana",
-    "title": "Parmigiana di Melanzane",
-    "description": "Couches d'aubergines frites, sauce tomate, mozzarella et Parmigiano gratinées au four.",
-    "images": {
-      "cover": "images/recipes/melanzane-parmigiana/cover.svg",
-      "web": "images/recipes/melanzane-parmigiana/cover.svg"
-    },
-    "prepTime": 40,
-    "cookTime": 35,
-    "servings": 6,
-    "difficulty": "Medio",
-    "category": "Secondi",
-    "tags": [
-      "aubergine",
-      "four",
-      "campanien"
-    ],
-    "translations": {
-      "en": {
-        "description": "Layers of fried aubergine, tomato sauce, mozzarella and Parmigiano gratinated in the oven."
-      },
-      "it": {
-        "description": "Strati di melanzane fritte, salsa di pomodoro, mozzarella e Parmigiano gratinati al forno."
-      }
-    }
-  },
-  {
-    "slug": "margherita-pizza",
-    "title": "Pizza Margherita",
-    "description": "La pizza napolitaine par excellence avec tomate San Marzano, mozzarella et basilic.",
-    "images": {
-      "cover": "images/recipes/margherita-pizza/cover.svg",
-      "web": "images/recipes/margherita-pizza/cover.svg"
-    },
-    "prepTime": 120,
-    "cookTime": 5,
-    "servings": 4,
-    "difficulty": "Difficile",
-    "category": "Pizze",
-    "tags": [
-      "pizza",
-      "napolitaine",
-      "traditionnel"
-    ],
-    "translations": {
-      "en": {
-        "description": "The quintessential Neapolitan pizza with San Marzano tomato, mozzarella and basil."
-      },
-      "it": {
-        "description": "La pizza napoletana per eccellenza con pomodoro San Marzano, mozzarella e basilico."
-      }
-    }
-  },
-  {
-    "slug": "focaccia-genovese",
-    "title": "Focaccia Genovese",
-    "description": "La vraie focaccia ligure : épaisse, moelleuse, avec une croûte dorée et de l'huile d'olive en surface.",
-    "images": {
-      "cover": "images/recipes/focaccia-genovese/cover.svg",
-      "web": "images/recipes/focaccia-genovese/cover.svg"
-    },
-    "prepTime": 30,
-    "cookTime": 25,
-    "servings": 6,
-    "difficulty": "Medio",
-    "category": "Pane",
-    "tags": [
-      "pain",
-      "ligurien",
-      "levé"
-    ],
-    "translations": {
-      "en": {
-        "description": "The original Ligurian focaccia: thick, soft, with a golden crust and olive oil on top."
-      },
-      "it": {
-        "description": "La focaccia ligure originale: alta, soffice, con crosta dorata e olio d'oliva in superficie."
-      }
-    }
-  },
-  {
-    "slug": "tiramisu",
-    "title": "Tiramisù Classico",
-    "description": "Le dessert italien le plus aimé au monde avec mascarpone, café et savoiardi.",
-    "images": {
-      "cover": "images/recipes/tiramisu/cover.svg",
-      "web": "images/recipes/tiramisu/cover.svg"
-    },
-    "prepTime": 30,
-    "cookTime": 0,
-    "servings": 8,
-    "difficulty": "Facile",
-    "category": "Dolci",
-    "tags": [
-      "dessert",
-      "café",
-      "sans-cuisson"
-    ],
-    "translations": {
-      "en": {
-        "description": "The world's most beloved Italian dessert with mascarpone, coffee and savoiardi biscuits."
-      },
-      "it": {
-        "description": "Il dolce italiano più amato al mondo con mascarpone, caffè e savoiardi."
-      }
-    }
-  },
-  {
-    "slug": "panna-cotta",
-    "title": "Panna Cotta alla Vaniglia",
-    "description": "Dessert piémontais à la cuillère, délicat et velouté, avec un coulis de fruits rouges.",
-    "images": {
-      "cover": "images/recipes/panna-cotta/cover.svg",
-      "web": "images/recipes/panna-cotta/cover.svg"
-    },
-    "prepTime": 15,
-    "cookTime": 5,
-    "servings": 6,
-    "difficulty": "Facile",
-    "category": "Dolci",
-    "tags": [
-      "dessert",
-      "piémontais",
-      "vanille"
-    ],
-    "translations": {
-      "en": {
-        "description": "A Piedmontese spoon dessert, delicate and velvety, with a mixed berry sauce."
-      },
-      "it": {
-        "description": "Dolce al cucchiaio piemontese, delicato e vellutato, con salsa ai frutti di bosco."
-      }
-    }
-  },
-  {
-    "slug": "cannoli-siciliani",
-    "title": "Cannoli Siciliani",
-    "description": "Coques croustillantes garnies de ricotta fraîche, pépites de chocolat et pistaches concassées.",
-    "images": {
-      "cover": "images/recipes/cannoli-siciliani/cover.svg",
-      "web": "images/recipes/cannoli-siciliani/cover.svg"
-    },
-    "prepTime": 45,
-    "cookTime": 15,
-    "servings": 12,
-    "difficulty": "Difficile",
-    "category": "Dolci",
-    "tags": [
-      "dessert",
-      "sicilien",
-      "frit"
-    ],
-    "translations": {
-      "en": {
-        "description": "Crispy shells filled with fresh ricotta, chocolate chips and chopped pistachio."
-      },
-      "it": {
-        "description": "Cialde croccanti ripiene di ricotta fresca, gocce di cioccolato e pistacchio tritato."
-      }
-    }
-  },
-  {
-    "slug": "pizza-faccine",
-    "title": "Pizza Faccine",
-    "description": "Mini pizzas amusantes avec des petites têtes souriantes faites d'olives, tomates cerises et poivrons — parfaites pour les petits chefs !",
-    "images": {
-      "cover": "images/recipes/pizza-faccine/cover.svg",
-      "web": "images/recipes/pizza-faccine/cover.svg"
-    },
-    "prepTime": 20,
-    "cookTime": 12,
-    "servings": 8,
-    "difficulty": "Facile",
-    "category": "Bambini",
-    "tags": [
-      "pizza",
-      "enfants",
-      "amusant",
-      "facile"
-    ],
-    "translations": {
-      "en": {
-        "description": "Fun mini pizzas with smiling faces made of olives, cherry tomatoes and peppers — perfect for little chefs!"
-      },
-      "it": {
-        "description": "Mini pizze divertenti con faccine sorridenti fatte di olive, pomodorini e peperoni — perfette per i piccoli chef!"
-      }
-    }
-  },
-  {
-    "slug": "gnocchi-pomodoro",
-    "title": "Gnocchi al Pomodoro",
-    "description": "Gnocchi de pommes de terre ultra-moelleux avec sauce tomate fraîche et basilic — le plat préféré des enfants !",
-    "images": {
-      "cover": "images/recipes/gnocchi-pomodoro/cover.svg",
-      "web": "images/recipes/gnocchi-pomodoro/cover.svg"
-    },
-    "prepTime": 30,
-    "cookTime": 20,
-    "servings": 4,
-    "difficulty": "Facile",
-    "category": "Bambini",
-    "tags": [
-      "gnocchi",
-      "enfants",
-      "tomate",
-      "pommes-de-terre"
-    ],
-    "translations": {
-      "en": {
-        "description": "Ultra-soft potato gnocchi with fresh tomato sauce and basil — kids' favourite dish!"
-      },
-      "it": {
-        "description": "Gnocchi di patate morbidissimi con sugo di pomodoro fresco e basilico — il piatto preferito dei bambini!"
-      }
-    }
-  },
-  {
-    "slug": "gelato-fragola",
-    "title": "Gelato alla Fragola",
-    "description": "Glace crémeuse à la fraise maison, sans sorbetière — fraîche, naturelle et adorée des enfants !",
-    "images": {
-      "cover": "images/recipes/gelato-fragola/cover.svg",
-      "web": "images/recipes/gelato-fragola/cover.svg"
-    },
-    "prepTime": 20,
-    "cookTime": 0,
-    "servings": 6,
-    "difficulty": "Facile",
-    "category": "Bambini",
-    "tags": [
-      "glace",
-      "enfants",
-      "fraise",
-      "sans-cuisson",
-      "dessert"
-    ],
-    "translations": {
-      "en": {
-        "description": "Creamy homemade strawberry gelato, without an ice cream maker — fresh, natural and loved by kids!"
-      },
-      "it": {
-        "description": "Gelato cremoso alla fragola fatto in casa, senza gelatiera — fresco, naturale e adorato dai bambini!"
+        "description": "La vera carbonara romana con guanciale croccante, uova intere e pecorino romano, senza panna né cipolle."
       }
     }
   },
   {
     "slug": "pasta-per-torta-veloce",
-    "title": "Pasta per Torta Veloce",
+    "title": "Pâte à tarte rapide",
     "description": "Pâte à tarte prête en 3 minutes avec seulement 3 ingrédients : farine, huile et eau chaude. Parfaite pour les tout-petits.",
     "images": {
-      "cover": "images/recipes/pasta-per-torta-veloce/cover.svg",
-      "web": "images/recipes/pasta-per-torta-veloce/cover.svg"
+      "cover": "images/recipes/pasta-per-torta-veloce/cover.jpg",
+      "web": "images/recipes/pasta-per-torta-veloce/web.jpg"
     },
     "prepTime": 3,
     "cookTime": 10,
     "servings": 6,
     "difficulty": "Facile",
-    "category": "Bambini",
+    "category": "Pane",
     "tags": [
-      "enfants",
       "base",
       "rapide",
       "facile"
@@ -488,6 +80,122 @@
       },
       "it": {
         "description": "Uova in camicia in salsa di pomodoro speziata con peperoni e cipolle, perfetta per un brunch goloso."
+      }
+    }
+  },
+  {
+    "slug": "ravioli-ricotta-spinaci",
+    "title": "Ravioli di Ricotta e Spinaci",
+    "description": "Pâtes fraîches maison farcies aux épinards et à la ricotta, une recette traditionnelle italienne à préparer de A à Z.",
+    "images": {
+      "cover": "images/recipes/ravioli-ricotta-spinaci/cover.jpg",
+      "web": "images/recipes/ravioli-ricotta-spinaci/web.jpg"
+    },
+    "prepTime": 90,
+    "cookTime": 5,
+    "servings": 4,
+    "difficulty": "Medio",
+    "category": "Secondi",
+    "tags": [
+      "pasta",
+      "ravioli",
+      "ricotta",
+      "épinards",
+      "fatta-in-casa"
+    ],
+    "translations": {
+      "en": {
+        "description": "Homemade fresh pasta stuffed with spinach and ricotta, a traditional Italian recipe made from scratch."
+      },
+      "it": {
+        "description": "Pasta fresca fatta in casa ripiena di spinaci e ricotta, una ricetta tradizionale italiana da preparare da zero."
+      }
+    }
+  },
+  {
+    "slug": "pasta-amatriciana",
+    "title": "Pasta all'Amatriciana",
+    "description": "Sauce romaine emblématique au guanciale et aux tomates, agrémentée de pecorino romano, servie sur des bucatini.",
+    "images": {
+      "cover": "images/recipes/pasta-amatriciana/cover.jpg",
+      "web": "images/recipes/pasta-amatriciana/web.jpg"
+    },
+    "prepTime": 10,
+    "cookTime": 30,
+    "servings": 4,
+    "difficulty": "Facile",
+    "category": "Secondi",
+    "tags": [
+      "pasta",
+      "guanciale",
+      "tomate",
+      "pecorino",
+      "romain"
+    ],
+    "translations": {
+      "en": {
+        "description": "Iconic Roman sauce with guanciale and tomatoes, enriched with pecorino romano, served over bucatini pasta."
+      },
+      "it": {
+        "description": "Iconico sugo romano con guanciale e pomodori, arricchito con pecorino romano, servito su bucatini."
+      }
+    }
+  },
+  {
+    "slug": "crumble-ananas-mangue",
+    "title": "Crumble Ananas et Mangue",
+    "description": "Un crumble aux fruits exotiques avec de l'ananas caramélisé à la vanille, de la mangue et du fruit de la passion, recouvert d'un biscuit croustillant à la cannelle.",
+    "images": {
+      "cover": "images/recipes/crumble-ananas-mangue/cover.jpg",
+      "web": "images/recipes/crumble-ananas-mangue/web.jpg"
+    },
+    "prepTime": 20,
+    "cookTime": 25,
+    "servings": 4,
+    "difficulty": "Facile",
+    "category": "Dolci",
+    "tags": [
+      "crumble",
+      "ananas",
+      "mangue",
+      "exotique",
+      "dessert"
+    ],
+    "translations": {
+      "en": {
+        "description": "An exotic fruit crumble with vanilla-caramelized pineapple, mango, and passion fruit, topped with a crunchy cinnamon biscuit."
+      },
+      "it": {
+        "description": "Un crumble ai frutti esotici con ananas caramellato alla vaniglia, mango e frutto della passione, ricoperto da un croccante biscotto alla cannella."
+      }
+    }
+  },
+  {
+    "slug": "avocado-toast",
+    "title": "Avocado Toast",
+    "description": "Toast croustillant garni de fromage frais, d'avocat en lamelles, d'œuf mollet et de radis croquants.",
+    "images": {
+      "cover": "images/recipes/avocado-toast/cover.jpg",
+      "web": "images/recipes/avocado-toast/web.jpg"
+    },
+    "prepTime": 10,
+    "cookTime": 5,
+    "servings": 2,
+    "difficulty": "Facile",
+    "category": "Breakfast",
+    "tags": [
+      "avocado",
+      "œufs",
+      "toast",
+      "petit-déjeuner",
+      "healthy"
+    ],
+    "translations": {
+      "en": {
+        "description": "Crispy toast topped with cream cheese, sliced avocado, soft-boiled egg and crunchy radishes."
+      },
+      "it": {
+        "description": "Toast croccante guarnito con formaggio fresco, fettine di avocado, uovo barzotto e ravanelli croccanti."
       }
     }
   }
