@@ -14,13 +14,13 @@ export function RecipeCard({ recipe: rawRecipe }: { recipe: RecipeSummary }) {
   const totalTime = recipe.prepTime + recipe.cookTime
 
   return (
-    <Link to={`/recipe/${recipe.slug}`}>
+    <Link to={`/recipe/${recipe.slug}`} className="group">
       <Card className="overflow-hidden py-0 border-border/50 hover:shadow-md transition-shadow h-full bg-card rounded-[1.5rem]">
         <div className="aspect-[4/3] overflow-hidden relative editorial-grain">
           <img
             src={`${BASE}${recipe.images.web}`}
             alt={recipe.title}
-            className="h-full w-full object-cover transition-transform duration-500 group-hover:scale-105"
+            className="h-full w-full object-cover transition-transform duration-700 group-hover:scale-105"
             loading="lazy"
           />
         </div>
