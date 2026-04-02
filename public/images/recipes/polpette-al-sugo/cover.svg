@@ -1,0 +1,70 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <defs>
+    <radialGradient id="polbg" cx="50%" cy="45%" r="70%"><stop offset="0%" stop-color="#2e2418"/><stop offset="100%" stop-color="#180f08"/></radialGradient>
+    <radialGradient id="polplate" cx="50%" cy="38%" r="55%"><stop offset="0%" stop-color="#f2ede3"/><stop offset="100%" stop-color="#d8cfc0"/></radialGradient>
+    <radialGradient id="polsauce" cx="50%" cy="50%" r="60%"><stop offset="0%" stop-color="#c23010"/><stop offset="100%" stop-color="#8c1e08"/></radialGradient>
+    <radialGradient id="polball1" cx="38%" cy="35%" r="60%"><stop offset="0%" stop-color="#8c5030"/><stop offset="100%" stop-color="#5a2c10"/></radialGradient>
+    <radialGradient id="polball2" cx="38%" cy="35%" r="60%"><stop offset="0%" stop-color="#904e28"/><stop offset="100%" stop-color="#5c2a0e"/></radialGradient>
+    <radialGradient id="polball3" cx="38%" cy="35%" r="60%"><stop offset="0%" stop-color="#8a4c2c"/><stop offset="100%" stop-color="#582e12"/></radialGradient>
+    <radialGradient id="polshadow" cx="50%" cy="50%" r="50%"><stop offset="0%" stop-color="#0d0804" stop-opacity="0.6"/><stop offset="100%" stop-color="#0d0804" stop-opacity="0"/></radialGradient>
+  </defs>
+  <!-- Background -->
+  <rect width="800" height="600" fill="url(#polbg)"/>
+  <!-- Table surface hint -->
+  <ellipse cx="400" cy="540" rx="320" ry="50" fill="#241a0e" opacity="0.6"/>
+  <!-- Plate shadow -->
+  <ellipse cx="400" cy="500" rx="210" ry="24" fill="#0d0804" opacity="0.55"/>
+  <!-- Plate -->
+  <ellipse cx="400" cy="400" rx="210" ry="108" fill="url(#polplate)"/>
+  <ellipse cx="400" cy="400" rx="198" ry="98" fill="none" stroke="#c4bbaa" stroke-width="1.5" opacity="0.45"/>
+  <!-- Sauce pool -->
+  <ellipse cx="400" cy="418" rx="155" ry="58" fill="url(#polsauce)" opacity="0.82"/>
+  <!-- Sauce texture blobs -->
+  <ellipse cx="350" cy="420" rx="40" ry="22" fill="#a82808" opacity="0.4" transform="rotate(-10,350,420)"/>
+  <ellipse cx="455" cy="425" rx="35" ry="18" fill="#a82808" opacity="0.35" transform="rotate(8,455,425)"/>
+  <ellipse cx="400" cy="440" rx="30" ry="15" fill="#c83818" opacity="0.3"/>
+  <!-- Meatball back-left -->
+  <circle cx="315" cy="400" r="40" fill="url(#polball1)"/>
+  <circle cx="315" cy="400" r="40" fill="none" stroke="#6e3818" stroke-width="1" opacity="0.5"/>
+  <ellipse cx="305" cy="390" rx="14" ry="9" fill="#b06840" opacity="0.35" transform="rotate(-15,305,390)"/>
+  <ellipse cx="325" cy="412" rx="10" ry="7" fill="#4a1e08" opacity="0.4"/>
+  <!-- Meatball back-right -->
+  <circle cx="488" cy="398" r="38" fill="url(#polball2)"/>
+  <circle cx="488" cy="398" r="38" fill="none" stroke="#6a3616" stroke-width="1" opacity="0.5"/>
+  <ellipse cx="478" cy="388" rx="13" ry="8" fill="#b06840" opacity="0.32" transform="rotate(-12,478,388)"/>
+  <ellipse cx="498" cy="408" rx="9" ry="6" fill="#4a1e08" opacity="0.38"/>
+  <!-- Meatball front-center -->
+  <circle cx="400" cy="435" r="44" fill="url(#polball3)"/>
+  <circle cx="400" cy="435" r="44" fill="none" stroke="#6e3818" stroke-width="1.2" opacity="0.55"/>
+  <ellipse cx="388" cy="422" rx="16" ry="10" fill="#b86840" opacity="0.38" transform="rotate(-18,388,422)"/>
+  <ellipse cx="412" cy="448" rx="11" ry="7" fill="#4a1e08" opacity="0.42"/>
+  <!-- Sauce drips over meatballs -->
+  <ellipse cx="315" cy="412" rx="25" ry="14" fill="#c83010" opacity="0.55" transform="rotate(5,315,412)"/>
+  <ellipse cx="488" cy="410" rx="22" ry="12" fill="#c03010" opacity="0.5" transform="rotate(-5,488,410)"/>
+  <ellipse cx="400" cy="450" rx="28" ry="14" fill="#c83010" opacity="0.52"/>
+  <!-- Herb flecks (parsley) -->
+  <g fill="#4a7c30" opacity="0.75">
+    <ellipse cx="340" cy="393" rx="4" ry="2.5" transform="rotate(30,340,393)"/>
+    <ellipse cx="360" cy="405" rx="3.5" ry="2" transform="rotate(-20,360,405)"/>
+    <ellipse cx="430" cy="396" rx="4" ry="2.5" transform="rotate(15,430,396)"/>
+    <ellipse cx="415" cy="418" rx="3" ry="2" transform="rotate(-35,415,418)"/>
+    <ellipse cx="375" cy="448" rx="4" ry="2.5" transform="rotate(25,375,448)"/>
+    <ellipse cx="422" cy="452" rx="3.5" ry="2" transform="rotate(-10,422,452)"/>
+    <ellipse cx="295" cy="408" rx="3" ry="2" transform="rotate(40,295,408)"/>
+    <ellipse cx="470" cy="403" rx="3.5" ry="2.5" transform="rotate(-25,470,403)"/>
+  </g>
+  <!-- Parmesan shavings -->
+  <g fill="#f5ead0" opacity="0.65">
+    <ellipse cx="352" cy="383" rx="9" ry="3.5" transform="rotate(20,352,383)"/>
+    <ellipse cx="450" cy="385" rx="8" ry="3" transform="rotate(-15,450,385)"/>
+    <ellipse cx="385" cy="460" rx="10" ry="3.5" transform="rotate(8,385,460)"/>
+    <ellipse cx="310" cy="386" rx="7" ry="3" transform="rotate(-30,310,386)"/>
+    <ellipse cx="492" cy="418" rx="7" ry="3" transform="rotate(22,492,418)"/>
+  </g>
+  <!-- Steam wisps -->
+  <g stroke="#f0ebe0" stroke-width="1.5" fill="none" opacity="0.09">
+    <path d="M330,345 Q325,325 335,305 Q345,285 335,265"/>
+    <path d="M400,336 Q395,316 405,296 Q415,276 405,256"/>
+    <path d="M470,345 Q465,325 475,305 Q485,285 475,265"/>
+  </g>
+</svg>

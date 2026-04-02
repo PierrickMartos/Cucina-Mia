@@ -657,5 +657,36 @@
         "description": "Gnocchi di patate conditi con una vellutata crema di peperone rosso e parmigiano, una ricetta saporita e veloce ispirata alla Toscana."
       }
     }
+  },
+  {
+    "slug": "polpette-al-sugo",
+    "title": "Polpette al Sugo",
+    "description": "Des boulettes de viande tendres mijotées dans un riche sugo maison, parfumées au persil et au parmesan, comme en Italie.",
+    "images": {
+      "cover": "images/recipes/polpette-al-sugo/cover.svg",
+      "web": "images/recipes/polpette-al-sugo/cover.svg"
+    },
+    "prepTime": 20,
+    "cookTime": 35,
+    "servings": 4,
+    "difficulty": "Facile",
+    "category": "Secondi",
+    "tags": [
+      "viande",
+      "tomate",
+      "boulettes",
+      "traditionnel",
+      "mijote"
+    ],
+    "translations": {
+      "en": {
+        "title": "Polpette al Sugo",
+        "description": "Tender Italian meatballs slow-cooked in a rich homemade tomato sauce, seasoned with fresh parsley and parmesan."
+      },
+      "it": {
+        "title": "Polpette al Sugo",
+        "description": "Tenere polpette di manzo cotte lentamente in un ricco sugo di pomodoro fatto in casa, aromatizzate con prezzemolo fresco e parmigiano."
+      }
+    }
   }
 ]
