@@ -4,7 +4,7 @@ import { Search, SlidersHorizontal } from "lucide-react"
 import Fuse from "fuse.js"
 import { Input } from "@/components/ui/input"
 import { Skeleton } from "@/components/ui/skeleton"
-import { RecipeGrid } from "@/components/RecipeGrid"
+import { RecipeGrid, AnimateInView } from "@/components/RecipeGrid"
 import { sortCategories } from "@/lib/categories"
 import { useTranslation } from "react-i18next"
 import type { RecipeSummary } from "@/types/recipe"
@@ -134,8 +134,8 @@ export function HomePage() {
         ) : (
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
             {categories.map((cat, index) => (
+              <AnimateInView key={cat.category} index={index}>
               <Link
-                key={cat.category}
                 to={`/recipes?category=${encodeURIComponent(cat.category)}`}
                 className="group cursor-pointer"
               >
@@ -156,6 +156,7 @@ export function HomePage() {
                   </div>
                 </article>
               </Link>
+              </AnimateInView>
             ))}
           </div>
         )}

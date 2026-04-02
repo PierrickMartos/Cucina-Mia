@@ -7,7 +7,7 @@ import type { RecipeSummary } from "@/types/recipe"
 const STAGGER_MS = 60
 const MAX_STAGGER_MS = 300
 
-function AnimateInView({ children, index }: { children: React.ReactNode; index: number }) {
+export function AnimateInView({ children, index }: { children: React.ReactNode; index: number }) {
   const ref = useRef<HTMLDivElement>(null)
   const [visible, setVisible] = useState(false)
 
