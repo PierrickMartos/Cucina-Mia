@@ -78,6 +78,7 @@
   "source": "https://www.atelierdeschefs.fr/fr/recette/16276",
   "translations": {
     "en": {
+      "title": "Mango Turmeric Clafoutis with Lemongrass Caramel",
       "description": "A soft mango and turmeric clafoutis, drizzled with a velvety caramel sauce infused with lemongrass and kaffir lime leaves.",
       "ingredients": [
         {
@@ -138,6 +139,7 @@
       ]
     },
     "it": {
+      "title": "Clafoutis di Mango alla Curcuma con Caramello alla Citronella",
       "description": "Un morbido clafoutis di mango alla curcuma, nappato di una vellutata salsa caramello alla citronella e foglie di combava.",
       "ingredients": [
         {

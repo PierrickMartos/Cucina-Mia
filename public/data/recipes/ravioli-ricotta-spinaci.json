@@ -78,6 +78,7 @@
   ],
   "translations": {
     "en": {
+      "title": "Ricotta and Spinach Ravioli",
       "description": "Homemade fresh pasta stuffed with spinach and ricotta, a traditional Italian recipe made from scratch.",
       "ingredients": [
         {
@@ -135,6 +136,7 @@
       ]
     },
     "it": {
+      "title": "Ravioli di Ricotta e Spinaci",
       "description": "Pasta fresca fatta in casa ripiena di spinaci e ricotta, una ricetta tradizionale italiana da preparare da zero.",
       "ingredients": [
         {

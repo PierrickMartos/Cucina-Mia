@@ -10,7 +10,7 @@ This skill processes recipe submissions and adds them to the Cucina Mia cookbook
 - **Unstructured file issues** from the `recipe-submission-file.yml` template (uploaded file + recipe name)
 - **Unstructured URL issues** from the `recipe-submission-url.yml` template (webpage URL + recipe name)
 
-Each recipe needs: a detail JSON file, an entry in the index, an SVG cover illustration, and translations in Italian (base), English, and French.
+Each recipe needs: a detail JSON file, an entry in the index, an SVG cover illustration, and translations in French (base), English, and Italian.
 
 ## Step 1: Fetch and Classify the Issue
 
@@ -88,9 +88,9 @@ Parse the issue body. Each field appears as `### Field Name` followed by the val
 
 ## Step 3: Translate
 
-The base language is **Italian**. All top-level text fields (title, description, ingredients, steps, tips) must be in Italian. Then provide translations for English and French.
+The base language is **French**. All top-level text fields (description, ingredients, steps, tips) must be in French. Then provide translations for English (`en`) and Italian (`it`).
 
-Whatever language the source content is in, translate it to all three languages. The recipe `title` stays in Italian at top level (it's the dish name) and is NOT translated.
+Whatever language the source content is in, translate it to all three languages. The recipe `title` is the dish name and is NOT translated.
 
 ### Detail JSON translations structure
 ```json
@@ -101,11 +101,11 @@ Whatever language the source content is in, translate it to all three languages.
     "steps": [{"text": "Step in English"}],
     "tips": ["Tip in English"]
   },
-  "fr": {
-    "description": "French description",
-    "ingredients": [{"items": ["ingredient in French"]}],
-    "steps": [{"text": "Step in French"}],
-    "tips": ["Tip in French"]
+  "it": {
+    "description": "Italian description",
+    "ingredients": [{"items": ["ingredient in Italian"]}],
+    "steps": [{"text": "Step in Italian"}],
+    "tips": ["Tip in Italian"]
   }
 }
 ```
@@ -114,7 +114,7 @@ Whatever language the source content is in, translate it to all three languages.
 ```json
 "translations": {
   "en": { "description": "English description" },
-  "fr": { "description": "French description" }
+  "it": { "description": "Italian description" }
 }
 ```
 
@@ -129,7 +129,7 @@ Before writing files, check:
 3. **Required fields**: slug, title, description, prepTime, cookTime, servings, difficulty, category, tags (non-empty), ingredients (at least one item), steps (at least one)
 4. **Enums**: difficulty is "Facile"|"Medio"|"Difficile"; category is a known value
 5. **Numbers**: prepTime, cookTime, servings are non-negative integers
-6. **Translations**: both `en` and `fr` translations are present with description, ingredients, steps, and tips (if tips exist in base)
+6. **Translations**: both `en` and `it` translations are present with description, ingredients, steps, and tips (if tips exist in base)
 
 ## Step 5: Write the Recipe Detail JSON
 
@@ -157,7 +157,7 @@ Key rules:
 - Omit `group` from ingredient objects when there's no group
 - Omit `image` from step objects (not used)
 - 2-space indentation, trailing newline
-- `translations` object at the end, with `en` and `fr` keys
+- `translations` object at the end, with `en` and `it` keys
 
 ## Step 6: Update the Recipe Index
 
@@ -231,7 +231,7 @@ Summarize:
 - **Missing required fields** (structured): report which fields are missing and stop.
 - **Unreadable file** (unstructured file): report the error and stop.
 - **Unreachable URL** (unstructured URL): report the error and stop. Do not guess recipe content.
-- **Non-Italian source content**: translate to Italian for base fields, then to EN and FR for translations.
+- **Non-French source content**: translate to French for base fields, then to EN and IT for translations.
 - **Long descriptions**: keep to 1-2 sentences (<200 chars). Extra detail goes to tips.
 - **Tags**: single lowercase words or hyphenated compounds (e.g., `no-cottura`, `frutti-di-bosco`).
 - **Cook time 0**: valid (e.g., tiramisu, gelato).

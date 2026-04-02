@@ -91,6 +91,7 @@
   "source": "Recettes Team Building Suricates Akeneo Q2 2023 – L'Atelier Gourmand de Nantes",
   "translations": {
     "en": {
+      "title": "Avocado Cream, Cucumber Mousse and Marinated Cherry Tomato",
       "description": "An elegant appetizer served in glasses: a creamy avocado base topped with a light cucumber mousse and basil-marinated cherry tomatoes.",
       "ingredients": [
         {
@@ -160,6 +161,7 @@
       ]
     },
     "it": {
+      "title": "Crema di Avocado, Mousse al Cetriolo e Pomodorino Marinato",
       "description": "Un elegante antipasto in verrine: una crema di avocado vellutata sormontata da una mousse leggera al cetriolo e pomodorini marinati al basilico.",
       "ingredients": [
         {

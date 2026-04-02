@@ -76,6 +76,7 @@
   "source": "https://www.750g.com/gateau-de-savoie-r81304.htm",
   "translations": {
     "en": {
+      "title": "Gâteau de Savoie",
       "description": "Traditional Savoyard cake, ultra-light and airy, made with cornstarch and whipped egg whites with a delicate lemon flavor.",
       "ingredients": [
         {
@@ -130,6 +131,7 @@
       ]
     },
     "it": {
+      "title": "Torta di Savoia",
       "description": "Torta tradizionale savoiarda, leggerissima e ariosa, realizzata con amido di mais e albumi montati a neve con un delicato aroma di limone.",
       "ingredients": [
         {

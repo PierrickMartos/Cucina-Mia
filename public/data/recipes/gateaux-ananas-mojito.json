@@ -64,6 +64,7 @@
   "source": "Prima magazine, p. 76",
   "translations": {
     "en": {
+      "title": "Pineapple Cakes with Mojito Syrup",
       "description": "Individual upside-down cakes with caramelized pineapple, drizzled with a mojito-style syrup of rum, mint, and lime.",
       "ingredients": [
         {
@@ -106,6 +107,7 @@
       ]
     },
     "it": {
+      "title": "Tortine all'Ananas con Sciroppo Mojito",
       "description": "Tortine rovesciate all'ananas caramellato, irrorate con uno sciroppo profumato al rum, menta e lime stile mojito.",
       "ingredients": [
         {

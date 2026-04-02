@@ -81,6 +81,7 @@
   "source": "https://www.atelierdeschefs.fr/fr/recette/4222",
   "translations": {
     "en": {
+      "title": "Panna Cotta with Raspberries and Crispy Tuile",
       "description": "A silky Italian cream dessert served with a homemade raspberry coulis and a crunchy almond tuile.",
       "ingredients": [
         {
@@ -140,6 +141,7 @@
       ]
     },
     "it": {
+      "title": "Panna Cotta ai Lamponi con Tegola Croccante",
       "description": "Un morbido dessert italiano alla panna, servito con un coulis di lamponi fatto in casa e una croccante tuile alle mandorle.",
       "ingredients": [
         {

@@ -58,7 +58,7 @@ export function RecipePage() {
   if (loading) {
     return (
       <div>
-        <Skeleton className="aspect-[4/5] sm:aspect-[16/10] w-full" />
+        <Skeleton className="aspect-[4/5] sm:aspect-[16/10] lg:aspect-auto lg:h-[60vh] w-full" />
         <div className="relative -mt-16 mx-4 bg-background rounded-[1.5rem] p-6 text-center">
           <Skeleton className="h-3 w-32 mx-auto mb-4 rounded-full" />
           <Skeleton className="h-8 w-48 mx-auto mb-6 rounded" />
@@ -108,7 +108,7 @@ export function RecipePage() {
       {headerSlot && createPortal(
         <button
           onClick={() => navigate(-1)}
-          className={`inline-flex items-center text-sm text-muted-foreground hover:text-foreground transition-all duration-200 ${
+          className={`cursor-pointer inline-flex items-center text-sm text-muted-foreground hover:text-foreground transition-all duration-200 ${
             headerBackVisible ? "opacity-100 translate-x-0" : "opacity-0 -translate-x-2 pointer-events-none"
           }`}
         >
@@ -119,24 +119,22 @@ export function RecipePage() {
       )}
 
       {/* Full-width Hero Image */}
-      <div className="relative overflow-hidden lg:max-h-[70vh]">
+      <div className="relative overflow-hidden aspect-[4/5] sm:aspect-[16/10] lg:aspect-auto lg:h-[60vh]">
         {/* Back button overlaid on image */}
         <button
           onClick={() => navigate(-1)}
-          className={`absolute top-4 left-4 z-10 inline-flex items-center justify-center h-10 w-10 rounded-full bg-black/30 backdrop-blur-sm text-white hover:bg-black/50 transition-all duration-200 ${
+          className={`cursor-pointer absolute top-4 left-4 z-10 inline-flex items-center justify-center h-10 w-10 rounded-full bg-black/30 backdrop-blur-sm text-white hover:bg-black/50 transition-all duration-200 ${
             headerBackVisible ? "opacity-0 pointer-events-none" : "opacity-100"
           }`}
         >
           <ArrowLeft className="h-5 w-5" />
         </button>
 
-        <div className="aspect-[4/5] sm:aspect-[16/10]">
-          <img
-            src={`${BASE}${recipe.images.cover}`}
-            alt={recipe.title}
-            className="h-full w-full object-cover"
-          />
-        </div>
+        <img
+          src={`${BASE}${recipe.images.cover}`}
+          alt={recipe.title}
+          className="absolute inset-0 h-full w-full object-cover object-center"
+        />
         {/* Bottom gradient fade */}
         <div className="absolute inset-x-0 bottom-0 h-32 bg-gradient-to-t from-background to-transparent" />
 

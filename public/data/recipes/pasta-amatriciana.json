@@ -71,6 +71,7 @@
   ],
   "translations": {
     "en": {
+      "title": "Pasta all'Amatriciana",
       "description": "Iconic Roman sauce with guanciale and tomatoes, enriched with pecorino romano, served over bucatini pasta.",
       "ingredients": [
         {
@@ -121,6 +122,7 @@
       ]
     },
     "it": {
+      "title": "Pasta all'Amatriciana",
       "description": "Iconico sugo romano con guanciale e pomodori, arricchito con pecorino romano, servito su bucatini.",
       "ingredients": [
         {

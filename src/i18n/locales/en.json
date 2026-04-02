@@ -1,7 +1,8 @@
 {
   "nav": {
     "home": "Home",
-    "recipes": "Recipes"
+    "recipes": "Recipes",
+    "add": "Add"
   },
   "home": {
     "subtitle": "Home recipes, from grandma, grandpa, mother-in-law, mum, dad, the internet or elsewhere",

@@ -84,6 +84,7 @@
   "source": "http://cotegourmandises.canalblog.com/archives/2013/01/17/26161467.html",
   "translations": {
     "en": {
+      "title": "Lemon Meringue Pie Verrines",
       "description": "A deconstructed lemon meringue tart served in individual glasses, with crunchy almond crumble, creamy lemon curd and glossy Italian meringue.",
       "ingredients": [
         {
@@ -150,6 +151,7 @@
       ]
     },
     "it": {
+      "title": "Verrines Stile Crostata al Limone Meringuata",
       "description": "Rivisitazione in bicchierini della crostata al limone meringuata: crumble croccante alle mandorle, lemon curd cremoso e meringa italiana lucida.",
       "ingredients": [
         {

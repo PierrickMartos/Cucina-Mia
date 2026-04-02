@@ -21,9 +21,11 @@
     ],
     "translations": {
       "en": {
+        "title": "Pasta alla Carbonara",
         "description": "The authentic Roman carbonara with crispy guanciale, whole eggs and pecorino romano, no cream, no onions."
       },
       "it": {
+        "title": "Pasta alla Carbonara",
         "description": "La vera carbonara romana con guanciale croccante, uova intere e pecorino romano, senza panna né cipolle."
       }
     }
@@ -48,9 +50,11 @@
     ],
     "translations": {
       "en": {
+        "title": "Quick Pastry Dough",
         "description": "Pie crust dough ready in 3 minutes with just 3 ingredients: flour, oil, and hot water. Perfect for little ones."
       },
       "it": {
+        "title": "Pasta per Torta Veloce",
         "description": "Impasto per torte salate pronto in 3 minuti con soli 3 ingredienti: farina, olio e acqua calda. Perfetto per i più piccoli."
       }
     }
@@ -76,9 +80,11 @@
     ],
     "translations": {
       "en": {
+        "title": "Brunch Shakshuka",
         "description": "Eggs poached in a spiced tomato sauce with peppers and onions, perfect for a gourmet brunch."
       },
       "it": {
+        "title": "Chakchouka da Brunch",
         "description": "Uova in camicia in salsa di pomodoro speziata con peperoni e cipolle, perfetta per un brunch goloso."
       }
     }
@@ -105,9 +111,11 @@
     ],
     "translations": {
       "en": {
+        "title": "Ricotta and Spinach Ravioli",
         "description": "Homemade fresh pasta stuffed with spinach and ricotta, a traditional Italian recipe made from scratch."
       },
       "it": {
+        "title": "Ravioli di Ricotta e Spinaci",
         "description": "Pasta fresca fatta in casa ripiena di spinaci e ricotta, una ricetta tradizionale italiana da preparare da zero."
       }
     }
@@ -134,9 +142,11 @@
     ],
     "translations": {
       "en": {
+        "title": "Pasta all'Amatriciana",
         "description": "Iconic Roman sauce with guanciale and tomatoes, enriched with pecorino romano, served over bucatini pasta."
       },
       "it": {
+        "title": "Pasta all'Amatriciana",
         "description": "Iconico sugo romano con guanciale e pomodori, arricchito con pecorino romano, servito su bucatini."
       }
     }
@@ -163,9 +173,11 @@
     ],
     "translations": {
       "en": {
+        "title": "Pineapple and Mango Crumble",
         "description": "An exotic fruit crumble with vanilla-caramelized pineapple, mango, and passion fruit, topped with a crunchy cinnamon biscuit."
       },
       "it": {
+        "title": "Crumble Ananas e Mango",
         "description": "Un crumble ai frutti esotici con ananas caramellato alla vaniglia, mango e frutto della passione, ricoperto da un croccante biscotto alla cannella."
       }
     }
@@ -192,9 +204,11 @@
     ],
     "translations": {
       "en": {
+        "title": "Avocado Toast",
         "description": "Crispy toast topped with cream cheese, sliced avocado, soft-boiled egg and crunchy radishes."
       },
       "it": {
+        "title": "Avocado Toast",
         "description": "Toast croccante guarnito con formaggio fresco, fettine di avocado, uovo barzotto e ravanelli croccanti."
       }
     }
@@ -221,9 +235,11 @@
     ],
     "translations": {
       "en": {
+        "title": "Mango Turmeric Clafoutis with Lemongrass Caramel",
         "description": "A soft mango and turmeric clafoutis, drizzled with a velvety caramel sauce infused with lemongrass and kaffir lime leaves."
       },
       "it": {
+        "title": "Clafoutis di Mango alla Curcuma con Caramello alla Citronella",
         "description": "Un morbido clafoutis di mango alla curcuma, nappato di una vellutata salsa caramello alla citronella e foglie di combava."
       }
     }
@@ -250,9 +266,11 @@
     ],
     "translations": {
       "en": {
+        "title": "Pineapple Cakes with Mojito Syrup",
         "description": "Individual upside-down cakes with caramelized pineapple, drizzled with a mojito-style syrup of rum, mint, and lime."
       },
       "it": {
+        "title": "Tortine all'Ananas con Sciroppo Mojito",
         "description": "Tortine rovesciate all'ananas caramellato, irrorate con uno sciroppo profumato al rum, menta e lime stile mojito."
       }
     }
@@ -279,9 +297,11 @@
     ],
     "translations": {
       "en": {
+        "title": "Cannelés",
         "description": "Small Bordeaux pastries with a caramelized, crispy crust and a soft interior fragrant with vanilla and rum."
       },
       "it": {
+        "title": "Cannelés",
         "description": "Piccoli dolcetti bordolesi dalla crosta caramellata e croccante, con un interno morbido profumato alla vaniglia e al rum."
       }
     }
@@ -308,9 +328,11 @@
     ],
     "translations": {
       "en": {
+        "title": "Mango Tarte Tatin with Espelette Pepper",
         "description": "An exotic tarte tatin with caramelized mango slices, lifted with a hint of Espelette chili pepper, covered with a golden shortcrust pastry."
       },
       "it": {
+        "title": "Tarte Tatin al Mango e Peperoncino di Espelette",
         "description": "Una tarte tatin esotica con fette di mango caramellate, arricchita da un tocco di peperoncino d'Espelette, ricoperta da una pasta brisée dorata."
       }
     }
@@ -337,9 +359,11 @@
     ],
     "translations": {
       "en": {
+        "title": "Lemon Meringue Pie Verrines",
         "description": "A deconstructed lemon meringue tart served in individual glasses, with crunchy almond crumble, creamy lemon curd and glossy Italian meringue."
       },
       "it": {
+        "title": "Verrines Stile Crostata al Limone Meringuata",
         "description": "Rivisitazione in bicchierini della crostata al limone meringuata: crumble croccante alle mandorle, lemon curd cremoso e meringa italiana lucida."
       }
     }
@@ -490,6 +514,35 @@
     }
   },
   {
+    "slug": "coquillettes-jambon-truffe",
+    "title": "Coquillettes jambon et truffe noire",
+    "description": "Coquillettes sautées au beurre et mijotées au bouillon de volaille, garnies de lamelles de jambon au torchon et de truffe noire émincée, servies avec du parmesan râpé.",
+    "images": {
+      "cover": "images/recipes/coquillettes-jambon-truffe/cover.jpg",
+      "web": "images/recipes/coquillettes-jambon-truffe/web.jpg"
+    },
+    "prepTime": 15,
+    "cookTime": 10,
+    "servings": 4,
+    "difficulty": "Facile",
+    "category": "Secondi",
+    "tags": [
+      "pates",
+      "truffe",
+      "jambon",
+      "beurre",
+      "parmesan"
+    ],
+    "translations": {
+      "en": {
+        "description": "Pasta tubes sautéed in butter and simmered in chicken stock, topped with sliced cooked ham and shaved black truffle, served with grated parmesan."
+      },
+      "it": {
+        "description": "Coquillettes saltate nel burro e cotte nel brodo di pollo, guarnite con lamelle di prosciutto cotto e tartufo nero affettato, servite con parmigiano grattugiato."
+      }
+    }
+  },
+  {
     "slug": "coulant-au-chocolat",
     "title": "Coulant au Chocolat",
     "description": "Petit gâteau au chocolat noir avec un cœur fondant et coulant, prêt en 20 minutes seulement avec 5 ingrédients.",
@@ -515,6 +568,93 @@
       },
       "it": {
         "description": "Piccolo tortino al cioccolato fondente con cuore morbido e colante, pronto in soli 20 minuti con 5 ingredienti."
+      }
+    }
+  },
+  {
+    "slug": "katsudon",
+    "title": "Katsudon",
+    "description": "Le katsudon est un plat japonais réconfortant composé d'une escalope de porc panée au panko (tonkatsu), mijotée dans une sauce dashi-soja avec des oignons et des œufs, servie sur un bol de riz chaud.",
+    "images": {
+      "cover": "images/recipes/katsudon/cover.jpg",
+      "web": "images/recipes/katsudon/web.jpg"
+    },
+    "prepTime": 25,
+    "cookTime": 35,
+    "servings": 4,
+    "difficulty": "Facile",
+    "category": "Secondi",
+    "tags": [
+      "japonais",
+      "porc",
+      "riz",
+      "panko",
+      "friture"
+    ],
+    "translations": {
+      "en": {
+        "description": "Katsudon is a comforting Japanese dish of panko-breaded pork cutlet (tonkatsu) simmered in a dashi-soy sauce with onions and eggs, served over a bowl of steamed rice."
+      },
+      "it": {
+        "description": "Il katsudon è un piatto giapponese confortante a base di cotoletta di maiale impanata nel panko (tonkatsu), cotta a fuoco lento in una salsa dashi-soia con cipolla e uova, servita su una ciotola di riso caldo."
+      }
+    }
+  },
+  {
+    "slug": "gnocchi-broccoli-al-forno",
+    "title": "Gnocchi & Brocoli en Folie (au four !)",
+    "description": "Gnocchi et brocolis rôtis au four en une seule plaque, avec citron, ail et pecorino. Prêt en 25 minutes.",
+    "images": {
+      "cover": "images/recipes/gnocchi-broccoli-al-forno/cover.jpg",
+      "web": "images/recipes/gnocchi-broccoli-al-forno/web.jpg"
+    },
+    "prepTime": 5,
+    "cookTime": 25,
+    "servings": 1,
+    "difficulty": "Facile",
+    "category": "Secondi",
+    "tags": [
+      "gnocchi",
+      "brocoli",
+      "four",
+      "végétarien",
+      "pecorino"
+    ],
+    "translations": {
+      "en": {
+        "description": "Gnocchi and broccoli oven-roasted on a single pan with lemon, garlic and pecorino. Ready in 25 minutes."
+      },
+      "it": {
+        "description": "Gnocchi e broccoli arrostiti in forno in un'unica teglia, con limone, aglio e pecorino. Pronti in 25 minuti."
+      }
+    }
+  },
+  {
+    "slug": "gnocchi-crema-peperone",
+    "title": "Gnocchi à la crème de poivron",
+    "description": "Gnocchi de pomme de terre nappés d'une sauce crémeuse aux poivrons rouges et parmesan, une recette savoureuse et rapide inspirée de la Toscane.",
+    "images": {
+      "cover": "images/recipes/gnocchi-crema-peperone/cover.jpg",
+      "web": "images/recipes/gnocchi-crema-peperone/web.jpg"
+    },
+    "prepTime": 5,
+    "cookTime": 10,
+    "servings": 2,
+    "difficulty": "Facile",
+    "category": "Secondi",
+    "tags": [
+      "gnocchi",
+      "peperone",
+      "végétarien",
+      "rapide",
+      "toscane"
+    ],
+    "translations": {
+      "en": {
+        "description": "Potato gnocchi topped with a creamy roasted red pepper and parmesan sauce, a quick and flavourful recipe inspired by Tuscany."
+      },
+      "it": {
+        "description": "Gnocchi di patate conditi con una vellutata crema di peperone rosso e parmigiano, una ricetta saporita e veloce ispirata alla Toscana."
       }
     }
   }

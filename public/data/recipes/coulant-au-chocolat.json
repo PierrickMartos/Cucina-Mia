@@ -64,6 +64,7 @@
   "source": "Recettes Team Building Suricates Akeneo Q2 2023 – L'Atelier Gourmand de Nantes",
   "translations": {
     "en": {
+      "title": "Chocolate Lava Cake",
       "description": "Individual dark chocolate cake with a molten, flowing center, ready in just 20 minutes with only 5 ingredients.",
       "ingredients": [
         {
@@ -106,6 +107,7 @@
       ]
     },
     "it": {
+      "title": "Coulant al Cioccolato",
       "description": "Piccolo tortino al cioccolato fondente con cuore morbido e colante, pronto in soli 20 minuti con 5 ingredienti.",
       "ingredients": [
         {

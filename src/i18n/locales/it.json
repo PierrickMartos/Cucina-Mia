@@ -1,7 +1,8 @@
 {
   "nav": {
     "home": "Home",
-    "recipes": "Ricette"
+    "recipes": "Ricette",
+    "add": "Aggiungi"
   },
   "home": {
     "subtitle": "Ricette di casa, della nonna, del nonno, della suocera, della mamma, del papà, da internet o da altrove",

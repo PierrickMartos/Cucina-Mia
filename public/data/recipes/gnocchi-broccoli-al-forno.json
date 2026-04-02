@@ -66,6 +66,7 @@
   ],
   "translations": {
     "en": {
+      "title": "Baked Gnocchi & Broccoli Madness",
       "description": "Gnocchi and broccoli oven-roasted on a single pan with lemon, garlic and pecorino. Ready in 25 minutes.",
       "ingredients": [
         {
@@ -114,6 +115,7 @@
       ]
     },
     "it": {
+      "title": "Gnocchi e Broccoli al Forno",
       "description": "Gnocchi e broccoli arrostiti in forno in un'unica teglia, con limone, aglio e pecorino. Pronti in 25 minuti.",
       "ingredients": [
         {

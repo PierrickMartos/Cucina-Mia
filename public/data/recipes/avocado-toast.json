@@ -53,6 +53,7 @@
   ],
   "translations": {
     "en": {
+      "title": "Avocado Toast",
       "description": "Crispy toast topped with cream cheese, sliced avocado, soft-boiled egg and crunchy radishes.",
       "ingredients": [
         {
@@ -85,6 +86,7 @@
       ]
     },
     "it": {
+      "title": "Avocado Toast",
       "description": "Toast croccante guarnito con formaggio fresco, fettine di avocado, uovo barzotto e ravanelli croccanti.",
       "ingredients": [
         {

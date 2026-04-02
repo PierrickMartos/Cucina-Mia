@@ -1,0 +1,135 @@
+{
+  "slug": "gnocchi-crema-peperone",
+  "title": "Gnocchi à la crème de poivron",
+  "description": "Gnocchi de pomme de terre nappés d'une sauce crémeuse aux poivrons rouges et parmesan, une recette savoureuse et rapide inspirée de la Toscane.",
+  "images": {
+    "cover": "images/recipes/gnocchi-crema-peperone/cover.jpg",
+    "web": "images/recipes/gnocchi-crema-peperone/web.jpg"
+  },
+  "imageCredit": {
+    "author": "RitaE",
+    "url": "https://pixabay.com/users/ritae-19628/"
+  },
+  "prepTime": 5,
+  "cookTime": 10,
+  "servings": 2,
+  "difficulty": "Facile",
+  "category": "Secondi",
+  "tags": [
+    "gnocchi",
+    "peperone",
+    "végétarien",
+    "rapide",
+    "toscane"
+  ],
+  "ingredients": [
+    {
+      "items": [
+        "1 poivron rouge",
+        "3 cuillères à soupe de crème fraîche",
+        "3 cuillères à soupe de parmesan râpé (+ un peu pour servir)",
+        "Gnocchi de pomme de terre pour 2 personnes",
+        "Huile d'olive",
+        "Sel et poivre"
+      ]
+    }
+  ],
+  "steps": [
+    {
+      "text": "Détailler le poivron en petites lamelles et le faire revenir dans un filet d'huile d'olive."
+    },
+    {
+      "text": "Quand il commence à dorer, le retirer du feu et le passer au mixeur jusqu'à obtenir une purée lisse."
+    },
+    {
+      "text": "Remettre la purée de poivron sur le feu à feu doux, ajouter la crème fraîche puis le parmesan râpé. Saler et poivrer."
+    },
+    {
+      "text": "Laisser épaissir quelques instants en remuant."
+    },
+    {
+      "text": "Pendant ce temps, faire cuire les gnocchi dans une grande casserole d'eau bouillante salée selon les indications. Les égoutter et les napper de sauce. Saupoudrer d'un peu de parmesan râpé avant de servir."
+    }
+  ],
+  "tips": [
+    "Pour une sauce encore plus onctueuse, ajouter une noix de beurre en fin de cuisson.",
+    "Faire griller le poivron au four à 200°C pendant 20 minutes avant de le mixer donne une saveur fumée très agréable."
+  ],
+  "source": "Adapté de Marmiton (recette de Francois_76)",
+  "translations": {
+    "en": {
+      "title": "Gnocchi with Bell Pepper Cream",
+      "description": "Potato gnocchi topped with a creamy roasted red pepper and parmesan sauce, a quick and flavourful recipe inspired by Tuscany.",
+      "ingredients": [
+        {
+          "items": [
+            "1 red bell pepper",
+            "3 tablespoons crème fraîche",
+            "3 tablespoons grated parmesan (+ a little for serving)",
+            "Potato gnocchi for 2 people",
+            "Olive oil",
+            "Salt and pepper"
+          ]
+        }
+      ],
+      "steps": [
+        {
+          "text": "Cut the pepper into thin strips and sauté in a drizzle of olive oil."
+        },
+        {
+          "text": "When it starts to brown, remove from heat and blend until smooth."
+        },
+        {
+          "text": "Return the pepper purée to the pan over low heat, add the crème fraîche then the grated parmesan. Season with salt and pepper."
+        },
+        {
+          "text": "Let thicken for a few moments, stirring."
+        },
+        {
+          "text": "Meanwhile, cook the gnocchi in a large pot of salted boiling water according to the instructions. Drain and coat with the sauce. Sprinkle with a little grated parmesan before serving."
+        }
+      ],
+      "tips": [
+        "For an even creamier sauce, stir in a knob of butter at the end of cooking.",
+        "Roasting the pepper in the oven at 200°C for 20 minutes before blending gives a lovely smoky flavour."
+      ]
+    },
+    "it": {
+      "title": "Gnocchi alla Crema di Peperone",
+      "description": "Gnocchi di patate conditi con una vellutata crema di peperone rosso e parmigiano, una ricetta saporita e veloce ispirata alla Toscana.",
+      "ingredients": [
+        {
+          "items": [
+            "1 peperone rosso",
+            "3 cucchiai di panna fresca",
+            "3 cucchiai di parmigiano grattugiato (+ un po' per servire)",
+            "Gnocchi di patate per 2 persone",
+            "Olio d'oliva",
+            "Sale e pepe"
+          ]
+        }
+      ],
+      "steps": [
+        {
+          "text": "Tagliare il peperone a striscioline sottili e farlo rosolare in un filo d'olio d'oliva."
+        },
+        {
+          "text": "Quando comincia a dorare, toglierlo dal fuoco e frullarlo fino ad ottenere una purea liscia."
+        },
+        {
+          "text": "Rimettere la purea di peperone sul fuoco a fuoco dolce, aggiungere la panna fresca e poi il parmigiano grattugiato. Salare e pepare."
+        },
+        {
+          "text": "Lasciar addensare qualche istante mescolando."
+        },
+        {
+          "text": "Nel frattempo cuocere gli gnocchi in abbondante acqua salata bollente seguendo le indicazioni. Scolarli e condirli con la salsa. Spolverare con un po' di parmigiano grattugiato prima di servire."
+        }
+      ],
+      "tips": [
+        "Per una salsa ancora più vellutata, aggiungere una noce di burro a fine cottura.",
+        "Arrostire il peperone in forno a 200°C per 20 minuti prima di frullarlo conferisce un piacevole sapore affumicato."
+      ]
+    }
+  }
+}

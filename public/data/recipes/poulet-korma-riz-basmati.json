@@ -73,6 +73,7 @@
   "source": "Recettes Team Building Suricates Akeneo Q2 2023 – L'Atelier Gourmand de Nantes",
   "translations": {
     "en": {
+      "title": "Chicken Korma with Basmati Rice",
       "description": "Golden chicken cubes simmered in coconut milk flavored with garam masala, turmeric and cumin, served on a bed of basmati rice.",
       "ingredients": [
         {
@@ -124,6 +125,7 @@
       ]
     },
     "it": {
+      "title": "Pollo Korma con Riso Basmati",
       "description": "Bocconcini di pollo dorati stufati in latte di cocco profumato con garam masala, curcuma e cumino, serviti su un letto di riso basmati.",
       "ingredients": [
         {

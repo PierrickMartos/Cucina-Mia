@@ -1,5 +1,5 @@
 import { Outlet, Link, useLocation } from "react-router-dom"
-import { Home, BookOpen } from "lucide-react"
+import { Home, BookOpen, PlusCircle } from "lucide-react"
 import { useTranslation } from "react-i18next"
 import { motion } from "motion/react"
 import { useState, useRef, useEffect } from "react"
@@ -118,6 +118,17 @@ export function Layout() {
             </Link>
           )
         })}
+        <a
+          href="https://github.com/PierrickMartos/Cucina-Mia/issues"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="flex flex-col items-center justify-center text-outline px-5 py-1 hover:text-primary transition-colors"
+        >
+          <PlusCircle className="h-5 w-5" strokeWidth={2} />
+          <span className="text-[9px] uppercase tracking-widest font-semibold mt-0.5">
+            {t("nav.add")}
+          </span>
+        </a>
       </nav>
     </div>
   )

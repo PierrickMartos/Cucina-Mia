@@ -1,7 +1,8 @@
 {
   "nav": {
     "home": "Accueil",
-    "recipes": "Recettes"
+    "recipes": "Recettes",
+    "add": "Ajouter"
   },
   "home": {
     "subtitle": "Recettes maison, de grand-mère, de grand-père, de belle-mère, de maman, de papa, des internets ou d'ailleurs",

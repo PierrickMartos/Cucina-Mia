@@ -65,6 +65,7 @@
   ],
   "translations": {
     "en": {
+      "title": "Mango Tarte Tatin with Espelette Pepper",
       "description": "An exotic tarte tatin with caramelized mango slices, lifted with a hint of Espelette chili pepper, covered with a golden shortcrust pastry.",
       "ingredients": [
         {
@@ -113,6 +114,7 @@
       ]
     },
     "it": {
+      "title": "Tarte Tatin al Mango e Peperoncino di Espelette",
       "description": "Una tarte tatin esotica con fette di mango caramellate, arricchita da un tocco di peperoncino d'Espelette, ricoperta da una pasta brisée dorata.",
       "ingredients": [
         {

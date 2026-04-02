@@ -44,10 +44,10 @@ jobs:
             6. Update the recipe index
             7. Generate the SVG cover illustration
             8. Verify JSON validity and run: npm run build
-            9. Commit all new/modified files and push to main
-            10. Comment on the issue with a summary of what was added
-            11. Close issue #${{ github.event.issue.number }} using: gh issue close ${{ github.event.issue.number }} --comment "✅ Recipe has been added and will be live after deployment."
+            9. Create a branch named recipe/{slug} (e.g. recipe/pasta-carbonara), commit all new/modified files to it, and push the branch
+            10. Open a pull request from that branch to main with title "feat: add {recipe title}" and a body summarising the recipe (title, category, difficulty, ingredient count, step count, languages)
+            11. Comment on issue #${{ github.event.issue.number }} with the PR URL so the submitter can follow along
 
             If there are errors (missing required fields, duplicate slug, unreadable file/URL),
-            comment on the issue explaining the problem and do NOT close it.
+            comment on the issue explaining the problem and do NOT create a branch or PR.
           claude_args: "--allowedTools Bash,Read,Write,Edit,Glob,Grep,WebFetch"

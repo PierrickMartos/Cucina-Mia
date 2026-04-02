@@ -60,6 +60,7 @@
   ],
   "translations": {
     "en": {
+      "title": "Pasta alla Carbonara",
       "description": "The authentic Roman carbonara with crispy guanciale, whole eggs and pecorino romano, no cream, no onions.",
       "ingredients": [
         {
@@ -103,6 +104,7 @@
       ]
     },
     "it": {
+      "title": "Pasta alla Carbonara",
       "description": "La vera carbonara romana con guanciale croccante, uova intere e pecorino romano, senza panna né cipolle.",
       "ingredients": [
         {

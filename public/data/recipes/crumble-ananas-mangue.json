@@ -84,6 +84,7 @@
   "source": "https://www.tatiemaryse.com/crumble-aux-fruits-exotiques/",
   "translations": {
     "en": {
+      "title": "Pineapple and Mango Crumble",
       "description": "An exotic fruit crumble with vanilla-caramelized pineapple, mango, and passion fruit, topped with a crunchy cinnamon biscuit.",
       "ingredients": [
         {
@@ -146,6 +147,7 @@
       ]
     },
     "it": {
+      "title": "Crumble Ananas e Mango",
       "description": "Un crumble ai frutti esotici con ananas caramellato alla vaniglia, mango e frutto della passione, ricoperto da un croccante biscotto alla cannella.",
       "ingredients": [
         {

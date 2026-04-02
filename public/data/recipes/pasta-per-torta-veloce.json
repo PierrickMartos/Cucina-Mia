@@ -60,6 +60,7 @@
   "source": "https://www.cuisinez-pour-bebe.fr/pate-a-tarte-facile-et-rapide-inratable/",
   "translations": {
     "en": {
+      "title": "Quick Pastry Dough",
       "description": "Pie crust dough ready in 3 minutes with just 3 ingredients: flour, oil, and hot water. Perfect for little ones.",
       "ingredients": [
         {
@@ -97,6 +98,7 @@
       ]
     },
     "it": {
+      "title": "Pasta per Torta Veloce",
       "description": "Impasto per torte salate pronto in 3 minuti con soli 3 ingredienti: farina, olio e acqua calda. Perfetto per i più piccoli.",
       "ingredients": [
         {

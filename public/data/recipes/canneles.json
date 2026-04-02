@@ -72,6 +72,7 @@
   ],
   "translations": {
     "en": {
+      "title": "Cannelés",
       "description": "Small Bordeaux pastries with a caramelized, crispy crust and a soft interior fragrant with vanilla and rum.",
       "ingredients": [
         {
@@ -123,6 +124,7 @@
       ]
     },
     "it": {
+      "title": "Cannelés",
       "description": "Piccoli dolcetti bordolesi dalla crosta caramellata e croccante, con un interno morbido profumato alla vaniglia e al rum.",
       "ingredients": [
         {

@@ -66,6 +66,7 @@
   ],
   "translations": {
     "en": {
+      "title": "Brunch Shakshuka",
       "description": "Eggs poached in a spiced tomato sauce with peppers and onions, perfect for a gourmet brunch.",
       "ingredients": [
         {
@@ -116,6 +117,7 @@
       ]
     },
     "it": {
+      "title": "Chakchouka da Brunch",
       "description": "Uova in camicia in salsa di pomodoro speziata con peperoni e cipolle, perfetta per un brunch goloso.",
       "ingredients": [
         {
