@@ -430,5 +430,92 @@
         "description": "Un morbido dessert italiano alla panna, servito con un coulis di lamponi fatto in casa e una croccante tuile alle mandorle."
       }
     }
+  },
+  {
+    "slug": "creme-avocat-mousse-concombre",
+    "title": "Crème d'avocat, mousse au concombre, tomate cerise marinée",
+    "description": "Un élégant amuse-bouche en verrine : une crème d'avocat onctueuse surmontée d'une mousse légère au concombre et de tomates cerises marinées au basilic.",
+    "images": {
+      "cover": "images/recipes/creme-avocat-mousse-concombre/cover.jpg",
+      "web": "images/recipes/creme-avocat-mousse-concombre/web.jpg"
+    },
+    "prepTime": 20,
+    "cookTime": 0,
+    "servings": 2,
+    "difficulty": "Facile",
+    "category": "Antipasti",
+    "tags": [
+      "avocat",
+      "concombre",
+      "verrine",
+      "sans-cuisson",
+      "tomate"
+    ],
+    "translations": {
+      "en": {
+        "description": "An elegant appetizer served in glasses: a creamy avocado base topped with a light cucumber mousse and basil-marinated cherry tomatoes."
+      },
+      "it": {
+        "description": "Un elegante antipasto in verrine: una crema di avocado vellutata sormontata da una mousse leggera al cetriolo e pomodorini marinati al basilico."
+      }
+    }
+  },
+  {
+    "slug": "poulet-korma-riz-basmati",
+    "title": "Poulet Korma et Riz Basmati",
+    "description": "Dés de poulet dorés mijotés dans un lait de coco parfumé au garam masala, curcuma et cumin, servis sur un lit de riz basmati.",
+    "images": {
+      "cover": "images/recipes/poulet-korma-riz-basmati/cover.jpg",
+      "web": "images/recipes/poulet-korma-riz-basmati/web.jpg"
+    },
+    "prepTime": 15,
+    "cookTime": 20,
+    "servings": 2,
+    "difficulty": "Facile",
+    "category": "Secondi",
+    "tags": [
+      "poulet",
+      "curry",
+      "coco",
+      "épicé",
+      "korma"
+    ],
+    "translations": {
+      "en": {
+        "description": "Golden chicken cubes simmered in coconut milk flavored with garam masala, turmeric and cumin, served on a bed of basmati rice."
+      },
+      "it": {
+        "description": "Bocconcini di pollo dorati stufati in latte di cocco profumato con garam masala, curcuma e cumino, serviti su un letto di riso basmati."
+      }
+    }
+  },
+  {
+    "slug": "coulant-au-chocolat",
+    "title": "Coulant au Chocolat",
+    "description": "Petit gâteau au chocolat noir avec un cœur fondant et coulant, prêt en 20 minutes seulement avec 5 ingrédients.",
+    "images": {
+      "cover": "images/recipes/coulant-au-chocolat/cover.jpg",
+      "web": "images/recipes/coulant-au-chocolat/web.jpg"
+    },
+    "prepTime": 10,
+    "cookTime": 8,
+    "servings": 2,
+    "difficulty": "Facile",
+    "category": "Dolci",
+    "tags": [
+      "chocolat",
+      "coulant",
+      "moelleux",
+      "dessert",
+      "rapide"
+    ],
+    "translations": {
+      "en": {
+        "description": "Individual dark chocolate cake with a molten, flowing center, ready in just 20 minutes with only 5 ingredients."
+      },
+      "it": {
+        "description": "Piccolo tortino al cioccolato fondente con cuore morbido e colante, pronto in soli 20 minuti con 5 ingredienti."
+      }
+    }
   }
 ]
