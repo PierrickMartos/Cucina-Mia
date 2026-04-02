@@ -30,8 +30,8 @@
   },
   "filter": {
     "title": "Filtrer les recettes",
-    "category": "Categorie",
-    "difficulty": "Difficulte",
+    "category": "Catégorie",
+    "difficulty": "Difficulté",
     "clearAll": "Supprimer tous les filtres"
   },
   "categories": {
