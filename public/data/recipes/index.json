@@ -254,5 +254,21 @@
       "en": { "description": "Creamy homemade strawberry gelato, without an ice cream maker — fresh, natural and loved by kids!" },
       "fr": { "description": "Glace crémeuse à la fraise maison, sans sorbetière — fraîche, naturelle et adorée des enfants !" }
     }
+  },
+  {
+    "slug": "pasta-per-torta-veloce",
+    "title": "Pasta per Torta Veloce",
+    "description": "Impasto per torte salate pronto in 3 minuti con soli 3 ingredienti: farina, olio e acqua calda. Perfetto per i più piccoli.",
+    "image": "images/recipes/pasta-per-torta-veloce/cover.svg",
+    "prepTime": 3,
+    "cookTime": 10,
+    "servings": 6,
+    "difficulty": "Facile",
+    "category": "Bambini",
+    "tags": ["bambini", "base", "veloce", "facile"],
+    "translations": {
+      "en": { "description": "Pie crust dough ready in 3 minutes with just 3 ingredients: flour, oil, and hot water. Perfect for little ones." },
+      "fr": { "description": "Pâte à tarte prête en 3 minutes avec seulement 3 ingrédients : farine, huile et eau chaude. Parfaite pour les tout-petits." }
+    }
   }
 ]
