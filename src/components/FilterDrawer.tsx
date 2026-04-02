@@ -8,6 +8,9 @@ import { Sheet, SheetContent, SheetHeader, SheetTitle } from "@/components/ui/sh
 const TIME_BUCKETS = ["quick", "medium", "long"] as const
 export type TimeBucket = (typeof TIME_BUCKETS)[number]
 
+const PREP_TIME_BUCKETS = ["short", "medium", "long"] as const
+export type PrepTimeBucket = (typeof PREP_TIME_BUCKETS)[number]
+
 const STEPS_BUCKETS = ["simple", "medium", "complex"] as const
 export type StepsBucket = (typeof STEPS_BUCKETS)[number]
 
@@ -23,6 +26,7 @@ interface FilterDrawerProps {
   selectedCategories: string[]
   selectedDifficulties: string[]
   selectedTimes: TimeBucket[]
+  selectedPrepTimes: PrepTimeBucket[]
   selectedSteps: StepsBucket[]
   selectedIngredients: IngredientsBucket[]
   selectedDietTags: string[]
@@ -30,6 +34,7 @@ interface FilterDrawerProps {
   onCategoriesChange: (categories: string[]) => void
   onDifficultiesChange: (difficulties: string[]) => void
   onTimesChange: (times: TimeBucket[]) => void
+  onPrepTimesChange: (prepTimes: PrepTimeBucket[]) => void
   onStepsChange: (steps: StepsBucket[]) => void
   onIngredientsChange: (ingredients: IngredientsBucket[]) => void
   onDietTagsChange: (tags: string[]) => void
@@ -42,6 +47,7 @@ export function FilterDrawer({
   selectedCategories,
   selectedDifficulties,
   selectedTimes,
+  selectedPrepTimes,
   selectedSteps,
   selectedIngredients,
   selectedDietTags,
@@ -49,6 +55,7 @@ export function FilterDrawer({
   onCategoriesChange,
   onDifficultiesChange,
   onTimesChange,
+  onPrepTimesChange,
   onStepsChange,
   onIngredientsChange,
   onDietTagsChange,
@@ -61,6 +68,7 @@ export function FilterDrawer({
     selectedCategories.length +
     selectedDifficulties.length +
     selectedTimes.length +
+    selectedPrepTimes.length +
     selectedSteps.length +
     selectedIngredients.length +
     selectedDietTags.length +
@@ -87,6 +95,14 @@ export function FilterDrawer({
       onTimesChange(selectedTimes.filter((t) => t !== bucket))
     } else {
       onTimesChange([...selectedTimes, bucket])
+    }
+  }
+
+  function togglePrepTime(bucket: PrepTimeBucket) {
+    if (selectedPrepTimes.includes(bucket)) {
+      onPrepTimesChange(selectedPrepTimes.filter((p) => p !== bucket))
+    } else {
+      onPrepTimesChange([...selectedPrepTimes, bucket])
     }
   }
 
@@ -126,6 +142,7 @@ export function FilterDrawer({
     onCategoriesChange([])
     onDifficultiesChange([])
     onTimesChange([])
+    onPrepTimesChange([])
     onStepsChange([])
     onIngredientsChange([])
     onDietTagsChange([])
@@ -216,6 +233,28 @@ export function FilterDrawer({
                     onClick={() => toggleTime(bucket)}
                   >
                     {t(`timeOptions.${bucket}`)}
+                  </Badge>
+                ))}
+              </div>
+            </div>
+
+            <div>
+              <h4 className="font-semibold text-[10px] uppercase tracking-widest text-muted-foreground mb-3">
+                {t("filter.prep")}
+              </h4>
+              <div className="flex flex-wrap gap-2">
+                {PREP_TIME_BUCKETS.map((bucket) => (
+                  <Badge
+                    key={bucket}
+                    variant={selectedPrepTimes.includes(bucket) ? "default" : "outline"}
+                    className={
+                      selectedPrepTimes.includes(bucket)
+                        ? "cursor-pointer gradient-primary text-primary-foreground"
+                        : "cursor-pointer text-muted-foreground hover:bg-surface-high"
+                    }
+                    onClick={() => togglePrepTime(bucket)}
+                  >
+                    {t(`prepTimeOptions.${bucket}`)}
                   </Badge>
                 ))}
               </div>

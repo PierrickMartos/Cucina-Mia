@@ -28,12 +28,34 @@
       "en": {
         "title": "Pasta alla Carbonara",
         "description": "The authentic Roman carbonara with crispy guanciale, whole eggs and pecorino romano, no cream, no onions.",
-        "tags": ["pasta", "pork", "eggs", "cheese", "italian", "traditional", "quick", "main-course", "creamy", "hot"]
+        "tags": [
+          "pasta",
+          "pork",
+          "eggs",
+          "cheese",
+          "italian",
+          "traditional",
+          "quick",
+          "main-course",
+          "creamy",
+          "hot"
+        ]
       },
       "it": {
         "title": "Pasta alla Carbonara",
         "description": "La vera carbonara romana con guanciale croccante, uova intere e pecorino romano, senza panna né cipolle.",
-        "tags": ["pasta", "maiale", "uova", "formaggio", "italiano", "tradizionale", "veloce", "primo-piatto", "cremoso", "caldo"]
+        "tags": [
+          "pasta",
+          "maiale",
+          "uova",
+          "formaggio",
+          "italiano",
+          "tradizionale",
+          "veloce",
+          "primo-piatto",
+          "cremoso",
+          "caldo"
+        ]
       }
     },
     "stepCount": 7,
@@ -65,12 +87,28 @@
       "en": {
         "title": "Quick Pastry Dough",
         "description": "Pie crust dough ready in 3 minutes with just 3 ingredients: flour, oil, and hot water. Perfect for little ones.",
-        "tags": ["quick", "5-ingredients", "vegetarian", "kids", "whole-family", "no-special-equipment", "make-ahead"]
+        "tags": [
+          "quick",
+          "5-ingredients",
+          "vegetarian",
+          "kids",
+          "whole-family",
+          "no-special-equipment",
+          "make-ahead"
+        ]
       },
       "it": {
         "title": "Pasta per Torta Veloce",
         "description": "Impasto per torte salate pronto in 3 minuti con soli 3 ingredienti: farina, olio e acqua calda. Perfetto per i più piccoli.",
-        "tags": ["veloce", "5-ingredienti", "vegetariano", "bambini", "tutta-la-famiglia", "senza-attrezzature-speciali", "preparazione-in-anticipo"]
+        "tags": [
+          "veloce",
+          "5-ingredienti",
+          "vegetariano",
+          "bambini",
+          "tutta-la-famiglia",
+          "senza-attrezzature-speciali",
+          "preparazione-in-anticipo"
+        ]
       }
     },
     "stepCount": 6,
@@ -105,12 +143,34 @@
       "en": {
         "title": "Brunch Shakshuka",
         "description": "Eggs poached in a spiced tomato sauce with peppers and onions, perfect for a gourmet brunch.",
-        "tags": ["brunch", "vegetarian", "spicy", "eggs", "quick", "mediterranean", "pan", "convivial", "hot", "light"]
+        "tags": [
+          "brunch",
+          "vegetarian",
+          "spicy",
+          "eggs",
+          "quick",
+          "mediterranean",
+          "pan",
+          "convivial",
+          "hot",
+          "light"
+        ]
       },
       "it": {
         "title": "Chakchouka da Brunch",
         "description": "Uova in camicia in salsa di pomodoro speziata con peperoni e cipolle, perfetta per un brunch goloso.",
-        "tags": ["brunch", "vegetariano", "piccante", "uova", "veloce", "mediterraneo", "padella", "conviviale", "caldo", "leggero"]
+        "tags": [
+          "brunch",
+          "vegetariano",
+          "piccante",
+          "uova",
+          "veloce",
+          "mediterraneo",
+          "padella",
+          "conviviale",
+          "caldo",
+          "leggero"
+        ]
       }
     },
     "stepCount": 7,
@@ -145,12 +205,34 @@
       "en": {
         "title": "Ricotta and Spinach Ravioli",
         "description": "Homemade fresh pasta stuffed with spinach and ricotta, a traditional Italian recipe made from scratch.",
-        "tags": ["pasta", "vegetarian", "cheese", "vegetables", "italian", "traditional", "main-course", "hot", "comforting", "creamy"]
+        "tags": [
+          "pasta",
+          "vegetarian",
+          "cheese",
+          "vegetables",
+          "italian",
+          "traditional",
+          "main-course",
+          "hot",
+          "comforting",
+          "creamy"
+        ]
       },
       "it": {
         "title": "Ravioli di Ricotta e Spinaci",
         "description": "Pasta fresca fatta in casa ripiena di spinaci e ricotta, una ricetta tradizionale italiana da preparare da zero.",
-        "tags": ["pasta", "vegetariano", "formaggio", "verdure", "italiano", "tradizionale", "primo-piatto", "caldo", "confortante", "cremoso"]
+        "tags": [
+          "pasta",
+          "vegetariano",
+          "formaggio",
+          "verdure",
+          "italiano",
+          "tradizionale",
+          "primo-piatto",
+          "caldo",
+          "confortante",
+          "cremoso"
+        ]
       }
     },
     "stepCount": 9,
@@ -185,12 +267,34 @@
       "en": {
         "title": "Pasta all'Amatriciana",
         "description": "Iconic Roman sauce with guanciale and tomatoes, enriched with pecorino romano, served over bucatini pasta.",
-        "tags": ["pasta", "pork", "tomato", "cheese", "italian", "traditional", "quick", "main-course", "comforting", "hot"]
+        "tags": [
+          "pasta",
+          "pork",
+          "tomato",
+          "cheese",
+          "italian",
+          "traditional",
+          "quick",
+          "main-course",
+          "comforting",
+          "hot"
+        ]
       },
       "it": {
         "title": "Pasta all'Amatriciana",
         "description": "Iconico sugo romano con guanciale e pomodori, arricchito con pecorino romano, servito su bucatini.",
-        "tags": ["pasta", "maiale", "pomodoro", "formaggio", "italiano", "tradizionale", "veloce", "primo-piatto", "confortante", "caldo"]
+        "tags": [
+          "pasta",
+          "maiale",
+          "pomodoro",
+          "formaggio",
+          "italiano",
+          "tradizionale",
+          "veloce",
+          "primo-piatto",
+          "confortante",
+          "caldo"
+        ]
       }
     },
     "stepCount": 9,
@@ -224,12 +328,32 @@
       "en": {
         "title": "Pineapple and Mango Crumble",
         "description": "An exotic fruit crumble with vanilla-caramelized pineapple, mango, and passion fruit, topped with a crunchy cinnamon biscuit.",
-        "tags": ["oven", "dessert", "vegetarian", "fruit", "exotic", "crispy", "summer", "comforting", "indulgent"]
+        "tags": [
+          "oven",
+          "dessert",
+          "vegetarian",
+          "fruit",
+          "exotic",
+          "crispy",
+          "summer",
+          "comforting",
+          "indulgent"
+        ]
       },
       "it": {
         "title": "Crumble Ananas e Mango",
         "description": "Un crumble ai frutti esotici con ananas caramellato alla vaniglia, mango e frutto della passione, ricoperto da un croccante biscotto alla cannella.",
-        "tags": ["forno", "dessert", "vegetariano", "frutta", "esotico", "croccante", "estate", "confortante", "goloso"]
+        "tags": [
+          "forno",
+          "dessert",
+          "vegetariano",
+          "frutta",
+          "esotico",
+          "croccante",
+          "estate",
+          "confortante",
+          "goloso"
+        ]
       }
     },
     "stepCount": 10,
@@ -264,12 +388,34 @@
       "en": {
         "title": "Avocado Toast",
         "description": "Crispy toast topped with cream cheese, sliced avocado, soft-boiled egg and crunchy radishes.",
-        "tags": ["breakfast", "vegetarian", "quick", "light", "brunch", "eggs", "fruit", "crispy", "balanced", "finger-food"]
+        "tags": [
+          "breakfast",
+          "vegetarian",
+          "quick",
+          "light",
+          "brunch",
+          "eggs",
+          "fruit",
+          "crispy",
+          "balanced",
+          "finger-food"
+        ]
       },
       "it": {
         "title": "Avocado Toast",
         "description": "Toast croccante guarnito con formaggio fresco, fettine di avocado, uovo barzotto e ravanelli croccanti.",
-        "tags": ["colazione", "vegetariano", "veloce", "leggero", "brunch", "uova", "frutta", "croccante", "equilibrato", "finger-food"]
+        "tags": [
+          "colazione",
+          "vegetariano",
+          "veloce",
+          "leggero",
+          "brunch",
+          "uova",
+          "frutta",
+          "croccante",
+          "equilibrato",
+          "finger-food"
+        ]
       }
     },
     "stepCount": 3,
@@ -303,12 +449,32 @@
       "en": {
         "title": "Mango Turmeric Clafoutis with Lemongrass Caramel",
         "description": "A soft mango and turmeric clafoutis, drizzled with a velvety caramel sauce infused with lemongrass and kaffir lime leaves.",
-        "tags": ["oven", "dessert", "vegetarian", "fruit", "exotic", "soft", "melt-in-mouth", "summer", "spiced"]
+        "tags": [
+          "oven",
+          "dessert",
+          "vegetarian",
+          "fruit",
+          "exotic",
+          "soft",
+          "melt-in-mouth",
+          "summer",
+          "spiced"
+        ]
       },
       "it": {
         "title": "Clafoutis di Mango alla Curcuma con Caramello alla Citronella",
         "description": "Un morbido clafoutis di mango alla curcuma, nappato di una vellutata salsa caramello alla citronella e foglie di combava.",
-        "tags": ["forno", "dessert", "vegetariano", "frutta", "esotico", "morbido", "fondente", "estate", "speziato"]
+        "tags": [
+          "forno",
+          "dessert",
+          "vegetariano",
+          "frutta",
+          "esotico",
+          "morbido",
+          "fondente",
+          "estate",
+          "speziato"
+        ]
       }
     },
     "stepCount": 7,
@@ -343,12 +509,34 @@
       "en": {
         "title": "Pineapple Cakes with Mojito Syrup",
         "description": "Individual upside-down cakes with caramelized pineapple, drizzled with a mojito-style syrup of rum, mint, and lime.",
-        "tags": ["oven", "dessert", "vegetarian", "fruit", "exotic", "soft", "festive", "summer", "indulgent", "comforting"]
+        "tags": [
+          "oven",
+          "dessert",
+          "vegetarian",
+          "fruit",
+          "exotic",
+          "soft",
+          "festive",
+          "summer",
+          "indulgent",
+          "comforting"
+        ]
       },
       "it": {
         "title": "Tortine all'Ananas con Sciroppo Mojito",
         "description": "Tortine rovesciate all'ananas caramellato, irrorate con uno sciroppo profumato al rum, menta e lime stile mojito.",
-        "tags": ["forno", "dessert", "vegetariano", "frutta", "esotico", "morbido", "festivo", "estate", "goloso", "confortante"]
+        "tags": [
+          "forno",
+          "dessert",
+          "vegetariano",
+          "frutta",
+          "esotico",
+          "morbido",
+          "festivo",
+          "estate",
+          "goloso",
+          "confortante"
+        ]
       }
     },
     "stepCount": 5,
@@ -381,12 +569,30 @@
       "en": {
         "title": "Cannelés",
         "description": "Small Bordeaux pastries with a caramelized, crispy crust and a soft interior fragrant with vanilla and rum.",
-        "tags": ["oven", "dessert", "french", "crispy", "soft", "make-ahead", "indulgent", "festive"]
+        "tags": [
+          "oven",
+          "dessert",
+          "french",
+          "crispy",
+          "soft",
+          "make-ahead",
+          "indulgent",
+          "festive"
+        ]
       },
       "it": {
         "title": "Cannelés",
         "description": "Piccoli dolcetti bordolesi dalla crosta caramellata e croccante, con un interno morbido profumato alla vaniglia e al rum.",
-        "tags": ["forno", "dessert", "francese", "croccante", "morbido", "preparazione-in-anticipo", "goloso", "festivo"]
+        "tags": [
+          "forno",
+          "dessert",
+          "francese",
+          "croccante",
+          "morbido",
+          "preparazione-in-anticipo",
+          "goloso",
+          "festivo"
+        ]
       }
     },
     "stepCount": 8,
@@ -421,12 +627,34 @@
       "en": {
         "title": "Mango Tarte Tatin with Espelette Pepper",
         "description": "An exotic tarte tatin with caramelized mango slices, lifted with a hint of Espelette chili pepper, covered with a golden shortcrust pastry.",
-        "tags": ["oven", "dessert", "vegetarian", "fruit", "exotic", "spiced", "caramel", "festive", "summer", "melt-in-mouth"]
+        "tags": [
+          "oven",
+          "dessert",
+          "vegetarian",
+          "fruit",
+          "exotic",
+          "spiced",
+          "caramel",
+          "festive",
+          "summer",
+          "melt-in-mouth"
+        ]
       },
       "it": {
         "title": "Tarte Tatin al Mango e Peperoncino di Espelette",
         "description": "Una tarte tatin esotica con fette di mango caramellate, arricchita da un tocco di peperoncino d'Espelette, ricoperta da una pasta brisée dorata.",
-        "tags": ["forno", "dessert", "vegetariano", "frutta", "esotico", "speziato", "caramello", "festivo", "estate", "fondente"]
+        "tags": [
+          "forno",
+          "dessert",
+          "vegetariano",
+          "frutta",
+          "esotico",
+          "speziato",
+          "caramello",
+          "festivo",
+          "estate",
+          "fondente"
+        ]
       }
     },
     "stepCount": 6,
@@ -460,12 +688,32 @@
       "en": {
         "title": "Lemon Meringue Pie Verrines",
         "description": "A deconstructed lemon meringue tart served in individual glasses, with crunchy almond crumble, creamy lemon curd and glossy Italian meringue.",
-        "tags": ["dessert", "vegetarian", "in-glasses", "festive", "tangy", "crispy", "creamy", "cold", "to-share"]
+        "tags": [
+          "dessert",
+          "vegetarian",
+          "in-glasses",
+          "festive",
+          "tangy",
+          "crispy",
+          "creamy",
+          "cold",
+          "to-share"
+        ]
       },
       "it": {
         "title": "Verrines Stile Crostata al Limone Meringuata",
         "description": "Rivisitazione in bicchierini della crostata al limone meringuata: crumble croccante alle mandorle, lemon curd cremoso e meringa italiana lucida.",
-        "tags": ["dessert", "vegetariano", "in-bicchierini", "festivo", "acidulo", "croccante", "cremoso", "freddo", "da-condividere"]
+        "tags": [
+          "dessert",
+          "vegetariano",
+          "in-bicchierini",
+          "festivo",
+          "acidulo",
+          "croccante",
+          "cremoso",
+          "freddo",
+          "da-condividere"
+        ]
       }
     },
     "stepCount": 9,
@@ -499,12 +747,32 @@
       "en": {
         "title": "Gâteau de Savoie",
         "description": "Traditional Savoyard cake, ultra-light and airy, made with cornstarch and whipped egg whites with a delicate lemon flavor.",
-        "tags": ["oven", "dessert", "french", "vegetarian", "soft", "light", "traditional", "snack", "tangy"]
+        "tags": [
+          "oven",
+          "dessert",
+          "french",
+          "vegetarian",
+          "soft",
+          "light",
+          "traditional",
+          "snack",
+          "tangy"
+        ]
       },
       "it": {
         "title": "Torta di Savoia",
         "description": "Torta tradizionale savoiarda, leggerissima e ariosa, realizzata con amido di mais e albumi montati a neve con un delicato aroma di limone.",
-        "tags": ["forno", "dessert", "francese", "vegetariano", "morbido", "leggero", "tradizionale", "merenda", "acidulo"]
+        "tags": [
+          "forno",
+          "dessert",
+          "francese",
+          "vegetariano",
+          "morbido",
+          "leggero",
+          "tradizionale",
+          "merenda",
+          "acidulo"
+        ]
       }
     },
     "stepCount": 10,
@@ -538,12 +806,32 @@
       "en": {
         "title": "Country Ham and Fresh Goat Cheese Ravioli with Pesto and Rocket",
         "description": "Ravioles filled with fresh goat cheese and country ham, topped with basil pesto and served with arugula and sun-dried tomatoes.",
-        "tags": ["pasta", "pork", "cheese", "pesto", "festive", "main-course", "french", "hot", "creamy"]
+        "tags": [
+          "pasta",
+          "pork",
+          "cheese",
+          "pesto",
+          "festive",
+          "main-course",
+          "french",
+          "hot",
+          "creamy"
+        ]
       },
       "it": {
         "title": "Ravioli di Prosciutto Crudo e Caprino Fresco con Pesto e Rucola",
         "description": "Ravioli ripieni di caprino fresco e prosciutto crudo, nappati di pesto al basilico e serviti con rucola e pomodori secchi.",
-        "tags": ["pasta", "maiale", "formaggio", "pesto", "festivo", "primo-piatto", "francese", "caldo", "cremoso"]
+        "tags": [
+          "pasta",
+          "maiale",
+          "formaggio",
+          "pesto",
+          "festivo",
+          "primo-piatto",
+          "francese",
+          "caldo",
+          "cremoso"
+        ]
       }
     },
     "stepCount": 8,
@@ -577,12 +865,32 @@
       "en": {
         "title": "Panna Cotta with Raspberries and Crispy Tuile",
         "description": "A silky Italian cream dessert served with a homemade raspberry coulis and a crunchy almond tuile.",
-        "tags": ["dessert", "italian", "cold", "fruit", "vegetarian", "creamy", "festive", "make-ahead", "gluten-free"]
+        "tags": [
+          "dessert",
+          "italian",
+          "cold",
+          "fruit",
+          "vegetarian",
+          "creamy",
+          "festive",
+          "make-ahead",
+          "gluten-free"
+        ]
       },
       "it": {
         "title": "Panna Cotta ai Lamponi con Tegola Croccante",
         "description": "Un morbido dessert italiano alla panna, servito con un coulis di lamponi fatto in casa e una croccante tuile alle mandorle.",
-        "tags": ["dessert", "italiano", "freddo", "frutta", "vegetariano", "cremoso", "festivo", "preparazione-in-anticipo", "senza-glutine"]
+        "tags": [
+          "dessert",
+          "italiano",
+          "freddo",
+          "frutta",
+          "vegetariano",
+          "cremoso",
+          "festivo",
+          "preparazione-in-anticipo",
+          "senza-glutine"
+        ]
       }
     },
     "stepCount": 7,
@@ -617,12 +925,34 @@
       "en": {
         "title": "Avocado Cream, Cucumber Mousse and Marinated Cherry Tomato",
         "description": "An elegant appetizer served in glasses: a creamy avocado base topped with a light cucumber mousse and basil-marinated cherry tomatoes.",
-        "tags": ["starter", "vegetarian", "no-cook", "in-glasses", "light", "cold", "fruit", "appetizer", "creamy", "gluten-free"]
+        "tags": [
+          "starter",
+          "vegetarian",
+          "no-cook",
+          "in-glasses",
+          "light",
+          "cold",
+          "fruit",
+          "appetizer",
+          "creamy",
+          "gluten-free"
+        ]
       },
       "it": {
         "title": "Crema di Avocado, Mousse al Cetriolo e Pomodorino Marinato",
         "description": "Un elegante antipasto in verrine: una crema di avocado vellutata sormontata da una mousse leggera al cetriolo e pomodorini marinati al basilico.",
-        "tags": ["antipasto", "vegetariano", "senza-cottura", "in-bicchierini", "leggero", "freddo", "frutta", "aperitivo", "cremoso", "senza-glutine"]
+        "tags": [
+          "antipasto",
+          "vegetariano",
+          "senza-cottura",
+          "in-bicchierini",
+          "leggero",
+          "freddo",
+          "frutta",
+          "aperitivo",
+          "cremoso",
+          "senza-glutine"
+        ]
       }
     },
     "stepCount": 10,
@@ -656,12 +986,32 @@
       "en": {
         "title": "Chicken Korma with Basmati Rice",
         "description": "Golden chicken cubes simmered in coconut milk flavored with garam masala, turmeric and cumin, served on a bed of basmati rice.",
-        "tags": ["chicken", "rice", "indian", "simmered", "main-course", "hot", "comforting", "mild", "spiced"]
+        "tags": [
+          "chicken",
+          "rice",
+          "indian",
+          "simmered",
+          "main-course",
+          "hot",
+          "comforting",
+          "mild",
+          "spiced"
+        ]
       },
       "it": {
         "title": "Pollo Korma con Riso Basmati",
         "description": "Bocconcini di pollo dorati stufati in latte di cocco profumato con garam masala, curcuma e cumino, serviti su un letto di riso basmati.",
-        "tags": ["pollo", "riso", "indiano", "brasato", "piatto-principale", "caldo", "confortante", "delicato", "speziato"]
+        "tags": [
+          "pollo",
+          "riso",
+          "indiano",
+          "brasato",
+          "piatto-principale",
+          "caldo",
+          "confortante",
+          "delicato",
+          "speziato"
+        ]
       }
     },
     "stepCount": 8,
@@ -696,12 +1046,34 @@
       "en": {
         "title": "Macaroni with Ham and Black Truffle",
         "description": "Pasta tubes sautéed in butter and simmered in chicken stock, topped with sliced cooked ham and shaved black truffle, served with grated parmesan.",
-        "tags": ["pasta", "pork", "quick", "comforting", "festive", "cheese", "hot", "indulgent", "main-course", "french"]
+        "tags": [
+          "pasta",
+          "pork",
+          "quick",
+          "comforting",
+          "festive",
+          "cheese",
+          "hot",
+          "indulgent",
+          "main-course",
+          "french"
+        ]
       },
       "it": {
         "title": "Coquillettes Prosciutto e Tartufo Nero",
         "description": "Coquillettes saltate nel burro e cotte nel brodo di pollo, guarnite con lamelle di prosciutto cotto e tartufo nero affettato, servite con parmigiano grattugiato.",
-        "tags": ["pasta", "maiale", "veloce", "confortante", "festivo", "formaggio", "caldo", "goloso", "primo-piatto", "francese"]
+        "tags": [
+          "pasta",
+          "maiale",
+          "veloce",
+          "confortante",
+          "festivo",
+          "formaggio",
+          "caldo",
+          "goloso",
+          "primo-piatto",
+          "francese"
+        ]
       }
     },
     "stepCount": 3,
@@ -735,12 +1107,32 @@
       "en": {
         "title": "Chocolate Lava Cake",
         "description": "Individual dark chocolate cake with a molten, flowing center, ready in just 20 minutes with only 5 ingredients.",
-        "tags": ["oven", "dessert", "chocolate", "quick", "5-ingredients", "molten", "indulgent", "comforting", "festive"]
+        "tags": [
+          "oven",
+          "dessert",
+          "chocolate",
+          "quick",
+          "5-ingredients",
+          "molten",
+          "indulgent",
+          "comforting",
+          "festive"
+        ]
       },
       "it": {
         "title": "Coulant al Cioccolato",
         "description": "Piccolo tortino al cioccolato fondente con cuore morbido e colante, pronto in soli 20 minuti con 5 ingredienti.",
-        "tags": ["forno", "dessert", "cioccolato", "veloce", "5-ingredienti", "fondente", "goloso", "confortante", "festivo"]
+        "tags": [
+          "forno",
+          "dessert",
+          "cioccolato",
+          "veloce",
+          "5-ingredienti",
+          "fondente",
+          "goloso",
+          "confortante",
+          "festivo"
+        ]
       }
     },
     "stepCount": 7,
@@ -775,12 +1167,34 @@
       "en": {
         "title": "Katsudon",
         "description": "Katsudon is a comforting Japanese dish of panko-breaded pork cutlet (tonkatsu) simmered in a dashi-soy sauce with onions and eggs, served over a bowl of steamed rice.",
-        "tags": ["japanese", "pork", "rice", "fried", "comforting", "hot", "main-course", "umami", "asian", "eggs"]
+        "tags": [
+          "japanese",
+          "pork",
+          "rice",
+          "fried",
+          "comforting",
+          "hot",
+          "main-course",
+          "umami",
+          "asian",
+          "eggs"
+        ]
       },
       "it": {
         "title": "Katsudon",
         "description": "Il katsudon è un piatto giapponese confortante a base di cotoletta di maiale impanata nel panko (tonkatsu), cotta a fuoco lento in una salsa dashi-soia con cipolla e uova, servita su una ciotola di riso caldo.",
-        "tags": ["giapponese", "maiale", "riso", "fritto", "confortante", "caldo", "piatto-principale", "umami", "asiatico", "uova"]
+        "tags": [
+          "giapponese",
+          "maiale",
+          "riso",
+          "fritto",
+          "confortante",
+          "caldo",
+          "piatto-principale",
+          "umami",
+          "asiatico",
+          "uova"
+        ]
       }
     },
     "stepCount": 8,
@@ -815,12 +1229,34 @@
       "en": {
         "title": "Baked Gnocchi & Broccoli Madness",
         "description": "Gnocchi and broccoli oven-roasted on a single pan with lemon, garlic and pecorino. Ready in 25 minutes.",
-        "tags": ["oven", "vegetarian", "quick", "vegetables", "main-course", "hot", "comforting", "cheese", "one-pan", "italian"]
+        "tags": [
+          "oven",
+          "vegetarian",
+          "quick",
+          "vegetables",
+          "main-course",
+          "hot",
+          "comforting",
+          "cheese",
+          "one-pan",
+          "italian"
+        ]
       },
       "it": {
         "title": "Gnocchi e Broccoli al Forno",
         "description": "Gnocchi e broccoli arrostiti in forno in un'unica teglia, con limone, aglio e pecorino. Pronti in 25 minuti.",
-        "tags": ["forno", "vegetariano", "veloce", "verdure", "primo-piatto", "caldo", "confortante", "formaggio", "one-pan", "italiano"]
+        "tags": [
+          "forno",
+          "vegetariano",
+          "veloce",
+          "verdure",
+          "primo-piatto",
+          "caldo",
+          "confortante",
+          "formaggio",
+          "one-pan",
+          "italiano"
+        ]
       }
     },
     "stepCount": 5,
@@ -855,12 +1291,34 @@
       "en": {
         "title": "Gnocchi with Bell Pepper Cream",
         "description": "Potato gnocchi topped with a creamy roasted red pepper and parmesan sauce, a quick and flavourful recipe inspired by Tuscany.",
-        "tags": ["pan", "vegetarian", "quick", "vegetables", "main-course", "creamy", "italian", "comforting", "hot", "cheese"]
+        "tags": [
+          "pan",
+          "vegetarian",
+          "quick",
+          "vegetables",
+          "main-course",
+          "creamy",
+          "italian",
+          "comforting",
+          "hot",
+          "cheese"
+        ]
       },
       "it": {
         "title": "Gnocchi alla Crema di Peperone",
         "description": "Gnocchi di patate conditi con una vellutata crema di peperone rosso e parmigiano, una ricetta saporita e veloce ispirata alla Toscana.",
-        "tags": ["padella", "vegetariano", "veloce", "verdure", "primo-piatto", "cremoso", "italiano", "confortante", "caldo", "formaggio"]
+        "tags": [
+          "padella",
+          "vegetariano",
+          "veloce",
+          "verdure",
+          "primo-piatto",
+          "cremoso",
+          "italiano",
+          "confortante",
+          "caldo",
+          "formaggio"
+        ]
       }
     },
     "stepCount": 5,
@@ -894,11 +1352,33 @@
     "translations": {
       "en": {
         "description": "Energy biscuits made with oat flakes, almonds, hazelnuts, dried apricots and goji berries, lactose-free and with no added sugar.",
-        "tags": ["breakfast", "dairy-free", "vegetarian", "sugar-free", "light", "snack", "quick", "high-fiber", "balanced", "oven"]
+        "tags": [
+          "breakfast",
+          "dairy-free",
+          "vegetarian",
+          "sugar-free",
+          "light",
+          "snack",
+          "quick",
+          "high-fiber",
+          "balanced",
+          "oven"
+        ]
       },
       "it": {
         "description": "Biscotti energetici con fiocchi d'avena, mandorle, nocciole, albicocche secche e bacche di goji, senza lattosio e senza zuccheri aggiunti.",
-        "tags": ["colazione", "senza-lattosio", "vegetariano", "senza-zucchero", "leggero", "merenda", "veloce", "ricco-di-fibre", "equilibrato", "forno"]
+        "tags": [
+          "colazione",
+          "senza-lattosio",
+          "vegetariano",
+          "senza-zucchero",
+          "leggero",
+          "merenda",
+          "veloce",
+          "ricco-di-fibre",
+          "equilibrato",
+          "forno"
+        ]
       }
     },
     "stepCount": 3,
@@ -932,11 +1412,33 @@
     "translations": {
       "en": {
         "description": "A fresh and colorful carrot and apple cream, perfect for a cocktail appetizer or a light, indulgent starter.",
-        "tags": ["starter", "vegan", "vegetarian", "appetizer", "light", "gluten-free", "in-glasses", "cold", "creamy", "vegetables"]
+        "tags": [
+          "starter",
+          "vegan",
+          "vegetarian",
+          "appetizer",
+          "light",
+          "gluten-free",
+          "in-glasses",
+          "cold",
+          "creamy",
+          "vegetables"
+        ]
       },
       "it": {
         "description": "Una crema di carote alla mela, fresca e colorata, perfetta per un aperitivo sfiziante o un antipasto leggero e goloso.",
-        "tags": ["antipasto", "vegano", "vegetariano", "aperitivo", "leggero", "senza-glutine", "in-bicchierini", "freddo", "cremoso", "verdure"]
+        "tags": [
+          "antipasto",
+          "vegano",
+          "vegetariano",
+          "aperitivo",
+          "leggero",
+          "senza-glutine",
+          "in-bicchierini",
+          "freddo",
+          "cremoso",
+          "verdure"
+        ]
       }
     },
     "stepCount": 3,
@@ -970,11 +1472,33 @@
     "translations": {
       "en": {
         "description": "Fresh and light Thai-inspired spring rolls filled with crunchy vegetables and aromatic herbs, served with a citrusy dipping sauce.",
-        "tags": ["starter", "vegetarian", "raw", "asian", "vegetables", "light", "gluten-free", "finger-food", "cold", "spring"]
+        "tags": [
+          "starter",
+          "vegetarian",
+          "raw",
+          "asian",
+          "vegetables",
+          "light",
+          "gluten-free",
+          "finger-food",
+          "cold",
+          "spring"
+        ]
       },
       "it": {
         "description": "Freschi e leggeri rotolini primavera in stile tailandese, ripieni di verdure croccanti ed erbe aromatiche, serviti con una salsa al limone.",
-        "tags": ["antipasto", "vegetariano", "crudo", "asiatico", "verdure", "leggero", "senza-glutine", "finger-food", "freddo", "primavera"]
+        "tags": [
+          "antipasto",
+          "vegetariano",
+          "crudo",
+          "asiatico",
+          "verdure",
+          "leggero",
+          "senza-glutine",
+          "finger-food",
+          "freddo",
+          "primavera"
+        ]
       }
     },
     "stepCount": 6,
@@ -1009,11 +1533,35 @@
     "translations": {
       "en": {
         "description": "Rice paper rolls filled with seasonal vegetables, edible flowers and Thai basil, served with a tamarind, soy and peanut dipping sauce.",
-        "tags": ["starter", "vegetarian", "no-cook", "asian", "vegetables", "light", "gluten-free", "finger-food", "cold", "spring", "fruit"]
+        "tags": [
+          "starter",
+          "vegetarian",
+          "no-cook",
+          "asian",
+          "vegetables",
+          "light",
+          "gluten-free",
+          "finger-food",
+          "cold",
+          "spring",
+          "fruit"
+        ]
       },
       "it": {
         "description": "Rotolini di riso ripieni di verdure di stagione, fiori commestibili e basilico tailandese, accompagnati da una salsa al tamarindo, soia e arachidi.",
-        "tags": ["antipasto", "vegetariano", "senza-cottura", "asiatico", "verdure", "leggero", "senza-glutine", "finger-food", "freddo", "primavera", "frutta"]
+        "tags": [
+          "antipasto",
+          "vegetariano",
+          "senza-cottura",
+          "asiatico",
+          "verdure",
+          "leggero",
+          "senza-glutine",
+          "finger-food",
+          "freddo",
+          "primavera",
+          "frutta"
+        ]
       }
     },
     "stepCount": 6,
@@ -1080,5 +1628,73 @@
     },
     "stepCount": 6,
     "ingredientCount": 8
+  },
+  {
+    "slug": "curry-paneng-poulet-feuilles-combawa",
+    "title": "Curry Paneng au Poulet et Feuilles de Combawa",
+    "description": "Un curry thaï crémeux au poulet, parfumé aux feuilles de combawa et au lait de coco, relevé d'une touche de tamarin et de sucre de palmier.",
+    "images": {
+      "cover": "images/recipes/curry-paneng-poulet-feuilles-combawa/cover.jpg",
+      "web": "images/recipes/curry-paneng-poulet-feuilles-combawa/web.jpg"
+    },
+    "prepTime": 10,
+    "cookTime": 20,
+    "servings": 4,
+    "difficulty": "Facile",
+    "category": "Secondi",
+    "tags": [
+      "asiatique",
+      "thaï",
+      "poulet",
+      "épicé",
+      "mijoté",
+      "rapide",
+      "plat-principal",
+      "sucré-salé",
+      "sans-gluten",
+      "lait-de-coco",
+      "chaud",
+      "réconfortant"
+    ],
+    "stepCount": 7,
+    "ingredientCount": 9,
+    "translations": {
+      "en": {
+        "title": "Paneng Chicken Curry with Kaffir Lime Leaves",
+        "description": "A creamy Thai Paneng curry with chicken, fragrant kaffir lime leaves and coconut milk, with a hint of tamarind and palm sugar.",
+        "tags": [
+          "asian",
+          "thai",
+          "chicken",
+          "spicy",
+          "simmered",
+          "quick",
+          "main-course",
+          "sweet-savory",
+          "gluten-free",
+          "coconut-milk",
+          "hot",
+          "comforting"
+        ]
+      },
+      "it": {
+        "title": "Curry Paneng di Pollo con Foglie di Combava",
+        "description": "Un cremoso curry tailandese Paneng con pollo, profumato con foglie di combava e latte di cocco, con un tocco di tamarindo e zucchero di palma.",
+        "tags": [
+          "asiatico",
+          "thai",
+          "pollo",
+          "speziato",
+          "stufato",
+          "veloce",
+          "piatto-principale",
+          "agrodolce",
+          "senza-glutine",
+          "latte-di-cocco",
+          "caldo",
+          "confortante"
+        ]
+      }
+    }
   }
 ]

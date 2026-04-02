@@ -35,6 +35,7 @@
     "category": "Catégorie",
     "difficulty": "Difficulté",
     "time": "Temps total",
+    "prep": "Temps de préparation",
     "steps": "Nombre d'étapes",
     "ingredients": "Nombre d'ingrédients",
     "diet": "Régime & style",
@@ -66,6 +67,11 @@
     "pâques": "🐣 Pâques",
     "apéro": "🥂 Apéro",
     "fête": "🎉 Fête"
+  },
+  "prepTimeOptions": {
+    "short": "🥗 ≤ 10 min",
+    "medium": "👨‍🍳 11–30 min",
+    "long": "⏳ > 30 min"
   },
   "timeOptions": {
     "quick": "⚡ ≤ 20 min",

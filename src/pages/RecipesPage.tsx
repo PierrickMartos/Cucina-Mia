@@ -4,13 +4,23 @@ import { useTranslation } from "react-i18next"
 import Fuse from "fuse.js"
 import { X } from "lucide-react"
 import { SearchBar } from "@/components/SearchBar"
-import { FilterDrawer, type TimeBucket, type StepsBucket, type IngredientsBucket } from "@/components/FilterDrawer"
+import { FilterDrawer, type TimeBucket, type PrepTimeBucket, type StepsBucket, type IngredientsBucket } from "@/components/FilterDrawer"
 import { RecipeGrid } from "@/components/RecipeGrid"
 import { sortCategories, sortDifficulties } from "@/lib/categories"
 import { localizeRecipeSummary } from "@/lib/localize"
 import type { RecipeSummary } from "@/types/recipe"
 
 const BASE = import.meta.env.BASE_URL
+const FILTERS_KEY = "cucina-mia-filters"
+
+function loadFilters() {
+  try {
+    const raw = localStorage.getItem(FILTERS_KEY)
+    return raw ? JSON.parse(raw) : {}
+  } catch {
+    return {}
+  }
+}
 
 export function RecipesPage() {
   const [searchParams] = useSearchParams()
@@ -19,14 +29,16 @@ export function RecipesPage() {
   const [search, setSearch] = useState(searchParams.get("q") ?? "")
   const [selectedCategories, setSelectedCategories] = useState<string[]>(() => {
     const cat = searchParams.get("category")
-    return cat ? [cat] : []
+    if (cat) return [cat]
+    return loadFilters().categories ?? []
   })
-  const [selectedDifficulties, setSelectedDifficulties] = useState<string[]>([])
-  const [selectedTimes, setSelectedTimes] = useState<TimeBucket[]>([])
-  const [selectedSteps, setSelectedSteps] = useState<StepsBucket[]>([])
-  const [selectedIngredients, setSelectedIngredients] = useState<IngredientsBucket[]>([])
-  const [selectedDietTags, setSelectedDietTags] = useState<string[]>([])
-  const [selectedSeasonTags, setSelectedSeasonTags] = useState<string[]>([])
+  const [selectedDifficulties, setSelectedDifficulties] = useState<string[]>(() => loadFilters().difficulties ?? [])
+  const [selectedTimes, setSelectedTimes] = useState<TimeBucket[]>(() => loadFilters().times ?? [])
+  const [selectedPrepTimes, setSelectedPrepTimes] = useState<PrepTimeBucket[]>(() => loadFilters().prepTimes ?? [])
+  const [selectedSteps, setSelectedSteps] = useState<StepsBucket[]>(() => loadFilters().steps ?? [])
+  const [selectedIngredients, setSelectedIngredients] = useState<IngredientsBucket[]>(() => loadFilters().ingredients ?? [])
+  const [selectedDietTags, setSelectedDietTags] = useState<string[]>(() => loadFilters().dietTags ?? [])
+  const [selectedSeasonTags, setSelectedSeasonTags] = useState<string[]>(() => loadFilters().seasonTags ?? [])
   const { t, i18n } = useTranslation()
 
   const localizedRecipes = useMemo(
@@ -43,6 +55,32 @@ export function RecipesPage() {
       })
       .catch(() => setLoading(false))
   }, [])
+
+  useEffect(() => {
+    const allEmpty =
+      selectedCategories.length === 0 &&
+      selectedDifficulties.length === 0 &&
+      selectedTimes.length === 0 &&
+      selectedPrepTimes.length === 0 &&
+      selectedSteps.length === 0 &&
+      selectedIngredients.length === 0 &&
+      selectedDietTags.length === 0 &&
+      selectedSeasonTags.length === 0
+    if (allEmpty) {
+      localStorage.removeItem(FILTERS_KEY)
+    } else {
+      localStorage.setItem(FILTERS_KEY, JSON.stringify({
+        categories: selectedCategories,
+        difficulties: selectedDifficulties,
+        times: selectedTimes,
+        prepTimes: selectedPrepTimes,
+        steps: selectedSteps,
+        ingredients: selectedIngredients,
+        dietTags: selectedDietTags,
+        seasonTags: selectedSeasonTags,
+      }))
+    }
+  }, [selectedCategories, selectedDifficulties, selectedTimes, selectedPrepTimes, selectedSteps, selectedIngredients, selectedDietTags, selectedSeasonTags])
 
   const categories = useMemo(
     () => sortCategories([...new Set(recipes.map((r) => r.category))]),
@@ -76,6 +114,12 @@ export function RecipesPage() {
     return "long"
   }
 
+  function getPrepTimeBucket(prepTime: number): PrepTimeBucket {
+    if (prepTime <= 10) return "short"
+    if (prepTime <= 30) return "medium"
+    return "long"
+  }
+
   function getStepsBucket(stepCount: number | undefined): StepsBucket {
     if (stepCount === undefined) return "medium"
     if (stepCount <= 4) return "simple"
@@ -94,6 +138,7 @@ export function RecipesPage() {
     selectedCategories.length > 0 ||
     selectedDifficulties.length > 0 ||
     selectedTimes.length > 0 ||
+    selectedPrepTimes.length > 0 ||
     selectedSteps.length > 0 ||
     selectedIngredients.length > 0 ||
     selectedDietTags.length > 0 ||
@@ -115,6 +160,12 @@ export function RecipesPage() {
     if (selectedTimes.length > 0) {
       result = result.filter((r) =>
         selectedTimes.includes(getTimeBucket(r.prepTime, r.cookTime))
+      )
+    }
+
+    if (selectedPrepTimes.length > 0) {
+      result = result.filter((r) =>
+        selectedPrepTimes.includes(getPrepTimeBucket(r.prepTime))
       )
     }
 
@@ -143,7 +194,7 @@ export function RecipesPage() {
     }
 
     return result
-  }, [localizedRecipes, fuse, search, selectedCategories, selectedDifficulties, selectedTimes, selectedSteps, selectedIngredients, selectedDietTags, selectedSeasonTags])
+  }, [localizedRecipes, fuse, search, selectedCategories, selectedDifficulties, selectedTimes, selectedPrepTimes, selectedSteps, selectedIngredients, selectedDietTags, selectedSeasonTags])
 
   return (
     <div className="px-6 py-6">
@@ -164,6 +215,7 @@ export function RecipesPage() {
           selectedCategories={selectedCategories}
           selectedDifficulties={selectedDifficulties}
           selectedTimes={selectedTimes}
+          selectedPrepTimes={selectedPrepTimes}
           selectedSteps={selectedSteps}
           selectedIngredients={selectedIngredients}
           selectedDietTags={selectedDietTags}
@@ -171,6 +223,7 @@ export function RecipesPage() {
           onCategoriesChange={setSelectedCategories}
           onDifficultiesChange={setSelectedDifficulties}
           onTimesChange={setSelectedTimes}
+          onPrepTimesChange={setSelectedPrepTimes}
           onStepsChange={setSelectedSteps}
           onIngredientsChange={setSelectedIngredients}
           onDietTagsChange={setSelectedDietTags}
@@ -182,6 +235,7 @@ export function RecipesPage() {
               setSelectedCategories([])
               setSelectedDifficulties([])
               setSelectedTimes([])
+              setSelectedPrepTimes([])
               setSelectedSteps([])
               setSelectedIngredients([])
               setSelectedDietTags([])

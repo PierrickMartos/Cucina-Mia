@@ -67,6 +67,7 @@ function renderRecipesPageWithCategory(category: string) {
 
 describe("RecipesPage", () => {
   beforeEach(() => {
+    localStorage.clear()
     i18n.changeLanguage("en")
     globalThis.fetch = async () =>
       ({ json: async () => mockRecipes }) as Response
