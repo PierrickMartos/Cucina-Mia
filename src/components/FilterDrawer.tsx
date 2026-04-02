@@ -52,7 +52,7 @@ export function FilterDrawer({
     <>
       <button
         onClick={() => setOpen(true)}
-        className="flex items-center justify-center bg-primary text-primary-foreground w-10 h-10 rounded-full hover:bg-primary-container transition-colors active:scale-95 duration-300 shrink-0 relative"
+        className="cursor-pointer flex items-center justify-center bg-primary text-primary-foreground w-10 h-10 rounded-full hover:bg-primary-container transition-colors active:scale-95 duration-300 shrink-0 relative"
       >
         <SlidersHorizontal className="h-4 w-4" />
         {activeCount > 0 && (
@@ -120,7 +120,7 @@ export function FilterDrawer({
                 variant="ghost"
                 size="sm"
                 onClick={clearAll}
-                className="w-full text-muted-foreground hover:text-foreground"
+                className="cursor-pointer w-full text-muted-foreground hover:text-foreground"
               >
                 {t("filter.clearAll")}
               </Button>

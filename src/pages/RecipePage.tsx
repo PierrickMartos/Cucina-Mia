@@ -143,7 +143,7 @@ export function RecipePage() {
       <div className="bg-surface-high rounded-full p-1 flex mb-6">
         <button
           onClick={() => setActiveTab("ingredients")}
-          className={`flex-1 rounded-full py-2.5 text-xs font-semibold uppercase tracking-widest transition-all duration-300 ${
+          className={`flex-1 rounded-full py-2.5 text-xs font-semibold uppercase tracking-widest transition-all duration-300 cursor-pointer ${
             activeTab === "ingredients"
               ? "bg-primary text-primary-foreground shadow-sm"
               : "text-muted-foreground hover:text-foreground"
@@ -153,7 +153,7 @@ export function RecipePage() {
         </button>
         <button
           onClick={() => setActiveTab("instructions")}
-          className={`flex-1 rounded-full py-2.5 text-xs font-semibold uppercase tracking-widest transition-all duration-300 ${
+          className={`flex-1 rounded-full py-2.5 text-xs font-semibold uppercase tracking-widest transition-all duration-300 cursor-pointer ${
             activeTab === "instructions"
               ? "bg-primary text-primary-foreground shadow-sm"
               : "text-muted-foreground hover:text-foreground"
