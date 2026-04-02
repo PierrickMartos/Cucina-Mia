@@ -285,5 +285,150 @@
         "description": "Piccoli dolcetti bordolesi dalla crosta caramellata e croccante, con un interno morbido profumato alla vaniglia e al rum."
       }
     }
+  },
+  {
+    "slug": "tarte-tatin-mangue-espelette",
+    "title": "Tarte Tatin à la Mangue et au Piment d'Espelette",
+    "description": "Une tarte tatin exotique aux tranches de mangue caramélisées, relevée d'une touche de piment d'Espelette, recouverte d'une pâte brisée dorée.",
+    "images": {
+      "cover": "images/recipes/tarte-tatin-mangue-espelette/cover.jpg",
+      "web": "images/recipes/tarte-tatin-mangue-espelette/web.jpg"
+    },
+    "prepTime": 35,
+    "cookTime": 40,
+    "servings": 6,
+    "difficulty": "Medio",
+    "category": "Dolci",
+    "tags": [
+      "dessert",
+      "mangue",
+      "tarte-tatin",
+      "piment",
+      "fruite"
+    ],
+    "translations": {
+      "en": {
+        "description": "An exotic tarte tatin with caramelized mango slices, lifted with a hint of Espelette chili pepper, covered with a golden shortcrust pastry."
+      },
+      "it": {
+        "description": "Una tarte tatin esotica con fette di mango caramellate, arricchita da un tocco di peperoncino d'Espelette, ricoperta da una pasta brisée dorata."
+      }
+    }
+  },
+  {
+    "slug": "verrines-tarte-citron-meringuee",
+    "title": "Verrines façon tarte au citron meringuée",
+    "description": "Revisitation en verrines de la tarte au citron meringuée : crumble aux amandes croquant, lemon curd onctueux et meringue italienne brillante.",
+    "images": {
+      "cover": "images/recipes/verrines-tarte-citron-meringuee/cover.jpg",
+      "web": "images/recipes/verrines-tarte-citron-meringuee/web.jpg"
+    },
+    "prepTime": 30,
+    "cookTime": 25,
+    "servings": 8,
+    "difficulty": "Medio",
+    "category": "Dolci",
+    "tags": [
+      "citron",
+      "verrine",
+      "meringue",
+      "crumble",
+      "amandes"
+    ],
+    "translations": {
+      "en": {
+        "description": "A deconstructed lemon meringue tart served in individual glasses, with crunchy almond crumble, creamy lemon curd and glossy Italian meringue."
+      },
+      "it": {
+        "description": "Rivisitazione in bicchierini della crostata al limone meringuata: crumble croccante alle mandorle, lemon curd cremoso e meringa italiana lucida."
+      }
+    }
+  },
+  {
+    "slug": "gateau-de-savoie",
+    "title": "Gâteau de Savoie",
+    "description": "Gâteau traditionnel savoyard, ultra-léger et aérien, réalisé à base de Maïzena et d'œufs battus en neige avec un délicat parfum de citron.",
+    "images": {
+      "cover": "images/recipes/gateau-de-savoie/cover.jpg",
+      "web": "images/recipes/gateau-de-savoie/web.jpg"
+    },
+    "prepTime": 20,
+    "cookTime": 41,
+    "servings": 6,
+    "difficulty": "Medio",
+    "category": "Dolci",
+    "tags": [
+      "gateau",
+      "sponge",
+      "citron",
+      "maizena",
+      "moelleux"
+    ],
+    "translations": {
+      "en": {
+        "description": "Traditional Savoyard cake, ultra-light and airy, made with cornstarch and whipped egg whites with a delicate lemon flavor."
+      },
+      "it": {
+        "description": "Torta tradizionale savoiarda, leggerissima e ariosa, realizzata con amido di mais e albumi montati a neve con un delicato aroma di limone."
+      }
+    }
+  },
+  {
+    "slug": "ravioli-prosciutto-caprino",
+    "title": "Ravioles de jambon de pays et chèvre frais, pesto et roquette",
+    "description": "Des ravioles garnies de chèvre frais et de jambon de pays, nappées d'un pesto au basilic et servies avec une roquette aux tomates séchées.",
+    "images": {
+      "cover": "images/recipes/ravioli-prosciutto-caprino/cover.jpg",
+      "web": "images/recipes/ravioli-prosciutto-caprino/web.jpg"
+    },
+    "prepTime": 45,
+    "cookTime": 3,
+    "servings": 4,
+    "difficulty": "Medio",
+    "category": "Secondi",
+    "tags": [
+      "pasta",
+      "prosciutto",
+      "caprino",
+      "pesto",
+      "rucola"
+    ],
+    "translations": {
+      "en": {
+        "description": "Ravioles filled with fresh goat cheese and country ham, topped with basil pesto and served with arugula and sun-dried tomatoes."
+      },
+      "it": {
+        "description": "Ravioli ripieni di caprino fresco e prosciutto crudo, nappati di pesto al basilico e serviti con rucola e pomodori secchi."
+      }
+    }
+  },
+  {
+    "slug": "panna-cotta-aux-framboises",
+    "title": "Panna cotta aux framboises et tuile croustillante",
+    "description": "Un dessert italien onctueux à la crème, servi avec un coulis de framboises maison et une tuile croustillante aux amandes.",
+    "images": {
+      "cover": "images/recipes/panna-cotta-aux-framboises/cover.jpg",
+      "web": "images/recipes/panna-cotta-aux-framboises/web.jpg"
+    },
+    "prepTime": 30,
+    "cookTime": 8,
+    "servings": 12,
+    "difficulty": "Medio",
+    "category": "Dolci",
+    "tags": [
+      "panna-cotta",
+      "framboises",
+      "tuile",
+      "amandes",
+      "dessert"
+    ],
+    "translations": {
+      "en": {
+        "description": "A silky Italian cream dessert served with a homemade raspberry coulis and a crunchy almond tuile."
+      },
+      "it": {
+        "description": "Un morbido dessert italiano alla panna, servito con un coulis di lamponi fatto in casa e una croccante tuile alle mandorle."
+      }
+    }
   }
 ]

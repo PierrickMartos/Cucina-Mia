@@ -1,0 +1,223 @@
+{
+  "slug": "verrines-tarte-citron-meringuee",
+  "title": "Verrines façon tarte au citron meringuée",
+  "description": "Revisitation en verrines de la tarte au citron meringuée : crumble aux amandes croquant, lemon curd onctueux et meringue italienne brillante.",
+  "images": {
+    "cover": "images/recipes/verrines-tarte-citron-meringuee/cover.jpg",
+    "web": "images/recipes/verrines-tarte-citron-meringuee/web.jpg"
+  },
+  "imageCredit": {
+    "author": "congerdesign",
+    "url": "https://pixabay.com/users/congerdesign-509903/"
+  },
+  "prepTime": 30,
+  "cookTime": 25,
+  "servings": 8,
+  "difficulty": "Medio",
+  "category": "Dolci",
+  "tags": [
+    "citron",
+    "verrine",
+    "meringue",
+    "crumble",
+    "amandes"
+  ],
+  "ingredients": [
+    {
+      "group": "Lemon curd",
+      "items": [
+        "75 ml de jus de citron (2 petits citrons) + leurs zestes",
+        "2 œufs",
+        "100 g de sucre en poudre",
+        "50 g de beurre"
+      ]
+    },
+    {
+      "group": "Crumble",
+      "items": [
+        "50 g de farine",
+        "50 g de sucre en poudre",
+        "50 g de poudre d'amandes",
+        "50 g de beurre froid coupé en petits morceaux"
+      ]
+    },
+    {
+      "group": "Meringue italienne",
+      "items": [
+        "1 blanc d'œuf",
+        "75 g de sucre en poudre",
+        "25 ml d'eau"
+      ]
+    }
+  ],
+  "steps": [
+    {
+      "text": "Lavez et séchez les citrons. Prélevez les zestes et coupez-les en tout petits morceaux. Mélangez les zestes avec le sucre en poudre du bout des doigts et laissez reposer 5 minutes."
+    },
+    {
+      "text": "Ajoutez le jus de citron et les œufs battus. Faites cuire au bain-marie en fouettant sans cesse jusqu'à ce que le mélange épaississe. La température ne doit pas dépasser 75°C sinon le mélange prendra un goût d'omelette."
+    },
+    {
+      "text": "Retirez du feu et ajoutez le beurre en morceaux, mélangez jusqu'à incorporation complète. Couvrez la surface de film alimentaire au contact, laissez tiédir puis réfrigérez plusieurs heures (idéalement 24 h)."
+    },
+    {
+      "text": "Préchauffez le four à 150°C. Dans un saladier, mélangez la farine, le sucre en poudre et la poudre d'amandes. Ajoutez le beurre froid en morceaux et travaillez du bout des doigts pour obtenir un mélange sableux grossier."
+    },
+    {
+      "text": "Étalez le crumble sur une plaque garnie de papier sulfurisé. Enfournez 20 à 25 minutes jusqu'à ce qu'il soit doré. Laissez refroidir à la sortie du four, puis émiettez à la fourchette si nécessaire."
+    },
+    {
+      "text": "Dans une casserole, faites bouillir l'eau et le sucre jusqu'à atteindre 120°C. Pendant ce temps, montez le blanc d'œuf en neige."
+    },
+    {
+      "text": "Versez le sirop chaud en mince filet sur le blanc en neige tout en continuant de battre. Fouettez pendant une dizaine de minutes jusqu'à complet refroidissement : la meringue doit être ferme et brillante."
+    },
+    {
+      "text": "Garnissez le fond de chaque verrine d'une couche de crumble, puis d'une couche généreuse de lemon curd bien froid."
+    },
+    {
+      "text": "Versez la meringue dans une poche à douille cannelée et dressez-la en spirale sur le lemon curd. Colorez le dessus au chalumeau. Réservez au frais jusqu'au moment de servir."
+    }
+  ],
+  "tips": [
+    "Préparez le lemon curd la veille : 24 h de repos au réfrigérateur le rend encore meilleur.",
+    "Un thermomètre de cuisine est indispensable pour la meringue italienne : le sirop doit impérativement atteindre 118-121°C.",
+    "Le crumble reste bien ferme même préparé la veille.",
+    "Doublez les quantités pour réaliser des verrines de taille normale à la place des mini-verrines."
+  ],
+  "source": "http://cotegourmandises.canalblog.com/archives/2013/01/17/26161467.html",
+  "translations": {
+    "en": {
+      "description": "A deconstructed lemon meringue tart served in individual glasses, with crunchy almond crumble, creamy lemon curd and glossy Italian meringue.",
+      "ingredients": [
+        {
+          "group": "Lemon curd",
+          "items": [
+            "75 ml lemon juice (2 small lemons) + their zests",
+            "2 eggs",
+            "100 g caster sugar",
+            "50 g butter"
+          ]
+        },
+        {
+          "group": "Crumble",
+          "items": [
+            "50 g plain flour",
+            "50 g caster sugar",
+            "50 g ground almonds",
+            "50 g cold butter, cut into small pieces"
+          ]
+        },
+        {
+          "group": "Italian meringue",
+          "items": [
+            "1 egg white",
+            "75 g caster sugar",
+            "25 ml water"
+          ]
+        }
+      ],
+      "steps": [
+        {
+          "text": "Wash and dry the lemons. Zest them and chop the zest into very small pieces. Rub the zest into the sugar with your fingertips and let rest for 5 minutes."
+        },
+        {
+          "text": "Add the lemon juice and beaten eggs. Cook over a bain-marie, stirring constantly, until the mixture thickens. Do not let the temperature exceed 75°C or the curd will taste of scrambled eggs."
+        },
+        {
+          "text": "Remove from heat and stir in the butter piece by piece until fully incorporated. Press cling film directly onto the surface, let cool, then refrigerate for several hours (ideally 24 h)."
+        },
+        {
+          "text": "Preheat the oven to 150°C. In a bowl, mix the flour, sugar and ground almonds. Add the cold butter and rub everything together with your fingertips until you get a coarse, sandy crumble."
+        },
+        {
+          "text": "Spread the crumble on a baking-paper-lined tray and bake for 20–25 minutes until golden. Leave to cool, then break apart with a fork if needed."
+        },
+        {
+          "text": "In a saucepan, boil the water and sugar to 120°C. Meanwhile, whip the egg white to stiff peaks."
+        },
+        {
+          "text": "Pour the hot syrup in a thin, steady stream onto the egg white while continuing to beat. Whip for about 10 minutes until completely cool: the meringue should be firm and glossy."
+        },
+        {
+          "text": "Fill the bottom of each glass with a layer of crumble, then a generous layer of cold lemon curd."
+        },
+        {
+          "text": "Pipe the meringue in a spiral over the lemon curd using a fluted nozzle. Brûlée the top with a kitchen blowtorch. Refrigerate until ready to serve."
+        }
+      ],
+      "tips": [
+        "Make the lemon curd the day before: 24 h in the fridge makes it even better.",
+        "A kitchen thermometer is essential for Italian meringue: the syrup must reach 118–121°C.",
+        "The crumble stays crisp even if made the day before.",
+        "Double the quantities to make standard-size verrines instead of mini ones."
+      ]
+    },
+    "it": {
+      "description": "Rivisitazione in bicchierini della crostata al limone meringuata: crumble croccante alle mandorle, lemon curd cremoso e meringa italiana lucida.",
+      "ingredients": [
+        {
+          "group": "Lemon curd",
+          "items": [
+            "75 ml di succo di limone (2 limoni piccoli) + le loro scorze",
+            "2 uova",
+            "100 g di zucchero semolato",
+            "50 g di burro"
+          ]
+        },
+        {
+          "group": "Crumble",
+          "items": [
+            "50 g di farina",
+            "50 g di zucchero semolato",
+            "50 g di farina di mandorle",
+            "50 g di burro freddo tagliato a pezzetti"
+          ]
+        },
+        {
+          "group": "Meringa italiana",
+          "items": [
+            "1 albume",
+            "75 g di zucchero semolato",
+            "25 ml di acqua"
+          ]
+        }
+      ],
+      "steps": [
+        {
+          "text": "Lavate e asciugate i limoni. Grattugiate la scorza e tritatela finemente. Mescolate la scorza con lo zucchero sfregando con la punta delle dita e lasciate riposare 5 minuti."
+        },
+        {
+          "text": "Aggiungete il succo di limone e le uova sbattute. Cuocete a bagnomaria mescolando continuamente finché il composto si addensa. La temperatura non deve superare i 75°C altrimenti il curd assumerà un sapore di frittata."
+        },
+        {
+          "text": "Togliete dal fuoco e incorporate il burro a pezzetti mescolando fino a completo assorbimento. Coprite la superficie con pellicola a contatto, fate intiepidire e poi refrigerate per diverse ore (idealmente 24 h)."
+        },
+        {
+          "text": "Preriscaldate il forno a 150°C. In una ciotola mescolate la farina, lo zucchero e la farina di mandorle. Aggiungete il burro freddo e lavorate con la punta delle dita fino a ottenere un composto sabbioso grossolano."
+        },
+        {
+          "text": "Stendete il crumble su una teglia rivestita di carta forno e cuocete 20-25 minuti finché è dorato. Fate raffreddare fuori dal forno, poi sbriciolate con una forchetta se necessario."
+        },
+        {
+          "text": "In un pentolino portate l'acqua e lo zucchero a 120°C. Nel frattempo montate l'albume a neve ferma."
+        },
+        {
+          "text": "Versate lo sciroppo caldo a filo sull'albume continuando a montare. Sbattete per circa 10 minuti fino al completo raffreddamento: la meringa deve essere soda e lucida."
+        },
+        {
+          "text": "Sul fondo di ogni bicchierino formate uno strato di crumble, poi uno strato generoso di lemon curd ben freddo."
+        },
+        {
+          "text": "Trasferite la meringa in una sac-à-poche con bocchetta a stella e dressatela a spirale sul lemon curd. Caramellate la superficie con un cannello. Conservate in frigo fino al momento di servire."
+        }
+      ],
+      "tips": [
+        "Preparate il lemon curd il giorno prima: 24 h di riposo in frigorifero lo rende ancora più buono.",
+        "Un termometro da cucina è indispensabile per la meringa italiana: lo sciroppo deve raggiungere 118-121°C.",
+        "Il crumble rimane croccante anche se preparato il giorno prima.",
+        "Raddoppiate le dosi per ottenere 8 bicchierini di dimensione normale invece di mini bicchierini."
+      ]
+    }
+  }
+}

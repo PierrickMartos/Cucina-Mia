@@ -181,16 +181,19 @@ Create directory `public/images/recipes/{slug}/` if needed.
 Download the uploaded image and save it as `public/images/recipes/{slug}/cover.jpg` (or the appropriate extension). Also create a web-sized version at `public/images/recipes/{slug}/web.jpg` if the uploaded image is large (resize or use it directly if already web-appropriate).
 
 ### If no cover image was provided
-Use the **pixabay-recipe-image** skill (`.claude/skills/pixabay-recipe-image/SKILL.md`) to find and download a professional food photograph from Pixabay. Pass the recipe title and a brief summary of ingredients/description as context. The skill will:
-- Search Pixabay with `category=food` using the recipe name
-- Score candidates by metadata and visual inspection
-- Download both `cover.jpg` (1280px) and `web.jpg` (640px) to `public/images/recipes/{slug}/`
+Use the **pixabay-recipe-image** skill (`.claude/skills/pixabay-recipe-image/SKILL.md`) to find and download a professional food photograph from Pixabay. Pass the recipe title and a brief summary of ingredients/description as context.
 
-The `PIXABAY_API_KEY` environment variable must be set. If it's not available, fall back to generating an SVG illustration (see below).
+**Fall back to SVG immediately if any of the following occur:**
+- `PIXABAY_API_KEY` is not set
+- The API returns an error
+- No results are returned after all queries
+- The best candidate's `recipe_match` visual score is < 5/10 (i.e. the image does not clearly show the correct dish)
 
-### Fallback: SVG illustration (only if Pixabay is unavailable)
+Do not settle for a loosely-related image. If Pixabay cannot find a photo that actually shows the dish, generate an SVG instead.
 
-If the Pixabay API key is not set or the search returns no results, generate an SVG cover illustration. Read 1-2 existing SVGs from `public/images/recipes/*/cover.svg` for reference. The style is:
+### SVG illustration (fallback)
+
+Generate an SVG cover illustration. Read 1-2 existing SVGs from `public/images/recipes/*/cover.svg` for reference. The style is:
 
 1. **ViewBox**: `0 0 800 600`
 2. **Background**: dark warm tones via `<radialGradient>`. Center ~`#2e2822`, edges ~`#1a1510`
