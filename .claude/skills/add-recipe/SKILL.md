@@ -240,7 +240,11 @@ When using SVG, set both `cover` and `web` in the `images` object to the same `.
 1. Validate JSON syntax: `cat public/data/recipes/{slug}.json | python3 -m json.tool`
 2. Validate index: `cat public/data/recipes/index.json | python3 -m json.tool`
 3. Confirm cover image exists at `public/images/recipes/{slug}/cover.{jpg,svg}` and web image at `public/images/recipes/{slug}/web.{jpg,svg}`
-4. Run `npm run build` to confirm nothing breaks
+4. Sync `stepCount` and `ingredientCount` in the index from the actual recipe files:
+   ```bash
+   python3 .claude/skills/add-recipe/sync-recipe-counts.py
+   ```
+5. Run `npm run build` to confirm nothing breaks
 
 ## Step 9: Report
 

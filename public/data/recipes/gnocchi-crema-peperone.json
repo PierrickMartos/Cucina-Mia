@@ -16,11 +16,16 @@
   "difficulty": "Facile",
   "category": "Secondi",
   "tags": [
-    "gnocchi",
-    "peperone",
+    "poêle",
     "végétarien",
     "rapide",
-    "toscane"
+    "légumes",
+    "plat-principal",
+    "onctueux",
+    "italien",
+    "réconfortant",
+    "chaud",
+    "fromage"
   ],
   "ingredients": [
     {
@@ -60,6 +65,7 @@
     "en": {
       "title": "Gnocchi with Bell Pepper Cream",
       "description": "Potato gnocchi topped with a creamy roasted red pepper and parmesan sauce, a quick and flavourful recipe inspired by Tuscany.",
+      "tags": ["pan", "vegetarian", "quick", "vegetables", "main-course", "creamy", "italian", "comforting", "hot", "cheese"],
       "ingredients": [
         {
           "items": [
@@ -97,6 +103,7 @@
     "it": {
       "title": "Gnocchi alla Crema di Peperone",
       "description": "Gnocchi di patate conditi con una vellutata crema di peperone rosso e parmigiano, una ricetta saporita e veloce ispirata alla Toscana.",
+      "tags": ["padella", "vegetariano", "veloce", "verdure", "primo-piatto", "cremoso", "italiano", "confortante", "caldo", "formaggio"],
       "ingredients": [
         {
           "items": [

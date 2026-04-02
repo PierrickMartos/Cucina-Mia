@@ -16,11 +16,17 @@
   "difficulty": "Facile",
   "category": "Antipasti",
   "tags": [
-    "rouleaux",
-    "riz",
-    "thaï",
+    "entrée",
     "végétarien",
-    "tamarin"
+    "no-cuisson",
+    "asiatique",
+    "légumes",
+    "léger",
+    "sans-gluten",
+    "finger-food",
+    "froid",
+    "printemps",
+    "fruits"
   ],
   "ingredients": [
     {
@@ -70,6 +76,7 @@
   "translations": {
     "en": {
       "description": "Rice paper rolls filled with seasonal vegetables, edible flowers and Thai basil, served with a tamarind, soy and peanut dipping sauce.",
+      "tags": ["starter", "vegetarian", "no-cook", "asian", "vegetables", "light", "gluten-free", "finger-food", "cold", "spring", "fruit"],
       "ingredients": [
         {
           "group": "Rolls (makes 10)",
@@ -117,6 +124,7 @@
     },
     "it": {
       "description": "Rotolini di riso ripieni di verdure di stagione, fiori commestibili e basilico tailandese, accompagnati da una salsa al tamarindo, soia e arachidi.",
+      "tags": ["antipasto", "vegetariano", "senza-cottura", "asiatico", "verdure", "leggero", "senza-glutine", "finger-food", "freddo", "primavera", "frutta"],
       "ingredients": [
         {
           "group": "Rotolini (per 10 pezzi)",

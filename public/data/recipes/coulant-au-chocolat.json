@@ -16,11 +16,15 @@
   "difficulty": "Facile",
   "category": "Dolci",
   "tags": [
-    "chocolat",
-    "coulant",
-    "moelleux",
+    "four",
     "dessert",
-    "rapide"
+    "chocolat",
+    "rapide",
+    "5-ingrédients",
+    "fondant",
+    "gourmand",
+    "réconfortant",
+    "festif"
   ],
   "ingredients": [
     {
@@ -66,6 +70,7 @@
     "en": {
       "title": "Chocolate Lava Cake",
       "description": "Individual dark chocolate cake with a molten, flowing center, ready in just 20 minutes with only 5 ingredients.",
+      "tags": ["oven", "dessert", "chocolate", "quick", "5-ingredients", "molten", "indulgent", "comforting", "festive"],
       "ingredients": [
         {
           "items": [
@@ -109,6 +114,7 @@
     "it": {
       "title": "Coulant al Cioccolato",
       "description": "Piccolo tortino al cioccolato fondente con cuore morbido e colante, pronto in soli 20 minuti con 5 ingredienti.",
+      "tags": ["forno", "dessert", "cioccolato", "veloce", "5-ingredienti", "fondente", "goloso", "confortante", "festivo"],
       "ingredients": [
         {
           "items": [

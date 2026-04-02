@@ -16,11 +16,15 @@
   "difficulty": "Medio",
   "category": "Dolci",
   "tags": [
-    "panna-cotta",
-    "framboises",
-    "tuile",
-    "amandes",
-    "dessert"
+    "dessert",
+    "italien",
+    "froid",
+    "fruits",
+    "végétarien",
+    "onctueux",
+    "festif",
+    "préparation-à-lavance",
+    "sans-gluten"
   ],
   "ingredients": [
     {
@@ -83,6 +87,7 @@
     "en": {
       "title": "Panna Cotta with Raspberries and Crispy Tuile",
       "description": "A silky Italian cream dessert served with a homemade raspberry coulis and a crunchy almond tuile.",
+      "tags": ["dessert", "italian", "cold", "fruit", "vegetarian", "creamy", "festive", "make-ahead", "gluten-free"],
       "ingredients": [
         {
           "group": "For the panna cotta",
@@ -143,6 +148,7 @@
     "it": {
       "title": "Panna Cotta ai Lamponi con Tegola Croccante",
       "description": "Un morbido dessert italiano alla panna, servito con un coulis di lamponi fatto in casa e una croccante tuile alle mandorle.",
+      "tags": ["dessert", "italiano", "freddo", "frutta", "vegetariano", "cremoso", "festivo", "preparazione-in-anticipo", "senza-glutine"],
       "ingredients": [
         {
           "group": "Per la panna cotta",

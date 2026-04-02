@@ -1,0 +1,159 @@
+{
+  "slug": "pasta-pesto-agrumes",
+  "title": "Pasta au Pesto d'Agrumes Sicilien",
+  "description": "Pâtes au pesto sicilien de basilic et d'agrumes, une sauce onctueuse à base d'oranges, de pamplemousse rose et d'amandes sans cuisson.",
+  "images": {
+    "cover": "images/recipes/pasta-pesto-agrumes/cover.jpg",
+    "web": "images/recipes/pasta-pesto-agrumes/web.jpg"
+  },
+  "imageCredit": {
+    "author": "MichelRigottiPhotographer",
+    "url": "https://pixabay.com/users/michelrigottiphotographer-49203998/"
+  },
+  "prepTime": 15,
+  "cookTime": 10,
+  "servings": 4,
+  "difficulty": "Facile",
+  "category": "Secondi",
+  "tags": [
+    "végétarien",
+    "sans-lactose",
+    "méditerranéen",
+    "été",
+    "rapide",
+    "léger",
+    "acidulé",
+    "plat-principal",
+    "pâtes",
+    "robot-pâtissier"
+  ],
+  "ingredients": [
+    {
+      "items": [
+        "400g de spaghetti (ou linguine)",
+        "100g de feuilles de basilic frais",
+        "2 oranges (pelées à vif)",
+        "½ pamplemousse rose (pelé à vif)",
+        "100g d'amandes décortiquées (ou pistaches)",
+        "30g de câpres (ou cucunci)",
+        "Huile d'olive extra vierge",
+        "Une pincée de sel"
+      ]
+    }
+  ],
+  "steps": [
+    {
+      "text": "Porter une casserole d'eau à ébullition. Ajouter une pincée de sel et cuire les pâtes en suivant le temps indiqué sur le paquet. Remuer de temps en temps."
+    },
+    {
+      "text": "Retirer les pâtes 1 minute avant la fin de cuisson. Réserver une louche d'eau de cuisson avant d'égoutter."
+    },
+    {
+      "text": "Préparer le pesto d'agrumes : mettre dans le mixeur le basilic, les amandes (ou pistaches), les 2 oranges pelées à vif, le demi-pamplemousse pelé et les câpres."
+    },
+    {
+      "text": "Mixer par impulsions jusqu'à obtenir une texture homogène sans trop insister. Ajouter un filet d'huile d'olive et mixer de nouveau. Goûter et ajuster la densité avec un peu plus d'huile si nécessaire."
+    },
+    {
+      "text": "Dans un grand saladier, mélanger les pâtes chaudes avec le pesto d'agrumes. Ajouter un filet d'huile d'olive et/ou un peu d'eau de cuisson pour éviter que les pâtes ne collent."
+    },
+    {
+      "text": "Terminer en râpant un peu de zeste d'orange sur le dessus et servir aussitôt."
+    }
+  ],
+  "tips": [
+    "Remplacez les amandes par des pistaches pour une saveur plus douce et une belle couleur verte.",
+    "Les cucunci (baies de câprier) sont plus doux que les câpres classiques et apportent moins d'acidité.",
+    "Le pesto se prépare à l'avance et se conserve 2 jours au réfrigérateur dans un bocal hermétique recouvert d'huile d'olive."
+  ],
+  "translations": {
+    "en": {
+      "title": "Pasta with Sicilian Citrus Pesto",
+      "description": "Pasta tossed with a Sicilian citrus and basil pesto, a creamy no-cook sauce made with oranges, pink grapefruit, and almonds.",
+      "tags": ["vegetarian", "dairy-free", "mediterranean", "summer", "quick", "light", "tangy", "main-course", "pasta", "food-processor"],
+      "ingredients": [
+        {
+          "items": [
+            "400g spaghetti (or linguine)",
+            "100g fresh basil leaves",
+            "2 oranges (peeled)",
+            "½ pink grapefruit (peeled)",
+            "100g shelled almonds (or pistachios)",
+            "30g capers (or cucunci)",
+            "Extra virgin olive oil",
+            "A pinch of salt"
+          ]
+        }
+      ],
+      "steps": [
+        {
+          "text": "Bring a pot of water to a boil. Add a pinch of salt and cook the pasta following the time indicated on the package. Stir occasionally."
+        },
+        {
+          "text": "Remove the pasta 1 minute before the end of cooking time. Reserve a ladle of cooking water before draining."
+        },
+        {
+          "text": "Make the citrus pesto: place the basil, almonds (or pistachios), 2 peeled oranges, the half peeled pink grapefruit, and the capers in a food processor."
+        },
+        {
+          "text": "Pulse until smooth without over-blending. Drizzle in olive oil and blend again. Taste and adjust the consistency with a little more oil if needed."
+        },
+        {
+          "text": "In a large bowl, toss the hot pasta with the citrus pesto. Add a drizzle of olive oil and/or a little cooking water to keep it from sticking."
+        },
+        {
+          "text": "Finish by grating a little orange zest over the top and serve immediately."
+        }
+      ],
+      "tips": [
+        "Replace almonds with pistachios for a milder flavor and a beautiful green color.",
+        "Cucunci (caper berries) are milder than regular capers and bring less acidity.",
+        "The pesto can be made ahead and stored for 2 days in the fridge in an airtight jar covered with olive oil."
+      ]
+    },
+    "it": {
+      "title": "Pasta al Pesto di Agrumi Siciliano",
+      "description": "Pasta condita con un pesto siciliano di agrumi e basilico, una salsa cremosa a freddo con arance, pompelmo rosa e mandorle.",
+      "tags": ["vegetariano", "senza-lattosio", "mediterraneo", "estate", "veloce", "leggero", "acidulo", "primo-piatto", "pasta", "robot-da-cucina"],
+      "ingredients": [
+        {
+          "items": [
+            "400g di spaghetti (o linguine)",
+            "100g di foglie di basilico fresco",
+            "2 arance (pelate a vivo)",
+            "½ pompelmo rosa (pelato a vivo)",
+            "100g di mandorle sgusciate (o pistacchi)",
+            "30g di capperi (o cucunci)",
+            "Olio extravergine di oliva",
+            "Un pizzico di sale"
+          ]
+        }
+      ],
+      "steps": [
+        {
+          "text": "Portare a ebollizione una pentola d'acqua. Aggiungere un pizzico di sale e cuocere la pasta seguendo i tempi indicati sulla confezione. Mescolare di tanto in tanto."
+        },
+        {
+          "text": "Scolare la pasta 1 minuto prima della fine della cottura. Conservare un mestolo di acqua di cottura prima di scolare."
+        },
+        {
+          "text": "Preparare il pesto di agrumi: mettere nel mixer il basilico, le mandorle (o pistacchi), le 2 arance pelate a vivo, il mezzo pompelmo pelato e i capperi."
+        },
+        {
+          "text": "Frullare a impulsi fino a ottenere una consistenza omogenea senza esagerare. Aggiungere un filo di olio d'oliva e frullare di nuovo. Assaggiare e regolare la densità con altro olio se necessario."
+        },
+        {
+          "text": "In una ciotola capiente, mescolare la pasta calda con il pesto di agrumi. Aggiungere un filo d'olio d'oliva e/o un po' di acqua di cottura per evitare che la pasta si attacchi."
+        },
+        {
+          "text": "Terminare grattugiando un po' di scorza d'arancia sopra e servire subito."
+        }
+      ],
+      "tips": [
+        "Sostituite le mandorle con i pistacchi per un sapore più delicato e un bel colore verde.",
+        "I cucunci (bacche di cappero) sono più delicati dei capperi classici e meno acidi.",
+        "Il pesto si può preparare in anticipo e si conserva 2 giorni in frigorifero in un vasetto ermetico coperto di olio d'oliva."
+      ]
+    }
+  }
+}

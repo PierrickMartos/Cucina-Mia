@@ -12,11 +12,15 @@
   "difficulty": "Medio",
   "category": "Dolci",
   "tags": [
-    "citron",
-    "verrine",
-    "meringue",
-    "crumble",
-    "amandes"
+    "dessert",
+    "végétarien",
+    "en-verrines",
+    "festif",
+    "acidulé",
+    "croustillant",
+    "onctueux",
+    "froid",
+    "à-partager"
   ],
   "ingredients": [
     {
@@ -86,6 +90,7 @@
     "en": {
       "title": "Lemon Meringue Pie Verrines",
       "description": "A deconstructed lemon meringue tart served in individual glasses, with crunchy almond crumble, creamy lemon curd and glossy Italian meringue.",
+      "tags": ["dessert", "vegetarian", "in-glasses", "festive", "tangy", "crispy", "creamy", "cold", "to-share"],
       "ingredients": [
         {
           "group": "Lemon curd",
@@ -153,6 +158,7 @@
     "it": {
       "title": "Verrines Stile Crostata al Limone Meringuata",
       "description": "Rivisitazione in bicchierini della crostata al limone meringuata: crumble croccante alle mandorle, lemon curd cremoso e meringa italiana lucida.",
+      "tags": ["dessert", "vegetariano", "in-bicchierini", "festivo", "acidulo", "croccante", "cremoso", "freddo", "da-condividere"],
       "ingredients": [
         {
           "group": "Lemon curd",

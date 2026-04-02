@@ -15,7 +15,18 @@
   "servings": 12,
   "difficulty": "Facile",
   "category": "Breakfast",
-  "tags": ["sans-lactose", "végétarien", "avoine", "abricot", "céréales"],
+  "tags": [
+    "petit-déjeuner",
+    "sans-lactose",
+    "végétarien",
+    "sans-sucre",
+    "léger",
+    "goûter",
+    "rapide",
+    "riche-en-fibres",
+    "équilibré",
+    "four"
+  ],
   "ingredients": [
     {
       "items": [
@@ -48,6 +59,7 @@
   "translations": {
     "en": {
       "description": "Energy biscuits made with oat flakes, almonds, hazelnuts, dried apricots and goji berries, lactose-free and with no added sugar.",
+      "tags": ["breakfast", "dairy-free", "vegetarian", "sugar-free", "light", "snack", "quick", "high-fiber", "balanced", "oven"],
       "ingredients": [
         {
           "items": [
@@ -80,6 +92,7 @@
     },
     "it": {
       "description": "Biscotti energetici con fiocchi d'avena, mandorle, nocciole, albicocche secche e bacche di goji, senza lattosio e senza zuccheri aggiunti.",
+      "tags": ["colazione", "senza-lattosio", "vegetariano", "senza-zucchero", "leggero", "merenda", "veloce", "ricco-di-fibre", "equilibrato", "forno"],
       "ingredients": [
         {
           "items": [

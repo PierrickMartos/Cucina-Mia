@@ -1,6 +1,7 @@
 export interface RecipeTranslation {
   title?: string
   description?: string
+  tags?: string[]
   ingredients?: { group?: string; items: string[] }[]
   steps?: { text: string; image?: string }[]
   tips?: string[]
@@ -28,7 +29,9 @@ export interface RecipeSummary {
   difficulty: "Facile" | "Medio" | "Difficile"
   category: string
   tags: string[]
-  translations?: { [lang: string]: Pick<RecipeTranslation, "title" | "description"> }
+  stepCount?: number
+  ingredientCount?: number
+  translations?: { [lang: string]: Pick<RecipeTranslation, "title" | "description" | "tags"> }
 }
 
 export interface RecipeDetail extends RecipeSummary {

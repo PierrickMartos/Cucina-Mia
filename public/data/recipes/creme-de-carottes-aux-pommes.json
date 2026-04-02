@@ -16,11 +16,16 @@
   "difficulty": "Facile",
   "category": "Antipasti",
   "tags": [
-    "verrine",
-    "vegan",
+    "entrée",
+    "végétalien",
     "végétarien",
-    "carotte",
-    "apéro"
+    "apéro",
+    "léger",
+    "sans-gluten",
+    "en-verrines",
+    "froid",
+    "onctueux",
+    "légumes"
   ],
   "ingredients": [
     {
@@ -52,6 +57,7 @@
   "translations": {
     "en": {
       "description": "A fresh and colorful carrot and apple cream, perfect for a cocktail appetizer or a light, indulgent starter.",
+      "tags": ["starter", "vegan", "vegetarian", "appetizer", "light", "gluten-free", "in-glasses", "cold", "creamy", "vegetables"],
       "ingredients": [
         {
           "items": [
@@ -81,6 +87,7 @@
     },
     "it": {
       "description": "Una crema di carote alla mela, fresca e colorata, perfetta per un aperitivo sfiziante o un antipasto leggero e goloso.",
+      "tags": ["antipasto", "vegano", "vegetariano", "aperitivo", "leggero", "senza-glutine", "in-bicchierini", "freddo", "cremoso", "verdure"],
       "ingredients": [
         {
           "items": [
