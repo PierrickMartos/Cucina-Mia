@@ -36,7 +36,7 @@ export function RecipePage() {
 
   // Parallax: track main scroll via motion value, transform to a slow Y offset
   const scrollY = useMotionValue(0)
-  const heroY = useTransform(scrollY, (v) => v * 0.35)
+  const heroY = useTransform(scrollY, (v) => v * 0.5)
   const heroRef = useRef<HTMLDivElement>(null)
 
   useEffect(() => {
@@ -152,7 +152,7 @@ export function RecipePage() {
           src={`${BASE}${recipe.images.cover}`}
           alt={recipe.title}
           style={{ y: heroY }}
-          className="absolute inset-0 h-[115%] w-full object-cover object-center"
+          className="absolute inset-0 h-[130%] w-full object-cover object-center"
         />
         {/* Bottom gradient fade */}
         <div className="absolute inset-x-0 bottom-0 h-32 bg-gradient-to-t from-background to-transparent" />
