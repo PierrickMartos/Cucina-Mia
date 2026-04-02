@@ -1,0 +1,23 @@
+{
+  "skill_name": "add-recipe",
+  "evals": [
+    {
+      "id": 1,
+      "prompt": "Add the recipe from GitHub issue #5 to the app. It's a structured submission for Pasta alla Norma.",
+      "expected_output": "Creates pasta-alla-norma.json with Italian base + EN/FR translations, updates index.json, generates cover.svg",
+      "files": []
+    },
+    {
+      "id": 2,
+      "prompt": "I want to add a new recipe directly — here's the info:\n\nTitle: Bruschetta ai Funghi\nSlug: bruschetta-funghi\nDescription: Crostini dorati con funghi porcini trifolati, aglio e prezzemolo fresco.\nCategory: Antipasti\nDifficulty: Facile\nPrep Time: 15\nCook Time: 10\nServings: 4\nTags: antipasto, funghi, autunnale\nIngredients:\n4 fette di pane casereccio\n300g funghi porcini\n2 spicchi d'aglio\nPrezzemolo fresco q.b.\nOlio extravergine d'oliva\nSale e pepe q.b.\nSteps:\nPulire i funghi e tagliarli a fette.\nIn una padella, rosolare l'aglio nell'olio, aggiungere i funghi e cuocere per 8 minuti.\nTostare le fette di pane.\nDisporvi sopra i funghi, cospargere di prezzemolo e servire.\nTips:\nUsare funghi porcini freschi quando possibile.\nIl pane deve essere ben tostato per il contrasto di consistenza.",
+      "expected_output": "Creates bruschetta-funghi.json with all fields + translations, updates index.json, generates cover.svg",
+      "files": []
+    },
+    {
+      "id": 3,
+      "prompt": "Hey, can you add this recipe I found? It's a French crêpe recipe:\n\nClassic French Crêpes\nServes 6\n\nIngredients:\n- 250g all-purpose flour\n- 3 eggs\n- 500ml whole milk\n- 50g melted butter\n- 1 tbsp sugar\n- Pinch of salt\n- 1 tsp vanilla extract\n\nDirections:\n1. Whisk flour, sugar and salt together\n2. Make a well, add eggs and half the milk. Whisk until smooth\n3. Add remaining milk and melted butter, mix well\n4. Let batter rest for 30 minutes\n5. Heat a non-stick pan, pour a thin layer of batter\n6. Cook 1-2 minutes each side until golden\n7. Serve with Nutella, lemon and sugar, or fresh fruit\n\nTips: The batter should be thin like heavy cream. Letting it rest is crucial for tender crêpes.",
+      "expected_output": "Creates crepes-francesi.json (or similar Italian slug), translates everything to Italian as base + EN/FR translations, updates index.json, generates cover.svg. The French/English source content should be translated to Italian for base fields.",
+      "files": []
+    }
+  ]
+}

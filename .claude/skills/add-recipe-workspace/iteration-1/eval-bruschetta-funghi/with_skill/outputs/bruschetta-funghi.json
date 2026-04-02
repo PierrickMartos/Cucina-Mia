@@ -1,0 +1,86 @@
+{
+  "slug": "bruschetta-funghi",
+  "title": "Bruschetta ai Funghi",
+  "description": "Crostini dorati con funghi porcini trifolati, aglio e prezzemolo fresco.",
+  "image": "images/recipes/bruschetta-funghi/cover.svg",
+  "prepTime": 15,
+  "cookTime": 10,
+  "servings": 4,
+  "difficulty": "Facile",
+  "category": "Antipasti",
+  "tags": ["antipasto", "funghi", "autunnale"],
+  "ingredients": [
+    {
+      "items": [
+        "4 fette di pane casereccio",
+        "300g funghi porcini",
+        "2 spicchi d'aglio",
+        "Prezzemolo fresco q.b.",
+        "Olio extravergine d'oliva",
+        "Sale e pepe q.b."
+      ]
+    }
+  ],
+  "steps": [
+    { "text": "Pulire i funghi e tagliarli a fette." },
+    { "text": "In una padella, rosolare l'aglio nell'olio, aggiungere i funghi e cuocere per 8 minuti." },
+    { "text": "Tostare le fette di pane." },
+    { "text": "Disporvi sopra i funghi, cospargere di prezzemolo e servire." }
+  ],
+  "tips": [
+    "Usare funghi porcini freschi quando possibile.",
+    "Il pane deve essere ben tostato per il contrasto di consistenza."
+  ],
+  "translations": {
+    "en": {
+      "description": "Golden crostini topped with sautéed porcini mushrooms, garlic and fresh parsley.",
+      "ingredients": [
+        {
+          "items": [
+            "4 slices of rustic bread",
+            "300g porcini mushrooms",
+            "2 cloves of garlic",
+            "Fresh parsley to taste",
+            "Extra virgin olive oil",
+            "Salt and pepper to taste"
+          ]
+        }
+      ],
+      "steps": [
+        { "text": "Clean the mushrooms and slice them." },
+        { "text": "In a pan, sauté the garlic in oil, add the mushrooms and cook for 8 minutes." },
+        { "text": "Toast the bread slices." },
+        { "text": "Top with the mushrooms, sprinkle with parsley and serve." }
+      ],
+      "tips": [
+        "Use fresh porcini mushrooms when possible.",
+        "The bread should be well toasted for a contrast in texture."
+      ]
+    },
+    "fr": {
+      "description": "Crostini dorés garnis de cèpes sautés, ail et persil frais.",
+      "ingredients": [
+        {
+          "items": [
+            "4 tranches de pain de campagne",
+            "300g de cèpes",
+            "2 gousses d'ail",
+            "Persil frais q.s.",
+            "Huile d'olive extra vierge",
+            "Sel et poivre q.s."
+          ]
+        }
+      ],
+      "steps": [
+        { "text": "Nettoyer les champignons et les couper en tranches." },
+        { "text": "Dans une poêle, faire revenir l'ail dans l'huile, ajouter les champignons et cuire pendant 8 minutes." },
+        { "text": "Faire griller les tranches de pain." },
+        { "text": "Disposer les champignons dessus, parsemer de persil et servir." }
+      ],
+      "tips": [
+        "Utiliser des cèpes frais quand c'est possible.",
+        "Le pain doit être bien grillé pour le contraste de texture."
+      ]
+    }
+  }
+}

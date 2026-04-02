@@ -1,0 +1,16 @@
+{
+  "eval_id": 2,
+  "eval_name": "non-italian-unstructured-input",
+  "prompt": "Hey, can you add this recipe I found? It's a French crêpe recipe:\n\nClassic French Crêpes\nServes 6\n\nIngredients:\n- 250g all-purpose flour\n- 3 eggs\n- 500ml whole milk\n- 50g melted butter\n- 1 tbsp sugar\n- Pinch of salt\n- 1 tsp vanilla extract\n\nDirections:\n1. Whisk flour, sugar and salt together\n2. Make a well, add eggs and half the milk. Whisk until smooth\n3. Add remaining milk and melted butter, mix well\n4. Let batter rest for 30 minutes\n5. Heat a non-stick pan, pour a thin layer of batter\n6. Cook 1-2 minutes each side until golden\n7. Serve with Nutella, lemon and sugar, or fresh fruit\n\nTips: The batter should be thin like heavy cream. Letting it rest is crucial for tender crêpes.",
+  "assertions": [
+    {"text": "Base description, ingredients, steps, and tips are in Italian", "type": "language"},
+    {"text": "Slug is valid (lowercase, hyphens, no special chars)", "type": "format"},
+    {"text": "translations.en preserves/matches the original English content", "type": "accuracy"},
+    {"text": "translations.fr has proper French translations", "type": "language"},
+    {"text": "Category is reasonable for crêpes (e.g. Dolci)", "type": "inference"},
+    {"text": "Difficulty is reasonable (e.g. Facile)", "type": "inference"},
+    {"text": "SVG has viewBox 0 0 800 600 and dark background", "type": "content"},
+    {"text": "All 7 ingredients preserved in all languages", "type": "completeness"},
+    {"text": "All 7 steps preserved in all languages", "type": "completeness"}
+  ]
+}

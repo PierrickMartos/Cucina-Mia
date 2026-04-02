@@ -1,0 +1,83 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <defs>
+    <radialGradient id="cfbg" cx="50%" cy="40%" r="70%"><stop offset="0%" stop-color="#2e2822"/><stop offset="100%" stop-color="#1a1510"/></radialGradient>
+    <radialGradient id="cfcr" cx="45%" cy="35%" r="50%"><stop offset="0%" stop-color="#f5e8c8"/><stop offset="100%" stop-color="#d4b878"/></radialGradient>
+    <radialGradient id="cfnt" cx="50%" cy="50%" r="50%"><stop offset="0%" stop-color="#5c3a1e"/><stop offset="100%" stop-color="#3a2210"/></radialGradient>
+  </defs>
+  <rect width="800" height="600" fill="url(#cfbg)"/>
+  <!-- Wood grain hints -->
+  <g opacity="0.04" stroke="#a08050" stroke-width="0.8" fill="none">
+    <path d="M0,480 Q200,475 400,482 Q600,488 800,478"/>
+    <path d="M0,500 Q200,496 400,503 Q600,508 800,498"/>
+    <path d="M0,520 Q200,518 400,524 Q600,527 800,519"/>
+  </g>
+  <!-- Plate shadow -->
+  <ellipse cx="405" cy="385" rx="185" ry="58" fill="#0d0a07" opacity="0.45"/>
+  <!-- Plate -->
+  <ellipse cx="400" cy="370" rx="180" ry="52" fill="#e8e2d6"/>
+  <ellipse cx="400" cy="370" rx="160" ry="45" fill="#f5f0e8"/>
+  <!-- Stack of crêpes -->
+  <!-- Bottom crêpe -->
+  <ellipse cx="398" cy="358" rx="105" ry="22" fill="#d4a84a" opacity="0.9"/>
+  <ellipse cx="398" cy="356" rx="102" ry="20" fill="url(#cfcr)"/>
+  <!-- Second crêpe -->
+  <ellipse cx="400" cy="348" rx="100" ry="20" fill="#d4a84a" opacity="0.9"/>
+  <ellipse cx="400" cy="346" rx="97" ry="18" fill="url(#cfcr)"/>
+  <!-- Brown spots on second crêpe -->
+  <g fill="#b8903c" opacity="0.3">
+    <ellipse cx="375" cy="345" rx="8" ry="3"/>
+    <ellipse cx="420" cy="347" rx="6" ry="2.5"/>
+    <ellipse cx="395" cy="343" rx="5" ry="2"/>
+  </g>
+  <!-- Third crêpe -->
+  <ellipse cx="396" cy="338" rx="98" ry="19" fill="#d4a84a" opacity="0.9"/>
+  <ellipse cx="396" cy="336" rx="95" ry="17" fill="url(#cfcr)"/>
+  <!-- Top folded crêpe -->
+  <path d="M340,322 Q370,310 430,312 Q460,314 460,328 Q450,338 400,340 Q350,340 340,322Z" fill="url(#cfcr)"/>
+  <path d="M340,322 Q370,310 430,312 Q460,314 460,328" fill="none" stroke="#c8a044" stroke-width="0.8" opacity="0.5"/>
+  <!-- Fold shadow -->
+  <path d="M345,325 Q380,332 440,330" fill="none" stroke="#a08030" stroke-width="1" opacity="0.2"/>
+  <!-- Brown spots on top crêpe -->
+  <g fill="#b08030" opacity="0.25">
+    <ellipse cx="370" cy="320" rx="7" ry="3"/>
+    <ellipse cx="410" cy="318" rx="5" ry="2"/>
+    <ellipse cx="440" cy="322" rx="6" ry="2.5"/>
+    <ellipse cx="385" cy="325" rx="4" ry="2"/>
+  </g>
+  <!-- Nutella drizzle -->
+  <path d="M390,315 Q395,325 400,335 Q402,340 408,348" fill="none" stroke="url(#cfnt)" stroke-width="5" stroke-linecap="round" opacity="0.7"/>
+  <path d="M415,318 Q412,328 415,338" fill="none" stroke="url(#cfnt)" stroke-width="3" stroke-linecap="round" opacity="0.5"/>
+  <!-- Powdered sugar dots -->
+  <g fill="white" opacity="0.15">
+    <circle cx="360" cy="318" r="1.2"/><circle cx="378" cy="314" r="0.8"/>
+    <circle cx="425" cy="316" r="1"/><circle cx="445" cy="325" r="0.7"/>
+    <circle cx="352" cy="330" r="0.9"/><circle cx="410" cy="312" r="1.1"/>
+    <circle cx="392" cy="310" r="0.6"/><circle cx="430" cy="320" r="0.8"/>
+  </g>
+  <!-- Lemon wedge on plate -->
+  <g transform="translate(480, 360) rotate(15)">
+    <path d="M0,0 Q-12,-18 0,-25 Q12,-18 0,0Z" fill="#f0e040"/>
+    <path d="M0,-2 Q-8,-15 0,-22 Q8,-15 0,-2Z" fill="#f8f080" opacity="0.6"/>
+    <line x1="0" y1="-3" x2="0" y2="-20" stroke="#e0d030" stroke-width="0.4" opacity="0.5"/>
+    <line x1="-3" y1="-5" x2="3" y2="-18" stroke="#e0d030" stroke-width="0.3" opacity="0.4"/>
+  </g>
+  <!-- Mint sprig -->
+  <g transform="translate(355, 312) rotate(-30)">
+    <path d="M0,0 Q-6,-10 0,-16 Q6,-10 0,0Z" fill="#2d7a2d"/>
+    <path d="M0,-3 Q-5,-12 2,-18 Q7,-12 0,-3Z" fill="#3a8a3a" opacity="0.7"/>
+    <line x1="0" y1="0" x2="0" y2="-14" stroke="#1e5a1e" stroke-width="0.5" opacity="0.4"/>
+  </g>
+  <!-- Steam wisps -->
+  <g fill="none" stroke="white" stroke-width="0.8" opacity="0.08">
+    <path d="M380,295 Q375,280 382,265 Q388,250 383,235"/>
+    <path d="M400,290 Q396,275 402,260 Q407,245 402,230"/>
+    <path d="M420,293 Q416,278 422,263 Q427,248 423,233"/>
+  </g>
+  <!-- Fork hint -->
+  <g transform="translate(260, 420) rotate(-25)" opacity="0.15">
+    <rect x="-2" y="0" width="4" height="80" rx="2" fill="#c0b0a0"/>
+    <rect x="-6" y="-20" width="2" height="22" rx="1" fill="#c0b0a0"/>
+    <rect x="-1" y="-22" width="2" height="24" rx="1" fill="#c0b0a0"/>
+    <rect x="4" y="-20" width="2" height="22" rx="1" fill="#c0b0a0"/>
+  </g>
+</svg>

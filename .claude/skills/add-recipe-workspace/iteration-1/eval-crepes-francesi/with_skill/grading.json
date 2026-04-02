@@ -1,0 +1,16 @@
+{
+  "eval_id": 2,
+  "eval_name": "non-italian-unstructured-input",
+  "configuration": "with_skill",
+  "expectations": [
+    {"text": "Base description, ingredients, steps, and tips are in Italian", "passed": true, "evidence": "All base fields use Italian (e.g. 'farina 00', 'uova', 'cucchiaio di zucchero')"},
+    {"text": "Slug is valid (lowercase, hyphens, no special chars)", "passed": true, "evidence": "Slug is 'crepes-francesi' - valid format"},
+    {"text": "translations.en preserves/matches the original English content", "passed": true, "evidence": "EN translation preserves original ingredient quantities and step text"},
+    {"text": "translations.fr has proper French translations", "passed": true, "evidence": "FR translation uses proper French (e.g. 'farine', 'oeufs', 'cuillère à soupe')"},
+    {"text": "Category is reasonable for crêpes (e.g. Dolci)", "passed": true, "evidence": "Category is 'Dolci' - reasonable for a sweet crêpe dish"},
+    {"text": "Difficulty is reasonable (e.g. Facile)", "passed": true, "evidence": "Difficulty is 'Facile' - appropriate for simple crêpes"},
+    {"text": "SVG has viewBox 0 0 800 600 and dark background", "passed": true, "evidence": "SVG has correct viewBox and radialGradient background with dark tones"},
+    {"text": "All 7 ingredients preserved in all languages", "passed": true, "evidence": "7 ingredients present in IT base, EN translation, and FR translation"},
+    {"text": "All 7 steps preserved in all languages", "passed": true, "evidence": "7 steps present in IT base, EN translation, and FR translation"}
+  ]
+}

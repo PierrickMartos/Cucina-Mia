@@ -1,0 +1,98 @@
+{
+  "slug": "crepes-francesi",
+  "title": "Crêpes Francesi Classiche",
+  "description": "Sottili e delicate crêpes francesi con burro fuso e vaniglia, perfette farcite con Nutella, limone e zucchero o frutta fresca.",
+  "image": "images/recipes/crepes-francesi/cover.svg",
+  "prepTime": 10,
+  "cookTime": 20,
+  "servings": 6,
+  "difficulty": "Facile",
+  "category": "Dolci",
+  "tags": ["dolce", "francese", "colazione", "crêpes", "padella"],
+  "ingredients": [
+    {
+      "items": [
+        "250g di farina 00",
+        "3 uova",
+        "500ml di latte intero",
+        "50g di burro fuso",
+        "1 cucchiaio di zucchero",
+        "Un pizzico di sale",
+        "1 cucchiaino di estratto di vaniglia"
+      ]
+    }
+  ],
+  "steps": [
+    { "text": "In una ciotola capiente, mescolare la farina, lo zucchero e il sale." },
+    { "text": "Formare un pozzo al centro, aggiungere le uova e metà del latte. Sbattere fino ad ottenere un composto liscio." },
+    { "text": "Aggiungere il latte restante e il burro fuso, mescolare bene." },
+    { "text": "Lasciar riposare la pastella per 30 minuti." },
+    { "text": "Scaldare una padella antiaderente, versare un sottile strato di pastella." },
+    { "text": "Cuocere 1-2 minuti per lato fino a doratura." },
+    { "text": "Servire con Nutella, limone e zucchero o frutta fresca." }
+  ],
+  "tips": [
+    "La pastella deve essere fluida come panna liquida.",
+    "Lasciarla riposare è fondamentale per ottenere crêpes morbide e delicate."
+  ],
+  "translations": {
+    "en": {
+      "description": "Thin and delicate classic French crêpes with melted butter and vanilla, perfect filled with Nutella, lemon and sugar, or fresh fruit.",
+      "ingredients": [
+        {
+          "items": [
+            "250g all-purpose flour",
+            "3 eggs",
+            "500ml whole milk",
+            "50g melted butter",
+            "1 tbsp sugar",
+            "Pinch of salt",
+            "1 tsp vanilla extract"
+          ]
+        }
+      ],
+      "steps": [
+        { "text": "In a large bowl, whisk together the flour, sugar and salt." },
+        { "text": "Make a well in the centre, add the eggs and half the milk. Whisk until smooth." },
+        { "text": "Add the remaining milk and melted butter, mix well." },
+        { "text": "Let the batter rest for 30 minutes." },
+        { "text": "Heat a non-stick pan, pour a thin layer of batter." },
+        { "text": "Cook 1-2 minutes each side until golden." },
+        { "text": "Serve with Nutella, lemon and sugar, or fresh fruit." }
+      ],
+      "tips": [
+        "The batter should be thin like heavy cream.",
+        "Letting it rest is crucial for tender crêpes."
+      ]
+    },
+    "fr": {
+      "description": "Fines et délicates crêpes françaises classiques au beurre fondu et à la vanille, parfaites garnies de Nutella, citron et sucre ou fruits frais.",
+      "ingredients": [
+        {
+          "items": [
+            "250g de farine",
+            "3 œufs",
+            "500ml de lait entier",
+            "50g de beurre fondu",
+            "1 cuillère à soupe de sucre",
+            "Une pincée de sel",
+            "1 cuillère à café d'extrait de vanille"
+          ]
+        }
+      ],
+      "steps": [
+        { "text": "Dans un grand saladier, mélanger la farine, le sucre et le sel." },
+        { "text": "Former un puits au centre, ajouter les œufs et la moitié du lait. Fouetter jusqu'à obtenir un mélange lisse." },
+        { "text": "Ajouter le reste du lait et le beurre fondu, bien mélanger." },
+        { "text": "Laisser reposer la pâte pendant 30 minutes." },
+        { "text": "Chauffer une poêle antiadhésive, verser une fine couche de pâte." },
+        { "text": "Cuire 1 à 2 minutes de chaque côté jusqu'à coloration dorée." },
+        { "text": "Servir avec du Nutella, du citron et du sucre ou des fruits frais." }
+      ],
+      "tips": [
+        "La pâte doit être fluide comme de la crème liquide.",
+        "La laisser reposer est essentiel pour obtenir des crêpes tendres."
+      ]
+    }
+  }
+}
