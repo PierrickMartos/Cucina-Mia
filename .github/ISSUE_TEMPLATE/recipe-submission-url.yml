@@ -1,0 +1,41 @@
+name: "Recipe Submission (URL)"
+description: "Submit a recipe by sharing a link to a webpage"
+title: "[Recipe] "
+labels: ["recipe-submission", "needs-formatting"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Got a recipe on a website? Share the link here — we'll take care of formatting it for the site.
+
+  - type: input
+    id: title
+    attributes:
+      label: Recipe Name
+      description: "What's the name of the recipe?"
+      placeholder: "e.g. Lasagna della Nonna"
+    validations:
+      required: true
+
+  - type: input
+    id: url
+    attributes:
+      label: Recipe URL
+      description: "Paste the link to the recipe page"
+      placeholder: "https://example.com/recipes/lasagna-della-nonna"
+    validations:
+      required: true
+
+  - type: textarea
+    id: cover_image
+    attributes:
+      label: Recipe Image (optional)
+      description: "Drag and drop or paste a photo of the finished dish — we'll use it to create the recipe illustration"
+      placeholder: "Drop an image here or paste from clipboard"
+
+  - type: textarea
+    id: notes
+    attributes:
+      label: Notes (optional)
+      description: "Anything we should know — origin, who it's from, variations, tips…"
+      placeholder: "This is my grandmother's recipe from Palermo, she always added a pinch of cinnamon…"
