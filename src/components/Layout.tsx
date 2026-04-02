@@ -74,7 +74,7 @@ export function Layout() {
     <div className="h-dvh flex flex-col bg-surface overflow-hidden">
       {/* Top App Bar */}
       <nav className="shrink-0 flex justify-between items-center px-6 h-14 bg-surface/70 backdrop-blur-md z-50">
-        <div className="w-10" />
+        <div id="header-left-slot" className="min-w-10" />
         <Link to="/">
           <h1 className="text-xl font-headline tracking-tighter text-primary font-bold">
             CUCINA MIA

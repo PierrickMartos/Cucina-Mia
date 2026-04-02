@@ -1,4 +1,5 @@
 import { useState, useEffect } from "react"
+import { createPortal } from "react-dom"
 import { useParams, Link, useNavigate } from "react-router-dom"
 import { useTranslation } from "react-i18next"
 import { ArrowLeft, Clock, CookingPot, Users, ChefHat } from "lucide-react"
@@ -18,6 +19,17 @@ export function RecipePage() {
   const [loading, setLoading] = useState(true)
   const [activeTab, setActiveTab] = useState<Tab>("ingredients")
   const [checked, setChecked] = useState<Set<string>>(new Set())
+  const [headerBackVisible, setHeaderBackVisible] = useState(false)
+
+  useEffect(() => {
+    const scrollEl = document.querySelector("main")
+    if (!scrollEl) return
+    function onScroll() {
+      setHeaderBackVisible(scrollEl!.scrollTop > 80)
+    }
+    scrollEl.addEventListener("scroll", onScroll, { passive: true })
+    return () => scrollEl.removeEventListener("scroll", onScroll)
+  }, [])
 
   useEffect(() => {
     if (!slug) return
@@ -70,12 +82,30 @@ export function RecipePage() {
     )
   }
 
+  const headerSlot = document.getElementById("header-left-slot")
+
   return (
     <div className="px-6 py-2 pb-6">
-      {/* Back button */}
+      {/* Back button — portaled into header when scrolled */}
+      {headerSlot && createPortal(
+        <button
+          onClick={() => navigate(-1)}
+          className={`inline-flex items-center text-sm text-muted-foreground hover:text-foreground transition-all duration-200 ${
+            headerBackVisible ? "opacity-100 translate-x-0" : "opacity-0 -translate-x-2 pointer-events-none"
+          }`}
+        >
+          <ArrowLeft className="h-4 w-4 mr-1" />
+          {t("recipe.back")}
+        </button>,
+        headerSlot
+      )}
+
+      {/* Back button — inline, fades out when header version appears */}
       <button
         onClick={() => navigate(-1)}
-        className="mb-3 inline-flex items-center text-sm text-muted-foreground hover:text-foreground transition-colors"
+        className={`mb-3 inline-flex items-center text-sm text-muted-foreground hover:text-foreground transition-all duration-200 ${
+          headerBackVisible ? "opacity-0 pointer-events-none" : "opacity-100"
+        }`}
       >
         <ArrowLeft className="h-4 w-4 mr-1" />
         {t("recipe.back")}
