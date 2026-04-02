@@ -28,6 +28,8 @@ If the user provides recipe content directly (not via issue), treat it as unstru
 
 ## Step 2: Extract Recipe Data
 
+> ⚠️ Do NOT use the Agent tool to fetch or extract recipe content. Read files and fetch URLs inline using the Read tool or WebFetch directly.
+
 ### From Structured Issues
 
 Parse the issue body. Each field appears as `### Field Name` followed by the value. Extract and transform:
@@ -154,7 +156,11 @@ Important: ingredient group names (if any) should also be translated within the 
 Before writing files, check:
 
 1. **Slug**: matches `/^[a-z0-9]+(-[a-z0-9]+)*$/` — no consecutive hyphens, no leading/trailing hyphens
-2. **No duplicate**: `public/data/recipes/{slug}.json` must NOT already exist. Stop and report if it does.
+2. **No duplicate**: `public/data/recipes/{slug}.json` must NOT already exist. Check with:
+   ```bash
+   grep -q '"slug": "{slug}"' public/data/recipes/index.json && echo "EXISTS"
+   ```
+   Stop and report if it does.
 3. **Required fields**: slug, title, description, prepTime, cookTime, servings, difficulty, category, tags (non-empty), ingredients (at least one item), steps (at least one)
 4. **Enums**: difficulty is "Facile"|"Medio"|"Difficile"; category is a known value
 5. **Numbers**: prepTime, cookTime, servings are non-negative integers
@@ -190,7 +196,9 @@ Key rules:
 
 ## Step 6: Update the Recipe Index
 
-Read `public/data/recipes/index.json`, parse it, append a new entry at the END of the array with the RecipeSummary fields plus translations (description only). The index entry uses the same `images` object format as the detail JSON:
+> ⚠️ Do NOT read `index.json` directly — the file is too large and will exceed token limits. Use the Python script below instead.
+
+Append a new entry at the END of the array using Python. The index entry uses the same `images` object format as the detail JSON:
 ```json
 "images": {
   "cover": "images/recipes/{slug}/cover.jpg",
@@ -198,11 +206,33 @@ Read `public/data/recipes/index.json`, parse it, append a new entry at the END o
 }
 ```
 
-Write back with 2-space indentation and trailing newline.
+Write the new entry to a temp file then append it:
+```bash
+cat > /tmp/new-recipe-entry.json << 'EOF'
+{
+  "slug": "...",
+  ... (full RecipeSummary entry with translations)
+}
+EOF
+
+python3 -c "
+import json
+with open('public/data/recipes/index.json') as f:
+    data = json.load(f)
+with open('/tmp/new-recipe-entry.json') as f:
+    new_entry = json.load(f)
+data.append(new_entry)
+with open('public/data/recipes/index.json', 'w') as f:
+    json.dump(data, f, indent=2, ensure_ascii=False)
+    f.write('\n')
+"
+```
 
 Do NOT re-sort the array. The existing order is intentional.
 
 ## Step 7: Get the Recipe Cover Image
+
+> ⚠️ Do NOT use the Agent tool to fetch or process images. Download and read cover images inline using WebFetch or the Read tool directly.
 
 Create directory `public/images/recipes/{slug}/` if needed.
 

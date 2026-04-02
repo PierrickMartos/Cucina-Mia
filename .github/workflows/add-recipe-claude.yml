@@ -34,6 +34,9 @@ jobs:
 
             When completed:
             1. Create a branch named recipe/{slug} (e.g. recipe/pasta-carbonara), commit all new/modified files to it, and push the branch
+              - Check for an open PR: gh pr list --head recipe/{slug} --state open --json number,url
+              - If a PR is open and local files match remote HEAD, skip push and use the existing PR URL for step 3
+              - Otherwise force-push: git push --force-with-lease origin recipe/{slug}
             2. Open a pull request from that branch to main with title "feat: add {recipe title}" and a body summarising the recipe (title, category, difficulty, ingredient count, step count, languages)
             3. Comment on issue #${{ github.event.issue.number }} with the PR URL so the submitter can follow along
 
