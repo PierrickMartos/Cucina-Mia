@@ -2,11 +2,10 @@ import { useState, useEffect, useMemo } from "react"
 import { useSearchParams } from "react-router-dom"
 import { useTranslation } from "react-i18next"
 import Fuse from "fuse.js"
-import { useAutoAnimate } from "@formkit/auto-animate/react"
+import { X } from "lucide-react"
 import { SearchBar } from "@/components/SearchBar"
 import { FilterDrawer } from "@/components/FilterDrawer"
-import { RecipeCard } from "@/components/RecipeCard"
-import { Skeleton } from "@/components/ui/skeleton"
+import { RecipeGrid } from "@/components/RecipeGrid"
 import type { RecipeSummary } from "@/types/recipe"
 
 const BASE = import.meta.env.BASE_URL
@@ -22,8 +21,6 @@ export function RecipesPage() {
   })
   const [selectedDifficulties, setSelectedDifficulties] = useState<string[]>([])
   const { t } = useTranslation()
-  const prefersReducedMotion = window.matchMedia("(prefers-reduced-motion: reduce)").matches
-  const [gridRef] = useAutoAnimate(prefersReducedMotion ? { duration: 0 } : { duration: 200 })
 
   useEffect(() => {
     fetch(`${BASE}data/recipes/index.json`)
@@ -99,30 +96,21 @@ export function RecipesPage() {
           onCategoriesChange={setSelectedCategories}
           onDifficultiesChange={setSelectedDifficulties}
         />
+        {(selectedCategories.length > 0 || selectedDifficulties.length > 0) && (
+          <button
+            onClick={() => {
+              setSelectedCategories([])
+              setSelectedDifficulties([])
+            }}
+            className="cursor-pointer flex items-center justify-center w-10 h-10 rounded-full bg-surface-high text-muted-foreground hover:bg-destructive/10 hover:text-destructive transition-colors shrink-0"
+            aria-label={t("filter.clearAll")}
+          >
+            <X className="h-4 w-4" />
+          </button>
+        )}
       </div>
 
-      {loading ? (
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
-          {[1, 2, 3].map((i) => (
-            <div key={i} className="space-y-3">
-              <Skeleton className="aspect-[4/3] w-full rounded-[1.5rem]" />
-              <Skeleton className="h-4 w-3/4" />
-              <Skeleton className="h-4 w-1/2" />
-            </div>
-          ))}
-        </div>
-      ) : filtered.length === 0 ? (
-        <div className="text-center py-12 text-muted-foreground">
-          <p className="text-lg font-headline">{t("recipes.noResults")}</p>
-          <p className="text-sm mt-1">{t("recipes.noResultsHint")}</p>
-        </div>
-      ) : (
-        <div ref={gridRef} className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
-          {filtered.map((recipe) => (
-            <RecipeCard key={recipe.slug} recipe={recipe} />
-          ))}
-        </div>
-      )}
+      <RecipeGrid recipes={filtered} loading={loading} />
     </div>
   )
 }

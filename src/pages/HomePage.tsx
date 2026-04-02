@@ -1,8 +1,10 @@
 import { useState, useEffect, useMemo } from "react"
-import { Link, useNavigate } from "react-router-dom"
+import { Link } from "react-router-dom"
 import { Search, SlidersHorizontal } from "lucide-react"
+import Fuse from "fuse.js"
 import { Input } from "@/components/ui/input"
 import { Skeleton } from "@/components/ui/skeleton"
+import { RecipeGrid } from "@/components/RecipeGrid"
 import { useTranslation } from "react-i18next"
 import type { RecipeSummary } from "@/types/recipe"
 
@@ -28,7 +30,6 @@ export function HomePage() {
   const [recipes, setRecipes] = useState<RecipeSummary[]>([])
   const [loading, setLoading] = useState(true)
   const [search, setSearch] = useState("")
-  const navigate = useNavigate()
   const { t } = useTranslation()
 
   useEffect(() => {
@@ -56,12 +57,27 @@ export function HomePage() {
     }))
   }, [recipes])
 
-  function handleSearch(e: React.FormEvent) {
-    e.preventDefault()
-    if (search.trim()) {
-      navigate(`/recipes?q=${encodeURIComponent(search.trim())}`)
-    }
-  }
+  const fuse = useMemo(
+    () =>
+      new Fuse(recipes, {
+        keys: [
+          { name: "title", weight: 2 },
+          { name: "description", weight: 1 },
+          { name: "tags", weight: 1.5 },
+          { name: "category", weight: 1 },
+        ],
+        threshold: 0.4,
+        ignoreLocation: true,
+      }),
+    [recipes]
+  )
+
+  const searchResults = useMemo(
+    () => (search.trim() ? fuse.search(search).map((r) => r.item) : []),
+    [fuse, search]
+  )
+
+  const isSearching = search.trim().length > 0
 
   return (
     <div className="flex flex-col px-6 space-y-4 pb-4 h-full">
@@ -77,7 +93,7 @@ export function HomePage() {
         </div>
 
         {/* Search Bar */}
-        <form onSubmit={handleSearch} className="relative group">
+        <div className="relative group">
           <div className="flex items-center bg-surface-high rounded-full px-4 py-2 transition-all duration-300 focus-within:bg-card focus-within:ring-1 focus-within:ring-primary/20">
             <Search className="text-outline h-4 w-4 mr-3 shrink-0" />
             <Input
@@ -94,47 +110,49 @@ export function HomePage() {
               <SlidersHorizontal className="h-4 w-4" />
             </Link>
           </div>
-        </form>
+        </div>
       </header>
 
-      {/* Category Cards Grid */}
+      {/* Content: search results or category cards */}
       <section className="flex-1 min-h-0 overflow-y-auto pb-2">
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-3">
-        {loading ? (
-          <>
+        {isSearching ? (
+          <RecipeGrid recipes={searchResults} />
+        ) : loading ? (
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-3">
             {[1, 2, 3].map((i) => (
               <div key={i} className="h-48">
                 <Skeleton className="h-full w-full rounded-[1.5rem]" />
               </div>
             ))}
-          </>
+          </div>
         ) : (
-          categories.map((cat, index) => (
-            <Link
-              key={cat.category}
-              to={`/recipes?category=${encodeURIComponent(cat.category)}`}
-              className="group cursor-pointer"
-            >
-              <article className="relative h-48 overflow-hidden rounded-[1.5rem] editorial-grain">
-                <img
-                  src={`${BASE}${cat.image}`}
-                  alt={cat.category}
-                  className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105"
-                  loading="lazy"
-                />
-                <div className="vignette-overlay absolute inset-0 flex flex-col justify-end p-5">
-                  <span className="text-white/80 font-body uppercase tracking-widest text-[10px] mb-1">
-                    {String(index + 1).padStart(2, "0")} — {cat.category}
-                  </span>
-                  <h3 className="font-headline text-3xl text-white font-bold tracking-tighter">
-                    {cat.label}
-                  </h3>
-                </div>
-              </article>
-            </Link>
-          ))
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-3">
+            {categories.map((cat, index) => (
+              <Link
+                key={cat.category}
+                to={`/recipes?category=${encodeURIComponent(cat.category)}`}
+                className="group cursor-pointer"
+              >
+                <article className="relative h-48 overflow-hidden rounded-[1.5rem] editorial-grain">
+                  <img
+                    src={`${BASE}${cat.image}`}
+                    alt={cat.category}
+                    className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105"
+                    loading="lazy"
+                  />
+                  <div className="vignette-overlay absolute inset-0 flex flex-col justify-end p-5">
+                    <span className="text-white/80 font-body uppercase tracking-widest text-[10px] mb-1">
+                      {String(index + 1).padStart(2, "0")} — {cat.category}
+                    </span>
+                    <h3 className="font-headline text-3xl text-white font-bold tracking-tighter">
+                      {cat.label}
+                    </h3>
+                  </div>
+                </article>
+              </Link>
+            ))}
+          </div>
         )}
-        </div>
       </section>
     </div>
   )

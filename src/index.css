@@ -106,3 +106,20 @@
 .vignette-overlay {
   background: linear-gradient(to top, rgba(27, 28, 21, 0.75) 0%, rgba(27, 28, 21, 0) 70%);
 }
+
+/* Recipe card stagger entrance */
+@keyframes card-enter {
+  from {
+    opacity: 0;
+    transform: translateY(12px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.card-enter {
+  animation: card-enter 300ms ease-out both;
+  animation-delay: var(--stagger-delay, 0ms);
+}
