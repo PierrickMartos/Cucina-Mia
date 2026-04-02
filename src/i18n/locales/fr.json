@@ -10,8 +10,8 @@
   },
   "recipes": {
     "title": "Recettes",
-    "description": "Decouvrez nos recettes italiennes traditionnelles",
-    "noResults": "Aucune recette trouvee",
+    "description": "Recettes maison, de grand-mère, de grand-père, de belle-mère, des internets ou d'ailleurs",
+    "noResults": "Aucune recette trouvée",
     "noResultsHint": "Essayez de modifier les filtres ou la recherche",
     "searchPlaceholder": "Chercher des recettes..."
   },
@@ -22,8 +22,8 @@
     "prep": "Prep :",
     "cook": "Cuisson :",
     "servings": "portions",
-    "ingredients": "Ingredients",
-    "instructions": "Preparation",
+    "ingredients": "Ingrédients",
+    "instructions": "Préparation",
     "tips": "Conseils",
     "source": "Source",
     "step": "Etape {{number}}"
