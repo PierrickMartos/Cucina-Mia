@@ -1,4 +1,5 @@
 import { render, screen, waitFor } from "@testing-library/react"
+import userEvent from "@testing-library/user-event"
 import { MemoryRouter } from "react-router-dom"
 import { describe, it, expect, beforeEach } from "vitest"
 import i18n from "i18next"
@@ -71,6 +72,57 @@ describe("HomePage", () => {
     await waitFor(() => {
       const antipastiLink = screen.getByText("Starters").closest("a")
       expect(antipastiLink).toHaveAttribute("href", "/recipes?category=Antipasti")
+    })
+  })
+
+  it("replaces category cards with recipe results when searching", async () => {
+    const user = userEvent.setup()
+    renderHomePage()
+    await waitFor(() => {
+      expect(screen.getByText("Starters")).toBeInTheDocument()
+    })
+
+    const input = screen.getByPlaceholderText("Search a recipe...")
+    await user.type(input, "carbonara")
+
+    await waitFor(() => {
+      expect(screen.getByText("Pasta alla Carbonara")).toBeInTheDocument()
+      expect(screen.queryByText("Starters")).not.toBeInTheDocument()
+    })
+  })
+
+  it("restores category cards when search is cleared", async () => {
+    const user = userEvent.setup()
+    renderHomePage()
+    await waitFor(() => {
+      expect(screen.getByText("Starters")).toBeInTheDocument()
+    })
+
+    const input = screen.getByPlaceholderText("Search a recipe...")
+    await user.type(input, "carbonara")
+    await waitFor(() => {
+      expect(screen.queryByText("Starters")).not.toBeInTheDocument()
+    })
+
+    await user.clear(input)
+    await waitFor(() => {
+      expect(screen.getByText("Starters")).toBeInTheDocument()
+    })
+  })
+
+  it("shows empty state when search has no matches", async () => {
+    const user = userEvent.setup()
+    renderHomePage()
+    await waitFor(() => {
+      expect(screen.getByText("Starters")).toBeInTheDocument()
+    })
+
+    const input = screen.getByPlaceholderText("Search a recipe...")
+    await user.type(input, "xyznotarecipe")
+
+    await waitFor(() => {
+      expect(screen.getByText("No recipe found")).toBeInTheDocument()
+      expect(screen.queryByText("Starters")).not.toBeInTheDocument()
     })
   })
 })
