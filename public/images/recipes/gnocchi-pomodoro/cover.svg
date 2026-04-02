@@ -1,8 +1,8 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
   <defs>
-    <radialGradient id="gbg" cx="50%" cy="45%" r="70%">
-      <stop offset="0%" stop-color="#f8f0e4"/>
-      <stop offset="100%" stop-color="#e8ddd0"/>
+    <radialGradient id="gbg" cx="50%" cy="40%" r="70%">
+      <stop offset="0%" stop-color="#3a3028"/>
+      <stop offset="100%" stop-color="#1a1510"/>
     </radialGradient>
     <radialGradient id="bowl" cx="45%" cy="35%" r="60%">
       <stop offset="0%" stop-color="#f0e8dc"/>
@@ -23,7 +23,7 @@
     <circle cx="650" cy="500" r="30" fill="#c0392b"/>
   </g>
   <!-- Table shadow -->
-  <ellipse cx="400" cy="440" rx="240" ry="50" fill="#c0a880" opacity="0.2"/>
+  <ellipse cx="400" cy="440" rx="240" ry="50" fill="#0a0808" opacity="0.3"/>
   <!-- Bowl -->
   <ellipse cx="400" cy="340" rx="200" ry="80" fill="#b0a090"/>
   <ellipse cx="400" cy="310" rx="210" ry="140" fill="url(#bowl)"/>
@@ -121,7 +121,7 @@
     <ellipse cx="420" cy="297" rx="10" ry="5" fill="#3a9832" transform="rotate(15 420 297)"/>
   </g>
   <!-- Fork -->
-  <g transform="translate(580, 200) rotate(25)" opacity="0.35">
+  <g transform="translate(580, 200) rotate(25)" opacity="0.25">
     <rect x="-3" y="0" width="6" height="180" rx="3" fill="#c0b8a8"/>
     <rect x="-12" y="-50" width="3" height="55" rx="1.5" fill="#c0b8a8"/>
     <rect x="-4" y="-50" width="3" height="55" rx="1.5" fill="#c0b8a8"/>

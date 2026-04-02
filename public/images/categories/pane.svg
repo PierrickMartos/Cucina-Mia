@@ -1,0 +1,64 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <defs>
+    <radialGradient id="fgbg" cx="50%" cy="45%" r="70%"><stop offset="0%" stop-color="#3a3028"/><stop offset="100%" stop-color="#1a1510"/></radialGradient>
+    <radialGradient id="fgbread" cx="48%" cy="42%" r="50%"><stop offset="0%" stop-color="#daa848"/><stop offset="100%" stop-color="#c09030"/></radialGradient>
+  </defs>
+  <rect width="800" height="600" fill="url(#fgbg)"/>
+  <!-- Baking paper / parchment -->
+  <rect x="160" y="180" width="480" height="280" rx="8" fill="#e8dcc8" opacity="0.15"/>
+  <!-- Focaccia -->
+  <rect x="190" y="200" width="420" height="240" rx="20" fill="url(#fgbread)"/>
+  <!-- Oil sheen -->
+  <rect x="190" y="200" width="420" height="240" rx="20" fill="#e8b830" opacity="0.2"/>
+  <!-- Browned top -->
+  <g fill="#b87820" opacity="0.4">
+    <ellipse cx="280" cy="270" rx="35" ry="20"/><ellipse cx="400" cy="290" rx="40" ry="22"/>
+    <ellipse cx="520" cy="275" rx="30" ry="18"/><ellipse cx="340" cy="340" rx="35" ry="20"/>
+    <ellipse cx="470" cy="350" rx="32" ry="18"/><ellipse cx="250" cy="360" rx="28" ry="16"/>
+    <ellipse cx="550" cy="355" rx="25" ry="15"/>
+  </g>
+  <!-- Finger dimples -->
+  <g fill="#a07020" opacity="0.35">
+    <ellipse cx="260" cy="250" rx="10" ry="8"/><ellipse cx="310" cy="260" rx="9" ry="7"/>
+    <ellipse cx="360" cy="248" rx="10" ry="8"/><ellipse cx="410" cy="256" rx="9" ry="7"/>
+    <ellipse cx="460" cy="250" rx="10" ry="8"/><ellipse cx="510" cy="258" rx="9" ry="7"/>
+    <ellipse cx="550" cy="252" rx="8" ry="6"/>
+    <ellipse cx="240" cy="300" rx="10" ry="8"/><ellipse cx="290" cy="310" rx="9" ry="7"/>
+    <ellipse cx="340" cy="298" rx="10" ry="8"/><ellipse cx="390" cy="306" rx="9" ry="7"/>
+    <ellipse cx="440" cy="300" rx="10" ry="8"/><ellipse cx="490" cy="308" rx="9" ry="7"/>
+    <ellipse cx="540" cy="302" rx="8" ry="6"/>
+    <ellipse cx="260" cy="355" rx="10" ry="8"/><ellipse cx="310" cy="362" rx="9" ry="7"/>
+    <ellipse cx="360" cy="350" rx="10" ry="8"/><ellipse cx="410" cy="358" rx="9" ry="7"/>
+    <ellipse cx="460" cy="352" rx="10" ry="8"/><ellipse cx="510" cy="360" rx="9" ry="7"/>
+  </g>
+  <!-- Oil pools in dimples -->
+  <g fill="#c8a030" opacity="0.3">
+    <ellipse cx="260" cy="252" rx="6" ry="4"/><ellipse cx="360" cy="250" rx="6" ry="4"/>
+    <ellipse cx="460" cy="252" rx="6" ry="4"/><ellipse cx="290" cy="312" rx="6" ry="4"/>
+    <ellipse cx="390" cy="308" rx="6" ry="4"/><ellipse cx="490" cy="310" rx="6" ry="4"/>
+    <ellipse cx="310" cy="364" rx="6" ry="4"/><ellipse cx="410" cy="360" rx="6" ry="4"/>
+  </g>
+  <!-- Coarse salt crystals -->
+  <g fill="#f0ece8" opacity="0.7">
+    <rect x="275" y="268" width="3" height="2" rx="0.5" transform="rotate(20 277 269)"/>
+    <rect x="335" y="255" width="3" height="2" rx="0.5" transform="rotate(-10 337 256)"/>
+    <rect x="425" y="262" width="2.5" height="2" rx="0.5" transform="rotate(15 426 263)"/>
+    <rect x="505" y="270" width="3" height="2" rx="0.5" transform="rotate(-5 507 271)"/>
+    <rect x="250" y="318" width="2.5" height="2" rx="0.5" transform="rotate(30 251 319)"/>
+    <rect x="370" y="325" width="3" height="2" rx="0.5" transform="rotate(-15 372 326)"/>
+    <rect x="450" y="320" width="2.5" height="2" rx="0.5" transform="rotate(10 451 321)"/>
+    <rect x="540" y="315" width="3" height="2" rx="0.5" transform="rotate(-20 542 316)"/>
+  </g>
+  <!-- Rosemary sprig -->
+  <g transform="translate(520, 385) rotate(-25)" opacity="0.6">
+    <line x1="0" y1="0" x2="0" y2="-40" stroke="#4a6830" stroke-width="1.5"/>
+    <g fill="#3a5820">
+      <ellipse cx="-4" cy="-8" rx="2" ry="5" transform="rotate(-20 -4 -8)"/>
+      <ellipse cx="4" cy="-12" rx="2" ry="5" transform="rotate(20 4 -12)"/>
+      <ellipse cx="-4" cy="-18" rx="2" ry="5" transform="rotate(-20 -4 -18)"/>
+      <ellipse cx="4" cy="-24" rx="2" ry="5" transform="rotate(20 4 -24)"/>
+      <ellipse cx="-3" cy="-30" rx="2" ry="4" transform="rotate(-15 -3 -30)"/>
+      <ellipse cx="3" cy="-35" rx="1.5" ry="4" transform="rotate(15 3 -35)"/>
+    </g>
+  </g>
+</svg>

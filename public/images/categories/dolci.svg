@@ -1,0 +1,120 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <defs>
+    <radialGradient id="bg" cx="50%" cy="40%" r="70%">
+      <stop offset="0%" stop-color="#3a3028"/>
+      <stop offset="100%" stop-color="#1a1510"/>
+    </radialGradient>
+    <radialGradient id="crust" cx="45%" cy="40%" r="55%">
+      <stop offset="0%" stop-color="#e8c070"/>
+      <stop offset="100%" stop-color="#c89840"/>
+    </radialGradient>
+    <radialGradient id="curd" cx="50%" cy="45%" r="50%">
+      <stop offset="0%" stop-color="#f8e878"/>
+      <stop offset="100%" stop-color="#e8c838"/>
+    </radialGradient>
+    <linearGradient id="meringue" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#faf6ee"/>
+      <stop offset="70%" stop-color="#f0e8d8"/>
+      <stop offset="100%" stop-color="#e0d0b0"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="600" fill="url(#bg)"/>
+  <!-- Table surface -->
+  <ellipse cx="400" cy="580" rx="500" ry="100" fill="#2a2218" opacity="0.5"/>
+  <!-- Plate shadow -->
+  <ellipse cx="405" cy="365" rx="210" ry="55" fill="#0d0a07" opacity="0.4"/>
+  <!-- Plate -->
+  <ellipse cx="400" cy="350" rx="205" ry="50" fill="#e8e0d4"/>
+  <ellipse cx="400" cy="348" rx="200" ry="48" fill="#f0ebe4"/>
+  <ellipse cx="400" cy="346" rx="180" ry="42" fill="#f5f0e8"/>
+  <!-- Tart base - fluted crust -->
+  <ellipse cx="400" cy="340" rx="155" ry="40" fill="url(#crust)"/>
+  <!-- Fluted edge -->
+  <g fill="#d4a448">
+    <circle cx="252" cy="335" r="7"/><circle cx="268" cy="328" r="7"/>
+    <circle cx="286" cy="322" r="7"/><circle cx="306" cy="318" r="7"/>
+    <circle cx="328" cy="314" r="7"/><circle cx="350" cy="312" r="7"/>
+    <circle cx="374" cy="310" r="7"/><circle cx="400" cy="310" r="7"/>
+    <circle cx="426" cy="310" r="7"/><circle cx="450" cy="312" r="7"/>
+    <circle cx="472" cy="314" r="7"/><circle cx="494" cy="318" r="7"/>
+    <circle cx="514" cy="322" r="7"/><circle cx="532" cy="328" r="7"/>
+    <circle cx="548" cy="335" r="7"/>
+  </g>
+  <g fill="#dab058" opacity="0.6">
+    <circle cx="252" cy="334" r="5"/><circle cx="268" cy="327" r="5"/>
+    <circle cx="286" cy="321" r="5"/><circle cx="306" cy="317" r="5"/>
+    <circle cx="328" cy="313" r="5"/><circle cx="350" cy="311" r="5"/>
+    <circle cx="374" cy="309" r="5"/><circle cx="400" cy="309" r="5"/>
+    <circle cx="426" cy="309" r="5"/><circle cx="450" cy="311" r="5"/>
+    <circle cx="472" cy="313" r="5"/><circle cx="494" cy="317" r="5"/>
+    <circle cx="514" cy="321" r="5"/><circle cx="532" cy="327" r="5"/>
+    <circle cx="548" cy="334" r="5"/>
+  </g>
+  <!-- Crust top surface -->
+  <ellipse cx="400" cy="330" rx="145" ry="32" fill="url(#crust)"/>
+  <!-- Lemon curd layer -->
+  <ellipse cx="400" cy="328" rx="135" ry="28" fill="url(#curd)"/>
+  <ellipse cx="400" cy="326" rx="130" ry="26" fill="#f0d848" opacity="0.5"/>
+  <!-- Meringue peaks -->
+  <g>
+    <!-- Large center peaks -->
+    <ellipse cx="400" cy="290" rx="30" ry="38" fill="url(#meringue)"/>
+    <ellipse cx="365" cy="298" rx="26" ry="32" fill="url(#meringue)"/>
+    <ellipse cx="435" cy="296" rx="28" ry="34" fill="url(#meringue)"/>
+    <!-- Medium peaks -->
+    <ellipse cx="335" cy="308" rx="22" ry="26" fill="url(#meringue)"/>
+    <ellipse cx="465" cy="306" rx="24" ry="28" fill="url(#meringue)"/>
+    <ellipse cx="380" cy="286" rx="20" ry="28" fill="url(#meringue)"/>
+    <ellipse cx="420" cy="284" rx="22" ry="30" fill="url(#meringue)"/>
+    <!-- Small peaks -->
+    <ellipse cx="310" cy="316" rx="18" ry="20" fill="url(#meringue)"/>
+    <ellipse cx="490" cy="314" rx="18" ry="22" fill="url(#meringue)"/>
+    <ellipse cx="352" cy="296" rx="16" ry="22" fill="url(#meringue)"/>
+    <ellipse cx="448" cy="294" rx="17" ry="24" fill="url(#meringue)"/>
+    <!-- Tiny accent peaks -->
+    <ellipse cx="395" cy="278" rx="12" ry="18" fill="#faf8f2"/>
+    <ellipse cx="415" cy="276" rx="10" ry="16" fill="#faf8f2"/>
+    <ellipse cx="375" cy="282" rx="10" ry="14" fill="#faf8f2"/>
+  </g>
+  <!-- Torch marks on meringue -->
+  <g opacity="0.35">
+    <ellipse cx="400" cy="295" rx="18" ry="8" fill="#d4a040" transform="rotate(-5 400 295)"/>
+    <ellipse cx="430" cy="300" rx="14" ry="6" fill="#c89030" transform="rotate(10 430 300)"/>
+    <ellipse cx="370" cy="302" rx="15" ry="6" fill="#d4a040" transform="rotate(-8 370 302)"/>
+    <ellipse cx="450" cy="310" rx="12" ry="5" fill="#c89030" transform="rotate(5 450 310)"/>
+    <ellipse cx="350" cy="312" rx="11" ry="5" fill="#d4a040" transform="rotate(-12 350 312)"/>
+    <ellipse cx="410" cy="288" rx="10" ry="5" fill="#c89030" transform="rotate(8 410 288)"/>
+    <ellipse cx="385" cy="285" rx="9" ry="4" fill="#d4a040" transform="rotate(-3 385 285)"/>
+  </g>
+  <!-- Meringue highlights -->
+  <g fill="white" opacity="0.15">
+    <ellipse cx="390" cy="282" rx="8" ry="12" transform="rotate(-10 390 282)"/>
+    <ellipse cx="425" cy="288" rx="7" ry="10" transform="rotate(5 425 288)"/>
+    <ellipse cx="360" cy="300" rx="6" ry="9" transform="rotate(-8 360 300)"/>
+    <ellipse cx="455" cy="305" rx="5" ry="8" transform="rotate(10 455 305)"/>
+  </g>
+  <!-- Lemon slice garnish -->
+  <g transform="translate(510, 310) rotate(15)">
+    <circle cx="0" cy="0" r="18" fill="#f0d848" opacity="0.8"/>
+    <circle cx="0" cy="0" r="15" fill="#f8e460"/>
+    <circle cx="0" cy="0" r="12" fill="#fae878" opacity="0.6"/>
+    <!-- Segments -->
+    <g stroke="#e8c828" stroke-width="0.8" opacity="0.5">
+      <line x1="0" y1="-12" x2="0" y2="12"/>
+      <line x1="-10" y1="-6" x2="10" y2="6"/>
+      <line x1="-10" y1="6" x2="10" y2="-6"/>
+    </g>
+    <circle cx="0" cy="0" r="3" fill="#f8e040"/>
+  </g>
+  <!-- Lemon zest scatter -->
+  <g fill="#f0d040" opacity="0.12">
+    <ellipse cx="300" cy="365" rx="3" ry="1" transform="rotate(25)"/>
+    <ellipse cx="520" cy="358" rx="2.5" ry="1" transform="rotate(-15)"/>
+    <ellipse cx="350" cy="370" rx="2" ry="0.8" transform="rotate(40)"/>
+  </g>
+  <!-- Mint leaf -->
+  <g transform="translate(480, 300)" opacity="0.6">
+    <ellipse cx="0" cy="0" rx="8" ry="5" fill="#2e8028" transform="rotate(-25)"/>
+    <ellipse cx="1" cy="1" rx="6" ry="3.5" fill="#3a9832" transform="rotate(-25)"/>
+  </g>
+</svg>

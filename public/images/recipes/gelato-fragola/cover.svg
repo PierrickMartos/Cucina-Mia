@@ -1,8 +1,8 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
   <defs>
     <radialGradient id="ibg" cx="50%" cy="40%" r="70%">
-      <stop offset="0%" stop-color="#fdf0f0"/>
-      <stop offset="100%" stop-color="#f0e0e0"/>
+      <stop offset="0%" stop-color="#3a3028"/>
+      <stop offset="100%" stop-color="#1a1510"/>
     </radialGradient>
     <linearGradient id="cone" x1="0" y1="0" x2="1" y2="1">
       <stop offset="0%" stop-color="#e0b060"/>
@@ -30,7 +30,7 @@
     <circle cx="500" cy="520" r="7" fill="#e0508a"/>
   </g>
   <!-- Shadow -->
-  <ellipse cx="400" cy="520" rx="130" ry="25" fill="#d0b0b0" opacity="0.3"/>
+  <ellipse cx="400" cy="520" rx="130" ry="25" fill="#0a0808" opacity="0.4"/>
   <!-- Waffle cone -->
   <polygon points="340,320 460,320 400,530" fill="url(#cone)"/>
   <!-- Cone texture - diamond pattern -->
