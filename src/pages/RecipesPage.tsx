@@ -6,7 +6,7 @@ import { X } from "lucide-react"
 import { SearchBar } from "@/components/SearchBar"
 import { FilterDrawer } from "@/components/FilterDrawer"
 import { RecipeGrid } from "@/components/RecipeGrid"
-import { sortCategories } from "@/lib/categories"
+import { sortCategories, sortDifficulties } from "@/lib/categories"
 import type { RecipeSummary } from "@/types/recipe"
 
 const BASE = import.meta.env.BASE_URL
@@ -39,7 +39,7 @@ export function RecipesPage() {
   )
 
   const difficulties = useMemo(
-    () => [...new Set(recipes.map((r) => r.difficulty))],
+    () => sortDifficulties([...new Set(recipes.map((r) => r.difficulty))]),
     [recipes]
   )
 

@@ -1,3 +1,16 @@
+export const DIFFICULTY_ORDER = ["Facile", "Medio", "Difficile"]
+
+export function sortDifficulties(difficulties: string[]): string[] {
+  return [...difficulties].sort((a, b) => {
+    const ai = DIFFICULTY_ORDER.indexOf(a)
+    const bi = DIFFICULTY_ORDER.indexOf(b)
+    if (ai === -1 && bi === -1) return a.localeCompare(b)
+    if (ai === -1) return 1
+    if (bi === -1) return -1
+    return ai - bi
+  })
+}
+
 export const CATEGORY_ORDER = [
   "Antipasti",
   "Secondi",
