@@ -462,5 +462,33 @@
         "description": "Impasto per torte salate pronto in 3 minuti con soli 3 ingredienti: farina, olio e acqua calda. Perfetto per i più piccoli."
       }
     }
+  },
+  {
+    "slug": "chakchouka-du-brunch",
+    "title": "Chakchouka du Brunch",
+    "description": "Oeufs pochés dans une sauce tomate épicée aux poivrons et oignons, parfaite pour un brunch gourmand.",
+    "images": {
+      "cover": "images/recipes/chakchouka-du-brunch/cover.jpg",
+      "web": "images/recipes/chakchouka-du-brunch/web.jpg"
+    },
+    "prepTime": 15,
+    "cookTime": 25,
+    "servings": 4,
+    "difficulty": "Facile",
+    "category": "Brunch",
+    "tags": [
+      "brunch",
+      "oeufs",
+      "tomate",
+      "épicé"
+    ],
+    "translations": {
+      "en": {
+        "description": "Eggs poached in a spiced tomato sauce with peppers and onions, perfect for a gourmet brunch."
+      },
+      "it": {
+        "description": "Uova in camicia in salsa di pomodoro speziata con peperoni e cipolle, perfetta per un brunch goloso."
+      }
+    }
   }
 ]

@@ -37,7 +37,7 @@ Parse the issue body. Each field appears as `### Field Name` followed by the val
 | Recipe Title | `title` | As-is |
 | Slug | `slug` | Validate: lowercase, hyphens only |
 | Description | `description` | 1-2 sentences |
-| Category | `category` | One of: Antipasti, Primi, Secondi, Contorni, Dolci, Pizze, Pane, Bevande, Bambini |
+| Category | `category` | One of: Antipasti, Secondi, Dolci, Pizze, Pane, Bambini, Breakfast, Brunch |
 | Difficulty | `difficulty` | One of: Facile, Medio, Difficile |
 | Prep Time (minutes) | `prepTime` | Integer |
 | Cook Time (minutes) | `cookTime` | Integer |
