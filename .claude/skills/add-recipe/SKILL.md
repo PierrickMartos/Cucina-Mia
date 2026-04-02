@@ -5,9 +5,10 @@ description: "Add a new recipe to the Cucina Mia cookbook app from a GitHub issu
 
 # Add Recipe to Cucina Mia
 
-This skill processes recipe submissions and adds them to the Cucina Mia cookbook app. It handles two types of input:
+This skill processes recipe submissions and adds them to the Cucina Mia cookbook app. It handles three types of input:
 - **Structured issues** from the `recipe-submission.yml` GitHub template (form with all fields)
-- **Unstructured issues** from the `recipe-submission-file.yml` template (uploaded file + recipe name)
+- **Unstructured file issues** from the `recipe-submission-file.yml` template (uploaded file + recipe name)
+- **Unstructured URL issues** from the `recipe-submission-url.yml` template (webpage URL + recipe name)
 
 Each recipe needs: a detail JSON file, an entry in the index, an SVG cover illustration, and translations in Italian (base), English, and French.
 
@@ -18,9 +19,10 @@ If given a GitHub issue number, fetch it:
 gh issue view <number> --json title,body,labels
 ```
 
-Classify based on labels:
+Classify based on labels and body content:
 - **Structured**: has `recipe-submission` label but NOT `needs-formatting`. Body has form sections like `### Recipe Title`, `### Slug`, `### Category`, etc.
-- **Unstructured**: has both `recipe-submission` and `needs-formatting` labels. Body has `### Recipe Name`, `### Recipe File` (uploaded file URL), optional `### Recipe Image` and `### Notes`.
+- **Unstructured (file)**: has both `recipe-submission` and `needs-formatting` labels. Body has `### Recipe Name`, `### Recipe File` (uploaded file URL), optional `### Recipe Image` and `### Notes`.
+- **Unstructured (URL)**: has both `recipe-submission` and `needs-formatting` labels. Body has `### Recipe Name`, `### Recipe URL` (webpage link), optional `### Recipe Image` and `### Notes`.
 
 If the user provides recipe content directly (not via issue), treat it as unstructured input and extract the data.
 
@@ -52,7 +54,7 @@ Parse the issue body. Each field appears as `### Field Name` followed by the val
 - Lines without a group header go in a single object without the `group` field
 - Empty lines are skipped
 
-### From Unstructured Issues
+### From Unstructured File Issues
 
 1. Extract the recipe name from `### Recipe Name`
 2. Download/read the file from `### Recipe File` (image URL, PDF, etc.)
@@ -65,6 +67,21 @@ Parse the issue body. Each field appears as `### Field Name` followed by the val
 7. Infer missing fields with reasonable defaults:
    - `difficulty`: estimate from technique complexity
    - `prepTime`/`cookTime`: estimate from recipe
+   - `servings`: default 4 if unclear
+   - `category`: infer from dish type
+   - `tags`: 3-5 relevant lowercase Italian tags
+
+### From Unstructured URL Issues
+
+1. Extract the recipe name from `### Recipe Name`
+2. Fetch the webpage from `### Recipe URL` using WebFetch
+3. Extract all recipe info from the page content. The content may be in any language.
+4. Check `### Recipe Image` for an optional cover photo
+5. Read any `### Notes` for context (origin, variations, tips)
+6. Generate the slug from the recipe title: lowercase, replace spaces with hyphens, remove accents, keep only `[a-z0-9-]`
+7. Infer missing fields with reasonable defaults:
+   - `difficulty`: estimate from technique complexity
+   - `prepTime`/`cookTime`: estimate from recipe or page metadata
    - `servings`: default 4 if unclear
    - `category`: infer from dish type
    - `tags`: 3-5 relevant lowercase Italian tags
@@ -181,7 +198,8 @@ Summarize:
 
 - **Duplicate slug**: stop and ask the user. Never overwrite.
 - **Missing required fields** (structured): report which fields are missing and stop.
-- **Unreadable file** (unstructured): report the error and stop.
+- **Unreadable file** (unstructured file): report the error and stop.
+- **Unreachable URL** (unstructured URL): report the error and stop. Do not guess recipe content.
 - **Non-Italian source content**: translate to Italian for base fields, then to EN and FR for translations.
 - **Long descriptions**: keep to 1-2 sentences (<200 chars). Extra detail goes to tips.
 - **Tags**: single lowercase words or hyphenated compounds (e.g., `no-cottura`, `frutti-di-bosco`).
