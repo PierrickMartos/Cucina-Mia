@@ -1696,5 +1696,73 @@
         ]
       }
     }
+  },
+  {
+    "slug": "polpette-al-sugo",
+    "title": "Polpette al sugo",
+    "description": "Des boulettes de viande juteuses mijotées dans une riche sauce tomate aux herbes fraîches, un grand classique de la cuisine italienne.",
+    "images": {
+      "cover": "images/recipes/polpette-al-sugo/cover.svg",
+      "web": "images/recipes/polpette-al-sugo/cover.svg"
+    },
+    "prepTime": 30,
+    "cookTime": 45,
+    "servings": 6,
+    "difficulty": "Medio",
+    "category": "Secondi",
+    "tags": [
+      "mijoté",
+      "bœuf",
+      "fromage",
+      "sauce-tomate",
+      "italien",
+      "réconfortant",
+      "convivial",
+      "plat-principal",
+      "hiver",
+      "automne",
+      "poêle",
+      "se-congèle"
+    ],
+    "ingredientCount": 21,
+    "stepCount": 9,
+    "translations": {
+      "en": {
+        "title": "Italian Meatballs in Tomato Sauce",
+        "description": "Juicy beef meatballs simmered in a rich herb-filled tomato sauce, a beloved classic of Italian cuisine.",
+        "tags": [
+          "simmered",
+          "beef",
+          "cheese",
+          "tomato-sauce",
+          "italian",
+          "comforting",
+          "family-friendly",
+          "main-course",
+          "winter",
+          "autumn",
+          "pan",
+          "freezer-friendly"
+        ]
+      },
+      "it": {
+        "title": "Polpette al sugo",
+        "description": "Polpette di carne succose cotte a fuoco lento in un ricco sugo di pomodoro alle erbe fresche, un grande classico della cucina italiana.",
+        "tags": [
+          "stufato",
+          "manzo",
+          "formaggio",
+          "sugo-di-pomodoro",
+          "italiano",
+          "confortante",
+          "conviviale",
+          "secondo-piatto",
+          "inverno",
+          "autunno",
+          "padella",
+          "si-congela"
+        ]
+      }
+    }
   }
 ]
