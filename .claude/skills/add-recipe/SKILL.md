@@ -51,7 +51,7 @@ Parse the issue body. Each field appears as `### Field Name` followed by the val
 
 **Tag Strategy:**
 
-Tags are always in **French** in the base JSON (and translated into EN/IT in the translations block). Aim for 4–10 tags per recipe chosen from the discovery dimensions below. Pick only tags that genuinely apply.
+Tags are always in **French** in the base JSON (and translated into EN/IT in the translations block). Aim for 5-15 tags per recipe chosen from the discovery dimensions below. Pick only tags that genuinely apply.
 
 | Dimension | French examples |
 |---|---|
@@ -94,7 +94,7 @@ Single lowercase words or hyphenated compounds only. No accents in tag slugs (us
    - `prepTime`/`cookTime`: estimate from recipe
    - `servings`: default 4 if unclear
    - `category`: infer from dish type
-   - `tags`: 3-8 relevant lowercase tags
+   - `tags`: 5-15 relevant French tags — see **Tag Strategy** above
 
 ### From Unstructured URL Issues
 
@@ -109,7 +109,7 @@ Single lowercase words or hyphenated compounds only. No accents in tag slugs (us
    - `prepTime`/`cookTime`: estimate from recipe or page metadata
    - `servings`: default 4 if unclear
    - `category`: infer from dish type
-   - `tags`: 3-8 relevant lowercase tags
+   - `tags`: 5-15 relevant French tags — see **Tag Strategy** above
 
 ## Step 3: Translate
 
@@ -262,6 +262,6 @@ Summarize:
 - **Unreachable URL** (unstructured URL): report the error and stop. Do not guess recipe content.
 - **Non-French source content**: translate to French for base fields, then to EN and IT for translations.
 - **Long descriptions**: keep to 1-2 sentences (<200 chars). Extra detail goes to tips.
-- **Tags**: single lowercase words or hyphenated compounds in French (e.g., `four`, `no-cuisson`, `enfants`, `sans-gluten`, `été`). Translate to EN and IT in the translations block.
+- **Tags**: 5-15 tags per recipe using the Tag Strategy dimensions. Single lowercase words or hyphenated compounds in French (e.g., `four`, `no-cuisson`, `enfants`, `sans-gluten`, `été`). Translate to EN and IT in the translations block.
 - **Cook time 0**: valid (e.g., tiramisu, gelato).
 - **Category not in template dropdown**: accept if reasonable (e.g., "Bambini" is valid).
