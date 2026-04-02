@@ -1,0 +1,53 @@
+name: Add Recipe via Claude Code
+
+on:
+  issues:
+    types: [opened, labeled]
+
+permissions:
+  contents: write
+  issues: write
+  pull-requests: write
+  id-token: write
+
+jobs:
+  add-recipe:
+    if: |
+      contains(github.event.issue.labels.*.name, 'recipe-submission') ||
+      contains(github.event.issue.labels.*.name, 'needs-formatting')
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+          cache: npm
+
+      - run: npm ci
+
+      - name: Process recipe with Claude Code
+        uses: anthropics/claude-code-action@v1
+        with:
+          claude_code_oauth_token: ${{ secrets.CLAUDE_CODE_OAUTH_TOKEN }}
+          prompt: |
+            You are processing a recipe submission from GitHub issue #${{ github.event.issue.number }}.
+
+            Follow the add-recipe skill at .claude/skills/add-recipe/SKILL.md exactly.
+
+            Steps:
+            1. Fetch and classify issue #${{ github.event.issue.number }} using: gh issue view ${{ github.event.issue.number }} --json title,body,labels
+            2. Extract recipe data based on issue type (structured, file, or URL)
+            3. Translate to Italian (base), English, and French
+            4. Validate all fields
+            5. Write the recipe detail JSON
+            6. Update the recipe index
+            7. Generate the SVG cover illustration
+            8. Verify JSON validity and run: npm run build
+            9. Commit all new/modified files and push to main
+            10. Comment on the issue with a summary of what was added
+            11. Close issue #${{ github.event.issue.number }} using: gh issue close ${{ github.event.issue.number }} --comment "✅ Recipe has been added and will be live after deployment."
+
+            If there are errors (missing required fields, duplicate slug, unreadable file/URL),
+            comment on the issue explaining the problem and do NOT close it.
+          claude_args: "--allowedTools Bash,Read,Write,Edit,Glob,Grep,WebFetch"
