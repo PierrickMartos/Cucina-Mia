@@ -1,5 +1,6 @@
 import { SlidersHorizontal } from "lucide-react"
 import { useState } from "react"
+import { useTranslation } from "react-i18next"
 import { Button } from "@/components/ui/button"
 import { Badge } from "@/components/ui/badge"
 import { Sheet, SheetContent, SheetHeader, SheetTitle } from "@/components/ui/sheet"
@@ -22,6 +23,7 @@ export function FilterDrawer({
   onDifficultiesChange,
 }: FilterDrawerProps) {
   const [open, setOpen] = useState(false)
+  const { t } = useTranslation()
 
   const activeCount = selectedCategories.length + selectedDifficulties.length
 
@@ -64,14 +66,14 @@ export function FilterDrawer({
         <SheetContent onClose={() => setOpen(false)} className="bg-surface">
           <SheetHeader>
             <SheetTitle className="font-headline text-lg font-bold text-foreground">
-              Filtra ricette
+              {t("filter.title")}
             </SheetTitle>
           </SheetHeader>
 
           <div className="mt-6 space-y-6">
             <div>
               <h4 className="font-semibold text-[10px] uppercase tracking-widest text-muted-foreground mb-3">
-                Categoria
+                {t("filter.category")}
               </h4>
               <div className="flex flex-wrap gap-2">
                 {categories.map((cat) => (
@@ -93,7 +95,7 @@ export function FilterDrawer({
 
             <div>
               <h4 className="font-semibold text-[10px] uppercase tracking-widest text-muted-foreground mb-3">
-                Difficoltà
+                {t("filter.difficulty")}
               </h4>
               <div className="flex flex-wrap gap-2">
                 {difficulties.map((diff) => (
@@ -120,7 +122,7 @@ export function FilterDrawer({
                 onClick={clearAll}
                 className="w-full text-muted-foreground hover:text-foreground"
               >
-                Rimuovi tutti i filtri
+                {t("filter.clearAll")}
               </Button>
             )}
           </div>

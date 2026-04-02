@@ -154,5 +154,41 @@
     "difficulty": "Difficile",
     "category": "Dolci",
     "tags": ["dolce", "siciliano", "fritto"]
+  },
+  {
+    "slug": "pizza-faccine",
+    "title": "Pizza Faccine",
+    "description": "Mini pizze divertenti con faccine sorridenti fatte di olive, pomodorini e peperoni — perfette per i piccoli chef!",
+    "image": "images/recipes/pizza-faccine/cover.svg",
+    "prepTime": 20,
+    "cookTime": 12,
+    "servings": 8,
+    "difficulty": "Facile",
+    "category": "Bambini",
+    "tags": ["pizza", "bambini", "divertente", "facile"]
+  },
+  {
+    "slug": "gnocchi-pomodoro",
+    "title": "Gnocchi al Pomodoro",
+    "description": "Gnocchi di patate morbidissimi con sugo di pomodoro fresco e basilico — il piatto preferito dei bambini!",
+    "image": "images/recipes/gnocchi-pomodoro/cover.svg",
+    "prepTime": 30,
+    "cookTime": 20,
+    "servings": 4,
+    "difficulty": "Facile",
+    "category": "Bambini",
+    "tags": ["gnocchi", "bambini", "pomodoro", "patate"]
+  },
+  {
+    "slug": "gelato-fragola",
+    "title": "Gelato alla Fragola",
+    "description": "Gelato cremoso alla fragola fatto in casa, senza gelatiera — fresco, naturale e adorato dai bambini!",
+    "image": "images/recipes/gelato-fragola/cover.svg",
+    "prepTime": 20,
+    "cookTime": 0,
+    "servings": 6,
+    "difficulty": "Facile",
+    "category": "Bambini",
+    "tags": ["gelato", "bambini", "fragola", "no-cottura", "dolce"]
   }
 ]

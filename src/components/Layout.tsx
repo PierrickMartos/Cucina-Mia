@@ -1,13 +1,16 @@
 import { Outlet, Link, useLocation } from "react-router-dom"
 import { Home, BookOpen } from "lucide-react"
-
-const navItems = [
-  { to: "/", icon: Home, label: "Home" },
-  { to: "/recipes", icon: BookOpen, label: "Ricette" },
-]
+import { useTranslation } from "react-i18next"
+import { motion } from "motion/react"
 
 export function Layout() {
   const { pathname } = useLocation()
+  const { t } = useTranslation()
+
+  const navItems = [
+    { to: "/", icon: Home, label: t("nav.home") },
+    { to: "/recipes", icon: BookOpen, label: t("nav.recipes") },
+  ]
 
   return (
     <div className="h-dvh flex flex-col bg-surface overflow-hidden">
@@ -24,7 +27,14 @@ export function Layout() {
 
       {/* Main Content */}
       <main className="flex-1 overflow-y-auto overflow-x-hidden">
-        <Outlet />
+        <motion.div
+          key={pathname}
+          initial={{ opacity: 0, y: 10 }}
+          animate={{ opacity: 1, y: 0 }}
+          transition={{ duration: 0.45, ease: "easeOut" }}
+        >
+          <Outlet />
+        </motion.div>
       </main>
 
       {/* Bottom Nav Bar */}

@@ -1,0 +1,65 @@
+{
+  "slug": "gnocchi-pomodoro",
+  "title": "Gnocchi al Pomodoro",
+  "description": "Gnocchi di patate morbidissimi con sugo di pomodoro fresco e basilico — il piatto preferito dei bambini!",
+  "image": "images/recipes/gnocchi-pomodoro/cover.svg",
+  "prepTime": 30,
+  "cookTime": 20,
+  "servings": 4,
+  "difficulty": "Facile",
+  "category": "Bambini",
+  "tags": ["gnocchi", "bambini", "pomodoro", "patate"],
+  "ingredients": [
+    {
+      "group": "Gnocchi",
+      "items": [
+        "1 kg di patate a pasta bianca",
+        "300 g di farina 00",
+        "1 uovo",
+        "Sale q.b."
+      ]
+    },
+    {
+      "group": "Sugo",
+      "items": [
+        "400 g di pomodori pelati",
+        "2 cucchiai di olio extravergine di oliva",
+        "1 spicchio d'aglio",
+        "Foglie di basilico fresco",
+        "Sale e un pizzico di zucchero"
+      ]
+    },
+    {
+      "group": "Per servire",
+      "items": [
+        "Parmigiano Reggiano grattugiato",
+        "Foglie di basilico fresco"
+      ]
+    }
+  ],
+  "steps": [
+    {
+      "text": "Lessare le patate con la buccia in acqua salata per circa 30-40 minuti. Scolarle, sbucciarle ancora calde e schiacciarle con uno schiacciapatate."
+    },
+    {
+      "text": "Aggiungere la farina, l'uovo e un pizzico di sale. Impastare delicatamente senza lavorare troppo l'impasto."
+    },
+    {
+      "text": "Formare dei rotolini e tagliare pezzetti di circa 2 cm. Rigare ogni gnocco con i rebbi di una forchetta — i bambini possono aiutare!"
+    },
+    {
+      "text": "Per il sugo: scaldare l'olio con l'aglio, aggiungere i pomodori pelati schiacciati, sale, zucchero e basilico. Cuocere per 15 minuti a fuoco medio."
+    },
+    {
+      "text": "Cuocere gli gnocchi in abbondante acqua salata. Quando vengono a galla, scolarli e condirli con il sugo."
+    },
+    {
+      "text": "Servire con una generosa spolverata di Parmigiano e foglie di basilico fresco."
+    }
+  ],
+  "tips": [
+    "I bambini adorano rigare gli gnocchi con la forchetta — è un'attività divertente!",
+    "Se l'impasto è troppo appiccicoso, aggiungete un po' di farina alla volta.",
+    "Gli gnocchi crudi si possono congelare su un vassoio e poi trasferire in sacchetti."
+  ]
+}

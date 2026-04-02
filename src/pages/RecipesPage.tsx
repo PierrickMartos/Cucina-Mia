@@ -1,6 +1,8 @@
 import { useState, useEffect, useMemo } from "react"
 import { useSearchParams } from "react-router-dom"
+import { useTranslation } from "react-i18next"
 import Fuse from "fuse.js"
+import { useAutoAnimate } from "@formkit/auto-animate/react"
 import { SearchBar } from "@/components/SearchBar"
 import { FilterDrawer } from "@/components/FilterDrawer"
 import { RecipeCard } from "@/components/RecipeCard"
@@ -19,6 +21,9 @@ export function RecipesPage() {
     return cat ? [cat] : []
   })
   const [selectedDifficulties, setSelectedDifficulties] = useState<string[]>([])
+  const { t } = useTranslation()
+  const prefersReducedMotion = window.matchMedia("(prefers-reduced-motion: reduce)").matches
+  const [gridRef] = useAutoAnimate(prefersReducedMotion ? { duration: 0 } : { duration: 200 })
 
   useEffect(() => {
     fetch(`${BASE}data/recipes/index.json`)
@@ -76,9 +81,9 @@ export function RecipesPage() {
   return (
     <div className="px-6 py-4">
       <div className="mb-4">
-        <h1 className="font-headline text-2xl font-bold text-primary">Ricette</h1>
+        <h1 className="font-headline text-2xl font-bold text-primary">{t("recipes.title")}</h1>
         <p className="text-muted-foreground text-sm">
-          Scopri le nostre ricette italiane tradizionali
+          {t("recipes.description")}
         </p>
       </div>
 
@@ -108,11 +113,11 @@ export function RecipesPage() {
         </div>
       ) : filtered.length === 0 ? (
         <div className="text-center py-12 text-muted-foreground">
-          <p className="text-lg font-headline">Nessuna ricetta trovata</p>
-          <p className="text-sm mt-1">Prova a modificare i filtri o la ricerca</p>
+          <p className="text-lg font-headline">{t("recipes.noResults")}</p>
+          <p className="text-sm mt-1">{t("recipes.noResultsHint")}</p>
         </div>
       ) : (
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+        <div ref={gridRef} className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
           {filtered.map((recipe) => (
             <RecipeCard key={recipe.slug} recipe={recipe} />
           ))}

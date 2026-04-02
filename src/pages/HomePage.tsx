@@ -3,21 +3,10 @@ import { Link, useNavigate } from "react-router-dom"
 import { Search, SlidersHorizontal } from "lucide-react"
 import { Input } from "@/components/ui/input"
 import { Skeleton } from "@/components/ui/skeleton"
+import { useTranslation } from "react-i18next"
 import type { RecipeSummary } from "@/types/recipe"
 
 const BASE = import.meta.env.BASE_URL
-
-/** Maps a category to a display label for the card overlay */
-const CATEGORY_LABELS: Record<string, string> = {
-  Antipasti: "Entrée",
-  Primi: "Primo",
-  Secondi: "Plat",
-  Contorni: "Contorno",
-  Dolci: "Dessert",
-  Pizze: "Pizza",
-  Pane: "Pain",
-  Bevande: "Boisson",
-}
 
 interface CategoryCard {
   category: string
@@ -31,6 +20,7 @@ export function HomePage() {
   const [loading, setLoading] = useState(true)
   const [search, setSearch] = useState("")
   const navigate = useNavigate()
+  const { t } = useTranslation()
 
   useEffect(() => {
     fetch(`${BASE}data/recipes/index.json`)
@@ -51,7 +41,7 @@ export function HomePage() {
     }
     return Array.from(map.entries()).map(([category, items], _i) => ({
       category,
-      label: CATEGORY_LABELS[category] ?? category,
+      label: t(`categories.${category}`, category),
       image: items[0].image,
       count: items.length,
     }))
@@ -70,10 +60,10 @@ export function HomePage() {
       <header className="space-y-3 shrink-0">
         <div className="max-w-2xl">
           <span className="font-body text-secondary text-[10px] uppercase tracking-[0.2em] mb-1 block">
-            Le ricette del cuore
+            {t("home.subtitle")}
           </span>
           <h2 className="font-headline text-3xl text-primary font-bold tracking-tight leading-none">
-            Un Sapore di Eterna Estate
+            {t("home.title")}
           </h2>
         </div>
 
@@ -83,7 +73,7 @@ export function HomePage() {
             <Search className="text-outline h-4 w-4 mr-3 shrink-0" />
             <Input
               type="search"
-              placeholder="Cerca una ricetta..."
+              placeholder={t("home.searchPlaceholder")}
               value={search}
               onChange={(e) => setSearch(e.target.value)}
               className="bg-transparent border-none focus-visible:ring-0 focus-visible:ring-offset-0 w-full text-sm font-body placeholder:text-outline p-0 h-auto"
@@ -99,11 +89,12 @@ export function HomePage() {
       </header>
 
       {/* Category Cards Grid */}
-      <section className="flex-1 min-h-0 flex flex-col gap-3">
+      <section className="flex-1 min-h-0 overflow-y-auto pb-2">
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-3">
         {loading ? (
           <>
             {[1, 2, 3].map((i) => (
-              <div key={i} className="flex-1 min-h-0">
+              <div key={i} className="h-48">
                 <Skeleton className="h-full w-full rounded-[1.5rem]" />
               </div>
             ))}
@@ -113,9 +104,9 @@ export function HomePage() {
             <Link
               key={cat.category}
               to={`/recipes?category=${encodeURIComponent(cat.category)}`}
-              className="flex-1 group cursor-pointer min-h-0"
+              className="group cursor-pointer"
             >
-              <article className="relative h-full overflow-hidden rounded-[1.5rem] editorial-grain">
+              <article className="relative h-48 overflow-hidden rounded-[1.5rem] editorial-grain">
                 <img
                   src={`${BASE}${cat.image}`}
                   alt={cat.category}
@@ -134,6 +125,7 @@ export function HomePage() {
             </Link>
           ))
         )}
+        </div>
       </section>
     </div>
   )

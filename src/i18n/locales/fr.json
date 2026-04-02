@@ -1,0 +1,52 @@
+{
+  "nav": {
+    "home": "Accueil",
+    "recipes": "Recettes"
+  },
+  "home": {
+    "subtitle": "Les recettes du coeur",
+    "title": "Buon appetito",
+    "searchPlaceholder": "Chercher une recette..."
+  },
+  "recipes": {
+    "title": "Recettes",
+    "description": "Decouvrez nos recettes italiennes traditionnelles",
+    "noResults": "Aucune recette trouvee",
+    "noResultsHint": "Essayez de modifier les filtres ou la recherche",
+    "searchPlaceholder": "Chercher des recettes..."
+  },
+  "recipe": {
+    "notFound": "Recette introuvable",
+    "backToRecipes": "Retour aux recettes",
+    "back": "Retour",
+    "prep": "Prep :",
+    "cook": "Cuisson :",
+    "servings": "portions",
+    "ingredients": "Ingredients",
+    "instructions": "Preparation",
+    "tips": "Conseils",
+    "source": "Source",
+    "step": "Etape {{number}}"
+  },
+  "filter": {
+    "title": "Filtrer les recettes",
+    "category": "Categorie",
+    "difficulty": "Difficulte",
+    "clearAll": "Supprimer tous les filtres"
+  },
+  "categories": {
+    "Antipasti": "Entrées",
+    "Primi": "Premiers plats",
+    "Secondi": "Plats principaux",
+    "Contorni": "Accompagnements",
+    "Dolci": "Desserts",
+    "Pizze": "Pizzas",
+    "Pane": "Pains",
+    "Bevande": "Boissons"
+  },
+  "difficulties": {
+    "Facile": "Facile",
+    "Medio": "Moyen",
+    "Difficile": "Difficile"
+  }
+}

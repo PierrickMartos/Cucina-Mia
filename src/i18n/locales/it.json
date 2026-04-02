@@ -1,0 +1,53 @@
+{
+  "nav": {
+    "home": "Home",
+    "recipes": "Ricette"
+  },
+  "home": {
+    "subtitle": "Le ricette del cuore",
+    "title": "Buon appetito",
+    "searchPlaceholder": "Cerca una ricetta..."
+  },
+  "recipes": {
+    "title": "Ricette",
+    "description": "Scopri le nostre ricette italiane tradizionali",
+    "noResults": "Nessuna ricetta trovata",
+    "noResultsHint": "Prova a modificare i filtri o la ricerca",
+    "searchPlaceholder": "Cerca ricette..."
+  },
+  "recipe": {
+    "notFound": "Ricetta non trovata",
+    "backToRecipes": "Torna alle ricette",
+    "back": "Indietro",
+    "prep": "Prep:",
+    "cook": "Cottura:",
+    "servings": "porzioni",
+    "ingredients": "Ingredienti",
+    "instructions": "Procedimento",
+    "tips": "Consigli",
+    "source": "Fonte",
+    "step": "Passo {{number}}"
+  },
+  "filter": {
+    "title": "Filtra ricette",
+    "category": "Categoria",
+    "difficulty": "Difficoltà",
+    "clearAll": "Rimuovi tutti i filtri"
+  },
+  "categories": {
+    "Antipasti": "Antipasti",
+    "Primi": "Primi",
+    "Secondi": "Secondi",
+    "Contorni": "Contorni",
+    "Dolci": "Dolci",
+    "Pizze": "Pizze",
+    "Pane": "Pane",
+    "Bevande": "Bevande",
+    "Bambini": "Bambini"
+  },
+  "difficulties": {
+    "Facile": "Facile",
+    "Medio": "Medio",
+    "Difficile": "Difficile"
+  }
+}

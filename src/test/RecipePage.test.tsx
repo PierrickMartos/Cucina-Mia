@@ -2,6 +2,7 @@ import { render, screen, waitFor } from "@testing-library/react"
 import userEvent from "@testing-library/user-event"
 import { MemoryRouter, Route, Routes } from "react-router-dom"
 import { describe, it, expect, beforeEach } from "vitest"
+import i18n from "i18next"
 import { RecipePage } from "@/pages/RecipePage"
 
 const mockRecipe = {
@@ -32,6 +33,7 @@ function renderRecipePage(slug: string) {
 
 describe("RecipePage", () => {
   beforeEach(() => {
+    i18n.changeLanguage("en")
     globalThis.fetch = async () =>
       ({
         ok: true,
@@ -51,7 +53,7 @@ describe("RecipePage", () => {
     await waitFor(() => {
       expect(screen.getByText(/Prep:/)).toBeInTheDocument()
       expect(screen.getByText("10 min")).toBeInTheDocument()
-      expect(screen.getByText(/Cottura:/)).toBeInTheDocument()
+      expect(screen.getByText(/Cook:/)).toBeInTheDocument()
       expect(screen.getByText("15 min")).toBeInTheDocument()
     })
   })
@@ -70,14 +72,14 @@ describe("RecipePage", () => {
     expect(screen.getByText("400g spaghetti")).toHaveClass("line-through")
   })
 
-  it("switches to procedimento tab", async () => {
+  it("switches to instructions tab", async () => {
     const user = userEvent.setup()
     renderRecipePage("pasta-carbonara")
     await waitFor(() => {
       expect(screen.getByText("400g spaghetti")).toBeInTheDocument()
     })
 
-    await user.click(screen.getByText("Procedimento"))
+    await user.click(screen.getByText("Instructions"))
     expect(screen.getByText("Portare a ebollizione l'acqua.")).toBeInTheDocument()
     expect(screen.getByText("Rosolare il guanciale.")).toBeInTheDocument()
   })
@@ -88,7 +90,7 @@ describe("RecipePage", () => {
 
     renderRecipePage("nonexistent")
     await waitFor(() => {
-      expect(screen.getByText("Ricetta non trovata")).toBeInTheDocument()
+      expect(screen.getByText("Recipe not found")).toBeInTheDocument()
     })
   })
 

@@ -1,6 +1,7 @@
 import { render, screen, waitFor } from "@testing-library/react"
 import { MemoryRouter } from "react-router-dom"
 import { describe, it, expect, beforeEach } from "vitest"
+import i18n from "i18next"
 import { HomePage } from "@/pages/HomePage"
 
 const mockRecipes = [
@@ -40,6 +41,7 @@ function renderHomePage() {
 
 describe("HomePage", () => {
   beforeEach(() => {
+    i18n.changeLanguage("en")
     globalThis.fetch = async () =>
       ({
         json: async () => mockRecipes,
@@ -49,25 +51,25 @@ describe("HomePage", () => {
   it("renders category cards after loading", async () => {
     renderHomePage()
     await waitFor(() => {
-      expect(screen.getByText("Primo")).toBeInTheDocument()
-      expect(screen.getByText("Dessert")).toBeInTheDocument()
+      expect(screen.getByText("First courses")).toBeInTheDocument()
+      expect(screen.getByText("Desserts")).toBeInTheDocument()
     })
   })
 
   it("renders the hero headline", () => {
     renderHomePage()
-    expect(screen.getByText("Un Sapore di Eterna Estate")).toBeInTheDocument()
+    expect(screen.getByText("Buon appetito")).toBeInTheDocument()
   })
 
   it("renders search input", () => {
     renderHomePage()
-    expect(screen.getByPlaceholderText("Cerca una ricetta...")).toBeInTheDocument()
+    expect(screen.getByPlaceholderText("Search a recipe...")).toBeInTheDocument()
   })
 
   it("links category cards to filtered recipes page", async () => {
     renderHomePage()
     await waitFor(() => {
-      const primiLink = screen.getByText("Primo").closest("a")
+      const primiLink = screen.getByText("First courses").closest("a")
       expect(primiLink).toHaveAttribute("href", "/recipes?category=Primi")
     })
   })

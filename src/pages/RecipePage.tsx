@@ -1,5 +1,6 @@
 import { useState, useEffect } from "react"
 import { useParams, Link, useNavigate } from "react-router-dom"
+import { useTranslation } from "react-i18next"
 import { ArrowLeft, Clock, CookingPot, Users, ChefHat } from "lucide-react"
 import { Badge } from "@/components/ui/badge"
 import { Skeleton } from "@/components/ui/skeleton"
@@ -7,14 +8,15 @@ import type { RecipeDetail } from "@/types/recipe"
 
 const BASE = import.meta.env.BASE_URL
 
-type Tab = "ingredienti" | "procedimento"
+type Tab = "ingredients" | "instructions"
 
 export function RecipePage() {
   const { slug } = useParams<{ slug: string }>()
   const navigate = useNavigate()
+  const { t } = useTranslation()
   const [recipe, setRecipe] = useState<RecipeDetail | null>(null)
   const [loading, setLoading] = useState(true)
-  const [activeTab, setActiveTab] = useState<Tab>("ingredienti")
+  const [activeTab, setActiveTab] = useState<Tab>("ingredients")
   const [checked, setChecked] = useState<Set<string>>(new Set())
 
   useEffect(() => {
@@ -56,13 +58,13 @@ export function RecipePage() {
     return (
       <div className="px-6 py-12 text-center">
         <p className="text-lg text-muted-foreground mb-4 font-headline">
-          Ricetta non trovata
+          {t("recipe.notFound")}
         </p>
         <Link
           to="/recipes"
           className="inline-flex items-center justify-center rounded-full border border-border bg-card px-5 py-2.5 text-sm font-medium hover:bg-surface-high transition-colors"
         >
-          Torna alle ricette
+          {t("recipe.backToRecipes")}
         </Link>
       </div>
     )
@@ -76,7 +78,7 @@ export function RecipePage() {
         className="mb-3 inline-flex items-center text-sm text-muted-foreground hover:text-foreground transition-colors"
       >
         <ArrowLeft className="h-4 w-4 mr-1" />
-        Indietro
+        {t("recipe.back")}
       </button>
 
       {/* Hero Card */}
@@ -103,13 +105,13 @@ export function RecipePage() {
         <div className="flex items-center gap-2 text-sm text-foreground">
           <Clock className="h-5 w-5 text-primary" />
           <span>
-            Prep: <strong>{recipe.prepTime} min</strong>
+            {t("recipe.prep")} <strong>{recipe.prepTime} min</strong>
           </span>
         </div>
         <div className="flex items-center gap-2 text-sm text-foreground">
           <CookingPot className="h-5 w-5 text-primary" />
           <span>
-            Cottura: <strong>{recipe.cookTime} min</strong>
+            {t("recipe.cook")} <strong>{recipe.cookTime} min</strong>
           </span>
         </div>
       </div>
@@ -118,7 +120,7 @@ export function RecipePage() {
       <div className="flex items-center gap-6 mb-6 px-1">
         <div className="flex items-center gap-2 text-sm text-muted-foreground">
           <Users className="h-4 w-4" />
-          <span>{recipe.servings} porzioni</span>
+          <span>{recipe.servings} {t("recipe.servings")}</span>
         </div>
         <div className="flex items-center gap-2 text-sm text-muted-foreground">
           <ChefHat className="h-4 w-4" />
@@ -140,29 +142,29 @@ export function RecipePage() {
       {/* Tab Switcher */}
       <div className="bg-surface-high rounded-full p-1 flex mb-6">
         <button
-          onClick={() => setActiveTab("ingredienti")}
+          onClick={() => setActiveTab("ingredients")}
           className={`flex-1 rounded-full py-2.5 text-xs font-semibold uppercase tracking-widest transition-all duration-300 ${
-            activeTab === "ingredienti"
+            activeTab === "ingredients"
               ? "bg-primary text-primary-foreground shadow-sm"
               : "text-muted-foreground hover:text-foreground"
           }`}
         >
-          Ingredienti
+          {t("recipe.ingredients")}
         </button>
         <button
-          onClick={() => setActiveTab("procedimento")}
+          onClick={() => setActiveTab("instructions")}
           className={`flex-1 rounded-full py-2.5 text-xs font-semibold uppercase tracking-widest transition-all duration-300 ${
-            activeTab === "procedimento"
+            activeTab === "instructions"
               ? "bg-primary text-primary-foreground shadow-sm"
               : "text-muted-foreground hover:text-foreground"
           }`}
         >
-          Procedimento
+          {t("recipe.instructions")}
         </button>
       </div>
 
       {/* Tab Content */}
-      {activeTab === "ingredienti" ? (
+      {activeTab === "ingredients" ? (
         <section className="mb-8">
           {recipe.ingredients.map((group, gi) => (
             <div key={gi} className="mb-6">
@@ -234,7 +236,7 @@ export function RecipePage() {
                   {step.image && (
                     <img
                       src={`${BASE}${step.image}`}
-                      alt={`Passo ${i + 1}`}
+                      alt={t("recipe.step", { number: i + 1 })}
                       className="mt-3 rounded-[1rem] max-w-full"
                       loading="lazy"
                     />
@@ -249,7 +251,7 @@ export function RecipePage() {
       {/* Tips */}
       {recipe.tips && recipe.tips.length > 0 && (
         <section className="mb-6 rounded-[1.5rem] bg-surface-high p-5">
-          <h2 className="font-headline text-lg font-bold mb-3">Consigli</h2>
+          <h2 className="font-headline text-lg font-bold mb-3">{t("recipe.tips")}</h2>
           <ul className="space-y-2">
             {recipe.tips.map((tip, i) => (
               <li key={i} className="flex items-start gap-2 text-sm text-muted-foreground">
@@ -266,7 +268,7 @@ export function RecipePage() {
         <div className="rounded-[1.5rem] bg-surface-variant p-5 flex items-center gap-4">
           <div>
             <span className="text-[10px] uppercase tracking-widest text-primary font-semibold block">
-              Fonte
+              {t("recipe.source")}
             </span>
             <span className="font-semibold text-foreground">{recipe.source}</span>
           </div>

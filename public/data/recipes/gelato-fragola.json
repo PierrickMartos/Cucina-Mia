@@ -1,0 +1,49 @@
+{
+  "slug": "gelato-fragola",
+  "title": "Gelato alla Fragola",
+  "description": "Gelato cremoso alla fragola fatto in casa, senza gelatiera — fresco, naturale e adorato dai bambini!",
+  "image": "images/recipes/gelato-fragola/cover.svg",
+  "prepTime": 20,
+  "cookTime": 0,
+  "servings": 6,
+  "difficulty": "Facile",
+  "category": "Bambini",
+  "tags": ["gelato", "bambini", "fragola", "no-cottura", "dolce"],
+  "ingredients": [
+    {
+      "items": [
+        "400 g di fragole fresche mature",
+        "200 ml di panna fresca",
+        "150 g di zucchero a velo",
+        "200 g di yogurt greco",
+        "1 cucchiaio di succo di limone",
+        "Codette colorate per decorare"
+      ]
+    }
+  ],
+  "steps": [
+    {
+      "text": "Lavare le fragole, togliere il picciolo e tagliarle a pezzetti. Frullarle con lo zucchero a velo e il succo di limone fino a ottenere una purea liscia."
+    },
+    {
+      "text": "In una ciotola a parte, montare la panna fresca fino a ottenere una consistenza soffice ma non troppo ferma."
+    },
+    {
+      "text": "Mescolare lo yogurt greco alla purea di fragole."
+    },
+    {
+      "text": "Incorporare delicatamente la panna montata al composto di fragole con movimenti dal basso verso l'alto."
+    },
+    {
+      "text": "Versare in un contenitore adatto al freezer e congelare per almeno 4 ore, mescolando con una forchetta ogni 45 minuti per le prime 3 ore."
+    },
+    {
+      "text": "Togliere dal freezer 10 minuti prima di servire. Formare le palline con un porzionatore e decorare con codette colorate!"
+    }
+  ],
+  "tips": [
+    "I bambini possono aiutare a frullare le fragole e decorare il gelato.",
+    "Per un gelato ancora più cremoso, sostituite metà yogurt con latte condensato.",
+    "Si può fare anche con mirtilli, pesche o banane."
+  ]
+}

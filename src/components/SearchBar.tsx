@@ -1,5 +1,6 @@
 import { Search } from "lucide-react"
 import { Input } from "@/components/ui/input"
+import { useTranslation } from "react-i18next"
 
 interface SearchBarProps {
   value: string
@@ -7,12 +8,13 @@ interface SearchBarProps {
 }
 
 export function SearchBar({ value, onChange }: SearchBarProps) {
+  const { t } = useTranslation()
   return (
     <div className="relative flex items-center bg-surface-high rounded-full px-4 py-2 transition-all duration-300 focus-within:bg-card focus-within:ring-1 focus-within:ring-primary/20">
       <Search className="text-outline h-4 w-4 mr-3 shrink-0" />
       <Input
         type="search"
-        placeholder="Cerca ricette..."
+        placeholder={t("recipes.searchPlaceholder")}
         value={value}
         onChange={(e) => onChange(e.target.value)}
         className="bg-transparent border-none focus-visible:ring-0 focus-visible:ring-offset-0 w-full text-sm font-body placeholder:text-outline p-0 h-auto"
