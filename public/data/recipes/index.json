@@ -1764,5 +1764,70 @@
         ]
       }
     }
+  },
+  {
+    "slug": "poulet-au-curry",
+    "title": "Poulet au curry",
+    "description": "Un curry de poulet facile et parfumé, mijoté avec du lait de coco, des tomates et des épices doucement relevées.",
+    "images": {
+      "cover": "images/recipes/poulet-au-curry/cover.jpg",
+      "web": "images/recipes/poulet-au-curry/web.jpg"
+    },
+    "prepTime": 25,
+    "cookTime": 30,
+    "servings": 4,
+    "difficulty": "Facile",
+    "category": "Secondi",
+    "tags": [
+      "mijoté",
+      "poêle",
+      "poulet",
+      "plat-principal",
+      "asiatique",
+      "réconfortant",
+      "épicé",
+      "sans-gluten",
+      "rapide",
+      "chaud",
+      "toute-la-famille"
+    ],
+    "ingredientCount": 11,
+    "stepCount": 4,
+    "translations": {
+      "en": {
+        "title": "Chicken Curry",
+        "description": "An easy and fragrant chicken curry, simmered with coconut milk, tomatoes and gently spiced aromatics.",
+        "tags": [
+          "simmered",
+          "pan",
+          "chicken",
+          "main-course",
+          "asian",
+          "comforting",
+          "spicy",
+          "gluten-free",
+          "quick",
+          "hot",
+          "family-friendly"
+        ]
+      },
+      "it": {
+        "title": "Pollo al curry",
+        "description": "Un curry di pollo facile e profumato, cotto a fuoco lento con latte di cocco, pomodori e spezie delicatamente piccanti.",
+        "tags": [
+          "stufato",
+          "padella",
+          "pollo",
+          "piatto-principale",
+          "asiatico",
+          "confortante",
+          "piccante",
+          "senza-glutine",
+          "veloce",
+          "caldo",
+          "tutta-la-famiglia"
+        ]
+      }
+    }
   }
 ]
