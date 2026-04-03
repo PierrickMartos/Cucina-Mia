@@ -1,5 +1,6 @@
 import { SlidersHorizontal } from "lucide-react"
-import { useState } from "react"
+import { useRef, useState } from "react"
+import { FocusTrap } from "focus-trap-react"
 import { useTranslation } from "react-i18next"
 import { Button } from "@/components/ui/button"
 import { Badge } from "@/components/ui/badge"
@@ -65,6 +66,7 @@ export function FilterDrawer({
 }: FilterDrawerProps) {
   const [open, setOpen] = useState(defaultOpen)
   const { t } = useTranslation()
+  const triggerRef = useRef<HTMLButtonElement>(null)
 
   const activeCount =
     selectedCategories.length +
@@ -154,6 +156,7 @@ export function FilterDrawer({
   return (
     <>
       <button
+        ref={triggerRef}
         onClick={() => setOpen(true)}
         aria-label={t("filter.openFilters", "Open filters")}
         className="cursor-pointer flex items-center justify-center gradient-primary text-primary-foreground w-10 h-10 rounded-full hover:opacity-90 transition-all active:scale-95 duration-300 shrink-0 relative"
@@ -167,6 +170,14 @@ export function FilterDrawer({
       </button>
 
       <Sheet open={open} onOpenChange={setOpen}>
+        <FocusTrap
+          active={open}
+          focusTrapOptions={{
+            returnFocusOnDeactivate: false,
+            onDeactivate: () => triggerRef.current?.focus(),
+            allowOutsideClick: true,
+          }}
+        >
         <SheetContent onClose={() => setOpen(false)} className="bg-surface">
           <SheetHeader>
             <SheetTitle className="font-headline text-lg font-bold text-foreground">
@@ -371,6 +382,7 @@ export function FilterDrawer({
             )}
           </div>
         </SheetContent>
+        </FocusTrap>
       </Sheet>
     </>
   )
