@@ -188,6 +188,7 @@ export function FilterDrawer({
                         ? "cursor-pointer gradient-primary text-primary-foreground"
                         : "cursor-pointer text-muted-foreground hover:bg-surface-high"
                     }
+                    aria-pressed={selectedCategories.includes(cat)}
                     onClick={() => toggleCategory(cat)}
                   >
                     {t(`categories.${cat}`, cat)}
@@ -210,6 +211,7 @@ export function FilterDrawer({
                         ? "cursor-pointer gradient-primary text-primary-foreground"
                         : "cursor-pointer text-muted-foreground hover:bg-surface-high"
                     }
+                    aria-pressed={selectedDifficulties.includes(diff)}
                     onClick={() => toggleDifficulty(diff)}
                   >
                     {t(`difficulties.${diff}`, diff)}
@@ -232,6 +234,7 @@ export function FilterDrawer({
                         ? "cursor-pointer gradient-primary text-primary-foreground"
                         : "cursor-pointer text-muted-foreground hover:bg-surface-high"
                     }
+                    aria-pressed={selectedTimes.includes(bucket)}
                     onClick={() => toggleTime(bucket)}
                   >
                     {t(`timeOptions.${bucket}`)}
@@ -254,6 +257,7 @@ export function FilterDrawer({
                         ? "cursor-pointer gradient-primary text-primary-foreground"
                         : "cursor-pointer text-muted-foreground hover:bg-surface-high"
                     }
+                    aria-pressed={selectedPrepTimes.includes(bucket)}
                     onClick={() => togglePrepTime(bucket)}
                   >
                     {t(`prepTimeOptions.${bucket}`)}
@@ -276,6 +280,7 @@ export function FilterDrawer({
                         ? "cursor-pointer gradient-primary text-primary-foreground"
                         : "cursor-pointer text-muted-foreground hover:bg-surface-high"
                     }
+                    aria-pressed={selectedSteps.includes(bucket)}
                     onClick={() => toggleSteps(bucket)}
                   >
                     {t(`stepsOptions.${bucket}`)}
@@ -298,6 +303,7 @@ export function FilterDrawer({
                         ? "cursor-pointer gradient-primary text-primary-foreground"
                         : "cursor-pointer text-muted-foreground hover:bg-surface-high"
                     }
+                    aria-pressed={selectedIngredients.includes(bucket)}
                     onClick={() => toggleIngredients(bucket)}
                   >
                     {t(`ingredientsOptions.${bucket}`)}
@@ -320,6 +326,7 @@ export function FilterDrawer({
                         ? "cursor-pointer gradient-primary text-primary-foreground"
                         : "cursor-pointer text-muted-foreground hover:bg-surface-high"
                     }
+                    aria-pressed={selectedDietTags.includes(tag)}
                     onClick={() => toggleDietTag(tag)}
                   >
                     {t(`tags.${tag}`, tag)}
@@ -342,6 +349,7 @@ export function FilterDrawer({
                         ? "cursor-pointer gradient-primary text-primary-foreground"
                         : "cursor-pointer text-muted-foreground hover:bg-surface-high"
                     }
+                    aria-pressed={selectedSeasonTags.includes(tag)}
                     onClick={() => toggleSeasonTag(tag)}
                   >
                     {t(`tags.${tag}`, tag)}
