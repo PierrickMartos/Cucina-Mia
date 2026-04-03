@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom"
 import { useTranslation } from "react-i18next"
-import { Clock, Users } from "lucide-react"
+import { Clock, Users, ArrowRight } from "lucide-react"
 import { Card, CardContent } from "@/components/ui/card"
 import { Badge } from "@/components/ui/badge"
 import { localizeRecipeSummary } from "@/lib/localize"
@@ -24,7 +24,7 @@ export function RecipeCard({ recipe: rawRecipe }: { recipe: RecipeSummary }) {
             loading="lazy"
           />
         </div>
-        <CardContent className="px-5 pb-5 pt-0">
+        <CardContent className="relative px-5 pb-5 pt-0">
           <div className="flex items-center gap-2 mb-3">
             <Badge variant="secondary" className="text-[10px] uppercase tracking-wider">
               {t(`categories.${recipe.category}`, recipe.category)}
@@ -48,6 +48,9 @@ export function RecipeCard({ recipe: rawRecipe }: { recipe: RecipeSummary }) {
               <Users className="h-3.5 w-3.5" />
               {recipe.servings}
             </span>
+          </div>
+          <div className="absolute bottom-5 right-5 w-9 h-9 rounded-full border border-foreground/20 flex items-center justify-center text-foreground transition-all duration-700 group-hover:translate-x-1.5 hover:bg-primary hover:border-primary hover:text-primary-foreground">
+            <ArrowRight className="h-4 w-4" />
           </div>
         </CardContent>
       </Card>
