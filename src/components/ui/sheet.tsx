@@ -45,7 +45,7 @@ function SheetContent({
   return (
     <div
       className={cn(
-        "fixed inset-y-0 right-0 z-50 flex h-full w-3/4 max-w-sm flex-col gap-4 bg-surface/70 backdrop-blur-[20px] p-6 shadow-ambient transition-transform",
+        "fixed inset-y-0 right-0 z-50 flex h-full w-3/4 max-w-sm flex-col gap-4 bg-surface/70 backdrop-blur-[20px] p-6 shadow-ambient transition-transform overflow-hidden",
         className
       )}
     >
