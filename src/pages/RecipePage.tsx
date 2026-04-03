@@ -177,6 +177,7 @@ export function RecipePage() {
         {/* Back button overlaid on image */}
         <button
           onClick={() => navigate(-1)}
+          aria-label={t("recipe.back")}
           className={`cursor-pointer absolute top-4 left-4 z-10 inline-flex items-center justify-center h-10 w-10 rounded-full bg-black/30 backdrop-blur-sm text-white hover:bg-black/50 transition-all duration-200 ${
             headerBackVisible ? "opacity-0 pointer-events-none" : "opacity-100"
           }`}
@@ -395,7 +396,7 @@ export function RecipePage() {
                   {step.image && (
                     <img
                       src={`${BASE}${step.image}`}
-                      alt={t("recipe.step", { number: i + 1 })}
+                      alt={step.text}
                       className="mt-3 rounded-xl max-w-full"
                       loading="lazy"
                     />
@@ -485,7 +486,7 @@ export function RecipePage() {
                   {step.image && (
                     <img
                       src={`${BASE}${step.image}`}
-                      alt={t("recipe.step", { number: i + 1 })}
+                      alt={step.text}
                       className="mt-3 rounded-xl max-w-full"
                       loading="lazy"
                     />

@@ -155,6 +155,7 @@ export function FilterDrawer({
     <>
       <button
         onClick={() => setOpen(true)}
+        aria-label={t("filter.openFilters", "Open filters")}
         className="cursor-pointer flex items-center justify-center gradient-primary text-primary-foreground w-10 h-10 rounded-full hover:opacity-90 transition-all active:scale-95 duration-300 shrink-0 relative"
       >
         <SlidersHorizontal className="h-4 w-4" />
