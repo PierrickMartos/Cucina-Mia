@@ -17,7 +17,7 @@
   "cookTime": 30,
   "servings": 4,
   "difficulty": "Facile",
-  "category": "Secondi",
+  "category": "Risotto",
   "tags": [
     "pâtes",
     "fromage",
@@ -63,7 +63,18 @@
     "en": {
       "title": "Mac & Cheese Risotto Style",
       "description": "Macaroni cooked risotto-style in beef stock, then coated in a creamy cheddar sauce — the French take on mac & cheese.",
-      "tags": ["pasta", "cheese", "cheddar", "comfort-food", "quick", "main-course", "creamy", "american", "french", "kids"],
+      "tags": [
+        "pasta",
+        "cheese",
+        "cheddar",
+        "comfort-food",
+        "quick",
+        "main-course",
+        "creamy",
+        "american",
+        "french",
+        "kids"
+      ],
       "ingredients": [
         {
           "items": [
@@ -97,7 +108,18 @@
     "it": {
       "title": "Maccheroni al Formaggio alla Maniera del Risotto",
       "description": "Maccheroni cotti alla maniera del risotto nel brodo di manzo, avvolti in una cremosa salsa al cheddar — il mac & cheese alla francese.",
-      "tags": ["pasta", "formaggio", "cheddar", "comfort-food", "veloce", "primo-piatto", "cremoso", "americano", "francese", "bambini"],
+      "tags": [
+        "pasta",
+        "formaggio",
+        "cheddar",
+        "comfort-food",
+        "veloce",
+        "primo-piatto",
+        "cremoso",
+        "americano",
+        "francese",
+        "bambini"
+      ],
       "ingredients": [
         {
           "items": [

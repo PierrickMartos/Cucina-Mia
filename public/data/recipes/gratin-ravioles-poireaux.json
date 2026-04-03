@@ -16,7 +16,7 @@
   "cookTime": 25,
   "servings": 2,
   "difficulty": "Facile",
-  "category": "Secondi",
+  "category": "Pasta",
   "tags": [
     "four",
     "végétarien",
@@ -59,7 +59,18 @@
     "en": {
       "title": "Ravioles and Leek Gratin",
       "description": "A comforting and quick gratin of Dauphiné ravioles and tender leeks in a whole-grain mustard cream.",
-      "tags": ["oven", "vegetarian", "quick", "cheese", "comforting", "french", "main-course", "light", "economical", "pasta"],
+      "tags": [
+        "oven",
+        "vegetarian",
+        "quick",
+        "cheese",
+        "comforting",
+        "french",
+        "main-course",
+        "light",
+        "economical",
+        "pasta"
+      ],
       "ingredients": [
         {
           "items": [
@@ -90,7 +101,18 @@
     "it": {
       "title": "Gratin di Raviole e Porri",
       "description": "Un gratin confortante e veloce di ravioli del Delfinato e porri teneri, avvolti in una crema alla senape in grani.",
-      "tags": ["forno", "vegetariano", "veloce", "formaggio", "confortante", "francese", "piatto-principale", "leggero", "economico", "pasta"],
+      "tags": [
+        "forno",
+        "vegetariano",
+        "veloce",
+        "formaggio",
+        "confortante",
+        "francese",
+        "piatto-principale",
+        "leggero",
+        "economico",
+        "pasta"
+      ],
       "ingredients": [
         {
           "items": [

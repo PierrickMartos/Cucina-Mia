@@ -204,7 +204,12 @@ export function RecipesPage() {
   return (
     <div className="px-6 py-6">
       <div className="mb-6">
-        <h1 className="font-headline text-3xl font-bold text-primary tracking-[-0.02em]">{t("recipes.title")}</h1>
+        <h1 className="font-headline text-3xl font-bold text-primary tracking-[-0.02em]">
+          {t("recipes.title")}
+          {selectedCategories.length === 1 && (
+            <span className="text-secondary font-light"> · {t(`categories.${selectedCategories[0]}`, selectedCategories[0])}</span>
+          )}
+        </h1>
         <span className="font-body text-secondary text-[10px] uppercase tracking-[0.2em] block mt-2">
           {!loading && filtered.length > 0 && (
             <span className="mr-1 text-primary font-semibold">{filtered.length} ·</span>

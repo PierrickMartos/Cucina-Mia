@@ -14,7 +14,7 @@
   "cookTime": 10,
   "servings": 4,
   "difficulty": "Facile",
-  "category": "Secondi",
+  "category": "Pasta",
   "tags": [
     "pâtes",
     "porc",
@@ -59,7 +59,18 @@
     "en": {
       "title": "Macaroni with Ham and Black Truffle",
       "description": "Pasta tubes sautéed in butter and simmered in chicken stock, topped with sliced cooked ham and shaved black truffle, served with grated parmesan.",
-      "tags": ["pasta", "pork", "quick", "comforting", "festive", "cheese", "hot", "indulgent", "main-course", "french"],
+      "tags": [
+        "pasta",
+        "pork",
+        "quick",
+        "comforting",
+        "festive",
+        "cheese",
+        "hot",
+        "indulgent",
+        "main-course",
+        "french"
+      ],
       "ingredients": [
         {
           "items": [
@@ -91,7 +102,18 @@
     "it": {
       "title": "Coquillettes Prosciutto e Tartufo Nero",
       "description": "Coquillettes saltate nel burro e cotte nel brodo di pollo, guarnite con lamelle di prosciutto cotto e tartufo nero affettato, servite con parmigiano grattugiato.",
-      "tags": ["pasta", "maiale", "veloce", "confortante", "festivo", "formaggio", "caldo", "goloso", "primo-piatto", "francese"],
+      "tags": [
+        "pasta",
+        "maiale",
+        "veloce",
+        "confortante",
+        "festivo",
+        "formaggio",
+        "caldo",
+        "goloso",
+        "primo-piatto",
+        "francese"
+      ],
       "ingredients": [
         {
           "items": [

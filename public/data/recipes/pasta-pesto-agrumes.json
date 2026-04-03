@@ -14,7 +14,7 @@
   "cookTime": 10,
   "servings": 4,
   "difficulty": "Facile",
-  "category": "Secondi",
+  "category": "Pasta",
   "tags": [
     "végétarien",
     "sans-lactose",
@@ -70,7 +70,18 @@
     "en": {
       "title": "Pasta with Sicilian Citrus Pesto",
       "description": "Pasta tossed with a Sicilian citrus and basil pesto, a creamy no-cook sauce made with oranges, pink grapefruit, and almonds.",
-      "tags": ["vegetarian", "dairy-free", "mediterranean", "summer", "quick", "light", "tangy", "main-course", "pasta", "food-processor"],
+      "tags": [
+        "vegetarian",
+        "dairy-free",
+        "mediterranean",
+        "summer",
+        "quick",
+        "light",
+        "tangy",
+        "main-course",
+        "pasta",
+        "food-processor"
+      ],
       "ingredients": [
         {
           "items": [
@@ -114,7 +125,18 @@
     "it": {
       "title": "Pasta al Pesto di Agrumi Siciliano",
       "description": "Pasta condita con un pesto siciliano di agrumi e basilico, una salsa cremosa a freddo con arance, pompelmo rosa e mandorle.",
-      "tags": ["vegetariano", "senza-lattosio", "mediterraneo", "estate", "veloce", "leggero", "acidulo", "primo-piatto", "pasta", "robot-da-cucina"],
+      "tags": [
+        "vegetariano",
+        "senza-lattosio",
+        "mediterraneo",
+        "estate",
+        "veloce",
+        "leggero",
+        "acidulo",
+        "primo-piatto",
+        "pasta",
+        "robot-da-cucina"
+      ],
       "ingredients": [
         {
           "items": [

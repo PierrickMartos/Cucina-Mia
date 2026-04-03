@@ -17,7 +17,7 @@
   "cookTime": 20,
   "servings": 4,
   "difficulty": "Facile",
-  "category": "Secondi",
+  "category": "Risotto",
   "tags": [
     "riz",
     "risotto",
@@ -75,7 +75,18 @@
     "en": {
       "title": "Rocket, Parma Ham and Mascarpone Risotto",
       "description": "A creamy mascarpone risotto topped with melt-in-your-mouth cured ham and fresh rocket — Italian elegance in 30 minutes.",
-      "tags": ["rice", "risotto", "ham", "cheese", "mascarpone", "italian", "quick", "main-course", "hot", "creamy"],
+      "tags": [
+        "rice",
+        "risotto",
+        "ham",
+        "cheese",
+        "mascarpone",
+        "italian",
+        "quick",
+        "main-course",
+        "hot",
+        "creamy"
+      ],
       "ingredients": [
         {
           "items": [
@@ -121,7 +132,18 @@
     "it": {
       "title": "Risotto con Rucola, Prosciutto Crudo e Mascarpone",
       "description": "Un risotto cremoso al mascarpone guarnito con prosciutto crudo fondente e rucola fresca — l'eleganza italiana in 30 minuti.",
-      "tags": ["riso", "risotto", "prosciutto", "formaggio", "mascarpone", "italiano", "veloce", "primo-piatto", "caldo", "cremoso"],
+      "tags": [
+        "riso",
+        "risotto",
+        "prosciutto",
+        "formaggio",
+        "mascarpone",
+        "italiano",
+        "veloce",
+        "primo-piatto",
+        "caldo",
+        "cremoso"
+      ],
       "ingredients": [
         {
           "items": [

@@ -16,7 +16,7 @@
   "cookTime": 20,
   "servings": 4,
   "difficulty": "Facile",
-  "category": "Secondi",
+  "category": "Risotto",
   "tags": [
     "riz",
     "risotto",
@@ -70,7 +70,18 @@
     "en": {
       "title": "Milanese Risotto",
       "description": "The great Milanese classic: a saffron and bone marrow risotto with a brilliant golden-yellow hue, creamy and aromatic.",
-      "tags": ["rice", "risotto", "saffron", "cheese", "italian", "milanese", "quick", "main-course", "hot", "traditional"],
+      "tags": [
+        "rice",
+        "risotto",
+        "saffron",
+        "cheese",
+        "italian",
+        "milanese",
+        "quick",
+        "main-course",
+        "hot",
+        "traditional"
+      ],
       "ingredients": [
         {
           "items": [
@@ -112,7 +123,18 @@
     "it": {
       "title": "Risotto alla Milanese",
       "description": "Il grande classico milanese: un risotto di un giallo dorato luminoso allo zafferano e al midollo di bue, cremoso e profumato.",
-      "tags": ["riso", "risotto", "zafferano", "formaggio", "italiano", "milanese", "veloce", "primo-piatto", "caldo", "tradizionale"],
+      "tags": [
+        "riso",
+        "risotto",
+        "zafferano",
+        "formaggio",
+        "italiano",
+        "milanese",
+        "veloce",
+        "primo-piatto",
+        "caldo",
+        "tradizionale"
+      ],
       "ingredients": [
         {
           "items": [

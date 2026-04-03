@@ -80,6 +80,9 @@
   },
   "categories": {
     "Antipasti": "Entrées",
+    "Pasta": "Pâtes",
+    "Gnocchi": "Gnocchi",
+    "Risotto": "Risotto",
     "Secondi": "Plats principaux",
     "Contorni": "Accompagnements",
     "Dolci": "Desserts",

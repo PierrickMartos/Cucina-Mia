@@ -16,7 +16,7 @@
   "cookTime": 15,
   "servings": 2,
   "difficulty": "Facile",
-  "category": "Secondi",
+  "category": "Pasta",
   "tags": [
     "pâtes",
     "végétarien",
@@ -69,7 +69,18 @@
     "en": {
       "title": "Penne with Goat Cheese Cream and Walnuts",
       "description": "Creamy penne with fresh goat cheese, melt-in-the-mouth leek and crunchy walnuts — a complete dish ready in 15 minutes.",
-      "tags": ["pasta", "vegetarian", "quick", "cheese", "goat-cheese", "walnuts", "main-course", "budget", "easy", "5-ingredients"],
+      "tags": [
+        "pasta",
+        "vegetarian",
+        "quick",
+        "cheese",
+        "goat-cheese",
+        "walnuts",
+        "main-course",
+        "budget",
+        "easy",
+        "5-ingredients"
+      ],
       "ingredients": [
         {
           "items": [
@@ -110,7 +121,18 @@
     "it": {
       "title": "Penne alla Crema di Caprino e Noci",
       "description": "Penne cremose con caprino fresco, porro morbido e noci croccanti — un piatto completo pronto in 15 minuti.",
-      "tags": ["pasta", "vegetariano", "veloce", "formaggio", "caprino", "noci", "primo-piatto", "economico", "facile", "5-ingredienti"],
+      "tags": [
+        "pasta",
+        "vegetariano",
+        "veloce",
+        "formaggio",
+        "caprino",
+        "noci",
+        "primo-piatto",
+        "economico",
+        "facile",
+        "5-ingredienti"
+      ],
       "ingredients": [
         {
           "items": [

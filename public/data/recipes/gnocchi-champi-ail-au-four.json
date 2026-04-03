@@ -16,7 +16,7 @@
   "cookTime": 22,
   "servings": 4,
   "difficulty": "Facile",
-  "category": "Secondi",
+  "category": "Gnocchi",
   "tags": [
     "four",
     "végétalien",
@@ -70,7 +70,18 @@
     "en": {
       "title": "Oven-Baked Garlic Mushroom Gnocchi",
       "description": "Soft gnocchi and roasted mushrooms with garlic all on one baking tray — a vegan dish ready in 30 minutes, zero washing up.",
-      "tags": ["oven", "vegan", "vegetarian", "mushrooms", "garlic", "quick", "one-pot", "budget", "main-course", "easy"],
+      "tags": [
+        "oven",
+        "vegan",
+        "vegetarian",
+        "mushrooms",
+        "garlic",
+        "quick",
+        "one-pot",
+        "budget",
+        "main-course",
+        "easy"
+      ],
       "ingredients": [
         {
           "items": [
@@ -112,7 +123,18 @@
     "it": {
       "title": "Gnocchi con Funghi e Aglio al Forno",
       "description": "Gnocchi morbidi e funghi arrostiti all'aglio in un'unica teglia — un piatto vegano pronto in 30 minuti, senza sporcare nulla.",
-      "tags": ["forno", "vegano", "vegetariano", "funghi", "aglio", "veloce", "one-pot", "economico", "piatto-principale", "facile"],
+      "tags": [
+        "forno",
+        "vegano",
+        "vegetariano",
+        "funghi",
+        "aglio",
+        "veloce",
+        "one-pot",
+        "economico",
+        "piatto-principale",
+        "facile"
+      ],
       "ingredients": [
         {
           "items": [

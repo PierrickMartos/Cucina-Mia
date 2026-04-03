@@ -10,7 +10,7 @@
   "cookTime": 30,
   "servings": 4,
   "difficulty": "Facile",
-  "category": "Secondi",
+  "category": "Pasta",
   "tags": [
     "pâtes",
     "porc",
@@ -78,7 +78,18 @@
     "en": {
       "title": "Pasta all'Amatriciana",
       "description": "Iconic Roman sauce with guanciale and tomatoes, enriched with pecorino romano, served over bucatini pasta.",
-      "tags": ["pasta", "pork", "tomato", "cheese", "italian", "traditional", "quick", "main-course", "comforting", "hot"],
+      "tags": [
+        "pasta",
+        "pork",
+        "tomato",
+        "cheese",
+        "italian",
+        "traditional",
+        "quick",
+        "main-course",
+        "comforting",
+        "hot"
+      ],
       "ingredients": [
         {
           "items": [
@@ -130,7 +141,18 @@
     "it": {
       "title": "Pasta all'Amatriciana",
       "description": "Iconico sugo romano con guanciale e pomodori, arricchito con pecorino romano, servito su bucatini.",
-      "tags": ["pasta", "maiale", "pomodoro", "formaggio", "italiano", "tradizionale", "veloce", "primo-piatto", "confortante", "caldo"],
+      "tags": [
+        "pasta",
+        "maiale",
+        "pomodoro",
+        "formaggio",
+        "italiano",
+        "tradizionale",
+        "veloce",
+        "primo-piatto",
+        "confortante",
+        "caldo"
+      ],
       "ingredients": [
         {
           "items": [

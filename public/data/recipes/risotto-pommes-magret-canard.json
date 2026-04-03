@@ -10,7 +10,7 @@
   "cookTime": 30,
   "servings": 4,
   "difficulty": "Facile",
-  "category": "Secondi",
+  "category": "Risotto",
   "tags": [
     "riz",
     "risotto",
@@ -75,7 +75,18 @@
     "en": {
       "title": "Risotto with Apples and Dried Duck Breast",
       "description": "A risotto with a subtle sweet-savory balance: caramelized apples and slices of dried duck breast on a bed of creamy grain.",
-      "tags": ["barley", "risotto", "duck", "apples", "sweet-savory", "autumn", "festive", "main-course", "french", "creamy"],
+      "tags": [
+        "barley",
+        "risotto",
+        "duck",
+        "apples",
+        "sweet-savory",
+        "autumn",
+        "festive",
+        "main-course",
+        "french",
+        "creamy"
+      ],
       "ingredients": [
         {
           "items": [
@@ -123,7 +134,18 @@
     "it": {
       "title": "Risotto con Mele e Magret d'Anatra Essiccato",
       "description": "Un risotto dal sottile equilibrio dolce-salato: mele caramellate e fette di magret d'anatra essiccato su un letto di cereale cremoso.",
-      "tags": ["orzo", "risotto", "anatra", "mele", "dolce-salato", "autunno", "festivo", "primo-piatto", "francese", "cremoso"],
+      "tags": [
+        "orzo",
+        "risotto",
+        "anatra",
+        "mele",
+        "dolce-salato",
+        "autunno",
+        "festivo",
+        "primo-piatto",
+        "francese",
+        "cremoso"
+      ],
       "ingredients": [
         {
           "items": [

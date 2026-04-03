@@ -10,7 +10,7 @@
   "cookTime": 15,
   "servings": 4,
   "difficulty": "Medio",
-  "category": "Secondi",
+  "category": "Pasta",
   "tags": [
     "pâtes",
     "porc",
@@ -67,7 +67,18 @@
     "en": {
       "title": "Pasta alla Carbonara",
       "description": "The authentic Roman carbonara with crispy guanciale, whole eggs and pecorino romano, no cream, no onions.",
-      "tags": ["pasta", "pork", "eggs", "cheese", "italian", "traditional", "quick", "main-course", "creamy", "hot"],
+      "tags": [
+        "pasta",
+        "pork",
+        "eggs",
+        "cheese",
+        "italian",
+        "traditional",
+        "quick",
+        "main-course",
+        "creamy",
+        "hot"
+      ],
       "ingredients": [
         {
           "items": [
@@ -112,7 +123,18 @@
     "it": {
       "title": "Pasta alla Carbonara",
       "description": "La vera carbonara romana con guanciale croccante, uova intere e pecorino romano, senza panna né cipolle.",
-      "tags": ["pasta", "maiale", "uova", "formaggio", "italiano", "tradizionale", "veloce", "primo-piatto", "cremoso", "caldo"],
+      "tags": [
+        "pasta",
+        "maiale",
+        "uova",
+        "formaggio",
+        "italiano",
+        "tradizionale",
+        "veloce",
+        "primo-piatto",
+        "cremoso",
+        "caldo"
+      ],
       "ingredients": [
         {
           "items": [

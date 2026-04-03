@@ -14,7 +14,7 @@
   "cookTime": 3,
   "servings": 4,
   "difficulty": "Medio",
-  "category": "Secondi",
+  "category": "Pasta",
   "tags": [
     "pâtes",
     "porc",
@@ -88,7 +88,17 @@
     "en": {
       "title": "Country Ham and Fresh Goat Cheese Ravioli with Pesto and Rocket",
       "description": "Ravioles filled with fresh goat cheese and country ham, topped with basil pesto and served with arugula and sun-dried tomatoes.",
-      "tags": ["pasta", "pork", "cheese", "pesto", "festive", "main-course", "french", "hot", "creamy"],
+      "tags": [
+        "pasta",
+        "pork",
+        "cheese",
+        "pesto",
+        "festive",
+        "main-course",
+        "french",
+        "hot",
+        "creamy"
+      ],
       "ingredients": [
         {
           "group": "For the ravioles",
@@ -150,7 +160,17 @@
     "it": {
       "title": "Ravioli di Prosciutto Crudo e Caprino Fresco con Pesto e Rucola",
       "description": "Ravioli ripieni di caprino fresco e prosciutto crudo, nappati di pesto al basilico e serviti con rucola e pomodori secchi.",
-      "tags": ["pasta", "maiale", "formaggio", "pesto", "festivo", "primo-piatto", "francese", "caldo", "cremoso"],
+      "tags": [
+        "pasta",
+        "maiale",
+        "formaggio",
+        "pesto",
+        "festivo",
+        "primo-piatto",
+        "francese",
+        "caldo",
+        "cremoso"
+      ],
       "ingredients": [
         {
           "group": "Per i ravioli",

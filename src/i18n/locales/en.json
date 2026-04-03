@@ -80,6 +80,9 @@
   },
   "categories": {
     "Antipasti": "Starters",
+    "Pasta": "Pasta",
+    "Gnocchi": "Gnocchi",
+    "Risotto": "Risotto",
     "Secondi": "Main courses",
     "Dolci": "Desserts",
     "Pizze": "Pizzas",

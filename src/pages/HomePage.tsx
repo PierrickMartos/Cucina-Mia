@@ -13,7 +13,10 @@ const BASE = import.meta.env.BASE_URL
 
 const CATEGORY_IMAGES: Record<string, string> = {
   Antipasti: "images/categories/antipasti.jpg",
-  Secondi: "images/categories/pasta.jpg",
+  Pasta: "images/categories/pasta.jpg",
+  Gnocchi: "images/categories/gnocchi.jpg",
+  Risotto: "images/categories/risotto.jpg",
+  Secondi: "images/categories/secondi.jpg",
   Pizze: "images/categories/pizza.jpg",
   Pane: "images/categories/focacia.jpg",
   Dolci: "images/categories/dolci.jpg",

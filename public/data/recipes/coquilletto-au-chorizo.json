@@ -14,7 +14,7 @@
   "cookTime": 30,
   "servings": 4,
   "difficulty": "Facile",
-  "category": "Secondi",
+  "category": "Pasta",
   "tags": [
     "pâtes",
     "chorizo",
@@ -67,7 +67,18 @@
     "en": {
       "title": "Coquilletto with Chorizo",
       "description": "Shell pasta cooked risotto-style in amber beer with crispy chorizo — a comforting and original dish.",
-      "tags": ["pasta", "chorizo", "pork", "beer", "quick", "comforting", "main-course", "cheese", "spicy", "french"],
+      "tags": [
+        "pasta",
+        "chorizo",
+        "pork",
+        "beer",
+        "quick",
+        "comforting",
+        "main-course",
+        "cheese",
+        "spicy",
+        "french"
+      ],
       "ingredients": [
         {
           "items": [
@@ -108,7 +119,18 @@
     "it": {
       "title": "Coquillette al Chorizo",
       "description": "Coquillette cotte come un risotto nella birra ambrata con chorizo croccante — un piatto confortante e originale.",
-      "tags": ["pasta", "chorizo", "maiale", "birra", "veloce", "confortante", "piatto-principale", "formaggio", "speziato", "francese"],
+      "tags": [
+        "pasta",
+        "chorizo",
+        "maiale",
+        "birra",
+        "veloce",
+        "confortante",
+        "piatto-principale",
+        "formaggio",
+        "speziato",
+        "francese"
+      ],
       "ingredients": [
         {
           "items": [

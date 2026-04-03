@@ -15,7 +15,7 @@
   "cookTime": 25,
   "servings": 4,
   "difficulty": "Medio",
-  "category": "Secondi",
+  "category": "Risotto",
   "tags": [
     "riz",
     "risotto",
@@ -74,7 +74,18 @@
     "en": {
       "title": "Wild Mushroom Risotto with Foie Gras and Hazelnuts",
       "description": "An exceptional risotto with wild mushrooms, crowned with slices of mi-cuit foie gras and toasted hazelnuts.",
-      "tags": ["rice", "risotto", "mushrooms", "foie-gras", "hazelnuts", "festive", "autumn", "main-course", "french", "indulgent"],
+      "tags": [
+        "rice",
+        "risotto",
+        "mushrooms",
+        "foie-gras",
+        "hazelnuts",
+        "festive",
+        "autumn",
+        "main-course",
+        "french",
+        "indulgent"
+      ],
       "ingredients": [
         {
           "items": [
@@ -121,7 +132,18 @@
     "it": {
       "title": "Risotto ai Funghi Selvatici, Foie Gras e Nocciole",
       "description": "Un risotto d'eccezione ai funghi selvatici, coronato da fettine di foie gras mi-cuit e nocciole tostate.",
-      "tags": ["riso", "risotto", "funghi", "foie-gras", "nocciole", "festivo", "autunno", "primo-piatto", "francese", "goloso"],
+      "tags": [
+        "riso",
+        "risotto",
+        "funghi",
+        "foie-gras",
+        "nocciole",
+        "festivo",
+        "autunno",
+        "primo-piatto",
+        "francese",
+        "goloso"
+      ],
       "ingredients": [
         {
           "items": [

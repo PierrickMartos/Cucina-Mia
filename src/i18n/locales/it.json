@@ -80,6 +80,9 @@
   },
   "categories": {
     "Antipasti": "Antipasti",
+    "Pasta": "Pasta",
+    "Gnocchi": "Gnocchi",
+    "Risotto": "Risotto",
     "Secondi": "Secondi",
     "Dolci": "Dolci",
     "Pizze": "Pizze",

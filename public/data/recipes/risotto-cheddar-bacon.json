@@ -15,7 +15,7 @@
   "cookTime": 25,
   "servings": 4,
   "difficulty": "Facile",
-  "category": "Secondi",
+  "category": "Risotto",
   "tags": [
     "riz",
     "risotto",
@@ -75,7 +75,18 @@
     "en": {
       "title": "Cheddar and Bacon Risotto",
       "description": "A generous, comforting risotto with melted cheddar and crispy bacon — a British-inspired twist on the great Italian classic.",
-      "tags": ["rice", "risotto", "cheese", "cheddar", "bacon", "pork", "comfort-food", "main-course", "hot", "creamy"],
+      "tags": [
+        "rice",
+        "risotto",
+        "cheese",
+        "cheddar",
+        "bacon",
+        "pork",
+        "comfort-food",
+        "main-course",
+        "hot",
+        "creamy"
+      ],
       "ingredients": [
         {
           "items": [
@@ -123,7 +134,18 @@
     "it": {
       "title": "Risotto Cheddar e Bacon",
       "description": "Un risotto generoso e confortante con cheddar fuso e bacon croccante — una versione anglosassone golosa del grande classico italiano.",
-      "tags": ["riso", "risotto", "formaggio", "cheddar", "bacon", "maiale", "comfort-food", "primo-piatto", "caldo", "cremoso"],
+      "tags": [
+        "riso",
+        "risotto",
+        "formaggio",
+        "cheddar",
+        "bacon",
+        "maiale",
+        "comfort-food",
+        "primo-piatto",
+        "caldo",
+        "cremoso"
+      ],
       "ingredients": [
         {
           "items": [

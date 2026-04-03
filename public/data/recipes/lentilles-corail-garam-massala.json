@@ -16,7 +16,7 @@
   "cookTime": 45,
   "servings": 4,
   "difficulty": "Facile",
-  "category": "Secondi",
+  "category": "Risotto",
   "tags": [
     "lentilles",
     "poulet",
@@ -81,7 +81,18 @@
     "en": {
       "title": "Red Lentils with Garam Masala Risotto-Style",
       "description": "Red lentils and coconut-marinated chicken cooked risotto-style with garam masala — a spiced, aromatic one-pot dish.",
-      "tags": ["lentils", "chicken", "indian", "spiced", "garam-masala", "curry", "comforting", "main-course", "gluten-free", "autumn"],
+      "tags": [
+        "lentils",
+        "chicken",
+        "indian",
+        "spiced",
+        "garam-masala",
+        "curry",
+        "comforting",
+        "main-course",
+        "gluten-free",
+        "autumn"
+      ],
       "ingredients": [
         {
           "items": [
@@ -134,7 +145,18 @@
     "it": {
       "title": "Lenticchie Rosse al Garam Masala in Stile Risotto",
       "description": "Lenticchie rosse e pollo marinato nel latte di cocco cotti in stile risotto con garam masala — un piatto speziato e aromatico.",
-      "tags": ["lenticchie", "pollo", "indiano", "speziato", "garam-masala", "curry", "confortante", "piatto-principale", "senza-glutine", "autunno"],
+      "tags": [
+        "lenticchie",
+        "pollo",
+        "indiano",
+        "speziato",
+        "garam-masala",
+        "curry",
+        "confortante",
+        "piatto-principale",
+        "senza-glutine",
+        "autunno"
+      ],
       "ingredients": [
         {
           "items": [

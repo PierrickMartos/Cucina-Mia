@@ -11,7 +11,7 @@
     "cookTime": 15,
     "servings": 4,
     "difficulty": "Medio",
-    "category": "Secondi",
+    "category": "Pasta",
     "tags": [
       "pâtes",
       "porc",
@@ -188,7 +188,7 @@
     "cookTime": 5,
     "servings": 4,
     "difficulty": "Medio",
-    "category": "Secondi",
+    "category": "Pasta",
     "tags": [
       "pâtes",
       "végétarien",
@@ -250,7 +250,7 @@
     "cookTime": 30,
     "servings": 4,
     "difficulty": "Facile",
-    "category": "Secondi",
+    "category": "Pasta",
     "tags": [
       "pâtes",
       "porc",
@@ -790,7 +790,7 @@
     "cookTime": 3,
     "servings": 4,
     "difficulty": "Medio",
-    "category": "Secondi",
+    "category": "Pasta",
     "tags": [
       "pâtes",
       "porc",
@@ -1029,7 +1029,7 @@
     "cookTime": 10,
     "servings": 4,
     "difficulty": "Facile",
-    "category": "Secondi",
+    "category": "Pasta",
     "tags": [
       "pâtes",
       "porc",
@@ -1212,7 +1212,7 @@
     "cookTime": 25,
     "servings": 1,
     "difficulty": "Facile",
-    "category": "Secondi",
+    "category": "Gnocchi",
     "tags": [
       "four",
       "végétarien",
@@ -1274,7 +1274,7 @@
     "cookTime": 10,
     "servings": 2,
     "difficulty": "Facile",
-    "category": "Secondi",
+    "category": "Gnocchi",
     "tags": [
       "poêle",
       "végétarien",
@@ -1579,7 +1579,7 @@
     "cookTime": 10,
     "servings": 4,
     "difficulty": "Facile",
-    "category": "Secondi",
+    "category": "Pasta",
     "tags": [
       "végétarien",
       "sans-lactose",
@@ -1907,7 +1907,7 @@
     "cookTime": 30,
     "servings": 4,
     "difficulty": "Facile",
-    "category": "Secondi",
+    "category": "Pasta",
     "tags": [
       "pâtes",
       "chorizo",
@@ -2162,7 +2162,7 @@
     "cookTime": 120,
     "servings": 4,
     "difficulty": "Facile",
-    "category": "Secondi",
+    "category": "Gnocchi",
     "tags": [
       "gnocchi",
       "aubergines",
@@ -2224,7 +2224,7 @@
     "cookTime": 22,
     "servings": 4,
     "difficulty": "Facile",
-    "category": "Secondi",
+    "category": "Gnocchi",
     "tags": [
       "four",
       "végétalien",
@@ -2360,7 +2360,7 @@
     "cookTime": 25,
     "servings": 2,
     "difficulty": "Facile",
-    "category": "Secondi",
+    "category": "Pasta",
     "tags": [
       "four",
       "végétarien",
@@ -2428,7 +2428,7 @@
     "cookTime": 45,
     "servings": 4,
     "difficulty": "Facile",
-    "category": "Secondi",
+    "category": "Risotto",
     "tags": [
       "lentilles",
       "poulet",
@@ -2472,7 +2472,7 @@
     "cookTime": 30,
     "servings": 4,
     "difficulty": "Facile",
-    "category": "Secondi",
+    "category": "Risotto",
     "tags": [
       "pâtes",
       "fromage",
@@ -2517,7 +2517,7 @@
     "cookTime": 30,
     "servings": 4,
     "difficulty": "Facile",
-    "category": "Secondi",
+    "category": "Risotto",
     "tags": [
       "orge",
       "canard",
@@ -2555,7 +2555,7 @@
     "cookTime": 15,
     "servings": 2,
     "difficulty": "Facile",
-    "category": "Secondi",
+    "category": "Pasta",
     "tags": [
       "pâtes",
       "végétarien",
@@ -2691,7 +2691,7 @@
     "cookTime": 20,
     "servings": 4,
     "difficulty": "Facile",
-    "category": "Secondi",
+    "category": "Risotto",
     "tags": [
       "riz",
       "risotto",
@@ -2727,7 +2727,7 @@
     "slug": "risotto-champignons-foie-gras-noisettes",
     "title": "Risotto aux Champignons Sauvages, Foie Gras et Noisettes",
     "description": "Un risotto d'exception aux champignons sauvages, couronné de tranches de foie gras mi-cuit et de noisettes torréfiées.",
-    "category": "Secondi",
+    "category": "Risotto",
     "difficulty": "Medio",
     "prepTime": 15,
     "cookTime": 25,
@@ -2783,7 +2783,7 @@
     "cookTime": 25,
     "servings": 4,
     "difficulty": "Facile",
-    "category": "Secondi",
+    "category": "Risotto",
     "tags": [
       "riz",
       "risotto",
@@ -2811,7 +2811,7 @@
     "cookTime": 30,
     "servings": 4,
     "difficulty": "Facile",
-    "category": "Secondi",
+    "category": "Risotto",
     "tags": [
       "riz",
       "risotto",
@@ -2873,7 +2873,7 @@
     "cookTime": 20,
     "servings": 4,
     "difficulty": "Facile",
-    "category": "Secondi",
+    "category": "Risotto",
     "tags": [
       "riz",
       "risotto",

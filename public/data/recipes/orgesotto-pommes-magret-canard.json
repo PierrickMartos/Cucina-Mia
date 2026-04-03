@@ -14,7 +14,7 @@
   "cookTime": 30,
   "servings": 4,
   "difficulty": "Facile",
-  "category": "Secondi",
+  "category": "Risotto",
   "tags": [
     "orge",
     "canard",
@@ -73,7 +73,18 @@
     "en": {
       "title": "Pearl Barley Risotto with Caramelised Apples and Dried Duck Breast",
       "description": "A champagne pearl barley risotto topped with caramelised apples, crunchy walnuts and slices of dried duck breast.",
-      "tags": ["barley", "duck", "apples", "mushrooms", "champagne", "autumn", "braised", "main-course", "festive", "sweet-savoury"],
+      "tags": [
+        "barley",
+        "duck",
+        "apples",
+        "mushrooms",
+        "champagne",
+        "autumn",
+        "braised",
+        "main-course",
+        "festive",
+        "sweet-savoury"
+      ],
       "ingredients": [
         {
           "items": [
@@ -120,7 +131,18 @@
     "it": {
       "title": "Orzotto alle Mele Caramellate e Magret d'Anatra Essiccato",
       "description": "Un orzotto allo champagne coronato da mele caramellate, noci croccanti e fettine di magret d'anatra essiccato.",
-      "tags": ["orzo", "anatra", "mele", "funghi", "champagne", "autunno", "brasato", "primo-piatto", "festivo", "dolce-salato"],
+      "tags": [
+        "orzo",
+        "anatra",
+        "mele",
+        "funghi",
+        "champagne",
+        "autunno",
+        "brasato",
+        "primo-piatto",
+        "festivo",
+        "dolce-salato"
+      ],
       "ingredients": [
         {
           "items": [

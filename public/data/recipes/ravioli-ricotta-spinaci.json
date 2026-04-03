@@ -10,7 +10,7 @@
   "cookTime": 5,
   "servings": 4,
   "difficulty": "Medio",
-  "category": "Secondi",
+  "category": "Pasta",
   "tags": [
     "pâtes",
     "végétarien",
@@ -85,7 +85,18 @@
     "en": {
       "title": "Ricotta and Spinach Ravioli",
       "description": "Homemade fresh pasta stuffed with spinach and ricotta, a traditional Italian recipe made from scratch.",
-      "tags": ["pasta", "vegetarian", "cheese", "vegetables", "italian", "traditional", "main-course", "hot", "comforting", "creamy"],
+      "tags": [
+        "pasta",
+        "vegetarian",
+        "cheese",
+        "vegetables",
+        "italian",
+        "traditional",
+        "main-course",
+        "hot",
+        "comforting",
+        "creamy"
+      ],
       "ingredients": [
         {
           "group": "Fresh pasta dough",
@@ -144,7 +155,18 @@
     "it": {
       "title": "Ravioli di Ricotta e Spinaci",
       "description": "Pasta fresca fatta in casa ripiena di spinaci e ricotta, una ricetta tradizionale italiana da preparare da zero.",
-      "tags": ["pasta", "vegetariano", "formaggio", "verdure", "italiano", "tradizionale", "primo-piatto", "caldo", "confortante", "cremoso"],
+      "tags": [
+        "pasta",
+        "vegetariano",
+        "formaggio",
+        "verdure",
+        "italiano",
+        "tradizionale",
+        "primo-piatto",
+        "caldo",
+        "confortante",
+        "cremoso"
+      ],
       "ingredients": [
         {
           "group": "Pasta fresca",
