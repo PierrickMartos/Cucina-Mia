@@ -1766,6 +1766,71 @@
     }
   },
   {
+    "slug": "pain-pita-turbo",
+    "title": "Pain pita turbo",
+    "description": "Des pitas moelleux prêts en quelques minutes, sans four ni levée, avec seulement 4 ingrédients.",
+    "images": {
+      "cover": "images/recipes/pain-pita-turbo/cover.jpg",
+      "web": "images/recipes/pain-pita-turbo/web.jpg"
+    },
+    "prepTime": 10,
+    "cookTime": 15,
+    "servings": 6,
+    "difficulty": "Facile",
+    "category": "Pane",
+    "tags": [
+      "poêle",
+      "rapide",
+      "facile",
+      "végétarien",
+      "enfants",
+      "5-ingrédients",
+      "économique",
+      "réconfortant",
+      "snack",
+      "méditerranéen",
+      "sans-équipement-spécial"
+    ],
+    "ingredientCount": 4,
+    "stepCount": 3,
+    "translations": {
+      "en": {
+        "title": "Turbo Pita Bread",
+        "description": "Soft pitas ready in minutes, no oven or rising time needed, with just 4 ingredients.",
+        "tags": [
+          "pan",
+          "quick",
+          "easy",
+          "vegetarian",
+          "kids",
+          "5-ingredients",
+          "budget",
+          "comforting",
+          "snack",
+          "mediterranean",
+          "no-special-equipment"
+        ]
+      },
+      "it": {
+        "title": "Pita turbo",
+        "description": "Pite morbide pronte in pochi minuti, senza forno né lievitazione, con soli 4 ingredienti.",
+        "tags": [
+          "padella",
+          "veloce",
+          "facile",
+          "vegetariano",
+          "bambini",
+          "5-ingredienti",
+          "economico",
+          "confortante",
+          "snack",
+          "mediterraneo",
+          "senza-attrezzatura-speciale"
+        ]
+      }
+    }
+  },
+  {
     "slug": "poulet-au-curry",
     "title": "Poulet au curry",
     "description": "Un curry de poulet facile et parfumé, mijoté avec du lait de coco, des tomates et des épices doucement relevées.",
