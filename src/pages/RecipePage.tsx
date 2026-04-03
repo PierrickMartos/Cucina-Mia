@@ -69,7 +69,7 @@ export function RecipePage() {
     const acquire = async () => {
       try {
         lock = await navigator.wakeLock.request('screen')
-      } catch (_) {}
+      } catch { /* Wake Lock not supported */ }
     }
     acquire()
     return () => { lock?.release() }
