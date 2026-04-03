@@ -42,7 +42,12 @@ export function RecipePage() {
   const [loading, setLoading] = useState(true)
   const recipe = rawRecipe ? localizeRecipeDetail(rawRecipe, i18n.language) : null
   const [activeTab, setActiveTab] = useState<Tab>("ingredients")
-  const [checked, setChecked] = useState<Set<string>>(new Set())
+  const storageKey = `cucina-mia:checks:${slug}`
+  const [checkedIngredients, setCheckedIngredients] = useState<Record<string, boolean>>(() => {
+    try {
+      return JSON.parse(localStorage.getItem(`cucina-mia:checks:${slug}`) ?? '{}')
+    } catch { return {} }
+  })
   const [headerBackVisible, setHeaderBackVisible] = useState(false)
 
   // Parallax: track main scroll via motion value, transform to a slow Y offset
@@ -100,13 +105,17 @@ export function RecipePage() {
       .catch(() => setLoading(false))
   }, [slug])
 
-  function toggleCheck(key: string) {
-    setChecked((prev) => {
-      const next = new Set(prev)
-      if (next.has(key)) next.delete(key)
-      else next.add(key)
+  const toggleIngredient = (id: string) => {
+    setCheckedIngredients(prev => {
+      const next = { ...prev, [id]: !prev[id] }
+      localStorage.setItem(storageKey, JSON.stringify(next))
       return next
     })
+  }
+
+  const resetChecks = () => {
+    localStorage.removeItem(storageKey)
+    setCheckedIngredients({})
   }
 
   if (loading) {
@@ -326,6 +335,18 @@ export function RecipePage() {
       <div key={activeTab} className="tab-enter lg:hidden">
       {activeTab === "ingredients" ? (
         <section className="mb-8">
+          <div className="flex items-center justify-between mb-4">
+            <span />
+            {Object.values(checkedIngredients).some(Boolean) && (
+              <button
+                type="button"
+                onClick={resetChecks}
+                className="text-xs text-muted-foreground hover:text-foreground underline underline-offset-2 transition-colors cursor-pointer"
+              >
+                {t("recipe.resetChecks", "Reset")}
+              </button>
+            )}
+          </div>
           {recipe.ingredients.map((group, gi) => (
             <div key={gi} className="mb-6">
               {group.group && (
@@ -336,12 +357,12 @@ export function RecipePage() {
               <ul className="space-y-1.5">
                 {group.items.map((item, ii) => {
                   const key = `${gi}-${ii}`
-                  const isChecked = checked.has(key)
+                  const isChecked = !!checkedIngredients[key]
                   return (
                     <li key={key}>
                       <label
                         className="flex items-center gap-4 py-2 cursor-pointer group"
-                        onClick={() => toggleCheck(key)}
+                        onClick={() => toggleIngredient(key)}
                       >
                         <div
                           className={`h-6 w-6 rounded-lg shrink-0 flex items-center justify-center transition-colors ${
@@ -413,7 +434,18 @@ export function RecipePage() {
       <div className="hidden lg:grid grid-cols-[minmax(0,300px)_1fr] gap-12 mb-8 max-w-4xl mx-auto">
         {/* Ingredients column */}
         <section>
-          <h2 className="font-headline text-xl font-bold tracking-[-0.02em] mb-6 text-primary">{t("recipe.ingredients")}</h2>
+          <div className="flex items-center justify-between mb-6">
+            <h2 className="font-headline text-xl font-bold tracking-[-0.02em] text-primary">{t("recipe.ingredients")}</h2>
+            {Object.values(checkedIngredients).some(Boolean) && (
+              <button
+                type="button"
+                onClick={resetChecks}
+                className="text-xs text-muted-foreground hover:text-foreground underline underline-offset-2 transition-colors cursor-pointer"
+              >
+                {t("recipe.resetChecks", "Reset")}
+              </button>
+            )}
+          </div>
           {recipe.ingredients.map((group, gi) => (
             <div key={gi} className="mb-6">
               {group.group && (
@@ -424,12 +456,12 @@ export function RecipePage() {
               <ul className="space-y-1.5">
                 {group.items.map((item, ii) => {
                   const key = `${gi}-${ii}`
-                  const isChecked = checked.has(key)
+                  const isChecked = !!checkedIngredients[key]
                   return (
                     <li key={key}>
                       <label
                         className="flex items-center gap-4 py-2 cursor-pointer group"
-                        onClick={() => toggleCheck(key)}
+                        onClick={() => toggleIngredient(key)}
                       >
                         <div
                           className={`h-6 w-6 rounded-lg shrink-0 flex items-center justify-center transition-colors ${
