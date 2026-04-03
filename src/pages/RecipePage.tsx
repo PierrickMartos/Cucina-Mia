@@ -489,7 +489,7 @@ export function RecipePage() {
 
       {/* Source Card */}
       {recipe.source && (
-        <div className="rounded-[1.5rem] bg-surface-container p-6 flex items-center gap-4">
+        <div className="rounded-[1.5rem] bg-surface-container p-6 flex items-center gap-4 max-w-4xl mx-auto">
           <div>
             <span className="text-[10px] uppercase tracking-widest text-primary font-semibold block">
               {t("recipe.source")}

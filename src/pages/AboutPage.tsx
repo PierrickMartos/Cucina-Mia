@@ -49,7 +49,13 @@ export function AboutPage() {
       </div>
 
       {/* Story section */}
-      <div className="px-6 sm:px-10 pt-10 pb-4">
+      <motion.div
+        className="px-6 sm:px-10 pt-10 pb-4"
+        initial={{ opacity: 0, y: 24 }}
+        whileInView={{ opacity: 1, y: 0 }}
+        viewport={{ once: true, margin: "-60px" }}
+        transition={{ duration: 0.5, ease: "easeOut" }}
+      >
         <div className="flex flex-col sm:flex-row gap-8 sm:gap-12 items-start max-w-3xl lg:max-w-5xl mx-auto">
           {/* Left: text */}
           <div className="flex-1 min-w-0">
@@ -73,10 +79,16 @@ export function AboutPage() {
             />
           </div>
         </div>
-      </div>
+      </motion.div>
 
       {/* Built with section */}
-      <div className="px-6 sm:px-10 pt-4 pb-4">
+      <motion.div
+        className="px-6 sm:px-10 pt-4 pb-4"
+        initial={{ opacity: 0, y: 24 }}
+        whileInView={{ opacity: 1, y: 0 }}
+        viewport={{ once: true, margin: "-60px" }}
+        transition={{ duration: 0.5, ease: "easeOut" }}
+      >
         <div className="flex flex-col sm:flex-row gap-8 sm:gap-12 items-start max-w-3xl lg:max-w-5xl mx-auto">
           {/* Left: image */}
           <div className="w-full sm:w-64 shrink-0">
@@ -100,17 +112,29 @@ export function AboutPage() {
             </p>
           </div>
         </div>
-      </div>
+      </motion.div>
 
       {/* Closing quote */}
-      <div className="px-6 sm:px-10 py-8 max-w-3xl lg:max-w-5xl mx-auto">
+      <motion.div
+        className="px-6 sm:px-10 py-8 max-w-3xl lg:max-w-5xl mx-auto"
+        initial={{ opacity: 0, y: 24 }}
+        whileInView={{ opacity: 1, y: 0 }}
+        viewport={{ once: true, margin: "-60px" }}
+        transition={{ duration: 0.5, ease: "easeOut" }}
+      >
         <p className="font-headline text-xl sm:text-2xl text-primary font-bold tracking-[-0.02em] italic border-l-2 border-primary/40 pl-5">
           Benvenuti nella mia cucina, buon appetito.
         </p>
-      </div>
+      </motion.div>
 
       {/* Footer credits */}
-      <div className="px-6 sm:px-10 max-w-3xl lg:max-w-5xl mx-auto pt-6 flex flex-col gap-3">
+      <motion.div
+        className="px-6 sm:px-10 max-w-3xl lg:max-w-5xl mx-auto pt-6 flex flex-col gap-3"
+        initial={{ opacity: 0, y: 24 }}
+        whileInView={{ opacity: 1, y: 0 }}
+        viewport={{ once: true, margin: "-60px" }}
+        transition={{ duration: 0.5, ease: "easeOut" }}
+      >
         <div className="bg-surface-high rounded-2xl p-5">
           <p className="text-sm text-foreground font-medium mb-1">
             {t("about.thanks")}{" "}
@@ -136,7 +160,7 @@ export function AboutPage() {
           {" "}from{" "}
           <a href="https://pixabay.com/" target="_blank" rel="noopener noreferrer" className="underline">Pixabay</a>
         </p>
-      </div>
+      </motion.div>
     </div>
   )
 }
