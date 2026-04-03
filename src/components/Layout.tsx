@@ -109,12 +109,19 @@ export function Layout() {
               onClick={to === "/recipes" ? () => localStorage.removeItem("cucina-mia-filters") : undefined}
               className={
                 isActive
-                  ? "flex flex-col items-center justify-center gradient-primary text-primary-foreground rounded-xl px-5 py-1 scale-95 transition-all"
-                  : "flex flex-col items-center justify-center text-outline px-5 py-1 hover:text-primary transition-colors"
+                  ? "relative flex flex-col items-center justify-center text-primary-foreground rounded-xl px-5 py-1 scale-95 transition-transform"
+                  : "relative flex flex-col items-center justify-center text-outline px-5 py-1 hover:text-primary transition-colors"
               }
             >
-              <Icon className="h-5 w-5" strokeWidth={isActive ? 2.5 : 2} />
-              <span className="text-[9px] uppercase tracking-widest font-semibold mt-0.5">
+              {isActive && (
+                <motion.span
+                  layoutId="nav-indicator"
+                  className="absolute inset-0 gradient-primary rounded-xl"
+                  transition={{ type: "spring", stiffness: 400, damping: 30 }}
+                />
+              )}
+              <Icon className="relative z-10 h-5 w-5" strokeWidth={isActive ? 2.5 : 2} />
+              <span className="relative z-10 text-[9px] uppercase tracking-widest font-semibold mt-0.5">
                 {label}
               </span>
             </Link>
