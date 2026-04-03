@@ -4,7 +4,7 @@ import { Search, SlidersHorizontal } from "lucide-react"
 import Fuse from "fuse.js"
 import { Input } from "@/components/ui/input"
 import { Skeleton } from "@/components/ui/skeleton"
-import { RecipeGrid, AnimateInView } from "@/components/RecipeGrid"
+import { RecipeGrid, RecipesNotFound, AnimateInView } from "@/components/RecipeGrid"
 import { sortCategories } from "@/lib/categories"
 import { useTranslation } from "react-i18next"
 import type { RecipeSummary } from "@/types/recipe"
@@ -128,7 +128,7 @@ export function HomePage() {
       {/* Content: search results or category cards */}
       <section className="flex-1 min-h-0 overflow-y-auto pb-2">
         {isSearching ? (
-          <RecipeGrid recipes={searchResults} />
+          searchResults.length === 0 ? <RecipesNotFound /> : <RecipeGrid recipes={searchResults} />
         ) : loading ? (
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
             {[1, 2, 3].map((i) => (

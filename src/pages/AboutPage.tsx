@@ -39,10 +39,10 @@ export function AboutPage() {
           </p>
           <h1 className="font-headline font-bold leading-[1.05] drop-shadow-lg">
             <span className="block text-4xl sm:text-6xl text-white">
-              {t("about.heroTitle")}
+              Ricette di famiglia,
             </span>
             <span className="block text-4xl sm:text-6xl text-amber-200 italic">
-              {t("about.heroTitleItalic")}
+              amici & mondo
             </span>
           </h1>
         </div>
@@ -54,7 +54,7 @@ export function AboutPage() {
           {/* Left: text */}
           <div className="flex-1 min-w-0">
             <h2 className="font-headline text-2xl sm:text-3xl font-bold text-primary tracking-[-0.02em] mb-5">
-              {t("about.heirloomTitle")}
+              Cucina con amore
             </h2>
             <p className="text-sm sm:text-base leading-relaxed text-foreground/80 mb-4">
               {t("about.intro")}
@@ -68,7 +68,7 @@ export function AboutPage() {
           <div className="w-full sm:w-64 shrink-0">
             <img
               src={`${BASE}images/about-side.jpg`}
-              alt="Fresh basil"
+              alt="Pasta al pesto con pomodorini"
               className="w-full rounded-2xl shadow-ambient object-cover aspect-[4/3] sm:aspect-auto sm:h-64"
             />
           </div>
@@ -102,8 +102,10 @@ export function AboutPage() {
         <p className="text-[10px] text-muted-foreground/40">
           Photos by{" "}
           <a href="https://pixabay.com/users/stocksnap-894430/" target="_blank" rel="noopener noreferrer" className="underline">StockSnap</a>
-          {" "}&{" "}
+          {", "}
           <a href="https://pixabay.com/users/tookapic-1386461/" target="_blank" rel="noopener noreferrer" className="underline">tookapic</a>
+          {" "}&{" "}
+          <a href="https://pixabay.com/users/pexels-2286921/" target="_blank" rel="noopener noreferrer" className="underline">Pexels</a>
           {" "}from{" "}
           <a href="https://pixabay.com/" target="_blank" rel="noopener noreferrer" className="underline">Pixabay</a>
         </p>
