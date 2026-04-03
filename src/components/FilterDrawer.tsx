@@ -171,7 +171,7 @@ export function FilterDrawer({
             </SheetTitle>
           </SheetHeader>
 
-          <div className="mt-6 space-y-6 overflow-y-auto flex-1 pb-4">
+          <div className="mt-6 space-y-6 overflow-y-auto flex-1 pb-20">
             <div>
               <h4 className="font-semibold text-[10px] uppercase tracking-widest text-muted-foreground mb-3">
                 {t("filter.category")}
