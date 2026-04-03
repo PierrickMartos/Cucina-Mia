@@ -81,7 +81,7 @@ export function Layout() {
         Skip to content
       </a>
       {/* Top App Bar */}
-      <nav className="shrink-0 flex justify-between items-center px-6 h-14 bg-surface/70 backdrop-blur-md z-50">
+      <nav className="shrink-0 flex justify-between items-center px-6 h-14 bg-surface/70 backdrop-blur-md z-50 print:hidden">
         <div id="header-left-slot" className="min-w-10" />
         <Link to="/">
           <motion.h1
@@ -110,7 +110,7 @@ export function Layout() {
       </main>
 
       {/* Bottom Nav Bar */}
-      <nav className="shrink-0 flex justify-around items-center px-4 pb-1.5 pt-1.5 bg-surface/70 backdrop-blur-[20px] rounded-t-xl z-50">
+      <nav className="shrink-0 flex justify-around items-center px-4 pb-1.5 pt-1.5 bg-surface/70 backdrop-blur-[20px] rounded-t-xl z-50 print:hidden">
         {navItems.map(({ to, icon: Icon, label }) => {
           const isActive = to === "/"
             ? pathname === "/"

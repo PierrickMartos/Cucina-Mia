@@ -2,7 +2,7 @@ import { useState, useEffect, useRef } from "react"
 import { createPortal } from "react-dom"
 import { useParams, Link, useNavigate } from "react-router-dom"
 import { useTranslation } from "react-i18next"
-import { ArrowLeft, Clock, CookingPot, Users, ChefHat, UtensilsCrossed } from "lucide-react"
+import { ArrowLeft, Clock, CookingPot, Users, ChefHat, UtensilsCrossed, Printer } from "lucide-react"
 import { motion, useMotionValue, useTransform, useReducedMotion, type Variants } from "motion/react"
 import { Badge } from "@/components/ui/badge"
 import { Skeleton } from "@/components/ui/skeleton"
@@ -94,6 +94,9 @@ export function RecipePage() {
       metaDesc?.setAttribute('content', prevDesc)
     }
   }, [recipe])
+
+  // Stop speech on unmount
+  useEffect(() => () => { window.speechSynthesis?.cancel() }, [])
 
   // Keep screen awake while reading a recipe
   useEffect(() => {
@@ -227,7 +230,7 @@ export function RecipePage() {
       {/* Scroll progress bar — fixed at top of viewport, portaled to body */}
       {!reduceMotion && createPortal(
         <motion.div
-          className="fixed top-0 left-0 right-0 h-1 bg-primary z-50 origin-left"
+          className="fixed top-0 left-0 right-0 h-1 bg-primary z-50 origin-left print:hidden"
           style={{ scaleX: scrollProgress }}
         />,
         document.body
@@ -237,7 +240,7 @@ export function RecipePage() {
       {headerSlot && createPortal(
         <button
           onClick={() => navigate(-1)}
-          className={`cursor-pointer inline-flex items-center text-sm text-muted-foreground hover:text-foreground transition-all duration-200 ${
+          className={`cursor-pointer inline-flex items-center text-sm text-muted-foreground hover:text-foreground transition-all duration-200 print:hidden ${
             headerBackVisible ? "opacity-100 translate-x-0" : "opacity-0 -translate-x-2 pointer-events-none"
           }`}
         >
@@ -253,7 +256,7 @@ export function RecipePage() {
         <button
           onClick={() => navigate(-1)}
           aria-label={t("recipe.back")}
-          className={`cursor-pointer absolute top-4 left-4 z-10 inline-flex items-center justify-center h-10 w-10 rounded-full bg-black/30 backdrop-blur-sm text-white hover:bg-black/50 transition-all duration-200 ${
+          className={`cursor-pointer absolute top-4 left-4 z-10 inline-flex items-center justify-center h-10 w-10 rounded-full bg-black/30 backdrop-blur-sm text-white hover:bg-black/50 transition-all duration-200 print:hidden ${
             headerBackVisible ? "opacity-0 pointer-events-none" : "opacity-100"
           }`}
         >
@@ -267,7 +270,7 @@ export function RecipePage() {
           className="absolute inset-0 h-[115%] w-full object-cover object-center"
         />
         {/* Bottom gradient fade */}
-        <div className="absolute inset-x-0 bottom-0 h-32 bg-gradient-to-t from-background to-transparent" />
+        <div className="absolute inset-x-0 bottom-0 h-32 bg-gradient-to-t from-background to-transparent print:hidden" />
 
         {/* Image Credit */}
         {recipe.imageCredit && (recipe.imageCredit.author || recipe.imageCredit.url) && (
@@ -350,6 +353,19 @@ export function RecipePage() {
           </div>
         </motion.div>
 
+        {/* Print button — desktop only */}
+        <div className="hidden md:flex justify-center mt-5 print:hidden">
+          <button
+            type="button"
+            onClick={() => window.print()}
+            className="inline-flex items-center gap-2 rounded-full border border-border px-4 py-2 text-xs font-semibold uppercase tracking-widest text-muted-foreground hover:text-primary hover:border-primary/40 transition-colors cursor-pointer"
+            aria-label={t("recipe.print", "Print recipe")}
+          >
+            <Printer className="h-3.5 w-3.5" />
+            {t("recipe.print", "Print")}
+          </button>
+        </div>
+
       </motion.div>
 
       <div className="px-6 mt-8">
@@ -359,7 +375,7 @@ export function RecipePage() {
         initial={reduceMotion ? { opacity: 1, y: 0 } : { opacity: 0, y: 10 }}
         animate={{ opacity: 1, y: 0 }}
         transition={{ delay: 0.35, duration: 0.4, ease: "easeOut" }}
-        className="bg-surface-high rounded-full p-1.5 flex mb-8 max-w-2xl mx-auto lg:hidden"
+        className="bg-surface-high rounded-full p-1.5 flex mb-8 max-w-2xl mx-auto lg:hidden print:hidden"
       >
         <button
           onClick={() => setActiveTab("ingredients")}
@@ -398,7 +414,7 @@ export function RecipePage() {
       </motion.div>
 
       {/* Tab Content — mobile only */}
-      <div key={activeTab} className="tab-enter lg:hidden">
+      <div key={activeTab} className="tab-enter lg:hidden print:hidden">
       {activeTab === "ingredients" ? (
         <section className="mb-8">
           <div className="flex items-center justify-between mb-4">
@@ -486,7 +502,7 @@ export function RecipePage() {
                 <span className="flex h-8 w-8 shrink-0 items-center justify-center rounded-full gradient-primary text-primary-foreground text-sm font-bold">
                   {i + 1}
                 </span>
-                <div className="pt-1">
+                <div className="pt-1 flex-1">
                   <p className="text-base leading-relaxed">{step.text}</p>
                   {step.image && (
                     <img
@@ -505,7 +521,7 @@ export function RecipePage() {
       </div>
 
       {/* Two-column layout — large screens & landscape tablets */}
-      <div className="hidden lg:grid grid-cols-[minmax(0,300px)_1fr] gap-12 mb-8 max-w-4xl mx-auto">
+      <div className="hidden lg:grid print:grid grid-cols-[minmax(0,300px)_1fr] gap-12 mb-8 max-w-4xl mx-auto print:grid-cols-1 print:gap-6">
         {/* Ingredients column */}
         <section>
           <div className="flex items-center justify-between mb-6">
@@ -632,7 +648,7 @@ export function RecipePage() {
 
       {/* Step navigator sticky bar — mobile only, portaled to body */}
       {recipe.steps.length > 0 && createPortal(
-        <div className="lg:hidden fixed bottom-0 inset-x-0 z-50 bg-background border-t border-border">
+        <div className="lg:hidden fixed bottom-0 inset-x-0 z-50 bg-background border-t border-border print:hidden">
           {/* Progress bar */}
           <div className="h-1 bg-border">
             <div

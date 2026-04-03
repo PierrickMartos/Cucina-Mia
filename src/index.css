@@ -163,3 +163,80 @@
   animation: tab-enter 250ms ease-out both;
 }
 
+/* ============================================================
+   Print styles
+   ============================================================ */
+@media print {
+  /* Reset layout so everything flows naturally */
+  .h-dvh,
+  .flex.flex-col {
+    height: auto !important;
+    overflow: visible !important;
+    display: block !important;
+  }
+
+  /* Hide nav bars (top app bar + bottom nav) */
+  nav {
+    display: none !important;
+  }
+
+  /* Hide the main scroll container overflow so all content prints */
+  main {
+    overflow: visible !important;
+    flex: none !important;
+  }
+
+  /* Hero image area: remove parallax/overflow clipping, limit height */
+  .relative.overflow-hidden {
+    overflow: visible !important;
+  }
+
+  /* Remove fixed/sticky positioning (progress bar, step nav, back btn) */
+  .fixed {
+    display: none !important;
+  }
+
+  /* Recipe info card: remove shadow and rounded corners */
+  .shadow-lg {
+    box-shadow: none !important;
+  }
+  .rounded-\[1\.5rem\] {
+    border-radius: 0 !important;
+  }
+
+  /* Remove hero overlap — card sits below image */
+  .-mt-16 {
+    margin-top: 0 !important;
+  }
+
+  /* Remove animations/transforms */
+  * {
+    animation: none !important;
+    transition: none !important;
+  }
+
+  /* Slightly larger text for readability */
+  body {
+    font-size: 14pt;
+  }
+
+  /* Remove background surfaces so ink isn't wasted */
+  .bg-surface-high,
+  .bg-surface-low,
+  .bg-surface-container {
+    background: transparent !important;
+  }
+
+  /* Ensure black text on white */
+  body {
+    background: white !important;
+    color: black !important;
+  }
+
+  /* Remove gradient from step number badges (print in color would work but let's be safe) */
+  .gradient-primary {
+    background: black !important;
+    color: white !important;
+  }
+}
+
