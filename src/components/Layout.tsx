@@ -77,9 +77,15 @@ export function Layout() {
       <nav className="shrink-0 flex justify-between items-center px-6 h-14 bg-surface/70 backdrop-blur-md z-50">
         <div id="header-left-slot" className="min-w-10" />
         <Link to="/">
-          <h1 className="text-xl font-headline tracking-tighter text-primary font-bold">
+          <motion.h1
+            key={pathname}
+            className="text-3xl font-headline text-primary font-bold"
+            initial={{ opacity: 0, letterSpacing: "-0.2em" }}
+            animate={{ opacity: 1, letterSpacing: "-0.05em" }}
+            transition={{ duration: 0.9, ease: [0.25, 0.1, 0.25, 1] }}
+          >
             CUCINA MIA
-          </h1>
+          </motion.h1>
         </Link>
         <LanguageSwitcher />
       </nav>
