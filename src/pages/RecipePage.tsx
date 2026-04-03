@@ -49,6 +49,10 @@ export function RecipePage() {
     } catch { return {} }
   })
   const [headerBackVisible, setHeaderBackVisible] = useState(false)
+  const [currentStep, setCurrentStep] = useState(0)
+
+  // Refs for each step — populated after recipe loads
+  const stepRefs = useRef<(HTMLLIElement | null)[]>([])
 
   // Parallax: track main scroll via motion value, transform to a slow Y offset
   const scrollY = useMotionValue(0)
@@ -116,6 +120,19 @@ export function RecipePage() {
   const resetChecks = () => {
     localStorage.removeItem(storageKey)
     setCheckedIngredients({})
+  }
+
+  const goToStep = (index: number) => {
+    setCurrentStep(index)
+    // Switch to instructions tab so the step is visible on mobile
+    setActiveTab("instructions")
+    // Scroll after a brief paint delay to allow tab content to render
+    requestAnimationFrame(() => {
+      const el = stepRefs.current[index]
+      if (el) {
+        el.scrollIntoView({ behavior: reduceMotion ? "auto" : "smooth", block: "center" })
+      }
+    })
   }
 
   if (loading) {
@@ -405,10 +422,18 @@ export function RecipePage() {
           ))}
         </section>
       ) : (
-        <section className="mb-8">
+        <section className="mb-8 pb-24">
           <ol className="space-y-6">
             {recipe.steps.map((step, i) => (
-              <li key={i} className="flex gap-4">
+              <li
+                key={i}
+                ref={(el) => { stepRefs.current[i] = el }}
+                className={`flex gap-4 rounded-xl px-3 py-3 -mx-3 transition-colors duration-200 ${
+                  i === currentStep
+                    ? "bg-primary/8 border-l-4 border-primary pl-2"
+                    : ""
+                }`}
+              >
                 <span className="flex h-8 w-8 shrink-0 items-center justify-center rounded-full gradient-primary text-primary-foreground text-sm font-bold">
                   {i + 1}
                 </span>
@@ -555,6 +580,48 @@ export function RecipePage() {
         </div>
       )}
       </div>
+
+      {/* Step navigator sticky bar — mobile only, portaled to body */}
+      {recipe.steps.length > 0 && createPortal(
+        <div className="lg:hidden fixed bottom-0 inset-x-0 z-50 bg-background border-t border-border">
+          {/* Progress bar */}
+          <div className="h-1 bg-border">
+            <div
+              className="h-full bg-primary transition-all duration-300 ease-out"
+              style={{ width: `${((currentStep + 1) / recipe.steps.length) * 100}%` }}
+            />
+          </div>
+          {/* Controls */}
+          <div className="flex items-center justify-between py-3 px-4 pb-4">
+            <button
+              type="button"
+              onClick={() => goToStep(currentStep - 1)}
+              disabled={currentStep === 0}
+              className="inline-flex items-center gap-1 text-sm font-medium text-muted-foreground disabled:opacity-40 disabled:cursor-not-allowed hover:text-foreground transition-colors px-3 py-1.5 rounded-lg hover:bg-surface-high cursor-pointer"
+              aria-label={t("recipe.prevStep", "Previous step")}
+            >
+              <ArrowLeft className="h-4 w-4" />
+              {t("recipe.prev", "Prev")}
+            </button>
+
+            <span className="text-xs font-semibold text-muted-foreground uppercase tracking-widest select-none">
+              {t("recipe.stepOf", { current: currentStep + 1, total: recipe.steps.length, defaultValue: `Step ${currentStep + 1} of ${recipe.steps.length}` })}
+            </span>
+
+            <button
+              type="button"
+              onClick={() => goToStep(currentStep + 1)}
+              disabled={currentStep === recipe.steps.length - 1}
+              className="inline-flex items-center gap-1 text-sm font-semibold gradient-primary text-primary-foreground disabled:opacity-40 disabled:cursor-not-allowed px-4 py-1.5 rounded-lg cursor-pointer transition-opacity"
+              aria-label={t("recipe.nextStep", "Next step")}
+            >
+              {t("recipe.next", "Next")}
+              <ArrowLeft className="h-4 w-4 rotate-180" />
+            </button>
+          </div>
+        </div>,
+        document.body
+      )}
     </div>
   )
 }
