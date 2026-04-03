@@ -1,4 +1,4 @@
-import { useState, useEffect, useMemo } from "react"
+import { useState, useEffect, useMemo, useRef } from "react"
 import { useSearchParams } from "react-router-dom"
 import { useTranslation } from "react-i18next"
 import Fuse from "fuse.js"
@@ -40,6 +40,8 @@ export function RecipesPage() {
   const [selectedIngredients, setSelectedIngredients] = useState<IngredientsBucket[]>(() => loadFilters().ingredients ?? [])
   const [selectedDietTags, setSelectedDietTags] = useState<string[]>(() => loadFilters().dietTags ?? [])
   const [selectedSeasonTags, setSelectedSeasonTags] = useState<string[]>(() => loadFilters().seasonTags ?? [])
+  const [showCleared, setShowCleared] = useState(false)
+  const clearTimeoutRef = useRef<ReturnType<typeof setTimeout> | null>(null)
   const { t, i18n } = useTranslation()
 
   const localizedRecipes = useMemo(
@@ -133,6 +135,30 @@ export function RecipesPage() {
     if (ingredientCount <= 6) return "few"
     if (ingredientCount <= 11) return "moderate"
     return "many"
+  }
+
+  useEffect(() => {
+    return () => {
+      if (clearTimeoutRef.current !== null) {
+        clearTimeout(clearTimeoutRef.current)
+      }
+    }
+  }, [])
+
+  const handleClearAll = () => {
+    setSelectedCategories([])
+    setSelectedDifficulties([])
+    setSelectedTimes([])
+    setSelectedPrepTimes([])
+    setSelectedSteps([])
+    setSelectedIngredients([])
+    setSelectedDietTags([])
+    setSelectedSeasonTags([])
+    if (clearTimeoutRef.current !== null) {
+      clearTimeout(clearTimeoutRef.current)
+    }
+    setShowCleared(true)
+    clearTimeoutRef.current = setTimeout(() => setShowCleared(false), 2000)
   }
 
   const hasActiveFilters =
@@ -245,21 +271,15 @@ export function RecipesPage() {
         />
         {hasActiveFilters && (
           <button
-            onClick={() => {
-              setSelectedCategories([])
-              setSelectedDifficulties([])
-              setSelectedTimes([])
-              setSelectedPrepTimes([])
-              setSelectedSteps([])
-              setSelectedIngredients([])
-              setSelectedDietTags([])
-              setSelectedSeasonTags([])
-            }}
+            onClick={handleClearAll}
             className="cursor-pointer flex items-center justify-center w-10 h-10 rounded-full bg-surface-high text-muted-foreground hover:bg-destructive/10 hover:text-destructive transition-colors shrink-0"
             aria-label={t("filter.clearAll")}
           >
             <X className="h-4 w-4" />
           </button>
+        )}
+        {showCleared && (
+          <span className="text-sm text-green-600 ml-2 whitespace-nowrap">Filters cleared</span>
         )}
       </div>
 
