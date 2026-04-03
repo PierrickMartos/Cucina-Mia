@@ -3,7 +3,7 @@ import { createPortal } from "react-dom"
 import { useParams, Link, useNavigate } from "react-router-dom"
 import { useTranslation } from "react-i18next"
 import { ArrowLeft, Clock, CookingPot, Users, ChefHat, UtensilsCrossed } from "lucide-react"
-import { motion, useMotionValue, useTransform, type Variants } from "motion/react"
+import { motion, useMotionValue, useTransform, useReducedMotion, type Variants } from "motion/react"
 import { Badge } from "@/components/ui/badge"
 import { Skeleton } from "@/components/ui/skeleton"
 import { localizeRecipeDetail } from "@/lib/localize"
@@ -18,15 +18,26 @@ const itemVariants: Variants = {
   visible: { opacity: 1, y: 0, transition: { duration: 0.4, ease: [0.25, 0.1, 0.25, 1] } },
 }
 
+const itemVariantsReduced: Variants = {
+  hidden: { opacity: 1, y: 0 },
+  visible: { opacity: 1, y: 0 },
+}
+
 const staggerContainer: Variants = {
   hidden: {},
   visible: { transition: { staggerChildren: 0.07, delayChildren: 0.15 } },
+}
+
+const staggerContainerReduced: Variants = {
+  hidden: {},
+  visible: {},
 }
 
 export function RecipePage() {
   const { slug } = useParams<{ slug: string }>()
   const navigate = useNavigate()
   const { t, i18n } = useTranslation()
+  const reduceMotion = useReducedMotion()
   const [rawRecipe, setRawRecipe] = useState<RecipeDetail | null>(null)
   const [loading, setLoading] = useState(true)
   const recipe = rawRecipe ? localizeRecipeDetail(rawRecipe, i18n.language) : null
@@ -36,7 +47,7 @@ export function RecipePage() {
 
   // Parallax: track main scroll via motion value, transform to a slow Y offset
   const scrollY = useMotionValue(0)
-  const heroY = useTransform(scrollY, (v) => v * 0.5)
+  const heroY = useTransform(scrollY, (v) => (reduceMotion ? 0 : v * 0.5))
   const heroRef = useRef<HTMLDivElement>(null)
 
   useEffect(() => {
@@ -198,7 +209,7 @@ export function RecipePage() {
 
       {/* Recipe Info Card — overlaps image, settles in on mount */}
       <motion.div
-        initial={{ opacity: 0, y: 24 }}
+        initial={reduceMotion ? { opacity: 1, y: 0 } : { opacity: 0, y: 24 }}
         animate={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.5, ease: "easeOut" }}
         className="relative -mt-16 mx-4 bg-background rounded-[1.5rem] pt-8 pb-6 px-6 text-center shadow-lg"
@@ -215,24 +226,24 @@ export function RecipePage() {
 
         {/* Time + Difficulty — staggered */}
         <motion.div
-          variants={staggerContainer}
+          variants={reduceMotion ? staggerContainerReduced : staggerContainer}
           initial="hidden"
           animate="visible"
           className="flex items-center justify-center gap-8 mb-5"
         >
-          <motion.div variants={itemVariants} className="flex flex-col items-center gap-1.5">
+          <motion.div variants={reduceMotion ? itemVariantsReduced : itemVariants} className="flex flex-col items-center gap-1.5">
             <Clock className="h-5 w-5 text-primary" />
             <span className="text-[10px] uppercase tracking-widest text-muted-foreground font-medium">{t("recipe.prep")}</span>
             <span className="text-sm font-bold">{formatTime(recipe.prepTime)}</span>
           </motion.div>
-          <motion.div variants={itemVariants} className="w-px h-10 bg-border" />
-          <motion.div variants={itemVariants} className="flex flex-col items-center gap-1.5">
+          <motion.div variants={reduceMotion ? itemVariantsReduced : itemVariants} className="w-px h-10 bg-border" />
+          <motion.div variants={reduceMotion ? itemVariantsReduced : itemVariants} className="flex flex-col items-center gap-1.5">
             <CookingPot className="h-5 w-5 text-primary" />
             <span className="text-[10px] uppercase tracking-widest text-muted-foreground font-medium">{t("recipe.cook")}</span>
             <span className="text-sm font-bold">{formatTime(recipe.cookTime)}</span>
           </motion.div>
-          <motion.div variants={itemVariants} className="w-px h-10 bg-border" />
-          <motion.div variants={itemVariants} className="flex flex-col items-center gap-1.5">
+          <motion.div variants={reduceMotion ? itemVariantsReduced : itemVariants} className="w-px h-10 bg-border" />
+          <motion.div variants={reduceMotion ? itemVariantsReduced : itemVariants} className="flex flex-col items-center gap-1.5">
             <ChefHat className="h-5 w-5 text-primary" />
             <span className="text-[10px] uppercase tracking-widest text-muted-foreground font-medium">{t("recipe.difficulty")}</span>
             <span className="text-sm font-bold">{t(`difficulties.${recipe.difficulty}`, recipe.difficulty)}</span>
@@ -241,18 +252,18 @@ export function RecipePage() {
 
         {/* Servings & Tags — staggered */}
         <motion.div
-          variants={staggerContainer}
+          variants={reduceMotion ? staggerContainerReduced : staggerContainer}
           initial="hidden"
           animate="visible"
           className="flex items-center justify-center gap-4 pt-4 border-t border-border"
         >
-          <motion.div variants={itemVariants} className="flex items-center gap-1.5 text-sm text-muted-foreground">
+          <motion.div variants={reduceMotion ? itemVariantsReduced : itemVariants} className="flex items-center gap-1.5 text-sm text-muted-foreground">
             <Users className="h-4 w-4" />
             <span>{recipe.servings} {t("recipe.servings")}</span>
           </motion.div>
           <div className="flex flex-wrap justify-center gap-1.5">
             {recipe.tags.map((tag) => (
-              <motion.div key={tag} variants={itemVariants}>
+              <motion.div key={tag} variants={reduceMotion ? itemVariantsReduced : itemVariants}>
                 <Link to={`/recipes?tag=${encodeURIComponent(tag)}`}>
                   <Badge variant="outline" className="text-[10px] text-outline rounded-full cursor-pointer hover:bg-primary/10 hover:border-primary/30 hover:text-primary transition-colors">
                     {tag}
@@ -269,7 +280,7 @@ export function RecipePage() {
 
       {/* Tab Switcher — hidden on large screens */}
       <motion.div
-        initial={{ opacity: 0, y: 10 }}
+        initial={reduceMotion ? { opacity: 1, y: 0 } : { opacity: 0, y: 10 }}
         animate={{ opacity: 1, y: 0 }}
         transition={{ delay: 0.35, duration: 0.4, ease: "easeOut" }}
         className="bg-surface-high rounded-full p-1.5 flex mb-8 max-w-2xl mx-auto lg:hidden"

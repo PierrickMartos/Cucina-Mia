@@ -1,4 +1,5 @@
 import { useEffect, useRef, useState } from "react"
+import { useReducedMotion } from "motion/react"
 import { useTranslation } from "react-i18next"
 import { RecipeCard } from "@/components/RecipeCard"
 import { Skeleton } from "@/components/ui/skeleton"
@@ -28,6 +29,7 @@ export function RecipesNotFound() {
 export function AnimateInView({ children, index }: { children: React.ReactNode; index: number }) {
   const ref = useRef<HTMLDivElement>(null)
   const [visible, setVisible] = useState(false)
+  const reduceMotion = useReducedMotion()
 
   useEffect(() => {
     const el = ref.current
@@ -44,6 +46,10 @@ export function AnimateInView({ children, index }: { children: React.ReactNode; 
     observer.observe(el)
     return () => observer.disconnect()
   }, [])
+
+  if (reduceMotion) {
+    return <div>{children}</div>
+  }
 
   return (
     <div

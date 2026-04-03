@@ -1,7 +1,7 @@
 import { Outlet, Link, useLocation } from "react-router-dom"
 import { Home, BookOpen, PlusCircle, Info } from "lucide-react"
 import { useTranslation } from "react-i18next"
-import { motion } from "motion/react"
+import { motion, useReducedMotion } from "motion/react"
 import { useState, useRef, useEffect } from "react"
 
 const LANGUAGES = [
@@ -64,6 +64,7 @@ function LanguageSwitcher() {
 export function Layout() {
   const { pathname } = useLocation()
   const { t } = useTranslation()
+  const reduceMotion = useReducedMotion()
 
   const navItems = [
     { to: "/", icon: Home, label: t("nav.home") },
@@ -86,7 +87,7 @@ export function Layout() {
           <motion.h1
             key={pathname}
             className="text-3xl font-headline text-primary font-bold"
-            initial={{ opacity: 0, letterSpacing: "-0.2em" }}
+            initial={reduceMotion ? { opacity: 1, letterSpacing: "-0.05em" } : { opacity: 0, letterSpacing: "-0.2em" }}
             animate={{ opacity: 1, letterSpacing: "-0.05em" }}
             transition={{ duration: 0.9, ease: [0.25, 0.1, 0.25, 1] }}
           >
@@ -100,7 +101,7 @@ export function Layout() {
       <main id="main-content" className="flex-1 overflow-y-auto overflow-x-hidden">
         <motion.div
           key={pathname}
-          initial={{ opacity: 0, y: 10 }}
+          initial={reduceMotion ? { opacity: 1, y: 0 } : { opacity: 0, y: 10 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.45, ease: "easeOut" }}
         >

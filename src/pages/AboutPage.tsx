@@ -1,14 +1,15 @@
 import { useEffect } from "react"
 import { useTranslation } from "react-i18next"
 import { Heart } from "lucide-react"
-import { motion, useMotionValue, useTransform } from "motion/react"
+import { motion, useMotionValue, useTransform, useReducedMotion } from "motion/react"
 
 const BASE = import.meta.env.BASE_URL
 
 export function AboutPage() {
   const { t } = useTranslation()
+  const reduceMotion = useReducedMotion()
   const scrollY = useMotionValue(0)
-  const heroY = useTransform(scrollY, (v) => v * 0.5)
+  const heroY = useTransform(scrollY, (v) => (reduceMotion ? 0 : v * 0.5))
 
   useEffect(() => {
     const scrollEl = document.querySelector("main")
@@ -51,7 +52,7 @@ export function AboutPage() {
       {/* Story section */}
       <motion.div
         className="px-6 sm:px-10 pt-10 pb-4"
-        initial={{ opacity: 0, y: 24 }}
+        initial={reduceMotion ? { opacity: 1, y: 0 } : { opacity: 0, y: 24 }}
         whileInView={{ opacity: 1, y: 0 }}
         viewport={{ once: true, margin: "-60px" }}
         transition={{ duration: 0.5, ease: "easeOut" }}
@@ -84,7 +85,7 @@ export function AboutPage() {
       {/* Built with section */}
       <motion.div
         className="px-6 sm:px-10 pt-4 pb-4"
-        initial={{ opacity: 0, y: 24 }}
+        initial={reduceMotion ? { opacity: 1, y: 0 } : { opacity: 0, y: 24 }}
         whileInView={{ opacity: 1, y: 0 }}
         viewport={{ once: true, margin: "-60px" }}
         transition={{ duration: 0.5, ease: "easeOut" }}
@@ -117,7 +118,7 @@ export function AboutPage() {
       {/* Closing quote */}
       <motion.div
         className="px-6 sm:px-10 py-8 max-w-3xl lg:max-w-5xl mx-auto"
-        initial={{ opacity: 0, y: 24 }}
+        initial={reduceMotion ? { opacity: 1, y: 0 } : { opacity: 0, y: 24 }}
         whileInView={{ opacity: 1, y: 0 }}
         viewport={{ once: true, margin: "-60px" }}
         transition={{ duration: 0.5, ease: "easeOut" }}
@@ -130,7 +131,7 @@ export function AboutPage() {
       {/* Footer credits */}
       <motion.div
         className="px-6 sm:px-10 max-w-3xl lg:max-w-5xl mx-auto pt-6 flex flex-col gap-3"
-        initial={{ opacity: 0, y: 24 }}
+        initial={reduceMotion ? { opacity: 1, y: 0 } : { opacity: 0, y: 24 }}
         whileInView={{ opacity: 1, y: 0 }}
         viewport={{ once: true, margin: "-60px" }}
         transition={{ duration: 0.5, ease: "easeOut" }}
