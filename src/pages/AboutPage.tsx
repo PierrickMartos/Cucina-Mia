@@ -1,19 +1,32 @@
+import { useEffect } from "react"
 import { useTranslation } from "react-i18next"
 import { Heart } from "lucide-react"
+import { motion, useMotionValue, useTransform } from "motion/react"
 
 const BASE = import.meta.env.BASE_URL
 
 export function AboutPage() {
   const { t } = useTranslation()
+  const scrollY = useMotionValue(0)
+  const heroY = useTransform(scrollY, (v) => v * 0.5)
+
+  useEffect(() => {
+    const scrollEl = document.querySelector("main")
+    if (!scrollEl) return
+    function onScroll() { scrollY.set(scrollEl!.scrollTop) }
+    scrollEl.addEventListener("scroll", onScroll, { passive: true })
+    return () => scrollEl.removeEventListener("scroll", onScroll)
+  }, [scrollY])
 
   return (
     <div className="pb-12">
       {/* Full-width hero */}
       <div className="relative overflow-hidden h-[55vh] sm:h-[65vh]">
-        <img
+        <motion.img
           src={`${BASE}images/nonna.jpg`}
           alt="Nonna making pasta"
-          className="absolute inset-0 w-full h-full object-cover object-center"
+          style={{ y: heroY }}
+          className="absolute inset-0 h-[115%] w-full object-cover object-center"
         />
         {/* Gradient: dark top-left for text legibility, fades to cream at bottom */}
         <div className="absolute inset-0 bg-gradient-to-br from-black/50 via-black/20 to-transparent" />
