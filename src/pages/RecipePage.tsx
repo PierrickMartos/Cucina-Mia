@@ -163,6 +163,38 @@ export function RecipePage() {
     })
   }
 
+  // Arrow key navigation for step navigator
+  useEffect(() => {
+    const total = recipe?.steps.length ?? 0
+    if (!total) return
+    const handleKey = (e: KeyboardEvent) => {
+      if (e.key === "ArrowRight") {
+        setCurrentStep(prev => {
+          const next = Math.min(prev + 1, total - 1)
+          requestAnimationFrame(() => {
+            const el = stepRefs.current[next]
+            if (el) el.scrollIntoView({ behavior: reduceMotion ? "auto" : "smooth", block: "center" })
+          })
+          return next
+        })
+        setActiveTab("instructions")
+      }
+      if (e.key === "ArrowLeft") {
+        setCurrentStep(prev => {
+          const next = Math.max(prev - 1, 0)
+          requestAnimationFrame(() => {
+            const el = stepRefs.current[next]
+            if (el) el.scrollIntoView({ behavior: reduceMotion ? "auto" : "smooth", block: "center" })
+          })
+          return next
+        })
+        setActiveTab("instructions")
+      }
+    }
+    window.addEventListener("keydown", handleKey)
+    return () => window.removeEventListener("keydown", handleKey)
+  }, [recipe?.steps.length, reduceMotion])
+
   if (loading) {
     return (
       <div>

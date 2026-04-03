@@ -41,7 +41,14 @@
     "tips": "Curator's Tip",
     "source": "Source",
     "difficulty": "Difficulty",
-    "step": "Step {{number}}"
+    "step": "Step {{number}}",
+    "print": "Print recipe",
+    "resetChecks": "Reset",
+    "prev": "Prev",
+    "prevStep": "Previous step",
+    "next": "Next",
+    "nextStep": "Next step",
+    "stepOf": "Step {{current}} of {{total}}"
   },
   "filter": {
     "title": "Filter recipes",
@@ -53,7 +60,8 @@
     "ingredients": "Number of ingredients",
     "diet": "Diet & lifestyle",
     "season": "Season & occasion",
-    "clearAll": "Clear all filters"
+    "clearAll": "Clear all filters",
+    "openFilters": "Open filters"
   },
   "stepsOptions": {
     "simple": "✌️ ≤ 4 steps",

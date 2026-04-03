@@ -41,7 +41,14 @@
     "tips": "Consiglio del curatore",
     "source": "Fonte",
     "difficulty": "Difficoltà",
-    "step": "Passo {{number}}"
+    "step": "Passo {{number}}",
+    "print": "Stampa la ricetta",
+    "resetChecks": "Reimposta",
+    "prev": "Prec.",
+    "prevStep": "Passo precedente",
+    "next": "Succ.",
+    "nextStep": "Passo successivo",
+    "stepOf": "Passo {{current}} di {{total}}"
   },
   "filter": {
     "title": "Filtra ricette",
@@ -53,7 +60,8 @@
     "ingredients": "Numero di ingredienti",
     "diet": "Dieta & stile",
     "season": "Stagione & occasione",
-    "clearAll": "Rimuovi tutti i filtri"
+    "clearAll": "Rimuovi tutti i filtri",
+    "openFilters": "Apri i filtri"
   },
   "stepsOptions": {
     "simple": "✌️ ≤ 4 passaggi",
