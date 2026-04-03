@@ -63,6 +63,18 @@ export function RecipePage() {
     }
   }, [recipe])
 
+  // Keep screen awake while reading a recipe
+  useEffect(() => {
+    let lock: WakeLockSentinel | null = null
+    const acquire = async () => {
+      try {
+        lock = await navigator.wakeLock.request('screen')
+      } catch (_) {}
+    }
+    acquire()
+    return () => { lock?.release() }
+  }, [])
+
   useEffect(() => {
     if (!slug) return
     fetch(`${BASE}data/recipes/${slug}.json`)
