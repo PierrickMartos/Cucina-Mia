@@ -2,7 +2,7 @@ import { useState, useEffect, useRef } from "react"
 import { createPortal } from "react-dom"
 import { useParams, Link, useNavigate } from "react-router-dom"
 import { useTranslation } from "react-i18next"
-import { ArrowLeft, Clock, CookingPot, Users, ChefHat, UtensilsCrossed, Printer } from "lucide-react"
+import { ArrowLeft, Clock, CookingPot, Users, ChefHat, UtensilsCrossed, Printer, Volume2, VolumeX } from "lucide-react"
 import { motion, useMotionValue, useTransform, useReducedMotion, type Variants } from "motion/react"
 import { Badge } from "@/components/ui/badge"
 import { Skeleton } from "@/components/ui/skeleton"
@@ -52,6 +52,23 @@ export function RecipePage() {
   })
   const [headerBackVisible, setHeaderBackVisible] = useState(false)
   const [currentStep, setCurrentStep] = useState(0)
+  const [speakingStep, setSpeakingStep] = useState<number | null>(null)
+
+  const speakText = (text: string, stepIndex: number) => {
+    if (!("speechSynthesis" in window)) return
+    window.speechSynthesis.cancel()
+    const utterance = new SpeechSynthesisUtterance(text)
+    utterance.lang = i18n.language
+    utterance.onstart = () => setSpeakingStep(stepIndex)
+    utterance.onend = () => setSpeakingStep(null)
+    utterance.onerror = () => setSpeakingStep(null)
+    window.speechSynthesis.speak(utterance)
+  }
+
+  const stopSpeaking = () => {
+    window.speechSynthesis.cancel()
+    setSpeakingStep(null)
+  }
 
   // Refs for each step — populated after recipe loads
   const stepRefs = useRef<(HTMLLIElement | null)[]>([])
@@ -544,6 +561,18 @@ export function RecipePage() {
                       loading="lazy"
                     />
                   )}
+                  <button
+                    type="button"
+                    onClick={() => speakingStep === i ? stopSpeaking() : speakText(step.text, i)}
+                    aria-label={speakingStep === i ? t("recipe.stopReading", "Stop reading") : t("recipe.readAloud", "Read aloud")}
+                    className="mt-2 inline-flex items-center gap-1.5 text-xs text-muted-foreground hover:text-foreground transition-colors cursor-pointer print:hidden"
+                  >
+                    {speakingStep === i ? (
+                      <><VolumeX className="h-3.5 w-3.5" />{t("recipe.stop", "Stop")}</>
+                    ) : (
+                      <><Volume2 className="h-3.5 w-3.5" />{t("recipe.read", "Read")}</>
+                    )}
+                  </button>
                 </div>
               </li>
             ))}
@@ -635,7 +664,7 @@ export function RecipePage() {
                 <span className="flex h-8 w-8 shrink-0 items-center justify-center rounded-full gradient-primary text-primary-foreground text-sm font-bold">
                   {i + 1}
                 </span>
-                <div className="pt-1">
+                <div className="pt-1 flex-1">
                   <p className="text-base leading-relaxed">{step.text}</p>
                   {step.image && (
                     <img
@@ -645,6 +674,18 @@ export function RecipePage() {
                       loading="lazy"
                     />
                   )}
+                  <button
+                    type="button"
+                    onClick={() => speakingStep === i ? stopSpeaking() : speakText(step.text, i)}
+                    aria-label={speakingStep === i ? t("recipe.stopReading", "Stop reading") : t("recipe.readAloud", "Read aloud")}
+                    className="mt-2 inline-flex items-center gap-1.5 text-xs text-muted-foreground hover:text-foreground transition-colors cursor-pointer print:hidden"
+                  >
+                    {speakingStep === i ? (
+                      <><VolumeX className="h-3.5 w-3.5" />{t("recipe.stop", "Stop")}</>
+                    ) : (
+                      <><Volume2 className="h-3.5 w-3.5" />{t("recipe.read", "Read")}</>
+                    )}
+                  </button>
                 </div>
               </li>
             ))}
