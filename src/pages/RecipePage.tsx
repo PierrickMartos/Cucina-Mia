@@ -60,10 +60,20 @@ export function RecipePage() {
   const scrollY = useMotionValue(0)
   const heroY = useTransform(scrollY, (v) => (reduceMotion ? 0 : v * 0.5))
   const heroRef = useRef<HTMLDivElement>(null)
+  const scrollElRef = useRef<Element | null>(null)
+
+  // Progress bar: normalized 0–1 based on scrollable height
+  const scrollProgress = useTransform(scrollY, (v) => {
+    const el = scrollElRef.current
+    if (!el) return 0
+    const max = el.scrollHeight - el.clientHeight
+    return max > 0 ? Math.min(v / max, 1) : 0
+  })
 
   useEffect(() => {
     const scrollEl = document.querySelector("main")
     if (!scrollEl) return
+    scrollElRef.current = scrollEl
     function onScroll() {
       scrollY.set(scrollEl!.scrollTop)
       setHeaderBackVisible(scrollEl!.scrollTop > 80)
@@ -214,6 +224,15 @@ export function RecipePage() {
 
   return (
     <div className="pb-8">
+      {/* Scroll progress bar — fixed at top of viewport, portaled to body */}
+      {!reduceMotion && createPortal(
+        <motion.div
+          className="fixed top-0 left-0 right-0 h-1 bg-primary z-50 origin-left"
+          style={{ scaleX: scrollProgress }}
+        />,
+        document.body
+      )}
+
       {/* Back button — portaled into header when scrolled */}
       {headerSlot && createPortal(
         <button
