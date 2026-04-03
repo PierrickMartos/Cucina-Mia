@@ -59,3 +59,15 @@ jobs:
           if-no-files-found: ignore
           path: |
             /tmp/claude-log-add-recipe.json
+
+      - name: Add workflow summary
+        if: always()
+        run: |
+          echo "## Claude Code run" >> "$GITHUB_STEP_SUMMARY"
+          echo "" >> "$GITHUB_STEP_SUMMARY"
+          echo "- Repository: ${{ github.repository }}" >> "$GITHUB_STEP_SUMMARY"
+          echo "- Workflow: ${{ github.workflow }}" >> "$GITHUB_STEP_SUMMARY"
+          echo "- Run number: ${{ github.run_number }}" >> "$GITHUB_STEP_SUMMARY"
+          echo "- Trigger: ${{ github.event_name }}" >> "$GITHUB_STEP_SUMMARY"
+          echo "- Issue: #${{ github.event.issue.number }}" >> "$GITHUB_STEP_SUMMARY"
+          echo "- Claude result: ${{ steps.process_recipe.outcome }}" >> "$GITHUB_STEP_SUMMARY"
