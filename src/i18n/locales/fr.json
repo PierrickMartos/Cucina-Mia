@@ -20,7 +20,7 @@
     "builtIntro": "Ce site a été construit avec l'aide de l'IA. Google Stitch pour générer l'interface, Perplexity pour raffinner la stack technique (lib pour la recherche, animations, framework CSS...).",
     "builtContent": "Claude Code a ensuite mis tout ça en mouvement. Les nouvelles recettes sont gérées via des GitHub Issues avec des templates personnalisés, consommés par une GitHub Action qui déclenche deux skills Claude : une pour ajouter extraire la recette et générer les metadata nécessaires aux filtres, et une autre pour trouver une image pertinente sur Pixabay en utilisant les capacités multimodales de Claude pour vérifier qualité et pertinence.",
     "thanks": "Un grand merci à",
-    "thanksDetail": "pour avoir eu l'idée de ce projet à la machine à café. Tout le mérite lui revient."
+    "thanksDetail": "pour avoir eu l'idée de ce projet à la machine à café et me l'avoir partagée. Tout le mérite lui revient."
   },
   "recipes": {
     "title": "Recettes",
