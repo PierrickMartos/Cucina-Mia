@@ -60,8 +60,15 @@
     "ingredients": "Nombre d'ingrédients",
     "diet": "Régime & style",
     "season": "Saison & occasion",
+    "origin": "Origine",
     "clearAll": "Supprimer tous les filtres",
     "openFilters": "Ouvrir les filtres"
+  },
+  "origins": {
+    "pierrick": "Recette de Pierrick",
+    "amelie": "Recette d'Amélie",
+    "pierrick-grandma": "Mamie de Pierrick",
+    "amelie-grandpa": "Papi d'Amélie"
   },
   "stepsOptions": {
     "simple": "✌️ ≤ 4 étapes",

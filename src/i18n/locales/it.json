@@ -60,8 +60,15 @@
     "ingredients": "Numero di ingredienti",
     "diet": "Dieta & stile",
     "season": "Stagione & occasione",
+    "origin": "Origine",
     "clearAll": "Rimuovi tutti i filtri",
     "openFilters": "Apri i filtri"
+  },
+  "origins": {
+    "pierrick": "Ricetta di Pierrick",
+    "amelie": "Ricetta di Amélie",
+    "pierrick-grandma": "Nonna di Pierrick",
+    "amelie-grandpa": "Nonno di Amélie"
   },
   "stepsOptions": {
     "simple": "✌️ ≤ 4 passaggi",

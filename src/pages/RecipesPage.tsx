@@ -42,6 +42,7 @@ export function RecipesPage() {
   const [selectedIngredients, setSelectedIngredients] = useState<IngredientsBucket[]>(() => loadFilters().ingredients ?? [])
   const [selectedDietTags, setSelectedDietTags] = useState<string[]>(() => loadFilters().dietTags ?? [])
   const [selectedSeasonTags, setSelectedSeasonTags] = useState<string[]>(() => loadFilters().seasonTags ?? [])
+  const [selectedOrigins, setSelectedOrigins] = useState<string[]>(() => loadFilters().origins ?? [])
   const [showCleared, setShowCleared] = useState(false)
   const clearTimeoutRef = useRef<ReturnType<typeof setTimeout> | null>(null)
   const { t, i18n } = useTranslation()
@@ -83,7 +84,8 @@ export function RecipesPage() {
       selectedSteps.length === 0 &&
       selectedIngredients.length === 0 &&
       selectedDietTags.length === 0 &&
-      selectedSeasonTags.length === 0
+      selectedSeasonTags.length === 0 &&
+      selectedOrigins.length === 0
     if (allEmpty) {
       localStorage.removeItem(FILTERS_KEY)
     } else {
@@ -96,9 +98,10 @@ export function RecipesPage() {
         ingredients: selectedIngredients,
         dietTags: selectedDietTags,
         seasonTags: selectedSeasonTags,
+        origins: selectedOrigins,
       }))
     }
-  }, [selectedCategories, selectedDifficulties, selectedTimes, selectedPrepTimes, selectedSteps, selectedIngredients, selectedDietTags, selectedSeasonTags])
+  }, [selectedCategories, selectedDifficulties, selectedTimes, selectedPrepTimes, selectedSteps, selectedIngredients, selectedDietTags, selectedSeasonTags, selectedOrigins])
 
   const categories = useMemo(
     () => sortCategories([...new Set(recipes.map((r) => r.category))]),
@@ -169,6 +172,7 @@ export function RecipesPage() {
     setSelectedIngredients([])
     setSelectedDietTags([])
     setSelectedSeasonTags([])
+    setSelectedOrigins([])
     if (clearTimeoutRef.current !== null) {
       clearTimeout(clearTimeoutRef.current)
     }
@@ -184,7 +188,8 @@ export function RecipesPage() {
     selectedSteps.length > 0 ||
     selectedIngredients.length > 0 ||
     selectedDietTags.length > 0 ||
-    selectedSeasonTags.length > 0
+    selectedSeasonTags.length > 0 ||
+    selectedOrigins.length > 0
 
   const filtered = useMemo(() => {
     let result = search.trim()
@@ -235,12 +240,18 @@ export function RecipesPage() {
       )
     }
 
+    if (selectedOrigins.length > 0) {
+      result = result.filter((r) =>
+        selectedOrigins.includes(r.origin ?? "none")
+      )
+    }
+
     if (selectedTag) {
       result = result.filter((r) => r.tags.includes(selectedTag))
     }
 
     return result
-  }, [localizedRecipes, fuse, search, selectedCategories, selectedDifficulties, selectedTimes, selectedPrepTimes, selectedSteps, selectedIngredients, selectedDietTags, selectedSeasonTags, selectedTag])
+  }, [localizedRecipes, fuse, search, selectedCategories, selectedDifficulties, selectedTimes, selectedPrepTimes, selectedSteps, selectedIngredients, selectedDietTags, selectedSeasonTags, selectedOrigins, selectedTag])
 
   return (
     <div className="px-6 py-6">
@@ -274,6 +285,7 @@ export function RecipesPage() {
           selectedIngredients={selectedIngredients}
           selectedDietTags={selectedDietTags}
           selectedSeasonTags={selectedSeasonTags}
+          selectedOrigins={selectedOrigins}
           onCategoriesChange={setSelectedCategories}
           onDifficultiesChange={setSelectedDifficulties}
           onTimesChange={setSelectedTimes}
@@ -282,6 +294,7 @@ export function RecipesPage() {
           onIngredientsChange={setSelectedIngredients}
           onDietTagsChange={setSelectedDietTags}
           onSeasonTagsChange={setSelectedSeasonTags}
+          onOriginsChange={setSelectedOrigins}
           defaultOpen={searchParams.get("openFilters") === "1"}
         />
         {hasActiveFilters && (
@@ -346,6 +359,12 @@ export function RecipesPage() {
             <button key={`season-${tag}`} onClick={() => setSelectedSeasonTags(selectedSeasonTags.filter((s) => s !== tag))}
               className="cursor-pointer inline-flex items-center gap-1 rounded-full bg-primary/10 text-primary text-xs font-medium px-3 py-1 hover:bg-primary/20 transition-colors">
               {t(`tags.${tag}`, tag)}<X className="h-3 w-3" />
+            </button>
+          ))}
+          {selectedOrigins.map((origin) => (
+            <button key={`origin-${origin}`} onClick={() => setSelectedOrigins(selectedOrigins.filter((o) => o !== origin))}
+              className="cursor-pointer inline-flex items-center gap-1 rounded-full bg-primary/10 text-primary text-xs font-medium px-3 py-1 hover:bg-primary/20 transition-colors">
+              {t(`origins.${origin}`, origin)}<X className="h-3 w-3" />
             </button>
           ))}
           {selectedTag && (

@@ -17,6 +17,8 @@ export interface RecipeImages {
   web: string
 }
 
+export type RecipeOrigin = "none" | "pierrick" | "amelie" | "pierrick-grandma" | "amelie-grandpa"
+
 export interface RecipeSummary {
   slug: string
   title: string
@@ -29,6 +31,7 @@ export interface RecipeSummary {
   difficulty: "Facile" | "Medio" | "Difficile"
   category: string
   tags: string[]
+  origin?: RecipeOrigin
   stepCount?: number
   ingredientCount?: number
   translations?: { [lang: string]: Pick<RecipeTranslation, "title" | "description" | "tags"> }

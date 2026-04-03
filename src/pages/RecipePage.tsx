@@ -342,10 +342,15 @@ export function RecipePage() {
         transition={{ duration: 0.5, ease: "easeOut" }}
         className="relative -mt-16 mx-4 bg-background rounded-[1.5rem] pt-8 pb-6 px-6 text-center shadow-lg"
       >
-        {/* Category label */}
+        {/* Category & origin label */}
         <span className="text-[11px] uppercase tracking-[0.2em] text-primary font-semibold">
           {t(`categories.${recipe.category}`, recipe.category)}
         </span>
+        {recipe.origin && recipe.origin !== "none" && (
+          <span className="block text-[10px] uppercase tracking-[0.15em] text-muted-foreground mt-1">
+            {t(`origins.${recipe.origin}`, recipe.origin)}
+          </span>
+        )}
 
         {/* Title */}
         <h1 className="font-headline text-3xl sm:text-4xl font-bold tracking-[-0.02em] leading-tight mt-3 mb-6">

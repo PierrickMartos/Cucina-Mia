@@ -32,6 +32,11 @@ export function RecipeCard({ recipe: rawRecipe }: { recipe: RecipeSummary }) {
             <Badge variant="outline" className="text-muted-foreground text-[10px]">
               {t(`difficulties.${recipe.difficulty}`, recipe.difficulty)}
             </Badge>
+            {recipe.origin && recipe.origin !== "none" && (
+              <Badge variant="outline" className="text-primary/80 border-primary/30 text-[10px]">
+                {t(`origins.${recipe.origin}`, recipe.origin)}
+              </Badge>
+            )}
           </div>
           <h3 className="font-headline font-bold text-lg leading-tight mb-1.5 text-foreground tracking-[-0.02em]">
             {recipe.title}
