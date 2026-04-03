@@ -12,8 +12,8 @@
   "recipes": {
     "title": "Recipes",
     "description": "Home recipes, from grandma, grandpa, mother-in-law, mum, dad, the internet or elsewhere",
-    "noResults": "No recipe found",
-    "noResultsHint": "Try adjusting the filters or search",
+    "noResults": "Mamma mia, the pot is empty!",
+    "noResultsHint": "Even nonna couldn't find a recipe here. Try different filters.",
     "searchPlaceholder": "Search recipes..."
   },
   "recipe": {

@@ -116,7 +116,7 @@ export function HomePage() {
               className="bg-transparent border-none shadow-none focus-visible:shadow-none focus-visible:ring-0 focus-visible:ring-offset-0 w-full text-sm font-body placeholder:text-outline p-0 h-auto"
             />
             <Link
-              to="/recipes"
+              to="/recipes?openFilters=1"
               className="ml-2 flex items-center justify-center gradient-primary text-primary-foreground w-8 h-8 rounded-full hover:opacity-90 transition-all active:scale-95 duration-300 shrink-0"
             >
               <SlidersHorizontal className="h-4 w-4" />
@@ -154,7 +154,7 @@ export function HomePage() {
                   />
                   <div className="vignette-overlay absolute inset-0 flex flex-col justify-end p-5">
                     <span className="text-white/80 font-body uppercase tracking-widest text-[10px] mb-1">
-                      {String(index + 1).padStart(2, "0")} — {cat.category}
+                      {cat.count} — {cat.category}
                     </span>
                     <h3 className="font-headline text-3xl text-white font-bold tracking-[-0.02em]">
                       {cat.label}

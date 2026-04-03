@@ -241,6 +241,7 @@ export function RecipesPage() {
           onIngredientsChange={setSelectedIngredients}
           onDietTagsChange={setSelectedDietTags}
           onSeasonTagsChange={setSelectedSeasonTags}
+          defaultOpen={searchParams.get("openFilters") === "1"}
         />
         {hasActiveFilters && (
           <button

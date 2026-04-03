@@ -24,7 +24,7 @@ export function RecipeCard({ recipe: rawRecipe }: { recipe: RecipeSummary }) {
             loading="lazy"
           />
         </div>
-        <CardContent className="p-5">
+        <CardContent className="px-5 pb-5 pt-0">
           <div className="flex items-center gap-2 mb-3">
             <Badge variant="secondary" className="text-[10px] uppercase tracking-wider">
               {t(`categories.${recipe.category}`, recipe.category)}

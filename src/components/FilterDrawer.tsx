@@ -39,6 +39,7 @@ interface FilterDrawerProps {
   onIngredientsChange: (ingredients: IngredientsBucket[]) => void
   onDietTagsChange: (tags: string[]) => void
   onSeasonTagsChange: (tags: string[]) => void
+  defaultOpen?: boolean
 }
 
 export function FilterDrawer({
@@ -60,8 +61,9 @@ export function FilterDrawer({
   onIngredientsChange,
   onDietTagsChange,
   onSeasonTagsChange,
+  defaultOpen = false,
 }: FilterDrawerProps) {
-  const [open, setOpen] = useState(false)
+  const [open, setOpen] = useState(defaultOpen)
   const { t } = useTranslation()
 
   const activeCount =

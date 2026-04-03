@@ -12,8 +12,8 @@
   "recipes": {
     "title": "Recettes",
     "description": "Recettes maison, de grand-mère, de grand-père, de belle-mère, de maman, de papa, des internets ou d'ailleurs",
-    "noResults": "Aucune recette trouvée",
-    "noResultsHint": "Essayez de modifier les filtres ou la recherche",
+    "noResults": "Mamma mia, rien dans les casseroles !",
+    "noResultsHint": "Essayez d'autres filtres.",
     "searchPlaceholder": "Chercher des recettes..."
   },
   "recipe": {
