@@ -2,12 +2,18 @@
   "nav": {
     "home": "Home",
     "recipes": "Ricette",
-    "add": "Aggiungi"
+    "add": "Aggiungi",
+    "about": "Chi siamo"
   },
   "home": {
     "subtitle": "Ricette di casa, della nonna, del nonno, della suocera, della mamma, del papà, da internet o da altrove",
     "title": "Buon appetito",
     "searchPlaceholder": "Cerca una ricetta..."
+  },
+  "about": {
+    "intro": "Mia moglie ed io abbiamo ricette ovunque: schede nei segnalibri, quaderni sgualciti, screenshot, ricette scritte a mano dalla nonna, dal nonno, dalla mamma, dal papà, dagli amici, dai colleghi e molto altro ancora. Avevamo bisogno di un posto accogliente dove raccoglierle tutte.",
+    "story": "Cucina Mia è quel posto. Un sito caldo e semplice dove possiamo trovare facilmente le ricette che abbiamo raccolto nel corso degli anni. Niente pubblicità, niente pop-up, niente account. Solo le ricette.",
+    "thanks": "Un grande grazie a"
   },
   "recipes": {
     "title": "Ricette",

@@ -2,12 +2,18 @@
   "nav": {
     "home": "Home",
     "recipes": "Recipes",
-    "add": "Add"
+    "add": "Add",
+    "about": "About"
   },
   "home": {
     "subtitle": "Home recipes, from grandma, grandpa, mother-in-law, mum, dad, the internet or elsewhere",
     "title": "Buon appetito",
     "searchPlaceholder": "Search a recipe..."
+  },
+  "about": {
+    "intro": "My wife and I have recipes everywhere: bookmarked tabs, dog-eared notebooks, screenshots, hand-written recipes from grandma, grandpa, mother, father, friends, colleagues and more. We needed one cozy place to gather them all.",
+    "story": "Cucina Mia is that place. A warm, simple website where we can easily find the recipes we've collected over the years. No ads, no popups, no accounts. Just the recipes.",
+    "thanks": "A big thank you to"
   },
   "recipes": {
     "title": "Recipes",

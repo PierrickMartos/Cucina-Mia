@@ -1,5 +1,5 @@
 import { Outlet, Link, useLocation } from "react-router-dom"
-import { Home, BookOpen, PlusCircle } from "lucide-react"
+import { Home, BookOpen, PlusCircle, Info } from "lucide-react"
 import { useTranslation } from "react-i18next"
 import { motion } from "motion/react"
 import { useState, useRef, useEffect } from "react"
@@ -68,6 +68,7 @@ export function Layout() {
   const navItems = [
     { to: "/", icon: Home, label: t("nav.home") },
     { to: "/recipes", icon: BookOpen, label: t("nav.recipes") },
+    { to: "/about", icon: Info, label: t("nav.about") },
   ]
 
   return (
