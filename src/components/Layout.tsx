@@ -105,6 +105,7 @@ export function Layout() {
             <Link
               key={to}
               to={to}
+              onClick={to === "/recipes" ? () => localStorage.removeItem("cucina-mia-filters") : undefined}
               className={
                 isActive
                   ? "flex flex-col items-center justify-center gradient-primary text-primary-foreground rounded-xl px-5 py-1 scale-95 transition-all"

@@ -218,7 +218,7 @@ export function RecipesPage() {
         </span>
       </div>
 
-      <div className="flex items-center gap-3 mb-8">
+      <div className="flex items-center gap-3 mb-3">
         <div className="flex-1">
           <SearchBar value={search} onChange={setSearch} />
         </div>
@@ -262,23 +262,71 @@ export function RecipesPage() {
         )}
       </div>
 
-      {selectedTag && (
-        <div className="flex items-center gap-2 mb-4 -mt-4">
-          <span className="text-xs text-muted-foreground">{t("filter.tag", "Tag")}:</span>
-          <button
-            onClick={() => {
-              setSelectedTag(null)
-              setSearchParams((prev) => {
-                const next = new URLSearchParams(prev)
-                next.delete("tag")
-                return next
-              })
-            }}
-            className="cursor-pointer inline-flex items-center gap-1 rounded-full bg-primary/10 text-primary text-xs font-medium px-3 py-1 hover:bg-primary/20 transition-colors"
-          >
-            {selectedTag}
-            <X className="h-3 w-3" />
-          </button>
+      {(hasActiveFilters || selectedTag) && (
+        <div className="flex flex-wrap gap-2 mb-6">
+          {selectedCategories.map((cat) => (
+            <button key={`cat-${cat}`} onClick={() => setSelectedCategories(selectedCategories.filter((c) => c !== cat))}
+              className="cursor-pointer inline-flex items-center gap-1 rounded-full bg-primary/10 text-primary text-xs font-medium px-3 py-1 hover:bg-primary/20 transition-colors">
+              {t(`categories.${cat}`, cat)}<X className="h-3 w-3" />
+            </button>
+          ))}
+          {selectedDifficulties.map((diff) => (
+            <button key={`diff-${diff}`} onClick={() => setSelectedDifficulties(selectedDifficulties.filter((d) => d !== diff))}
+              className="cursor-pointer inline-flex items-center gap-1 rounded-full bg-primary/10 text-primary text-xs font-medium px-3 py-1 hover:bg-primary/20 transition-colors">
+              {t(`difficulties.${diff}`, diff)}<X className="h-3 w-3" />
+            </button>
+          ))}
+          {selectedTimes.map((bucket) => (
+            <button key={`time-${bucket}`} onClick={() => setSelectedTimes(selectedTimes.filter((b) => b !== bucket))}
+              className="cursor-pointer inline-flex items-center gap-1 rounded-full bg-primary/10 text-primary text-xs font-medium px-3 py-1 hover:bg-primary/20 transition-colors">
+              {t(`timeOptions.${bucket}`)}<X className="h-3 w-3" />
+            </button>
+          ))}
+          {selectedPrepTimes.map((bucket) => (
+            <button key={`prep-${bucket}`} onClick={() => setSelectedPrepTimes(selectedPrepTimes.filter((b) => b !== bucket))}
+              className="cursor-pointer inline-flex items-center gap-1 rounded-full bg-primary/10 text-primary text-xs font-medium px-3 py-1 hover:bg-primary/20 transition-colors">
+              {t(`prepTimeOptions.${bucket}`)}<X className="h-3 w-3" />
+            </button>
+          ))}
+          {selectedSteps.map((bucket) => (
+            <button key={`steps-${bucket}`} onClick={() => setSelectedSteps(selectedSteps.filter((b) => b !== bucket))}
+              className="cursor-pointer inline-flex items-center gap-1 rounded-full bg-primary/10 text-primary text-xs font-medium px-3 py-1 hover:bg-primary/20 transition-colors">
+              {t(`stepsOptions.${bucket}`)}<X className="h-3 w-3" />
+            </button>
+          ))}
+          {selectedIngredients.map((bucket) => (
+            <button key={`ing-${bucket}`} onClick={() => setSelectedIngredients(selectedIngredients.filter((b) => b !== bucket))}
+              className="cursor-pointer inline-flex items-center gap-1 rounded-full bg-primary/10 text-primary text-xs font-medium px-3 py-1 hover:bg-primary/20 transition-colors">
+              {t(`ingredientsOptions.${bucket}`)}<X className="h-3 w-3" />
+            </button>
+          ))}
+          {selectedDietTags.map((tag) => (
+            <button key={`diet-${tag}`} onClick={() => setSelectedDietTags(selectedDietTags.filter((d) => d !== tag))}
+              className="cursor-pointer inline-flex items-center gap-1 rounded-full bg-primary/10 text-primary text-xs font-medium px-3 py-1 hover:bg-primary/20 transition-colors">
+              {t(`tags.${tag}`, tag)}<X className="h-3 w-3" />
+            </button>
+          ))}
+          {selectedSeasonTags.map((tag) => (
+            <button key={`season-${tag}`} onClick={() => setSelectedSeasonTags(selectedSeasonTags.filter((s) => s !== tag))}
+              className="cursor-pointer inline-flex items-center gap-1 rounded-full bg-primary/10 text-primary text-xs font-medium px-3 py-1 hover:bg-primary/20 transition-colors">
+              {t(`tags.${tag}`, tag)}<X className="h-3 w-3" />
+            </button>
+          ))}
+          {selectedTag && (
+            <button
+              onClick={() => {
+                setSelectedTag(null)
+                setSearchParams((prev) => {
+                  const next = new URLSearchParams(prev)
+                  next.delete("tag")
+                  return next
+                })
+              }}
+              className="cursor-pointer inline-flex items-center gap-1 rounded-full bg-primary/10 text-primary text-xs font-medium px-3 py-1 hover:bg-primary/20 transition-colors"
+            >
+              {selectedTag}<X className="h-3 w-3" />
+            </button>
+          )}
         </div>
       )}
 
