@@ -16,7 +16,7 @@ export PIXABAY_API_KEY="your-key-here"
 
 ## Step 1: Build Search Queries
 
-Generate 2-3 search queries from the recipe, ordered by specificity. Pixabay search works best with short, focused queries (2-4 words).
+Generate 2 search queries from the recipe, ordered by specificity. Pixabay search works best with short, focused queries (2-4 words).
 
 **Query strategy — recipe name carries the most weight:**
 
