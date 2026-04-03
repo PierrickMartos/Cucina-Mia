@@ -50,7 +50,7 @@ export function AboutPage() {
 
       {/* Story section */}
       <div className="px-6 sm:px-10 pt-10 pb-4">
-        <div className="flex flex-col sm:flex-row gap-8 sm:gap-12 items-start max-w-3xl mx-auto">
+        <div className="flex flex-col sm:flex-row gap-8 sm:gap-12 items-start max-w-3xl lg:max-w-5xl mx-auto">
           {/* Left: text */}
           <div className="flex-1 min-w-0">
             <h2 className="font-headline text-2xl sm:text-3xl font-bold text-primary tracking-[-0.02em] mb-5">
@@ -77,7 +77,7 @@ export function AboutPage() {
 
       {/* Built with section */}
       <div className="px-6 sm:px-10 pt-4 pb-4">
-        <div className="flex flex-col sm:flex-row gap-8 sm:gap-12 items-start max-w-3xl mx-auto">
+        <div className="flex flex-col sm:flex-row gap-8 sm:gap-12 items-start max-w-3xl lg:max-w-5xl mx-auto">
           {/* Left: image */}
           <div className="w-full sm:w-64 shrink-0">
             <img
@@ -103,14 +103,14 @@ export function AboutPage() {
       </div>
 
       {/* Closing quote */}
-      <div className="px-6 sm:px-10 py-8 max-w-3xl mx-auto">
+      <div className="px-6 sm:px-10 py-8 max-w-3xl lg:max-w-5xl mx-auto">
         <p className="font-headline text-xl sm:text-2xl text-primary font-bold tracking-[-0.02em] italic border-l-2 border-primary/40 pl-5">
           Benvenuti nella mia cucina, buon appetito.
         </p>
       </div>
 
       {/* Footer credits */}
-      <div className="px-6 sm:px-10 max-w-3xl mx-auto pt-6 flex flex-col gap-3">
+      <div className="px-6 sm:px-10 max-w-3xl lg:max-w-5xl mx-auto pt-6 flex flex-col gap-3">
         <div className="bg-surface-high rounded-2xl p-5">
           <p className="text-sm text-foreground font-medium mb-1">
             {t("about.thanks")}{" "}
