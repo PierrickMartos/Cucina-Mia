@@ -73,6 +73,12 @@ export function Layout() {
 
   return (
     <div className="h-dvh flex flex-col bg-surface overflow-hidden">
+      <a
+        href="#main-content"
+        className="sr-only focus:not-sr-only focus:absolute focus:top-4 focus:left-4 focus:z-50 focus:px-4 focus:py-2 focus:bg-white focus:text-black focus:rounded"
+      >
+        Skip to content
+      </a>
       {/* Top App Bar */}
       <nav className="shrink-0 flex justify-between items-center px-6 h-14 bg-surface/70 backdrop-blur-md z-50">
         <div id="header-left-slot" className="min-w-10" />
@@ -91,7 +97,7 @@ export function Layout() {
       </nav>
 
       {/* Main Content */}
-      <main className="flex-1 overflow-y-auto overflow-x-hidden">
+      <main id="main-content" className="flex-1 overflow-y-auto overflow-x-hidden">
         <motion.div
           key={pathname}
           initial={{ opacity: 0, y: 10 }}
