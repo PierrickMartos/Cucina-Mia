@@ -1894,5 +1894,1357 @@
         ]
       }
     }
+  },
+  {
+    "slug": "coquilletto-au-chorizo",
+    "title": "Coquilletto au Chorizo",
+    "description": "Des coquillettes cuisinées façon risotto dans la bière ambrée avec du chorizo croustillant — un plat réconfortant et original.",
+    "images": {
+      "cover": "images/recipes/coquilletto-au-chorizo/cover.jpg",
+      "web": "images/recipes/coquilletto-au-chorizo/web.jpg"
+    },
+    "prepTime": 10,
+    "cookTime": 30,
+    "servings": 4,
+    "difficulty": "Facile",
+    "category": "Secondi",
+    "tags": [
+      "pâtes",
+      "chorizo",
+      "porc",
+      "bière",
+      "rapide",
+      "réconfortant",
+      "plat-principal",
+      "fromage",
+      "épicé",
+      "français"
+    ],
+    "ingredientCount": 8,
+    "stepCount": 5,
+    "translations": {
+      "en": {
+        "title": "Coquilletto with Chorizo",
+        "description": "Shell pasta cooked risotto-style in amber beer with crispy chorizo — a comforting and original dish.",
+        "tags": [
+          "pasta",
+          "chorizo",
+          "pork",
+          "beer",
+          "quick",
+          "comforting",
+          "main-course",
+          "cheese",
+          "spicy",
+          "french"
+        ]
+      },
+      "it": {
+        "title": "Coquillette al Chorizo",
+        "description": "Coquillette cotte come un risotto nella birra ambrata con chorizo croccante — un piatto confortante e originale.",
+        "tags": [
+          "pasta",
+          "chorizo",
+          "maiale",
+          "birra",
+          "veloce",
+          "confortante",
+          "piatto-principale",
+          "formaggio",
+          "speziato",
+          "francese"
+        ]
+      }
+    },
+    "imageCredit": {
+      "author": "RitaE",
+      "url": "https://pixabay.com/users/ritae-19628/"
+    }
+  },
+  {
+    "slug": "effiloche-de-porc",
+    "title": "Effiloché de Porc Sauce Barbecue",
+    "description": "Un effiloché de porc fondant cuit 3 heures au four dans une sauce barbecue maison — le plat parfait pour un repas convivial.",
+    "images": {
+      "cover": "images/recipes/effiloche-de-porc/cover.jpg",
+      "web": "images/recipes/effiloche-de-porc/web.jpg"
+    },
+    "prepTime": 15,
+    "cookTime": 180,
+    "servings": 4,
+    "difficulty": "Facile",
+    "category": "Secondi",
+    "tags": [
+      "porc",
+      "four",
+      "mijoté",
+      "barbecue",
+      "réconfortant",
+      "convivial",
+      "plat-principal",
+      "américain",
+      "se-congèle",
+      "à-partager"
+    ],
+    "ingredientCount": 10,
+    "stepCount": 7,
+    "translations": {
+      "en": {
+        "title": "BBQ Pulled Pork",
+        "description": "Meltingly tender pulled pork slow-roasted for 3 hours in a homemade BBQ sauce — the perfect dish for a convivial meal.",
+        "tags": [
+          "pork",
+          "oven",
+          "slow-cooked",
+          "bbq",
+          "comfort-food",
+          "sharing",
+          "main-course",
+          "american",
+          "freezer-friendly",
+          "crowd-pleaser"
+        ]
+      },
+      "it": {
+        "title": "Pulled Pork alla Salsa Barbecue",
+        "description": "Un pulled pork tenero e fondente cotto per 3 ore in forno in una salsa barbecue fatta in casa — il piatto perfetto per una cena conviviale.",
+        "tags": [
+          "maiale",
+          "forno",
+          "brasato",
+          "barbecue",
+          "comfort-food",
+          "da-condividere",
+          "secondo-piatto",
+          "americano",
+          "si-congela",
+          "per-tanti"
+        ]
+      }
+    },
+    "imageCredit": {
+      "author": "btfrewinphotography",
+      "url": "https://pixabay.com/photos/pork-meat-slow-cooked-food-dinner-1329681/"
+    }
+  },
+  {
+    "slug": "four-patate-douce-carotte-lardons-pita",
+    "title": "Plaque au Four : Patate Douce, Carottes et Lardons",
+    "description": "Une plaque au four colorée et savoureuse de patate douce, carottes et oignons rôtis avec des lardons, servie avec du pain pita.",
+    "category": "Secondi",
+    "difficulty": "Facile",
+    "prepTime": 15,
+    "cookTime": 30,
+    "servings": 4,
+    "tags": [
+      "four",
+      "patate-douce",
+      "carottes",
+      "lardons",
+      "one-pot",
+      "rapide",
+      "réconfortant",
+      "automne",
+      "plat-principal",
+      "économique"
+    ],
+    "images": {
+      "cover": "images/recipes/four-patate-douce-carotte-lardons-pita/cover.jpg",
+      "web": "images/recipes/four-patate-douce-carotte-lardons-pita/web.jpg"
+    },
+    "imageCredit": {
+      "id": "8295778",
+      "photographer": "Mondgesicht",
+      "pageURL": "https://pixabay.com/photos/sweet-potatoes-potatoes-cook-meal-8295778/"
+    },
+    "stepCount": 5,
+    "ingredientCount": 14
+  },
+  {
+    "slug": "four-tomates-aubergines-courgettes-pesto",
+    "title": "Légumes Méditerranéens Rôtis au Pesto",
+    "description": "Une plaque de légumes méditerranéens — tomates, aubergines et courgettes — rôtis au four et nappés de pesto basilic maison, servis avec de la mozzarella di bufala.",
+    "category": "Secondi",
+    "difficulty": "Facile",
+    "prepTime": 15,
+    "cookTime": 20,
+    "servings": 4,
+    "tags": [
+      "four",
+      "végétarien",
+      "légumes",
+      "pesto",
+      "méditerranéen",
+      "été",
+      "plat-principal",
+      "sans-gluten",
+      "mozzarella",
+      "rapide"
+    ],
+    "images": {
+      "cover": "images/recipes/four-tomates-aubergines-courgettes-pesto/cover.jpg",
+      "web": "images/recipes/four-tomates-aubergines-courgettes-pesto/web.jpg"
+    },
+    "imageCredit": {
+      "id": "8027678",
+      "user": "Mondgesicht",
+      "pageURL": "https://pixabay.com/photos/vegetable-pan-grilled-vegetables-8027678/"
+    },
+    "recipeFile": "public/data/recipes/four-tomates-aubergines-courgettes-pesto.json",
+    "coverImage": "public/images/recipes/four-tomates-aubergines-courgettes-pesto/cover.jpg",
+    "webImage": "public/images/recipes/four-tomates-aubergines-courgettes-pesto/web.jpg",
+    "indexEntry": {
+      "slug": "four-tomates-aubergines-courgettes-pesto",
+      "title": "Légumes Méditerranéens Rôtis au Pesto",
+      "description": "Une plaque de légumes méditerranéens — tomates, aubergines et courgettes — rôtis au four et nappés de pesto basilic maison, servis avec de la mozzarella di bufala.",
+      "category": "Secondi",
+      "difficulty": "Facile",
+      "prepTime": 15,
+      "cookTime": 20,
+      "servings": 4,
+      "tags": [
+        "four",
+        "végétarien",
+        "légumes",
+        "pesto",
+        "méditerranéen",
+        "été",
+        "plat-principal",
+        "sans-gluten",
+        "mozzarella",
+        "rapide"
+      ],
+      "images": {
+        "cover": "images/recipes/four-tomates-aubergines-courgettes-pesto/cover.jpg",
+        "web": "images/recipes/four-tomates-aubergines-courgettes-pesto/web.jpg"
+      }
+    },
+    "stepCount": 6,
+    "ingredientCount": 10
+  },
+  {
+    "slug": "frites-polenta-epinards",
+    "title": "Frites de Polenta et Épinards",
+    "description": "Des frites de polenta croustillantes au parmesan accompagnées d'épinards à l'ail — une alternative originale et végétarienne aux frites classiques.",
+    "prepTime": 20,
+    "cookTime": 30,
+    "servings": 4,
+    "difficulty": "Facile",
+    "category": "Secondi",
+    "tags": [
+      "polenta",
+      "épinards",
+      "végétarien",
+      "four",
+      "croustillant",
+      "sans-gluten",
+      "plat-principal",
+      "économique",
+      "légumes",
+      "italien"
+    ],
+    "stepCount": 7,
+    "ingredientCount": 9,
+    "images": {
+      "cover": "images/recipes/frites-polenta-epinards/cover.jpg",
+      "web": "images/recipes/frites-polenta-epinards/cover.jpg"
+    }
+  },
+  {
+    "slug": "gnocchi-aubergines-curry",
+    "title": "Gnocchi d'Aubergines au Curry",
+    "description": "Des gnocchi de polenta moelleux et aubergines fondantes gratinés au four dans une sauce curry parfumée — un plat végétarien savoureux et réconfortant.",
+    "images": {
+      "cover": "images/recipes/gnocchi-aubergines-curry/cover.jpg",
+      "web": "images/recipes/gnocchi-aubergines-curry/web.jpg"
+    },
+    "prepTime": 30,
+    "cookTime": 120,
+    "servings": 4,
+    "difficulty": "Facile",
+    "category": "Secondi",
+    "tags": [
+      "gnocchi",
+      "aubergines",
+      "curry",
+      "polenta",
+      "végétarien",
+      "gratiné",
+      "four",
+      "plat-principal",
+      "réconfortant",
+      "épicé"
+    ],
+    "ingredientCount": 10,
+    "stepCount": 5,
+    "translations": {
+      "en": {
+        "title": "Aubergine Gnocchi with Curry",
+        "description": "Soft polenta gnocchi with melting aubergine, baked in the oven with a fragrant curry sauce — a delicious and comforting vegetarian dish.",
+        "tags": [
+          "gnocchi",
+          "aubergine",
+          "curry",
+          "polenta",
+          "vegetarian",
+          "gratin",
+          "oven",
+          "main-course",
+          "comforting",
+          "spiced"
+        ]
+      },
+      "it": {
+        "title": "Gnocchi di Melanzane al Curry",
+        "description": "Morbidi gnocchi di polenta con melanzane fondenti, gratinati in forno con una fragrante salsa al curry — un piatto vegetariano saporito e confortante.",
+        "tags": [
+          "gnocchi",
+          "melanzane",
+          "curry",
+          "polenta",
+          "vegetariano",
+          "gratinato",
+          "forno",
+          "primo-piatto",
+          "confortante",
+          "speziato"
+        ]
+      }
+    }
+  },
+  {
+    "slug": "gnocchi-champi-ail-au-four",
+    "title": "Gnocchi Champi à l'Ail (au four)",
+    "description": "Gnocchi moelleux et champignons rôtis à l'ail en une seule plaque au four — un plat végétalien prêt en 30 minutes, zéro vaisselle.",
+    "images": {
+      "cover": "images/recipes/gnocchi-champi-ail-au-four/cover.jpg",
+      "web": "images/recipes/gnocchi-champi-ail-au-four/web.jpg"
+    },
+    "prepTime": 10,
+    "cookTime": 22,
+    "servings": 4,
+    "difficulty": "Facile",
+    "category": "Secondi",
+    "tags": [
+      "four",
+      "végétalien",
+      "végétarien",
+      "champignons",
+      "ail",
+      "rapide",
+      "one-pot",
+      "économique",
+      "plat-principal",
+      "facile"
+    ],
+    "ingredientCount": 9,
+    "stepCount": 5,
+    "translations": {
+      "en": {
+        "title": "Oven-Baked Garlic Mushroom Gnocchi",
+        "description": "Soft gnocchi and roasted mushrooms with garlic all on one baking tray — a vegan dish ready in 30 minutes, zero washing up.",
+        "tags": [
+          "oven",
+          "vegan",
+          "vegetarian",
+          "mushrooms",
+          "garlic",
+          "quick",
+          "one-pot",
+          "budget",
+          "main-course",
+          "easy"
+        ]
+      },
+      "it": {
+        "title": "Gnocchi con Funghi e Aglio al Forno",
+        "description": "Gnocchi morbidi e funghi arrostiti all'aglio in un'unica teglia — un piatto vegano pronto in 30 minuti, senza sporcare nulla.",
+        "tags": [
+          "forno",
+          "vegano",
+          "vegetariano",
+          "funghi",
+          "aglio",
+          "veloce",
+          "one-pot",
+          "economico",
+          "piatto-principale",
+          "facile"
+        ]
+      }
+    },
+    "imageCredit": {
+      "source": "Pixabay",
+      "photographer": "pixel1",
+      "url": "https://pixabay.com/photos/gnocchi-baked-cheese-zucchini-695055/",
+      "pixabayId": 695055
+    }
+  },
+  {
+    "slug": "gratin-butternut",
+    "title": "Gratin de Butternut",
+    "description": "Un gratin automnal onctueux de courge butternut fondante, nappée de crème et gratinée de chapelure et de comté.",
+    "images": {
+      "cover": "images/recipes/gratin-butternut/cover.jpg",
+      "web": "images/recipes/gratin-butternut/web.jpg"
+    },
+    "prepTime": 15,
+    "cookTime": 30,
+    "servings": 4,
+    "difficulty": "Facile",
+    "category": "Secondi",
+    "tags": [
+      "four",
+      "automne",
+      "végétarien",
+      "fromage",
+      "réconfortant",
+      "croustillant",
+      "onctueux",
+      "français",
+      "plat-principal",
+      "courge"
+    ],
+    "ingredientCount": 10,
+    "stepCount": 4,
+    "translations": {
+      "en": {
+        "title": "Butternut Gratin",
+        "description": "An autumnal creamy butternut squash gratin topped with golden breadcrumbs and Comté cheese.",
+        "tags": [
+          "oven",
+          "autumn",
+          "vegetarian",
+          "cheese",
+          "comforting",
+          "crispy",
+          "creamy",
+          "french",
+          "main-course",
+          "squash"
+        ]
+      },
+      "it": {
+        "title": "Gratin di Zucca Butternut",
+        "description": "Un gratinato autunnale di zucca butternut cremosa, coperta di panna e gratinata con pangrattato e Comté.",
+        "tags": [
+          "forno",
+          "autunno",
+          "vegetariano",
+          "formaggio",
+          "confortante",
+          "croccante",
+          "cremoso",
+          "francese",
+          "piatto-principale",
+          "zucca"
+        ]
+      }
+    },
+    "imageCredit": {
+      "name": "RitaE",
+      "url": "https://pixabay.com/users/ritae-19628/",
+      "source": "Pixabay",
+      "sourceUrl": "https://pixabay.com/photos/potato-casserole-potatoes-cheese-2848605/"
+    }
+  },
+  {
+    "slug": "gratin-ravioles-poireaux",
+    "title": "Gratin de Ravioles et Poireaux",
+    "description": "Un gratin réconfortant et rapide de ravioles du Dauphiné et poireaux fondants, nappés d'une crème à la moutarde à l'ancienne.",
+    "images": {
+      "cover": "images/recipes/gratin-ravioles-poireaux/cover.jpg",
+      "web": "images/recipes/gratin-ravioles-poireaux/web.jpg"
+    },
+    "prepTime": 12,
+    "cookTime": 25,
+    "servings": 2,
+    "difficulty": "Facile",
+    "category": "Secondi",
+    "tags": [
+      "four",
+      "végétarien",
+      "rapide",
+      "fromage",
+      "réconfortant",
+      "français",
+      "plat-principal",
+      "léger",
+      "économique",
+      "pâtes"
+    ],
+    "ingredientCount": 6,
+    "stepCount": 4,
+    "translations": {
+      "en": {
+        "title": "Ravioles and Leek Gratin",
+        "description": "A comforting and quick gratin of Dauphiné ravioles and tender leeks in a whole-grain mustard cream.",
+        "tags": [
+          "oven",
+          "vegetarian",
+          "quick",
+          "cheese",
+          "comforting",
+          "french",
+          "main-course",
+          "light",
+          "economical",
+          "pasta"
+        ]
+      },
+      "it": {
+        "title": "Gratin di Raviole e Porri",
+        "description": "Un gratin confortante e veloce di ravioli del Delfinato e porri teneri, avvolti in una crema alla senape in grani.",
+        "tags": [
+          "forno",
+          "vegetariano",
+          "veloce",
+          "formaggio",
+          "confortante",
+          "francese",
+          "piatto-principale",
+          "leggero",
+          "economico",
+          "pasta"
+        ]
+      }
+    },
+    "imageCredit": {
+      "source": "Pixabay",
+      "photographer": "Hans",
+      "url": "https://pixabay.com/photos/gratinated-cheese-casserole-324243/",
+      "pixabayId": 324243
+    }
+  },
+  {
+    "slug": "lentilles-corail-garam-massala",
+    "title": "Lentilles Corail au Garam Massala Façon Risotto",
+    "description": "Des lentilles corail et poulet mariné au lait de coco cuisinés façon risotto avec du garam massala — un plat épicé et parfumé.",
+    "images": {
+      "cover": "images/recipes/lentilles-corail-garam-massala/cover.jpg",
+      "web": "images/recipes/lentilles-corail-garam-massala/web.jpg"
+    },
+    "prepTime": 10,
+    "cookTime": 45,
+    "servings": 4,
+    "difficulty": "Facile",
+    "category": "Secondi",
+    "tags": [
+      "lentilles",
+      "poulet",
+      "indien",
+      "épicé",
+      "garam-massala",
+      "curry",
+      "réconfortant",
+      "plat-principal",
+      "sans-gluten",
+      "automne"
+    ],
+    "ingredientCount": 11,
+    "stepCount": 8,
+    "translations": {
+      "en": {
+        "title": "Red Lentils with Garam Masala Risotto-Style",
+        "description": "Red lentils and coconut-marinated chicken cooked risotto-style with garam masala — a spiced, aromatic one-pot dish."
+      },
+      "it": {
+        "title": "Lenticchie Rosse al Garam Masala in Stile Risotto",
+        "description": "Lenticchie rosse e pollo marinato nel latte di cocco cotti in stile risotto con garam masala — un piatto speziato e aromatico."
+      }
+    },
+    "imageCredit": {
+      "name": "joannawielgosz",
+      "url": "https://pixabay.com/users/joannawielgosz-18149746/",
+      "source": "Pixabay",
+      "pageURL": "https://pixabay.com/photos/curry-food-dish-meal-cuisine-7249247/"
+    }
+  },
+  {
+    "slug": "macaronis-fromage-facon-risotto",
+    "title": "Macaronis au Fromage Façon Risotto",
+    "description": "Des macaronis cuisinés façon risotto dans le bouillon de bœuf, enrobés d'une sauce crémeuse au cheddar — le mac & cheese à la française.",
+    "images": {
+      "cover": "images/recipes/macaronis-fromage-facon-risotto/cover.jpg",
+      "web": "images/recipes/macaronis-fromage-facon-risotto/web.jpg"
+    },
+    "prepTime": 10,
+    "cookTime": 30,
+    "servings": 4,
+    "difficulty": "Facile",
+    "category": "Secondi",
+    "tags": [
+      "pâtes",
+      "fromage",
+      "cheddar",
+      "réconfortant",
+      "rapide",
+      "plat-principal",
+      "onctueux",
+      "américain",
+      "français",
+      "enfants"
+    ],
+    "ingredientCount": 9,
+    "stepCount": 4,
+    "translations": {
+      "en": {
+        "title": "Mac & Cheese Risotto Style",
+        "description": "Macaroni cooked risotto-style in beef stock, then coated in a creamy cheddar sauce — the French take on mac & cheese."
+      },
+      "it": {
+        "title": "Maccheroni al Formaggio alla Maniera del Risotto",
+        "description": "Maccheroni cotti alla maniera del risotto nel brodo di manzo, avvolti in una cremosa salsa al cheddar — il mac & cheese alla francese."
+      }
+    },
+    "imageCredit": {
+      "author": "FRANK-ELISANTE",
+      "authorUrl": "https://pixabay.com/users/frank-elisante-38456982/",
+      "source": "Pixabay",
+      "sourceUrl": "https://pixabay.com/photos/mac-and-cheese-creamy-comfort-food-9019557/",
+      "pixabayId": 9019557
+    }
+  },
+  {
+    "slug": "orgesotto-pommes-magret-canard",
+    "title": "Orgesotto Pommes et Magret de Canard Séché",
+    "description": "Un risotto d'orge perlé au champagne, couronné de pommes caramélisées, noix croquantes et tranches de magret de canard séché.",
+    "images": {
+      "cover": "images/recipes/orgesotto-pommes-magret-canard/cover.jpg",
+      "web": "images/recipes/orgesotto-pommes-magret-canard/web.jpg"
+    },
+    "prepTime": 15,
+    "cookTime": 30,
+    "servings": 4,
+    "difficulty": "Facile",
+    "category": "Secondi",
+    "tags": [
+      "orge",
+      "canard",
+      "pommes",
+      "champignons",
+      "champagne",
+      "automne",
+      "mijoté",
+      "plat-principal",
+      "festif",
+      "sucré-salé"
+    ],
+    "ingredientCount": 11,
+    "stepCount": 6,
+    "translations": {
+      "en": {
+        "title": "Pearl Barley Risotto with Caramelised Apples and Dried Duck Breast",
+        "description": "A champagne pearl barley risotto topped with caramelised apples, crunchy walnuts and slices of dried duck breast."
+      },
+      "it": {
+        "title": "Orzotto alle Mele Caramellate e Magret d'Anatra Essiccato",
+        "description": "Un orzotto allo champagne coronato da mele caramellate, noci croccanti e fettine di magret d'anatra essiccato."
+      }
+    }
+  },
+  {
+    "slug": "penne-creme-chevre-noix",
+    "title": "Penne à la Crème de Chèvre et Noix",
+    "description": "Des penne crémeuses au chèvre frais, poireau fondant et noix croquantes — un plat complet prêt en 15 minutes.",
+    "images": {
+      "cover": "images/recipes/penne-creme-chevre-noix/cover.jpg",
+      "web": "images/recipes/penne-creme-chevre-noix/web.jpg"
+    },
+    "prepTime": 5,
+    "cookTime": 15,
+    "servings": 2,
+    "difficulty": "Facile",
+    "category": "Secondi",
+    "tags": [
+      "pâtes",
+      "végétarien",
+      "rapide",
+      "fromage",
+      "chèvre",
+      "noix",
+      "plat-principal",
+      "économique",
+      "facile",
+      "5-ingrédients"
+    ],
+    "ingredientCount": 8,
+    "stepCount": 5,
+    "translations": {
+      "en": {
+        "title": "Penne with Goat Cheese Cream and Walnuts",
+        "description": "Creamy penne with fresh goat cheese, melt-in-the-mouth leek and crunchy walnuts — a complete dish ready in 15 minutes.",
+        "tags": [
+          "pasta",
+          "vegetarian",
+          "quick",
+          "cheese",
+          "goat-cheese",
+          "walnuts",
+          "main-course",
+          "budget",
+          "easy",
+          "5-ingredients"
+        ]
+      },
+      "it": {
+        "title": "Penne alla Crema di Caprino e Noci",
+        "description": "Penne cremose con caprino fresco, porro morbido e noci croccanti — un piatto completo pronto in 15 minuti.",
+        "tags": [
+          "pasta",
+          "vegetariano",
+          "veloce",
+          "formaggio",
+          "caprino",
+          "noci",
+          "primo-piatto",
+          "economico",
+          "facile",
+          "5-ingredienti"
+        ]
+      }
+    },
+    "imageCredit": {
+      "source": "Pixabay",
+      "photographer": "StockSnap",
+      "photographerUrl": "https://pixabay.com/users/894430/",
+      "pageUrl": "https://pixabay.com/photos/penne-pasta-food-lunch-dinner-2618900/"
+    }
+  },
+  {
+    "slug": "poulet-tikka-massala",
+    "title": "Poulet Tikka Massala",
+    "description": "Un poulet mariné au yaourt et aux épices, mijoté dans une sauce tomate parfumée — le classique indien par excellence.",
+    "images": {
+      "cover": "images/recipes/poulet-tikka-massala/cover.jpg",
+      "web": "images/recipes/poulet-tikka-massala/web.jpg"
+    },
+    "prepTime": 20,
+    "cookTime": 40,
+    "servings": 6,
+    "difficulty": "Facile",
+    "category": "Secondi",
+    "tags": [
+      "poulet",
+      "indien",
+      "épicé",
+      "mijoté",
+      "curry",
+      "réconfortant",
+      "plat-principal",
+      "chaud",
+      "halal",
+      "sans-gluten"
+    ],
+    "ingredientCount": 13,
+    "stepCount": 8,
+    "translations": {
+      "en": {
+        "title": "Chicken Tikka Masala",
+        "description": "Chicken marinated in yogurt and spices, simmered in a fragrant tomato sauce — the ultimate Indian classic.",
+        "tags": [
+          "chicken",
+          "indian",
+          "spiced",
+          "braised",
+          "curry",
+          "comforting",
+          "main-course",
+          "hot",
+          "halal",
+          "gluten-free"
+        ]
+      },
+      "it": {
+        "title": "Pollo Tikka Masala",
+        "description": "Pollo marinato nello yogurt e nelle spezie, cotto a fuoco lento in una salsa di pomodoro profumata — il classico indiano per eccellenza.",
+        "tags": [
+          "pollo",
+          "indiano",
+          "speziato",
+          "brasato",
+          "curry",
+          "confortante",
+          "secondo-piatto",
+          "caldo",
+          "halal",
+          "senza-glutine"
+        ]
+      }
+    },
+    "imageCredit": {
+      "author": "Kirtip",
+      "authorUrl": "https://pixabay.com/users/kirtip-15193531/",
+      "source": "Pixabay",
+      "sourceUrl": "https://pixabay.com/photos/food-chicken-butter-masala-chicken-6465556/"
+    }
+  },
+  {
+    "slug": "risotto-a-la-milanaise",
+    "title": "Risotto à la Milanaise",
+    "description": "Le grand classique milanais : un risotto d'un jaune doré lumineux au safran et à la moelle de bœuf, crémeux et parfumé.",
+    "images": {
+      "cover": "images/recipes/risotto-a-la-milanaise/cover.jpg",
+      "web": "images/recipes/risotto-a-la-milanaise/web.jpg"
+    },
+    "prepTime": 10,
+    "cookTime": 20,
+    "servings": 4,
+    "difficulty": "Facile",
+    "category": "Secondi",
+    "tags": [
+      "riz",
+      "risotto",
+      "safran",
+      "fromage",
+      "italien",
+      "milanais",
+      "rapide",
+      "plat-principal",
+      "chaud",
+      "traditionnel"
+    ],
+    "ingredientCount": 9,
+    "stepCount": 5,
+    "translations": {
+      "en": {
+        "title": "Milanese Risotto",
+        "description": "The great Milanese classic: a saffron and bone marrow risotto with a brilliant golden-yellow hue, creamy and aromatic."
+      },
+      "it": {
+        "title": "Risotto alla Milanese",
+        "description": "Il grande classico milanese: un risotto di un giallo dorato luminoso allo zafferano e al midollo di bue, cremoso e profumato."
+      }
+    },
+    "imageCredit": {
+      "name": "DanielaElenaTentis",
+      "url": "https://pixabay.com/users/danielaelenatentis-2738541/",
+      "source": "Pixabay",
+      "pageURL": "https://pixabay.com/photos/food-risotto-saffron-shrimps-1485024/"
+    }
+  },
+  {
+    "slug": "risotto-champignons-foie-gras-noisettes",
+    "title": "Risotto aux Champignons Sauvages, Foie Gras et Noisettes",
+    "description": "Un risotto d'exception aux champignons sauvages, couronné de tranches de foie gras mi-cuit et de noisettes torréfiées.",
+    "category": "Secondi",
+    "difficulty": "Medio",
+    "prepTime": 15,
+    "cookTime": 25,
+    "servings": 4,
+    "ingredientCount": 10,
+    "stepCount": 6,
+    "tags": [
+      "riz",
+      "risotto",
+      "champignons",
+      "foie-gras",
+      "noisettes",
+      "festif",
+      "automne",
+      "plat-principal",
+      "français",
+      "gourmand"
+    ],
+    "images": {
+      "cover": "images/recipes/risotto-champignons-foie-gras-noisettes/cover.jpg",
+      "web": "images/recipes/risotto-champignons-foie-gras-noisettes/web.jpg"
+    },
+    "imageCredit": {
+      "id": "5894347",
+      "photographer": "katiklinski",
+      "pageURL": "https://pixabay.com/photos/risotto-meal-food-dish-5894347/"
+    },
+    "translations": {
+      "en": {
+        "title": "Wild Mushroom Risotto with Foie Gras and Hazelnuts",
+        "description": "An exceptional risotto with wild mushrooms, crowned with slices of mi-cuit foie gras and toasted hazelnuts."
+      },
+      "it": {
+        "title": "Risotto ai Funghi Selvatici, Foie Gras e Nocciole",
+        "description": "Un risotto d'eccezione ai funghi selvatici, coronato da fettine di foie gras mi-cuit e nocciole tostate."
+      }
+    }
+  },
+  {
+    "slug": "risotto-cheddar-bacon",
+    "title": "Risotto Cheddar et Bacon",
+    "description": "Un risotto généreux et réconfortant au cheddar fondu et bacon croustillant — une version anglaise gourmande du grand classique italien.",
+    "images": {
+      "cover": "images/recipes/risotto-cheddar-bacon/cover.jpg",
+      "web": "images/recipes/risotto-cheddar-bacon/web.jpg"
+    },
+    "imageCredit": {
+      "id": 1126412,
+      "user": "eKokki",
+      "pageURL": "https://pixabay.com/photos/risotto-food-pumpkin-goat-cheese-1126412/"
+    },
+    "prepTime": 10,
+    "cookTime": 25,
+    "servings": 4,
+    "difficulty": "Facile",
+    "category": "Secondi",
+    "tags": [
+      "riz",
+      "risotto",
+      "fromage",
+      "cheddar",
+      "bacon",
+      "porc",
+      "réconfortant",
+      "plat-principal",
+      "chaud",
+      "onctueux"
+    ],
+    "stepCount": 7,
+    "ingredientCount": 9
+  },
+  {
+    "slug": "risotto-pommes-magret-canard",
+    "title": "Risotto aux Pommes et Magret de Canard Séché",
+    "description": "Un risotto au subtil équilibre sucré-salé : pommes caramélisées et tranches de magret de canard séché sur un lit de riz crémeux.",
+    "images": {
+      "cover": "images/recipes/risotto-pommes-magret-canard/cover.jpg",
+      "web": "images/recipes/risotto-pommes-magret-canard/web.jpg"
+    },
+    "prepTime": 20,
+    "cookTime": 30,
+    "servings": 4,
+    "difficulty": "Facile",
+    "category": "Secondi",
+    "tags": [
+      "riz",
+      "risotto",
+      "canard",
+      "pommes",
+      "sucré-salé",
+      "automne",
+      "festif",
+      "plat-principal",
+      "français",
+      "onctueux"
+    ],
+    "translations": {
+      "en": {
+        "title": "Risotto with Apples and Dried Duck Breast",
+        "description": "A risotto with a subtle sweet-savory balance: caramelized apples and slices of dried duck breast on a bed of creamy grain.",
+        "tags": [
+          "barley",
+          "risotto",
+          "duck",
+          "apples",
+          "sweet-savory",
+          "autumn",
+          "festive",
+          "main-course",
+          "french",
+          "creamy"
+        ]
+      },
+      "it": {
+        "title": "Risotto con Mele e Magret d'Anatra Essiccato",
+        "description": "Un risotto dal sottile equilibrio dolce-salato: mele caramellate e fette di magret d'anatra essiccato su un letto di cereale cremoso.",
+        "tags": [
+          "orzo",
+          "risotto",
+          "anatra",
+          "mele",
+          "dolce-salato",
+          "autunno",
+          "festivo",
+          "primo-piatto",
+          "francese",
+          "cremoso"
+        ]
+      }
+    },
+    "stepCount": 6,
+    "ingredientCount": 12
+  },
+  {
+    "slug": "risotto-roquette-jambon-mascarpone",
+    "title": "Risotto Roquette, Jambon Cru et Mascarpone",
+    "description": "Un risotto crémeux au mascarpone garni de jambon cru fondant et de roquette fraîche — l'élégance italienne en 30 minutes.",
+    "images": {
+      "cover": "images/recipes/risotto-roquette-jambon-mascarpone/cover.jpg",
+      "web": "images/recipes/risotto-roquette-jambon-mascarpone/web.jpg"
+    },
+    "prepTime": 10,
+    "cookTime": 20,
+    "servings": 4,
+    "difficulty": "Facile",
+    "category": "Secondi",
+    "tags": [
+      "riz",
+      "risotto",
+      "jambon",
+      "fromage",
+      "mascarpone",
+      "italien",
+      "rapide",
+      "plat-principal",
+      "chaud",
+      "onctueux"
+    ],
+    "ingredientCount": 10,
+    "stepCount": 6,
+    "translations": {
+      "en": {
+        "title": "Rocket, Parma Ham and Mascarpone Risotto",
+        "description": "A creamy mascarpone risotto topped with melt-in-your-mouth cured ham and fresh rocket — Italian elegance in 30 minutes."
+      },
+      "it": {
+        "title": "Risotto con Rucola, Prosciutto Crudo e Mascarpone",
+        "description": "Un risotto cremoso al mascarpone guarnito con prosciutto crudo fondente e rucola fresca — l'eleganza italiana in 30 minuti."
+      }
+    },
+    "imageCredit": {
+      "name": "eKokki",
+      "url": "https://pixabay.com/users/ekokki-2254681/",
+      "source": "Pixabay",
+      "pixabayId": 1126412,
+      "pageURL": "https://pixabay.com/photos/risotto-food-meal-dish-rice-1126412/"
+    }
+  },
+  {
+    "slug": "souffle-au-fromage",
+    "title": "Soufflé au Fromage",
+    "description": "L'emblème de la cuisine française : un soufflé léger et aérien au gruyère, à servir aussitôt sorti du four pour en savourer toute la majesté.",
+    "images": {
+      "cover": "images/recipes/souffle-au-fromage/cover.jpg",
+      "web": "images/recipes/souffle-au-fromage/web.jpg"
+    },
+    "imageCredit": {
+      "id": 1258733,
+      "photographer": "ymon",
+      "pageURL": "https://pixabay.com/photos/cheese-souffle-sos-food-cooking-1258733/"
+    },
+    "prepTime": 20,
+    "cookTime": 25,
+    "servings": 4,
+    "difficulty": "Difficile",
+    "category": "Secondi",
+    "tags": [
+      "four",
+      "fromage",
+      "œufs",
+      "végétarien",
+      "français",
+      "classique",
+      "aérien",
+      "plat-principal",
+      "technique",
+      "festif"
+    ],
+    "ingredientCount": 8,
+    "stepCount": 7,
+    "translations": {
+      "en": {
+        "title": "Cheese Soufflé",
+        "description": "The emblem of French cuisine: a light and airy gruyère soufflé to be served straight from the oven to enjoy its full majesty.",
+        "tags": [
+          "oven",
+          "cheese",
+          "eggs",
+          "vegetarian",
+          "french",
+          "classic",
+          "airy",
+          "main-course",
+          "technique",
+          "festive"
+        ]
+      },
+      "it": {
+        "title": "Soufflé al Formaggio",
+        "description": "L'emblema della cucina francese: un soufflé leggero e arioso al gruyère, da servire appena sfornato per goderne tutta la maestà.",
+        "tags": [
+          "forno",
+          "formaggio",
+          "uova",
+          "vegetariano",
+          "francese",
+          "classico",
+          "arioso",
+          "secondo-piatto",
+          "tecnica",
+          "festoso"
+        ]
+      }
+    }
+  },
+  {
+    "slug": "tarte-tomate-mozza-basilic",
+    "title": "Tarte Tomate, Mozzarella et Basilic",
+    "description": "Une tarte provençale estivale aux tomates fraîches disposées en rosace, sur un lit de basilic et concentré de tomate, agrémentée de mozzarella di bufala.",
+    "images": {
+      "cover": "images/recipes/tarte-tomate-mozza-basilic/cover.jpg",
+      "web": "images/recipes/tarte-tomate-mozza-basilic/web.jpg"
+    },
+    "prepTime": 40,
+    "cookTime": 35,
+    "servings": 4,
+    "difficulty": "Facile",
+    "category": "Secondi",
+    "tags": [
+      "four",
+      "été",
+      "végétarien",
+      "tomates",
+      "fromage",
+      "basilic",
+      "provençal",
+      "plat-principal",
+      "français",
+      "tarte",
+      "mozzarella"
+    ],
+    "ingredientCount": 10,
+    "stepCount": 6,
+    "translations": {
+      "en": {
+        "title": "Tomato, Mozzarella and Basil Tart",
+        "description": "A summery Provençal tart with fresh tomatoes arranged in a rosette pattern, on a bed of basil and tomato paste, topped with mozzarella di bufala.",
+        "tags": [
+          "oven",
+          "summer",
+          "vegetarian",
+          "tomatoes",
+          "cheese",
+          "basil",
+          "provençal",
+          "main-course",
+          "french",
+          "tart",
+          "mozzarella"
+        ]
+      },
+      "it": {
+        "title": "Torta Salata Pomodoro, Mozzarella e Basilico",
+        "description": "Una torta salata provenzale estiva con pomodori freschi disposti a rosetta, su un letto di basilico e concentrato di pomodoro, guarnita con mozzarella di bufala.",
+        "tags": [
+          "forno",
+          "estate",
+          "vegetariano",
+          "pomodori",
+          "formaggio",
+          "basilico",
+          "provenzale",
+          "piatto-principale",
+          "francese",
+          "torta-salata",
+          "mozzarella"
+        ]
+      }
+    },
+    "imageCredit": {
+      "author": "RitaE",
+      "authorUrl": "https://pixabay.com/users/ritae-19628/",
+      "source": "Pixabay",
+      "sourceUrl": "https://pixabay.com/photos/tomatoes-tomato-quiche-red-yellow-1603611/"
+    }
+  },
+  {
+    "slug": "tartine-agneau-legumes",
+    "title": "Tartine Agneau et Légumes",
+    "description": "Tartine d'agneau confit sur pain de mie grillé, garnie d'un baïaldi de légumes (tomate, aubergine, courgette) cuits lentement au four, badigeonnée de moutarde en grains — une recette provençale élégante et généreuse signée André Charrial.",
+    "category": "Secondi",
+    "difficulty": "Facile",
+    "prepTime": 15,
+    "cookTime": 20,
+    "servings": 2,
+    "tags": [
+      "tartine",
+      "agneau",
+      "légumes",
+      "méditerranéen",
+      "rapide",
+      "plat-principal",
+      "four",
+      "grillé",
+      "herbes"
+    ],
+    "images": {
+      "cover": "images/recipes/tartine-agneau-legumes/cover.jpg",
+      "web": "images/recipes/tartine-agneau-legumes/web.jpg"
+    },
+    "imageCredit": {
+      "id": "1788942",
+      "photographer": "mp1746",
+      "pageURL": "https://pixabay.com/photos/sandwich-lamb-chop-lamb-taste-food-1788942/"
+    },
+    "stepCount": 7,
+    "ingredientCount": 8
+  },
+  {
+    "slug": "tartine-de-lamour",
+    "title": "Tartine de l'Amour",
+    "description": "Une tartine rustique et généreuse sur pain de campagne grillé, garnie de tomates concassées à l'échalote, au gingembre et au vinaigre balsamique, parsemée de parmesan.",
+    "category": "Brunch",
+    "difficulty": "Facile",
+    "prepTime": 10,
+    "cookTime": 5,
+    "servings": 2,
+    "tags": [
+      "tartine",
+      "brunch",
+      "rapide",
+      "facile",
+      "tomate",
+      "pain-de-campagne",
+      "balsamique",
+      "parmesan",
+      "végétarien",
+      "français"
+    ],
+    "images": {
+      "cover": "images/recipes/tartine-de-lamour/cover.jpg",
+      "web": "images/recipes/tartine-de-lamour/web.jpg"
+    },
+    "imageCredit": {
+      "cover": {
+        "pixabayId": "5619887",
+        "photographer": "amiraxgelcola",
+        "pageURL": "https://pixabay.com/photos/gourmet-food-bread-dish-bruschetta-5619887/"
+      },
+      "web": {
+        "pixabayId": "5699486",
+        "photographer": "amiraxgelcola",
+        "pageURL": "https://pixabay.com/photos/bruschetta-dish-food-snack-5699486/"
+      }
+    },
+    "stepCount": 5,
+    "ingredientCount": 8
+  },
+  {
+    "slug": "tartine-oeufs-chorizo",
+    "title": "Tartine Œufs-Chorizo",
+    "description": "Une tartine généreuse et savoureuse garnie d'œufs brouillés crémeux et de tranches de chorizo croustillant — le petit-déjeuner ou brunch parfait.",
+    "images": {
+      "cover": "images/recipes/tartine-oeufs-chorizo/cover.jpg",
+      "web": "images/recipes/tartine-oeufs-chorizo/web.jpg"
+    },
+    "prepTime": 5,
+    "cookTime": 10,
+    "servings": 2,
+    "difficulty": "Facile",
+    "category": "Brunch",
+    "tags": [
+      "tartine",
+      "œufs",
+      "chorizo",
+      "rapide",
+      "brunch",
+      "petit-déjeuner",
+      "porc",
+      "épicé",
+      "facile",
+      "5-ingrédients"
+    ],
+    "ingredientCount": 8,
+    "stepCount": 6,
+    "translations": {
+      "en": {
+        "title": "Eggs and Chorizo Toast",
+        "description": "A generous and flavorful open-faced toast topped with creamy scrambled eggs and crispy chorizo slices — the perfect breakfast or brunch.",
+        "tags": [
+          "toast",
+          "eggs",
+          "chorizo",
+          "quick",
+          "brunch",
+          "breakfast",
+          "pork",
+          "spicy",
+          "easy",
+          "5-ingredients"
+        ]
+      },
+      "it": {
+        "title": "Tartine Uova e Chorizo",
+        "description": "Una tartine generosa e saporita guarnita con uova strapazzate cremose e fette di chorizo croccante — la colazione o il brunch perfetto.",
+        "tags": [
+          "tartine",
+          "uova",
+          "chorizo",
+          "veloce",
+          "brunch",
+          "colazione",
+          "maiale",
+          "piccante",
+          "facile",
+          "5-ingredienti"
+        ]
+      }
+    }
+  },
+  {
+    "slug": "tomates-farcies",
+    "title": "Tomates Farcies",
+    "description": "Les tomates farcies de l'enfance : une farce généreuse au jambon cru et viande hachée parfumée aux herbes, cuites lentement au four.",
+    "images": {
+      "cover": "images/recipes/tomates-farcies/cover.jpg",
+      "web": "images/recipes/tomates-farcies/web.jpg"
+    },
+    "prepTime": 20,
+    "cookTime": 40,
+    "servings": 4,
+    "difficulty": "Facile",
+    "category": "Secondi",
+    "tags": [
+      "four",
+      "été",
+      "viande",
+      "porc",
+      "tomates",
+      "réconfortant",
+      "plat-principal",
+      "français",
+      "farci",
+      "herbes"
+    ],
+    "ingredientCount": 15,
+    "stepCount": 5,
+    "translations": {
+      "en": {
+        "title": "Stuffed Tomatoes",
+        "description": "A childhood classic: generously stuffed tomatoes with cured ham and minced meat, fragrant with fresh herbs, slowly baked in the oven.",
+        "tags": [
+          "oven",
+          "summer",
+          "meat",
+          "pork",
+          "tomatoes",
+          "comforting",
+          "main-course",
+          "french",
+          "stuffed",
+          "herbs"
+        ]
+      },
+      "it": {
+        "title": "Pomodori Ripieni",
+        "description": "I pomodori ripieni dell'infanzia: un ripieno generoso con prosciutto crudo e carne macinata, profumato alle erbe aromatiche, cotti lentamente in forno.",
+        "tags": [
+          "forno",
+          "estate",
+          "carne",
+          "maiale",
+          "pomodori",
+          "confortante",
+          "piatto-principale",
+          "francese",
+          "ripieno",
+          "erbe"
+        ]
+      }
+    },
+    "imageCredit": {
+      "source": "Pixabay",
+      "photographer": "hcdeharder",
+      "photographerUrl": "https://pixabay.com/users/hcdeharder-1227833/",
+      "photoUrl": "https://pixabay.com/photos/stuffed-tomatoes-blue-cheese-food-855184/",
+      "pixabayId": 855184
+    }
   }
 ]

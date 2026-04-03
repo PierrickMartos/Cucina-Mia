@@ -1,0 +1,172 @@
+{
+  "slug": "risotto-pommes-magret-canard",
+  "title": "Risotto aux Pommes et Magret de Canard Séché",
+  "description": "Un risotto au subtil équilibre sucré-salé : pommes caramélisées et tranches de magret de canard séché sur un lit de riz crémeux.",
+  "images": {
+    "cover": "images/recipes/risotto-pommes-magret-canard/cover.jpg",
+    "web": "images/recipes/risotto-pommes-magret-canard/web.jpg"
+  },
+  "prepTime": 20,
+  "cookTime": 30,
+  "servings": 4,
+  "difficulty": "Facile",
+  "category": "Secondi",
+  "tags": [
+    "riz",
+    "risotto",
+    "canard",
+    "pommes",
+    "sucré-salé",
+    "automne",
+    "festif",
+    "plat-principal",
+    "français",
+    "onctueux"
+  ],
+  "imageCredit": {
+    "id": 7014164,
+    "photographer": "chacha7777",
+    "pageURL": "https://pixabay.com/photos/risotto-food-sauce-rice-7014164/"
+  },
+  "ingredients": [
+    {
+      "items": [
+        "240g d'orge perlé",
+        "80g de champignons sauvages déshydratés",
+        "2 pommes",
+        "1 oignon",
+        "20cl de champagne (ou vin blanc sec)",
+        "1L de bouillon de légumes",
+        "100g de parmesan râpé",
+        "8 noix (cerneaux)",
+        "29 tranches de magret de canard séché",
+        "30g de matière grasse (beurre)",
+        "Sel q.s.",
+        "Poivre q.s."
+      ]
+    }
+  ],
+  "steps": [
+    {
+      "text": "Réhydrater les champignons dans un récipient d'eau le temps de préparer la suite. Peler et couper les pommes en petits dés. Dans une poêle, les faire caraméliser."
+    },
+    {
+      "text": "Peler et émincer l'oignon. Dans une sauteuse, faire revenir l'oignon dans un peu de matière grasse, ajouter l'orge perlé et mouiller avec le champagne."
+    },
+    {
+      "text": "Dès que le champagne est complètement évaporé, verser le bouillon de légumes en plusieurs fois jusqu'à ce que l'orge soit parfaitement cuite ; ne cesser jamais de remuer. Compter 25-30 min de cuisson environ. À mi-cuisson, ajouter les champignons égouttés."
+    },
+    {
+      "text": "Une fois l'orge cuite, ajouter le parmesan. Couvrir et laisser reposer 2 min hors du feu. Remuer et rectifier l'assaisonnement si nécessaire."
+    },
+    {
+      "text": "Au moment de dresser dans l'assiette, ajouter les pommes caramélisées, les noix concassées et les tranches de magret de canard séché."
+    },
+    {
+      "text": "Déguster sans attendre."
+    }
+  ],
+  "tips": [
+    "Remplacez le champagne par du cidre brut pour une note encore plus normande.",
+    "Les champignons sauvages déshydratés (cèpes, girolles) apportent une profondeur de goût incomparable.",
+    "Pour un plat végétarien, omettez le magret et doublez la quantité de noix et de champignons."
+  ],
+  "translations": {
+    "en": {
+      "title": "Risotto with Apples and Dried Duck Breast",
+      "description": "A risotto with a subtle sweet-savory balance: caramelized apples and slices of dried duck breast on a bed of creamy grain.",
+      "tags": ["barley", "risotto", "duck", "apples", "sweet-savory", "autumn", "festive", "main-course", "french", "creamy"],
+      "ingredients": [
+        {
+          "items": [
+            "240g pearl barley",
+            "80g dried wild mushrooms",
+            "2 apples",
+            "1 onion",
+            "200ml champagne (or dry white wine)",
+            "1L vegetable stock",
+            "100g grated parmesan",
+            "8 walnuts (halves)",
+            "29 slices dried duck breast (magret de canard séché)",
+            "30g fat (butter)",
+            "Salt to taste",
+            "Pepper to taste"
+          ]
+        }
+      ],
+      "steps": [
+        {
+          "text": "Rehydrate the mushrooms in a bowl of water while you prepare the rest. Peel and dice the apples. In a pan, caramelize them in a little butter."
+        },
+        {
+          "text": "Peel and finely slice the onion. In a sauté pan, cook the onion in a little fat, add the pearl barley and deglaze with the champagne."
+        },
+        {
+          "text": "Once the champagne has fully evaporated, add the vegetable stock a little at a time, stirring constantly, until the barley is perfectly cooked — about 25-30 minutes. Halfway through cooking, add the drained mushrooms."
+        },
+        {
+          "text": "Once the barley is cooked, stir in the parmesan. Cover and rest off the heat for 2 minutes. Stir and adjust seasoning as needed."
+        },
+        {
+          "text": "To serve, top with the caramelized apples, crushed walnuts and slices of dried duck breast."
+        },
+        {
+          "text": "Enjoy immediately."
+        }
+      ],
+      "tips": [
+        "Replace champagne with dry cider for an even more Norman flavor.",
+        "Dried wild mushrooms (porcini, chanterelles) add incomparable depth of flavor.",
+        "For a vegetarian dish, omit the duck and double the quantity of walnuts and mushrooms."
+      ]
+    },
+    "it": {
+      "title": "Risotto con Mele e Magret d'Anatra Essiccato",
+      "description": "Un risotto dal sottile equilibrio dolce-salato: mele caramellate e fette di magret d'anatra essiccato su un letto di cereale cremoso.",
+      "tags": ["orzo", "risotto", "anatra", "mele", "dolce-salato", "autunno", "festivo", "primo-piatto", "francese", "cremoso"],
+      "ingredients": [
+        {
+          "items": [
+            "240g di orzo perlato",
+            "80g di funghi selvatici essiccati",
+            "2 mele",
+            "1 cipolla",
+            "200ml di champagne (o vino bianco secco)",
+            "1L di brodo vegetale",
+            "100g di parmigiano grattugiato",
+            "8 noci (gherigli)",
+            "29 fette di magret d'anatra essiccato",
+            "30g di materia grassa (burro)",
+            "Sale q.b.",
+            "Pepe q.b."
+          ]
+        }
+      ],
+      "steps": [
+        {
+          "text": "Reidratare i funghi in una ciotola d'acqua mentre si prepara il resto. Pelare e tagliare le mele a dadini. In una padella, caramellarle con un po' di burro."
+        },
+        {
+          "text": "Pelare e affettare finemente la cipolla. In una casseruola, far soffriggere la cipolla con un po' di grasso, aggiungere l'orzo perlato e sfumare con lo champagne."
+        },
+        {
+          "text": "Una volta evaporato lo champagne, aggiungere il brodo vegetale poco alla volta, mescolando continuamente, finché l'orzo è perfettamente cotto — circa 25-30 minuti. A metà cottura, aggiungere i funghi scolati."
+        },
+        {
+          "text": "Quando l'orzo è cotto, incorporare il parmigiano. Coprire e far riposare fuori dal fuoco per 2 minuti. Mescolare e aggiustare il condimento se necessario."
+        },
+        {
+          "text": "Al momento di impiattare, guarnire con le mele caramellate, le noci spezzettate e le fette di magret d'anatra essiccato."
+        },
+        {
+          "text": "Gustare subito."
+        }
+      ],
+      "tips": [
+        "Sostituire lo champagne con sidro secco per un tocco ancora più normanno.",
+        "I funghi selvatici essiccati (porcini, finferli) aggiungono una profondità di sapore incomparabile.",
+        "Per un piatto vegetariano, omettere l'anatra e raddoppiare la quantità di noci e funghi."
+      ]
+    }
+  }
+}
