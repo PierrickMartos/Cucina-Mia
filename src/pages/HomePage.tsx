@@ -35,18 +35,33 @@ interface CategoryCard {
 export function HomePage() {
   const [recipes, setRecipes] = useState<RecipeSummary[]>([])
   const [loading, setLoading] = useState(true)
+  const [error, setError] = useState<string | null>(null)
+  const [retryCount, setRetryCount] = useState(0)
   const [search, setSearch] = useState("")
   const { t } = useTranslation()
 
   useEffect(() => {
+    let cancelled = false
+    // Reset loading/error state for each fetch attempt (including retries)
+    // eslint-disable-next-line react-hooks/set-state-in-effect
+    setLoading(true)
+    setError(null)
     fetch(`${BASE}data/recipes/index.json`)
       .then((res) => res.json())
       .then((data: RecipeSummary[]) => {
-        setRecipes(data)
-        setLoading(false)
+        if (!cancelled) {
+          setRecipes(data)
+          setLoading(false)
+        }
       })
-      .catch(() => setLoading(false))
-  }, [])
+      .catch(() => {
+        if (!cancelled) {
+          setError('Failed to load. Please try again.')
+          setLoading(false)
+        }
+      })
+    return () => { cancelled = true }
+  }, [retryCount])
 
   const categories = useMemo<CategoryCard[]>(() => {
     const map = new Map<string, RecipeSummary[]>()
@@ -127,7 +142,18 @@ export function HomePage() {
 
       {/* Content: search results or category cards */}
       <section className="flex-1 min-h-0 overflow-y-auto pb-2">
-        {isSearching ? (
+        {error ? (
+          <div className="flex flex-col items-center justify-center py-16 text-center gap-4">
+            <p className="text-sm text-muted-foreground">{error}</p>
+            <button
+              type="button"
+              onClick={() => setRetryCount(c => c + 1)}
+              className="rounded-full bg-surface-high px-5 py-2 text-sm font-medium text-foreground hover:bg-surface-container transition-colors"
+            >
+              Try again
+            </button>
+          </div>
+        ) : isSearching ? (
           searchResults.length === 0 ? <RecipesNotFound /> : <RecipeGrid recipes={searchResults} />
         ) : loading ? (
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">

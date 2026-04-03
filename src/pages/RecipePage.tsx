@@ -40,6 +40,8 @@ export function RecipePage() {
   const reduceMotion = useReducedMotion()
   const [rawRecipe, setRawRecipe] = useState<RecipeDetail | null>(null)
   const [loading, setLoading] = useState(true)
+  const [error, setError] = useState<string | null>(null)
+  const [retryCount, setRetryCount] = useState(0)
   const recipe = rawRecipe ? localizeRecipeDetail(rawRecipe, i18n.language) : null
   const [activeTab, setActiveTab] = useState<Tab>("ingredients")
   const storageKey = `cucina-mia:checks:${slug}`
@@ -97,17 +99,30 @@ export function RecipePage() {
 
   useEffect(() => {
     if (!slug) return
+    let cancelled = false
+    // Reset loading/error state for each fetch attempt (including retries)
+    // eslint-disable-next-line react-hooks/set-state-in-effect
+    setLoading(true)
+    setError(null)
     fetch(`${BASE}data/recipes/${slug}.json`)
       .then((res) => {
         if (!res.ok) throw new Error("Not found")
         return res.json()
       })
       .then((data) => {
-        setRawRecipe(data)
-        setLoading(false)
+        if (!cancelled) {
+          setRawRecipe(data)
+          setLoading(false)
+        }
       })
-      .catch(() => setLoading(false))
-  }, [slug])
+      .catch(() => {
+        if (!cancelled) {
+          setError('Failed to load. Please try again.')
+          setLoading(false)
+        }
+      })
+    return () => { cancelled = true }
+  }, [slug, retryCount])
 
   const toggleIngredient = (id: string) => {
     setCheckedIngredients(prev => {
@@ -151,6 +166,21 @@ export function RecipePage() {
         <div className="px-6 mt-6">
           <Skeleton className="h-64 w-full rounded-[1.5rem]" />
         </div>
+      </div>
+    )
+  }
+
+  if (error) {
+    return (
+      <div className="flex flex-col items-center justify-center py-16 px-6 text-center gap-4">
+        <p className="text-sm text-muted-foreground">{error}</p>
+        <button
+          type="button"
+          onClick={() => setRetryCount(c => c + 1)}
+          className="rounded-full bg-surface-high px-5 py-2 text-sm font-medium text-foreground hover:bg-surface-container transition-colors"
+        >
+          Try again
+        </button>
       </div>
     )
   }

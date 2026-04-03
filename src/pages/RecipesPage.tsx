@@ -26,6 +26,8 @@ export function RecipesPage() {
   const [searchParams, setSearchParams] = useSearchParams()
   const [recipes, setRecipes] = useState<RecipeSummary[]>([])
   const [loading, setLoading] = useState(true)
+  const [error, setError] = useState<string | null>(null)
+  const [retryCount, setRetryCount] = useState(0)
   const [search, setSearch] = useState(searchParams.get("q") ?? "")
   const [selectedTag, setSelectedTag] = useState<string | null>(searchParams.get("tag"))
   const [selectedCategories, setSelectedCategories] = useState<string[]>(() => {
@@ -50,14 +52,27 @@ export function RecipesPage() {
   )
 
   useEffect(() => {
+    let cancelled = false
+    // Reset loading/error state for each fetch attempt (including retries)
+    // eslint-disable-next-line react-hooks/set-state-in-effect
+    setLoading(true)
+    setError(null)
     fetch(`${BASE}data/recipes/index.json`)
       .then((res) => res.json())
       .then((data) => {
-        setRecipes(data)
-        setLoading(false)
+        if (!cancelled) {
+          setRecipes(data)
+          setLoading(false)
+        }
       })
-      .catch(() => setLoading(false))
-  }, [])
+      .catch(() => {
+        if (!cancelled) {
+          setError('Failed to load. Please try again.')
+          setLoading(false)
+        }
+      })
+    return () => { cancelled = true }
+  }, [retryCount])
 
   useEffect(() => {
     const allEmpty =
@@ -351,7 +366,20 @@ export function RecipesPage() {
         </div>
       )}
 
-      <RecipeGrid recipes={filtered} loading={loading} />
+      {error ? (
+        <div className="flex flex-col items-center justify-center py-16 text-center gap-4">
+          <p className="text-sm text-muted-foreground">{error}</p>
+          <button
+            type="button"
+            onClick={() => setRetryCount(c => c + 1)}
+            className="rounded-full bg-surface-high px-5 py-2 text-sm font-medium text-foreground hover:bg-surface-container transition-colors"
+          >
+            Try again
+          </button>
+        </div>
+      ) : (
+        <RecipeGrid recipes={filtered} loading={loading} />
+      )}
     </div>
   )
 }
