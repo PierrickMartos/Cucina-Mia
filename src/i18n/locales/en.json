@@ -16,6 +16,9 @@
     "heirloomTitle": "The Digital Heirloom",
     "intro": "My wife and I have recipes everywhere: bookmarked tabs, dog-eared notebooks, screenshots, hand-written recipes from grandma, grandpa, mother, father, friends, colleagues and more. We needed one cozy place to gather them all.",
     "story": "Cucina Mia is that place. A warm, simple website where we can easily find the recipes we've collected over the years. No ads, no popups, no accounts. Just the recipes.",
+    "builtTitle": "La cucina digitale",
+    "builtIntro": "This website was built with the help of AI tools. Google Stitch generated the initial UI, while Perplexity helped research the right tech stack — choosing the fuzzy search library, the fastest way to host a static site, and which CSS framework to use.",
+    "builtContent": "Claude Code then brought everything together. New recipes are managed through GitHub Issues using custom templates, consumed by a GitHub Action that triggers two Claude skills: one to add the recipe to the cookbook, and another to find a relevant image from Pixabay — using Claude's multimodal capabilities to check quality and relevance.",
     "thanks": "A big thank you to",
     "thanksDetail": "for sparking the idea next to the coffee machine. All credit goes to him."
   },

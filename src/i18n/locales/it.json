@@ -16,6 +16,9 @@
     "heirloomTitle": "L'Eredità Digitale",
     "intro": "Mia moglie ed io abbiamo ricette ovunque: schede nei segnalibri, quaderni sgualciti, screenshot, ricette scritte a mano dalla nonna, dal nonno, dalla mamma, dal papà, dagli amici, dai colleghi e molto altro ancora. Avevamo bisogno di un posto accogliente dove raccoglierle tutte.",
     "story": "Cucina Mia è quel posto. Un sito caldo e semplice dove possiamo trovare facilmente le ricette che abbiamo raccolto nel corso degli anni. Niente pubblicità, niente pop-up, niente account. Solo le ricette.",
+    "builtTitle": "La cucina digitale",
+    "builtIntro": "Questo sito è stato costruito con l'aiuto di strumenti AI. Google Stitch ha generato l'interfaccia iniziale, mentre Perplexity ha aiutato a scegliere lo stack tecnico — la libreria di ricerca fuzzy, il modo più rapido per ospitare un sito statico e il framework CSS.",
+    "builtContent": "Claude Code ha poi messo tutto in moto. Le nuove ricette sono gestite tramite GitHub Issues con template personalizzati, consumati da una GitHub Action che attiva due skill di Claude: una per aggiungere la ricetta al ricettario, e un'altra per trovare un'immagine rilevante su Pixabay — usando le capacità multimodali di Claude per verificarne qualità e pertinenza.",
     "thanks": "Un grande grazie a",
     "thanksDetail": "per aver avuto l'idea di questo progetto vicino alla macchinetta del caffè. Tutto il merito è suo."
   },

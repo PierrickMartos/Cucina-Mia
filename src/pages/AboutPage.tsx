@@ -75,6 +75,33 @@ export function AboutPage() {
         </div>
       </div>
 
+      {/* Built with section */}
+      <div className="px-6 sm:px-10 pt-4 pb-4">
+        <div className="flex flex-col sm:flex-row gap-8 sm:gap-12 items-start max-w-3xl mx-auto">
+          {/* Left: image */}
+          <div className="w-full sm:w-64 shrink-0">
+            <img
+              src={`${BASE}images/about-built-with.jpg`}
+              alt="Laptop with code on screen"
+              className="w-full rounded-2xl shadow-ambient object-cover aspect-[4/3] sm:aspect-auto sm:h-64"
+            />
+          </div>
+
+          {/* Right: text */}
+          <div className="flex-1 min-w-0">
+            <h2 className="font-headline text-2xl sm:text-3xl font-bold text-primary tracking-[-0.02em] mb-5">
+              {t("about.builtTitle")}
+            </h2>
+            <p className="text-sm sm:text-base leading-relaxed text-foreground/80 mb-4">
+              {t("about.builtIntro")}
+            </p>
+            <p className="text-sm sm:text-base leading-relaxed text-foreground/80">
+              {t("about.builtContent")}
+            </p>
+          </div>
+        </div>
+      </div>
+
       {/* Closing quote */}
       <div className="px-6 sm:px-10 py-8 max-w-3xl mx-auto">
         <p className="font-headline text-xl sm:text-2xl text-primary font-bold tracking-[-0.02em] italic border-l-2 border-primary/40 pl-5">
