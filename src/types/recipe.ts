@@ -35,7 +35,7 @@ export interface RecipeSummary {
 }
 
 export interface RecipeOriginalSource {
-  type: "pdf" | "image" | "text"
+  type: "pdf" | "image" | "text" | "url"
   data: string
 }
 

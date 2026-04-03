@@ -40,7 +40,8 @@ Every recipe must preserve its original source material in the `originalSource` 
 
 | Source type | `type` value | `data` value |
 |---|---|---|
-| Plain text (structured issue body, pasted text, URL-extracted text) | `"text"` | The original recipe text as submitted (before translation/transformation). Include the raw content from the issue body or pasted text. |
+| Plain text (structured issue body, pasted text) | `"text"` | The original recipe text as submitted (before translation/transformation). Include the raw content from the issue body or pasted text. |
+| URL (recipe from a webpage) | `"url"` | The original URL of the recipe webpage (e.g., `https://example.com/recipe/tiramisu`) |
 | Uploaded image file (photo of handwritten recipe, screenshot, etc.) | `"image"` | Relative path to the source file stored with recipe assets: `images/recipes/{slug}/source.{ext}` (e.g., `source.jpg`, `source.png`) |
 | Uploaded PDF file | `"pdf"` | Relative path to the source file stored with recipe assets: `images/recipes/{slug}/source.pdf` |
 
@@ -54,7 +55,7 @@ Every recipe must preserve its original source material in the `originalSource` 
 - From URL issues: store the extracted recipe text from the webpage
 - From direct user input: store the original text as provided
 
-**For unstructured URL issues:** use `"text"` type with the extracted recipe text from the fetched page.
+**For URL sources:** use `"url"` type with the original webpage URL as `data`.
 
 Place `originalSource` in the detail JSON right after `source` (before `translations`).
 

@@ -58,7 +58,7 @@ export const RecipeSummarySchema = z.object({
 })
 
 const RecipeOriginalSourceSchema = z.object({
-  type: z.enum(["pdf", "image", "text"]),
+  type: z.enum(["pdf", "image", "text", "url"]),
   data: z.string().min(1),
 })
 
