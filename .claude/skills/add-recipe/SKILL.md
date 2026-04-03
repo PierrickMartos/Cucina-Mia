@@ -30,6 +30,34 @@ If the user provides recipe content directly (not via issue), treat it as unstru
 
 > ⚠️ Do NOT use the Agent tool to fetch or extract recipe content. Read files and fetch URLs inline using the Read tool or WebFetch directly.
 
+### Storing the Original Source
+
+Every recipe must preserve its original source material in the `originalSource` field. This field has two properties:
+- `type`: one of `"pdf"`, `"image"`, or `"text"`
+- `data`: the source content or path to the source file
+
+**Rules by source type:**
+
+| Source type | `type` value | `data` value |
+|---|---|---|
+| Plain text (structured issue body, pasted text, URL-extracted text) | `"text"` | The original recipe text as submitted (before translation/transformation). Include the raw content from the issue body or pasted text. |
+| Uploaded image file (photo of handwritten recipe, screenshot, etc.) | `"image"` | Relative path to the source file stored with recipe assets: `images/recipes/{slug}/source.{ext}` (e.g., `source.jpg`, `source.png`) |
+| Uploaded PDF file | `"pdf"` | Relative path to the source file stored with recipe assets: `images/recipes/{slug}/source.pdf` |
+
+**For file sources (image/PDF):**
+1. Download the file from the issue attachment URL
+2. Save it to `public/images/recipes/{slug}/source.{ext}` (preserve the original extension)
+3. Set `data` to the relative path: `images/recipes/{slug}/source.{ext}`
+
+**For text sources:**
+- From structured issues: store the full issue body (the recipe section content as submitted)
+- From URL issues: store the extracted recipe text from the webpage
+- From direct user input: store the original text as provided
+
+**For unstructured URL issues:** use `"text"` type with the extracted recipe text from the fetched page.
+
+Place `originalSource` in the detail JSON right after `source` (before `translations`).
+
 ### From Structured Issues
 
 Parse the issue body. Each field appears as `### Field Name` followed by the value. Extract and transform:
@@ -88,11 +116,12 @@ Single lowercase words or hyphenated compounds only. No accents in tag slugs (us
 2. Download/read the file from `### Recipe File` (image URL, PDF, etc.)
    - For images: read directly (Claude can process images)
    - For PDFs/docs: download via WebFetch
-3. Check `### Recipe Image` for an optional cover photo
-4. Read any `### Notes` for context (origin, variations, tips)
-5. Extract all recipe info from the file. The content may be in any language.
-6. Generate the slug from the recipe title: lowercase, replace spaces with hyphens, remove accents, keep only `[a-z0-9-]`
-7. Infer missing fields with reasonable defaults:
+3. **Save the original source file** to `public/images/recipes/{slug}/source.{ext}` (preserve the original file extension). This will be referenced in `originalSource.data`.
+4. Check `### Recipe Image` for an optional cover photo
+5. Read any `### Notes` for context (origin, variations, tips)
+6. Extract all recipe info from the file. The content may be in any language.
+7. Generate the slug from the recipe title: lowercase, replace spaces with hyphens, remove accents, keep only `[a-z0-9-]`
+8. Infer missing fields with reasonable defaults:
    - `difficulty`: estimate from technique complexity
    - `prepTime`/`cookTime`: estimate from recipe
    - `servings`: default 4 if unclear
@@ -190,6 +219,7 @@ Key rules:
   Use the `user` field from the Pixabay hit for `name`, and `userImageURL` or construct the URL as `https://pixabay.com/users/{user}-{user_id}/`. Omit `imageCredit` entirely when using an SVG illustration or an uploaded image without attribution.
 - Omit `tips` entirely if none (no empty array)
 - Omit `source` entirely if none (no empty string)
+- Include `originalSource` with `type` and `data` — see **Storing the Original Source** above. Place it after `source`, before `translations`.
 - Omit `group` from ingredient objects when there's no group
 - Omit `image` from step objects (not used)
 - 2-space indentation, trailing newline
