@@ -31,7 +31,7 @@ Remove accents and special characters from queries. Use `+` to join words.
 For each query, call the Pixabay API. Always use these fixed parameters:
 
 ```
-https://pixabay.com/api/?key=${PIXABAY_API_KEY}&q={query}&image_type=photo&category=food&per_page=10&order=popular&safesearch=true
+https://pixabay.com/api/?key=${PIXABAY_API_KEY}&q={query}&image_type=photo&category=food&per_page=10&order=popular&safesearch=true&content_type=authentic
 ```
 
 Key parameters explained:
