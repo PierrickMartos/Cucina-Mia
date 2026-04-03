@@ -2,7 +2,7 @@ import { useState, useEffect, useRef } from "react"
 import { createPortal } from "react-dom"
 import { useParams, Link, useNavigate } from "react-router-dom"
 import { useTranslation } from "react-i18next"
-import { ArrowLeft, Clock, CookingPot, Users, ChefHat } from "lucide-react"
+import { ArrowLeft, Clock, CookingPot, Users, ChefHat, UtensilsCrossed } from "lucide-react"
 import { motion, useMotionValue, useTransform, type Variants } from "motion/react"
 import { Badge } from "@/components/ui/badge"
 import { Skeleton } from "@/components/ui/skeleton"
@@ -255,37 +255,51 @@ export function RecipePage() {
 
       <div className="px-6 mt-8">
 
-      {/* Tab Switcher — delayed fade in */}
+      {/* Tab Switcher — hidden on large screens */}
       <motion.div
         initial={{ opacity: 0, y: 10 }}
         animate={{ opacity: 1, y: 0 }}
         transition={{ delay: 0.35, duration: 0.4, ease: "easeOut" }}
-        className="bg-surface-high rounded-full p-1.5 flex mb-8 max-w-2xl mx-auto"
+        className="bg-surface-high rounded-full p-1.5 flex mb-8 max-w-2xl mx-auto lg:hidden"
       >
         <button
           onClick={() => setActiveTab("ingredients")}
-          className={`flex-1 rounded-full py-2.5 text-xs font-semibold uppercase tracking-widest transition-all duration-300 cursor-pointer ${
+          className={`relative flex-1 rounded-full py-2.5 text-xs font-semibold uppercase tracking-widest transition-colors cursor-pointer ${
             activeTab === "ingredients"
-              ? "gradient-primary text-primary-foreground"
+              ? "text-primary-foreground"
               : "text-muted-foreground hover:text-foreground"
           }`}
         >
-          {t("recipe.ingredients")}
+          {activeTab === "ingredients" && (
+            <motion.span
+              layoutId="tab-indicator"
+              className="absolute inset-0 gradient-primary rounded-full"
+              transition={{ type: "spring", stiffness: 400, damping: 30 }}
+            />
+          )}
+          <span className="relative z-10">{t("recipe.ingredients")}</span>
         </button>
         <button
           onClick={() => setActiveTab("instructions")}
-          className={`flex-1 rounded-full py-2.5 text-xs font-semibold uppercase tracking-widest transition-all duration-300 cursor-pointer ${
+          className={`relative flex-1 rounded-full py-2.5 text-xs font-semibold uppercase tracking-widest transition-colors cursor-pointer ${
             activeTab === "instructions"
-              ? "gradient-primary text-primary-foreground"
+              ? "text-primary-foreground"
               : "text-muted-foreground hover:text-foreground"
           }`}
         >
-          {t("recipe.instructions")}
+          {activeTab === "instructions" && (
+            <motion.span
+              layoutId="tab-indicator"
+              className="absolute inset-0 gradient-primary rounded-full"
+              transition={{ type: "spring", stiffness: 400, damping: 30 }}
+            />
+          )}
+          <span className="relative z-10">{t("recipe.instructions")}</span>
         </button>
       </motion.div>
 
-      {/* Tab Content */}
-      <div key={activeTab} className="tab-enter">
+      {/* Tab Content — mobile only */}
+      <div key={activeTab} className="tab-enter lg:hidden">
       {activeTab === "ingredients" ? (
         <section className="mb-8">
           {recipe.ingredients.map((group, gi) => (
@@ -371,18 +385,105 @@ export function RecipePage() {
       )}
       </div>
 
-      {/* Tips */}
-      {recipe.tips && recipe.tips.length > 0 && (
-        <section className="mb-8 rounded-[1.5rem] bg-surface-low p-6">
-          <h2 className="font-headline text-lg font-bold mb-4 tracking-[-0.02em]">{t("recipe.tips")}</h2>
-          <ul className="space-y-2">
-            {recipe.tips.map((tip, i) => (
-              <li key={i} className="flex items-start gap-2 text-sm text-muted-foreground">
-                <span className="text-primary shrink-0 mt-0.5">*</span>
-                {tip}
+      {/* Two-column layout — large screens & landscape tablets */}
+      <div className="hidden lg:grid grid-cols-[minmax(0,300px)_1fr] gap-12 mb-8 max-w-4xl mx-auto">
+        {/* Ingredients column */}
+        <section>
+          <h2 className="font-headline text-xl font-bold tracking-[-0.02em] mb-6 text-primary">{t("recipe.ingredients")}</h2>
+          {recipe.ingredients.map((group, gi) => (
+            <div key={gi} className="mb-6">
+              {group.group && (
+                <h3 className="font-semibold text-[10px] uppercase tracking-widest text-muted-foreground mb-4">
+                  {group.group}
+                </h3>
+              )}
+              <ul className="space-y-1.5">
+                {group.items.map((item, ii) => {
+                  const key = `${gi}-${ii}`
+                  const isChecked = checked.has(key)
+                  return (
+                    <li key={key}>
+                      <label
+                        className="flex items-center gap-4 py-2 cursor-pointer group"
+                        onClick={() => toggleCheck(key)}
+                      >
+                        <div
+                          className={`h-6 w-6 rounded-lg shrink-0 flex items-center justify-center transition-colors ${
+                            isChecked
+                              ? "gradient-primary"
+                              : "bg-surface-high group-hover:bg-surface-container"
+                          }`}
+                        >
+                          {isChecked && (
+                            <svg
+                              className="h-3.5 w-3.5 text-primary-foreground"
+                              fill="none"
+                              viewBox="0 0 24 24"
+                              stroke="currentColor"
+                              strokeWidth={3}
+                            >
+                              <path
+                                strokeLinecap="round"
+                                strokeLinejoin="round"
+                                d="M5 13l4 4L19 7"
+                              />
+                            </svg>
+                          )}
+                        </div>
+                        <span
+                          className={`text-base transition-colors ${
+                            isChecked
+                              ? "line-through text-outline"
+                              : "text-foreground"
+                          }`}
+                        >
+                          {item}
+                        </span>
+                      </label>
+                    </li>
+                  )
+                })}
+              </ul>
+            </div>
+          ))}
+        </section>
+
+        {/* Instructions column */}
+        <section>
+          <h2 className="font-headline text-xl font-bold tracking-[-0.02em] mb-6 text-primary">{t("recipe.instructions")}</h2>
+          <ol className="space-y-6">
+            {recipe.steps.map((step, i) => (
+              <li key={i} className="flex gap-4">
+                <span className="flex h-8 w-8 shrink-0 items-center justify-center rounded-full gradient-primary text-primary-foreground text-sm font-bold">
+                  {i + 1}
+                </span>
+                <div className="pt-1">
+                  <p className="text-base leading-relaxed">{step.text}</p>
+                  {step.image && (
+                    <img
+                      src={`${BASE}${step.image}`}
+                      alt={t("recipe.step", { number: i + 1 })}
+                      className="mt-3 rounded-xl max-w-full"
+                      loading="lazy"
+                    />
+                  )}
+                </div>
               </li>
             ))}
-          </ul>
+          </ol>
+        </section>
+      </div>
+
+      {/* Tips */}
+      {recipe.tips && recipe.tips.length > 0 && (
+        <section className="relative mb-8 rounded-[1.5rem] bg-surface-low px-8 py-7 overflow-hidden max-w-4xl mx-auto">
+          <UtensilsCrossed className="absolute right-6 bottom-4 h-24 w-24 text-primary opacity-[0.07] pointer-events-none" strokeWidth={1.5} />
+          <h2 className="font-headline text-xl font-bold mb-4 tracking-[-0.02em] text-primary">{t("recipe.tips")}</h2>
+          <div className="space-y-2">
+            {recipe.tips.map((tip, i) => (
+              <p key={i} className="text-sm leading-relaxed text-foreground">{tip}</p>
+            ))}
+          </div>
         </section>
       )}
 

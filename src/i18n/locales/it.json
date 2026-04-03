@@ -38,7 +38,7 @@
     "servings": "porzioni",
     "ingredients": "Ingredienti",
     "instructions": "Procedimento",
-    "tips": "Consigli",
+    "tips": "Consiglio del curatore",
     "source": "Fonte",
     "difficulty": "Difficoltà",
     "step": "Passo {{number}}"
