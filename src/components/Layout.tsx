@@ -81,12 +81,12 @@ export function Layout() {
         Skip to content
       </a>
       {/* Top App Bar */}
-      <nav className="shrink-0 flex justify-between items-center px-6 h-14 bg-surface/70 backdrop-blur-md z-50 print:hidden">
-        <div id="header-left-slot" className="min-w-10" />
-        <Link to="/">
+      <nav className="shrink-0 relative flex items-center px-6 h-14 bg-surface/70 backdrop-blur-md z-50 print:hidden">
+        <div id="header-left-slot" className="w-24 shrink-0" />
+        <Link to="/" className="absolute left-1/2 -translate-x-1/2">
           <motion.h1
             key={pathname}
-            className="text-3xl font-headline text-primary font-bold"
+            className="text-3xl font-headline text-primary font-bold whitespace-nowrap"
             initial={reduceMotion ? { opacity: 1, letterSpacing: "-0.05em" } : { opacity: 0, letterSpacing: "-0.2em" }}
             animate={{ opacity: 1, letterSpacing: "-0.05em" }}
             transition={{ duration: 0.9, ease: [0.25, 0.1, 0.25, 1] }}
@@ -94,7 +94,9 @@ export function Layout() {
             CUCINA MIA
           </motion.h1>
         </Link>
-        <LanguageSwitcher />
+        <div className="ml-auto w-24 flex justify-end shrink-0">
+          <LanguageSwitcher />
+        </div>
       </nav>
 
       {/* Main Content */}
