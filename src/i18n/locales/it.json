@@ -16,7 +16,8 @@
     "heirloomTitle": "L'Eredità Digitale",
     "intro": "Mia moglie ed io abbiamo ricette ovunque: schede nei segnalibri, quaderni sgualciti, screenshot, ricette scritte a mano dalla nonna, dal nonno, dalla mamma, dal papà, dagli amici, dai colleghi e molto altro ancora. Avevamo bisogno di un posto accogliente dove raccoglierle tutte.",
     "story": "Cucina Mia è quel posto. Un sito caldo e semplice dove possiamo trovare facilmente le ricette che abbiamo raccolto nel corso degli anni. Niente pubblicità, niente pop-up, niente account. Solo le ricette.",
-    "thanks": "Un grande grazie a"
+    "thanks": "Un grande grazie a",
+    "thanksDetail": "per aver avuto l'idea di questo progetto vicino alla macchinetta del caffè. Tutto il merito è suo."
   },
   "recipes": {
     "title": "Ricette",

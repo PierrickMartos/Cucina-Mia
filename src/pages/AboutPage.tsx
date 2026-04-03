@@ -70,19 +70,22 @@ export function AboutPage() {
       </div>
 
       {/* Footer credits */}
-      <div className="px-6 sm:px-10 max-w-3xl mx-auto border-t border-border pt-6 flex flex-col gap-2">
-        <p className="text-sm text-muted-foreground flex items-center gap-1.5 flex-wrap">
-          {t("about.thanks")}{" "}
-          <a
-            href="https://github.com/rouliane"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="inline-flex items-center gap-1 text-primary font-medium hover:underline"
-          >
-            <Heart className="h-3 w-3" />
-            @rouliane
-          </a>
-        </p>
+      <div className="px-6 sm:px-10 max-w-3xl mx-auto pt-6 flex flex-col gap-3">
+        <div className="bg-surface-high rounded-2xl p-5">
+          <p className="text-sm text-foreground font-medium mb-1">
+            {t("about.thanks")}{" "}
+            <a
+              href="https://github.com/rouliane"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-flex items-center gap-1 text-primary font-semibold hover:underline"
+            >
+              <Heart className="h-3.5 w-3.5" />
+              @rouliane
+            </a>
+          </p>
+          <p className="text-sm text-muted-foreground">{t("about.thanksDetail")}</p>
+        </div>
         <p className="text-[10px] text-muted-foreground/40">
           Photos by{" "}
           <a href="https://pixabay.com/users/stocksnap-894430/" target="_blank" rel="noopener noreferrer" className="underline">StockSnap</a>

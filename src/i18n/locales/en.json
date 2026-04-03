@@ -16,7 +16,8 @@
     "heirloomTitle": "The Digital Heirloom",
     "intro": "My wife and I have recipes everywhere: bookmarked tabs, dog-eared notebooks, screenshots, hand-written recipes from grandma, grandpa, mother, father, friends, colleagues and more. We needed one cozy place to gather them all.",
     "story": "Cucina Mia is that place. A warm, simple website where we can easily find the recipes we've collected over the years. No ads, no popups, no accounts. Just the recipes.",
-    "thanks": "A big thank you to"
+    "thanks": "A big thank you to",
+    "thanksDetail": "for sparking the idea next to the coffee machine. All credit goes to him."
   },
   "recipes": {
     "title": "Recipes",
