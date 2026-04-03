@@ -2,19 +2,13 @@
 
 A big thank you to [@rouliane](https://github.com/rouliane) for the spark of inspiration next to the coffee machine — all credits go to him.
 
----
+# The concept
 
-## The idea
+**Benvenuti nella mia cucina, buon appetito.**
 
-My wife and I have recipes everywhere — bookmarked tabs, dog-eared notebooks, screenshots, voice memos from grandma. We needed one cozy place to gather them all.
+My wife and I have recipes everywhere: bookmarked tabs, dog-eared notebooks, screenshots, hand written recipes from grandma, grandpa, mother, father, friends, colleagues and more.. We needed one cozy place to gather them all.
 
 Cucina Mia is that place. A warm, simple website where we can easily find the recipes we've collected over the years: the ones from our grandmothers and grandfathers, our mothers and fathers, our friends, and everything we've stumbled upon across the internet and beyond. No ads, no popups, no accounts. Just the recipes.
-
----
-
-*Benvenuti nella mia cucina, buon appetito.*
-
----
 
 <details>
 <summary>Tech details</summary>
