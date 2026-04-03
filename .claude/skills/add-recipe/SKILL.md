@@ -80,6 +80,7 @@ Single lowercase words or hyphenated compounds only. No accents in tag slugs (us
 - Lines starting with `## ` begin a new group: `{"group": "Group Name", "items": [...]}`
 - Lines without a group header go in a single object without the `group` field
 - Empty lines are skipped
+- When an ingredient contains pecorino, parmesan/parmigiano, or olive oil (in any language), append `(Quanto vene)` after the ingredient text. Example: `"50 g de pecorino râpé (Quanto vene)"`
 
 ### From Unstructured File Issues
 
@@ -179,7 +180,7 @@ Key rules:
   }
   ```
   Use `.jpg` extension when the image comes from Pixabay or an uploaded photo. Use `.svg` only if an SVG illustration was generated.
-- When the image comes from Pixabay, add an `imageCredit` object immediately after `images`:
+- When the image comes from Pixabay, add an `imageCredit` object immediately after `images`, , be careful to not rename keys:
   ```json
   "imageCredit": {
     "author": "photographer_username",
@@ -267,14 +268,17 @@ When using SVG, set both `cover` and `web` in the `images` object to the same `.
 
 ## Step 8: Verify
 
-1. Validate JSON syntax: `cat public/data/recipes/{slug}.json | python3 -m json.tool`
-2. Validate index: `cat public/data/recipes/index.json | python3 -m json.tool`
-3. Confirm cover image exists at `public/images/recipes/{slug}/cover.{jpg,svg}` and web image at `public/images/recipes/{slug}/web.{jpg,svg}`
-4. Sync `stepCount` and `ingredientCount` in the index from the actual recipe files:
+1. Confirm cover image exists at `public/images/recipes/{slug}/cover.{jpg,svg}` and web image at `public/images/recipes/{slug}/web.{jpg,svg}`
+2. Sync `stepCount` and `ingredientCount` in the index from the actual recipe files:
    ```bash
    python3 .claude/skills/add-recipe/sync-recipe-counts.py
    ```
-5. Run `npm run build` to confirm nothing breaks
+3. Validate recipe JSON and index against the Zod schemas:
+   ```bash
+   npm run validate:recipes
+   ```
+   This validates all recipe detail files and `index.json` against the TypeScript types. Fix any reported errors before proceeding.
+4. Run `npm run build` to confirm nothing breaks
 
 ## Step 9: Report
 

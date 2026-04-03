@@ -51,6 +51,19 @@ export function RecipePage() {
   }, [scrollY])
 
   useEffect(() => {
+    if (!recipe) return
+    const prevTitle = document.title
+    const metaDesc = document.querySelector('meta[name="description"]')
+    const prevDesc = metaDesc?.getAttribute('content') ?? ''
+    document.title = `${recipe.title} — Cucina Mia`
+    metaDesc?.setAttribute('content', recipe.description ?? `Recette ${recipe.title} — Cucina Mia`)
+    return () => {
+      document.title = prevTitle
+      metaDesc?.setAttribute('content', prevDesc)
+    }
+  }, [recipe])
+
+  useEffect(() => {
     if (!slug) return
     fetch(`${BASE}data/recipes/${slug}.json`)
       .then((res) => {

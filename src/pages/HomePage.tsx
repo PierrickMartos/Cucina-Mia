@@ -94,6 +94,9 @@ export function HomePage() {
             {t("home.title")}
           </h1>
           <span className="font-body text-secondary text-[10px] uppercase tracking-[0.2em] block mt-3">
+            {!loading && recipes.length > 0 && (
+              <span className="mr-1 text-primary font-semibold">{recipes.length} ·</span>
+            )}
             {t("home.subtitle")}
           </span>
         </div>
