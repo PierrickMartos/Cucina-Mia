@@ -57,11 +57,17 @@ export const RecipeSummarySchema = z.object({
     .optional(),
 })
 
+const RecipeOriginalSourceSchema = z.object({
+  type: z.enum(["pdf", "image", "text", "url"]),
+  data: z.string().min(1),
+})
+
 export const RecipeDetailSchema = RecipeSummarySchema.extend({
   ingredients: z.array(IngredientGroupSchema).min(1),
   steps: z.array(StepSchema).min(1),
   tips: z.array(z.string()).optional(),
   source: z.string().optional(),
+  originalSource: RecipeOriginalSourceSchema.optional(),
   translations: z.record(z.string(), TranslationSchema).optional(),
 })
 

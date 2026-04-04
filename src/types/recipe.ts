@@ -37,10 +37,16 @@ export interface RecipeSummary {
   translations?: { [lang: string]: Pick<RecipeTranslation, "title" | "description" | "tags"> }
 }
 
+export interface RecipeOriginalSource {
+  type: "pdf" | "image" | "text" | "url"
+  data: string
+}
+
 export interface RecipeDetail extends RecipeSummary {
   ingredients: { group?: string; items: string[] }[]
   steps: { text: string; image?: string }[]
   tips?: string[]
   source?: string
+  originalSource?: RecipeOriginalSource
   translations?: { [lang: string]: RecipeTranslation }
 }
