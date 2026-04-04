@@ -63,35 +63,35 @@ describe("RecipePage", () => {
     const user = userEvent.setup()
     renderRecipePage("pasta-carbonara")
     await waitFor(() => {
-      expect(screen.getByText("400g spaghetti")).toBeInTheDocument()
-      expect(screen.getByText("200g guanciale")).toBeInTheDocument()
+      expect(screen.getAllByText("400g spaghetti").length).toBeGreaterThan(0)
+      expect(screen.getAllByText("200g guanciale").length).toBeGreaterThan(0)
     })
 
-    // Click label to check an ingredient
-    const label = screen.getByText("400g spaghetti").closest("label")!
+    // Click label to check an ingredient (use first match — mobile tab view)
+    const label = screen.getAllByText("400g spaghetti")[0].closest("label")!
     await user.click(label)
-    expect(screen.getByText("400g spaghetti")).toHaveClass("line-through")
+    expect(screen.getAllByText("400g spaghetti")[0]).toHaveClass("line-through")
   })
 
   it("switches to instructions tab", async () => {
     const user = userEvent.setup()
     renderRecipePage("pasta-carbonara")
     await waitFor(() => {
-      expect(screen.getByText("400g spaghetti")).toBeInTheDocument()
+      expect(screen.getAllByText("400g spaghetti").length).toBeGreaterThan(0)
     })
 
-    await user.click(screen.getByText("Instructions"))
-    expect(screen.getByText("Portare a ebollizione l'acqua.")).toBeInTheDocument()
-    expect(screen.getByText("Rosolare il guanciale.")).toBeInTheDocument()
+    await user.click(screen.getAllByText("Instructions")[0])
+    expect(screen.getAllByText("Portare a ebollizione l'acqua.").length).toBeGreaterThan(0)
+    expect(screen.getAllByText("Rosolare il guanciale.").length).toBeGreaterThan(0)
   })
 
-  it("shows not found for missing recipe", async () => {
+  it("shows error state for missing recipe", async () => {
     globalThis.fetch = async () =>
       ({ ok: false } as Response)
 
     renderRecipePage("nonexistent")
     await waitFor(() => {
-      expect(screen.getByText("Recipe not found")).toBeInTheDocument()
+      expect(screen.getByText("Failed to load. Please try again.")).toBeInTheDocument()
     })
   })
 
