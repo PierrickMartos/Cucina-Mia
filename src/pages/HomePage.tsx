@@ -128,7 +128,7 @@ export function HomePage() {
               placeholder={t("home.searchPlaceholder")}
               value={search}
               onChange={(e) => setSearch(e.target.value)}
-              className="bg-transparent border-none shadow-none focus-visible:shadow-none focus-visible:ring-0 focus-visible:ring-offset-0 w-full text-sm font-body placeholder:text-outline p-0 h-auto"
+              className="bg-transparent border-none shadow-none focus-visible:shadow-none focus-visible:ring-0 focus-visible:ring-offset-0 w-full text-base md:text-sm font-body placeholder:text-outline p-0 h-auto"
             />
             <Link
               to="/recipes?openFilters=1"
