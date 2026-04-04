@@ -3255,6 +3255,10 @@
       "cover": "images/recipes/pain-au-lait-de-mamie-yvette/cover.jpg",
       "web": "images/recipes/pain-au-lait-de-mamie-yvette/web.jpg"
     },
+    "imageCredit": {
+      "author": "RitaE",
+      "url": "https://pixabay.com/users/ritae-19628/"
+    },
     "prepTime": 30,
     "cookTime": 20,
     "servings": 12,
