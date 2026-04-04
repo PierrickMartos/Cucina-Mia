@@ -3246,5 +3246,78 @@
       "photoUrl": "https://pixabay.com/photos/stuffed-tomatoes-blue-cheese-food-855184/",
       "pixabayId": 855184
     }
+  },
+  {
+    "slug": "pain-au-lait-de-mamie-yvette",
+    "title": "Pain au lait de Mamie Yvette",
+    "description": "Les petits pains au lait moelleux et légèrement sucrés de Mamie Yvette, dont le secret réside dans les blancs montés en neige pour une mie particulièrement légère et aérienne.",
+    "images": {
+      "cover": "images/recipes/pain-au-lait-de-mamie-yvette/cover.jpg",
+      "web": "images/recipes/pain-au-lait-de-mamie-yvette/web.jpg"
+    },
+    "imageCredit": {
+      "author": "RitaE",
+      "url": "https://pixabay.com/users/ritae-19628/"
+    },
+    "prepTime": 30,
+    "cookTime": 20,
+    "servings": 12,
+    "difficulty": "Facile",
+    "category": "Pane",
+    "tags": [
+      "four",
+      "végétarien",
+      "moelleux",
+      "petit-déjeuner",
+      "goûter",
+      "enfants",
+      "toute-la-famille",
+      "réconfortant",
+      "nostalgique",
+      "français",
+      "se-congèle",
+      "facile"
+    ],
+    "origin": "pierrick-grandma",
+    "ingredientCount": 7,
+    "stepCount": 10,
+    "translations": {
+      "en": {
+        "title": "Grandma Yvette's Milk Rolls",
+        "description": "Soft, lightly sweetened milk rolls from Grandma Yvette, whose secret is folding in whipped egg whites for an exceptionally light and airy crumb.",
+        "tags": [
+          "oven",
+          "vegetarian",
+          "soft",
+          "breakfast",
+          "snack",
+          "kids",
+          "family",
+          "comforting",
+          "nostalgic",
+          "french",
+          "freezer-friendly",
+          "easy"
+        ]
+      },
+      "it": {
+        "title": "Panini al Latte della Nonna Yvette",
+        "description": "Soffici panini al latte leggermente dolci della nonna Yvette, il cui segreto è incorporare gli albumi montati a neve per una mollica particolarmente leggera e ariosa.",
+        "tags": [
+          "forno",
+          "vegetariano",
+          "morbido",
+          "colazione",
+          "merenda",
+          "bambini",
+          "famiglia",
+          "confortante",
+          "nostalgico",
+          "francese",
+          "si-congela",
+          "facile"
+        ]
+      }
+    }
   }
 ]
