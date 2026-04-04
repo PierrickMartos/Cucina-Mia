@@ -46,19 +46,14 @@ jobs:
             comment on the issue explaining the problem and do NOT create a branch or PR.
           claude_args: "--allowedTools Bash,Read,Write,Edit,Glob,Grep,WebFetch"
 
-      - name: Save Claude execution logs
-        if: always()
-        run: cp /home/runner/work/_temp/claude-execution-output.json /tmp/claude-log-add-recipe.json 2>/dev/null || true
-
       - name: Upload Claude execution logs
-        if: always()
+        if: always() && steps.process_recipe.outputs.execution_file != ''
         uses: actions/upload-artifact@v4
         with:
           name: claude-logs-issue-${{ github.event.issue.number }}
           retention-days: 7
           if-no-files-found: ignore
-          path: |
-            /tmp/claude-log-add-recipe.json
+          path: ${{ steps.process_recipe.outputs.execution_file }}
 
       - name: Add workflow summary
         if: always()
@@ -71,3 +66,24 @@ jobs:
           echo "- Trigger: ${{ github.event_name }}" >> "$GITHUB_STEP_SUMMARY"
           echo "- Issue: #${{ github.event.issue.number }}" >> "$GITHUB_STEP_SUMMARY"
           echo "- Claude result: ${{ steps.process_recipe.outcome }}" >> "$GITHUB_STEP_SUMMARY"
+
+      - name: Display Claude Code Report
+        if: always() && steps.process_recipe.outputs.execution_file != ''
+        shell: bash
+        run: |
+          EXEC_FILE="${{ steps.process_recipe.outputs.execution_file }}"
+          if [ -f "$EXEC_FILE" ]; then
+            echo "" >> "$GITHUB_STEP_SUMMARY"
+            echo "## Claude Code Report" >> "$GITHUB_STEP_SUMMARY"
+            echo "" >> "$GITHUB_STEP_SUMMARY"
+            echo "<details>" >> "$GITHUB_STEP_SUMMARY"
+            echo "<summary>Full execution log (click to expand)</summary>" >> "$GITHUB_STEP_SUMMARY"
+            echo "" >> "$GITHUB_STEP_SUMMARY"
+            echo '```json' >> "$GITHUB_STEP_SUMMARY"
+            cat "$EXEC_FILE" >> "$GITHUB_STEP_SUMMARY"
+            echo '```' >> "$GITHUB_STEP_SUMMARY"
+            echo "</details>" >> "$GITHUB_STEP_SUMMARY"
+          else
+            echo "" >> "$GITHUB_STEP_SUMMARY"
+            echo "> **Note:** No execution log file found at \`$EXEC_FILE\`" >> "$GITHUB_STEP_SUMMARY"
+          fi
