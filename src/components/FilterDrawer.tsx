@@ -18,6 +18,8 @@ export type StepsBucket = (typeof STEPS_BUCKETS)[number]
 const INGREDIENTS_BUCKETS = ["few", "moderate", "many"] as const
 export type IngredientsBucket = (typeof INGREDIENTS_BUCKETS)[number]
 
+export const ORIGIN_VALUES = ["pierrick", "amelie", "pierrick-grandma", "amelie-grandpa"] as const
+
 export const DIET_TAGS = ["végétarien", "végétalien", "vegan", "sans-gluten", "sans-lactose", "léger"] as const
 export const SEASON_TAGS = ["printemps", "été", "automne", "hiver", "noël", "pâques", "apéro", "fête"] as const
 
@@ -32,6 +34,7 @@ interface FilterDrawerProps {
   selectedIngredients: IngredientsBucket[]
   selectedDietTags: string[]
   selectedSeasonTags: string[]
+  selectedOrigins: string[]
   onCategoriesChange: (categories: string[]) => void
   onDifficultiesChange: (difficulties: string[]) => void
   onTimesChange: (times: TimeBucket[]) => void
@@ -40,6 +43,7 @@ interface FilterDrawerProps {
   onIngredientsChange: (ingredients: IngredientsBucket[]) => void
   onDietTagsChange: (tags: string[]) => void
   onSeasonTagsChange: (tags: string[]) => void
+  onOriginsChange: (origins: string[]) => void
   defaultOpen?: boolean
 }
 
@@ -54,6 +58,7 @@ export function FilterDrawer({
   selectedIngredients,
   selectedDietTags,
   selectedSeasonTags,
+  selectedOrigins,
   onCategoriesChange,
   onDifficultiesChange,
   onTimesChange,
@@ -62,6 +67,7 @@ export function FilterDrawer({
   onIngredientsChange,
   onDietTagsChange,
   onSeasonTagsChange,
+  onOriginsChange,
   defaultOpen = false,
 }: FilterDrawerProps) {
   const [open, setOpen] = useState(defaultOpen)
@@ -76,7 +82,8 @@ export function FilterDrawer({
     selectedSteps.length +
     selectedIngredients.length +
     selectedDietTags.length +
-    selectedSeasonTags.length
+    selectedSeasonTags.length +
+    selectedOrigins.length
 
   function toggleCategory(cat: string) {
     if (selectedCategories.includes(cat)) {
@@ -142,6 +149,14 @@ export function FilterDrawer({
     }
   }
 
+  function toggleOrigin(origin: string) {
+    if (selectedOrigins.includes(origin)) {
+      onOriginsChange(selectedOrigins.filter((o) => o !== origin))
+    } else {
+      onOriginsChange([...selectedOrigins, origin])
+    }
+  }
+
   function clearAll() {
     onCategoriesChange([])
     onDifficultiesChange([])
@@ -151,6 +166,7 @@ export function FilterDrawer({
     onIngredientsChange([])
     onDietTagsChange([])
     onSeasonTagsChange([])
+    onOriginsChange([])
   }
 
   return (
@@ -365,6 +381,29 @@ export function FilterDrawer({
                     onClick={() => toggleSeasonTag(tag)}
                   >
                     {t(`tags.${tag}`, tag)}
+                  </Badge>
+                ))}
+              </div>
+            </div>
+
+            <div>
+              <h4 className="font-semibold text-[10px] uppercase tracking-widest text-muted-foreground mb-3">
+                {t("filter.origin")}
+              </h4>
+              <div className="flex flex-wrap gap-2">
+                {ORIGIN_VALUES.map((origin) => (
+                  <Badge
+                    key={origin}
+                    variant={selectedOrigins.includes(origin) ? "default" : "outline"}
+                    className={
+                      selectedOrigins.includes(origin)
+                        ? "cursor-pointer gradient-primary text-primary-foreground"
+                        : "cursor-pointer text-muted-foreground hover:bg-surface-high"
+                    }
+                    aria-pressed={selectedOrigins.includes(origin)}
+                    onClick={() => toggleOrigin(origin)}
+                  >
+                    {t(`origins.${origin}`, origin)}
                   </Badge>
                 ))}
               </div>

@@ -60,8 +60,15 @@
     "ingredients": "Number of ingredients",
     "diet": "Diet & lifestyle",
     "season": "Season & occasion",
+    "origin": "Origin",
     "clearAll": "Clear all filters",
     "openFilters": "Open filters"
+  },
+  "origins": {
+    "pierrick": "Pierrick's recipe",
+    "amelie": "Amélie's recipe",
+    "pierrick-grandma": "Pierrick's grandma",
+    "amelie-grandpa": "Amélie's grandpa"
   },
   "stepsOptions": {
     "simple": "✌️ ≤ 4 steps",
