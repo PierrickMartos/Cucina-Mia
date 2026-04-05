@@ -1,0 +1,172 @@
+{
+  "slug": "souffle-au-fromage",
+  "title": "Soufflé au Fromage",
+  "description": "L'emblème de la cuisine française : un soufflé léger et aérien au gruyère, à servir aussitôt sorti du four pour en savourer toute la majesté.",
+  "images": {
+    "cover": "images/recipes/souffle-au-fromage/cover.jpg",
+    "web": "images/recipes/souffle-au-fromage/web.jpg"
+  },
+  "imageCredit": {
+    "id": 1258733,
+    "author": "ymon",
+    "url": "https://pixabay.com/photos/cheese-souffle-sos-food-cooking-1258733/"
+  },
+  "prepTime": 20,
+  "cookTime": 25,
+  "servings": 4,
+  "difficulty": "Difficile",
+  "category": "Secondi",
+  "tags": [
+    "four",
+    "fromage",
+    "œufs",
+    "végétarien",
+    "français",
+    "classique",
+    "aérien",
+    "plat-principal",
+    "technique",
+    "festif"
+  ],
+  "ingredients": [
+    {
+      "items": [
+        "40g de beurre (+ un peu pour beurrer les moules)",
+        "40g de farine",
+        "25cl de lait entier",
+        "4 œufs (blancs et jaunes séparés)",
+        "100g de gruyère ou comté râpé",
+        "1 pincée de noix de muscade",
+        "Sel, poivre",
+        "Chapelure pour les moules (facultatif)"
+      ]
+    }
+  ],
+  "steps": [
+    {
+      "text": "Préchauffer le four à 200°C (th. 6-7). Beurrer généreusement 4 ramequins individuels ou un grand moule à soufflé. Saupoudrer de chapelure si désiré, en tapotant pour enlever l'excédent."
+    },
+    {
+      "text": "Préparer la béchamel : faire fondre le beurre dans une casserole à feu moyen. Ajouter la farine d'un coup et mélanger vigoureusement à la spatule pendant 1 minute. Verser le lait progressivement en fouettant sans arrêt jusqu'à obtenir une béchamel épaisse et lisse. Cuire encore 2 minutes. Retirer du feu."
+    },
+    {
+      "text": "Incorporer les 4 jaunes d'œufs un à un dans la béchamel encore chaude, en mélangeant bien après chaque ajout. Ajouter le gruyère râpé, la muscade, saler et poivrer. Bien mélanger jusqu'à ce que le fromage soit fondu."
+    },
+    {
+      "text": "Monter les 4 blancs d'œufs en neige très ferme avec une pincée de sel dans un grand saladier propre et sec. Ils doivent former des pics bien rigides."
+    },
+    {
+      "text": "Incorporer délicatement les blancs en neige à la préparation au fromage en trois fois : d'abord un tiers pour détendre la masse, puis le reste en soulevant la préparation de bas en haut avec une maryse. Ne pas trop travailler pour conserver l'air."
+    },
+    {
+      "text": "Verser la préparation dans les moules beurrés jusqu'aux trois quarts. Passer le pouce le long du rebord intérieur du moule pour créer un léger sillon qui aidera le soufflé à monter droit."
+    },
+    {
+      "text": "Enfourner immédiatement et cuire 20 à 25 minutes sans jamais ouvrir la porte du four pendant la cuisson. Le soufflé doit être bien gonflé et doré. Servir aussitôt à table, car il retombe en quelques minutes."
+    }
+  ],
+  "tips": [
+    "Ne jamais ouvrir le four pendant la cuisson : le choc thermique ferait retomber le soufflé.",
+    "Pour des blancs bien fermes, les œufs doivent être à température ambiante et le bol parfaitement propre (sans trace de gras).",
+    "La béchamel peut être préparée à l'avance. Incorporez les jaunes et le fromage au dernier moment, puis les blancs juste avant d'enfourner.",
+    "Baisser légèrement la température à 180°C dans les 5 dernières minutes pour stabiliser la cuisson."
+  ],
+  "translations": {
+    "en": {
+      "title": "Cheese Soufflé",
+      "description": "The emblem of French cuisine: a light and airy gruyère soufflé to be served straight from the oven to enjoy its full majesty.",
+      "tags": ["oven", "cheese", "eggs", "vegetarian", "french", "classic", "airy", "main-course", "technique", "festive"],
+      "ingredients": [
+        {
+          "items": [
+            "40g butter (+ a little for greasing the dishes)",
+            "40g flour",
+            "250ml whole milk",
+            "4 eggs (whites and yolks separated)",
+            "100g grated gruyère or comté",
+            "1 pinch of nutmeg",
+            "Salt, pepper",
+            "Breadcrumbs for the dishes (optional)"
+          ]
+        }
+      ],
+      "steps": [
+        {
+          "text": "Preheat the oven to 200°C (400°F). Generously butter 4 individual ramekins or one large soufflé dish. Dust with breadcrumbs if desired, tapping to remove the excess."
+        },
+        {
+          "text": "Make the béchamel: melt the butter in a saucepan over medium heat. Add the flour all at once and stir vigorously with a spatula for 1 minute. Pour in the milk gradually, whisking constantly, until you get a thick, smooth béchamel. Cook for another 2 minutes. Remove from heat."
+        },
+        {
+          "text": "Beat in the 4 egg yolks one at a time into the still-warm béchamel, mixing well after each addition. Add the grated gruyère, nutmeg, salt and pepper. Mix until the cheese has melted."
+        },
+        {
+          "text": "Beat the 4 egg whites to stiff peaks with a pinch of salt in a large, clean dry bowl. They should form firm, upright peaks."
+        },
+        {
+          "text": "Gently fold the egg whites into the cheese mixture in three additions: first one third to loosen the base, then the rest by lifting from bottom to top with a spatula. Do not overmix to keep the air in."
+        },
+        {
+          "text": "Pour the mixture into the buttered dishes up to three-quarters full. Run your thumb around the inside rim of the dish to create a slight groove that will help the soufflé rise straight."
+        },
+        {
+          "text": "Place in the oven immediately and bake for 20 to 25 minutes without ever opening the oven door. The soufflé should be well risen and golden. Serve at once, as it will collapse within minutes."
+        }
+      ],
+      "tips": [
+        "Never open the oven door during baking: the temperature shock would cause the soufflé to collapse.",
+        "For stiff whites, eggs should be at room temperature and the bowl perfectly clean (no trace of fat).",
+        "The béchamel can be made ahead. Add the yolks and cheese at the last moment, then the whites just before baking.",
+        "Slightly lower the temperature to 180°C (350°F) in the last 5 minutes to stabilize the cooking."
+      ]
+    },
+    "it": {
+      "title": "Soufflé al Formaggio",
+      "description": "L'emblema della cucina francese: un soufflé leggero e arioso al gruyère, da servire appena sfornato per goderne tutta la maestà.",
+      "tags": ["forno", "formaggio", "uova", "vegetariano", "francese", "classico", "arioso", "secondo-piatto", "tecnica", "festoso"],
+      "ingredients": [
+        {
+          "items": [
+            "40g di burro (+ un po' per imburrare gli stampi)",
+            "40g di farina",
+            "25cl di latte intero",
+            "4 uova (albumi e tuorli separati)",
+            "100g di gruyère o comté grattugiato",
+            "1 pizzico di noce moscata",
+            "Sale, pepe",
+            "Pangrattato per gli stampi (facoltativo)"
+          ]
+        }
+      ],
+      "steps": [
+        {
+          "text": "Preriscaldare il forno a 200°C. Imburrare generosamente 4 stampini individuali o uno stampo grande da soufflé. Spolverare di pangrattato se desiderato, tamponando per eliminare l'eccesso."
+        },
+        {
+          "text": "Preparare la besciamella: sciogliere il burro in una casseruola a fuoco medio. Aggiungere la farina tutta in una volta e mescolare vigorosamente con una spatola per 1 minuto. Versare il latte gradualmente, sbattendo senza sosta, fino a ottenere una besciamella densa e liscia. Cuocere altri 2 minuti. Togliere dal fuoco."
+        },
+        {
+          "text": "Incorporare i 4 tuorli uno per uno nella besciamella ancora calda, mescolando bene dopo ogni aggiunta. Aggiungere il gruyère grattugiato, la noce moscata, il sale e il pepe. Mescolare fino a far sciogliere il formaggio."
+        },
+        {
+          "text": "Montare i 4 albumi a neve fermissima con un pizzico di sale in una ciotola grande, pulita e asciutta. Devono formare punte ben rigide."
+        },
+        {
+          "text": "Incorporare delicatamente gli albumi al composto di formaggio in tre riprese: prima un terzo per allentare la massa, poi il resto sollevando il composto dal basso verso l'alto con una marisa. Non lavorare troppo per conservare l'aria."
+        },
+        {
+          "text": "Versare il composto negli stampi imburrati fino a tre quarti. Passare il pollice lungo il bordo interno dello stampo per creare un leggero solco che aiuterà il soufflé a gonfiare diritto."
+        },
+        {
+          "text": "Infornare immediatamente e cuocere per 20-25 minuti senza mai aprire lo sportello del forno durante la cottura. Il soufflé deve essere ben gonfio e dorato. Servire subito a tavola, perché si sgonfia in pochi minuti."
+        }
+      ],
+      "tips": [
+        "Non aprire mai il forno durante la cottura: lo shock termico farebbe sgonfiare il soufflé.",
+        "Per ottenere albumi fermissimi, le uova devono essere a temperatura ambiente e la ciotola perfettamente pulita (senza tracce di grasso).",
+        "La besciamella può essere preparata in anticipo. Incorporare i tuorli e il formaggio all'ultimo momento, poi gli albumi appena prima di infornare.",
+        "Abbassare leggermente la temperatura a 180°C negli ultimi 5 minuti per stabilizzare la cottura."
+      ]
+    }
+  }
+}
