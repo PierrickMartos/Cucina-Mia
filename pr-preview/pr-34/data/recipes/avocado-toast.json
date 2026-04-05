@@ -1,0 +1,129 @@
+{
+  "slug": "avocado-toast",
+  "title": "Avocado Toast",
+  "description": "Toast croustillant garni de fromage frais, d'avocat en lamelles, d'œuf mollet et de radis croquants.",
+  "images": {
+    "cover": "images/recipes/avocado-toast/cover.jpg",
+    "web": "images/recipes/avocado-toast/web.jpg"
+  },
+  "prepTime": 10,
+  "cookTime": 5,
+  "servings": 2,
+  "difficulty": "Facile",
+  "category": "Breakfast",
+  "tags": [
+    "petit-déjeuner",
+    "végétarien",
+    "rapide",
+    "léger",
+    "brunch",
+    "œufs",
+    "fruits",
+    "croquant",
+    "équilibré",
+    "finger-food"
+  ],
+  "ingredients": [
+    {
+      "items": [
+        "2 tranches de pain de mie ou 2 crackers",
+        "1 avocat",
+        "2 œufs",
+        "Fromage frais type Chavroux (ou St Môret)",
+        "2 c. à soupe de jus de citron",
+        "2 tranches de jambon (ou de saumon fumé, facultatif)",
+        "Graines de sésame (de courge ou de grenade)",
+        "4 radis",
+        "Sel et poivre q.s."
+      ]
+    }
+  ],
+  "steps": [
+    {
+      "text": "Préparez les œufs mollets : faites bouillir de l'eau, plongez-y les œufs 5 min, puis mettez-les 1 min dans de l'eau froide."
+    },
+    {
+      "text": "Tartinez le pain de fromage frais. Ajoutez l'avocat en lamelles et arrosez de jus de citron. Salez et poivrez."
+    },
+    {
+      "text": "Écalez délicatement les œufs et posez-les sur le pain. Ajoutez le jambon si vous le souhaitez, parsemez de graines et ajoutez les radis en rondelles."
+    }
+  ],
+  "imageCredit": {
+    "author": "FoodieFactor",
+    "url": "https://pixabay.com/photos/food-egg-eggs-toast-toasted-bread-2673724/"
+  },
+  "tips": [
+    "Pour une version végétarienne, remplacez le jambon ou le saumon par de la feta et/ou des champignons dorés à la poêle."
+  ],
+  "translations": {
+    "en": {
+      "title": "Avocado Toast",
+      "description": "Crispy toast topped with cream cheese, sliced avocado, soft-boiled egg and crunchy radishes.",
+      "tags": ["breakfast", "vegetarian", "quick", "light", "brunch", "eggs", "fruit", "crispy", "balanced", "finger-food"],
+      "ingredients": [
+        {
+          "items": [
+            "2 slices of sandwich bread or 2 crackers",
+            "1 avocado",
+            "2 eggs",
+            "Cream cheese (such as Philadelphia or Chavroux)",
+            "2 tbsp lemon juice",
+            "2 slices of ham (or smoked salmon, optional)",
+            "Sesame seeds (or pumpkin or pomegranate seeds)",
+            "4 radishes",
+            "Salt and pepper to taste"
+          ]
+        }
+      ],
+      "steps": [
+        {
+          "text": "Soft-boil the eggs: bring water to a boil, add the eggs and cook for 5 min, then transfer to cold water for 1 min."
+        },
+        {
+          "text": "Spread the toast with cream cheese. Add sliced avocado and drizzle with lemon juice. Season with salt and pepper."
+        },
+        {
+          "text": "Peel the eggs carefully and place them on top of the toast. Add ham if desired, sprinkle with seeds and top with sliced radishes."
+        }
+      ],
+      "tips": [
+        "For a vegetarian version, replace the ham or salmon with feta cheese and/or golden pan-fried mushrooms."
+      ]
+    },
+    "it": {
+      "title": "Avocado Toast",
+      "description": "Toast croccante guarnito con formaggio fresco, fettine di avocado, uovo barzotto e ravanelli croccanti.",
+      "tags": ["colazione", "vegetariano", "veloce", "leggero", "brunch", "uova", "frutta", "croccante", "equilibrato", "finger-food"],
+      "ingredients": [
+        {
+          "items": [
+            "2 fette di pane in cassetta o 2 crackers",
+            "1 avocado",
+            "2 uova",
+            "Formaggio fresco tipo Philadelphia o Chavroux",
+            "2 cucchiai di succo di limone",
+            "2 fette di prosciutto cotto (o salmone affumicato, facoltativo)",
+            "Semi di sesamo (o di zucca o di melograno)",
+            "4 ravanelli",
+            "Sale e pepe q.b."
+          ]
+        }
+      ],
+      "steps": [
+        {
+          "text": "Preparare le uova barzotte: portare l'acqua a ebollizione, immergervi le uova per 5 min, poi metterle 1 min in acqua fredda."
+        },
+        {
+          "text": "Spalmare il pane con il formaggio fresco. Aggiungere l'avocado a fettine e irrorare con il succo di limone. Salare e pepare."
+        },
+        {
+          "text": "Sgusciare delicatamente le uova e appoggiarle sul pane. Aggiungere il prosciutto se si desidera, cospargere di semi e aggiungere i ravanelli a rondelle."
+        }
+      ],
+      "tips": [
+        "Per una versione vegetariana, sostituire il prosciutto o il salmone con feta e/o champignon dorati in padella."
+      ]
+    }
+  }
+}
