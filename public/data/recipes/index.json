@@ -3319,5 +3319,67 @@
         ]
       }
     }
+  },
+  {
+    "slug": "poulet-tandoori",
+    "title": "Poulet tandoori",
+    "description": "Un grand classique de la cuisine indienne qui devient sublime lorsque l'on prépare soi-même la poudre tandoori.",
+    "images": {
+      "cover": "images/recipes/poulet-tandoori/cover.jpg",
+      "web": "images/recipes/poulet-tandoori/web.jpg"
+    },
+    "prepTime": 15,
+    "cookTime": 30,
+    "servings": 4,
+    "difficulty": "Facile",
+    "category": "Secondi",
+    "tags": [
+      "four",
+      "indien",
+      "poulet",
+      "facile",
+      "plat-principal",
+      "épicé",
+      "chaud",
+      "préparation-à-lavance",
+      "sans-gluten",
+      "été"
+    ],
+    "ingredientCount": 5,
+    "stepCount": 3,
+    "translations": {
+      "en": {
+        "title": "Tandoori Chicken",
+        "description": "A great classic of Indian cuisine that becomes sublime when you prepare the tandoori powder yourself.",
+        "tags": [
+          "oven",
+          "indian",
+          "chicken",
+          "easy",
+          "main-course",
+          "spicy",
+          "hot",
+          "make-ahead",
+          "gluten-free",
+          "summer"
+        ]
+      },
+      "it": {
+        "title": "Pollo tandoori",
+        "description": "Un grande classico della cucina indiana che diventa sublime quando si prepara la polvere tandoori in casa.",
+        "tags": [
+          "forno",
+          "indiano",
+          "pollo",
+          "facile",
+          "piatto-principale",
+          "speziato",
+          "caldo",
+          "preparazione-anticipata",
+          "senza-glutine",
+          "estate"
+        ]
+      }
+    }
   }
 ]
