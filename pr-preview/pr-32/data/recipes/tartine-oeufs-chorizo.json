@@ -1,0 +1,160 @@
+{
+  "slug": "tartine-oeufs-chorizo",
+  "title": "Tartine Œufs-Chorizo",
+  "description": "Une tartine généreuse et savoureuse garnie d'œufs brouillés crémeux et de tranches de chorizo croustillant — le petit-déjeuner ou brunch parfait.",
+  "images": {
+    "cover": "images/recipes/tartine-oeufs-chorizo/cover.jpg",
+    "web": "images/recipes/tartine-oeufs-chorizo/web.jpg"
+  },
+  "imageCredit": {
+    "id": 456351,
+    "author": "stevepb",
+    "url": "https://pixabay.com/photos/breakfast-toast-food-fried-eggs-456351/"
+  },
+  "prepTime": 5,
+  "cookTime": 10,
+  "servings": 2,
+  "difficulty": "Facile",
+  "category": "Brunch",
+  "tags": [
+    "tartine",
+    "œufs",
+    "chorizo",
+    "rapide",
+    "brunch",
+    "petit-déjeuner",
+    "porc",
+    "épicé",
+    "facile",
+    "5-ingrédients"
+  ],
+  "ingredients": [
+    {
+      "items": [
+        "2 grandes tranches de pain de campagne",
+        "6 tranches fines de chorizo",
+        "2 œufs frais",
+        "1/2 cuillère à soupe de crème fraîche",
+        "1/2 noisette de beurre",
+        "1/2 filet d'huile d'olive",
+        "Sel et poivre du moulin",
+        "Quelques feuilles de salade (pour servir)"
+      ]
+    }
+  ],
+  "steps": [
+    {
+      "text": "Préparer les œufs brouillés dans un petit poêlon : les casser, les assaisonner. Chauffer doucement en remuant avec une spatule en bois jusqu'à obtenir une consistance crémeuse."
+    },
+    {
+      "text": "En fin de cuisson, ajouter la crème fraîche pour les rendre plus onctueux et assaisonner avec sel et poivre."
+    },
+    {
+      "text": "Toaster les tranches de pain nappées d'un filet d'huile d'olive."
+    },
+    {
+      "text": "Étaler les tranches de chorizo sur chaque toast."
+    },
+    {
+      "text": "Surmonter d'œufs brouillés et les recouvrir de tranches de gruyère. Faire fondre légèrement sous le gril du four."
+    },
+    {
+      "text": "Servir avec quelques feuilles de salade."
+    }
+  ],
+  "tips": [
+    "La clé des œufs brouillés parfaits : feu doux et patience. Ne jamais cesser de remuer.",
+    "Variante : remplacer le gruyère par du fromage de chèvre frais ou de la mozzarella.",
+    "Pour un brunch complet, ajouter quelques tomates cerises rôties ou de l'avocat tranché."
+  ],
+  "translations": {
+    "en": {
+      "title": "Eggs and Chorizo Toast",
+      "description": "A generous and flavorful open-faced toast topped with creamy scrambled eggs and crispy chorizo slices — the perfect breakfast or brunch.",
+      "tags": ["toast", "eggs", "chorizo", "quick", "brunch", "breakfast", "pork", "spicy", "easy", "5-ingredients"],
+      "ingredients": [
+        {
+          "items": [
+            "2 large slices of country bread",
+            "6 thin slices of chorizo",
+            "2 fresh eggs",
+            "1/2 tablespoon crème fraîche",
+            "1/2 knob of butter",
+            "1/2 drizzle of olive oil",
+            "Salt and freshly ground pepper",
+            "A few salad leaves (to serve)"
+          ]
+        }
+      ],
+      "steps": [
+        {
+          "text": "Prepare the scrambled eggs in a small saucepan: crack the eggs, season them. Heat gently while stirring continuously with a wooden spatula until you reach a creamy consistency."
+        },
+        {
+          "text": "At the end of cooking, add the crème fraîche to make them creamier and season with salt and pepper."
+        },
+        {
+          "text": "Toast the bread slices drizzled with a little olive oil."
+        },
+        {
+          "text": "Lay the chorizo slices over each toast."
+        },
+        {
+          "text": "Top with the scrambled eggs and cover with slices of gruyère. Melt lightly under the broiler."
+        },
+        {
+          "text": "Serve with a few salad leaves."
+        }
+      ],
+      "tips": [
+        "The key to perfect scrambled eggs: low heat and patience. Never stop stirring.",
+        "Variation: replace the gruyère with fresh goat cheese or mozzarella.",
+        "For a complete brunch, add some roasted cherry tomatoes or sliced avocado."
+      ]
+    },
+    "it": {
+      "title": "Tartine Uova e Chorizo",
+      "description": "Una tartine generosa e saporita guarnita con uova strapazzate cremose e fette di chorizo croccante — la colazione o il brunch perfetto.",
+      "tags": ["tartine", "uova", "chorizo", "veloce", "brunch", "colazione", "maiale", "piccante", "facile", "5-ingredienti"],
+      "ingredients": [
+        {
+          "items": [
+            "2 grandi fette di pane di campagna",
+            "6 fette sottili di chorizo",
+            "2 uova fresche",
+            "1/2 cucchiaio di panna acida",
+            "1/2 noce di burro",
+            "1/2 filo d'olio d'oliva",
+            "Sale e pepe macinato fresco",
+            "Alcune foglie di insalata (per servire)"
+          ]
+        }
+      ],
+      "steps": [
+        {
+          "text": "Preparare le uova strapazzate in un piccolo pentolino: romperle, condirle. Scaldare delicatamente mescolando continuamente con una spatola di legno fino ad ottenere una consistenza cremosa."
+        },
+        {
+          "text": "A fine cottura, aggiungere la panna acida per renderle più cremose e condire con sale e pepe."
+        },
+        {
+          "text": "Tostare le fette di pane irrorate con un filo d'olio d'oliva."
+        },
+        {
+          "text": "Disporre le fette di chorizo su ogni toast."
+        },
+        {
+          "text": "Coprire con le uova strapazzate e ricoprire con fette di gruviera. Far sciogliere leggermente sotto il grill del forno."
+        },
+        {
+          "text": "Servire con alcune foglie di insalata."
+        }
+      ],
+      "tips": [
+        "Il segreto delle uova strapazzate perfette: fuoco basso e pazienza. Non smettere mai di mescolare.",
+        "Variante: sostituire il gruviera con formaggio di capra fresco o mozzarella.",
+        "Per un brunch completo, aggiungere qualche pomodorino ciliegino arrostito o avocado a fette."
+      ]
+    }
+  }
+}
