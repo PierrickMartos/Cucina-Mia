@@ -1,0 +1,236 @@
+{
+  "slug": "biryani-agneau",
+  "title": "Biryani d'agneau",
+  "description": "Un biryani d'agneau parfumé au safran, à la cannelle et aux herbes fraîches, cuit en couches dorées avec du riz basmati grillé.",
+  "images": {
+    "cover": "images/recipes/biryani-agneau/cover.jpg",
+    "web": "images/recipes/biryani-agneau/web.jpg"
+  },
+  "imageCredit": {
+    "author": "MD-OSMAN-GANI",
+    "url": "https://pixabay.com/users/md-osman-gani-39761511/"
+  },
+  "prepTime": 30,
+  "cookTime": 65,
+  "servings": 4,
+  "difficulty": "Medio",
+  "category": "Secondi",
+  "tags": [
+    "agneau",
+    "riz",
+    "four",
+    "plat-principal",
+    "indien",
+    "épicé",
+    "mijoté",
+    "réconfortant",
+    "festif",
+    "safran",
+    "chaud",
+    "convivial",
+    "hiver"
+  ],
+  "ingredients": [
+    {
+      "items": [
+        "1 petite épaule d'agneau coupée en morceaux (600 g environ)",
+        "2 verres de riz basmati",
+        "2 oignons moyens",
+        "3 tomates moyennes",
+        "5 gousses d'ail",
+        "1 morceau de gingembre frais (3 cm)",
+        "1 piment vert (facultatif)",
+        "200 g de yaourt nature",
+        "4 cuillères à soupe de ghee",
+        "3 cuillères à soupe de raisins secs",
+        "1 cuillère à soupe de coriandre en poudre",
+        "1 cuillère à café de fenouil en poudre",
+        "1 cuillère à café de curcuma",
+        "2 bâtons de cannelle",
+        "1 pincée de safran",
+        "1 bouquet de coriandre fraîche",
+        "1 bouquet de menthe fraîche",
+        "Le jus d'un citron",
+        "Sel"
+      ]
+    }
+  ],
+  "steps": [
+    {
+      "text": "Épluchez les oignons. Réservez la première couche de l'un des oignons. Émincez le reste finement. Lavez et détaillez les tomates en dés. Pelez l'ail et le gingembre et écrasez-les avec le piment dans un mortier. Lavez et hachez finement les feuilles de coriandre et de menthe."
+    },
+    {
+      "text": "Dans un faitout, mettez à chauffer 2 cuillères à soupe de ghee. Faites revenir les oignons émincés 5 minutes en mélangeant. Incorporez le curcuma, la cannelle et les épices, faites revenir 2 minutes. Incorporez le mélange gingembre-piment-ail et faites cuire 2 minutes supplémentaires."
+    },
+    {
+      "text": "Ajoutez la coriandre et le fenouil en poudre, puis le yaourt, les tomates, le jus de citron, la menthe et la coriandre fraîches, le sel et 1 verre d'eau. Faites mijoter 30 à 35 minutes à feu moyen en remuant de temps en temps. Ajoutez 2 cuillères à soupe de raisins secs et poursuivez la cuisson 10 minutes environ jusqu'à ce que l'eau soit évaporée."
+    },
+    {
+      "text": "Préchauffez le four à 200 °C (thermostat 6-7). Coupez en fines lamelles la couche d'oignons réservée. Dans une poêle, faites chauffer la cuillère à soupe de ghee restante et faites dorer les lamelles d'oignons jusqu'à ce qu'elles soient croustillantes."
+    },
+    {
+      "text": "Dans une grande casserole, faites revenir le riz à sec à feu moyen pendant 2 minutes en mélangeant jusqu'à ce que les grains soient légèrement grillés. Couvrez d'eau salée et faites cuire environ 20 minutes à ébullition jusqu'à ce que l'eau soit absorbée."
+    },
+    {
+      "text": "Dissolvez le safran dans 1 cuillère à soupe d'eau chaude et laissez infuser 5 minutes."
+    },
+    {
+      "text": "Dans un plat allant au four, déposez une couche de riz. Arrosez de 2 à 3 cuillères à soupe de jus de cuisson de la viande. Ajoutez quelques raisins secs, des oignons dorés et quelques gouttes d'eau de safran. Disposez une couche de viande. Répétez les couches jusqu'à épuisement des ingrédients en terminant par du riz. Couvrez d'aluminium et enfournez 3 minutes. Servez chaud garni des oignons dorés restants."
+    }
+  ],
+  "tips": [
+    "Pour un biryani encore plus parfumé, faites mariner l'agneau dans le yaourt et les épices une nuit au réfrigérateur avant de commencer.",
+    "Le riz basmati peut être remplacé par du riz long grain ordinaire, mais le résultat sera moins parfumé.",
+    "Vous pouvez ajouter quelques noix de cajou grillées et des amandes effilées sur le dessus avant de servir."
+  ],
+  "originalSource": {
+    "type": "image",
+    "data": "images/recipes/biryani-agneau/source.jpg"
+  },
+  "translations": {
+    "en": {
+      "title": "Lamb Biryani",
+      "description": "A fragrant lamb biryani perfumed with saffron, cinnamon, and fresh herbs, baked in golden layers with toasted basmati rice.",
+      "tags": [
+        "lamb",
+        "rice",
+        "oven",
+        "main-course",
+        "indian",
+        "spiced",
+        "braised",
+        "comforting",
+        "festive",
+        "saffron",
+        "hot",
+        "sharing",
+        "winter"
+      ],
+      "ingredients": [
+        {
+          "items": [
+            "1 small lamb shoulder cut into pieces (about 600 g)",
+            "2 cups basmati rice",
+            "2 medium onions",
+            "3 medium tomatoes",
+            "5 garlic cloves",
+            "Fresh ginger (3 cm piece)",
+            "1 green chili (optional)",
+            "200 g plain yogurt",
+            "4 tablespoons ghee",
+            "3 tablespoons raisins",
+            "1 tablespoon ground coriander",
+            "1 teaspoon ground fennel",
+            "1 teaspoon turmeric",
+            "2 cinnamon sticks",
+            "1 pinch of saffron",
+            "1 bunch fresh coriander",
+            "1 bunch fresh mint",
+            "Juice of one lemon",
+            "Salt"
+          ]
+        }
+      ],
+      "steps": [
+        {
+          "text": "Peel the onions. Reserve the outer layer of one onion. Thinly slice the rest. Wash and dice the tomatoes. Peel the garlic and ginger and crush them with the chili in a mortar. Wash and finely chop the coriander and mint leaves."
+        },
+        {
+          "text": "In a large pot, heat 2 tablespoons of ghee. Sauté the sliced onions for 5 minutes, stirring. Add the turmeric, cinnamon and spices, cook for 2 minutes. Add the ginger-chili-garlic paste and cook for a further 2 minutes."
+        },
+        {
+          "text": "Add the ground coriander and fennel, then the yogurt, tomatoes, lemon juice, fresh mint and coriander, salt and 1 cup of water. Simmer for 30 to 35 minutes over medium heat, stirring occasionally. Add 2 tablespoons of raisins and cook for about 10 more minutes until the water has evaporated."
+        },
+        {
+          "text": "Preheat the oven to 200 °C (400 °F). Thinly slice the reserved onion rings. Heat the remaining tablespoon of ghee in a pan and fry the onion slices until crispy and golden."
+        },
+        {
+          "text": "In a large pot, dry-toast the rice over medium heat for 2 minutes, stirring, until the grains are lightly golden. Cover with salted water and cook for about 20 minutes at a boil until all the water is absorbed."
+        },
+        {
+          "text": "Dissolve the saffron in 1 tablespoon of hot water and let it steep for 5 minutes."
+        },
+        {
+          "text": "In an oven-safe dish, spread a layer of rice. Drizzle with 2 to 3 tablespoons of the meat cooking juices. Add some raisins, fried onions and a few drops of saffron water. Add a layer of meat. Repeat the layers until all ingredients are used, finishing with rice. Cover with foil and bake for 3 minutes. Serve hot garnished with the remaining fried onions."
+        }
+      ],
+      "tips": [
+        "For an even more fragrant biryani, marinate the lamb in the yogurt and spices overnight in the refrigerator before starting.",
+        "Basmati rice can be replaced with long grain rice, but the result will be less fragrant.",
+        "You can add some toasted cashews and flaked almonds on top before serving."
+      ]
+    },
+    "it": {
+      "title": "Biryani di agnello",
+      "description": "Un profumato biryani di agnello aromatizzato con zafferano, cannella ed erbe fresche, cotto in strati dorati con riso basmati tostato.",
+      "tags": [
+        "agnello",
+        "riso",
+        "forno",
+        "piatto-principale",
+        "indiano",
+        "speziato",
+        "stufato",
+        "confortante",
+        "festivo",
+        "zafferano",
+        "caldo",
+        "da-condividere",
+        "inverno"
+      ],
+      "ingredients": [
+        {
+          "items": [
+            "1 piccola spalla di agnello tagliata a pezzi (circa 600 g)",
+            "2 tazze di riso basmati",
+            "2 cipolle medie",
+            "3 pomodori medi",
+            "5 spicchi d'aglio",
+            "Zenzero fresco (pezzo da 3 cm)",
+            "1 peperoncino verde (facoltativo)",
+            "200 g di yogurt naturale",
+            "4 cucchiai di ghee",
+            "3 cucchiai di uvetta",
+            "1 cucchiaio di coriandolo in polvere",
+            "1 cucchiaino di finocchio in polvere",
+            "1 cucchiaino di curcuma",
+            "2 bastoncini di cannella",
+            "1 pizzico di zafferano",
+            "1 mazzo di coriandolo fresco",
+            "1 mazzo di menta fresca",
+            "Succo di un limone",
+            "Sale"
+          ]
+        }
+      ],
+      "steps": [
+        {
+          "text": "Sbucciate le cipolle. Mettete da parte il primo strato di una cipolla. Affettate finemente il resto. Lavate e tagliate i pomodori a dadini. Pelate l'aglio e lo zenzero e pestateli con il peperoncino in un mortaio. Lavate e tritate finemente le foglie di coriandolo e di menta."
+        },
+        {
+          "text": "In una pentola capiente, scaldate 2 cucchiai di ghee. Soffriggete le cipolle affettate per 5 minuti mescolando. Aggiungete la curcuma, la cannella e le spezie, cuocete per 2 minuti. Aggiungete il composto zenzero-peperoncino-aglio e cuocete per altri 2 minuti."
+        },
+        {
+          "text": "Aggiungete il coriandolo e il finocchio in polvere, poi lo yogurt, i pomodori, il succo di limone, la menta e il coriandolo freschi, il sale e 1 bicchiere d'acqua. Fate sobbollire 30-35 minuti a fuoco medio mescolando di tanto in tanto. Aggiungete 2 cucchiai di uvetta e proseguite la cottura per circa 10 minuti finché l'acqua non si è assorbita."
+        },
+        {
+          "text": "Preriscaldate il forno a 200 °C. Affettate finemente gli strati di cipolla messi da parte. In una padella, scaldate il cucchiaio di ghee rimasto e fate dorare le fettine di cipolla finché non diventano croccanti."
+        },
+        {
+          "text": "In una grande pentola, tostate il riso a secco a fuoco medio per 2 minuti mescolando finché i chicchi non sono leggermente dorati. Coprite con acqua salata e cuocete a ebollizione per circa 20 minuti finché l'acqua non viene assorbita."
+        },
+        {
+          "text": "Sciogliete lo zafferano in 1 cucchiaio di acqua calda e lasciate in infusione per 5 minuti."
+        },
+        {
+          "text": "In una teglia da forno, distribuite uno strato di riso. Irrorate con 2-3 cucchiai di fondo di cottura della carne. Aggiungete un po' di uvetta, cipolla dorata e qualche goccia di acqua allo zafferano. Disponete uno strato di carne. Ripetete gli strati fino a esaurimento degli ingredienti, terminando con il riso. Coprite con alluminio e infornate per 3 minuti. Servite caldo guarnito con le cipolle dorate rimaste."
+        }
+      ],
+      "tips": [
+        "Per un biryani ancora più profumato, fate marinare l'agnello nello yogurt e nelle spezie una notte in frigorifero prima di iniziare.",
+        "Il riso basmati può essere sostituito con riso a grano lungo, ma il risultato sarà meno aromatico.",
+        "Potete aggiungere delle anacardi tostati e delle mandorle a lamelle sopra prima di servire."
+      ]
+    }
+  }
+}
