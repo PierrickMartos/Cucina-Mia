@@ -217,6 +217,97 @@ The 3 parallel extraction agents disagreed on the following:
 The consensus values were used, but please review the flagged items.
 ```
 
+### LLM-as-a-Judge Validation (Step 2c)
+
+After building the consensus recipe, launch a **single judge agent** that independently validates the consensus against the original source material. The judge catches **systematic errors** — mistakes all 3 extraction agents made identically (e.g., misreading a handwritten "6" as "0", confusing "tbsp" with "tsp", skipping a faded line).
+
+**When to run the judge:** Always run it for unstructured file/URL extractions. Skip it for structured issues (form data doesn't need re-verification).
+
+**Launch the judge agent** using the Agent tool with this prompt template:
+
+> You are a recipe extraction judge. Your job is to verify the accuracy of an extracted recipe by comparing it against the original source material.
+>
+> ## Original Source
+> [Insert the original file content, image path to read, or fetched URL text — the same source given to the 3 extraction agents]
+>
+> ## Consensus Recipe (from 3-agent extraction)
+> [Insert the consensus JSON built in Step 2b]
+>
+> ## Discrepancy Report
+> [Insert the discrepancy report from Step 2b, or "None — all 3 agents agreed" if clean]
+>
+> ## Your Task
+>
+> Re-read the original source carefully and verify EVERY field in the consensus recipe. Focus especially on these common failure modes:
+>
+> 1. **Quantities & units**: Check every ingredient quantity against the source. Common errors: confusing g/kg, ml/L, tsp/tbsp, misreading handwritten numbers (6↔0, 1↔7, 5↔8), dropping a digit (150g→15g)
+> 2. **Temperatures**: Verify oven temps, cooking temps. Common errors: °C↔°F confusion, misread digits
+> 3. **Times**: Verify prep/cook times and any times mentioned in steps. Common errors: minutes↔hours, misread digits
+> 4. **Completeness**: Verify that NO ingredients or steps were omitted. Re-read the source line by line and check each item is present in the consensus
+> 5. **Ingredient names**: Verify correct identification, especially for similar items (e.g., baking soda vs baking powder, cream vs crème fraîche, stock vs broth)
+> 6. **Step ordering**: Verify the steps follow the correct sequence from the source
+> 7. **Servings**: Verify the serving count matches the source
+>
+> Return a JSON object with this structure:
+> ```json
+> {
+>   "verdict": "PASS" | "FAIL",
+>   "confidence": 1-10,
+>   "corrections": [
+>     {
+>       "field": "ingredients[0].items[2]" | "steps[3].text" | "prepTime" | etc.,
+>       "consensus_value": "what the consensus says",
+>       "correct_value": "what the source actually says",
+>       "severity": "critical" | "minor",
+>       "reasoning": "brief explanation of the error"
+>     }
+>   ],
+>   "missing_items": [
+>     {
+>       "type": "ingredient" | "step" | "tip",
+>       "value": "the missing item text from the source",
+>       "insert_after": "field reference for where it should go",
+>       "reasoning": "why it was likely missed"
+>     }
+>   ],
+>   "notes": "any general observations about extraction quality"
+> }
+> ```
+>
+> If everything is correct, return `"verdict": "PASS"` with an empty `corrections` array.
+> Only flag real errors you can verify against the source — do NOT speculate or add items not in the source.
+
+**Processing the judge's response:**
+
+1. **If `verdict` is `PASS`**: No changes needed. Record judge confidence score in the report.
+
+2. **If `verdict` is `FAIL`**: Apply corrections to the consensus recipe:
+   - For each item in `corrections`: replace the consensus value with `correct_value`
+   - For each item in `missing_items`: insert the missing ingredient/step/tip at the indicated position
+   - Only apply corrections with `severity: "critical"` automatically. For `minor` corrections, apply them but note in the report that they were minor judge adjustments.
+
+3. **Update the discrepancy report** with a new section:
+   ```
+   ### 🧑‍⚖️ Judge Validation
+   - Verdict: PASS/FAIL
+   - Confidence: X/10
+   - Corrections applied: N (list them)
+   - Missing items added: N (list them)
+   ```
+
+4. **If the judge finds corrections**, print to the terminal:
+   ```
+   🧑‍⚖️ JUDGE CORRECTIONS APPLIED
+   The judge agent found N issue(s) missed by all 3 extraction agents:
+   [list corrections]
+   These have been corrected in the final recipe.
+   ```
+
+**Important constraints:**
+- The judge MUST read the original source material directly (not rely on the extraction agents' interpretations)
+- The judge should be conservative — only flag clear, verifiable errors, not subjective improvements
+- If the judge's corrections contradict the 3-agent consensus AND the source is ambiguous, prefer the consensus (majority rules unless the judge has clear evidence)
+
 ## Step 3: Translate
 
 The base language is **French**. All top-level text fields (description, ingredients, steps, tips) must be in French. Then provide translations for English (`en`) and Italian (`it`).
@@ -398,6 +489,11 @@ Summarize:
 - **Extraction confidence** (for unstructured file/URL issues only):
   - If all 3 agents agreed: "✅ High confidence — all 3 extraction agents produced consistent results"
   - If discrepancies exist: list them with severity levels (🔴/🟡/🟢)
+- **Judge validation** (for unstructured file/URL issues only):
+  - Verdict: PASS or FAIL
+  - Confidence: X/10
+  - Corrections applied (if any): list each correction with before/after values
+  - Missing items added (if any): list each addition
 
 ### PR Comment: Extraction Discrepancy Report
 
@@ -410,40 +506,61 @@ When creating a PR for an **unstructured file/URL recipe** (i.e., one that used 
 
 [One of the following:]
 
-✅ **High confidence** — all 3 extraction agents produced consistent results.
+✅ **High confidence** — all 3 extraction agents produced consistent results. Judge verdict: PASS (confidence X/10).
 
 ⚠️ **Discrepancies detected** — the 3 extraction agents disagreed on some items.
-See the review comment below for details.
+See the review comment below for details. Judge verdict: PASS/FAIL (confidence X/10).
+
+🧑‍⚖️ **Judge corrections applied** — the judge agent found N systematic error(s) that all 3 extraction agents missed.
+These have been corrected in the final recipe. See details below.
 ```
 
-**PR review comment** — post ONLY if there are 🔴 or 🟡 discrepancies:
+**PR review comment** — post ONLY if there are 🔴 or 🟡 discrepancies OR the judge applied corrections:
 
 ```markdown
 ## ⚠️ Recipe Extraction Discrepancies
 
-The recipe was extracted from an unstructured source using 3 parallel agents.
-The agents produced **different results** for the items listed below.
-The consensus values (2-of-3 agreement) were used in the final recipe, but a human should verify these.
+The recipe was extracted from an unstructured source using 3 parallel agents + LLM judge validation.
+The consensus values (2-of-3 agreement) were used as a base, then verified by a judge agent against the original source.
 
-### Ingredients
+### Agent Discrepancies
+[Include only if there are 🔴 or 🟡 discrepancies]
+
+#### Ingredients
 | Item | Agent 1 | Agent 2 | Agent 3 | Consensus | Severity |
 |------|---------|---------|---------|-----------|----------|
 | ... | ... | ... | ... | ... | 🔴/🟡 |
 
-### Steps
+#### Steps
 | Step # | Agent 1 | Agent 2 | Agent 3 | Consensus | Severity |
 |--------|---------|---------|---------|-----------|----------|
 | ... | ... | ... | ... | ... | 🔴/🟡 |
 
-### Metadata
+#### Metadata
 | Field | Agent 1 | Agent 2 | Agent 3 | Consensus | Severity |
 |-------|---------|---------|---------|-----------|----------|
 | ... | ... | ... | ... | ... | 🔴/🟡 |
 
 > **Legend:** 🔴 All 3 agents disagree — 🟡 2 agree, 1 differs — 🟢 Minor wording only (not shown)
+
+### 🧑‍⚖️ Judge Validation
+[Always include this section]
+
+- **Verdict:** PASS/FAIL (confidence: X/10)
+- **Corrections applied:** N
+
+[Include only if judge found corrections:]
+| Field | Consensus Value | Corrected Value | Severity | Reasoning |
+|-------|----------------|-----------------|----------|-----------|
+| ... | ... | ... | critical/minor | ... |
+
+[Include only if judge found missing items:]
+| Type | Missing Item | Insert After | Reasoning |
+|------|-------------|--------------|-----------|
+| ingredient/step/tip | ... | ... | ... |
 ```
 
-Only include the table sections (Ingredients / Steps / Metadata) that actually have discrepancies — omit empty sections.
+Only include the table sections that actually have content — omit empty sections.
 
 This review comment helps PR reviewers quickly identify which parts of the recipe may need manual verification against the original source.
 
