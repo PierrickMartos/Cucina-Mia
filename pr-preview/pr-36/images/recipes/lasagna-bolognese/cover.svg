@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <defs>
+    <radialGradient id="lbbg" cx="50%" cy="45%" r="70%"><stop offset="0%" stop-color="#2e2822"/><stop offset="100%" stop-color="#1a1510"/></radialGradient>
+  </defs>
+  <rect width="800" height="600" fill="url(#lbbg)"/>
+  <ellipse cx="405" cy="420" rx="225" ry="42" fill="#0d0a07" opacity="0.45"/>
+  <!-- Baking dish -->
+  <rect x="185" y="200" width="430" height="200" rx="12" fill="#8a4020" stroke="#6a3018" stroke-width="2"/>
+  <rect x="185" y="200" width="430" height="200" rx="12" fill="#7a3518" opacity="0.3"/>
+  <!-- Top golden cheese crust -->
+  <rect x="195" y="205" width="410" height="60" rx="8" fill="#d4900a"/>
+  <!-- Browned spots -->
+  <g fill="#a86808" opacity="0.6">
+    <ellipse cx="260" cy="228" rx="18" ry="10"/><ellipse cx="330" cy="222" rx="22" ry="12"/>
+    <ellipse cx="410" cy="230" rx="16" ry="9"/><ellipse cx="480" cy="225" rx="20" ry="11"/>
+    <ellipse cx="540" cy="232" rx="15" ry="8"/><ellipse cx="230" cy="240" rx="12" ry="7"/>
+  </g>
+  <!-- Cheese bubbles -->
+  <g fill="#e8a818" opacity="0.4">
+    <circle cx="280" cy="218" r="4"/><circle cx="350" cy="215" r="5"/>
+    <circle cx="420" cy="220" r="3.5"/><circle cx="500" cy="218" r="4.5"/>
+    <circle cx="300" cy="235" r="3"/><circle cx="460" cy="238" r="3"/>
+  </g>
+  <!-- Besciamella layer -->
+  <rect x="195" y="262" width="410" height="30" rx="2" fill="#f5ede0"/>
+  <!-- Ragu layer -->
+  <rect x="195" y="290" width="410" height="35" rx="2" fill="#8a3020"/>
+  <g fill="#702818" opacity="0.5">
+    <circle cx="250" cy="305" r="5"/><circle cx="320" cy="310" r="4"/>
+    <circle cx="400" cy="303" r="5"/><circle cx="470" cy="308" r="4"/>
+    <circle cx="540" cy="305" r="3"/>
+  </g>
+  <!-- Pasta layer -->
+  <rect x="195" y="322" width="410" height="12" rx="1" fill="#e0c878"/>
+  <!-- Lower besciamella -->
+  <rect x="195" y="332" width="410" height="25" rx="2" fill="#f0e8d8"/>
+  <!-- Lower ragu -->
+  <rect x="195" y="355" width="410" height="30" rx="2" fill="#8a3020"/>
+  <!-- Bottom pasta -->
+  <rect x="195" y="383" width="410" height="12" rx="4" fill="#d8b860"/>
+  <!-- Dish rim highlight -->
+  <rect x="185" y="200" width="430" height="200" rx="12" fill="none" stroke="#9a5028" stroke-width="1" opacity="0.4"/>
+  <!-- Steam -->
+  <g stroke="#f5f0e0" stroke-width="1.5" fill="none" opacity="0.12">
+    <path d="M300,195 Q295,175 305,155 Q315,135 305,115"/>
+    <path d="M400,190 Q395,170 405,150 Q415,130 405,110"/>
+    <path d="M500,195 Q495,175 505,155 Q515,135 505,115"/>
+  </g>
+</svg>
