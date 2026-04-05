@@ -1,0 +1,13 @@
+{
+  "slug": "creme-brulee",
+  "checks": {
+    "must_detect_missing_fields": true,
+    "missing_fields_reported": ["description", "prepTime", "servings", "tags", "steps"],
+    "must_report_all_missing": true,
+    "must_stop_processing": true,
+    "no_files_created": true,
+    "no_files_modified": true
+  },
+  "expected_outcome": "error",
+  "notes": "Tests that the skill validates ALL required fields and reports every missing one, not just the first. Five fields are missing: description, prepTime, servings, tags, and steps. The skill should not write any files."
+}

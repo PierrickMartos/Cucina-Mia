@@ -1,0 +1,39 @@
+{
+  "slug": "tiramisu-classico",
+  "title_contains": "Tiramisù",
+  "category": "Dolci",
+  "difficulty": "Medio",
+  "cookTime": 0,
+  "servings": 6,
+  "checks": {
+    "schema_valid": true,
+    "has_translations_en": true,
+    "has_translations_it": true,
+    "tags_are_french": true,
+    "tags_min_count": 5,
+    "tags_should_contain": ["no-cuisson", "italien", "dessert", "noël", "enfants"],
+    "ingredients_min_count": 7,
+    "ingredient_groups_present": true,
+    "ingredient_groups_min_count": 2,
+    "steps_min_count": 8,
+    "tips_present": true,
+    "cook_time_is_zero": true,
+    "original_source_type": "pdf",
+    "original_source_data_pattern": "images/recipes/tiramisu-classico/source.pdf",
+    "images_field_present": true,
+    "parallel_extraction_used": true,
+    "consensus_report_generated": true,
+    "judge_validation_run": true,
+    "translations_have_ingredients": true,
+    "translations_have_steps": true,
+    "base_language_is_french": true,
+    "italian_translation_preserves_original": true,
+    "description_max_length": 200,
+    "no_quanto_vene_needed": true
+  },
+  "expected_ingredient_groups": [
+    "Pour la crème",
+    "Pour l'assemblage"
+  ],
+  "notes": "Tests PDF extraction, Italian→French translation, cook time 0 edge case, and ingredient groups. The Italian translation should be very close to the original PDF text. French base must be a proper translation, not the Italian original. Ingredient groups must be translated (Per la crema → Pour la crème, Per l'assemblaggio → Pour l'assemblage)."
+}
