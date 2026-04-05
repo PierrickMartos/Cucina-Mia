@@ -1,0 +1,173 @@
+{
+  "slug": "naans-au-fromage",
+  "title": "Naans au fromage",
+  "description": "Des naans moelleux fourrés au fromage fondant, inspirés du cheese naan parisien à décliner avec comté, cheddar ou bleu.",
+  "images": {
+    "cover": "images/recipes/naans-au-fromage/cover.jpg",
+    "web": "images/recipes/naans-au-fromage/web.jpg"
+  },
+  "imageCredit": {
+    "author": "2SIF",
+    "url": "https://pixabay.com/users/2SIF-26811215/"
+  },
+  "prepTime": 30,
+  "cookTime": 30,
+  "servings": 4,
+  "difficulty": "Medio",
+  "category": "Pane",
+  "tags": [
+    "poêle",
+    "végétarien",
+    "fromage",
+    "indien",
+    "moelleux",
+    "réconfortant",
+    "convivial",
+    "toute-la-famille",
+    "préparation-à-lavance",
+    "fait-maison"
+  ],
+  "ingredients": [
+    {
+      "items": [
+        "350 g de farine tamisée",
+        "1 pincée de sel",
+        "1 cuillère à café de sucre",
+        "10 g de levure de boulanger fraîche (ou 1 sachet de levure de boulanger séchée)",
+        "¼ de cuillère à café de levure chimique",
+        "2 cuillères à soupe de yaourt nature",
+        "5 cuillères à soupe de ghee",
+        "4 portions de fromage type Vache qui rit (ou comté, cheddar, bleu)"
+      ]
+    }
+  ],
+  "steps": [
+    {
+      "text": "Dans un saladier, délayez la levure de boulanger et le sucre avec 15 cl d'eau tiède. Ajoutez la moitié de la farine. Travaillez la pâte 5 minutes afin d'obtenir une préparation homogène. Couvrez le saladier avec un linge humide et laissez lever la pâte pendant 30 minutes."
+    },
+    {
+      "text": "Ajoutez dans le saladier le yaourt, la levure chimique, le reste de la farine et 3 cuillères à soupe de ghee. Retravaillez la pâte pendant 5 minutes. Laissez à nouveau reposer pendant 30 minutes."
+    },
+    {
+      "text": "Partagez la pâte en 4 ou 8 parts. Étalez chaque part sur une planche farinée en lui donnant une forme de triangle."
+    },
+    {
+      "text": "Déposez du fromage au centre de chaque galette. Repliez les bords et étalez à nouveau la pâte pour bien enfermer le fromage."
+    },
+    {
+      "text": "Chauffez une poêle à feu vif. Faites cuire les naans 2 minutes de chaque côté. Déposez un peu de ghee sur chaque galette."
+    }
+  ],
+  "tips": [
+    "Comptez 1 heure de repos de la pâte (non incluse dans le temps de préparation).",
+    "Vous pouvez décliner cette recette avec du comté, du cheddar ou du bleu à la place de la Vache qui rit."
+  ],
+  "originalSource": {
+    "type": "image",
+    "data": "images/recipes/naans-au-fromage/source.jpg"
+  },
+  "translations": {
+    "en": {
+      "title": "Cheese Naans",
+      "description": "Soft naans stuffed with melting cheese, inspired by the Parisian cheese naan, to vary with comté, cheddar or blue cheese.",
+      "tags": [
+        "pan",
+        "vegetarian",
+        "cheese",
+        "indian",
+        "soft",
+        "comforting",
+        "convivial",
+        "family",
+        "make-ahead",
+        "homemade"
+      ],
+      "ingredients": [
+        {
+          "items": [
+            "350 g sifted flour",
+            "1 pinch of salt",
+            "1 teaspoon sugar",
+            "10 g fresh baker's yeast (or 1 sachet dried yeast)",
+            "¼ teaspoon baking powder",
+            "2 tablespoons plain yogurt",
+            "5 tablespoons ghee",
+            "4 portions cream cheese type Laughing Cow (or comté, cheddar, blue cheese)"
+          ]
+        }
+      ],
+      "steps": [
+        {
+          "text": "In a bowl, dissolve the yeast and sugar in 15 cl of lukewarm water. Add half the flour. Work the dough for 5 minutes until homogeneous. Cover the bowl with a damp cloth and let the dough rise for 30 minutes."
+        },
+        {
+          "text": "Add the yogurt, baking powder, remaining flour and 3 tablespoons of ghee to the bowl. Knead for another 5 minutes. Let rest again for 30 minutes."
+        },
+        {
+          "text": "Divide the dough into 4 or 8 pieces. Roll each piece on a floured surface into a triangle shape."
+        },
+        {
+          "text": "Place cheese in the center of each piece. Fold the edges and roll out again to seal the cheese inside."
+        },
+        {
+          "text": "Heat a pan over high heat. Cook the naans for 2 minutes on each side. Brush each naan with a little ghee."
+        }
+      ],
+      "tips": [
+        "Allow 1 hour for the dough to rest (not included in prep time).",
+        "You can vary this recipe with comté, cheddar or blue cheese instead of Laughing Cow."
+      ]
+    },
+    "it": {
+      "title": "Naan al formaggio",
+      "description": "Naan morbidi ripieni di formaggio fondente, ispirati al cheese naan parigino, da variare con comté, cheddar o gorgonzola.",
+      "tags": [
+        "padella",
+        "vegetariano",
+        "formaggio",
+        "indiano",
+        "morbido",
+        "confortante",
+        "conviviale",
+        "tutta-la-famiglia",
+        "preparazione-anticipata",
+        "fatto-in-casa"
+      ],
+      "ingredients": [
+        {
+          "items": [
+            "350 g di farina setacciata",
+            "1 pizzico di sale",
+            "1 cucchiaino di zucchero",
+            "10 g di lievito di birra fresco (o 1 bustina di lievito secco)",
+            "¼ di cucchiaino di lievito chimico",
+            "2 cucchiai di yogurt naturale",
+            "5 cucchiai di ghee",
+            "4 porzioni di formaggio tipo Vache qui rit (o comté, cheddar, gorgonzola)"
+          ]
+        }
+      ],
+      "steps": [
+        {
+          "text": "In una ciotola, sciogliere il lievito e lo zucchero in 15 cl di acqua tiepida. Aggiungere metà della farina. Lavorare l'impasto per 5 minuti fino a ottenere un composto omogeneo. Coprire la ciotola con un panno umido e lasciare lievitare per 30 minuti."
+        },
+        {
+          "text": "Aggiungere nella ciotola lo yogurt, il lievito chimico, il resto della farina e 3 cucchiai di ghee. Lavorare di nuovo per 5 minuti. Lasciare riposare ancora 30 minuti."
+        },
+        {
+          "text": "Dividere l'impasto in 4 o 8 parti. Stendere ogni parte su una superficie infarinata dandole la forma di un triangolo."
+        },
+        {
+          "text": "Disporre il formaggio al centro di ogni pezzo. Ripiegare i bordi e stendere di nuovo l'impasto per racchiudere bene il formaggio."
+        },
+        {
+          "text": "Scaldare una padella a fuoco vivo. Cuocere i naan 2 minuti per lato. Spennellare ogni naan con un po' di ghee."
+        }
+      ],
+      "tips": [
+        "Contare 1 ora di riposo dell'impasto (non inclusa nel tempo di preparazione).",
+        "Potete variare questa ricetta con comté, cheddar o gorgonzola al posto del Vache qui rit."
+      ]
+    }
+  }
+}
