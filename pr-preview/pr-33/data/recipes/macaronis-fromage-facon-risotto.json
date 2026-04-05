@@ -1,0 +1,150 @@
+{
+  "slug": "macaronis-fromage-facon-risotto",
+  "title": "Macaronis au Fromage Façon Risotto",
+  "description": "Des macaronis cuisinés façon risotto dans le bouillon de bœuf, enrobés d'une sauce crémeuse au cheddar — le mac & cheese à la française.",
+  "images": {
+    "cover": "images/recipes/macaronis-fromage-facon-risotto/cover.jpg",
+    "web": "images/recipes/macaronis-fromage-facon-risotto/web.jpg"
+  },
+  "imageCredit": {
+    "url": "https://pixabay.com/photos/food-cheese-lunch-snack-delicious-4305743/"
+  },
+  "prepTime": 10,
+  "cookTime": 30,
+  "servings": 4,
+  "difficulty": "Facile",
+  "category": "Risotto",
+  "tags": [
+    "pâtes",
+    "fromage",
+    "cheddar",
+    "réconfortant",
+    "rapide",
+    "plat-principal",
+    "onctueux",
+    "américain",
+    "français",
+    "enfants"
+  ],
+  "ingredients": [
+    {
+      "items": [
+        "300g de macaronis",
+        "40 cl de crème fraîche",
+        "200g de cheddar",
+        "1 pincée de noix de muscade",
+        "4 petites échalotes",
+        "20 cl de vin blanc",
+        "1 L de bouillon de bœuf chaud",
+        "30g de matière grasse (beurre)",
+        "Sel, poivre"
+      ]
+    }
+  ],
+  "steps": [
+    {
+      "text": "Dans une petite casserole, faire chauffer la crème fraîche à feu doux et ajouter le cheddar en petits morceaux avec la muscade. Remuer. Réserver au chaud."
+    },
+    {
+      "text": "Peler et émincer finement les échalotes. Dans une sauteuse, faire chauffer la matière grasse et faire revenir les échalotes. Dès qu'elles colorent légèrement, ajouter les pâtes. Remuer sans cesse et mouiller avec le vin blanc."
+    },
+    {
+      "text": "Dès que le vin blanc est évaporé, verser le bouillon de bœuf en plusieurs fois jusqu'à ce que les pâtes soient parfaitement cuites. Ne pas cesser de remuer. Compter 20 minutes de cuisson."
+    },
+    {
+      "text": "Une fois les pâtes cuites, ajouter le mélange cheddar-crème. Rectifier l'assaisonnement et déguster bien chaud."
+    }
+  ],
+  "translations": {
+    "en": {
+      "title": "Mac & Cheese Risotto Style",
+      "description": "Macaroni cooked risotto-style in beef stock, then coated in a creamy cheddar sauce — the French take on mac & cheese.",
+      "tags": [
+        "pasta",
+        "cheese",
+        "cheddar",
+        "comfort-food",
+        "quick",
+        "main-course",
+        "creamy",
+        "american",
+        "french",
+        "kids"
+      ],
+      "ingredients": [
+        {
+          "items": [
+            "300g macaroni",
+            "400ml heavy cream",
+            "200g cheddar cheese",
+            "1 pinch of nutmeg",
+            "4 small shallots",
+            "200ml white wine",
+            "1 L hot beef stock",
+            "30g fat (butter)",
+            "Salt, pepper"
+          ]
+        }
+      ],
+      "steps": [
+        {
+          "text": "In a small saucepan, heat the heavy cream over low heat and add the cheddar cut into small pieces along with the nutmeg. Stir until melted. Keep warm."
+        },
+        {
+          "text": "Peel and finely slice the shallots. In a sauté pan, heat the butter and cook the shallots until lightly golden. Add the macaroni and stir constantly, then deglaze with the white wine."
+        },
+        {
+          "text": "Once the white wine has evaporated, add the hot beef stock a little at a time, stirring continuously, until the pasta is perfectly cooked. Allow about 20 minutes of cooking time."
+        },
+        {
+          "text": "Once the pasta is cooked, stir in the cheddar-cream mixture. Adjust seasoning and serve piping hot."
+        }
+      ]
+    },
+    "it": {
+      "title": "Maccheroni al Formaggio alla Maniera del Risotto",
+      "description": "Maccheroni cotti alla maniera del risotto nel brodo di manzo, avvolti in una cremosa salsa al cheddar — il mac & cheese alla francese.",
+      "tags": [
+        "pasta",
+        "formaggio",
+        "cheddar",
+        "comfort-food",
+        "veloce",
+        "primo-piatto",
+        "cremoso",
+        "americano",
+        "francese",
+        "bambini"
+      ],
+      "ingredients": [
+        {
+          "items": [
+            "300g di maccheroni",
+            "400ml di panna fresca",
+            "200g di cheddar",
+            "1 pizzico di noce moscata",
+            "4 scalogni piccoli",
+            "200ml di vino bianco",
+            "1 L di brodo di manzo caldo",
+            "30g di materia grassa (burro)",
+            "Sale, pepe"
+          ]
+        }
+      ],
+      "steps": [
+        {
+          "text": "In un pentolino, scaldare la panna a fuoco basso e aggiungere il cheddar tagliato a pezzetti insieme alla noce moscata. Mescolare fino a scioglimento. Tenere in caldo."
+        },
+        {
+          "text": "Sbucciare e affettare finemente gli scalogni. In una padella, scaldare il burro e far rosolare gli scalogni. Non appena prendono colore, aggiungere i maccheroni. Mescolare continuamente e sfumare con il vino bianco."
+        },
+        {
+          "text": "Quando il vino bianco è evaporato, versare il brodo di manzo poco alla volta, mescolando senza sosta, fino a cottura perfetta della pasta. Contare circa 20 minuti di cottura."
+        },
+        {
+          "text": "A cottura ultimata, aggiungere il composto cheddar-panna. Aggiustare di sale e pepe e servire ben caldo."
+        }
+      ]
+    }
+  }
+}

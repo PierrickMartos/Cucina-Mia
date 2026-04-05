@@ -1,0 +1,219 @@
+{
+  "slug": "crumble-ananas-mangue",
+  "title": "Crumble Ananas et Mangue",
+  "description": "Un crumble aux fruits exotiques avec de l'ananas caramélisé à la vanille, de la mangue et du fruit de la passion, recouvert d'un biscuit croustillant à la cannelle.",
+  "images": {
+    "cover": "images/recipes/crumble-ananas-mangue/cover.jpg",
+    "web": "images/recipes/crumble-ananas-mangue/web.jpg"
+  },
+  "imageCredit": {
+    "author": "NoName_13",
+    "url": "https://pixabay.com/users/noname_13-2364555/"
+  },
+  "prepTime": 20,
+  "cookTime": 25,
+  "servings": 4,
+  "difficulty": "Facile",
+  "category": "Dolci",
+  "tags": [
+    "four",
+    "dessert",
+    "végétarien",
+    "fruits",
+    "exotique",
+    "croustillant",
+    "été",
+    "réconfortant",
+    "gourmand"
+  ],
+  "ingredients": [
+    {
+      "group": "Fruits",
+      "items": [
+        "½ ananas frais (170 g)",
+        "½ mangue (200 g)",
+        "1 fruit de la passion (20 g de pulpe)",
+        "1 gousse de vanille",
+        "25 g de beurre",
+        "10 g de sucre de canne roux",
+        "1 c. à s. de rhum vieux"
+      ]
+    },
+    {
+      "group": "Biscuit crumble",
+      "items": [
+        "40 g de beurre ramolli",
+        "15 g de sucre de canne roux",
+        "65 g de farine",
+        "2 g de cannelle moulue"
+      ]
+    }
+  ],
+  "steps": [
+    {
+      "text": "Coupez l'ananas en 2, enlevez la peau et les yeux, jetez le cœur. Coupez-le en cubes."
+    },
+    {
+      "text": "Dans une poêle, faites fondre le beurre avec le sucre. Incorporez les morceaux d'ananas et amenez doucement à coloration pendant environ 7 minutes."
+    },
+    {
+      "text": "Fendez la gousse de vanille en 2 et récupérez les graines. Incorporez les grains de vanille et le rhum vieux à l'ananas caramélisé. Retirez du feu et laissez de côté."
+    },
+    {
+      "text": "Épluchez la mangue et coupez-la en dés de 1 cm de côté. Récupérez la pulpe du fruit de la passion dans un bol."
+    },
+    {
+      "text": "Mélangez l'ananas, la mangue et le fruit de la passion dans le bol. Répartissez équitablement dans des ramequins allant au four."
+    },
+    {
+      "text": "Préchauffez le four à 200°C."
+    },
+    {
+      "text": "Préparez le biscuit crumble : dans un saladier, mélangez le beurre ramolli, le sucre, la farine et la cannelle. Commencez avec une fourchette puis finissez avec les mains en frottant la pâte entre les paumes pour obtenir une texture friable."
+    },
+    {
+      "text": "Répartissez le biscuit crumble sur les ramequins, par-dessus le mélange de fruits."
+    },
+    {
+      "text": "Enfournez pendant 20 à 25 minutes jusqu'à ce que le biscuit soit bien doré."
+    },
+    {
+      "text": "Dégustez tiède accompagné d'une boule de glace à la vanille."
+    }
+  ],
+  "tips": [
+    "Remplacez le rhum par du jus d'orange pour une version sans alcool.",
+    "Ce crumble se marie très bien avec d'autres fruits exotiques comme la papaye."
+  ],
+  "source": "https://www.tatiemaryse.com/crumble-aux-fruits-exotiques/",
+  "translations": {
+    "en": {
+      "title": "Pineapple and Mango Crumble",
+      "description": "An exotic fruit crumble with vanilla-caramelized pineapple, mango, and passion fruit, topped with a crunchy cinnamon biscuit.",
+      "tags": ["oven", "dessert", "vegetarian", "fruit", "exotic", "crispy", "summer", "comforting", "indulgent"],
+      "ingredients": [
+        {
+          "group": "Fruit",
+          "items": [
+            "½ fresh pineapple (170 g)",
+            "½ mango (200 g)",
+            "1 passion fruit (20 g pulp)",
+            "1 vanilla pod",
+            "25 g butter",
+            "10 g brown cane sugar",
+            "1 tbsp aged rum"
+          ]
+        },
+        {
+          "group": "Crumble topping",
+          "items": [
+            "40 g softened butter",
+            "15 g brown cane sugar",
+            "65 g flour",
+            "2 g ground cinnamon"
+          ]
+        }
+      ],
+      "steps": [
+        {
+          "text": "Cut the pineapple in half, remove the skin and eyes, discard the core. Cut into cubes."
+        },
+        {
+          "text": "In a pan, melt the butter with the sugar. Add the pineapple pieces and gently caramelize for about 7 minutes."
+        },
+        {
+          "text": "Split the vanilla pod in half and scrape out the seeds. Add the vanilla seeds and rum to the caramelized pineapple. Remove from heat and set aside."
+        },
+        {
+          "text": "Peel the mango and cut into 1 cm cubes. Collect the passion fruit pulp in a bowl."
+        },
+        {
+          "text": "Mix the pineapple, mango, and passion fruit in the bowl. Distribute evenly into oven-safe ramekins."
+        },
+        {
+          "text": "Preheat the oven to 200°C (400°F)."
+        },
+        {
+          "text": "Prepare the crumble topping: in a bowl, mix the softened butter, sugar, flour, and cinnamon. Start with a fork then finish by hand, rubbing the dough between your palms to get a crumbly texture."
+        },
+        {
+          "text": "Spread the crumble topping over the ramekins, on top of the fruit mixture."
+        },
+        {
+          "text": "Bake for 20–25 minutes until the topping is golden brown."
+        },
+        {
+          "text": "Serve warm with a scoop of vanilla ice cream."
+        }
+      ],
+      "tips": [
+        "Replace the rum with orange juice for an alcohol-free version.",
+        "This crumble also works beautifully with other exotic fruits like papaya."
+      ]
+    },
+    "it": {
+      "title": "Crumble Ananas e Mango",
+      "description": "Un crumble ai frutti esotici con ananas caramellato alla vaniglia, mango e frutto della passione, ricoperto da un croccante biscotto alla cannella.",
+      "tags": ["forno", "dessert", "vegetariano", "frutta", "esotico", "croccante", "estate", "confortante", "goloso"],
+      "ingredients": [
+        {
+          "group": "Frutta",
+          "items": [
+            "½ ananas fresco (170 g)",
+            "½ mango (200 g)",
+            "1 frutto della passione (20 g di polpa)",
+            "1 baccello di vaniglia",
+            "25 g di burro",
+            "10 g di zucchero di canna grezzo",
+            "1 cucchiaio di rum invecchiato"
+          ]
+        },
+        {
+          "group": "Biscotto crumble",
+          "items": [
+            "40 g di burro ammorbidito",
+            "15 g di zucchero di canna grezzo",
+            "65 g di farina",
+            "2 g di cannella in polvere"
+          ]
+        }
+      ],
+      "steps": [
+        {
+          "text": "Tagliate l'ananas a metà, eliminate la buccia e gli occhi, scartate il cuore. Tagliatelo a cubetti."
+        },
+        {
+          "text": "In una padella, fate sciogliere il burro con lo zucchero. Aggiungete i pezzi di ananas e fateli caramellare dolcemente per circa 7 minuti."
+        },
+        {
+          "text": "Incidete il baccello di vaniglia a metà e raccogliete i semi. Unite i semi di vaniglia e il rum all'ananas caramellato. Togliete dal fuoco e mettete da parte."
+        },
+        {
+          "text": "Sbucciate il mango e tagliatelo a dadini di 1 cm. Raccogliete la polpa del frutto della passione in una ciotola."
+        },
+        {
+          "text": "Mescolate l'ananas, il mango e il frutto della passione nella ciotola. Distribuite in modo uniforme negli stampini da forno."
+        },
+        {
+          "text": "Preriscaldate il forno a 200°C."
+        },
+        {
+          "text": "Preparate il biscotto crumble: in una ciotola mescolate il burro ammorbidito, lo zucchero, la farina e la cannella. Iniziate con una forchetta e finite con le mani, sfregando l'impasto tra i palmi per ottenere una consistenza friabile."
+        },
+        {
+          "text": "Distribuite il crumble sugli stampini, sopra la frutta."
+        },
+        {
+          "text": "Infornate per 20-25 minuti fino a quando il biscotto è ben dorato."
+        },
+        {
+          "text": "Servite tiepido accompagnato da una pallina di gelato alla vaniglia."
+        }
+      ],
+      "tips": [
+        "Sostituite il rum con succo d'arancia per una versione senza alcol.",
+        "Questo crumble si abbina molto bene anche ad altri frutti esotici come la papaya."
+      ]
+    }
+  }
+}
