@@ -1,0 +1,164 @@
+{
+  "slug": "naans-nature",
+  "title": "Naans nature",
+  "description": "Pain indien originaire du Nord de l'Inde, léger et moelleux, cuit à la poêle et nappé de ghee. Incontournable des restaurants indiens à travers le monde.",
+  "images": {
+    "cover": "images/recipes/naans-nature/cover.jpg",
+    "web": "images/recipes/naans-nature/web.jpg"
+  },
+  "prepTime": 20,
+  "cookTime": 30,
+  "servings": 4,
+  "difficulty": "Medio",
+  "category": "Pane",
+  "tags": [
+    "poêle",
+    "indien",
+    "végétarien",
+    "moelleux",
+    "facile",
+    "à-partager",
+    "doux",
+    "économique",
+    "snack",
+    "batch-cooking"
+  ],
+  "ingredients": [
+    {
+      "items": [
+        "375 g de farine tamisée",
+        "1 g de levure de boulanger fraîche (à défaut, 1 sachet de levure séchée)",
+        "1 cuillère à café de sucre",
+        "5 cl d'eau tiède",
+        "1 cuillère à café de sel",
+        "4 cuillères à soupe de yaourt nature",
+        "½ cuillère à café de levure chimique",
+        "5 cuillères à soupe de ghee (+ un peu pour la cuisson)"
+      ]
+    }
+  ],
+  "steps": [
+    {
+      "text": "Dans un saladier, délayez la levure de boulanger et le sucre dans 5 centilitres d'eau tiède. Ajoutez la moitié de la farine. Travaillez la pâte 5 minutes afin d'obtenir une préparation homogène. Couvrez le saladier avec un linge humide et laissez lever la pâte 30 minutes."
+    },
+    {
+      "text": "Ajoutez dans le saladier : le sel, le yaourt, la levure chimique, le reste de la farine et 5 cuillères à soupe de ghee. Retravaillez la pâte pendant 5 minutes. Laissez à nouveau reposer pendant 30 minutes."
+    },
+    {
+      "text": "Partagez la pâte en 4 ou 8 parts. Étirez chaque part sur une planche farinée en lui donnant une forme de triangle."
+    },
+    {
+      "text": "Chauffez une poêle à feu vif. Faites cuire chaque naan pendant 2 minutes de chaque côté. Déposez un peu de ghee sur chaque galette avant de servir."
+    }
+  ],
+  "tips": [
+    "La pâte doit reposer 1 heure au total : 30 minutes après la première étape et 30 minutes après la deuxième.",
+    "Le ghee peut être remplacé par du beurre clarifié ou de l'huile végétale.",
+    "Pour des naans plus savoureux, ajoutez une pointe d'ail haché ou des feuilles de coriandre fraîche dans la pâte avant la seconde levée."
+  ],
+  "source": "Recette extraite d'un livre de cuisine",
+  "originalSource": {
+    "type": "image",
+    "data": "images/recipes/naans-nature/source.jpg"
+  },
+  "translations": {
+    "en": {
+      "title": "Plain Naans",
+      "description": "Indian flatbread from Northern India, light and fluffy, cooked in a skillet and brushed with ghee. A staple of Indian restaurants around the world.",
+      "tags": [
+        "skillet",
+        "indian",
+        "vegetarian",
+        "soft",
+        "easy",
+        "to-share",
+        "mild",
+        "budget-friendly",
+        "snack",
+        "batch-cooking"
+      ],
+      "ingredients": [
+        {
+          "items": [
+            "375 g all-purpose flour, sifted",
+            "1 g fresh baker's yeast (or 1 packet of dried yeast)",
+            "1 teaspoon sugar",
+            "5 cl lukewarm water",
+            "1 teaspoon salt",
+            "4 tablespoons plain yogurt",
+            "½ teaspoon baking powder",
+            "5 tablespoons ghee (+ a little more for cooking)"
+          ]
+        }
+      ],
+      "steps": [
+        {
+          "text": "In a bowl, dissolve the yeast and sugar in 5 centilitres of lukewarm water. Add half the flour. Work the dough for 5 minutes until smooth. Cover the bowl with a damp cloth and let the dough rise for 30 minutes."
+        },
+        {
+          "text": "Add to the bowl: the salt, yogurt, baking powder, remaining flour and 5 tablespoons of ghee. Work the dough again for 5 minutes. Let it rest for another 30 minutes."
+        },
+        {
+          "text": "Divide the dough into 4 or 8 portions. Stretch each portion on a floured surface into a triangle shape."
+        },
+        {
+          "text": "Heat a skillet over high heat. Cook each naan for 2 minutes on each side. Brush a little ghee over each naan before serving."
+        }
+      ],
+      "tips": [
+        "The dough needs to rest for 1 hour total: 30 minutes after the first step and 30 minutes after the second.",
+        "Ghee can be replaced with clarified butter or vegetable oil.",
+        "For more flavourful naans, add a little minced garlic or fresh coriander leaves to the dough before the second rise."
+      ]
+    },
+    "it": {
+      "title": "Naan al naturale",
+      "description": "Pane indiano originario del Nord dell'India, leggero e morbido, cotto in padella e spennellato con ghee. Immancabile nei ristoranti indiani di tutto il mondo.",
+      "tags": [
+        "padella",
+        "indiano",
+        "vegetariano",
+        "morbido",
+        "facile",
+        "da-condividere",
+        "delicato",
+        "economico",
+        "spuntino",
+        "batch-cooking"
+      ],
+      "ingredients": [
+        {
+          "items": [
+            "375 g di farina setacciata",
+            "1 g di lievito di birra fresco (oppure 1 bustina di lievito secco)",
+            "1 cucchiaino di zucchero",
+            "5 cl di acqua tiepida",
+            "1 cucchiaino di sale",
+            "4 cucchiai di yogurt naturale",
+            "½ cucchiaino di lievito chimico",
+            "5 cucchiai di ghee (+ un po' per la cottura)"
+          ]
+        }
+      ],
+      "steps": [
+        {
+          "text": "In una ciotola, sciogliere il lievito e lo zucchero in 5 centilitri di acqua tiepida. Aggiungere metà della farina. Lavorare l'impasto per 5 minuti fino a ottenere un composto omogeneo. Coprire la ciotola con un canovaccio umido e lasciare lievitare per 30 minuti."
+        },
+        {
+          "text": "Aggiungere nella ciotola: il sale, lo yogurt, il lievito chimico, il resto della farina e 5 cucchiai di ghee. Lavorare nuovamente l'impasto per 5 minuti. Lasciare riposare per altri 30 minuti."
+        },
+        {
+          "text": "Dividere l'impasto in 4 o 8 parti. Stendere ogni parte su una superficie infarinata dandole la forma di un triangolo."
+        },
+        {
+          "text": "Scaldare una padella a fuoco vivo. Cuocere ogni naan per 2 minuti per lato. Spennellare un po' di ghee su ogni naan prima di servire."
+        }
+      ],
+      "tips": [
+        "L'impasto deve riposare 1 ora in totale: 30 minuti dopo il primo passaggio e 30 minuti dopo il secondo.",
+        "Il ghee può essere sostituito con burro chiarificato o olio vegetale.",
+        "Per dei naan più saporiti, aggiungere un po' di aglio tritato o foglie di coriandolo fresco nell'impasto prima della seconda lievitazione."
+      ]
+    }
+  }
+}
