@@ -3319,5 +3319,67 @@
         ]
       }
     }
+  },
+  {
+    "slug": "naans-nature",
+    "title": "Naans nature",
+    "description": "Pain indien originaire du Nord de l'Inde, léger et moelleux, cuit à la poêle et nappé de ghee. Incontournable des restaurants indiens à travers le monde.",
+    "images": {
+      "cover": "images/recipes/naans-nature/cover.jpg",
+      "web": "images/recipes/naans-nature/web.jpg"
+    },
+    "prepTime": 20,
+    "cookTime": 30,
+    "servings": 4,
+    "difficulty": "Medio",
+    "category": "Pane",
+    "tags": [
+      "poêle",
+      "indien",
+      "végétarien",
+      "moelleux",
+      "facile",
+      "à-partager",
+      "doux",
+      "économique",
+      "snack",
+      "batch-cooking"
+    ],
+    "ingredientCount": 8,
+    "stepCount": 4,
+    "translations": {
+      "en": {
+        "title": "Plain Naans",
+        "description": "Indian flatbread from Northern India, light and fluffy, cooked in a skillet and brushed with ghee. A staple of Indian restaurants around the world.",
+        "tags": [
+          "skillet",
+          "indian",
+          "vegetarian",
+          "soft",
+          "easy",
+          "to-share",
+          "mild",
+          "budget-friendly",
+          "snack",
+          "batch-cooking"
+        ]
+      },
+      "it": {
+        "title": "Naan al naturale",
+        "description": "Pane indiano originario del Nord dell'India, leggero e morbido, cotto in padella e spennellato con ghee. Immancabile nei ristoranti indiani di tutto il mondo.",
+        "tags": [
+          "padella",
+          "indiano",
+          "vegetariano",
+          "morbido",
+          "facile",
+          "da-condividere",
+          "delicato",
+          "economico",
+          "spuntino",
+          "batch-cooking"
+        ]
+      }
+    }
   }
 ]
