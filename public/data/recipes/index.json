@@ -3319,5 +3319,61 @@
         ]
       }
     }
+  },
+  {
+    "slug": "naans-nature",
+    "title": "Naans nature",
+    "description": "Pain levé d'origine indienne, léger et moelleux, cuit à la poêle et généreusement badigeonné de ghee fondu.",
+    "images": {
+      "cover": "images/recipes/naans-nature/cover.jpg",
+      "web": "images/recipes/naans-nature/web.jpg"
+    },
+    "prepTime": 20,
+    "cookTime": 30,
+    "servings": 4,
+    "difficulty": "Medio",
+    "category": "Pane",
+    "tags": [
+      "poêle",
+      "indien",
+      "végétarien",
+      "moelleux",
+      "à-partager",
+      "réconfortant",
+      "économique",
+      "chaud"
+    ],
+    "ingredientCount": 6,
+    "stepCount": 4,
+    "translations": {
+      "en": {
+        "title": "Plain Naans",
+        "description": "Indian leavened bread, light and fluffy, pan-cooked and generously brushed with melted ghee.",
+        "tags": [
+          "pan-fried",
+          "indian",
+          "vegetarian",
+          "soft",
+          "shareable",
+          "comforting",
+          "budget-friendly",
+          "warm"
+        ]
+      },
+      "it": {
+        "title": "Naan semplici",
+        "description": "Pane lievitato indiano, leggero e soffice, cotto in padella e generosamente spennellato con ghee fuso.",
+        "tags": [
+          "padella",
+          "indiano",
+          "vegetariano",
+          "morbido",
+          "da-condividere",
+          "confortante",
+          "economico",
+          "caldo"
+        ]
+      }
+    }
   }
 ]
