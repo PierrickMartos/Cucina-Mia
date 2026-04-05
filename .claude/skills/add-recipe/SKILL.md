@@ -28,7 +28,8 @@ If the user provides recipe content directly (not via issue), treat it as unstru
 
 ## Step 2: Extract Recipe Data
 
-> ⚠️ Do NOT use the Agent tool to fetch or extract recipe content. Read files and fetch URLs inline using the Read tool or WebFetch directly.
+> ⚠️ For **structured issues**, do NOT use the Agent tool — parse the form fields directly.
+> ⚠️ For **unstructured file/URL issues**, you MUST use the parallel 3-agent extraction described below.
 
 ### Storing the Original Source
 
@@ -120,7 +121,7 @@ Single lowercase words or hyphenated compounds only. No accents in tag slugs (us
 3. **Save the original source file** to `public/images/recipes/{slug}/source.{ext}` (preserve the original file extension). This will be referenced in `originalSource.data`.
 4. Check `### Recipe Image` for an optional cover photo
 5. Read any `### Notes` for context (origin, variations, tips)
-6. Extract all recipe info from the file. The content may be in any language.
+6. **Run Parallel 3-Agent Extraction** (see below) on the file content
 7. Generate the slug from the recipe title: lowercase, replace spaces with hyphens, remove accents, keep only `[a-z0-9-]`
 8. Infer missing fields with reasonable defaults:
    - `difficulty`: estimate from technique complexity
@@ -133,9 +134,9 @@ Single lowercase words or hyphenated compounds only. No accents in tag slugs (us
 
 1. Extract the recipe name from `### Recipe Name`
 2. Fetch the webpage from `### Recipe URL` using WebFetch
-3. Extract all recipe info from the page content. The content may be in any language.
-4. Check `### Recipe Image` for an optional cover photo
-5. Read any `### Notes` for context (origin, variations, tips)
+3. Check `### Recipe Image` for an optional cover photo
+4. Read any `### Notes` for context (origin, variations, tips)
+5. **Run Parallel 3-Agent Extraction** (see below) on the fetched page content
 6. Generate the slug from the recipe title: lowercase, replace spaces with hyphens, remove accents, keep only `[a-z0-9-]`
 7. Infer missing fields with reasonable defaults:
    - `difficulty`: estimate from technique complexity
@@ -143,6 +144,78 @@ Single lowercase words or hyphenated compounds only. No accents in tag slugs (us
    - `servings`: default 4 if unclear
    - `category`: infer from dish type
    - `tags`: 5-15 relevant French tags — see **Tag Strategy** above
+
+### Parallel 3-Agent Extraction (for unstructured file and URL issues)
+
+When extracting a recipe from an unstructured source (uploaded file, image, or URL), launch **3 agents in parallel** using the Agent tool. Each agent independently extracts the full recipe data from the same source material. This redundancy catches OCR errors, misreadings, and interpretation differences.
+
+**How to launch the 3 agents:**
+
+Use a single message with 3 Agent tool calls. Each agent receives the same prompt with the source content (file path, image, or fetched webpage text) and must return a JSON object with these fields:
+
+```
+{
+  "title": "...",
+  "description": "...",
+  "ingredients": [{"group": "optional", "items": ["..."]}],
+  "steps": [{"text": "..."}],
+  "tips": ["..."],
+  "prepTime": number,
+  "cookTime": number,
+  "servings": number,
+  "difficulty": "Facile|Medio|Difficile",
+  "category": "...",
+  "source": "..."
+}
+```
+
+**Agent prompt template** (adapt the source reference for file vs URL):
+
+> Extract the complete recipe from the following source material. Return ONLY a JSON object with these fields: title, description, ingredients (array of {group?, items[]}), steps (array of {text}), tips (array of strings, omit if none), prepTime (minutes, integer), cookTime (minutes, integer), servings (integer), difficulty (Facile/Medio/Difficile), category, source. Extract every ingredient and every step — do not summarize or skip. All text should be in the original language of the source. If any field is ambiguous, use your best judgment.
+>
+> Source: [insert file content, image path to read, or fetched URL text]
+
+**Important:** All 3 agents MUST be launched in the same message (parallel tool calls), not sequentially.
+
+### Consensus Assessment (Step 2b)
+
+After all 3 agents return their results, compare them to build a consensus recipe:
+
+1. **Ingredients comparison**: Compare ingredient lists across all 3 extractions.
+   - Normalize for minor wording differences (e.g., "200g butter" vs "200 g of butter" are equivalent)
+   - Flag ingredients that appear in only 1 or 2 of the 3 extractions
+   - Flag ingredients where quantities differ across extractions (e.g., "100g" vs "150g")
+
+2. **Steps comparison**: Compare step lists across all 3 extractions.
+   - Flag steps that appear in only 1 or 2 of the 3 extractions
+   - Flag steps where the order differs significantly
+   - Flag steps where key details differ (temperatures, times, techniques)
+
+3. **Metadata comparison**: Compare title, prepTime, cookTime, servings, difficulty.
+   - Use majority rule (2-of-3 agreement) for each field
+   - Flag fields where all 3 disagree
+
+4. **Build the consensus recipe**:
+   - For each field, use the value that at least 2 agents agree on
+   - If all 3 disagree on a field, use the value from Agent 1 but flag it as uncertain
+   - For ingredients and steps: use the most complete list (longest) as the base, but flag any items not confirmed by at least 2 agents
+
+5. **Generate a discrepancy report** (used in Step 9 and PR comments):
+   - List every discrepancy found, grouped by category:
+     - `🔴 High confidence issue` — all 3 agents disagree on an ingredient quantity or a step detail
+     - `🟡 Medium confidence issue` — 2 agents agree but 1 differs
+     - `🟢 Minor variation` — wording differences only, no semantic impact
+   - Include the specific values from each agent for each discrepancy
+   - If there are **zero discrepancies**, note: "All 3 extraction agents produced consistent results — high confidence extraction."
+
+**If any `🔴 High confidence issues` are found**, print a warning to the user in the terminal output:
+
+```
+⚠️  EXTRACTION DISCREPANCIES DETECTED
+The 3 parallel extraction agents disagreed on the following:
+[list discrepancies]
+The consensus values were used, but please review the flagged items.
+```
 
 ## Step 3: Translate
 
@@ -322,6 +395,57 @@ Summarize:
   - `public/data/recipes/index.json` (updated)
   - `public/images/recipes/{slug}/cover.svg` (new)
 - For unstructured input: note which fields were inferred vs extracted
+- **Extraction confidence** (for unstructured file/URL issues only):
+  - If all 3 agents agreed: "✅ High confidence — all 3 extraction agents produced consistent results"
+  - If discrepancies exist: list them with severity levels (🔴/🟡/🟢)
+
+### PR Comment: Extraction Discrepancy Report
+
+When creating a PR for an **unstructured file/URL recipe** (i.e., one that used the parallel 3-agent extraction), include an extraction confidence section in the PR body AND post a separate PR review comment if there are any 🔴 or 🟡 discrepancies.
+
+**PR body** — always include this section for unstructured recipes:
+
+```markdown
+## Extraction Confidence
+
+[One of the following:]
+
+✅ **High confidence** — all 3 extraction agents produced consistent results.
+
+⚠️ **Discrepancies detected** — the 3 extraction agents disagreed on some items.
+See the review comment below for details.
+```
+
+**PR review comment** — post ONLY if there are 🔴 or 🟡 discrepancies:
+
+```markdown
+## ⚠️ Recipe Extraction Discrepancies
+
+The recipe was extracted from an unstructured source using 3 parallel agents.
+The agents produced **different results** for the items listed below.
+The consensus values (2-of-3 agreement) were used in the final recipe, but a human should verify these.
+
+### Ingredients
+| Item | Agent 1 | Agent 2 | Agent 3 | Consensus | Severity |
+|------|---------|---------|---------|-----------|----------|
+| ... | ... | ... | ... | ... | 🔴/🟡 |
+
+### Steps
+| Step # | Agent 1 | Agent 2 | Agent 3 | Consensus | Severity |
+|--------|---------|---------|---------|-----------|----------|
+| ... | ... | ... | ... | ... | 🔴/🟡 |
+
+### Metadata
+| Field | Agent 1 | Agent 2 | Agent 3 | Consensus | Severity |
+|-------|---------|---------|---------|-----------|----------|
+| ... | ... | ... | ... | ... | 🔴/🟡 |
+
+> **Legend:** 🔴 All 3 agents disagree — 🟡 2 agree, 1 differs — 🟢 Minor wording only (not shown)
+```
+
+Only include the table sections (Ingredients / Steps / Metadata) that actually have discrepancies — omit empty sections.
+
+This review comment helps PR reviewers quickly identify which parts of the recipe may need manual verification against the original source.
 
 ## Edge Cases
 
