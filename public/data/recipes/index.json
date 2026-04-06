@@ -3319,5 +3319,76 @@
         ]
       }
     }
+  },
+  {
+    "slug": "fusilloni-alla-norma",
+    "title": "Fusilloni alla Norma",
+    "description": "L'aubergine fait sa diva dans ce grand classique sicilien : des fusilloni al dente nappés d'une sauce tomate parfumée au basilic, couronnés d'aubergines frites et d'une généreuse pluie de ricotta salée.",
+    "images": {
+      "cover": "images/recipes/fusilloni-alla-norma/cover.jpg",
+      "web": "images/recipes/fusilloni-alla-norma/web.jpg"
+    },
+    "prepTime": 30,
+    "cookTime": 30,
+    "servings": 4,
+    "difficulty": "Facile",
+    "category": "Pasta",
+    "tags": [
+      "pâtes",
+      "aubergine",
+      "fromage",
+      "italien",
+      "sicilien",
+      "méditerranéen",
+      "végétarien",
+      "friture",
+      "plat-principal",
+      "chaud",
+      "réconfortant",
+      "été",
+      "économique"
+    ],
+    "ingredientCount": 8,
+    "stepCount": 5,
+    "translations": {
+      "en": {
+        "title": "Fusilloni alla Norma",
+        "description": "The eggplant takes center stage in this great Sicilian classic: al dente fusilloni coated in a basil-scented tomato sauce, crowned with fried eggplant and a generous shower of ricotta salata.",
+        "tags": [
+          "pasta",
+          "eggplant",
+          "cheese",
+          "italian",
+          "sicilian",
+          "mediterranean",
+          "vegetarian",
+          "fried",
+          "main-course",
+          "hot",
+          "comforting",
+          "summer",
+          "budget-friendly"
+        ]
+      },
+      "it": {
+        "title": "Fusilloni alla Norma",
+        "description": "La melanzana recita da protagonista in questo grande classico siciliano: fusilloni al dente con salsa di pomodoro al basilico, melanzane fritte e una generosa nevicata di ricotta salata.",
+        "tags": [
+          "pasta",
+          "melanzane",
+          "formaggio",
+          "italiano",
+          "siciliano",
+          "mediterraneo",
+          "vegetariano",
+          "fritto",
+          "primo-piatto",
+          "caldo",
+          "confortante",
+          "estate",
+          "economico"
+        ]
+      }
+    }
   }
 ]
