@@ -16,7 +16,7 @@ const CATEGORY_IMAGES: Record<string, string> = {
   Pasta: "images/categories/pasta.jpg",
   Gnocchi: "images/categories/gnocchi.jpg",
   Risotto: "images/categories/risotto.jpg",
-  Insalate: "images/categories/insalate.svg",
+  Insalate: "images/categories/insalate.jpg",
   Secondi: "images/categories/secondi.jpg",
   Pizze: "images/categories/pizza.jpg",
   Pane: "images/categories/focacia.jpg",
