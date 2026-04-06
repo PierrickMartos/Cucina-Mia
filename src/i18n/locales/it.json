@@ -39,6 +39,7 @@
     "ingredients": "Ingredienti",
     "instructions": "Procedimento",
     "tips": "Consiglio del curatore",
+    "history": "La Storia",
     "source": "Fonte",
     "difficulty": "Difficoltà",
     "step": "Passo {{number}}",
