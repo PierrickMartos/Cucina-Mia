@@ -1,0 +1,201 @@
+{
+  "slug": "insalata-panzanella",
+  "title": "Insalata Panzanella",
+  "description": "La célèbre salade toscane d'été au pain rassis, tomates juteuses, concombre croquant, oignon rouge et basilic frais, le tout baigné d'huile d'olive et de vinaigre de vin rouge.",
+  "images": {
+    "cover": "images/recipes/insalata-panzanella/cover.svg",
+    "web": "images/recipes/insalata-panzanella/cover.svg"
+  },
+  "prepTime": 20,
+  "cookTime": 0,
+  "servings": 4,
+  "difficulty": "Facile",
+  "category": "Insalate",
+  "tags": [
+    "salade",
+    "été",
+    "végétarien",
+    "toscan",
+    "pain",
+    "tomates",
+    "basilic",
+    "sans-cuisson",
+    "léger",
+    "froid"
+  ],
+  "ingredients": [
+    {
+      "items": [
+        "300g de pain toscan rassis (ou ciabatta)",
+        "500g de tomates mûres et juteuses",
+        "1 concombre",
+        "1 oignon rouge moyen",
+        "1 bouquet de basilic frais",
+        "100ml d'huile d'olive extra vierge",
+        "3 cuillères à soupe de vinaigre de vin rouge",
+        "Sel et poivre noir q.s.",
+        "1 cuillère à soupe de câpres (facultatif)"
+      ]
+    }
+  ],
+  "steps": [
+    {
+      "text": "Couper le pain rassis en morceaux de 2-3 cm. Le tremper brièvement dans de l'eau froide, puis bien l'essorer avec les mains pour enlever l'excès d'eau."
+    },
+    {
+      "text": "Couper les tomates en morceaux. Les saler légèrement et les laisser reposer 10 minutes dans une passoire au-dessus d'un bol pour récupérer le jus."
+    },
+    {
+      "text": "Émincer finement l'oignon rouge. Le faire tremper dans de l'eau froide avec un peu de vinaigre pendant 10 minutes pour adoucir son goût, puis égoutter."
+    },
+    {
+      "text": "Éplucher et couper le concombre en rondelles ou en demi-lunes."
+    },
+    {
+      "text": "Dans un grand saladier, mélanger le pain essoré, les tomates, le concombre et l'oignon rouge."
+    },
+    {
+      "text": "Arroser généreusement d'huile d'olive extra vierge et de vinaigre de vin rouge. Ajouter le jus de tomate récupéré. Saler et poivrer."
+    },
+    {
+      "text": "Mélanger délicatement et laisser reposer au réfrigérateur 30 minutes minimum pour que le pain absorbe toutes les saveurs."
+    },
+    {
+      "text": "Au moment de servir, déchirer les feuilles de basilic frais et les parsemer sur la salade. Ajouter les câpres si désiré."
+    }
+  ],
+  "tips": [
+    "Le pain doit être vraiment rassis (1-2 jours), pas simplement sec. C'est la clé d'une bonne panzanella.",
+    "Utilisez les meilleures tomates que vous pouvez trouver — en plein été, les tomates cœur de bœuf sont parfaites.",
+    "Ne mettez le basilic qu'au dernier moment pour préserver sa fraîcheur et son parfum.",
+    "Cette salade est encore meilleure après avoir reposé 1 heure au réfrigérateur."
+  ],
+  "translations": {
+    "en": {
+      "title": "Panzanella Salad",
+      "description": "The famous Tuscan summer salad with stale bread, juicy tomatoes, crunchy cucumber, red onion and fresh basil, all dressed in extra virgin olive oil and red wine vinegar.",
+      "tags": [
+        "salad",
+        "summer",
+        "vegetarian",
+        "tuscan",
+        "bread",
+        "tomatoes",
+        "basil",
+        "no-cook",
+        "light",
+        "cold"
+      ],
+      "ingredients": [
+        {
+          "items": [
+            "300g stale Tuscan bread (or ciabatta)",
+            "500g ripe, juicy tomatoes",
+            "1 cucumber",
+            "1 medium red onion",
+            "1 bunch of fresh basil",
+            "100ml extra virgin olive oil",
+            "3 tablespoons red wine vinegar",
+            "Salt and black pepper to taste",
+            "1 tablespoon capers (optional)"
+          ]
+        }
+      ],
+      "steps": [
+        {
+          "text": "Cut the stale bread into 2-3 cm pieces. Briefly soak in cold water, then squeeze well with your hands to remove excess water."
+        },
+        {
+          "text": "Cut the tomatoes into pieces. Lightly salt them and let rest for 10 minutes in a colander over a bowl to collect the juices."
+        },
+        {
+          "text": "Thinly slice the red onion. Soak in cold water with a splash of vinegar for 10 minutes to mellow the flavor, then drain."
+        },
+        {
+          "text": "Peel and slice the cucumber into rounds or half-moons."
+        },
+        {
+          "text": "In a large salad bowl, combine the squeezed bread, tomatoes, cucumber, and red onion."
+        },
+        {
+          "text": "Generously drizzle with extra virgin olive oil and red wine vinegar. Add the reserved tomato juice. Season with salt and pepper."
+        },
+        {
+          "text": "Gently toss and refrigerate for at least 30 minutes so the bread absorbs all the flavors."
+        },
+        {
+          "text": "Just before serving, tear fresh basil leaves and scatter over the salad. Add capers if desired."
+        }
+      ],
+      "tips": [
+        "The bread must be truly stale (1-2 days old), not just dry. This is the key to a great panzanella.",
+        "Use the best tomatoes you can find — in summer, beefsteak tomatoes are perfect.",
+        "Only add the basil at the last moment to preserve its freshness and aroma.",
+        "This salad is even better after resting in the fridge for 1 hour."
+      ]
+    },
+    "it": {
+      "title": "Insalata Panzanella",
+      "description": "La famosa insalata estiva toscana con pane raffermo, pomodori succosi, cetriolo croccante, cipolla rossa e basilico fresco, il tutto condito con olio extravergine d'oliva e aceto di vino rosso.",
+      "tags": [
+        "insalata",
+        "estate",
+        "vegetariano",
+        "toscano",
+        "pane",
+        "pomodori",
+        "basilico",
+        "senza-cottura",
+        "leggero",
+        "freddo"
+      ],
+      "ingredients": [
+        {
+          "items": [
+            "300g di pane toscano raffermo (o ciabatta)",
+            "500g di pomodori maturi e succosi",
+            "1 cetriolo",
+            "1 cipolla rossa media",
+            "1 mazzetto di basilico fresco",
+            "100ml di olio extravergine d'oliva",
+            "3 cucchiai di aceto di vino rosso",
+            "Sale e pepe nero q.b.",
+            "1 cucchiaio di capperi (facoltativo)"
+          ]
+        }
+      ],
+      "steps": [
+        {
+          "text": "Tagliare il pane raffermo a pezzi di 2-3 cm. Immergerlo brevemente in acqua fredda, poi strizzarlo bene con le mani per eliminare l'acqua in eccesso."
+        },
+        {
+          "text": "Tagliare i pomodori a pezzi. Salarli leggermente e lasciarli riposare 10 minuti in un colino sopra una ciotola per raccogliere il succo."
+        },
+        {
+          "text": "Affettare finemente la cipolla rossa. Metterla a bagno in acqua fredda con un po' di aceto per 10 minuti per addolcirne il sapore, poi scolarla."
+        },
+        {
+          "text": "Sbucciare e tagliare il cetriolo a rondelle o mezze lune."
+        },
+        {
+          "text": "In una grande insalatiera, mescolare il pane strizzato, i pomodori, il cetriolo e la cipolla rossa."
+        },
+        {
+          "text": "Condire generosamente con olio extravergine d'oliva e aceto di vino rosso. Aggiungere il succo di pomodoro recuperato. Salare e pepare."
+        },
+        {
+          "text": "Mescolare delicatamente e lasciare riposare in frigorifero per almeno 30 minuti affinché il pane assorba tutti i sapori."
+        },
+        {
+          "text": "Al momento di servire, spezzettare le foglie di basilico fresco e spargerle sull'insalata. Aggiungere i capperi se desiderato."
+        }
+      ],
+      "tips": [
+        "Il pane deve essere davvero raffermo (1-2 giorni), non semplicemente secco. Questa è la chiave di una buona panzanella.",
+        "Usate i migliori pomodori che trovate — in piena estate, i cuore di bue sono perfetti.",
+        "Aggiungete il basilico solo all'ultimo momento per preservarne la freschezza e il profumo.",
+        "Questa insalata è ancora più buona dopo aver riposato 1 ora in frigorifero."
+      ]
+    }
+  }
+}
