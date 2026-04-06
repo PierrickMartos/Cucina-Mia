@@ -1,0 +1,210 @@
+{
+  "slug": "lentilles-corail-garam-massala",
+  "title": "Lentilles Corail au Garam Massala Façon Risotto",
+  "description": "Des lentilles corail et poulet mariné au lait de coco cuisinés façon risotto avec du garam massala — un plat épicé et parfumé.",
+  "images": {
+    "cover": "images/recipes/lentilles-corail-garam-massala/cover.jpg",
+    "web": "images/recipes/lentilles-corail-garam-massala/web.jpg"
+  },
+  "imageCredit": {
+    "name": "joannawielgosz",
+    "url": "https://pixabay.com/users/joannawielgosz-18149746/",
+    "source": "Pixabay",
+    "pageURL": "https://pixabay.com/photos/curry-food-dish-meal-cuisine-7249247/"
+  },
+  "prepTime": 10,
+  "cookTime": 45,
+  "servings": 4,
+  "difficulty": "Facile",
+  "category": "Risotto",
+  "tags": [
+    "lentilles",
+    "poulet",
+    "indien",
+    "épicé",
+    "garam-massala",
+    "curry",
+    "réconfortant",
+    "plat-principal",
+    "sans-gluten",
+    "automne"
+  ],
+  "ingredients": [
+    {
+      "items": [
+        "200g de lentilles corail",
+        "4 blancs de poulet",
+        "40 cl de lait de coco",
+        "4 c.à.s de garam massala",
+        "2 poivrons verts",
+        "1 oignon",
+        "20 cl de bière ambrée",
+        "1 L de bouillon de légumes chaud",
+        "100g de parmesan râpé",
+        "90g de matière grasse (beurre ou huile)",
+        "Sel, poivre"
+      ]
+    }
+  ],
+  "steps": [
+    {
+      "text": "Faire mariner les blancs de poulet dans le lait de coco avec le garam massala idéalement la veille, sinon 2h avant."
+    },
+    {
+      "text": "Émincer le poulet égoutté et réserver la marinade. Dans une sauteuse avec 30g de matière grasse, faire griller le poulet pour obtenir un effiloché. Réserver."
+    },
+    {
+      "text": "Épépiner et couper les poivrons en petits dés. Les faire revenir dans 15g de matière grasse. Réserver."
+    },
+    {
+      "text": "Peler et émincer l'oignon. Dans la même sauteuse avec le reste de matière grasse, faire revenir l'oignon, ajouter les lentilles et mouiller avec la bière."
+    },
+    {
+      "text": "Dès que la bière est évaporée, verser le bouillon en plusieurs fois jusqu'à ce que les lentilles soient cuites (environ 30 min). Ne cesser de remuer. À mi-cuisson, ajouter l'effiloché de poulet. 5 min avant la fin, ajouter les poivrons."
+    },
+    {
+      "text": "Au moment de la dernière louche de bouillon, la remplacer par la marinade au lait de coco."
+    },
+    {
+      "text": "Une fois les lentilles cuites, ajouter le parmesan. Couvrir et laisser reposer 2 minutes. Remuer et rectifier l'assaisonnement."
+    },
+    {
+      "text": "Déguster sans attendre."
+    }
+  ],
+  "tips": [
+    "Pour un effiloché réussi, faites cuire le poulet à feu vif et émiettez-le à la fourchette en fin de cuisson.",
+    "Les lentilles corail cuisent rapidement — ne les quittez pas des yeux et remuez constamment pour éviter qu'elles attachent.",
+    "La marinade au lait de coco en fin de cuisson apporte une onctuosité et une douceur qui équilibre le piquant du garam massala."
+  ],
+  "translations": {
+    "en": {
+      "title": "Red Lentils with Garam Masala Risotto-Style",
+      "description": "Red lentils and coconut-marinated chicken cooked risotto-style with garam masala — a spiced, aromatic one-pot dish.",
+      "tags": [
+        "lentils",
+        "chicken",
+        "indian",
+        "spiced",
+        "garam-masala",
+        "curry",
+        "comforting",
+        "main-course",
+        "gluten-free",
+        "autumn"
+      ],
+      "ingredients": [
+        {
+          "items": [
+            "200g red lentils",
+            "4 chicken breasts",
+            "400ml coconut milk",
+            "4 tbsp garam masala",
+            "2 green bell peppers",
+            "1 onion",
+            "200ml amber beer",
+            "1 L hot vegetable stock",
+            "100g grated parmesan",
+            "90g fat (butter or oil)",
+            "Salt, pepper"
+          ]
+        }
+      ],
+      "steps": [
+        {
+          "text": "Marinate the chicken breasts in coconut milk with garam masala, ideally overnight or at least 2 hours before cooking."
+        },
+        {
+          "text": "Slice the drained chicken and set aside the marinade. In a sauté pan with 30g of fat, grill the chicken until shredded. Set aside."
+        },
+        {
+          "text": "Deseed and dice the peppers into small cubes. Sauté in 15g of fat. Set aside."
+        },
+        {
+          "text": "Peel and slice the onion. In the same pan with the remaining fat, sauté the onion, add the lentils and deglaze with the beer."
+        },
+        {
+          "text": "Once the beer has evaporated, add the stock in several additions until the lentils are cooked (about 30 min), stirring constantly. Halfway through, add the shredded chicken. 5 minutes before the end, add the peppers."
+        },
+        {
+          "text": "For the last ladle of stock, replace it with the coconut milk marinade."
+        },
+        {
+          "text": "Once the lentils are cooked, add the parmesan. Cover and let rest for 2 minutes. Stir and adjust seasoning."
+        },
+        {
+          "text": "Serve immediately."
+        }
+      ],
+      "tips": [
+        "For the best shredded chicken, cook over high heat and pull apart with a fork at the end.",
+        "Red lentils cook quickly — keep a close eye and stir constantly to prevent sticking.",
+        "Adding the coconut milk marinade at the end brings creaminess and sweetness that balances the garam masala heat."
+      ]
+    },
+    "it": {
+      "title": "Lenticchie Rosse al Garam Masala in Stile Risotto",
+      "description": "Lenticchie rosse e pollo marinato nel latte di cocco cotti in stile risotto con garam masala — un piatto speziato e aromatico.",
+      "tags": [
+        "lenticchie",
+        "pollo",
+        "indiano",
+        "speziato",
+        "garam-masala",
+        "curry",
+        "confortante",
+        "piatto-principale",
+        "senza-glutine",
+        "autunno"
+      ],
+      "ingredients": [
+        {
+          "items": [
+            "200g di lenticchie rosse",
+            "4 petti di pollo",
+            "400ml di latte di cocco",
+            "4 cucchiai di garam masala",
+            "2 peperoni verdi",
+            "1 cipolla",
+            "200ml di birra ambrata",
+            "1 L di brodo vegetale caldo",
+            "100g di parmigiano grattugiato",
+            "90g di materia grassa (burro o olio)",
+            "Sale, pepe"
+          ]
+        }
+      ],
+      "steps": [
+        {
+          "text": "Mettere a marinare i petti di pollo nel latte di cocco con il garam masala, idealmente la sera prima o almeno 2 ore prima."
+        },
+        {
+          "text": "Affettare il pollo scolato e mettere da parte la marinatura. In una padella con 30g di materia grassa, grigliare il pollo fino a sfilacciarlo. Mettere da parte."
+        },
+        {
+          "text": "Togliere i semi ai peperoni e tagliarli a dadini piccoli. Farli saltare in 15g di materia grassa. Mettere da parte."
+        },
+        {
+          "text": "Sbucciare e affettare la cipolla. Nella stessa padella con la materia grassa rimasta, far soffriggere la cipolla, aggiungere le lenticchie e sfumare con la birra."
+        },
+        {
+          "text": "Quando la birra è evaporata, versare il brodo in più riprese fino a quando le lenticchie sono cotte (circa 30 min), mescolando costantemente. A metà cottura aggiungere il pollo sfilacciato. 5 minuti prima della fine, aggiungere i peperoni."
+        },
+        {
+          "text": "Per l'ultimo mestolo di brodo, sostituirlo con la marinatura al latte di cocco."
+        },
+        {
+          "text": "Una volta cotte le lenticchie, aggiungere il parmigiano. Coprire e lasciare riposare 2 minuti. Mescolare e aggiustare di sale."
+        },
+        {
+          "text": "Gustare senza aspettare."
+        }
+      ],
+      "tips": [
+        "Per un buon sfilacciato, cuocere il pollo a fuoco alto e sfilacciarlo con una forchetta a fine cottura.",
+        "Le lenticchie rosse cuociono velocemente — tenetele d'occhio e mescolate costantemente per evitare che si attacchino.",
+        "Aggiungere la marinatura al latte di cocco alla fine porta cremosità e dolcezza che bilancia il piccante del garam masala."
+      ]
+    }
+  }
+}
