@@ -3,8 +3,8 @@
   "title": "Insalata Panzanella",
   "description": "La célèbre salade toscane d'été au pain rassis, tomates juteuses, concombre croquant, oignon rouge et basilic frais, le tout baigné d'huile d'olive et de vinaigre de vin rouge.",
   "images": {
-    "cover": "images/recipes/insalata-panzanella/cover.svg",
-    "web": "images/recipes/insalata-panzanella/cover.svg"
+    "cover": "images/recipes/insalata-panzanella/cover.jpg",
+    "web": "images/recipes/insalata-panzanella/cover.jpg"
   },
   "prepTime": 20,
   "cookTime": 0,
