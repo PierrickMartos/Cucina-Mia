@@ -78,6 +78,7 @@ Parse the issue body. Each field appears as `### Field Name` followed by the val
 | Ingredients | `ingredients` | See below |
 | Steps | `steps` | One per line -> `{"text": "..."}` |
 | Tips | `tips` | One per line, omit field if empty |
+| History | `history` | Optional anecdote or story about the recipe, omit field if empty |
 | Source | `source` | Omit field if empty |
 | Cover Image | (for images) | If present, download and use as recipe cover |
 
@@ -323,7 +324,8 @@ Whatever language the source content is in, translate it to all three languages.
     "tags": ["oven", "winter", "kids", "easy"],
     "ingredients": [{"items": ["ingredient in English"]}],
     "steps": [{"text": "Step in English"}],
-    "tips": ["Tip in English"]
+    "tips": ["Tip in English"],
+    "history": "History in English"
   },
   "it": {
     "title": "Italian title",
@@ -331,7 +333,8 @@ Whatever language the source content is in, translate it to all three languages.
     "tags": ["forno", "inverno", "bambini", "facile"],
     "ingredients": [{"items": ["ingredient in Italian"]}],
     "steps": [{"text": "Step in Italian"}],
-    "tips": ["Tip in Italian"]
+    "tips": ["Tip in Italian"],
+    "history": "History in Italian"
   }
 }
 ```
@@ -359,7 +362,7 @@ Before writing files, check:
 3. **Required fields**: slug, title, description, prepTime, cookTime, servings, difficulty, category, tags (non-empty), ingredients (at least one item), steps (at least one)
 4. **Enums**: difficulty is "Facile"|"Medio"|"Difficile"; category is a known value
 5. **Numbers**: prepTime, cookTime, servings are non-negative integers
-6. **Translations**: both `en` and `it` translations are present with title, description, tags, ingredients, steps, and tips (if tips exist in base)
+6. **Translations**: both `en` and `it` translations are present with title, description, tags, ingredients, steps, tips (if tips exist in base), and history (if history exists in base)
 
 ## Step 5: Write the Recipe Detail JSON
 
@@ -383,6 +386,7 @@ Key rules:
   ```
   Use the `user` field from the Pixabay hit for `name`, and `userImageURL` or construct the URL as `https://pixabay.com/users/{user}-{user_id}/`. Omit `imageCredit` entirely when using an SVG illustration or an uploaded image without attribution.
 - Omit `tips` entirely if none (no empty array)
+- Omit `history` entirely if none (no empty string)
 - Omit `source` entirely if none (no empty string)
 - Include `originalSource` with `type` and `data` — see **Storing the Original Source** above. Place it after `source`, before `translations`.
 - Omit `group` from ingredient objects when there's no group

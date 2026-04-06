@@ -39,6 +39,7 @@
     "ingredients": "Ingredients",
     "instructions": "Instructions",
     "tips": "Curator's Tip",
+    "history": "The Story",
     "source": "Source",
     "difficulty": "Difficulty",
     "step": "Step {{number}}",

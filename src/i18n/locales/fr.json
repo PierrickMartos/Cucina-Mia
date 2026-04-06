@@ -39,6 +39,7 @@
     "ingredients": "Ingrédients",
     "instructions": "Préparation",
     "tips": "Conseils",
+    "history": "Histoire",
     "source": "Source",
     "difficulty": "Difficulté",
     "step": "Etape {{number}}",

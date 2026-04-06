@@ -27,6 +27,7 @@ const TranslationSchema = z.object({
   ingredients: z.array(IngredientGroupSchema).optional(),
   steps: z.array(StepSchema).optional(),
   tips: z.array(z.string()).optional(),
+  history: z.string().optional(),
 })
 
 export const RecipeSummarySchema = z.object({
@@ -66,6 +67,7 @@ export const RecipeDetailSchema = RecipeSummarySchema.extend({
   ingredients: z.array(IngredientGroupSchema).min(1),
   steps: z.array(StepSchema).min(1),
   tips: z.array(z.string()).optional(),
+  history: z.string().optional(),
   source: z.string().optional(),
   originalSource: RecipeOriginalSourceSchema.optional(),
   translations: z.record(z.string(), TranslationSchema).optional(),
