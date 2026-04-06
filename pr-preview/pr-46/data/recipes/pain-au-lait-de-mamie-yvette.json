@@ -1,0 +1,229 @@
+{
+  "slug": "pain-au-lait-de-mamie-yvette",
+  "title": "Pain au lait de Mamie Yvette",
+  "description": "Les petits pains au lait moelleux et légèrement sucrés de Mamie Yvette, dont le secret réside dans les blancs montés en neige pour une mie particulièrement légère et aérienne.",
+  "images": {
+    "cover": "images/recipes/pain-au-lait-de-mamie-yvette/cover.jpg",
+    "web": "images/recipes/pain-au-lait-de-mamie-yvette/web.jpg"
+  },
+  "imageCredit": {
+    "author": "RitaE",
+    "url": "https://pixabay.com/users/ritae-19628/"
+  },
+  "origin": "pierrick-grandma",
+  "prepTime": 30,
+  "cookTime": 20,
+  "servings": 12,
+  "difficulty": "Facile",
+  "category": "Pane",
+  "tags": [
+    "four",
+    "végétarien",
+    "moelleux",
+    "petit-déjeuner",
+    "goûter",
+    "enfants",
+    "toute-la-famille",
+    "réconfortant",
+    "nostalgique",
+    "français",
+    "se-congèle",
+    "facile"
+  ],
+  "ingredients": [
+    {
+      "items": [
+        "600 g de farine",
+        "100 g de beurre",
+        "3 œufs",
+        "8 cuillères à soupe de sucre",
+        "2 cuillères à café de sel",
+        "2 verres de lait (environ 400 ml)",
+        "½ cube de levure de boulanger fraîche (environ 20 g)"
+      ]
+    }
+  ],
+  "steps": [
+    {
+      "text": "Émietter la levure dans un peu d'eau tiède avec une pincée de sucre. Laisser activer 10 minutes jusqu'à ce qu'elle mousse."
+    },
+    {
+      "text": "Faire fondre le beurre avec le lait dans une casserole à feu doux. Laisser tiédir jusqu'à ce que le mélange soit à peine tiède au toucher."
+    },
+    {
+      "text": "Verser la farine dans un grand saladier et creuser un puits. Ajouter le sel et le sucre."
+    },
+    {
+      "text": "Séparer les blancs des jaunes d'œufs. Incorporer les jaunes, le mélange lait-beurre tiédi et la levure dans le puits de farine. Mélanger jusqu'à obtenir une pâte homogène."
+    },
+    {
+      "text": "Battre les blancs en neige ferme et les incorporer délicatement à la pâte — c'est le secret de Mamie Yvette pour une mie légère et aérienne."
+    },
+    {
+      "text": "Pétrir la pâte sur un plan légèrement fariné pendant 8 à 10 minutes. Elle doit rester souple et légèrement collante ; éviter d'ajouter trop de farine."
+    },
+    {
+      "text": "Couvrir d'un torchon propre et laisser lever à température ambiante 1 heure à 1h30, jusqu'à ce que la pâte double de volume."
+    },
+    {
+      "text": "Préchauffer le four à 180 °C. Dégazer la pâte et façonner des petits pains à sa fantaisie : boules, navettes, tresses…"
+    },
+    {
+      "text": "Disposer sur une plaque garnie de papier cuisson. Laisser reposer encore 15 minutes, puis dorer la surface avec un peu de lait."
+    },
+    {
+      "text": "Enfourner 15 à 20 minutes jusqu'à ce que les pains soient bien dorés. Déguster tièdes avec du beurre."
+    }
+  ],
+  "history": "Notre grand-mère Yvette nous préparait ses petits pains tout chaud pour le réveil quand on dormait chez elle, ou bien pour le goûter. Avec un peu de confiture ou du Nutella, on en raffolait !",
+  "source": "Mamie Yvette",
+  "originalSource": {
+    "type": "image",
+    "data": "images/recipes/pain-au-lait-de-mamie-yvette/source.jpg"
+  },
+  "tips": [
+    "Séparer les blancs et les monter en neige avant de les incorporer : c'est le secret de Mamie pour des pains au lait plus légers et aériens.",
+    "Résistez à la tentation d'ajouter trop de farine lors du pétrissage : une pâte légèrement collante donne un résultat plus moelleux.",
+    "Ces pains se congèlent très bien ; réchauffez-les 5 minutes dans un four à 150 °C."
+  ],
+  "translations": {
+    "en": {
+      "title": "Grandma Yvette's Milk Rolls",
+      "description": "Soft, lightly sweetened milk rolls from Grandma Yvette, whose secret is folding in whipped egg whites for an exceptionally light and airy crumb.",
+      "tags": [
+        "oven",
+        "vegetarian",
+        "soft",
+        "breakfast",
+        "snack",
+        "kids",
+        "family",
+        "comforting",
+        "nostalgic",
+        "french",
+        "freezer-friendly",
+        "easy"
+      ],
+      "ingredients": [
+        {
+          "items": [
+            "600 g flour",
+            "100 g butter",
+            "3 eggs",
+            "8 tablespoons sugar",
+            "2 teaspoons salt",
+            "2 glasses of milk (about 400 ml)",
+            "½ cube fresh baker's yeast (about 20 g)"
+          ]
+        }
+      ],
+      "steps": [
+        {
+          "text": "Crumble the yeast into a little warm water with a pinch of sugar. Let it activate for 10 minutes until it froths."
+        },
+        {
+          "text": "Melt the butter with the milk in a saucepan over low heat. Let it cool until just barely warm to the touch."
+        },
+        {
+          "text": "Pour the flour into a large bowl and make a well in the centre. Add the salt and sugar."
+        },
+        {
+          "text": "Separate the egg whites from the yolks. Add the yolks, the lukewarm milk-butter mixture and the yeast into the well. Mix until a smooth dough forms."
+        },
+        {
+          "text": "Beat the egg whites to stiff peaks and fold them gently into the dough — this is Grandma Yvette's secret for a light and airy crumb."
+        },
+        {
+          "text": "Knead the dough on a lightly floured surface for 8 to 10 minutes. It should stay soft and slightly tacky; avoid adding too much flour."
+        },
+        {
+          "text": "Cover with a clean cloth and leave to rise at room temperature for 1 to 1.5 hours, until doubled in size."
+        },
+        {
+          "text": "Preheat the oven to 180 °C. Punch down the dough and shape the rolls however you like: balls, ovals, braids…"
+        },
+        {
+          "text": "Place on a baking sheet lined with parchment paper. Rest for another 15 minutes, then brush the tops with a little milk."
+        },
+        {
+          "text": "Bake for 15 to 20 minutes until golden. Enjoy warm with butter."
+        }
+      ],
+      "tips": [
+        "Separating the whites and whipping them to stiff peaks before folding in is Grandma's secret for exceptionally light and airy milk rolls.",
+        "Resist the urge to add too much flour when kneading: a slightly tacky dough gives a softer result.",
+        "These rolls freeze beautifully; reheat them for 5 minutes in a 150 °C oven."
+      ],
+      "history": "Our grandmother Yvette would bake her warm little rolls fresh for us when we woke up after sleeping over at her house, or for afternoon snack time. With a bit of jam or Nutella, we absolutely loved them!"
+    },
+    "it": {
+      "title": "Panini al Latte della Nonna Yvette",
+      "description": "Soffici panini al latte leggermente dolci della nonna Yvette, il cui segreto è incorporare gli albumi montati a neve per una mollica particolarmente leggera e ariosa.",
+      "tags": [
+        "forno",
+        "vegetariano",
+        "morbido",
+        "colazione",
+        "merenda",
+        "bambini",
+        "famiglia",
+        "confortante",
+        "nostalgico",
+        "francese",
+        "si-congela",
+        "facile"
+      ],
+      "ingredients": [
+        {
+          "items": [
+            "600 g di farina",
+            "100 g di burro",
+            "3 uova",
+            "8 cucchiai di zucchero",
+            "2 cucchiaini di sale",
+            "2 bicchieri di latte (circa 400 ml)",
+            "½ cubetto di lievito di birra fresco (circa 20 g)"
+          ]
+        }
+      ],
+      "steps": [
+        {
+          "text": "Sbriciolare il lievito in un po' d'acqua tiepida con un pizzico di zucchero. Lasciare attivare 10 minuti finché non fa schiuma."
+        },
+        {
+          "text": "Sciogliere il burro con il latte in un pentolino a fuoco basso. Lasciare intiepidire finché il composto è appena tiepido al tatto."
+        },
+        {
+          "text": "Versare la farina in una grande ciotola e fare un buco al centro. Aggiungere il sale e lo zucchero."
+        },
+        {
+          "text": "Separare gli albumi dai tuorli. Aggiungere i tuorli, il composto di latte e burro intiepidito e il lievito nel buco della farina. Mescolare fino ad ottenere un impasto omogeneo."
+        },
+        {
+          "text": "Montare gli albumi a neve ferma e incorporarli delicatamente nell'impasto — è il segreto della nonna Yvette per una mollica leggera e ariosa."
+        },
+        {
+          "text": "Lavorare l'impasto su un piano leggermente infarinato per 8-10 minuti. Deve rimanere morbido e leggermente appiccicoso; evitare di aggiungere troppa farina."
+        },
+        {
+          "text": "Coprire con un canovaccio pulito e lasciare lievitare a temperatura ambiente per 1 ora - 1 ora e mezza, fino al raddoppio del volume."
+        },
+        {
+          "text": "Preriscaldare il forno a 180 °C. Sgonfiare l'impasto e formare i panini a piacere: palline, navette, trecce…"
+        },
+        {
+          "text": "Disporre su una teglia rivestita di carta forno. Lasciare riposare ancora 15 minuti, poi lucidare la superficie con un po' di latte."
+        },
+        {
+          "text": "Infornare per 15-20 minuti fino a doratura. Gustare tiepidi con il burro."
+        }
+      ],
+      "tips": [
+        "Separare gli albumi e montarli a neve prima di incorporarli: è il segreto della nonna per panini al latte più leggeri e ariosi.",
+        "Resistete alla tentazione di aggiungere troppa farina durante la lavorazione: un impasto leggermente appiccicoso dà un risultato più morbido.",
+        "Questi panini si congelano molto bene; riscaldateli 5 minuti in forno a 150 °C."
+      ],
+      "history": "La nostra nonna Yvette ci preparava i suoi panini caldi appena svegli quando dormivamo da lei, oppure per la merenda. Con un po' di marmellata o di Nutella, ne andavamo matti!"
+    }
+  }
+}

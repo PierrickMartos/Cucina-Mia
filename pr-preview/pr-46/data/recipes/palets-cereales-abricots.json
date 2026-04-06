@@ -1,0 +1,127 @@
+{
+  "slug": "palets-cereales-abricots",
+  "title": "Palets aux céréales et abricots",
+  "description": "Biscuits énergétiques aux flocons d'avoine, amandes, noisettes, abricots secs et baies de goji, sans lactose et sans sucre ajouté.",
+  "images": {
+    "cover": "images/recipes/palets-cereales-abricots/cover.jpg",
+    "web": "images/recipes/palets-cereales-abricots/web.jpg"
+  },
+  "imageCredit": {
+    "author": "xivic",
+    "url": "https://pixabay.com/users/xivic-17718239/"
+  },
+  "prepTime": 10,
+  "cookTime": 15,
+  "servings": 12,
+  "difficulty": "Facile",
+  "category": "Breakfast",
+  "tags": [
+    "petit-déjeuner",
+    "sans-lactose",
+    "végétarien",
+    "sans-sucre",
+    "léger",
+    "goûter",
+    "rapide",
+    "riche-en-fibres",
+    "équilibré",
+    "four"
+  ],
+  "ingredients": [
+    {
+      "items": [
+        "35 g de flocons d'avoine",
+        "35 g de son d'avoine",
+        "20 g d'amandes",
+        "20 g de noisettes",
+        "3 abricots moelleux secs",
+        "10 g de baies de goji",
+        "20 g de graines de courge",
+        "50 g de compote de pomme sans sucre ajouté",
+        "10 g d'huile d'olive"
+      ]
+    }
+  ],
+  "steps": [
+    {
+      "text": "Mixez grossièrement les flocons et le son d'avoine, les amandes, les noisettes, les abricots secs et les baies de goji."
+    },
+    {
+      "text": "Ajoutez les graines de courge, la compote et l'huile, puis mélangez avec une cuillère en tassant."
+    },
+    {
+      "text": "Tassez la pâte dans des moules à mini-tartelettes en silicone. Enfournez pour 15 min à 180 °C."
+    }
+  ],
+  "tips": [
+    "L'abricot sec et les baies de goji affichent un IG bas, mais attention, leur charge glycémique est élevée, donc à utiliser en petite quantité."
+  ],
+  "translations": {
+    "en": {
+      "description": "Energy biscuits made with oat flakes, almonds, hazelnuts, dried apricots and goji berries, lactose-free and with no added sugar.",
+      "tags": ["breakfast", "dairy-free", "vegetarian", "sugar-free", "light", "snack", "quick", "high-fiber", "balanced", "oven"],
+      "ingredients": [
+        {
+          "items": [
+            "35 g oat flakes",
+            "35 g oat bran",
+            "20 g almonds",
+            "20 g hazelnuts",
+            "3 soft dried apricots",
+            "10 g goji berries",
+            "20 g pumpkin seeds",
+            "50 g unsweetened apple compote",
+            "10 g olive oil"
+          ]
+        }
+      ],
+      "steps": [
+        {
+          "text": "Roughly blend the oat flakes and oat bran with the almonds, hazelnuts, dried apricots and goji berries."
+        },
+        {
+          "text": "Add the pumpkin seeds, apple compote and oil, then mix with a spoon, pressing down firmly."
+        },
+        {
+          "text": "Press the dough into silicone mini-tartlet moulds. Bake for 15 min at 180 °C."
+        }
+      ],
+      "tips": [
+        "Dried apricots and goji berries have a low GI, but watch out — their glycaemic load is high, so use them in small quantities."
+      ]
+    },
+    "it": {
+      "description": "Biscotti energetici con fiocchi d'avena, mandorle, nocciole, albicocche secche e bacche di goji, senza lattosio e senza zuccheri aggiunti.",
+      "tags": ["colazione", "senza-lattosio", "vegetariano", "senza-zucchero", "leggero", "merenda", "veloce", "ricco-di-fibre", "equilibrato", "forno"],
+      "ingredients": [
+        {
+          "items": [
+            "35 g di fiocchi d'avena",
+            "35 g di crusca d'avena",
+            "20 g di mandorle",
+            "20 g di nocciole",
+            "3 albicocche secche morbide",
+            "10 g di bacche di goji",
+            "20 g di semi di zucca",
+            "50 g di composta di mele senza zuccheri aggiunti",
+            "10 g di olio d'oliva"
+          ]
+        }
+      ],
+      "steps": [
+        {
+          "text": "Frullate grossolanamente i fiocchi e la crusca d'avena con le mandorle, le nocciole, le albicocche secche e le bacche di goji."
+        },
+        {
+          "text": "Aggiungete i semi di zucca, la composta e l'olio, poi mescolate con un cucchiaio premendo bene."
+        },
+        {
+          "text": "Pressate l'impasto negli stampini di silicone per mini-crostatine. Infornate per 15 min a 180 °C."
+        }
+      ],
+      "tips": [
+        "Le albicocche secche e le bacche di goji hanno un IG basso, ma attenzione: il loro carico glicemico è elevato, quindi usateli in piccole quantità."
+      ]
+    }
+  }
+}
