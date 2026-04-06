@@ -110,7 +110,7 @@ Single lowercase words or hyphenated compounds only. No accents in tag slugs (us
 - Lines starting with `## ` begin a new group: `{"group": "Group Name", "items": [...]}`
 - Lines without a group header go in a single object without the `group` field
 - Empty lines are skipped
-- When an ingredient contains pecorino, parmesan/parmigiano, or olive oil (in any language), append `(Quanto vene)` after the ingredient text. Example: `"50 g de pecorino râpé (Quanto vene)"`
+- When an ingredient contains pecorino, parmesan/parmigiano, or olive oil (in any language), append `(Quanto basta)` after the ingredient text. Example: `"50 g de pecorino râpé (Quanto basta)"`
 
 ### From Unstructured File Issues
 
