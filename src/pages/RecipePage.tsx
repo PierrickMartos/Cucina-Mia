@@ -136,14 +136,16 @@ export function RecipePage() {
     setError(null)
     fetch(`${BASE}data/recipes/${slug}.json`)
       .then((res) => {
-        if (!res.ok) throw new Error("Not found")
-        return res.json()
-      })
-      .then((data) => {
-        if (!cancelled) {
-          setRawRecipe(data)
-          setLoading(false)
+        if (!res.ok) {
+          if (!cancelled) setLoading(false)
+          return
         }
+        return res.json().then((data) => {
+          if (!cancelled) {
+            setRawRecipe(data)
+            setLoading(false)
+          }
+        })
       })
       .catch(() => {
         if (!cancelled) {
