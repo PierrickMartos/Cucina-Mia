@@ -62,6 +62,7 @@
     "Comptez 1 heure de repos de la pâte (non incluse dans le temps de préparation).",
     "Vous pouvez décliner cette recette avec du comté, du cheddar ou du bleu à la place de la Vache qui rit."
   ],
+  "history": "Le cheese naan a été inventé à Paris. Il est né de la rencontre du goût des Français pour le fromage et du naan indien. La version « classique » est à base de fromage industriel, vous pouvez décliner cette recette en beaucoup de versions différentes : c'est très bon avec du Comté, délicieux avec du cheddar et excellent avec du bleu.",
   "originalSource": {
     "type": "image",
     "data": "images/recipes/naans-au-fromage/source.jpg"
@@ -116,7 +117,8 @@
       "tips": [
         "Allow 1 hour for the dough to rest (not included in prep time).",
         "You can vary this recipe with comté, cheddar or blue cheese instead of Laughing Cow."
-      ]
+      ],
+      "history": "Cheese naan was invented in Paris. It was born from the meeting of the French love of cheese and Indian naan. The \"classic\" version uses processed cheese, but you can adapt this recipe in many different ways: it is delicious with comté, excellent with cheddar, and wonderful with blue cheese."
     },
     "it": {
       "title": "Naan al formaggio",
@@ -167,7 +169,8 @@
       "tips": [
         "Contare 1 ora di riposo dell'impasto (non inclusa nel tempo di preparazione).",
         "Potete variare questa ricetta con comté, cheddar o gorgonzola al posto del Vache qui rit."
-      ]
+      ],
+      "history": "Il naan al formaggio è stato inventato a Parigi. È nato dall'incontro del gusto dei francesi per il formaggio e del naan indiano. La versione « classica » è a base di formaggio industriale, ma potete adattare questa ricetta in molti modi diversi: è ottimo con il comté, delizioso con il cheddar ed eccellente con il gorgonzola."
     }
   }
 }

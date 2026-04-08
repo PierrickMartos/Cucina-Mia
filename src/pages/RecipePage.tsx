@@ -426,6 +426,15 @@ export function RecipePage() {
 
       <div className="px-6 mt-8">
 
+      {/* History */}
+      {recipe.history && (
+        <section className="relative mb-8 rounded-[1.5rem] bg-surface-low px-8 py-7 overflow-hidden max-w-4xl mx-auto">
+          <BookOpen className="absolute right-6 bottom-4 h-24 w-24 text-primary opacity-[0.07] pointer-events-none" strokeWidth={1.5} />
+          <h2 className="font-headline text-xl font-bold mb-4 tracking-[-0.02em] text-primary">{t("recipe.history")}</h2>
+          <p className="text-sm leading-relaxed text-foreground italic">{recipe.history}</p>
+        </section>
+      )}
+
       {/* Tab Switcher — hidden on large screens */}
       <motion.div
         initial={reduceMotion ? { opacity: 1, y: 0 } : { opacity: 0, y: 10 }}
@@ -710,15 +719,6 @@ export function RecipePage() {
               <p key={i} className="text-sm leading-relaxed text-foreground">{tip}</p>
             ))}
           </div>
-        </section>
-      )}
-
-      {/* History */}
-      {recipe.history && (
-        <section className="relative mb-8 rounded-[1.5rem] bg-surface-low px-8 py-7 overflow-hidden max-w-4xl mx-auto">
-          <BookOpen className="absolute right-6 bottom-4 h-24 w-24 text-primary opacity-[0.07] pointer-events-none" strokeWidth={1.5} />
-          <h2 className="font-headline text-xl font-bold mb-4 tracking-[-0.02em] text-primary">{t("recipe.history")}</h2>
-          <p className="text-sm leading-relaxed text-foreground italic">{recipe.history}</p>
         </section>
       )}
 
