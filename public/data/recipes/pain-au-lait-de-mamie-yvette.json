@@ -7,8 +7,10 @@
     "web": "images/recipes/pain-au-lait-de-mamie-yvette/web.jpg"
   },
   "imageCredit": {
-    "author": "RitaE",
-    "url": "https://pixabay.com/users/ritae-19628/"
+    "id": "2KEo2FL1n9o",
+    "photographer": "Sandi Benedicta",
+    "pageURL": "https://unsplash.com/photos/person-holding-stainless-steel-cup-with-brown-liquid-2KEo2FL1n9o",
+    "source": "unsplash"
   },
   "origin": "pierrick-grandma",
   "prepTime": 30,
