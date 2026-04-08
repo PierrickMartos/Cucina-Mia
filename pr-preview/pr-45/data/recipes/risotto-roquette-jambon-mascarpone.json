@@ -7,11 +7,8 @@
     "web": "images/recipes/risotto-roquette-jambon-mascarpone/web.jpg"
   },
   "imageCredit": {
-    "name": "eKokki",
-    "url": "https://pixabay.com/users/ekokki-2254681/",
-    "source": "Pixabay",
-    "pixabayId": 1126412,
-    "pageURL": "https://pixabay.com/photos/risotto-food-meal-dish-rice-1126412/"
+    "author": "Julien Pianetti",
+    "url": "https://unsplash.com/@julienpian"
   },
   "prepTime": 10,
   "cookTime": 20,
