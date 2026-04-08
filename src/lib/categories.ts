@@ -16,6 +16,7 @@ export const CATEGORY_ORDER = [
   "Pasta",
   "Gnocchi",
   "Risotto",
+  "Insalate",
   "Secondi",
   "Pizze",
   "Pane",

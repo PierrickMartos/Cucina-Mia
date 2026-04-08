@@ -3375,5 +3375,73 @@
         ]
       }
     }
+  },
+  {
+    "slug": "caprese-di-tuffoli",
+    "title": "Caprese di tuffoli",
+    "description": "Salade de pâtes estivale aux tomates multicolores marinées, mozzarella di bufala et basilic frais — un must romain qui se mange froid.",
+    "images": {
+      "cover": "images/recipes/caprese-di-tuffoli/cover.jpg",
+      "web": "images/recipes/caprese-di-tuffoli/web.jpg"
+    },
+    "prepTime": 20,
+    "cookTime": 40,
+    "servings": 4,
+    "difficulty": "Facile",
+    "category": "Insalate",
+    "tags": [
+      "pâtes",
+      "salade",
+      "été",
+      "froid",
+      "végétarien",
+      "italien",
+      "fromage",
+      "facile",
+      "plat-principal",
+      "rapide",
+      "méditerranéen",
+      "tomates"
+    ],
+    "ingredientCount": 7,
+    "stepCount": 4,
+    "translations": {
+      "en": {
+        "title": "Tuffoli Caprese Salad",
+        "description": "A summery pasta salad with marinated multicolour tomatoes, buffalo mozzarella and fresh basil — a Roman cold dish that is a true must.",
+        "tags": [
+          "pasta",
+          "salad",
+          "summer",
+          "cold",
+          "vegetarian",
+          "italian",
+          "cheese",
+          "easy",
+          "main-course",
+          "quick",
+          "mediterranean",
+          "tomatoes"
+        ]
+      },
+      "it": {
+        "title": "Caprese di tuffoli",
+        "description": "Insalata di pasta estiva con pomodorini multicolori marinati, mozzarella di bufala e basilico fresco — un must romano da gustare freddo.",
+        "tags": [
+          "pasta",
+          "insalata",
+          "estate",
+          "freddo",
+          "vegetariano",
+          "italiano",
+          "formaggio",
+          "facile",
+          "primo-piatto",
+          "veloce",
+          "mediterraneo",
+          "pomodori"
+        ]
+      }
+    }
   }
 ]

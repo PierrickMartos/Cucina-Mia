@@ -7,8 +7,10 @@
     "web": "images/recipes/pain-au-lait-de-mamie-yvette/web.jpg"
   },
   "imageCredit": {
-    "author": "RitaE",
-    "url": "https://pixabay.com/users/ritae-19628/"
+    "id": "2KEo2FL1n9o",
+    "photographer": "Sandi Benedicta",
+    "pageURL": "https://unsplash.com/photos/person-holding-stainless-steel-cup-with-brown-liquid-2KEo2FL1n9o",
+    "source": "unsplash"
   },
   "origin": "pierrick-grandma",
   "prepTime": 30,
@@ -75,6 +77,7 @@
       "text": "Enfourner 15 à 20 minutes jusqu'à ce que les pains soient bien dorés. Déguster tièdes avec du beurre."
     }
   ],
+  "history": "Notre grand-mère Yvette nous préparait ses petits pains tout chaud pour le réveil quand on dormait chez elle, ou bien pour le goûter. Avec un peu de confiture ou du Nutella, on en raffolait !",
   "source": "Mamie Yvette",
   "originalSource": {
     "type": "image",
@@ -152,7 +155,8 @@
         "Separating the whites and whipping them to stiff peaks before folding in is Grandma's secret for exceptionally light and airy milk rolls.",
         "Resist the urge to add too much flour when kneading: a slightly tacky dough gives a softer result.",
         "These rolls freeze beautifully; reheat them for 5 minutes in a 150 °C oven."
-      ]
+      ],
+      "history": "Our grandmother Yvette would bake her warm little rolls fresh for us when we woke up after sleeping over at her house, or for afternoon snack time. With a bit of jam or Nutella, we absolutely loved them!"
     },
     "it": {
       "title": "Panini al Latte della Nonna Yvette",
@@ -220,7 +224,8 @@
         "Separare gli albumi e montarli a neve prima di incorporarli: è il segreto della nonna per panini al latte più leggeri e ariosi.",
         "Resistete alla tentazione di aggiungere troppa farina durante la lavorazione: un impasto leggermente appiccicoso dà un risultato più morbido.",
         "Questi panini si congelano molto bene; riscaldateli 5 minuti in forno a 150 °C."
-      ]
+      ],
+      "history": "La nostra nonna Yvette ci preparava i suoi panini caldi appena svegli quando dormivamo da lei, oppure per la merenda. Con un po' di marmellata o di Nutella, ne andavamo matti!"
     }
   }
 }
