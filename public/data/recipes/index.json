@@ -3377,6 +3377,72 @@
     }
   },
   {
+    "slug": "naans-au-fromage",
+    "title": "Naans au fromage",
+    "description": "Des naans moelleux fourrés au fromage fondant, inspirés du cheese naan parisien à décliner avec comté, cheddar ou bleu.",
+    "images": {
+      "cover": "images/recipes/naans-au-fromage/cover.jpg",
+      "web": "images/recipes/naans-au-fromage/web.jpg"
+    },
+    "imageCredit": {
+      "author": "2SIF",
+      "url": "https://pixabay.com/users/2SIF-26811215/"
+    },
+    "prepTime": 20,
+    "cookTime": 30,
+    "servings": 4,
+    "difficulty": "Medio",
+    "category": "Pane",
+    "tags": [
+      "poêle",
+      "végétarien",
+      "fromage",
+      "indien",
+      "moelleux",
+      "réconfortant",
+      "convivial",
+      "toute-la-famille",
+      "préparation-à-lavance",
+      "fait-maison"
+    ],
+    "translations": {
+      "en": {
+        "title": "Cheese Naans",
+        "description": "Soft naans stuffed with melting cheese, inspired by the Parisian cheese naan, to vary with comté, cheddar or blue cheese.",
+        "tags": [
+          "pan",
+          "vegetarian",
+          "cheese",
+          "indian",
+          "soft",
+          "comforting",
+          "convivial",
+          "family",
+          "make-ahead",
+          "homemade"
+        ]
+      },
+      "it": {
+        "title": "Naan al formaggio",
+        "description": "Naan morbidi ripieni di formaggio fondente, ispirati al cheese naan parigino, da variare con comté, cheddar o gorgonzola.",
+        "tags": [
+          "padella",
+          "vegetariano",
+          "formaggio",
+          "indiano",
+          "morbido",
+          "confortante",
+          "conviviale",
+          "tutta-la-famiglia",
+          "preparazione-anticipata",
+          "fatto-in-casa"
+        ]
+      }
+    },
+    "stepCount": 5,
+    "ingredientCount": 8
+  },
+  {
     "slug": "caprese-di-tuffoli",
     "title": "Caprese di tuffoli",
     "description": "Salade de pâtes estivale aux tomates multicolores marinées, mozzarella di bufala et basilic frais — un must romain qui se mange froid.",
