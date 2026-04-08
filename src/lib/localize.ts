@@ -22,5 +22,6 @@ export function localizeRecipeDetail(recipe: RecipeDetail, lang: string): Recipe
     ingredients: t.ingredients ?? recipe.ingredients,
     steps: t.steps ?? recipe.steps,
     tips: t.tips ?? recipe.tips,
+    history: t.history ?? recipe.history,
   }
 }

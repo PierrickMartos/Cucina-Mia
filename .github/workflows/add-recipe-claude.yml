@@ -2,7 +2,7 @@ name: Add Recipe via Claude Code
 
 on:
   issues:
-    types: [opened, labeled]
+    types: [opened, labeled, edited]
 
 permissions:
   contents: write
@@ -27,7 +27,7 @@ jobs:
         id: process_recipe
         uses: anthropics/claude-code-action@v1
         env:
-          PIXABAY_API_KEY: ${{ secrets.PIXABAY_API_KEY }}
+          UNSPLASH_ACCESS_KEY: ${{ secrets.UNSPLASH_ACCESS_KEY }}
         with:
           claude_code_oauth_token: ${{ secrets.CLAUDE_CODE_OAUTH_TOKEN }}
           prompt: |
@@ -44,7 +44,7 @@ jobs:
 
             If there are errors (missing required fields, duplicate slug, unreadable file/URL),
             comment on the issue explaining the problem and do NOT create a branch or PR.
-          claude_args: "--allowedTools Bash,Read,Write,Edit,Glob,Grep,WebFetch"
+          claude_args: "--allowedTools Agent,Bash,Read,Write,Edit,Glob,Grep,WebFetch"
 
       - name: Upload Claude execution logs
         if: always() && steps.process_recipe.outputs.execution_file != ''

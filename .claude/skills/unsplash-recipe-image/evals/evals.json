@@ -1,0 +1,23 @@
+{
+  "skill_name": "unsplash-recipe-image",
+  "evals": [
+    {
+      "id": 0,
+      "prompt": "Find and download the best Unsplash photo for a Tiramisu recipe. Save the large image to /tmp/tiramisu/cover.jpg and the web version to /tmp/tiramisu/web.jpg.",
+      "expected_output": "Downloads a high-quality landscape tiramisu food photo from Unsplash. cover.jpg (1080px) and web.jpg (400px) both saved, both > 10KB, both valid JPEGs. Report includes photographer credit in format 'Photo by X on Unsplash'.",
+      "files": []
+    },
+    {
+      "id": 1,
+      "prompt": "I need a cover image from Unsplash for a recipe page about Pasta alla Norma (a Sicilian pasta with eggplant and ricotta). Download it to /tmp/pasta-norma/cover.jpg with the web version at /tmp/pasta-norma/web.jpg.",
+      "expected_output": "Downloads a landscape food photo of pasta (ideally with eggplant). cover.jpg and web.jpg saved correctly. The skill uses English translation for search queries. Photographer attribution included.",
+      "files": []
+    },
+    {
+      "id": 2,
+      "prompt": "Get me an Unsplash image for a Ribollita recipe (Tuscan bean and vegetable soup). Output to /tmp/ribollita/cover.jpg",
+      "expected_output": "Downloads a landscape food photo of soup/bean dish. Falls back to broader query if ribollita returns few results. cover.jpg and web.jpg both downloaded and valid. Attribution included.",
+      "files": []
+    }
+  ]
+}
