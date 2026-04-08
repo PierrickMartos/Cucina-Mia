@@ -25,11 +25,11 @@
     {
       "group": "Pour 4 grands pains ou 8 petits pains",
       "items": [
-        "250 g de farine tamisée",
+        "350 g de farine tamisée",
         "10 g de levure de boulanger fraîche (à défaut, 1 sachet de levure de boulanger sèche)",
-        "½ cuillerée à café de sucre",
-        "¼ cuillerée à café de levure chimique",
-        "5 cuillerées à soupe de yaourt nature",
+        "1 pincée de sucre",
+        "¾ cuillerée à café de levure chimique",
+        "2 cuillerées à soupe de yaourt grec nature",
         "5 cuillerées à soupe de ghee"
       ]
     }
@@ -70,11 +70,11 @@
         {
           "group": "For 4 large or 8 small naans",
           "items": [
-            "250 g sifted flour",
+            "350 g sifted flour",
             "10 g fresh baker's yeast (or 1 packet dried yeast)",
-            "½ teaspoon sugar",
-            "¼ teaspoon baking powder",
-            "5 tablespoons plain yogurt",
+            "1 pinch of sugar",
+            "¾ teaspoon baking powder",
+            "2 tablespoons plain Greek yogurt",
             "5 tablespoons ghee"
           ]
         }
@@ -111,11 +111,11 @@
         {
           "group": "Per 4 grandi o 8 piccoli naan",
           "items": [
-            "250 g di farina setacciata",
+            "350 g di farina setacciata",
             "10 g di lievito di birra fresco (in alternativa, 1 bustina di lievito secco)",
-            "½ cucchiaino di zucchero",
-            "¼ cucchiaino di lievito in polvere",
-            "5 cucchiai di yogurt naturale",
+            "1 pizzico di zucchero",
+            "¾ cucchiaino di lievito in polvere",
+            "2 cucchiai di yogurt greco naturale",
             "5 cucchiai di ghee"
           ]
         }
