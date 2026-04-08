@@ -2,7 +2,7 @@ name: Add Recipe via Claude Code
 
 on:
   issues:
-    types: [opened, labeled]
+    types: [opened, labeled, edited]
 
 permissions:
   contents: write
@@ -27,7 +27,7 @@ jobs:
         id: process_recipe
         uses: anthropics/claude-code-action@v1
         env:
-          PIXABAY_API_KEY: ${{ secrets.PIXABAY_API_KEY }}
+          UNSPLASH_ACCESS_KEY: ${{ secrets.UNSPLASH_ACCESS_KEY }}
         with:
           claude_code_oauth_token: ${{ secrets.CLAUDE_CODE_OAUTH_TOKEN }}
           prompt: |

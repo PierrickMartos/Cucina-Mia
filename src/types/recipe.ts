@@ -5,6 +5,7 @@ export interface RecipeTranslation {
   ingredients?: { group?: string; items: string[] }[]
   steps?: { text: string; image?: string }[]
   tips?: string[]
+  history?: string
 }
 
 export interface ImageCredit {
@@ -46,6 +47,7 @@ export interface RecipeDetail extends RecipeSummary {
   ingredients: { group?: string; items: string[] }[]
   steps: { text: string; image?: string }[]
   tips?: string[]
+  history?: string
   source?: string
   originalSource?: RecipeOriginalSource
   translations?: { [lang: string]: RecipeTranslation }
