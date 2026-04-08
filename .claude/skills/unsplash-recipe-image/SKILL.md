@@ -103,10 +103,10 @@ else:                                 # portrait (less suitable)
 
 ## Step 4: Visual Inspection of Top Candidates
 
-Take the top 5 candidates by `metadata_score` and visually inspect them. For each, download the small preview from `urls.small` (400px wide, fast to load) and evaluate how well it matches the recipe.
+Take the top 5 candidates by `metadata_score` and visually inspect them. For each, download the small preview from `urls.regular` (1080px wide, fast to load) and evaluate how well it matches the recipe.
 
 ```bash
-/usr/bin/curl -sL "{urls.small}" -o /tmp/unsplash_candidate_{id}.jpg
+/usr/bin/curl -sL "{urls.regular}" -o /tmp/unsplash_candidate_{id}.jpg
 ```
 
 Then read each downloaded preview image (Claude can process images natively). For each candidate, assess:
@@ -142,12 +142,12 @@ final_score = (metadata_score * 0.3) + (visual_score * 0.7)
 ```
 
 3. Download both versions:
-   - `urls.regular` (1080px) → save to the target path (caller specifies this, or default to `cover.jpg` in current directory)
-   - `urls.small` (400px) → save as `web.jpg` in the same directory as the main image
+   - `urls.full` (original size) → save to the target path (caller specifies this, or default to `cover.jpg` in current directory)
+   - `urls.regular` (1080px) → save as `web.jpg` in the same directory as the main image
 
 ```bash
-/usr/bin/curl -sL "{urls.regular}" -o {output_path}
-/usr/bin/curl -sL "{urls.small}" -o {output_dir}/web.jpg
+/usr/bin/curl -sL "{urls.full}" -o {output_path}
+/usr/bin/curl -sL "{urls.regular}" -o {output_dir}/web.jpg
 ```
 
 4. Verify both downloads:
@@ -158,8 +158,8 @@ final_score = (metadata_score * 0.3) + (visual_score * 0.7)
 
 Print a short summary including these fields:
 - Unsplash photo ID and page URL (`links.html`)
-- `urls.small` — the 400px preview URL
-- `urls.regular` — the 1080px download URL
+- `urls.regular` — the 1080px preview URL
+- `urls.full` — the full-resolution download URL
 - Photographer credit: `user.name` and `user.links.html`
 - Image dimensions and score breakdown
 - The search query that found this image
@@ -175,7 +175,7 @@ For a recipe "Pasta alla Carbonara":
 2. Search returns ~20 food photos across both queries
 3. Top candidate after visual scoring: 5472x3648, 87 likes → final_score 82
 4. Trigger download event for photo ID
-5. Download `urls.regular` → `cover.jpg`, `urls.small` → `web.jpg`
+5. Download `urls.full` → `cover.jpg`, `urls.regular` → `web.jpg`
 
 ## Edge Cases
 
