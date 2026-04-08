@@ -3381,5 +3381,139 @@
         ]
       }
     }
+  },
+  {
+    "slug": "naans-au-fromage",
+    "title": "Naans au fromage",
+    "description": "Des naans moelleux fourrés au fromage fondant, inspirés du cheese naan parisien à décliner avec comté, cheddar ou bleu.",
+    "images": {
+      "cover": "images/recipes/naans-au-fromage/cover.jpg",
+      "web": "images/recipes/naans-au-fromage/web.jpg"
+    },
+    "imageCredit": {
+      "author": "2SIF",
+      "url": "https://pixabay.com/users/2SIF-26811215/"
+    },
+    "prepTime": 20,
+    "cookTime": 30,
+    "servings": 4,
+    "difficulty": "Medio",
+    "category": "Pane",
+    "tags": [
+      "poêle",
+      "végétarien",
+      "fromage",
+      "indien",
+      "moelleux",
+      "réconfortant",
+      "convivial",
+      "toute-la-famille",
+      "préparation-à-lavance",
+      "fait-maison"
+    ],
+    "translations": {
+      "en": {
+        "title": "Cheese Naans",
+        "description": "Soft naans stuffed with melting cheese, inspired by the Parisian cheese naan, to vary with comté, cheddar or blue cheese.",
+        "tags": [
+          "pan",
+          "vegetarian",
+          "cheese",
+          "indian",
+          "soft",
+          "comforting",
+          "convivial",
+          "family",
+          "make-ahead",
+          "homemade"
+        ]
+      },
+      "it": {
+        "title": "Naan al formaggio",
+        "description": "Naan morbidi ripieni di formaggio fondente, ispirati al cheese naan parigino, da variare con comté, cheddar o gorgonzola.",
+        "tags": [
+          "padella",
+          "vegetariano",
+          "formaggio",
+          "indiano",
+          "morbido",
+          "confortante",
+          "conviviale",
+          "tutta-la-famiglia",
+          "preparazione-anticipata",
+          "fatto-in-casa"
+        ]
+      }
+    },
+    "stepCount": 5,
+    "ingredientCount": 8
+  },
+  {
+    "slug": "caprese-di-tuffoli",
+    "title": "Caprese di tuffoli",
+    "description": "Salade de pâtes estivale aux tomates multicolores marinées, mozzarella di bufala et basilic frais — un must romain qui se mange froid.",
+    "images": {
+      "cover": "images/recipes/caprese-di-tuffoli/cover.jpg",
+      "web": "images/recipes/caprese-di-tuffoli/web.jpg"
+    },
+    "prepTime": 20,
+    "cookTime": 40,
+    "servings": 4,
+    "difficulty": "Facile",
+    "category": "Insalate",
+    "tags": [
+      "pâtes",
+      "salade",
+      "été",
+      "froid",
+      "végétarien",
+      "italien",
+      "fromage",
+      "facile",
+      "plat-principal",
+      "rapide",
+      "méditerranéen",
+      "tomates"
+    ],
+    "ingredientCount": 7,
+    "stepCount": 4,
+    "translations": {
+      "en": {
+        "title": "Tuffoli Caprese Salad",
+        "description": "A summery pasta salad with marinated multicolour tomatoes, buffalo mozzarella and fresh basil — a Roman cold dish that is a true must.",
+        "tags": [
+          "pasta",
+          "salad",
+          "summer",
+          "cold",
+          "vegetarian",
+          "italian",
+          "cheese",
+          "easy",
+          "main-course",
+          "quick",
+          "mediterranean",
+          "tomatoes"
+        ]
+      },
+      "it": {
+        "title": "Caprese di tuffoli",
+        "description": "Insalata di pasta estiva con pomodorini multicolori marinati, mozzarella di bufala e basilico fresco — un must romano da gustare freddo.",
+        "tags": [
+          "pasta",
+          "insalata",
+          "estate",
+          "freddo",
+          "vegetariano",
+          "italiano",
+          "formaggio",
+          "facile",
+          "primo-piatto",
+          "veloce",
+          "mediterraneo",
+          "pomodori"
+        ]
+      }
+    }
   }
 ]
