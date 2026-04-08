@@ -376,15 +376,15 @@ Key rules:
     "web": "images/recipes/{slug}/web.jpg"
   }
   ```
-  Use `.jpg` extension when the image comes from Pixabay or an uploaded photo. Use `.svg` only if an SVG illustration was generated.
-- When the image comes from Pixabay, add an `imageCredit` object immediately after `images`, , be careful to not rename keys:
+  Use `.jpg` extension when the image comes from Unsplash or an uploaded photo. Use `.svg` only if an SVG illustration was generated.
+- When the image comes from Unsplash, add an `imageCredit` object immediately after `images`, be careful to not rename keys:
   ```json
   "imageCredit": {
-    "author": "photographer_username",
-    "url": "https://pixabay.com/users/username-123456/"
+    "author": "Photographer Name",
+    "url": "https://unsplash.com/@username"
   }
   ```
-  Use the `user` field from the Pixabay hit for `name`, and `userImageURL` or construct the URL as `https://pixabay.com/users/{user}-{user_id}/`. Omit `imageCredit` entirely when using an SVG illustration or an uploaded image without attribution.
+  Use `user.name` from the Unsplash hit for `author`, and `user.links.html` for `url`. Omit `imageCredit` entirely when using an SVG illustration or an uploaded image without attribution.
 - Omit `tips` entirely if none (no empty array)
 - Omit `history` entirely if none (no empty string)
 - Omit `source` entirely if none (no empty string)
@@ -440,15 +440,15 @@ Create directory `public/images/recipes/{slug}/` if needed.
 Download the uploaded image and save it as `public/images/recipes/{slug}/cover.jpg` (or the appropriate extension). Also create a web-sized version at `public/images/recipes/{slug}/web.jpg` if the uploaded image is large (resize or use it directly if already web-appropriate).
 
 ### If no cover image was provided
-Use the **pixabay-recipe-image** skill (`.claude/skills/pixabay-recipe-image/SKILL.md`) to find and download a professional food photograph from Pixabay. Pass the recipe title and a brief summary of ingredients/description as context.
+Use the **unsplash-recipe-image** skill (`.claude/skills/unsplash-recipe-image/SKILL.md`) to find and download a professional food photograph from Unsplash. Pass the recipe title and a brief summary of ingredients/description as context.
 
 **Fall back to SVG immediately if any of the following occur:**
-- `PIXABAY_API_KEY` is not set
+- `UNSPLASH_ACCESS_KEY` is not set
 - The API returns an error
 - No results are returned after all queries
 - The best candidate's `recipe_match` visual score is < 5/10 (i.e. the image does not clearly show the correct dish)
 
-Do not settle for a loosely-related image. If Pixabay cannot find a photo that actually shows the dish, generate an SVG instead.
+Do not settle for a loosely-related image. If Unsplash cannot find a photo that actually shows the dish, generate an SVG instead.
 
 ### SVG illustration (fallback)
 
