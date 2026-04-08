@@ -3321,6 +3321,77 @@
     }
   },
   {
+    "slug": "pesto-presto",
+    "title": "Pesto Presto",
+    "description": "Busiate col pesto alla trapanese, une pâte sicilienne en spirale servie avec un pesto à base de tomates confites, amandes, basilic et pecorino, spécialité de Trapani.",
+    "images": {
+      "cover": "images/recipes/pesto-presto/cover.jpg",
+      "web": "images/recipes/pesto-presto/web.jpg"
+    },
+    "prepTime": 45,
+    "cookTime": 150,
+    "servings": 4,
+    "difficulty": "Medio",
+    "category": "Pasta",
+    "tags": [
+      "pâtes",
+      "tomates",
+      "basilic",
+      "amandes",
+      "sicilien",
+      "méditerranéen",
+      "végétarien",
+      "four",
+      "plat-principal",
+      "été",
+      "italien",
+      "festif",
+      "léger"
+    ],
+    "translations": {
+      "en": {
+        "title": "Pesto Presto",
+        "description": "Busiate pasta with Trapanese pesto, a Sicilian specialty made with slow-roasted tomatoes, almonds, basil, and pecorino from the province of Trapani.",
+        "tags": [
+          "pasta",
+          "tomatoes",
+          "basil",
+          "almonds",
+          "sicilian",
+          "mediterranean",
+          "vegetarian",
+          "oven",
+          "main-course",
+          "summer",
+          "italian",
+          "festive",
+          "light"
+        ]
+      },
+      "it": {
+        "title": "Pesto Presto",
+        "description": "Busiate col pesto alla trapanese, specialità siciliana con pomodori confit, mandorle, basilico e pecorino, tipica della provincia di Trapani.",
+        "tags": [
+          "pasta",
+          "pomodori",
+          "basilico",
+          "mandorle",
+          "siciliano",
+          "mediterraneo",
+          "vegetariano",
+          "forno",
+          "primo-piatto",
+          "estate",
+          "italiano",
+          "festivo",
+          "leggero"
+        ]
+      }
+    },
+    "stepCount": 7,
+    "ingredientCount": 14
+  },
+  {
     "slug": "naans-nature",
     "title": "Naans nature",
     "description": "Pain levé d'origine indienne, léger et moelleux, cuit à la poêle et généreusement badigeonné de ghee fondu.",
