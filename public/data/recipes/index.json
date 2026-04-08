@@ -3393,8 +3393,8 @@
     "title": "Gâteau de semoule de grand-mère",
     "description": "Un dessert de grand-mère fondant et réconfortant : une semoule au lait caramélisée, légère comme un nuage grâce aux blancs en neige montés.",
     "images": {
-      "cover": "images/recipes/gateau-de-semoule/cover.svg",
-      "web": "images/recipes/gateau-de-semoule/cover.svg"
+      "cover": "images/recipes/gateau-de-semoule/cover.jpg",
+      "web": "images/recipes/gateau-de-semoule/web.jpg"
     },
     "prepTime": 20,
     "cookTime": 20,
