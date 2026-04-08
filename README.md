@@ -21,7 +21,7 @@ Built with **React 19**, **TypeScript**, **Vite**, and **Tailwind CSS v4**. Depl
 - Animations with **Motion**
 - UI primitives from **shadcn/ui** (`class-variance-authority` + `tailwind-merge`)
 - i18n in French, English and Italian
-- Recipe photos from [Pixabay](https://pixabay.com)
+- Recipe photos from [Unsplash](https://unsplash.com)
 
 ```bash
 npm run dev      # dev server

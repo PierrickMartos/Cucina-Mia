@@ -49,7 +49,7 @@ describe("RecipeGrid", () => {
 
   it("shows empty state when no recipes", () => {
     renderGrid({ recipes: [] })
-    expect(screen.getByText("No recipe found")).toBeInTheDocument()
+    expect(screen.getByText("Mamma mia, the pot is empty!")).toBeInTheDocument()
   })
 
   it("renders a card per recipe", () => {

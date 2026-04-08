@@ -125,6 +125,13 @@ body:
       placeholder: |
         Salare le melanzane 30 minuti prima per togliere l'amaro.
 
+  - type: textarea
+    id: history
+    attributes:
+      label: History (optional)
+      description: "An anecdote, story or historical context about this recipe"
+      placeholder: "This recipe has been passed down from my grandmother..."
+
   - type: input
     id: source
     attributes:

@@ -2,7 +2,7 @@ import { useState, useEffect, useRef } from "react"
 import { createPortal } from "react-dom"
 import { useParams, Link, useNavigate } from "react-router-dom"
 import { useTranslation } from "react-i18next"
-import { ArrowLeft, Clock, CookingPot, Users, ChefHat, UtensilsCrossed, Printer, Volume2, VolumeX } from "lucide-react"
+import { ArrowLeft, Clock, CookingPot, Users, ChefHat, UtensilsCrossed, Printer, Volume2, VolumeX, BookOpen } from "lucide-react"
 import { motion, useMotionValue, useTransform, useReducedMotion, type Variants } from "motion/react"
 import { Badge } from "@/components/ui/badge"
 import { Skeleton } from "@/components/ui/skeleton"
@@ -136,14 +136,16 @@ export function RecipePage() {
     setError(null)
     fetch(`${BASE}data/recipes/${slug}.json`)
       .then((res) => {
-        if (!res.ok) throw new Error("Not found")
-        return res.json()
-      })
-      .then((data) => {
-        if (!cancelled) {
-          setRawRecipe(data)
-          setLoading(false)
+        if (!res.ok) {
+          if (!cancelled) setLoading(false)
+          return
         }
+        return res.json().then((data) => {
+          if (!cancelled) {
+            setRawRecipe(data)
+            setLoading(false)
+          }
+        })
       })
       .catch(() => {
         if (!cancelled) {
@@ -708,6 +710,15 @@ export function RecipePage() {
               <p key={i} className="text-sm leading-relaxed text-foreground">{tip}</p>
             ))}
           </div>
+        </section>
+      )}
+
+      {/* History */}
+      {recipe.history && (
+        <section className="relative mb-8 rounded-[1.5rem] bg-surface-low px-8 py-7 overflow-hidden max-w-4xl mx-auto">
+          <BookOpen className="absolute right-6 bottom-4 h-24 w-24 text-primary opacity-[0.07] pointer-events-none" strokeWidth={1.5} />
+          <h2 className="font-headline text-xl font-bold mb-4 tracking-[-0.02em] text-primary">{t("recipe.history")}</h2>
+          <p className="text-sm leading-relaxed text-foreground italic">{recipe.history}</p>
         </section>
       )}
 
