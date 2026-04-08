@@ -11,7 +11,7 @@
     "url": "https://pixabay.com/users/artificialog-1886751/"
   },
   "prepTime": 15,
-  "cookTime": 30,
+  "cookTime": 35,
   "servings": 4,
   "difficulty": "Facile",
   "category": "Secondi",
@@ -31,10 +31,11 @@
     {
       "items": [
         "1 poulet coupé en morceaux et sans peau",
-        "2 yaourts nature (250 g)",
+        "125 g de yaourt nature",
         "2 cuillères à soupe de poudre tandoori",
         "2 cuillères à soupe de jus de citron",
-        "4 cuillères à soupe d'huile"
+        "4 cuillères à soupe d'huile",
+        "sel"
       ]
     }
   ],
@@ -43,10 +44,10 @@
       "text": "Dans un saladier, mélanger le yaourt avec la poudre tandoori, le jus de citron et 2 cuillères à soupe d'huile. Ajouter les morceaux de poulet et les mélanger à la préparation pour qu'ils absorbent le maximum de marinade. Couvrir et laisser reposer au minimum 6 heures au frais."
     },
     {
-      "text": "Préchauffer le four à 200 °C (thermostat 6-7)."
+      "text": "Préchauffer le four à 180 °C."
     },
     {
-      "text": "Dans un plat allant au four, verser le reste d'huile. Déposer les morceaux de poulet et la marinade. Enfourner et laisser cuire 30 minutes en retournant le poulet à mi-cuisson."
+      "text": "Dans un plat allant au four, verser le reste d'huile. Déposer les morceaux de poulet et la marinade. Enfourner et laisser cuire 35 minutes en retournant le poulet à mi-cuisson."
     }
   ],
   "tips": [
@@ -78,10 +79,11 @@
         {
           "items": [
             "1 chicken cut into pieces, skin removed",
-            "2 plain yogurts (250 g)",
+            "125 g plain yogurt",
             "2 tablespoons tandoori powder",
             "2 tablespoons lemon juice",
-            "4 tablespoons oil"
+            "4 tablespoons oil",
+            "salt"
           ]
         }
       ],
@@ -90,10 +92,10 @@
           "text": "In a bowl, mix the yogurt with the tandoori powder, lemon juice and 2 tablespoons of oil. Add the chicken pieces and mix them well into the marinade so they absorb as much flavor as possible. Cover and let rest for at least 6 hours in the refrigerator."
         },
         {
-          "text": "Preheat the oven to 200 °C (400 °F)."
+          "text": "Preheat the oven to 180 °C (350 °F)."
         },
         {
-          "text": "In an oven-safe dish, pour the remaining oil. Arrange the chicken pieces with the marinade. Bake for 30 minutes, turning the chicken halfway through cooking."
+          "text": "In an oven-safe dish, pour the remaining oil. Arrange the chicken pieces with the marinade. Bake for 35 minutes, turning the chicken halfway through cooking."
         }
       ],
       "tips": [
@@ -121,10 +123,11 @@
         {
           "items": [
             "1 pollo tagliato a pezzi e senza pelle",
-            "2 yogurt naturali (250 g)",
+            "125 g di yogurt naturale",
             "2 cucchiai di polvere tandoori",
             "2 cucchiai di succo di limone",
-            "4 cucchiai di olio"
+            "4 cucchiai di olio",
+            "sale"
           ]
         }
       ],
@@ -133,10 +136,10 @@
           "text": "In una ciotola, mescolare lo yogurt con la polvere tandoori, il succo di limone e 2 cucchiai di olio. Aggiungere i pezzi di pollo e mescolarli bene alla marinata affinché assorbano il massimo di sapore. Coprire e lasciare riposare almeno 6 ore in frigorifero."
         },
         {
-          "text": "Preriscaldare il forno a 200 °C."
+          "text": "Preriscaldare il forno a 180 °C."
         },
         {
-          "text": "In una teglia da forno, versare l'olio rimanente. Disporre i pezzi di pollo con la marinata. Infornare e cuocere per 30 minuti, girando il pollo a metà cottura."
+          "text": "In una teglia da forno, versare l'olio rimanente. Disporre i pezzi di pollo con la marinata. Infornare e cuocere per 35 minuti, girando il pollo a metà cottura."
         }
       ],
       "tips": [

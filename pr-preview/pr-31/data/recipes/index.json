@@ -3329,7 +3329,7 @@
       "web": "images/recipes/poulet-tandoori/web.jpg"
     },
     "prepTime": 15,
-    "cookTime": 30,
+    "cookTime": 35,
     "servings": 4,
     "difficulty": "Facile",
     "category": "Secondi",
@@ -3378,6 +3378,133 @@
           "preparazione-anticipata",
           "senza-glutine",
           "estate"
+        ]
+      }
+    }
+  },
+  {
+    "slug": "pesto-presto",
+    "title": "Pesto Presto",
+    "description": "Busiate col pesto alla trapanese, une pâte sicilienne en spirale servie avec un pesto à base de tomates confites, amandes, basilic et pecorino, spécialité de Trapani.",
+    "images": {
+      "cover": "images/recipes/pesto-presto/cover.jpg",
+      "web": "images/recipes/pesto-presto/web.jpg"
+    },
+    "prepTime": 45,
+    "cookTime": 150,
+    "servings": 4,
+    "difficulty": "Medio",
+    "category": "Pasta",
+    "tags": [
+      "pâtes",
+      "tomates",
+      "basilic",
+      "amandes",
+      "sicilien",
+      "méditerranéen",
+      "végétarien",
+      "four",
+      "plat-principal",
+      "été",
+      "italien",
+      "festif",
+      "léger"
+    ],
+    "translations": {
+      "en": {
+        "title": "Pesto Presto",
+        "description": "Busiate pasta with Trapanese pesto, a Sicilian specialty made with slow-roasted tomatoes, almonds, basil, and pecorino from the province of Trapani.",
+        "tags": [
+          "pasta",
+          "tomatoes",
+          "basil",
+          "almonds",
+          "sicilian",
+          "mediterranean",
+          "vegetarian",
+          "oven",
+          "main-course",
+          "summer",
+          "italian",
+          "festive",
+          "light"
+        ]
+      },
+      "it": {
+        "title": "Pesto Presto",
+        "description": "Busiate col pesto alla trapanese, specialità siciliana con pomodori confit, mandorle, basilico e pecorino, tipica della provincia di Trapani.",
+        "tags": [
+          "pasta",
+          "pomodori",
+          "basilico",
+          "mandorle",
+          "siciliano",
+          "mediterraneo",
+          "vegetariano",
+          "forno",
+          "primo-piatto",
+          "estate",
+          "italiano",
+          "festivo",
+          "leggero"
+        ]
+      }
+    },
+    "stepCount": 7,
+    "ingredientCount": 14
+  },
+  {
+    "slug": "naans-nature",
+    "title": "Naans nature",
+    "description": "Pain levé d'origine indienne, léger et moelleux, cuit à la poêle et généreusement badigeonné de ghee fondu.",
+    "images": {
+      "cover": "images/recipes/naans-nature/cover.jpg",
+      "web": "images/recipes/naans-nature/web.jpg"
+    },
+    "prepTime": 20,
+    "cookTime": 30,
+    "servings": 4,
+    "difficulty": "Medio",
+    "category": "Pane",
+    "tags": [
+      "poêle",
+      "indien",
+      "végétarien",
+      "moelleux",
+      "à-partager",
+      "réconfortant",
+      "économique",
+      "chaud"
+    ],
+    "ingredientCount": 6,
+    "stepCount": 4,
+    "translations": {
+      "en": {
+        "title": "Plain Naans",
+        "description": "Indian leavened bread, light and fluffy, pan-cooked and generously brushed with melted ghee.",
+        "tags": [
+          "pan-fried",
+          "indian",
+          "vegetarian",
+          "soft",
+          "shareable",
+          "comforting",
+          "budget-friendly",
+          "warm"
+        ]
+      },
+      "it": {
+        "title": "Naan semplici",
+        "description": "Pane lievitato indiano, leggero e soffice, cotto in padella e generosamente spennellato con ghee fuso.",
+        "tags": [
+          "padella",
+          "indiano",
+          "vegetariano",
+          "morbido",
+          "da-condividere",
+          "confortante",
+          "economico",
+          "caldo"
         ]
       }
     }
@@ -3512,6 +3639,77 @@
           "veloce",
           "mediterraneo",
           "pomodori"
+        ]
+      }
+    }
+  },
+  {
+    "slug": "fusilloni-alla-norma",
+    "title": "Fusilloni alla Norma",
+    "description": "L'aubergine fait sa diva dans ce grand classique sicilien : des fusilloni al dente nappés d'une sauce tomate parfumée au basilic, couronnés d'aubergines frites et d'une généreuse pluie de ricotta salée.",
+    "images": {
+      "cover": "images/recipes/fusilloni-alla-norma/cover.jpg",
+      "web": "images/recipes/fusilloni-alla-norma/web.jpg"
+    },
+    "prepTime": 30,
+    "cookTime": 30,
+    "servings": 4,
+    "difficulty": "Facile",
+    "category": "Pasta",
+    "tags": [
+      "pâtes",
+      "aubergine",
+      "fromage",
+      "italien",
+      "sicilien",
+      "méditerranéen",
+      "végétarien",
+      "friture",
+      "plat-principal",
+      "chaud",
+      "réconfortant",
+      "été",
+      "économique"
+    ],
+    "ingredientCount": 8,
+    "stepCount": 5,
+    "translations": {
+      "en": {
+        "title": "Fusilloni alla Norma",
+        "description": "The eggplant takes center stage in this great Sicilian classic: al dente fusilloni coated in a basil-scented tomato sauce, crowned with fried eggplant and a generous shower of ricotta salata.",
+        "tags": [
+          "pasta",
+          "eggplant",
+          "cheese",
+          "italian",
+          "sicilian",
+          "mediterranean",
+          "vegetarian",
+          "fried",
+          "main-course",
+          "hot",
+          "comforting",
+          "summer",
+          "budget-friendly"
+        ]
+      },
+      "it": {
+        "title": "Fusilloni alla Norma",
+        "description": "La melanzana recita da protagonista in questo grande classico siciliano: fusilloni al dente con salsa di pomodoro al basilico, melanzane fritte e una generosa nevicata di ricotta salata.",
+        "tags": [
+          "pasta",
+          "melanzane",
+          "formaggio",
+          "italiano",
+          "siciliano",
+          "mediterraneo",
+          "vegetariano",
+          "fritto",
+          "primo-piatto",
+          "caldo",
+          "confortante",
+          "estate",
+          "economico"
         ]
       }
     }
