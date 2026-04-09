@@ -76,7 +76,8 @@
   "tips": [
     "Battez la semoule cuite pendant quelques minutes au batteur avant d'ajouter les œufs. Elle doit avoir refroidi dans le moule. Vous serez étonné par la légèreté du gâteau !"
   ],
-  "history": "Le gâteau de semoule est un classique des cuisines familiales françaises, transmis de génération en génération. Économique et facile à réaliser avec des ingrédients simples du quotidien, il figure depuis le XIXe siècle dans les carnets de recettes des grands-mères.",
+  "history": "Plein de souvenirs d'enfance avec ce gateau de semoule, surtout l'odeur du caramel qui embaume la cuisine et mes frères et mon cousin qui nous léchions les babines",
+  "origin": "pierrick-grandma",
   "originalSource": {
     "type": "image",
     "data": "images/recipes/gateau-de-semoule/source.jpg"
@@ -144,7 +145,7 @@
       "tips": [
         "Beat the cooked semolina for a few minutes with a mixer before adding the eggs. Let it cool slightly in the mould first — you will be amazed at how light the cake turns out!"
       ],
-      "history": "Semolina cake is a classic of French family kitchens, passed down from generation to generation. Economical and easy to make with simple everyday ingredients, it has appeared in grandmothers' recipe books since the 19th century."
+      "history": "Full of childhood memories with this semolina cake, especially the smell of the caramel filling the kitchen, and my brothers and cousin all licking their lips."
     },
     "it": {
       "title": "Torta di semolino della nonna",
@@ -208,7 +209,7 @@
       "tips": [
         "Sbattete il semolino cotto per qualche minuto con le fruste prima di aggiungere le uova. Lasciatelo intiepidire nello stampo prima — rimarrete sorpresi dalla leggerezza della torta!"
       ],
-      "history": "La torta di semolino è un classico della cucina di famiglia francese, tramandata di generazione in generazione. Economica e semplice da realizzare con ingredienti quotidiani, compare nei quaderni di ricette delle nonne fin dal XIX secolo."
+      "history": "Tanti ricordi d'infanzia con questa torta di semolino, soprattutto il profumo del caramello che invade la cucina e i miei fratelli e il mio cugino che ci leccavamo i baffi."
     }
   }
 }
