@@ -3644,6 +3644,75 @@
     }
   },
   {
+    "slug": "gateau-de-semoule",
+    "title": "Gâteau de semoule de grand-mère",
+    "description": "Un dessert de grand-mère fondant et réconfortant : une semoule au lait caramélisée, légère comme un nuage grâce aux blancs en neige montés.",
+    "images": {
+      "cover": "images/recipes/gateau-de-semoule/cover.jpg",
+      "web": "images/recipes/gateau-de-semoule/web.jpg"
+    },
+    "prepTime": 20,
+    "cookTime": 20,
+    "servings": 4,
+    "difficulty": "Facile",
+    "category": "Dolci",
+    "tags": [
+      "bain-marie",
+      "four",
+      "végétarien",
+      "moelleux",
+      "fondant",
+      "réconfortant",
+      "nostalgique",
+      "économique",
+      "français",
+      "dessert",
+      "enfants",
+      "toute-la-famille"
+    ],
+    "origin": "pierrick-grandma",
+    "ingredientCount": 8,
+    "stepCount": 7,
+    "translations": {
+      "en": {
+        "title": "Grandma's Semolina Cake",
+        "description": "A comforting grandmother's dessert: silky caramelized semolina pudding, light as a cloud thanks to beaten egg whites.",
+        "tags": [
+          "water-bath",
+          "oven",
+          "vegetarian",
+          "soft",
+          "melt-in-mouth",
+          "comforting",
+          "nostalgic",
+          "budget-friendly",
+          "french",
+          "dessert",
+          "kids",
+          "family"
+        ]
+      },
+      "it": {
+        "title": "Torta di semolino della nonna",
+        "description": "Un dolce della nonna confortante e fondente: semolino al latte caramellato, leggero come una nuvola grazie agli albumi montati a neve.",
+        "tags": [
+          "bagnomaria",
+          "forno",
+          "vegetariano",
+          "morbido",
+          "fondente",
+          "confortante",
+          "nostalgico",
+          "economico",
+          "francese",
+          "dessert",
+          "bambini",
+          "famiglia"
+        ]
+      }
+    }
+  },
+  {
     "slug": "fusilloni-alla-norma",
     "title": "Fusilloni alla Norma",
     "description": "L'aubergine fait sa diva dans ce grand classique sicilien : des fusilloni al dente nappés d'une sauce tomate parfumée au basilic, couronnés d'aubergines frites et d'une généreuse pluie de ricotta salée.",
