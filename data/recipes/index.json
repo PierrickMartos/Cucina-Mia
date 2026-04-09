@@ -3782,5 +3782,79 @@
         ]
       }
     }
+  },
+  {
+    "slug": "biryani-agneau",
+    "title": "Biryani d'agneau",
+    "description": "Un biryani d'agneau parfumé au safran, à la cannelle et aux herbes fraîches, cuit en couches dorées avec du riz basmati grillé.",
+    "images": {
+      "cover": "images/recipes/biryani-agneau/cover.jpg",
+      "web": "images/recipes/biryani-agneau/web.jpg"
+    },
+    "imageCredit": {
+      "author": "MD-OSMAN-GANI",
+      "url": "https://pixabay.com/users/md-osman-gani-39761511/"
+    },
+    "prepTime": 30,
+    "cookTime": 65,
+    "servings": 4,
+    "difficulty": "Medio",
+    "category": "Secondi",
+    "tags": [
+      "agneau",
+      "riz",
+      "four",
+      "plat-principal",
+      "indien",
+      "épicé",
+      "mijoté",
+      "réconfortant",
+      "festif",
+      "safran",
+      "chaud",
+      "convivial",
+      "hiver"
+    ],
+    "ingredientCount": 18,
+    "stepCount": 10,
+    "translations": {
+      "en": {
+        "title": "Lamb Biryani",
+        "description": "A fragrant lamb biryani perfumed with saffron, cinnamon, and fresh herbs, baked in golden layers with toasted basmati rice.",
+        "tags": [
+          "lamb",
+          "rice",
+          "oven",
+          "main-course",
+          "indian",
+          "spiced",
+          "braised",
+          "comforting",
+          "festive",
+          "saffron",
+          "hot",
+          "sharing",
+          "winter"
+        ]
+      },
+      "it": {
+        "title": "Biryani di agnello",
+        "description": "Un profumato biryani di agnello aromatizzato con zafferano, cannella ed erbe fresche, cotto in strati dorati con riso basmati tostato.",
+        "tags": [
+          "agnello",
+          "riso",
+          "forno",
+          "piatto-principale",
+          "indiano",
+          "speziato",
+          "stufato",
+          "confortante",
+          "festivo",
+          "zafferano",
+          "caldo",
+          "da-condividere",
+          "inverno"        ]
+      }
+    }
   }
 ]
