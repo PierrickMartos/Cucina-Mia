@@ -6,7 +6,7 @@
     "about": "À propos"
   },
   "home": {
-    "subtitle": "Recettes maison, de grand-mère, de grand-père, de belle-mère, de maman, de papa, des internets ou d'ailleurs",
+    "subtitle": "Recettes de grand-mère, de grand-père, de belle-mère, de maman, de papa, des internets ou d'ailleurs",
     "title": "Buon appetito",
     "searchPlaceholder": "Chercher une recette..."
   },
@@ -24,7 +24,7 @@
   },
   "recipes": {
     "title": "Recettes",
-    "description": "Recettes maison, de grand-mère, de grand-père, de belle-mère, de maman, de papa, des internets ou d'ailleurs",
+    "description": "Recettes de grand-mère, de grand-père, de belle-mère, de maman, de papa, des internets ou d'ailleurs",
     "noResults": "Mamma mia, rien dans les casseroles !",
     "noResultsHint": "Essayez d'autres filtres.",
     "searchPlaceholder": "Chercher des recettes..."
