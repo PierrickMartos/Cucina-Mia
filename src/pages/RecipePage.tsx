@@ -136,14 +136,16 @@ export function RecipePage() {
     setError(null)
     fetch(`${BASE}data/recipes/${slug}.json`)
       .then((res) => {
-        if (!res.ok) throw new Error("Not found")
-        return res.json()
-      })
-      .then((data) => {
-        if (!cancelled) {
-          setRawRecipe(data)
-          setLoading(false)
+        if (!res.ok) {
+          if (!cancelled) setLoading(false)
+          return
         }
+        return res.json().then((data) => {
+          if (!cancelled) {
+            setRawRecipe(data)
+            setLoading(false)
+          }
+        })
       })
       .catch(() => {
         if (!cancelled) {
@@ -423,6 +425,15 @@ export function RecipePage() {
       </motion.div>
 
       <div className="px-6 mt-8">
+
+      {/* History */}
+      {recipe.history && (
+        <section className="relative mb-8 rounded-[1.5rem] bg-surface-low px-8 py-7 overflow-hidden max-w-4xl mx-auto">
+          <BookOpen className="absolute right-6 bottom-4 h-24 w-24 text-primary opacity-[0.07] pointer-events-none" strokeWidth={1.5} />
+          <h2 className="font-headline text-xl font-bold mb-4 tracking-[-0.02em] text-primary">{t("recipe.history")}</h2>
+          <p className="text-sm leading-relaxed text-foreground italic">{recipe.history}</p>
+        </section>
+      )}
 
       {/* Tab Switcher — hidden on large screens */}
       <motion.div
@@ -708,15 +719,6 @@ export function RecipePage() {
               <p key={i} className="text-sm leading-relaxed text-foreground">{tip}</p>
             ))}
           </div>
-        </section>
-      )}
-
-      {/* History */}
-      {recipe.history && (
-        <section className="relative mb-8 rounded-[1.5rem] bg-surface-low px-8 py-7 overflow-hidden max-w-4xl mx-auto">
-          <BookOpen className="absolute right-6 bottom-4 h-24 w-24 text-primary opacity-[0.07] pointer-events-none" strokeWidth={1.5} />
-          <h2 className="font-headline text-xl font-bold mb-4 tracking-[-0.02em] text-primary">{t("recipe.history")}</h2>
-          <p className="text-sm leading-relaxed text-foreground italic">{recipe.history}</p>
         </section>
       )}
 

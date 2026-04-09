@@ -182,7 +182,7 @@ describe("RecipesPage", () => {
     await user.type(input, "xyznotarecipe")
 
     await waitFor(() => {
-      expect(screen.getByText("No recipe found")).toBeInTheDocument()
+      expect(screen.getByText("Mamma mia, the pot is empty!")).toBeInTheDocument()
     })
   })
 })
