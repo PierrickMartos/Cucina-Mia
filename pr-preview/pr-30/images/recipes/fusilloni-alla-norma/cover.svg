@@ -1,0 +1,108 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <defs>
+    <radialGradient id="fnbg" cx="50%" cy="45%" r="70%"><stop offset="0%" stop-color="#2e2822"/><stop offset="100%" stop-color="#1a1510"/></radialGradient>
+    <radialGradient id="fnplate" cx="50%" cy="40%" r="55%"><stop offset="0%" stop-color="#f5f0e8"/><stop offset="100%" stop-color="#ddd5c5"/></radialGradient>
+    <radialGradient id="fnsauce" cx="50%" cy="55%" r="60%"><stop offset="0%" stop-color="#c03418"/><stop offset="100%" stop-color="#8a1e0a"/></radialGradient>
+    <radialGradient id="fnegg" cx="50%" cy="50%" r="50%"><stop offset="0%" stop-color="#5a2860"/><stop offset="100%" stop-color="#3a1840"/></radialGradient>
+  </defs>
+  <!-- Background -->
+  <rect width="800" height="600" fill="url(#fnbg)"/>
+  <!-- Plate shadow -->
+  <ellipse cx="400" cy="492" rx="218" ry="28" fill="#0d0a07" opacity="0.5"/>
+  <!-- Plate -->
+  <ellipse cx="400" cy="388" rx="218" ry="114" fill="url(#fnplate)"/>
+  <ellipse cx="400" cy="388" rx="207" ry="104" fill="none" stroke="#c8bfaa" stroke-width="1.5" opacity="0.5"/>
+  <!-- Tomato sauce pool -->
+  <ellipse cx="400" cy="408" rx="162" ry="62" fill="url(#fnsauce)" opacity="0.80"/>
+  <!-- Eggplant chunks -->
+  <g fill="url(#fnegg)" opacity="0.90">
+    <rect x="255" y="380" width="44" height="32" rx="7"/>
+    <rect x="268" y="382" width="44" height="32" rx="7" fill="#4a2052" opacity="0.6"/>
+    <rect x="470" y="375" width="40" height="30" rx="7"/>
+    <rect x="482" y="377" width="40" height="30" rx="7" fill="#4a2052" opacity="0.6"/>
+    <rect x="370" y="430" width="38" height="28" rx="6"/>
+    <rect x="310" y="418" width="34" height="26" rx="6"/>
+    <rect x="448" y="422" width="36" height="27" rx="6"/>
+  </g>
+  <!-- Eggplant skin highlight -->
+  <g fill="#6a3070" opacity="0.35">
+    <ellipse cx="277" cy="390" rx="16" ry="6"/>
+    <ellipse cx="490" cy="385" rx="14" ry="5"/>
+    <ellipse cx="389" cy="440" rx="13" ry="5"/>
+  </g>
+  <!-- Fusilloni spirals - back row -->
+  <g opacity="0.88">
+    <!-- Fusillo 1 -->
+    <ellipse cx="308" cy="358" rx="16" ry="10" fill="#e8c860" stroke="#c8a030" stroke-width="1"/>
+    <path d="M293,358 Q300,348 308,358 Q316,368 323,358" fill="none" stroke="#d4a828" stroke-width="3" stroke-linecap="round"/>
+    <path d="M293,362 Q300,352 308,362 Q316,372 323,362" fill="none" stroke="#c09020" stroke-width="2" stroke-linecap="round" opacity="0.5"/>
+    <rect x="292" y="354" width="32" height="40" rx="6" fill="#e0bc58" stroke="#c0a028" stroke-width="1" opacity="0.7"/>
+    <path d="M292,364 Q300,354 308,364 Q316,374 324,364" fill="none" stroke="#d4a830" stroke-width="2.5" stroke-linecap="round"/>
+    <path d="M292,372 Q300,362 308,372 Q316,382 324,372" fill="none" stroke="#c89820" stroke-width="2" stroke-linecap="round" opacity="0.6"/>
+    <ellipse cx="308" cy="394" rx="16" ry="10" fill="#c8a030" opacity="0.4"/>
+    <!-- Fusillo 2 -->
+    <rect x="346" y="346" width="32" height="42" rx="6" fill="#ddb850" stroke="#b89828" stroke-width="1" opacity="0.85"/>
+    <path d="M346,356 Q354,346 362,356 Q370,366 378,356" fill="none" stroke="#c8a828" stroke-width="2.5" stroke-linecap="round"/>
+    <path d="M346,364 Q354,354 362,364 Q370,374 378,364" fill="none" stroke="#b89020" stroke-width="2" stroke-linecap="round" opacity="0.6"/>
+    <path d="M346,372 Q354,362 362,372 Q370,382 378,372" fill="none" stroke="#a88018" stroke-width="1.8" stroke-linecap="round" opacity="0.5"/>
+    <ellipse cx="362" cy="346" rx="16" ry="9" fill="#d4a830" stroke="#b89020" stroke-width="0.8"/>
+    <ellipse cx="362" cy="388" rx="16" ry="9" fill="#b88820" opacity="0.45"/>
+    <!-- Fusillo 3 -->
+    <rect x="420" y="346" width="32" height="42" rx="6" fill="#e2bc58" stroke="#c09828" stroke-width="1" opacity="0.85"/>
+    <path d="M420,356 Q428,346 436,356 Q444,366 452,356" fill="none" stroke="#cca828" stroke-width="2.5" stroke-linecap="round"/>
+    <path d="M420,364 Q428,354 436,364 Q444,374 452,364" fill="none" stroke="#b89020" stroke-width="2" stroke-linecap="round" opacity="0.6"/>
+    <path d="M420,372 Q428,362 436,372 Q444,382 452,372" fill="none" stroke="#a88018" stroke-width="1.8" stroke-linecap="round" opacity="0.5"/>
+    <ellipse cx="436" cy="346" rx="16" ry="9" fill="#d8b030" stroke="#b89020" stroke-width="0.8"/>
+    <ellipse cx="436" cy="388" rx="16" ry="9" fill="#b88820" opacity="0.45"/>
+    <!-- Fusillo 4 -->
+    <rect x="474" y="352" width="32" height="40" rx="6" fill="#e8c860" stroke="#c8a030" stroke-width="1" opacity="0.82"/>
+    <path d="M474,362 Q482,352 490,362 Q498,372 506,362" fill="none" stroke="#d4a828" stroke-width="2.5" stroke-linecap="round"/>
+    <path d="M474,370 Q482,360 490,370 Q498,380 506,370" fill="none" stroke="#c09020" stroke-width="2" stroke-linecap="round" opacity="0.6"/>
+    <ellipse cx="490" cy="352" rx="16" ry="9" fill="#d4a830" stroke="#b89020" stroke-width="0.8"/>
+    <ellipse cx="490" cy="392" rx="16" ry="9" fill="#b88820" opacity="0.4"/>
+  </g>
+  <!-- Tomato sauce splashes -->
+  <g fill="#c03010" opacity="0.65">
+    <ellipse cx="340" cy="400" rx="24" ry="12" transform="rotate(-12,340,400)"/>
+    <ellipse cx="420" cy="385" rx="20" ry="11" transform="rotate(8,420,385)"/>
+    <ellipse cx="350" cy="368" rx="16" ry="8" transform="rotate(-5,350,368)"/>
+  </g>
+  <!-- Front fusilloni -->
+  <g opacity="0.95">
+    <!-- Fusillo front A -->
+    <rect x="358" y="390" width="34" height="44" rx="7" fill="#eecb68" stroke="#c8a830" stroke-width="1.2"/>
+    <path d="M358,400 Q367,390 375,400 Q383,410 392,400" fill="none" stroke="#d4a830" stroke-width="3" stroke-linecap="round"/>
+    <path d="M358,408 Q367,398 375,408 Q383,418 392,408" fill="none" stroke="#c09020" stroke-width="2.2" stroke-linecap="round" opacity="0.65"/>
+    <path d="M358,416 Q367,406 375,416 Q383,426 392,416" fill="none" stroke="#b08018" stroke-width="1.8" stroke-linecap="round" opacity="0.5"/>
+    <ellipse cx="375" cy="390" rx="17" ry="10" fill="#dab840" stroke="#c0a020" stroke-width="0.9"/>
+    <ellipse cx="375" cy="434" rx="17" ry="10" fill="#b89028" opacity="0.5"/>
+    <!-- Fusillo front B -->
+    <rect x="406" y="382" width="34" height="44" rx="7" fill="#f0d070" stroke="#c8a830" stroke-width="1.2"/>
+    <path d="M406,392 Q415,382 423,392 Q431,402 440,392" fill="none" stroke="#d8b030" stroke-width="3" stroke-linecap="round"/>
+    <path d="M406,400 Q415,390 423,400 Q431,410 440,400" fill="none" stroke="#c29820" stroke-width="2.2" stroke-linecap="round" opacity="0.65"/>
+    <path d="M406,408 Q415,398 423,408 Q431,418 440,408" fill="none" stroke="#b08018" stroke-width="1.8" stroke-linecap="round" opacity="0.5"/>
+    <ellipse cx="423" cy="382" rx="17" ry="10" fill="#debb40" stroke="#c2a020" stroke-width="0.9"/>
+    <ellipse cx="423" cy="426" rx="17" ry="10" fill="#ba9228" opacity="0.5"/>
+  </g>
+  <!-- Ricotta salata crumbles -->
+  <g fill="#f2ede0" opacity="0.85">
+    <ellipse cx="340" cy="355" rx="9" ry="4" transform="rotate(20,340,355)"/>
+    <ellipse cx="390" cy="342" rx="7" ry="3" transform="rotate(-10,390,342)"/>
+    <ellipse cx="450" cy="348" rx="8" ry="3.5" transform="rotate(15,450,348)"/>
+    <ellipse cx="480" cy="415" rx="7" ry="3" transform="rotate(-20,480,415)"/>
+    <ellipse cx="300" cy="435" rx="8" ry="3" transform="rotate(8,300,435)"/>
+    <ellipse cx="410" cy="450" rx="9" ry="3.5" transform="rotate(-5,410,450)"/>
+    <ellipse cx="360" cy="460" rx="6" ry="2.5" transform="rotate(12,360,460)"/>
+    <ellipse cx="510" cy="395" rx="7" ry="3" transform="rotate(-15,510,395)"/>
+  </g>
+  <!-- Basil leaves -->
+  <g transform="translate(370, 340) rotate(-15)"><path d="M0,0 Q-11,-18 0,-30 Q11,-18 0,0Z" fill="#2d7a2d"/><path d="M0,-15 L0,-28" stroke="#1e5c1e" stroke-width="0.8" fill="none" opacity="0.5"/></g>
+  <g transform="translate(385, 336) rotate(18)"><path d="M0,0 Q-9,-14 0,-24 Q9,-14 0,0Z" fill="#35882e"/></g>
+  <g transform="translate(430, 344) rotate(-8)"><path d="M0,0 Q-8,-13 0,-22 Q8,-13 0,0Z" fill="#2a6e28"/></g>
+  <!-- Steam -->
+  <g stroke="#f5f0e0" stroke-width="1.5" fill="none" opacity="0.09">
+    <path d="M340,332 Q335,312 345,292 Q355,272 345,252"/>
+    <path d="M410,326 Q405,306 415,286 Q425,266 415,246"/>
+    <path d="M470,334 Q465,314 475,294 Q485,274 475,254"/>
+  </g>
+</svg>

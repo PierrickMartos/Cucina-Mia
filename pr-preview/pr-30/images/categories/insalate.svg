@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <defs>
+    <radialGradient id="bg" cx="50%" cy="40%" r="70%">
+      <stop offset="0%" stop-color="#FFFDE7"/>
+      <stop offset="100%" stop-color="#F0E68C"/>
+    </radialGradient>
+    <radialGradient id="bowl" cx="50%" cy="40%" r="50%">
+      <stop offset="0%" stop-color="#FFF8F0"/>
+      <stop offset="100%" stop-color="#D4C4A8"/>
+    </radialGradient>
+    <linearGradient id="leaf" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#66BB6A"/>
+      <stop offset="100%" stop-color="#388E3C"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="600" fill="url(#bg)"/>
+  <!-- Table -->
+  <rect x="0" y="400" width="800" height="200" fill="#E8DCC8"/>
+  <!-- Bowl -->
+  <ellipse cx="400" cy="350" rx="220" ry="130" fill="url(#bowl)"/>
+  <ellipse cx="400" cy="330" rx="210" ry="115" fill="#FAF8F2"/>
+  <!-- Greens -->
+  <ellipse cx="400" cy="315" rx="185" ry="90" fill="#AED581" opacity="0.5"/>
+  <!-- Lettuce leaves -->
+  <path d="M 300 300 Q 330 260 370 280 Q 350 310 300 300Z" fill="url(#leaf)" opacity="0.8"/>
+  <path d="M 420 280 Q 460 250 490 275 Q 470 305 420 280Z" fill="url(#leaf)" opacity="0.7"/>
+  <path d="M 340 340 Q 310 310 340 300 Q 360 320 340 340Z" fill="url(#leaf)" opacity="0.75"/>
+  <path d="M 460 330 Q 490 300 510 320 Q 495 345 460 330Z" fill="url(#leaf)" opacity="0.7"/>
+  <!-- Tomatoes -->
+  <circle cx="350" cy="300" r="22" fill="#EF5350"/>
+  <circle cx="350" cy="300" r="15" fill="#FF7043" opacity="0.4"/>
+  <circle cx="460" cy="310" r="18" fill="#EF5350"/>
+  <circle cx="400" cy="340" r="16" fill="#E53935"/>
+  <!-- Mozzarella -->
+  <circle cx="380" cy="280" r="16" fill="#FAFAFA" stroke="#E0E0E0" stroke-width="1"/>
+  <circle cx="430" cy="320" r="14" fill="#FAFAFA" stroke="#E0E0E0" stroke-width="1"/>
+  <!-- Olives -->
+  <ellipse cx="320" cy="325" rx="8" ry="6" fill="#33691E"/>
+  <ellipse cx="480" cy="295" rx="7" ry="5" fill="#33691E"/>
+  <!-- Basil -->
+  <path d="M 405 275 Q 415 260 425 275 Q 415 285 405 275Z" fill="#43A047"/>
+  <path d="M 350 345 Q 340 330 355 328 Q 362 340 350 345Z" fill="#43A047"/>
+  <!-- Oil drizzle -->
+  <path d="M 320 290 Q 380 280 440 300 Q 480 310 500 300" stroke="#FFD54F" stroke-width="2.5" fill="none" opacity="0.5" stroke-linecap="round"/>
+  <!-- Sun -->
+  <circle cx="680" cy="80" r="50" fill="#FFF176" opacity="0.6"/>
+  <circle cx="680" cy="80" r="35" fill="#FFEE58" opacity="0.4"/>
+</svg>

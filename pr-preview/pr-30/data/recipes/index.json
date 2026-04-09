@@ -3321,6 +3321,469 @@
     }
   },
   {
+    "slug": "poulet-tandoori",
+    "title": "Poulet tandoori",
+    "description": "Un grand classique de la cuisine indienne qui devient sublime lorsque l'on prépare soi-même la poudre tandoori.",
+    "images": {
+      "cover": "images/recipes/poulet-tandoori/cover.jpg",
+      "web": "images/recipes/poulet-tandoori/web.jpg"
+    },
+    "prepTime": 15,
+    "cookTime": 35,
+    "servings": 4,
+    "difficulty": "Facile",
+    "category": "Secondi",
+    "tags": [
+      "four",
+      "indien",
+      "poulet",
+      "facile",
+      "plat-principal",
+      "épicé",
+      "chaud",
+      "préparation-à-lavance",
+      "sans-gluten",
+      "été"
+    ],
+    "ingredientCount": 5,
+    "stepCount": 3,
+    "translations": {
+      "en": {
+        "title": "Tandoori Chicken",
+        "description": "A great classic of Indian cuisine that becomes sublime when you prepare the tandoori powder yourself.",
+        "tags": [
+          "oven",
+          "indian",
+          "chicken",
+          "easy",
+          "main-course",
+          "spicy",
+          "hot",
+          "make-ahead",
+          "gluten-free",
+          "summer"
+        ]
+      },
+      "it": {
+        "title": "Pollo tandoori",
+        "description": "Un grande classico della cucina indiana che diventa sublime quando si prepara la polvere tandoori in casa.",
+        "tags": [
+          "forno",
+          "indiano",
+          "pollo",
+          "facile",
+          "piatto-principale",
+          "speziato",
+          "caldo",
+          "preparazione-anticipata",
+          "senza-glutine",
+          "estate"
+        ]
+      }
+    }
+  },
+  {
+    "slug": "pesto-presto",
+    "title": "Pesto Presto",
+    "description": "Busiate col pesto alla trapanese, une pâte sicilienne en spirale servie avec un pesto à base de tomates confites, amandes, basilic et pecorino, spécialité de Trapani.",
+    "images": {
+      "cover": "images/recipes/pesto-presto/cover.jpg",
+      "web": "images/recipes/pesto-presto/web.jpg"
+    },
+    "prepTime": 45,
+    "cookTime": 150,
+    "servings": 4,
+    "difficulty": "Medio",
+    "category": "Pasta",
+    "tags": [
+      "pâtes",
+      "tomates",
+      "basilic",
+      "amandes",
+      "sicilien",
+      "méditerranéen",
+      "végétarien",
+      "four",
+      "plat-principal",
+      "été",
+      "italien",
+      "festif",
+      "léger"
+    ],
+    "translations": {
+      "en": {
+        "title": "Pesto Presto",
+        "description": "Busiate pasta with Trapanese pesto, a Sicilian specialty made with slow-roasted tomatoes, almonds, basil, and pecorino from the province of Trapani.",
+        "tags": [
+          "pasta",
+          "tomatoes",
+          "basil",
+          "almonds",
+          "sicilian",
+          "mediterranean",
+          "vegetarian",
+          "oven",
+          "main-course",
+          "summer",
+          "italian",
+          "festive",
+          "light"
+        ]
+      },
+      "it": {
+        "title": "Pesto Presto",
+        "description": "Busiate col pesto alla trapanese, specialità siciliana con pomodori confit, mandorle, basilico e pecorino, tipica della provincia di Trapani.",
+        "tags": [
+          "pasta",
+          "pomodori",
+          "basilico",
+          "mandorle",
+          "siciliano",
+          "mediterraneo",
+          "vegetariano",
+          "forno",
+          "primo-piatto",
+          "estate",
+          "italiano",
+          "festivo",
+          "leggero"
+        ]
+      }
+    },
+    "stepCount": 7,
+    "ingredientCount": 14
+  },
+  {
+    "slug": "naans-nature",
+    "title": "Naans nature",
+    "description": "Pain levé d'origine indienne, léger et moelleux, cuit à la poêle et généreusement badigeonné de ghee fondu.",
+    "images": {
+      "cover": "images/recipes/naans-nature/cover.jpg",
+      "web": "images/recipes/naans-nature/web.jpg"
+    },
+    "prepTime": 20,
+    "cookTime": 30,
+    "servings": 4,
+    "difficulty": "Medio",
+    "category": "Pane",
+    "tags": [
+      "poêle",
+      "indien",
+      "végétarien",
+      "moelleux",
+      "à-partager",
+      "réconfortant",
+      "économique",
+      "chaud"
+    ],
+    "ingredientCount": 6,
+    "stepCount": 4,
+    "translations": {
+      "en": {
+        "title": "Plain Naans",
+        "description": "Indian leavened bread, light and fluffy, pan-cooked and generously brushed with melted ghee.",
+        "tags": [
+          "pan-fried",
+          "indian",
+          "vegetarian",
+          "soft",
+          "shareable",
+          "comforting",
+          "budget-friendly",
+          "warm"
+        ]
+      },
+      "it": {
+        "title": "Naan semplici",
+        "description": "Pane lievitato indiano, leggero e soffice, cotto in padella e generosamente spennellato con ghee fuso.",
+        "tags": [
+          "padella",
+          "indiano",
+          "vegetariano",
+          "morbido",
+          "da-condividere",
+          "confortante",
+          "economico",
+          "caldo"
+        ]
+      }
+    }
+  },
+  {
+    "slug": "naans-au-fromage",
+    "title": "Naans au fromage",
+    "description": "Des naans moelleux fourrés au fromage fondant, inspirés du cheese naan parisien à décliner avec comté, cheddar ou bleu.",
+    "images": {
+      "cover": "images/recipes/naans-au-fromage/cover.jpg",
+      "web": "images/recipes/naans-au-fromage/web.jpg"
+    },
+    "imageCredit": {
+      "author": "2SIF",
+      "url": "https://pixabay.com/users/2SIF-26811215/"
+    },
+    "prepTime": 20,
+    "cookTime": 30,
+    "servings": 4,
+    "difficulty": "Medio",
+    "category": "Pane",
+    "tags": [
+      "poêle",
+      "végétarien",
+      "fromage",
+      "indien",
+      "moelleux",
+      "réconfortant",
+      "convivial",
+      "toute-la-famille",
+      "préparation-à-lavance",
+      "fait-maison"
+    ],
+    "translations": {
+      "en": {
+        "title": "Cheese Naans",
+        "description": "Soft naans stuffed with melting cheese, inspired by the Parisian cheese naan, to vary with comté, cheddar or blue cheese.",
+        "tags": [
+          "pan",
+          "vegetarian",
+          "cheese",
+          "indian",
+          "soft",
+          "comforting",
+          "convivial",
+          "family",
+          "make-ahead",
+          "homemade"
+        ]
+      },
+      "it": {
+        "title": "Naan al formaggio",
+        "description": "Naan morbidi ripieni di formaggio fondente, ispirati al cheese naan parigino, da variare con comté, cheddar o gorgonzola.",
+        "tags": [
+          "padella",
+          "vegetariano",
+          "formaggio",
+          "indiano",
+          "morbido",
+          "confortante",
+          "conviviale",
+          "tutta-la-famiglia",
+          "preparazione-anticipata",
+          "fatto-in-casa"
+        ]
+      }
+    },
+    "stepCount": 5,
+    "ingredientCount": 8
+  },
+  {
+    "slug": "caprese-di-tuffoli",
+    "title": "Caprese di tuffoli",
+    "description": "Salade de pâtes estivale aux tomates multicolores marinées, mozzarella di bufala et basilic frais — un must romain qui se mange froid.",
+    "images": {
+      "cover": "images/recipes/caprese-di-tuffoli/cover.jpg",
+      "web": "images/recipes/caprese-di-tuffoli/web.jpg"
+    },
+    "prepTime": 20,
+    "cookTime": 40,
+    "servings": 4,
+    "difficulty": "Facile",
+    "category": "Insalate",
+    "tags": [
+      "pâtes",
+      "salade",
+      "été",
+      "froid",
+      "végétarien",
+      "italien",
+      "fromage",
+      "facile",
+      "plat-principal",
+      "rapide",
+      "méditerranéen",
+      "tomates"
+    ],
+    "ingredientCount": 7,
+    "stepCount": 4,
+    "translations": {
+      "en": {
+        "title": "Tuffoli Caprese Salad",
+        "description": "A summery pasta salad with marinated multicolour tomatoes, buffalo mozzarella and fresh basil — a Roman cold dish that is a true must.",
+        "tags": [
+          "pasta",
+          "salad",
+          "summer",
+          "cold",
+          "vegetarian",
+          "italian",
+          "cheese",
+          "easy",
+          "main-course",
+          "quick",
+          "mediterranean",
+          "tomatoes"
+        ]
+      },
+      "it": {
+        "title": "Caprese di tuffoli",
+        "description": "Insalata di pasta estiva con pomodorini multicolori marinati, mozzarella di bufala e basilico fresco — un must romano da gustare freddo.",
+        "tags": [
+          "pasta",
+          "insalata",
+          "estate",
+          "freddo",
+          "vegetariano",
+          "italiano",
+          "formaggio",
+          "facile",
+          "primo-piatto",
+          "veloce",
+          "mediterraneo",
+          "pomodori"
+        ]
+      }
+    }
+  },
+  {
+    "slug": "gateau-de-semoule",
+    "title": "Gâteau de semoule de grand-mère",
+    "description": "Un dessert de grand-mère fondant et réconfortant : une semoule au lait caramélisée, légère comme un nuage grâce aux blancs en neige montés.",
+    "images": {
+      "cover": "images/recipes/gateau-de-semoule/cover.jpg",
+      "web": "images/recipes/gateau-de-semoule/web.jpg"
+    },
+    "prepTime": 20,
+    "cookTime": 20,
+    "servings": 4,
+    "difficulty": "Facile",
+    "category": "Dolci",
+    "tags": [
+      "bain-marie",
+      "four",
+      "végétarien",
+      "moelleux",
+      "fondant",
+      "réconfortant",
+      "nostalgique",
+      "économique",
+      "français",
+      "dessert",
+      "enfants",
+      "toute-la-famille"
+    ],
+    "origin": "pierrick-grandma",
+    "ingredientCount": 8,
+    "stepCount": 7,
+    "translations": {
+      "en": {
+        "title": "Grandma's Semolina Cake",
+        "description": "A comforting grandmother's dessert: silky caramelized semolina pudding, light as a cloud thanks to beaten egg whites.",
+        "tags": [
+          "water-bath",
+          "oven",
+          "vegetarian",
+          "soft",
+          "melt-in-mouth",
+          "comforting",
+          "nostalgic",
+          "budget-friendly",
+          "french",
+          "dessert",
+          "kids",
+          "family"
+        ]
+      },
+      "it": {
+        "title": "Torta di semolino della nonna",
+        "description": "Un dolce della nonna confortante e fondente: semolino al latte caramellato, leggero come una nuvola grazie agli albumi montati a neve.",
+        "tags": [
+          "bagnomaria",
+          "forno",
+          "vegetariano",
+          "morbido",
+          "fondente",
+          "confortante",
+          "nostalgico",
+          "economico",
+          "francese",
+          "dessert",
+          "bambini",
+          "famiglia"
+        ]
+      }
+    }
+  },
+  {
+    "slug": "fusilloni-alla-norma",
+    "title": "Fusilloni alla Norma",
+    "description": "L'aubergine fait sa diva dans ce grand classique sicilien : des fusilloni al dente nappés d'une sauce tomate parfumée au basilic, couronnés d'aubergines frites et d'une généreuse pluie de ricotta salée.",
+    "images": {
+      "cover": "images/recipes/fusilloni-alla-norma/cover.jpg",
+      "web": "images/recipes/fusilloni-alla-norma/web.jpg"
+    },
+    "prepTime": 30,
+    "cookTime": 30,
+    "servings": 4,
+    "difficulty": "Facile",
+    "category": "Pasta",
+    "tags": [
+      "pâtes",
+      "aubergine",
+      "fromage",
+      "italien",
+      "sicilien",
+      "méditerranéen",
+      "végétarien",
+      "friture",
+      "plat-principal",
+      "chaud",
+      "réconfortant",
+      "été",
+      "économique"
+    ],
+    "ingredientCount": 8,
+    "stepCount": 5,
+    "translations": {
+      "en": {
+        "title": "Fusilloni alla Norma",
+        "description": "The eggplant takes center stage in this great Sicilian classic: al dente fusilloni coated in a basil-scented tomato sauce, crowned with fried eggplant and a generous shower of ricotta salata.",
+        "tags": [
+          "pasta",
+          "eggplant",
+          "cheese",
+          "italian",
+          "sicilian",
+          "mediterranean",
+          "vegetarian",
+          "fried",
+          "main-course",
+          "hot",
+          "comforting",
+          "summer",
+          "budget-friendly"
+        ]
+      },
+      "it": {
+        "title": "Fusilloni alla Norma",
+        "description": "La melanzana recita da protagonista in questo grande classico siciliano: fusilloni al dente con salsa di pomodoro al basilico, melanzane fritte e una generosa nevicata di ricotta salata.",
+        "tags": [
+          "pasta",
+          "melanzane",
+          "formaggio",
+          "italiano",
+          "siciliano",
+          "mediterraneo",
+          "vegetariano",
+          "fritto",
+          "primo-piatto",
+          "caldo",
+          "confortante",
+          "estate",
+          "economico"
+        ]
+      }
+    }
+  },
+  {
     "slug": "biryani-agneau",
     "title": "Biryani d'agneau",
     "description": "Un biryani d'agneau parfumé au safran, à la cannelle et aux herbes fraîches, cuit en couches dorées avec du riz basmati grillé.",
@@ -3390,8 +3853,7 @@
           "zafferano",
           "caldo",
           "da-condividere",
-          "inverno"
-        ]
+          "inverno"        ]
       }
     }
   }
