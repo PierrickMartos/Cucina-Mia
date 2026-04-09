@@ -35,14 +35,15 @@ export function RecipesPage() {
     if (cat) return [cat]
     return loadFilters().categories ?? []
   })
-  const [selectedDifficulties, setSelectedDifficulties] = useState<string[]>(() => loadFilters().difficulties ?? [])
-  const [selectedTimes, setSelectedTimes] = useState<TimeBucket[]>(() => loadFilters().times ?? [])
-  const [selectedPrepTimes, setSelectedPrepTimes] = useState<PrepTimeBucket[]>(() => loadFilters().prepTimes ?? [])
-  const [selectedSteps, setSelectedSteps] = useState<StepsBucket[]>(() => loadFilters().steps ?? [])
-  const [selectedIngredients, setSelectedIngredients] = useState<IngredientsBucket[]>(() => loadFilters().ingredients ?? [])
-  const [selectedDietTags, setSelectedDietTags] = useState<string[]>(() => loadFilters().dietTags ?? [])
-  const [selectedSeasonTags, setSelectedSeasonTags] = useState<string[]>(() => loadFilters().seasonTags ?? [])
-  const [selectedOrigins, setSelectedOrigins] = useState<string[]>(() => loadFilters().origins ?? [])
+  const fromCategory = searchParams.get("category") !== null
+  const [selectedDifficulties, setSelectedDifficulties] = useState<string[]>(() => fromCategory ? [] : loadFilters().difficulties ?? [])
+  const [selectedTimes, setSelectedTimes] = useState<TimeBucket[]>(() => fromCategory ? [] : loadFilters().times ?? [])
+  const [selectedPrepTimes, setSelectedPrepTimes] = useState<PrepTimeBucket[]>(() => fromCategory ? [] : loadFilters().prepTimes ?? [])
+  const [selectedSteps, setSelectedSteps] = useState<StepsBucket[]>(() => fromCategory ? [] : loadFilters().steps ?? [])
+  const [selectedIngredients, setSelectedIngredients] = useState<IngredientsBucket[]>(() => fromCategory ? [] : loadFilters().ingredients ?? [])
+  const [selectedDietTags, setSelectedDietTags] = useState<string[]>(() => fromCategory ? [] : loadFilters().dietTags ?? [])
+  const [selectedSeasonTags, setSelectedSeasonTags] = useState<string[]>(() => fromCategory ? [] : loadFilters().seasonTags ?? [])
+  const [selectedOrigins, setSelectedOrigins] = useState<string[]>(() => fromCategory ? [] : loadFilters().origins ?? [])
   const [showCleared, setShowCleared] = useState(false)
   const clearTimeoutRef = useRef<ReturnType<typeof setTimeout> | null>(null)
   const { t, i18n } = useTranslation()
