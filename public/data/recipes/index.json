@@ -3345,7 +3345,7 @@
       "sans-gluten",
       "été"
     ],
-    "ingredientCount": 5,
+    "ingredientCount": 6,
     "stepCount": 3,
     "translations": {
       "en": {
@@ -3853,7 +3853,73 @@
           "zafferano",
           "caldo",
           "da-condividere",
-          "inverno"        ]
+          "inverno"
+        ]
+      }
+    }
+  },
+  {
+    "slug": "spaghettis-alla-vittorio",
+    "title": "Spaghettis alla Vittorio",
+    "description": "Des spaghettis aux tomates datterino, Parmigiano Reggiano et basilic, inspirés du restaurant étoilé Da Vittorio près de Bergame.",
+    "images": {
+      "cover": "images/recipes/spaghettis-alla-vittorio/cover.jpg",
+      "web": "images/recipes/spaghettis-alla-vittorio/cover.jpg"
+    },
+    "prepTime": 15,
+    "cookTime": 25,
+    "servings": 4,
+    "difficulty": "Facile",
+    "category": "Pasta",
+    "tags": [
+      "pâtes",
+      "tomates",
+      "fromage",
+      "italien",
+      "plat-principal",
+      "végétarien",
+      "poêle",
+      "rapide",
+      "réconfortant",
+      "chaud",
+      "basilic"
+    ],
+    "ingredientCount": 9,
+    "stepCount": 4,
+    "translations": {
+      "en": {
+        "title": "Spaghetti alla Vittorio",
+        "description": "Spaghetti with datterino tomatoes, Parmigiano Reggiano and basil, inspired by the Michelin-starred Da Vittorio restaurant near Bergamo.",
+        "tags": [
+          "pasta",
+          "tomatoes",
+          "cheese",
+          "italian",
+          "main-course",
+          "vegetarian",
+          "pan",
+          "quick",
+          "comforting",
+          "hot",
+          "basil"
+        ]
+      },
+      "it": {
+        "title": "Spaghetti alla Vittorio",
+        "description": "Spaghetti con pomodori datterini, Parmigiano Reggiano e basilico, ispirati al ristorante stellato Da Vittorio vicino a Bergamo.",
+        "tags": [
+          "pasta",
+          "pomodori",
+          "formaggio",
+          "italiano",
+          "piatto-principale",
+          "vegetariano",
+          "padella",
+          "veloce",
+          "confortante",
+          "caldo",
+          "basilico"
+        ]
       }
     }
   }
