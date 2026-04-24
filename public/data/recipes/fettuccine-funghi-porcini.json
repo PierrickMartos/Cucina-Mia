@@ -1,0 +1,230 @@
+{
+  "slug": "fettuccine-funghi-porcini",
+  "title": "Fettuccine funghi porcini",
+  "description": "Des fettuccine maison aux cèpes, nappées d'une sauce au beurre, ail et huile d'olive, avec une touche de persil et de parmesan.",
+  "images": {
+    "cover": "images/recipes/fettuccine-funghi-porcini/cover.jpg",
+    "web": "images/recipes/fettuccine-funghi-porcini/web.jpg"
+  },
+  "prepTime": 60,
+  "cookTime": 20,
+  "servings": 4,
+  "difficulty": "Medio",
+  "category": "Pasta",
+  "tags": [
+    "pâtes",
+    "champignons",
+    "italien",
+    "automne",
+    "plat-principal",
+    "fait-maison",
+    "réconfortant",
+    "gourmand",
+    "chaud",
+    "végétarien",
+    "fromage",
+    "herbacé",
+    "onctueux"
+  ],
+  "ingredients": [
+    {
+      "group": "Pour les fettuccine",
+      "items": [
+        "180 g de farine type 00",
+        "180 g de semola rimacinata (semoule de blé dur)",
+        "7 jaunes d'œufs"
+      ]
+    },
+    {
+      "group": "Pour la sauce",
+      "items": [
+        "350 à 400 g de porcini (cèpes) frais ou 80 g de cèpes séchés réhydratés",
+        "2 gousses d'ail",
+        "4 c. à s. d'huile d'olive vierge extra (Quanto basta)",
+        "60 g de beurre",
+        "Persil frais",
+        "Sel et poivre du moulin QB",
+        "Parmigiano Reggiano DOP râpé, optionnel (Quanto basta)"
+      ]
+    }
+  ],
+  "steps": [
+    {
+      "text": "Sur un plan de travail propre, versez la farine et la semoule en petit monticule, faites un puits au centre et ajoutez les jaunes d'œufs. Pétrissez jusqu'à obtenir une pâte bien souple. Filmez et laissez reposer 30 minutes à température ambiante."
+    },
+    {
+      "text": "Préparez les cèpes. S'ils sont frais, nettoyez-les avec un pinceau doux, un petit couteau d'office pour gratter la terre sur le pied et un chiffon légèrement humide pour les finitions, sans les rincer à l'eau. S'ils sont séchés, réhydratez-les dans de l'eau tiède pendant 30 minutes, égouttez-les et gardez l'eau de trempage filtrée pour la sauce. Coupez les champignons en morceaux."
+    },
+    {
+      "text": "Étalez finement la pâte des fettuccine au rouleau ou au laminoir, puis façonnez les pâtes."
+    },
+    {
+      "text": "Dans une grande poêle, faites chauffer l'huile d'olive et le beurre à feu doux. Ajoutez les gousses d'ail entières légèrement écrasées et laissez-les dorer doucement pour parfumer la matière grasse avant de les retirer."
+    },
+    {
+      "text": "Ajoutez les cèpes. Faites-les revenir à feu moyen pendant 8 à 10 minutes, jusqu'à ce qu'ils soient bien dorés, fondants et parfumés. Salez, poivrez, puis ajoutez une petite louche d'eau des champignons ou un peu d'eau chaude si besoin pour obtenir une sauce bien onctueuse."
+    },
+    {
+      "text": "Faites bouillir une grande casserole d'eau salée. Plongez-y les fettuccine et faites-les cuire al dente, environ 4 minutes. Égouttez-les rapidement en gardant un peu d'eau de cuisson."
+    },
+    {
+      "text": "Ajoutez les fettuccine dans la poêle avec les champignons. Mélangez délicatement pour bien enrober les pâtes de sauce et, si besoin, ajoutez 1 ou 2 cuillerées d'eau de cuisson pour lier."
+    },
+    {
+      "text": "Dressez dans une assiette creuse, parsemez généreusement de persil frais haché et ajoutez un nuage de parmesan pour les gourmands. Servez aussitôt."
+    }
+  ],
+  "tips": [
+    "Ne rincez pas les cèpes frais : ils absorbent l'eau et perdent leur texture ferme comme leur parfum de sous-bois.",
+    "L'eau de trempage filtrée des cèpes séchés donne une base très parfumée pour détendre la sauce."
+  ],
+  "source": "Issue GitHub #49 - photographie d'une page de livre de cuisine",
+  "originalSource": {
+    "type": "image",
+    "data": "images/recipes/fettuccine-funghi-porcini/source.jpg"
+  },
+  "translations": {
+    "en": {
+      "title": "Fettuccine with Porcini Mushrooms",
+      "description": "Homemade fettuccine with porcini mushrooms, coated in a butter, garlic and olive oil sauce with parsley and parmesan.",
+      "tags": [
+        "pasta",
+        "mushrooms",
+        "italian",
+        "autumn",
+        "main-course",
+        "homemade",
+        "comforting",
+        "indulgent",
+        "hot",
+        "vegetarian",
+        "cheese",
+        "herby",
+        "creamy"
+      ],
+      "ingredients": [
+        {
+          "group": "For the fettuccine",
+          "items": [
+            "180 g type 00 flour",
+            "180 g semola rimacinata (durum wheat semolina)",
+            "7 egg yolks"
+          ]
+        },
+        {
+          "group": "For the sauce",
+          "items": [
+            "350 to 400 g fresh porcini mushrooms or 80 g rehydrated dried porcini",
+            "2 garlic cloves",
+            "4 tbsp extra virgin olive oil (Quanto basta)",
+            "60 g butter",
+            "Fresh parsley",
+            "Salt and freshly ground pepper to taste",
+            "Grated Parmigiano Reggiano DOP, optional (Quanto basta)"
+          ]
+        }
+      ],
+      "steps": [
+        {
+          "text": "On a clean work surface, pile up the flour and semolina, make a well in the center and add the egg yolks. Knead until you get a smooth, supple dough. Wrap and leave to rest for 30 minutes at room temperature."
+        },
+        {
+          "text": "Prepare the porcini. If fresh, clean them with a soft brush, a small paring knife to scrape soil from the stem, and a slightly damp cloth for finishing, without rinsing them in water. If dried, rehydrate them in warm water for 30 minutes, drain them and keep the filtered soaking water for the sauce. Cut the mushrooms into pieces."
+        },
+        {
+          "text": "Roll the fettuccine dough thinly with a rolling pin or pasta machine, then shape the pasta."
+        },
+        {
+          "text": "In a large pan, warm the olive oil and butter over low heat. Add the whole, lightly crushed garlic cloves and let them gently brown to flavor the fat before removing them."
+        },
+        {
+          "text": "Add the porcini. Cook over medium heat for 8 to 10 minutes, until golden, tender and fragrant. Season with salt and pepper, then add a small ladle of mushroom water or a little hot water if needed to make a creamy sauce."
+        },
+        {
+          "text": "Bring a large pot of salted water to a boil. Add the fettuccine and cook until al dente, about 4 minutes. Drain quickly, keeping a little cooking water."
+        },
+        {
+          "text": "Add the fettuccine to the pan with the mushrooms. Toss gently to coat the pasta with the sauce and, if needed, add 1 or 2 spoonfuls of cooking water to bring it together."
+        },
+        {
+          "text": "Serve in a deep plate, scatter generously with chopped fresh parsley and add a cloud of parmesan for those who want it. Serve immediately."
+        }
+      ],
+      "tips": [
+        "Do not rinse fresh porcini: they absorb water and lose both their firm texture and woodland aroma.",
+        "The filtered soaking water from dried porcini makes a deeply fragrant base for loosening the sauce."
+      ]
+    },
+    "it": {
+      "title": "Fettuccine ai funghi porcini",
+      "description": "Fettuccine fatte in casa con funghi porcini, avvolte in una salsa di burro, aglio e olio d'oliva con prezzemolo e parmigiano.",
+      "tags": [
+        "pasta",
+        "funghi",
+        "italiano",
+        "autunno",
+        "primo-piatto",
+        "fatto-in-casa",
+        "confortante",
+        "goloso",
+        "caldo",
+        "vegetariano",
+        "formaggio",
+        "erbaceo",
+        "cremoso"
+      ],
+      "ingredients": [
+        {
+          "group": "Per le fettuccine",
+          "items": [
+            "180 g di farina tipo 00",
+            "180 g di semola rimacinata di grano duro",
+            "7 tuorli d'uovo"
+          ]
+        },
+        {
+          "group": "Per la salsa",
+          "items": [
+            "350-400 g di funghi porcini freschi oppure 80 g di porcini secchi reidratati",
+            "2 spicchi d'aglio",
+            "4 cucchiai di olio extravergine d'oliva (Quanto basta)",
+            "60 g di burro",
+            "Prezzemolo fresco",
+            "Sale e pepe macinato al momento q.b.",
+            "Parmigiano Reggiano DOP grattugiato, facoltativo (Quanto basta)"
+          ]
+        }
+      ],
+      "steps": [
+        {
+          "text": "Su un piano di lavoro pulito, versate la farina e la semola a fontana, fate un buco al centro e aggiungete i tuorli. Impastate fino a ottenere una pasta liscia e morbida. Avvolgetela e lasciatela riposare 30 minuti a temperatura ambiente."
+        },
+        {
+          "text": "Preparate i porcini. Se sono freschi, puliteli con un pennello morbido, un coltellino per togliere la terra dal gambo e un panno leggermente umido per rifinire, senza sciacquarli in acqua. Se sono secchi, reidratateli in acqua tiepida per 30 minuti, scolateli e conservate l'acqua di ammollo filtrata per la salsa. Tagliate i funghi a pezzi."
+        },
+        {
+          "text": "Stendete sottilmente la pasta delle fettuccine con il matterello o con la macchina per la pasta, poi formate le fettuccine."
+        },
+        {
+          "text": "In una padella grande, scaldate l'olio d'oliva e il burro a fuoco dolce. Aggiungete gli spicchi d'aglio interi leggermente schiacciati e fateli dorare piano per profumare il condimento, poi toglieteli."
+        },
+        {
+          "text": "Aggiungete i porcini. Fateli saltare a fuoco medio per 8-10 minuti, finché saranno dorati, teneri e profumati. Salate, pepate, poi aggiungete un piccolo mestolo di acqua dei funghi o un po' di acqua calda se serve per ottenere una salsa cremosa."
+        },
+        {
+          "text": "Portate a ebollizione una grande pentola di acqua salata. Immergete le fettuccine e cuocetele al dente, per circa 4 minuti. Scolatele rapidamente conservando un po' di acqua di cottura."
+        },
+        {
+          "text": "Aggiungete le fettuccine nella padella con i funghi. Mescolate delicatamente per avvolgere bene la pasta nella salsa e, se serve, aggiungete 1 o 2 cucchiai di acqua di cottura per legare."
+        },
+        {
+          "text": "Impiattate in un piatto fondo, cospargete generosamente con prezzemolo fresco tritato e aggiungete una nuvola di parmigiano per i più golosi. Servite subito."
+        }
+      ],
+      "tips": [
+        "Non sciacquate i porcini freschi: assorbono acqua e perdono sia la consistenza soda sia il profumo di sottobosco.",
+        "L'acqua di ammollo filtrata dei porcini secchi è una base molto profumata per allungare la salsa."
+      ]
+    }
+  }
+}

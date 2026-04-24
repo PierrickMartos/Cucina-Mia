@@ -3922,5 +3922,153 @@
         ]
       }
     }
+  },
+  {
+    "slug": "fettuccine-funghi-porcini",
+    "title": "Fettuccine funghi porcini",
+    "description": "Des fettuccine maison aux cèpes, nappées d'une sauce au beurre, ail et huile d'olive, avec une touche de persil et de parmesan.",
+    "images": {
+      "cover": "images/recipes/fettuccine-funghi-porcini/cover.jpg",
+      "web": "images/recipes/fettuccine-funghi-porcini/web.jpg"
+    },
+    "prepTime": 60,
+    "cookTime": 20,
+    "servings": 4,
+    "difficulty": "Medio",
+    "category": "Pasta",
+    "tags": [
+      "pâtes",
+      "champignons",
+      "italien",
+      "automne",
+      "plat-principal",
+      "fait-maison",
+      "réconfortant",
+      "gourmand",
+      "chaud",
+      "végétarien",
+      "fromage",
+      "herbacé",
+      "onctueux"
+    ],
+    "translations": {
+      "en": {
+        "title": "Fettuccine with Porcini Mushrooms",
+        "description": "Homemade fettuccine with porcini mushrooms, coated in a butter, garlic and olive oil sauce with parsley and parmesan.",
+        "tags": [
+          "pasta",
+          "mushrooms",
+          "italian",
+          "autumn",
+          "main-course",
+          "homemade",
+          "comforting",
+          "indulgent",
+          "hot",
+          "vegetarian",
+          "cheese",
+          "herby",
+          "creamy"
+        ]
+      },
+      "it": {
+        "title": "Fettuccine ai funghi porcini",
+        "description": "Fettuccine fatte in casa con funghi porcini, avvolte in una salsa di burro, aglio e olio d'oliva con prezzemolo e parmigiano.",
+        "tags": [
+          "pasta",
+          "funghi",
+          "italiano",
+          "autunno",
+          "primo-piatto",
+          "fatto-in-casa",
+          "confortante",
+          "goloso",
+          "caldo",
+          "vegetariano",
+          "formaggio",
+          "erbaceo",
+          "cremoso"
+        ]
+      }
+    },
+    "stepCount": 8,
+    "ingredientCount": 10
+  },
+  {
+    "slug": "pasta-lenticchie-melanzane-yogurt-tapenade",
+    "title": "Pâtes de lentilles aux aubergines, yaourt et tapenade",
+    "description": "Une salade de pâtes de lentilles sans gluten, généreuse et fraîche, avec aubergines dorées, tapenade de tomates, yaourt grec et amandes grillées.",
+    "images": {
+      "cover": "images/recipes/pasta-lenticchie-melanzane-yogurt-tapenade/cover.jpg",
+      "web": "images/recipes/pasta-lenticchie-melanzane-yogurt-tapenade/web.jpg"
+    },
+    "prepTime": 20,
+    "cookTime": 25,
+    "servings": 4,
+    "difficulty": "Facile",
+    "category": "Pasta",
+    "tags": [
+      "pâtes",
+      "sans-gluten",
+      "végétarien",
+      "légumes",
+      "aubergine",
+      "tomate",
+      "yaourt",
+      "amandes",
+      "méditerranéen",
+      "italien",
+      "plat-principal",
+      "été",
+      "facile",
+      "four",
+      "chaud"
+    ],
+    "stepCount": 4,
+    "ingredientCount": 14,
+    "translations": {
+      "en": {
+        "title": "Lentil Pasta with Eggplant, Yogurt and Tapenade",
+        "description": "A generous, fresh gluten-free lentil pasta salad with golden eggplant, tomato tapenade, Greek yogurt and toasted almonds.",
+        "tags": [
+          "pasta",
+          "gluten-free",
+          "vegetarian",
+          "vegetables",
+          "eggplant",
+          "tomato",
+          "yogurt",
+          "almonds",
+          "mediterranean",
+          "italian",
+          "main-course",
+          "summer",
+          "easy",
+          "oven",
+          "hot"
+        ]
+      },
+      "it": {
+        "title": "Pasta di lenticchie con melanzane, yogurt e tapenade",
+        "description": "Un'insalata di pasta di lenticchie senza glutine, generosa e fresca, con melanzane dorate, tapenade di pomodori, yogurt greco e mandorle tostate.",
+        "tags": [
+          "pasta",
+          "senza-glutine",
+          "vegetariano",
+          "verdure",
+          "melanzana",
+          "pomodoro",
+          "yogurt",
+          "mandorle",
+          "mediterraneo",
+          "italiano",
+          "primo-piatto",
+          "estate",
+          "facile",
+          "forno",
+          "caldo"
+        ]
+      }
+    }
   }
 ]
