@@ -6,7 +6,7 @@ import tseslint from 'typescript-eslint'
 import { defineConfig, globalIgnores } from 'eslint/config'
 
 export default defineConfig([
-  globalIgnores(['dist']),
+  globalIgnores(['dist', '.agents', '.claude', '.worktrees']),
   {
     files: ['**/*.{ts,tsx}'],
     extends: [
@@ -18,6 +18,21 @@ export default defineConfig([
     languageOptions: {
       ecmaVersion: 2020,
       globals: globals.browser,
+    },
+    rules: {
+      'react-refresh/only-export-components': [
+        'error',
+        {
+          allowConstantExport: true,
+          allowExportNames: [
+            'DIET_TAGS',
+            'ORIGIN_VALUES',
+            'SEASON_TAGS',
+            'badgeVariants',
+            'buttonVariants',
+          ],
+        },
+      ],
     },
   },
 ])

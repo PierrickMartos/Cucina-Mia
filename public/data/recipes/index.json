@@ -908,7 +908,7 @@
     "cookTime": 0,
     "servings": 2,
     "difficulty": "Facile",
-    "category": "Antipasti",
+    "category": "Insalate",
     "tags": [
       "entrée",
       "végétarien",
@@ -3319,5 +3319,1162 @@
         ]
       }
     }
+  },
+  {
+    "slug": "poulet-tandoori",
+    "title": "Poulet tandoori",
+    "description": "Un grand classique de la cuisine indienne qui devient sublime lorsque l'on prépare soi-même la poudre tandoori.",
+    "images": {
+      "cover": "images/recipes/poulet-tandoori/cover.jpg",
+      "web": "images/recipes/poulet-tandoori/web.jpg"
+    },
+    "prepTime": 15,
+    "cookTime": 35,
+    "servings": 4,
+    "difficulty": "Facile",
+    "category": "Secondi",
+    "tags": [
+      "four",
+      "indien",
+      "poulet",
+      "facile",
+      "plat-principal",
+      "épicé",
+      "chaud",
+      "préparation-à-lavance",
+      "sans-gluten",
+      "été"
+    ],
+    "ingredientCount": 6,
+    "stepCount": 3,
+    "translations": {
+      "en": {
+        "title": "Tandoori Chicken",
+        "description": "A great classic of Indian cuisine that becomes sublime when you prepare the tandoori powder yourself.",
+        "tags": [
+          "oven",
+          "indian",
+          "chicken",
+          "easy",
+          "main-course",
+          "spicy",
+          "hot",
+          "make-ahead",
+          "gluten-free",
+          "summer"
+        ]
+      },
+      "it": {
+        "title": "Pollo tandoori",
+        "description": "Un grande classico della cucina indiana che diventa sublime quando si prepara la polvere tandoori in casa.",
+        "tags": [
+          "forno",
+          "indiano",
+          "pollo",
+          "facile",
+          "piatto-principale",
+          "speziato",
+          "caldo",
+          "preparazione-anticipata",
+          "senza-glutine",
+          "estate"
+        ]
+      }
+    }
+  },
+  {
+    "slug": "pesto-presto",
+    "title": "Pesto Presto",
+    "description": "Busiate col pesto alla trapanese, une pâte sicilienne en spirale servie avec un pesto à base de tomates confites, amandes, basilic et pecorino, spécialité de Trapani.",
+    "images": {
+      "cover": "images/recipes/pesto-presto/cover.jpg",
+      "web": "images/recipes/pesto-presto/web.jpg"
+    },
+    "prepTime": 45,
+    "cookTime": 150,
+    "servings": 4,
+    "difficulty": "Medio",
+    "category": "Pasta",
+    "tags": [
+      "pâtes",
+      "tomates",
+      "basilic",
+      "amandes",
+      "sicilien",
+      "méditerranéen",
+      "végétarien",
+      "four",
+      "plat-principal",
+      "été",
+      "italien",
+      "festif",
+      "léger"
+    ],
+    "translations": {
+      "en": {
+        "title": "Pesto Presto",
+        "description": "Busiate pasta with Trapanese pesto, a Sicilian specialty made with slow-roasted tomatoes, almonds, basil, and pecorino from the province of Trapani.",
+        "tags": [
+          "pasta",
+          "tomatoes",
+          "basil",
+          "almonds",
+          "sicilian",
+          "mediterranean",
+          "vegetarian",
+          "oven",
+          "main-course",
+          "summer",
+          "italian",
+          "festive",
+          "light"
+        ]
+      },
+      "it": {
+        "title": "Pesto Presto",
+        "description": "Busiate col pesto alla trapanese, specialità siciliana con pomodori confit, mandorle, basilico e pecorino, tipica della provincia di Trapani.",
+        "tags": [
+          "pasta",
+          "pomodori",
+          "basilico",
+          "mandorle",
+          "siciliano",
+          "mediterraneo",
+          "vegetariano",
+          "forno",
+          "primo-piatto",
+          "estate",
+          "italiano",
+          "festivo",
+          "leggero"
+        ]
+      }
+    },
+    "stepCount": 7,
+    "ingredientCount": 14
+  },
+  {
+    "slug": "naans-nature",
+    "title": "Naans nature",
+    "description": "Pain levé d'origine indienne, léger et moelleux, cuit à la poêle et généreusement badigeonné de ghee fondu.",
+    "images": {
+      "cover": "images/recipes/naans-nature/cover.jpg",
+      "web": "images/recipes/naans-nature/web.jpg"
+    },
+    "prepTime": 20,
+    "cookTime": 30,
+    "servings": 4,
+    "difficulty": "Medio",
+    "category": "Pane",
+    "tags": [
+      "poêle",
+      "indien",
+      "végétarien",
+      "moelleux",
+      "à-partager",
+      "réconfortant",
+      "économique",
+      "chaud"
+    ],
+    "ingredientCount": 6,
+    "stepCount": 4,
+    "translations": {
+      "en": {
+        "title": "Plain Naans",
+        "description": "Indian leavened bread, light and fluffy, pan-cooked and generously brushed with melted ghee.",
+        "tags": [
+          "pan-fried",
+          "indian",
+          "vegetarian",
+          "soft",
+          "shareable",
+          "comforting",
+          "budget-friendly",
+          "warm"
+        ]
+      },
+      "it": {
+        "title": "Naan semplici",
+        "description": "Pane lievitato indiano, leggero e soffice, cotto in padella e generosamente spennellato con ghee fuso.",
+        "tags": [
+          "padella",
+          "indiano",
+          "vegetariano",
+          "morbido",
+          "da-condividere",
+          "confortante",
+          "economico",
+          "caldo"
+        ]
+      }
+    }
+  },
+  {
+    "slug": "naans-au-fromage",
+    "title": "Naans au fromage",
+    "description": "Des naans moelleux fourrés au fromage fondant, inspirés du cheese naan parisien à décliner avec comté, cheddar ou bleu.",
+    "images": {
+      "cover": "images/recipes/naans-au-fromage/cover.jpg",
+      "web": "images/recipes/naans-au-fromage/web.jpg"
+    },
+    "imageCredit": {
+      "author": "2SIF",
+      "url": "https://pixabay.com/users/2SIF-26811215/"
+    },
+    "prepTime": 20,
+    "cookTime": 30,
+    "servings": 4,
+    "difficulty": "Medio",
+    "category": "Pane",
+    "tags": [
+      "poêle",
+      "végétarien",
+      "fromage",
+      "indien",
+      "moelleux",
+      "réconfortant",
+      "convivial",
+      "toute-la-famille",
+      "préparation-à-lavance",
+      "fait-maison"
+    ],
+    "translations": {
+      "en": {
+        "title": "Cheese Naans",
+        "description": "Soft naans stuffed with melting cheese, inspired by the Parisian cheese naan, to vary with comté, cheddar or blue cheese.",
+        "tags": [
+          "pan",
+          "vegetarian",
+          "cheese",
+          "indian",
+          "soft",
+          "comforting",
+          "convivial",
+          "family",
+          "make-ahead",
+          "homemade"
+        ]
+      },
+      "it": {
+        "title": "Naan al formaggio",
+        "description": "Naan morbidi ripieni di formaggio fondente, ispirati al cheese naan parigino, da variare con comté, cheddar o gorgonzola.",
+        "tags": [
+          "padella",
+          "vegetariano",
+          "formaggio",
+          "indiano",
+          "morbido",
+          "confortante",
+          "conviviale",
+          "tutta-la-famiglia",
+          "preparazione-anticipata",
+          "fatto-in-casa"
+        ]
+      }
+    },
+    "stepCount": 5,
+    "ingredientCount": 8
+  },
+  {
+    "slug": "caprese-di-tuffoli",
+    "title": "Caprese di tuffoli",
+    "description": "Salade de pâtes estivale aux tomates multicolores marinées, mozzarella di bufala et basilic frais — un must romain qui se mange froid.",
+    "images": {
+      "cover": "images/recipes/caprese-di-tuffoli/cover.jpg",
+      "web": "images/recipes/caprese-di-tuffoli/web.jpg"
+    },
+    "prepTime": 20,
+    "cookTime": 40,
+    "servings": 4,
+    "difficulty": "Facile",
+    "category": "Insalate",
+    "tags": [
+      "pâtes",
+      "salade",
+      "été",
+      "froid",
+      "végétarien",
+      "italien",
+      "fromage",
+      "facile",
+      "plat-principal",
+      "rapide",
+      "méditerranéen",
+      "tomates"
+    ],
+    "ingredientCount": 7,
+    "stepCount": 4,
+    "translations": {
+      "en": {
+        "title": "Tuffoli Caprese Salad",
+        "description": "A summery pasta salad with marinated multicolour tomatoes, buffalo mozzarella and fresh basil — a Roman cold dish that is a true must.",
+        "tags": [
+          "pasta",
+          "salad",
+          "summer",
+          "cold",
+          "vegetarian",
+          "italian",
+          "cheese",
+          "easy",
+          "main-course",
+          "quick",
+          "mediterranean",
+          "tomatoes"
+        ]
+      },
+      "it": {
+        "title": "Caprese di tuffoli",
+        "description": "Insalata di pasta estiva con pomodorini multicolori marinati, mozzarella di bufala e basilico fresco — un must romano da gustare freddo.",
+        "tags": [
+          "pasta",
+          "insalata",
+          "estate",
+          "freddo",
+          "vegetariano",
+          "italiano",
+          "formaggio",
+          "facile",
+          "primo-piatto",
+          "veloce",
+          "mediterraneo",
+          "pomodori"
+        ]
+      }
+    }
+  },
+  {
+    "slug": "gateau-de-semoule",
+    "title": "Gâteau de semoule de mamie Yvette",
+    "description": "Un dessert de grand-mère fondant et réconfortant : une semoule au lait caramélisée, légère comme un nuage grâce aux blancs en neige montés.",
+    "images": {
+      "cover": "images/recipes/gateau-de-semoule/cover.jpg",
+      "web": "images/recipes/gateau-de-semoule/web.jpg"
+    },
+    "prepTime": 20,
+    "cookTime": 20,
+    "servings": 4,
+    "difficulty": "Facile",
+    "category": "Dolci",
+    "tags": [
+      "bain-marie",
+      "four",
+      "végétarien",
+      "moelleux",
+      "fondant",
+      "réconfortant",
+      "nostalgique",
+      "économique",
+      "français",
+      "dessert",
+      "enfants",
+      "toute-la-famille"
+    ],
+    "origin": "pierrick-grandma",
+    "ingredientCount": 8,
+    "stepCount": 7,
+    "translations": {
+      "en": {
+        "title": "Grandma's Semolina Cake",
+        "description": "A comforting grandmother's dessert: silky caramelized semolina pudding, light as a cloud thanks to beaten egg whites.",
+        "tags": [
+          "water-bath",
+          "oven",
+          "vegetarian",
+          "soft",
+          "melt-in-mouth",
+          "comforting",
+          "nostalgic",
+          "budget-friendly",
+          "french",
+          "dessert",
+          "kids",
+          "family"
+        ]
+      },
+      "it": {
+        "title": "Torta di semolino della nonna",
+        "description": "Un dolce della nonna confortante e fondente: semolino al latte caramellato, leggero come una nuvola grazie agli albumi montati a neve.",
+        "tags": [
+          "bagnomaria",
+          "forno",
+          "vegetariano",
+          "morbido",
+          "fondente",
+          "confortante",
+          "nostalgico",
+          "economico",
+          "francese",
+          "dessert",
+          "bambini",
+          "famiglia"
+        ]
+      }
+    }
+  },
+  {
+    "slug": "fusilloni-alla-norma",
+    "title": "Fusilloni alla Norma",
+    "description": "L'aubergine fait sa diva dans ce grand classique sicilien : des fusilloni al dente nappés d'une sauce tomate parfumée au basilic, couronnés d'aubergines frites et d'une généreuse pluie de ricotta salée.",
+    "images": {
+      "cover": "images/recipes/fusilloni-alla-norma/cover.jpg",
+      "web": "images/recipes/fusilloni-alla-norma/web.jpg"
+    },
+    "prepTime": 30,
+    "cookTime": 30,
+    "servings": 4,
+    "difficulty": "Facile",
+    "category": "Pasta",
+    "tags": [
+      "pâtes",
+      "aubergine",
+      "fromage",
+      "italien",
+      "sicilien",
+      "méditerranéen",
+      "végétarien",
+      "friture",
+      "plat-principal",
+      "chaud",
+      "réconfortant",
+      "été",
+      "économique"
+    ],
+    "ingredientCount": 8,
+    "stepCount": 5,
+    "translations": {
+      "en": {
+        "title": "Fusilloni alla Norma",
+        "description": "The eggplant takes center stage in this great Sicilian classic: al dente fusilloni coated in a basil-scented tomato sauce, crowned with fried eggplant and a generous shower of ricotta salata.",
+        "tags": [
+          "pasta",
+          "eggplant",
+          "cheese",
+          "italian",
+          "sicilian",
+          "mediterranean",
+          "vegetarian",
+          "fried",
+          "main-course",
+          "hot",
+          "comforting",
+          "summer",
+          "budget-friendly"
+        ]
+      },
+      "it": {
+        "title": "Fusilloni alla Norma",
+        "description": "La melanzana recita da protagonista in questo grande classico siciliano: fusilloni al dente con salsa di pomodoro al basilico, melanzane fritte e una generosa nevicata di ricotta salata.",
+        "tags": [
+          "pasta",
+          "melanzane",
+          "formaggio",
+          "italiano",
+          "siciliano",
+          "mediterraneo",
+          "vegetariano",
+          "fritto",
+          "primo-piatto",
+          "caldo",
+          "confortante",
+          "estate",
+          "economico"
+        ]
+      }
+    }
+  },
+  {
+    "slug": "biryani-agneau",
+    "title": "Biryani d'agneau",
+    "description": "Un biryani d'agneau parfumé au safran, à la cannelle et aux herbes fraîches, cuit en couches dorées avec du riz basmati grillé.",
+    "images": {
+      "cover": "images/recipes/biryani-agneau/cover.jpg",
+      "web": "images/recipes/biryani-agneau/web.jpg"
+    },
+    "imageCredit": {
+      "author": "MD-OSMAN-GANI",
+      "url": "https://pixabay.com/users/md-osman-gani-39761511/"
+    },
+    "prepTime": 30,
+    "cookTime": 65,
+    "servings": 4,
+    "difficulty": "Medio",
+    "category": "Secondi",
+    "tags": [
+      "agneau",
+      "riz",
+      "four",
+      "plat-principal",
+      "indien",
+      "épicé",
+      "mijoté",
+      "réconfortant",
+      "festif",
+      "safran",
+      "chaud",
+      "convivial",
+      "hiver"
+    ],
+    "ingredientCount": 18,
+    "stepCount": 10,
+    "translations": {
+      "en": {
+        "title": "Lamb Biryani",
+        "description": "A fragrant lamb biryani perfumed with saffron, cinnamon, and fresh herbs, baked in golden layers with toasted basmati rice.",
+        "tags": [
+          "lamb",
+          "rice",
+          "oven",
+          "main-course",
+          "indian",
+          "spiced",
+          "braised",
+          "comforting",
+          "festive",
+          "saffron",
+          "hot",
+          "sharing",
+          "winter"
+        ]
+      },
+      "it": {
+        "title": "Biryani di agnello",
+        "description": "Un profumato biryani di agnello aromatizzato con zafferano, cannella ed erbe fresche, cotto in strati dorati con riso basmati tostato.",
+        "tags": [
+          "agnello",
+          "riso",
+          "forno",
+          "piatto-principale",
+          "indiano",
+          "speziato",
+          "stufato",
+          "confortante",
+          "festivo",
+          "zafferano",
+          "caldo",
+          "da-condividere",
+          "inverno"
+        ]
+      }
+    }
+  },
+  {
+    "slug": "spaghettis-alla-vittorio",
+    "title": "Spaghettis alla Vittorio",
+    "description": "Des spaghettis aux tomates datterino, Parmigiano Reggiano et basilic, inspirés du restaurant étoilé Da Vittorio près de Bergame.",
+    "images": {
+      "cover": "images/recipes/spaghettis-alla-vittorio/cover.jpg",
+      "web": "images/recipes/spaghettis-alla-vittorio/cover.jpg"
+    },
+    "prepTime": 15,
+    "cookTime": 25,
+    "servings": 4,
+    "difficulty": "Facile",
+    "category": "Pasta",
+    "tags": [
+      "pâtes",
+      "tomates",
+      "fromage",
+      "italien",
+      "plat-principal",
+      "végétarien",
+      "poêle",
+      "rapide",
+      "réconfortant",
+      "chaud",
+      "basilic"
+    ],
+    "ingredientCount": 9,
+    "stepCount": 4,
+    "translations": {
+      "en": {
+        "title": "Spaghetti alla Vittorio",
+        "description": "Spaghetti with datterino tomatoes, Parmigiano Reggiano and basil, inspired by the Michelin-starred Da Vittorio restaurant near Bergamo.",
+        "tags": [
+          "pasta",
+          "tomatoes",
+          "cheese",
+          "italian",
+          "main-course",
+          "vegetarian",
+          "pan",
+          "quick",
+          "comforting",
+          "hot",
+          "basil"
+        ]
+      },
+      "it": {
+        "title": "Spaghetti alla Vittorio",
+        "description": "Spaghetti con pomodori datterini, Parmigiano Reggiano e basilico, ispirati al ristorante stellato Da Vittorio vicino a Bergamo.",
+        "tags": [
+          "pasta",
+          "pomodori",
+          "formaggio",
+          "italiano",
+          "piatto-principale",
+          "vegetariano",
+          "padella",
+          "veloce",
+          "confortante",
+          "caldo",
+          "basilico"
+        ]
+      }
+    }
+  },
+  {
+    "slug": "fettuccine-funghi-porcini",
+    "title": "Fettuccine funghi porcini",
+    "description": "Des fettuccine maison aux cèpes, nappées d'une sauce au beurre, ail et huile d'olive, avec une touche de persil et de parmesan.",
+    "images": {
+      "cover": "images/recipes/fettuccine-funghi-porcini/cover.jpg",
+      "web": "images/recipes/fettuccine-funghi-porcini/web.jpg"
+    },
+    "prepTime": 60,
+    "cookTime": 20,
+    "servings": 4,
+    "difficulty": "Medio",
+    "category": "Pasta",
+    "tags": [
+      "pâtes",
+      "champignons",
+      "italien",
+      "automne",
+      "plat-principal",
+      "fait-maison",
+      "réconfortant",
+      "gourmand",
+      "chaud",
+      "végétarien",
+      "fromage",
+      "herbacé",
+      "onctueux"
+    ],
+    "translations": {
+      "en": {
+        "title": "Fettuccine with Porcini Mushrooms",
+        "description": "Homemade fettuccine with porcini mushrooms, coated in a butter, garlic and olive oil sauce with parsley and parmesan.",
+        "tags": [
+          "pasta",
+          "mushrooms",
+          "italian",
+          "autumn",
+          "main-course",
+          "homemade",
+          "comforting",
+          "indulgent",
+          "hot",
+          "vegetarian",
+          "cheese",
+          "herby",
+          "creamy"
+        ]
+      },
+      "it": {
+        "title": "Fettuccine ai funghi porcini",
+        "description": "Fettuccine fatte in casa con funghi porcini, avvolte in una salsa di burro, aglio e olio d'oliva con prezzemolo e parmigiano.",
+        "tags": [
+          "pasta",
+          "funghi",
+          "italiano",
+          "autunno",
+          "primo-piatto",
+          "fatto-in-casa",
+          "confortante",
+          "goloso",
+          "caldo",
+          "vegetariano",
+          "formaggio",
+          "erbaceo",
+          "cremoso"
+        ]
+      }
+    },
+    "stepCount": 8,
+    "ingredientCount": 10
+  },
+  {
+    "slug": "pasta-lenticchie-melanzane-yogurt-tapenade",
+    "title": "Pâtes de lentilles aux aubergines, yaourt et tapenade",
+    "description": "Une salade de pâtes de lentilles sans gluten, généreuse et fraîche, avec aubergines dorées, tapenade de tomates, yaourt grec et amandes grillées.",
+    "images": {
+      "cover": "images/recipes/pasta-lenticchie-melanzane-yogurt-tapenade/cover.jpg",
+      "web": "images/recipes/pasta-lenticchie-melanzane-yogurt-tapenade/web.jpg"
+    },
+    "prepTime": 20,
+    "cookTime": 25,
+    "servings": 4,
+    "difficulty": "Facile",
+    "category": "Insalate",
+    "tags": [
+      "pâtes",
+      "sans-gluten",
+      "végétarien",
+      "légumes",
+      "aubergine",
+      "tomate",
+      "yaourt",
+      "amandes",
+      "méditerranéen",
+      "italien",
+      "plat-principal",
+      "été",
+      "facile",
+      "four",
+      "chaud"
+    ],
+    "stepCount": 4,
+    "ingredientCount": 14,
+    "translations": {
+      "en": {
+        "title": "Lentil Pasta with Eggplant, Yogurt and Tapenade",
+        "description": "A generous, fresh gluten-free lentil pasta salad with golden eggplant, tomato tapenade, Greek yogurt and toasted almonds.",
+        "tags": [
+          "pasta",
+          "gluten-free",
+          "vegetarian",
+          "vegetables",
+          "eggplant",
+          "tomato",
+          "yogurt",
+          "almonds",
+          "mediterranean",
+          "italian",
+          "main-course",
+          "summer",
+          "easy",
+          "oven",
+          "hot"
+        ]
+      },
+      "it": {
+        "title": "Pasta di lenticchie con melanzane, yogurt e tapenade",
+        "description": "Un'insalata di pasta di lenticchie senza glutine, generosa e fresca, con melanzane dorate, tapenade di pomodori, yogurt greco e mandorle tostate.",
+        "tags": [
+          "pasta",
+          "senza-glutine",
+          "vegetariano",
+          "verdure",
+          "melanzana",
+          "pomodoro",
+          "yogurt",
+          "mandorle",
+          "mediterraneo",
+          "italiano",
+          "primo-piatto",
+          "estate",
+          "facile",
+          "forno",
+          "caldo"
+        ]
+      }
+    }
+  },
+  {
+    "slug": "gnocchi-alla-sorrentina",
+    "title": "Gnocchi alla sorrentina",
+    "description": "Des gnocchi de pomme de terre à la sauce tomate, gratinés avec provola affumicata et parmesan.",
+    "images": {
+      "cover": "images/recipes/gnocchi-alla-sorrentina/cover.jpg",
+      "web": "images/recipes/gnocchi-alla-sorrentina/web.jpg"
+    },
+    "prepTime": 45,
+    "cookTime": 30,
+    "servings": 4,
+    "difficulty": "Medio",
+    "category": "Gnocchi",
+    "tags": [
+      "gnocchi",
+      "italien",
+      "four",
+      "gratiné",
+      "végétarien",
+      "fromage",
+      "tomate",
+      "plat-principal",
+      "réconfortant",
+      "gourmand",
+      "chaud",
+      "à-partager"
+    ],
+    "stepCount": 6,
+    "ingredientCount": 9,
+    "translations": {
+      "en": {
+        "title": "Gnocchi alla Sorrentina",
+        "description": "Potato gnocchi in tomato sauce, baked with smoked provola and parmesan.",
+        "tags": [
+          "gnocchi",
+          "italian",
+          "oven",
+          "baked",
+          "vegetarian",
+          "cheese",
+          "tomato",
+          "main-course",
+          "comforting",
+          "indulgent",
+          "hot",
+          "to-share"
+        ]
+      },
+      "it": {
+        "title": "Gnocchi alla sorrentina",
+        "description": "Gnocchi di patate al sugo di pomodoro, gratinati con provola affumicata e parmigiano.",
+        "tags": [
+          "gnocchi",
+          "italiano",
+          "forno",
+          "gratinato",
+          "vegetariano",
+          "formaggio",
+          "pomodoro",
+          "primo-piatto",
+          "confortante",
+          "goloso",
+          "caldo",
+          "da-condividere"
+        ]
+      }
+    }
+  },
+  {
+    "slug": "cookies-sales-au-comte",
+    "title": "Cookies salés au comté",
+    "description": "Des cookies salés moelleux et parfumés au comté, moutarde à l'ancienne, thym et graines de tournesol, parfaits pour l'apéro.",
+    "images": {
+      "cover": "images/recipes/cookies-sales-au-comte/cover.jpg",
+      "web": "images/recipes/cookies-sales-au-comte/web.jpg"
+    },
+    "prepTime": 15,
+    "cookTime": 15,
+    "servings": 12,
+    "difficulty": "Facile",
+    "category": "Antipasti",
+    "tags": [
+      "four",
+      "apéro",
+      "végétarien",
+      "finger-food",
+      "à-partager",
+      "facile",
+      "fromage",
+      "snack",
+      "moelleux",
+      "herbacé",
+      "convivial",
+      "chaud"
+    ],
+    "translations": {
+      "en": {
+        "title": "Savory Comté Cookies",
+        "description": "Soft savory cookies flavored with Comté, whole-grain mustard, thyme and sunflower seeds, perfect for aperitivo.",
+        "tags": [
+          "oven",
+          "aperitif",
+          "vegetarian",
+          "finger-food",
+          "sharing",
+          "easy",
+          "cheese",
+          "snack",
+          "soft",
+          "herby",
+          "convivial",
+          "hot"
+        ]
+      },
+      "it": {
+        "title": "Cookie salati al Comté",
+        "description": "Cookie salati morbidi e profumati con Comté, senape all'antica, timo e semi di girasole, perfetti per l'aperitivo.",
+        "tags": [
+          "forno",
+          "aperitivo",
+          "vegetariano",
+          "finger-food",
+          "da-condividere",
+          "facile",
+          "formaggio",
+          "snack",
+          "morbido",
+          "erbaceo",
+          "conviviale",
+          "caldo"
+        ]
+      }
+    },
+    "stepCount": 7,
+    "ingredientCount": 9,
+    "imageCredit": {
+      "author": "Allen Gong",
+      "url": "https://unsplash.com/@mrgongxue"
+    }
+  },
+  {
+    "slug": "bananamisu",
+    "title": "Bananamisù aux spéculoos et à la banane",
+    "description": "Un dessert façon tiramisu à la banane, avec une base de spéculoos croustillante et une crème mascarpone légère.",
+    "images": {
+      "cover": "images/recipes/bananamisu/cover.jpg",
+      "web": "images/recipes/bananamisu/web.jpg"
+    },
+    "prepTime": 35,
+    "cookTime": 3,
+    "servings": 4,
+    "difficulty": "Medio",
+    "category": "Dolci",
+    "tags": [
+      "dessert",
+      "italien",
+      "sans-cuisson",
+      "à-partager",
+      "crémeux",
+      "gourmand",
+      "banane",
+      "chocolat",
+      "fruits",
+      "froid"
+    ],
+    "stepCount": 14,
+    "ingredientCount": 11,
+    "translations": {
+      "en": {
+        "title": "Bananamisu with speculoos and banana",
+        "description": "A banana tiramisu-style dessert with a crunchy speculoos base and a light mascarpone cream.",
+        "tags": [
+          "dessert",
+          "italian",
+          "no-bake",
+          "to-share",
+          "creamy",
+          "indulgent",
+          "banana",
+          "chocolate",
+          "fruit",
+          "cold"
+        ]
+      },
+      "it": {
+        "title": "Bananamisù con speculoos e banana",
+        "description": "Un dessert in stile tiramisù alla banana, con una base croccante di speculoos e una crema leggera al mascarpone.",
+        "tags": [
+          "dessert",
+          "italiano",
+          "senza-cottura",
+          "da-condividere",
+          "cremoso",
+          "goloso",
+          "banana",
+          "cioccolato",
+          "frutta",
+          "freddo"
+        ]
+      }
+    }
+  },
+  {
+    "slug": "pasta-tartuffo",
+    "title": "Pasta tartuffo",
+    "description": "Les fameuses pâtes à la truffe de Big Mamma, crémeuses au mascarpone, parmesan et champignons de Paris.",
+    "images": {
+      "cover": "images/recipes/pasta-tartuffo/cover.jpg",
+      "web": "images/recipes/pasta-tartuffo/web.jpg"
+    },
+    "prepTime": 15,
+    "cookTime": 20,
+    "servings": 4,
+    "difficulty": "Facile",
+    "category": "Pasta",
+    "tags": [
+      "pâtes",
+      "truffe",
+      "champignons",
+      "fromage",
+      "italien",
+      "rapide",
+      "facile",
+      "plat-principal",
+      "onctueux",
+      "gourmand",
+      "chaud",
+      "végétarien"
+    ],
+    "stepCount": 8,
+    "ingredientCount": 9,
+    "translations": {
+      "en": {
+        "title": "Truffle Pasta",
+        "description": "Big Mamma's famous truffle pasta, creamy with mascarpone, parmesan and button mushrooms.",
+        "tags": [
+          "pasta",
+          "truffle",
+          "mushrooms",
+          "cheese",
+          "italian",
+          "quick",
+          "easy",
+          "main-course",
+          "creamy",
+          "indulgent",
+          "hot",
+          "vegetarian"
+        ]
+      },
+      "it": {
+        "title": "Pasta al tartufo",
+        "description": "La famosa pasta al tartufo di Big Mamma, cremosa con mascarpone, parmigiano e champignon.",
+        "tags": [
+          "pasta",
+          "tartufo",
+          "funghi",
+          "formaggio",
+          "italiano",
+          "veloce",
+          "facile",
+          "primo-piatto",
+          "cremoso",
+          "goloso",
+          "caldo",
+          "vegetariano"
+        ]
+      }
+    }
+  },
+  {
+    "slug": "carpaccio-de-tomates-au-pesto-de-pistaches",
+    "title": "Carpaccio de tomates au pesto de pistaches",
+    "description": "Une entrée d'été légère et rafraîchissante avec tomates, pesto de pistaches et mûres fraîches pour une touche sucrée-acidulée.",
+    "images": {
+      "cover": "images/recipes/carpaccio-de-tomates-au-pesto-de-pistaches/cover.jpg",
+      "web": "images/recipes/carpaccio-de-tomates-au-pesto-de-pistaches/web.jpg"
+    },
+    "prepTime": 15,
+    "cookTime": 0,
+    "servings": 4,
+    "difficulty": "Facile",
+    "category": "Antipasti",
+    "tags": [
+      "été",
+      "végétarien",
+      "sans-gluten",
+      "no-cuisson",
+      "rapide",
+      "facile",
+      "entrée",
+      "léger",
+      "froid",
+      "méditerranéen",
+      "tomates",
+      "fruits"
+    ],
+    "translations": {
+      "en": {
+        "title": "Tomato Carpaccio with Pistachio Pesto",
+        "description": "A light, refreshing summer starter with tomatoes, pistachio pesto and fresh blackberries for a sweet-tart touch.",
+        "tags": [
+          "summer",
+          "vegetarian",
+          "gluten-free",
+          "no-cook",
+          "quick",
+          "easy",
+          "starter",
+          "light",
+          "cold",
+          "mediterranean",
+          "tomatoes",
+          "fruit"
+        ]
+      },
+      "it": {
+        "title": "Carpaccio di pomodori con pesto di pistacchi",
+        "description": "Un antipasto estivo leggero e rinfrescante con pomodori, pesto di pistacchi e more fresche per una nota dolce-acidula.",
+        "tags": [
+          "estate",
+          "vegetariano",
+          "senza-glutine",
+          "senza-cottura",
+          "veloce",
+          "facile",
+          "antipasto",
+          "leggero",
+          "freddo",
+          "mediterraneo",
+          "pomodori",
+          "frutta"
+        ]
+      }
+    },
+    "stepCount": 3,
+    "ingredientCount": 9
+  },
+  {
+    "slug": "gaspacho-de-pasteque-a-la-feta",
+    "title": "Gaspacho de pastèque à la feta",
+    "description": "Un gaspacho froid de pastèque, poivron rouge, menthe et feta, parfait pour une entrée légère et très fraîche en été.",
+    "images": {
+      "cover": "images/recipes/gaspacho-de-pasteque-a-la-feta/cover.jpg",
+      "web": "images/recipes/gaspacho-de-pasteque-a-la-feta/web.jpg"
+    },
+    "prepTime": 20,
+    "cookTime": 0,
+    "servings": 4,
+    "difficulty": "Facile",
+    "category": "Antipasti",
+    "tags": [
+      "entrée",
+      "végétarien",
+      "no-cuisson",
+      "été",
+      "froid",
+      "léger",
+      "méditerranéen",
+      "fruits",
+      "légumes",
+      "fromage",
+      "rapide",
+      "à-la-cuillère"
+    ],
+    "translations": {
+      "en": {
+        "title": "Watermelon Gazpacho with Feta",
+        "description": "A chilled watermelon, red pepper, mint and feta gazpacho, perfect as a light and very refreshing summer starter.",
+        "tags": [
+          "starter",
+          "vegetarian",
+          "no-cook",
+          "summer",
+          "cold",
+          "light",
+          "mediterranean",
+          "fruit",
+          "vegetables",
+          "cheese",
+          "quick",
+          "spoonable"
+        ]
+      },
+      "it": {
+        "title": "Gazpacho di Anguria con Feta",
+        "description": "Un gazpacho freddo di anguria, peperone rosso, menta e feta, perfetto come antipasto leggero e molto fresco per l'estate.",
+        "tags": [
+          "antipasto",
+          "vegetariano",
+          "senza-cottura",
+          "estate",
+          "freddo",
+          "leggero",
+          "mediterraneo",
+          "frutta",
+          "verdure",
+          "formaggio",
+          "veloce",
+          "al-cucchiaio"
+        ]
+      }
+    },
+    "stepCount": 4,
+    "ingredientCount": 11
   }
 ]

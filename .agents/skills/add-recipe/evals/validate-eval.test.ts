@@ -5,8 +5,8 @@
  * Run after the skill processes a fixture to check correctness.
  *
  * Usage:
- *   npx vitest run .claude/skills/add-recipe/evals/validate-eval.ts
- *   npx vitest run .claude/skills/add-recipe/evals/validate-eval.ts -t "mamie-yvette"
+ *   npx vitest run .agents/skills/add-recipe/evals/validate-eval.ts
+ *   npx vitest run .agents/skills/add-recipe/evals/validate-eval.ts -t "mamie-yvette"
  */
 
 // @vitest-environment node

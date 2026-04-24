@@ -47,7 +47,7 @@ For each eval in `evals.json`, run the add-recipe skill with the `prompt` field 
 ```
 # Example for eval 1 (Naan Nature):
 Execute this task:
-- Skill path: .claude/skills/add-recipe
+- Skill path: .agents/skills/add-recipe
 - Task: <paste the prompt from evals.json eval id 1>
 - Save outputs to: add-recipe-workspace/iteration-1/eval-naan-nature/with_skill/outputs/
 ```
@@ -60,7 +60,7 @@ For each run, grade every assertion in the eval against the actual outputs.
 
 **Mechanical checks** (schema validation, field counts, file existence):
 ```bash
-npx vitest run .claude/skills/add-recipe/evals/validate-eval.test.ts
+npx vitest run .agents/skills/add-recipe/evals/validate-eval.test.ts
 ```
 
 **LLM grading** for assertions that need judgment (extraction quality, translation accuracy):
