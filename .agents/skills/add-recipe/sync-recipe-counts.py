@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """
 Sync stepCount and ingredientCount in index.json from individual recipe JSON files.
-Run from the repository root: python3 .claude/skills/add-recipe/sync-recipe-counts.py
+Run from the repository root: python3 .agents/skills/add-recipe/sync-recipe-counts.py
 """
 import json
 import os

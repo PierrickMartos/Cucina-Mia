@@ -1,0 +1,31 @@
+{
+  "slug": "naan-nature",
+  "title": "Naan nature",
+  "category": "Pane",
+  "difficulty": "Facile",
+  "prepTime": 20,
+  "cookTime": 15,
+  "servings": 8,
+  "checks": {
+    "schema_valid": true,
+    "has_translations_en": true,
+    "has_translations_it": true,
+    "tags_are_french": true,
+    "tags_min_count": 5,
+    "tags_max_count": 15,
+    "ingredients_min_count": 8,
+    "steps_min_count": 8,
+    "tips_present": true,
+    "tips_min_count": 3,
+    "source_omitted": true,
+    "original_source_type": "text",
+    "images_field_present": true,
+    "no_empty_arrays": true,
+    "quanto_vene_on_olive_oil": true,
+    "description_max_length": 200,
+    "translations_have_ingredients": true,
+    "translations_have_steps": true,
+    "translations_have_tags": true
+  },
+  "notes": "This is a straightforward structured issue. All fields are provided. Tests basic parsing, translation, and schema compliance. The olive oil ingredient MUST have (Quanto vene) appended."
+}

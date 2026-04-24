@@ -440,7 +440,7 @@ Create directory `public/images/recipes/{slug}/` if needed.
 Download the uploaded image and save it as `public/images/recipes/{slug}/cover.jpg` (or the appropriate extension). Also create a web-sized version at `public/images/recipes/{slug}/web.jpg` if the uploaded image is large (resize or use it directly if already web-appropriate).
 
 ### If no cover image was provided
-Use the **unsplash-recipe-image** skill (`.claude/skills/unsplash-recipe-image/SKILL.md`) to find and download a professional food photograph from Unsplash. Pass the recipe title and a brief summary of ingredients/description as context.
+Use the **unsplash-recipe-image** skill (`.agents/skills/unsplash-recipe-image/SKILL.md`) to find and download a professional food photograph from Unsplash. Pass the recipe title and a brief summary of ingredients/description as context.
 
 **Fall back to SVG immediately if any of the following occur:**
 - `UNSPLASH_ACCESS_KEY` is not set
@@ -470,7 +470,7 @@ When using SVG, set both `cover` and `web` in the `images` object to the same `.
 1. Confirm cover image exists at `public/images/recipes/{slug}/cover.{jpg,svg}` and web image at `public/images/recipes/{slug}/web.{jpg,svg}`
 2. Sync `stepCount` and `ingredientCount` in the index from the actual recipe files:
    ```bash
-   python3 .claude/skills/add-recipe/sync-recipe-counts.py
+   python3 .agents/skills/add-recipe/sync-recipe-counts.py
    ```
 3. Validate recipe JSON and index against the Zod schemas:
    ```bash

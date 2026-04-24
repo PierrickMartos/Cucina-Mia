@@ -1,0 +1,33 @@
+{
+  "slug": "pesto-alla-genovese",
+  "title": "Pesto alla Genovese",
+  "category": "Antipasti",
+  "difficulty": "Facile",
+  "prepTime": 15,
+  "cookTime": 0,
+  "servings": 4,
+  "checks": {
+    "schema_valid": true,
+    "has_translations_en": true,
+    "has_translations_it": true,
+    "tags_are_french": true,
+    "tags_min_count": 5,
+    "tags_should_contain": ["cru", "italien", "no-cuisson", "méditerranéen"],
+    "ingredients_min_count": 7,
+    "steps_min_count": 6,
+    "tips_present": true,
+    "tips_min_count": 2,
+    "cook_time_is_zero": true,
+    "original_source_type": "url",
+    "original_source_data_is_url": true,
+    "images_field_present": true,
+    "parallel_extraction_used": true,
+    "consensus_report_generated": true,
+    "judge_validation_run": true,
+    "translations_have_ingredients": true,
+    "translations_have_steps": true,
+    "description_max_length": 200,
+    "quanto_vene_required_on": ["parmesan", "pecorino", "huile d'olive"]
+  },
+  "notes": "Tests URL extraction, Quanto vene rule on 3 ingredients (parmesan, pecorino, olive oil), and cook time 0. The source is already in French so the base JSON should closely match the source text. All three cheese/oil ingredients MUST have (Quanto vene) appended."
+}

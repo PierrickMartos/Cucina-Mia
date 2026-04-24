@@ -1,0 +1,150 @@
+{
+  "skill_name": "add-recipe",
+  "evals": [
+    {
+      "id": 1,
+      "prompt": "Process this recipe submission issue for Cucina Mia:\n\nLabels: recipe-submission\nTitle: [Recipe] Naan nature\n\n### Recipe Title\nNaan nature\n\n### Slug\nnaan-nature\n\n### Description\nLe pain naan traditionnel indien, souple et moelleux, cuit à la poêle. Parfait pour accompagner un curry ou simplement déguster avec du beurre.\n\n### Category\nPane\n\n### Difficulty\nFacile\n\n### Prep Time (minutes)\n20\n\n### Cook Time (minutes)\n15\n\n### Servings\n8\n\n### Tags\npoêle, indien, moelleux, facile, végétarien, plat-principal, accompagnement, chaud, toute-la-famille, économique\n\n### Ingredients\n500 g de farine\n1 sachet de levure de boulanger sèche (7 g)\n200 ml de yaourt nature\n100 ml d'eau tiède\n2 cuillères à soupe d'huile d'olive\n1 cuillère à café de sel\n1 cuillère à café de sucre\nBeurre pour la cuisson\n\n### Steps\nMélanger la farine, la levure, le sel et le sucre dans un grand saladier.\nAjouter le yaourt, l'eau tiède et l'huile d'olive. Mélanger jusqu'à obtenir une pâte homogène.\nPétrir la pâte sur un plan fariné pendant 5 à 8 minutes jusqu'à ce qu'elle soit souple et élastique.\nCouvrir d'un torchon humide et laisser lever 1 heure dans un endroit tiède, jusqu'à ce que la pâte double de volume.\nDiviser la pâte en 8 portions égales et les façonner en boules.\nÉtaler chaque boule en ovale d'environ 5 mm d'épaisseur sur un plan légèrement fariné.\nFaire chauffer une poêle à feu vif sans matière grasse. Cuire chaque naan 1 à 2 minutes de chaque côté, jusqu'à ce que des bulles se forment et que la surface soit dorée.\nBadigeonner chaque naan de beurre fondu à la sortie de la poêle. Servir immédiatement.\n\n### Tips (optional)\nPour des naans encore plus moelleux, remplacez l'eau par du lait tiède.\nVous pouvez ajouter de l'ail haché et du persil frais sur le naan chaud pour une version ail et fines herbes.\nLes naans se conservent 2 jours dans un sac hermétique et se réchauffent facilement à la poêle.\n\n### Source (optional)\n_No response_\n\n### Cover Image (optional)\n_No response_",
+      "expected_output": "A complete recipe JSON file at public/data/recipes/naan-nature.json with French base text, EN and IT translations, and an updated index.json. The olive oil ingredient must have (Quanto vene) appended.",
+      "files": [],
+      "assertions": [
+        "A file public/data/recipes/naan-nature.json was created and is valid JSON",
+        "The recipe JSON passes the Zod RecipeDetailSchema validation",
+        "The slug is 'naan-nature' and the category is 'Pane'",
+        "The difficulty is 'Facile', prepTime is 20, cookTime is 15, servings is 8",
+        "The ingredients array contains at least 8 items",
+        "The steps array contains at least 8 steps",
+        "The tips array exists and contains at least 3 tips",
+        "The olive oil ingredient includes '(Quanto vene)' annotation",
+        "All base tags are in French (no English tags like 'oven', 'easy', 'kids')",
+        "There are between 5 and 15 tags",
+        "The translations object includes both 'en' and 'it' keys",
+        "Both translations include title, description, tags, ingredients, steps, and tips",
+        "The description is under 200 characters",
+        "The originalSource field has type 'text'",
+        "The images field has both 'cover' and 'web' paths",
+        "An entry for 'naan-nature' was added to index.json",
+        "The source field is omitted (not present or empty) since no source was provided"
+      ]
+    },
+    {
+      "id": 2,
+      "prompt": "Process this recipe submission issue for Cucina Mia:\n\nLabels: recipe-submission, needs-formatting\nTitle: [Recipe] Pain au lait de Mamie Yvette\n\n### Recipe Name\nPain au lait de Mamie Yvette\n\n### Recipe File\n![source](https://user-images.githubusercontent.com/example/source.jpg)\n\n### Recipe Image (optional)\n_No response_\n\n### Notes (optional)\nC'est la recette de la grand-mère de Pierrick. Son secret c'est de séparer les blancs des jaunes et de monter les blancs en neige avant de les incorporer à la pâte — ça rend les pains au lait beaucoup plus légers et aériens. Origine : mamie de Pierrick.",
+      "expected_output": "A complete recipe JSON extracted from the handwritten image, using parallel 3-agent extraction with consensus and LLM judge validation. Must include all 7 ingredients with correct quantities, French base text, EN/IT translations, and the egg white tip from the notes.",
+      "files": ["evals/files/mamie-yvette-source.jpg"],
+      "assertions": [
+        "A file public/data/recipes/pain-au-lait-de-mamie-yvette.json was created and is valid JSON",
+        "The recipe JSON passes the Zod RecipeDetailSchema validation",
+        "The parallel 3-agent extraction was used (3 agents launched in the same message)",
+        "A consensus was built from the 3 agent results with a discrepancy report",
+        "An LLM judge validation was run against the original source",
+        "The ingredients contain farine (600 g), beurre (100 g), oeufs (3), sucre (8 cuillères), sel (2 cuillères), lait (2 verres), and levure (½ cube)",
+        "The recipe has at least 6 steps covering the full bread-making process",
+        "The tips mention the egg white technique from the notes",
+        "The source field is set to 'Mamie Yvette'",
+        "The originalSource has type 'image' and data points to the source.jpg file",
+        "The category is 'Pane' and difficulty is 'Facile'",
+        "Both 'en' and 'it' translations are present with ingredients and steps",
+        "The description is in French and under 200 characters",
+        "An entry was added to index.json with matching slug"
+      ]
+    },
+    {
+      "id": 3,
+      "prompt": "Process this recipe submission issue for Cucina Mia:\n\nLabels: recipe-submission, needs-formatting\nTitle: [Recipe] Tiramisù classico\n\n### Recipe Name\nTiramisù classico\n\n### Recipe File\n[tiramisù-classico.pdf](https://user-images.githubusercontent.com/example/tiramisù-classico.pdf)\n\nPDF content (Italian):\n\nTiramisù Classico\n\nPer 6 persone\n\nIngredienti:\n\nPer la crema:\n- 3 tuorli d'uovo\n- 100 g di zucchero\n- 500 g di mascarpone\n- 3 albumi d'uovo\n\nPer l'assemblaggio:\n- 300 ml di caffè espresso freddo\n- 300 g di savoiardi (biscuits à la cuillère)\n- Cacao amaro in polvere q.b.\n\nPreparazione:\n1. Sbattere i tuorli con lo zucchero fino a ottenere un composto chiaro e spumoso.\n2. Aggiungere il mascarpone al composto di tuorli e mescolare delicatamente fino a ottenere una crema liscia e omogenea.\n3. In una ciotola separata, montare gli albumi a neve ferma.\n4. Incorporare gli albumi montati alla crema di mascarpone con movimenti dal basso verso l'alto per non smontarli.\n5. Versare il caffè freddo in un piatto fondo. Immergere rapidamente i savoiardi nel caffè — devono essere inzuppati ma non fradici.\n6. Disporre uno strato di savoiardi inzuppati sul fondo di una pirofila rettangolare.\n7. Coprire con uno strato generoso di crema al mascarpone.\n8. Ripetere con un secondo strato di savoiardi inzuppati e un altro strato di crema.\n9. Spolverare abbondantemente con cacao amaro in polvere.\n10. Coprire con pellicola trasparente e riporre in frigorifero per almeno 4 ore, meglio tutta la notte.\n\nConsiglio: Il tiramisù è ancora più buono preparato il giorno prima.\n\n### Recipe Image (optional)\n_No response_\n\n### Notes (optional)\nRecette de la famille, toujours préparée la veille pour Noël. Pas d'alcool dans cette version pour que les enfants puissent en manger aussi.",
+      "expected_output": "A complete recipe JSON translated from Italian to French (base), with EN and IT translations. cookTime must be 0 (no cooking). Must preserve the two ingredient groups. PDF source stored as originalSource.",
+      "files": ["evals/files/tiramisu-classico.pdf"],
+      "assertions": [
+        "A file public/data/recipes/tiramisu-classico.json was created and is valid JSON",
+        "The recipe JSON passes the Zod RecipeDetailSchema validation",
+        "The parallel 3-agent extraction was used (3 agents launched in the same message)",
+        "The cookTime is exactly 0 (tiramisu has no cooking step)",
+        "The servings is 6",
+        "The category is 'Dolci'",
+        "The base language is French — ingredients, steps, description are in French, not Italian",
+        "There are at least 2 ingredient groups (e.g., 'Pour la crème' and 'Pour l'assemblage')",
+        "The ingredient groups are translated in each language (Italian groups should closely match the original)",
+        "There are at least 8 steps",
+        "The originalSource has type 'pdf' with data pointing to source.pdf",
+        "The tags include relevant French tags like 'no-cuisson', 'dessert', 'italien'",
+        "Both 'en' and 'it' translations are present with full ingredients and steps",
+        "The Italian translation preserves the recipe closely to the original PDF text",
+        "An entry was added to index.json with matching slug"
+      ]
+    },
+    {
+      "id": 4,
+      "prompt": "Process this recipe submission issue for Cucina Mia:\n\nLabels: recipe-submission, needs-formatting\nTitle: [Recipe] Pesto alla Genovese\n\n### Recipe Name\nPesto alla Genovese\n\n### Recipe URL\nhttps://example.com/recettes/pesto-alla-genovese\n\nFetched page content:\n\n# Pesto alla Genovese — La recette authentique\n\nLe vrai pesto alla genovese se prépare au mortier, avec du basilic frais, des pignons de pin, de l'ail, du parmesan, du pecorino et une huile d'olive de qualité.\n\nTemps de préparation : 15 minutes\nTemps de cuisson : aucun\nPour : 4 personnes\nDifficulté : Facile\n\n## Ingrédients\n- 60 g de feuilles de basilic frais (environ 2 gros bouquets)\n- 30 g de pignons de pin\n- 1 gousse d'ail\n- 50 g de parmesan reggiano râpé\n- 20 g de pecorino sardo râpé\n- 100 ml d'huile d'olive extra vierge\n- Sel fin q.b.\n\n## Préparation\n1. Laver délicatement les feuilles de basilic et les sécher soigneusement.\n2. Dans un mortier, écraser l'ail avec une pincée de gros sel.\n3. Ajouter les pignons de pin et piler jusqu'à obtenir une pâte grossière.\n4. Ajouter les feuilles de basilic par poignées en pilant doucement.\n5. Incorporer le parmesan et le pecorino râpés et mélanger.\n6. Verser l'huile d'olive en filet tout en continuant de mélanger.\n7. Goûter et ajuster le sel si nécessaire.\n\n## Conseils\n- Utilisez un mortier en marbre si possible.\n- Le pesto se conserve 3-4 jours au réfrigérateur.\n- Pour congeler le pesto, omettez le fromage.\n\n### Recipe Image (optional)\n_No response_\n\n### Notes (optional)\nLa vraie recette ligure avec du basilic frais et du pignon de pin.",
+      "expected_output": "A complete recipe JSON from the URL source. Three ingredients must have (Quanto vene): parmesan, pecorino, and olive oil. cookTime must be 0. originalSource type must be 'url'.",
+      "files": [],
+      "assertions": [
+        "A file public/data/recipes/pesto-alla-genovese.json was created and is valid JSON",
+        "The recipe JSON passes the Zod RecipeDetailSchema validation",
+        "The parallel 3-agent extraction was used (3 agents launched in the same message)",
+        "The parmesan ingredient includes '(Quanto vene)' annotation",
+        "The pecorino ingredient includes '(Quanto vene)' annotation",
+        "The olive oil ingredient includes '(Quanto vene)' annotation",
+        "The cookTime is exactly 0",
+        "The prepTime is 15 and servings is 4",
+        "The originalSource has type 'url' with the original webpage URL as data",
+        "There are at least 7 ingredients and at least 6 steps",
+        "The tips array exists with at least 2 tips",
+        "Tags include French terms like 'cru' or 'no-cuisson', 'italien', 'méditerranéen'",
+        "Both 'en' and 'it' translations are present with full ingredients and steps",
+        "The description is in French and under 200 characters",
+        "An entry was added to index.json with matching slug"
+      ]
+    },
+    {
+      "id": 5,
+      "prompt": "Process this recipe submission issue for Cucina Mia:\n\nLabels: recipe-submission\nTitle: [Recipe] Banana Bread\n\n### Recipe Title\nBanana Bread\n\n### Slug\nbanana-bread\n\n### Description\nA moist and tender banana bread loaded with ripe bananas. Simple to make, perfect for breakfast or an afternoon snack.\n\n### Category\nBreakfast\n\n### Difficulty\nFacile\n\n### Prep Time (minutes)\n15\n\n### Cook Time (minutes)\n55\n\n### Servings\n8\n\n### Tags\noven, easy, breakfast, snack, vegetarian, kids, comforting, soft, american, banana, sweet\n\n### Ingredients\n3 very ripe bananas, mashed\n80 g melted butter\n150 g sugar\n1 egg, beaten\n1 teaspoon vanilla extract\n1 teaspoon baking soda\nPinch of salt\n190 g all-purpose flour\n\n### Steps\nPreheat the oven to 175°C (350°F).\nMash the bananas in a large bowl with a fork until smooth.\nStir in the melted butter.\nAdd the sugar, beaten egg, and vanilla extract. Mix well.\nSprinkle the baking soda and salt over the mixture, then stir in.\nAdd the flour and fold gently until just combined — do not overmix.\nPour the batter into a greased 23x13 cm loaf pan.\nBake for 55 to 60 minutes, until a toothpick inserted in the center comes out clean.\nLet cool in the pan for 10 minutes before turning out onto a wire rack.\n\n### Tips (optional)\nThe riper the bananas, the better — use bananas with lots of brown spots.\nAdd 60g of chopped walnuts or chocolate chips for a variation.\nKeeps well wrapped in cling film for 3-4 days, or freeze for up to 2 months.\n\n### Source (optional)\n_No response_\n\n### Cover Image (optional)\n_No response_",
+      "expected_output": "A complete recipe JSON with ALL base fields translated to French (not English). The English submission should be preserved in translations.en. Tags must be mapped from English to the French tag vocabulary.",
+      "files": [],
+      "assertions": [
+        "A file public/data/recipes/banana-bread.json was created and is valid JSON",
+        "The recipe JSON passes the Zod RecipeDetailSchema validation",
+        "The base description is in French, not English",
+        "The base ingredients are in French (e.g., 'farine' not 'flour', 'beurre' not 'butter')",
+        "The base steps are in French",
+        "The base tags are in French vocabulary (e.g., 'four' not 'oven', 'facile' not 'easy', 'enfants' not 'kids')",
+        "No English tags remain in the base tags array",
+        "The translations.en section preserves the original English text closely",
+        "Both 'en' and 'it' translations are present with full ingredients and steps",
+        "The category is 'Breakfast', difficulty is 'Facile'",
+        "The prepTime is 15, cookTime is 55, servings is 8",
+        "There are at least 8 ingredients and at least 9 steps",
+        "The originalSource has type 'text'",
+        "An entry was added to index.json with matching slug"
+      ]
+    },
+    {
+      "id": 6,
+      "prompt": "Process this recipe submission issue for Cucina Mia:\n\nLabels: recipe-submission\nTitle: [Recipe] Pasta alla Carbonara\n\n### Recipe Title\nPasta alla Carbonara\n\n### Slug\npasta-carbonara\n\n### Description\nLa recette romaine classique de la carbonara, avec guanciale, pecorino et œufs.\n\n### Category\nPasta\n\n### Difficulty\nMedio\n\n### Prep Time (minutes)\n10\n\n### Cook Time (minutes)\n20\n\n### Servings\n4\n\n### Tags\npâtes, italien, porc, œufs, fromage, traditionnel, rapide, plat-principal\n\n### Ingredients\n400 g de spaghetti\n150 g de guanciale\n4 jaunes d'œufs\n100 g de pecorino romano râpé\nPoivre noir fraîchement moulu\n\n### Steps\nCouper le guanciale en lardons et le faire revenir à sec dans une poêle.\nCuire les spaghetti dans une grande casserole d'eau bouillante salée.\nMélanger les jaunes d'œufs avec le pecorino et le poivre dans un bol.\nÉgoutter les pâtes en réservant de l'eau de cuisson, puis mélanger avec le guanciale hors du feu.\nAjouter le mélange d'œufs et de fromage en remuant vigoureusement.\n\n### Tips (optional)\n_No response_\n\n### Source (optional)\n_No response_\n\n### Cover Image (optional)\n_No response_",
+      "expected_output": "The skill must detect that the slug 'pasta-carbonara' already exists and STOP. No files should be created or modified.",
+      "files": [],
+      "assertions": [
+        "The skill detected that 'pasta-carbonara' already exists in the recipe index",
+        "The skill stopped processing and reported the duplicate to the user",
+        "The existing public/data/recipes/pasta-carbonara.json file was NOT modified",
+        "The index.json file was NOT modified (no duplicate entry added)",
+        "No new recipe files were created"
+      ]
+    },
+    {
+      "id": 7,
+      "prompt": "Process this recipe submission issue for Cucina Mia:\n\nLabels: recipe-submission\nTitle: [Recipe] Crème brûlée\n\n### Recipe Title\nCrème brûlée\n\n### Slug\ncreme-brulee\n\n### Description\n_No response_\n\n### Category\nDolci\n\n### Difficulty\nMedio\n\n### Prep Time (minutes)\n_No response_\n\n### Cook Time (minutes)\n45\n\n### Servings\n_No response_\n\n### Tags\n_No response_\n\n### Ingredients\n500 ml de crème liquide\n4 jaunes d'œufs\n80 g de sucre\n1 gousse de vanille\nCassonade pour le caramel\n\n### Steps\n_No response_\n\n### Tips (optional)\n_No response_\n\n### Source (optional)\n_No response_\n\n### Cover Image (optional)\n_No response_",
+      "expected_output": "The skill must detect ALL missing required fields (description, prepTime, servings, tags, steps) and report them. No files should be created.",
+      "files": [],
+      "assertions": [
+        "The skill detected that required fields are missing",
+        "The skill reported 'description' as missing",
+        "The skill reported 'prepTime' as missing",
+        "The skill reported 'servings' as missing",
+        "The skill reported 'tags' as missing",
+        "The skill reported 'steps' as missing",
+        "All 5 missing fields were reported (not just the first one found)",
+        "The skill stopped processing and did not create any recipe files",
+        "No new files were created in public/data/recipes/"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "slug": "pain-au-lait-de-mamie-yvette",
+  "title": "Pain au lait de Mamie Yvette",
+  "category": "Pane",
+  "difficulty": "Facile",
+  "checks": {
+    "schema_valid": true,
+    "has_translations_en": true,
+    "has_translations_it": true,
+    "tags_are_french": true,
+    "tags_min_count": 5,
+    "ingredients_min_count": 7,
+    "ingredients_must_contain": ["farine", "beurre", "œufs", "sucre", "sel", "lait", "levure"],
+    "steps_min_count": 6,
+    "tips_present": true,
+    "original_source_type": "image",
+    "original_source_data_pattern": "images/recipes/pain-au-lait-de-mamie-yvette/source.jpg",
+    "images_field_present": true,
+    "parallel_extraction_used": true,
+    "consensus_report_generated": true,
+    "judge_validation_run": true,
+    "translations_have_ingredients": true,
+    "translations_have_steps": true,
+    "description_max_length": 200,
+    "source_field_value": "Mamie Yvette"
+  },
+  "extraction_difficulty": "hard",
+  "expected_quantities": {
+    "farine": "600 g",
+    "beurre": "100 g",
+    "oeufs": "3",
+    "sucre": "8 cuillères à soupe",
+    "sel": "2 cuillères à café",
+    "lait": "2 verres",
+    "levure": "½ cube"
+  },
+  "notes": "This is the hardest eval — handwritten French recipe requiring OCR. Tests the full 3-agent parallel extraction + judge pipeline. Key validation: all 7 ingredients must be extracted with correct quantities, the egg white tip from notes must be incorporated, and origin should be set to 'pierrick-grandma'. The handwriting is challenging — watch for misreads of quantities (600g vs 500g, ½ cube vs 1 cube)."
+}

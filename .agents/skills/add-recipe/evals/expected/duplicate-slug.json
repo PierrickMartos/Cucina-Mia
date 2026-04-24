@@ -1,0 +1,14 @@
+{
+  "slug": "pasta-carbonara",
+  "checks": {
+    "must_detect_duplicate": true,
+    "must_stop_processing": true,
+    "must_not_overwrite_existing_file": true,
+    "must_not_modify_index": true,
+    "must_report_error_to_user": true,
+    "no_files_created": true,
+    "no_files_modified": true
+  },
+  "expected_outcome": "error",
+  "notes": "This eval tests error handling. The slug 'pasta-carbonara' already exists. The skill must detect this in the validation step and refuse to proceed. No files should be created or modified."
+}
