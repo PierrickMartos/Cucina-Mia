@@ -4070,5 +4070,275 @@
         ]
       }
     }
+  },
+  {
+    "slug": "gnocchi-alla-sorrentina",
+    "title": "Gnocchi alla sorrentina",
+    "description": "Des gnocchi de pomme de terre à la sauce tomate, gratinés avec provola affumicata et parmesan.",
+    "images": {
+      "cover": "images/recipes/gnocchi-alla-sorrentina/cover.jpg",
+      "web": "images/recipes/gnocchi-alla-sorrentina/web.jpg"
+    },
+    "prepTime": 45,
+    "cookTime": 30,
+    "servings": 4,
+    "difficulty": "Medio",
+    "category": "Gnocchi",
+    "tags": [
+      "gnocchi",
+      "italien",
+      "four",
+      "gratiné",
+      "végétarien",
+      "fromage",
+      "tomate",
+      "plat-principal",
+      "réconfortant",
+      "gourmand",
+      "chaud",
+      "à-partager"
+    ],
+    "stepCount": 6,
+    "ingredientCount": 9,
+    "translations": {
+      "en": {
+        "title": "Gnocchi alla Sorrentina",
+        "description": "Potato gnocchi in tomato sauce, baked with smoked provola and parmesan.",
+        "tags": [
+          "gnocchi",
+          "italian",
+          "oven",
+          "baked",
+          "vegetarian",
+          "cheese",
+          "tomato",
+          "main-course",
+          "comforting",
+          "indulgent",
+          "hot",
+          "to-share"
+        ]
+      },
+      "it": {
+        "title": "Gnocchi alla sorrentina",
+        "description": "Gnocchi di patate al sugo di pomodoro, gratinati con provola affumicata e parmigiano.",
+        "tags": [
+          "gnocchi",
+          "italiano",
+          "forno",
+          "gratinato",
+          "vegetariano",
+          "formaggio",
+          "pomodoro",
+          "primo-piatto",
+          "confortante",
+          "goloso",
+          "caldo",
+          "da-condividere"
+        ]
+      }
+    }
+  },
+  {
+    "slug": "cookies-sales-au-comte",
+    "title": "Cookies salés au comté",
+    "description": "Des cookies salés moelleux et parfumés au comté, moutarde à l'ancienne, thym et graines de tournesol, parfaits pour l'apéro.",
+    "images": {
+      "cover": "images/recipes/cookies-sales-au-comte/cover.jpg",
+      "web": "images/recipes/cookies-sales-au-comte/web.jpg"
+    },
+    "prepTime": 15,
+    "cookTime": 15,
+    "servings": 12,
+    "difficulty": "Facile",
+    "category": "Antipasti",
+    "tags": [
+      "four",
+      "apéro",
+      "végétarien",
+      "finger-food",
+      "à-partager",
+      "facile",
+      "fromage",
+      "snack",
+      "moelleux",
+      "herbacé",
+      "convivial",
+      "chaud"
+    ],
+    "translations": {
+      "en": {
+        "title": "Savory Comté Cookies",
+        "description": "Soft savory cookies flavored with Comté, whole-grain mustard, thyme and sunflower seeds, perfect for aperitivo.",
+        "tags": [
+          "oven",
+          "aperitif",
+          "vegetarian",
+          "finger-food",
+          "sharing",
+          "easy",
+          "cheese",
+          "snack",
+          "soft",
+          "herby",
+          "convivial",
+          "hot"
+        ]
+      },
+      "it": {
+        "title": "Cookie salati al Comté",
+        "description": "Cookie salati morbidi e profumati con Comté, senape all'antica, timo e semi di girasole, perfetti per l'aperitivo.",
+        "tags": [
+          "forno",
+          "aperitivo",
+          "vegetariano",
+          "finger-food",
+          "da-condividere",
+          "facile",
+          "formaggio",
+          "snack",
+          "morbido",
+          "erbaceo",
+          "conviviale",
+          "caldo"
+        ]
+      }
+    },
+    "stepCount": 7,
+    "ingredientCount": 9,
+    "imageCredit": {
+      "author": "Allen Gong",
+      "url": "https://unsplash.com/@mrgongxue"
+    }
+  },
+  {
+    "slug": "bananamisu",
+    "title": "Bananamisù aux spéculoos et à la banane",
+    "description": "Un dessert façon tiramisu à la banane, avec une base de spéculoos croustillante et une crème mascarpone légère.",
+    "images": {
+      "cover": "images/recipes/bananamisu/cover.jpg",
+      "web": "images/recipes/bananamisu/web.jpg"
+    },
+    "prepTime": 35,
+    "cookTime": 3,
+    "servings": 4,
+    "difficulty": "Medio",
+    "category": "Dolci",
+    "tags": [
+      "dessert",
+      "italien",
+      "sans-cuisson",
+      "à-partager",
+      "crémeux",
+      "gourmand",
+      "banane",
+      "chocolat",
+      "fruits",
+      "froid"
+    ],
+    "stepCount": 14,
+    "ingredientCount": 11,
+    "translations": {
+      "en": {
+        "title": "Bananamisu with speculoos and banana",
+        "description": "A banana tiramisu-style dessert with a crunchy speculoos base and a light mascarpone cream.",
+        "tags": [
+          "dessert",
+          "italian",
+          "no-bake",
+          "to-share",
+          "creamy",
+          "indulgent",
+          "banana",
+          "chocolate",
+          "fruit",
+          "cold"
+        ]
+      },
+      "it": {
+        "title": "Bananamisù con speculoos e banana",
+        "description": "Un dessert in stile tiramisù alla banana, con una base croccante di speculoos e una crema leggera al mascarpone.",
+        "tags": [
+          "dessert",
+          "italiano",
+          "senza-cottura",
+          "da-condividere",
+          "cremoso",
+          "goloso",
+          "banana",
+          "cioccolato",
+          "frutta",
+          "freddo"
+        ]
+      }
+    }
+  },
+  {
+    "slug": "pasta-tartuffo",
+    "title": "Pasta tartuffo",
+    "description": "Les fameuses pâtes à la truffe de Big Mamma, crémeuses au mascarpone, parmesan et champignons de Paris.",
+    "images": {
+      "cover": "images/recipes/pasta-tartuffo/cover.jpg",
+      "web": "images/recipes/pasta-tartuffo/web.jpg"
+    },
+    "prepTime": 15,
+    "cookTime": 20,
+    "servings": 4,
+    "difficulty": "Facile",
+    "category": "Pasta",
+    "tags": [
+      "pâtes",
+      "truffe",
+      "champignons",
+      "fromage",
+      "italien",
+      "rapide",
+      "facile",
+      "plat-principal",
+      "onctueux",
+      "gourmand",
+      "chaud",
+      "végétarien"
+    ],
+    "stepCount": 8,
+    "ingredientCount": 9,
+    "translations": {
+      "en": {
+        "title": "Truffle Pasta",
+        "description": "Big Mamma's famous truffle pasta, creamy with mascarpone, parmesan and button mushrooms.",
+        "tags": [
+          "pasta",
+          "truffle",
+          "mushrooms",
+          "cheese",
+          "italian",
+          "quick",
+          "easy",
+          "main-course",
+          "creamy",
+          "indulgent",
+          "hot",
+          "vegetarian"
+        ]
+      },
+      "it": {
+        "title": "Pasta al tartufo",
+        "description": "La famosa pasta al tartufo di Big Mamma, cremosa con mascarpone, parmigiano e champignon.",
+        "tags": [
+          "pasta",
+          "tartufo",
+          "funghi",
+          "formaggio",
+          "italiano",
+          "veloce",
+          "facile",
+          "primo-piatto",
+          "cremoso",
+          "goloso",
+          "caldo",
+          "vegetariano"
+        ]
+      }
+    }
   }
 ]
