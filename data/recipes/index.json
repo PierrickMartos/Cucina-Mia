@@ -4344,7 +4344,7 @@
   {
     "slug": "carpaccio-de-tomates-au-pesto-de-pistaches",
     "title": "Carpaccio de tomates au pesto de pistaches",
-    "description": "Une entrée d'été légère et rafraîchissante avec tomates, pesto de pistaches et mûres fraîches pour une touche sucrée-acidulée.",
+    "description": "Une entrée d'été légère et rafraîchissante avec tomates, pesto de pistaches, burrata crémeuse et crème balsamique.",
     "images": {
       "cover": "images/recipes/carpaccio-de-tomates-au-pesto-de-pistaches/cover.jpg",
       "web": "images/recipes/carpaccio-de-tomates-au-pesto-de-pistaches/web.jpg"
@@ -4366,12 +4366,12 @@
       "froid",
       "méditerranéen",
       "tomates",
-      "fruits"
+      "fromage"
     ],
     "translations": {
       "en": {
         "title": "Tomato Carpaccio with Pistachio Pesto",
-        "description": "A light, refreshing summer starter with tomatoes, pistachio pesto and fresh blackberries for a sweet-tart touch.",
+        "description": "A light, refreshing summer starter with tomatoes, pistachio pesto, creamy burrata and balsamic glaze.",
         "tags": [
           "summer",
           "vegetarian",
@@ -4384,12 +4384,12 @@
           "cold",
           "mediterranean",
           "tomatoes",
-          "fruit"
+          "cheese"
         ]
       },
       "it": {
         "title": "Carpaccio di pomodori con pesto di pistacchi",
-        "description": "Un antipasto estivo leggero e rinfrescante con pomodori, pesto di pistacchi e more fresche per una nota dolce-acidula.",
+        "description": "Un antipasto estivo leggero e rinfrescante con pomodori, pesto di pistacchi, burrata cremosa e crema di balsamico.",
         "tags": [
           "estate",
           "vegetariano",
@@ -4402,12 +4402,13 @@
           "freddo",
           "mediterraneo",
           "pomodori",
-          "frutta"
+          "formaggio"
         ]
       }
     },
-    "stepCount": 3,
-    "ingredientCount": 9
+    "stepCount": 6,
+    "ingredientCount": 10,
+    "origin": "pierrick"
   },
   {
     "slug": "gaspacho-de-pasteque-a-la-feta",
