@@ -1,0 +1,194 @@
+{
+  "slug": "curry-vert-de-pierrick",
+  "title": "Curry vert de Pierrick",
+  "description": "Un curry vert thaï au poulet, crémeux au lait de coco, parfumé au combava et au basilic thaï.",
+  "images": {
+    "cover": "images/recipes/curry-vert-de-pierrick/cover.jpg",
+    "web": "images/recipes/curry-vert-de-pierrick/web.jpg"
+  },
+  "prepTime": 10,
+  "cookTime": 15,
+  "servings": 4,
+  "difficulty": "Facile",
+  "category": "Secondi",
+  "tags": [
+    "asiatique",
+    "thaï",
+    "poulet",
+    "épicé",
+    "mijoté",
+    "wok",
+    "rapide",
+    "plat-principal",
+    "lait-de-coco",
+    "chaud",
+    "réconfortant",
+    "herbacé"
+  ],
+  "ingredients": [
+    {
+      "items": [
+        "500 g de poulet, cuisses ou escalopes, en morceaux",
+        "3-4 c. à soupe de pâte de curry vert",
+        "400 ml de lait de coco",
+        "2 c. à soupe d'huile neutre",
+        "1 c. à soupe de sauce de poisson (nam pla)",
+        "1 c. à soupe de sucre de palme ou de sucre roux",
+        "6-8 feuilles de kaffir, ou combava",
+        "200 g d'aubergines thaïes, petites aubergines, pois des steppes, courgettes ou poivrons",
+        "Une poignée de basilic thaï (horapha) ou de basilic frais",
+        "Piments oiseaux frais, optionnel"
+      ]
+    }
+  ],
+  "steps": [
+    {
+      "text": "Faites chauffer l'huile dans un wok à feu moyen-vif. Ajoutez la pâte de curry vert et faites-la revenir 1 à 2 minutes pour libérer les arômes."
+    },
+    {
+      "text": "Incorporez le poulet et saisissez-le 2 à 3 minutes, jusqu'à ce qu'il colore."
+    },
+    {
+      "text": "Versez le lait de coco, puis ajoutez le sucre de palme, la sauce de poisson et les feuilles de kaffir. Laissez mijoter 5 minutes."
+    },
+    {
+      "text": "Ajoutez les aubergines coupées en quartiers, ainsi que les piments oiseaux si vous les utilisez. Cuisez 3 à 5 minutes supplémentaires : les légumes doivent rester croquants."
+    },
+    {
+      "text": "Hors du feu, mélangez le basilic frais. Goûtez et rectifiez l'assaisonnement en piquant, salé ou sucré."
+    }
+  ],
+  "tips": [
+    "Pour un goût plus authentique, utilisez une pâte de curry Mae Ploy, des aubergines makheua proaw et du basilic horapha.",
+    "Si vous débutez, commencez avec 2 c. à soupe de pâte de curry vert, puis ajustez selon votre tolérance au piquant.",
+    "Picard propose un très bon basilic thaï.",
+    "Pour une pâte maison, pilez galanga, citronnelle, coriandre et piments verts.",
+    "Évitez le curry lyophilisé.",
+    "Faites varier les plaisirs avec d'autres légumes : brocolis, carottes, courgettes..."
+  ],
+  "source": "Recette transmise par Pierrick",
+  "originalSource": {
+    "type": "text",
+    "data": "curry vert de Pierrick\n\nIngrédients clés\nGreen curry paste \n500 g de poulet (cuisses ou escalopes, en morceaux)\n\n3-4 c. à soupe de pâte de curry vert (ajustez selon votre tolérance au piquant)\n\n400 ml de lait de coco\n\n2 c. à soupe d'huile neutre\n\n1 c. à soupe de sauce de poisson (nam pla)\n\n1 c. à soupe de sucre de palme (ou sucre roux)\n\n6-8 feuilles de kaffir (combava)\n\n200 g d'aubergines thaïes (ou petites aubergines/pois des steppes, sinon courgettes ou poivrons)\n\nUne poignée de basilic thaï (horapha) ou basilic frais (tips: picard fait un très bon baslic thai)\n\nOptionnel : piments oiseaux frais et bambou pour plus d'authenticité\n\nÉtapes de préparation\nFaites chauffer l'huile dans un wok à feu moyen-vif. Ajoutez la pâte de curry vert et faites-la revenir 1-2 minutes pour libérer les arômes.\n\nIncorporez le poulet, saisissez 2-3 minutes jusqu'à ce qu'il colore.\n\nVersez le lait de coco, ajoutez sucre de palme, sauce de poisson et feuilles de kaffir. Laissez mijoter 5 minutes.\n\nAjoutez les aubergines (en quartiers). Cuisez 3-5 minutes supplémentaires : les légumes doivent rester croquants.\n\nHors du feu, mélangez le basilic frais. Goûtez et rectifiez l'assaisonnement (piquant, salé, sucré).\n\nAstuces d'authenticité\nUtilisez des ingrédients asiatiques (épiceries thaïes à Paris comme Tang Frères) pour un goût pro : pâte de curry Mae Ploy, aubergines makheua proaw et basilic horapha. Si vous débutez, commencez avec 2 c. à soupe de pâte à curry. Pour une version maison, la pâte inclut galanga, citronnelle, coriandre et piments verts pilés.\nEvitez le curry iophilisé"
+  },
+  "translations": {
+    "en": {
+      "title": "Pierrick's Green Curry",
+      "description": "A Thai green chicken curry, creamy with coconut milk and fragrant with kaffir lime leaves and Thai basil.",
+      "tags": [
+        "asian",
+        "thai",
+        "chicken",
+        "spicy",
+        "simmered",
+        "wok",
+        "quick",
+        "main-course",
+        "coconut-milk",
+        "hot",
+        "comforting",
+        "herbal"
+      ],
+      "ingredients": [
+        {
+          "items": [
+            "500 g chicken, thighs or breasts, cut into pieces",
+            "3-4 tbsp green curry paste",
+            "400 ml coconut milk",
+            "2 tbsp neutral oil",
+            "1 tbsp fish sauce (nam pla)",
+            "1 tbsp palm sugar or brown sugar",
+            "6-8 kaffir lime leaves",
+            "200 g Thai eggplants, small eggplants, pea eggplants, zucchini or bell peppers",
+            "A handful of Thai basil (horapha) or fresh basil",
+            "Fresh bird's eye chilies, optional"
+          ]
+        }
+      ],
+      "steps": [
+        {
+          "text": "Heat the oil in a wok over medium-high heat. Add the green curry paste and fry for 1 to 2 minutes to release the aromas."
+        },
+        {
+          "text": "Add the chicken and sear for 2 to 3 minutes, until lightly colored."
+        },
+        {
+          "text": "Pour in the coconut milk, then add the palm sugar, fish sauce and kaffir lime leaves. Simmer for 5 minutes."
+        },
+        {
+          "text": "Add the quartered eggplants, plus bird's eye chilies if using. Cook for another 3 to 5 minutes: the vegetables should stay crisp."
+        },
+        {
+          "text": "Off the heat, stir in the fresh basil. Taste and adjust the heat, saltiness or sweetness."
+        }
+      ],
+      "tips": [
+        "For a more authentic flavor, use Mae Ploy curry paste, makheua proaw eggplants and horapha basil.",
+        "If you are new to green curry, start with 2 tbsp curry paste, then adjust to your heat tolerance.",
+        "Picard has very good Thai basil.",
+        "For a homemade paste, pound galangal, lemongrass, coriander and green chilies.",
+        "Avoid freeze-dried curry.",
+        "Vary it with other vegetables: broccoli, carrots, zucchini..."
+      ]
+    },
+    "it": {
+      "title": "Curry verde di Pierrick",
+      "description": "Un curry verde thailandese con pollo, cremoso al latte di cocco e profumato con combava e basilico thai.",
+      "tags": [
+        "asiatico",
+        "thai",
+        "pollo",
+        "piccante",
+        "stufato",
+        "wok",
+        "veloce",
+        "piatto-principale",
+        "latte-di-cocco",
+        "caldo",
+        "confortante",
+        "erbaceo"
+      ],
+      "ingredients": [
+        {
+          "items": [
+            "500 g di pollo, cosce o petto, a pezzi",
+            "3-4 cucchiai di pasta di curry verde",
+            "400 ml di latte di cocco",
+            "2 cucchiai di olio neutro",
+            "1 cucchiaio di salsa di pesce (nam pla)",
+            "1 cucchiaio di zucchero di palma o zucchero di canna",
+            "6-8 foglie di kaffir lime, o combava",
+            "200 g di melanzane thai, melanzane piccole, melanzane pisello, zucchine o peperoni",
+            "Una manciata di basilico thai (horapha) o basilico fresco",
+            "Peperoncini bird's eye freschi, facoltativi"
+          ]
+        }
+      ],
+      "steps": [
+        {
+          "text": "Scaldare l'olio in un wok a fuoco medio-alto. Aggiungere la pasta di curry verde e rosolarla per 1-2 minuti per liberarne gli aromi."
+        },
+        {
+          "text": "Unire il pollo e rosolarlo per 2-3 minuti, finché prende colore."
+        },
+        {
+          "text": "Versare il latte di cocco, poi aggiungere lo zucchero di palma, la salsa di pesce e le foglie di kaffir lime. Lasciare sobbollire per 5 minuti."
+        },
+        {
+          "text": "Aggiungere le melanzane tagliate in quarti, più i peperoncini se li usi. Cuocere ancora 3-5 minuti: le verdure devono restare croccanti."
+        },
+        {
+          "text": "Fuori dal fuoco, incorporare il basilico fresco. Assaggiare e regolare piccantezza, sapidità o dolcezza."
+        }
+      ],
+      "tips": [
+        "Per un sapore più autentico, usa pasta di curry Mae Ploy, melanzane makheua proaw e basilico horapha.",
+        "Se sei alle prime armi, inizia con 2 cucchiai di pasta di curry verde, poi regola in base alla tua tolleranza al piccante.",
+        "Picard propone un ottimo basilico thai.",
+        "Per una pasta fatta in casa, pesta galanga, citronella, coriandolo e peperoncini verdi.",
+        "Evita il curry liofilizzato.",
+        "Varia il piatto con altre verdure: broccoli, carote, zucchine..."
+      ]
+    }
+  }
+}
