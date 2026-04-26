@@ -4695,5 +4695,74 @@
     "stepCount": 5,
     "ingredientCount": 10,
     "origin": "pierrick"
+  },
+  {
+    "slug": "pates-chevre-speck-et-huile-de-truffe",
+    "title": "Pâtes Chèvre, Speck et Huile de Truffe",
+    "description": "Des penne crémeuses au chèvre frais, terminées avec du speck fondant et un filet d'huile de truffe.",
+    "images": {
+      "cover": "images/recipes/pates-chevre-speck-et-huile-de-truffe/cover.jpg",
+      "web": "images/recipes/pates-chevre-speck-et-huile-de-truffe/web.jpg"
+    },
+    "prepTime": 5,
+    "cookTime": 12,
+    "servings": 4,
+    "difficulty": "Facile",
+    "category": "Pasta",
+    "tags": [
+      "pâtes",
+      "porc",
+      "fromage",
+      "rapide",
+      "facile",
+      "plat-principal",
+      "onctueux",
+      "chaud",
+      "réconfortant",
+      "gourmand",
+      "italien",
+      "truffe"
+    ],
+    "translations": {
+      "en": {
+        "title": "Pasta with Goat Cheese, Speck and Truffle Oil",
+        "description": "Creamy penne with fresh goat cheese, finished with tender speck and a drizzle of truffle oil.",
+        "tags": [
+          "pasta",
+          "pork",
+          "cheese",
+          "quick",
+          "easy",
+          "main-course",
+          "creamy",
+          "hot",
+          "comforting",
+          "indulgent",
+          "italian",
+          "truffle"
+        ]
+      },
+      "it": {
+        "title": "Pasta con Caprino, Speck e Olio al Tartufo",
+        "description": "Penne cremose con caprino fresco, completate con speck morbido e un filo di olio al tartufo.",
+        "tags": [
+          "pasta",
+          "maiale",
+          "formaggio",
+          "veloce",
+          "facile",
+          "piatto-principale",
+          "cremoso",
+          "caldo",
+          "confortante",
+          "goloso",
+          "italiano",
+          "tartufo"
+        ]
+      }
+    },
+    "origin": "pierrick",
+    "stepCount": 6,
+    "ingredientCount": 7
   }
 ]
