@@ -4626,5 +4626,73 @@
         ]
       }
     }
+  },
+  {
+    "slug": "curry-vert-de-pierrick",
+    "title": "Curry vert de Pierrick",
+    "description": "Un curry vert thaï au poulet, crémeux au lait de coco, parfumé au combava et au basilic thaï.",
+    "images": {
+      "cover": "images/recipes/curry-vert-de-pierrick/cover.jpg",
+      "web": "images/recipes/curry-vert-de-pierrick/web.jpg"
+    },
+    "prepTime": 10,
+    "cookTime": 15,
+    "servings": 4,
+    "difficulty": "Facile",
+    "category": "Secondi",
+    "tags": [
+      "asiatique",
+      "thaï",
+      "poulet",
+      "épicé",
+      "mijoté",
+      "wok",
+      "rapide",
+      "plat-principal",
+      "lait-de-coco",
+      "chaud",
+      "réconfortant",
+      "herbacé"
+    ],
+    "translations": {
+      "en": {
+        "title": "Pierrick's Green Curry",
+        "description": "A Thai green chicken curry, creamy with coconut milk and fragrant with kaffir lime leaves and Thai basil.",
+        "tags": [
+          "asian",
+          "thai",
+          "chicken",
+          "spicy",
+          "simmered",
+          "wok",
+          "quick",
+          "main-course",
+          "coconut-milk",
+          "hot",
+          "comforting",
+          "herbal"
+        ]
+      },
+      "it": {
+        "title": "Curry verde di Pierrick",
+        "description": "Un curry verde thailandese con pollo, cremoso al latte di cocco e profumato con combava e basilico thai.",
+        "tags": [
+          "asiatico",
+          "thai",
+          "pollo",
+          "piccante",
+          "stufato",
+          "wok",
+          "veloce",
+          "piatto-principale",
+          "latte-di-cocco",
+          "caldo",
+          "confortante",
+          "erbaceo"
+        ]
+      }
+    },
+    "stepCount": 5,
+    "ingredientCount": 10
   }
 ]
