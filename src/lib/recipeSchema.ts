@@ -30,6 +30,8 @@ const TranslationSchema = z.object({
   history: z.string().optional(),
 })
 
+const RecipeOriginSchema = z.enum(["none", "pierrick", "amelie", "pierrick-grandma", "amelie-grandpa"])
+
 export const RecipeSummarySchema = z.object({
   slug: z
     .string()
@@ -44,6 +46,7 @@ export const RecipeSummarySchema = z.object({
   difficulty: z.enum(["Facile", "Medio", "Difficile"]),
   category: z.string().min(1),
   tags: z.array(z.string()).min(1),
+  origin: RecipeOriginSchema.optional(),
   stepCount: z.number().int().nonnegative().optional(),
   ingredientCount: z.number().int().nonnegative().optional(),
   translations: z
