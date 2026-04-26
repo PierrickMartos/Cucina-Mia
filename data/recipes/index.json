@@ -4548,5 +4548,83 @@
         ]
       }
     }
+  },
+  {
+    "slug": "poke-bowl-falafel-mangue",
+    "title": "Poke bowl falafel & mangue",
+    "description": "Un bowl végétarien coloré avec riz, falafels, mangue, avocat et légumes croquants, relevé d'une sauce sésame-soja au gingembre.",
+    "images": {
+      "cover": "images/recipes/poke-bowl-falafel-mangue/cover.png",
+      "web": "images/recipes/poke-bowl-falafel-mangue/web.png"
+    },
+    "prepTime": 20,
+    "cookTime": 15,
+    "servings": 4,
+    "difficulty": "Facile",
+    "category": "Secondi",
+    "tags": [
+      "riz",
+      "légumes",
+      "fruits",
+      "végétarien",
+      "asiatique",
+      "plat-principal",
+      "rapide",
+      "facile",
+      "équilibré",
+      "croquant",
+      "froid",
+      "meal-prep",
+      "sucré-salé",
+      "umami",
+      "herbacé"
+    ],
+    "origin": "pierrick",
+    "stepCount": 6,
+    "ingredientCount": 16,
+    "translations": {
+      "en": {
+        "title": "Falafel and Mango Poke Bowl",
+        "description": "A colorful vegetarian bowl with rice, falafel, mango, avocado and crunchy vegetables, finished with a sesame-soy ginger sauce.",
+        "tags": [
+          "rice",
+          "vegetables",
+          "fruit",
+          "vegetarian",
+          "asian",
+          "main-course",
+          "quick",
+          "easy",
+          "balanced",
+          "crunchy",
+          "cold",
+          "meal-prep",
+          "sweet-savory",
+          "umami",
+          "herbal"
+        ]
+      },
+      "it": {
+        "title": "Poke bowl con falafel e mango",
+        "description": "Una bowl vegetariana colorata con riso, falafel, mango, avocado e verdure croccanti, condita con salsa sesamo-soia allo zenzero.",
+        "tags": [
+          "riso",
+          "verdure",
+          "frutta",
+          "vegetariano",
+          "asiatico",
+          "piatto-principale",
+          "veloce",
+          "facile",
+          "equilibrato",
+          "croccante",
+          "freddo",
+          "meal-prep",
+          "dolce-salato",
+          "umami",
+          "erbaceo"
+        ]
+      }
+    }
   }
 ]
