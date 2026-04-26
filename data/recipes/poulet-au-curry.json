@@ -3,12 +3,8 @@
   "title": "Poulet au curry",
   "description": "Un curry de poulet facile et parfumé, mijoté avec du lait de coco, des tomates et des épices doucement relevées.",
   "images": {
-    "cover": "images/recipes/poulet-au-curry/cover.jpg",
-    "web": "images/recipes/poulet-au-curry/web.jpg"
-  },
-  "imageCredit": {
-    "author": "Kirtip",
-    "url": "https://pixabay.com/users/kirtip-11113501/"
+    "cover": "images/recipes/poulet-au-curry/cover.png",
+    "web": "images/recipes/poulet-au-curry/web.png"
   },
   "prepTime": 25,
   "cookTime": 30,
