@@ -1,6 +1,6 @@
 {
   "slug": "curry-vert-de-pierrick",
-  "title": "Curry vert de Pierrick",
+  "title": "Curry vert",
   "description": "Un curry vert thaï au poulet, crémeux au lait de coco, parfumé au combava et au basilic thaï.",
   "images": {
     "cover": "images/recipes/curry-vert-de-pierrick/cover.jpg",
@@ -11,6 +11,7 @@
   "servings": 4,
   "difficulty": "Facile",
   "category": "Secondi",
+  "origin": "pierrick",
   "tags": [
     "asiatique",
     "thaï",
@@ -66,14 +67,13 @@
     "Évitez le curry lyophilisé.",
     "Faites varier les plaisirs avec d'autres légumes : brocolis, carottes, courgettes..."
   ],
-  "source": "Recette transmise par Pierrick",
   "originalSource": {
     "type": "text",
     "data": "curry vert de Pierrick\n\nIngrédients clés\nGreen curry paste \n500 g de poulet (cuisses ou escalopes, en morceaux)\n\n3-4 c. à soupe de pâte de curry vert (ajustez selon votre tolérance au piquant)\n\n400 ml de lait de coco\n\n2 c. à soupe d'huile neutre\n\n1 c. à soupe de sauce de poisson (nam pla)\n\n1 c. à soupe de sucre de palme (ou sucre roux)\n\n6-8 feuilles de kaffir (combava)\n\n200 g d'aubergines thaïes (ou petites aubergines/pois des steppes, sinon courgettes ou poivrons)\n\nUne poignée de basilic thaï (horapha) ou basilic frais (tips: picard fait un très bon baslic thai)\n\nOptionnel : piments oiseaux frais et bambou pour plus d'authenticité\n\nÉtapes de préparation\nFaites chauffer l'huile dans un wok à feu moyen-vif. Ajoutez la pâte de curry vert et faites-la revenir 1-2 minutes pour libérer les arômes.\n\nIncorporez le poulet, saisissez 2-3 minutes jusqu'à ce qu'il colore.\n\nVersez le lait de coco, ajoutez sucre de palme, sauce de poisson et feuilles de kaffir. Laissez mijoter 5 minutes.\n\nAjoutez les aubergines (en quartiers). Cuisez 3-5 minutes supplémentaires : les légumes doivent rester croquants.\n\nHors du feu, mélangez le basilic frais. Goûtez et rectifiez l'assaisonnement (piquant, salé, sucré).\n\nAstuces d'authenticité\nUtilisez des ingrédients asiatiques (épiceries thaïes à Paris comme Tang Frères) pour un goût pro : pâte de curry Mae Ploy, aubergines makheua proaw et basilic horapha. Si vous débutez, commencez avec 2 c. à soupe de pâte à curry. Pour une version maison, la pâte inclut galanga, citronnelle, coriandre et piments verts pilés.\nEvitez le curry iophilisé"
   },
   "translations": {
     "en": {
-      "title": "Pierrick's Green Curry",
+      "title": "Green Curry",
       "description": "A Thai green chicken curry, creamy with coconut milk and fragrant with kaffir lime leaves and Thai basil.",
       "tags": [
         "asian",
@@ -132,7 +132,7 @@
       ]
     },
     "it": {
-      "title": "Curry verde di Pierrick",
+      "title": "Curry verde",
       "description": "Un curry verde thailandese con pollo, cremoso al latte di cocco e profumato con combava e basilico thai.",
       "tags": [
         "asiatico",
