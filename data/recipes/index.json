@@ -4629,7 +4629,7 @@
   },
   {
     "slug": "curry-vert-de-pierrick",
-    "title": "Curry vert de Pierrick",
+    "title": "Curry vert",
     "description": "Un curry vert thaï au poulet, crémeux au lait de coco, parfumé au combava et au basilic thaï.",
     "images": {
       "cover": "images/recipes/curry-vert-de-pierrick/cover.jpg",
@@ -4656,7 +4656,7 @@
     ],
     "translations": {
       "en": {
-        "title": "Pierrick's Green Curry",
+        "title": "Green Curry",
         "description": "A Thai green chicken curry, creamy with coconut milk and fragrant with kaffir lime leaves and Thai basil.",
         "tags": [
           "asian",
@@ -4674,7 +4674,7 @@
         ]
       },
       "it": {
-        "title": "Curry verde di Pierrick",
+        "title": "Curry verde",
         "description": "Un curry verde thailandese con pollo, cremoso al latte di cocco e profumato con combava e basilico thai.",
         "tags": [
           "asiatico",
@@ -4693,6 +4693,7 @@
       }
     },
     "stepCount": 5,
-    "ingredientCount": 10
+    "ingredientCount": 10,
+    "origin": "pierrick"
   }
 ]
