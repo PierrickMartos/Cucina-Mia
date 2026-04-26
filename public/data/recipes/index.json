@@ -4477,5 +4477,76 @@
     },
     "stepCount": 4,
     "ingredientCount": 11
+  },
+  {
+    "slug": "mayak-gyeran",
+    "title": "Mayak Gyeran",
+    "description": "Des œufs mollets marinés à la coréenne dans une sauce soja parfumée, servis sur du riz chaud.",
+    "images": {
+      "cover": "images/recipes/mayak-gyeran/cover.jpg",
+      "web": "images/recipes/mayak-gyeran/web.jpg"
+    },
+    "prepTime": 15,
+    "cookTime": 6,
+    "servings": 2,
+    "difficulty": "Facile",
+    "category": "Secondi",
+    "tags": [
+      "œufs",
+      "riz",
+      "asiatique",
+      "plat-principal",
+      "facile",
+      "préparation-à-lavance",
+      "à-la-cuillère",
+      "végétarien",
+      "sans-lactose",
+      "umami",
+      "sucré-salé",
+      "épicé",
+      "chaud"
+    ],
+    "stepCount": 8,
+    "ingredientCount": 10,
+    "translations": {
+      "en": {
+        "title": "Mayak Gyeran",
+        "description": "Korean marinated soft-boiled eggs in a fragrant soy sauce marinade, served over hot rice.",
+        "tags": [
+          "eggs",
+          "rice",
+          "asian",
+          "main-course",
+          "easy",
+          "make-ahead",
+          "spoon-food",
+          "vegetarian",
+          "dairy-free",
+          "umami",
+          "sweet-savory",
+          "spicy",
+          "hot"
+        ]
+      },
+      "it": {
+        "title": "Mayak Gyeran",
+        "description": "Uova barzotte marinate alla coreana in una salsa di soia profumata, servite su riso caldo.",
+        "tags": [
+          "uova",
+          "riso",
+          "asiatico",
+          "piatto-principale",
+          "facile",
+          "preparazione-anticipata",
+          "al-cucchiaio",
+          "vegetariano",
+          "senza-lattosio",
+          "umami",
+          "dolce-salato",
+          "piccante",
+          "caldo"
+        ]
+      }
+    }
   }
 ]
