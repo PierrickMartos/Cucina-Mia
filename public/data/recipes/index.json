@@ -5,7 +5,7 @@
     "description": "La vraie carbonara romaine avec guanciale croustillant, œufs entiers et pecorino romano, sans crème ni oignons.",
     "images": {
       "cover": "images/recipes/pasta-carbonara/cover.jpg",
-      "web": "images/recipes/pasta-carbonara/cover.jpg"
+      "web": "images/recipes/pasta-carbonara/web.jpg"
     },
     "prepTime": 10,
     "cookTime": 15,
