@@ -1,0 +1,4 @@
+interface:
+  display_name: "Recipe Hero Image"
+  short_description: "Transform food photos into premium recipe heroes"
+  default_prompt: "Use $recipe-hero-image to transform this food photo into an elegant recipe-website hero image while preserving the dish."
