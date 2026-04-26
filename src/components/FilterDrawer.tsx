@@ -35,6 +35,7 @@ interface FilterDrawerProps {
   selectedDietTags: string[]
   selectedSeasonTags: string[]
   selectedOrigins: string[]
+  selectedEssentials: boolean
   onCategoriesChange: (categories: string[]) => void
   onDifficultiesChange: (difficulties: string[]) => void
   onTimesChange: (times: TimeBucket[]) => void
@@ -44,6 +45,7 @@ interface FilterDrawerProps {
   onDietTagsChange: (tags: string[]) => void
   onSeasonTagsChange: (tags: string[]) => void
   onOriginsChange: (origins: string[]) => void
+  onEssentialsChange: (selected: boolean) => void
   defaultOpen?: boolean
 }
 
@@ -59,6 +61,7 @@ export function FilterDrawer({
   selectedDietTags,
   selectedSeasonTags,
   selectedOrigins,
+  selectedEssentials,
   onCategoriesChange,
   onDifficultiesChange,
   onTimesChange,
@@ -68,6 +71,7 @@ export function FilterDrawer({
   onDietTagsChange,
   onSeasonTagsChange,
   onOriginsChange,
+  onEssentialsChange,
   defaultOpen = false,
 }: FilterDrawerProps) {
   const [open, setOpen] = useState(defaultOpen)
@@ -84,7 +88,8 @@ export function FilterDrawer({
     selectedIngredients.length +
     selectedDietTags.length +
     selectedSeasonTags.length +
-    selectedOrigins.length
+    selectedOrigins.length +
+    (selectedEssentials ? 1 : 0)
 
   function toggleCategory(cat: string) {
     if (selectedCategories.includes(cat)) {
@@ -168,6 +173,7 @@ export function FilterDrawer({
     onDietTagsChange([])
     onSeasonTagsChange([])
     onOriginsChange([])
+    onEssentialsChange(false)
   }
 
   return (
@@ -205,6 +211,26 @@ export function FilterDrawer({
           </SheetHeader>
 
           <div className="mt-6 space-y-6 overflow-y-auto flex-1 pb-20">
+            <div>
+              <h4 className="font-semibold text-[10px] uppercase tracking-widest text-muted-foreground mb-3">
+                {t("filter.collections")}
+              </h4>
+              <div className="flex flex-wrap gap-2">
+                <Badge
+                  variant={selectedEssentials ? "default" : "outline"}
+                  className={
+                    selectedEssentials
+                      ? "cursor-pointer gradient-primary text-primary-foreground"
+                      : "cursor-pointer text-muted-foreground hover:bg-surface-high"
+                  }
+                  aria-pressed={selectedEssentials}
+                  onClick={() => onEssentialsChange(!selectedEssentials)}
+                >
+                  {t("filter.essentials")}
+                </Badge>
+              </div>
+            </div>
+
             <div>
               <h4 className="font-semibold text-[10px] uppercase tracking-widest text-muted-foreground mb-3">
                 {t("filter.category")}

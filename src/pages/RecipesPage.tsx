@@ -12,6 +12,20 @@ import type { RecipeSummary } from "@/types/recipe"
 
 const BASE = import.meta.env.BASE_URL
 const FILTERS_KEY = "cucina-mia-filters"
+const ESSENTIAL_RECIPE_SLUGS = new Set([
+  "pasta-carbonara",
+  "poke-bowl-falafel-mangue",
+  "curry-vert-de-pierrick",
+  "gaspacho-de-pasteque-a-la-feta",
+  "pasta-tartuffo",
+  "gnocchi-alla-sorrentina",
+  "gnocchi-champi-ail-au-four",
+  "poulet-au-curry",
+  "gnocchi-broccoli-al-forno",
+  "katsudon",
+  "coquillettes-jambon-truffe",
+  "ravioli-prosciutto-caprino",
+])
 
 function loadFilters() {
   try {
@@ -69,6 +83,11 @@ export function RecipesPage() {
   const [selectedDietTags, setSelectedDietTags] = useState<string[]>(() => getParamValues(searchParams, "diet").length > 0 ? getParamValues(searchParams, "diet") : fromCategory ? [] : loadFilters().dietTags ?? [])
   const [selectedSeasonTags, setSelectedSeasonTags] = useState<string[]>(() => getParamValues(searchParams, "season").length > 0 ? getParamValues(searchParams, "season") : fromCategory ? [] : loadFilters().seasonTags ?? [])
   const [selectedOrigins, setSelectedOrigins] = useState<string[]>(() => getParamValues(searchParams, "origin").length > 0 ? getParamValues(searchParams, "origin") : fromCategory ? [] : loadFilters().origins ?? [])
+  const [selectedEssentials, setSelectedEssentials] = useState(() => {
+    const value = searchParams.get("incontournables")
+    if (value !== null) return value === "1"
+    return fromCategory ? false : loadFilters().essentials ?? false
+  })
   const [showCleared, setShowCleared] = useState(false)
   const clearTimeoutRef = useRef<ReturnType<typeof setTimeout> | null>(null)
   const { t, i18n } = useTranslation()
@@ -111,7 +130,8 @@ export function RecipesPage() {
       selectedIngredients.length === 0 &&
       selectedDietTags.length === 0 &&
       selectedSeasonTags.length === 0 &&
-      selectedOrigins.length === 0
+      selectedOrigins.length === 0 &&
+      !selectedEssentials
     if (allEmpty) {
       localStorage.removeItem(FILTERS_KEY)
     } else {
@@ -125,9 +145,10 @@ export function RecipesPage() {
         dietTags: selectedDietTags,
         seasonTags: selectedSeasonTags,
         origins: selectedOrigins,
+        essentials: selectedEssentials,
       }))
     }
-  }, [selectedCategories, selectedDifficulties, selectedTimes, selectedPrepTimes, selectedSteps, selectedIngredients, selectedDietTags, selectedSeasonTags, selectedOrigins])
+  }, [selectedCategories, selectedDifficulties, selectedTimes, selectedPrepTimes, selectedSteps, selectedIngredients, selectedDietTags, selectedSeasonTags, selectedOrigins, selectedEssentials])
 
   useEffect(() => {
     const next = new URLSearchParams()
@@ -142,8 +163,9 @@ export function RecipesPage() {
     setMultiParam(next, "diet", selectedDietTags)
     setMultiParam(next, "season", selectedSeasonTags)
     setMultiParam(next, "origin", selectedOrigins)
+    if (selectedEssentials) next.set("incontournables", "1")
     setSearchParams(next, { replace: true })
-  }, [search, selectedTag, selectedCategories, selectedDifficulties, selectedTimes, selectedPrepTimes, selectedSteps, selectedIngredients, selectedDietTags, selectedSeasonTags, selectedOrigins, setSearchParams])
+  }, [search, selectedTag, selectedCategories, selectedDifficulties, selectedTimes, selectedPrepTimes, selectedSteps, selectedIngredients, selectedDietTags, selectedSeasonTags, selectedOrigins, selectedEssentials, setSearchParams])
 
   const categories = useMemo(
     () => sortCategories([...new Set(recipes.map((r) => r.category))]),
@@ -215,6 +237,7 @@ export function RecipesPage() {
     setSelectedDietTags([])
     setSelectedSeasonTags([])
     setSelectedOrigins([])
+    setSelectedEssentials(false)
     if (clearTimeoutRef.current !== null) {
       clearTimeout(clearTimeoutRef.current)
     }
@@ -231,7 +254,8 @@ export function RecipesPage() {
     selectedIngredients.length > 0 ||
     selectedDietTags.length > 0 ||
     selectedSeasonTags.length > 0 ||
-    selectedOrigins.length > 0
+    selectedOrigins.length > 0 ||
+    selectedEssentials
 
   const filtered = useMemo(() => {
     let result = search.trim()
@@ -288,12 +312,16 @@ export function RecipesPage() {
       )
     }
 
+    if (selectedEssentials) {
+      result = result.filter((r) => ESSENTIAL_RECIPE_SLUGS.has(r.slug))
+    }
+
     if (selectedTag) {
       result = result.filter((r) => r.tags.includes(selectedTag))
     }
 
     return result
-  }, [localizedRecipes, fuse, search, selectedCategories, selectedDifficulties, selectedTimes, selectedPrepTimes, selectedSteps, selectedIngredients, selectedDietTags, selectedSeasonTags, selectedOrigins, selectedTag])
+  }, [localizedRecipes, fuse, search, selectedCategories, selectedDifficulties, selectedTimes, selectedPrepTimes, selectedSteps, selectedIngredients, selectedDietTags, selectedSeasonTags, selectedOrigins, selectedEssentials, selectedTag])
 
   return (
     <div className="px-6 py-6">
@@ -328,6 +356,7 @@ export function RecipesPage() {
           selectedDietTags={selectedDietTags}
           selectedSeasonTags={selectedSeasonTags}
           selectedOrigins={selectedOrigins}
+          selectedEssentials={selectedEssentials}
           onCategoriesChange={setSelectedCategories}
           onDifficultiesChange={setSelectedDifficulties}
           onTimesChange={setSelectedTimes}
@@ -337,6 +366,7 @@ export function RecipesPage() {
           onDietTagsChange={setSelectedDietTags}
           onSeasonTagsChange={setSelectedSeasonTags}
           onOriginsChange={setSelectedOrigins}
+          onEssentialsChange={setSelectedEssentials}
           defaultOpen={searchParams.get("openFilters") === "1"}
         />
         {hasActiveFilters && (
@@ -409,6 +439,12 @@ export function RecipesPage() {
               {t(`origins.${origin}`, origin)}<X className="h-3 w-3" />
             </button>
           ))}
+          {selectedEssentials && (
+            <button key="essentials" type="button" aria-label={t("filter.removeFilter", { value: t("filter.essentials") })} onClick={() => setSelectedEssentials(false)}
+              className="cursor-pointer inline-flex items-center gap-1 rounded-full bg-primary/10 text-primary text-xs font-medium px-3 py-1 hover:bg-primary/20 transition-colors">
+              {t("filter.essentials")}<X className="h-3 w-3" />
+            </button>
+          )}
           {selectedTag && (
             <button
               type="button"

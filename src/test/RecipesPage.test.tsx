@@ -81,6 +81,17 @@ function renderRecipesPageWithTag(tag: string) {
   )
 }
 
+function renderRecipesPageWithEssentials() {
+  return render(
+    <MemoryRouter initialEntries={["/recipes?incontournables=1"]}>
+      <LocationDisplay />
+      <Routes>
+        <Route path="/recipes" element={<RecipesPage />} />
+      </Routes>
+    </MemoryRouter>
+  )
+}
+
 describe("RecipesPage", () => {
   beforeEach(() => {
     localStorage.clear()
@@ -169,6 +180,27 @@ describe("RecipesPage", () => {
     })
     expect(screen.queryByText("Tag:")).not.toBeInTheDocument()
     expect(screen.getByTestId("location").textContent).not.toContain("tag=")
+  })
+
+  it("pre-filters incontournables from URL param", async () => {
+    const user = userEvent.setup()
+    renderRecipesPageWithEssentials()
+
+    await waitFor(() => {
+      expect(screen.getByText("Pasta alla Carbonara")).toBeInTheDocument()
+      expect(screen.queryByText("Tiramisù Classico")).not.toBeInTheDocument()
+      expect(screen.queryByText("Pizza Margherita")).not.toBeInTheDocument()
+    })
+    expect(screen.getByTestId("location").textContent).toContain("incontournables=1")
+
+    await user.click(screen.getByText("⭐ Must-haves").closest("button")!)
+
+    await waitFor(() => {
+      expect(screen.getByText("Pasta alla Carbonara")).toBeInTheDocument()
+      expect(screen.getByText("Tiramisù Classico")).toBeInTheDocument()
+      expect(screen.getByText("Pizza Margherita")).toBeInTheDocument()
+    })
+    expect(screen.getByTestId("location").textContent).not.toContain("incontournables=")
   })
 
   it("shows empty state when search has no matches", async () => {
