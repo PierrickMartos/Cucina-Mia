@@ -2,7 +2,7 @@ import { Outlet, Link, useLocation } from "react-router-dom"
 import { Home, BookOpen, PlusCircle, Info } from "lucide-react"
 import { useTranslation } from "react-i18next"
 import { motion, useReducedMotion } from "motion/react"
-import { useState, useRef, useEffect } from "react"
+import { useState, useRef, useEffect, useId } from "react"
 
 const LANGUAGES = [
   { code: "en", label: "English" },
@@ -11,18 +11,28 @@ const LANGUAGES = [
 ]
 
 function LanguageSwitcher() {
-  const { i18n } = useTranslation()
+  const { t, i18n } = useTranslation()
   const [open, setOpen] = useState(false)
   const ref = useRef<HTMLDivElement>(null)
+  const menuId = useId()
 
   useEffect(() => {
-    function handleClickOutside(e: MouseEvent) {
+    function handlePointerDown(e: MouseEvent) {
       if (ref.current && !ref.current.contains(e.target as Node)) {
         setOpen(false)
       }
     }
-    document.addEventListener("mousedown", handleClickOutside)
-    return () => document.removeEventListener("mousedown", handleClickOutside)
+    function handleKeyDown(e: KeyboardEvent) {
+      if (e.key === "Escape") {
+        setOpen(false)
+      }
+    }
+    document.addEventListener("mousedown", handlePointerDown)
+    document.addEventListener("keydown", handleKeyDown)
+    return () => {
+      document.removeEventListener("mousedown", handlePointerDown)
+      document.removeEventListener("keydown", handleKeyDown)
+    }
   }, [])
 
   const currentCode = i18n.language?.slice(0, 2) ?? "en"
@@ -36,17 +46,28 @@ function LanguageSwitcher() {
   return (
     <div ref={ref} className="relative w-10 flex justify-end">
       <button
+        type="button"
         onClick={() => setOpen((v) => !v)}
         className="cursor-pointer text-sm font-semibold uppercase tracking-widest text-outline hover:text-primary transition-colors px-2 py-1"
-        aria-label="Switch language"
+        aria-label={t("language.switch")}
+        aria-haspopup="menu"
+        aria-expanded={open}
+        aria-controls={open ? menuId : undefined}
       >
         {currentCode}
       </button>
       {open && (
-        <div className="absolute top-7 right-0 bg-surface/70 backdrop-blur-[20px] rounded-xl shadow-ambient overflow-hidden z-50 min-w-[110px]">
+        <div
+          id={menuId}
+          role="menu"
+          className="absolute top-7 right-0 bg-surface/70 backdrop-blur-[20px] rounded-xl shadow-ambient overflow-hidden z-50 min-w-[110px]"
+        >
           {LANGUAGES.map(({ code, label }) => (
             <button
+              type="button"
               key={code}
+              role="menuitemradio"
+              aria-checked={currentCode === code}
               onClick={() => selectLanguage(code)}
               className={`cursor-pointer w-full text-left px-4 py-2.5 text-xs font-medium transition-colors hover:bg-primary/10 ${
                 currentCode === code ? "text-primary font-semibold" : "text-outline"
@@ -122,6 +143,7 @@ export function Layout() {
               key={to}
               to={to}
               onClick={to === "/recipes" ? () => localStorage.removeItem("cucina-mia-filters") : undefined}
+              aria-current={isActive ? "page" : undefined}
               className={
                 isActive
                   ? "relative flex flex-col items-center justify-center text-primary-foreground rounded-xl px-5 py-1 scale-95 transition-transform"
@@ -146,6 +168,7 @@ export function Layout() {
           href="https://github.com/PierrickMartos/Cucina-Mia/issues"
           target="_blank"
           rel="noopener noreferrer"
+          aria-label={t("nav.add")}
           className="flex flex-col items-center justify-center text-outline px-5 py-1 hover:text-primary transition-colors"
         >
           <PlusCircle className="h-5 w-5" strokeWidth={2} />

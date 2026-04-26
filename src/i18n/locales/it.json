@@ -5,6 +5,13 @@
     "add": "Aggiungi",
     "about": "Chi siamo"
   },
+  "common": {
+    "close": "Chiudi",
+    "tryAgain": "Riprova"
+  },
+  "language": {
+    "switch": "Cambia lingua"
+  },
   "home": {
     "subtitle": "Ricette di casa, della nonna, del nonno, della suocera, della mamma, del papà, da internet o da altrove",
     "title": "Buon appetito",
@@ -27,7 +34,8 @@
     "description": "Ricette di casa, della nonna, del nonno, della suocera, della mamma, del papà, da internet o da altrove",
     "noResults": "Mamma mia, la pentola è vuota!",
     "noResultsHint": "Neanche la nonna saprebbe cosa cucinare qui. Prova altri filtri.",
-    "searchPlaceholder": "Cerca ricette..."
+    "searchPlaceholder": "Cerca ricette...",
+    "searchLabel": "Cerca ricette"
   },
   "recipe": {
     "notFound": "Ricetta non trovata",
@@ -49,7 +57,12 @@
     "prevStep": "Passo precedente",
     "next": "Succ.",
     "nextStep": "Passo successivo",
-    "stepOf": "Passo {{current}} di {{total}}"
+    "stepOf": "Passo {{current}} di {{total}}",
+    "sections": "Sezioni della ricetta",
+    "read": "Leggi",
+    "readAloud": "Leggi ad alta voce",
+    "stop": "Ferma",
+    "stopReading": "Ferma la lettura"
   },
   "filter": {
     "title": "Filtra ricette",
@@ -63,7 +76,9 @@
     "season": "Stagione & occasione",
     "origin": "Origine",
     "clearAll": "Rimuovi tutti i filtri",
-    "openFilters": "Apri i filtri"
+    "openFilters": "Apri i filtri",
+    "cleared": "Filtri rimossi",
+    "removeFilter": "Rimuovi il filtro {{value}}"
   },
   "origins": {
     "pierrick": "Ricetta di Pierrick",

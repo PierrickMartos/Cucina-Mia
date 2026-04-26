@@ -5,6 +5,13 @@
     "add": "Add",
     "about": "About"
   },
+  "common": {
+    "close": "Close",
+    "tryAgain": "Try again"
+  },
+  "language": {
+    "switch": "Switch language"
+  },
   "home": {
     "subtitle": "Home recipes, from grandma, grandpa, mother-in-law, mum, dad, the internet or elsewhere",
     "title": "Buon appetito",
@@ -27,7 +34,8 @@
     "description": "Home recipes, from grandma, grandpa, mother-in-law, mum, dad, the internet or elsewhere",
     "noResults": "Mamma mia, the pot is empty!",
     "noResultsHint": "Even nonna couldn't find a recipe here. Try different filters.",
-    "searchPlaceholder": "Search recipes..."
+    "searchPlaceholder": "Search recipes...",
+    "searchLabel": "Search recipes"
   },
   "recipe": {
     "notFound": "Recipe not found",
@@ -49,7 +57,12 @@
     "prevStep": "Previous step",
     "next": "Next",
     "nextStep": "Next step",
-    "stepOf": "Step {{current}} of {{total}}"
+    "stepOf": "Step {{current}} of {{total}}",
+    "sections": "Recipe sections",
+    "read": "Read",
+    "readAloud": "Read aloud",
+    "stop": "Stop",
+    "stopReading": "Stop reading"
   },
   "filter": {
     "title": "Filter recipes",
@@ -63,7 +76,9 @@
     "season": "Season & occasion",
     "origin": "Origin",
     "clearAll": "Clear all filters",
-    "openFilters": "Open filters"
+    "openFilters": "Open filters",
+    "cleared": "Filters cleared",
+    "removeFilter": "Remove {{value}} filter"
   },
   "origins": {
     "pierrick": "Pierrick's recipe",

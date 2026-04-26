@@ -10,15 +10,23 @@ interface SheetProps {
 
 function Sheet({ open, onOpenChange, children }: SheetProps) {
   React.useEffect(() => {
+    function onKeyDown(event: KeyboardEvent) {
+      if (event.key === "Escape") {
+        onOpenChange(false)
+      }
+    }
+
     if (open) {
       document.body.style.overflow = "hidden"
+      document.addEventListener("keydown", onKeyDown)
     } else {
       document.body.style.overflow = ""
     }
     return () => {
       document.body.style.overflow = ""
+      document.removeEventListener("keydown", onKeyDown)
     }
-  }, [open])
+  }, [open, onOpenChange])
 
   if (!open) return null
 
@@ -26,6 +34,7 @@ function Sheet({ open, onOpenChange, children }: SheetProps) {
     <div className="fixed inset-0 z-50">
       <div
         className="fixed inset-0 bg-black/80 animate-in fade-in-0"
+        role="presentation"
         onClick={() => onOpenChange(false)}
       />
       {children}
@@ -37,24 +46,33 @@ function SheetContent({
   className,
   children,
   onClose,
+  titleId,
+  closeLabel = "Close",
 }: {
   className?: string
   children: React.ReactNode
   onClose: () => void
+  titleId?: string
+  closeLabel?: string
 }) {
   return (
     <div
+      role="dialog"
+      aria-modal="true"
+      aria-labelledby={titleId}
       className={cn(
         "fixed inset-y-0 right-0 z-50 flex h-full w-3/4 max-w-sm flex-col gap-4 bg-surface/70 backdrop-blur-[20px] p-6 shadow-ambient transition-transform overflow-hidden",
         className
       )}
     >
       <button
+        type="button"
         onClick={onClose}
+        aria-label={closeLabel}
         className="cursor-pointer absolute right-4 top-4 rounded-sm opacity-70 ring-offset-background transition-opacity hover:opacity-100 focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2"
       >
         <X className="h-4 w-4" />
-        <span className="sr-only">Close</span>
+        <span className="sr-only">{closeLabel}</span>
       </button>
       {children}
     </div>

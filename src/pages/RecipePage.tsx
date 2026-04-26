@@ -1,4 +1,5 @@
-import { useState, useEffect, useRef } from "react"
+import { useState, useEffect, useId, useRef } from "react"
+import type { KeyboardEvent as ReactKeyboardEvent } from "react"
 import { createPortal } from "react-dom"
 import { useParams, Link, useNavigate } from "react-router-dom"
 import { useTranslation } from "react-i18next"
@@ -12,6 +13,10 @@ import type { RecipeDetail } from "@/types/recipe"
 const BASE = import.meta.env.BASE_URL
 
 type Tab = "ingredients" | "instructions"
+
+function toIsoDuration(minutes: number) {
+  return `PT${minutes}M`
+}
 
 const itemVariants: Variants = {
   hidden: { opacity: 0, y: 12 },
@@ -53,6 +58,13 @@ export function RecipePage() {
   const [headerBackVisible, setHeaderBackVisible] = useState(false)
   const [currentStep, setCurrentStep] = useState(0)
   const [speakingStep, setSpeakingStep] = useState<number | null>(null)
+  const ingredientsTabId = useId()
+  const instructionsTabId = useId()
+  const ingredientsPanelId = useId()
+  const instructionsPanelId = useId()
+  const checkboxIdBase = useId()
+  const ingredientsTabRef = useRef<HTMLButtonElement>(null)
+  const instructionsTabRef = useRef<HTMLButtonElement>(null)
 
   const speakText = (text: string, stepIndex: number) => {
     if (!("speechSynthesis" in window)) return
@@ -111,6 +123,37 @@ export function RecipePage() {
       metaDesc?.setAttribute('content', prevDesc)
     }
   }, [recipe])
+
+  useEffect(() => {
+    if (!recipe) return
+    const scriptId = "cucina-mia-recipe-jsonld"
+    document.getElementById(scriptId)?.remove()
+    const script = document.createElement("script")
+    script.id = scriptId
+    script.type = "application/ld+json"
+    script.text = JSON.stringify({
+      "@context": "https://schema.org",
+      "@type": "Recipe",
+      name: recipe.title,
+      description: recipe.description,
+      image: `${window.location.origin}${BASE}${recipe.images.cover}`,
+      prepTime: toIsoDuration(recipe.prepTime),
+      cookTime: toIsoDuration(recipe.cookTime),
+      totalTime: toIsoDuration(recipe.prepTime + recipe.cookTime),
+      recipeYield: `${recipe.servings} ${t("recipe.servings")}`,
+      recipeCategory: t(`categories.${recipe.category}`, recipe.category),
+      recipeIngredient: recipe.ingredients.flatMap((group) => group.items),
+      recipeInstructions: recipe.steps.map((step, index) => ({
+        "@type": "HowToStep",
+        position: index + 1,
+        text: step.text,
+      })),
+    })
+    document.head.appendChild(script)
+    return () => {
+      script.remove()
+    }
+  }, [recipe, t])
 
   // Stop speech on unmount
   useEffect(() => () => { window.speechSynthesis?.cancel() }, [])
@@ -182,11 +225,27 @@ export function RecipePage() {
     })
   }
 
+  const handleTabKeyDown = (event: ReactKeyboardEvent<HTMLDivElement>) => {
+    if (event.key !== "ArrowRight" && event.key !== "ArrowLeft") return
+    event.preventDefault()
+    setActiveTab((current) => {
+      const next = current === "ingredients" ? "instructions" : "ingredients"
+      requestAnimationFrame(() => {
+        if (next === "ingredients") {
+          ingredientsTabRef.current?.focus()
+        } else {
+          instructionsTabRef.current?.focus()
+        }
+      })
+      return next
+    })
+  }
+
   // Arrow key navigation for step navigator
   useEffect(() => {
     const total = recipe?.steps.length ?? 0
     if (!total) return
-    const handleKey = (e: KeyboardEvent) => {
+    const handleKey = (e: globalThis.KeyboardEvent) => {
       if (e.key === "ArrowRight") {
         setCurrentStep(prev => {
           const next = Math.min(prev + 1, total - 1)
@@ -437,12 +496,22 @@ export function RecipePage() {
 
       {/* Tab Switcher — hidden on large screens */}
       <motion.div
+        role="tablist"
+        aria-label={t("recipe.sections")}
+        onKeyDown={handleTabKeyDown}
         initial={reduceMotion ? { opacity: 1, y: 0 } : { opacity: 0, y: 10 }}
         animate={{ opacity: 1, y: 0 }}
         transition={{ delay: 0.35, duration: 0.4, ease: "easeOut" }}
         className="bg-surface-high rounded-full p-1.5 flex mb-8 max-w-2xl mx-auto lg:hidden print:hidden"
       >
         <button
+          type="button"
+          ref={ingredientsTabRef}
+          id={ingredientsTabId}
+          role="tab"
+          aria-selected={activeTab === "ingredients"}
+          aria-controls={ingredientsPanelId}
+          tabIndex={activeTab === "ingredients" ? 0 : -1}
           onClick={() => setActiveTab("ingredients")}
           className={`relative flex-1 rounded-full py-2.5 text-xs font-semibold uppercase tracking-widest transition-colors cursor-pointer ${
             activeTab === "ingredients"
@@ -460,6 +529,13 @@ export function RecipePage() {
           <span className="relative z-10">{t("recipe.ingredients")}</span>
         </button>
         <button
+          type="button"
+          ref={instructionsTabRef}
+          id={instructionsTabId}
+          role="tab"
+          aria-selected={activeTab === "instructions"}
+          aria-controls={instructionsPanelId}
+          tabIndex={activeTab === "instructions" ? 0 : -1}
           onClick={() => setActiveTab("instructions")}
           className={`relative flex-1 rounded-full py-2.5 text-xs font-semibold uppercase tracking-widest transition-colors cursor-pointer ${
             activeTab === "instructions"
@@ -481,7 +557,12 @@ export function RecipePage() {
       {/* Tab Content — mobile only */}
       <div key={activeTab} className="tab-enter lg:hidden print:hidden">
       {activeTab === "ingredients" ? (
-        <section className="mb-8">
+        <section
+          id={ingredientsPanelId}
+          role="tabpanel"
+          aria-labelledby={ingredientsTabId}
+          className="mb-8"
+        >
           <div className="flex items-center justify-between mb-4">
             <span />
             {Object.values(checkedIngredients).some(Boolean) && (
@@ -505,18 +586,27 @@ export function RecipePage() {
                 {group.items.map((item, ii) => {
                   const key = `${gi}-${ii}`
                   const isChecked = !!checkedIngredients[key]
+                  const inputId = `${checkboxIdBase}-mobile-${key}`
                   return (
                     <li key={key}>
                       <label
+                        htmlFor={inputId}
                         className="flex items-center gap-4 py-2 cursor-pointer group"
-                        onClick={() => toggleIngredient(key)}
                       >
+                        <input
+                          id={inputId}
+                          type="checkbox"
+                          checked={isChecked}
+                          onChange={() => toggleIngredient(key)}
+                          className="sr-only peer"
+                        />
                         <div
+                          aria-hidden="true"
                           className={`h-6 w-6 rounded-lg shrink-0 flex items-center justify-center transition-colors ${
                             isChecked
                               ? "gradient-primary"
                               : "bg-surface-high group-hover:bg-surface-container"
-                          }`}
+                          } peer-focus-visible:ring-2 peer-focus-visible:ring-ring peer-focus-visible:ring-offset-2`}
                         >
                           {isChecked && (
                             <svg
@@ -552,7 +642,12 @@ export function RecipePage() {
           ))}
         </section>
       ) : (
-        <section className="mb-8 pb-24">
+        <section
+          id={instructionsPanelId}
+          role="tabpanel"
+          aria-labelledby={instructionsTabId}
+          className="mb-8 pb-24"
+        >
           <ol className="space-y-6">
             {recipe.steps.map((step, i) => (
               <li
@@ -624,18 +719,27 @@ export function RecipePage() {
                 {group.items.map((item, ii) => {
                   const key = `${gi}-${ii}`
                   const isChecked = !!checkedIngredients[key]
+                  const inputId = `${checkboxIdBase}-desktop-${key}`
                   return (
                     <li key={key}>
                       <label
+                        htmlFor={inputId}
                         className="flex items-center gap-4 py-2 cursor-pointer group"
-                        onClick={() => toggleIngredient(key)}
                       >
+                        <input
+                          id={inputId}
+                          type="checkbox"
+                          checked={isChecked}
+                          onChange={() => toggleIngredient(key)}
+                          className="sr-only peer"
+                        />
                         <div
+                          aria-hidden="true"
                           className={`h-6 w-6 rounded-lg shrink-0 flex items-center justify-center transition-colors ${
                             isChecked
                               ? "gradient-primary"
                               : "bg-surface-high group-hover:bg-surface-container"
-                          }`}
+                          } peer-focus-visible:ring-2 peer-focus-visible:ring-ring peer-focus-visible:ring-offset-2`}
                         >
                           {isChecked && (
                             <svg

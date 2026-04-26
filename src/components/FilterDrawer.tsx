@@ -1,5 +1,5 @@
 import { SlidersHorizontal } from "lucide-react"
-import { useRef, useState } from "react"
+import { useId, useRef, useState } from "react"
 import { FocusTrap } from "focus-trap-react"
 import { useTranslation } from "react-i18next"
 import { Button } from "@/components/ui/button"
@@ -73,6 +73,7 @@ export function FilterDrawer({
   const [open, setOpen] = useState(defaultOpen)
   const { t } = useTranslation()
   const triggerRef = useRef<HTMLButtonElement>(null)
+  const titleId = useId()
 
   const activeCount =
     selectedCategories.length +
@@ -175,6 +176,8 @@ export function FilterDrawer({
         ref={triggerRef}
         onClick={() => setOpen(true)}
         aria-label={t("filter.openFilters", "Open filters")}
+        aria-haspopup="dialog"
+        aria-expanded={open}
         className="cursor-pointer flex items-center justify-center gradient-primary text-primary-foreground w-10 h-10 rounded-full hover:opacity-90 transition-all active:scale-95 duration-300 shrink-0 relative"
       >
         <SlidersHorizontal className="h-4 w-4" />
@@ -194,9 +197,9 @@ export function FilterDrawer({
             allowOutsideClick: true,
           }}
         >
-        <SheetContent onClose={() => setOpen(false)} className="bg-surface">
+        <SheetContent onClose={() => setOpen(false)} titleId={titleId} closeLabel={t("common.close")} className="bg-surface">
           <SheetHeader>
-            <SheetTitle className="font-headline text-lg font-bold text-foreground">
+            <SheetTitle id={titleId} className="font-headline text-lg font-bold text-foreground">
               {t("filter.title")}
             </SheetTitle>
           </SheetHeader>

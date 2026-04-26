@@ -22,6 +22,19 @@ function loadFilters() {
   }
 }
 
+function getParamValues(params: URLSearchParams, key: string) {
+  return params
+    .getAll(key)
+    .flatMap((value) => value.split(","))
+    .map((value) => value.trim())
+    .filter(Boolean)
+}
+
+function setMultiParam(params: URLSearchParams, key: string, values: string[]) {
+  params.delete(key)
+  values.forEach((value) => params.append(key, value))
+}
+
 export function RecipesPage() {
   const [searchParams, setSearchParams] = useSearchParams()
   const [recipes, setRecipes] = useState<RecipeSummary[]>([])
@@ -31,19 +44,31 @@ export function RecipesPage() {
   const [search, setSearch] = useState(searchParams.get("q") ?? "")
   const [selectedTag, setSelectedTag] = useState<string | null>(searchParams.get("tag"))
   const [selectedCategories, setSelectedCategories] = useState<string[]>(() => {
-    const cat = searchParams.get("category")
-    if (cat) return [cat]
+    const categoriesFromUrl = getParamValues(searchParams, "category")
+    if (categoriesFromUrl.length > 0) return categoriesFromUrl
     return loadFilters().categories ?? []
   })
   const fromCategory = searchParams.get("category") !== null
-  const [selectedDifficulties, setSelectedDifficulties] = useState<string[]>(() => fromCategory ? [] : loadFilters().difficulties ?? [])
-  const [selectedTimes, setSelectedTimes] = useState<TimeBucket[]>(() => fromCategory ? [] : loadFilters().times ?? [])
-  const [selectedPrepTimes, setSelectedPrepTimes] = useState<PrepTimeBucket[]>(() => fromCategory ? [] : loadFilters().prepTimes ?? [])
-  const [selectedSteps, setSelectedSteps] = useState<StepsBucket[]>(() => fromCategory ? [] : loadFilters().steps ?? [])
-  const [selectedIngredients, setSelectedIngredients] = useState<IngredientsBucket[]>(() => fromCategory ? [] : loadFilters().ingredients ?? [])
-  const [selectedDietTags, setSelectedDietTags] = useState<string[]>(() => fromCategory ? [] : loadFilters().dietTags ?? [])
-  const [selectedSeasonTags, setSelectedSeasonTags] = useState<string[]>(() => fromCategory ? [] : loadFilters().seasonTags ?? [])
-  const [selectedOrigins, setSelectedOrigins] = useState<string[]>(() => fromCategory ? [] : loadFilters().origins ?? [])
+  const [selectedDifficulties, setSelectedDifficulties] = useState<string[]>(() => getParamValues(searchParams, "difficulty").length > 0 ? getParamValues(searchParams, "difficulty") : fromCategory ? [] : loadFilters().difficulties ?? [])
+  const [selectedTimes, setSelectedTimes] = useState<TimeBucket[]>(() => {
+    const values = getParamValues(searchParams, "time")
+    return (values.length > 0 ? values : fromCategory ? [] : loadFilters().times ?? []) as TimeBucket[]
+  })
+  const [selectedPrepTimes, setSelectedPrepTimes] = useState<PrepTimeBucket[]>(() => {
+    const values = getParamValues(searchParams, "prep")
+    return (values.length > 0 ? values : fromCategory ? [] : loadFilters().prepTimes ?? []) as PrepTimeBucket[]
+  })
+  const [selectedSteps, setSelectedSteps] = useState<StepsBucket[]>(() => {
+    const values = getParamValues(searchParams, "steps")
+    return (values.length > 0 ? values : fromCategory ? [] : loadFilters().steps ?? []) as StepsBucket[]
+  })
+  const [selectedIngredients, setSelectedIngredients] = useState<IngredientsBucket[]>(() => {
+    const values = getParamValues(searchParams, "ingredients")
+    return (values.length > 0 ? values : fromCategory ? [] : loadFilters().ingredients ?? []) as IngredientsBucket[]
+  })
+  const [selectedDietTags, setSelectedDietTags] = useState<string[]>(() => getParamValues(searchParams, "diet").length > 0 ? getParamValues(searchParams, "diet") : fromCategory ? [] : loadFilters().dietTags ?? [])
+  const [selectedSeasonTags, setSelectedSeasonTags] = useState<string[]>(() => getParamValues(searchParams, "season").length > 0 ? getParamValues(searchParams, "season") : fromCategory ? [] : loadFilters().seasonTags ?? [])
+  const [selectedOrigins, setSelectedOrigins] = useState<string[]>(() => getParamValues(searchParams, "origin").length > 0 ? getParamValues(searchParams, "origin") : fromCategory ? [] : loadFilters().origins ?? [])
   const [showCleared, setShowCleared] = useState(false)
   const clearTimeoutRef = useRef<ReturnType<typeof setTimeout> | null>(null)
   const { t, i18n } = useTranslation()
@@ -103,6 +128,22 @@ export function RecipesPage() {
       }))
     }
   }, [selectedCategories, selectedDifficulties, selectedTimes, selectedPrepTimes, selectedSteps, selectedIngredients, selectedDietTags, selectedSeasonTags, selectedOrigins])
+
+  useEffect(() => {
+    const next = new URLSearchParams()
+    if (search.trim()) next.set("q", search.trim())
+    if (selectedTag) next.set("tag", selectedTag)
+    setMultiParam(next, "category", selectedCategories)
+    setMultiParam(next, "difficulty", selectedDifficulties)
+    setMultiParam(next, "time", selectedTimes)
+    setMultiParam(next, "prep", selectedPrepTimes)
+    setMultiParam(next, "steps", selectedSteps)
+    setMultiParam(next, "ingredients", selectedIngredients)
+    setMultiParam(next, "diet", selectedDietTags)
+    setMultiParam(next, "season", selectedSeasonTags)
+    setMultiParam(next, "origin", selectedOrigins)
+    setSearchParams(next, { replace: true })
+  }, [search, selectedTag, selectedCategories, selectedDifficulties, selectedTimes, selectedPrepTimes, selectedSteps, selectedIngredients, selectedDietTags, selectedSeasonTags, selectedOrigins, setSearchParams])
 
   const categories = useMemo(
     () => sortCategories([...new Set(recipes.map((r) => r.category))]),
@@ -308,68 +349,70 @@ export function RecipesPage() {
           </button>
         )}
         {showCleared && (
-          <span className="text-sm text-green-600 ml-2 whitespace-nowrap">Filters cleared</span>
+          <span role="status" aria-live="polite" className="text-sm text-green-600 ml-2 whitespace-nowrap">{t("filter.cleared")}</span>
         )}
       </div>
 
       {(hasActiveFilters || selectedTag) && (
         <div className="flex flex-wrap gap-2 mb-6">
           {selectedCategories.map((cat) => (
-            <button key={`cat-${cat}`} onClick={() => setSelectedCategories(selectedCategories.filter((c) => c !== cat))}
+            <button key={`cat-${cat}`} type="button" aria-label={t("filter.removeFilter", { value: t(`categories.${cat}`, cat) })} onClick={() => setSelectedCategories(selectedCategories.filter((c) => c !== cat))}
               className="cursor-pointer inline-flex items-center gap-1 rounded-full bg-primary/10 text-primary text-xs font-medium px-3 py-1 hover:bg-primary/20 transition-colors">
               {t(`categories.${cat}`, cat)}<X className="h-3 w-3" />
             </button>
           ))}
           {selectedDifficulties.map((diff) => (
-            <button key={`diff-${diff}`} onClick={() => setSelectedDifficulties(selectedDifficulties.filter((d) => d !== diff))}
+            <button key={`diff-${diff}`} type="button" aria-label={t("filter.removeFilter", { value: t(`difficulties.${diff}`, diff) })} onClick={() => setSelectedDifficulties(selectedDifficulties.filter((d) => d !== diff))}
               className="cursor-pointer inline-flex items-center gap-1 rounded-full bg-primary/10 text-primary text-xs font-medium px-3 py-1 hover:bg-primary/20 transition-colors">
               {t(`difficulties.${diff}`, diff)}<X className="h-3 w-3" />
             </button>
           ))}
           {selectedTimes.map((bucket) => (
-            <button key={`time-${bucket}`} onClick={() => setSelectedTimes(selectedTimes.filter((b) => b !== bucket))}
+            <button key={`time-${bucket}`} type="button" aria-label={t("filter.removeFilter", { value: t(`timeOptions.${bucket}`) })} onClick={() => setSelectedTimes(selectedTimes.filter((b) => b !== bucket))}
               className="cursor-pointer inline-flex items-center gap-1 rounded-full bg-primary/10 text-primary text-xs font-medium px-3 py-1 hover:bg-primary/20 transition-colors">
               {t(`timeOptions.${bucket}`)}<X className="h-3 w-3" />
             </button>
           ))}
           {selectedPrepTimes.map((bucket) => (
-            <button key={`prep-${bucket}`} onClick={() => setSelectedPrepTimes(selectedPrepTimes.filter((b) => b !== bucket))}
+            <button key={`prep-${bucket}`} type="button" aria-label={t("filter.removeFilter", { value: t(`prepTimeOptions.${bucket}`) })} onClick={() => setSelectedPrepTimes(selectedPrepTimes.filter((b) => b !== bucket))}
               className="cursor-pointer inline-flex items-center gap-1 rounded-full bg-primary/10 text-primary text-xs font-medium px-3 py-1 hover:bg-primary/20 transition-colors">
               {t(`prepTimeOptions.${bucket}`)}<X className="h-3 w-3" />
             </button>
           ))}
           {selectedSteps.map((bucket) => (
-            <button key={`steps-${bucket}`} onClick={() => setSelectedSteps(selectedSteps.filter((b) => b !== bucket))}
+            <button key={`steps-${bucket}`} type="button" aria-label={t("filter.removeFilter", { value: t(`stepsOptions.${bucket}`) })} onClick={() => setSelectedSteps(selectedSteps.filter((b) => b !== bucket))}
               className="cursor-pointer inline-flex items-center gap-1 rounded-full bg-primary/10 text-primary text-xs font-medium px-3 py-1 hover:bg-primary/20 transition-colors">
               {t(`stepsOptions.${bucket}`)}<X className="h-3 w-3" />
             </button>
           ))}
           {selectedIngredients.map((bucket) => (
-            <button key={`ing-${bucket}`} onClick={() => setSelectedIngredients(selectedIngredients.filter((b) => b !== bucket))}
+            <button key={`ing-${bucket}`} type="button" aria-label={t("filter.removeFilter", { value: t(`ingredientsOptions.${bucket}`) })} onClick={() => setSelectedIngredients(selectedIngredients.filter((b) => b !== bucket))}
               className="cursor-pointer inline-flex items-center gap-1 rounded-full bg-primary/10 text-primary text-xs font-medium px-3 py-1 hover:bg-primary/20 transition-colors">
               {t(`ingredientsOptions.${bucket}`)}<X className="h-3 w-3" />
             </button>
           ))}
           {selectedDietTags.map((tag) => (
-            <button key={`diet-${tag}`} onClick={() => setSelectedDietTags(selectedDietTags.filter((d) => d !== tag))}
+            <button key={`diet-${tag}`} type="button" aria-label={t("filter.removeFilter", { value: t(`tags.${tag}`, tag) })} onClick={() => setSelectedDietTags(selectedDietTags.filter((d) => d !== tag))}
               className="cursor-pointer inline-flex items-center gap-1 rounded-full bg-primary/10 text-primary text-xs font-medium px-3 py-1 hover:bg-primary/20 transition-colors">
               {t(`tags.${tag}`, tag)}<X className="h-3 w-3" />
             </button>
           ))}
           {selectedSeasonTags.map((tag) => (
-            <button key={`season-${tag}`} onClick={() => setSelectedSeasonTags(selectedSeasonTags.filter((s) => s !== tag))}
+            <button key={`season-${tag}`} type="button" aria-label={t("filter.removeFilter", { value: t(`tags.${tag}`, tag) })} onClick={() => setSelectedSeasonTags(selectedSeasonTags.filter((s) => s !== tag))}
               className="cursor-pointer inline-flex items-center gap-1 rounded-full bg-primary/10 text-primary text-xs font-medium px-3 py-1 hover:bg-primary/20 transition-colors">
               {t(`tags.${tag}`, tag)}<X className="h-3 w-3" />
             </button>
           ))}
           {selectedOrigins.map((origin) => (
-            <button key={`origin-${origin}`} onClick={() => setSelectedOrigins(selectedOrigins.filter((o) => o !== origin))}
+            <button key={`origin-${origin}`} type="button" aria-label={t("filter.removeFilter", { value: t(`origins.${origin}`, origin) })} onClick={() => setSelectedOrigins(selectedOrigins.filter((o) => o !== origin))}
               className="cursor-pointer inline-flex items-center gap-1 rounded-full bg-primary/10 text-primary text-xs font-medium px-3 py-1 hover:bg-primary/20 transition-colors">
               {t(`origins.${origin}`, origin)}<X className="h-3 w-3" />
             </button>
           ))}
           {selectedTag && (
             <button
+              type="button"
+              aria-label={t("filter.removeFilter", { value: selectedTag })}
               onClick={() => {
                 setSelectedTag(null)
                 setSearchParams((prev) => {
@@ -394,7 +437,7 @@ export function RecipesPage() {
             onClick={() => setRetryCount(c => c + 1)}
             className="rounded-full bg-surface-high px-5 py-2 text-sm font-medium text-foreground hover:bg-surface-container transition-colors"
           >
-            Try again
+            {t("common.tryAgain")}
           </button>
         </div>
       ) : (

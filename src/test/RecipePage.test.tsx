@@ -34,6 +34,7 @@ function renderRecipePage(slug: string) {
 
 describe("RecipePage", () => {
   beforeEach(() => {
+    localStorage.clear()
     i18n.changeLanguage("en")
     globalThis.fetch = async () =>
       ({
@@ -80,7 +81,7 @@ describe("RecipePage", () => {
       expect(screen.getAllByText("400g spaghetti")[0]).toBeInTheDocument()
     })
 
-    await user.click(screen.getByRole("button", { name: "Instructions" }))
+    await user.click(screen.getByRole("tab", { name: "Instructions" }))
     expect(screen.getAllByText("Portare a ebollizione l'acqua.")[0]).toBeInTheDocument()
     expect(screen.getAllByText("Rosolare il guanciale.")[0]).toBeInTheDocument()
   })
