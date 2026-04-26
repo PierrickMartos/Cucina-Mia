@@ -63,6 +63,7 @@
     "Le feu doit être éteint quand vous mélangez les œufs pour éviter une omelette.",
     "Version végétarienne : remplacer le guanciale par des courgettes coupées en petits morceaux et dorées à l'huile d'olive."
   ],
+  "source": "Kitchen class in Roma with Italian chef",
   "translations": {
     "en": {
       "title": "Pasta alla Carbonara",
