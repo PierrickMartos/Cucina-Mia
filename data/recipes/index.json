@@ -188,6 +188,10 @@
       "cover": "images/recipes/ravioli-ricotta-spinaci/cover.jpg",
       "web": "images/recipes/ravioli-ricotta-spinaci/web.jpg"
     },
+    "imageCredit": {
+      "author": "Yoav Aziz",
+      "url": "https://unsplash.com/photos/yellow-fruit-on-white-round-plate-EGRJe6BHG9I"
+    },
     "prepTime": 90,
     "cookTime": 5,
     "servings": 4,
@@ -492,6 +496,10 @@
       "cover": "images/recipes/gateaux-ananas-mojito/cover.jpg",
       "web": "images/recipes/gateaux-ananas-mojito/web.jpg"
     },
+    "imageCredit": {
+      "author": "Oscar Ivan Esquivel Arteaga",
+      "url": "https://unsplash.com/photos/a-piece-of-pineapple-upside-down-cake-on-a-plate-nAb8nLTwi1o"
+    },
     "prepTime": 25,
     "cookTime": 45,
     "servings": 6,
@@ -672,6 +680,10 @@
       "cover": "images/recipes/verrines-tarte-citron-meringuee/cover.jpg",
       "web": "images/recipes/verrines-tarte-citron-meringuee/web.jpg"
     },
+    "imageCredit": {
+      "author": "Cuisine Actuelle",
+      "url": "https://img.cuisineactuelle.fr/1200x900/2019/02/15/i13587-tarte-au-citron-en-verrine.webp"
+    },
     "prepTime": 30,
     "cookTime": 25,
     "servings": 8,
@@ -789,6 +801,10 @@
     "images": {
       "cover": "images/recipes/ravioli-prosciutto-caprino/cover.jpg",
       "web": "images/recipes/ravioli-prosciutto-caprino/web.jpg"
+    },
+    "imageCredit": {
+      "author": "Atelier des Chefs",
+      "url": "https://www.atelierdeschefs.fr/recettes/14110/raviole-de-jambon-de-pays-et-chevre-frais-pesto-et-roquette/"
     },
     "prepTime": 45,
     "cookTime": 3,
