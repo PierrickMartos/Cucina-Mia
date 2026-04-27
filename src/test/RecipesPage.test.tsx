@@ -1,7 +1,7 @@
-import { render, screen, waitFor } from "@testing-library/react"
+import { fireEvent, render, screen, waitFor } from "@testing-library/react"
 import userEvent from "@testing-library/user-event"
 import { MemoryRouter, Route, Routes, useLocation } from "react-router-dom"
-import { describe, it, expect, beforeEach } from "vitest"
+import { describe, it, expect, beforeEach, vi } from "vitest"
 import i18n from "i18next"
 import { RecipesPage } from "@/pages/RecipesPage"
 
@@ -52,43 +52,51 @@ const mockRecipes = [
 function renderRecipesPage(search = "") {
   const initialEntry = search ? `/recipes?q=${encodeURIComponent(search)}` : "/recipes"
   return render(
-    <MemoryRouter initialEntries={[initialEntry]}>
-      <Routes>
-        <Route path="/recipes" element={<RecipesPage />} />
-      </Routes>
-    </MemoryRouter>
+    <main id="main-content">
+      <MemoryRouter initialEntries={[initialEntry]}>
+        <Routes>
+          <Route path="/recipes" element={<RecipesPage />} />
+        </Routes>
+      </MemoryRouter>
+    </main>
   )
 }
 
 function renderRecipesPageWithCategory(category: string) {
   return render(
-    <MemoryRouter initialEntries={[`/recipes?category=${encodeURIComponent(category)}`]}>
-      <Routes>
-        <Route path="/recipes" element={<RecipesPage />} />
-      </Routes>
-    </MemoryRouter>
+    <main id="main-content">
+      <MemoryRouter initialEntries={[`/recipes?category=${encodeURIComponent(category)}`]}>
+        <Routes>
+          <Route path="/recipes" element={<RecipesPage />} />
+        </Routes>
+      </MemoryRouter>
+    </main>
   )
 }
 
 function renderRecipesPageWithTag(tag: string) {
   return render(
-    <MemoryRouter initialEntries={[`/recipes?tag=${encodeURIComponent(tag)}`]}>
-      <LocationDisplay />
-      <Routes>
-        <Route path="/recipes" element={<RecipesPage />} />
-      </Routes>
-    </MemoryRouter>
+    <main id="main-content">
+      <MemoryRouter initialEntries={[`/recipes?tag=${encodeURIComponent(tag)}`]}>
+        <LocationDisplay />
+        <Routes>
+          <Route path="/recipes" element={<RecipesPage />} />
+        </Routes>
+      </MemoryRouter>
+    </main>
   )
 }
 
 function renderRecipesPageWithEssentials() {
   return render(
-    <MemoryRouter initialEntries={["/recipes?incontournables=1"]}>
-      <LocationDisplay />
-      <Routes>
-        <Route path="/recipes" element={<RecipesPage />} />
-      </Routes>
-    </MemoryRouter>
+    <main id="main-content">
+      <MemoryRouter initialEntries={["/recipes?incontournables=1"]}>
+        <LocationDisplay />
+        <Routes>
+          <Route path="/recipes" element={<RecipesPage />} />
+        </Routes>
+      </MemoryRouter>
+    </main>
   )
 }
 
@@ -216,5 +224,26 @@ describe("RecipesPage", () => {
     await waitFor(() => {
       expect(screen.getByText("Mamma mia, the pot is empty!")).toBeInTheDocument()
     })
+  })
+
+  it("shows a back to top button after scrolling and scrolls the recipe list to the top", async () => {
+    const user = userEvent.setup()
+    renderRecipesPage()
+
+    await waitFor(() => {
+      expect(screen.getByText("Pasta alla Carbonara")).toBeInTheDocument()
+    })
+    expect(screen.queryByLabelText("Back to top")).not.toBeInTheDocument()
+
+    const main = document.getElementById("main-content")!
+    const scrollTo = vi.fn()
+    main.scrollTo = scrollTo
+    main.scrollTop = 520
+    fireEvent.scroll(main)
+
+    const button = await screen.findByLabelText("Back to top")
+    await user.click(button)
+
+    expect(scrollTo).toHaveBeenCalledWith({ top: 0, behavior: "smooth" })
   })
 })

@@ -2,7 +2,7 @@ import { useState, useEffect, useMemo, useRef } from "react"
 import { useSearchParams } from "react-router-dom"
 import { useTranslation } from "react-i18next"
 import Fuse from "fuse.js"
-import { X } from "lucide-react"
+import { ChevronUp, X } from "lucide-react"
 import { SearchBar } from "@/components/SearchBar"
 import { FilterDrawer, type TimeBucket, type PrepTimeBucket, type StepsBucket, type IngredientsBucket } from "@/components/FilterDrawer"
 import { RecipeGrid } from "@/components/RecipeGrid"
@@ -89,6 +89,7 @@ export function RecipesPage() {
     return fromCategory ? false : loadFilters().essentials ?? false
   })
   const [showCleared, setShowCleared] = useState(false)
+  const [showScrollTop, setShowScrollTop] = useState(false)
   const clearTimeoutRef = useRef<ReturnType<typeof setTimeout> | null>(null)
   const { t, i18n } = useTranslation()
 
@@ -227,6 +228,23 @@ export function RecipesPage() {
     }
   }, [])
 
+  useEffect(() => {
+    const scrollContainer = document.getElementById("main-content")
+    const handleScroll = () => {
+      setShowScrollTop(scrollContainer ? scrollContainer.scrollTop > 480 : window.scrollY > 480)
+    }
+
+    handleScroll()
+
+    if (scrollContainer) {
+      scrollContainer.addEventListener("scroll", handleScroll, { passive: true })
+      return () => scrollContainer.removeEventListener("scroll", handleScroll)
+    }
+
+    window.addEventListener("scroll", handleScroll, { passive: true })
+    return () => window.removeEventListener("scroll", handleScroll)
+  }, [])
+
   const handleClearAll = () => {
     setSelectedCategories([])
     setSelectedDifficulties([])
@@ -243,6 +261,19 @@ export function RecipesPage() {
     }
     setShowCleared(true)
     clearTimeoutRef.current = setTimeout(() => setShowCleared(false), 2000)
+  }
+
+  const handleScrollTop = () => {
+    const scrollContainer = document.getElementById("main-content")
+    const prefersReducedMotion = window.matchMedia?.("(prefers-reduced-motion: reduce)").matches
+    const behavior: ScrollBehavior = prefersReducedMotion ? "auto" : "smooth"
+
+    if (scrollContainer) {
+      scrollContainer.scrollTo({ top: 0, behavior })
+      return
+    }
+
+    window.scrollTo({ top: 0, behavior })
   }
 
   const hasActiveFilters =
@@ -478,6 +509,17 @@ export function RecipesPage() {
         </div>
       ) : (
         <RecipeGrid recipes={filtered} loading={loading} />
+      )}
+
+      {showScrollTop && (
+        <button
+          type="button"
+          onClick={handleScrollTop}
+          aria-label={t("recipes.goToTop")}
+          className="cursor-pointer fixed bottom-24 right-5 z-40 flex h-12 w-12 items-center justify-center rounded-full gradient-primary text-primary-foreground shadow-ambient transition-transform hover:-translate-y-0.5 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 focus-visible:ring-offset-surface sm:right-8 print:hidden"
+        >
+          <ChevronUp className="h-6 w-6" strokeWidth={2.5} />
+        </button>
       )}
     </div>
   )

@@ -35,7 +35,8 @@
     "noResults": "Mamma mia, la pentola è vuota!",
     "noResultsHint": "Neanche la nonna saprebbe cosa cucinare qui. Prova altri filtri.",
     "searchPlaceholder": "Cerca ricette...",
-    "searchLabel": "Cerca ricette"
+    "searchLabel": "Cerca ricette",
+    "goToTop": "Torna in alto"
   },
   "recipe": {
     "notFound": "Ricetta non trovata",

@@ -35,7 +35,8 @@
     "noResults": "Mamma mia, the pot is empty!",
     "noResultsHint": "Even nonna couldn't find a recipe here. Try different filters.",
     "searchPlaceholder": "Search recipes...",
-    "searchLabel": "Search recipes"
+    "searchLabel": "Search recipes",
+    "goToTop": "Back to top"
   },
   "recipe": {
     "notFound": "Recipe not found",
