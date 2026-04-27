@@ -4764,5 +4764,80 @@
     "origin": "pierrick",
     "stepCount": 6,
     "ingredientCount": 7
+  },
+  {
+    "slug": "pancakes-moelleux-sirop-erable",
+    "title": "Pancakes moelleux au sirop d'érable",
+    "description": "Des pancakes américains très moelleux, préparés avec des blancs montés en neige et servis avec du sirop d'érable tiède.",
+    "images": {
+      "cover": "images/recipes/pancakes-moelleux-sirop-erable/cover.jpg",
+      "web": "images/recipes/pancakes-moelleux-sirop-erable/web.jpg"
+    },
+    "imageCredit": {
+      "author": "Luke Pennystan",
+      "url": "https://unsplash.com/@lukepennystan"
+    },
+    "prepTime": 5,
+    "cookTime": 10,
+    "servings": 4,
+    "difficulty": "Facile",
+    "category": "Breakfast",
+    "tags": [
+      "petit-déjeuner",
+      "brunch",
+      "goûter",
+      "américain",
+      "rapide",
+      "facile",
+      "enfants",
+      "toute-la-famille",
+      "moelleux",
+      "sucré",
+      "végétarien",
+      "poêle",
+      "se-congèle"
+    ],
+    "stepCount": 5,
+    "ingredientCount": 8,
+    "translations": {
+      "en": {
+        "title": "Fluffy Pancakes with Maple Syrup",
+        "description": "Very fluffy American-style pancakes made with whipped egg whites and served with warm maple syrup.",
+        "tags": [
+          "breakfast",
+          "brunch",
+          "snack",
+          "american",
+          "quick",
+          "easy",
+          "kids",
+          "family-friendly",
+          "fluffy",
+          "sweet",
+          "vegetarian",
+          "pan-fried",
+          "freezer-friendly"
+        ]
+      },
+      "it": {
+        "title": "Pancake soffici con sciroppo d'acero",
+        "description": "Pancake all'americana molto soffici, preparati con albumi montati a neve e serviti con sciroppo d'acero tiepido.",
+        "tags": [
+          "colazione",
+          "brunch",
+          "merenda",
+          "americano",
+          "veloce",
+          "facile",
+          "bambini",
+          "tutta-la-famiglia",
+          "soffice",
+          "dolce",
+          "vegetariano",
+          "padella",
+          "si-congela"
+        ]
+      }
+    }
   }
 ]
