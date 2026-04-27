@@ -1927,7 +1927,7 @@
     "cookTime": 30,
     "servings": 4,
     "difficulty": "Facile",
-    "category": "Pasta",
+    "category": "Risotto",
     "tags": [
       "pâtes",
       "chorizo",
@@ -1975,10 +1975,6 @@
           "francese"
         ]
       }
-    },
-    "imageCredit": {
-      "author": "RitaE",
-      "url": "https://pixabay.com/users/ritae-19628/"
     }
   },
   {

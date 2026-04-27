@@ -6,15 +6,11 @@
     "cover": "images/recipes/coquilletto-au-chorizo/cover.jpg",
     "web": "images/recipes/coquilletto-au-chorizo/web.jpg"
   },
-  "imageCredit": {
-    "author": "RitaE",
-    "url": "https://pixabay.com/users/ritae-19628/"
-  },
   "prepTime": 10,
   "cookTime": 30,
   "servings": 4,
   "difficulty": "Facile",
-  "category": "Pasta",
+  "category": "Risotto",
   "tags": [
     "pâtes",
     "chorizo",

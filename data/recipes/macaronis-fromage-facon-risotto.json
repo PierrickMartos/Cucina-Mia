@@ -6,9 +6,6 @@
     "cover": "images/recipes/macaronis-fromage-facon-risotto/cover.jpg",
     "web": "images/recipes/macaronis-fromage-facon-risotto/web.jpg"
   },
-  "imageCredit": {
-    "url": "https://pixabay.com/photos/food-cheese-lunch-snack-delicious-4305743/"
-  },
   "prepTime": 10,
   "cookTime": 30,
   "servings": 4,
