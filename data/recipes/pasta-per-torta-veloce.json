@@ -4,14 +4,11 @@
   "description": "Pâte à tarte prête en 3 minutes avec seulement 3 ingrédients : farine, huile et eau chaude. Parfaite pour les tout-petits.",
   "images": {
     "cover": "images/recipes/pasta-per-torta-veloce/cover.jpg",
-    "web": "images/recipes/pasta-per-torta-veloce/web.jpg",
-    "credit": {
-      "author": "Einladung_zum_Essen",
-      "authorUrl": "https://pixabay.com/users/einladung_zum_essen-5491404/",
-      "source": "Pixabay",
-      "sourceUrl": "https://pixabay.com/photos/apple-pie-dough-apple-cake-dessert-5479993/",
-      "license": "Pixabay Content License"
-    }
+    "web": "images/recipes/pasta-per-torta-veloce/web.jpg"
+  },
+  "imageCredit": {
+    "author": "Nathan Dumlao",
+    "url": "https://unsplash.com/photos/brown-bread-on-white-textile-0dCOHmQpNuA"
   },
   "prepTime": 3,
   "cookTime": 10,

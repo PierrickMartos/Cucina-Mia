@@ -69,6 +69,10 @@
       "cover": "images/recipes/pasta-per-torta-veloce/cover.jpg",
       "web": "images/recipes/pasta-per-torta-veloce/web.jpg"
     },
+    "imageCredit": {
+      "author": "Nathan Dumlao",
+      "url": "https://unsplash.com/photos/brown-bread-on-white-textile-0dCOHmQpNuA"
+    },
     "prepTime": 3,
     "cookTime": 10,
     "servings": 6,
