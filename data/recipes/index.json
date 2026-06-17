@@ -4793,5 +4793,73 @@
         ]
       }
     }
+  },
+  {
+    "slug": "gaspacho-pasteque-tomates",
+    "title": "Gaspacho de tomates et pastèque",
+    "description": "Un gaspacho rafraîchissant, parfait pour les jours de canicule.",
+    "images": {
+      "cover": "images/recipes/gaspacho-pasteque-tomates/cover.jpg",
+      "web": "images/recipes/gaspacho-pasteque-tomates/web.jpg"
+    },
+    "prepTime": 5,
+    "cookTime": 0,
+    "servings": 4,
+    "difficulty": "Facile",
+    "category": "Antipasti",
+    "tags": [
+      "gaspacho",
+      "froid",
+      "été",
+      "no-cuisson",
+      "végétarien",
+      "végétalien",
+      "rapide",
+      "léger",
+      "entrée",
+      "méditerranéen",
+      "légumes",
+      "sans-lactose"
+    ],
+    "ingredientCount": 11,
+    "stepCount": 1,
+    "translations": {
+      "en": {
+        "title": "Tomato and Watermelon Gazpacho",
+        "description": "A refreshing gazpacho, perfect for scorching summer days.",
+        "tags": [
+          "gazpacho",
+          "cold",
+          "summer",
+          "no-cook",
+          "vegetarian",
+          "vegan",
+          "quick",
+          "light",
+          "starter",
+          "mediterranean",
+          "vegetables",
+          "dairy-free"
+        ]
+      },
+      "it": {
+        "title": "Gazpacho di pomodoro e anguria",
+        "description": "Un gazpacho rinfrescante, perfetto per le giornate di canicola.",
+        "tags": [
+          "gazpacho",
+          "freddo",
+          "estate",
+          "senza-cottura",
+          "vegetariano",
+          "vegano",
+          "veloce",
+          "leggero",
+          "antipasto",
+          "mediterraneo",
+          "verdure",
+          "senza-lattosio"
+        ]
+      }
+    }
   }
 ]
