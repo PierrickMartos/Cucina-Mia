@@ -494,7 +494,10 @@ export function RecipePage() {
         </section>
       )}
 
-      {/* Tab Switcher — hidden on large screens */}
+      {/* Tab Switcher — sticky on mobile/tablet, hidden on large screens.
+          Wrapper bleeds full-width with an opaque bg so scrolling content
+          doesn't show through the pill's transparent gaps while pinned. */}
+      <div className="sticky top-0 z-30 -mx-6 px-6 pt-2 pb-4 bg-surface lg:hidden print:hidden">
       <motion.div
         role="tablist"
         aria-label={t("recipe.sections")}
@@ -502,7 +505,7 @@ export function RecipePage() {
         initial={reduceMotion ? { opacity: 1, y: 0 } : { opacity: 0, y: 10 }}
         animate={{ opacity: 1, y: 0 }}
         transition={{ delay: 0.35, duration: 0.4, ease: "easeOut" }}
-        className="bg-surface-high rounded-full p-1.5 flex mb-8 max-w-2xl mx-auto lg:hidden print:hidden"
+        className="bg-surface-high rounded-full p-1.5 flex max-w-2xl mx-auto shadow-sm"
       >
         <button
           type="button"
@@ -553,6 +556,7 @@ export function RecipePage() {
           <span className="relative z-10">{t("recipe.instructions")}</span>
         </button>
       </motion.div>
+      </div>
 
       {/* Tab Content — mobile only */}
       <div key={activeTab} className="tab-enter lg:hidden print:hidden">

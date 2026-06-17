@@ -74,6 +74,20 @@ describe("RecipePage", () => {
     expect(screen.getAllByText("400g spaghetti")[0]).toHaveClass("line-through")
   })
 
+  it("keeps the tab switcher sticky at the top on mobile/tablet", async () => {
+    renderRecipePage("pasta-carbonara")
+    await waitFor(() => {
+      expect(screen.getByText("Pasta alla Carbonara")).toBeInTheDocument()
+    })
+    const tablist = screen.getByRole("tablist")
+    const stickyWrapper = tablist.parentElement!
+    // The switcher is pinned to the top of the scroll container while scrolling
+    expect(stickyWrapper.className).toMatch(/\bsticky\b/)
+    expect(stickyWrapper.className).toMatch(/\btop-0\b/)
+    // ...but only on mobile/tablet — the two-column layout takes over on large screens
+    expect(stickyWrapper.className).toMatch(/\blg:hidden\b/)
+  })
+
   it("switches to instructions tab", async () => {
     const user = userEvent.setup()
     renderRecipePage("pasta-carbonara")
