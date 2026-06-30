@@ -4861,5 +4861,83 @@
         ]
       }
     }
+  },
+  {
+    "slug": "melon-basilic",
+    "title": "Melon mariné au basilic",
+    "description": "Le meilleur melon de l'été : des morceaux de melon marinés dans un mélange de miel, huile d'olive, gingembre râpé et vinaigre, servis bien frais avec quelques feuilles de basilic ou d'estragon.",
+    "category": "Antipasti",
+    "difficulty": "Facile",
+    "prepTime": 10,
+    "cookTime": 0,
+    "servings": 4,
+    "tags": [
+      "melon",
+      "été",
+      "apéro",
+      "entrée",
+      "no-cuisson",
+      "végétarien",
+      "sans-gluten",
+      "sans-lactose",
+      "rapide",
+      "facile",
+      "froid",
+      "léger",
+      "fruits",
+      "méditerranéen"
+    ],
+    "images": {
+      "cover": "images/recipes/melon-basilic/cover.jpg",
+      "web": "images/recipes/melon-basilic/web.jpg"
+    },
+    "imageCredit": {
+      "author": "Natalie Behn",
+      "url": "https://unsplash.com/@natalie_behn"
+    },
+    "ingredientCount": 6,
+    "stepCount": 3,
+    "translations": {
+      "en": {
+        "title": "Honey-Marinated Melon with Basil",
+        "description": "The best melon of the summer: bite-size melon pieces marinated in a mix of honey, olive oil, grated ginger and vinegar, served well chilled with a few leaves of basil or tarragon.",
+        "tags": [
+          "melon",
+          "summer",
+          "aperitivo",
+          "starter",
+          "no-cook",
+          "vegetarian",
+          "gluten-free",
+          "dairy-free",
+          "quick",
+          "easy",
+          "cold",
+          "light",
+          "fruit",
+          "mediterranean"
+        ]
+      },
+      "it": {
+        "title": "Melone marinato al basilico",
+        "description": "Il miglior melone dell'estate: pezzetti di melone marinati in un mix di miele, olio d'oliva, zenzero grattugiato e aceto, serviti ben freddi con qualche foglia di basilico o dragoncello.",
+        "tags": [
+          "melone",
+          "estate",
+          "aperitivo",
+          "antipasto",
+          "senza-cottura",
+          "vegetariano",
+          "senza-glutine",
+          "senza-lattosio",
+          "veloce",
+          "facile",
+          "freddo",
+          "leggero",
+          "frutta",
+          "mediterraneo"
+        ]
+      }
+    }
   }
 ]
