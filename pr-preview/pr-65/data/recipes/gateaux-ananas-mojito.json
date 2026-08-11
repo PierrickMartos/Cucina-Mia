@@ -1,0 +1,160 @@
+{
+  "slug": "gateaux-ananas-mojito",
+  "title": "Gâteaux à l'Ananas, Sirop Façon Mojito",
+  "description": "Moelleux renversés à l'ananas caramélisé, nappés d'un sirop parfumé au rhum, menthe et citron vert façon mojito.",
+  "images": {
+    "cover": "images/recipes/gateaux-ananas-mojito/cover.jpg",
+    "web": "images/recipes/gateaux-ananas-mojito/web.jpg"
+  },
+  "imageCredit": {
+    "author": "Oscar Ivan Esquivel Arteaga",
+    "url": "https://unsplash.com/photos/a-piece-of-pineapple-upside-down-cake-on-a-plate-nAb8nLTwi1o"
+  },
+  "prepTime": 25,
+  "cookTime": 45,
+  "servings": 6,
+  "difficulty": "Medio",
+  "category": "Dolci",
+  "tags": [
+    "four",
+    "dessert",
+    "végétarien",
+    "fruits",
+    "exotique",
+    "moelleux",
+    "festif",
+    "été",
+    "gourmand",
+    "réconfortant"
+  ],
+  "ingredients": [
+    {
+      "items": [
+        "1 ananas",
+        "1 citron vert",
+        "12 feuilles de menthe",
+        "1 gousse de vanille",
+        "4 œufs",
+        "170 g de beurre mou",
+        "250 g de farine",
+        "200 g de sucre + 125 g pour le caramel",
+        "5 cuil. à soupe de cassonade",
+        "5 cl de rhum",
+        "1 sachet de levure chimique"
+      ]
+    }
+  ],
+  "steps": [
+    {
+      "text": "Chauffez dans une casserole 125 g de sucre avec 2 cuil. à soupe d'eau jusqu'à obtenir un caramel ambré. Tapissez avec soin le fond et les parois de 6 ramequins (Ø 10 à 13 cm)."
+    },
+    {
+      "text": "Pelez et coupez l'ananas en tranches régulières. Battez le beurre avec 200 g de sucre, puis ajoutez les œufs un par un. Incorporez la farine et les graines de la gousse de vanille."
+    },
+    {
+      "text": "Préchauffez le four à 180 °C (th. 6). Rangez des tranches d'ananas dans le fond des ramequins et des demi-tranches contre les parois. Répartissez la pâte dans chacun et enfournez environ 30 min (vérifiez la cuisson après 15–20 min avec la pointe d'un couteau)."
+    },
+    {
+      "text": "Portez à ébullition 10 cl d'eau avec le rhum, le zeste râpé du citron vert, la cassonade et les feuilles de menthe. Aux premiers bouillons, éteignez le feu et laissez infuser 5 min. Filtrez et ajoutez le jus du citron vert."
+    },
+    {
+      "text": "Démoulez les gâteaux sur une grille et arrosez-les de sirop. Laissez refroidir, puis réfrigérez 6 h avant de servir."
+    }
+  ],
+  "tips": [
+    "Pour gagner du temps, vous pouvez préparer un seul gâteau dans un moule à manqué pour 6 personnes, avec les mêmes quantités.",
+    "Assurez-vous que les ramequins sont bien tapissés de caramel pour que les gâteaux se démoulent facilement.",
+    "Le repos de 6 h au réfrigérateur est essentiel : le sirop pénètre dans la génoise et développe tous les arômes."
+  ],
+  "source": "Prima magazine, p. 76",
+  "translations": {
+    "en": {
+      "title": "Pineapple Cakes with Mojito Syrup",
+      "description": "Individual upside-down cakes with caramelized pineapple, drizzled with a mojito-style syrup of rum, mint, and lime.",
+      "tags": ["oven", "dessert", "vegetarian", "fruit", "exotic", "soft", "festive", "summer", "indulgent", "comforting"],
+      "ingredients": [
+        {
+          "items": [
+            "1 pineapple",
+            "1 lime",
+            "12 mint leaves",
+            "1 vanilla pod",
+            "4 eggs",
+            "170 g softened butter",
+            "250 g flour",
+            "200 g sugar + 125 g for the caramel",
+            "5 tbsp brown sugar",
+            "5 cl rum",
+            "1 packet baking powder"
+          ]
+        }
+      ],
+      "steps": [
+        {
+          "text": "Heat 125 g sugar with 2 tbsp water in a saucepan until you get an amber caramel. Carefully coat the base and sides of 6 ramekins (Ø 10–13 cm)."
+        },
+        {
+          "text": "Peel and slice the pineapple into even rounds. Beat the butter with 200 g sugar, then add the eggs one at a time. Fold in the flour and vanilla seeds."
+        },
+        {
+          "text": "Preheat the oven to 180°C (350°F). Arrange pineapple slices in the base of each ramekin and half-slices against the sides. Fill with batter and bake for about 30 min (check after 15–20 min with the tip of a knife)."
+        },
+        {
+          "text": "Bring 10 cl water to a boil with the rum, lime zest, brown sugar, and mint leaves. At the first boil, turn off the heat and steep for 5 min. Strain and add the lime juice."
+        },
+        {
+          "text": "Turn out the cakes onto a wire rack and drizzle with the syrup. Leave to cool, then refrigerate for 6 hours before serving."
+        }
+      ],
+      "tips": [
+        "To save time, make one large cake in a round tin for 6 people using the same quantities.",
+        "Make sure the ramekins are well coated with caramel so the cakes unmould cleanly.",
+        "The 6-hour refrigeration rest is essential: the syrup soaks into the sponge and all the flavours develop."
+      ]
+    },
+    "it": {
+      "title": "Tortine all'Ananas con Sciroppo Mojito",
+      "description": "Tortine rovesciate all'ananas caramellato, irrorate con uno sciroppo profumato al rum, menta e lime stile mojito.",
+      "tags": ["forno", "dessert", "vegetariano", "frutta", "esotico", "morbido", "festivo", "estate", "goloso", "confortante"],
+      "ingredients": [
+        {
+          "items": [
+            "1 ananas",
+            "1 lime",
+            "12 foglie di menta",
+            "1 baccello di vaniglia",
+            "4 uova",
+            "170 g di burro morbido",
+            "250 g di farina",
+            "200 g di zucchero + 125 g per il caramello",
+            "5 cucchiai di zucchero di canna",
+            "5 cl di rum",
+            "1 bustina di lievito per dolci"
+          ]
+        }
+      ],
+      "steps": [
+        {
+          "text": "Scaldate in un pentolino 125 g di zucchero con 2 cucchiai d'acqua fino a ottenere un caramello ambrato. Rivestite con cura il fondo e i lati di 6 ramequin (Ø 10–13 cm)."
+        },
+        {
+          "text": "Sbucciate e affettate l'ananas in rondelle uniformi. Lavorate il burro con 200 g di zucchero, poi aggiungete le uova una alla volta. Incorporate la farina e i semi del baccello di vaniglia."
+        },
+        {
+          "text": "Preriscaldate il forno a 180°C. Sistemate le fette di ananas sul fondo dei ramequin e le mezze fette sui lati. Distribuite l'impasto e infornate per circa 30 minuti (verificate la cottura dopo 15–20 minuti con uno stecchino)."
+        },
+        {
+          "text": "Portate a ebollizione 10 cl d'acqua con il rum, la scorza grattugiata del lime, lo zucchero di canna e le foglie di menta. Al primo bollore, spegnete il fuoco e lasciate in infusione 5 minuti. Filtrate e aggiungete il succo del lime."
+        },
+        {
+          "text": "Sformate le tortine su una gratella e irroratele con lo sciroppo. Lasciate raffreddare e refrigerate per 6 ore prima di servire."
+        }
+      ],
+      "tips": [
+        "Per risparmiare tempo, potete preparare un'unica torta in uno stampo tondo per 6 persone, con le stesse quantità.",
+        "Assicuratevi che i ramequin siano ben rivestiti di caramello per sformarli facilmente.",
+        "Il riposo di 6 ore in frigorifero è fondamentale: lo sciroppo penetra nel pan di Spagna e tutti gli aromi si sviluppano."
+      ]
+    }
+  }
+}

@@ -1,0 +1,159 @@
+{
+  "slug": "curry-paneng-poulet-feuilles-combawa",
+  "title": "Curry Paneng au Poulet et Feuilles de Combawa",
+  "description": "Un curry thaï crémeux au poulet, parfumé aux feuilles de combawa et au lait de coco, relevé d'une touche de tamarin et de sucre de palmier.",
+  "images": {
+    "cover": "images/recipes/curry-paneng-poulet-feuilles-combawa/cover.jpg",
+    "web": "images/recipes/curry-paneng-poulet-feuilles-combawa/web.jpg"
+  },
+  "imageCredit": {
+    "author": "joannawielgosz",
+    "url": "https://pixabay.com/users/joannawielgosz-168212/"
+  },
+  "prepTime": 10,
+  "cookTime": 20,
+  "servings": 4,
+  "difficulty": "Facile",
+  "category": "Secondi",
+  "tags": [
+    "asiatique",
+    "thaï",
+    "poulet",
+    "épicé",
+    "mijoté",
+    "rapide",
+    "plat-principal",
+    "sucré-salé",
+    "sans-gluten",
+    "lait-de-coco",
+    "chaud",
+    "réconfortant"
+  ],
+  "ingredients": [
+    {
+      "items": [
+        "50 g de pâte de curry \"Paneng\"",
+        "3 cs d'huile de tournesol",
+        "500 ml de lait de coco",
+        "100 g de cacahuètes concassées",
+        "500 g de poulet émincé",
+        "15 g de sucre de palmier",
+        "1 cs de concentré de tamarin",
+        "1,5 cs de sauce de poisson",
+        "5-6 feuilles de combawa (rayon surgelé)"
+      ]
+    }
+  ],
+  "steps": [
+    {
+      "text": "Coupez très finement les feuilles de combawa."
+    },
+    {
+      "text": "Coupez le filet de poulet en fines lamelles. Laissez reposer."
+    },
+    {
+      "text": "Dans une casserole à feu moyen, faites chauffer 3 cuillères à soupe d'huile, ajoutez la pâte de curry « Paneng » et faites revenir le tout pendant environ 1 minute. Versez environ 100 ml de lait de coco et bien mélanger."
+    },
+    {
+      "text": "Ajoutez les morceaux de poulet et faites-les revenir pendant 2 minutes."
+    },
+    {
+      "text": "Versez le reste de lait de coco et laissez mijoter pendant 10 minutes à feu doux."
+    },
+    {
+      "text": "Ajoutez le sucre de palmier, le concentré de tamarin, et la sauce de poisson."
+    },
+    {
+      "text": "Laissez mijoter à feu doux encore pendant 5-8 minutes. Stoppez la cuisson et ajoutez les feuilles de combawa coupées finement avant de servir."
+    }
+  ],
+  "source": "www.atelierthai.com",
+  "translations": {
+    "en": {
+      "title": "Paneng Chicken Curry with Kaffir Lime Leaves",
+      "description": "A creamy Thai Paneng curry with chicken, fragrant kaffir lime leaves and coconut milk, with a hint of tamarind and palm sugar.",
+      "tags": ["asian", "thai", "chicken", "spicy", "simmered", "quick", "main-course", "sweet-savory", "gluten-free", "coconut-milk", "hot", "comforting"],
+      "ingredients": [
+        {
+          "items": [
+            "50 g Paneng curry paste",
+            "3 tbsp sunflower oil",
+            "500 ml coconut milk",
+            "100 g crushed peanuts",
+            "500 g sliced chicken breast",
+            "15 g palm sugar",
+            "1 tbsp tamarind concentrate",
+            "1.5 tbsp fish sauce",
+            "5-6 kaffir lime leaves (frozen section)"
+          ]
+        }
+      ],
+      "steps": [
+        {
+          "text": "Finely chop the kaffir lime leaves."
+        },
+        {
+          "text": "Cut the chicken breast into thin strips. Set aside."
+        },
+        {
+          "text": "In a saucepan over medium heat, heat 3 tablespoons of oil, add the Paneng curry paste and stir-fry for about 1 minute. Pour in about 100 ml of coconut milk and mix well."
+        },
+        {
+          "text": "Add the chicken pieces and stir-fry for 2 minutes."
+        },
+        {
+          "text": "Pour in the remaining coconut milk and simmer for 10 minutes over low heat."
+        },
+        {
+          "text": "Add the palm sugar, tamarind concentrate, and fish sauce."
+        },
+        {
+          "text": "Simmer over low heat for another 5-8 minutes. Remove from heat and add the finely chopped kaffir lime leaves before serving."
+        }
+      ]
+    },
+    "it": {
+      "title": "Curry Paneng di Pollo con Foglie di Combava",
+      "description": "Un cremoso curry tailandese Paneng con pollo, profumato con foglie di combava e latte di cocco, con un tocco di tamarindo e zucchero di palma.",
+      "tags": ["asiatico", "thai", "pollo", "speziato", "stufato", "veloce", "piatto-principale", "agrodolce", "senza-glutine", "latte-di-cocco", "caldo", "confortante"],
+      "ingredients": [
+        {
+          "items": [
+            "50 g di pasta di curry \"Paneng\"",
+            "3 cucchiai di olio di girasole",
+            "500 ml di latte di cocco",
+            "100 g di arachidi tritate",
+            "500 g di pollo a fettine",
+            "15 g di zucchero di palma",
+            "1 cucchiaio di concentrato di tamarindo",
+            "1,5 cucchiai di salsa di pesce",
+            "5-6 foglie di combava (reparto surgelati)"
+          ]
+        }
+      ],
+      "steps": [
+        {
+          "text": "Tagliare le foglie di combava molto finemente."
+        },
+        {
+          "text": "Tagliare il petto di pollo a strisce sottili. Lasciare riposare."
+        },
+        {
+          "text": "In una casseruola a fuoco medio, scaldare 3 cucchiai di olio, aggiungere la pasta di curry \"Paneng\" e far rosolare per circa 1 minuto. Versare circa 100 ml di latte di cocco e mescolare bene."
+        },
+        {
+          "text": "Aggiungere i pezzi di pollo e farli rosolare per 2 minuti."
+        },
+        {
+          "text": "Versare il resto del latte di cocco e lasciar sobbollire per 10 minuti a fuoco basso."
+        },
+        {
+          "text": "Aggiungere lo zucchero di palma, il concentrato di tamarindo e la salsa di pesce."
+        },
+        {
+          "text": "Lasciar sobbollire a fuoco basso per altri 5-8 minuti. Spegnere il fuoco e aggiungere le foglie di combava tagliate finemente prima di servire."
+        }
+      ]
+    }
+  }
+}
