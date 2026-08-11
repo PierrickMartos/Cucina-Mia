@@ -5013,5 +5013,79 @@
         ]
       }
     }
+  },
+  {
+    "slug": "filet-mignon-creme-moutarde",
+    "title": "Filet mignon & crème à la moutarde",
+    "description": "Des tranches de filet mignon dorées à la poêle, nappées d'une crème à la moutarde parfumée au thym et servies sur un lit de riz. Quel plus grand plaisir que de saucer le plat après avoir fini toute son assiette.",
+    "category": "Secondi",
+    "difficulty": "Facile",
+    "prepTime": 5,
+    "cookTime": 10,
+    "servings": 4,
+    "tags": [
+      "porc",
+      "riz",
+      "moutarde",
+      "crème",
+      "poêle",
+      "rapide",
+      "facile",
+      "français",
+      "plat-principal",
+      "toute-la-famille",
+      "réconfortant",
+      "chaud",
+      "protéiné",
+      "sans-gluten"
+    ],
+    "images": {
+      "cover": "images/recipes/filet-mignon-creme-moutarde/cover.jpg",
+      "web": "images/recipes/filet-mignon-creme-moutarde/web.jpg"
+    },
+    "ingredientCount": 7,
+    "stepCount": 6,
+    "translations": {
+      "en": {
+        "title": "Pork Tenderloin in Mustard Cream Sauce",
+        "description": "Pan-seared pork tenderloin slices coated in a thyme-scented mustard cream sauce, served over a bed of rice. Nothing beats mopping up the pan once your plate is clean.",
+        "tags": [
+          "pork",
+          "rice",
+          "mustard",
+          "cream",
+          "pan-fried",
+          "quick",
+          "easy",
+          "french",
+          "main-course",
+          "family-friendly",
+          "comfort-food",
+          "hot",
+          "high-protein",
+          "gluten-free"
+        ]
+      },
+      "it": {
+        "title": "Filetto di maiale alla crema di senape",
+        "description": "Fette di filetto di maiale rosolate in padella, avvolte in una crema alla senape profumata al timo e servite su un letto di riso. Nessun piacere più grande che fare la scarpetta a piatto finito.",
+        "tags": [
+          "maiale",
+          "riso",
+          "senape",
+          "panna",
+          "padella",
+          "veloce",
+          "facile",
+          "francese",
+          "piatto-principale",
+          "tutta-la-famiglia",
+          "confortante",
+          "caldo",
+          "proteico",
+          "senza-glutine"
+        ]
+      }
+    }
   }
 ]
