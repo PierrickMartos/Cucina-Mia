@@ -4939,5 +4939,79 @@
         ]
       }
     }
+  },
+  {
+    "slug": "riz-tomates-cerises-et-feta-au-four",
+    "title": "Riz tomates cerises et feta au four",
+    "description": "Un riz qui cuit tout seul au four avec un bloc de feta fondante, des tomates cerises confites et de l'ail. Un plat tout-en-un que les enfants réclament.",
+    "category": "Secondi",
+    "difficulty": "Facile",
+    "prepTime": 5,
+    "cookTime": 30,
+    "servings": 4,
+    "tags": [
+      "riz",
+      "feta",
+      "tomates-cerises",
+      "four",
+      "one-pot",
+      "végétarien",
+      "enfants",
+      "toute-la-famille",
+      "facile",
+      "économique",
+      "méditerranéen",
+      "plat-principal",
+      "réconfortant",
+      "chaud"
+    ],
+    "images": {
+      "cover": "images/recipes/riz-tomates-cerises-et-feta-au-four/cover.jpg",
+      "web": "images/recipes/riz-tomates-cerises-et-feta-au-four/web.jpg"
+    },
+    "ingredientCount": 8,
+    "stepCount": 7,
+    "translations": {
+      "en": {
+        "title": "Baked Rice with Cherry Tomatoes and Feta",
+        "description": "Rice that bakes itself in the oven with a block of melting feta, confit cherry tomatoes and garlic. A one-dish dinner kids ask for again.",
+        "tags": [
+          "rice",
+          "feta",
+          "cherry-tomatoes",
+          "oven",
+          "one-pot",
+          "vegetarian",
+          "kids",
+          "family-friendly",
+          "easy",
+          "budget-friendly",
+          "mediterranean",
+          "main-course",
+          "comfort-food",
+          "hot"
+        ]
+      },
+      "it": {
+        "title": "Riso al forno con pomodorini e feta",
+        "description": "Un riso che cuoce da solo in forno con un blocco di feta fondente, pomodorini confit e aglio. Un piatto unico che i bambini richiedono sempre.",
+        "tags": [
+          "riso",
+          "feta",
+          "pomodorini",
+          "forno",
+          "piatto-unico",
+          "vegetariano",
+          "bambini",
+          "tutta-la-famiglia",
+          "facile",
+          "economico",
+          "mediterraneo",
+          "piatto-principale",
+          "confortante",
+          "caldo"
+        ]
+      }
+    }
   }
 ]
