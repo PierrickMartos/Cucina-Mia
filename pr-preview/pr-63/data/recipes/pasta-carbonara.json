@@ -1,0 +1,181 @@
+{
+  "slug": "pasta-carbonara",
+  "title": "Pasta alla Carbonara",
+  "description": "La vraie carbonara romaine avec guanciale croustillant, œufs entiers et pecorino romano, sans crème ni oignons.",
+  "images": {
+    "cover": "images/recipes/pasta-carbonara/cover.jpg",
+    "web": "images/recipes/pasta-carbonara/web.jpg"
+  },
+  "prepTime": 10,
+  "cookTime": 15,
+  "servings": 4,
+  "difficulty": "Medio",
+  "category": "Pasta",
+  "tags": [
+    "pâtes",
+    "porc",
+    "œufs",
+    "fromage",
+    "italien",
+    "traditionnel",
+    "rapide",
+    "plat-principal",
+    "onctueux",
+    "chaud"
+  ],
+  "ingredients": [
+    {
+      "items": [
+        "400g de spaghetti ou rigatoni (UNIQUEMENT ces deux formes)",
+        "200g de guanciale (joue de porc)",
+        "4 œufs (1 par personne)",
+        "100g de pecorino romano râpé",
+        "Poivre noir q.s.",
+        "Sel gros pour la cuisson q.s."
+      ]
+    }
+  ],
+  "steps": [
+    {
+      "text": "Couper le guanciale en petits morceaux et le faire cuire à feu vif dans une poêle. Lorsque la graisse a fondu et que le guanciale est légèrement doré, éteindre le feu."
+    },
+    {
+      "text": "Dans un bol, battre vigoureusement les œufs à la fourchette. Ajouter le pecorino romano râpé et le poivre noir. Bien mélanger."
+    },
+    {
+      "text": "Porter une casserole d'eau à ébullition, ajouter le sel gros et cuire les pâtes selon le temps indiqué."
+    },
+    {
+      "text": "1 à 2 minutes avant la fin de cuisson, égoutter les pâtes en gardant un peu d'eau de cuisson dans un verre."
+    },
+    {
+      "text": "Verser les pâtes dans le bol avec les œufs et le guanciale. Mélanger vigoureusement."
+    },
+    {
+      "text": "Ajouter un peu de pecorino romano et, si la carbonara est trop sèche, une cuillère d'eau de cuisson. Continuer à mélanger jusqu'à obtenir une crème onctueuse."
+    },
+    {
+      "text": "Servir immédiatement et se préparer à toucher le paradis !"
+    }
+  ],
+  "tips": [
+    "Ne jamais ajouter de crème : ce n'est pas une carbonara.",
+    "Le feu doit être éteint quand vous mélangez les œufs pour éviter une omelette.",
+    "Version végétarienne : remplacer le guanciale par des courgettes coupées en petits morceaux et dorées à l'huile d'olive."
+  ],
+  "source": "Kitchen class in Roma with Italian chef",
+  "translations": {
+    "en": {
+      "title": "Pasta alla Carbonara",
+      "description": "The authentic Roman carbonara with crispy guanciale, whole eggs and pecorino romano, no cream, no onions.",
+      "tags": [
+        "pasta",
+        "pork",
+        "eggs",
+        "cheese",
+        "italian",
+        "traditional",
+        "quick",
+        "main-course",
+        "creamy",
+        "hot"
+      ],
+      "ingredients": [
+        {
+          "items": [
+            "400g spaghetti or rigatoni (ONLY these two shapes)",
+            "200g guanciale (pork cheek)",
+            "4 eggs (1 per person)",
+            "100g grated pecorino romano",
+            "Black pepper to taste",
+            "Coarse salt for cooking to taste"
+          ]
+        }
+      ],
+      "steps": [
+        {
+          "text": "Cut the guanciale into small pieces and cook over high heat in a pan. When the fat has melted and the guanciale is lightly browned, turn off the heat."
+        },
+        {
+          "text": "In a bowl, beat the eggs vigorously with a fork. Add the grated pecorino romano and black pepper. Mix well."
+        },
+        {
+          "text": "Bring a pot of water to a boil, add coarse salt and cook the pasta as directed."
+        },
+        {
+          "text": "1 to 2 minutes before the end of cooking, drain the pasta keeping a little cooking water in a glass."
+        },
+        {
+          "text": "Pour the pasta into the bowl with the eggs and the guanciale. Mix vigorously."
+        },
+        {
+          "text": "Add a little more pecorino romano and, if the carbonara is too dry, a spoonful of cooking water. Keep mixing until you get a creamy sauce."
+        },
+        {
+          "text": "Serve immediately and get ready to reach paradise!"
+        }
+      ],
+      "tips": [
+        "Never add cream: that is not a carbonara.",
+        "The heat must be off when mixing in the eggs to avoid scrambling.",
+        "Vegetarian version: replace the guanciale with zucchini cut into small pieces and browned in olive oil."
+      ]
+    },
+    "it": {
+      "title": "Pasta alla Carbonara",
+      "description": "La vera carbonara romana con guanciale croccante, uova intere e pecorino romano, senza panna né cipolle.",
+      "tags": [
+        "pasta",
+        "maiale",
+        "uova",
+        "formaggio",
+        "italiano",
+        "tradizionale",
+        "veloce",
+        "primo-piatto",
+        "cremoso",
+        "caldo"
+      ],
+      "ingredients": [
+        {
+          "items": [
+            "400g di spaghetti o rigatoni (SOLO questi due formati)",
+            "200g di guanciale",
+            "4 uova (1 a persona)",
+            "100g di pecorino romano grattugiato",
+            "Pepe nero q.b.",
+            "Sale grosso per la cottura q.b."
+          ]
+        }
+      ],
+      "steps": [
+        {
+          "text": "Tagliare il guanciale a pezzetti e farlo rosolare a fuoco alto in una padella. Quando il grasso si è sciolto e il guanciale è leggermente dorato, spegnere il fuoco."
+        },
+        {
+          "text": "In una ciotola, sbattere vigorosamente le uova con una forchetta. Aggiungere il pecorino romano grattugiato e il pepe nero. Mescolare bene."
+        },
+        {
+          "text": "Portare a ebollizione una pentola d'acqua, aggiungere il sale grosso e cuocere la pasta secondo i tempi indicati."
+        },
+        {
+          "text": "1-2 minuti prima della fine della cottura, scolare la pasta conservando un po' di acqua di cottura in un bicchiere."
+        },
+        {
+          "text": "Versare la pasta nella ciotola con le uova e il guanciale. Mescolare vigorosamente."
+        },
+        {
+          "text": "Aggiungere altro pecorino romano e, se la carbonara è troppo asciutta, un cucchiaio di acqua di cottura. Continuare a mescolare fino ad ottenere una crema vellutata."
+        },
+        {
+          "text": "Servire immediatamente e prepararsi a toccare il paradiso!"
+        }
+      ],
+      "tips": [
+        "Non aggiungere mai la panna: non è una carbonara.",
+        "Il fuoco deve essere spento quando si mescolano le uova per evitare la frittata.",
+        "Versione vegetariana: sostituire il guanciale con le zucchine tagliate a pezzetti e dorate in olio d'oliva."
+      ]
+    }
+  }
+}

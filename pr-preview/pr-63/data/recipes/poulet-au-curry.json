@@ -1,0 +1,163 @@
+{
+  "slug": "poulet-au-curry",
+  "title": "Poulet au curry",
+  "description": "Un curry de poulet facile et parfumé, mijoté avec du lait de coco, des tomates et des épices doucement relevées.",
+  "images": {
+    "cover": "images/recipes/poulet-au-curry/cover.png",
+    "web": "images/recipes/poulet-au-curry/web.png"
+  },
+  "prepTime": 25,
+  "cookTime": 30,
+  "servings": 4,
+  "difficulty": "Facile",
+  "category": "Secondi",
+  "tags": [
+    "mijoté",
+    "poêle",
+    "poulet",
+    "plat-principal",
+    "asiatique",
+    "réconfortant",
+    "épicé",
+    "sans-gluten",
+    "rapide",
+    "chaud",
+    "toute-la-famille"
+  ],
+  "ingredients": [
+    {
+      "group": "Pour le curry",
+      "items": [
+        "500 g de filet de poulet",
+        "1 oignon doux",
+        "2 gousses d'ail",
+        "1 c. à soupe de gingembre haché",
+        "1/2 à 1 c. à café de pâte de curry",
+        "2 c. à café de curcuma",
+        "500 g de purée de tomate",
+        "250 ml de lait de coco",
+        "Sel et poivre"
+      ]
+    },
+    {
+      "group": "Pour servir",
+      "items": [
+        "Riz basmati cuit",
+        "Coriandre fraîche"
+      ]
+    }
+  ],
+  "steps": [
+    {
+      "text": "Mixez dans un blender l'oignon grossièrement haché, le gingembre, l'ail et la pâte de curry jusqu'à obtenir une pâte homogène."
+    },
+    {
+      "text": "Dans une poêle avec un filet d'huile, faites cuire cette pâte à feu moyen 10 minutes, en ajoutant 1 à 2 c. à soupe d'eau. Remuez souvent jusqu'à ce que les oignons soient tendres."
+    },
+    {
+      "text": "Ajoutez le curcuma et le poulet coupé en morceaux. Laissez colorer 2 minutes, puis ajoutez la purée de tomate et le lait de coco. Laissez mijoter 10 à 15 minutes jusqu'à ce que le poulet soit cuit et la sauce épaissie. Rectifiez l'assaisonnement."
+    },
+    {
+      "text": "Servez bien chaud avec du riz basmati et quelques feuilles de coriandre fraîche."
+    }
+  ],
+  "tips": [
+    "Variante : remplacez le poulet par 700 g de crevettes pour une version fruits de mer tout aussi savoureuse.",
+    "Dosez la pâte de curry selon la marque et vos goûts — elle peut être très piquante."
+  ],
+  "source": "Régal (Pauline Guillet)",
+  "translations": {
+    "en": {
+      "title": "Chicken Curry",
+      "description": "An easy and fragrant chicken curry, simmered with coconut milk, tomatoes and gently spiced aromatics.",
+      "tags": ["simmered", "pan", "chicken", "main-course", "asian", "comforting", "spicy", "gluten-free", "quick", "hot", "family-friendly"],
+      "ingredients": [
+        {
+          "group": "For the curry",
+          "items": [
+            "500 g chicken breast",
+            "1 sweet onion",
+            "2 garlic cloves",
+            "1 tbsp grated ginger",
+            "1/2 to 1 tsp curry paste",
+            "2 tsp turmeric",
+            "500 g tomato purée",
+            "250 ml coconut milk",
+            "Salt and pepper"
+          ]
+        },
+        {
+          "group": "To serve",
+          "items": [
+            "Cooked basmati rice",
+            "Fresh coriander"
+          ]
+        }
+      ],
+      "steps": [
+        {
+          "text": "Blend the roughly chopped onion, ginger, garlic and curry paste in a blender until smooth."
+        },
+        {
+          "text": "In a pan with a drizzle of oil, cook the paste over medium heat for 10 minutes, adding 1 to 2 tbsp of water. Stir often until the onion is soft."
+        },
+        {
+          "text": "Add the turmeric and chicken cut into pieces. Brown for 2 minutes, then add the tomato purée and coconut milk. Simmer for 10 to 15 minutes until the chicken is cooked through and the sauce has thickened. Adjust seasoning."
+        },
+        {
+          "text": "Serve hot with basmati rice and a few fresh coriander leaves."
+        }
+      ],
+      "tips": [
+        "Variation: replace the chicken with 700 g of prawns for an equally delicious seafood version.",
+        "Adjust the amount of curry paste to your taste — some brands can be very hot."
+      ]
+    },
+    "it": {
+      "title": "Pollo al curry",
+      "description": "Un curry di pollo facile e profumato, cotto a fuoco lento con latte di cocco, pomodori e spezie delicatamente piccanti.",
+      "tags": ["stufato", "padella", "pollo", "piatto-principale", "asiatico", "confortante", "piccante", "senza-glutine", "veloce", "caldo", "tutta-la-famiglia"],
+      "ingredients": [
+        {
+          "group": "Per il curry",
+          "items": [
+            "500 g di petto di pollo",
+            "1 cipolla dolce",
+            "2 spicchi d'aglio",
+            "1 cucchiaio di zenzero grattugiato",
+            "1/2 - 1 cucchiaino di pasta di curry",
+            "2 cucchiaini di curcuma",
+            "500 g di passata di pomodoro",
+            "250 ml di latte di cocco",
+            "Sale e pepe"
+          ]
+        },
+        {
+          "group": "Per servire",
+          "items": [
+            "Riso basmati cotto",
+            "Coriandolo fresco"
+          ]
+        }
+      ],
+      "steps": [
+        {
+          "text": "Frullare nel mixer la cipolla grossolanamente tritata, lo zenzero, l'aglio e la pasta di curry fino a ottenere un composto omogeneo."
+        },
+        {
+          "text": "In una padella con un filo d'olio, cuocere questo composto a fuoco medio per 10 minuti, aggiungendo 1-2 cucchiai d'acqua. Mescolare spesso finché la cipolla è morbida."
+        },
+        {
+          "text": "Aggiungere la curcuma e il pollo tagliato a pezzi. Far rosolare 2 minuti, poi aggiungere la passata di pomodoro e il latte di cocco. Cuocere a fuoco lento 10-15 minuti finché il pollo è cotto e la salsa si è addensata. Aggiustare di sale e pepe."
+        },
+        {
+          "text": "Servire ben caldo con riso basmati e qualche foglia di coriandolo fresco."
+        }
+      ],
+      "tips": [
+        "Variante: sostituite il pollo con 700 g di gamberoni per una versione ai frutti di mare altrettanto gustosa.",
+        "Dosate la pasta di curry secondo il marchio e i vostri gusti — può essere molto piccante."
+      ]
+    }
+  }
+}

@@ -1,0 +1,177 @@
+{
+  "slug": "risotto-a-la-milanaise",
+  "title": "Risotto à la Milanaise",
+  "description": "Le grand classique milanais : un risotto d'un jaune doré lumineux au safran et à la moelle de bœuf, crémeux et parfumé.",
+  "images": {
+    "cover": "images/recipes/risotto-a-la-milanaise/cover.jpg",
+    "web": "images/recipes/risotto-a-la-milanaise/web.jpg"
+  },
+  "imageCredit": {
+    "name": "DanielaElenaTentis",
+    "url": "https://pixabay.com/users/danielaelenatentis-2738541/",
+    "source": "Pixabay",
+    "pageURL": "https://pixabay.com/photos/food-risotto-saffron-shrimps-1485024/"
+  },
+  "prepTime": 10,
+  "cookTime": 20,
+  "servings": 4,
+  "difficulty": "Facile",
+  "category": "Risotto",
+  "tags": [
+    "riz",
+    "risotto",
+    "safran",
+    "fromage",
+    "italien",
+    "milanais",
+    "rapide",
+    "plat-principal",
+    "chaud",
+    "traditionnel"
+  ],
+  "ingredients": [
+    {
+      "items": [
+        "350g de riz arborio ou carnaroli",
+        "1 os à moelle",
+        "1 L de bouillon de poulet chaud",
+        "1 oignon",
+        "20 cl de vin blanc",
+        "1 dose de safran (0,1g)",
+        "100g de parmesan râpé",
+        "30g de beurre",
+        "Sel, poivre"
+      ]
+    }
+  ],
+  "steps": [
+    {
+      "text": "Mettre l'os à moelle dans le bouillon chaud et chauffer à feu doux pour que la moelle se mélange au bouillon."
+    },
+    {
+      "text": "Peler et émincer finement l'oignon. Dans une sauteuse, faire fondre le beurre et faire colorer légèrement le riz. Lorsqu'il est translucide, mouiller avec le vin blanc. Laisser s'évaporer en mélangeant."
+    },
+    {
+      "text": "Mouiller avec une première louche de bouillon et ajouter le safran. Dès que le bouillon est absorbé, verser le reste en plusieurs fois jusqu'à ce que le riz soit cuit. Ne pas cesser de remuer. Compter 18 minutes de cuisson."
+    },
+    {
+      "text": "Une fois le riz cuit, ajouter le parmesan. Couvrir et laisser reposer 2 minutes hors du feu. Remuer et rectifier l'assaisonnement."
+    },
+    {
+      "text": "Déguster bien chaud."
+    }
+  ],
+  "tips": [
+    "Utilisez impérativement du riz à risotto (arborio ou carnaroli) : ils absorbent le bouillon progressivement et libèrent l'amidon qui donne la texture crémeuse.",
+    "Ne cessez jamais de remuer : c'est le secret du risotto parfaitement lié.",
+    "Le bouillon doit être chaud lorsque vous le versez pour ne pas arrêter la cuisson du riz."
+  ],
+  "translations": {
+    "en": {
+      "title": "Milanese Risotto",
+      "description": "The great Milanese classic: a saffron and bone marrow risotto with a brilliant golden-yellow hue, creamy and aromatic.",
+      "tags": [
+        "rice",
+        "risotto",
+        "saffron",
+        "cheese",
+        "italian",
+        "milanese",
+        "quick",
+        "main-course",
+        "hot",
+        "traditional"
+      ],
+      "ingredients": [
+        {
+          "items": [
+            "350g arborio or carnaroli rice",
+            "1 marrow bone",
+            "1 L hot chicken broth",
+            "1 onion",
+            "200ml white wine",
+            "1 sachet saffron (0.1g)",
+            "100g grated parmesan",
+            "30g butter",
+            "Salt, pepper"
+          ]
+        }
+      ],
+      "steps": [
+        {
+          "text": "Place the marrow bone in the hot broth and heat over low heat so that the marrow blends into the broth."
+        },
+        {
+          "text": "Peel and finely slice the onion. In a sauté pan, melt the butter and lightly toast the rice until translucent, then pour in the white wine. Stir until evaporated."
+        },
+        {
+          "text": "Add a first ladle of broth and the saffron. Once the broth is absorbed, add the rest in several batches until the rice is cooked, stirring constantly. Allow about 18 minutes of cooking."
+        },
+        {
+          "text": "Once the rice is cooked, add the parmesan. Cover and let rest for 2 minutes off the heat. Stir and adjust seasoning."
+        },
+        {
+          "text": "Serve immediately while hot."
+        }
+      ],
+      "tips": [
+        "Always use risotto rice (arborio or carnaroli): they gradually absorb the broth and release starch that gives the creamy texture.",
+        "Never stop stirring: that is the secret to perfectly bound risotto.",
+        "The broth should be hot when you pour it in to avoid interrupting the cooking of the rice."
+      ]
+    },
+    "it": {
+      "title": "Risotto alla Milanese",
+      "description": "Il grande classico milanese: un risotto di un giallo dorato luminoso allo zafferano e al midollo di bue, cremoso e profumato.",
+      "tags": [
+        "riso",
+        "risotto",
+        "zafferano",
+        "formaggio",
+        "italiano",
+        "milanese",
+        "veloce",
+        "primo-piatto",
+        "caldo",
+        "tradizionale"
+      ],
+      "ingredients": [
+        {
+          "items": [
+            "350g di riso arborio o carnaroli",
+            "1 osso con midollo",
+            "1 L di brodo di pollo caldo",
+            "1 cipolla",
+            "200ml di vino bianco",
+            "1 bustina di zafferano (0,1g)",
+            "100g di parmigiano grattugiato",
+            "30g di burro",
+            "Sale, pepe"
+          ]
+        }
+      ],
+      "steps": [
+        {
+          "text": "Mettere l'osso con midollo nel brodo caldo e scaldare a fuoco lento affinché il midollo si amalgami al brodo."
+        },
+        {
+          "text": "Sbucciare e affettare finemente la cipolla. In una padella, sciogliere il burro e tostare leggermente il riso finché non diventa traslucido, poi sfumare con il vino bianco. Lasciare evaporare mescolando."
+        },
+        {
+          "text": "Aggiungere un primo mestolo di brodo e lo zafferano. Non appena il brodo è assorbito, versarne dell'altro in più riprese fino a cottura del riso, mescolando continuamente. Calcolare 18 minuti di cottura."
+        },
+        {
+          "text": "A cottura ultimata, aggiungere il parmigiano. Coprire e lasciare riposare 2 minuti fuori dal fuoco. Mescolare e aggiustare di sale."
+        },
+        {
+          "text": "Gustare ben caldo."
+        }
+      ],
+      "tips": [
+        "Utilizzare esclusivamente riso da risotto (arborio o carnaroli): assorbono il brodo progressivamente e rilasciano l'amido che dona la consistenza cremosa.",
+        "Non smettere mai di mescolare: è il segreto del risotto perfettamente legato.",
+        "Il brodo deve essere caldo quando si versa per non interrompere la cottura del riso."
+      ]
+    }
+  }
+}
