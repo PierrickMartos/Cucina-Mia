@@ -3,8 +3,12 @@
   "title": "Aubergines braisées au porc & riz",
   "description": "Des aubergines dorées puis braisées avec de la chair à saucisse, du gingembre et de l'ail dans une sauce soja sucrée. Un plat asiatique fondant servi sur un lit de riz.",
   "images": {
-    "cover": "images/recipes/aubergines-braisees-au-porc-et-riz/cover.svg",
-    "web": "images/recipes/aubergines-braisees-au-porc-et-riz/cover.svg"
+    "cover": "images/recipes/aubergines-braisees-au-porc-et-riz/cover.jpg",
+    "web": "images/recipes/aubergines-braisees-au-porc-et-riz/web.jpg"
+  },
+  "imageCredit": {
+    "author": "Jow",
+    "url": "https://jow.fr/recipes/aubergines-braisees-au-porc-et-riz-8i983kndlzb4kl8k0hbv"
   },
   "prepTime": 16,
   "cookTime": 15,
