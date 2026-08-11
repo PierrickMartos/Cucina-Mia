@@ -1,0 +1,179 @@
+{
+  "slug": "chakchouka-du-brunch",
+  "title": "Chakchouka du Brunch",
+  "description": "Oeufs pochés dans une sauce tomate épicée aux poivrons et oignons, parfaite pour un brunch gourmand.",
+  "images": {
+    "cover": "images/recipes/chakchouka-du-brunch/cover.jpg",
+    "web": "images/recipes/chakchouka-du-brunch/web.jpg"
+  },
+  "prepTime": 15,
+  "cookTime": 25,
+  "servings": 4,
+  "difficulty": "Facile",
+  "category": "Brunch",
+  "tags": [
+    "brunch",
+    "végétarien",
+    "épicé",
+    "œufs",
+    "rapide",
+    "méditerranéen",
+    "poêle",
+    "convivial",
+    "chaud",
+    "léger"
+  ],
+  "ingredients": [
+    {
+      "items": [
+        "4 oeufs",
+        "1 poivron rouge, coupé en dés",
+        "1 oignon, émincé",
+        "2 gousses d'ail, hachées",
+        "796 ml de tomates concassées en conserve",
+        "2 c. à soupe de concentré de tomates",
+        "2 c. à soupe d'huile d'olive",
+        "1 c. à café de cumin moulu",
+        "1 c. à café de paprika",
+        "1 pincée de piment de Cayenne",
+        "Sel et poivre q.s.",
+        "Coriandre fraîche pour garnir",
+        "Pain grillé pour servir"
+      ]
+    }
+  ],
+  "steps": [
+    {
+      "text": "Chauffer l'huile d'olive dans une grande poêle ou un plat allant au four à feu moyen."
+    },
+    {
+      "text": "Faire revenir l'oignon émincé pendant 5 minutes jusqu'à ce qu'il soit translucide."
+    },
+    {
+      "text": "Ajouter le poivron rouge en dés et l'ail haché, cuire 3 minutes de plus."
+    },
+    {
+      "text": "Ajouter le cumin, le paprika et le piment de Cayenne, mélanger pendant 1 minute pour libérer les arômes."
+    },
+    {
+      "text": "Verser les tomates concassées et le concentré de tomates, assaisonner de sel et poivre. Laisser mijoter 10 minutes à feu doux."
+    },
+    {
+      "text": "Former 4 puits dans la sauce et y casser délicatement les oeufs. Couvrir et cuire 5 à 8 minutes jusqu'à ce que les blancs soient pris mais les jaunes encore coulants."
+    },
+    {
+      "text": "Parsemer de coriandre fraîche et servir directement dans la poêle avec du pain grillé."
+    }
+  ],
+  "tips": [
+    "On peut ajouter de la feta émiettée sur le dessus juste avant de servir.",
+    "Le piment de Cayenne peut être remplacé par du piment d'Espelette pour une version plus douce.",
+    "Pour un brunch complet, servir avec du pain au levain grillé et de l'avocat."
+  ],
+  "translations": {
+    "en": {
+      "title": "Brunch Shakshuka",
+      "description": "Eggs poached in a spiced tomato sauce with peppers and onions, perfect for a gourmet brunch.",
+      "tags": ["brunch", "vegetarian", "spicy", "eggs", "quick", "mediterranean", "pan", "convivial", "hot", "light"],
+      "ingredients": [
+        {
+          "items": [
+            "4 eggs",
+            "1 red bell pepper, diced",
+            "1 onion, sliced",
+            "2 cloves garlic, minced",
+            "796 ml canned crushed tomatoes",
+            "2 tbsp tomato paste",
+            "2 tbsp olive oil",
+            "1 tsp ground cumin",
+            "1 tsp paprika",
+            "1 pinch cayenne pepper",
+            "Salt and pepper to taste",
+            "Fresh cilantro for garnish",
+            "Toasted bread for serving"
+          ]
+        }
+      ],
+      "steps": [
+        {
+          "text": "Heat olive oil in a large skillet or oven-safe dish over medium heat."
+        },
+        {
+          "text": "Sauté the sliced onion for 5 minutes until translucent."
+        },
+        {
+          "text": "Add the diced red pepper and minced garlic, cook for 3 more minutes."
+        },
+        {
+          "text": "Add cumin, paprika and cayenne pepper, stir for 1 minute to release the aromas."
+        },
+        {
+          "text": "Pour in the crushed tomatoes and tomato paste, season with salt and pepper. Simmer for 10 minutes over low heat."
+        },
+        {
+          "text": "Make 4 wells in the sauce and gently crack the eggs into them. Cover and cook for 5 to 8 minutes until the whites are set but the yolks are still runny."
+        },
+        {
+          "text": "Sprinkle with fresh cilantro and serve directly from the pan with toasted bread."
+        }
+      ],
+      "tips": [
+        "You can add crumbled feta on top just before serving.",
+        "Cayenne pepper can be replaced with Espelette pepper for a milder version.",
+        "For a complete brunch, serve with toasted sourdough bread and avocado."
+      ]
+    },
+    "it": {
+      "title": "Chakchouka da Brunch",
+      "description": "Uova in camicia in salsa di pomodoro speziata con peperoni e cipolle, perfetta per un brunch goloso.",
+      "tags": ["brunch", "vegetariano", "piccante", "uova", "veloce", "mediterraneo", "padella", "conviviale", "caldo", "leggero"],
+      "ingredients": [
+        {
+          "items": [
+            "4 uova",
+            "1 peperone rosso, tagliato a dadini",
+            "1 cipolla, affettata",
+            "2 spicchi d'aglio, tritati",
+            "796 ml di pomodori pelati in scatola",
+            "2 cucchiai di concentrato di pomodoro",
+            "2 cucchiai di olio d'oliva",
+            "1 cucchiaino di cumino macinato",
+            "1 cucchiaino di paprika",
+            "1 pizzico di pepe di Cayenna",
+            "Sale e pepe q.b.",
+            "Coriandolo fresco per guarnire",
+            "Pane tostato per servire"
+          ]
+        }
+      ],
+      "steps": [
+        {
+          "text": "Scaldare l'olio d'oliva in una grande padella o tegame da forno a fuoco medio."
+        },
+        {
+          "text": "Far rosolare la cipolla affettata per 5 minuti fino a renderla traslucida."
+        },
+        {
+          "text": "Aggiungere il peperone rosso a dadini e l'aglio tritato, cuocere per altri 3 minuti."
+        },
+        {
+          "text": "Aggiungere cumino, paprika e pepe di Cayenna, mescolare per 1 minuto per sprigionare gli aromi."
+        },
+        {
+          "text": "Versare i pomodori pelati e il concentrato di pomodoro, condire con sale e pepe. Lasciar sobbollire per 10 minuti a fuoco basso."
+        },
+        {
+          "text": "Formare 4 cavità nella salsa e rompervi delicatamente le uova. Coprire e cuocere per 5-8 minuti fino a quando gli albumi sono rappreso ma i tuorli ancora morbidi."
+        },
+        {
+          "text": "Cospargere di coriandolo fresco e servire direttamente dalla padella con pane tostato."
+        }
+      ],
+      "tips": [
+        "Si può aggiungere della feta sbriciolata sopra appena prima di servire.",
+        "Il pepe di Cayenna può essere sostituito con pepe di Espelette per una versione più delicata.",
+        "Per un brunch completo, servire con pane a lievitazione naturale tostato e avocado."
+      ]
+    }
+  }
+}

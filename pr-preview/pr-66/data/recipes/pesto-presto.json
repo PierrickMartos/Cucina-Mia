@@ -1,0 +1,248 @@
+{
+  "slug": "pesto-presto",
+  "title": "Pesto Presto",
+  "description": "Busiate col pesto alla trapanese, une pâte sicilienne en spirale servie avec un pesto à base de tomates fraîches, amandes, basilic et pecorino, spécialité de Trapani.",
+  "images": {
+    "cover": "images/recipes/pesto-presto/cover.jpg",
+    "web": "images/recipes/pesto-presto/web.jpg"
+  },
+  "prepTime": 45,
+  "cookTime": 150,
+  "servings": 4,
+  "difficulty": "Medio",
+  "category": "Pasta",
+  "tags": [
+    "pâtes",
+    "tomates",
+    "basilic",
+    "amandes",
+    "sicilien",
+    "méditerranéen",
+    "végétarien",
+    "four",
+    "plat-principal",
+    "été",
+    "italien",
+    "festif",
+    "léger"
+  ],
+  "ingredients": [
+    {
+      "group": "Pour les busiate",
+      "items": [
+        "450 g de semoule fine de blé dur",
+        "160 ml d'eau tiède"
+      ]
+    },
+    {
+      "group": "Pour les tomates confites",
+      "items": [
+        "200 g de tomates (cerises ou San Marzano)",
+        "2 c. à s. d'huile d'olive vierge extra (Quanto basta)",
+        "1 pincée de sel fin",
+        "1 pincée de sucre",
+        "Quelques feuilles de thym ou d'origan"
+      ]
+    },
+    {
+      "group": "Pour le pesto",
+      "items": [
+        "80 g d'amandes mondées",
+        "6 tomates bien mûres (cœur de bœuf ou San Marzano)",
+        "1 gousse d'ail",
+        "1 bouquet de basilic frais",
+        "60 g de pecorino siciliano râpé (ou Parmigiano Reggiano DOP)",
+        "80 ml d'huile d'olive vierge extra",
+        "Sel et poivre"
+      ]
+    }
+  ],
+  "steps": [
+    {
+      "text": "Préchauffer le four à 100 °C. Couper les tomates en deux, les disposer côté coupé vers le haut sur une plaque recouverte de papier sulfurisé. Arroser d'un filet d'huile d'olive, saupoudrer d'une pincée de sel, de sucre et de thym ou d'origan. Enfourner 1 à 2 heures jusqu'à ce qu'elles soient fondantes et bien concentrées."
+    },
+    {
+      "text": "Préparer les busiate : verser la semoule fine sur le plan de travail et former un puits. Incorporer progressivement les 160 ml d'eau tiède, d'abord en mélangeant petit à petit avec une fourchette, puis en pétrissant avec les doigts lorsque la pâte commence à se former. Pétrir pendant 10 minutes jusqu'à obtenir une pâte lisse et souple. Couvrir d'un torchon humide et laisser reposer 30 minutes."
+    },
+    {
+      "text": "Façonner les busiate : prélever des petits morceaux de pâte et former de fins boudins. Enrouler chaque boudin en spirale autour d'un pic en bois ou d'une brochette fine, puis faire glisser pour libérer la pâte. Réserver sur un plateau fariné."
+    },
+    {
+      "text": "Préparer le pesto alla trapanese : faire légèrement griller les amandes à sec dans une poêle. Plonger les tomates fraîches une minute dans l'eau bouillante, les peler avec délicatesse, puis les couper en morceaux. Dans un mortier ou un mixeur, broyer les amandes avec l'ail, les tomates, puis ajouter le basilic frais. Incorporer le pecorino râpé et verser les 80 ml d'huile d'olive progressivement en mixant. La consistance doit être légèrement grossière — pas totalement lisse. Saler et poivrer."
+    },
+    {
+      "text": "Cuire les busiate dans une grande casserole d'eau bouillante bien salée jusqu'à al dente. Réserver une tasse d'eau de cuisson avant d'égoutter."
+    },
+    {
+      "text": "Dans un grand saladier ou une poêle, mélanger les busiate chaudes avec le pesto en ajoutant un peu d'eau de cuisson pour lier la sauce. Bien enrober chaque pâte."
+    },
+    {
+      "text": "Servir aussitôt dans des assiettes chaudes, garni d'une pincée de pecorino râpé, d'amandes concassées et de quelques feuilles de basilic frais. Finir avec un filet d'huile d'olive vierge extra."
+    }
+  ],
+  "tips": [
+    "Les tomates confites peuvent être préparées la veille et conservées au réfrigérateur.",
+    "Si vous n'avez pas le temps de faire les busiate maison, remplacez-les par des trofie ou des casarecce."
+  ],
+  "source": "Les Pâtes Incontournables",
+  "originalSource": {
+    "type": "image",
+    "data": "images/recipes/pesto-presto/source.jpg"
+  },
+  "translations": {
+    "en": {
+      "title": "Pesto Presto",
+      "description": "Busiate pasta with Trapanese pesto, a Sicilian specialty made with fresh tomatoes, almonds, basil, and pecorino from the province of Trapani.",
+      "tags": [
+        "pasta",
+        "tomatoes",
+        "basil",
+        "almonds",
+        "sicilian",
+        "mediterranean",
+        "vegetarian",
+        "oven",
+        "main-course",
+        "summer",
+        "italian",
+        "festive",
+        "light"
+      ],
+      "ingredients": [
+        {
+          "group": "For the busiate",
+          "items": [
+            "450 g fine durum wheat semolina",
+            "160 ml warm water"
+          ]
+        },
+        {
+          "group": "For the confit tomatoes",
+          "items": [
+            "200 g tomatoes (cherry or San Marzano)",
+            "2 tbsp extra virgin olive oil (to taste)",
+            "1 pinch of fine salt",
+            "1 pinch of sugar",
+            "A few sprigs of thyme or oregano"
+          ]
+        },
+        {
+          "group": "For the pesto",
+          "items": [
+            "80 g blanched almonds",
+            "6 ripe tomatoes (beef heart or San Marzano)",
+            "1 garlic clove",
+            "1 bunch fresh basil",
+            "60 g grated Sicilian pecorino (or Parmigiano Reggiano DOP)",
+            "80 ml extra virgin olive oil",
+            "Salt and pepper"
+          ]
+        }
+      ],
+      "steps": [
+        {
+          "text": "Preheat oven to 100 °C (210 °F). Halve the tomatoes and place cut-side up on a baking tray lined with parchment. Drizzle with olive oil and season with a pinch of salt, sugar, and thyme or oregano. Roast for 1 to 2 hours until soft and concentrated."
+        },
+        {
+          "text": "Make the busiate dough: mound the fine semolina on a work surface and make a well in the center. Gradually incorporate the 160 ml of warm water, first mixing little by little with a fork, then kneading with your fingers once the dough starts to come together. Knead for 10 minutes until smooth and supple. Cover with a damp cloth and rest for 30 minutes."
+        },
+        {
+          "text": "Shape the busiate: pinch off small pieces of dough and roll into thin logs. Wrap each log in a spiral around a thin skewer or wooden pick, then slide off to release. Set aside on a floured tray."
+        },
+        {
+          "text": "Make the Trapanese pesto: lightly toast the almonds dry in a pan. Plunge the fresh tomatoes into boiling water for one minute, peel them gently, then cut into pieces. In a mortar or blender, crush the almonds with the garlic, the tomatoes, then add the fresh basil. Add the grated pecorino and drizzle in the 80 ml of olive oil while mixing. The texture should be slightly coarse — not completely smooth. Season with salt and pepper."
+        },
+        {
+          "text": "Cook the busiate in a large pot of well-salted boiling water until al dente. Reserve a cup of cooking water before draining."
+        },
+        {
+          "text": "In a large bowl or pan, toss the hot busiate with the pesto, adding a splash of cooking water to loosen the sauce. Coat every piece of pasta well."
+        },
+        {
+          "text": "Serve immediately in warm bowls, topped with a sprinkle of grated pecorino, crushed almonds, and a few fresh basil leaves. Finish with a drizzle of extra virgin olive oil."
+        }
+      ],
+      "tips": [
+        "The confit tomatoes can be made the day before and stored in the refrigerator.",
+        "If you don't have time to make the busiate from scratch, replace them with trofie or casarecce."
+      ]
+    },
+    "it": {
+      "title": "Pesto Presto",
+      "description": "Busiate col pesto alla trapanese, specialità siciliana con pomodori freschi, mandorle, basilico e pecorino, tipica della provincia di Trapani.",
+      "tags": [
+        "pasta",
+        "pomodori",
+        "basilico",
+        "mandorle",
+        "siciliano",
+        "mediterraneo",
+        "vegetariano",
+        "forno",
+        "primo-piatto",
+        "estate",
+        "italiano",
+        "festivo",
+        "leggero"
+      ],
+      "ingredients": [
+        {
+          "group": "Per le busiate",
+          "items": [
+            "450 g di semola fine di grano duro",
+            "160 ml di acqua tiepida"
+          ]
+        },
+        {
+          "group": "Per i pomodori confit",
+          "items": [
+            "200 g di pomodori (ciliegino o San Marzano)",
+            "2 cucchiai di olio extravergine di oliva (Quanto basta)",
+            "1 pizzico di sale fino",
+            "1 pizzico di zucchero",
+            "Qualche foglia di timo o origano"
+          ]
+        },
+        {
+          "group": "Per il pesto",
+          "items": [
+            "80 g di mandorle pelate",
+            "6 pomodori maturi (cuore di bue o San Marzano)",
+            "1 spicchio d'aglio",
+            "1 mazzo di basilico fresco",
+            "60 g di pecorino siciliano grattugiato (o Parmigiano Reggiano DOP)",
+            "80 ml di olio extravergine di oliva",
+            "Sale e pepe"
+          ]
+        }
+      ],
+      "steps": [
+        {
+          "text": "Preriscaldare il forno a 100 °C. Tagliare i pomodori a metà e disporli con il lato tagliato verso l'alto su una teglia foderata di carta da forno. Condire con un filo d'olio, sale, zucchero e timo o origano. Infornare per 1-2 ore finché non risultano morbidi e concentrati."
+        },
+        {
+          "text": "Preparare l'impasto delle busiate: disporre la semola fine a fontana sul piano di lavoro. Incorporare gradualmente i 160 ml di acqua tiepida, mescolando prima poco a poco con una forchetta, poi impastando con le dita quando l'impasto comincia a formarsi. Impastare per 10 minuti fino a ottenere un impasto liscio ed elastico. Coprire con un canovaccio umido e far riposare 30 minuti."
+        },
+        {
+          "text": "Formare le busiate: staccare piccoli pezzi di impasto e formare dei filini sottili. Avvolgere ogni filino a spirale attorno a uno spiedino di legno o a un ferretto, poi far scivolare per liberare la pasta. Disporre su un vassoio infarinato."
+        },
+        {
+          "text": "Preparare il pesto alla trapanese: tostare leggermente le mandorle a secco in una padella. Scottare i pomodori freschi per un minuto in acqua bollente, pelarli delicatamente, poi tagliarli a pezzi. In un mortaio o frullatore, pestare le mandorle con l'aglio, i pomodori, poi aggiungere il basilico fresco. Incorporare il pecorino grattugiato e versare gli 80 ml di olio a filo mescolando. La consistenza deve essere leggermente grossolana — non completamente liscia. Salare e pepare."
+        },
+        {
+          "text": "Cuocere le busiate in abbondante acqua bollente salata fino a cottura al dente. Conservare una tazza di acqua di cottura prima di scolare."
+        },
+        {
+          "text": "In una ciotola grande o in padella, mantecare le busiate calde con il pesto aggiungendo un po' di acqua di cottura per legare il condimento. Mescolare bene per ricoprire ogni pasta."
+        },
+        {
+          "text": "Servire subito in piatti caldi, guarnendo con una spolverata di pecorino grattugiato, mandorle tritate grossolanamente e qualche foglia di basilico fresco. Terminare con un filo d'olio extravergine di oliva."
+        }
+      ],
+      "tips": [
+        "I pomodori confit possono essere preparati il giorno prima e conservati in frigorifero.",
+        "Se non hai tempo di fare le busiate in casa, puoi usare le trofie o i casarecce."
+      ]
+    }
+  }
+}
