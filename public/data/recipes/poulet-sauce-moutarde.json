@@ -1,0 +1,197 @@
+{
+  "slug": "poulet-sauce-moutarde",
+  "title": "Poulet sauce moutarde",
+  "description": "Des escalopes de poulet poêlées avec champignons et oignon rouge, nappées d'une sauce crémeuse à la moutarde à l'ancienne. Servi avec du riz, c'est le dîner de semaine parfait.",
+  "images": {
+    "cover": "images/recipes/poulet-sauce-moutarde/cover.svg",
+    "web": "images/recipes/poulet-sauce-moutarde/cover.svg"
+  },
+  "prepTime": 7,
+  "cookTime": 15,
+  "servings": 4,
+  "difficulty": "Facile",
+  "category": "Secondi",
+  "tags": [
+    "poulet",
+    "champignons",
+    "moutarde",
+    "crème",
+    "poêle",
+    "rapide",
+    "facile",
+    "enfants",
+    "toute-la-famille",
+    "français",
+    "plat-principal",
+    "réconfortant",
+    "chaud",
+    "sans-gluten"
+  ],
+  "ingredients": [
+    {
+      "items": [
+        "4 escalopes de poulet",
+        "400 g de champignons bruns",
+        "440 g de riz cuit (environ 150 g de riz cru)",
+        "1 oignon rouge",
+        "4 c. à café de moutarde à l'ancienne",
+        "200 ml de crème liquide",
+        "Sel et poivre",
+        "Huile d'olive (Quanto basta)"
+      ]
+    }
+  ],
+  "steps": [
+    {
+      "text": "Éplucher puis couper l'oignon rouge en fines lamelles."
+    },
+    {
+      "text": "Laver puis couper les champignons en lamelles."
+    },
+    {
+      "text": "Couper le poulet en tranches."
+    },
+    {
+      "text": "Faire chauffer un filet d'huile d'olive dans une poêle, sur feu moyen. Ajouter les oignons et les champignons. Saler, poivrer et les faire revenir 4 à 5 minutes en mélangeant. Réserver hors du feu."
+    },
+    {
+      "text": "Dans la même poêle, faire chauffer un filet d'huile d'olive sur feu moyen. Ajouter le poulet, saler, poivrer et le faire revenir 4 à 5 minutes en mélangeant."
+    },
+    {
+      "text": "Remettre les champignons et les oignons dans la poêle et mélanger 1 minute supplémentaire."
+    },
+    {
+      "text": "Ajouter la moutarde à l'ancienne et la crème liquide. Laisser mijoter 3 à 4 minutes sur feu doux, en mélangeant."
+    },
+    {
+      "text": "Pendant ce temps, préparer le riz selon les instructions du paquet. Le servir avec le poulet crémeux, rectifier l'assaisonnement et déguster aussitôt."
+    }
+  ],
+  "source": "https://jow.fr/recipes/poulet-sauce-moutarde-83ik0b9dizx31qkv0v9y",
+  "originalSource": {
+    "type": "url",
+    "data": "https://jow.fr/recipes/poulet-sauce-moutarde-83ik0b9dizx31qkv0v9y"
+  },
+  "translations": {
+    "en": {
+      "title": "Chicken in Mustard Cream Sauce",
+      "description": "Pan-fried chicken breasts with mushrooms and red onion, coated in a creamy wholegrain mustard sauce. Served with rice, it is the perfect weeknight dinner.",
+      "tags": [
+        "chicken",
+        "mushrooms",
+        "mustard",
+        "cream",
+        "pan-fried",
+        "quick",
+        "easy",
+        "kids",
+        "family-friendly",
+        "french",
+        "main-course",
+        "comfort-food",
+        "hot",
+        "gluten-free"
+      ],
+      "ingredients": [
+        {
+          "items": [
+            "4 chicken breasts",
+            "400 g chestnut mushrooms",
+            "440 g cooked rice (about 150 g uncooked)",
+            "1 red onion",
+            "4 tsp wholegrain mustard",
+            "200 ml single cream",
+            "Salt and pepper",
+            "Olive oil (Quanto basta)"
+          ]
+        }
+      ],
+      "steps": [
+        {
+          "text": "Peel and slice the red onion thinly."
+        },
+        {
+          "text": "Wash and slice the mushrooms."
+        },
+        {
+          "text": "Cut the chicken into strips."
+        },
+        {
+          "text": "Heat a drizzle of olive oil in a pan over medium heat. Add the onions and mushrooms. Season with salt and pepper and cook for 4 to 5 minutes, stirring. Set aside off the heat."
+        },
+        {
+          "text": "In the same pan, heat a drizzle of olive oil over medium heat. Add the chicken, season with salt and pepper and cook for 4 to 5 minutes, stirring."
+        },
+        {
+          "text": "Return the mushrooms and onions to the pan and stir for 1 more minute."
+        },
+        {
+          "text": "Add the wholegrain mustard and the cream. Simmer for 3 to 4 minutes over low heat, stirring."
+        },
+        {
+          "text": "Meanwhile, cook the rice according to the packet instructions. Serve it with the creamy chicken, adjust the seasoning and enjoy straight away."
+        }
+      ]
+    },
+    "it": {
+      "title": "Pollo alla senape",
+      "description": "Petti di pollo saltati in padella con funghi e cipolla rossa, avvolti in una cremosa salsa alla senape in grani. Serviti con il riso, sono la cena perfetta durante la settimana.",
+      "tags": [
+        "pollo",
+        "funghi",
+        "senape",
+        "panna",
+        "padella",
+        "veloce",
+        "facile",
+        "bambini",
+        "tutta-la-famiglia",
+        "francese",
+        "piatto-principale",
+        "confortante",
+        "caldo",
+        "senza-glutine"
+      ],
+      "ingredients": [
+        {
+          "items": [
+            "4 petti di pollo",
+            "400 g di funghi champignon bruni",
+            "440 g di riso cotto (circa 150 g crudo)",
+            "1 cipolla rossa",
+            "4 cucchiaini di senape in grani",
+            "200 ml di panna liquida",
+            "Sale e pepe",
+            "Olio d'oliva (Quanto basta)"
+          ]
+        }
+      ],
+      "steps": [
+        {
+          "text": "Sbucciare e affettare finemente la cipolla rossa."
+        },
+        {
+          "text": "Lavare e affettare i funghi."
+        },
+        {
+          "text": "Tagliare il pollo a strisce."
+        },
+        {
+          "text": "Scaldare un filo d'olio d'oliva in una padella a fuoco medio. Aggiungere le cipolle e i funghi. Salare, pepare e rosolare per 4-5 minuti, mescolando. Mettere da parte fuori dal fuoco."
+        },
+        {
+          "text": "Nella stessa padella, scaldare un filo d'olio d'oliva a fuoco medio. Aggiungere il pollo, salare, pepare e rosolare per 4-5 minuti, mescolando."
+        },
+        {
+          "text": "Rimettere i funghi e le cipolle nella padella e mescolare per 1 minuto ancora."
+        },
+        {
+          "text": "Aggiungere la senape in grani e la panna liquida. Lasciare sobbollire 3-4 minuti a fuoco basso, mescolando."
+        },
+        {
+          "text": "Nel frattempo, cuocere il riso secondo le istruzioni della confezione. Servirlo con il pollo cremoso, regolare di sale e gustare subito."
+        }
+      ]
+    }
+  }
+}
