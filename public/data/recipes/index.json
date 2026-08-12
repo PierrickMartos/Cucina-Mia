@@ -5633,5 +5633,76 @@
         ]
       }
     }
+  },
+  {
+    "slug": "salade-orzo-pasteque",
+    "title": "Salade d'orzo à la pastèque",
+    "description": "Une salade estivale d'orzo à la pastèque, feta et roquette, relevée d'une vinaigrette au citron vert et au miel et parsemée de pignons grillés.",
+    "images": {
+      "cover": "images/recipes/salade-orzo-pasteque/cover.jpg",
+      "web": "images/recipes/salade-orzo-pasteque/web.jpg"
+    },
+    "prepTime": 20,
+    "cookTime": 10,
+    "servings": 4,
+    "difficulty": "Facile",
+    "category": "Pasta",
+    "tags": [
+      "été",
+      "froid",
+      "végétarien",
+      "rapide",
+      "léger",
+      "pâtes",
+      "fromage",
+      "fruits",
+      "méditerranéen",
+      "plat-principal",
+      "sucré-salé",
+      "à-partager",
+      "pique-nique"
+    ],
+    "stepCount": 9,
+    "ingredientCount": 11,
+    "translations": {
+      "en": {
+        "title": "Watermelon Orzo Salad",
+        "description": "A summery orzo salad with watermelon, feta and rocket, dressed with lime and honey and scattered with toasted pine nuts.",
+        "tags": [
+          "summer",
+          "cold",
+          "vegetarian",
+          "quick",
+          "light",
+          "pasta",
+          "cheese",
+          "fruit",
+          "mediterranean",
+          "main-course",
+          "sweet-savory",
+          "to-share",
+          "picnic"
+        ]
+      },
+      "it": {
+        "title": "Insalata di risoni all'anguria",
+        "description": "Un'insalata estiva di risoni con anguria, feta e rucola, condita con lime e miele e completata da pinoli tostati.",
+        "tags": [
+          "estate",
+          "freddo",
+          "vegetariano",
+          "veloce",
+          "leggero",
+          "pasta",
+          "formaggio",
+          "frutta",
+          "mediterraneo",
+          "piatto-principale",
+          "dolce-salato",
+          "da-condividere",
+          "picnic"
+        ]
+      }
+    }
   }
 ]
