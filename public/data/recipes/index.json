@@ -5642,10 +5642,6 @@
       "cover": "images/recipes/salade-orzo-pasteque/cover.jpg",
       "web": "images/recipes/salade-orzo-pasteque/web.jpg"
     },
-    "imageCredit": {
-      "author": "Anto Meneghini",
-      "url": "https://unsplash.com/@antomeneghini"
-    },
     "prepTime": 20,
     "cookTime": 10,
     "servings": 4,
