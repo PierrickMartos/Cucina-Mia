@@ -1,0 +1,222 @@
+{
+  "slug": "crepes-chandeleur",
+  "title": "Crêpes moelleuses de la Chandeleur",
+  "description": "La pâte à crêpes inratable d'Hervé Cuisine : farine, œufs, lait tiède et beurre fondu, parfumée au rhum ou à la fleur d'oranger, reposée 30 minutes pour des crêpes bien moelleuses.",
+  "images": {
+    "cover": "images/recipes/crepes-chandeleur/cover.jpg",
+    "web": "images/recipes/crepes-chandeleur/web.jpg"
+  },
+  "imageCredit": {
+    "author": "RitaE",
+    "url": "https://pixabay.com/users/ritae-19628/"
+  },
+  "prepTime": 5,
+  "cookTime": 10,
+  "servings": 4,
+  "difficulty": "Facile",
+  "category": "Dolci",
+  "tags": [
+    "dessert",
+    "goûter",
+    "poêle",
+    "français",
+    "végétarien",
+    "enfants",
+    "toute-la-famille",
+    "économique",
+    "moelleux",
+    "chaud",
+    "gourmand",
+    "fête",
+    "convivial",
+    "à-partager"
+  ],
+  "ingredients": [
+    {
+      "items": [
+        "250 g de farine de blé (T55, T65 ou même T80 demi-complète, avec plus de fibres)",
+        "4 œufs frais, bio de préférence",
+        "450 ml de lait légèrement tiède",
+        "2 cuillères à soupe de rhum ambré ou de fleur d'oranger, ou 1/2 verre de bière blonde",
+        "1 cuillère à soupe d'extrait de vanille ou 1 sachet de sucre vanillé",
+        "2 cuillères à soupe de sucre",
+        "1 pincée de sel",
+        "50 g de beurre fondu, plus un peu de beurre pour la poêle"
+      ]
+    }
+  ],
+  "steps": [
+    {
+      "text": "Faites fondre le beurre au micro-ondes et faites légèrement chauffer le lait, qui doit être à peine tiède."
+    },
+    {
+      "text": "Mélangez la farine tamisée, le sucre et le sel dans un grand bol."
+    },
+    {
+      "text": "Ajoutez les œufs, le beurre fondu, puis progressivement le lait, en battant bien au fouet."
+    },
+    {
+      "text": "Ajoutez la bière ou le rhum et la vanille, puis laissez reposer la pâte 30 minutes à température ambiante."
+    },
+    {
+      "text": "Faites chauffer une noix de beurre dans la poêle, bien chaude, et versez une louche de pâte."
+    },
+    {
+      "text": "Faites cuire les crêpes de chaque côté, jusqu'à ce qu'elles soient bien dorées. Quand la crêpe est sèche sur le dessus, passez la spatule sur le contour pour décoller les bords, puis faites un mouvement de va-et-vient avec la poêle : la crêpe doit glisser."
+    },
+    {
+      "text": "Au fur et à mesure, réservez les crêpes dans une assiette en les couvrant d'une feuille de papier aluminium."
+    }
+  ],
+  "tips": [
+    "Le repos de 30 minutes n'est pas optionnel : la texture devient plus onctueuse, moins liquide, et s'étale mieux. Une nuit au frigo, la pâte filmée, donne des crêpes encore plus moelleuses.",
+    "Le lait tiède facilite la dissolution de la farine, donc pas de grumeaux, et réduit le temps de repos de moitié.",
+    "Pour zéro grumeau, faites tout au blender : œufs, lait et beurre fondu dans le bol, la farine par-dessus, puis mixez jusqu'à obtenir une pâte lisse.",
+    "Beurrez la poêle toutes les 3 crêpes environ, avec du beurre fondu et un petit carré de papier absorbant.",
+    "Couvrez la pile de crêpes d'une feuille de papier cuisson, d'aluminium ou d'un torchon propre humide pendant que vous cuisez les suivantes, sinon elles se dessèchent.",
+    "Pour une texture plus légère, remplacez une partie de la farine par de la fécule de maïs : 200 g de farine et 50 g de fécule.",
+    "Réchauffage : 15 secondes au micro-ondes et elles redeviennent moelleuses. Le four et la poêle les dessèchent. Elles se congèlent cuites, à plat entre des feuilles de papier cuisson, jamais en pâte crue.",
+    "Pour des crêpes salées, gardez la même pâte en supprimant le sucre, la vanille et le rhum."
+  ],
+  "source": "Hervé Cuisine",
+  "originalSource": {
+    "type": "url",
+    "data": "https://www.hervecuisine.com/recette/crepes-de-la-chandeleur/"
+  },
+  "translations": {
+    "en": {
+      "title": "Soft Chandeleur Crêpes",
+      "description": "Hervé Cuisine's foolproof crêpe batter: flour, eggs, warm milk and melted butter, flavoured with rum or orange blossom, rested for 30 minutes for beautifully soft crêpes.",
+      "tags": [
+        "dessert",
+        "snack",
+        "pan",
+        "french",
+        "vegetarian",
+        "kids",
+        "family-friendly",
+        "budget-friendly",
+        "soft",
+        "hot",
+        "indulgent",
+        "celebration",
+        "convivial",
+        "to-share"
+      ],
+      "ingredients": [
+        {
+          "items": [
+            "250 g wheat flour (T55, T65 or even wholemeal T80, with more fibre)",
+            "4 fresh eggs, organic if possible",
+            "450 ml slightly warm milk",
+            "2 tablespoons amber rum or orange blossom water, or half a glass of lager",
+            "1 tablespoon vanilla extract or 1 sachet of vanilla sugar",
+            "2 tablespoons sugar",
+            "1 pinch of salt",
+            "50 g melted butter, plus a little more for the pan"
+          ]
+        }
+      ],
+      "steps": [
+        {
+          "text": "Melt the butter in the microwave and warm the milk gently, it should be barely lukewarm."
+        },
+        {
+          "text": "Mix the sifted flour, the sugar and the salt in a large bowl."
+        },
+        {
+          "text": "Add the eggs, the melted butter, then the milk gradually, whisking well."
+        },
+        {
+          "text": "Add the beer or the rum and the vanilla, then leave the batter to rest for 30 minutes at room temperature."
+        },
+        {
+          "text": "Heat a knob of butter in the pan, which should be properly hot, and pour in a ladle of batter."
+        },
+        {
+          "text": "Cook the crêpes on both sides until nicely golden. Once the surface looks dry, run a spatula around the edge to loosen them, then shake the pan back and forth: the crêpe should slide."
+        },
+        {
+          "text": "As you go, stack the crêpes on a plate and cover them with a sheet of foil."
+        }
+      ],
+      "tips": [
+        "The 30-minute rest is not optional: the batter turns silkier, less runny, and spreads better. Resting it overnight in the fridge, covered with cling film, gives even softer crêpes.",
+        "Warm milk helps the flour dissolve, so no lumps, and halves the resting time.",
+        "For zero lumps, use a blender: eggs, milk and melted butter in the jug, flour on top, then blitz to a smooth batter.",
+        "Butter the pan roughly every 3 crêpes, using melted butter and a small square of kitchen paper.",
+        "Cover the stack of crêpes with baking paper, foil or a clean damp tea towel while you cook the rest, otherwise they dry out.",
+        "For a lighter texture, swap part of the flour for cornflour: 200 g flour and 50 g cornflour.",
+        "Reheating: 15 seconds in the microwave and they go soft again. The oven and the pan dry them out. They freeze cooked, flat between sheets of baking paper, never as raw batter.",
+        "For savoury crêpes, keep the same batter but leave out the sugar, the vanilla and the rum."
+      ]
+    },
+    "it": {
+      "title": "Crêpes morbide della Candelora",
+      "description": "La pastella per crêpes infallibile di Hervé Cuisine: farina, uova, latte tiepido e burro fuso, profumata al rum o ai fiori d'arancio, riposata 30 minuti per crêpes ben morbide.",
+      "tags": [
+        "dolce",
+        "merenda",
+        "padella",
+        "francese",
+        "vegetariano",
+        "bambini",
+        "tutta-la-famiglia",
+        "economico",
+        "morbido",
+        "caldo",
+        "goloso",
+        "festa",
+        "conviviale",
+        "da-condividere"
+      ],
+      "ingredients": [
+        {
+          "items": [
+            "250 g di farina di grano (T55, T65 o anche T80 semintegrale, con più fibre)",
+            "4 uova fresche, biologiche se possibile",
+            "450 ml di latte leggermente tiepido",
+            "2 cucchiai di rum ambrato o acqua di fiori d'arancio, oppure mezzo bicchiere di birra chiara",
+            "1 cucchiaio di estratto di vaniglia o 1 bustina di zucchero vanigliato",
+            "2 cucchiai di zucchero",
+            "1 pizzico di sale",
+            "50 g di burro fuso, più un po' di burro per la padella"
+          ]
+        }
+      ],
+      "steps": [
+        {
+          "text": "Sciogliete il burro nel microonde e scaldate leggermente il latte, deve essere appena tiepido."
+        },
+        {
+          "text": "Mescolate la farina setacciata, lo zucchero e il sale in una ciotola grande."
+        },
+        {
+          "text": "Aggiungete le uova, il burro fuso, poi il latte poco alla volta, sbattendo bene con la frusta."
+        },
+        {
+          "text": "Aggiungete la birra o il rum e la vaniglia, poi lasciate riposare la pastella 30 minuti a temperatura ambiente."
+        },
+        {
+          "text": "Scaldate una noce di burro nella padella, ben calda, e versate un mestolo di pastella."
+        },
+        {
+          "text": "Cuocete le crêpes da entrambi i lati, finché non sono ben dorate. Quando la superficie è asciutta, passate la spatola lungo il bordo per staccarle, poi muovete la padella avanti e indietro: la crêpe deve scivolare."
+        },
+        {
+          "text": "Man mano, mettete le crêpes su un piatto coprendole con un foglio di alluminio."
+        }
+      ],
+      "tips": [
+        "Il riposo di 30 minuti non è facoltativo: la pastella diventa più vellutata, meno liquida, e si stende meglio. Una notte in frigo, coperta con pellicola, dà crêpes ancora più morbide.",
+        "Il latte tiepido facilita lo scioglimento della farina, quindi niente grumi, e dimezza il tempo di riposo.",
+        "Per zero grumi, fate tutto nel frullatore: uova, latte e burro fuso nel bicchiere, la farina sopra, poi frullate fino a ottenere una pastella liscia.",
+        "Imburrate la padella ogni 3 crêpes circa, con burro fuso e un quadratino di carta assorbente.",
+        "Coprite la pila di crêpes con carta forno, alluminio o un canovaccio pulito umido mentre cuocete le altre, altrimenti si seccano.",
+        "Per una consistenza più leggera, sostituite parte della farina con amido di mais: 200 g di farina e 50 g di amido.",
+        "Per riscaldarle: 15 secondi al microonde e tornano morbide. Il forno e la padella le seccano. Si congelano cotte, in piano tra fogli di carta forno, mai da pastella cruda.",
+        "Per crêpes salate, tenete la stessa pastella togliendo lo zucchero, la vaniglia e il rum."
+      ]
+    }
+  }
+}
