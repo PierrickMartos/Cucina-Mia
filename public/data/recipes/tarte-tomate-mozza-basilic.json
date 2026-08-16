@@ -6,12 +6,6 @@
     "cover": "images/recipes/tarte-tomate-mozza-basilic/cover.jpg",
     "web": "images/recipes/tarte-tomate-mozza-basilic/web.jpg"
   },
-  "imageCredit": {
-    "author": "RitaE",
-    "authorUrl": "https://pixabay.com/users/ritae-19628/",
-    "source": "Pixabay",
-    "sourceUrl": "https://pixabay.com/photos/tomatoes-tomato-quiche-red-yellow-1603611/"
-  },
   "prepTime": 40,
   "cookTime": 35,
   "servings": 4,
