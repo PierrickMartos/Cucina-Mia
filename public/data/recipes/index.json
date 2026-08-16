@@ -1874,10 +1874,11 @@
       "sans-gluten",
       "rapide",
       "chaud",
-      "toute-la-famille"
+      "toute-la-famille",
+      "croquant"
     ],
-    "ingredientCount": 11,
-    "stepCount": 4,
+    "ingredientCount": 12,
+    "stepCount": 5,
     "translations": {
       "en": {
         "title": "Chicken Curry",
@@ -1893,7 +1894,8 @@
           "gluten-free",
           "quick",
           "hot",
-          "family-friendly"
+          "family-friendly",
+          "crunchy"
         ]
       },
       "it": {
@@ -1910,7 +1912,8 @@
           "senza-glutine",
           "veloce",
           "caldo",
-          "tutta-la-famiglia"
+          "tutta-la-famiglia",
+          "croccante"
         ]
       }
     }

@@ -22,7 +22,8 @@
     "sans-gluten",
     "rapide",
     "chaud",
-    "toute-la-famille"
+    "toute-la-famille",
+    "croquant"
   ],
   "ingredients": [
     {
@@ -36,6 +37,7 @@
         "2 c. à café de curcuma",
         "500 g de purée de tomate",
         "250 ml de lait de coco",
+        "80 g de noix de cajou non salées",
         "Sel et poivre"
       ]
     },
@@ -58,7 +60,10 @@
       "text": "Ajoutez le curcuma et le poulet coupé en morceaux. Laissez colorer 2 minutes, puis ajoutez la purée de tomate et le lait de coco. Laissez mijoter 10 à 15 minutes jusqu'à ce que le poulet soit cuit et la sauce épaissie. Rectifiez l'assaisonnement."
     },
     {
-      "text": "Servez bien chaud avec du riz basmati et quelques feuilles de coriandre fraîche."
+      "text": "Pendant que le curry mijote, faites griller les noix de cajou à sec dans une petite poêle jusqu'à ce qu'elles soient dorées."
+    },
+    {
+      "text": "Servez bien chaud avec du riz basmati, parsemez de noix de cajou grillées et de quelques feuilles de coriandre fraîche."
     }
   ],
   "tips": [
@@ -70,7 +75,20 @@
     "en": {
       "title": "Chicken Curry",
       "description": "An easy and fragrant chicken curry, simmered with coconut milk, tomatoes and gently spiced aromatics.",
-      "tags": ["simmered", "pan", "chicken", "main-course", "asian", "comforting", "spicy", "gluten-free", "quick", "hot", "family-friendly"],
+      "tags": [
+        "simmered",
+        "pan",
+        "chicken",
+        "main-course",
+        "asian",
+        "comforting",
+        "spicy",
+        "gluten-free",
+        "quick",
+        "hot",
+        "family-friendly",
+        "crunchy"
+      ],
       "ingredients": [
         {
           "group": "For the curry",
@@ -83,6 +101,7 @@
             "2 tsp turmeric",
             "500 g tomato purée",
             "250 ml coconut milk",
+            "80 g unsalted cashew nuts",
             "Salt and pepper"
           ]
         },
@@ -105,7 +124,10 @@
           "text": "Add the turmeric and chicken cut into pieces. Brown for 2 minutes, then add the tomato purée and coconut milk. Simmer for 10 to 15 minutes until the chicken is cooked through and the sauce has thickened. Adjust seasoning."
         },
         {
-          "text": "Serve hot with basmati rice and a few fresh coriander leaves."
+          "text": "While the curry simmers, toast the cashews in a small dry pan until golden."
+        },
+        {
+          "text": "Serve hot with basmati rice, scattered with the toasted cashews and a few fresh coriander leaves."
         }
       ],
       "tips": [
@@ -116,7 +138,20 @@
     "it": {
       "title": "Pollo al curry",
       "description": "Un curry di pollo facile e profumato, cotto a fuoco lento con latte di cocco, pomodori e spezie delicatamente piccanti.",
-      "tags": ["stufato", "padella", "pollo", "piatto-principale", "asiatico", "confortante", "piccante", "senza-glutine", "veloce", "caldo", "tutta-la-famiglia"],
+      "tags": [
+        "stufato",
+        "padella",
+        "pollo",
+        "piatto-principale",
+        "asiatico",
+        "confortante",
+        "piccante",
+        "senza-glutine",
+        "veloce",
+        "caldo",
+        "tutta-la-famiglia",
+        "croccante"
+      ],
       "ingredients": [
         {
           "group": "Per il curry",
@@ -129,6 +164,7 @@
             "2 cucchiaini di curcuma",
             "500 g di passata di pomodoro",
             "250 ml di latte di cocco",
+            "80 g di anacardi non salati",
             "Sale e pepe"
           ]
         },
@@ -151,7 +187,10 @@
           "text": "Aggiungere la curcuma e il pollo tagliato a pezzi. Far rosolare 2 minuti, poi aggiungere la passata di pomodoro e il latte di cocco. Cuocere a fuoco lento 10-15 minuti finché il pollo è cotto e la salsa si è addensata. Aggiustare di sale e pepe."
         },
         {
-          "text": "Servire ben caldo con riso basmati e qualche foglia di coriandolo fresco."
+          "text": "Mentre il curry cuoce, tostare gli anacardi in un padellino asciutto finché non sono dorati."
+        },
+        {
+          "text": "Servire ben caldo con riso basmati, cospargere con gli anacardi tostati e qualche foglia di coriandolo fresco."
         }
       ],
       "tips": [
