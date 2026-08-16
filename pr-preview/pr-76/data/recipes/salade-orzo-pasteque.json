@@ -1,0 +1,212 @@
+{
+  "slug": "salade-orzo-pasteque",
+  "title": "Salade d'orzo à la pastèque",
+  "description": "Une salade estivale d'orzo à la pastèque, feta et roquette, relevée d'une vinaigrette au citron vert et au miel et parsemée de pignons grillés.",
+  "images": {
+    "cover": "images/recipes/salade-orzo-pasteque/cover.jpg",
+    "web": "images/recipes/salade-orzo-pasteque/web.jpg"
+  },
+  "prepTime": 20,
+  "cookTime": 10,
+  "servings": 4,
+  "difficulty": "Facile",
+  "category": "Pasta",
+  "tags": [
+    "été",
+    "froid",
+    "végétarien",
+    "rapide",
+    "léger",
+    "pâtes",
+    "fromage",
+    "fruits",
+    "méditerranéen",
+    "plat-principal",
+    "sucré-salé",
+    "à-partager",
+    "pique-nique"
+  ],
+  "ingredients": [
+    {
+      "items": [
+        "320 g d'orzo",
+        "600 g de pastèque",
+        "200 g de feta",
+        "80 g de roquette",
+        "60 g de pignons de pin",
+        "20 g de basilic frais",
+        "2 citrons verts",
+        "4 cuillères à soupe d'huile d'olive (Quanto basta)",
+        "4 cuillères à café de miel",
+        "Sel",
+        "Poivre"
+      ]
+    }
+  ],
+  "steps": [
+    {
+      "text": "Cuire l'orzo selon les instructions sur l'emballage."
+    },
+    {
+      "text": "Pendant ce temps, faire griller les pignons de pin dans une poêle sèche jusqu'à ce qu'ils soient dorés."
+    },
+    {
+      "text": "Couper la pastèque en quartiers puis en tranches. Retirer la peau puis couper la chair en petits dés."
+    },
+    {
+      "text": "Laver et égoutter la roquette."
+    },
+    {
+      "text": "Laver le basilic, le secouer pour le sécher, l'effeuiller et le hacher grossièrement."
+    },
+    {
+      "text": "Couper le citron vert en deux et extraire le jus."
+    },
+    {
+      "text": "Préparer la vinaigrette : mélanger le jus de citron vert (1 cuillère à café par personne), l'huile d'olive et le miel. Saler et poivrer."
+    },
+    {
+      "text": "Mélanger l'orzo froid avec la pastèque, la roquette, le basilic, la feta émiettée et la vinaigrette. Saler et poivrer."
+    },
+    {
+      "text": "Garnir la salade d'orzo et de pastèque avec des pignons de pin. Bon appétit !"
+    }
+  ],
+  "source": "KptnCook",
+  "originalSource": {
+    "type": "pdf",
+    "data": "images/recipes/salade-orzo-pasteque/source.pdf"
+  },
+  "translations": {
+    "en": {
+      "title": "Watermelon Orzo Salad",
+      "description": "A summery orzo salad with watermelon, feta and rocket, dressed with lime and honey and scattered with toasted pine nuts.",
+      "tags": [
+        "summer",
+        "cold",
+        "vegetarian",
+        "quick",
+        "light",
+        "pasta",
+        "cheese",
+        "fruit",
+        "mediterranean",
+        "main-course",
+        "sweet-savory",
+        "to-share",
+        "picnic"
+      ],
+      "ingredients": [
+        {
+          "items": [
+            "320 g orzo",
+            "600 g watermelon",
+            "200 g feta",
+            "80 g rocket",
+            "60 g pine nuts",
+            "20 g fresh basil",
+            "2 limes",
+            "4 tablespoons olive oil (Quanto basta)",
+            "4 teaspoons honey",
+            "Salt",
+            "Pepper"
+          ]
+        }
+      ],
+      "steps": [
+        {
+          "text": "Cook the orzo according to the package instructions."
+        },
+        {
+          "text": "Meanwhile, toast the pine nuts in a dry pan until golden."
+        },
+        {
+          "text": "Cut the watermelon into wedges, then into slices. Remove the rind and dice the flesh finely."
+        },
+        {
+          "text": "Wash and drain the rocket."
+        },
+        {
+          "text": "Wash the basil, shake it dry, pick off the leaves and chop them roughly."
+        },
+        {
+          "text": "Halve the lime and squeeze out the juice."
+        },
+        {
+          "text": "Make the dressing: mix the lime juice (1 teaspoon per person), the olive oil and the honey. Season with salt and pepper."
+        },
+        {
+          "text": "Toss the cooled orzo with the watermelon, rocket, basil, crumbled feta and the dressing. Season with salt and pepper."
+        },
+        {
+          "text": "Top the watermelon orzo salad with the pine nuts. Enjoy!"
+        }
+      ]
+    },
+    "it": {
+      "title": "Insalata di risoni all'anguria",
+      "description": "Un'insalata estiva di risoni con anguria, feta e rucola, condita con lime e miele e completata da pinoli tostati.",
+      "tags": [
+        "estate",
+        "freddo",
+        "vegetariano",
+        "veloce",
+        "leggero",
+        "pasta",
+        "formaggio",
+        "frutta",
+        "mediterraneo",
+        "piatto-principale",
+        "dolce-salato",
+        "da-condividere",
+        "picnic"
+      ],
+      "ingredients": [
+        {
+          "items": [
+            "320 g di risoni",
+            "600 g di anguria",
+            "200 g di feta",
+            "80 g di rucola",
+            "60 g di pinoli",
+            "20 g di basilico fresco",
+            "2 lime",
+            "4 cucchiai di olio d'oliva (Quanto basta)",
+            "4 cucchiaini di miele",
+            "Sale",
+            "Pepe"
+          ]
+        }
+      ],
+      "steps": [
+        {
+          "text": "Cuocere i risoni seguendo le istruzioni sulla confezione."
+        },
+        {
+          "text": "Nel frattempo, tostare i pinoli in una padella asciutta finché non sono dorati."
+        },
+        {
+          "text": "Tagliare l'anguria a spicchi e poi a fette. Eliminare la buccia e tagliare la polpa a dadini piccoli."
+        },
+        {
+          "text": "Lavare e scolare la rucola."
+        },
+        {
+          "text": "Lavare il basilico, scuoterlo per asciugarlo, staccare le foglie e tritarle grossolanamente."
+        },
+        {
+          "text": "Tagliare il lime a metà e spremerne il succo."
+        },
+        {
+          "text": "Preparare il condimento: mescolare il succo di lime (1 cucchiaino a persona), l'olio d'oliva e il miele. Salare e pepare."
+        },
+        {
+          "text": "Mescolare i risoni freddi con l'anguria, la rucola, il basilico, la feta sbriciolata e il condimento. Salare e pepare."
+        },
+        {
+          "text": "Guarnire l'insalata di risoni e anguria con i pinoli. Buon appetito!"
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,179 @@
+{
+  "slug": "coulant-au-chocolat",
+  "title": "Coulant au Chocolat",
+  "description": "Petit gâteau au chocolat noir avec un cœur fondant et coulant, prêt en 20 minutes seulement avec 5 ingrédients.",
+  "images": {
+    "cover": "images/recipes/coulant-au-chocolat/cover.jpg",
+    "web": "images/recipes/coulant-au-chocolat/web.jpg"
+  },
+  "imageCredit": {
+    "author": "romanakr",
+    "url": "https://pixabay.com/users/romanakr-15539586/"
+  },
+  "prepTime": 10,
+  "cookTime": 8,
+  "servings": 2,
+  "difficulty": "Facile",
+  "category": "Dolci",
+  "tags": [
+    "four",
+    "dessert",
+    "chocolat",
+    "rapide",
+    "5-ingrédients",
+    "fondant",
+    "gourmand",
+    "réconfortant",
+    "festif"
+  ],
+  "ingredients": [
+    {
+      "items": [
+        "50 g de beurre salé",
+        "50 g de chocolat noir",
+        "30 g de farine",
+        "40 g de sucre",
+        "1 œuf"
+      ]
+    }
+  ],
+  "steps": [
+    {
+      "text": "Préchauffez le four à 200°C (th6-7). Beurrez et farinez les petits moules."
+    },
+    {
+      "text": "Faites fondre le chocolat et le beurre ensemble au micro-ondes ou au bain-marie. Laissez tiédir."
+    },
+    {
+      "text": "Dans un saladier, mélangez l'œuf et le sucre jusqu'à ce que le mélange blanchisse."
+    },
+    {
+      "text": "Ajoutez la farine et fouettez."
+    },
+    {
+      "text": "Incorporez le chocolat fondu et mélangez bien jusqu'à obtenir une pâte lisse et homogène."
+    },
+    {
+      "text": "Versez la préparation dans les moules et enfournez pour 8 minutes exactement."
+    },
+    {
+      "text": "Laissez reposer 1 minute avant de démouler et servez immédiatement."
+    }
+  ],
+  "tips": [
+    "8 minutes au four est la durée idéale pour un cœur coulant : ne pas trop cuire pour préserver la texture fondante.",
+    "Vous pouvez préparer la pâte à l'avance et la conserver au réfrigérateur, puis enfourner juste avant de servir.",
+    "Accompagnez d'une boule de glace à la vanille pour un dessert encore plus gourmand."
+  ],
+  "source": "Recettes Team Building Suricates Akeneo Q2 2023, L'Atelier Gourmand de Nantes",
+  "translations": {
+    "en": {
+      "title": "Chocolate Lava Cake",
+      "description": "Individual dark chocolate cake with a molten, flowing center, ready in just 20 minutes with only 5 ingredients.",
+      "tags": [
+        "oven",
+        "dessert",
+        "chocolate",
+        "quick",
+        "5-ingredients",
+        "molten",
+        "indulgent",
+        "comforting",
+        "festive"
+      ],
+      "ingredients": [
+        {
+          "items": [
+            "50g salted butter",
+            "50g dark chocolate",
+            "30g flour",
+            "40g sugar",
+            "1 egg"
+          ]
+        }
+      ],
+      "steps": [
+        {
+          "text": "Preheat the oven to 200°C (th6-7). Butter and flour the small molds."
+        },
+        {
+          "text": "Melt the chocolate and butter together in the microwave or in a bain-marie. Allow to cool slightly."
+        },
+        {
+          "text": "In a bowl, mix the egg and sugar until the mixture lightens."
+        },
+        {
+          "text": "Add the flour and whisk."
+        },
+        {
+          "text": "Fold in the melted chocolate and mix well until you get a smooth, homogeneous batter."
+        },
+        {
+          "text": "Pour the batter into the molds and bake for exactly 8 minutes."
+        },
+        {
+          "text": "Let rest for 1 minute before unmolding and serve immediately."
+        }
+      ],
+      "tips": [
+        "8 minutes in the oven is the ideal time for a molten center: do not over-bake to preserve the flowing texture.",
+        "You can prepare the batter in advance and keep it in the fridge, then bake just before serving.",
+        "Serve with a scoop of vanilla ice cream for an even more indulgent dessert."
+      ]
+    },
+    "it": {
+      "title": "Coulant al Cioccolato",
+      "description": "Piccolo tortino al cioccolato fondente con cuore morbido e colante, pronto in soli 20 minuti con 5 ingredienti.",
+      "tags": [
+        "forno",
+        "dessert",
+        "cioccolato",
+        "veloce",
+        "5-ingredienti",
+        "fondente",
+        "goloso",
+        "confortante",
+        "festivo"
+      ],
+      "ingredients": [
+        {
+          "items": [
+            "50g di burro salato",
+            "50g di cioccolato fondente",
+            "30g di farina",
+            "40g di zucchero",
+            "1 uovo"
+          ]
+        }
+      ],
+      "steps": [
+        {
+          "text": "Preriscaldare il forno a 200°C (th6-7). Imburrare e infarinare gli stampini."
+        },
+        {
+          "text": "Sciogliere il cioccolato e il burro insieme al microonde o a bagnomaria. Lasciare intiepidire."
+        },
+        {
+          "text": "In una ciotola, mescolare l'uovo e lo zucchero fino a quando il composto si schiarisce."
+        },
+        {
+          "text": "Aggiungere la farina e mescolare con le fruste."
+        },
+        {
+          "text": "Incorporare il cioccolato fuso e mescolare bene fino ad ottenere un impasto liscio e omogeneo."
+        },
+        {
+          "text": "Versare il composto negli stampini e infornare per esattamente 8 minuti."
+        },
+        {
+          "text": "Lasciare riposare 1 minuto prima di sformare e servire immediatamente."
+        }
+      ],
+      "tips": [
+        "8 minuti in forno è il tempo ideale per un cuore colante: non cuocere troppo per preservare la texture fondente.",
+        "Si può preparare l'impasto in anticipo e conservarlo in frigorifero, poi infornare appena prima di servire.",
+        "Accompagnare con una pallina di gelato alla vaniglia per un dessert ancora più goloso."
+      ]
+    }
+  }
+}

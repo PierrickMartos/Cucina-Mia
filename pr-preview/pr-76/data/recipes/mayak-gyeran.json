@@ -1,0 +1,209 @@
+{
+  "slug": "mayak-gyeran",
+  "title": "Mayak Gyeran",
+  "description": "Des œufs mollets marinés à la coréenne dans une sauce soja parfumée, servis sur du riz chaud.",
+  "images": {
+    "cover": "images/recipes/mayak-gyeran/cover.jpg",
+    "web": "images/recipes/mayak-gyeran/web.jpg"
+  },
+  "prepTime": 15,
+  "cookTime": 6,
+  "servings": 2,
+  "difficulty": "Facile",
+  "category": "Secondi",
+  "tags": [
+    "œufs",
+    "riz",
+    "asiatique",
+    "plat-principal",
+    "facile",
+    "préparation-à-lavance",
+    "à-la-cuillère",
+    "végétarien",
+    "sans-lactose",
+    "umami",
+    "sucré-salé",
+    "épicé",
+    "chaud"
+  ],
+  "ingredients": [
+    {
+      "items": [
+        "4 œufs",
+        "1 c. à c. de miel",
+        "10 cl de sauce soja",
+        "10 cl d'eau",
+        "1 c. à c. de sésame noir",
+        "1 c. à c. de sésame blond",
+        "1 gousse d'ail",
+        "1 cébette",
+        "1 piment (facultatif)",
+        "Riz cuit"
+      ]
+    }
+  ],
+  "steps": [
+    {
+      "text": "Cuire les œufs 5 min 30 dans de l'eau bouillante et les débarrasser immédiatement dans un bain d'eau glacée, avec quelques glaçons si besoin."
+    },
+    {
+      "text": "Les écaler quand ils sont bien froids."
+    },
+    {
+      "text": "Mélanger tous les ingrédients de la marinade dans un récipient. L'ail, l'oignon cébette et le piment doivent être coupés très finement."
+    },
+    {
+      "text": "Plonger les œufs dans la marinade. Ils doivent être parfaitement immergés ; ne pas hésiter à les recouvrir avec l'oignon cébette."
+    },
+    {
+      "text": "Laisser mariner au minimum 6 heures, idéalement 12 heures."
+    },
+    {
+      "text": "Sortir les œufs de la marinade et les couper en deux."
+    },
+    {
+      "text": "Dans un bol, dresser le riz chaud."
+    },
+    {
+      "text": "Déposer les œufs au centre et ajouter quelques cuillerées de marinade."
+    }
+  ],
+  "tips": [
+    "Pour un rendu original et un rond parfait, couper les œufs non pas dans la longueur comme on a l'habitude de faire, mais dans la largeur au niveau du jaune. Cela permet d'avoir des jaunes bien centrés."
+  ],
+  "source": "Manuel du cuisinier amateur",
+  "originalSource": {
+    "type": "image",
+    "data": "images/recipes/mayak-gyeran/source.jpg"
+  },
+  "translations": {
+    "en": {
+      "title": "Mayak Gyeran",
+      "description": "Korean marinated soft-boiled eggs in a fragrant soy sauce marinade, served over hot rice.",
+      "tags": [
+        "eggs",
+        "rice",
+        "asian",
+        "main-course",
+        "easy",
+        "make-ahead",
+        "spoon-food",
+        "vegetarian",
+        "dairy-free",
+        "umami",
+        "sweet-savory",
+        "spicy",
+        "hot"
+      ],
+      "ingredients": [
+        {
+          "items": [
+            "4 eggs",
+            "1 tsp honey",
+            "10 cl soy sauce",
+            "10 cl water",
+            "1 tsp black sesame seeds",
+            "1 tsp white sesame seeds",
+            "1 garlic clove",
+            "1 scallion",
+            "1 chili pepper (optional)",
+            "Cooked rice"
+          ]
+        }
+      ],
+      "steps": [
+        {
+          "text": "Cook the eggs for 5 min 30 sec in boiling water, then immediately transfer them to an ice bath, adding a few ice cubes if needed."
+        },
+        {
+          "text": "Peel them once they are completely cold."
+        },
+        {
+          "text": "Mix all the marinade ingredients in a container. The garlic, scallion and chili pepper should be chopped very finely."
+        },
+        {
+          "text": "Place the eggs in the marinade. They must be fully submerged; cover them with the scallion if needed."
+        },
+        {
+          "text": "Marinate for at least 6 hours, ideally 12 hours."
+        },
+        {
+          "text": "Remove the eggs from the marinade and cut them in half."
+        },
+        {
+          "text": "Arrange the hot rice in a bowl."
+        },
+        {
+          "text": "Place the eggs in the center and add a few spoonfuls of marinade."
+        }
+      ],
+      "tips": [
+        "For an original look and a perfect round shape, cut the eggs not lengthwise as usual, but crosswise through the yolk. This keeps the yolks nicely centered."
+      ]
+    },
+    "it": {
+      "title": "Mayak Gyeran",
+      "description": "Uova barzotte marinate alla coreana in una salsa di soia profumata, servite su riso caldo.",
+      "tags": [
+        "uova",
+        "riso",
+        "asiatico",
+        "piatto-principale",
+        "facile",
+        "preparazione-anticipata",
+        "al-cucchiaio",
+        "vegetariano",
+        "senza-lattosio",
+        "umami",
+        "dolce-salato",
+        "piccante",
+        "caldo"
+      ],
+      "ingredients": [
+        {
+          "items": [
+            "4 uova",
+            "1 cucchiaino di miele",
+            "10 cl di salsa di soia",
+            "10 cl d'acqua",
+            "1 cucchiaino di sesamo nero",
+            "1 cucchiaino di sesamo bianco",
+            "1 spicchio d'aglio",
+            "1 cipollotto",
+            "1 peperoncino (facoltativo)",
+            "Riso cotto"
+          ]
+        }
+      ],
+      "steps": [
+        {
+          "text": "Cuocere le uova per 5 min 30 sec in acqua bollente, poi trasferirle subito in un bagno di acqua ghiacciata, aggiungendo qualche cubetto di ghiaccio se necessario."
+        },
+        {
+          "text": "Sgusciarle quando sono ben fredde."
+        },
+        {
+          "text": "Mescolare tutti gli ingredienti della marinata in un contenitore. L'aglio, il cipollotto e il peperoncino devono essere tritati molto finemente."
+        },
+        {
+          "text": "Immergere le uova nella marinata. Devono essere perfettamente coperte; se necessario ricoprirle con il cipollotto."
+        },
+        {
+          "text": "Lasciare marinare per almeno 6 ore, idealmente 12 ore."
+        },
+        {
+          "text": "Togliere le uova dalla marinata e tagliarle a metà."
+        },
+        {
+          "text": "Disporre il riso caldo in una ciotola."
+        },
+        {
+          "text": "Mettere le uova al centro e aggiungere qualche cucchiaiata di marinata."
+        }
+      ],
+      "tips": [
+        "Per un risultato originale e una forma perfettamente rotonda, tagliare le uova non per il lungo come di solito, ma in larghezza all'altezza del tuorlo. Così i tuorli restano ben centrati."
+      ]
+    }
+  }
+}
