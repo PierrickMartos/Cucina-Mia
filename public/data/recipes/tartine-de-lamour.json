@@ -76,7 +76,18 @@
     "en": {
       "title": "Tartine de l'Amour",
       "description": "A rustic and generous open-faced toast on toasted country bread, topped with tomato concassée with shallots, ginger and balsamic vinegar, sprinkled with parmesan shavings. The iconic recipe by Bernard Guilhaudin, chef at La Tour d'Argent in Paris.",
-      "tags": ["toast", "brunch", "quick", "easy", "tomato", "country-bread", "balsamic", "parmesan", "vegetarian", "french"],
+      "tags": [
+        "toast",
+        "brunch",
+        "quick",
+        "easy",
+        "tomato",
+        "country-bread",
+        "balsamic",
+        "parmesan",
+        "vegetarian",
+        "french"
+      ],
       "ingredients": [
         {
           "items": [
@@ -109,7 +120,7 @@
         }
       ],
       "tips": [
-        "Choose very ripe and fragrant tomatoes — they are the foundation of the recipe.",
+        "Choose very ripe and fragrant tomatoes: they are the foundation of the recipe.",
         "The ginger adds a fresh, slightly spicy note that balances the acidity of the balsamic.",
         "You can replace the parmesan with burrata or fresh mozzarella for a more indulgent version.",
         "Bernard Guilhaudin, chef at La Tour d'Argent in Paris, makes this tartine for his lovers."
@@ -118,7 +129,18 @@
     "it": {
       "title": "Tartine de l'Amour",
       "description": "Una tartina rustica e generosa su pane di campagna tostato, guarnita con pomodori concassé con scalogno, zenzero e aceto balsamico, cosparsa di scaglie di parmigiano. La ricetta iconica di Bernard Guilhaudin, chef de La Tour d'Argent a Parigi.",
-      "tags": ["tartina", "brunch", "veloce", "facile", "pomodoro", "pane-di-campagna", "balsamico", "parmigiano", "vegetariano", "francese"],
+      "tags": [
+        "tartina",
+        "brunch",
+        "veloce",
+        "facile",
+        "pomodoro",
+        "pane-di-campagna",
+        "balsamico",
+        "parmigiano",
+        "vegetariano",
+        "francese"
+      ],
       "ingredients": [
         {
           "items": [

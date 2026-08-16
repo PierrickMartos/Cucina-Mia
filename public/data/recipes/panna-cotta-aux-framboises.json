@@ -79,7 +79,7 @@
   ],
   "tips": [
     "Les tuiles peuvent être cuites sur 2 plaques simultanément (cuisson d'environ 8 min). Une fois froides, les casser en gros morceaux.",
-    "La panna cotta doit reposer au moins 1 heure au réfrigérateur — préférer une nuit pour une texture encore plus ferme.",
+    "La panna cotta doit reposer au moins 1 heure au réfrigérateur : préférer une nuit pour une texture encore plus ferme.",
     "Travailler les tuiles le moins possible pour ne pas incorporer d'air dans la pâte."
   ],
   "source": "https://www.atelierdeschefs.fr/fr/recette/4222",
@@ -87,7 +87,17 @@
     "en": {
       "title": "Panna Cotta with Raspberries and Crispy Tuile",
       "description": "A silky Italian cream dessert served with a homemade raspberry coulis and a crunchy almond tuile.",
-      "tags": ["dessert", "italian", "cold", "fruit", "vegetarian", "creamy", "festive", "make-ahead", "gluten-free"],
+      "tags": [
+        "dessert",
+        "italian",
+        "cold",
+        "fruit",
+        "vegetarian",
+        "creamy",
+        "festive",
+        "make-ahead",
+        "gluten-free"
+      ],
       "ingredients": [
         {
           "group": "For the panna cotta",
@@ -141,14 +151,24 @@
       ],
       "tips": [
         "Tuiles can be baked on 2 trays at the same time (about 8 min baking). Once cold, break them into large shards.",
-        "Panna cotta must rest at least 1 hour — overnight gives an even firmer, creamier texture.",
+        "Panna cotta must rest at least 1 hour: overnight gives an even firmer, creamier texture.",
         "Mix the tuile batter as little as possible to avoid incorporating air."
       ]
     },
     "it": {
       "title": "Panna Cotta ai Lamponi con Tegola Croccante",
       "description": "Un morbido dessert italiano alla panna, servito con un coulis di lamponi fatto in casa e una croccante tuile alle mandorle.",
-      "tags": ["dessert", "italiano", "freddo", "frutta", "vegetariano", "cremoso", "festivo", "preparazione-in-anticipo", "senza-glutine"],
+      "tags": [
+        "dessert",
+        "italiano",
+        "freddo",
+        "frutta",
+        "vegetariano",
+        "cremoso",
+        "festivo",
+        "preparazione-in-anticipo",
+        "senza-glutine"
+      ],
       "ingredients": [
         {
           "group": "Per la panna cotta",
@@ -202,7 +222,7 @@
       ],
       "tips": [
         "Le tuiles possono essere cotte su 2 teglie contemporaneamente (cottura di circa 8 minuti). Una volta fredde, spezzarle in grandi pezzi.",
-        "La panna cotta deve riposare almeno 1 ora in frigorifero — ancora meglio una notte intera per una consistenza più soda.",
+        "La panna cotta deve riposare almeno 1 ora in frigorifero: ancora meglio una notte intera per una consistenza più soda.",
         "Lavorare l'impasto delle tuiles il meno possibile per non incorporare aria."
       ]
     }

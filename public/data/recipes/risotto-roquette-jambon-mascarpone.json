@@ -1,7 +1,7 @@
 {
   "slug": "risotto-roquette-jambon-mascarpone",
   "title": "Risotto Roquette, Jambon Cru et Mascarpone",
-  "description": "Un risotto crémeux au mascarpone garni de jambon cru fondant et de roquette fraîche — l'élégance italienne en 30 minutes.",
+  "description": "Un risotto crémeux au mascarpone garni de jambon cru fondant et de roquette fraîche, l'élégance italienne en 30 minutes.",
   "images": {
     "cover": "images/recipes/risotto-roquette-jambon-mascarpone/cover.jpg",
     "web": "images/recipes/risotto-roquette-jambon-mascarpone/web.jpg"
@@ -71,7 +71,7 @@
   "translations": {
     "en": {
       "title": "Rocket, Parma Ham and Mascarpone Risotto",
-      "description": "A creamy mascarpone risotto topped with melt-in-your-mouth cured ham and fresh rocket — Italian elegance in 30 minutes.",
+      "description": "A creamy mascarpone risotto topped with melt-in-your-mouth cured ham and fresh rocket, Italian elegance in 30 minutes.",
       "tags": [
         "rice",
         "risotto",
@@ -128,7 +128,7 @@
     },
     "it": {
       "title": "Risotto con Rucola, Prosciutto Crudo e Mascarpone",
-      "description": "Un risotto cremoso al mascarpone guarnito con prosciutto crudo fondente e rucola fresca — l'eleganza italiana in 30 minuti.",
+      "description": "Un risotto cremoso al mascarpone guarnito con prosciutto crudo fondente e rucola fresca, l'eleganza italiana in 30 minuti.",
       "tags": [
         "riso",
         "risotto",

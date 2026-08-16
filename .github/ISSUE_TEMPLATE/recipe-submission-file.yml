@@ -6,7 +6,7 @@ body:
   - type: markdown
     attributes:
       value: |
-        Got a recipe in a document, PDF, scan, or photo? Just upload it here — we'll take care of formatting it for the site.
+        Got a recipe in a document, PDF, scan, or photo? Just upload it here, we'll take care of formatting it for the site.
 
   - type: input
     id: title
@@ -30,12 +30,12 @@ body:
     id: cover_image
     attributes:
       label: Recipe Image (optional)
-      description: "Drag and drop or paste a photo of the finished dish — we'll use it to create the recipe illustration"
+      description: "Drag and drop or paste a photo of the finished dish, we'll use it to create the recipe illustration"
       placeholder: "Drop an image here or paste from clipboard"
 
   - type: textarea
     id: notes
     attributes:
       label: Notes (optional)
-      description: "Anything we should know — origin, who it's from, variations, tips…"
+      description: "Anything we should know, origin, who it's from, variations, tips…"
       placeholder: "This is my grandmother's recipe from Palermo, she always added a pinch of cinnamon…"

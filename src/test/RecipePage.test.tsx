@@ -84,7 +84,7 @@ describe("RecipePage", () => {
     // The switcher is pinned to the top of the scroll container while scrolling
     expect(stickyWrapper.className).toMatch(/\bsticky\b/)
     expect(stickyWrapper.className).toMatch(/\btop-0\b/)
-    // ...but only on mobile/tablet — the two-column layout takes over on large screens
+    // ...but only on mobile/tablet, the two-column layout takes over on large screens
     expect(stickyWrapper.className).toMatch(/\blg:hidden\b/)
   })
 

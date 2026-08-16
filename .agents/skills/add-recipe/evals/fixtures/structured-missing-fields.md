@@ -1,4 +1,4 @@
-# Eval: Missing Required Fields — Error Handling
+# Eval: Missing Required Fields (Error Handling)
 
 ## Scenario
 
@@ -76,14 +76,14 @@ _No response_
 ## Key Validation
 
 Missing required fields:
-- `description` — empty
-- `prepTime` — empty
-- `servings` — empty
-- `tags` — empty
-- `steps` — empty (critical — recipe has no instructions)
+- `description`: empty
+- `prepTime`: empty
+- `servings`: empty
+- `tags`: empty
+- `steps`: empty (critical, recipe has no instructions)
 
 The skill MUST:
 1. Detect all missing required fields during Step 4 (Validate)
 2. Report ALL missing fields (not just the first one found)
-3. Stop processing — do not write partial files
+3. Stop processing, do not write partial files
 4. Clearly list which fields need to be provided

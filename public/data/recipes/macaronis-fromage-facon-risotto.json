@@ -1,7 +1,7 @@
 {
   "slug": "macaronis-fromage-facon-risotto",
   "title": "Macaronis au Fromage Façon Risotto",
-  "description": "Des macaronis cuisinés façon risotto dans le bouillon de bœuf, enrobés d'une sauce crémeuse au cheddar — le mac & cheese à la française.",
+  "description": "Des macaronis cuisinés façon risotto dans le bouillon de bœuf, enrobés d'une sauce crémeuse au cheddar, le mac & cheese à la française.",
   "images": {
     "cover": "images/recipes/macaronis-fromage-facon-risotto/cover.jpg",
     "web": "images/recipes/macaronis-fromage-facon-risotto/web.jpg"
@@ -55,7 +55,7 @@
   "translations": {
     "en": {
       "title": "Mac & Cheese Risotto Style",
-      "description": "Macaroni cooked risotto-style in beef stock, then coated in a creamy cheddar sauce — the French take on mac & cheese.",
+      "description": "Macaroni cooked risotto-style in beef stock, then coated in a creamy cheddar sauce, the French take on mac & cheese.",
       "tags": [
         "pasta",
         "cheese",
@@ -100,7 +100,7 @@
     },
     "it": {
       "title": "Maccheroni al Formaggio alla Maniera del Risotto",
-      "description": "Maccheroni cotti alla maniera del risotto nel brodo di manzo, avvolti in una cremosa salsa al cheddar — il mac & cheese alla francese.",
+      "description": "Maccheroni cotti alla maniera del risotto nel brodo di manzo, avvolti in una cremosa salsa al cheddar, il mac & cheese alla francese.",
       "tags": [
         "pasta",
         "formaggio",

@@ -21,11 +21,11 @@ Cucina Mia is an Italian recipe cookbook web app built with React 19, TypeScript
 
 Uses `react-router-dom` with `HashRouter` (for GitHub Pages compatibility). Three routes: home (`/`), recipe listing (`/recipes`), and recipe detail (`/recipe/:slug`).
 
-Recipe data is **static JSON** served from `public/data/recipes/`. Each page fetches data at runtime via `fetch()` using `import.meta.env.BASE_URL` as prefix. There is no backend or API — all data lives in the `public/` directory.
+Recipe data is **static JSON** served from `public/data/recipes/`. Each page fetches data at runtime via `fetch()` using `import.meta.env.BASE_URL` as prefix. There is no backend or API, all data lives in the `public/` directory.
 
-- `public/data/recipes/index.json` — array of all recipe summaries
-- `public/data/recipes/{slug}.json` — individual recipe detail
-- `public/images/recipes/{slug}/cover.svg` — SVG illustration per recipe
+- `public/data/recipes/index.json`: array of all recipe summaries
+- `public/data/recipes/{slug}.json`: individual recipe detail
+- `public/images/recipes/{slug}/cover.svg`: SVG illustration per recipe
 
 ### Search
 
@@ -33,10 +33,10 @@ Fuzzy search uses **Fuse.js** on the client, configured in `RecipesPage.tsx`. Se
 
 ### Component Structure
 
-- `src/components/ui/` — shadcn/ui-style primitives (button, card, input, sheet, badge, skeleton) using `class-variance-authority` + `tailwind-merge`
-- `src/components/` — app components (Layout, RecipeCard, SearchBar, FilterDrawer)
-- `src/pages/` — route-level page components
-- `src/lib/utils.ts` — `cn()` utility for merging Tailwind classes
+- `src/components/ui/`: shadcn/ui-style primitives (button, card, input, sheet, badge, skeleton) using `class-variance-authority` + `tailwind-merge`
+- `src/components/`: app components (Layout, RecipeCard, SearchBar, FilterDrawer)
+- `src/pages/`: route-level page components
+- `src/lib/utils.ts`: `cn()` utility for merging Tailwind classes
 
 ### Path Alias
 

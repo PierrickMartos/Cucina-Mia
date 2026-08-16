@@ -1,4 +1,4 @@
-# Eval: Naan Nature — Structured Issue
+# Eval: Naan Nature (Structured Issue)
 
 ## Scenario
 

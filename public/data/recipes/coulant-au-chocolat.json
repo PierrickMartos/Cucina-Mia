@@ -61,16 +61,26 @@
     }
   ],
   "tips": [
-    "8 minutes au four est la durée idéale pour un cœur coulant — ne pas trop cuire pour préserver la texture fondante.",
+    "8 minutes au four est la durée idéale pour un cœur coulant : ne pas trop cuire pour préserver la texture fondante.",
     "Vous pouvez préparer la pâte à l'avance et la conserver au réfrigérateur, puis enfourner juste avant de servir.",
     "Accompagnez d'une boule de glace à la vanille pour un dessert encore plus gourmand."
   ],
-  "source": "Recettes Team Building Suricates Akeneo Q2 2023 – L'Atelier Gourmand de Nantes",
+  "source": "Recettes Team Building Suricates Akeneo Q2 2023, L'Atelier Gourmand de Nantes",
   "translations": {
     "en": {
       "title": "Chocolate Lava Cake",
       "description": "Individual dark chocolate cake with a molten, flowing center, ready in just 20 minutes with only 5 ingredients.",
-      "tags": ["oven", "dessert", "chocolate", "quick", "5-ingredients", "molten", "indulgent", "comforting", "festive"],
+      "tags": [
+        "oven",
+        "dessert",
+        "chocolate",
+        "quick",
+        "5-ingredients",
+        "molten",
+        "indulgent",
+        "comforting",
+        "festive"
+      ],
       "ingredients": [
         {
           "items": [
@@ -106,7 +116,7 @@
         }
       ],
       "tips": [
-        "8 minutes in the oven is the ideal time for a molten center — do not over-bake to preserve the flowing texture.",
+        "8 minutes in the oven is the ideal time for a molten center: do not over-bake to preserve the flowing texture.",
         "You can prepare the batter in advance and keep it in the fridge, then bake just before serving.",
         "Serve with a scoop of vanilla ice cream for an even more indulgent dessert."
       ]
@@ -114,7 +124,17 @@
     "it": {
       "title": "Coulant al Cioccolato",
       "description": "Piccolo tortino al cioccolato fondente con cuore morbido e colante, pronto in soli 20 minuti con 5 ingredienti.",
-      "tags": ["forno", "dessert", "cioccolato", "veloce", "5-ingredienti", "fondente", "goloso", "confortante", "festivo"],
+      "tags": [
+        "forno",
+        "dessert",
+        "cioccolato",
+        "veloce",
+        "5-ingredienti",
+        "fondente",
+        "goloso",
+        "confortante",
+        "festivo"
+      ],
       "ingredients": [
         {
           "items": [
@@ -150,7 +170,7 @@
         }
       ],
       "tips": [
-        "8 minuti in forno è il tempo ideale per un cuore colante — non cuocere troppo per preservare la texture fondente.",
+        "8 minuti in forno è il tempo ideale per un cuore colante: non cuocere troppo per preservare la texture fondente.",
         "Si può preparare l'impasto in anticipo e conservarlo in frigorifero, poi infornare appena prima di servire.",
         "Accompagnare con una pallina di gelato alla vaniglia per un dessert ancora più goloso."
       ]

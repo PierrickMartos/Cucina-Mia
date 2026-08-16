@@ -90,15 +90,26 @@
     }
   ],
   "tips": [
-    "La crème doit être très froide pour monter facilement — placez le bol et les fouets au congélateur 10 minutes avant.",
+    "La crème doit être très froide pour monter facilement : placez le bol et les fouets au congélateur 10 minutes avant.",
     "Préparez les verrines à l'avance mais ajoutez les tomates au dernier moment pour conserver leur fraîcheur."
   ],
-  "source": "Recettes Team Building Suricates Akeneo Q2 2023 – L'Atelier Gourmand de Nantes",
+  "source": "Recettes Team Building Suricates Akeneo Q2 2023, L'Atelier Gourmand de Nantes",
   "translations": {
     "en": {
       "title": "Avocado Cream, Cucumber Mousse and Marinated Cherry Tomato",
       "description": "An elegant appetizer served in glasses: a creamy avocado base topped with a light cucumber mousse and basil-marinated cherry tomatoes.",
-      "tags": ["starter", "vegetarian", "no-cook", "in-glasses", "light", "cold", "fruit", "appetizer", "creamy", "gluten-free"],
+      "tags": [
+        "starter",
+        "vegetarian",
+        "no-cook",
+        "in-glasses",
+        "light",
+        "cold",
+        "fruit",
+        "appetizer",
+        "creamy",
+        "gluten-free"
+      ],
       "ingredients": [
         {
           "group": "Avocado cream",
@@ -162,14 +173,25 @@
         }
       ],
       "tips": [
-        "The cream must be very cold to whip easily — place the bowl and whisks in the freezer for 10 minutes beforehand.",
+        "The cream must be very cold to whip easily: place the bowl and whisks in the freezer for 10 minutes beforehand.",
         "Prepare the glasses ahead of time but add the tomatoes at the last moment to keep them fresh."
       ]
     },
     "it": {
       "title": "Crema di Avocado, Mousse al Cetriolo e Pomodorino Marinato",
       "description": "Un elegante antipasto in verrine: una crema di avocado vellutata sormontata da una mousse leggera al cetriolo e pomodorini marinati al basilico.",
-      "tags": ["antipasto", "vegetariano", "senza-cottura", "in-bicchierini", "leggero", "freddo", "frutta", "aperitivo", "cremoso", "senza-glutine"],
+      "tags": [
+        "antipasto",
+        "vegetariano",
+        "senza-cottura",
+        "in-bicchierini",
+        "leggero",
+        "freddo",
+        "frutta",
+        "aperitivo",
+        "cremoso",
+        "senza-glutine"
+      ],
       "ingredients": [
         {
           "group": "Crema di avocado",
@@ -233,7 +255,7 @@
         }
       ],
       "tips": [
-        "La panna deve essere molto fredda per montarsi facilmente — mettere la ciotola e le fruste in freezer 10 minuti prima.",
+        "La panna deve essere molto fredda per montarsi facilmente: mettere la ciotola e le fruste in freezer 10 minuti prima.",
         "Preparare le verrine in anticipo ma aggiungere i pomodorini all'ultimo momento per mantenere la freschezza."
       ]
     }

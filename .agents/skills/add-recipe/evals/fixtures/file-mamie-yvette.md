@@ -1,4 +1,4 @@
-# Eval: Mamie Yvette Pain au Lait — File/Image Issue
+# Eval: Mamie Yvette Pain au Lait (File/Image Issue)
 
 ## Scenario
 
@@ -57,18 +57,18 @@ _No response_
 ### Notes (optional)
 
 C'est la recette de la grand-mère de Pierrick. Son secret c'est de séparer les blancs
-des jaunes et de monter les blancs en neige avant de les incorporer à la pâte — ça rend
+des jaunes et de monter les blancs en neige avant de les incorporer à la pâte, ça rend
 les pains au lait beaucoup plus légers et aériens. Origine : mamie de Pierrick.
 
 ## Key Extraction Challenges
 
-1. **Handwriting OCR**: The handwriting is somewhat difficult to read — "Asta" likely
+1. **Handwriting OCR**: The handwriting is somewhat difficult to read, "Asta" likely
    refers to yeast/levure, quantities need careful reading
 2. **Implicit steps**: The handwritten recipe is informal; steps need to be expanded
    into clear cooking instructions
 3. **Missing metadata**: No prep time, cook time, servings, difficulty, or category
-   specified — these must be inferred
+   specified, these must be inferred
 4. **Notes context**: The notes mention the egg white technique which is NOT in the
-   handwritten recipe itself — the skill should incorporate tips from notes
-5. **Origin field**: The notes mention "mamie de Pierrick" — should set origin to
+   handwritten recipe itself, the skill should incorporate tips from notes
+5. **Origin field**: The notes mention "mamie de Pierrick", should set origin to
    "pierrick-grandma"

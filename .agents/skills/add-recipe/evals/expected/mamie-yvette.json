@@ -34,5 +34,5 @@
     "lait": "2 verres",
     "levure": "½ cube"
   },
-  "notes": "This is the hardest eval — handwritten French recipe requiring OCR. Tests the full 3-agent parallel extraction + judge pipeline. Key validation: all 7 ingredients must be extracted with correct quantities, the egg white tip from notes must be incorporated, and origin should be set to 'pierrick-grandma'. The handwriting is challenging — watch for misreads of quantities (600g vs 500g, ½ cube vs 1 cube)."
+  "notes": "This is the hardest eval, handwritten French recipe requiring OCR. Tests the full 3-agent parallel extraction + judge pipeline. Key validation: all 7 ingredients must be extracted with correct quantities, the egg white tip from notes must be incorporated, and origin should be set to 'pierrick-grandma'. The handwriting is challenging, watch for misreads of quantities (600g vs 500g, ½ cube vs 1 cube)."
 }

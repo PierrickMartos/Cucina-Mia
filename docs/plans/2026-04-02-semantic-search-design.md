@@ -5,14 +5,14 @@
 
 ## Problem
 
-The current Fuse.js search is keyword-based. Users searching conceptually — "comfort food", "something light for summer", "quick weeknight dinner" — get no results because those words don't appear literally in the recipe data.
+The current Fuse.js search is keyword-based. Users searching conceptually, "comfort food", "something light for summer", "quick weeknight dinner", get no results because those words don't appear literally in the recipe data.
 
 ## Approach: Hybrid Semantic + Fuzzy Search
 
 Two systems combined into one result ranking:
 
-- **Fuse.js** (existing) — keyword fuzzy matching, reliable for exact recipe names and ingredients
-- **Transformers.js** — semantic embedding model, handles conceptual and intent-based queries
+- **Fuse.js** (existing), keyword fuzzy matching, reliable for exact recipe names and ingredients
+- **Transformers.js**, semantic embedding model, handles conceptual and intent-based queries
 
 Final score: `0.5 × semantic_score + 0.5 × fuse_score`, sorted descending.
 
@@ -31,17 +31,17 @@ Page load
 
 User types query
   ├─ embed query → cosine similarity vs all recipe embeddings → semantic scores
-  ├─ Fuse.js search → fuzzy scores (normalized 0–1)
+  ├─ Fuse.js search → fuzzy scores (normalized 0-1)
   └─ hybrid score = 0.5 × semantic + 0.5 × fuse → sorted result
 ```
 
 ### Model
 
-`Xenova/all-MiniLM-L6-v2` — 23MB, multilingual, 384-dimension embeddings. Best-in-class for browser-side sentence similarity. Loaded eagerly on page mount so it's ready before the user types.
+`Xenova/all-MiniLM-L6-v2`, 23MB, multilingual, 384-dimension embeddings. Best-in-class for browser-side sentence similarity. Loaded eagerly on page mount so it's ready before the user types.
 
 ### Embeddings File
 
-`public/data/recipes/embeddings.json` — flat map of slug → float array:
+`public/data/recipes/embeddings.json`, flat map of slug → float array:
 
 ```json
 {
@@ -58,7 +58,7 @@ User types query
 "{title}. {description}. {category}. {tags joined by space}"
 ```
 
-Captures what the dish is and how it's characterized — enough signal for conceptual queries.
+Captures what the dish is and how it's characterized, enough signal for conceptual queries.
 
 ## Build-time: Add-Recipe Skill
 
@@ -75,7 +75,7 @@ model = SentenceTransformer('sentence-transformers/all-MiniLM-L6-v2')
 
 **Why Python:** The skill already uses Python (`sync-recipe-counts.py`). `sentence-transformers` has a simple CLI-friendly API. The model is identical to the browser-side `Xenova/all-MiniLM-L6-v2` so vectors are compatible.
 
-Only the new recipe is re-embedded — existing entries in `embeddings.json` are preserved.
+Only the new recipe is re-embedded, existing entries in `embeddings.json` are preserved.
 
 ## Runtime: RecipesPage Changes
 
@@ -92,7 +92,7 @@ const [embeddings, setEmbeddings] = useState<Record<string, number[]>>({})
 // On search: hybrid scoring
 const queryVec = await pipeline(query, { pooling: 'mean', normalize: true })
 const semanticScore = cosineSim(queryVec, embeddings[slug])
-const fuseScore = 1 - fuseResult.score  // Fuse scores 0=best, invert to 0–1 where 1=best
+const fuseScore = 1 - fuseResult.score  // Fuse scores 0=best, invert to 0-1 where 1=best
 const hybrid = 0.5 * semanticScore + 0.5 * fuseScore
 ```
 

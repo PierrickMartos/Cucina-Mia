@@ -1,7 +1,7 @@
 {
   "slug": "tartine-agneau-legumes",
   "title": "Tartine Agneau et Légumes",
-  "description": "Tartine d'agneau confit sur pain de mie grillé, garnie d'un baïaldi de légumes (tomate, aubergine, courgette) cuits lentement au four, badigeonnée de moutarde en grains — une recette provençale élégante et généreuse signée André Charrial.",
+  "description": "Tartine d'agneau confit sur pain de mie grillé, garnie d'un baïaldi de légumes (tomate, aubergine, courgette) cuits lentement au four, badigeonnée de moutarde en grains, une recette provençale élégante et généreuse signée André Charrial.",
   "images": {
     "cover": "images/recipes/tartine-agneau-legumes/cover.jpg",
     "web": "images/recipes/tartine-agneau-legumes/web.jpg"
@@ -64,15 +64,25 @@
     }
   ],
   "tips": [
-    "Le baïaldi est une garniture provençale de légumes finement tranchés et superposés, cuits lentement au four — pensez à bien les couper très finement pour une cuisson homogène.",
+    "Le baïaldi est une garniture provençale de légumes finement tranchés et superposés, cuits lentement au four : pensez à bien les couper très finement pour une cuisson homogène.",
     "L'agneau confit peut être préparé la veille : effilocher la viande et la conserver au réfrigérateur jusqu'au moment du dressage.",
     "Servir tiède permet de profiter au mieux des saveurs de l'agneau et des légumes fondants."
   ],
   "translations": {
     "en": {
       "title": "Open-Faced Lamb and Vegetable Toast",
-      "description": "Confit lamb open-faced toast on grilled sandwich bread, topped with a Provençal baïaldi of slowly oven-roasted vegetables (tomato, eggplant, zucchini), brushed with whole-grain mustard — an elegant and generous recipe by André Charrial.",
-      "tags": ["open-faced", "lamb", "vegetables", "mediterranean", "quick", "main-course", "oven", "grilled", "herbs"],
+      "description": "Confit lamb open-faced toast on grilled sandwich bread, topped with a Provençal baïaldi of slowly oven-roasted vegetables (tomato, eggplant, zucchini), brushed with whole-grain mustard, an elegant and generous recipe by André Charrial.",
+      "tags": [
+        "open-faced",
+        "lamb",
+        "vegetables",
+        "mediterranean",
+        "quick",
+        "main-course",
+        "oven",
+        "grilled",
+        "herbs"
+      ],
       "ingredients": [
         {
           "items": [
@@ -111,15 +121,25 @@
         }
       ],
       "tips": [
-        "Baïaldi is a Provençal garnish of thinly sliced, layered vegetables slowly baked in the oven — make sure to slice them very thinly for even cooking.",
+        "Baïaldi is a Provençal garnish of thinly sliced, layered vegetables slowly baked in the oven: make sure to slice them very thinly for even cooking.",
         "The confit lamb can be prepared the day before: shred the meat and keep it refrigerated until plating.",
         "Serving warm allows you to enjoy the flavors of the lamb and tender vegetables at their best."
       ]
     },
     "it": {
       "title": "Tartine di Agnello e Verdure",
-      "description": "Tartine di agnello confit su pane in cassetta tostato, guarnite con un baïaldi di verdure (pomodoro, melanzana, zucchina) cotte lentamente al forno, spennellate con senape in grani — una ricetta provenzale elegante e generosa firmata André Charrial.",
-      "tags": ["tartine", "agnello", "verdure", "mediterraneo", "veloce", "piatto-principale", "forno", "grigliato", "erbe"],
+      "description": "Tartine di agnello confit su pane in cassetta tostato, guarnite con un baïaldi di verdure (pomodoro, melanzana, zucchina) cotte lentamente al forno, spennellate con senape in grani, una ricetta provenzale elegante e generosa firmata André Charrial.",
+      "tags": [
+        "tartine",
+        "agnello",
+        "verdure",
+        "mediterraneo",
+        "veloce",
+        "piatto-principale",
+        "forno",
+        "grigliato",
+        "erbe"
+      ],
       "ingredients": [
         {
           "items": [
@@ -158,7 +178,7 @@
         }
       ],
       "tips": [
-        "Il baïaldi è una guarnizione provenzale di verdure tagliate finemente e sovrapposte, cotte lentamente in forno — tagliatele molto sottili per una cottura uniforme.",
+        "Il baïaldi è una guarnizione provenzale di verdure tagliate finemente e sovrapposte, cotte lentamente in forno: tagliatele molto sottili per una cottura uniforme.",
         "L'agnello confit può essere preparato il giorno prima: sfilacciare la carne e conservarla in frigorifero fino al momento dell'impiattamento.",
         "Servire tiepido permette di godere al meglio dei sapori dell'agnello e delle verdure fondenti."
       ]
