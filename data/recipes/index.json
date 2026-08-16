@@ -5874,5 +5874,83 @@
         ]
       }
     }
+  },
+  {
+    "slug": "framboisier-facile-moelleux",
+    "title": "Framboisier facile et moelleux",
+    "description": "Un gâteau à étages tout simple : deux génoises moelleuses coupées en deux, garnies de coulis, de framboises et de chantilly, le tout couvert d'amandes effilées torréfiées.",
+    "images": {
+      "cover": "images/recipes/framboisier-facile-moelleux/cover.jpg",
+      "web": "images/recipes/framboisier-facile-moelleux/web.jpg"
+    },
+    "imageCredit": {
+      "author": "Aneta Voborilova",
+      "url": "https://unsplash.com/@anetvob"
+    },
+    "prepTime": 45,
+    "cookTime": 40,
+    "servings": 8,
+    "difficulty": "Medio",
+    "category": "Dolci",
+    "tags": [
+      "dessert",
+      "four",
+      "fruits",
+      "français",
+      "végétarien",
+      "gourmand",
+      "moelleux",
+      "onctueux",
+      "festif",
+      "anniversaire",
+      "à-partager",
+      "printemps",
+      "été",
+      "toute-la-famille"
+    ],
+    "stepCount": 13,
+    "ingredientCount": 14,
+    "translations": {
+      "en": {
+        "title": "Easy Raspberry Layer Cake",
+        "description": "A simple layer cake: two soft sponges cut in half, filled with raspberry coulis, raspberries and whipped cream, then covered in toasted flaked almonds.",
+        "tags": [
+          "dessert",
+          "oven",
+          "fruit",
+          "french",
+          "vegetarian",
+          "indulgent",
+          "soft",
+          "creamy",
+          "festive",
+          "birthday",
+          "to-share",
+          "spring",
+          "summer",
+          "family-friendly"
+        ]
+      },
+      "it": {
+        "title": "Torta soffice ai lamponi",
+        "description": "Una torta a strati semplicissima: due pan di Spagna soffici tagliati a metà, farciti con coulis, lamponi e panna montata, ricoperti di mandorle a lamelle tostate.",
+        "tags": [
+          "dolce",
+          "forno",
+          "frutta",
+          "francese",
+          "vegetariano",
+          "goloso",
+          "morbido",
+          "cremoso",
+          "festivo",
+          "compleanno",
+          "da-condividere",
+          "primavera",
+          "estate",
+          "tutta-la-famiglia"
+        ]
+      }
+    }
   }
 ]
