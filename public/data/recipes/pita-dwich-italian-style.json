@@ -1,0 +1,232 @@
+{
+  "slug": "pita-dwich-italian-style",
+  "title": "Pita dwich italian style",
+  "description": "Un pain pita garni de crème fraîche aux herbes, de légumes croquants, d'avocat et de mozzarella, arrosé d'une sauce basilic et huile d'olive.",
+  "images": {
+    "cover": "images/recipes/pita-dwich-italian-style/cover.jpg",
+    "web": "images/recipes/pita-dwich-italian-style/web.jpg"
+  },
+  "prepTime": 15,
+  "cookTime": 0,
+  "servings": 2,
+  "difficulty": "Facile",
+  "category": "Secondi",
+  "tags": [
+    "no-cuisson",
+    "rapide",
+    "facile",
+    "végétarien",
+    "été",
+    "froid",
+    "en-sandwich",
+    "légumes",
+    "fromage",
+    "italien",
+    "méditerranéen",
+    "léger",
+    "pique-nique",
+    "plat-principal",
+    "herbacé"
+  ],
+  "ingredients": [
+    {
+      "items": [
+        "2 pains pita",
+        "8 tomates cerises",
+        "1 avocat mûr",
+        "4 radis",
+        "1/3 de concombre",
+        "1 cébette",
+        "Quelques feuilles de salade",
+        "1 boule de mozzarella (125 g)",
+        "2 tranches de prosciutto cotto (facultatif, pour les gourmands)",
+        "1 petit bouquet de basilic frais",
+        "4 cuillères à soupe d'huile d'olive (Quanto basta)",
+        "3 cuillères à soupe de crème fraîche aux herbes",
+        "Sel",
+        "Poivre"
+      ]
+    }
+  ],
+  "steps": [
+    {
+      "text": "Laver le basilic et l'effeuiller. Mixer les feuilles avec l'huile d'olive, saler et poivrer pour obtenir une sauce verte et fluide."
+    },
+    {
+      "text": "Laver les tomates cerises et les couper en deux."
+    },
+    {
+      "text": "Laver les radis et les couper en fines rondelles. Couper le concombre en petits dés et émincer la cébette."
+    },
+    {
+      "text": "Couper l'avocat en deux, retirer le noyau, prélever la chair et la détailler en dés."
+    },
+    {
+      "text": "Égoutter la mozzarella et la déchirer grossièrement à la main."
+    },
+    {
+      "text": "Ouvrir les pains pita en poche et tartiner l'intérieur de crème fraîche aux herbes, puis garnir de feuilles de salade."
+    },
+    {
+      "text": "Garnir chaque pita de tomates cerises, de radis, de concombre, de cébette et d'avocat, puis ajouter la mozzarella. Pour les gourmands, glisser une tranche de prosciutto cotto dans chaque pita."
+    },
+    {
+      "text": "Arroser généreusement de sauce au basilic, saler, poivrer et déguster aussitôt."
+    }
+  ],
+  "tips": [
+    "Préparer la sauce au basilic juste avant de servir pour qu'elle garde sa couleur bien verte.",
+    "Faire tiédir les pains pita quelques minutes pour les ouvrir sans les casser.",
+    "Bien égoutter la mozzarella avant de la déchirer, sinon le pain se détrempe."
+  ],
+  "originalSource": {
+    "type": "text",
+    "data": "pita dwich italian style\n\ningredients:\n- tomates cerises\n- avocat\n- radis\n- mozza\n- basilic\n- huile olive\n- sel\n- poivre\n- concombre\n- creme fraiche aux herbes\n\nprep une sauce huile olive / basilic"
+  },
+  "translations": {
+    "en": {
+      "title": "Italian Style Pita Dwich",
+      "description": "A pita pocket filled with herb crème fraîche, crunchy vegetables, avocado and mozzarella, drizzled with a basil and olive oil sauce.",
+      "tags": [
+        "no-cook",
+        "quick",
+        "easy",
+        "vegetarian",
+        "summer",
+        "cold",
+        "sandwich",
+        "vegetables",
+        "cheese",
+        "italian",
+        "mediterranean",
+        "light",
+        "picnic",
+        "main-course",
+        "herby"
+      ],
+      "ingredients": [
+        {
+          "items": [
+            "2 pita breads",
+            "8 cherry tomatoes",
+            "1 ripe avocado",
+            "4 radishes",
+            "1/3 cucumber",
+            "1 spring onion",
+            "A few salad leaves",
+            "1 ball of mozzarella (125 g)",
+            "2 slices of prosciutto cotto (optional, for bigger appetites)",
+            "1 small bunch of fresh basil",
+            "4 tablespoons olive oil (Quanto basta)",
+            "3 tablespoons herb crème fraîche",
+            "Salt",
+            "Pepper"
+          ]
+        }
+      ],
+      "steps": [
+        {
+          "text": "Wash the basil and pick off the leaves. Blend them with the olive oil, salt and pepper to make a smooth green sauce."
+        },
+        {
+          "text": "Wash the cherry tomatoes and cut them in half."
+        },
+        {
+          "text": "Wash the radishes and slice them thinly. Dice the cucumber finely and slice the spring onion."
+        },
+        {
+          "text": "Halve the avocado, remove the stone, scoop out the flesh and cut it into cubes."
+        },
+        {
+          "text": "Drain the mozzarella and tear it roughly by hand."
+        },
+        {
+          "text": "Open the pita breads into pockets and spread the inside with herb crème fraîche, then line them with salad leaves."
+        },
+        {
+          "text": "Fill each pita with cherry tomatoes, radishes, cucumber, spring onion and avocado, then add the mozzarella. For bigger appetites, slip a slice of prosciutto cotto into each pita."
+        },
+        {
+          "text": "Drizzle generously with the basil sauce, season with salt and pepper and eat straight away."
+        }
+      ],
+      "tips": [
+        "Make the basil sauce just before serving so it keeps its bright green colour.",
+        "Warm the pita breads for a few minutes so they open without tearing.",
+        "Drain the mozzarella well before tearing it, otherwise the bread goes soggy."
+      ]
+    },
+    "it": {
+      "title": "Pita dwich all'italiana",
+      "description": "Una pita farcita con crema di panna alle erbe, verdure croccanti, avocado e mozzarella, condita con una salsa al basilico e olio d'oliva.",
+      "tags": [
+        "senza-cottura",
+        "veloce",
+        "facile",
+        "vegetariano",
+        "estate",
+        "freddo",
+        "panino",
+        "verdure",
+        "formaggio",
+        "italiano",
+        "mediterraneo",
+        "leggero",
+        "picnic",
+        "piatto-principale",
+        "erbaceo"
+      ],
+      "ingredients": [
+        {
+          "items": [
+            "2 pane pita",
+            "8 pomodorini",
+            "1 avocado maturo",
+            "4 ravanelli",
+            "1/3 di cetriolo",
+            "1 cipollotto",
+            "Qualche foglia di insalata",
+            "1 mozzarella (125 g)",
+            "2 fette di prosciutto cotto (facoltativo, per i più golosi)",
+            "1 mazzetto di basilico fresco",
+            "4 cucchiai di olio d'oliva (Quanto basta)",
+            "3 cucchiai di panna acida alle erbe",
+            "Sale",
+            "Pepe"
+          ]
+        }
+      ],
+      "steps": [
+        {
+          "text": "Lavare il basilico e staccare le foglie. Frullarle con l'olio d'oliva, sale e pepe fino a ottenere una salsa verde e fluida."
+        },
+        {
+          "text": "Lavare i pomodorini e tagliarli a metà."
+        },
+        {
+          "text": "Lavare i ravanelli e tagliarli a fettine sottili. Tagliare il cetriolo a dadini piccoli e affettare il cipollotto."
+        },
+        {
+          "text": "Tagliare l'avocado a metà, togliere il nocciolo, prelevare la polpa e tagliarla a cubetti."
+        },
+        {
+          "text": "Scolare la mozzarella e sfilacciarla grossolanamente con le mani."
+        },
+        {
+          "text": "Aprire il pane pita a tasca e spalmare l'interno con la panna acida alle erbe, poi foderare con le foglie di insalata."
+        },
+        {
+          "text": "Farcire ogni pita con pomodorini, ravanelli, cetriolo, cipollotto e avocado, poi aggiungere la mozzarella. Per i più golosi, infilare una fetta di prosciutto cotto in ogni pita."
+        },
+        {
+          "text": "Condire generosamente con la salsa al basilico, salare, pepare e gustare subito."
+        }
+      ],
+      "tips": [
+        "Preparare la salsa al basilico poco prima di servire per mantenerla ben verde.",
+        "Intiepidire il pane pita qualche minuto per aprirlo senza romperlo.",
+        "Scolare bene la mozzarella prima di sfilacciarla, altrimenti il pane si inzuppa."
+      ]
+    }
+  }
+}

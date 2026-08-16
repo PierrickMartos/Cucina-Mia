@@ -5704,5 +5704,82 @@
         ]
       }
     }
+  },
+  {
+    "slug": "pita-dwich-italian-style",
+    "title": "Pita dwich italian style",
+    "description": "Un pain pita garni de crème fraîche aux herbes, de légumes croquants, d'avocat et de mozzarella, arrosé d'une sauce basilic et huile d'olive.",
+    "images": {
+      "cover": "images/recipes/pita-dwich-italian-style/cover.jpg",
+      "web": "images/recipes/pita-dwich-italian-style/web.jpg"
+    },
+    "prepTime": 15,
+    "cookTime": 0,
+    "servings": 2,
+    "difficulty": "Facile",
+    "category": "Secondi",
+    "tags": [
+      "no-cuisson",
+      "rapide",
+      "facile",
+      "végétarien",
+      "été",
+      "froid",
+      "en-sandwich",
+      "légumes",
+      "fromage",
+      "italien",
+      "méditerranéen",
+      "léger",
+      "pique-nique",
+      "plat-principal",
+      "herbacé"
+    ],
+    "stepCount": 8,
+    "ingredientCount": 14,
+    "translations": {
+      "en": {
+        "title": "Italian Style Pita Dwich",
+        "description": "A pita pocket filled with herb crème fraîche, crunchy vegetables, avocado and mozzarella, drizzled with a basil and olive oil sauce.",
+        "tags": [
+          "no-cook",
+          "quick",
+          "easy",
+          "vegetarian",
+          "summer",
+          "cold",
+          "sandwich",
+          "vegetables",
+          "cheese",
+          "italian",
+          "mediterranean",
+          "light",
+          "picnic",
+          "main-course",
+          "herby"
+        ]
+      },
+      "it": {
+        "title": "Pita dwich all'italiana",
+        "description": "Una pita farcita con crema di panna alle erbe, verdure croccanti, avocado e mozzarella, condita con una salsa al basilico e olio d'oliva.",
+        "tags": [
+          "senza-cottura",
+          "veloce",
+          "facile",
+          "vegetariano",
+          "estate",
+          "freddo",
+          "panino",
+          "verdure",
+          "formaggio",
+          "italiano",
+          "mediterraneo",
+          "leggero",
+          "picnic",
+          "piatto-principale",
+          "erbaceo"
+        ]
+      }
+    }
   }
 ]
