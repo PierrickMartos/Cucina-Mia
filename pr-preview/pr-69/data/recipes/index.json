@@ -1,0 +1,5785 @@
+[
+  {
+    "slug": "pasta-carbonara",
+    "title": "Pasta alla Carbonara",
+    "description": "La vraie carbonara romaine avec guanciale croustillant, œufs entiers et pecorino romano, sans crème ni oignons.",
+    "images": {
+      "cover": "images/recipes/pasta-carbonara/cover.jpg",
+      "web": "images/recipes/pasta-carbonara/web.jpg"
+    },
+    "prepTime": 10,
+    "cookTime": 15,
+    "servings": 4,
+    "difficulty": "Medio",
+    "category": "Pasta",
+    "tags": [
+      "pâtes",
+      "porc",
+      "œufs",
+      "fromage",
+      "italien",
+      "traditionnel",
+      "rapide",
+      "plat-principal",
+      "onctueux",
+      "chaud"
+    ],
+    "translations": {
+      "en": {
+        "title": "Pasta alla Carbonara",
+        "description": "The authentic Roman carbonara with crispy guanciale, whole eggs and pecorino romano, no cream, no onions.",
+        "tags": [
+          "pasta",
+          "pork",
+          "eggs",
+          "cheese",
+          "italian",
+          "traditional",
+          "quick",
+          "main-course",
+          "creamy",
+          "hot"
+        ]
+      },
+      "it": {
+        "title": "Pasta alla Carbonara",
+        "description": "La vera carbonara romana con guanciale croccante, uova intere e pecorino romano, senza panna né cipolle.",
+        "tags": [
+          "pasta",
+          "maiale",
+          "uova",
+          "formaggio",
+          "italiano",
+          "tradizionale",
+          "veloce",
+          "primo-piatto",
+          "cremoso",
+          "caldo"
+        ]
+      }
+    },
+    "stepCount": 7,
+    "ingredientCount": 6
+  },
+  {
+    "slug": "pasta-per-torta-veloce",
+    "title": "Pâte à tarte rapide",
+    "description": "Pâte à tarte prête en 3 minutes avec seulement 3 ingrédients : farine, huile et eau chaude. Parfaite pour les tout-petits.",
+    "images": {
+      "cover": "images/recipes/pasta-per-torta-veloce/cover.jpg",
+      "web": "images/recipes/pasta-per-torta-veloce/web.jpg"
+    },
+    "imageCredit": {
+      "author": "Nathan Dumlao",
+      "url": "https://unsplash.com/photos/brown-bread-on-white-textile-0dCOHmQpNuA"
+    },
+    "prepTime": 3,
+    "cookTime": 10,
+    "servings": 6,
+    "difficulty": "Facile",
+    "category": "Pane",
+    "tags": [
+      "rapide",
+      "5-ingrédients",
+      "végétarien",
+      "enfants",
+      "toute-la-famille",
+      "sans-équipement-spécial",
+      "préparation-à-lavance"
+    ],
+    "translations": {
+      "en": {
+        "title": "Quick Pastry Dough",
+        "description": "Pie crust dough ready in 3 minutes with just 3 ingredients: flour, oil, and hot water. Perfect for little ones.",
+        "tags": [
+          "quick",
+          "5-ingredients",
+          "vegetarian",
+          "kids",
+          "whole-family",
+          "no-special-equipment",
+          "make-ahead"
+        ]
+      },
+      "it": {
+        "title": "Pasta per Torta Veloce",
+        "description": "Impasto per torte salate pronto in 3 minuti con soli 3 ingredienti: farina, olio e acqua calda. Perfetto per i più piccoli.",
+        "tags": [
+          "veloce",
+          "5-ingredienti",
+          "vegetariano",
+          "bambini",
+          "tutta-la-famiglia",
+          "senza-attrezzature-speciali",
+          "preparazione-in-anticipo"
+        ]
+      }
+    },
+    "stepCount": 6,
+    "ingredientCount": 3
+  },
+  {
+    "slug": "chakchouka-du-brunch",
+    "title": "Chakchouka du Brunch",
+    "description": "Oeufs pochés dans une sauce tomate épicée aux poivrons et oignons, parfaite pour un brunch gourmand.",
+    "images": {
+      "cover": "images/recipes/chakchouka-du-brunch/cover.jpg",
+      "web": "images/recipes/chakchouka-du-brunch/web.jpg"
+    },
+    "prepTime": 15,
+    "cookTime": 25,
+    "servings": 4,
+    "difficulty": "Facile",
+    "category": "Brunch",
+    "tags": [
+      "brunch",
+      "végétarien",
+      "épicé",
+      "œufs",
+      "rapide",
+      "méditerranéen",
+      "poêle",
+      "convivial",
+      "chaud",
+      "léger"
+    ],
+    "translations": {
+      "en": {
+        "title": "Brunch Shakshuka",
+        "description": "Eggs poached in a spiced tomato sauce with peppers and onions, perfect for a gourmet brunch.",
+        "tags": [
+          "brunch",
+          "vegetarian",
+          "spicy",
+          "eggs",
+          "quick",
+          "mediterranean",
+          "pan",
+          "convivial",
+          "hot",
+          "light"
+        ]
+      },
+      "it": {
+        "title": "Chakchouka da Brunch",
+        "description": "Uova in camicia in salsa di pomodoro speziata con peperoni e cipolle, perfetta per un brunch goloso.",
+        "tags": [
+          "brunch",
+          "vegetariano",
+          "piccante",
+          "uova",
+          "veloce",
+          "mediterraneo",
+          "padella",
+          "conviviale",
+          "caldo",
+          "leggero"
+        ]
+      }
+    },
+    "stepCount": 7,
+    "ingredientCount": 13
+  },
+  {
+    "slug": "ravioli-ricotta-spinaci",
+    "title": "Ravioli di Ricotta e Spinaci",
+    "description": "Pâtes fraîches maison farcies aux épinards et à la ricotta, une recette traditionnelle italienne à préparer de A à Z.",
+    "images": {
+      "cover": "images/recipes/ravioli-ricotta-spinaci/cover.jpg",
+      "web": "images/recipes/ravioli-ricotta-spinaci/web.jpg"
+    },
+    "imageCredit": {
+      "author": "Yoav Aziz",
+      "url": "https://unsplash.com/photos/yellow-fruit-on-white-round-plate-EGRJe6BHG9I"
+    },
+    "prepTime": 90,
+    "cookTime": 5,
+    "servings": 4,
+    "difficulty": "Medio",
+    "category": "Pasta",
+    "tags": [
+      "pâtes",
+      "végétarien",
+      "fromage",
+      "légumes",
+      "italien",
+      "traditionnel",
+      "plat-principal",
+      "chaud",
+      "réconfortant",
+      "onctueux"
+    ],
+    "translations": {
+      "en": {
+        "title": "Ricotta and Spinach Ravioli",
+        "description": "Homemade fresh pasta stuffed with spinach and ricotta, a traditional Italian recipe made from scratch.",
+        "tags": [
+          "pasta",
+          "vegetarian",
+          "cheese",
+          "vegetables",
+          "italian",
+          "traditional",
+          "main-course",
+          "hot",
+          "comforting",
+          "creamy"
+        ]
+      },
+      "it": {
+        "title": "Ravioli di Ricotta e Spinaci",
+        "description": "Pasta fresca fatta in casa ripiena di spinaci e ricotta, una ricetta tradizionale italiana da preparare da zero.",
+        "tags": [
+          "pasta",
+          "vegetariano",
+          "formaggio",
+          "verdure",
+          "italiano",
+          "tradizionale",
+          "primo-piatto",
+          "caldo",
+          "confortante",
+          "cremoso"
+        ]
+      }
+    },
+    "stepCount": 9,
+    "ingredientCount": 8
+  },
+  {
+    "slug": "pasta-amatriciana",
+    "title": "Pasta all'Amatriciana",
+    "description": "Sauce romaine emblématique au guanciale et aux tomates, agrémentée de pecorino romano, servie sur des bucatini.",
+    "images": {
+      "cover": "images/recipes/pasta-amatriciana/cover.jpg",
+      "web": "images/recipes/pasta-amatriciana/web.jpg"
+    },
+    "prepTime": 10,
+    "cookTime": 30,
+    "servings": 4,
+    "difficulty": "Facile",
+    "category": "Pasta",
+    "tags": [
+      "pâtes",
+      "porc",
+      "tomate",
+      "fromage",
+      "italien",
+      "traditionnel",
+      "rapide",
+      "plat-principal",
+      "réconfortant",
+      "chaud"
+    ],
+    "translations": {
+      "en": {
+        "title": "Pasta all'Amatriciana",
+        "description": "Iconic Roman sauce with guanciale and tomatoes, enriched with pecorino romano, served over bucatini pasta.",
+        "tags": [
+          "pasta",
+          "pork",
+          "tomato",
+          "cheese",
+          "italian",
+          "traditional",
+          "quick",
+          "main-course",
+          "comforting",
+          "hot"
+        ]
+      },
+      "it": {
+        "title": "Pasta all'Amatriciana",
+        "description": "Iconico sugo romano con guanciale e pomodori, arricchito con pecorino romano, servito su bucatini.",
+        "tags": [
+          "pasta",
+          "maiale",
+          "pomodoro",
+          "formaggio",
+          "italiano",
+          "tradizionale",
+          "veloce",
+          "primo-piatto",
+          "confortante",
+          "caldo"
+        ]
+      }
+    },
+    "stepCount": 9,
+    "ingredientCount": 7
+  },
+  {
+    "slug": "crumble-ananas-mangue",
+    "title": "Crumble Ananas et Mangue",
+    "description": "Un crumble aux fruits exotiques avec de l'ananas caramélisé à la vanille, de la mangue et du fruit de la passion, recouvert d'un biscuit croustillant à la cannelle.",
+    "images": {
+      "cover": "images/recipes/crumble-ananas-mangue/cover.jpg",
+      "web": "images/recipes/crumble-ananas-mangue/web.jpg"
+    },
+    "prepTime": 20,
+    "cookTime": 25,
+    "servings": 4,
+    "difficulty": "Facile",
+    "category": "Dolci",
+    "tags": [
+      "four",
+      "dessert",
+      "végétarien",
+      "fruits",
+      "exotique",
+      "croustillant",
+      "été",
+      "réconfortant",
+      "gourmand"
+    ],
+    "translations": {
+      "en": {
+        "title": "Pineapple and Mango Crumble",
+        "description": "An exotic fruit crumble with vanilla-caramelized pineapple, mango, and passion fruit, topped with a crunchy cinnamon biscuit.",
+        "tags": [
+          "oven",
+          "dessert",
+          "vegetarian",
+          "fruit",
+          "exotic",
+          "crispy",
+          "summer",
+          "comforting",
+          "indulgent"
+        ]
+      },
+      "it": {
+        "title": "Crumble Ananas e Mango",
+        "description": "Un crumble ai frutti esotici con ananas caramellato alla vaniglia, mango e frutto della passione, ricoperto da un croccante biscotto alla cannella.",
+        "tags": [
+          "forno",
+          "dessert",
+          "vegetariano",
+          "frutta",
+          "esotico",
+          "croccante",
+          "estate",
+          "confortante",
+          "goloso"
+        ]
+      }
+    },
+    "stepCount": 10,
+    "ingredientCount": 11
+  },
+  {
+    "slug": "avocado-toast",
+    "title": "Avocado Toast",
+    "description": "Toast croustillant garni de fromage frais, d'avocat en lamelles, d'œuf mollet et de radis croquants.",
+    "images": {
+      "cover": "images/recipes/avocado-toast/cover.jpg",
+      "web": "images/recipes/avocado-toast/web.jpg"
+    },
+    "prepTime": 10,
+    "cookTime": 5,
+    "servings": 2,
+    "difficulty": "Facile",
+    "category": "Breakfast",
+    "tags": [
+      "petit-déjeuner",
+      "végétarien",
+      "rapide",
+      "léger",
+      "brunch",
+      "œufs",
+      "fruits",
+      "croquant",
+      "équilibré",
+      "finger-food"
+    ],
+    "translations": {
+      "en": {
+        "title": "Avocado Toast",
+        "description": "Crispy toast topped with cream cheese, sliced avocado, soft-boiled egg and crunchy radishes.",
+        "tags": [
+          "breakfast",
+          "vegetarian",
+          "quick",
+          "light",
+          "brunch",
+          "eggs",
+          "fruit",
+          "crispy",
+          "balanced",
+          "finger-food"
+        ]
+      },
+      "it": {
+        "title": "Avocado Toast",
+        "description": "Toast croccante guarnito con formaggio fresco, fettine di avocado, uovo barzotto e ravanelli croccanti.",
+        "tags": [
+          "colazione",
+          "vegetariano",
+          "veloce",
+          "leggero",
+          "brunch",
+          "uova",
+          "frutta",
+          "croccante",
+          "equilibrato",
+          "finger-food"
+        ]
+      }
+    },
+    "stepCount": 3,
+    "ingredientCount": 9
+  },
+  {
+    "slug": "clafoutis-mangue-curcuma-caramel-citronelle",
+    "title": "Clafoutis de mangue au curcuma, sauce caramel à la citronnelle",
+    "description": "Un clafoutis moelleux à la mangue et au curcuma, nappé d'une onctueuse sauce caramel à la citronnelle et aux feuilles de combava.",
+    "images": {
+      "cover": "images/recipes/clafoutis-mangue-curcuma-caramel-citronelle/cover.jpg",
+      "web": "images/recipes/clafoutis-mangue-curcuma-caramel-citronelle/web.jpg"
+    },
+    "prepTime": 10,
+    "cookTime": 20,
+    "servings": 4,
+    "difficulty": "Facile",
+    "category": "Dolci",
+    "tags": [
+      "four",
+      "dessert",
+      "végétarien",
+      "fruits",
+      "exotique",
+      "moelleux",
+      "fondant",
+      "été",
+      "épicé"
+    ],
+    "translations": {
+      "en": {
+        "title": "Mango Turmeric Clafoutis with Lemongrass Caramel",
+        "description": "A soft mango and turmeric clafoutis, drizzled with a velvety caramel sauce infused with lemongrass and kaffir lime leaves.",
+        "tags": [
+          "oven",
+          "dessert",
+          "vegetarian",
+          "fruit",
+          "exotic",
+          "soft",
+          "melt-in-mouth",
+          "summer",
+          "spiced"
+        ]
+      },
+      "it": {
+        "title": "Clafoutis di Mango alla Curcuma con Caramello alla Citronella",
+        "description": "Un morbido clafoutis di mango alla curcuma, nappato di una vellutata salsa caramello alla citronella e foglie di combava.",
+        "tags": [
+          "forno",
+          "dessert",
+          "vegetariano",
+          "frutta",
+          "esotico",
+          "morbido",
+          "fondente",
+          "estate",
+          "speziato"
+        ]
+      }
+    },
+    "stepCount": 7,
+    "ingredientCount": 14
+  },
+  {
+    "slug": "gateaux-ananas-mojito",
+    "title": "Gâteaux à l'Ananas, Sirop Façon Mojito",
+    "description": "Moelleux renversés à l'ananas caramélisé, nappés d'un sirop parfumé au rhum, menthe et citron vert façon mojito.",
+    "images": {
+      "cover": "images/recipes/gateaux-ananas-mojito/cover.jpg",
+      "web": "images/recipes/gateaux-ananas-mojito/web.jpg"
+    },
+    "imageCredit": {
+      "author": "Oscar Ivan Esquivel Arteaga",
+      "url": "https://unsplash.com/photos/a-piece-of-pineapple-upside-down-cake-on-a-plate-nAb8nLTwi1o"
+    },
+    "prepTime": 25,
+    "cookTime": 45,
+    "servings": 6,
+    "difficulty": "Medio",
+    "category": "Dolci",
+    "tags": [
+      "four",
+      "dessert",
+      "végétarien",
+      "fruits",
+      "exotique",
+      "moelleux",
+      "festif",
+      "été",
+      "gourmand",
+      "réconfortant"
+    ],
+    "translations": {
+      "en": {
+        "title": "Pineapple Cakes with Mojito Syrup",
+        "description": "Individual upside-down cakes with caramelized pineapple, drizzled with a mojito-style syrup of rum, mint, and lime.",
+        "tags": [
+          "oven",
+          "dessert",
+          "vegetarian",
+          "fruit",
+          "exotic",
+          "soft",
+          "festive",
+          "summer",
+          "indulgent",
+          "comforting"
+        ]
+      },
+      "it": {
+        "title": "Tortine all'Ananas con Sciroppo Mojito",
+        "description": "Tortine rovesciate all'ananas caramellato, irrorate con uno sciroppo profumato al rum, menta e lime stile mojito.",
+        "tags": [
+          "forno",
+          "dessert",
+          "vegetariano",
+          "frutta",
+          "esotico",
+          "morbido",
+          "festivo",
+          "estate",
+          "goloso",
+          "confortante"
+        ]
+      }
+    },
+    "stepCount": 5,
+    "ingredientCount": 11
+  },
+  {
+    "slug": "canneles",
+    "title": "Cannelés",
+    "description": "Petits gâteaux bordelais à la croûte caramélisée et croustillante, avec un intérieur moelleux parfumé à la vanille et au rhum.",
+    "images": {
+      "cover": "images/recipes/canneles/cover.jpg",
+      "web": "images/recipes/canneles/web.jpg"
+    },
+    "prepTime": 20,
+    "cookTime": 50,
+    "servings": 12,
+    "difficulty": "Medio",
+    "category": "Dolci",
+    "tags": [
+      "four",
+      "dessert",
+      "français",
+      "croustillant",
+      "moelleux",
+      "préparation-à-lavance",
+      "gourmand",
+      "festif"
+    ],
+    "translations": {
+      "en": {
+        "title": "Cannelés",
+        "description": "Small Bordeaux pastries with a caramelized, crispy crust and a soft interior fragrant with vanilla and rum.",
+        "tags": [
+          "oven",
+          "dessert",
+          "french",
+          "crispy",
+          "soft",
+          "make-ahead",
+          "indulgent",
+          "festive"
+        ]
+      },
+      "it": {
+        "title": "Cannelés",
+        "description": "Piccoli dolcetti bordolesi dalla crosta caramellata e croccante, con un interno morbido profumato alla vaniglia e al rum.",
+        "tags": [
+          "forno",
+          "dessert",
+          "francese",
+          "croccante",
+          "morbido",
+          "preparazione-in-anticipo",
+          "goloso",
+          "festivo"
+        ]
+      }
+    },
+    "stepCount": 8,
+    "ingredientCount": 11
+  },
+  {
+    "slug": "tarte-tatin-mangue-espelette",
+    "title": "Tarte Tatin à la Mangue et au Piment d'Espelette",
+    "description": "Une tarte tatin exotique aux tranches de mangue caramélisées, relevée d'une touche de piment d'Espelette, recouverte d'une pâte brisée dorée.",
+    "images": {
+      "cover": "images/recipes/tarte-tatin-mangue-espelette/cover.jpg",
+      "web": "images/recipes/tarte-tatin-mangue-espelette/web.jpg"
+    },
+    "prepTime": 35,
+    "cookTime": 40,
+    "servings": 6,
+    "difficulty": "Medio",
+    "category": "Dolci",
+    "tags": [
+      "four",
+      "dessert",
+      "végétarien",
+      "fruits",
+      "exotique",
+      "épicé",
+      "caramel",
+      "festif",
+      "été",
+      "fondant"
+    ],
+    "translations": {
+      "en": {
+        "title": "Mango Tarte Tatin with Espelette Pepper",
+        "description": "An exotic tarte tatin with caramelized mango slices, lifted with a hint of Espelette chili pepper, covered with a golden shortcrust pastry.",
+        "tags": [
+          "oven",
+          "dessert",
+          "vegetarian",
+          "fruit",
+          "exotic",
+          "spiced",
+          "caramel",
+          "festive",
+          "summer",
+          "melt-in-mouth"
+        ]
+      },
+      "it": {
+        "title": "Tarte Tatin al Mango e Peperoncino di Espelette",
+        "description": "Una tarte tatin esotica con fette di mango caramellate, arricchita da un tocco di peperoncino d'Espelette, ricoperta da una pasta brisée dorata.",
+        "tags": [
+          "forno",
+          "dessert",
+          "vegetariano",
+          "frutta",
+          "esotico",
+          "speziato",
+          "caramello",
+          "festivo",
+          "estate",
+          "fondente"
+        ]
+      }
+    },
+    "stepCount": 6,
+    "ingredientCount": 9
+  },
+  {
+    "slug": "verrines-tarte-citron-meringuee",
+    "title": "Verrines façon tarte au citron meringuée",
+    "description": "Revisitation en verrines de la tarte au citron meringuée : crumble aux amandes croquant, lemon curd onctueux et meringue italienne brillante.",
+    "images": {
+      "cover": "images/recipes/verrines-tarte-citron-meringuee/cover.jpg",
+      "web": "images/recipes/verrines-tarte-citron-meringuee/web.jpg"
+    },
+    "imageCredit": {
+      "author": "Cuisine Actuelle",
+      "url": "https://img.cuisineactuelle.fr/1200x900/2019/02/15/i13587-tarte-au-citron-en-verrine.webp"
+    },
+    "prepTime": 30,
+    "cookTime": 25,
+    "servings": 8,
+    "difficulty": "Medio",
+    "category": "Dolci",
+    "tags": [
+      "dessert",
+      "végétarien",
+      "en-verrines",
+      "festif",
+      "acidulé",
+      "croustillant",
+      "onctueux",
+      "froid",
+      "à-partager"
+    ],
+    "translations": {
+      "en": {
+        "title": "Lemon Meringue Pie Verrines",
+        "description": "A deconstructed lemon meringue tart served in individual glasses, with crunchy almond crumble, creamy lemon curd and glossy Italian meringue.",
+        "tags": [
+          "dessert",
+          "vegetarian",
+          "in-glasses",
+          "festive",
+          "tangy",
+          "crispy",
+          "creamy",
+          "cold",
+          "to-share"
+        ]
+      },
+      "it": {
+        "title": "Verrines Stile Crostata al Limone Meringuata",
+        "description": "Rivisitazione in bicchierini della crostata al limone meringuata: crumble croccante alle mandorle, lemon curd cremoso e meringa italiana lucida.",
+        "tags": [
+          "dessert",
+          "vegetariano",
+          "in-bicchierini",
+          "festivo",
+          "acidulo",
+          "croccante",
+          "cremoso",
+          "freddo",
+          "da-condividere"
+        ]
+      }
+    },
+    "stepCount": 9,
+    "ingredientCount": 11
+  },
+  {
+    "slug": "gateau-de-savoie",
+    "title": "Gâteau de Savoie",
+    "description": "Gâteau traditionnel savoyard, ultra-léger et aérien, réalisé à base de Maïzena et d'œufs battus en neige avec un délicat parfum de citron.",
+    "images": {
+      "cover": "images/recipes/gateau-de-savoie/cover.jpg",
+      "web": "images/recipes/gateau-de-savoie/web.jpg"
+    },
+    "prepTime": 20,
+    "cookTime": 41,
+    "servings": 6,
+    "difficulty": "Medio",
+    "category": "Dolci",
+    "tags": [
+      "four",
+      "dessert",
+      "français",
+      "végétarien",
+      "moelleux",
+      "léger",
+      "traditionnel",
+      "goûter",
+      "acidulé"
+    ],
+    "translations": {
+      "en": {
+        "title": "Gâteau de Savoie",
+        "description": "Traditional Savoyard cake, ultra-light and airy, made with cornstarch and whipped egg whites with a delicate lemon flavor.",
+        "tags": [
+          "oven",
+          "dessert",
+          "french",
+          "vegetarian",
+          "soft",
+          "light",
+          "traditional",
+          "snack",
+          "tangy"
+        ]
+      },
+      "it": {
+        "title": "Torta di Savoia",
+        "description": "Torta tradizionale savoiarda, leggerissima e ariosa, realizzata con amido di mais e albumi montati a neve con un delicato aroma di limone.",
+        "tags": [
+          "forno",
+          "dessert",
+          "francese",
+          "vegetariano",
+          "morbido",
+          "leggero",
+          "tradizionale",
+          "merenda",
+          "acidulo"
+        ]
+      }
+    },
+    "stepCount": 10,
+    "ingredientCount": 8
+  },
+  {
+    "slug": "ravioli-prosciutto-caprino",
+    "title": "Ravioles de jambon de pays et chèvre frais, pesto et roquette",
+    "description": "Des ravioles garnies de chèvre frais et de jambon de pays, nappées d'un pesto au basilic et servies avec une roquette aux tomates séchées.",
+    "images": {
+      "cover": "images/recipes/ravioli-prosciutto-caprino/cover.jpg",
+      "web": "images/recipes/ravioli-prosciutto-caprino/web.jpg"
+    },
+    "imageCredit": {
+      "author": "Atelier des Chefs",
+      "url": "https://www.atelierdeschefs.fr/recettes/14110/raviole-de-jambon-de-pays-et-chevre-frais-pesto-et-roquette/"
+    },
+    "prepTime": 45,
+    "cookTime": 3,
+    "servings": 4,
+    "difficulty": "Medio",
+    "category": "Pasta",
+    "tags": [
+      "pâtes",
+      "porc",
+      "fromage",
+      "pesto",
+      "festif",
+      "plat-principal",
+      "français",
+      "chaud",
+      "onctueux"
+    ],
+    "translations": {
+      "en": {
+        "title": "Country Ham and Fresh Goat Cheese Ravioli with Pesto and Rocket",
+        "description": "Ravioles filled with fresh goat cheese and country ham, topped with basil pesto and served with arugula and sun-dried tomatoes.",
+        "tags": [
+          "pasta",
+          "pork",
+          "cheese",
+          "pesto",
+          "festive",
+          "main-course",
+          "french",
+          "hot",
+          "creamy"
+        ]
+      },
+      "it": {
+        "title": "Ravioli di Prosciutto Crudo e Caprino Fresco con Pesto e Rucola",
+        "description": "Ravioli ripieni di caprino fresco e prosciutto crudo, nappati di pesto al basilico e serviti con rucola e pomodori secchi.",
+        "tags": [
+          "pasta",
+          "maiale",
+          "formaggio",
+          "pesto",
+          "festivo",
+          "primo-piatto",
+          "francese",
+          "caldo",
+          "cremoso"
+        ]
+      }
+    },
+    "stepCount": 8,
+    "ingredientCount": 15
+  },
+  {
+    "slug": "panna-cotta-aux-framboises",
+    "title": "Panna cotta aux framboises et tuile croustillante",
+    "description": "Un dessert italien onctueux à la crème, servi avec un coulis de framboises maison et une tuile croustillante aux amandes.",
+    "images": {
+      "cover": "images/recipes/panna-cotta-aux-framboises/cover.jpg",
+      "web": "images/recipes/panna-cotta-aux-framboises/web.jpg"
+    },
+    "prepTime": 30,
+    "cookTime": 8,
+    "servings": 12,
+    "difficulty": "Medio",
+    "category": "Dolci",
+    "tags": [
+      "dessert",
+      "italien",
+      "froid",
+      "fruits",
+      "végétarien",
+      "onctueux",
+      "festif",
+      "préparation-à-lavance",
+      "sans-gluten"
+    ],
+    "translations": {
+      "en": {
+        "title": "Panna Cotta with Raspberries and Crispy Tuile",
+        "description": "A silky Italian cream dessert served with a homemade raspberry coulis and a crunchy almond tuile.",
+        "tags": [
+          "dessert",
+          "italian",
+          "cold",
+          "fruit",
+          "vegetarian",
+          "creamy",
+          "festive",
+          "make-ahead",
+          "gluten-free"
+        ]
+      },
+      "it": {
+        "title": "Panna Cotta ai Lamponi con Tegola Croccante",
+        "description": "Un morbido dessert italiano alla panna, servito con un coulis di lamponi fatto in casa e una croccante tuile alle mandorle.",
+        "tags": [
+          "dessert",
+          "italiano",
+          "freddo",
+          "frutta",
+          "vegetariano",
+          "cremoso",
+          "festivo",
+          "preparazione-in-anticipo",
+          "senza-glutine"
+        ]
+      }
+    },
+    "stepCount": 7,
+    "ingredientCount": 11
+  },
+  {
+    "slug": "creme-avocat-mousse-concombre",
+    "title": "Crème d'avocat, mousse au concombre, tomate cerise marinée",
+    "description": "Un élégant amuse-bouche en verrine : une crème d'avocat onctueuse surmontée d'une mousse légère au concombre et de tomates cerises marinées au basilic.",
+    "images": {
+      "cover": "images/recipes/creme-avocat-mousse-concombre/cover.jpg",
+      "web": "images/recipes/creme-avocat-mousse-concombre/web.jpg"
+    },
+    "prepTime": 20,
+    "cookTime": 0,
+    "servings": 2,
+    "difficulty": "Facile",
+    "category": "Antipasti",
+    "tags": [
+      "entrée",
+      "végétarien",
+      "no-cuisson",
+      "en-verrines",
+      "léger",
+      "froid",
+      "fruits",
+      "apéro",
+      "onctueux",
+      "sans-gluten"
+    ],
+    "translations": {
+      "en": {
+        "title": "Avocado Cream, Cucumber Mousse and Marinated Cherry Tomato",
+        "description": "An elegant appetizer served in glasses: a creamy avocado base topped with a light cucumber mousse and basil-marinated cherry tomatoes.",
+        "tags": [
+          "starter",
+          "vegetarian",
+          "no-cook",
+          "in-glasses",
+          "light",
+          "cold",
+          "fruit",
+          "appetizer",
+          "creamy",
+          "gluten-free"
+        ]
+      },
+      "it": {
+        "title": "Crema di Avocado, Mousse al Cetriolo e Pomodorino Marinato",
+        "description": "Un elegante antipasto in verrine: una crema di avocado vellutata sormontata da una mousse leggera al cetriolo e pomodorini marinati al basilico.",
+        "tags": [
+          "antipasto",
+          "vegetariano",
+          "senza-cottura",
+          "in-bicchierini",
+          "leggero",
+          "freddo",
+          "frutta",
+          "aperitivo",
+          "cremoso",
+          "senza-glutine"
+        ]
+      }
+    },
+    "stepCount": 10,
+    "ingredientCount": 13
+  },
+  {
+    "slug": "poulet-korma-riz-basmati",
+    "title": "Poulet Korma et Riz Basmati",
+    "description": "Dés de poulet dorés mijotés dans un lait de coco parfumé au garam masala, curcuma et cumin, servis sur un lit de riz basmati.",
+    "images": {
+      "cover": "images/recipes/poulet-korma-riz-basmati/cover.jpg",
+      "web": "images/recipes/poulet-korma-riz-basmati/web.jpg"
+    },
+    "prepTime": 15,
+    "cookTime": 20,
+    "servings": 2,
+    "difficulty": "Facile",
+    "category": "Secondi",
+    "tags": [
+      "poulet",
+      "riz",
+      "indien",
+      "mijoté",
+      "plat-principal",
+      "chaud",
+      "réconfortant",
+      "doux",
+      "épicé"
+    ],
+    "translations": {
+      "en": {
+        "title": "Chicken Korma with Basmati Rice",
+        "description": "Golden chicken cubes simmered in coconut milk flavored with garam masala, turmeric and cumin, served on a bed of basmati rice.",
+        "tags": [
+          "chicken",
+          "rice",
+          "indian",
+          "simmered",
+          "main-course",
+          "hot",
+          "comforting",
+          "mild",
+          "spiced"
+        ]
+      },
+      "it": {
+        "title": "Pollo Korma con Riso Basmati",
+        "description": "Bocconcini di pollo dorati stufati in latte di cocco profumato con garam masala, curcuma e cumino, serviti su un letto di riso basmati.",
+        "tags": [
+          "pollo",
+          "riso",
+          "indiano",
+          "brasato",
+          "piatto-principale",
+          "caldo",
+          "confortante",
+          "delicato",
+          "speziato"
+        ]
+      }
+    },
+    "stepCount": 8,
+    "ingredientCount": 12
+  },
+  {
+    "slug": "coquillettes-jambon-truffe",
+    "title": "Coquillettes jambon et truffe noire",
+    "description": "Coquillettes sautées au beurre et mijotées au bouillon de volaille, garnies de lamelles de jambon au torchon et de truffe noire émincée, servies avec du parmesan râpé.",
+    "images": {
+      "cover": "images/recipes/coquillettes-jambon-truffe/cover.jpg",
+      "web": "images/recipes/coquillettes-jambon-truffe/web.jpg"
+    },
+    "prepTime": 15,
+    "cookTime": 10,
+    "servings": 4,
+    "difficulty": "Facile",
+    "category": "Pasta",
+    "tags": [
+      "pâtes",
+      "porc",
+      "rapide",
+      "réconfortant",
+      "festif",
+      "fromage",
+      "chaud",
+      "gourmand",
+      "plat-principal",
+      "français"
+    ],
+    "translations": {
+      "en": {
+        "title": "Macaroni with Ham and Black Truffle",
+        "description": "Pasta tubes sautéed in butter and simmered in chicken stock, topped with sliced cooked ham and shaved black truffle, served with grated parmesan.",
+        "tags": [
+          "pasta",
+          "pork",
+          "quick",
+          "comforting",
+          "festive",
+          "cheese",
+          "hot",
+          "indulgent",
+          "main-course",
+          "french"
+        ]
+      },
+      "it": {
+        "title": "Coquillettes Prosciutto e Tartufo Nero",
+        "description": "Coquillettes saltate nel burro e cotte nel brodo di pollo, guarnite con lamelle di prosciutto cotto e tartufo nero affettato, servite con parmigiano grattugiato.",
+        "tags": [
+          "pasta",
+          "maiale",
+          "veloce",
+          "confortante",
+          "festivo",
+          "formaggio",
+          "caldo",
+          "goloso",
+          "primo-piatto",
+          "francese"
+        ]
+      }
+    },
+    "stepCount": 3,
+    "ingredientCount": 7
+  },
+  {
+    "slug": "coulant-au-chocolat",
+    "title": "Coulant au Chocolat",
+    "description": "Petit gâteau au chocolat noir avec un cœur fondant et coulant, prêt en 20 minutes seulement avec 5 ingrédients.",
+    "images": {
+      "cover": "images/recipes/coulant-au-chocolat/cover.jpg",
+      "web": "images/recipes/coulant-au-chocolat/web.jpg"
+    },
+    "prepTime": 10,
+    "cookTime": 8,
+    "servings": 2,
+    "difficulty": "Facile",
+    "category": "Dolci",
+    "tags": [
+      "four",
+      "dessert",
+      "chocolat",
+      "rapide",
+      "5-ingrédients",
+      "fondant",
+      "gourmand",
+      "réconfortant",
+      "festif"
+    ],
+    "translations": {
+      "en": {
+        "title": "Chocolate Lava Cake",
+        "description": "Individual dark chocolate cake with a molten, flowing center, ready in just 20 minutes with only 5 ingredients.",
+        "tags": [
+          "oven",
+          "dessert",
+          "chocolate",
+          "quick",
+          "5-ingredients",
+          "molten",
+          "indulgent",
+          "comforting",
+          "festive"
+        ]
+      },
+      "it": {
+        "title": "Coulant al Cioccolato",
+        "description": "Piccolo tortino al cioccolato fondente con cuore morbido e colante, pronto in soli 20 minuti con 5 ingredienti.",
+        "tags": [
+          "forno",
+          "dessert",
+          "cioccolato",
+          "veloce",
+          "5-ingredienti",
+          "fondente",
+          "goloso",
+          "confortante",
+          "festivo"
+        ]
+      }
+    },
+    "stepCount": 7,
+    "ingredientCount": 5
+  },
+  {
+    "slug": "katsudon",
+    "title": "Katsudon",
+    "description": "Le katsudon est un plat japonais réconfortant composé d'une escalope de porc panée au panko (tonkatsu), mijotée dans une sauce dashi-soja avec des oignons et des œufs, servie sur un bol de riz chaud.",
+    "images": {
+      "cover": "images/recipes/katsudon/cover.jpg",
+      "web": "images/recipes/katsudon/web.jpg"
+    },
+    "prepTime": 25,
+    "cookTime": 35,
+    "servings": 4,
+    "difficulty": "Facile",
+    "category": "Secondi",
+    "tags": [
+      "japonais",
+      "porc",
+      "riz",
+      "friture",
+      "réconfortant",
+      "chaud",
+      "plat-principal",
+      "umami",
+      "asiatique",
+      "œufs"
+    ],
+    "translations": {
+      "en": {
+        "title": "Katsudon",
+        "description": "Katsudon is a comforting Japanese dish of panko-breaded pork cutlet (tonkatsu) simmered in a dashi-soy sauce with onions and eggs, served over a bowl of steamed rice.",
+        "tags": [
+          "japanese",
+          "pork",
+          "rice",
+          "fried",
+          "comforting",
+          "hot",
+          "main-course",
+          "umami",
+          "asian",
+          "eggs"
+        ]
+      },
+      "it": {
+        "title": "Katsudon",
+        "description": "Il katsudon è un piatto giapponese confortante a base di cotoletta di maiale impanata nel panko (tonkatsu), cotta a fuoco lento in una salsa dashi-soia con cipolla e uova, servita su una ciotola di riso caldo.",
+        "tags": [
+          "giapponese",
+          "maiale",
+          "riso",
+          "fritto",
+          "confortante",
+          "caldo",
+          "piatto-principale",
+          "umami",
+          "asiatico",
+          "uova"
+        ]
+      }
+    },
+    "stepCount": 8,
+    "ingredientCount": 17
+  },
+  {
+    "slug": "gnocchi-broccoli-al-forno",
+    "title": "Gnocchi & Brocoli en Folie (au four !)",
+    "description": "Gnocchi et brocolis rôtis au four en une seule plaque, avec citron, ail et pecorino. Prêt en 25 minutes.",
+    "images": {
+      "cover": "images/recipes/gnocchi-broccoli-al-forno/cover.jpg",
+      "web": "images/recipes/gnocchi-broccoli-al-forno/web.jpg"
+    },
+    "prepTime": 5,
+    "cookTime": 25,
+    "servings": 1,
+    "difficulty": "Facile",
+    "category": "Gnocchi",
+    "tags": [
+      "four",
+      "végétarien",
+      "rapide",
+      "légumes",
+      "plat-principal",
+      "chaud",
+      "réconfortant",
+      "fromage",
+      "one-pot",
+      "italien"
+    ],
+    "translations": {
+      "en": {
+        "title": "Baked Gnocchi & Broccoli Madness",
+        "description": "Gnocchi and broccoli oven-roasted on a single pan with lemon, garlic and pecorino. Ready in 25 minutes.",
+        "tags": [
+          "oven",
+          "vegetarian",
+          "quick",
+          "vegetables",
+          "main-course",
+          "hot",
+          "comforting",
+          "cheese",
+          "one-pan",
+          "italian"
+        ]
+      },
+      "it": {
+        "title": "Gnocchi e Broccoli al Forno",
+        "description": "Gnocchi e broccoli arrostiti in forno in un'unica teglia, con limone, aglio e pecorino. Pronti in 25 minuti.",
+        "tags": [
+          "forno",
+          "vegetariano",
+          "veloce",
+          "verdure",
+          "primo-piatto",
+          "caldo",
+          "confortante",
+          "formaggio",
+          "one-pan",
+          "italiano"
+        ]
+      }
+    },
+    "stepCount": 5,
+    "ingredientCount": 10
+  },
+  {
+    "slug": "gnocchi-crema-peperone",
+    "title": "Gnocchi à la crème de poivron",
+    "description": "Gnocchi de pomme de terre nappés d'une sauce crémeuse aux poivrons rouges et parmesan, une recette savoureuse et rapide inspirée de la Toscane.",
+    "images": {
+      "cover": "images/recipes/gnocchi-crema-peperone/cover.jpg",
+      "web": "images/recipes/gnocchi-crema-peperone/web.jpg"
+    },
+    "prepTime": 5,
+    "cookTime": 10,
+    "servings": 2,
+    "difficulty": "Facile",
+    "category": "Gnocchi",
+    "tags": [
+      "poêle",
+      "végétarien",
+      "rapide",
+      "légumes",
+      "plat-principal",
+      "onctueux",
+      "italien",
+      "réconfortant",
+      "chaud",
+      "fromage"
+    ],
+    "translations": {
+      "en": {
+        "title": "Gnocchi with Bell Pepper Cream",
+        "description": "Potato gnocchi topped with a creamy roasted red pepper and parmesan sauce, a quick and flavourful recipe inspired by Tuscany.",
+        "tags": [
+          "pan",
+          "vegetarian",
+          "quick",
+          "vegetables",
+          "main-course",
+          "creamy",
+          "italian",
+          "comforting",
+          "hot",
+          "cheese"
+        ]
+      },
+      "it": {
+        "title": "Gnocchi alla Crema di Peperone",
+        "description": "Gnocchi di patate conditi con una vellutata crema di peperone rosso e parmigiano, una ricetta saporita e veloce ispirata alla Toscana.",
+        "tags": [
+          "padella",
+          "vegetariano",
+          "veloce",
+          "verdure",
+          "primo-piatto",
+          "cremoso",
+          "italiano",
+          "confortante",
+          "caldo",
+          "formaggio"
+        ]
+      }
+    },
+    "stepCount": 5,
+    "ingredientCount": 6
+  },
+  {
+    "slug": "palets-cereales-abricots",
+    "title": "Palets aux céréales et abricots",
+    "description": "Biscuits énergétiques aux flocons d'avoine, amandes, noisettes, abricots secs et baies de goji, sans lactose et sans sucre ajouté.",
+    "images": {
+      "cover": "images/recipes/palets-cereales-abricots/cover.jpg",
+      "web": "images/recipes/palets-cereales-abricots/web.jpg"
+    },
+    "prepTime": 10,
+    "cookTime": 15,
+    "servings": 12,
+    "difficulty": "Facile",
+    "category": "Breakfast",
+    "tags": [
+      "petit-déjeuner",
+      "sans-lactose",
+      "végétarien",
+      "sans-sucre",
+      "léger",
+      "goûter",
+      "rapide",
+      "riche-en-fibres",
+      "équilibré",
+      "four"
+    ],
+    "translations": {
+      "en": {
+        "description": "Energy biscuits made with oat flakes, almonds, hazelnuts, dried apricots and goji berries, lactose-free and with no added sugar.",
+        "tags": [
+          "breakfast",
+          "dairy-free",
+          "vegetarian",
+          "sugar-free",
+          "light",
+          "snack",
+          "quick",
+          "high-fiber",
+          "balanced",
+          "oven"
+        ]
+      },
+      "it": {
+        "description": "Biscotti energetici con fiocchi d'avena, mandorle, nocciole, albicocche secche e bacche di goji, senza lattosio e senza zuccheri aggiunti.",
+        "tags": [
+          "colazione",
+          "senza-lattosio",
+          "vegetariano",
+          "senza-zucchero",
+          "leggero",
+          "merenda",
+          "veloce",
+          "ricco-di-fibre",
+          "equilibrato",
+          "forno"
+        ]
+      }
+    },
+    "stepCount": 3,
+    "ingredientCount": 9
+  },
+  {
+    "slug": "creme-de-carottes-aux-pommes",
+    "title": "Crème de carottes aux pommes",
+    "description": "Une crème de carotte à la pomme, fraîche et colorée, parfaite pour un apéro dînatoire ou une entrée légère et gourmande.",
+    "images": {
+      "cover": "images/recipes/creme-de-carottes-aux-pommes/cover.jpg",
+      "web": "images/recipes/creme-de-carottes-aux-pommes/web.jpg"
+    },
+    "prepTime": 12,
+    "cookTime": 18,
+    "servings": 2,
+    "difficulty": "Facile",
+    "category": "Antipasti",
+    "tags": [
+      "entrée",
+      "végétalien",
+      "végétarien",
+      "apéro",
+      "léger",
+      "sans-gluten",
+      "en-verrines",
+      "froid",
+      "onctueux",
+      "légumes"
+    ],
+    "translations": {
+      "en": {
+        "description": "A fresh and colorful carrot and apple cream, perfect for a cocktail appetizer or a light, indulgent starter.",
+        "tags": [
+          "starter",
+          "vegan",
+          "vegetarian",
+          "appetizer",
+          "light",
+          "gluten-free",
+          "in-glasses",
+          "cold",
+          "creamy",
+          "vegetables"
+        ]
+      },
+      "it": {
+        "description": "Una crema di carote alla mela, fresca e colorata, perfetta per un aperitivo sfiziante o un antipasto leggero e goloso.",
+        "tags": [
+          "antipasto",
+          "vegano",
+          "vegetariano",
+          "aperitivo",
+          "leggero",
+          "senza-glutine",
+          "in-bicchierini",
+          "freddo",
+          "cremoso",
+          "verdure"
+        ]
+      }
+    },
+    "stepCount": 3,
+    "ingredientCount": 5
+  },
+  {
+    "slug": "rouleaux-de-printemps",
+    "title": "Rouleaux de printemps",
+    "description": "Des rouleaux de printemps frais et légers à la thaïlandaise, garnis de légumes croquants et d'herbes aromatiques, servis avec une sauce citronnée.",
+    "images": {
+      "cover": "images/recipes/rouleaux-de-printemps/cover.jpg",
+      "web": "images/recipes/rouleaux-de-printemps/web.jpg"
+    },
+    "prepTime": 10,
+    "cookTime": 20,
+    "servings": 2,
+    "difficulty": "Facile",
+    "category": "Antipasti",
+    "tags": [
+      "entrée",
+      "végétarien",
+      "cru",
+      "asiatique",
+      "légumes",
+      "léger",
+      "sans-gluten",
+      "finger-food",
+      "froid",
+      "printemps"
+    ],
+    "translations": {
+      "en": {
+        "description": "Fresh and light Thai-inspired spring rolls filled with crunchy vegetables and aromatic herbs, served with a citrusy dipping sauce.",
+        "tags": [
+          "starter",
+          "vegetarian",
+          "raw",
+          "asian",
+          "vegetables",
+          "light",
+          "gluten-free",
+          "finger-food",
+          "cold",
+          "spring"
+        ]
+      },
+      "it": {
+        "description": "Freschi e leggeri rotolini primavera in stile tailandese, ripieni di verdure croccanti ed erbe aromatiche, serviti con una salsa al limone.",
+        "tags": [
+          "antipasto",
+          "vegetariano",
+          "crudo",
+          "asiatico",
+          "verdure",
+          "leggero",
+          "senza-glutine",
+          "finger-food",
+          "freddo",
+          "primavera"
+        ]
+      }
+    },
+    "stepCount": 6,
+    "ingredientCount": 12
+  },
+  {
+    "slug": "rouleaux-de-saison-fleurs-fruits-legumes",
+    "title": "Rouleaux de saison, fleurs, fruits et légumes",
+    "description": "Des rouleaux de riz garnis de légumes de saison, fleurs comestibles et basilic thaï, accompagnés d'une sauce tamarin, soja et cacahuètes.",
+    "images": {
+      "cover": "images/recipes/rouleaux-de-saison-fleurs-fruits-legumes/cover.jpg",
+      "web": "images/recipes/rouleaux-de-saison-fleurs-fruits-legumes/web.jpg"
+    },
+    "prepTime": 20,
+    "cookTime": 0,
+    "servings": 4,
+    "difficulty": "Facile",
+    "category": "Antipasti",
+    "tags": [
+      "entrée",
+      "végétarien",
+      "no-cuisson",
+      "asiatique",
+      "légumes",
+      "léger",
+      "sans-gluten",
+      "finger-food",
+      "froid",
+      "printemps",
+      "fruits"
+    ],
+    "translations": {
+      "en": {
+        "description": "Rice paper rolls filled with seasonal vegetables, edible flowers and Thai basil, served with a tamarind, soy and peanut dipping sauce.",
+        "tags": [
+          "starter",
+          "vegetarian",
+          "no-cook",
+          "asian",
+          "vegetables",
+          "light",
+          "gluten-free",
+          "finger-food",
+          "cold",
+          "spring",
+          "fruit"
+        ]
+      },
+      "it": {
+        "description": "Rotolini di riso ripieni di verdure di stagione, fiori commestibili e basilico tailandese, accompagnati da una salsa al tamarindo, soia e arachidi.",
+        "tags": [
+          "antipasto",
+          "vegetariano",
+          "senza-cottura",
+          "asiatico",
+          "verdure",
+          "leggero",
+          "senza-glutine",
+          "finger-food",
+          "freddo",
+          "primavera",
+          "frutta"
+        ]
+      }
+    },
+    "stepCount": 6,
+    "ingredientCount": 12
+  },
+  {
+    "slug": "pasta-pesto-agrumes",
+    "title": "Pasta au Pesto d'Agrumes Sicilien",
+    "description": "Pâtes au pesto sicilien de basilic et d'agrumes, une sauce onctueuse à base d'oranges, de pamplemousse rose et d'amandes sans cuisson.",
+    "images": {
+      "cover": "images/recipes/pasta-pesto-agrumes/cover.jpg",
+      "web": "images/recipes/pasta-pesto-agrumes/web.jpg"
+    },
+    "prepTime": 15,
+    "cookTime": 10,
+    "servings": 4,
+    "difficulty": "Facile",
+    "category": "Pasta",
+    "tags": [
+      "végétarien",
+      "sans-lactose",
+      "méditerranéen",
+      "été",
+      "rapide",
+      "léger",
+      "acidulé",
+      "plat-principal",
+      "pâtes",
+      "robot-pâtissier"
+    ],
+    "translations": {
+      "en": {
+        "title": "Pasta with Sicilian Citrus Pesto",
+        "description": "Pasta tossed with a Sicilian citrus and basil pesto, a creamy no-cook sauce made with oranges, pink grapefruit, and almonds.",
+        "tags": [
+          "vegetarian",
+          "dairy-free",
+          "mediterranean",
+          "summer",
+          "quick",
+          "light",
+          "tangy",
+          "main-course",
+          "pasta",
+          "food-processor"
+        ]
+      },
+      "it": {
+        "title": "Pasta al Pesto di Agrumi Siciliano",
+        "description": "Pasta condita con un pesto siciliano di agrumi e basilico, una salsa cremosa a freddo con arance, pompelmo rosa e mandorle.",
+        "tags": [
+          "vegetariano",
+          "senza-lattosio",
+          "mediterraneo",
+          "estate",
+          "veloce",
+          "leggero",
+          "acidulo",
+          "primo-piatto",
+          "pasta",
+          "robot-da-cucina"
+        ]
+      }
+    },
+    "stepCount": 6,
+    "ingredientCount": 8
+  },
+  {
+    "slug": "curry-paneng-poulet-feuilles-combawa",
+    "title": "Curry Paneng au Poulet et Feuilles de Combawa",
+    "description": "Un curry thaï crémeux au poulet, parfumé aux feuilles de combawa et au lait de coco, relevé d'une touche de tamarin et de sucre de palmier.",
+    "images": {
+      "cover": "images/recipes/curry-paneng-poulet-feuilles-combawa/cover.jpg",
+      "web": "images/recipes/curry-paneng-poulet-feuilles-combawa/web.jpg"
+    },
+    "prepTime": 10,
+    "cookTime": 20,
+    "servings": 4,
+    "difficulty": "Facile",
+    "category": "Secondi",
+    "tags": [
+      "asiatique",
+      "thaï",
+      "poulet",
+      "épicé",
+      "mijoté",
+      "rapide",
+      "plat-principal",
+      "sucré-salé",
+      "sans-gluten",
+      "lait-de-coco",
+      "chaud",
+      "réconfortant"
+    ],
+    "stepCount": 7,
+    "ingredientCount": 9,
+    "translations": {
+      "en": {
+        "title": "Paneng Chicken Curry with Kaffir Lime Leaves",
+        "description": "A creamy Thai Paneng curry with chicken, fragrant kaffir lime leaves and coconut milk, with a hint of tamarind and palm sugar.",
+        "tags": [
+          "asian",
+          "thai",
+          "chicken",
+          "spicy",
+          "simmered",
+          "quick",
+          "main-course",
+          "sweet-savory",
+          "gluten-free",
+          "coconut-milk",
+          "hot",
+          "comforting"
+        ]
+      },
+      "it": {
+        "title": "Curry Paneng di Pollo con Foglie di Combava",
+        "description": "Un cremoso curry tailandese Paneng con pollo, profumato con foglie di combava e latte di cocco, con un tocco di tamarindo e zucchero di palma.",
+        "tags": [
+          "asiatico",
+          "thai",
+          "pollo",
+          "speziato",
+          "stufato",
+          "veloce",
+          "piatto-principale",
+          "agrodolce",
+          "senza-glutine",
+          "latte-di-cocco",
+          "caldo",
+          "confortante"
+        ]
+      }
+    }
+  },
+  {
+    "slug": "polpette-al-sugo",
+    "title": "Polpette al sugo",
+    "description": "Des boulettes de viande juteuses mijotées dans une riche sauce tomate aux herbes fraîches, un grand classique de la cuisine italienne.",
+    "images": {
+      "cover": "images/recipes/polpette-al-sugo/cover.jpg",
+      "web": "images/recipes/polpette-al-sugo/web.jpg"
+    },
+    "prepTime": 30,
+    "cookTime": 45,
+    "servings": 6,
+    "difficulty": "Medio",
+    "category": "Secondi",
+    "tags": [
+      "mijoté",
+      "bœuf",
+      "fromage",
+      "sauce-tomate",
+      "italien",
+      "réconfortant",
+      "convivial",
+      "plat-principal",
+      "hiver",
+      "automne",
+      "poêle",
+      "se-congèle"
+    ],
+    "ingredientCount": 21,
+    "stepCount": 9,
+    "translations": {
+      "en": {
+        "title": "Italian Meatballs in Tomato Sauce",
+        "description": "Juicy beef meatballs simmered in a rich herb-filled tomato sauce, a beloved classic of Italian cuisine.",
+        "tags": [
+          "simmered",
+          "beef",
+          "cheese",
+          "tomato-sauce",
+          "italian",
+          "comforting",
+          "family-friendly",
+          "main-course",
+          "winter",
+          "autumn",
+          "pan",
+          "freezer-friendly"
+        ]
+      },
+      "it": {
+        "title": "Polpette al sugo",
+        "description": "Polpette di carne succose cotte a fuoco lento in un ricco sugo di pomodoro alle erbe fresche, un grande classico della cucina italiana.",
+        "tags": [
+          "stufato",
+          "manzo",
+          "formaggio",
+          "sugo-di-pomodoro",
+          "italiano",
+          "confortante",
+          "conviviale",
+          "secondo-piatto",
+          "inverno",
+          "autunno",
+          "padella",
+          "si-congela"
+        ]
+      }
+    }
+  },
+  {
+    "slug": "pain-pita-turbo",
+    "title": "Pain pita turbo",
+    "description": "Des pitas moelleux prêts en quelques minutes, sans four ni levée, avec seulement 4 ingrédients.",
+    "images": {
+      "cover": "images/recipes/pain-pita-turbo/cover.jpg",
+      "web": "images/recipes/pain-pita-turbo/web.jpg"
+    },
+    "prepTime": 10,
+    "cookTime": 15,
+    "servings": 6,
+    "difficulty": "Facile",
+    "category": "Pane",
+    "tags": [
+      "poêle",
+      "rapide",
+      "facile",
+      "végétarien",
+      "enfants",
+      "5-ingrédients",
+      "économique",
+      "réconfortant",
+      "snack",
+      "méditerranéen",
+      "sans-équipement-spécial"
+    ],
+    "ingredientCount": 4,
+    "stepCount": 3,
+    "translations": {
+      "en": {
+        "title": "Turbo Pita Bread",
+        "description": "Soft pitas ready in minutes, no oven or rising time needed, with just 4 ingredients.",
+        "tags": [
+          "pan",
+          "quick",
+          "easy",
+          "vegetarian",
+          "kids",
+          "5-ingredients",
+          "budget",
+          "comforting",
+          "snack",
+          "mediterranean",
+          "no-special-equipment"
+        ]
+      },
+      "it": {
+        "title": "Pita turbo",
+        "description": "Pite morbide pronte in pochi minuti, senza forno né lievitazione, con soli 4 ingredienti.",
+        "tags": [
+          "padella",
+          "veloce",
+          "facile",
+          "vegetariano",
+          "bambini",
+          "5-ingredienti",
+          "economico",
+          "confortante",
+          "snack",
+          "mediterraneo",
+          "senza-attrezzatura-speciale"
+        ]
+      }
+    }
+  },
+  {
+    "slug": "poulet-au-curry",
+    "title": "Poulet au curry",
+    "description": "Un curry de poulet facile et parfumé, mijoté avec du lait de coco, des tomates et des épices doucement relevées.",
+    "images": {
+      "cover": "images/recipes/poulet-au-curry/cover.png",
+      "web": "images/recipes/poulet-au-curry/web.png"
+    },
+    "prepTime": 25,
+    "cookTime": 30,
+    "servings": 4,
+    "difficulty": "Facile",
+    "category": "Secondi",
+    "tags": [
+      "mijoté",
+      "poêle",
+      "poulet",
+      "plat-principal",
+      "asiatique",
+      "réconfortant",
+      "épicé",
+      "sans-gluten",
+      "rapide",
+      "chaud",
+      "toute-la-famille"
+    ],
+    "ingredientCount": 11,
+    "stepCount": 4,
+    "translations": {
+      "en": {
+        "title": "Chicken Curry",
+        "description": "An easy and fragrant chicken curry, simmered with coconut milk, tomatoes and gently spiced aromatics.",
+        "tags": [
+          "simmered",
+          "pan",
+          "chicken",
+          "main-course",
+          "asian",
+          "comforting",
+          "spicy",
+          "gluten-free",
+          "quick",
+          "hot",
+          "family-friendly"
+        ]
+      },
+      "it": {
+        "title": "Pollo al curry",
+        "description": "Un curry di pollo facile e profumato, cotto a fuoco lento con latte di cocco, pomodori e spezie delicatamente piccanti.",
+        "tags": [
+          "stufato",
+          "padella",
+          "pollo",
+          "piatto-principale",
+          "asiatico",
+          "confortante",
+          "piccante",
+          "senza-glutine",
+          "veloce",
+          "caldo",
+          "tutta-la-famiglia"
+        ]
+      }
+    }
+  },
+  {
+    "slug": "coquilletto-au-chorizo",
+    "title": "Coquilletto au Chorizo",
+    "description": "Des coquillettes cuisinées façon risotto dans la bière ambrée avec du chorizo croustillant — un plat réconfortant et original.",
+    "images": {
+      "cover": "images/recipes/coquilletto-au-chorizo/cover.jpg",
+      "web": "images/recipes/coquilletto-au-chorizo/web.jpg"
+    },
+    "prepTime": 10,
+    "cookTime": 30,
+    "servings": 4,
+    "difficulty": "Facile",
+    "category": "Risotto",
+    "tags": [
+      "pâtes",
+      "chorizo",
+      "porc",
+      "bière",
+      "rapide",
+      "réconfortant",
+      "plat-principal",
+      "fromage",
+      "épicé",
+      "français"
+    ],
+    "ingredientCount": 8,
+    "stepCount": 5,
+    "translations": {
+      "en": {
+        "title": "Coquilletto with Chorizo",
+        "description": "Shell pasta cooked risotto-style in amber beer with crispy chorizo — a comforting and original dish.",
+        "tags": [
+          "pasta",
+          "chorizo",
+          "pork",
+          "beer",
+          "quick",
+          "comforting",
+          "main-course",
+          "cheese",
+          "spicy",
+          "french"
+        ]
+      },
+      "it": {
+        "title": "Coquillette al Chorizo",
+        "description": "Coquillette cotte come un risotto nella birra ambrata con chorizo croccante — un piatto confortante e originale.",
+        "tags": [
+          "pasta",
+          "chorizo",
+          "maiale",
+          "birra",
+          "veloce",
+          "confortante",
+          "piatto-principale",
+          "formaggio",
+          "speziato",
+          "francese"
+        ]
+      }
+    }
+  },
+  {
+    "slug": "effiloche-de-porc",
+    "title": "Effiloché de Porc Sauce Barbecue",
+    "description": "Un effiloché de porc fondant cuit 3 heures au four dans une sauce barbecue maison — le plat parfait pour un repas convivial.",
+    "images": {
+      "cover": "images/recipes/effiloche-de-porc/cover.jpg",
+      "web": "images/recipes/effiloche-de-porc/web.jpg"
+    },
+    "prepTime": 15,
+    "cookTime": 180,
+    "servings": 4,
+    "difficulty": "Facile",
+    "category": "Secondi",
+    "tags": [
+      "porc",
+      "four",
+      "mijoté",
+      "barbecue",
+      "réconfortant",
+      "convivial",
+      "plat-principal",
+      "américain",
+      "se-congèle",
+      "à-partager"
+    ],
+    "ingredientCount": 10,
+    "stepCount": 7,
+    "translations": {
+      "en": {
+        "title": "BBQ Pulled Pork",
+        "description": "Meltingly tender pulled pork slow-roasted for 3 hours in a homemade BBQ sauce — the perfect dish for a convivial meal.",
+        "tags": [
+          "pork",
+          "oven",
+          "slow-cooked",
+          "bbq",
+          "comfort-food",
+          "sharing",
+          "main-course",
+          "american",
+          "freezer-friendly",
+          "crowd-pleaser"
+        ]
+      },
+      "it": {
+        "title": "Pulled Pork alla Salsa Barbecue",
+        "description": "Un pulled pork tenero e fondente cotto per 3 ore in forno in una salsa barbecue fatta in casa — il piatto perfetto per una cena conviviale.",
+        "tags": [
+          "maiale",
+          "forno",
+          "brasato",
+          "barbecue",
+          "comfort-food",
+          "da-condividere",
+          "secondo-piatto",
+          "americano",
+          "si-congela",
+          "per-tanti"
+        ]
+      }
+    },
+    "imageCredit": {
+      "author": "btfrewinphotography",
+      "url": "https://pixabay.com/photos/pork-meat-slow-cooked-food-dinner-1329681/"
+    }
+  },
+  {
+    "slug": "four-patate-douce-carotte-lardons-pita",
+    "title": "Plaque au Four : Patate Douce, Carottes et Lardons",
+    "description": "Une plaque au four colorée et savoureuse de patate douce, carottes et oignons rôtis avec des lardons, servie avec du pain pita.",
+    "category": "Secondi",
+    "difficulty": "Facile",
+    "prepTime": 15,
+    "cookTime": 30,
+    "servings": 4,
+    "tags": [
+      "four",
+      "patate-douce",
+      "carottes",
+      "lardons",
+      "one-pot",
+      "rapide",
+      "réconfortant",
+      "automne",
+      "plat-principal",
+      "économique"
+    ],
+    "images": {
+      "cover": "images/recipes/four-patate-douce-carotte-lardons-pita/cover.jpg",
+      "web": "images/recipes/four-patate-douce-carotte-lardons-pita/web.jpg"
+    },
+    "imageCredit": {
+      "id": "8295778",
+      "photographer": "Mondgesicht",
+      "pageURL": "https://pixabay.com/photos/sweet-potatoes-potatoes-cook-meal-8295778/"
+    },
+    "stepCount": 5,
+    "ingredientCount": 14
+  },
+  {
+    "slug": "four-tomates-aubergines-courgettes-pesto",
+    "title": "Légumes Méditerranéens Rôtis au Pesto",
+    "description": "Une plaque de légumes méditerranéens — tomates, aubergines et courgettes — rôtis au four et nappés de pesto basilic maison, servis avec de la mozzarella di bufala.",
+    "category": "Secondi",
+    "difficulty": "Facile",
+    "prepTime": 15,
+    "cookTime": 20,
+    "servings": 4,
+    "tags": [
+      "four",
+      "végétarien",
+      "légumes",
+      "pesto",
+      "méditerranéen",
+      "été",
+      "plat-principal",
+      "sans-gluten",
+      "mozzarella",
+      "rapide"
+    ],
+    "images": {
+      "cover": "images/recipes/four-tomates-aubergines-courgettes-pesto/cover.jpg",
+      "web": "images/recipes/four-tomates-aubergines-courgettes-pesto/web.jpg"
+    },
+    "imageCredit": {
+      "id": "8027678",
+      "user": "Mondgesicht",
+      "pageURL": "https://pixabay.com/photos/vegetable-pan-grilled-vegetables-8027678/"
+    },
+    "recipeFile": "public/data/recipes/four-tomates-aubergines-courgettes-pesto.json",
+    "coverImage": "public/images/recipes/four-tomates-aubergines-courgettes-pesto/cover.jpg",
+    "webImage": "public/images/recipes/four-tomates-aubergines-courgettes-pesto/web.jpg",
+    "indexEntry": {
+      "slug": "four-tomates-aubergines-courgettes-pesto",
+      "title": "Légumes Méditerranéens Rôtis au Pesto",
+      "description": "Une plaque de légumes méditerranéens — tomates, aubergines et courgettes — rôtis au four et nappés de pesto basilic maison, servis avec de la mozzarella di bufala.",
+      "category": "Secondi",
+      "difficulty": "Facile",
+      "prepTime": 15,
+      "cookTime": 20,
+      "servings": 4,
+      "tags": [
+        "four",
+        "végétarien",
+        "légumes",
+        "pesto",
+        "méditerranéen",
+        "été",
+        "plat-principal",
+        "sans-gluten",
+        "mozzarella",
+        "rapide"
+      ],
+      "images": {
+        "cover": "images/recipes/four-tomates-aubergines-courgettes-pesto/cover.jpg",
+        "web": "images/recipes/four-tomates-aubergines-courgettes-pesto/web.jpg"
+      }
+    },
+    "stepCount": 6,
+    "ingredientCount": 10
+  },
+  {
+    "slug": "frites-polenta-epinards",
+    "title": "Frites de Polenta et Épinards",
+    "description": "Des frites de polenta croustillantes au parmesan accompagnées d'épinards à l'ail — une alternative originale et végétarienne aux frites classiques.",
+    "prepTime": 20,
+    "cookTime": 30,
+    "servings": 4,
+    "difficulty": "Facile",
+    "category": "Secondi",
+    "tags": [
+      "polenta",
+      "épinards",
+      "végétarien",
+      "four",
+      "croustillant",
+      "sans-gluten",
+      "plat-principal",
+      "économique",
+      "légumes",
+      "italien"
+    ],
+    "stepCount": 7,
+    "ingredientCount": 9,
+    "images": {
+      "cover": "images/recipes/frites-polenta-epinards/cover.jpg",
+      "web": "images/recipes/frites-polenta-epinards/cover.jpg"
+    }
+  },
+  {
+    "slug": "gnocchi-aubergines-curry",
+    "title": "Gnocchi d'Aubergines au Curry",
+    "description": "Des gnocchi de polenta moelleux et aubergines fondantes gratinés au four dans une sauce curry parfumée — un plat végétarien savoureux et réconfortant.",
+    "images": {
+      "cover": "images/recipes/gnocchi-aubergines-curry/cover.jpg",
+      "web": "images/recipes/gnocchi-aubergines-curry/web.jpg"
+    },
+    "prepTime": 30,
+    "cookTime": 120,
+    "servings": 4,
+    "difficulty": "Facile",
+    "category": "Gnocchi",
+    "tags": [
+      "gnocchi",
+      "aubergines",
+      "curry",
+      "polenta",
+      "végétarien",
+      "gratiné",
+      "four",
+      "plat-principal",
+      "réconfortant",
+      "épicé"
+    ],
+    "ingredientCount": 10,
+    "stepCount": 5,
+    "translations": {
+      "en": {
+        "title": "Aubergine Gnocchi with Curry",
+        "description": "Soft polenta gnocchi with melting aubergine, baked in the oven with a fragrant curry sauce — a delicious and comforting vegetarian dish.",
+        "tags": [
+          "gnocchi",
+          "aubergine",
+          "curry",
+          "polenta",
+          "vegetarian",
+          "gratin",
+          "oven",
+          "main-course",
+          "comforting",
+          "spiced"
+        ]
+      },
+      "it": {
+        "title": "Gnocchi di Melanzane al Curry",
+        "description": "Morbidi gnocchi di polenta con melanzane fondenti, gratinati in forno con una fragrante salsa al curry — un piatto vegetariano saporito e confortante.",
+        "tags": [
+          "gnocchi",
+          "melanzane",
+          "curry",
+          "polenta",
+          "vegetariano",
+          "gratinato",
+          "forno",
+          "primo-piatto",
+          "confortante",
+          "speziato"
+        ]
+      }
+    }
+  },
+  {
+    "slug": "gnocchi-champi-ail-au-four",
+    "title": "Gnocchi Champi à l'Ail (au four)",
+    "description": "Gnocchi moelleux et champignons rôtis à l'ail en une seule plaque au four — un plat végétalien prêt en 30 minutes, zéro vaisselle.",
+    "images": {
+      "cover": "images/recipes/gnocchi-champi-ail-au-four/cover.jpg",
+      "web": "images/recipes/gnocchi-champi-ail-au-four/web.jpg"
+    },
+    "prepTime": 10,
+    "cookTime": 22,
+    "servings": 4,
+    "difficulty": "Facile",
+    "category": "Gnocchi",
+    "tags": [
+      "four",
+      "végétalien",
+      "végétarien",
+      "champignons",
+      "ail",
+      "rapide",
+      "one-pot",
+      "économique",
+      "plat-principal",
+      "facile"
+    ],
+    "ingredientCount": 9,
+    "stepCount": 5,
+    "translations": {
+      "en": {
+        "title": "Oven-Baked Garlic Mushroom Gnocchi",
+        "description": "Soft gnocchi and roasted mushrooms with garlic all on one baking tray — a vegan dish ready in 30 minutes, zero washing up.",
+        "tags": [
+          "oven",
+          "vegan",
+          "vegetarian",
+          "mushrooms",
+          "garlic",
+          "quick",
+          "one-pot",
+          "budget",
+          "main-course",
+          "easy"
+        ]
+      },
+      "it": {
+        "title": "Gnocchi con Funghi e Aglio al Forno",
+        "description": "Gnocchi morbidi e funghi arrostiti all'aglio in un'unica teglia — un piatto vegano pronto in 30 minuti, senza sporcare nulla.",
+        "tags": [
+          "forno",
+          "vegano",
+          "vegetariano",
+          "funghi",
+          "aglio",
+          "veloce",
+          "one-pot",
+          "economico",
+          "piatto-principale",
+          "facile"
+        ]
+      }
+    },
+    "imageCredit": {
+      "source": "Pixabay",
+      "photographer": "pixel1",
+      "url": "https://pixabay.com/photos/gnocchi-baked-cheese-zucchini-695055/",
+      "pixabayId": 695055
+    }
+  },
+  {
+    "slug": "gratin-butternut",
+    "title": "Gratin de Butternut",
+    "description": "Un gratin automnal onctueux de courge butternut fondante, nappée de crème et gratinée de chapelure et de comté.",
+    "images": {
+      "cover": "images/recipes/gratin-butternut/cover.jpg",
+      "web": "images/recipes/gratin-butternut/web.jpg"
+    },
+    "prepTime": 15,
+    "cookTime": 30,
+    "servings": 4,
+    "difficulty": "Facile",
+    "category": "Secondi",
+    "tags": [
+      "four",
+      "automne",
+      "végétarien",
+      "fromage",
+      "réconfortant",
+      "croustillant",
+      "onctueux",
+      "français",
+      "plat-principal",
+      "courge"
+    ],
+    "ingredientCount": 10,
+    "stepCount": 4,
+    "translations": {
+      "en": {
+        "title": "Butternut Gratin",
+        "description": "An autumnal creamy butternut squash gratin topped with golden breadcrumbs and Comté cheese.",
+        "tags": [
+          "oven",
+          "autumn",
+          "vegetarian",
+          "cheese",
+          "comforting",
+          "crispy",
+          "creamy",
+          "french",
+          "main-course",
+          "squash"
+        ]
+      },
+      "it": {
+        "title": "Gratin di Zucca Butternut",
+        "description": "Un gratinato autunnale di zucca butternut cremosa, coperta di panna e gratinata con pangrattato e Comté.",
+        "tags": [
+          "forno",
+          "autunno",
+          "vegetariano",
+          "formaggio",
+          "confortante",
+          "croccante",
+          "cremoso",
+          "francese",
+          "piatto-principale",
+          "zucca"
+        ]
+      }
+    },
+    "imageCredit": {
+      "name": "RitaE",
+      "url": "https://pixabay.com/users/ritae-19628/",
+      "source": "Pixabay",
+      "sourceUrl": "https://pixabay.com/photos/potato-casserole-potatoes-cheese-2848605/"
+    }
+  },
+  {
+    "slug": "gratin-ravioles-poireaux",
+    "title": "Gratin de Ravioles et Poireaux",
+    "description": "Un gratin réconfortant et rapide de ravioles du Dauphiné et poireaux fondants, nappés d'une crème à la moutarde à l'ancienne.",
+    "images": {
+      "cover": "images/recipes/gratin-ravioles-poireaux/cover.jpg",
+      "web": "images/recipes/gratin-ravioles-poireaux/web.jpg"
+    },
+    "prepTime": 12,
+    "cookTime": 25,
+    "servings": 2,
+    "difficulty": "Facile",
+    "category": "Pasta",
+    "tags": [
+      "four",
+      "végétarien",
+      "rapide",
+      "fromage",
+      "réconfortant",
+      "français",
+      "plat-principal",
+      "léger",
+      "économique",
+      "pâtes"
+    ],
+    "ingredientCount": 6,
+    "stepCount": 4,
+    "translations": {
+      "en": {
+        "title": "Ravioles and Leek Gratin",
+        "description": "A comforting and quick gratin of Dauphiné ravioles and tender leeks in a whole-grain mustard cream.",
+        "tags": [
+          "oven",
+          "vegetarian",
+          "quick",
+          "cheese",
+          "comforting",
+          "french",
+          "main-course",
+          "light",
+          "economical",
+          "pasta"
+        ]
+      },
+      "it": {
+        "title": "Gratin di Raviole e Porri",
+        "description": "Un gratin confortante e veloce di ravioli del Delfinato e porri teneri, avvolti in una crema alla senape in grani.",
+        "tags": [
+          "forno",
+          "vegetariano",
+          "veloce",
+          "formaggio",
+          "confortante",
+          "francese",
+          "piatto-principale",
+          "leggero",
+          "economico",
+          "pasta"
+        ]
+      }
+    },
+    "imageCredit": {
+      "source": "Pixabay",
+      "photographer": "Hans",
+      "url": "https://pixabay.com/photos/gratinated-cheese-casserole-324243/",
+      "pixabayId": 324243
+    }
+  },
+  {
+    "slug": "lentilles-corail-garam-massala",
+    "title": "Lentilles Corail au Garam Massala Façon Risotto",
+    "description": "Des lentilles corail et poulet mariné au lait de coco cuisinés façon risotto avec du garam massala — un plat épicé et parfumé.",
+    "images": {
+      "cover": "images/recipes/lentilles-corail-garam-massala/cover.jpg",
+      "web": "images/recipes/lentilles-corail-garam-massala/web.jpg"
+    },
+    "prepTime": 10,
+    "cookTime": 45,
+    "servings": 4,
+    "difficulty": "Facile",
+    "category": "Risotto",
+    "tags": [
+      "lentilles",
+      "poulet",
+      "indien",
+      "épicé",
+      "garam-massala",
+      "curry",
+      "réconfortant",
+      "plat-principal",
+      "sans-gluten",
+      "automne"
+    ],
+    "ingredientCount": 11,
+    "stepCount": 8,
+    "translations": {
+      "en": {
+        "title": "Red Lentils with Garam Masala Risotto-Style",
+        "description": "Red lentils and coconut-marinated chicken cooked risotto-style with garam masala — a spiced, aromatic one-pot dish."
+      },
+      "it": {
+        "title": "Lenticchie Rosse al Garam Masala in Stile Risotto",
+        "description": "Lenticchie rosse e pollo marinato nel latte di cocco cotti in stile risotto con garam masala — un piatto speziato e aromatico."
+      }
+    },
+    "imageCredit": {
+      "name": "joannawielgosz",
+      "url": "https://pixabay.com/users/joannawielgosz-18149746/",
+      "source": "Pixabay",
+      "pageURL": "https://pixabay.com/photos/curry-food-dish-meal-cuisine-7249247/"
+    }
+  },
+  {
+    "slug": "macaronis-fromage-facon-risotto",
+    "title": "Macaronis au Fromage Façon Risotto",
+    "description": "Des macaronis cuisinés façon risotto dans le bouillon de bœuf, enrobés d'une sauce crémeuse au cheddar — le mac & cheese à la française.",
+    "images": {
+      "cover": "images/recipes/macaronis-fromage-facon-risotto/cover.jpg",
+      "web": "images/recipes/macaronis-fromage-facon-risotto/web.jpg"
+    },
+    "prepTime": 10,
+    "cookTime": 30,
+    "servings": 4,
+    "difficulty": "Facile",
+    "category": "Risotto",
+    "tags": [
+      "pâtes",
+      "fromage",
+      "cheddar",
+      "réconfortant",
+      "rapide",
+      "plat-principal",
+      "onctueux",
+      "américain",
+      "français",
+      "enfants"
+    ],
+    "ingredientCount": 9,
+    "stepCount": 4,
+    "translations": {
+      "en": {
+        "title": "Mac & Cheese Risotto Style",
+        "description": "Macaroni cooked risotto-style in beef stock, then coated in a creamy cheddar sauce — the French take on mac & cheese."
+      },
+      "it": {
+        "title": "Maccheroni al Formaggio alla Maniera del Risotto",
+        "description": "Maccheroni cotti alla maniera del risotto nel brodo di manzo, avvolti in una cremosa salsa al cheddar — il mac & cheese alla francese."
+      }
+    },
+    "imageCredit": {
+      "author": "FRANK-ELISANTE",
+      "authorUrl": "https://pixabay.com/users/frank-elisante-38456982/",
+      "source": "Pixabay",
+      "sourceUrl": "https://pixabay.com/photos/mac-and-cheese-creamy-comfort-food-9019557/",
+      "pixabayId": 9019557
+    }
+  },
+  {
+    "slug": "orgesotto-pommes-magret-canard",
+    "title": "Orgesotto Pommes et Magret de Canard Séché",
+    "description": "Un risotto d'orge perlé au champagne, couronné de pommes caramélisées, noix croquantes et tranches de magret de canard séché.",
+    "images": {
+      "cover": "images/recipes/orgesotto-pommes-magret-canard/cover.jpg",
+      "web": "images/recipes/orgesotto-pommes-magret-canard/web.jpg"
+    },
+    "prepTime": 15,
+    "cookTime": 30,
+    "servings": 4,
+    "difficulty": "Facile",
+    "category": "Risotto",
+    "tags": [
+      "orge",
+      "canard",
+      "pommes",
+      "champignons",
+      "champagne",
+      "automne",
+      "mijoté",
+      "plat-principal",
+      "festif",
+      "sucré-salé"
+    ],
+    "ingredientCount": 11,
+    "stepCount": 6,
+    "translations": {
+      "en": {
+        "title": "Pearl Barley Risotto with Caramelised Apples and Dried Duck Breast",
+        "description": "A champagne pearl barley risotto topped with caramelised apples, crunchy walnuts and slices of dried duck breast."
+      },
+      "it": {
+        "title": "Orzotto alle Mele Caramellate e Magret d'Anatra Essiccato",
+        "description": "Un orzotto allo champagne coronato da mele caramellate, noci croccanti e fettine di magret d'anatra essiccato."
+      }
+    }
+  },
+  {
+    "slug": "penne-creme-chevre-noix",
+    "title": "Penne à la Crème de Chèvre et Noix",
+    "description": "Des penne crémeuses au chèvre frais, poireau fondant et noix croquantes — un plat complet prêt en 15 minutes.",
+    "images": {
+      "cover": "images/recipes/penne-creme-chevre-noix/cover.jpg",
+      "web": "images/recipes/penne-creme-chevre-noix/web.jpg"
+    },
+    "prepTime": 5,
+    "cookTime": 15,
+    "servings": 2,
+    "difficulty": "Facile",
+    "category": "Pasta",
+    "tags": [
+      "pâtes",
+      "végétarien",
+      "rapide",
+      "fromage",
+      "chèvre",
+      "noix",
+      "plat-principal",
+      "économique",
+      "facile",
+      "5-ingrédients"
+    ],
+    "ingredientCount": 8,
+    "stepCount": 5,
+    "translations": {
+      "en": {
+        "title": "Penne with Goat Cheese Cream and Walnuts",
+        "description": "Creamy penne with fresh goat cheese, melt-in-the-mouth leek and crunchy walnuts — a complete dish ready in 15 minutes.",
+        "tags": [
+          "pasta",
+          "vegetarian",
+          "quick",
+          "cheese",
+          "goat-cheese",
+          "walnuts",
+          "main-course",
+          "budget",
+          "easy",
+          "5-ingredients"
+        ]
+      },
+      "it": {
+        "title": "Penne alla Crema di Caprino e Noci",
+        "description": "Penne cremose con caprino fresco, porro morbido e noci croccanti — un piatto completo pronto in 15 minuti.",
+        "tags": [
+          "pasta",
+          "vegetariano",
+          "veloce",
+          "formaggio",
+          "caprino",
+          "noci",
+          "primo-piatto",
+          "economico",
+          "facile",
+          "5-ingredienti"
+        ]
+      }
+    },
+    "imageCredit": {
+      "source": "Pixabay",
+      "photographer": "StockSnap",
+      "photographerUrl": "https://pixabay.com/users/894430/",
+      "pageUrl": "https://pixabay.com/photos/penne-pasta-food-lunch-dinner-2618900/"
+    }
+  },
+  {
+    "slug": "poulet-tikka-massala",
+    "title": "Poulet Tikka Massala",
+    "description": "Un poulet mariné au yaourt et aux épices, mijoté dans une sauce tomate parfumée — le classique indien par excellence.",
+    "images": {
+      "cover": "images/recipes/poulet-tikka-massala/cover.jpg",
+      "web": "images/recipes/poulet-tikka-massala/web.jpg"
+    },
+    "prepTime": 20,
+    "cookTime": 40,
+    "servings": 6,
+    "difficulty": "Facile",
+    "category": "Secondi",
+    "tags": [
+      "poulet",
+      "indien",
+      "épicé",
+      "mijoté",
+      "curry",
+      "réconfortant",
+      "plat-principal",
+      "chaud",
+      "halal",
+      "sans-gluten"
+    ],
+    "ingredientCount": 13,
+    "stepCount": 8,
+    "translations": {
+      "en": {
+        "title": "Chicken Tikka Masala",
+        "description": "Chicken marinated in yogurt and spices, simmered in a fragrant tomato sauce — the ultimate Indian classic.",
+        "tags": [
+          "chicken",
+          "indian",
+          "spiced",
+          "braised",
+          "curry",
+          "comforting",
+          "main-course",
+          "hot",
+          "halal",
+          "gluten-free"
+        ]
+      },
+      "it": {
+        "title": "Pollo Tikka Masala",
+        "description": "Pollo marinato nello yogurt e nelle spezie, cotto a fuoco lento in una salsa di pomodoro profumata — il classico indiano per eccellenza.",
+        "tags": [
+          "pollo",
+          "indiano",
+          "speziato",
+          "brasato",
+          "curry",
+          "confortante",
+          "secondo-piatto",
+          "caldo",
+          "halal",
+          "senza-glutine"
+        ]
+      }
+    },
+    "imageCredit": {
+      "author": "Kirtip",
+      "authorUrl": "https://pixabay.com/users/kirtip-15193531/",
+      "source": "Pixabay",
+      "sourceUrl": "https://pixabay.com/photos/food-chicken-butter-masala-chicken-6465556/"
+    }
+  },
+  {
+    "slug": "risotto-a-la-milanaise",
+    "title": "Risotto à la Milanaise",
+    "description": "Le grand classique milanais : un risotto d'un jaune doré lumineux au safran et à la moelle de bœuf, crémeux et parfumé.",
+    "images": {
+      "cover": "images/recipes/risotto-a-la-milanaise/cover.jpg",
+      "web": "images/recipes/risotto-a-la-milanaise/web.jpg"
+    },
+    "prepTime": 10,
+    "cookTime": 20,
+    "servings": 4,
+    "difficulty": "Facile",
+    "category": "Risotto",
+    "tags": [
+      "riz",
+      "risotto",
+      "safran",
+      "fromage",
+      "italien",
+      "milanais",
+      "rapide",
+      "plat-principal",
+      "chaud",
+      "traditionnel"
+    ],
+    "ingredientCount": 9,
+    "stepCount": 5,
+    "translations": {
+      "en": {
+        "title": "Milanese Risotto",
+        "description": "The great Milanese classic: a saffron and bone marrow risotto with a brilliant golden-yellow hue, creamy and aromatic."
+      },
+      "it": {
+        "title": "Risotto alla Milanese",
+        "description": "Il grande classico milanese: un risotto di un giallo dorato luminoso allo zafferano e al midollo di bue, cremoso e profumato."
+      }
+    },
+    "imageCredit": {
+      "name": "DanielaElenaTentis",
+      "url": "https://pixabay.com/users/danielaelenatentis-2738541/",
+      "source": "Pixabay",
+      "pageURL": "https://pixabay.com/photos/food-risotto-saffron-shrimps-1485024/"
+    }
+  },
+  {
+    "slug": "risotto-champignons-foie-gras-noisettes",
+    "title": "Risotto aux Champignons Sauvages, Foie Gras et Noisettes",
+    "description": "Un risotto d'exception aux champignons sauvages, couronné de tranches de foie gras mi-cuit et de noisettes torréfiées.",
+    "category": "Risotto",
+    "difficulty": "Medio",
+    "prepTime": 15,
+    "cookTime": 25,
+    "servings": 4,
+    "ingredientCount": 10,
+    "stepCount": 6,
+    "tags": [
+      "riz",
+      "risotto",
+      "champignons",
+      "foie-gras",
+      "noisettes",
+      "festif",
+      "automne",
+      "plat-principal",
+      "français",
+      "gourmand"
+    ],
+    "images": {
+      "cover": "images/recipes/risotto-champignons-foie-gras-noisettes/cover.jpg",
+      "web": "images/recipes/risotto-champignons-foie-gras-noisettes/web.jpg"
+    },
+    "imageCredit": {
+      "id": "5894347",
+      "photographer": "katiklinski",
+      "pageURL": "https://pixabay.com/photos/risotto-meal-food-dish-5894347/"
+    },
+    "translations": {
+      "en": {
+        "title": "Wild Mushroom Risotto with Foie Gras and Hazelnuts",
+        "description": "An exceptional risotto with wild mushrooms, crowned with slices of mi-cuit foie gras and toasted hazelnuts."
+      },
+      "it": {
+        "title": "Risotto ai Funghi Selvatici, Foie Gras e Nocciole",
+        "description": "Un risotto d'eccezione ai funghi selvatici, coronato da fettine di foie gras mi-cuit e nocciole tostate."
+      }
+    }
+  },
+  {
+    "slug": "risotto-cheddar-bacon",
+    "title": "Risotto Cheddar et Bacon",
+    "description": "Un risotto généreux et réconfortant au cheddar fondu et bacon croustillant — une version anglaise gourmande du grand classique italien.",
+    "images": {
+      "cover": "images/recipes/risotto-cheddar-bacon/cover.jpg",
+      "web": "images/recipes/risotto-cheddar-bacon/web.jpg"
+    },
+    "imageCredit": {
+      "id": 1126412,
+      "user": "eKokki",
+      "pageURL": "https://pixabay.com/photos/risotto-food-pumpkin-goat-cheese-1126412/"
+    },
+    "prepTime": 10,
+    "cookTime": 25,
+    "servings": 4,
+    "difficulty": "Facile",
+    "category": "Risotto",
+    "tags": [
+      "riz",
+      "risotto",
+      "fromage",
+      "cheddar",
+      "bacon",
+      "porc",
+      "réconfortant",
+      "plat-principal",
+      "chaud",
+      "onctueux"
+    ],
+    "stepCount": 7,
+    "ingredientCount": 9
+  },
+  {
+    "slug": "risotto-roquette-jambon-mascarpone",
+    "title": "Risotto Roquette, Jambon Cru et Mascarpone",
+    "description": "Un risotto crémeux au mascarpone garni de jambon cru fondant et de roquette fraîche — l'élégance italienne en 30 minutes.",
+    "images": {
+      "cover": "images/recipes/risotto-roquette-jambon-mascarpone/cover.jpg",
+      "web": "images/recipes/risotto-roquette-jambon-mascarpone/web.jpg"
+    },
+    "prepTime": 10,
+    "cookTime": 20,
+    "servings": 4,
+    "difficulty": "Facile",
+    "category": "Risotto",
+    "tags": [
+      "riz",
+      "risotto",
+      "jambon",
+      "fromage",
+      "mascarpone",
+      "italien",
+      "rapide",
+      "plat-principal",
+      "chaud",
+      "onctueux"
+    ],
+    "ingredientCount": 10,
+    "stepCount": 6,
+    "translations": {
+      "en": {
+        "title": "Rocket, Parma Ham and Mascarpone Risotto",
+        "description": "A creamy mascarpone risotto topped with melt-in-your-mouth cured ham and fresh rocket — Italian elegance in 30 minutes."
+      },
+      "it": {
+        "title": "Risotto con Rucola, Prosciutto Crudo e Mascarpone",
+        "description": "Un risotto cremoso al mascarpone guarnito con prosciutto crudo fondente e rucola fresca — l'eleganza italiana in 30 minuti."
+      }
+    },
+    "imageCredit": {
+      "name": "eKokki",
+      "url": "https://pixabay.com/users/ekokki-2254681/",
+      "source": "Pixabay",
+      "pixabayId": 1126412,
+      "pageURL": "https://pixabay.com/photos/risotto-food-meal-dish-rice-1126412/"
+    }
+  },
+  {
+    "slug": "souffle-au-fromage",
+    "title": "Soufflé au Fromage",
+    "description": "L'emblème de la cuisine française : un soufflé léger et aérien au gruyère, à servir aussitôt sorti du four pour en savourer toute la majesté.",
+    "images": {
+      "cover": "images/recipes/souffle-au-fromage/cover.jpg",
+      "web": "images/recipes/souffle-au-fromage/web.jpg"
+    },
+    "imageCredit": {
+      "id": 1258733,
+      "photographer": "ymon",
+      "pageURL": "https://pixabay.com/photos/cheese-souffle-sos-food-cooking-1258733/"
+    },
+    "prepTime": 20,
+    "cookTime": 25,
+    "servings": 4,
+    "difficulty": "Difficile",
+    "category": "Secondi",
+    "tags": [
+      "four",
+      "fromage",
+      "œufs",
+      "végétarien",
+      "français",
+      "classique",
+      "aérien",
+      "plat-principal",
+      "technique",
+      "festif"
+    ],
+    "ingredientCount": 8,
+    "stepCount": 7,
+    "translations": {
+      "en": {
+        "title": "Cheese Soufflé",
+        "description": "The emblem of French cuisine: a light and airy gruyère soufflé to be served straight from the oven to enjoy its full majesty.",
+        "tags": [
+          "oven",
+          "cheese",
+          "eggs",
+          "vegetarian",
+          "french",
+          "classic",
+          "airy",
+          "main-course",
+          "technique",
+          "festive"
+        ]
+      },
+      "it": {
+        "title": "Soufflé al Formaggio",
+        "description": "L'emblema della cucina francese: un soufflé leggero e arioso al gruyère, da servire appena sfornato per goderne tutta la maestà.",
+        "tags": [
+          "forno",
+          "formaggio",
+          "uova",
+          "vegetariano",
+          "francese",
+          "classico",
+          "arioso",
+          "secondo-piatto",
+          "tecnica",
+          "festoso"
+        ]
+      }
+    }
+  },
+  {
+    "slug": "tarte-tomate-mozza-basilic",
+    "title": "Tarte Tomate, Mozzarella et Basilic",
+    "description": "Une tarte provençale estivale aux tomates fraîches disposées en rosace, sur un lit de basilic et concentré de tomate, agrémentée de mozzarella di bufala.",
+    "images": {
+      "cover": "images/recipes/tarte-tomate-mozza-basilic/cover.jpg",
+      "web": "images/recipes/tarte-tomate-mozza-basilic/web.jpg"
+    },
+    "prepTime": 40,
+    "cookTime": 35,
+    "servings": 4,
+    "difficulty": "Facile",
+    "category": "Secondi",
+    "tags": [
+      "four",
+      "été",
+      "végétarien",
+      "tomates",
+      "fromage",
+      "basilic",
+      "provençal",
+      "plat-principal",
+      "français",
+      "tarte",
+      "mozzarella"
+    ],
+    "ingredientCount": 10,
+    "stepCount": 6,
+    "translations": {
+      "en": {
+        "title": "Tomato, Mozzarella and Basil Tart",
+        "description": "A summery Provençal tart with fresh tomatoes arranged in a rosette pattern, on a bed of basil and tomato paste, topped with mozzarella di bufala.",
+        "tags": [
+          "oven",
+          "summer",
+          "vegetarian",
+          "tomatoes",
+          "cheese",
+          "basil",
+          "provençal",
+          "main-course",
+          "french",
+          "tart",
+          "mozzarella"
+        ]
+      },
+      "it": {
+        "title": "Torta Salata Pomodoro, Mozzarella e Basilico",
+        "description": "Una torta salata provenzale estiva con pomodori freschi disposti a rosetta, su un letto di basilico e concentrato di pomodoro, guarnita con mozzarella di bufala.",
+        "tags": [
+          "forno",
+          "estate",
+          "vegetariano",
+          "pomodori",
+          "formaggio",
+          "basilico",
+          "provenzale",
+          "piatto-principale",
+          "francese",
+          "torta-salata",
+          "mozzarella"
+        ]
+      }
+    },
+    "imageCredit": {
+      "author": "RitaE",
+      "authorUrl": "https://pixabay.com/users/ritae-19628/",
+      "source": "Pixabay",
+      "sourceUrl": "https://pixabay.com/photos/tomatoes-tomato-quiche-red-yellow-1603611/"
+    }
+  },
+  {
+    "slug": "tartine-agneau-legumes",
+    "title": "Tartine Agneau et Légumes",
+    "description": "Tartine d'agneau confit sur pain de mie grillé, garnie d'un baïaldi de légumes (tomate, aubergine, courgette) cuits lentement au four, badigeonnée de moutarde en grains — une recette provençale élégante et généreuse signée André Charrial.",
+    "category": "Secondi",
+    "difficulty": "Facile",
+    "prepTime": 15,
+    "cookTime": 20,
+    "servings": 2,
+    "tags": [
+      "tartine",
+      "agneau",
+      "légumes",
+      "méditerranéen",
+      "rapide",
+      "plat-principal",
+      "four",
+      "grillé",
+      "herbes"
+    ],
+    "images": {
+      "cover": "images/recipes/tartine-agneau-legumes/cover.jpg",
+      "web": "images/recipes/tartine-agneau-legumes/web.jpg"
+    },
+    "imageCredit": {
+      "id": "1788942",
+      "photographer": "mp1746",
+      "pageURL": "https://pixabay.com/photos/sandwich-lamb-chop-lamb-taste-food-1788942/"
+    },
+    "stepCount": 7,
+    "ingredientCount": 8
+  },
+  {
+    "slug": "tartine-de-lamour",
+    "title": "Tartine de l'Amour",
+    "description": "Une tartine rustique et généreuse sur pain de campagne grillé, garnie de tomates concassées à l'échalote, au gingembre et au vinaigre balsamique, parsemée de parmesan.",
+    "category": "Brunch",
+    "difficulty": "Facile",
+    "prepTime": 10,
+    "cookTime": 5,
+    "servings": 2,
+    "tags": [
+      "tartine",
+      "brunch",
+      "rapide",
+      "facile",
+      "tomate",
+      "pain-de-campagne",
+      "balsamique",
+      "parmesan",
+      "végétarien",
+      "français"
+    ],
+    "images": {
+      "cover": "images/recipes/tartine-de-lamour/cover.jpg",
+      "web": "images/recipes/tartine-de-lamour/web.jpg"
+    },
+    "imageCredit": {
+      "cover": {
+        "pixabayId": "5619887",
+        "photographer": "amiraxgelcola",
+        "pageURL": "https://pixabay.com/photos/gourmet-food-bread-dish-bruschetta-5619887/"
+      },
+      "web": {
+        "pixabayId": "5699486",
+        "photographer": "amiraxgelcola",
+        "pageURL": "https://pixabay.com/photos/bruschetta-dish-food-snack-5699486/"
+      }
+    },
+    "stepCount": 5,
+    "ingredientCount": 8
+  },
+  {
+    "slug": "tartine-oeufs-chorizo",
+    "title": "Tartine Œufs-Chorizo",
+    "description": "Une tartine généreuse et savoureuse garnie d'œufs brouillés crémeux et de tranches de chorizo croustillant — le petit-déjeuner ou brunch parfait.",
+    "images": {
+      "cover": "images/recipes/tartine-oeufs-chorizo/cover.jpg",
+      "web": "images/recipes/tartine-oeufs-chorizo/web.jpg"
+    },
+    "prepTime": 5,
+    "cookTime": 10,
+    "servings": 2,
+    "difficulty": "Facile",
+    "category": "Brunch",
+    "tags": [
+      "tartine",
+      "œufs",
+      "chorizo",
+      "rapide",
+      "brunch",
+      "petit-déjeuner",
+      "porc",
+      "épicé",
+      "facile",
+      "5-ingrédients"
+    ],
+    "ingredientCount": 8,
+    "stepCount": 6,
+    "translations": {
+      "en": {
+        "title": "Eggs and Chorizo Toast",
+        "description": "A generous and flavorful open-faced toast topped with creamy scrambled eggs and crispy chorizo slices — the perfect breakfast or brunch.",
+        "tags": [
+          "toast",
+          "eggs",
+          "chorizo",
+          "quick",
+          "brunch",
+          "breakfast",
+          "pork",
+          "spicy",
+          "easy",
+          "5-ingredients"
+        ]
+      },
+      "it": {
+        "title": "Tartine Uova e Chorizo",
+        "description": "Una tartine generosa e saporita guarnita con uova strapazzate cremose e fette di chorizo croccante — la colazione o il brunch perfetto.",
+        "tags": [
+          "tartine",
+          "uova",
+          "chorizo",
+          "veloce",
+          "brunch",
+          "colazione",
+          "maiale",
+          "piccante",
+          "facile",
+          "5-ingredienti"
+        ]
+      }
+    }
+  },
+  {
+    "slug": "tomates-farcies",
+    "title": "Tomates Farcies",
+    "description": "Les tomates farcies de l'enfance : une farce généreuse au jambon cru et viande hachée parfumée aux herbes, cuites lentement au four.",
+    "images": {
+      "cover": "images/recipes/tomates-farcies/cover.jpg",
+      "web": "images/recipes/tomates-farcies/web.jpg"
+    },
+    "prepTime": 20,
+    "cookTime": 40,
+    "servings": 4,
+    "difficulty": "Facile",
+    "category": "Secondi",
+    "tags": [
+      "four",
+      "été",
+      "viande",
+      "porc",
+      "tomates",
+      "réconfortant",
+      "plat-principal",
+      "français",
+      "farci",
+      "herbes"
+    ],
+    "ingredientCount": 15,
+    "stepCount": 5,
+    "translations": {
+      "en": {
+        "title": "Stuffed Tomatoes",
+        "description": "A childhood classic: generously stuffed tomatoes with cured ham and minced meat, fragrant with fresh herbs, slowly baked in the oven.",
+        "tags": [
+          "oven",
+          "summer",
+          "meat",
+          "pork",
+          "tomatoes",
+          "comforting",
+          "main-course",
+          "french",
+          "stuffed",
+          "herbs"
+        ]
+      },
+      "it": {
+        "title": "Pomodori Ripieni",
+        "description": "I pomodori ripieni dell'infanzia: un ripieno generoso con prosciutto crudo e carne macinata, profumato alle erbe aromatiche, cotti lentamente in forno.",
+        "tags": [
+          "forno",
+          "estate",
+          "carne",
+          "maiale",
+          "pomodori",
+          "confortante",
+          "piatto-principale",
+          "francese",
+          "ripieno",
+          "erbe"
+        ]
+      }
+    },
+    "imageCredit": {
+      "source": "Pixabay",
+      "photographer": "hcdeharder",
+      "photographerUrl": "https://pixabay.com/users/hcdeharder-1227833/",
+      "photoUrl": "https://pixabay.com/photos/stuffed-tomatoes-blue-cheese-food-855184/",
+      "pixabayId": 855184
+    }
+  },
+  {
+    "slug": "pain-au-lait-de-mamie-yvette",
+    "title": "Pain au lait de Mamie Yvette",
+    "description": "Les petits pains au lait moelleux et légèrement sucrés de Mamie Yvette, dont le secret réside dans les blancs montés en neige pour une mie particulièrement légère et aérienne.",
+    "images": {
+      "cover": "images/recipes/pain-au-lait-de-mamie-yvette/cover.jpg",
+      "web": "images/recipes/pain-au-lait-de-mamie-yvette/web.jpg"
+    },
+    "imageCredit": {
+      "author": "RitaE",
+      "url": "https://pixabay.com/users/ritae-19628/"
+    },
+    "prepTime": 30,
+    "cookTime": 20,
+    "servings": 12,
+    "difficulty": "Facile",
+    "category": "Pane",
+    "tags": [
+      "four",
+      "végétarien",
+      "moelleux",
+      "petit-déjeuner",
+      "goûter",
+      "enfants",
+      "toute-la-famille",
+      "réconfortant",
+      "nostalgique",
+      "français",
+      "se-congèle",
+      "facile"
+    ],
+    "origin": "pierrick-grandma",
+    "ingredientCount": 7,
+    "stepCount": 10,
+    "translations": {
+      "en": {
+        "title": "Grandma Yvette's Milk Rolls",
+        "description": "Soft, lightly sweetened milk rolls from Grandma Yvette, whose secret is folding in whipped egg whites for an exceptionally light and airy crumb.",
+        "tags": [
+          "oven",
+          "vegetarian",
+          "soft",
+          "breakfast",
+          "snack",
+          "kids",
+          "family",
+          "comforting",
+          "nostalgic",
+          "french",
+          "freezer-friendly",
+          "easy"
+        ]
+      },
+      "it": {
+        "title": "Panini al Latte della Nonna Yvette",
+        "description": "Soffici panini al latte leggermente dolci della nonna Yvette, il cui segreto è incorporare gli albumi montati a neve per una mollica particolarmente leggera e ariosa.",
+        "tags": [
+          "forno",
+          "vegetariano",
+          "morbido",
+          "colazione",
+          "merenda",
+          "bambini",
+          "famiglia",
+          "confortante",
+          "nostalgico",
+          "francese",
+          "si-congela",
+          "facile"
+        ]
+      }
+    }
+  },
+  {
+    "slug": "poulet-tandoori",
+    "title": "Poulet tandoori",
+    "description": "Un grand classique de la cuisine indienne qui devient sublime lorsque l'on prépare soi-même la poudre tandoori.",
+    "images": {
+      "cover": "images/recipes/poulet-tandoori/cover.jpg",
+      "web": "images/recipes/poulet-tandoori/web.jpg"
+    },
+    "prepTime": 15,
+    "cookTime": 35,
+    "servings": 4,
+    "difficulty": "Facile",
+    "category": "Secondi",
+    "tags": [
+      "four",
+      "indien",
+      "poulet",
+      "facile",
+      "plat-principal",
+      "épicé",
+      "chaud",
+      "préparation-à-lavance",
+      "sans-gluten",
+      "été"
+    ],
+    "ingredientCount": 6,
+    "stepCount": 3,
+    "translations": {
+      "en": {
+        "title": "Tandoori Chicken",
+        "description": "A great classic of Indian cuisine that becomes sublime when you prepare the tandoori powder yourself.",
+        "tags": [
+          "oven",
+          "indian",
+          "chicken",
+          "easy",
+          "main-course",
+          "spicy",
+          "hot",
+          "make-ahead",
+          "gluten-free",
+          "summer"
+        ]
+      },
+      "it": {
+        "title": "Pollo tandoori",
+        "description": "Un grande classico della cucina indiana che diventa sublime quando si prepara la polvere tandoori in casa.",
+        "tags": [
+          "forno",
+          "indiano",
+          "pollo",
+          "facile",
+          "piatto-principale",
+          "speziato",
+          "caldo",
+          "preparazione-anticipata",
+          "senza-glutine",
+          "estate"
+        ]
+      }
+    }
+  },
+  {
+    "slug": "pesto-presto",
+    "title": "Pesto Presto",
+    "description": "Busiate col pesto alla trapanese, une pâte sicilienne en spirale servie avec un pesto à base de tomates confites, amandes, basilic et pecorino, spécialité de Trapani.",
+    "images": {
+      "cover": "images/recipes/pesto-presto/cover.jpg",
+      "web": "images/recipes/pesto-presto/web.jpg"
+    },
+    "prepTime": 45,
+    "cookTime": 150,
+    "servings": 4,
+    "difficulty": "Medio",
+    "category": "Pasta",
+    "tags": [
+      "pâtes",
+      "tomates",
+      "basilic",
+      "amandes",
+      "sicilien",
+      "méditerranéen",
+      "végétarien",
+      "four",
+      "plat-principal",
+      "été",
+      "italien",
+      "festif",
+      "léger"
+    ],
+    "translations": {
+      "en": {
+        "title": "Pesto Presto",
+        "description": "Busiate pasta with Trapanese pesto, a Sicilian specialty made with slow-roasted tomatoes, almonds, basil, and pecorino from the province of Trapani.",
+        "tags": [
+          "pasta",
+          "tomatoes",
+          "basil",
+          "almonds",
+          "sicilian",
+          "mediterranean",
+          "vegetarian",
+          "oven",
+          "main-course",
+          "summer",
+          "italian",
+          "festive",
+          "light"
+        ]
+      },
+      "it": {
+        "title": "Pesto Presto",
+        "description": "Busiate col pesto alla trapanese, specialità siciliana con pomodori confit, mandorle, basilico e pecorino, tipica della provincia di Trapani.",
+        "tags": [
+          "pasta",
+          "pomodori",
+          "basilico",
+          "mandorle",
+          "siciliano",
+          "mediterraneo",
+          "vegetariano",
+          "forno",
+          "primo-piatto",
+          "estate",
+          "italiano",
+          "festivo",
+          "leggero"
+        ]
+      }
+    },
+    "stepCount": 7,
+    "ingredientCount": 14
+  },
+  {
+    "slug": "naans-nature",
+    "title": "Naans nature",
+    "description": "Pain levé d'origine indienne, léger et moelleux, cuit à la poêle et généreusement badigeonné de ghee fondu.",
+    "images": {
+      "cover": "images/recipes/naans-nature/cover.jpg",
+      "web": "images/recipes/naans-nature/web.jpg"
+    },
+    "prepTime": 20,
+    "cookTime": 30,
+    "servings": 4,
+    "difficulty": "Medio",
+    "category": "Pane",
+    "tags": [
+      "poêle",
+      "indien",
+      "végétarien",
+      "moelleux",
+      "à-partager",
+      "réconfortant",
+      "économique",
+      "chaud"
+    ],
+    "ingredientCount": 6,
+    "stepCount": 4,
+    "translations": {
+      "en": {
+        "title": "Plain Naans",
+        "description": "Indian leavened bread, light and fluffy, pan-cooked and generously brushed with melted ghee.",
+        "tags": [
+          "pan-fried",
+          "indian",
+          "vegetarian",
+          "soft",
+          "shareable",
+          "comforting",
+          "budget-friendly",
+          "warm"
+        ]
+      },
+      "it": {
+        "title": "Naan semplici",
+        "description": "Pane lievitato indiano, leggero e soffice, cotto in padella e generosamente spennellato con ghee fuso.",
+        "tags": [
+          "padella",
+          "indiano",
+          "vegetariano",
+          "morbido",
+          "da-condividere",
+          "confortante",
+          "economico",
+          "caldo"
+        ]
+      }
+    }
+  },
+  {
+    "slug": "naans-au-fromage",
+    "title": "Naans au fromage",
+    "description": "Des naans moelleux fourrés au fromage fondant, inspirés du cheese naan parisien à décliner avec comté, cheddar ou bleu.",
+    "images": {
+      "cover": "images/recipes/naans-au-fromage/cover.jpg",
+      "web": "images/recipes/naans-au-fromage/web.jpg"
+    },
+    "imageCredit": {
+      "author": "2SIF",
+      "url": "https://pixabay.com/users/2SIF-26811215/"
+    },
+    "prepTime": 20,
+    "cookTime": 30,
+    "servings": 4,
+    "difficulty": "Medio",
+    "category": "Pane",
+    "tags": [
+      "poêle",
+      "végétarien",
+      "fromage",
+      "indien",
+      "moelleux",
+      "réconfortant",
+      "convivial",
+      "toute-la-famille",
+      "préparation-à-lavance",
+      "fait-maison"
+    ],
+    "translations": {
+      "en": {
+        "title": "Cheese Naans",
+        "description": "Soft naans stuffed with melting cheese, inspired by the Parisian cheese naan, to vary with comté, cheddar or blue cheese.",
+        "tags": [
+          "pan",
+          "vegetarian",
+          "cheese",
+          "indian",
+          "soft",
+          "comforting",
+          "convivial",
+          "family",
+          "make-ahead",
+          "homemade"
+        ]
+      },
+      "it": {
+        "title": "Naan al formaggio",
+        "description": "Naan morbidi ripieni di formaggio fondente, ispirati al cheese naan parigino, da variare con comté, cheddar o gorgonzola.",
+        "tags": [
+          "padella",
+          "vegetariano",
+          "formaggio",
+          "indiano",
+          "morbido",
+          "confortante",
+          "conviviale",
+          "tutta-la-famiglia",
+          "preparazione-anticipata",
+          "fatto-in-casa"
+        ]
+      }
+    },
+    "stepCount": 5,
+    "ingredientCount": 8
+  },
+  {
+    "slug": "caprese-di-tuffoli",
+    "title": "Caprese di tuffoli",
+    "description": "Salade de pâtes estivale aux tomates multicolores marinées, mozzarella di bufala et basilic frais — un must romain qui se mange froid.",
+    "images": {
+      "cover": "images/recipes/caprese-di-tuffoli/cover.jpg",
+      "web": "images/recipes/caprese-di-tuffoli/web.jpg"
+    },
+    "prepTime": 20,
+    "cookTime": 40,
+    "servings": 4,
+    "difficulty": "Facile",
+    "category": "Insalate",
+    "tags": [
+      "pâtes",
+      "salade",
+      "été",
+      "froid",
+      "végétarien",
+      "italien",
+      "fromage",
+      "facile",
+      "plat-principal",
+      "rapide",
+      "méditerranéen",
+      "tomates"
+    ],
+    "ingredientCount": 7,
+    "stepCount": 4,
+    "translations": {
+      "en": {
+        "title": "Tuffoli Caprese Salad",
+        "description": "A summery pasta salad with marinated multicolour tomatoes, buffalo mozzarella and fresh basil — a Roman cold dish that is a true must.",
+        "tags": [
+          "pasta",
+          "salad",
+          "summer",
+          "cold",
+          "vegetarian",
+          "italian",
+          "cheese",
+          "easy",
+          "main-course",
+          "quick",
+          "mediterranean",
+          "tomatoes"
+        ]
+      },
+      "it": {
+        "title": "Caprese di tuffoli",
+        "description": "Insalata di pasta estiva con pomodorini multicolori marinati, mozzarella di bufala e basilico fresco — un must romano da gustare freddo.",
+        "tags": [
+          "pasta",
+          "insalata",
+          "estate",
+          "freddo",
+          "vegetariano",
+          "italiano",
+          "formaggio",
+          "facile",
+          "primo-piatto",
+          "veloce",
+          "mediterraneo",
+          "pomodori"
+        ]
+      }
+    }
+  },
+  {
+    "slug": "gateau-de-semoule",
+    "title": "Gâteau de semoule de mamie Yvette",
+    "description": "Un dessert de grand-mère fondant et réconfortant : une semoule au lait caramélisée, légère comme un nuage grâce aux blancs en neige montés.",
+    "images": {
+      "cover": "images/recipes/gateau-de-semoule/cover.jpg",
+      "web": "images/recipes/gateau-de-semoule/web.jpg"
+    },
+    "prepTime": 20,
+    "cookTime": 20,
+    "servings": 4,
+    "difficulty": "Facile",
+    "category": "Dolci",
+    "tags": [
+      "bain-marie",
+      "four",
+      "végétarien",
+      "moelleux",
+      "fondant",
+      "réconfortant",
+      "nostalgique",
+      "économique",
+      "français",
+      "dessert",
+      "enfants",
+      "toute-la-famille"
+    ],
+    "origin": "pierrick-grandma",
+    "ingredientCount": 8,
+    "stepCount": 7,
+    "translations": {
+      "en": {
+        "title": "Grandma's Semolina Cake",
+        "description": "A comforting grandmother's dessert: silky caramelized semolina pudding, light as a cloud thanks to beaten egg whites.",
+        "tags": [
+          "water-bath",
+          "oven",
+          "vegetarian",
+          "soft",
+          "melt-in-mouth",
+          "comforting",
+          "nostalgic",
+          "budget-friendly",
+          "french",
+          "dessert",
+          "kids",
+          "family"
+        ]
+      },
+      "it": {
+        "title": "Torta di semolino della nonna",
+        "description": "Un dolce della nonna confortante e fondente: semolino al latte caramellato, leggero come una nuvola grazie agli albumi montati a neve.",
+        "tags": [
+          "bagnomaria",
+          "forno",
+          "vegetariano",
+          "morbido",
+          "fondente",
+          "confortante",
+          "nostalgico",
+          "economico",
+          "francese",
+          "dessert",
+          "bambini",
+          "famiglia"
+        ]
+      }
+    }
+  },
+  {
+    "slug": "fusilloni-alla-norma",
+    "title": "Fusilloni alla Norma",
+    "description": "L'aubergine fait sa diva dans ce grand classique sicilien : des fusilloni al dente nappés d'une sauce tomate parfumée au basilic, couronnés d'aubergines frites et d'une généreuse pluie de ricotta salée.",
+    "images": {
+      "cover": "images/recipes/fusilloni-alla-norma/cover.jpg",
+      "web": "images/recipes/fusilloni-alla-norma/web.jpg"
+    },
+    "prepTime": 30,
+    "cookTime": 30,
+    "servings": 4,
+    "difficulty": "Facile",
+    "category": "Pasta",
+    "tags": [
+      "pâtes",
+      "aubergine",
+      "fromage",
+      "italien",
+      "sicilien",
+      "méditerranéen",
+      "végétarien",
+      "friture",
+      "plat-principal",
+      "chaud",
+      "réconfortant",
+      "été",
+      "économique"
+    ],
+    "ingredientCount": 8,
+    "stepCount": 5,
+    "translations": {
+      "en": {
+        "title": "Fusilloni alla Norma",
+        "description": "The eggplant takes center stage in this great Sicilian classic: al dente fusilloni coated in a basil-scented tomato sauce, crowned with fried eggplant and a generous shower of ricotta salata.",
+        "tags": [
+          "pasta",
+          "eggplant",
+          "cheese",
+          "italian",
+          "sicilian",
+          "mediterranean",
+          "vegetarian",
+          "fried",
+          "main-course",
+          "hot",
+          "comforting",
+          "summer",
+          "budget-friendly"
+        ]
+      },
+      "it": {
+        "title": "Fusilloni alla Norma",
+        "description": "La melanzana recita da protagonista in questo grande classico siciliano: fusilloni al dente con salsa di pomodoro al basilico, melanzane fritte e una generosa nevicata di ricotta salata.",
+        "tags": [
+          "pasta",
+          "melanzane",
+          "formaggio",
+          "italiano",
+          "siciliano",
+          "mediterraneo",
+          "vegetariano",
+          "fritto",
+          "primo-piatto",
+          "caldo",
+          "confortante",
+          "estate",
+          "economico"
+        ]
+      }
+    }
+  },
+  {
+    "slug": "biryani-agneau",
+    "title": "Biryani d'agneau",
+    "description": "Un biryani d'agneau parfumé au safran, à la cannelle et aux herbes fraîches, cuit en couches dorées avec du riz basmati grillé.",
+    "images": {
+      "cover": "images/recipes/biryani-agneau/cover.jpg",
+      "web": "images/recipes/biryani-agneau/web.jpg"
+    },
+    "imageCredit": {
+      "author": "MD-OSMAN-GANI",
+      "url": "https://pixabay.com/users/md-osman-gani-39761511/"
+    },
+    "prepTime": 30,
+    "cookTime": 65,
+    "servings": 4,
+    "difficulty": "Medio",
+    "category": "Secondi",
+    "tags": [
+      "agneau",
+      "riz",
+      "four",
+      "plat-principal",
+      "indien",
+      "épicé",
+      "mijoté",
+      "réconfortant",
+      "festif",
+      "safran",
+      "chaud",
+      "convivial",
+      "hiver"
+    ],
+    "ingredientCount": 18,
+    "stepCount": 10,
+    "translations": {
+      "en": {
+        "title": "Lamb Biryani",
+        "description": "A fragrant lamb biryani perfumed with saffron, cinnamon, and fresh herbs, baked in golden layers with toasted basmati rice.",
+        "tags": [
+          "lamb",
+          "rice",
+          "oven",
+          "main-course",
+          "indian",
+          "spiced",
+          "braised",
+          "comforting",
+          "festive",
+          "saffron",
+          "hot",
+          "sharing",
+          "winter"
+        ]
+      },
+      "it": {
+        "title": "Biryani di agnello",
+        "description": "Un profumato biryani di agnello aromatizzato con zafferano, cannella ed erbe fresche, cotto in strati dorati con riso basmati tostato.",
+        "tags": [
+          "agnello",
+          "riso",
+          "forno",
+          "piatto-principale",
+          "indiano",
+          "speziato",
+          "stufato",
+          "confortante",
+          "festivo",
+          "zafferano",
+          "caldo",
+          "da-condividere",
+          "inverno"
+        ]
+      }
+    }
+  },
+  {
+    "slug": "spaghettis-alla-vittorio",
+    "title": "Spaghettis alla Vittorio",
+    "description": "Des spaghettis aux tomates datterino, Parmigiano Reggiano et basilic, inspirés du restaurant étoilé Da Vittorio près de Bergame.",
+    "images": {
+      "cover": "images/recipes/spaghettis-alla-vittorio/cover.jpg",
+      "web": "images/recipes/spaghettis-alla-vittorio/cover.jpg"
+    },
+    "prepTime": 15,
+    "cookTime": 25,
+    "servings": 4,
+    "difficulty": "Facile",
+    "category": "Pasta",
+    "tags": [
+      "pâtes",
+      "tomates",
+      "fromage",
+      "italien",
+      "plat-principal",
+      "végétarien",
+      "poêle",
+      "rapide",
+      "réconfortant",
+      "chaud",
+      "basilic"
+    ],
+    "ingredientCount": 9,
+    "stepCount": 4,
+    "translations": {
+      "en": {
+        "title": "Spaghetti alla Vittorio",
+        "description": "Spaghetti with datterino tomatoes, Parmigiano Reggiano and basil, inspired by the Michelin-starred Da Vittorio restaurant near Bergamo.",
+        "tags": [
+          "pasta",
+          "tomatoes",
+          "cheese",
+          "italian",
+          "main-course",
+          "vegetarian",
+          "pan",
+          "quick",
+          "comforting",
+          "hot",
+          "basil"
+        ]
+      },
+      "it": {
+        "title": "Spaghetti alla Vittorio",
+        "description": "Spaghetti con pomodori datterini, Parmigiano Reggiano e basilico, ispirati al ristorante stellato Da Vittorio vicino a Bergamo.",
+        "tags": [
+          "pasta",
+          "pomodori",
+          "formaggio",
+          "italiano",
+          "piatto-principale",
+          "vegetariano",
+          "padella",
+          "veloce",
+          "confortante",
+          "caldo",
+          "basilico"
+        ]
+      }
+    }
+  },
+  {
+    "slug": "fettuccine-funghi-porcini",
+    "title": "Fettuccine funghi porcini",
+    "description": "Des fettuccine maison aux cèpes, nappées d'une sauce au beurre, ail et huile d'olive, avec une touche de persil et de parmesan.",
+    "images": {
+      "cover": "images/recipes/fettuccine-funghi-porcini/cover.jpg",
+      "web": "images/recipes/fettuccine-funghi-porcini/web.jpg"
+    },
+    "prepTime": 60,
+    "cookTime": 20,
+    "servings": 4,
+    "difficulty": "Medio",
+    "category": "Pasta",
+    "tags": [
+      "pâtes",
+      "champignons",
+      "italien",
+      "automne",
+      "plat-principal",
+      "fait-maison",
+      "réconfortant",
+      "gourmand",
+      "chaud",
+      "végétarien",
+      "fromage",
+      "herbacé",
+      "onctueux"
+    ],
+    "translations": {
+      "en": {
+        "title": "Fettuccine with Porcini Mushrooms",
+        "description": "Homemade fettuccine with porcini mushrooms, coated in a butter, garlic and olive oil sauce with parsley and parmesan.",
+        "tags": [
+          "pasta",
+          "mushrooms",
+          "italian",
+          "autumn",
+          "main-course",
+          "homemade",
+          "comforting",
+          "indulgent",
+          "hot",
+          "vegetarian",
+          "cheese",
+          "herby",
+          "creamy"
+        ]
+      },
+      "it": {
+        "title": "Fettuccine ai funghi porcini",
+        "description": "Fettuccine fatte in casa con funghi porcini, avvolte in una salsa di burro, aglio e olio d'oliva con prezzemolo e parmigiano.",
+        "tags": [
+          "pasta",
+          "funghi",
+          "italiano",
+          "autunno",
+          "primo-piatto",
+          "fatto-in-casa",
+          "confortante",
+          "goloso",
+          "caldo",
+          "vegetariano",
+          "formaggio",
+          "erbaceo",
+          "cremoso"
+        ]
+      }
+    },
+    "stepCount": 8,
+    "ingredientCount": 10
+  },
+  {
+    "slug": "pasta-lenticchie-melanzane-yogurt-tapenade",
+    "title": "Pâtes de lentilles aux aubergines, yaourt et tapenade",
+    "description": "Une salade de pâtes de lentilles sans gluten, généreuse et fraîche, avec aubergines dorées, tapenade de tomates, yaourt grec et amandes grillées.",
+    "images": {
+      "cover": "images/recipes/pasta-lenticchie-melanzane-yogurt-tapenade/cover.jpg",
+      "web": "images/recipes/pasta-lenticchie-melanzane-yogurt-tapenade/web.jpg"
+    },
+    "prepTime": 20,
+    "cookTime": 25,
+    "servings": 4,
+    "difficulty": "Facile",
+    "category": "Insalate",
+    "tags": [
+      "pâtes",
+      "sans-gluten",
+      "végétarien",
+      "légumes",
+      "aubergine",
+      "tomate",
+      "yaourt",
+      "amandes",
+      "méditerranéen",
+      "italien",
+      "plat-principal",
+      "été",
+      "facile",
+      "four",
+      "chaud"
+    ],
+    "stepCount": 4,
+    "ingredientCount": 14,
+    "translations": {
+      "en": {
+        "title": "Lentil Pasta with Eggplant, Yogurt and Tapenade",
+        "description": "A generous, fresh gluten-free lentil pasta salad with golden eggplant, tomato tapenade, Greek yogurt and toasted almonds.",
+        "tags": [
+          "pasta",
+          "gluten-free",
+          "vegetarian",
+          "vegetables",
+          "eggplant",
+          "tomato",
+          "yogurt",
+          "almonds",
+          "mediterranean",
+          "italian",
+          "main-course",
+          "summer",
+          "easy",
+          "oven",
+          "hot"
+        ]
+      },
+      "it": {
+        "title": "Pasta di lenticchie con melanzane, yogurt e tapenade",
+        "description": "Un'insalata di pasta di lenticchie senza glutine, generosa e fresca, con melanzane dorate, tapenade di pomodori, yogurt greco e mandorle tostate.",
+        "tags": [
+          "pasta",
+          "senza-glutine",
+          "vegetariano",
+          "verdure",
+          "melanzana",
+          "pomodoro",
+          "yogurt",
+          "mandorle",
+          "mediterraneo",
+          "italiano",
+          "primo-piatto",
+          "estate",
+          "facile",
+          "forno",
+          "caldo"
+        ]
+      }
+    }
+  },
+  {
+    "slug": "gnocchi-alla-sorrentina",
+    "title": "Gnocchi alla sorrentina",
+    "description": "Des gnocchi de pomme de terre à la sauce tomate, gratinés avec provola affumicata et parmesan.",
+    "images": {
+      "cover": "images/recipes/gnocchi-alla-sorrentina/cover.jpg",
+      "web": "images/recipes/gnocchi-alla-sorrentina/web.jpg"
+    },
+    "prepTime": 45,
+    "cookTime": 30,
+    "servings": 4,
+    "difficulty": "Medio",
+    "category": "Gnocchi",
+    "tags": [
+      "gnocchi",
+      "italien",
+      "four",
+      "gratiné",
+      "végétarien",
+      "fromage",
+      "tomate",
+      "plat-principal",
+      "réconfortant",
+      "gourmand",
+      "chaud",
+      "à-partager"
+    ],
+    "stepCount": 6,
+    "ingredientCount": 9,
+    "translations": {
+      "en": {
+        "title": "Gnocchi alla Sorrentina",
+        "description": "Potato gnocchi in tomato sauce, baked with smoked provola and parmesan.",
+        "tags": [
+          "gnocchi",
+          "italian",
+          "oven",
+          "baked",
+          "vegetarian",
+          "cheese",
+          "tomato",
+          "main-course",
+          "comforting",
+          "indulgent",
+          "hot",
+          "to-share"
+        ]
+      },
+      "it": {
+        "title": "Gnocchi alla sorrentina",
+        "description": "Gnocchi di patate al sugo di pomodoro, gratinati con provola affumicata e parmigiano.",
+        "tags": [
+          "gnocchi",
+          "italiano",
+          "forno",
+          "gratinato",
+          "vegetariano",
+          "formaggio",
+          "pomodoro",
+          "primo-piatto",
+          "confortante",
+          "goloso",
+          "caldo",
+          "da-condividere"
+        ]
+      }
+    }
+  },
+  {
+    "slug": "cookies-sales-au-comte",
+    "title": "Cookies salés au comté",
+    "description": "Des cookies salés moelleux et parfumés au comté, moutarde à l'ancienne, thym et graines de tournesol, parfaits pour l'apéro.",
+    "images": {
+      "cover": "images/recipes/cookies-sales-au-comte/cover.jpg",
+      "web": "images/recipes/cookies-sales-au-comte/web.jpg"
+    },
+    "prepTime": 15,
+    "cookTime": 15,
+    "servings": 12,
+    "difficulty": "Facile",
+    "category": "Antipasti",
+    "tags": [
+      "four",
+      "apéro",
+      "végétarien",
+      "finger-food",
+      "à-partager",
+      "facile",
+      "fromage",
+      "snack",
+      "moelleux",
+      "herbacé",
+      "convivial",
+      "chaud"
+    ],
+    "translations": {
+      "en": {
+        "title": "Savory Comté Cookies",
+        "description": "Soft savory cookies flavored with Comté, whole-grain mustard, thyme and sunflower seeds, perfect for aperitivo.",
+        "tags": [
+          "oven",
+          "aperitif",
+          "vegetarian",
+          "finger-food",
+          "sharing",
+          "easy",
+          "cheese",
+          "snack",
+          "soft",
+          "herby",
+          "convivial",
+          "hot"
+        ]
+      },
+      "it": {
+        "title": "Cookie salati al Comté",
+        "description": "Cookie salati morbidi e profumati con Comté, senape all'antica, timo e semi di girasole, perfetti per l'aperitivo.",
+        "tags": [
+          "forno",
+          "aperitivo",
+          "vegetariano",
+          "finger-food",
+          "da-condividere",
+          "facile",
+          "formaggio",
+          "snack",
+          "morbido",
+          "erbaceo",
+          "conviviale",
+          "caldo"
+        ]
+      }
+    },
+    "stepCount": 7,
+    "ingredientCount": 9,
+    "imageCredit": {
+      "author": "Allen Gong",
+      "url": "https://unsplash.com/@mrgongxue"
+    }
+  },
+  {
+    "slug": "bananamisu",
+    "title": "Bananamisù aux spéculoos et à la banane",
+    "description": "Un dessert façon tiramisu à la banane, avec une base de spéculoos croustillante et une crème mascarpone légère.",
+    "images": {
+      "cover": "images/recipes/bananamisu/cover.jpg",
+      "web": "images/recipes/bananamisu/web.jpg"
+    },
+    "prepTime": 35,
+    "cookTime": 3,
+    "servings": 4,
+    "difficulty": "Medio",
+    "category": "Dolci",
+    "tags": [
+      "dessert",
+      "italien",
+      "sans-cuisson",
+      "à-partager",
+      "crémeux",
+      "gourmand",
+      "banane",
+      "chocolat",
+      "fruits",
+      "froid"
+    ],
+    "stepCount": 14,
+    "ingredientCount": 11,
+    "translations": {
+      "en": {
+        "title": "Bananamisu with speculoos and banana",
+        "description": "A banana tiramisu-style dessert with a crunchy speculoos base and a light mascarpone cream.",
+        "tags": [
+          "dessert",
+          "italian",
+          "no-bake",
+          "to-share",
+          "creamy",
+          "indulgent",
+          "banana",
+          "chocolate",
+          "fruit",
+          "cold"
+        ]
+      },
+      "it": {
+        "title": "Bananamisù con speculoos e banana",
+        "description": "Un dessert in stile tiramisù alla banana, con una base croccante di speculoos e una crema leggera al mascarpone.",
+        "tags": [
+          "dessert",
+          "italiano",
+          "senza-cottura",
+          "da-condividere",
+          "cremoso",
+          "goloso",
+          "banana",
+          "cioccolato",
+          "frutta",
+          "freddo"
+        ]
+      }
+    }
+  },
+  {
+    "slug": "pasta-tartuffo",
+    "title": "Pasta tartuffo",
+    "description": "Les fameuses pâtes à la truffe de Big Mamma, crémeuses au mascarpone, parmesan et champignons de Paris.",
+    "images": {
+      "cover": "images/recipes/pasta-tartuffo/cover.jpg",
+      "web": "images/recipes/pasta-tartuffo/web.jpg"
+    },
+    "prepTime": 15,
+    "cookTime": 20,
+    "servings": 4,
+    "difficulty": "Facile",
+    "category": "Pasta",
+    "tags": [
+      "pâtes",
+      "truffe",
+      "champignons",
+      "fromage",
+      "italien",
+      "rapide",
+      "facile",
+      "plat-principal",
+      "onctueux",
+      "gourmand",
+      "chaud",
+      "végétarien"
+    ],
+    "stepCount": 8,
+    "ingredientCount": 9,
+    "translations": {
+      "en": {
+        "title": "Truffle Pasta",
+        "description": "Big Mamma's famous truffle pasta, creamy with mascarpone, parmesan and button mushrooms.",
+        "tags": [
+          "pasta",
+          "truffle",
+          "mushrooms",
+          "cheese",
+          "italian",
+          "quick",
+          "easy",
+          "main-course",
+          "creamy",
+          "indulgent",
+          "hot",
+          "vegetarian"
+        ]
+      },
+      "it": {
+        "title": "Pasta al tartufo",
+        "description": "La famosa pasta al tartufo di Big Mamma, cremosa con mascarpone, parmigiano e champignon.",
+        "tags": [
+          "pasta",
+          "tartufo",
+          "funghi",
+          "formaggio",
+          "italiano",
+          "veloce",
+          "facile",
+          "primo-piatto",
+          "cremoso",
+          "goloso",
+          "caldo",
+          "vegetariano"
+        ]
+      }
+    }
+  },
+  {
+    "slug": "carpaccio-de-tomates-au-pesto-de-pistaches",
+    "title": "Carpaccio de tomates au pesto de pistaches",
+    "description": "Une entrée d'été légère et rafraîchissante avec tomates, pesto de pistaches, burrata crémeuse et crème balsamique.",
+    "images": {
+      "cover": "images/recipes/carpaccio-de-tomates-au-pesto-de-pistaches/cover.jpg",
+      "web": "images/recipes/carpaccio-de-tomates-au-pesto-de-pistaches/web.jpg"
+    },
+    "prepTime": 15,
+    "cookTime": 0,
+    "servings": 4,
+    "difficulty": "Facile",
+    "category": "Insalate",
+    "tags": [
+      "été",
+      "végétarien",
+      "sans-gluten",
+      "no-cuisson",
+      "rapide",
+      "facile",
+      "entrée",
+      "léger",
+      "froid",
+      "méditerranéen",
+      "tomates",
+      "fromage"
+    ],
+    "translations": {
+      "en": {
+        "title": "Tomato Carpaccio with Pistachio Pesto",
+        "description": "A light, refreshing summer starter with tomatoes, pistachio pesto, creamy burrata and balsamic glaze.",
+        "tags": [
+          "summer",
+          "vegetarian",
+          "gluten-free",
+          "no-cook",
+          "quick",
+          "easy",
+          "starter",
+          "light",
+          "cold",
+          "mediterranean",
+          "tomatoes",
+          "cheese"
+        ]
+      },
+      "it": {
+        "title": "Carpaccio di pomodori con pesto di pistacchi",
+        "description": "Un antipasto estivo leggero e rinfrescante con pomodori, pesto di pistacchi, burrata cremosa e crema di balsamico.",
+        "tags": [
+          "estate",
+          "vegetariano",
+          "senza-glutine",
+          "senza-cottura",
+          "veloce",
+          "facile",
+          "antipasto",
+          "leggero",
+          "freddo",
+          "mediterraneo",
+          "pomodori",
+          "formaggio"
+        ]
+      }
+    },
+    "stepCount": 6,
+    "ingredientCount": 10,
+    "origin": "pierrick"
+  },
+  {
+    "slug": "gaspacho-de-pasteque-a-la-feta",
+    "title": "Gaspacho de pastèque à la feta",
+    "description": "Un gaspacho froid de pastèque, poivron rouge, menthe et feta, parfait pour une entrée légère et très fraîche en été.",
+    "images": {
+      "cover": "images/recipes/gaspacho-de-pasteque-a-la-feta/cover.jpg",
+      "web": "images/recipes/gaspacho-de-pasteque-a-la-feta/web.jpg"
+    },
+    "prepTime": 20,
+    "cookTime": 0,
+    "servings": 4,
+    "difficulty": "Facile",
+    "category": "Antipasti",
+    "tags": [
+      "entrée",
+      "végétarien",
+      "no-cuisson",
+      "été",
+      "froid",
+      "léger",
+      "méditerranéen",
+      "fruits",
+      "légumes",
+      "fromage",
+      "rapide",
+      "à-la-cuillère"
+    ],
+    "translations": {
+      "en": {
+        "title": "Watermelon Gazpacho with Feta",
+        "description": "A chilled watermelon, red pepper, mint and feta gazpacho, perfect as a light and very refreshing summer starter.",
+        "tags": [
+          "starter",
+          "vegetarian",
+          "no-cook",
+          "summer",
+          "cold",
+          "light",
+          "mediterranean",
+          "fruit",
+          "vegetables",
+          "cheese",
+          "quick",
+          "spoonable"
+        ]
+      },
+      "it": {
+        "title": "Gazpacho di Anguria con Feta",
+        "description": "Un gazpacho freddo di anguria, peperone rosso, menta e feta, perfetto come antipasto leggero e molto fresco per l'estate.",
+        "tags": [
+          "antipasto",
+          "vegetariano",
+          "senza-cottura",
+          "estate",
+          "freddo",
+          "leggero",
+          "mediterraneo",
+          "frutta",
+          "verdure",
+          "formaggio",
+          "veloce",
+          "al-cucchiaio"
+        ]
+      }
+    },
+    "stepCount": 4,
+    "ingredientCount": 11
+  },
+  {
+    "slug": "mayak-gyeran",
+    "title": "Mayak Gyeran",
+    "description": "Des œufs mollets marinés à la coréenne dans une sauce soja parfumée, servis sur du riz chaud.",
+    "images": {
+      "cover": "images/recipes/mayak-gyeran/cover.jpg",
+      "web": "images/recipes/mayak-gyeran/web.jpg"
+    },
+    "prepTime": 15,
+    "cookTime": 6,
+    "servings": 2,
+    "difficulty": "Facile",
+    "category": "Secondi",
+    "tags": [
+      "œufs",
+      "riz",
+      "asiatique",
+      "plat-principal",
+      "facile",
+      "préparation-à-lavance",
+      "à-la-cuillère",
+      "végétarien",
+      "sans-lactose",
+      "umami",
+      "sucré-salé",
+      "épicé",
+      "chaud"
+    ],
+    "stepCount": 8,
+    "ingredientCount": 10,
+    "translations": {
+      "en": {
+        "title": "Mayak Gyeran",
+        "description": "Korean marinated soft-boiled eggs in a fragrant soy sauce marinade, served over hot rice.",
+        "tags": [
+          "eggs",
+          "rice",
+          "asian",
+          "main-course",
+          "easy",
+          "make-ahead",
+          "spoon-food",
+          "vegetarian",
+          "dairy-free",
+          "umami",
+          "sweet-savory",
+          "spicy",
+          "hot"
+        ]
+      },
+      "it": {
+        "title": "Mayak Gyeran",
+        "description": "Uova barzotte marinate alla coreana in una salsa di soia profumata, servite su riso caldo.",
+        "tags": [
+          "uova",
+          "riso",
+          "asiatico",
+          "piatto-principale",
+          "facile",
+          "preparazione-anticipata",
+          "al-cucchiaio",
+          "vegetariano",
+          "senza-lattosio",
+          "umami",
+          "dolce-salato",
+          "piccante",
+          "caldo"
+        ]
+      }
+    }
+  },
+  {
+    "slug": "poke-bowl-falafel-mangue",
+    "title": "Poke bowl falafel & mangue",
+    "description": "Un bowl végétarien coloré avec riz, falafels, mangue, avocat et légumes croquants, relevé d'une sauce sésame-soja au gingembre.",
+    "images": {
+      "cover": "images/recipes/poke-bowl-falafel-mangue/cover.png",
+      "web": "images/recipes/poke-bowl-falafel-mangue/web.png"
+    },
+    "prepTime": 20,
+    "cookTime": 15,
+    "servings": 4,
+    "difficulty": "Facile",
+    "category": "Secondi",
+    "tags": [
+      "riz",
+      "légumes",
+      "fruits",
+      "végétarien",
+      "asiatique",
+      "plat-principal",
+      "rapide",
+      "facile",
+      "équilibré",
+      "croquant",
+      "froid",
+      "meal-prep",
+      "sucré-salé",
+      "umami",
+      "herbacé"
+    ],
+    "origin": "pierrick",
+    "stepCount": 6,
+    "ingredientCount": 16,
+    "translations": {
+      "en": {
+        "title": "Falafel and Mango Poke Bowl",
+        "description": "A colorful vegetarian bowl with rice, falafel, mango, avocado and crunchy vegetables, finished with a sesame-soy ginger sauce.",
+        "tags": [
+          "rice",
+          "vegetables",
+          "fruit",
+          "vegetarian",
+          "asian",
+          "main-course",
+          "quick",
+          "easy",
+          "balanced",
+          "crunchy",
+          "cold",
+          "meal-prep",
+          "sweet-savory",
+          "umami",
+          "herbal"
+        ]
+      },
+      "it": {
+        "title": "Poke bowl con falafel e mango",
+        "description": "Una bowl vegetariana colorata con riso, falafel, mango, avocado e verdure croccanti, condita con salsa sesamo-soia allo zenzero.",
+        "tags": [
+          "riso",
+          "verdure",
+          "frutta",
+          "vegetariano",
+          "asiatico",
+          "piatto-principale",
+          "veloce",
+          "facile",
+          "equilibrato",
+          "croccante",
+          "freddo",
+          "meal-prep",
+          "dolce-salato",
+          "umami",
+          "erbaceo"
+        ]
+      }
+    }
+  },
+  {
+    "slug": "curry-vert-de-pierrick",
+    "title": "Curry vert",
+    "description": "Un curry vert thaï au poulet, crémeux au lait de coco, parfumé au combava et au basilic thaï.",
+    "images": {
+      "cover": "images/recipes/curry-vert-de-pierrick/cover.jpg",
+      "web": "images/recipes/curry-vert-de-pierrick/web.jpg"
+    },
+    "prepTime": 10,
+    "cookTime": 15,
+    "servings": 4,
+    "difficulty": "Facile",
+    "category": "Secondi",
+    "tags": [
+      "asiatique",
+      "thaï",
+      "poulet",
+      "épicé",
+      "mijoté",
+      "wok",
+      "rapide",
+      "plat-principal",
+      "lait-de-coco",
+      "chaud",
+      "réconfortant",
+      "herbacé"
+    ],
+    "translations": {
+      "en": {
+        "title": "Green Curry",
+        "description": "A Thai green chicken curry, creamy with coconut milk and fragrant with kaffir lime leaves and Thai basil.",
+        "tags": [
+          "asian",
+          "thai",
+          "chicken",
+          "spicy",
+          "simmered",
+          "wok",
+          "quick",
+          "main-course",
+          "coconut-milk",
+          "hot",
+          "comforting",
+          "herbal"
+        ]
+      },
+      "it": {
+        "title": "Curry verde",
+        "description": "Un curry verde thailandese con pollo, cremoso al latte di cocco e profumato con combava e basilico thai.",
+        "tags": [
+          "asiatico",
+          "thai",
+          "pollo",
+          "piccante",
+          "stufato",
+          "wok",
+          "veloce",
+          "piatto-principale",
+          "latte-di-cocco",
+          "caldo",
+          "confortante",
+          "erbaceo"
+        ]
+      }
+    },
+    "stepCount": 5,
+    "ingredientCount": 10,
+    "origin": "pierrick"
+  },
+  {
+    "slug": "pates-chevre-speck-et-huile-de-truffe",
+    "title": "Pâtes Chèvre, Speck et Huile de Truffe",
+    "description": "Des penne crémeuses au chèvre frais, terminées avec du speck fondant et un filet d'huile de truffe.",
+    "images": {
+      "cover": "images/recipes/pates-chevre-speck-et-huile-de-truffe/cover.jpg",
+      "web": "images/recipes/pates-chevre-speck-et-huile-de-truffe/web.jpg"
+    },
+    "prepTime": 5,
+    "cookTime": 12,
+    "servings": 4,
+    "difficulty": "Facile",
+    "category": "Pasta",
+    "tags": [
+      "pâtes",
+      "porc",
+      "fromage",
+      "rapide",
+      "facile",
+      "plat-principal",
+      "onctueux",
+      "chaud",
+      "réconfortant",
+      "gourmand",
+      "italien",
+      "truffe"
+    ],
+    "translations": {
+      "en": {
+        "title": "Pasta with Goat Cheese, Speck and Truffle Oil",
+        "description": "Creamy penne with fresh goat cheese, finished with tender speck and a drizzle of truffle oil.",
+        "tags": [
+          "pasta",
+          "pork",
+          "cheese",
+          "quick",
+          "easy",
+          "main-course",
+          "creamy",
+          "hot",
+          "comforting",
+          "indulgent",
+          "italian",
+          "truffle"
+        ]
+      },
+      "it": {
+        "title": "Pasta con Caprino, Speck e Olio al Tartufo",
+        "description": "Penne cremose con caprino fresco, completate con speck morbido e un filo di olio al tartufo.",
+        "tags": [
+          "pasta",
+          "maiale",
+          "formaggio",
+          "veloce",
+          "facile",
+          "piatto-principale",
+          "cremoso",
+          "caldo",
+          "confortante",
+          "goloso",
+          "italiano",
+          "tartufo"
+        ]
+      }
+    },
+    "origin": "pierrick",
+    "stepCount": 6,
+    "ingredientCount": 7
+  },
+  {
+    "slug": "pancakes-moelleux-sirop-erable",
+    "title": "Pancakes moelleux au sirop d'érable",
+    "description": "Des pancakes américains très moelleux, préparés avec des blancs montés en neige et servis avec du sirop d'érable tiède.",
+    "images": {
+      "cover": "images/recipes/pancakes-moelleux-sirop-erable/cover.jpg",
+      "web": "images/recipes/pancakes-moelleux-sirop-erable/web.jpg"
+    },
+    "imageCredit": {
+      "author": "Luke Pennystan",
+      "url": "https://unsplash.com/@lukepennystan"
+    },
+    "prepTime": 5,
+    "cookTime": 10,
+    "servings": 4,
+    "difficulty": "Facile",
+    "category": "Breakfast",
+    "tags": [
+      "petit-déjeuner",
+      "brunch",
+      "goûter",
+      "américain",
+      "rapide",
+      "facile",
+      "enfants",
+      "toute-la-famille",
+      "moelleux",
+      "sucré",
+      "végétarien",
+      "poêle",
+      "se-congèle"
+    ],
+    "stepCount": 5,
+    "ingredientCount": 8,
+    "translations": {
+      "en": {
+        "title": "Fluffy Pancakes with Maple Syrup",
+        "description": "Very fluffy American-style pancakes made with whipped egg whites and served with warm maple syrup.",
+        "tags": [
+          "breakfast",
+          "brunch",
+          "snack",
+          "american",
+          "quick",
+          "easy",
+          "kids",
+          "family-friendly",
+          "fluffy",
+          "sweet",
+          "vegetarian",
+          "pan-fried",
+          "freezer-friendly"
+        ]
+      },
+      "it": {
+        "title": "Pancake soffici con sciroppo d'acero",
+        "description": "Pancake all'americana molto soffici, preparati con albumi montati a neve e serviti con sciroppo d'acero tiepido.",
+        "tags": [
+          "colazione",
+          "brunch",
+          "merenda",
+          "americano",
+          "veloce",
+          "facile",
+          "bambini",
+          "tutta-la-famiglia",
+          "soffice",
+          "dolce",
+          "vegetariano",
+          "padella",
+          "si-congela"
+        ]
+      }
+    }
+  },
+  {
+    "slug": "gaspacho-pasteque-tomates",
+    "title": "Gaspacho de tomates et pastèque",
+    "description": "Un gaspacho rafraîchissant, parfait pour les jours de canicule.",
+    "images": {
+      "cover": "images/recipes/gaspacho-pasteque-tomates/cover.jpg",
+      "web": "images/recipes/gaspacho-pasteque-tomates/web.jpg"
+    },
+    "prepTime": 5,
+    "cookTime": 0,
+    "servings": 4,
+    "difficulty": "Facile",
+    "category": "Antipasti",
+    "tags": [
+      "gaspacho",
+      "froid",
+      "été",
+      "no-cuisson",
+      "végétarien",
+      "végétalien",
+      "rapide",
+      "léger",
+      "entrée",
+      "méditerranéen",
+      "légumes",
+      "sans-lactose"
+    ],
+    "ingredientCount": 11,
+    "stepCount": 1,
+    "translations": {
+      "en": {
+        "title": "Tomato and Watermelon Gazpacho",
+        "description": "A refreshing gazpacho, perfect for scorching summer days.",
+        "tags": [
+          "gazpacho",
+          "cold",
+          "summer",
+          "no-cook",
+          "vegetarian",
+          "vegan",
+          "quick",
+          "light",
+          "starter",
+          "mediterranean",
+          "vegetables",
+          "dairy-free"
+        ]
+      },
+      "it": {
+        "title": "Gazpacho di pomodoro e anguria",
+        "description": "Un gazpacho rinfrescante, perfetto per le giornate di canicola.",
+        "tags": [
+          "gazpacho",
+          "freddo",
+          "estate",
+          "senza-cottura",
+          "vegetariano",
+          "vegano",
+          "veloce",
+          "leggero",
+          "antipasto",
+          "mediterraneo",
+          "verdure",
+          "senza-lattosio"
+        ]
+      }
+    }
+  },
+  {
+    "slug": "melon-basilic",
+    "title": "Melon mariné au basilic",
+    "description": "Le meilleur melon de l'été : des morceaux de melon marinés dans un mélange de miel, huile d'olive, gingembre râpé et vinaigre, servis bien frais avec quelques feuilles de basilic ou d'estragon.",
+    "category": "Antipasti",
+    "difficulty": "Facile",
+    "prepTime": 10,
+    "cookTime": 0,
+    "servings": 4,
+    "tags": [
+      "melon",
+      "été",
+      "apéro",
+      "entrée",
+      "no-cuisson",
+      "végétarien",
+      "sans-gluten",
+      "sans-lactose",
+      "rapide",
+      "facile",
+      "froid",
+      "léger",
+      "fruits",
+      "méditerranéen"
+    ],
+    "images": {
+      "cover": "images/recipes/melon-basilic/cover.jpg",
+      "web": "images/recipes/melon-basilic/web.jpg"
+    },
+    "imageCredit": {
+      "author": "Natalie Behn",
+      "url": "https://unsplash.com/@natalie_behn"
+    },
+    "ingredientCount": 6,
+    "stepCount": 3,
+    "translations": {
+      "en": {
+        "title": "Honey-Marinated Melon with Basil",
+        "description": "The best melon of the summer: bite-size melon pieces marinated in a mix of honey, olive oil, grated ginger and vinegar, served well chilled with a few leaves of basil or tarragon.",
+        "tags": [
+          "melon",
+          "summer",
+          "aperitivo",
+          "starter",
+          "no-cook",
+          "vegetarian",
+          "gluten-free",
+          "dairy-free",
+          "quick",
+          "easy",
+          "cold",
+          "light",
+          "fruit",
+          "mediterranean"
+        ]
+      },
+      "it": {
+        "title": "Melone marinato al basilico",
+        "description": "Il miglior melone dell'estate: pezzetti di melone marinati in un mix di miele, olio d'oliva, zenzero grattugiato e aceto, serviti ben freddi con qualche foglia di basilico o dragoncello.",
+        "tags": [
+          "melone",
+          "estate",
+          "aperitivo",
+          "antipasto",
+          "senza-cottura",
+          "vegetariano",
+          "senza-glutine",
+          "senza-lattosio",
+          "veloce",
+          "facile",
+          "freddo",
+          "leggero",
+          "frutta",
+          "mediterraneo"
+        ]
+      }
+    }
+  },
+  {
+    "slug": "riz-tomates-cerises-et-feta-au-four",
+    "title": "Riz tomates cerises et feta au four",
+    "description": "Un riz qui cuit tout seul au four avec un bloc de feta fondante, des tomates cerises confites et de l'ail. Un plat tout-en-un que les enfants réclament.",
+    "category": "Secondi",
+    "difficulty": "Facile",
+    "prepTime": 5,
+    "cookTime": 30,
+    "servings": 4,
+    "tags": [
+      "riz",
+      "feta",
+      "tomates-cerises",
+      "four",
+      "one-pot",
+      "végétarien",
+      "enfants",
+      "toute-la-famille",
+      "facile",
+      "économique",
+      "méditerranéen",
+      "plat-principal",
+      "réconfortant",
+      "chaud"
+    ],
+    "images": {
+      "cover": "images/recipes/riz-tomates-cerises-et-feta-au-four/cover.jpg",
+      "web": "images/recipes/riz-tomates-cerises-et-feta-au-four/web.jpg"
+    },
+    "ingredientCount": 8,
+    "stepCount": 7,
+    "translations": {
+      "en": {
+        "title": "Baked Rice with Cherry Tomatoes and Feta",
+        "description": "Rice that bakes itself in the oven with a block of melting feta, confit cherry tomatoes and garlic. A one-dish dinner kids ask for again.",
+        "tags": [
+          "rice",
+          "feta",
+          "cherry-tomatoes",
+          "oven",
+          "one-pot",
+          "vegetarian",
+          "kids",
+          "family-friendly",
+          "easy",
+          "budget-friendly",
+          "mediterranean",
+          "main-course",
+          "comfort-food",
+          "hot"
+        ]
+      },
+      "it": {
+        "title": "Riso al forno con pomodorini e feta",
+        "description": "Un riso che cuoce da solo in forno con un blocco di feta fondente, pomodorini confit e aglio. Un piatto unico che i bambini richiedono sempre.",
+        "tags": [
+          "riso",
+          "feta",
+          "pomodorini",
+          "forno",
+          "piatto-unico",
+          "vegetariano",
+          "bambini",
+          "tutta-la-famiglia",
+          "facile",
+          "economico",
+          "mediterraneo",
+          "piatto-principale",
+          "confortante",
+          "caldo"
+        ]
+      }
+    }
+  },
+  {
+    "slug": "poulet-sauce-moutarde",
+    "title": "Poulet sauce moutarde",
+    "description": "Des escalopes de poulet poêlées avec champignons et oignon rouge, nappées d'une sauce crémeuse à la moutarde à l'ancienne. Servi avec du riz, c'est le dîner de semaine parfait.",
+    "images": {
+      "cover": "images/recipes/poulet-sauce-moutarde/cover.jpg",
+      "web": "images/recipes/poulet-sauce-moutarde/web.jpg"
+    },
+    "imageCredit": {
+      "author": "Grutto",
+      "url": "https://www.grutto.com/"
+    },
+    "prepTime": 7,
+    "cookTime": 15,
+    "servings": 4,
+    "difficulty": "Facile",
+    "category": "Secondi",
+    "tags": [
+      "poulet",
+      "champignons",
+      "moutarde",
+      "crème",
+      "poêle",
+      "rapide",
+      "facile",
+      "enfants",
+      "toute-la-famille",
+      "français",
+      "plat-principal",
+      "réconfortant",
+      "chaud",
+      "sans-gluten"
+    ],
+    "stepCount": 8,
+    "ingredientCount": 8,
+    "translations": {
+      "en": {
+        "title": "Chicken in Mustard Cream Sauce",
+        "description": "Pan-fried chicken breasts with mushrooms and red onion, coated in a creamy wholegrain mustard sauce. Served with rice, it is the perfect weeknight dinner.",
+        "tags": [
+          "chicken",
+          "mushrooms",
+          "mustard",
+          "cream",
+          "pan-fried",
+          "quick",
+          "easy",
+          "kids",
+          "family-friendly",
+          "french",
+          "main-course",
+          "comfort-food",
+          "hot",
+          "gluten-free"
+        ]
+      },
+      "it": {
+        "title": "Pollo alla senape",
+        "description": "Petti di pollo saltati in padella con funghi e cipolla rossa, avvolti in una cremosa salsa alla senape in grani. Serviti con il riso, sono la cena perfetta durante la settimana.",
+        "tags": [
+          "pollo",
+          "funghi",
+          "senape",
+          "panna",
+          "padella",
+          "veloce",
+          "facile",
+          "bambini",
+          "tutta-la-famiglia",
+          "francese",
+          "piatto-principale",
+          "confortante",
+          "caldo",
+          "senza-glutine"
+        ]
+      }
+    }
+  },
+  {
+    "slug": "aubergines-braisees-au-porc-et-riz",
+    "title": "Aubergines braisées au porc & riz",
+    "description": "Des aubergines dorées puis braisées avec de la chair à saucisse, du gingembre et de l'ail dans une sauce soja sucrée. Un plat asiatique fondant servi sur un lit de riz.",
+    "images": {
+      "cover": "images/recipes/aubergines-braisees-au-porc-et-riz/cover.jpg",
+      "web": "images/recipes/aubergines-braisees-au-porc-et-riz/web.jpg"
+    },
+    "imageCredit": {
+      "author": "Jow",
+      "url": "https://jow.fr/recipes/aubergines-braisees-au-porc-et-riz-8i983kndlzb4kl8k0hbv"
+    },
+    "prepTime": 16,
+    "cookTime": 15,
+    "servings": 4,
+    "difficulty": "Facile",
+    "category": "Secondi",
+    "tags": [
+      "aubergines",
+      "porc",
+      "riz",
+      "gingembre",
+      "mijoté",
+      "poêle",
+      "asiatique",
+      "plat-principal",
+      "sans-lactose",
+      "umami",
+      "chaud",
+      "été",
+      "facile",
+      "gourmand"
+    ],
+    "stepCount": 14,
+    "ingredientCount": 10,
+    "translations": {
+      "en": {
+        "title": "Braised Aubergines with Pork and Rice",
+        "description": "Aubergines browned then braised with sausage meat, ginger and garlic in a sweet soy sauce. A meltingly tender Asian dish served over a bed of rice.",
+        "tags": [
+          "aubergine",
+          "pork",
+          "rice",
+          "ginger",
+          "braised",
+          "pan-fried",
+          "asian",
+          "main-course",
+          "dairy-free",
+          "umami",
+          "hot",
+          "summer",
+          "easy",
+          "indulgent"
+        ]
+      },
+      "it": {
+        "title": "Melanzane brasate con maiale e riso",
+        "description": "Melanzane rosolate e poi brasate con salsiccia, zenzero e aglio in una salsa di soia dolce. Un piatto asiatico morbidissimo servito su un letto di riso.",
+        "tags": [
+          "melanzane",
+          "maiale",
+          "riso",
+          "zenzero",
+          "brasato",
+          "padella",
+          "asiatico",
+          "piatto-principale",
+          "senza-lattosio",
+          "umami",
+          "caldo",
+          "estate",
+          "facile",
+          "goloso"
+        ]
+      }
+    }
+  },
+  {
+    "slug": "flan-a-la-ratatouille",
+    "title": "Flan à la ratatouille",
+    "description": "Un flan salé tout simple qui cache la ratatouille dans un appareil crémeux aux œufs, gratiné au fromage râpé. Quatre ingrédients et le four fait le reste.",
+    "images": {
+      "cover": "images/recipes/flan-a-la-ratatouille/cover.jpg",
+      "web": "images/recipes/flan-a-la-ratatouille/web.jpg"
+    },
+    "imageCredit": {
+      "author": "Compagnons",
+      "url": "https://unsplash.com/@sigmund"
+    },
+    "prepTime": 4,
+    "cookTime": 40,
+    "servings": 4,
+    "difficulty": "Facile",
+    "category": "Secondi",
+    "tags": [
+      "légumes",
+      "œufs",
+      "four",
+      "végétarien",
+      "sans-gluten",
+      "enfants",
+      "toute-la-famille",
+      "facile",
+      "5-ingrédients",
+      "français",
+      "plat-principal",
+      "réconfortant",
+      "chaud",
+      "restes-bienvenus"
+    ],
+    "stepCount": 4,
+    "ingredientCount": 6,
+    "translations": {
+      "en": {
+        "title": "Ratatouille Baked Custard",
+        "description": "A very simple savoury flan that hides ratatouille inside a creamy egg custard, topped with melted cheese. Four ingredients and the oven does the rest.",
+        "tags": [
+          "vegetables",
+          "eggs",
+          "oven",
+          "vegetarian",
+          "gluten-free",
+          "kids",
+          "family-friendly",
+          "easy",
+          "5-ingredients",
+          "french",
+          "main-course",
+          "comfort-food",
+          "hot",
+          "leftovers-friendly"
+        ]
+      },
+      "it": {
+        "title": "Sformato di ratatouille",
+        "description": "Uno sformato salato semplicissimo che nasconde la ratatouille in un composto cremoso di uova, gratinato con formaggio grattugiato. Quattro ingredienti e il forno fa il resto.",
+        "tags": [
+          "verdure",
+          "uova",
+          "forno",
+          "vegetariano",
+          "senza-glutine",
+          "bambini",
+          "tutta-la-famiglia",
+          "facile",
+          "5-ingredienti",
+          "francese",
+          "piatto-principale",
+          "confortante",
+          "caldo",
+          "avanzi-benvenuti"
+        ]
+      }
+    }
+  },
+  {
+    "slug": "legumes-du-soleil-et-feta-rotis",
+    "title": "Légumes du soleil & feta rôtis",
+    "description": "Courgettes, tomates multicolores et oignon rouge rôtis à four très chaud autour d'un bloc de feta doré. Un plat végétarien d'été à servir avec du pain pour saucer.",
+    "images": {
+      "cover": "images/recipes/legumes-du-soleil-et-feta-rotis/cover.jpg",
+      "web": "images/recipes/legumes-du-soleil-et-feta-rotis/web.jpg"
+    },
+    "imageCredit": {
+      "author": "Roberto  Arias",
+      "url": "https://unsplash.com/@rariasg"
+    },
+    "prepTime": 6,
+    "cookTime": 20,
+    "servings": 4,
+    "difficulty": "Facile",
+    "category": "Secondi",
+    "tags": [
+      "légumes",
+      "feta",
+      "four",
+      "one-pot",
+      "végétarien",
+      "sans-gluten",
+      "méditerranéen",
+      "été",
+      "léger",
+      "facile",
+      "toute-la-famille",
+      "plat-principal",
+      "chaud",
+      "à-partager"
+    ],
+    "stepCount": 7,
+    "ingredientCount": 7,
+    "translations": {
+      "en": {
+        "title": "Roasted Summer Vegetables with Feta",
+        "description": "Courgettes, multicoloured tomatoes and red onion roasted in a very hot oven around a golden block of feta. A summery vegetarian dish to serve with bread for mopping up.",
+        "tags": [
+          "vegetables",
+          "feta",
+          "oven",
+          "one-pot",
+          "vegetarian",
+          "gluten-free",
+          "mediterranean",
+          "summer",
+          "light",
+          "easy",
+          "family-friendly",
+          "main-course",
+          "hot",
+          "sharing"
+        ]
+      },
+      "it": {
+        "title": "Verdure estive e feta al forno",
+        "description": "Zucchine, pomodori multicolore e cipolla rossa arrostiti in forno caldissimo attorno a un blocco di feta dorato. Un piatto vegetariano estivo da servire con il pane per fare la scarpetta.",
+        "tags": [
+          "verdure",
+          "feta",
+          "forno",
+          "piatto-unico",
+          "vegetariano",
+          "senza-glutine",
+          "mediterraneo",
+          "estate",
+          "leggero",
+          "facile",
+          "tutta-la-famiglia",
+          "piatto-principale",
+          "caldo",
+          "da-condividere"
+        ]
+      }
+    }
+  },
+  {
+    "slug": "poulet-gingembre-et-cajou",
+    "title": "Poulet gingembre & cajou",
+    "description": "Du poulet saisi puis laqué à la sauce soja avec beaucoup de gingembre, d'ail et de noix de cajou, servi avec carottes, brocoli et riz. Un sauté asiatique express et croquant.",
+    "images": {
+      "cover": "images/recipes/poulet-gingembre-et-cajou/cover.jpg",
+      "web": "images/recipes/poulet-gingembre-et-cajou/web.jpg"
+    },
+    "imageCredit": {
+      "author": "Alexandra Dobrin",
+      "url": "https://unsplash.com/@_3puncte_"
+    },
+    "prepTime": 6,
+    "cookTime": 15,
+    "servings": 4,
+    "difficulty": "Facile",
+    "category": "Secondi",
+    "tags": [
+      "poulet",
+      "riz",
+      "gingembre",
+      "légumes",
+      "poêle",
+      "asiatique",
+      "protéiné",
+      "sans-lactose",
+      "croquant",
+      "rapide",
+      "facile",
+      "plat-principal",
+      "chaud",
+      "équilibré"
+    ],
+    "stepCount": 10,
+    "ingredientCount": 11,
+    "translations": {
+      "en": {
+        "title": "Ginger and Cashew Chicken",
+        "description": "Chicken seared then glazed in soy sauce with plenty of ginger, garlic and cashew nuts, served with carrots, broccoli and rice. A fast, crunchy Asian stir-fry.",
+        "tags": [
+          "chicken",
+          "rice",
+          "ginger",
+          "vegetables",
+          "pan-fried",
+          "asian",
+          "high-protein",
+          "dairy-free",
+          "crunchy",
+          "quick",
+          "easy",
+          "main-course",
+          "hot",
+          "balanced"
+        ]
+      },
+      "it": {
+        "title": "Pollo allo zenzero e anacardi",
+        "description": "Pollo scottato e poi glassato nella salsa di soia con tanto zenzero, aglio e anacardi, servito con carote, broccoli e riso. Un saltato asiatico rapido e croccante.",
+        "tags": [
+          "pollo",
+          "riso",
+          "zenzero",
+          "verdure",
+          "padella",
+          "asiatico",
+          "proteico",
+          "senza-lattosio",
+          "croccante",
+          "veloce",
+          "facile",
+          "piatto-principale",
+          "caldo",
+          "equilibrato"
+        ]
+      }
+    }
+  },
+  {
+    "slug": "porc-au-caramel",
+    "title": "Porc au caramel",
+    "description": "Des tranches épaisses de filet mignon poêlées au beurre puis mijotées dans un caramel de sauce soja, vinaigre de Xérès et gingembre. Le sucré-salé asiatique en 17 minutes.",
+    "images": {
+      "cover": "images/recipes/porc-au-caramel/cover.jpg",
+      "web": "images/recipes/porc-au-caramel/web.jpg"
+    },
+    "imageCredit": {
+      "author": "yvonne lee harijanto",
+      "url": "https://unsplash.com/@yvonn3my"
+    },
+    "prepTime": 5,
+    "cookTime": 12,
+    "servings": 4,
+    "difficulty": "Facile",
+    "category": "Secondi",
+    "tags": [
+      "porc",
+      "riz",
+      "gingembre",
+      "sucré-salé",
+      "asiatique",
+      "poêle",
+      "mijoté",
+      "sans-lactose",
+      "rapide",
+      "facile",
+      "plat-principal",
+      "chaud",
+      "gourmand",
+      "enfants"
+    ],
+    "stepCount": 5,
+    "ingredientCount": 8,
+    "translations": {
+      "en": {
+        "title": "Caramel Pork",
+        "description": "Thick slices of pork tenderloin pan-fried in butter then simmered in a caramel of soy sauce, sherry vinegar and ginger. Asian sweet-and-savoury in 17 minutes.",
+        "tags": [
+          "pork",
+          "rice",
+          "ginger",
+          "sweet-and-savoury",
+          "asian",
+          "pan-fried",
+          "simmered",
+          "dairy-free",
+          "quick",
+          "easy",
+          "main-course",
+          "hot",
+          "indulgent",
+          "kids"
+        ]
+      },
+      "it": {
+        "title": "Maiale al caramello",
+        "description": "Fette spesse di filetto di maiale rosolate nel burro e poi stufate in un caramello di salsa di soia, aceto di Jerez e zenzero. L'agrodolce asiatico in 17 minuti.",
+        "tags": [
+          "maiale",
+          "riso",
+          "zenzero",
+          "agrodolce",
+          "asiatico",
+          "padella",
+          "stufato",
+          "senza-lattosio",
+          "veloce",
+          "facile",
+          "piatto-principale",
+          "caldo",
+          "goloso",
+          "bambini"
+        ]
+      }
+    }
+  },
+  {
+    "slug": "omelette-a-la-courgette",
+    "title": "Omelette à la courgette",
+    "description": "Une omelette moelleuse aux courgettes râpées et bien pressées, servie avec une sauce fraîche au yaourt, fromage frais, ail et herbes. Idéale au brunch ou en dîner express.",
+    "images": {
+      "cover": "images/recipes/omelette-a-la-courgette/cover.jpg",
+      "web": "images/recipes/omelette-a-la-courgette/web.jpg"
+    },
+    "imageCredit": {
+      "author": "Eaters Collective",
+      "url": "https://unsplash.com/@eaterscollective"
+    },
+    "prepTime": 11,
+    "cookTime": 16,
+    "servings": 4,
+    "difficulty": "Medio",
+    "category": "Brunch",
+    "tags": [
+      "œufs",
+      "courgette",
+      "herbacé",
+      "poêle",
+      "végétarien",
+      "sans-gluten",
+      "brunch",
+      "petit-déjeuner",
+      "rapide",
+      "léger",
+      "protéiné",
+      "été",
+      "enfants",
+      "chaud"
+    ],
+    "stepCount": 10,
+    "ingredientCount": 11,
+    "translations": {
+      "en": {
+        "title": "Courgette Omelette",
+        "description": "A fluffy omelette made with grated, well-squeezed courgettes, served with a fresh sauce of yoghurt, cream cheese, garlic and herbs. Perfect for brunch or a fast dinner.",
+        "tags": [
+          "eggs",
+          "zucchini",
+          "herby",
+          "pan-fried",
+          "vegetarian",
+          "gluten-free",
+          "brunch",
+          "breakfast",
+          "quick",
+          "light",
+          "high-protein",
+          "summer",
+          "kids",
+          "hot"
+        ]
+      },
+      "it": {
+        "title": "Frittata di zucchine",
+        "description": "Una frittata soffice con zucchine grattugiate e ben strizzate, servita con una salsa fresca allo yogurt, formaggio spalmabile, aglio ed erbe. Perfetta per il brunch o una cena veloce.",
+        "tags": [
+          "uova",
+          "zucchine",
+          "erbaceo",
+          "padella",
+          "vegetariano",
+          "senza-glutine",
+          "brunch",
+          "colazione",
+          "veloce",
+          "leggero",
+          "proteico",
+          "estate",
+          "bambini",
+          "caldo"
+        ]
+      }
+    }
+  },
+  {
+    "slug": "filet-mignon-creme-moutarde",
+    "title": "Filet mignon & crème à la moutarde",
+    "description": "Des tranches de filet mignon dorées à la poêle, nappées d'une crème à la moutarde parfumée au thym et servies sur un lit de riz. Quel plus grand plaisir que de saucer le plat après avoir fini toute son assiette.",
+    "category": "Secondi",
+    "difficulty": "Facile",
+    "prepTime": 5,
+    "cookTime": 10,
+    "servings": 4,
+    "tags": [
+      "porc",
+      "riz",
+      "moutarde",
+      "crème",
+      "poêle",
+      "rapide",
+      "facile",
+      "français",
+      "plat-principal",
+      "toute-la-famille",
+      "réconfortant",
+      "chaud",
+      "protéiné",
+      "sans-gluten"
+    ],
+    "images": {
+      "cover": "images/recipes/filet-mignon-creme-moutarde/cover.jpg",
+      "web": "images/recipes/filet-mignon-creme-moutarde/web.jpg"
+    },
+    "ingredientCount": 7,
+    "stepCount": 6,
+    "translations": {
+      "en": {
+        "title": "Pork Tenderloin in Mustard Cream Sauce",
+        "description": "Pan-seared pork tenderloin slices coated in a thyme-scented mustard cream sauce, served over a bed of rice. Nothing beats mopping up the pan once your plate is clean.",
+        "tags": [
+          "pork",
+          "rice",
+          "mustard",
+          "cream",
+          "pan-fried",
+          "quick",
+          "easy",
+          "french",
+          "main-course",
+          "family-friendly",
+          "comfort-food",
+          "hot",
+          "high-protein",
+          "gluten-free"
+        ]
+      },
+      "it": {
+        "title": "Filetto di maiale alla crema di senape",
+        "description": "Fette di filetto di maiale rosolate in padella, avvolte in una crema alla senape profumata al timo e servite su un letto di riso. Nessun piacere più grande che fare la scarpetta a piatto finito.",
+        "tags": [
+          "maiale",
+          "riso",
+          "senape",
+          "panna",
+          "padella",
+          "veloce",
+          "facile",
+          "francese",
+          "piatto-principale",
+          "tutta-la-famiglia",
+          "confortante",
+          "caldo",
+          "proteico",
+          "senza-glutine"
+        ]
+      }
+    }
+  },
+  {
+    "slug": "salade-orzo-pasteque",
+    "title": "Salade d'orzo à la pastèque",
+    "description": "Une salade estivale d'orzo à la pastèque, feta et roquette, relevée d'une vinaigrette au citron vert et au miel et parsemée de pignons grillés.",
+    "images": {
+      "cover": "images/recipes/salade-orzo-pasteque/cover.jpg",
+      "web": "images/recipes/salade-orzo-pasteque/web.jpg"
+    },
+    "prepTime": 20,
+    "cookTime": 10,
+    "servings": 4,
+    "difficulty": "Facile",
+    "category": "Pasta",
+    "tags": [
+      "été",
+      "froid",
+      "végétarien",
+      "rapide",
+      "léger",
+      "pâtes",
+      "fromage",
+      "fruits",
+      "méditerranéen",
+      "plat-principal",
+      "sucré-salé",
+      "à-partager",
+      "pique-nique"
+    ],
+    "stepCount": 9,
+    "ingredientCount": 11,
+    "translations": {
+      "en": {
+        "title": "Watermelon Orzo Salad",
+        "description": "A summery orzo salad with watermelon, feta and rocket, dressed with lime and honey and scattered with toasted pine nuts.",
+        "tags": [
+          "summer",
+          "cold",
+          "vegetarian",
+          "quick",
+          "light",
+          "pasta",
+          "cheese",
+          "fruit",
+          "mediterranean",
+          "main-course",
+          "sweet-savory",
+          "to-share",
+          "picnic"
+        ]
+      },
+      "it": {
+        "title": "Insalata di risoni all'anguria",
+        "description": "Un'insalata estiva di risoni con anguria, feta e rucola, condita con lime e miele e completata da pinoli tostati.",
+        "tags": [
+          "estate",
+          "freddo",
+          "vegetariano",
+          "veloce",
+          "leggero",
+          "pasta",
+          "formaggio",
+          "frutta",
+          "mediterraneo",
+          "piatto-principale",
+          "dolce-salato",
+          "da-condividere",
+          "picnic"
+        ]
+      }
+    }
+  },
+  {
+    "slug": "pita-dwich-italian-style",
+    "title": "Pita dwich italian style",
+    "description": "Un pain pita garni de crème fraîche aux herbes, de légumes croquants, d'avocat et de mozzarella, arrosé d'une sauce basilic et huile d'olive.",
+    "images": {
+      "cover": "images/recipes/pita-dwich-italian-style/cover.jpg",
+      "web": "images/recipes/pita-dwich-italian-style/web.jpg"
+    },
+    "prepTime": 15,
+    "cookTime": 0,
+    "servings": 2,
+    "difficulty": "Facile",
+    "category": "Secondi",
+    "tags": [
+      "no-cuisson",
+      "rapide",
+      "facile",
+      "végétarien",
+      "été",
+      "froid",
+      "en-sandwich",
+      "légumes",
+      "fromage",
+      "italien",
+      "méditerranéen",
+      "léger",
+      "pique-nique",
+      "plat-principal",
+      "herbacé"
+    ],
+    "stepCount": 8,
+    "ingredientCount": 14,
+    "translations": {
+      "en": {
+        "title": "Italian Style Pita Dwich",
+        "description": "A pita pocket filled with herb crème fraîche, crunchy vegetables, avocado and mozzarella, drizzled with a basil and olive oil sauce.",
+        "tags": [
+          "no-cook",
+          "quick",
+          "easy",
+          "vegetarian",
+          "summer",
+          "cold",
+          "sandwich",
+          "vegetables",
+          "cheese",
+          "italian",
+          "mediterranean",
+          "light",
+          "picnic",
+          "main-course",
+          "herby"
+        ]
+      },
+      "it": {
+        "title": "Pita dwich all'italiana",
+        "description": "Una pita farcita con crema di panna alle erbe, verdure croccanti, avocado e mozzarella, condita con una salsa al basilico e olio d'oliva.",
+        "tags": [
+          "senza-cottura",
+          "veloce",
+          "facile",
+          "vegetariano",
+          "estate",
+          "freddo",
+          "panino",
+          "verdure",
+          "formaggio",
+          "italiano",
+          "mediterraneo",
+          "leggero",
+          "picnic",
+          "piatto-principale",
+          "erbaceo"
+        ]
+      }
+    }
+  }
+]
