@@ -1,0 +1,176 @@
+{
+  "slug": "gaspacho-de-pasteque-a-la-feta",
+  "title": "Gaspacho de pastèque à la feta",
+  "description": "Un gaspacho froid de pastèque, poivron rouge, menthe et feta, parfait pour une entrée légère et très fraîche en été.",
+  "images": {
+    "cover": "images/recipes/gaspacho-de-pasteque-a-la-feta/cover.jpg",
+    "web": "images/recipes/gaspacho-de-pasteque-a-la-feta/web.jpg"
+  },
+  "prepTime": 20,
+  "cookTime": 0,
+  "servings": 4,
+  "difficulty": "Facile",
+  "category": "Antipasti",
+  "tags": [
+    "entrée",
+    "végétarien",
+    "no-cuisson",
+    "été",
+    "froid",
+    "léger",
+    "méditerranéen",
+    "fruits",
+    "légumes",
+    "fromage",
+    "rapide",
+    "à-la-cuillère"
+  ],
+  "ingredients": [
+    {
+      "items": [
+        "1/2 pastèque",
+        "1 gros poivron rouge",
+        "1/2 bouquet de menthe",
+        "1 cébette",
+        "1 citron vert (jus)",
+        "100 g de feta",
+        "2 tranches de pain rassis",
+        "10 cl d'huile d'olive (Quanto basta)",
+        "10 cl de vinaigre de xérès",
+        "Sel",
+        "Poivre"
+      ]
+    }
+  ],
+  "steps": [
+    {
+      "text": "Épépinez la pastèque et coupez sa chair en cubes. Effeuillez la menthe et conservez 4 sommités."
+    },
+    {
+      "text": "Coupez le pain en cubes. Mélangez-les dans un bol avec 3 c. à soupe d'huile d'olive et 3 c. à soupe de vinaigre. Laissez imbiber quelques minutes."
+    },
+    {
+      "text": "Mixez la pastèque avec le poivron, la cébette, la menthe et le jus du citron vert. Ajoutez le pain avec son assaisonnement, salez, poivrez et mixez bien le tout en ajoutant quelques glaçons pour rectifier la consistance et apporter de la fraîcheur. Rectifiez l'assaisonnement et réajustez en huile et en vinaigre si besoin."
+    },
+    {
+      "text": "Servez bien frais dans des assiettes creuses ou de grands bols. Émiettez la feta au centre et décorez d'un brin de menthe."
+    }
+  ],
+  "tips": [
+    "Ajoutez les glaçons progressivement pour ajuster la texture sans diluer excessivement le gaspacho.",
+    "Gardez la feta et les sommités de menthe pour le dressage afin de conserver du contraste et de la fraîcheur."
+  ],
+  "source": "Marie Claire Cuisine et Vins de France",
+  "originalSource": {
+    "type": "url",
+    "data": "https://www.marieclaire.fr/cuisine/gaspacho-de-pasteque-a-la-feta,1376603.asp"
+  },
+  "translations": {
+    "en": {
+      "title": "Watermelon Gazpacho with Feta",
+      "description": "A chilled watermelon, red pepper, mint and feta gazpacho, perfect as a light and very refreshing summer starter.",
+      "tags": [
+        "starter",
+        "vegetarian",
+        "no-cook",
+        "summer",
+        "cold",
+        "light",
+        "mediterranean",
+        "fruit",
+        "vegetables",
+        "cheese",
+        "quick",
+        "spoonable"
+      ],
+      "ingredients": [
+        {
+          "items": [
+            "1/2 watermelon",
+            "1 large red bell pepper",
+            "1/2 bunch mint",
+            "1 spring onion",
+            "Juice of 1 lime",
+            "100 g feta",
+            "2 slices stale bread",
+            "10 cl olive oil (Quanto basta)",
+            "10 cl sherry vinegar",
+            "Salt",
+            "Pepper"
+          ]
+        }
+      ],
+      "steps": [
+        {
+          "text": "Remove the seeds from the watermelon and cut the flesh into cubes. Pick the mint leaves and reserve 4 sprigs."
+        },
+        {
+          "text": "Cut the bread into cubes. Mix them in a bowl with 3 tbsp olive oil and 3 tbsp vinegar. Let soak for a few minutes."
+        },
+        {
+          "text": "Blend the watermelon with the red pepper, spring onion, mint and lime juice. Add the bread with its seasoning, season with salt and pepper, and blend well, adding a few ice cubes to adjust the consistency and bring extra freshness. Check the seasoning and add more oil or vinegar if needed."
+        },
+        {
+          "text": "Serve well chilled in shallow plates or large bowls. Crumble the feta in the center and garnish with a sprig of mint."
+        }
+      ],
+      "tips": [
+        "Add the ice cubes gradually to adjust the texture without over-diluting the gazpacho.",
+        "Keep the feta and mint sprigs for plating so the dish retains contrast and freshness."
+      ]
+    },
+    "it": {
+      "title": "Gazpacho di Anguria con Feta",
+      "description": "Un gazpacho freddo di anguria, peperone rosso, menta e feta, perfetto come antipasto leggero e molto fresco per l'estate.",
+      "tags": [
+        "antipasto",
+        "vegetariano",
+        "senza-cottura",
+        "estate",
+        "freddo",
+        "leggero",
+        "mediterraneo",
+        "frutta",
+        "verdure",
+        "formaggio",
+        "veloce",
+        "al-cucchiaio"
+      ],
+      "ingredients": [
+        {
+          "items": [
+            "1/2 anguria",
+            "1 peperone rosso grande",
+            "1/2 mazzo di menta",
+            "1 cipollotto",
+            "Succo di 1 lime",
+            "100 g di feta",
+            "2 fette di pane raffermo",
+            "10 cl di olio d'oliva (Quanto basta)",
+            "10 cl di aceto di Xeres",
+            "Sale",
+            "Pepe"
+          ]
+        }
+      ],
+      "steps": [
+        {
+          "text": "Eliminare i semi dell'anguria e tagliare la polpa a cubetti. Sfogliare la menta e conservare 4 ciuffetti."
+        },
+        {
+          "text": "Tagliare il pane a cubetti. Mescolarlo in una ciotola con 3 cucchiai di olio d'oliva e 3 cucchiai di aceto. Lasciare imbibire per qualche minuto."
+        },
+        {
+          "text": "Frullare l'anguria con il peperone, il cipollotto, la menta e il succo di lime. Aggiungere il pane con il suo condimento, salare, pepare e frullare bene il tutto aggiungendo qualche cubetto di ghiaccio per regolare la consistenza e dare freschezza. Correggere il condimento e aggiungere altro olio o aceto se necessario."
+        },
+        {
+          "text": "Servire ben freddo in piatti fondi o grandi ciotole. Sbriciolare la feta al centro e decorare con un ciuffetto di menta."
+        }
+      ],
+      "tips": [
+        "Aggiungere i cubetti di ghiaccio poco alla volta per regolare la consistenza senza diluire troppo il gazpacho.",
+        "Tenere la feta e i ciuffetti di menta per l'impiattamento, così il piatto conserva contrasto e freschezza."
+      ]
+    }
+  }
+}

@@ -1,0 +1,208 @@
+{
+  "slug": "effiloche-de-porc",
+  "title": "Effiloché de Porc Sauce Barbecue",
+  "description": "Un effiloché de porc fondant cuit 3 heures au four dans une sauce barbecue maison, le plat parfait pour un repas convivial.",
+  "images": {
+    "cover": "images/recipes/effiloche-de-porc/cover.jpg",
+    "web": "images/recipes/effiloche-de-porc/web.jpg"
+  },
+  "imageCredit": {
+    "author": "btfrewinphotography",
+    "url": "https://pixabay.com/photos/pork-meat-slow-cooked-food-dinner-1329681/"
+  },
+  "prepTime": 15,
+  "cookTime": 180,
+  "servings": 4,
+  "difficulty": "Facile",
+  "category": "Secondi",
+  "tags": [
+    "porc",
+    "four",
+    "mijoté",
+    "barbecue",
+    "réconfortant",
+    "convivial",
+    "plat-principal",
+    "américain",
+    "se-congèle",
+    "à-partager"
+  ],
+  "ingredients": [
+    {
+      "items": [
+        "1,5 kg d'échine de porc fermier",
+        "2 oignons rouges",
+        "Huile de tournesol"
+      ]
+    },
+    {
+      "group": "Pour la sauce barbecue",
+      "items": [
+        "20 cl de ketchup",
+        "1 c.à.c de paprika",
+        "1 c.à.s de moutarde",
+        "3,5 cl de vinaigre de vin",
+        "6,5 cl de sauce worcestershire",
+        "2 c.à.s de miel",
+        "Sel et poivre du moulin"
+      ]
+    }
+  ],
+  "steps": [
+    {
+      "text": "Préchauffer le four (ou le barbecue) à 160°C (th. 5-6)."
+    },
+    {
+      "text": "Préparer la sauce barbecue : mélanger tous les ingrédients (ketchup, paprika, moutarde, vinaigre de vin, sauce worcestershire, miel). Réserver."
+    },
+    {
+      "text": "Faire chauffer l'huile de tournesol dans une cocotte et faire colorer la viande sur toutes ses faces à feu vif."
+    },
+    {
+      "text": "Éplucher et émincer les oignons rouges. Les ajouter à la cocotte avec la viande. Mélanger."
+    },
+    {
+      "text": "Ajouter la sauce barbecue, verser 2 verres d'eau et couvrir."
+    },
+    {
+      "text": "Enfourner pour 3 heures de cuisson en retournant la viande à mi-cuisson."
+    },
+    {
+      "text": "Sortir la cocotte du four. Effilocher la viande à l'aide de deux fourchettes et bien mélanger à la sauce barbecue. Servir avec des frites maison ou des pommes de terre cuites au barbecue."
+    }
+  ],
+  "tips": [
+    "Une recette créée par Laurent Mariotte pour l'émission Petits Plats en Équilibre sur TF1.",
+    "Très bonne recette pour un repas convivial ou un buffet."
+  ],
+  "translations": {
+    "en": {
+      "title": "BBQ Pulled Pork",
+      "description": "Meltingly tender pulled pork slow-roasted for 3 hours in a homemade BBQ sauce, the perfect dish for a convivial meal.",
+      "tags": [
+        "pork",
+        "oven",
+        "slow-cooked",
+        "bbq",
+        "comfort-food",
+        "sharing",
+        "main-course",
+        "american",
+        "freezer-friendly",
+        "crowd-pleaser"
+      ],
+      "ingredients": [
+        {
+          "items": [
+            "1.5 kg free-range pork shoulder",
+            "2 red onions",
+            "Sunflower oil"
+          ]
+        },
+        {
+          "group": "For the BBQ sauce",
+          "items": [
+            "200 ml ketchup",
+            "1 tsp paprika",
+            "1 tbsp mustard",
+            "35 ml wine vinegar",
+            "65 ml Worcestershire sauce",
+            "2 tbsp honey",
+            "Salt and freshly ground pepper"
+          ]
+        }
+      ],
+      "steps": [
+        {
+          "text": "Preheat the oven (or barbecue) to 160°C (320°F)."
+        },
+        {
+          "text": "Prepare the BBQ sauce: mix all the ingredients together (ketchup, paprika, mustard, wine vinegar, Worcestershire sauce, honey). Set aside."
+        },
+        {
+          "text": "Heat the sunflower oil in a casserole dish and sear the meat on all sides over high heat."
+        },
+        {
+          "text": "Peel and slice the red onions. Add them to the casserole with the meat. Mix together."
+        },
+        {
+          "text": "Add the BBQ sauce, pour in 2 glasses of water and cover."
+        },
+        {
+          "text": "Roast in the oven for 3 hours, turning the meat halfway through cooking."
+        },
+        {
+          "text": "Remove the casserole from the oven. Shred the meat using two forks and mix well into the BBQ sauce. Serve with homemade fries or barbecue-roasted potatoes."
+        }
+      ],
+      "tips": [
+        "A recipe created by Laurent Mariotte for the show Petits Plats en Équilibre on TF1.",
+        "A great recipe for a convivial meal or a buffet."
+      ]
+    },
+    "it": {
+      "title": "Pulled Pork alla Salsa Barbecue",
+      "description": "Un pulled pork tenero e fondente cotto per 3 ore in forno in una salsa barbecue fatta in casa, il piatto perfetto per una cena conviviale.",
+      "tags": [
+        "maiale",
+        "forno",
+        "brasato",
+        "barbecue",
+        "comfort-food",
+        "da-condividere",
+        "secondo-piatto",
+        "americano",
+        "si-congela",
+        "per-tanti"
+      ],
+      "ingredients": [
+        {
+          "items": [
+            "1,5 kg di coppa di maiale ruspante",
+            "2 cipolle rosse",
+            "Olio di girasole"
+          ]
+        },
+        {
+          "group": "Per la salsa barbecue",
+          "items": [
+            "200 ml di ketchup",
+            "1 cucchiaino di paprika",
+            "1 cucchiaio di senape",
+            "35 ml di aceto di vino",
+            "65 ml di salsa worcestershire",
+            "2 cucchiai di miele",
+            "Sale e pepe macinato fresco"
+          ]
+        }
+      ],
+      "steps": [
+        {
+          "text": "Preriscaldare il forno (o il barbecue) a 160°C."
+        },
+        {
+          "text": "Preparare la salsa barbecue: mescolare tutti gli ingredienti (ketchup, paprika, senape, aceto di vino, salsa worcestershire, miele). Mettere da parte."
+        },
+        {
+          "text": "Scaldare l'olio di girasole in una casseruola e rosolare la carne su tutti i lati a fuoco vivo."
+        },
+        {
+          "text": "Sbucciare e affettare le cipolle rosse. Aggiungerle alla casseruola con la carne. Mescolare."
+        },
+        {
+          "text": "Aggiungere la salsa barbecue, versare 2 bicchieri d'acqua e coprire."
+        },
+        {
+          "text": "Infornare per 3 ore di cottura, girando la carne a metà cottura."
+        },
+        {
+          "text": "Estrarre la casseruola dal forno. Sfilacciare la carne con due forchette e mescolare bene con la salsa barbecue. Servire con patatine fritte fatte in casa o patate cotte al barbecue."
+        }
+      ],
+      "tips": [
+        "Una ricetta creata da Laurent Mariotte per la trasmissione Petits Plats en Équilibre su TF1.",
+        "Ottima ricetta per un pasto conviviale o un buffet."
+      ]
+    }
+  }
+}

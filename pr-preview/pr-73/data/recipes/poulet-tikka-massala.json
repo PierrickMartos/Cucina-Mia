@@ -1,0 +1,201 @@
+{
+  "slug": "poulet-tikka-massala",
+  "title": "Poulet Tikka Massala",
+  "description": "Un poulet mariné au yaourt et aux épices, mijoté dans une sauce tomate parfumée, le classique indien par excellence.",
+  "images": {
+    "cover": "images/recipes/poulet-tikka-massala/cover.jpg",
+    "web": "images/recipes/poulet-tikka-massala/web.jpg"
+  },
+  "imageCredit": {
+    "author": "Kirtip",
+    "authorUrl": "https://pixabay.com/users/kirtip-15193531/",
+    "source": "Pixabay",
+    "sourceUrl": "https://pixabay.com/photos/food-chicken-butter-masala-chicken-6465556/"
+  },
+  "prepTime": 20,
+  "cookTime": 40,
+  "servings": 6,
+  "difficulty": "Facile",
+  "category": "Secondi",
+  "tags": [
+    "poulet",
+    "indien",
+    "épicé",
+    "mijoté",
+    "curry",
+    "réconfortant",
+    "plat-principal",
+    "chaud",
+    "halal",
+    "sans-gluten"
+  ],
+  "ingredients": [
+    {
+      "items": [
+        "1 poulet coupé en morceaux",
+        "200 ml de yaourt grec",
+        "1 c.à.s rase de concentré de tomate",
+        "2 ou 3 tomates fraîches (ou 1 boîte de tomates concassées)",
+        "1 oignon",
+        "1 gousse d'ail",
+        "2 c.à.s d'amandes effilées",
+        "Huile d'olive",
+        "Coriandre fraîche",
+        "1 c.à.s de curry vert (ou curry en poudre)",
+        "1 c.à.s de cumin en poudre",
+        "2 c.à.c de sucre en poudre",
+        "Sel"
+      ]
+    }
+  ],
+  "steps": [
+    {
+      "text": "Dans un saladier, mélanger 100 ml de yaourt grec avec la moitié des épices (curry, cumin), le concentré de tomates et 1 c.à.c de sucre. Enrober les morceaux de poulet de cette marinade et laisser macérer au moins 30 minutes."
+    },
+    {
+      "text": "Dans une cocotte à feu moyen, faire dorer l'oignon épluché et émincé avec un filet d'huile d'olive et le sucre restant pendant 10 minutes."
+    },
+    {
+      "text": "Ajouter la gousse d'ail hachée, le poulet et la marinade."
+    },
+    {
+      "text": "Maintenir à feu moyen pendant 20 minutes en retournant les morceaux de poulet régulièrement."
+    },
+    {
+      "text": "Incorporer les amandes effilées, les tomates concassées, le reste des épices et un peu d'eau si nécessaire. Couvrir et laisser mijoter 20 minutes."
+    },
+    {
+      "text": "Incorporer le yaourt grec restant pour lier la sauce, ajouter une bonne cuillère de coriandre fraîche hachée et rectifier l'assaisonnement."
+    },
+    {
+      "text": "Laisser sur feu doux 5 à 10 minutes à découvert."
+    },
+    {
+      "text": "Servir accompagné d'un riz pilaf au safran."
+    }
+  ],
+  "translations": {
+    "en": {
+      "title": "Chicken Tikka Masala",
+      "description": "Chicken marinated in yogurt and spices, simmered in a fragrant tomato sauce, the ultimate Indian classic.",
+      "tags": [
+        "chicken",
+        "indian",
+        "spiced",
+        "braised",
+        "curry",
+        "comforting",
+        "main-course",
+        "hot",
+        "halal",
+        "gluten-free"
+      ],
+      "ingredients": [
+        {
+          "items": [
+            "1 chicken cut into pieces",
+            "200 ml Greek yogurt",
+            "1 level tbsp tomato paste",
+            "2 or 3 fresh tomatoes (or 1 can of crushed tomatoes)",
+            "1 onion",
+            "1 clove of garlic",
+            "2 tbsp flaked almonds",
+            "Olive oil",
+            "Fresh coriander",
+            "1 tbsp green curry (or curry powder)",
+            "1 tbsp ground cumin",
+            "2 tsp caster sugar",
+            "Salt"
+          ]
+        }
+      ],
+      "steps": [
+        {
+          "text": "In a bowl, mix 100 ml of Greek yogurt with half the spices (curry, cumin), the tomato paste and 1 tsp of sugar. Coat the chicken pieces with this marinade and leave to marinate for at least 30 minutes."
+        },
+        {
+          "text": "In a casserole over medium heat, brown the peeled and sliced onion with a drizzle of olive oil and the remaining sugar for 10 minutes."
+        },
+        {
+          "text": "Add the minced garlic clove, the chicken and the marinade."
+        },
+        {
+          "text": "Keep on medium heat for 20 minutes, turning the chicken pieces regularly."
+        },
+        {
+          "text": "Stir in the flaked almonds, crushed tomatoes, remaining spices and a little water if needed. Cover and simmer for 20 minutes."
+        },
+        {
+          "text": "Stir in the remaining Greek yogurt to bind the sauce, add a generous spoonful of fresh chopped coriander and adjust seasoning."
+        },
+        {
+          "text": "Leave on low heat for 5 to 10 minutes uncovered."
+        },
+        {
+          "text": "Serve with saffron pilaf rice."
+        }
+      ]
+    },
+    "it": {
+      "title": "Pollo Tikka Masala",
+      "description": "Pollo marinato nello yogurt e nelle spezie, cotto a fuoco lento in una salsa di pomodoro profumata, il classico indiano per eccellenza.",
+      "tags": [
+        "pollo",
+        "indiano",
+        "speziato",
+        "brasato",
+        "curry",
+        "confortante",
+        "secondo-piatto",
+        "caldo",
+        "halal",
+        "senza-glutine"
+      ],
+      "ingredients": [
+        {
+          "items": [
+            "1 pollo tagliato a pezzi",
+            "200 ml di yogurt greco",
+            "1 cucchiaio raso di concentrato di pomodoro",
+            "2 o 3 pomodori freschi (o 1 lattina di pomodori pelati)",
+            "1 cipolla",
+            "1 spicchio d'aglio",
+            "2 cucchiai di mandorle a lamelle",
+            "Olio d'oliva",
+            "Coriandolo fresco",
+            "1 cucchiaio di curry verde (o curry in polvere)",
+            "1 cucchiaio di cumino in polvere",
+            "2 cucchiaini di zucchero semolato",
+            "Sale"
+          ]
+        }
+      ],
+      "steps": [
+        {
+          "text": "In una ciotola, mescolare 100 ml di yogurt greco con metà delle spezie (curry, cumino), il concentrato di pomodoro e 1 cucchiaino di zucchero. Rivestire i pezzi di pollo con questa marinata e lasciar macerare per almeno 30 minuti."
+        },
+        {
+          "text": "In una casseruola a fuoco medio, far dorare la cipolla sbucciata e affettata con un filo di olio d'oliva e lo zucchero rimasto per 10 minuti."
+        },
+        {
+          "text": "Aggiungere l'aglio tritato, il pollo e la marinata."
+        },
+        {
+          "text": "Mantenere a fuoco medio per 20 minuti, girando i pezzi di pollo regolarmente."
+        },
+        {
+          "text": "Incorporare le mandorle a lamelle, i pomodori pelati, il resto delle spezie e un po' d'acqua se necessario. Coprire e lasciar cuocere a fuoco lento per 20 minuti."
+        },
+        {
+          "text": "Incorporare lo yogurt greco rimasto per legare la salsa, aggiungere un bel cucchiaio di coriandolo fresco tritato e aggiustare di sale."
+        },
+        {
+          "text": "Lasciare su fuoco basso per 5-10 minuti senza coperchio."
+        },
+        {
+          "text": "Servire accompagnato da riso pilaf allo zafferano."
+        }
+      ]
+    }
+  }
+}

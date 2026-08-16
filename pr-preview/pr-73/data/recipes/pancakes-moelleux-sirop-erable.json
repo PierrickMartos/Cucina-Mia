@@ -1,0 +1,201 @@
+{
+  "slug": "pancakes-moelleux-sirop-erable",
+  "title": "Pancakes moelleux au sirop d'érable",
+  "description": "Des pancakes américains très moelleux, préparés avec des blancs montés en neige et servis avec du sirop d'érable tiède.",
+  "images": {
+    "cover": "images/recipes/pancakes-moelleux-sirop-erable/cover.jpg",
+    "web": "images/recipes/pancakes-moelleux-sirop-erable/web.jpg"
+  },
+  "imageCredit": {
+    "author": "Luke Pennystan",
+    "url": "https://unsplash.com/@lukepennystan"
+  },
+  "prepTime": 5,
+  "cookTime": 10,
+  "servings": 4,
+  "difficulty": "Facile",
+  "category": "Breakfast",
+  "tags": [
+    "petit-déjeuner",
+    "brunch",
+    "goûter",
+    "américain",
+    "rapide",
+    "facile",
+    "enfants",
+    "toute-la-famille",
+    "moelleux",
+    "sucré",
+    "végétarien",
+    "poêle",
+    "se-congèle"
+  ],
+  "ingredients": [
+    {
+      "items": [
+        "2 œufs",
+        "150 ml de lait demi-écrémé",
+        "1 sachet de sucre vanillé ou 1 c. à café d'extrait de vanille",
+        "125 g de farine",
+        "1 c. à café de levure chimique ou de bicarbonate",
+        "2 c. à soupe de sucre",
+        "1 pincée de sel",
+        "Beurre ou huile pour la cuisson"
+      ]
+    }
+  ],
+  "steps": [
+    {
+      "text": "Dans un grand bol, mélanger les ingrédients secs : farine, levure, sucre, sel et sucre vanillé."
+    },
+    {
+      "text": "Dans un autre bol, mélanger les jaunes d'œufs avec le lait, puis verser sur les ingrédients secs en mélangeant jusqu'à obtenir une pâte à crêpes bien épaisse. Laisser reposer 15 à 30 minutes."
+    },
+    {
+      "text": "Battre les blancs en neige, puis les incorporer délicatement à la préparation pour obtenir des pancakes très moelleux."
+    },
+    {
+      "text": "Faire cuire dans une petite poêle beurrée bien chaude pendant environ 1 minute de chaque côté."
+    },
+    {
+      "text": "Retourner le pancake lorsque le bord est doré et que de petites bulles se forment sur le dessus. Servir chaud, idéalement avec du sirop d'érable."
+    }
+  ],
+  "tips": [
+    "La recette donne environ 12 pancakes de 12 cm de diamètre, épais d'environ 1 cm.",
+    "Pour une note plus érable, remplacer le sucre par du sucre d'érable et servir avec du sirop d'érable légèrement chaud.",
+    "Ajouter des myrtilles, des rondelles de banane ou des pépites de chocolat sur le dessus au début de la cuisson, puis retourner pour les faire légèrement caraméliser.",
+    "Pour garder les pancakes moelleux le lendemain, les entourer de film alimentaire et les réchauffer 10 à 15 secondes au micro-ondes ou 30 secondes au grille-pain.",
+    "Les pancakes se congèlent jusqu'à 3 mois. Les laisser décongeler 2 heures, puis les réchauffer 1 minute au micro-ondes ou 5 minutes à 180°C au four.",
+    "Pour une version sans lactose, utiliser du lait végétal, idéalement du lait d'amande.",
+    "Les blancs montés en neige ne sont pas obligatoires, mais ils donnent une texture plus légère et aérée.",
+    "Pour préparer la pâte la veille, garder les blancs à part, filmer la pâte au contact, puis incorporer les blancs montés le lendemain."
+  ],
+  "source": "Hervé Cuisine",
+  "originalSource": {
+    "type": "url",
+    "data": "https://www.hervecuisine.com/recette/pancakes-authentiques-au-sirop-derable/"
+  },
+  "translations": {
+    "en": {
+      "title": "Fluffy Pancakes with Maple Syrup",
+      "description": "Very fluffy American-style pancakes made with whipped egg whites and served with warm maple syrup.",
+      "tags": [
+        "breakfast",
+        "brunch",
+        "snack",
+        "american",
+        "quick",
+        "easy",
+        "kids",
+        "family-friendly",
+        "fluffy",
+        "sweet",
+        "vegetarian",
+        "pan-fried",
+        "freezer-friendly"
+      ],
+      "ingredients": [
+        {
+          "items": [
+            "2 eggs",
+            "150 ml semi-skimmed milk",
+            "1 packet vanilla sugar or 1 tsp vanilla extract",
+            "125 g flour",
+            "1 tsp baking powder or baking soda",
+            "2 tbsp sugar",
+            "1 pinch salt",
+            "Butter or oil for cooking"
+          ]
+        }
+      ],
+      "steps": [
+        {
+          "text": "In a large bowl, mix the dry ingredients: flour, baking powder, sugar, salt and vanilla sugar."
+        },
+        {
+          "text": "In another bowl, mix the egg yolks with the milk, then pour into the dry ingredients while stirring until you get a thick crepe-like batter. Let it rest for 15 to 30 minutes."
+        },
+        {
+          "text": "Beat the egg whites until stiff, then gently fold them into the batter for very fluffy pancakes."
+        },
+        {
+          "text": "Cook in a small hot buttered pan for about 1 minute on each side."
+        },
+        {
+          "text": "Flip the pancake when the edge is golden and small bubbles form on top. Serve warm, ideally with maple syrup."
+        }
+      ],
+      "tips": [
+        "The recipe makes about 12 pancakes, each around 12 cm wide and 1 cm thick.",
+        "For more maple flavor, replace the sugar with maple sugar and serve with lightly warmed maple syrup.",
+        "Add blueberries, banana slices or chocolate chips on top at the start of cooking, then flip to caramelize them lightly.",
+        "To keep pancakes soft the next day, wrap them in plastic wrap and reheat for 10 to 15 seconds in the microwave or 30 seconds in the toaster.",
+        "The pancakes can be frozen for up to 3 months. Let them thaw for 2 hours, then reheat for 1 minute in the microwave or 5 minutes at 180°C in the oven.",
+        "For a lactose-free version, use plant-based milk, ideally almond milk.",
+        "Whipped egg whites are not mandatory, but they give a lighter, airier texture.",
+        "To prepare the batter the day before, keep the whites separate, cover the batter directly with plastic wrap, then fold in the beaten whites the next day."
+      ]
+    },
+    "it": {
+      "title": "Pancake soffici con sciroppo d'acero",
+      "description": "Pancake all'americana molto soffici, preparati con albumi montati a neve e serviti con sciroppo d'acero tiepido.",
+      "tags": [
+        "colazione",
+        "brunch",
+        "merenda",
+        "americano",
+        "veloce",
+        "facile",
+        "bambini",
+        "tutta-la-famiglia",
+        "soffice",
+        "dolce",
+        "vegetariano",
+        "padella",
+        "si-congela"
+      ],
+      "ingredients": [
+        {
+          "items": [
+            "2 uova",
+            "150 ml di latte parzialmente scremato",
+            "1 bustina di zucchero vanigliato o 1 cucchiaino di estratto di vaniglia",
+            "125 g di farina",
+            "1 cucchiaino di lievito per dolci o bicarbonato",
+            "2 cucchiai di zucchero",
+            "1 pizzico di sale",
+            "Burro o olio per la cottura"
+          ]
+        }
+      ],
+      "steps": [
+        {
+          "text": "In una ciotola grande, mescolare gli ingredienti secchi: farina, lievito, zucchero, sale e zucchero vanigliato."
+        },
+        {
+          "text": "In un'altra ciotola, mescolare i tuorli con il latte, poi versare sugli ingredienti secchi mescolando fino a ottenere una pastella densa, simile a quella delle crêpes. Lasciare riposare 15-30 minuti."
+        },
+        {
+          "text": "Montare gli albumi a neve, poi incorporarli delicatamente alla preparazione per ottenere pancake molto soffici."
+        },
+        {
+          "text": "Cuocere in una piccola padella ben calda e imburrata per circa 1 minuto per lato."
+        },
+        {
+          "text": "Girare il pancake quando il bordo è dorato e compaiono piccole bolle in superficie. Servire caldo, idealmente con sciroppo d'acero."
+        }
+      ],
+      "tips": [
+        "La ricetta produce circa 12 pancake di 12 cm di diametro e circa 1 cm di spessore.",
+        "Per un gusto più intenso di acero, sostituire lo zucchero con zucchero d'acero e servire con sciroppo d'acero leggermente tiepido.",
+        "Aggiungere mirtilli, rondelle di banana o gocce di cioccolato sulla superficie all'inizio della cottura, poi girare per farli caramellare leggermente.",
+        "Per mantenere i pancake soffici il giorno dopo, avvolgerli nella pellicola e scaldarli 10-15 secondi al microonde o 30 secondi nel tostapane.",
+        "I pancake si possono congelare fino a 3 mesi. Lasciarli scongelare per 2 ore, poi scaldarli 1 minuto al microonde o 5 minuti a 180°C in forno.",
+        "Per una versione senza lattosio, usare latte vegetale, idealmente latte di mandorla.",
+        "Gli albumi montati a neve non sono obbligatori, ma danno una consistenza più leggera e ariosa.",
+        "Per preparare la pastella il giorno prima, tenere gli albumi da parte, coprire la pastella a contatto con pellicola, poi incorporare gli albumi montati il giorno successivo."
+      ]
+    }
+  }
+}

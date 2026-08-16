@@ -1,0 +1,196 @@
+{
+  "slug": "gnocchi-broccoli-al-forno",
+  "title": "Gnocchi & Brocoli en Folie (au four !)",
+  "description": "Gnocchi et brocolis rôtis au four en une seule plaque, avec citron, ail et pecorino. Prêt en 25 minutes.",
+  "images": {
+    "cover": "images/recipes/gnocchi-broccoli-al-forno/cover.jpg",
+    "web": "images/recipes/gnocchi-broccoli-al-forno/web.jpg"
+  },
+  "prepTime": 5,
+  "cookTime": 25,
+  "servings": 1,
+  "difficulty": "Facile",
+  "category": "Gnocchi",
+  "tags": [
+    "four",
+    "végétarien",
+    "rapide",
+    "légumes",
+    "plat-principal",
+    "chaud",
+    "réconfortant",
+    "fromage",
+    "one-pot",
+    "italien"
+  ],
+  "source": "https://owiowifouettemoi.com",
+  "ingredients": [
+    {
+      "items": [
+        "160g de gnocchi de pommes de terre frais",
+        "Les florets d'un petit brocoli, coupés en bouchées",
+        "3 rondelles de citron non traité, épépinées, 5 mm d'épaisseur, coupées en 2",
+        "Sel et poivre du moulin",
+        "1/2 cc d'ail en poudre",
+        "1 grosse pincée d'oignon en poudre",
+        "1/2 cc de chili flakes (ou piment d'espelette, gochugaru, ou beaucoup moins de Cayenne)",
+        "1 cs d'huile d'olive"
+      ]
+    },
+    {
+      "group": "Pour finir",
+      "items": [
+        "2 gousses d'ail écrasées au presse-ail",
+        "50g de pecorino râpé (ou parmesan)"
+      ]
+    }
+  ],
+  "steps": [
+    {
+      "text": "Préchauffer le four à 200°C."
+    },
+    {
+      "text": "Dans le plat, mélanger intimement tous les ingrédients jusqu'à l'huile d'olive. Saler et poivrer généreusement (tu pourras rectifier l'assaisonnement avant le grill)."
+    },
+    {
+      "text": "Enfourner pour 20 minutes ou jusqu'à ce que les gnocchi soient bien dorés, légèrement croustillants et le brocoli bruni. Sortir le plat et allumer le grill, en laissant la grille au milieu du four."
+    },
+    {
+      "text": "Ajouter l'ail écrasé et bien mélanger, pour permettre à la pulpe du citron rôti d'imprégner les gnocchi. Parsemer de pecorino râpé et passer sous le grill environ 2 minutes, le temps que ça gratine amoureusement."
+    },
+    {
+      "text": "Servir immédiatement avec les bouts de citron, et éventuellement un filet de jus de citron supplémentaire pour plus de brio."
+    }
+  ],
+  "tips": [
+    "Utiliser des gnocchi frais sous vide du supermarché. Les gnocchi à poêler fonctionnent également.",
+    "Enlever les pépins du citron car ils apportent beaucoup d'amertume.",
+    "Ne pas oublier le piment : il donne du relief au plat. Il peut être remplacé par du paprika fumé.",
+    "Veiller à étaler les ingrédients en une seule couche dans le plat : s'ils sont entassés, ils vont bouillir plutôt que rôtir.",
+    "Utiliser un grand plat à four en métal si possible, assez grand pour tout étaler en une seule couche."
+  ],
+  "translations": {
+    "en": {
+      "title": "Baked Gnocchi & Broccoli Madness",
+      "description": "Gnocchi and broccoli oven-roasted on a single pan with lemon, garlic and pecorino. Ready in 25 minutes.",
+      "tags": [
+        "oven",
+        "vegetarian",
+        "quick",
+        "vegetables",
+        "main-course",
+        "hot",
+        "comforting",
+        "cheese",
+        "one-pan",
+        "italian"
+      ],
+      "ingredients": [
+        {
+          "items": [
+            "160g fresh potato gnocchi",
+            "Florets of one small broccoli, cut into bite-size pieces",
+            "3 slices of untreated lemon, deseeded, ~5mm thick, cut in half",
+            "Salt and freshly ground pepper",
+            "1/2 tsp garlic powder",
+            "A large pinch of onion powder",
+            "1/2 tsp chili flakes (or espelette pepper, gochugaru, or much less cayenne)",
+            "1 tbsp olive oil"
+          ]
+        },
+        {
+          "group": "To finish",
+          "items": [
+            "2 garlic cloves, crushed",
+            "50g grated pecorino (or parmesan)"
+          ]
+        }
+      ],
+      "steps": [
+        {
+          "text": "Preheat oven to 200°C (390°F)."
+        },
+        {
+          "text": "In the baking dish, thoroughly mix all ingredients up to the olive oil. Season generously with salt and pepper."
+        },
+        {
+          "text": "Bake for 20 minutes or until the gnocchi are golden and slightly crispy, and the broccoli is nicely browned. Remove from oven and switch on the grill/broiler, leaving the rack in the middle of the oven."
+        },
+        {
+          "text": "Add the crushed garlic and mix well, letting the roasted lemon pulp soak into the gnocchi. Sprinkle with grated pecorino and grill for about 2 minutes until gratinéed."
+        },
+        {
+          "text": "Serve immediately with the lemon pieces, optionally adding an extra squeeze of lemon juice."
+        }
+      ],
+      "tips": [
+        "Use fresh vacuum-packed gnocchi from the supermarket. Pan-fry gnocchi also work.",
+        "Remove lemon seeds as they bring a lot of bitterness.",
+        "Don't forget the chili: it adds character to the dish. You can substitute smoked paprika.",
+        "Make sure to spread ingredients in a single layer: if they're piled up, they'll steam rather than roast.",
+        "Use a large metal baking dish if possible, big enough to spread everything in one layer."
+      ]
+    },
+    "it": {
+      "title": "Gnocchi e Broccoli al Forno",
+      "description": "Gnocchi e broccoli arrostiti in forno in un'unica teglia, con limone, aglio e pecorino. Pronti in 25 minuti.",
+      "tags": [
+        "forno",
+        "vegetariano",
+        "veloce",
+        "verdure",
+        "primo-piatto",
+        "caldo",
+        "confortante",
+        "formaggio",
+        "one-pan",
+        "italiano"
+      ],
+      "ingredients": [
+        {
+          "items": [
+            "160g di gnocchi di patate freschi",
+            "Le cimette di un piccolo broccolo, tagliate a bocconcini",
+            "3 fettine di limone non trattato, senza semi, spessore ~5mm, tagliate a metà",
+            "Sale e pepe macinato fresco",
+            "1/2 cucchiaino di aglio in polvere",
+            "1 grossa presa di cipolla in polvere",
+            "1/2 cucchiaino di chili flakes (o peperoncino di Espelette, gochugaru, o molto meno di Cayenna)",
+            "1 cucchiaio di olio d'oliva"
+          ]
+        },
+        {
+          "group": "Per finire",
+          "items": [
+            "2 spicchi d'aglio schiacciati",
+            "50g di pecorino grattugiato (o parmigiano)"
+          ]
+        }
+      ],
+      "steps": [
+        {
+          "text": "Preriscaldare il forno a 200°C."
+        },
+        {
+          "text": "Nella teglia, mescolare bene tutti gli ingredienti fino all'olio d'oliva. Salare e pepare generosamente."
+        },
+        {
+          "text": "Infornare per 20 minuti o finché gli gnocchi siano ben dorati, leggermente croccanti e il broccolo brunito. Estrarre la teglia e accendere il grill, lasciando la griglia al centro del forno."
+        },
+        {
+          "text": "Aggiungere l'aglio schiacciato e mescolare bene, per fare in modo che la polpa del limone arrostito impregni gli gnocchi. Cospargere di pecorino grattugiato e passare sotto il grill per circa 2 minuti, finché non gratina."
+        },
+        {
+          "text": "Servire immediatamente con i pezzi di limone, aggiungendo eventualmente un giro extra di succo di limone."
+        }
+      ],
+      "tips": [
+        "Usare gnocchi freschi sottovuoto del supermercato. Funzionano anche quelli da padella.",
+        "Eliminare i semi del limone perché portano molta amarezza.",
+        "Non dimenticare il peperoncino: dà carattere al piatto. Si può sostituire con paprika affumicata.",
+        "Distribuire gli ingredienti in un unico strato nella teglia: se sono ammassati, stuferanno invece di arrostire.",
+        "Usare una teglia grande in metallo se possibile, abbastanza grande da stendere tutto in un unico strato."
+      ]
+    }
+  }
+}
