@@ -1345,66 +1345,6 @@
     "ingredientCount": 6
   },
   {
-    "slug": "palets-cereales-abricots",
-    "title": "Palets aux céréales et abricots",
-    "description": "Biscuits énergétiques aux flocons d'avoine, amandes, noisettes, abricots secs et baies de goji, sans lactose et sans sucre ajouté.",
-    "images": {
-      "cover": "images/recipes/palets-cereales-abricots/cover.jpg",
-      "web": "images/recipes/palets-cereales-abricots/web.jpg"
-    },
-    "prepTime": 10,
-    "cookTime": 15,
-    "servings": 12,
-    "difficulty": "Facile",
-    "category": "Breakfast",
-    "tags": [
-      "petit-déjeuner",
-      "sans-lactose",
-      "végétarien",
-      "sans-sucre",
-      "léger",
-      "goûter",
-      "rapide",
-      "riche-en-fibres",
-      "équilibré",
-      "four"
-    ],
-    "translations": {
-      "en": {
-        "description": "Energy biscuits made with oat flakes, almonds, hazelnuts, dried apricots and goji berries, lactose-free and with no added sugar.",
-        "tags": [
-          "breakfast",
-          "dairy-free",
-          "vegetarian",
-          "sugar-free",
-          "light",
-          "snack",
-          "quick",
-          "high-fiber",
-          "balanced",
-          "oven"
-        ]
-      },
-      "it": {
-        "description": "Biscotti energetici con fiocchi d'avena, mandorle, nocciole, albicocche secche e bacche di goji, senza lattosio e senza zuccheri aggiunti.",
-        "tags": [
-          "colazione",
-          "senza-lattosio",
-          "vegetariano",
-          "senza-zucchero",
-          "leggero",
-          "merenda",
-          "veloce",
-          "ricco-di-fibre",
-          "equilibrato",
-          "forno"
-        ]
-      }
-    },
-    "stepCount": 3,
-    "ingredientCount": 9
-  },
-  {
     "slug": "creme-de-carottes-aux-pommes",
     "title": "Crème de carottes aux pommes",
     "description": "Une crème de carotte à la pomme, fraîche et colorée, parfaite pour un apéro dînatoire ou une entrée légère et gourmande.",
@@ -5855,6 +5795,82 @@
           "caldo",
           "tutta-la-famiglia",
           "croccante"
+        ]
+      }
+    }
+  },
+  {
+    "slug": "galette-banane",
+    "title": "Galette à la banane",
+    "description": "Une galette moelleuse à la banane écrasée et aux flocons d'avoine, dorée à la poêle dans un peu de beurre. Trois ingrédients, prête en dix minutes.",
+    "images": {
+      "cover": "images/recipes/galette-banane/cover.jpg",
+      "web": "images/recipes/galette-banane/web.jpg"
+    },
+    "imageCredit": {
+      "author": "Eiliv Aceron",
+      "url": "https://unsplash.com/@shootdelicious"
+    },
+    "prepTime": 5,
+    "cookTime": 8,
+    "servings": 1,
+    "difficulty": "Facile",
+    "category": "Breakfast",
+    "tags": [
+      "petit-déjeuner",
+      "rapide",
+      "facile",
+      "végétarien",
+      "poêle",
+      "fruits",
+      "moelleux",
+      "goûter",
+      "économique",
+      "sans-sucre",
+      "enfants",
+      "chaud",
+      "gourmand"
+    ],
+    "origin": "amelie",
+    "stepCount": 4,
+    "ingredientCount": 3,
+    "translations": {
+      "en": {
+        "title": "Banana Oat Pancake",
+        "description": "A soft pancake of mashed banana and oat flakes, browned in a pan with a little butter. Three ingredients, ready in ten minutes.",
+        "tags": [
+          "breakfast",
+          "quick",
+          "easy",
+          "vegetarian",
+          "pan",
+          "fruit",
+          "soft",
+          "snack",
+          "budget-friendly",
+          "sugar-free",
+          "kids",
+          "hot",
+          "indulgent"
+        ]
+      },
+      "it": {
+        "title": "Frittella di banana e avena",
+        "description": "Una frittella morbida di banana schiacciata e fiocchi d'avena, dorata in padella con un po' di burro. Tre ingredienti, pronta in dieci minuti.",
+        "tags": [
+          "colazione",
+          "veloce",
+          "facile",
+          "vegetariano",
+          "padella",
+          "frutta",
+          "morbido",
+          "merenda",
+          "economico",
+          "senza-zucchero",
+          "bambini",
+          "caldo",
+          "goloso"
         ]
       }
     }
