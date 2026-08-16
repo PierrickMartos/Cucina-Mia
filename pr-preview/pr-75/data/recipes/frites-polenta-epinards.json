@@ -1,0 +1,198 @@
+{
+  "slug": "frites-polenta-epinards",
+  "title": "Frites de Polenta et Épinards",
+  "description": "Des frites de polenta croustillantes au parmesan accompagnées d'épinards à l'ail, une alternative originale et végétarienne aux frites classiques.",
+  "images": {
+    "cover": "images/recipes/frites-polenta-epinards/cover.jpg",
+    "web": "images/recipes/frites-polenta-epinards/web.jpg"
+  },
+  "prepTime": 20,
+  "cookTime": 30,
+  "servings": 4,
+  "difficulty": "Facile",
+  "category": "Secondi",
+  "tags": [
+    "polenta",
+    "épinards",
+    "végétarien",
+    "four",
+    "croustillant",
+    "sans-gluten",
+    "plat-principal",
+    "économique",
+    "légumes",
+    "italien"
+  ],
+  "imageCredit": {
+    "id": "1P9oncIHRyk",
+    "photographer": "Alexandra Tran",
+    "pageURL": "https://unsplash.com/photos/a-white-plate-topped-with-food-next-to-a-bowl-of-salad-1P9oncIHRyk",
+    "source": "unsplash"
+  },
+  "ingredients": [
+    {
+      "items": [
+        "250g de polenta à cuisson rapide",
+        "1 litre de bouillon de légumes",
+        "50g de parmesan râpé",
+        "10g de beurre",
+        "60g d'épinards frais hachés",
+        "6 oignons nouveaux finement hachés",
+        "2 gousses d'ail",
+        "2 cuillères à soupe d'huile d'olive",
+        "Sel et poivre q.s."
+      ]
+    }
+  ],
+  "steps": [
+    {
+      "text": "Préchauffer le four à 200°C. Préparer un plat rectangulaire légèrement huilé."
+    },
+    {
+      "text": "Porter le bouillon de légumes à ébullition dans une casserole. Verser la polenta en pluie en fouettant constamment. Baisser le feu et cuire 5 minutes en remuant sans arrêter."
+    },
+    {
+      "text": "Hors du feu, ajouter le beurre, le parmesan râpé et mélanger jusqu'à homogénéité. Incorporer les épinards hachés et les oignons nouveaux. Saler et poivrer."
+    },
+    {
+      "text": "Verser la polenta dans le plat préparé et l'étaler sur environ 1,5 cm d'épaisseur. Laisser refroidir complètement à température ambiante (30 minutes minimum)."
+    },
+    {
+      "text": "Une fois la polenta bien ferme, démouler et découper en grosses frites régulières. Disposer les frites sur une plaque de cuisson recouverte de papier sulfurisé et arroser d'un filet d'huile d'olive."
+    },
+    {
+      "text": "Enfourner pour 30 minutes en retournant les frites à mi-cuisson, jusqu'à ce qu'elles soient bien dorées et croustillantes."
+    },
+    {
+      "text": "Pendant ce temps, faire revenir l'ail émincé dans un filet d'huile d'olive. Ajouter les épinards et les faire sauter à feu vif 2-3 minutes. Saler et poivrer. Servir les frites de polenta avec les épinards à l'ail."
+    }
+  ],
+  "tips": [
+    "La polenta doit être bien froide et ferme avant de la découper : ne pas précipiter l'étape de refroidissement.",
+    "Pour une texture encore plus croustillante, retourner les frites deux fois pendant la cuisson.",
+    "Version enrichie : parsemer de parmesan râpé supplémentaire les 5 dernières minutes de cuisson.",
+    "Les frites se conservent mal : les déguster immédiatement à la sortie du four."
+  ],
+  "translations": {
+    "en": {
+      "title": "Polenta Fries with Spinach",
+      "description": "Crispy baked polenta fries with parmesan and spinach, an original vegetarian alternative to classic fries.",
+      "tags": [
+        "polenta",
+        "spinach",
+        "vegetarian",
+        "oven",
+        "crispy",
+        "gluten-free",
+        "main-course",
+        "budget",
+        "vegetables",
+        "italian"
+      ],
+      "ingredients": [
+        {
+          "items": [
+            "250g quick-cook polenta",
+            "1 litre vegetable broth",
+            "50g grated parmesan",
+            "10g butter",
+            "60g chopped fresh spinach",
+            "6 spring onions, finely chopped",
+            "2 garlic cloves",
+            "2 tablespoons olive oil",
+            "Salt and pepper to taste"
+          ]
+        }
+      ],
+      "steps": [
+        {
+          "text": "Preheat oven to 200°C. Prepare a lightly oiled rectangular dish."
+        },
+        {
+          "text": "Bring the vegetable broth to a boil in a saucepan. Pour in the polenta in a thin stream, whisking constantly. Lower the heat and cook for 5 minutes, stirring continuously."
+        },
+        {
+          "text": "Off the heat, add the butter, grated parmesan and mix until smooth. Fold in the chopped spinach and spring onions. Season with salt and pepper."
+        },
+        {
+          "text": "Pour the polenta into the prepared dish and spread to about 1.5 cm thickness. Let cool completely at room temperature (at least 30 minutes)."
+        },
+        {
+          "text": "Once the polenta is firm, unmold and cut into thick, regular fry shapes. Place on a baking tray lined with parchment paper and drizzle with olive oil."
+        },
+        {
+          "text": "Bake for 30 minutes, turning the fries halfway through, until golden and crispy."
+        },
+        {
+          "text": "Meanwhile, sauté the minced garlic in a drizzle of olive oil. Add the spinach and stir-fry over high heat for 2-3 minutes. Season and serve alongside the polenta fries."
+        }
+      ],
+      "tips": [
+        "The polenta must be fully cold and firm before cutting: do not rush the cooling step.",
+        "For an even crispier texture, turn the fries twice during baking.",
+        "Enriched version: scatter extra grated parmesan in the last 5 minutes of baking.",
+        "Polenta fries don't keep well: eat immediately straight from the oven."
+      ]
+    },
+    "it": {
+      "title": "Patatine di Polenta con Spinaci",
+      "description": "Patatine di polenta croccanti al forno con parmigiano e spinaci, un'alternativa originale e vegetariana alle classiche patatine fritte.",
+      "tags": [
+        "polenta",
+        "spinaci",
+        "vegetariano",
+        "forno",
+        "croccante",
+        "senza-glutine",
+        "secondo-piatto",
+        "economico",
+        "verdure",
+        "italiano"
+      ],
+      "ingredients": [
+        {
+          "items": [
+            "250g di polenta a cottura rapida",
+            "1 litro di brodo vegetale",
+            "50g di parmigiano grattugiato",
+            "10g di burro",
+            "60g di spinaci freschi tritati",
+            "6 cipollotti tritati finemente",
+            "2 spicchi d'aglio",
+            "2 cucchiai di olio d'oliva",
+            "Sale e pepe q.b."
+          ]
+        }
+      ],
+      "steps": [
+        {
+          "text": "Preriscaldare il forno a 200°C. Preparare una teglia rettangolare leggermente oliata."
+        },
+        {
+          "text": "Portare il brodo vegetale a ebollizione in una casseruola. Versare la polenta a pioggia mescolando costantemente. Abbassare il fuoco e cuocere 5 minuti mescolando senza sosta."
+        },
+        {
+          "text": "Fuori dal fuoco, aggiungere il burro, il parmigiano grattugiato e mescolare fino ad amalgamare. Incorporare gli spinaci tritati e i cipollotti. Salare e pepare."
+        },
+        {
+          "text": "Versare la polenta nella teglia preparata e stendere a circa 1,5 cm di spessore. Lasciare raffreddare completamente a temperatura ambiente (almeno 30 minuti)."
+        },
+        {
+          "text": "Una volta che la polenta è ben soda, sformare e tagliare a bastoncini regolari. Disporre sulla placca foderata con carta da forno e condire con un filo d'olio d'oliva."
+        },
+        {
+          "text": "Infornare per 30 minuti girando le patatine a metà cottura, fino a doratura e croccantezza."
+        },
+        {
+          "text": "Nel frattempo, soffriggere l'aglio tritato in un filo d'olio. Aggiungere gli spinaci e saltare a fuoco vivo per 2-3 minuti. Salare e servire insieme alle patatine di polenta."
+        }
+      ],
+      "tips": [
+        "La polenta deve essere completamente fredda e soda prima di tagliarla: non affrettare il raffreddamento.",
+        "Per una texture ancora più croccante, girare le patatine due volte durante la cottura.",
+        "Versione arricchita: aggiungere parmigiano grattugiato extra negli ultimi 5 minuti di cottura.",
+        "Le patatine di polenta non si conservano bene: gustarle subito appena sfornate."
+      ]
+    }
+  }
+}

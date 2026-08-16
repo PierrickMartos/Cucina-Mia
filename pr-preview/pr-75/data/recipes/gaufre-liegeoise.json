@@ -1,0 +1,229 @@
+{
+  "slug": "gaufre-liegeoise",
+  "title": "Gaufre liégeoise croustillante et moelleuse",
+  "description": "La vraie gaufre de Liège : une pâte briochée longuement pétrie, levée 1 h 30, puis parsemée de sucre perlé qui caramélise à la cuisson. Croustillante dehors, moelleuse dedans.",
+  "images": {
+    "cover": "images/recipes/gaufre-liegeoise/cover.jpg",
+    "web": "images/recipes/gaufre-liegeoise/web.jpg"
+  },
+  "imageCredit": {
+    "author": "blandinejoannic",
+    "url": "https://pixabay.com/users/blandinejoannic-15617008/"
+  },
+  "prepTime": 15,
+  "cookTime": 60,
+  "servings": 12,
+  "difficulty": "Medio",
+  "category": "Dolci",
+  "tags": [
+    "dessert",
+    "goûter",
+    "petit-déjeuner",
+    "brunch",
+    "végétarien",
+    "gourmand",
+    "croustillant",
+    "moelleux",
+    "enfants",
+    "toute-la-famille",
+    "chaud",
+    "festif",
+    "robot-pâtissier",
+    "se-congèle",
+    "préparation-à-lavance"
+  ],
+  "origin": "pierrick",
+  "ingredients": [
+    {
+      "items": [
+        "250 ml de lait",
+        "8 g de levure sèche de boulanger",
+        "500 g de farine T55 ou T45",
+        "35 g de sucre cassonade",
+        "3 cuillères à café d'extrait naturel de vanille",
+        "2 pincées de sel",
+        "2 œufs",
+        "250 g de beurre doux ramolli",
+        "160 g de sucre perlé"
+      ]
+    }
+  ],
+  "steps": [
+    {
+      "text": "Faire tiédir le lait dans un bol. Ajouter la levure, couvrir et laisser reposer 10 minutes pour l'activer."
+    },
+    {
+      "text": "Dans le bol du robot ou un large récipient, mélanger la farine, le sucre cassonade et le sel. Ajouter ensuite les œufs, la vanille et le mélange lait et levure."
+    },
+    {
+      "text": "Pétrir pendant 5 minutes à vitesse lente. Incorporer le beurre mou en morceaux, puis pétrir à nouveau 10 minutes à vitesse lente."
+    },
+    {
+      "text": "Couvrir le récipient d'un torchon et le placer dans un endroit tiède, ou dans un four chauffé à 30 °C. Laisser lever la pâte 1 h 30, elle doit doubler de volume."
+    },
+    {
+      "text": "Dégazer la pâte puis ajouter le sucre perlé. Former de petits pâtons de 100 g chacun, légèrement arrondis."
+    },
+    {
+      "text": "Chauffer le gaufrier, thermostat 6 à 7 sur un gaufrier Frifri. Déposer un pâton et cuire 2 minutes 20, puis retourner et cuire la même durée. La gaufre est prête quand elle est bien caramélisée. La durée peut varier selon le matériel."
+    },
+    {
+      "text": "Déposer la gaufre sur une grille pour qu'elle tiédisse. Poursuivre avec les autres pâtons."
+    }
+  ],
+  "tips": [
+    "Le sucre perlé se trouve au rayon sucre du supermarché, c'est le même que celui des chouquettes. Sans lui, le résultat ne sera pas tout à fait celui attendu.",
+    "Ne dépassez pas 1 h 30 de pousse : une levée trop longue donne un goût de levure prononcé.",
+    "Les gaufres se conservent 4 jours à température ambiante dans un récipient hermétique, et se congèlent jusqu'à 3 mois. Un passage au grille-pain leur rend tout leur croustillant.",
+    "Si la pâte colle trop, ajoutez un tout petit peu de farine pour la rattraper.",
+    "Vous pouvez congeler les pâtons individuels une fois le sucre perlé incorporé, pour cuire les gaufres au fur et à mesure.",
+    "Un gaufrier classique fonctionne, mais les gaufres seront moins épaisses et l'aspect visuel différent.",
+    "Elles sont délicieuses tièdes et nature, ou servies avec de la chantilly, des fruits frais ou une sauce au chocolat."
+  ],
+  "history": "La seule et unique : la recette de gaufre sucrée préférée de Pierrick.",
+  "source": "Lilie Bakery (Aurélie Bresset)",
+  "originalSource": {
+    "type": "url",
+    "data": "https://liliebakery.fr/gaufre-liegeoise/"
+  },
+  "translations": {
+    "en": {
+      "title": "Crispy and Soft Liège Waffles",
+      "description": "The real Liège waffle: a brioche dough kneaded at length, left to rise for 1.5 hours, then studded with pearl sugar that caramelises as it cooks. Crisp outside, soft inside.",
+      "tags": [
+        "dessert",
+        "snack",
+        "breakfast",
+        "brunch",
+        "vegetarian",
+        "indulgent",
+        "crispy",
+        "soft",
+        "kids",
+        "family-friendly",
+        "hot",
+        "festive",
+        "stand-mixer",
+        "freezer-friendly",
+        "make-ahead"
+      ],
+      "ingredients": [
+        {
+          "items": [
+            "250 ml milk",
+            "8 g dried baker's yeast",
+            "500 g T55 or T45 flour",
+            "35 g brown sugar",
+            "3 teaspoons natural vanilla extract",
+            "2 pinches of salt",
+            "2 eggs",
+            "250 g softened unsalted butter",
+            "160 g pearl sugar"
+          ]
+        }
+      ],
+      "steps": [
+        {
+          "text": "Warm the milk in a bowl. Add the yeast, cover and leave to stand for 10 minutes to activate it."
+        },
+        {
+          "text": "In the bowl of a stand mixer or a large container, mix the flour, brown sugar and salt. Then add the eggs, the vanilla and the milk and yeast mixture."
+        },
+        {
+          "text": "Knead for 5 minutes on low speed. Work in the soft butter in pieces, then knead again for 10 minutes on low speed."
+        },
+        {
+          "text": "Cover the container with a tea towel and put it somewhere warm, or in an oven heated to 30 °C. Leave the dough to rise for 1 hour 30, it should double in volume."
+        },
+        {
+          "text": "Knock back the dough, then add the pearl sugar. Shape small 100 g pieces, lightly rounded."
+        },
+        {
+          "text": "Heat the waffle iron, thermostat 6 to 7 on a Frifri iron. Place a piece of dough in it and cook for 2 minutes 20, then turn it over and cook for the same time. The waffle is ready when it is nicely caramelised. Timing varies with the equipment."
+        },
+        {
+          "text": "Put the waffle on a rack to cool slightly. Carry on with the remaining pieces of dough."
+        }
+      ],
+      "tips": [
+        "Pearl sugar is sold in the sugar aisle of the supermarket, the same one used for chouquettes. Without it the result will not be quite what you expect.",
+        "Do not let the dough rise beyond 1 hour 30: too long a rise gives a pronounced yeasty taste.",
+        "The waffles keep for 4 days at room temperature in an airtight container, and freeze for up to 3 months. A turn in the toaster brings back all their crispness.",
+        "If the dough is too sticky, add a tiny bit more flour to rescue it.",
+        "You can freeze the individual dough pieces once the pearl sugar has been mixed in, and cook the waffles as you go.",
+        "A standard waffle iron works, but the waffles will be thinner and look different.",
+        "They are delicious warm and plain, or served with whipped cream, fresh fruit or chocolate sauce."
+      ],
+      "history": "The one and only: Pierrick's favourite sweet waffle recipe."
+    },
+    "it": {
+      "title": "Gaufre di Liegi croccanti e morbide",
+      "description": "La vera gaufre di Liegi: un impasto brioche lavorato a lungo, lievitato 1 ora e mezza, poi arricchito di zucchero in granella che caramella in cottura. Croccante fuori, morbida dentro.",
+      "tags": [
+        "dolce",
+        "merenda",
+        "colazione",
+        "brunch",
+        "vegetariano",
+        "goloso",
+        "croccante",
+        "morbido",
+        "bambini",
+        "tutta-la-famiglia",
+        "caldo",
+        "festivo",
+        "planetaria",
+        "congelabile",
+        "preparazione-anticipata"
+      ],
+      "ingredients": [
+        {
+          "items": [
+            "250 ml di latte",
+            "8 g di lievito di birra secco",
+            "500 g di farina T55 o T45",
+            "35 g di zucchero di canna",
+            "3 cucchiaini di estratto naturale di vaniglia",
+            "2 pizzichi di sale",
+            "2 uova",
+            "250 g di burro dolce ammorbidito",
+            "160 g di zucchero in granella"
+          ]
+        }
+      ],
+      "steps": [
+        {
+          "text": "Intiepidire il latte in una ciotola. Aggiungere il lievito, coprire e lasciare riposare 10 minuti per attivarlo."
+        },
+        {
+          "text": "Nella ciotola della planetaria o in un ampio recipiente, mescolare la farina, lo zucchero di canna e il sale. Aggiungere poi le uova, la vaniglia e il composto di latte e lievito."
+        },
+        {
+          "text": "Impastare 5 minuti a velocità bassa. Incorporare il burro morbido a pezzetti, poi impastare di nuovo 10 minuti a velocità bassa."
+        },
+        {
+          "text": "Coprire il recipiente con un canovaccio e metterlo in un luogo tiepido, oppure in forno riscaldato a 30 °C. Lasciare lievitare l'impasto 1 ora e 30, deve raddoppiare di volume."
+        },
+        {
+          "text": "Sgonfiare l'impasto e aggiungere lo zucchero in granella. Formare piccole palline da 100 g ciascuna, leggermente arrotondate."
+        },
+        {
+          "text": "Scaldare la piastra per gaufre, termostato 6-7 su una piastra Frifri. Adagiare una pallina e cuocere 2 minuti e 20, poi girare e cuocere per lo stesso tempo. La gaufre è pronta quando è ben caramellata. La durata può variare a seconda dell'apparecchio."
+        },
+        {
+          "text": "Mettere la gaufre su una griglia a intiepidire. Proseguire con le altre palline."
+        }
+      ],
+      "tips": [
+        "Lo zucchero in granella si trova al reparto zuccheri del supermercato, è lo stesso dei bignè. Senza, il risultato non sarà proprio quello atteso.",
+        "Non superate 1 ora e 30 di lievitazione: una lievitazione troppo lunga dà un sapore di lievito marcato.",
+        "Le gaufre si conservano 4 giorni a temperatura ambiente in un contenitore ermetico e si congelano fino a 3 mesi. Un passaggio nel tostapane restituisce loro tutta la croccantezza.",
+        "Se l'impasto risulta troppo appiccicoso, aggiungete pochissima farina per recuperarlo.",
+        "Potete congelare le palline singole dopo aver incorporato lo zucchero in granella, e cuocere le gaufre man mano.",
+        "Una piastra classica funziona, ma le gaufre saranno meno spesse e l'aspetto diverso.",
+        "Sono deliziose tiepide e al naturale, oppure servite con panna montata, frutta fresca o salsa al cioccolato."
+      ],
+      "history": "L'unica e sola: la ricetta di gaufre dolce preferita di Pierrick."
+    }
+  }
+}

@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <defs>
+    <radialGradient id="obbg" cx="50%" cy="42%" r="70%"><stop offset="0%" stop-color="#302820"/><stop offset="100%" stop-color="#1a1510"/></radialGradient>
+    <radialGradient id="obplate" cx="48%" cy="48%" r="50%"><stop offset="0%" stop-color="#f0ebe4"/><stop offset="80%" stop-color="#d9d0c4"/><stop offset="100%" stop-color="#c4b8a8"/></radialGradient>
+  </defs>
+  <rect width="800" height="600" fill="url(#obbg)"/>
+  <ellipse cx="405" cy="345" rx="208" ry="65" fill="#0d0a07" opacity="0.4"/>
+  <ellipse cx="400" cy="330" rx="205" ry="60" fill="url(#obplate)"/>
+  <ellipse cx="400" cy="330" rx="185" ry="52" fill="#e8e0d4"/>
+  <ellipse cx="400" cy="330" rx="160" ry="44" fill="#f2ece4"/>
+  <!-- Sauce pool -->
+  <ellipse cx="400" cy="330" rx="140" ry="38" fill="#6a2818" opacity="0.5"/>
+  <!-- Ossobuco piece -->
+  <ellipse cx="400" cy="305" rx="75" ry="50" fill="#8a5030"/>
+  <!-- Browned exterior -->
+  <ellipse cx="400" cy="305" rx="75" ry="50" fill="none" stroke="#5a3018" stroke-width="3" opacity="0.5"/>
+  <!-- Marrow hole -->
+  <ellipse cx="400" cy="305" rx="18" ry="14" fill="#e8d8c0"/>
+  <ellipse cx="400" cy="305" rx="12" ry="9" fill="#f0e0c8"/>
+  <!-- Bone ring -->
+  <ellipse cx="400" cy="305" rx="22" ry="18" fill="none" stroke="#d8c8a8" stroke-width="4"/>
+  <!-- Meat texture -->
+  <g fill="#704020" opacity="0.4">
+    <ellipse cx="360" cy="295" rx="15" ry="8" transform="rotate(-10 360 295)"/>
+    <ellipse cx="440" cy="298" rx="14" ry="7" transform="rotate(12 440 298)"/>
+    <ellipse cx="375" cy="318" rx="12" ry="6" transform="rotate(-5 375 318)"/>
+    <ellipse cx="425" cy="315" rx="13" ry="7" transform="rotate(8 425 315)"/>
+  </g>
+  <!-- Gremolata on top -->
+  <g fill="#3a8a2a" opacity="0.7">
+    <circle cx="390" cy="290" r="3"/><circle cx="400" cy="285" r="2.5"/>
+    <circle cx="410" cy="288" r="2.8"/><circle cx="395" cy="295" r="2"/>
+    <circle cx="405" cy="292" r="2.5"/><circle cx="385" cy="287" r="2"/>
+  </g>
+  <!-- Lemon zest -->
+  <g fill="#e8d040" opacity="0.5">
+    <ellipse cx="398" cy="282" rx="3" ry="1" transform="rotate(20 398 282)"/>
+    <ellipse cx="408" cy="285" rx="2.5" ry="1" transform="rotate(-15 408 285)"/>
+    <ellipse cx="392" cy="288" rx="2" ry="0.8" transform="rotate(10 392 288)"/>
+  </g>
+  <!-- Vegetables in sauce -->
+  <g opacity="0.6">
+    <ellipse cx="340" cy="338" rx="8" ry="5" fill="#d8802a" transform="rotate(15 340 338)"/>
+    <ellipse cx="460" cy="335" rx="7" ry="4" fill="#d8802a" transform="rotate(-10 460 335)"/>
+    <ellipse cx="370" cy="345" rx="6" ry="4" fill="#80a040"/>
+    <ellipse cx="435" cy="340" rx="5" ry="3.5" fill="#80a040"/>
+  </g>
+</svg>
