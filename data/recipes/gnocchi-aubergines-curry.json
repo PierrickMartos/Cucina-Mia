@@ -1,7 +1,7 @@
 {
   "slug": "gnocchi-aubergines-curry",
   "title": "Gnocchi d'Aubergines au Curry",
-  "description": "Des gnocchi de polenta moelleux et aubergines fondantes gratinés au four dans une sauce curry parfumée — un plat végétarien savoureux et réconfortant.",
+  "description": "Des gnocchi de polenta moelleux et aubergines fondantes gratinés au four dans une sauce curry parfumée, un plat végétarien savoureux et réconfortant.",
   "images": {
     "cover": "images/recipes/gnocchi-aubergines-curry/cover.jpg",
     "web": "images/recipes/gnocchi-aubergines-curry/web.jpg"
@@ -64,12 +64,12 @@
   "tips": [
     "Remuer continuellement la polenta lors de son incorporation dans le liquide chaud pour éviter les grumeaux.",
     "Les aubergines doivent être bien cuites et fondantes pour une purée lisse.",
-    "Ajustez la quantité de curry selon vos goûts — cette recette utilise juste une pointe pour un parfum délicat."
+    "Ajustez la quantité de curry selon vos goûts : cette recette utilise juste une pointe pour un parfum délicat."
   ],
   "translations": {
     "en": {
       "title": "Aubergine Gnocchi with Curry",
-      "description": "Soft polenta gnocchi with melting aubergine, baked in the oven with a fragrant curry sauce — a delicious and comforting vegetarian dish.",
+      "description": "Soft polenta gnocchi with melting aubergine, baked in the oven with a fragrant curry sauce, a delicious and comforting vegetarian dish.",
       "tags": [
         "gnocchi",
         "aubergine",
@@ -118,12 +118,12 @@
       "tips": [
         "Stir the polenta continuously when incorporating it into the hot liquid to avoid lumps.",
         "The aubergines must be well cooked and tender for a smooth purée.",
-        "Adjust the amount of curry to your taste — this recipe uses just a pinch for a delicate flavour."
+        "Adjust the amount of curry to your taste: this recipe uses just a pinch for a delicate flavour."
       ]
     },
     "it": {
       "title": "Gnocchi di Melanzane al Curry",
-      "description": "Morbidi gnocchi di polenta con melanzane fondenti, gratinati in forno con una fragrante salsa al curry — un piatto vegetariano saporito e confortante.",
+      "description": "Morbidi gnocchi di polenta con melanzane fondenti, gratinati in forno con una fragrante salsa al curry, un piatto vegetariano saporito e confortante.",
       "tags": [
         "gnocchi",
         "melanzane",
@@ -172,7 +172,7 @@
       "tips": [
         "Mescolare continuamente la polenta durante l'incorporazione nel liquido caldo per evitare i grumi.",
         "Le melanzane devono essere ben cotte e morbide per ottenere un purè liscio.",
-        "Regolate la quantità di curry secondo i vostri gusti — questa ricetta ne usa solo una punta per un aroma delicato."
+        "Regolate la quantità di curry secondo i vostri gusti: questa ricetta ne usa solo una punta per un aroma delicato."
       ]
     }
   }

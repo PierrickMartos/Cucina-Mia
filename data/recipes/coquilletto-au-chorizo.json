@@ -1,7 +1,7 @@
 {
   "slug": "coquilletto-au-chorizo",
   "title": "Coquilletto au Chorizo",
-  "description": "Des coquillettes cuisinées façon risotto dans la bière ambrée avec du chorizo croustillant — un plat réconfortant et original.",
+  "description": "Des coquillettes cuisinées façon risotto dans la bière ambrée avec du chorizo croustillant, un plat réconfortant et original.",
   "images": {
     "cover": "images/recipes/coquilletto-au-chorizo/cover.jpg",
     "web": "images/recipes/coquilletto-au-chorizo/web.jpg"
@@ -62,7 +62,7 @@
   "translations": {
     "en": {
       "title": "Coquilletto with Chorizo",
-      "description": "Shell pasta cooked risotto-style in amber beer with crispy chorizo — a comforting and original dish.",
+      "description": "Shell pasta cooked risotto-style in amber beer with crispy chorizo, a comforting and original dish.",
       "tags": [
         "pasta",
         "chorizo",
@@ -114,7 +114,7 @@
     },
     "it": {
       "title": "Coquillette al Chorizo",
-      "description": "Coquillette cotte come un risotto nella birra ambrata con chorizo croccante — un piatto confortante e originale.",
+      "description": "Coquillette cotte come un risotto nella birra ambrata con chorizo croccante, un piatto confortante e originale.",
       "tags": [
         "pasta",
         "chorizo",

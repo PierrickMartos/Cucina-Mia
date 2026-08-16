@@ -70,14 +70,23 @@
   ],
   "tips": [
     "Utiliser de préférence des moules en cuivre pour un résultat optimal avec la croûte caramélisée caractéristique.",
-    "Le repos de 12 heures au réfrigérateur est essentiel — ne pas raccourcir cette étape.",
+    "Le repos de 12 heures au réfrigérateur est essentiel : ne pas raccourcir cette étape.",
     "La double beurrure avec passage au congélateur garantit un démoulage parfait."
   ],
   "translations": {
     "en": {
       "title": "Cannelés",
       "description": "Small Bordeaux pastries with a caramelized, crispy crust and a soft interior fragrant with vanilla and rum.",
-      "tags": ["oven", "dessert", "french", "crispy", "soft", "make-ahead", "indulgent", "festive"],
+      "tags": [
+        "oven",
+        "dessert",
+        "french",
+        "crispy",
+        "soft",
+        "make-ahead",
+        "indulgent",
+        "festive"
+      ],
       "ingredients": [
         {
           "items": [
@@ -123,14 +132,23 @@
       ],
       "tips": [
         "Preferably use copper molds for the best results with the characteristic caramelized crust.",
-        "The 12-hour rest in the refrigerator is essential — do not cut this step short.",
+        "The 12-hour rest in the refrigerator is essential: do not cut this step short.",
         "The double buttering with a freezer pass guarantees a perfect unmolding."
       ]
     },
     "it": {
       "title": "Cannelés",
       "description": "Piccoli dolcetti bordolesi dalla crosta caramellata e croccante, con un interno morbido profumato alla vaniglia e al rum.",
-      "tags": ["forno", "dessert", "francese", "croccante", "morbido", "preparazione-in-anticipo", "goloso", "festivo"],
+      "tags": [
+        "forno",
+        "dessert",
+        "francese",
+        "croccante",
+        "morbido",
+        "preparazione-in-anticipo",
+        "goloso",
+        "festivo"
+      ],
       "ingredients": [
         {
           "items": [
@@ -176,7 +194,7 @@
       ],
       "tips": [
         "Preferire gli stampi in rame per un risultato ottimale con la crosta caramellata caratteristica.",
-        "Il riposo di 12 ore in frigorifero è essenziale — non accorciare questo passaggio.",
+        "Il riposo di 12 ore in frigorifero è essenziale: non accorciare questo passaggio.",
         "La doppia imburrata con passaggio nel congelatore garantisce uno sformaggio perfetto."
       ]
     }

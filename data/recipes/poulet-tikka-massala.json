@@ -1,7 +1,7 @@
 {
   "slug": "poulet-tikka-massala",
   "title": "Poulet Tikka Massala",
-  "description": "Un poulet mariné au yaourt et aux épices, mijoté dans une sauce tomate parfumée — le classique indien par excellence.",
+  "description": "Un poulet mariné au yaourt et aux épices, mijoté dans une sauce tomate parfumée, le classique indien par excellence.",
   "images": {
     "cover": "images/recipes/poulet-tikka-massala/cover.jpg",
     "web": "images/recipes/poulet-tikka-massala/web.jpg"
@@ -77,8 +77,19 @@
   "translations": {
     "en": {
       "title": "Chicken Tikka Masala",
-      "description": "Chicken marinated in yogurt and spices, simmered in a fragrant tomato sauce — the ultimate Indian classic.",
-      "tags": ["chicken", "indian", "spiced", "braised", "curry", "comforting", "main-course", "hot", "halal", "gluten-free"],
+      "description": "Chicken marinated in yogurt and spices, simmered in a fragrant tomato sauce, the ultimate Indian classic.",
+      "tags": [
+        "chicken",
+        "indian",
+        "spiced",
+        "braised",
+        "curry",
+        "comforting",
+        "main-course",
+        "hot",
+        "halal",
+        "gluten-free"
+      ],
       "ingredients": [
         {
           "items": [
@@ -127,8 +138,19 @@
     },
     "it": {
       "title": "Pollo Tikka Masala",
-      "description": "Pollo marinato nello yogurt e nelle spezie, cotto a fuoco lento in una salsa di pomodoro profumata — il classico indiano per eccellenza.",
-      "tags": ["pollo", "indiano", "speziato", "brasato", "curry", "confortante", "secondo-piatto", "caldo", "halal", "senza-glutine"],
+      "description": "Pollo marinato nello yogurt e nelle spezie, cotto a fuoco lento in una salsa di pomodoro profumata, il classico indiano per eccellenza.",
+      "tags": [
+        "pollo",
+        "indiano",
+        "speziato",
+        "brasato",
+        "curry",
+        "confortante",
+        "secondo-piatto",
+        "caldo",
+        "halal",
+        "senza-glutine"
+      ],
       "ingredients": [
         {
           "items": [

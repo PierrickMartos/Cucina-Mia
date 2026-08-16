@@ -1,7 +1,7 @@
 {
   "slug": "penne-creme-chevre-noix",
   "title": "Penne à la Crème de Chèvre et Noix",
-  "description": "Des penne crémeuses au chèvre frais, poireau fondant et noix croquantes — un plat complet prêt en 15 minutes.",
+  "description": "Des penne crémeuses au chèvre frais, poireau fondant et noix croquantes, un plat complet prêt en 15 minutes.",
   "images": {
     "cover": "images/recipes/penne-creme-chevre-noix/cover.jpg",
     "web": "images/recipes/penne-creme-chevre-noix/web.jpg"
@@ -68,7 +68,7 @@
   "translations": {
     "en": {
       "title": "Penne with Goat Cheese Cream and Walnuts",
-      "description": "Creamy penne with fresh goat cheese, melt-in-the-mouth leek and crunchy walnuts — a complete dish ready in 15 minutes.",
+      "description": "Creamy penne with fresh goat cheese, melt-in-the-mouth leek and crunchy walnuts, a complete dish ready in 15 minutes.",
       "tags": [
         "pasta",
         "vegetarian",
@@ -114,13 +114,13 @@
       ],
       "tips": [
         "Choose a chilli goat cheese to add a kick, or plain fresh goat cheese for a milder version.",
-        "Don't overcook the leek — it should stay slightly tender and keep its nice green colour.",
+        "Don't overcook the leek: it should stay slightly tender and keep its nice green colour.",
         "Add a handful of rocket dressed with olive oil and vinegar for a fresh side."
       ]
     },
     "it": {
       "title": "Penne alla Crema di Caprino e Noci",
-      "description": "Penne cremose con caprino fresco, porro morbido e noci croccanti — un piatto completo pronto in 15 minuti.",
+      "description": "Penne cremose con caprino fresco, porro morbido e noci croccanti, un piatto completo pronto in 15 minuti.",
       "tags": [
         "pasta",
         "vegetariano",

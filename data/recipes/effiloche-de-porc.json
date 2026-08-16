@@ -1,7 +1,7 @@
 {
   "slug": "effiloche-de-porc",
   "title": "Effiloché de Porc Sauce Barbecue",
-  "description": "Un effiloché de porc fondant cuit 3 heures au four dans une sauce barbecue maison — le plat parfait pour un repas convivial.",
+  "description": "Un effiloché de porc fondant cuit 3 heures au four dans une sauce barbecue maison, le plat parfait pour un repas convivial.",
   "images": {
     "cover": "images/recipes/effiloche-de-porc/cover.jpg",
     "web": "images/recipes/effiloche-de-porc/web.jpg"
@@ -78,8 +78,19 @@
   "translations": {
     "en": {
       "title": "BBQ Pulled Pork",
-      "description": "Meltingly tender pulled pork slow-roasted for 3 hours in a homemade BBQ sauce — the perfect dish for a convivial meal.",
-      "tags": ["pork", "oven", "slow-cooked", "bbq", "comfort-food", "sharing", "main-course", "american", "freezer-friendly", "crowd-pleaser"],
+      "description": "Meltingly tender pulled pork slow-roasted for 3 hours in a homemade BBQ sauce, the perfect dish for a convivial meal.",
+      "tags": [
+        "pork",
+        "oven",
+        "slow-cooked",
+        "bbq",
+        "comfort-food",
+        "sharing",
+        "main-course",
+        "american",
+        "freezer-friendly",
+        "crowd-pleaser"
+      ],
       "ingredients": [
         {
           "items": [
@@ -131,8 +142,19 @@
     },
     "it": {
       "title": "Pulled Pork alla Salsa Barbecue",
-      "description": "Un pulled pork tenero e fondente cotto per 3 ore in forno in una salsa barbecue fatta in casa — il piatto perfetto per una cena conviviale.",
-      "tags": ["maiale", "forno", "brasato", "barbecue", "comfort-food", "da-condividere", "secondo-piatto", "americano", "si-congela", "per-tanti"],
+      "description": "Un pulled pork tenero e fondente cotto per 3 ore in forno in una salsa barbecue fatta in casa, il piatto perfetto per una cena conviviale.",
+      "tags": [
+        "maiale",
+        "forno",
+        "brasato",
+        "barbecue",
+        "comfort-food",
+        "da-condividere",
+        "secondo-piatto",
+        "americano",
+        "si-congela",
+        "per-tanti"
+      ],
       "ingredients": [
         {
           "items": [

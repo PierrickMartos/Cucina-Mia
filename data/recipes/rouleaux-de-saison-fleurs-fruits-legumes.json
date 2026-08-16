@@ -76,7 +76,19 @@
   "translations": {
     "en": {
       "description": "Rice paper rolls filled with seasonal vegetables, edible flowers and Thai basil, served with a tamarind, soy and peanut dipping sauce.",
-      "tags": ["starter", "vegetarian", "no-cook", "asian", "vegetables", "light", "gluten-free", "finger-food", "cold", "spring", "fruit"],
+      "tags": [
+        "starter",
+        "vegetarian",
+        "no-cook",
+        "asian",
+        "vegetables",
+        "light",
+        "gluten-free",
+        "finger-food",
+        "cold",
+        "spring",
+        "fruit"
+      ],
       "ingredients": [
         {
           "group": "Rolls (makes 10)",
@@ -106,7 +118,7 @@
           "text": "Prepare a bowl of water to rehydrate the rice paper sheets."
         },
         {
-          "text": "Gently place a rehydrated rice paper sheet on a board. Be careful — they are delicate and tear easily."
+          "text": "Gently place a rehydrated rice paper sheet on a board. Be careful: they are delicate and tear easily."
         },
         {
           "text": "Layer on the sheet: half a batavia leaf, some mesclun leaves, 1 or 2 sticks of bell pepper and carrot, 2 Thai basil leaves, and a little long coriander."
@@ -124,7 +136,19 @@
     },
     "it": {
       "description": "Rotolini di riso ripieni di verdure di stagione, fiori commestibili e basilico tailandese, accompagnati da una salsa al tamarindo, soia e arachidi.",
-      "tags": ["antipasto", "vegetariano", "senza-cottura", "asiatico", "verdure", "leggero", "senza-glutine", "finger-food", "freddo", "primavera", "frutta"],
+      "tags": [
+        "antipasto",
+        "vegetariano",
+        "senza-cottura",
+        "asiatico",
+        "verdure",
+        "leggero",
+        "senza-glutine",
+        "finger-food",
+        "freddo",
+        "primavera",
+        "frutta"
+      ],
       "ingredients": [
         {
           "group": "Rotolini (per 10 pezzi)",

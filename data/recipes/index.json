@@ -1921,7 +1921,7 @@
   {
     "slug": "coquilletto-au-chorizo",
     "title": "Coquilletto au Chorizo",
-    "description": "Des coquillettes cuisinées façon risotto dans la bière ambrée avec du chorizo croustillant — un plat réconfortant et original.",
+    "description": "Des coquillettes cuisinées façon risotto dans la bière ambrée avec du chorizo croustillant, un plat réconfortant et original.",
     "images": {
       "cover": "images/recipes/coquilletto-au-chorizo/cover.jpg",
       "web": "images/recipes/coquilletto-au-chorizo/web.jpg"
@@ -1948,7 +1948,7 @@
     "translations": {
       "en": {
         "title": "Coquilletto with Chorizo",
-        "description": "Shell pasta cooked risotto-style in amber beer with crispy chorizo — a comforting and original dish.",
+        "description": "Shell pasta cooked risotto-style in amber beer with crispy chorizo, a comforting and original dish.",
         "tags": [
           "pasta",
           "chorizo",
@@ -1964,7 +1964,7 @@
       },
       "it": {
         "title": "Coquillette al Chorizo",
-        "description": "Coquillette cotte come un risotto nella birra ambrata con chorizo croccante — un piatto confortante e originale.",
+        "description": "Coquillette cotte come un risotto nella birra ambrata con chorizo croccante, un piatto confortante e originale.",
         "tags": [
           "pasta",
           "chorizo",
@@ -1983,7 +1983,7 @@
   {
     "slug": "effiloche-de-porc",
     "title": "Effiloché de Porc Sauce Barbecue",
-    "description": "Un effiloché de porc fondant cuit 3 heures au four dans une sauce barbecue maison — le plat parfait pour un repas convivial.",
+    "description": "Un effiloché de porc fondant cuit 3 heures au four dans une sauce barbecue maison, le plat parfait pour un repas convivial.",
     "images": {
       "cover": "images/recipes/effiloche-de-porc/cover.jpg",
       "web": "images/recipes/effiloche-de-porc/web.jpg"
@@ -2010,7 +2010,7 @@
     "translations": {
       "en": {
         "title": "BBQ Pulled Pork",
-        "description": "Meltingly tender pulled pork slow-roasted for 3 hours in a homemade BBQ sauce — the perfect dish for a convivial meal.",
+        "description": "Meltingly tender pulled pork slow-roasted for 3 hours in a homemade BBQ sauce, the perfect dish for a convivial meal.",
         "tags": [
           "pork",
           "oven",
@@ -2026,7 +2026,7 @@
       },
       "it": {
         "title": "Pulled Pork alla Salsa Barbecue",
-        "description": "Un pulled pork tenero e fondente cotto per 3 ore in forno in una salsa barbecue fatta in casa — il piatto perfetto per una cena conviviale.",
+        "description": "Un pulled pork tenero e fondente cotto per 3 ore in forno in una salsa barbecue fatta in casa, il piatto perfetto per una cena conviviale.",
         "tags": [
           "maiale",
           "forno",
@@ -2082,7 +2082,7 @@
   {
     "slug": "four-tomates-aubergines-courgettes-pesto",
     "title": "Légumes Méditerranéens Rôtis au Pesto",
-    "description": "Une plaque de légumes méditerranéens — tomates, aubergines et courgettes — rôtis au four et nappés de pesto basilic maison, servis avec de la mozzarella di bufala.",
+    "description": "Une plaque de légumes méditerranéens (tomates, aubergines et courgettes) rôtis au four et nappés de pesto basilic maison, servis avec de la mozzarella di bufala.",
     "category": "Secondi",
     "difficulty": "Facile",
     "prepTime": 15,
@@ -2115,7 +2115,7 @@
     "indexEntry": {
       "slug": "four-tomates-aubergines-courgettes-pesto",
       "title": "Légumes Méditerranéens Rôtis au Pesto",
-      "description": "Une plaque de légumes méditerranéens — tomates, aubergines et courgettes — rôtis au four et nappés de pesto basilic maison, servis avec de la mozzarella di bufala.",
+      "description": "Une plaque de légumes méditerranéens (tomates, aubergines et courgettes) rôtis au four et nappés de pesto basilic maison, servis avec de la mozzarella di bufala.",
       "category": "Secondi",
       "difficulty": "Facile",
       "prepTime": 15,
@@ -2144,7 +2144,7 @@
   {
     "slug": "frites-polenta-epinards",
     "title": "Frites de Polenta et Épinards",
-    "description": "Des frites de polenta croustillantes au parmesan accompagnées d'épinards à l'ail — une alternative originale et végétarienne aux frites classiques.",
+    "description": "Des frites de polenta croustillantes au parmesan accompagnées d'épinards à l'ail, une alternative originale et végétarienne aux frites classiques.",
     "prepTime": 20,
     "cookTime": 30,
     "servings": 4,
@@ -2172,7 +2172,7 @@
   {
     "slug": "gnocchi-aubergines-curry",
     "title": "Gnocchi d'Aubergines au Curry",
-    "description": "Des gnocchi de polenta moelleux et aubergines fondantes gratinés au four dans une sauce curry parfumée — un plat végétarien savoureux et réconfortant.",
+    "description": "Des gnocchi de polenta moelleux et aubergines fondantes gratinés au four dans une sauce curry parfumée, un plat végétarien savoureux et réconfortant.",
     "images": {
       "cover": "images/recipes/gnocchi-aubergines-curry/cover.jpg",
       "web": "images/recipes/gnocchi-aubergines-curry/web.jpg"
@@ -2199,7 +2199,7 @@
     "translations": {
       "en": {
         "title": "Aubergine Gnocchi with Curry",
-        "description": "Soft polenta gnocchi with melting aubergine, baked in the oven with a fragrant curry sauce — a delicious and comforting vegetarian dish.",
+        "description": "Soft polenta gnocchi with melting aubergine, baked in the oven with a fragrant curry sauce, a delicious and comforting vegetarian dish.",
         "tags": [
           "gnocchi",
           "aubergine",
@@ -2215,7 +2215,7 @@
       },
       "it": {
         "title": "Gnocchi di Melanzane al Curry",
-        "description": "Morbidi gnocchi di polenta con melanzane fondenti, gratinati in forno con una fragrante salsa al curry — un piatto vegetariano saporito e confortante.",
+        "description": "Morbidi gnocchi di polenta con melanzane fondenti, gratinati in forno con una fragrante salsa al curry, un piatto vegetariano saporito e confortante.",
         "tags": [
           "gnocchi",
           "melanzane",
@@ -2234,7 +2234,7 @@
   {
     "slug": "gnocchi-champi-ail-au-four",
     "title": "Gnocchi Champi à l'Ail (au four)",
-    "description": "Gnocchi moelleux et champignons rôtis à l'ail en une seule plaque au four — un plat végétalien prêt en 30 minutes, zéro vaisselle.",
+    "description": "Gnocchi moelleux et champignons rôtis à l'ail en une seule plaque au four, un plat végétalien prêt en 30 minutes, zéro vaisselle.",
     "images": {
       "cover": "images/recipes/gnocchi-champi-ail-au-four/cover.jpg",
       "web": "images/recipes/gnocchi-champi-ail-au-four/web.jpg"
@@ -2261,7 +2261,7 @@
     "translations": {
       "en": {
         "title": "Oven-Baked Garlic Mushroom Gnocchi",
-        "description": "Soft gnocchi and roasted mushrooms with garlic all on one baking tray — a vegan dish ready in 30 minutes, zero washing up.",
+        "description": "Soft gnocchi and roasted mushrooms with garlic all on one baking tray, a vegan dish ready in 30 minutes, zero washing up.",
         "tags": [
           "oven",
           "vegan",
@@ -2277,7 +2277,7 @@
       },
       "it": {
         "title": "Gnocchi con Funghi e Aglio al Forno",
-        "description": "Gnocchi morbidi e funghi arrostiti all'aglio in un'unica teglia — un piatto vegano pronto in 30 minuti, senza sporcare nulla.",
+        "description": "Gnocchi morbidi e funghi arrostiti all'aglio in un'unica teglia, un piatto vegano pronto in 30 minuti, senza sporcare nulla.",
         "tags": [
           "forno",
           "vegano",
@@ -2438,7 +2438,7 @@
   {
     "slug": "lentilles-corail-garam-massala",
     "title": "Lentilles Corail au Garam Massala Façon Risotto",
-    "description": "Des lentilles corail et poulet mariné au lait de coco cuisinés façon risotto avec du garam massala — un plat épicé et parfumé.",
+    "description": "Des lentilles corail et poulet mariné au lait de coco cuisinés façon risotto avec du garam massala, un plat épicé et parfumé.",
     "images": {
       "cover": "images/recipes/lentilles-corail-garam-massala/cover.jpg",
       "web": "images/recipes/lentilles-corail-garam-massala/web.jpg"
@@ -2465,11 +2465,11 @@
     "translations": {
       "en": {
         "title": "Red Lentils with Garam Masala Risotto-Style",
-        "description": "Red lentils and coconut-marinated chicken cooked risotto-style with garam masala — a spiced, aromatic one-pot dish."
+        "description": "Red lentils and coconut-marinated chicken cooked risotto-style with garam masala, a spiced, aromatic one-pot dish."
       },
       "it": {
         "title": "Lenticchie Rosse al Garam Masala in Stile Risotto",
-        "description": "Lenticchie rosse e pollo marinato nel latte di cocco cotti in stile risotto con garam masala — un piatto speziato e aromatico."
+        "description": "Lenticchie rosse e pollo marinato nel latte di cocco cotti in stile risotto con garam masala, un piatto speziato e aromatico."
       }
     },
     "imageCredit": {
@@ -2482,7 +2482,7 @@
   {
     "slug": "macaronis-fromage-facon-risotto",
     "title": "Macaronis au Fromage Façon Risotto",
-    "description": "Des macaronis cuisinés façon risotto dans le bouillon de bœuf, enrobés d'une sauce crémeuse au cheddar — le mac & cheese à la française.",
+    "description": "Des macaronis cuisinés façon risotto dans le bouillon de bœuf, enrobés d'une sauce crémeuse au cheddar, le mac & cheese à la française.",
     "images": {
       "cover": "images/recipes/macaronis-fromage-facon-risotto/cover.jpg",
       "web": "images/recipes/macaronis-fromage-facon-risotto/web.jpg"
@@ -2509,11 +2509,11 @@
     "translations": {
       "en": {
         "title": "Mac & Cheese Risotto Style",
-        "description": "Macaroni cooked risotto-style in beef stock, then coated in a creamy cheddar sauce — the French take on mac & cheese."
+        "description": "Macaroni cooked risotto-style in beef stock, then coated in a creamy cheddar sauce, the French take on mac & cheese."
       },
       "it": {
         "title": "Maccheroni al Formaggio alla Maniera del Risotto",
-        "description": "Maccheroni cotti alla maniera del risotto nel brodo di manzo, avvolti in una cremosa salsa al cheddar — il mac & cheese alla francese."
+        "description": "Maccheroni cotti alla maniera del risotto nel brodo di manzo, avvolti in una cremosa salsa al cheddar, il mac & cheese alla francese."
       }
     },
     "imageCredit": {
@@ -2565,7 +2565,7 @@
   {
     "slug": "penne-creme-chevre-noix",
     "title": "Penne à la Crème de Chèvre et Noix",
-    "description": "Des penne crémeuses au chèvre frais, poireau fondant et noix croquantes — un plat complet prêt en 15 minutes.",
+    "description": "Des penne crémeuses au chèvre frais, poireau fondant et noix croquantes, un plat complet prêt en 15 minutes.",
     "images": {
       "cover": "images/recipes/penne-creme-chevre-noix/cover.jpg",
       "web": "images/recipes/penne-creme-chevre-noix/web.jpg"
@@ -2592,7 +2592,7 @@
     "translations": {
       "en": {
         "title": "Penne with Goat Cheese Cream and Walnuts",
-        "description": "Creamy penne with fresh goat cheese, melt-in-the-mouth leek and crunchy walnuts — a complete dish ready in 15 minutes.",
+        "description": "Creamy penne with fresh goat cheese, melt-in-the-mouth leek and crunchy walnuts, a complete dish ready in 15 minutes.",
         "tags": [
           "pasta",
           "vegetarian",
@@ -2608,7 +2608,7 @@
       },
       "it": {
         "title": "Penne alla Crema di Caprino e Noci",
-        "description": "Penne cremose con caprino fresco, porro morbido e noci croccanti — un piatto completo pronto in 15 minuti.",
+        "description": "Penne cremose con caprino fresco, porro morbido e noci croccanti, un piatto completo pronto in 15 minuti.",
         "tags": [
           "pasta",
           "vegetariano",
@@ -2633,7 +2633,7 @@
   {
     "slug": "poulet-tikka-massala",
     "title": "Poulet Tikka Massala",
-    "description": "Un poulet mariné au yaourt et aux épices, mijoté dans une sauce tomate parfumée — le classique indien par excellence.",
+    "description": "Un poulet mariné au yaourt et aux épices, mijoté dans une sauce tomate parfumée, le classique indien par excellence.",
     "images": {
       "cover": "images/recipes/poulet-tikka-massala/cover.jpg",
       "web": "images/recipes/poulet-tikka-massala/web.jpg"
@@ -2660,7 +2660,7 @@
     "translations": {
       "en": {
         "title": "Chicken Tikka Masala",
-        "description": "Chicken marinated in yogurt and spices, simmered in a fragrant tomato sauce — the ultimate Indian classic.",
+        "description": "Chicken marinated in yogurt and spices, simmered in a fragrant tomato sauce, the ultimate Indian classic.",
         "tags": [
           "chicken",
           "indian",
@@ -2676,7 +2676,7 @@
       },
       "it": {
         "title": "Pollo Tikka Masala",
-        "description": "Pollo marinato nello yogurt e nelle spezie, cotto a fuoco lento in una salsa di pomodoro profumata — il classico indiano per eccellenza.",
+        "description": "Pollo marinato nello yogurt e nelle spezie, cotto a fuoco lento in una salsa di pomodoro profumata, il classico indiano per eccellenza.",
         "tags": [
           "pollo",
           "indiano",
@@ -2788,7 +2788,7 @@
   {
     "slug": "risotto-cheddar-bacon",
     "title": "Risotto Cheddar et Bacon",
-    "description": "Un risotto généreux et réconfortant au cheddar fondu et bacon croustillant — une version anglaise gourmande du grand classique italien.",
+    "description": "Un risotto généreux et réconfortant au cheddar fondu et bacon croustillant, une version anglaise gourmande du grand classique italien.",
     "images": {
       "cover": "images/recipes/risotto-cheddar-bacon/cover.jpg",
       "web": "images/recipes/risotto-cheddar-bacon/web.jpg"
@@ -2821,7 +2821,7 @@
   {
     "slug": "risotto-roquette-jambon-mascarpone",
     "title": "Risotto Roquette, Jambon Cru et Mascarpone",
-    "description": "Un risotto crémeux au mascarpone garni de jambon cru fondant et de roquette fraîche — l'élégance italienne en 30 minutes.",
+    "description": "Un risotto crémeux au mascarpone garni de jambon cru fondant et de roquette fraîche, l'élégance italienne en 30 minutes.",
     "images": {
       "cover": "images/recipes/risotto-roquette-jambon-mascarpone/cover.jpg",
       "web": "images/recipes/risotto-roquette-jambon-mascarpone/web.jpg"
@@ -2848,11 +2848,11 @@
     "translations": {
       "en": {
         "title": "Rocket, Parma Ham and Mascarpone Risotto",
-        "description": "A creamy mascarpone risotto topped with melt-in-your-mouth cured ham and fresh rocket — Italian elegance in 30 minutes."
+        "description": "A creamy mascarpone risotto topped with melt-in-your-mouth cured ham and fresh rocket, Italian elegance in 30 minutes."
       },
       "it": {
         "title": "Risotto con Rucola, Prosciutto Crudo e Mascarpone",
-        "description": "Un risotto cremoso al mascarpone guarnito con prosciutto crudo fondente e rucola fresca — l'eleganza italiana in 30 minuti."
+        "description": "Un risotto cremoso al mascarpone guarnito con prosciutto crudo fondente e rucola fresca, l'eleganza italiana in 30 minuti."
       }
     },
     "imageCredit": {
@@ -2998,7 +2998,7 @@
   {
     "slug": "tartine-agneau-legumes",
     "title": "Tartine Agneau et Légumes",
-    "description": "Tartine d'agneau confit sur pain de mie grillé, garnie d'un baïaldi de légumes (tomate, aubergine, courgette) cuits lentement au four, badigeonnée de moutarde en grains — une recette provençale élégante et généreuse signée André Charrial.",
+    "description": "Tartine d'agneau confit sur pain de mie grillé, garnie d'un baïaldi de légumes (tomate, aubergine, courgette) cuits lentement au four, badigeonnée de moutarde en grains, une recette provençale élégante et généreuse signée André Charrial.",
     "category": "Secondi",
     "difficulty": "Facile",
     "prepTime": 15,
@@ -3070,7 +3070,7 @@
   {
     "slug": "tartine-oeufs-chorizo",
     "title": "Tartine Œufs-Chorizo",
-    "description": "Une tartine généreuse et savoureuse garnie d'œufs brouillés crémeux et de tranches de chorizo croustillant — le petit-déjeuner ou brunch parfait.",
+    "description": "Une tartine généreuse et savoureuse garnie d'œufs brouillés crémeux et de tranches de chorizo croustillant, le petit-déjeuner ou brunch parfait.",
     "images": {
       "cover": "images/recipes/tartine-oeufs-chorizo/cover.jpg",
       "web": "images/recipes/tartine-oeufs-chorizo/web.jpg"
@@ -3097,7 +3097,7 @@
     "translations": {
       "en": {
         "title": "Eggs and Chorizo Toast",
-        "description": "A generous and flavorful open-faced toast topped with creamy scrambled eggs and crispy chorizo slices — the perfect breakfast or brunch.",
+        "description": "A generous and flavorful open-faced toast topped with creamy scrambled eggs and crispy chorizo slices, the perfect breakfast or brunch.",
         "tags": [
           "toast",
           "eggs",
@@ -3113,7 +3113,7 @@
       },
       "it": {
         "title": "Tartine Uova e Chorizo",
-        "description": "Una tartine generosa e saporita guarnita con uova strapazzate cremose e fette di chorizo croccante — la colazione o il brunch perfetto.",
+        "description": "Una tartine generosa e saporita guarnita con uova strapazzate cremose e fette di chorizo croccante, la colazione o il brunch perfetto.",
         "tags": [
           "tartine",
           "uova",
@@ -3529,7 +3529,7 @@
   {
     "slug": "caprese-di-tuffoli",
     "title": "Caprese di tuffoli",
-    "description": "Salade de pâtes estivale aux tomates multicolores marinées, mozzarella di bufala et basilic frais — un must romain qui se mange froid.",
+    "description": "Salade de pâtes estivale aux tomates multicolores marinées, mozzarella di bufala et basilic frais, un must romain qui se mange froid.",
     "images": {
       "cover": "images/recipes/caprese-di-tuffoli/cover.jpg",
       "web": "images/recipes/caprese-di-tuffoli/web.jpg"
@@ -3558,7 +3558,7 @@
     "translations": {
       "en": {
         "title": "Tuffoli Caprese Salad",
-        "description": "A summery pasta salad with marinated multicolour tomatoes, buffalo mozzarella and fresh basil — a Roman cold dish that is a true must.",
+        "description": "A summery pasta salad with marinated multicolour tomatoes, buffalo mozzarella and fresh basil, a Roman cold dish that is a true must.",
         "tags": [
           "pasta",
           "salad",
@@ -3576,7 +3576,7 @@
       },
       "it": {
         "title": "Caprese di tuffoli",
-        "description": "Insalata di pasta estiva con pomodorini multicolori marinati, mozzarella di bufala e basilico fresco — un must romano da gustare freddo.",
+        "description": "Insalata di pasta estiva con pomodorini multicolori marinati, mozzarella di bufala e basilico fresco, un must romano da gustare freddo.",
         "tags": [
           "pasta",
           "insalata",

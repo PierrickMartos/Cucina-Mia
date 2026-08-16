@@ -37,7 +37,7 @@
     <ellipse cx="365" cy="268" rx="8" ry="2.5" transform="rotate(25 365 268)"/>
     <ellipse cx="395" cy="250" rx="6" ry="2" transform="rotate(-5 395 250)"/>
   </g>
-  <!-- Black pepper — prominent -->
+  <!-- Black pepper, prominent -->
   <g fill="#1a1510" opacity="0.8">
     <circle cx="382" cy="260" r="2.2"/><circle cx="398" cy="254" r="1.8"/>
     <circle cx="418" cy="262" r="2"/><circle cx="370" cy="272" r="1.5"/>

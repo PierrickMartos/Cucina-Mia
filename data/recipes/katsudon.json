@@ -90,13 +90,24 @@
   "tips": [
     "Utilisez impérativement du panko (chapelure japonaise à gros grains) pour une panure ultra-croustillante.",
     "Vous pouvez remplacer le porc par des lamelles de bœuf pour obtenir un Gyudon, ou par du poulet pour un Oyakodon.",
-    "Les œufs de finition doivent rester légèrement coulants — couvrez juste le temps qu'ils se raffermissent en surface."
+    "Les œufs de finition doivent rester légèrement coulants : couvrez juste le temps qu'ils se raffermissent en surface."
   ],
   "translations": {
     "en": {
       "title": "Katsudon",
       "description": "Katsudon is a comforting Japanese dish of panko-breaded pork cutlet (tonkatsu) simmered in a dashi-soy sauce with onions and eggs, served over a bowl of steamed rice.",
-      "tags": ["japanese", "pork", "rice", "fried", "comforting", "hot", "main-course", "umami", "asian", "eggs"],
+      "tags": [
+        "japanese",
+        "pork",
+        "rice",
+        "fried",
+        "comforting",
+        "hot",
+        "main-course",
+        "umami",
+        "asian",
+        "eggs"
+      ],
       "ingredients": [
         {
           "group": "For the meat",
@@ -160,13 +171,24 @@
       "tips": [
         "Always use panko (coarse Japanese breadcrumbs) for an extra-crispy coating.",
         "You can replace the pork with beef strips for Gyudon, or chicken for Oyakodon.",
-        "The finishing eggs should remain slightly runny — cover just long enough for them to set on the surface."
+        "The finishing eggs should remain slightly runny: cover just long enough for them to set on the surface."
       ]
     },
     "it": {
       "title": "Katsudon",
       "description": "Il katsudon è un piatto giapponese confortante a base di cotoletta di maiale impanata nel panko (tonkatsu), cotta a fuoco lento in una salsa dashi-soia con cipolla e uova, servita su una ciotola di riso caldo.",
-      "tags": ["giapponese", "maiale", "riso", "fritto", "confortante", "caldo", "piatto-principale", "umami", "asiatico", "uova"],
+      "tags": [
+        "giapponese",
+        "maiale",
+        "riso",
+        "fritto",
+        "confortante",
+        "caldo",
+        "piatto-principale",
+        "umami",
+        "asiatico",
+        "uova"
+      ],
       "ingredients": [
         {
           "group": "Per la carne",
@@ -230,7 +252,7 @@
       "tips": [
         "Usa sempre il panko (pangrattato giapponese a grana grossa) per una panatura ultra-croccante.",
         "Puoi sostituire il maiale con lamelle di manzo per il Gyudon, o con il pollo per l'Oyakodon.",
-        "Le uova di finitura devono rimanere leggermente morbide — copri solo il tempo necessario perché si rapprendano in superficie."
+        "Le uova di finitura devono rimanere leggermente morbide: copri solo il tempo necessario perché si rapprendano in superficie."
       ]
     }
   }

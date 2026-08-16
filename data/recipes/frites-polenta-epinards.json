@@ -1,7 +1,7 @@
 {
   "slug": "frites-polenta-epinards",
   "title": "Frites de Polenta et Épinards",
-  "description": "Des frites de polenta croustillantes au parmesan accompagnées d'épinards à l'ail — une alternative originale et végétarienne aux frites classiques.",
+  "description": "Des frites de polenta croustillantes au parmesan accompagnées d'épinards à l'ail, une alternative originale et végétarienne aux frites classiques.",
   "images": {
     "cover": "images/recipes/frites-polenta-epinards/cover.jpg",
     "web": "images/recipes/frites-polenta-epinards/web.jpg"
@@ -68,7 +68,7 @@
     }
   ],
   "tips": [
-    "La polenta doit être bien froide et ferme avant de la découper — ne pas précipiter l'étape de refroidissement.",
+    "La polenta doit être bien froide et ferme avant de la découper : ne pas précipiter l'étape de refroidissement.",
     "Pour une texture encore plus croustillante, retourner les frites deux fois pendant la cuisson.",
     "Version enrichie : parsemer de parmesan râpé supplémentaire les 5 dernières minutes de cuisson.",
     "Les frites se conservent mal : les déguster immédiatement à la sortie du four."
@@ -76,8 +76,19 @@
   "translations": {
     "en": {
       "title": "Polenta Fries with Spinach",
-      "description": "Crispy baked polenta fries with parmesan and spinach — an original vegetarian alternative to classic fries.",
-      "tags": ["polenta", "spinach", "vegetarian", "oven", "crispy", "gluten-free", "main-course", "budget", "vegetables", "italian"],
+      "description": "Crispy baked polenta fries with parmesan and spinach, an original vegetarian alternative to classic fries.",
+      "tags": [
+        "polenta",
+        "spinach",
+        "vegetarian",
+        "oven",
+        "crispy",
+        "gluten-free",
+        "main-course",
+        "budget",
+        "vegetables",
+        "italian"
+      ],
       "ingredients": [
         {
           "items": [
@@ -117,16 +128,27 @@
         }
       ],
       "tips": [
-        "The polenta must be fully cold and firm before cutting — do not rush the cooling step.",
+        "The polenta must be fully cold and firm before cutting: do not rush the cooling step.",
         "For an even crispier texture, turn the fries twice during baking.",
         "Enriched version: scatter extra grated parmesan in the last 5 minutes of baking.",
-        "Polenta fries don't keep well — eat immediately straight from the oven."
+        "Polenta fries don't keep well: eat immediately straight from the oven."
       ]
     },
     "it": {
       "title": "Patatine di Polenta con Spinaci",
-      "description": "Patatine di polenta croccanti al forno con parmigiano e spinaci — un'alternativa originale e vegetariana alle classiche patatine fritte.",
-      "tags": ["polenta", "spinaci", "vegetariano", "forno", "croccante", "senza-glutine", "secondo-piatto", "economico", "verdure", "italiano"],
+      "description": "Patatine di polenta croccanti al forno con parmigiano e spinaci, un'alternativa originale e vegetariana alle classiche patatine fritte.",
+      "tags": [
+        "polenta",
+        "spinaci",
+        "vegetariano",
+        "forno",
+        "croccante",
+        "senza-glutine",
+        "secondo-piatto",
+        "economico",
+        "verdure",
+        "italiano"
+      ],
       "ingredients": [
         {
           "items": [
@@ -166,10 +188,10 @@
         }
       ],
       "tips": [
-        "La polenta deve essere completamente fredda e soda prima di tagliarla — non affrettare il raffreddamento.",
+        "La polenta deve essere completamente fredda e soda prima di tagliarla: non affrettare il raffreddamento.",
         "Per una texture ancora più croccante, girare le patatine due volte durante la cottura.",
         "Versione arricchita: aggiungere parmigiano grattugiato extra negli ultimi 5 minuti di cottura.",
-        "Le patatine di polenta non si conservano bene — gustarle subito appena sfornate."
+        "Le patatine di polenta non si conservano bene: gustarle subito appena sfornate."
       ]
     }
   }

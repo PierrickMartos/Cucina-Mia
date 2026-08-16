@@ -1,7 +1,7 @@
 {
   "slug": "four-tomates-aubergines-courgettes-pesto",
   "title": "Légumes Méditerranéens Rôtis au Pesto",
-  "description": "Une plaque de légumes méditerranéens — tomates, aubergines et courgettes — rôtis au four et nappés de pesto basilic maison, servis avec de la mozzarella di bufala.",
+  "description": "Une plaque de légumes méditerranéens (tomates, aubergines et courgettes) rôtis au four et nappés de pesto basilic maison, servis avec de la mozzarella di bufala.",
   "images": {
     "cover": "images/recipes/four-tomates-aubergines-courgettes-pesto/cover.jpg",
     "web": "images/recipes/four-tomates-aubergines-courgettes-pesto/web.jpg"
@@ -73,7 +73,7 @@
   "translations": {
     "en": {
       "title": "Roasted Mediterranean Vegetables with Pesto",
-      "description": "A sheet pan of Mediterranean vegetables — tomatoes, eggplant and zucchini — roasted in the oven and topped with homemade basil pesto, served with mozzarella di bufala.",
+      "description": "A sheet pan of Mediterranean vegetables (tomatoes, eggplant and zucchini) roasted in the oven and topped with homemade basil pesto, served with mozzarella di bufala.",
       "tags": [
         "oven",
         "vegetarian",
@@ -131,7 +131,7 @@
     },
     "it": {
       "title": "Verdure Mediterranee al Forno con Pesto",
-      "description": "Una teglia di verdure mediterranee — pomodori, melanzane e zucchine — arrostite al forno e condite con pesto di basilico fatto in casa, servite con mozzarella di bufala.",
+      "description": "Una teglia di verdure mediterranee (pomodori, melanzane e zucchine) arrostite al forno e condite con pesto di basilico fatto in casa, servite con mozzarella di bufala.",
       "tags": [
         "forno",
         "vegetariano",
