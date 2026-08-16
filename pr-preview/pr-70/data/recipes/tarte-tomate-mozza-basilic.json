@@ -1,0 +1,162 @@
+{
+  "slug": "tarte-tomate-mozza-basilic",
+  "title": "Tarte Tomate, Mozzarella et Basilic",
+  "description": "Une tarte provençale estivale aux tomates fraîches disposées en rosace, sur un lit de basilic et concentré de tomate, agrémentée de mozzarella di bufala.",
+  "images": {
+    "cover": "images/recipes/tarte-tomate-mozza-basilic/cover.jpg",
+    "web": "images/recipes/tarte-tomate-mozza-basilic/web.jpg"
+  },
+  "prepTime": 40,
+  "cookTime": 35,
+  "servings": 4,
+  "difficulty": "Facile",
+  "category": "Secondi",
+  "tags": [
+    "four",
+    "été",
+    "végétarien",
+    "tomates",
+    "fromage",
+    "basilic",
+    "provençal",
+    "plat-principal",
+    "français",
+    "tarte",
+    "mozzarella"
+  ],
+  "ingredients": [
+    {
+      "items": [
+        "1 pâte brisée (pâte à tarte, recette de base)",
+        "Farine pour étaler",
+        "Quelques brins de basilic frais, feuilles ciselées, plus des feuilles entières pour servir",
+        "1 c.à.s de moutarde à grains",
+        "6 cl d'huile d'olive extra vierge",
+        "Fleur de sel et poivre noir",
+        "2 c.à.s de concentré de tomate",
+        "550g de tomates, tranchées finement (environ 5mm)",
+        "1 c.à.s de miel",
+        "1 petite boule de mozzarella di bufala (environ 125g), déchirée en petits morceaux"
+      ]
+    }
+  ],
+  "steps": [
+    {
+      "text": "Sur un plan de travail légèrement fariné, abaisser la pâte en un cercle de 30 cm de diamètre sur environ 5mm d'épaisseur. La disposer dans un moule à tarte de 25 cm et rogner les bords. Piquer le fond avec une fourchette. Mettre au réfrigérateur 30 minutes."
+    },
+    {
+      "text": "Préchauffer le four à 180°C."
+    },
+    {
+      "text": "Dans un blender, mixer le basilic, la moutarde, 2 c.à.s d'huile d'olive et une pincée de sel jusqu'à obtenir une huile de basilic lisse. Réserver."
+    },
+    {
+      "text": "Étaler le concentré de tomate sur le fond de tarte, puis verser l'huile de basilic par-dessus. Disposer les tranches de tomates en cercles, en une seule couche. Saler, poivrer. Arroser du miel et des 2 c.à.s d'huile d'olive restantes."
+    },
+    {
+      "text": "Cuire environ 35 minutes jusqu'à ce que la pâte soit dorée. Laisser reposer 15 minutes."
+    },
+    {
+      "text": "Parsemer de mozzarella déchirée et de feuilles de basilic avant de servir."
+    }
+  ],
+  "tips": [
+    "Choisir des tomates bien mûres et fermes pour éviter qu'elles ne rendent trop d'eau à la cuisson.",
+    "L'huile de basilic peut être préparée à l'avance et conservée au réfrigérateur quelques heures.",
+    "Servir tiède plutôt que chaude pour que les saveurs s'expriment pleinement."
+  ],
+  "translations": {
+    "en": {
+      "title": "Tomato, Mozzarella and Basil Tart",
+      "description": "A summery Provençal tart with fresh tomatoes arranged in a rosette pattern, on a bed of basil and tomato paste, topped with mozzarella di bufala.",
+      "tags": ["oven", "summer", "vegetarian", "tomatoes", "cheese", "basil", "provençal", "main-course", "french", "tart", "mozzarella"],
+      "ingredients": [
+        {
+          "items": [
+            "1 shortcrust pastry (basic tart dough recipe)",
+            "Flour for rolling",
+            "A few sprigs of fresh basil, leaves sliced, plus whole leaves for serving",
+            "1 tbsp whole-grain mustard",
+            "6 cl extra virgin olive oil",
+            "Fleur de sel and black pepper",
+            "2 tbsp tomato paste",
+            "550g tomatoes, thinly sliced (about 5mm)",
+            "1 tbsp honey",
+            "1 small ball of mozzarella di bufala (about 125g), torn into small pieces"
+          ]
+        }
+      ],
+      "steps": [
+        {
+          "text": "On a lightly floured work surface, roll out the dough into a 30cm circle about 5mm thick. Place it in a 25cm tart tin and trim the edges. Prick the base with a fork. Refrigerate for 30 minutes."
+        },
+        {
+          "text": "Preheat the oven to 180°C (350°F)."
+        },
+        {
+          "text": "In a blender, blend the basil, mustard, 2 tbsp olive oil and a pinch of salt until you have a smooth basil oil. Set aside."
+        },
+        {
+          "text": "Spread the tomato paste over the tart base, then pour the basil oil over it. Arrange the tomato slices in circles in a single layer. Season with salt and pepper. Drizzle with the honey and the remaining 2 tbsp olive oil."
+        },
+        {
+          "text": "Bake for about 35 minutes until the pastry is golden. Leave to rest for 15 minutes."
+        },
+        {
+          "text": "Scatter the torn mozzarella and basil leaves over the tart before serving."
+        }
+      ],
+      "tips": [
+        "Choose firm, ripe tomatoes to avoid too much water releasing during baking.",
+        "The basil oil can be prepared in advance and kept in the fridge for a few hours.",
+        "Serve warm rather than hot so the flavours come through fully."
+      ]
+    },
+    "it": {
+      "title": "Torta Salata Pomodoro, Mozzarella e Basilico",
+      "description": "Una torta salata provenzale estiva con pomodori freschi disposti a rosetta, su un letto di basilico e concentrato di pomodoro, guarnita con mozzarella di bufala.",
+      "tags": ["forno", "estate", "vegetariano", "pomodori", "formaggio", "basilico", "provenzale", "piatto-principale", "francese", "torta-salata", "mozzarella"],
+      "ingredients": [
+        {
+          "items": [
+            "1 pasta brisée (pasta per torte, ricetta base)",
+            "Farina per stendere",
+            "Qualche rametto di basilico fresco, foglie tritate, più foglie intere per servire",
+            "1 cucchiaio di senape in grani",
+            "6 cl di olio d'oliva extravergine",
+            "Fleur de sel e pepe nero",
+            "2 cucchiai di concentrato di pomodoro",
+            "550g di pomodori, affettati finemente (circa 5mm)",
+            "1 cucchiaio di miele",
+            "1 piccola pallina di mozzarella di bufala (circa 125g), strappata in piccoli pezzi"
+          ]
+        }
+      ],
+      "steps": [
+        {
+          "text": "Su un piano di lavoro leggermente infarinato, stendere la pasta in un cerchio di 30 cm di diametro e circa 5mm di spessore. Disporla in uno stampo da crostata di 25 cm e rifilare i bordi. Bucherellare il fondo con una forchetta. Mettere in frigorifero per 30 minuti."
+        },
+        {
+          "text": "Preriscaldare il forno a 180°C."
+        },
+        {
+          "text": "In un frullatore, frullare il basilico, la senape, 2 cucchiai di olio d'oliva e un pizzico di sale fino ad ottenere un olio al basilico liscio. Mettere da parte."
+        },
+        {
+          "text": "Spalmare il concentrato di pomodoro sul fondo della torta, poi versarvi sopra l'olio al basilico. Disporre le fette di pomodoro in cerchi, in un unico strato. Salare, pepare. Irrorare con il miele e i restanti 2 cucchiai di olio d'oliva."
+        },
+        {
+          "text": "Cuocere per circa 35 minuti fino a quando la pasta è dorata. Lasciare riposare 15 minuti."
+        },
+        {
+          "text": "Cospargere con la mozzarella strappata e le foglie di basilico prima di servire."
+        }
+      ],
+      "tips": [
+        "Scegliere pomodori ben maturi e sodi per evitare che rilascino troppa acqua durante la cottura.",
+        "L'olio al basilico può essere preparato in anticipo e conservato in frigorifero per alcune ore.",
+        "Servire tiepida piuttosto che calda affinché i sapori si esprimano pienamente."
+      ]
+    }
+  }
+}
