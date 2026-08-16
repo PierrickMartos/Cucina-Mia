@@ -30,5 +30,5 @@
     "description_max_length": 200,
     "description_in_french": true
   },
-  "notes": "Tests non-French source language. The key validation is that the base JSON fields (description, ingredients, steps, tips, tags) are ALL in French, not English. The English translation should closely match the original submission. Tags must be mapped to the French tag vocabulary — English tags like 'oven', 'easy', 'kids' must become 'four', 'facile', 'enfants'."
+  "notes": "Tests non-French source language. The key validation is that the base JSON fields (description, ingredients, steps, tips, tags) are ALL in French, not English. The English translation should closely match the original submission. Tags must be mapped to the French tag vocabulary, English tags like 'oven', 'easy', 'kids' must become 'four', 'facile', 'enfants'."
 }

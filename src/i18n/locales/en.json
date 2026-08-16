@@ -91,12 +91,12 @@
   },
   "stepsOptions": {
     "simple": "✌️ ≤ 4 steps",
-    "medium": "👨‍🍳 5–7 steps",
+    "medium": "👨‍🍳 5-7 steps",
     "complex": "🎓 ≥ 8 steps"
   },
   "ingredientsOptions": {
     "few": "🛒 ≤ 6 items",
-    "moderate": "🧺 7–11 items",
+    "moderate": "🧺 7-11 items",
     "many": "📦 ≥ 12 items"
   },
   "tags": {
@@ -117,12 +117,12 @@
   },
   "prepTimeOptions": {
     "short": "🥗 ≤ 10 min",
-    "medium": "👨‍🍳 11–30 min",
+    "medium": "👨‍🍳 11-30 min",
     "long": "⏳ > 30 min"
   },
   "timeOptions": {
     "quick": "⚡ ≤ 20 min",
-    "medium": "🕐 21–45 min",
+    "medium": "🕐 21-45 min",
     "long": "🍳 > 45 min"
   },
   "categories": {

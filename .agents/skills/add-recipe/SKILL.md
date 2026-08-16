@@ -28,7 +28,7 @@ If the user provides recipe content directly (not via issue), treat it as unstru
 
 ## Step 2: Extract Recipe Data
 
-> ⚠️ For **structured issues**, do NOT use the Agent tool — parse the form fields directly.
+> ⚠️ For **structured issues**, do NOT use the Agent tool, parse the form fields directly.
 > ⚠️ For **unstructured file/URL issues**, you MUST use the parallel 3-agent extraction described below.
 
 ### Storing the Original Source
@@ -74,7 +74,7 @@ Parse the issue body. Each field appears as `### Field Name` followed by the val
 | Prep Time (minutes) | `prepTime` | Integer |
 | Cook Time (minutes) | `cookTime` | Integer |
 | Servings | `servings` | Integer |
-| Tags | `tags` | Split on commas, trim, lowercase French array — see Tag Strategy below |
+| Tags | `tags` | Split on commas, trim, lowercase French array, see Tag Strategy below |
 | Ingredients | `ingredients` | See below |
 | Steps | `steps` | One per line -> `{"text": "..."}` |
 | Tips | `tips` | One per line, omit field if empty |
@@ -105,7 +105,7 @@ Tags are always in **French** in the base JSON (and translated into EN/IT in the
 | Flavor profile | `sucré-salé`, `épicé`, `acidulé`, `doux`, `umami`, `herbacé` |
 | Equipment required | `thermomix`, `robot-pâtissier`, `mixeur-plongeant`, `cocotte-minute`, `sans-équipement-spécial` |
 
-Single lowercase words or hyphenated compounds only. No accents in tag slugs (use `no-cuisson` not `no-cuisson` — keep accents where natural, e.g. `léger` is fine).
+Single lowercase words or hyphenated compounds only. No accents in tag slugs (use `no-cuisson` not `no-cuisson`, keep accents where natural, e.g. `léger` is fine).
 
 **Ingredient parsing:**
 - Lines starting with `## ` begin a new group: `{"group": "Group Name", "items": [...]}`
@@ -129,7 +129,7 @@ Single lowercase words or hyphenated compounds only. No accents in tag slugs (us
    - `prepTime`/`cookTime`: estimate from recipe
    - `servings`: default 4 if unclear
    - `category`: infer from dish type
-   - `tags`: 5-15 relevant French tags — see **Tag Strategy** above
+   - `tags`: 5-15 relevant French tags, see **Tag Strategy** above
 
 ### From Unstructured URL Issues
 
@@ -144,7 +144,7 @@ Single lowercase words or hyphenated compounds only. No accents in tag slugs (us
    - `prepTime`/`cookTime`: estimate from recipe or page metadata
    - `servings`: default 4 if unclear
    - `category`: infer from dish type
-   - `tags`: 5-15 relevant French tags — see **Tag Strategy** above
+   - `tags`: 5-15 relevant French tags, see **Tag Strategy** above
 
 ### Parallel 3-Agent Extraction (for unstructured file and URL issues)
 
@@ -172,7 +172,7 @@ Use a single message with 3 Agent tool calls. Each agent receives the same promp
 
 **Agent prompt template** (adapt the source reference for file vs URL):
 
-> Extract the complete recipe from the following source material. Return ONLY a JSON object with these fields: title, description, ingredients (array of {group?, items[]}), steps (array of {text}), tips (array of strings, omit if none), prepTime (minutes, integer), cookTime (minutes, integer), servings (integer), difficulty (Facile/Medio/Difficile), category, source. Extract every ingredient and every step — do not summarize or skip. All text should be in the original language of the source. If any field is ambiguous, use your best judgment.
+> Extract the complete recipe from the following source material. Return ONLY a JSON object with these fields: title, description, ingredients (array of {group?, items[]}), steps (array of {text}), tips (array of strings, omit if none), prepTime (minutes, integer), cookTime (minutes, integer), servings (integer), difficulty (Facile/Medio/Difficile), category, source. Extract every ingredient and every step, do not summarize or skip. All text should be in the original language of the source. If any field is ambiguous, use your best judgment.
 >
 > Source: [insert file content, image path to read, or fetched URL text]
 
@@ -203,11 +203,11 @@ After all 3 agents return their results, compare them to build a consensus recip
 
 5. **Generate a discrepancy report** (used in Step 9 and PR comments):
    - List every discrepancy found, grouped by category:
-     - `🔴 High confidence issue` — all 3 agents disagree on an ingredient quantity or a step detail
-     - `🟡 Medium confidence issue` — 2 agents agree but 1 differs
-     - `🟢 Minor variation` — wording differences only, no semantic impact
+     - `🔴 High confidence issue`: all 3 agents disagree on an ingredient quantity or a step detail
+     - `🟡 Medium confidence issue`: 2 agents agree but 1 differs
+     - `🟢 Minor variation`: wording differences only, no semantic impact
    - Include the specific values from each agent for each discrepancy
-   - If there are **zero discrepancies**, note: "All 3 extraction agents produced consistent results — high confidence extraction."
+   - If there are **zero discrepancies**, note: "All 3 extraction agents produced consistent results, high confidence extraction."
 
 **If any `🔴 High confidence issues` are found**, print a warning to the user in the terminal output:
 
@@ -220,7 +220,7 @@ The consensus values were used, but please review the flagged items.
 
 ### LLM-as-a-Judge Validation (Step 2c)
 
-After building the consensus recipe, launch a **single judge agent** that independently validates the consensus against the original source material. The judge catches **systematic errors** — mistakes all 3 extraction agents made identically (e.g., misreading a handwritten "6" as "0", confusing "tbsp" with "tsp", skipping a faded line).
+After building the consensus recipe, launch a **single judge agent** that independently validates the consensus against the original source material. The judge catches **systematic errors**, mistakes all 3 extraction agents made identically (e.g., misreading a handwritten "6" as "0", confusing "tbsp" with "tsp", skipping a faded line).
 
 **When to run the judge:** Always run it for unstructured file/URL extractions. Skip it for structured issues (form data doesn't need re-verification).
 
@@ -229,13 +229,13 @@ After building the consensus recipe, launch a **single judge agent** that indepe
 > You are a recipe extraction judge. Your job is to verify the accuracy of an extracted recipe by comparing it against the original source material.
 >
 > ## Original Source
-> [Insert the original file content, image path to read, or fetched URL text — the same source given to the 3 extraction agents]
+> [Insert the original file content, image path to read, or fetched URL text, the same source given to the 3 extraction agents]
 >
 > ## Consensus Recipe (from 3-agent extraction)
 > [Insert the consensus JSON built in Step 2b]
 >
 > ## Discrepancy Report
-> [Insert the discrepancy report from Step 2b, or "None — all 3 agents agreed" if clean]
+> [Insert the discrepancy report from Step 2b, or "None, all 3 agents agreed" if clean]
 >
 > ## Your Task
 >
@@ -276,7 +276,7 @@ After building the consensus recipe, launch a **single judge agent** that indepe
 > ```
 >
 > If everything is correct, return `"verdict": "PASS"` with an empty `corrections` array.
-> Only flag real errors you can verify against the source — do NOT speculate or add items not in the source.
+> Only flag real errors you can verify against the source, do NOT speculate or add items not in the source.
 
 **Processing the judge's response:**
 
@@ -306,14 +306,14 @@ After building the consensus recipe, launch a **single judge agent** that indepe
 
 **Important constraints:**
 - The judge MUST read the original source material directly (not rely on the extraction agents' interpretations)
-- The judge should be conservative — only flag clear, verifiable errors, not subjective improvements
+- The judge should be conservative, only flag clear, verifiable errors, not subjective improvements
 - If the judge's corrections contradict the 3-agent consensus AND the source is ambiguous, prefer the consensus (majority rules unless the judge has clear evidence)
 
 ## Step 3: Translate
 
 The base language is **French**. All top-level text fields (description, ingredients, steps, tips) must be in French. Then provide translations for English (`en`) and Italian (`it`).
 
-Whatever language the source content is in, translate it to all three languages. The recipe `title` must also be translated — use the natural name in the target language (e.g. "Gâteau de Savoie" → "Torta di Savoia" in Italian, kept as-is in English since it has no common equivalent).
+Whatever language the source content is in, translate it to all three languages. The recipe `title` must also be translated, use the natural name in the target language (e.g. "Gâteau de Savoie" → "Torta di Savoia" in Italian, kept as-is in English since it has no common equivalent).
 
 ### Detail JSON translations structure
 ```json
@@ -353,7 +353,7 @@ Important: ingredient group names (if any) should also be translated within the 
 
 Before writing files, check:
 
-1. **Slug**: matches `/^[a-z0-9]+(-[a-z0-9]+)*$/` — no consecutive hyphens, no leading/trailing hyphens
+1. **Slug**: matches `/^[a-z0-9]+(-[a-z0-9]+)*$/`, no consecutive hyphens, no leading/trailing hyphens
 2. **No duplicate**: `public/data/recipes/{slug}.json` must NOT already exist. Check with:
    ```bash
    grep -q '"slug": "{slug}"' public/data/recipes/index.json && echo "EXISTS"
@@ -388,7 +388,7 @@ Key rules:
 - Omit `tips` entirely if none (no empty array)
 - Omit `history` entirely if none (no empty string)
 - Omit `source` entirely if none (no empty string)
-- Include `originalSource` with `type` and `data` — see **Storing the Original Source** above. Place it after `source`, before `translations`.
+- Include `originalSource` with `type` and `data`, see **Storing the Original Source** above. Place it after `source`, before `translations`.
 - Omit `group` from ingredient objects when there's no group
 - Omit `image` from step objects (not used)
 - 2-space indentation, trailing newline
@@ -396,7 +396,7 @@ Key rules:
 
 ## Step 6: Update the Recipe Index
 
-> ⚠️ Do NOT read `index.json` directly — the file is too large and will exceed token limits. Use the Python script below instead.
+> ⚠️ Do NOT read `index.json` directly, the file is too large and will exceed token limits. Use the Python script below instead.
 
 Append a new entry at the END of the array using Python. The index entry uses the same `images` object format as the detail JSON:
 ```json
@@ -491,7 +491,7 @@ Summarize:
   - `public/images/recipes/{slug}/cover.svg` (new)
 - For unstructured input: note which fields were inferred vs extracted
 - **Extraction confidence** (for unstructured file/URL issues only):
-  - If all 3 agents agreed: "✅ High confidence — all 3 extraction agents produced consistent results"
+  - If all 3 agents agreed: "✅ High confidence, all 3 extraction agents produced consistent results"
   - If discrepancies exist: list them with severity levels (🔴/🟡/🟢)
 - **Judge validation** (for unstructured file/URL issues only):
   - Verdict: PASS or FAIL
@@ -503,23 +503,23 @@ Summarize:
 
 When creating a PR for an **unstructured file/URL recipe** (i.e., one that used the parallel 3-agent extraction), include an extraction confidence section in the PR body AND post a separate PR review comment if there are any 🔴 or 🟡 discrepancies.
 
-**PR body** — always include this section for unstructured recipes:
+**PR body**, always include this section for unstructured recipes:
 
 ```markdown
 ## Extraction Confidence
 
 [One of the following:]
 
-✅ **High confidence** — all 3 extraction agents produced consistent results. Judge verdict: PASS (confidence X/10).
+✅ **High confidence**, all 3 extraction agents produced consistent results. Judge verdict: PASS (confidence X/10).
 
-⚠️ **Discrepancies detected** — the 3 extraction agents disagreed on some items.
+⚠️ **Discrepancies detected**, the 3 extraction agents disagreed on some items.
 See the review comment below for details. Judge verdict: PASS/FAIL (confidence X/10).
 
-🧑‍⚖️ **Judge corrections applied** — the judge agent found N systematic error(s) that all 3 extraction agents missed.
+🧑‍⚖️ **Judge corrections applied**, the judge agent found N systematic error(s) that all 3 extraction agents missed.
 These have been corrected in the final recipe. See details below.
 ```
 
-**PR review comment** — post ONLY if there are 🔴 or 🟡 discrepancies OR the judge applied corrections:
+**PR review comment**, post ONLY if there are 🔴 or 🟡 discrepancies OR the judge applied corrections:
 
 ```markdown
 ## ⚠️ Recipe Extraction Discrepancies
@@ -545,7 +545,7 @@ The consensus values (2-of-3 agreement) were used as a base, then verified by a 
 |-------|---------|---------|---------|-----------|----------|
 | ... | ... | ... | ... | ... | 🔴/🟡 |
 
-> **Legend:** 🔴 All 3 agents disagree — 🟡 2 agree, 1 differs — 🟢 Minor wording only (not shown)
+> **Legend:** 🔴 All 3 agents disagree, 🟡 2 agree, 1 differs, 🟢 Minor wording only (not shown)
 
 ### 🧑‍⚖️ Judge Validation
 [Always include this section]
@@ -564,7 +564,7 @@ The consensus values (2-of-3 agreement) were used as a base, then verified by a 
 | ingredient/step/tip | ... | ... | ... |
 ```
 
-Only include the table sections that actually have content — omit empty sections.
+Only include the table sections that actually have content, omit empty sections.
 
 This review comment helps PR reviewers quickly identify which parts of the recipe may need manual verification against the original source.
 

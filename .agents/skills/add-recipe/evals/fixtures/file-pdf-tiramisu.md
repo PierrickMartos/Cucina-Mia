@@ -1,4 +1,4 @@
-# Eval: Tiramisu Classique — PDF File Issue
+# Eval: Tiramisu Classique (PDF File Issue)
 
 ## Scenario
 
@@ -60,7 +60,7 @@ Per l'assemblaggio:
 2. Aggiungere il mascarpone al composto di tuorli e mescolare delicatamente fino a ottenere una crema liscia e omogenea.
 3. In una ciotola separata, montare gli albumi a neve ferma.
 4. Incorporare gli albumi montati alla crema di mascarpone con movimenti dal basso verso l'alto per non smontarli.
-5. Versare il caffè freddo in un piatto fondo. Immergere rapidamente i savoiardi nel caffè — devono essere inzuppati ma non fradici.
+5. Versare il caffè freddo in un piatto fondo. Immergere rapidamente i savoiardi nel caffè, devono essere inzuppati ma non fradici.
 6. Disporre uno strato di savoiardi inzuppati sul fondo di una pirofila rettangolare.
 7. Coprire con uno strato generoso di crema al mascarpone.
 8. Ripetere con un secondo strato di savoiardi inzuppati e un altro strato di crema.
@@ -76,11 +76,11 @@ frigorifero permette ai sapori di amalgamarsi.
 
 1. **Italian source → French base**: The PDF is in Italian, but the base recipe JSON
    must be in French. All ingredients and steps need translation.
-2. **Cook time 0**: Tiramisu has no cooking — cookTime must be 0 (valid per skill rules).
+2. **Cook time 0**: Tiramisu has no cooking, cookTime must be 0 (valid per skill rules).
 3. **Ingredient groups**: The recipe has two ingredient groups ("Per la crema" and
    "Per l'assemblaggio") that must be preserved and translated.
 4. **PDF source storage**: The original PDF must be saved as
    `public/images/recipes/tiramisu-classico/source.pdf` with `originalSource.type: "pdf"`.
 5. **Notes integration**: The notes mention it's a family recipe for Christmas with no
-   alcohol — this context should inform tags (e.g., `noël`, `enfants`, `sans-alcool`).
+   alcohol, this context should inform tags (e.g., `noël`, `enfants`, `sans-alcool`).
 6. **Quanto vene**: No ingredients trigger the Quanto vene rule in this recipe.

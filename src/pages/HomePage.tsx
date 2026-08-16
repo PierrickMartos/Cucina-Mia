@@ -181,7 +181,7 @@ export function HomePage() {
                   />
                   <div className="vignette-overlay absolute inset-0 flex flex-col justify-end p-5">
                     <span className="text-white/80 font-body uppercase tracking-widest text-[10px] mb-1">
-                      {cat.count} — {cat.category}
+                      {cat.count} · {cat.category}
                     </span>
                     <h3 className="font-headline text-3xl text-white font-bold tracking-[-0.02em] transition-transform duration-700 group-hover:-translate-y-2">
                       {cat.label}

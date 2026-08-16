@@ -67,7 +67,7 @@
   "tips": [
     "Ne pas rincer le riz arborio avant la cuisson : l'amidon est essentiel pour obtenir un risotto crémeux.",
     "Le bouillon doit être chaud lorsqu'on l'ajoute au risotto pour ne pas stopper la cuisson.",
-    "Le foie gras se fond doucement dans le risotto chaud — inutile de le cuire séparément.",
+    "Le foie gras se fond doucement dans le risotto chaud : inutile de le cuire séparément.",
     "Pour une version plus légère, remplacer le foie gras par des lamelles de magret fumé."
   ],
   "translations": {
@@ -110,7 +110,7 @@
           "text": "Peel and finely chop the onion. In a sauté pan, cook the onion in the fat until soft. Add the rice and, once it becomes translucent, deglaze with the white wine. Let the wine evaporate, stirring regularly."
         },
         {
-          "text": "Add the first ladle of stock. Once absorbed, continue adding the stock in several batches, stirring constantly, until the rice is perfectly cooked — about 18 minutes total."
+          "text": "Add the first ladle of stock. Once absorbed, continue adding the stock in several batches, stirring constantly, until the rice is perfectly cooked, about 18 minutes total."
         },
         {
           "text": "10 minutes before the end of cooking, add the drained mushrooms and continue cooking while stirring regularly."
@@ -123,9 +123,9 @@
         }
       ],
       "tips": [
-        "Do not rinse the arborio rice before cooking — the starch is essential for a creamy risotto.",
+        "Do not rinse the arborio rice before cooking: the starch is essential for a creamy risotto.",
         "The stock should be hot when added to the risotto to avoid stopping the cooking process.",
-        "The foie gras melts gently into the hot risotto — no need to cook it separately.",
+        "The foie gras melts gently into the hot risotto: no need to cook it separately.",
         "For a lighter version, replace the foie gras with slices of smoked duck breast."
       ]
     },
@@ -168,7 +168,7 @@
           "text": "Sbucciare e tritare finemente la cipolla. In una padella, far rosolare la cipolla nel grasso. Aggiungere il riso e, quando è diventato traslucido, sfumare con il vino bianco. Lasciare evaporare il vino mescolando regolarmente."
         },
         {
-          "text": "Aggiungere il primo mestolo di brodo. Una volta assorbito, continuare ad aggiungere il brodo a mestoli, mescolando costantemente, finché il riso non è perfettamente cotto — circa 18 minuti in totale."
+          "text": "Aggiungere il primo mestolo di brodo. Una volta assorbito, continuare ad aggiungere il brodo a mestoli, mescolando costantemente, finché il riso non è perfettamente cotto, circa 18 minuti in totale."
         },
         {
           "text": "10 minuti prima della fine della cottura, aggiungere i funghi scolati e continuare la cottura mescolando regolarmente."
@@ -183,7 +183,7 @@
       "tips": [
         "Non sciacquare il riso arborio prima della cottura: l'amido è essenziale per ottenere un risotto cremoso.",
         "Il brodo deve essere caldo quando viene aggiunto al risotto per non interrompere la cottura.",
-        "Il foie gras si scioglie delicatamente nel risotto caldo — non è necessario cuocerlo separatamente.",
+        "Il foie gras si scioglie delicatamente nel risotto caldo: non è necessario cuocerlo separatamente.",
         "Per una versione più leggera, sostituire il foie gras con fettine di petto d'anatra affumicato."
       ]
     }

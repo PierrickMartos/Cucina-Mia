@@ -1,7 +1,7 @@
 {
   "slug": "tartine-oeufs-chorizo",
   "title": "Tartine Œufs-Chorizo",
-  "description": "Une tartine généreuse et savoureuse garnie d'œufs brouillés crémeux et de tranches de chorizo croustillant — le petit-déjeuner ou brunch parfait.",
+  "description": "Une tartine généreuse et savoureuse garnie d'œufs brouillés crémeux et de tranches de chorizo croustillant, le petit-déjeuner ou brunch parfait.",
   "images": {
     "cover": "images/recipes/tartine-oeufs-chorizo/cover.jpg",
     "web": "images/recipes/tartine-oeufs-chorizo/web.jpg"
@@ -69,8 +69,19 @@
   "translations": {
     "en": {
       "title": "Eggs and Chorizo Toast",
-      "description": "A generous and flavorful open-faced toast topped with creamy scrambled eggs and crispy chorizo slices — the perfect breakfast or brunch.",
-      "tags": ["toast", "eggs", "chorizo", "quick", "brunch", "breakfast", "pork", "spicy", "easy", "5-ingredients"],
+      "description": "A generous and flavorful open-faced toast topped with creamy scrambled eggs and crispy chorizo slices, the perfect breakfast or brunch.",
+      "tags": [
+        "toast",
+        "eggs",
+        "chorizo",
+        "quick",
+        "brunch",
+        "breakfast",
+        "pork",
+        "spicy",
+        "easy",
+        "5-ingredients"
+      ],
       "ingredients": [
         {
           "items": [
@@ -113,8 +124,19 @@
     },
     "it": {
       "title": "Tartine Uova e Chorizo",
-      "description": "Una tartine generosa e saporita guarnita con uova strapazzate cremose e fette di chorizo croccante — la colazione o il brunch perfetto.",
-      "tags": ["tartine", "uova", "chorizo", "veloce", "brunch", "colazione", "maiale", "piccante", "facile", "5-ingredienti"],
+      "description": "Una tartine generosa e saporita guarnita con uova strapazzate cremose e fette di chorizo croccante, la colazione o il brunch perfetto.",
+      "tags": [
+        "tartine",
+        "uova",
+        "chorizo",
+        "veloce",
+        "brunch",
+        "colazione",
+        "maiale",
+        "piccante",
+        "facile",
+        "5-ingredienti"
+      ],
       "ingredients": [
         {
           "items": [

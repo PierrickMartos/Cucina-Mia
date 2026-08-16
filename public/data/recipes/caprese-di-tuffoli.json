@@ -1,7 +1,7 @@
 {
   "slug": "caprese-di-tuffoli",
   "title": "Caprese di tuffoli",
-  "description": "Salade de pâtes estivale aux tomates multicolores marinées, mozzarella di bufala et basilic frais — un must romain qui se mange froid.",
+  "description": "Salade de pâtes estivale aux tomates multicolores marinées, mozzarella di bufala et basilic frais, un must romain qui se mange froid.",
   "images": {
     "cover": "images/recipes/caprese-di-tuffoli/cover.jpg",
     "web": "images/recipes/caprese-di-tuffoli/web.jpg"
@@ -53,7 +53,7 @@
     }
   ],
   "tips": [
-    "On n'hésite pas à faire cette salade pendant que les pâtes refroidissent. Dedans ou dehors à l'ombre — sur une terrasse à Capri si vous pouvez, dans le cœur en tout cas."
+    "On n'hésite pas à faire cette salade pendant que les pâtes refroidissent. Dedans ou dehors à l'ombre, sur une terrasse à Capri si vous pouvez, dans le cœur en tout cas."
   ],
   "originalSource": {
     "type": "image",
@@ -62,7 +62,7 @@
   "translations": {
     "en": {
       "title": "Tuffoli Caprese Salad",
-      "description": "A summery pasta salad with marinated multicolour tomatoes, buffalo mozzarella and fresh basil — a Roman cold dish that is a true must.",
+      "description": "A summery pasta salad with marinated multicolour tomatoes, buffalo mozzarella and fresh basil, a Roman cold dish that is a true must.",
       "tags": [
         "pasta",
         "salad",
@@ -105,12 +105,12 @@
         }
       ],
       "tips": [
-        "Feel free to make this salad while the pasta is cooling. Indoors or outdoors in the shade — on a terrace in Capri if you can, in your heart if not."
+        "Feel free to make this salad while the pasta is cooling. Indoors or outdoors in the shade, on a terrace in Capri if you can, in your heart if not."
       ]
     },
     "it": {
       "title": "Caprese di tuffoli",
-      "description": "Insalata di pasta estiva con pomodorini multicolori marinati, mozzarella di bufala e basilico fresco — un must romano da gustare freddo.",
+      "description": "Insalata di pasta estiva con pomodorini multicolori marinati, mozzarella di bufala e basilico fresco, un must romano da gustare freddo.",
       "tags": [
         "pasta",
         "insalata",
@@ -153,7 +153,7 @@
         }
       ],
       "tips": [
-        "Non esitate a preparare questa insalata mentre la pasta si raffredda. In casa o all'aperto all'ombra — su una terrazza a Capri se potete, nel cuore in ogni caso."
+        "Non esitate a preparare questa insalata mentre la pasta si raffredda. In casa o all'aperto all'ombra, su una terrazza a Capri se potete, nel cuore in ogni caso."
       ]
     }
   }

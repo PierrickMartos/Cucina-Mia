@@ -1,7 +1,7 @@
 {
   "slug": "risotto-cheddar-bacon",
   "title": "Risotto Cheddar et Bacon",
-  "description": "Un risotto généreux et réconfortant au cheddar fondu et bacon croustillant — une version anglaise gourmande du grand classique italien.",
+  "description": "Un risotto généreux et réconfortant au cheddar fondu et bacon croustillant, une version anglaise gourmande du grand classique italien.",
   "images": {
     "cover": "images/recipes/risotto-cheddar-bacon/cover.jpg",
     "web": "images/recipes/risotto-cheddar-bacon/web.jpg"
@@ -74,7 +74,7 @@
   "translations": {
     "en": {
       "title": "Cheddar and Bacon Risotto",
-      "description": "A generous, comforting risotto with melted cheddar and crispy bacon — a British-inspired twist on the great Italian classic.",
+      "description": "A generous, comforting risotto with melted cheddar and crispy bacon, a British-inspired twist on the great Italian classic.",
       "tags": [
         "rice",
         "risotto",
@@ -126,14 +126,14 @@
         }
       ],
       "tips": [
-        "Never stop stirring — that is the secret to a creamy risotto.",
+        "Never stop stirring: that is the secret to a creamy risotto.",
         "The stock must be hot when added so the rice cooking is not interrupted.",
         "For an even richer result, replace one ladle of stock with 100ml of double cream at the end."
       ]
     },
     "it": {
       "title": "Risotto Cheddar e Bacon",
-      "description": "Un risotto generoso e confortante con cheddar fuso e bacon croccante — una versione anglosassone golosa del grande classico italiano.",
+      "description": "Un risotto generoso e confortante con cheddar fuso e bacon croccante, una versione anglosassone golosa del grande classico italiano.",
       "tags": [
         "riso",
         "risotto",

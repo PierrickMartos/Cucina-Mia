@@ -82,7 +82,7 @@ export function RecipePage() {
     setSpeakingStep(null)
   }
 
-  // Refs for each step — populated after recipe loads
+  // Refs for each step, populated after recipe loads
   const stepRefs = useRef<(HTMLLIElement | null)[]>([])
 
   // Parallax: track main scroll via motion value, transform to a slow Y offset
@@ -91,7 +91,7 @@ export function RecipePage() {
   const heroRef = useRef<HTMLDivElement>(null)
   const scrollElRef = useRef<Element | null>(null)
 
-  // Progress bar: normalized 0–1 based on scrollable height
+  // Progress bar: normalized 0-1 based on scrollable height
   const scrollProgress = useTransform(scrollY, (v) => {
     const el = scrollElRef.current
     if (!el) return 0
@@ -116,8 +116,8 @@ export function RecipePage() {
     const prevTitle = document.title
     const metaDesc = document.querySelector('meta[name="description"]')
     const prevDesc = metaDesc?.getAttribute('content') ?? ''
-    document.title = `${recipe.title} — Cucina Mia`
-    metaDesc?.setAttribute('content', recipe.description ?? `Recette ${recipe.title} — Cucina Mia`)
+    document.title = `${recipe.title} · Cucina Mia`
+    metaDesc?.setAttribute('content', recipe.description ?? `Recette ${recipe.title} · Cucina Mia`)
     return () => {
       document.title = prevTitle
       metaDesc?.setAttribute('content', prevDesc)
@@ -337,7 +337,7 @@ export function RecipePage() {
 
   return (
     <div className="pb-8">
-      {/* Scroll progress bar — fixed at top of viewport, portaled to body */}
+      {/* Scroll progress bar, fixed at top of viewport, portaled to body */}
       {!reduceMotion && createPortal(
         <motion.div
           className="fixed top-0 left-0 right-0 h-1 bg-primary z-50 origin-left print:hidden"
@@ -346,7 +346,7 @@ export function RecipePage() {
         document.body
       )}
 
-      {/* Back button — portaled into header when scrolled */}
+      {/* Back button, portaled into header when scrolled */}
       {headerSlot && createPortal(
         <button
           onClick={() => navigate(-1)}
@@ -396,7 +396,7 @@ export function RecipePage() {
         )}
       </div>
 
-      {/* Recipe Info Card — overlaps image, settles in on mount */}
+      {/* Recipe Info Card, overlaps image, settles in on mount */}
       <motion.div
         initial={reduceMotion ? { opacity: 1, y: 0 } : { opacity: 0, y: 24 }}
         animate={{ opacity: 1, y: 0 }}
@@ -418,7 +418,7 @@ export function RecipePage() {
           {recipe.title}
         </h1>
 
-        {/* Time + Difficulty — staggered */}
+        {/* Time + Difficulty, staggered */}
         <motion.div
           variants={reduceMotion ? staggerContainerReduced : staggerContainer}
           initial="hidden"
@@ -444,7 +444,7 @@ export function RecipePage() {
           </motion.div>
         </motion.div>
 
-        {/* Servings & Tags — staggered */}
+        {/* Servings & Tags, staggered */}
         <motion.div
           variants={reduceMotion ? staggerContainerReduced : staggerContainer}
           initial="hidden"
@@ -468,7 +468,7 @@ export function RecipePage() {
           </div>
         </motion.div>
 
-        {/* Print button — desktop only */}
+        {/* Print button, desktop only */}
         <div className="hidden md:flex justify-center mt-5 print:hidden">
           <button
             type="button"
@@ -494,7 +494,7 @@ export function RecipePage() {
         </section>
       )}
 
-      {/* Tab Switcher — sticky on mobile/tablet, hidden on large screens.
+      {/* Tab Switcher, sticky on mobile/tablet, hidden on large screens.
           Wrapper bleeds full-width with an opaque bg so scrolling content
           doesn't show through the pill's transparent gaps while pinned. */}
       <div className="sticky top-0 z-30 -mx-6 px-6 pt-2 pb-4 bg-surface lg:hidden print:hidden">
@@ -558,7 +558,7 @@ export function RecipePage() {
       </motion.div>
       </div>
 
-      {/* Tab Content — mobile only */}
+      {/* Tab Content, mobile only */}
       <div key={activeTab} className="tab-enter lg:hidden print:hidden">
       {activeTab === "ingredients" ? (
         <section
@@ -696,7 +696,7 @@ export function RecipePage() {
       )}
       </div>
 
-      {/* Two-column layout — large screens & landscape tablets */}
+      {/* Two-column layout, large screens & landscape tablets */}
       <div className="hidden lg:grid print:grid grid-cols-[minmax(0,300px)_1fr] gap-12 mb-8 max-w-4xl mx-auto print:grid-cols-1 print:gap-6">
         {/* Ingredients column */}
         <section>
@@ -843,7 +843,7 @@ export function RecipePage() {
       )}
       </div>
 
-      {/* Step navigator sticky bar — mobile only, portaled to body */}
+      {/* Step navigator sticky bar, mobile only, portaled to body */}
       {recipe.steps.length > 0 && createPortal(
         <div className="lg:hidden fixed bottom-0 inset-x-0 z-50 bg-background border-t border-border print:hidden">
           {/* Progress bar */}

@@ -64,7 +64,7 @@ function runSuccessEval(evalName: string, expected: EvalExpected) {
   const checks = expected.checks
 
   it("recipe file exists", () => {
-    expect(recipe, `Recipe file not found: ${slug}.json — run the skill first`).not.toBeNull()
+    expect(recipe, `Recipe file not found: ${slug}.json, run the skill first`).not.toBeNull()
   })
 
   if (!recipe) return
@@ -306,14 +306,14 @@ function runErrorEval(evalName: string, expected: EvalExpected) {
       // The existing file should still be there unchanged
       const recipe = loadRecipe(expected.slug)
       expect(recipe, "Original recipe should still exist").not.toBeNull()
-      // We can only verify the file exists — manual check needed for behavior
+      // We can only verify the file exists, manual check needed for behavior
     })
   }
 
   if (expected.checks.must_detect_missing_fields) {
     const missing = expected.checks.missing_fields_reported as string[]
     it(`should detect ${missing.length} missing fields: ${missing.join(", ")}`, () => {
-      // This test documents the expected behavior — manual verification needed
+      // This test documents the expected behavior, manual verification needed
       expect(missing.length).toBeGreaterThan(0)
     })
   }

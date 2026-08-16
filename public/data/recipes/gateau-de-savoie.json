@@ -73,7 +73,7 @@
     }
   ],
   "tips": [
-    "La clé de la légèreté est l'incorporation très délicate des blancs en neige — ne jamais fouetter, toujours soulever la masse.",
+    "La clé de la légèreté est l'incorporation très délicate des blancs en neige : ne jamais fouetter, toujours soulever la masse.",
     "La cuisson en deux temps (haute puis basse température) permet au gâteau de gonfler sans se dessécher.",
     "Ce gâteau est naturellement sans gluten grâce à la Maïzena à la place de la farine."
   ],
@@ -82,7 +82,17 @@
     "en": {
       "title": "Gâteau de Savoie",
       "description": "Traditional Savoyard cake, ultra-light and airy, made with cornstarch and whipped egg whites with a delicate lemon flavor.",
-      "tags": ["oven", "dessert", "french", "vegetarian", "soft", "light", "traditional", "snack", "tangy"],
+      "tags": [
+        "oven",
+        "dessert",
+        "french",
+        "vegetarian",
+        "soft",
+        "light",
+        "traditional",
+        "snack",
+        "tangy"
+      ],
       "ingredients": [
         {
           "items": [
@@ -130,7 +140,7 @@
         }
       ],
       "tips": [
-        "The key to lightness is folding the egg whites very gently — never stir, always lift the batter.",
+        "The key to lightness is folding the egg whites very gently: never stir, always lift the batter.",
         "The two-stage baking (high then low temperature) allows the cake to rise without drying out.",
         "This cake is naturally gluten-free thanks to cornstarch replacing flour."
       ]
@@ -138,7 +148,17 @@
     "it": {
       "title": "Torta di Savoia",
       "description": "Torta tradizionale savoiarda, leggerissima e ariosa, realizzata con amido di mais e albumi montati a neve con un delicato aroma di limone.",
-      "tags": ["forno", "dessert", "francese", "vegetariano", "morbido", "leggero", "tradizionale", "merenda", "acidulo"],
+      "tags": [
+        "forno",
+        "dessert",
+        "francese",
+        "vegetariano",
+        "morbido",
+        "leggero",
+        "tradizionale",
+        "merenda",
+        "acidulo"
+      ],
       "ingredients": [
         {
           "items": [
@@ -186,7 +206,7 @@
         }
       ],
       "tips": [
-        "Il segreto della leggerezza è incorporare gli albumi a neve con molta delicatezza — mai mescolare, sempre sollevare l'impasto.",
+        "Il segreto della leggerezza è incorporare gli albumi a neve con molta delicatezza: mai mescolare, sempre sollevare l'impasto.",
         "La cottura in due tempi (alta poi bassa temperatura) permette alla torta di gonfiarsi senza seccarsi.",
         "Questa torta è naturalmente senza glutine grazie all'amido di mais al posto della farina."
       ]

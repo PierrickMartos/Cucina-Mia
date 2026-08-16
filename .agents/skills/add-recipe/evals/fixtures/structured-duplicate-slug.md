@@ -1,9 +1,9 @@
-# Eval: Duplicate Slug Detection — Error Handling
+# Eval: Duplicate Slug Detection (Error Handling)
 
 ## Scenario
 
 A user submits a recipe with a slug that already exists in the index. The skill must
-detect the duplicate and stop with an error message — never overwrite an existing recipe.
+detect the duplicate and stop with an error message, never overwrite an existing recipe.
 
 ## Simulated Issue
 

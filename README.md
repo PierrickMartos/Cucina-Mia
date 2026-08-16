@@ -1,6 +1,6 @@
 # Cucina Mia
 
-A big thank you to [@rouliane](https://github.com/rouliane) for the spark of inspiration next to the coffee machine — all credits go to him.
+A big thank you to [@rouliane](https://github.com/rouliane) for the spark of inspiration next to the coffee machine, all credits go to him.
 
 # The concept
 

@@ -1,7 +1,7 @@
 {
   "slug": "gnocchi-champi-ail-au-four",
   "title": "Gnocchi Champi à l'Ail (au four)",
-  "description": "Gnocchi moelleux et champignons rôtis à l'ail en une seule plaque au four — un plat végétalien prêt en 30 minutes, zéro vaisselle.",
+  "description": "Gnocchi moelleux et champignons rôtis à l'ail en une seule plaque au four, un plat végétalien prêt en 30 minutes, zéro vaisselle.",
   "images": {
     "cover": "images/recipes/gnocchi-champi-ail-au-four/cover.jpg",
     "web": "images/recipes/gnocchi-champi-ail-au-four/web.jpg"
@@ -63,13 +63,13 @@
   ],
   "tips": [
     "Utiliser un très grand plat : un plat surchargé donne des légumes bouillis plutôt que rôtis.",
-    "Les gnocchi seront moelleux (et pas croustillants) grâce à l'humidité des champignons et de la crème — c'est l'effet recherché.",
+    "Les gnocchi seront moelleux (et pas croustillants) grâce à l'humidité des champignons et de la crème : c'est l'effet recherché.",
     "On peut ajouter du fromage (bleu ou chèvre crémeux) avant le passage sous le grill pour plus de gourmandise."
   ],
   "translations": {
     "en": {
       "title": "Oven-Baked Garlic Mushroom Gnocchi",
-      "description": "Soft gnocchi and roasted mushrooms with garlic all on one baking tray — a vegan dish ready in 30 minutes, zero washing up.",
+      "description": "Soft gnocchi and roasted mushrooms with garlic all on one baking tray, a vegan dish ready in 30 minutes, zero washing up.",
       "tags": [
         "oven",
         "vegan",
@@ -116,13 +116,13 @@
       ],
       "tips": [
         "Use a very large dish: an overcrowded dish will steam the vegetables rather than roast them.",
-        "The gnocchi will be soft (not crispy) thanks to the moisture from the mushrooms and cream — that is the intended result.",
+        "The gnocchi will be soft (not crispy) thanks to the moisture from the mushrooms and cream: that is the intended result.",
         "You can add cheese (blue cheese or creamy goat's cheese) before the final grill for extra richness."
       ]
     },
     "it": {
       "title": "Gnocchi con Funghi e Aglio al Forno",
-      "description": "Gnocchi morbidi e funghi arrostiti all'aglio in un'unica teglia — un piatto vegano pronto in 30 minuti, senza sporcare nulla.",
+      "description": "Gnocchi morbidi e funghi arrostiti all'aglio in un'unica teglia, un piatto vegano pronto in 30 minuti, senza sporcare nulla.",
       "tags": [
         "forno",
         "vegano",
@@ -169,7 +169,7 @@
       ],
       "tips": [
         "Usare una teglia molto grande: una teglia sovraffollata farà bollire le verdure invece di arrostirle.",
-        "Gli gnocchi saranno morbidi (non croccanti) grazie all'umidità dei funghi e della panna — è il risultato cercato.",
+        "Gli gnocchi saranno morbidi (non croccanti) grazie all'umidità dei funghi e della panna: è il risultato cercato.",
         "Si può aggiungere del formaggio (gorgonzola o caprino cremoso) prima di passare sotto il grill per più sapore."
       ]
     }

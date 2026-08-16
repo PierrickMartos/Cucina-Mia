@@ -75,7 +75,18 @@
   "translations": {
     "en": {
       "description": "Fresh and light Thai-inspired spring rolls filled with crunchy vegetables and aromatic herbs, served with a citrusy dipping sauce.",
-      "tags": ["starter", "vegetarian", "raw", "asian", "vegetables", "light", "gluten-free", "finger-food", "cold", "spring"],
+      "tags": [
+        "starter",
+        "vegetarian",
+        "raw",
+        "asian",
+        "vegetables",
+        "light",
+        "gluten-free",
+        "finger-food",
+        "cold",
+        "spring"
+      ],
       "ingredients": [
         {
           "group": "Rolls",
@@ -105,7 +116,7 @@
           "text": "Prepare a bowl of water to rehydrate the rice paper sheets."
         },
         {
-          "text": "Gently place a rehydrated rice paper sheet on a board. Be careful — they are delicate and tear easily."
+          "text": "Gently place a rehydrated rice paper sheet on a board. Be careful: they are delicate and tear easily."
         },
         {
           "text": "Layer on the sheet: half a batavia leaf, a few mesclun leaves, 1 or 2 bell pepper sticks, a pinch of julienned carrot, 2 Thai basil leaves, and some long coriander."
@@ -123,7 +134,18 @@
     },
     "it": {
       "description": "Freschi e leggeri rotolini primavera in stile tailandese, ripieni di verdure croccanti ed erbe aromatiche, serviti con una salsa al limone.",
-      "tags": ["antipasto", "vegetariano", "crudo", "asiatico", "verdure", "leggero", "senza-glutine", "finger-food", "freddo", "primavera"],
+      "tags": [
+        "antipasto",
+        "vegetariano",
+        "crudo",
+        "asiatico",
+        "verdure",
+        "leggero",
+        "senza-glutine",
+        "finger-food",
+        "freddo",
+        "primavera"
+      ],
       "ingredients": [
         {
           "group": "Rotolini",

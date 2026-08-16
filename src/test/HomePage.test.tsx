@@ -52,8 +52,8 @@ describe("HomePage", () => {
   it("renders category cards after loading", async () => {
     renderHomePage()
     await waitFor(() => {
-      expect(screen.getByText(/1 — Antipasti/)).toBeInTheDocument()
-      expect(screen.getByText(/1 — Dolci/)).toBeInTheDocument()
+      expect(screen.getByText(/1 · Antipasti/)).toBeInTheDocument()
+      expect(screen.getByText(/1 · Dolci/)).toBeInTheDocument()
     })
   })
 
@@ -70,7 +70,7 @@ describe("HomePage", () => {
   it("links category cards to filtered recipes page", async () => {
     renderHomePage()
     await waitFor(() => {
-      const antipastiLink = screen.getByText(/1 — Antipasti/).closest("a")
+      const antipastiLink = screen.getByText(/1 · Antipasti/).closest("a")
       expect(antipastiLink).toHaveAttribute("href", "/recipes?category=Antipasti")
     })
   })
@@ -79,7 +79,7 @@ describe("HomePage", () => {
     const user = userEvent.setup()
     renderHomePage()
     await waitFor(() => {
-      expect(screen.getByText(/1 — Antipasti/)).toBeInTheDocument()
+      expect(screen.getByText(/1 · Antipasti/)).toBeInTheDocument()
     })
 
     const input = screen.getByPlaceholderText("Search a recipe...")
@@ -87,7 +87,7 @@ describe("HomePage", () => {
 
     await waitFor(() => {
       expect(screen.getByText("Pasta alla Carbonara")).toBeInTheDocument()
-      expect(screen.queryByText(/1 — Antipasti/)).not.toBeInTheDocument()
+      expect(screen.queryByText(/1 · Antipasti/)).not.toBeInTheDocument()
     })
   })
 
@@ -95,18 +95,18 @@ describe("HomePage", () => {
     const user = userEvent.setup()
     renderHomePage()
     await waitFor(() => {
-      expect(screen.getByText(/1 — Antipasti/)).toBeInTheDocument()
+      expect(screen.getByText(/1 · Antipasti/)).toBeInTheDocument()
     })
 
     const input = screen.getByPlaceholderText("Search a recipe...")
     await user.type(input, "carbonara")
     await waitFor(() => {
-      expect(screen.queryByText(/1 — Antipasti/)).not.toBeInTheDocument()
+      expect(screen.queryByText(/1 · Antipasti/)).not.toBeInTheDocument()
     })
 
     await user.clear(input)
     await waitFor(() => {
-      expect(screen.getByText(/1 — Antipasti/)).toBeInTheDocument()
+      expect(screen.getByText(/1 · Antipasti/)).toBeInTheDocument()
     })
   })
 
@@ -114,7 +114,7 @@ describe("HomePage", () => {
     const user = userEvent.setup()
     renderHomePage()
     await waitFor(() => {
-      expect(screen.getByText(/1 — Antipasti/)).toBeInTheDocument()
+      expect(screen.getByText(/1 · Antipasti/)).toBeInTheDocument()
     })
 
     const input = screen.getByPlaceholderText("Search a recipe...")
@@ -122,7 +122,7 @@ describe("HomePage", () => {
 
     await waitFor(() => {
       expect(screen.getByText("Mamma mia, the pot is empty!")).toBeInTheDocument()
-      expect(screen.queryByText(/1 — Antipasti/)).not.toBeInTheDocument()
+      expect(screen.queryByText(/1 · Antipasti/)).not.toBeInTheDocument()
     })
   })
 })

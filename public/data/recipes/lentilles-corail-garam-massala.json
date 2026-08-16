@@ -1,7 +1,7 @@
 {
   "slug": "lentilles-corail-garam-massala",
   "title": "Lentilles Corail au Garam Massala Façon Risotto",
-  "description": "Des lentilles corail et poulet mariné au lait de coco cuisinés façon risotto avec du garam massala — un plat épicé et parfumé.",
+  "description": "Des lentilles corail et poulet mariné au lait de coco cuisinés façon risotto avec du garam massala, un plat épicé et parfumé.",
   "images": {
     "cover": "images/recipes/lentilles-corail-garam-massala/cover.jpg",
     "web": "images/recipes/lentilles-corail-garam-massala/web.jpg"
@@ -74,13 +74,13 @@
   ],
   "tips": [
     "Pour un effiloché réussi, faites cuire le poulet à feu vif et émiettez-le à la fourchette en fin de cuisson.",
-    "Les lentilles corail cuisent rapidement — ne les quittez pas des yeux et remuez constamment pour éviter qu'elles attachent.",
+    "Les lentilles corail cuisent rapidement : ne les quittez pas des yeux et remuez constamment pour éviter qu'elles attachent.",
     "La marinade au lait de coco en fin de cuisson apporte une onctuosité et une douceur qui équilibre le piquant du garam massala."
   ],
   "translations": {
     "en": {
       "title": "Red Lentils with Garam Masala Risotto-Style",
-      "description": "Red lentils and coconut-marinated chicken cooked risotto-style with garam masala — a spiced, aromatic one-pot dish.",
+      "description": "Red lentils and coconut-marinated chicken cooked risotto-style with garam masala, a spiced, aromatic one-pot dish.",
       "tags": [
         "lentils",
         "chicken",
@@ -138,13 +138,13 @@
       ],
       "tips": [
         "For the best shredded chicken, cook over high heat and pull apart with a fork at the end.",
-        "Red lentils cook quickly — keep a close eye and stir constantly to prevent sticking.",
+        "Red lentils cook quickly: keep a close eye and stir constantly to prevent sticking.",
         "Adding the coconut milk marinade at the end brings creaminess and sweetness that balances the garam masala heat."
       ]
     },
     "it": {
       "title": "Lenticchie Rosse al Garam Masala in Stile Risotto",
-      "description": "Lenticchie rosse e pollo marinato nel latte di cocco cotti in stile risotto con garam masala — un piatto speziato e aromatico.",
+      "description": "Lenticchie rosse e pollo marinato nel latte di cocco cotti in stile risotto con garam masala, un piatto speziato e aromatico.",
       "tags": [
         "lenticchie",
         "pollo",
@@ -202,7 +202,7 @@
       ],
       "tips": [
         "Per un buon sfilacciato, cuocere il pollo a fuoco alto e sfilacciarlo con una forchetta a fine cottura.",
-        "Le lenticchie rosse cuociono velocemente — tenetele d'occhio e mescolate costantemente per evitare che si attacchino.",
+        "Le lenticchie rosse cuociono velocemente: tenetele d'occhio e mescolate costantemente per evitare che si attacchino.",
         "Aggiungere la marinatura al latte di cocco alla fine porta cremosità e dolcezza che bilancia il piccante del garam masala."
       ]
     }

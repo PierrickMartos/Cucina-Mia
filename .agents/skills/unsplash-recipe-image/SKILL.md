@@ -20,7 +20,7 @@ All API requests use the header `Authorization: Client-ID $UNSPLASH_ACCESS_KEY`.
 
 Generate 2 search queries from the recipe, ordered by specificity. Unsplash search works best with short, focused queries (2-4 words).
 
-**Query strategy — recipe name carries the most weight:**
+**Query strategy, recipe name carries the most weight:**
 
 1. **Primary query**: the dish name itself, translated to English if needed (e.g., `pasta carbonara`, `tiramisu`, `pizza margherita`). This is the most important query.
 2. **Simplified query**: if the dish name has 3+ words, try a shorter variant focusing on the key ingredient or dish type (e.g., `carbonara` from "pasta alla carbonara", `tiramisù` → `tiramisu`).
@@ -42,10 +42,10 @@ Pass the auth header:
 ```
 
 Key parameters explained:
-- `orientation=landscape` — landscape images work best for recipe card covers
-- `content_filter=high` — filters out low-quality or inappropriate content
-- `order_by=relevant` — Unsplash's relevance ranking
-- `per_page=10` — enough candidates without overwhelming
+- `orientation=landscape`: landscape images work best for recipe card covers
+- `content_filter=high`: filters out low-quality or inappropriate content
+- `order_by=relevant`: Unsplash's relevance ranking
+- `per_page=10`: enough candidates without overwhelming
 
 Use `/usr/bin/curl` (not `curl`) to bypass any shell aliases, and pipe through `python3 -c "import json,sys; ..."` to parse the response.
 
@@ -111,7 +111,7 @@ Take the top 5 candidates by `metadata_score` and visually inspect them. For eac
 
 Then read each downloaded preview image (Claude can process images natively). For each candidate, assess:
 
-1. **Recipe match (0-10)**: Does the image actually show the correct dish? A carbonara search might return generic pasta — penalize images that don't match the specific recipe.
+1. **Recipe match (0-10)**: Does the image actually show the correct dish? A carbonara search might return generic pasta, penalize images that don't match the specific recipe.
 2. **Plate focus (0-10)**: Is the dish the clear hero of the photo? Ideally you see mostly the plate/bowl with the food, not a wide table scene or a person eating.
 3. **Professional quality (0-10)**: Does it look like a pro food photo? Good lighting, sharp focus, styled plating, appealing colors.
 4. **Color appeal (0-10)**: Is the image vibrant and appetizing? Rich, warm colors score higher than dull or washed-out photos.
@@ -125,7 +125,7 @@ Recipe match gets the highest weight because an image of the wrong dish is usele
 
 ### Final score
 
-Combine metadata and visual scores — visual inspection carries more weight since it captures what actually matters (showing the right dish beautifully):
+Combine metadata and visual scores, visual inspection carries more weight since it captures what actually matters (showing the right dish beautifully):
 
 ```
 final_score = (metadata_score * 0.3) + (visual_score * 0.7)
@@ -158,8 +158,8 @@ final_score = (metadata_score * 0.3) + (visual_score * 0.7)
 
 Print a short summary including these fields:
 - Unsplash photo ID and page URL (`links.html`)
-- `urls.regular` — the 1080px preview URL
-- `urls.full` — the full-resolution download URL
+- `urls.regular`: the 1080px preview URL
+- `urls.full`: the full-resolution download URL
 - Photographer credit: `user.name` and `user.links.html`
 - Image dimensions and score breakdown
 - The search query that found this image
@@ -179,7 +179,7 @@ For a recipe "Pasta alla Carbonara":
 
 ## Edge Cases
 
-- **No results**: try broader queries (just the main ingredient, or the category like `pasta`, `dessert`). If still nothing, report failure — don't download a random image.
+- **No results**: try broader queries (just the main ingredient, or the category like `pasta`, `dessert`). If still nothing, report failure, don't download a random image.
 - **API error 401**: invalid or missing `UNSPLASH_ACCESS_KEY`. Ask the user to check the key.
 - **Rate limit (403/429)**: demo apps are limited to 50 requests/hour. Wait or ask user to upgrade to production.
 - **Non-Italian dish name**: translate to English for the search query since Unsplash tags are primarily in English.

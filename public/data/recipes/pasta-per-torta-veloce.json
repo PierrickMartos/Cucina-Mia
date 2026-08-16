@@ -63,7 +63,15 @@
     "en": {
       "title": "Quick Pastry Dough",
       "description": "Pie crust dough ready in 3 minutes with just 3 ingredients: flour, oil, and hot water. Perfect for little ones.",
-      "tags": ["quick", "5-ingredients", "vegetarian", "kids", "whole-family", "no-special-equipment", "make-ahead"],
+      "tags": [
+        "quick",
+        "5-ingredients",
+        "vegetarian",
+        "kids",
+        "whole-family",
+        "no-special-equipment",
+        "make-ahead"
+      ],
       "ingredients": [
         {
           "items": [
@@ -81,7 +89,7 @@
           "text": "Close the container and shake vigorously about ten times in all directions."
         },
         {
-          "text": "Open and gather the dough into a ball — it's ready immediately, no resting needed."
+          "text": "Open and gather the dough into a ball: it's ready immediately, no resting needed."
         },
         {
           "text": "Roll out the dough on parchment paper or a pastry mat."
@@ -102,7 +110,15 @@
     "it": {
       "title": "Pasta per Torta Veloce",
       "description": "Impasto per torte salate pronto in 3 minuti con soli 3 ingredienti: farina, olio e acqua calda. Perfetto per i più piccoli.",
-      "tags": ["veloce", "5-ingredienti", "vegetariano", "bambini", "tutta-la-famiglia", "senza-attrezzature-speciali", "preparazione-in-anticipo"],
+      "tags": [
+        "veloce",
+        "5-ingredienti",
+        "vegetariano",
+        "bambini",
+        "tutta-la-famiglia",
+        "senza-attrezzature-speciali",
+        "preparazione-in-anticipo"
+      ],
       "ingredients": [
         {
           "items": [
