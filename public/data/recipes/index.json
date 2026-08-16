@@ -4499,11 +4499,11 @@
   },
   {
     "slug": "poke-bowl-falafel-mangue",
-    "title": "Poke bowl falafel & mangue",
-    "description": "Un bowl végétarien coloré avec riz, falafels, mangue, avocat et légumes croquants, relevé d'une sauce sésame-soja au gingembre.",
+    "title": "Poke bowl falafel",
+    "description": "Un bowl végétarien coloré avec riz, falafels, mangue ou framboises, avocat et légumes croquants, relevé d'une sauce sésame-soja au gingembre.",
     "images": {
-      "cover": "images/recipes/poke-bowl-falafel-mangue/cover.png",
-      "web": "images/recipes/poke-bowl-falafel-mangue/web.png"
+      "cover": "images/recipes/poke-bowl-falafel-mangue/cover.jpg",
+      "web": "images/recipes/poke-bowl-falafel-mangue/web.jpg"
     },
     "prepTime": 20,
     "cookTime": 15,
@@ -4532,8 +4532,8 @@
     "ingredientCount": 16,
     "translations": {
       "en": {
-        "title": "Falafel and Mango Poke Bowl",
-        "description": "A colorful vegetarian bowl with rice, falafel, mango, avocado and crunchy vegetables, finished with a sesame-soy ginger sauce.",
+        "title": "Falafel Poke Bowl",
+        "description": "A colorful vegetarian bowl with rice, falafel, mango or raspberries, avocado and crunchy vegetables, finished with a sesame-soy ginger sauce.",
         "tags": [
           "rice",
           "vegetables",
@@ -4553,8 +4553,8 @@
         ]
       },
       "it": {
-        "title": "Poke bowl con falafel e mango",
-        "description": "Una bowl vegetariana colorata con riso, falafel, mango, avocado e verdure croccanti, condita con salsa sesamo-soia allo zenzero.",
+        "title": "Poke bowl con falafel",
+        "description": "Una bowl vegetariana colorata con riso, falafel, mango o lamponi, avocado e verdure croccanti, condita con salsa sesamo-soia allo zenzero.",
         "tags": [
           "riso",
           "verdure",
