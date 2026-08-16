@@ -1,0 +1,186 @@
+{
+  "slug": "poulet-korma-riz-basmati",
+  "title": "Poulet Korma et Riz Basmati",
+  "description": "Dés de poulet dorés mijotés dans un lait de coco parfumé au garam masala, curcuma et cumin, servis sur un lit de riz basmati.",
+  "images": {
+    "cover": "images/recipes/poulet-korma-riz-basmati/cover.jpg",
+    "web": "images/recipes/poulet-korma-riz-basmati/web.jpg"
+  },
+  "imageCredit": {
+    "author": "quikish",
+    "url": "https://pixabay.com/users/quikish-22878628/"
+  },
+  "prepTime": 15,
+  "cookTime": 20,
+  "servings": 2,
+  "difficulty": "Facile",
+  "category": "Secondi",
+  "tags": [
+    "poulet",
+    "riz",
+    "indien",
+    "mijoté",
+    "plat-principal",
+    "chaud",
+    "réconfortant",
+    "doux",
+    "épicé"
+  ],
+  "ingredients": [
+    {
+      "items": [
+        "1 filet de poulet",
+        "2 cm de gingembre frais",
+        "1 gousse d'ail",
+        "1/2 oignon",
+        "1 pincée de garam masala",
+        "1 pincée de curcuma",
+        "1 pincée de cumin",
+        "1 c. à soupe de concentré de tomates",
+        "50 ml de lait de coco",
+        "Riz basmati cuit (pour servir)",
+        "Huile d'olive",
+        "Sel et poivre"
+      ]
+    }
+  ],
+  "steps": [
+    {
+      "text": "Pelez et ciselez finement l'oignon."
+    },
+    {
+      "text": "Pelez, dégermez et hachez l'ail."
+    },
+    {
+      "text": "Pelez et hachez finement le gingembre."
+    },
+    {
+      "text": "Taillez le poulet en dés de 1 à 1,5 cm de côté."
+    },
+    {
+      "text": "Faites revenir l'oignon, l'ail et le gingembre dans un filet d'huile d'olive à feu moyen jusqu'à ce qu'ils soient tendres."
+    },
+    {
+      "text": "Ajoutez les dés de poulet et laissez-les dorer de tous les côtés. Ajoutez les épices (garam masala, curcuma, cumin), puis le concentré de tomates."
+    },
+    {
+      "text": "Versez le lait de coco et laissez mijoter à feu très doux pendant encore quelques minutes jusqu'à ce que la sauce soit onctueuse."
+    },
+    {
+      "text": "Salez, poivrez et servez avec du riz basmati."
+    }
+  ],
+  "tips": [
+    "Pour plus de saveur, faites griller les épices à sec 30 secondes avant d'ajouter l'oignon.",
+    "Le poulet peut être remplacé par des pois chiches pour une version végétarienne tout aussi savoureuse."
+  ],
+  "source": "Recettes Team Building Suricates Akeneo Q2 2023, L'Atelier Gourmand de Nantes",
+  "translations": {
+    "en": {
+      "title": "Chicken Korma with Basmati Rice",
+      "description": "Golden chicken cubes simmered in coconut milk flavored with garam masala, turmeric and cumin, served on a bed of basmati rice.",
+      "tags": ["chicken", "rice", "indian", "simmered", "main-course", "hot", "comforting", "mild", "spiced"],
+      "ingredients": [
+        {
+          "items": [
+            "1 chicken breast fillet",
+            "2 cm fresh ginger",
+            "1 clove of garlic",
+            "1/2 onion",
+            "1 pinch of garam masala",
+            "1 pinch of turmeric",
+            "1 pinch of cumin",
+            "1 tbsp tomato paste",
+            "50 ml coconut milk",
+            "Cooked basmati rice (to serve)",
+            "Olive oil",
+            "Salt and pepper"
+          ]
+        }
+      ],
+      "steps": [
+        {
+          "text": "Peel and finely dice the onion."
+        },
+        {
+          "text": "Peel, degerm and mince the garlic."
+        },
+        {
+          "text": "Peel and finely chop the ginger."
+        },
+        {
+          "text": "Cut the chicken into 1 to 1.5 cm cubes."
+        },
+        {
+          "text": "Sauté the onion, garlic and ginger in a drizzle of olive oil over medium heat until softened."
+        },
+        {
+          "text": "Add the chicken cubes and brown on all sides. Add the spices (garam masala, turmeric, cumin), then the tomato paste."
+        },
+        {
+          "text": "Pour in the coconut milk and simmer on very low heat for a few more minutes until the sauce is creamy."
+        },
+        {
+          "text": "Season with salt and pepper and serve with basmati rice."
+        }
+      ],
+      "tips": [
+        "For more flavor, dry-toast the spices for 30 seconds before adding the onion.",
+        "The chicken can be replaced with chickpeas for an equally delicious vegetarian version."
+      ]
+    },
+    "it": {
+      "title": "Pollo Korma con Riso Basmati",
+      "description": "Bocconcini di pollo dorati stufati in latte di cocco profumato con garam masala, curcuma e cumino, serviti su un letto di riso basmati.",
+      "tags": ["pollo", "riso", "indiano", "brasato", "piatto-principale", "caldo", "confortante", "delicato", "speziato"],
+      "ingredients": [
+        {
+          "items": [
+            "1 filetto di pollo",
+            "2 cm di zenzero fresco",
+            "1 spicchio d'aglio",
+            "1/2 cipolla",
+            "1 pizzico di garam masala",
+            "1 pizzico di curcuma",
+            "1 pizzico di cumino",
+            "1 cucchiaio di concentrato di pomodoro",
+            "50 ml di latte di cocco",
+            "Riso basmati cotto (per servire)",
+            "Olio d'oliva",
+            "Sale e pepe"
+          ]
+        }
+      ],
+      "steps": [
+        {
+          "text": "Sbucciare e tagliare finemente la cipolla."
+        },
+        {
+          "text": "Sbucciare, eliminare il germe e tritare l'aglio."
+        },
+        {
+          "text": "Sbucciare e tritare finemente lo zenzero."
+        },
+        {
+          "text": "Tagliare il pollo a cubetti di 1-1,5 cm per lato."
+        },
+        {
+          "text": "Fare appassire la cipolla, l'aglio e lo zenzero in un filo d'olio d'oliva a fuoco medio fino a quando sono morbidi."
+        },
+        {
+          "text": "Aggiungere i cubetti di pollo e farli dorare su tutti i lati. Unire le spezie (garam masala, curcuma, cumino) e poi il concentrato di pomodoro."
+        },
+        {
+          "text": "Versare il latte di cocco e lasciare cuocere a fuoco molto basso per qualche minuto fino a quando la salsa è cremosa."
+        },
+        {
+          "text": "Aggiustare di sale e pepe e servire con riso basmati."
+        }
+      ],
+      "tips": [
+        "Per più sapore, tostare le spezie a secco per 30 secondi prima di aggiungere la cipolla.",
+        "Il pollo può essere sostituito con i ceci per una versione vegetariana altrettanto gustosa."
+      ]
+    }
+  }
+}

@@ -1,0 +1,240 @@
+{
+  "slug": "poke-bowl-falafel-mangue",
+  "title": "Poke bowl falafel",
+  "description": "Un bowl végétarien coloré avec riz, falafels, mangue ou framboises, avocat et légumes croquants, relevé d'une sauce sésame-soja au gingembre.",
+  "images": {
+    "cover": "images/recipes/poke-bowl-falafel-mangue/cover.jpg",
+    "web": "images/recipes/poke-bowl-falafel-mangue/web.jpg"
+  },
+  "prepTime": 20,
+  "cookTime": 15,
+  "servings": 4,
+  "difficulty": "Facile",
+  "category": "Secondi",
+  "tags": [
+    "riz",
+    "légumes",
+    "fruits",
+    "végétarien",
+    "asiatique",
+    "plat-principal",
+    "rapide",
+    "facile",
+    "équilibré",
+    "croquant",
+    "froid",
+    "meal-prep",
+    "sucré-salé",
+    "umami",
+    "herbacé"
+  ],
+  "origin": "pierrick",
+  "ingredients": [
+    {
+      "group": "Sauce",
+      "items": [
+        "8 cuillères à soupe d'huile de sésame",
+        "6 cuillères à soupe de vinaigre de riz",
+        "4 cuillères à soupe de sauce soja salée",
+        "1 cuillère à café de gingembre râpé ou moulu",
+        "Graines de sésame blanc",
+        "Graines de sésame noir",
+        "Piment, optionnel"
+      ]
+    },
+    {
+      "group": "Poke bowl",
+      "items": [
+        "300 g de riz",
+        "2 avocats",
+        "12 falafels",
+        "1 cébette",
+        "Radis",
+        "Carottes",
+        "Concombre",
+        "1 mangue ou 150 g de framboises",
+        "Coriandre fraîche"
+      ]
+    }
+  ],
+  "steps": [
+    {
+      "text": "Cuire le riz selon les indications du paquet, puis le laisser tiédir ou refroidir."
+    },
+    {
+      "text": "Préparer la sauce en mélangeant l'huile de sésame, le vinaigre de riz, la sauce soja, le gingembre, les graines de sésame et le piment si souhaité."
+    },
+    {
+      "text": "Cuire ou réchauffer les falafels jusqu'à ce qu'ils soient bien dorés."
+    },
+    {
+      "text": "Émincer la cébette, les radis, les carottes et le concombre. Couper les avocats en lamelles ou en dés, ainsi que la mangue si c'est le fruit choisi."
+    },
+    {
+      "text": "Répartir le riz dans quatre bols, puis ajouter les falafels, l'avocat, le fruit, les crudités et la coriandre."
+    },
+    {
+      "text": "Arroser de sauce sésame-soja juste avant de servir."
+    }
+  ],
+  "tips": [
+    "Ajouter le piment directement dans la sauce pour une version plus relevée.",
+    "Pour un bowl bien frais, laisser le riz refroidir complètement avant le montage.",
+    "La mangue apporte un sucré-salé franc, les framboises une acidité plus vive : les deux fonctionnent avec la sauce sésame-soja."
+  ],
+  "source": "Pierrick",
+  "originalSource": {
+    "type": "text",
+    "data": "Pierrick' Poke bowl falafel & mangue\n\n4 personnes\n\nSauce : 8 cuillères à soupe d'huile de sésame, 6 de vinaigre de riz, 4 de sauce soja salé, 1 cuillère à café de gingembre, graines de sésame blanc et sésame noir (et du piment optionnel)\n\nPoke bowl:\n- Riz\n- 2 avocats\n- 12 falafels\n- 1 Cébette\n- Radis\n- Carottes\n- Concombre\n- 1 Mangue\n- Coriandre"
+  },
+  "translations": {
+    "en": {
+      "title": "Falafel Poke Bowl",
+      "description": "A colorful vegetarian bowl with rice, falafel, mango or raspberries, avocado and crunchy vegetables, finished with a sesame-soy ginger sauce.",
+      "tags": [
+        "rice",
+        "vegetables",
+        "fruit",
+        "vegetarian",
+        "asian",
+        "main-course",
+        "quick",
+        "easy",
+        "balanced",
+        "crunchy",
+        "cold",
+        "meal-prep",
+        "sweet-savory",
+        "umami",
+        "herbal"
+      ],
+      "ingredients": [
+        {
+          "group": "Sauce",
+          "items": [
+            "8 tablespoons sesame oil",
+            "6 tablespoons rice vinegar",
+            "4 tablespoons salted soy sauce",
+            "1 teaspoon grated or ground ginger",
+            "White sesame seeds",
+            "Black sesame seeds",
+            "Chili, optional"
+          ]
+        },
+        {
+          "group": "Poke bowl",
+          "items": [
+            "300 g rice",
+            "2 avocados",
+            "12 falafels",
+            "1 scallion",
+            "Radishes",
+            "Carrots",
+            "Cucumber",
+            "1 mango or 150 g raspberries",
+            "Fresh cilantro"
+          ]
+        }
+      ],
+      "steps": [
+        {
+          "text": "Cook the rice according to the package instructions, then let it cool slightly or completely."
+        },
+        {
+          "text": "Make the sauce by mixing the sesame oil, rice vinegar, soy sauce, ginger, sesame seeds and chili if using."
+        },
+        {
+          "text": "Cook or reheat the falafels until nicely golden."
+        },
+        {
+          "text": "Slice the scallion, radishes, carrots and cucumber. Cut the avocados into slices or cubes, along with the mango if that is the fruit you picked."
+        },
+        {
+          "text": "Divide the rice between four bowls, then add the falafels, avocado, fruit, raw vegetables and cilantro."
+        },
+        {
+          "text": "Drizzle with the sesame-soy sauce just before serving."
+        }
+      ],
+      "tips": [
+        "Add the chili directly to the sauce for a spicier version.",
+        "For a very fresh bowl, let the rice cool completely before assembling.",
+        "Mango brings a clear sweet-savory note, raspberries a sharper acidity: both work with the sesame-soy sauce."
+      ]
+    },
+    "it": {
+      "title": "Poke bowl con falafel",
+      "description": "Una bowl vegetariana colorata con riso, falafel, mango o lamponi, avocado e verdure croccanti, condita con salsa sesamo-soia allo zenzero.",
+      "tags": [
+        "riso",
+        "verdure",
+        "frutta",
+        "vegetariano",
+        "asiatico",
+        "piatto-principale",
+        "veloce",
+        "facile",
+        "equilibrato",
+        "croccante",
+        "freddo",
+        "meal-prep",
+        "dolce-salato",
+        "umami",
+        "erbaceo"
+      ],
+      "ingredients": [
+        {
+          "group": "Salsa",
+          "items": [
+            "8 cucchiai di olio di sesamo",
+            "6 cucchiai di aceto di riso",
+            "4 cucchiai di salsa di soia salata",
+            "1 cucchiaino di zenzero grattugiato o in polvere",
+            "Semi di sesamo bianco",
+            "Semi di sesamo nero",
+            "Peperoncino, facoltativo"
+          ]
+        },
+        {
+          "group": "Poke bowl",
+          "items": [
+            "300 g di riso",
+            "2 avocado",
+            "12 falafel",
+            "1 cipollotto",
+            "Ravanelli",
+            "Carote",
+            "Cetriolo",
+            "1 mango o 150 g di lamponi",
+            "Coriandolo fresco"
+          ]
+        }
+      ],
+      "steps": [
+        {
+          "text": "Cuocere il riso seguendo le indicazioni sulla confezione, poi lasciarlo intiepidire o raffreddare."
+        },
+        {
+          "text": "Preparare la salsa mescolando olio di sesamo, aceto di riso, salsa di soia, zenzero, semi di sesamo e peperoncino se desiderato."
+        },
+        {
+          "text": "Cuocere o riscaldare i falafel finché sono ben dorati."
+        },
+        {
+          "text": "Affettare il cipollotto, i ravanelli, le carote e il cetriolo. Tagliare gli avocado a fette o a cubetti, insieme al mango se è il frutto scelto."
+        },
+        {
+          "text": "Distribuire il riso in quattro bowl, poi aggiungere falafel, avocado, frutta, verdure crude e coriandolo."
+        },
+        {
+          "text": "Condire con la salsa sesamo-soia appena prima di servire."
+        }
+      ],
+      "tips": [
+        "Aggiungere il peperoncino direttamente nella salsa per una versione più piccante.",
+        "Per una bowl molto fresca, lasciare raffreddare completamente il riso prima di comporla.",
+        "Il mango dà una nota dolce-salata netta, i lamponi un'acidità più viva: entrambi funzionano con la salsa sesamo-soia."
+      ]
+    }
+  }
+}

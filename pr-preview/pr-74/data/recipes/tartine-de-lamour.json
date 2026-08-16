@@ -1,0 +1,183 @@
+{
+  "slug": "tartine-de-lamour",
+  "title": "Tartine de l'Amour",
+  "description": "Une tartine rustique et généreuse sur pain de campagne grillé, garnie de tomates concassées à l'échalote, au gingembre et au vinaigre balsamique, parsemée de parmesan. La recette emblématique de Bernard Guilhaudin, chef de La Tour d'Argent à Paris.",
+  "images": {
+    "cover": "images/recipes/tartine-de-lamour/cover.jpg",
+    "web": "images/recipes/tartine-de-lamour/web.jpg"
+  },
+  "imageCredit": {
+    "cover": {
+      "pixabayId": "5619887",
+      "photographer": "amiraxgelcola",
+      "pageURL": "https://pixabay.com/photos/gourmet-food-bread-dish-bruschetta-5619887/"
+    },
+    "web": {
+      "pixabayId": "5699486",
+      "photographer": "amiraxgelcola",
+      "pageURL": "https://pixabay.com/photos/bruschetta-dish-food-snack-5699486/"
+    }
+  },
+  "prepTime": 10,
+  "cookTime": 5,
+  "servings": 2,
+  "difficulty": "Facile",
+  "category": "Brunch",
+  "tags": [
+    "tartine",
+    "brunch",
+    "rapide",
+    "facile",
+    "tomate",
+    "pain-de-campagne",
+    "balsamique",
+    "parmesan",
+    "végétarien",
+    "français"
+  ],
+  "ingredients": [
+    {
+      "items": [
+        "2 tranches épaisses de pain de campagne",
+        "2 tomates mûres",
+        "2 échalotes",
+        "1 morceau de gingembre frais (environ 2 cm)",
+        "1 cuillère à soupe d'huile d'olive",
+        "1 cuillère à café de vinaigre balsamique",
+        "Parmesan en copeaux q.s.",
+        "Sel et poivre q.s."
+      ]
+    }
+  ],
+  "steps": [
+    {
+      "text": "Faire suer à l'huile d'olive les échalotes finement hachées avec une pointe d'ail jusqu'à ce qu'elles soient translucides."
+    },
+    {
+      "text": "Ajouter les tomates concassées, 1 cuillère à café de gingembre frais râpé et 1 cuillère de vinaigre balsamique. Laisser cuire doucement jusqu'à obtenir une consistance onctueuse."
+    },
+    {
+      "text": "Faire griller les tranches de pain de campagne jusqu'à ce qu'elles soient bien dorées et croustillantes."
+    },
+    {
+      "text": "Étaler généreusement la concassée de tomates chaude sur chaque tranche de pain. Parsemer de copeaux de parmesan."
+    },
+    {
+      "text": "Servir aussitôt, bien chaud, comme entrée ou à toute heure de la nuit."
+    }
+  ],
+  "tips": [
+    "Choisissez des tomates bien mûres et parfumées : c'est la base de la recette.",
+    "Le gingembre apporte une note fraîche et légèrement piquante qui équilibre l'acidité du balsamique.",
+    "Vous pouvez remplacer le parmesan par de la burrata ou de la mozzarella fraîche pour une version plus gourmande.",
+    "Bernard Guilhaudin, chef de La Tour d'Argent à Paris, prépare cette tartine pour ses amoureux."
+  ],
+  "translations": {
+    "en": {
+      "title": "Tartine de l'Amour",
+      "description": "A rustic and generous open-faced toast on toasted country bread, topped with tomato concassée with shallots, ginger and balsamic vinegar, sprinkled with parmesan shavings. The iconic recipe by Bernard Guilhaudin, chef at La Tour d'Argent in Paris.",
+      "tags": [
+        "toast",
+        "brunch",
+        "quick",
+        "easy",
+        "tomato",
+        "country-bread",
+        "balsamic",
+        "parmesan",
+        "vegetarian",
+        "french"
+      ],
+      "ingredients": [
+        {
+          "items": [
+            "2 thick slices of country bread (pain de campagne)",
+            "2 ripe tomatoes",
+            "2 shallots",
+            "1 piece of fresh ginger (about 2 cm)",
+            "1 tablespoon olive oil",
+            "1 teaspoon balsamic vinegar",
+            "Parmesan shavings to taste",
+            "Salt and pepper to taste"
+          ]
+        }
+      ],
+      "steps": [
+        {
+          "text": "Gently sauté the finely chopped shallots with a hint of garlic in olive oil until translucent."
+        },
+        {
+          "text": "Add the concassée tomatoes, 1 teaspoon of freshly grated ginger and 1 teaspoon of balsamic vinegar. Cook gently until you get a smooth, thick consistency."
+        },
+        {
+          "text": "Toast the country bread slices until golden and crispy."
+        },
+        {
+          "text": "Generously spread the warm tomato concassée on each slice of bread. Sprinkle with parmesan shavings."
+        },
+        {
+          "text": "Serve immediately, piping hot, as a starter or at any time of the night."
+        }
+      ],
+      "tips": [
+        "Choose very ripe and fragrant tomatoes: they are the foundation of the recipe.",
+        "The ginger adds a fresh, slightly spicy note that balances the acidity of the balsamic.",
+        "You can replace the parmesan with burrata or fresh mozzarella for a more indulgent version.",
+        "Bernard Guilhaudin, chef at La Tour d'Argent in Paris, makes this tartine for his lovers."
+      ]
+    },
+    "it": {
+      "title": "Tartine de l'Amour",
+      "description": "Una tartina rustica e generosa su pane di campagna tostato, guarnita con pomodori concassé con scalogno, zenzero e aceto balsamico, cosparsa di scaglie di parmigiano. La ricetta iconica di Bernard Guilhaudin, chef de La Tour d'Argent a Parigi.",
+      "tags": [
+        "tartina",
+        "brunch",
+        "veloce",
+        "facile",
+        "pomodoro",
+        "pane-di-campagna",
+        "balsamico",
+        "parmigiano",
+        "vegetariano",
+        "francese"
+      ],
+      "ingredients": [
+        {
+          "items": [
+            "2 fette spesse di pane di campagna",
+            "2 pomodori maturi",
+            "2 scalogni",
+            "1 pezzo di zenzero fresco (circa 2 cm)",
+            "1 cucchiaio di olio d'oliva",
+            "1 cucchiaino di aceto balsamico",
+            "Scaglie di parmigiano q.b.",
+            "Sale e pepe q.b."
+          ]
+        }
+      ],
+      "steps": [
+        {
+          "text": "Far appassire in olio d'oliva gli scalogni tritati finemente con un tocco d'aglio fino a renderli traslucidi."
+        },
+        {
+          "text": "Aggiungere i pomodori concassé, 1 cucchiaino di zenzero fresco grattugiato e 1 cucchiaino di aceto balsamico. Cuocere dolcemente fino a ottenere una consistenza cremosa."
+        },
+        {
+          "text": "Tostare le fette di pane di campagna finché dorate e croccanti."
+        },
+        {
+          "text": "Spalmare generosamente la concassée di pomodori calda su ogni fetta di pane. Cospargere di scaglie di parmigiano."
+        },
+        {
+          "text": "Servire subito, ben caldo, come antipasto o a qualsiasi ora della notte."
+        }
+      ],
+      "tips": [
+        "Scegliete pomodori molto maturi e profumati: sono la base della ricetta.",
+        "Lo zenzero apporta una nota fresca e leggermente piccante che bilancia l'acidità del balsamico.",
+        "Potete sostituire il parmigiano con burrata o mozzarella fresca per una versione più golosa.",
+        "Bernard Guilhaudin, chef de La Tour d'Argent a Parigi, prepara questa tartina per i suoi innamorati."
+      ]
+    }
+  }
+}
