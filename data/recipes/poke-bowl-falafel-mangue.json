@@ -1,10 +1,10 @@
 {
   "slug": "poke-bowl-falafel-mangue",
-  "title": "Poke bowl falafel & mangue",
-  "description": "Un bowl végétarien coloré avec riz, falafels, mangue, avocat et légumes croquants, relevé d'une sauce sésame-soja au gingembre.",
+  "title": "Poke bowl falafel",
+  "description": "Un bowl végétarien coloré avec riz, falafels, mangue ou framboises, avocat et légumes croquants, relevé d'une sauce sésame-soja au gingembre.",
   "images": {
-    "cover": "images/recipes/poke-bowl-falafel-mangue/cover.png",
-    "web": "images/recipes/poke-bowl-falafel-mangue/web.png"
+    "cover": "images/recipes/poke-bowl-falafel-mangue/cover.jpg",
+    "web": "images/recipes/poke-bowl-falafel-mangue/web.jpg"
   },
   "prepTime": 20,
   "cookTime": 15,
@@ -52,7 +52,7 @@
         "Radis",
         "Carottes",
         "Concombre",
-        "1 mangue",
+        "1 mangue ou 150 g de framboises",
         "Coriandre fraîche"
       ]
     }
@@ -68,10 +68,10 @@
       "text": "Cuire ou réchauffer les falafels jusqu'à ce qu'ils soient bien dorés."
     },
     {
-      "text": "Émincer la cébette, les radis, les carottes et le concombre. Couper les avocats et la mangue en lamelles ou en dés."
+      "text": "Émincer la cébette, les radis, les carottes et le concombre. Couper les avocats en lamelles ou en dés, ainsi que la mangue si c'est le fruit choisi."
     },
     {
-      "text": "Répartir le riz dans quatre bols, puis ajouter les falafels, l'avocat, la mangue, les crudités et la coriandre."
+      "text": "Répartir le riz dans quatre bols, puis ajouter les falafels, l'avocat, le fruit, les crudités et la coriandre."
     },
     {
       "text": "Arroser de sauce sésame-soja juste avant de servir."
@@ -79,7 +79,8 @@
   ],
   "tips": [
     "Ajouter le piment directement dans la sauce pour une version plus relevée.",
-    "Pour un bowl bien frais, laisser le riz refroidir complètement avant le montage."
+    "Pour un bowl bien frais, laisser le riz refroidir complètement avant le montage.",
+    "La mangue apporte un sucré-salé franc, les framboises une acidité plus vive : les deux fonctionnent avec la sauce sésame-soja."
   ],
   "source": "Pierrick",
   "originalSource": {
@@ -88,8 +89,8 @@
   },
   "translations": {
     "en": {
-      "title": "Falafel and Mango Poke Bowl",
-      "description": "A colorful vegetarian bowl with rice, falafel, mango, avocado and crunchy vegetables, finished with a sesame-soy ginger sauce.",
+      "title": "Falafel Poke Bowl",
+      "description": "A colorful vegetarian bowl with rice, falafel, mango or raspberries, avocado and crunchy vegetables, finished with a sesame-soy ginger sauce.",
       "tags": [
         "rice",
         "vegetables",
@@ -130,7 +131,7 @@
             "Radishes",
             "Carrots",
             "Cucumber",
-            "1 mango",
+            "1 mango or 150 g raspberries",
             "Fresh cilantro"
           ]
         }
@@ -146,10 +147,10 @@
           "text": "Cook or reheat the falafels until nicely golden."
         },
         {
-          "text": "Slice the scallion, radishes, carrots and cucumber. Cut the avocados and mango into slices or cubes."
+          "text": "Slice the scallion, radishes, carrots and cucumber. Cut the avocados into slices or cubes, along with the mango if that is the fruit you picked."
         },
         {
-          "text": "Divide the rice between four bowls, then add the falafels, avocado, mango, raw vegetables and cilantro."
+          "text": "Divide the rice between four bowls, then add the falafels, avocado, fruit, raw vegetables and cilantro."
         },
         {
           "text": "Drizzle with the sesame-soy sauce just before serving."
@@ -157,12 +158,13 @@
       ],
       "tips": [
         "Add the chili directly to the sauce for a spicier version.",
-        "For a very fresh bowl, let the rice cool completely before assembling."
+        "For a very fresh bowl, let the rice cool completely before assembling.",
+        "Mango brings a clear sweet-savory note, raspberries a sharper acidity: both work with the sesame-soy sauce."
       ]
     },
     "it": {
-      "title": "Poke bowl con falafel e mango",
-      "description": "Una bowl vegetariana colorata con riso, falafel, mango, avocado e verdure croccanti, condita con salsa sesamo-soia allo zenzero.",
+      "title": "Poke bowl con falafel",
+      "description": "Una bowl vegetariana colorata con riso, falafel, mango o lamponi, avocado e verdure croccanti, condita con salsa sesamo-soia allo zenzero.",
       "tags": [
         "riso",
         "verdure",
@@ -203,7 +205,7 @@
             "Ravanelli",
             "Carote",
             "Cetriolo",
-            "1 mango",
+            "1 mango o 150 g di lamponi",
             "Coriandolo fresco"
           ]
         }
@@ -219,10 +221,10 @@
           "text": "Cuocere o riscaldare i falafel finché sono ben dorati."
         },
         {
-          "text": "Affettare il cipollotto, i ravanelli, le carote e il cetriolo. Tagliare avocado e mango a fette o a cubetti."
+          "text": "Affettare il cipollotto, i ravanelli, le carote e il cetriolo. Tagliare gli avocado a fette o a cubetti, insieme al mango se è il frutto scelto."
         },
         {
-          "text": "Distribuire il riso in quattro bowl, poi aggiungere falafel, avocado, mango, verdure crude e coriandolo."
+          "text": "Distribuire il riso in quattro bowl, poi aggiungere falafel, avocado, frutta, verdure crude e coriandolo."
         },
         {
           "text": "Condire con la salsa sesamo-soia appena prima di servire."
@@ -230,7 +232,8 @@
       ],
       "tips": [
         "Aggiungere il peperoncino direttamente nella salsa per una versione più piccante.",
-        "Per una bowl molto fresca, lasciare raffreddare completamente il riso prima di comporla."
+        "Per una bowl molto fresca, lasciare raffreddare completamente il riso prima di comporla.",
+        "Il mango dà una nota dolce-salata netta, i lamponi un'acidità più viva: entrambi funzionano con la salsa sesamo-soia."
       ]
     }
   }
