@@ -6030,5 +6030,87 @@
         ]
       }
     }
+  },
+  {
+    "slug": "gaufre-liegeoise",
+    "title": "Gaufre liégeoise croustillante et moelleuse",
+    "description": "La vraie gaufre de Liège : une pâte briochée longuement pétrie, levée 1 h 30, puis parsemée de sucre perlé qui caramélise à la cuisson. Croustillante dehors, moelleuse dedans.",
+    "images": {
+      "cover": "images/recipes/gaufre-liegeoise/cover.jpg",
+      "web": "images/recipes/gaufre-liegeoise/web.jpg"
+    },
+    "imageCredit": {
+      "author": "blandinejoannic",
+      "url": "https://pixabay.com/users/blandinejoannic-15617008/"
+    },
+    "prepTime": 15,
+    "cookTime": 60,
+    "servings": 12,
+    "difficulty": "Medio",
+    "category": "Dolci",
+    "tags": [
+      "dessert",
+      "goûter",
+      "petit-déjeuner",
+      "brunch",
+      "végétarien",
+      "gourmand",
+      "croustillant",
+      "moelleux",
+      "enfants",
+      "toute-la-famille",
+      "chaud",
+      "festif",
+      "robot-pâtissier",
+      "se-congèle",
+      "préparation-à-lavance"
+    ],
+    "origin": "pierrick",
+    "stepCount": 7,
+    "ingredientCount": 9,
+    "translations": {
+      "en": {
+        "title": "Crispy and Soft Liège Waffles",
+        "description": "The real Liège waffle: a brioche dough kneaded at length, left to rise for 1.5 hours, then studded with pearl sugar that caramelises as it cooks. Crisp outside, soft inside.",
+        "tags": [
+          "dessert",
+          "snack",
+          "breakfast",
+          "brunch",
+          "vegetarian",
+          "indulgent",
+          "crispy",
+          "soft",
+          "kids",
+          "family-friendly",
+          "hot",
+          "festive",
+          "stand-mixer",
+          "freezer-friendly",
+          "make-ahead"
+        ]
+      },
+      "it": {
+        "title": "Gaufre di Liegi croccanti e morbide",
+        "description": "La vera gaufre di Liegi: un impasto brioche lavorato a lungo, lievitato 1 ora e mezza, poi arricchito di zucchero in granella che caramella in cottura. Croccante fuori, morbida dentro.",
+        "tags": [
+          "dolce",
+          "merenda",
+          "colazione",
+          "brunch",
+          "vegetariano",
+          "goloso",
+          "croccante",
+          "morbido",
+          "bambini",
+          "tutta-la-famiglia",
+          "caldo",
+          "festivo",
+          "planetaria",
+          "congelabile",
+          "preparazione-anticipata"
+        ]
+      }
+    }
   }
 ]
