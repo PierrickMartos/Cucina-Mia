@@ -5952,5 +5952,83 @@
         ]
       }
     }
+  },
+  {
+    "slug": "crepes-chandeleur",
+    "title": "Crêpes moelleuses de la Chandeleur",
+    "description": "La pâte à crêpes inratable d'Hervé Cuisine : farine, œufs, lait tiède et beurre fondu, parfumée au rhum ou à la fleur d'oranger, reposée 30 minutes pour des crêpes bien moelleuses.",
+    "images": {
+      "cover": "images/recipes/crepes-chandeleur/cover.jpg",
+      "web": "images/recipes/crepes-chandeleur/web.jpg"
+    },
+    "imageCredit": {
+      "author": "RitaE",
+      "url": "https://pixabay.com/users/ritae-19628/"
+    },
+    "prepTime": 5,
+    "cookTime": 10,
+    "servings": 4,
+    "difficulty": "Facile",
+    "category": "Dolci",
+    "tags": [
+      "dessert",
+      "goûter",
+      "poêle",
+      "français",
+      "végétarien",
+      "enfants",
+      "toute-la-famille",
+      "économique",
+      "moelleux",
+      "chaud",
+      "gourmand",
+      "fête",
+      "convivial",
+      "à-partager"
+    ],
+    "stepCount": 7,
+    "ingredientCount": 8,
+    "translations": {
+      "en": {
+        "title": "Soft Chandeleur Crêpes",
+        "description": "Hervé Cuisine's foolproof crêpe batter: flour, eggs, warm milk and melted butter, flavoured with rum or orange blossom, rested for 30 minutes for beautifully soft crêpes.",
+        "tags": [
+          "dessert",
+          "snack",
+          "pan",
+          "french",
+          "vegetarian",
+          "kids",
+          "family-friendly",
+          "budget-friendly",
+          "soft",
+          "hot",
+          "indulgent",
+          "celebration",
+          "convivial",
+          "to-share"
+        ]
+      },
+      "it": {
+        "title": "Crêpes morbide della Candelora",
+        "description": "La pastella per crêpes infallibile di Hervé Cuisine: farina, uova, latte tiepido e burro fuso, profumata al rum o ai fiori d'arancio, riposata 30 minuti per crêpes ben morbide.",
+        "tags": [
+          "dolce",
+          "merenda",
+          "padella",
+          "francese",
+          "vegetariano",
+          "bambini",
+          "tutta-la-famiglia",
+          "economico",
+          "morbido",
+          "caldo",
+          "goloso",
+          "festa",
+          "conviviale",
+          "da-condividere"
+        ]
+      }
+    }
   }
 ]
