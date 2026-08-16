@@ -1,0 +1,248 @@
+{
+  "slug": "bananamisu",
+  "title": "Bananamisù aux spéculoos et à la banane",
+  "description": "Un dessert façon tiramisu à la banane, avec une base de spéculoos croustillante et une crème mascarpone légère.",
+  "images": {
+    "cover": "images/recipes/bananamisu/cover.jpg",
+    "web": "images/recipes/bananamisu/web.jpg"
+  },
+  "prepTime": 35,
+  "cookTime": 3,
+  "servings": 4,
+  "difficulty": "Medio",
+  "category": "Dolci",
+  "tags": [
+    "dessert",
+    "italien",
+    "sans-cuisson",
+    "à-partager",
+    "crémeux",
+    "gourmand",
+    "banane",
+    "chocolat",
+    "fruits",
+    "froid"
+  ],
+  "ingredients": [
+    {
+      "items": [
+        "250 g de mascarpone",
+        "6 jaunes d'œufs",
+        "125 g de sucre",
+        "3 feuilles de gélatine",
+        "100 g + 6 c. à s. de crème liquide entière",
+        "200 g de spéculoos",
+        "50 g de beurre doux avec des grains de sel",
+        "4 bananes mûres",
+        "1 c. à c. de cannelle en poudre",
+        "Chocolat noir (Quanto basta)",
+        "1/2 citron"
+      ]
+    }
+  ],
+  "steps": [
+    {
+      "text": "Mettez 2 feuilles de gélatine à ramollir dans un bol d'eau froide pendant 15 minutes."
+    },
+    {
+      "text": "Égouttez-les à la main, mélangez-les dans une casserole avec 3 cuillerées à soupe de crème, puis faites fondre la gélatine à feu doux en mélangeant pendant 3 minutes."
+    },
+    {
+      "text": "Montez les 100 g de crème liquide en crème fouettée bien ferme."
+    },
+    {
+      "text": "Fouettez les jaunes d'œufs et le sucre au fouet électrique jusqu'à ce que le mélange blanchisse."
+    },
+    {
+      "text": "Fouettez le mascarpone avec la crème contenant la gélatine pour homogénéiser l'ensemble, puis mélangez avec la préparation jaunes-sucre."
+    },
+    {
+      "text": "Ajoutez délicatement la crème fouettée à la spatule en mélangeant de bas en haut."
+    },
+    {
+      "text": "Mettez les spéculoos dans un sachet en plastique et écrasez-les avec un poids."
+    },
+    {
+      "text": "Arrosez les biscuits de beurre fondu, mélangez, puis placez ce mélange au fond d'un moule rectangulaire à bords hauts en tassant bien avec les mains."
+    },
+    {
+      "text": "Mettez la dernière feuille de gélatine dans de l'eau froide."
+    },
+    {
+      "text": "Versez de nouveau 3 cuillerées à soupe de crème liquide dans une casserole et faites-y fondre la gélatine à feu doux."
+    },
+    {
+      "text": "Versez dans un saladier sur les bananes épluchées, ajoutez la cannelle, une pincée de sel et écrasez le tout à la fourchette avec un filet de jus de citron."
+    },
+    {
+      "text": "Déposez les bananes sur les spéculoos, puis recouvrez de crème au mascarpone."
+    },
+    {
+      "text": "Couvrez d'un film alimentaire et laissez les arômes se développer au frais pendant quelques heures."
+    },
+    {
+      "text": "Servez des parts avec une pelle à gâteau, en saupoudrant de spéculoos écrasés et de chocolat noir cassé en morceaux."
+    }
+  ],
+  "source": "Big Mamma, Dolci, p. 347",
+  "originalSource": {
+    "type": "image",
+    "data": "images/recipes/bananamisu/source.jpg"
+  },
+  "translations": {
+    "en": {
+      "title": "Bananamisu with speculoos and banana",
+      "description": "A banana tiramisu-style dessert with a crunchy speculoos base and a light mascarpone cream.",
+      "tags": [
+        "dessert",
+        "italian",
+        "no-bake",
+        "to-share",
+        "creamy",
+        "indulgent",
+        "banana",
+        "chocolate",
+        "fruit",
+        "cold"
+      ],
+      "ingredients": [
+        {
+          "items": [
+            "250 g mascarpone",
+            "6 egg yolks",
+            "125 g sugar",
+            "3 gelatin sheets",
+            "100 g + 6 tbsp whole liquid cream",
+            "200 g speculoos biscuits",
+            "50 g unsalted butter with salt crystals",
+            "4 ripe bananas",
+            "1 tsp ground cinnamon",
+            "Dark chocolate to taste",
+            "1/2 lemon"
+          ]
+        }
+      ],
+      "steps": [
+        {
+          "text": "Soak 2 gelatin sheets in a bowl of cold water for 15 minutes."
+        },
+        {
+          "text": "Squeeze them dry by hand, mix them in a saucepan with 3 tablespoons of cream, then melt the gelatin over low heat, stirring for 3 minutes."
+        },
+        {
+          "text": "Whip the 100 g of liquid cream into a very firm whipped cream."
+        },
+        {
+          "text": "Beat the egg yolks and sugar with an electric whisk until the mixture turns pale."
+        },
+        {
+          "text": "Whisk the mascarpone with the cream containing the gelatin until smooth, then mix with the egg yolk and sugar mixture."
+        },
+        {
+          "text": "Gently fold in the whipped cream with a spatula, mixing from bottom to top."
+        },
+        {
+          "text": "Put the speculoos biscuits in a plastic bag and crush them with a weight."
+        },
+        {
+          "text": "Pour the melted butter over the biscuits, mix, then press the mixture into the bottom of a high-sided rectangular mold with your hands."
+        },
+        {
+          "text": "Place the last gelatin sheet in cold water."
+        },
+        {
+          "text": "Pour another 3 tablespoons of liquid cream into a saucepan and melt the gelatin in it over low heat."
+        },
+        {
+          "text": "Pour into a bowl over the peeled bananas, add the cinnamon and a pinch of salt, then mash everything with a fork and a squeeze of lemon juice."
+        },
+        {
+          "text": "Spread the bananas over the speculoos base, then cover with mascarpone cream."
+        },
+        {
+          "text": "Cover with plastic wrap and let the flavors develop in the refrigerator for a few hours."
+        },
+        {
+          "text": "Serve slices with a cake server, sprinkling with crushed speculoos and broken pieces of dark chocolate."
+        }
+      ]
+    },
+    "it": {
+      "title": "Bananamisù con speculoos e banana",
+      "description": "Un dessert in stile tiramisù alla banana, con una base croccante di speculoos e una crema leggera al mascarpone.",
+      "tags": [
+        "dessert",
+        "italiano",
+        "senza-cottura",
+        "da-condividere",
+        "cremoso",
+        "goloso",
+        "banana",
+        "cioccolato",
+        "frutta",
+        "freddo"
+      ],
+      "ingredients": [
+        {
+          "items": [
+            "250 g di mascarpone",
+            "6 tuorli d'uovo",
+            "125 g di zucchero",
+            "3 fogli di gelatina",
+            "100 g + 6 cucchiai di panna fresca intera",
+            "200 g di biscotti speculoos",
+            "50 g di burro dolce con cristalli di sale",
+            "4 banane mature",
+            "1 cucchiaino di cannella in polvere",
+            "Cioccolato fondente q.b.",
+            "1/2 limone"
+          ]
+        }
+      ],
+      "steps": [
+        {
+          "text": "Mettete 2 fogli di gelatina ad ammorbidire in una ciotola di acqua fredda per 15 minuti."
+        },
+        {
+          "text": "Strizzateli a mano, mescolateli in un pentolino con 3 cucchiai di panna, poi fate sciogliere la gelatina a fuoco dolce mescolando per 3 minuti."
+        },
+        {
+          "text": "Montate i 100 g di panna liquida a neve ben ferma."
+        },
+        {
+          "text": "Sbattete i tuorli e lo zucchero con le fruste elettriche fino a quando il composto diventa chiaro."
+        },
+        {
+          "text": "Sbattete il mascarpone con la panna contenente la gelatina per rendere il tutto omogeneo, poi mescolate con il composto di tuorli e zucchero."
+        },
+        {
+          "text": "Incorporate delicatamente la panna montata con una spatola, mescolando dal basso verso l'alto."
+        },
+        {
+          "text": "Mettete gli speculoos in un sacchetto di plastica e schiacciateli con un peso."
+        },
+        {
+          "text": "Irrorate i biscotti con il burro fuso, mescolate, poi disponete il composto sul fondo di uno stampo rettangolare a bordi alti pressando bene con le mani."
+        },
+        {
+          "text": "Mettete l'ultimo foglio di gelatina in acqua fredda."
+        },
+        {
+          "text": "Versate di nuovo 3 cucchiai di panna liquida in un pentolino e fatevi sciogliere la gelatina a fuoco dolce."
+        },
+        {
+          "text": "Versate in una ciotola sulle banane sbucciate, aggiungete la cannella, un pizzico di sale e schiacciate tutto con una forchetta con un filo di succo di limone."
+        },
+        {
+          "text": "Distribuite le banane sugli speculoos, poi coprite con la crema al mascarpone."
+        },
+        {
+          "text": "Coprite con pellicola alimentare e lasciate sviluppare gli aromi in frigorifero per qualche ora."
+        },
+        {
+          "text": "Servite le porzioni con una paletta da dolce, spolverando con speculoos sbriciolati e cioccolato fondente spezzato."
+        }
+      ]
+    }
+  }
+}

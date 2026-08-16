@@ -1,0 +1,189 @@
+{
+  "slug": "legumes-du-soleil-et-feta-rotis",
+  "title": "Légumes du soleil & feta rôtis",
+  "description": "Courgettes, tomates multicolores et oignon rouge rôtis à four très chaud autour d'un bloc de feta doré. Un plat végétarien d'été à servir avec du pain pour saucer.",
+  "images": {
+    "cover": "images/recipes/legumes-du-soleil-et-feta-rotis/cover.jpg",
+    "web": "images/recipes/legumes-du-soleil-et-feta-rotis/web.jpg"
+  },
+  "imageCredit": {
+    "author": "Roberto  Arias",
+    "url": "https://unsplash.com/@rariasg"
+  },
+  "prepTime": 6,
+  "cookTime": 20,
+  "servings": 4,
+  "difficulty": "Facile",
+  "category": "Secondi",
+  "tags": [
+    "légumes",
+    "feta",
+    "four",
+    "one-pot",
+    "végétarien",
+    "sans-gluten",
+    "méditerranéen",
+    "été",
+    "léger",
+    "facile",
+    "toute-la-famille",
+    "plat-principal",
+    "chaud",
+    "à-partager"
+  ],
+  "ingredients": [
+    {
+      "items": [
+        "2 courgettes",
+        "800 g de tomates multicolores",
+        "2 blocs de feta (400 g environ)",
+        "2 oignons rouges",
+        "4 pincées de romarin séché",
+        "Sel et poivre",
+        "Huile d'olive (Quanto basta)"
+      ]
+    }
+  ],
+  "steps": [
+    {
+      "text": "Préchauffer le four à 240°C. Laver les légumes. Couper les tomates en quartiers."
+    },
+    {
+      "text": "Couper les courgettes en demi-rondelles d'environ 0,5 cm."
+    },
+    {
+      "text": "Éplucher puis couper les oignons en quartiers."
+    },
+    {
+      "text": "Mettre les légumes dans un plat allant au four, saler, ajouter le romarin et un filet d'huile d'olive, puis mélanger."
+    },
+    {
+      "text": "Poser les blocs de feta sur le dessus, ajouter un filet d'huile d'olive dessus et poivrer."
+    },
+    {
+      "text": "Enfourner à 240°C jusqu'à ce que la feta soit bien dorée, environ 20 minutes."
+    },
+    {
+      "text": "Servir aussitôt avec une salade et un peu de pain pour saucer le tout."
+    }
+  ],
+  "source": "https://jow.fr/recipes/legumes-du-soleil-et-feta-rotis-8btrlh0t6b1jdzgp10ri",
+  "originalSource": {
+    "type": "url",
+    "data": "https://jow.fr/recipes/legumes-du-soleil-et-feta-rotis-8btrlh0t6b1jdzgp10ri"
+  },
+  "translations": {
+    "en": {
+      "title": "Roasted Summer Vegetables with Feta",
+      "description": "Courgettes, multicoloured tomatoes and red onion roasted in a very hot oven around a golden block of feta. A summery vegetarian dish to serve with bread for mopping up.",
+      "tags": [
+        "vegetables",
+        "feta",
+        "oven",
+        "one-pot",
+        "vegetarian",
+        "gluten-free",
+        "mediterranean",
+        "summer",
+        "light",
+        "easy",
+        "family-friendly",
+        "main-course",
+        "hot",
+        "sharing"
+      ],
+      "ingredients": [
+        {
+          "items": [
+            "2 courgettes",
+            "800 g multicoloured tomatoes",
+            "2 blocks of feta (about 400 g)",
+            "2 red onions",
+            "4 pinches of dried rosemary",
+            "Salt and pepper",
+            "Olive oil (Quanto basta)"
+          ]
+        }
+      ],
+      "steps": [
+        {
+          "text": "Preheat the oven to 240°C. Wash the vegetables. Cut the tomatoes into wedges."
+        },
+        {
+          "text": "Cut the courgettes into half-moons about 0.5 cm thick."
+        },
+        {
+          "text": "Peel and cut the onions into wedges."
+        },
+        {
+          "text": "Put the vegetables in an ovenproof dish, season with salt, add the rosemary and a drizzle of olive oil, then toss together."
+        },
+        {
+          "text": "Place the blocks of feta on top, drizzle them with olive oil and season with pepper."
+        },
+        {
+          "text": "Bake at 240°C until the feta is golden brown, about 20 minutes."
+        },
+        {
+          "text": "Serve straight away with a salad and some bread to mop up the juices."
+        }
+      ]
+    },
+    "it": {
+      "title": "Verdure estive e feta al forno",
+      "description": "Zucchine, pomodori multicolore e cipolla rossa arrostiti in forno caldissimo attorno a un blocco di feta dorato. Un piatto vegetariano estivo da servire con il pane per fare la scarpetta.",
+      "tags": [
+        "verdure",
+        "feta",
+        "forno",
+        "piatto-unico",
+        "vegetariano",
+        "senza-glutine",
+        "mediterraneo",
+        "estate",
+        "leggero",
+        "facile",
+        "tutta-la-famiglia",
+        "piatto-principale",
+        "caldo",
+        "da-condividere"
+      ],
+      "ingredients": [
+        {
+          "items": [
+            "2 zucchine",
+            "800 g di pomodori multicolore",
+            "2 blocchi di feta (circa 400 g)",
+            "2 cipolle rosse",
+            "4 pizzichi di rosmarino secco",
+            "Sale e pepe",
+            "Olio d'oliva (Quanto basta)"
+          ]
+        }
+      ],
+      "steps": [
+        {
+          "text": "Preriscaldare il forno a 240°C. Lavare le verdure. Tagliare i pomodori a spicchi."
+        },
+        {
+          "text": "Tagliare le zucchine a mezze rondelle di circa 0,5 cm."
+        },
+        {
+          "text": "Sbucciare e tagliare le cipolle a spicchi."
+        },
+        {
+          "text": "Mettere le verdure in una pirofila da forno, salare, aggiungere il rosmarino e un filo d'olio d'oliva, poi mescolare."
+        },
+        {
+          "text": "Adagiare sopra i blocchi di feta, irrorarli con un filo d'olio d'oliva e pepare."
+        },
+        {
+          "text": "Infornare a 240°C finché la feta non è ben dorata, circa 20 minuti."
+        },
+        {
+          "text": "Servire subito con un'insalata e un po' di pane per fare la scarpetta."
+        }
+      ]
+    }
+  }
+}
