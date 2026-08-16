@@ -5779,5 +5779,84 @@
         ]
       }
     }
+  },
+  {
+    "slug": "curry-legumes",
+    "title": "Curry de légumes",
+    "description": "Un curry de légumes facile et parfumé, avec des aubergines et des courgettes dorées puis mijotées dans du lait de coco et de la tomate, parsemé de noix de cajou grillées.",
+    "images": {
+      "cover": "images/recipes/curry-legumes/cover.jpg",
+      "web": "images/recipes/curry-legumes/web.jpg"
+    },
+    "imageCredit": {
+      "author": "iMattSmart",
+      "url": "https://unsplash.com/@imattsmart"
+    },
+    "prepTime": 25,
+    "cookTime": 35,
+    "servings": 4,
+    "difficulty": "Facile",
+    "category": "Secondi",
+    "tags": [
+      "mijoté",
+      "poêle",
+      "légumes",
+      "végétarien",
+      "plat-principal",
+      "asiatique",
+      "réconfortant",
+      "épicé",
+      "sans-gluten",
+      "sans-lactose",
+      "rapide",
+      "chaud",
+      "toute-la-famille",
+      "croquant"
+    ],
+    "origin": "pierrick",
+    "stepCount": 6,
+    "ingredientCount": 13,
+    "translations": {
+      "en": {
+        "title": "Vegetable Curry",
+        "description": "An easy and fragrant vegetable curry, with aubergine and courgette browned then simmered in coconut milk and tomato, scattered with toasted cashews.",
+        "tags": [
+          "simmered",
+          "pan",
+          "vegetables",
+          "vegetarian",
+          "main-course",
+          "asian",
+          "comforting",
+          "spicy",
+          "gluten-free",
+          "dairy-free",
+          "quick",
+          "hot",
+          "family-friendly",
+          "crunchy"
+        ]
+      },
+      "it": {
+        "title": "Curry di verdure",
+        "description": "Un curry di verdure facile e profumato, con melanzane e zucchine rosolate e poi cotte nel latte di cocco e nel pomodoro, con anacardi tostati.",
+        "tags": [
+          "stufato",
+          "padella",
+          "verdure",
+          "vegetariano",
+          "piatto-principale",
+          "asiatico",
+          "confortante",
+          "piccante",
+          "senza-glutine",
+          "senza-lattosio",
+          "veloce",
+          "caldo",
+          "tutta-la-famiglia",
+          "croccante"
+        ]
+      }
+    }
   }
 ]
