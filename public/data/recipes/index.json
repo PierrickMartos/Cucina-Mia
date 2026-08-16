@@ -5858,5 +5858,81 @@
         ]
       }
     }
+  },
+  {
+    "slug": "galette-banane",
+    "title": "Galette à la banane",
+    "description": "Une galette moelleuse à la banane écrasée et aux flocons d'avoine, dorée à la poêle dans un peu de beurre. Trois ingrédients, prête en dix minutes.",
+    "images": {
+      "cover": "images/recipes/galette-banane/cover.jpg",
+      "web": "images/recipes/galette-banane/web.jpg"
+    },
+    "imageCredit": {
+      "author": "Eiliv Aceron",
+      "url": "https://unsplash.com/@shootdelicious"
+    },
+    "prepTime": 5,
+    "cookTime": 8,
+    "servings": 1,
+    "difficulty": "Facile",
+    "category": "Breakfast",
+    "tags": [
+      "petit-déjeuner",
+      "rapide",
+      "facile",
+      "végétarien",
+      "poêle",
+      "fruits",
+      "moelleux",
+      "goûter",
+      "économique",
+      "sans-sucre",
+      "enfants",
+      "chaud",
+      "gourmand"
+    ],
+    "origin": "amelie",
+    "stepCount": 4,
+    "ingredientCount": 3,
+    "translations": {
+      "en": {
+        "title": "Banana Oat Pancake",
+        "description": "A soft pancake of mashed banana and oat flakes, browned in a pan with a little butter. Three ingredients, ready in ten minutes.",
+        "tags": [
+          "breakfast",
+          "quick",
+          "easy",
+          "vegetarian",
+          "pan",
+          "fruit",
+          "soft",
+          "snack",
+          "budget-friendly",
+          "sugar-free",
+          "kids",
+          "hot",
+          "indulgent"
+        ]
+      },
+      "it": {
+        "title": "Frittella di banana e avena",
+        "description": "Una frittella morbida di banana schiacciata e fiocchi d'avena, dorata in padella con un po' di burro. Tre ingredienti, pronta in dieci minuti.",
+        "tags": [
+          "colazione",
+          "veloce",
+          "facile",
+          "vegetariano",
+          "padella",
+          "frutta",
+          "morbido",
+          "merenda",
+          "economico",
+          "senza-zucchero",
+          "bambini",
+          "caldo",
+          "goloso"
+        ]
+      }
+    }
   }
 ]
