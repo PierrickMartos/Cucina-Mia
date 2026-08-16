@@ -140,4 +140,23 @@ describe("RecipePage", () => {
       expect(screen.getByTestId("recipes-page")).toBeInTheDocument()
     })
   })
+
+  it("renders the origin label as a link to the recipes page filtered by that origin", async () => {
+    globalThis.fetch = async () =>
+      ({ ok: true, json: async () => ({ ...mockRecipe, origin: "amelie" }) }) as Response
+    renderRecipePage("pasta-carbonara")
+    await waitFor(() => {
+      expect(screen.getByText("Amélie's recipe")).toBeInTheDocument()
+    })
+    const originLink = screen.getByText("Amélie's recipe").closest("a")!
+    expect(originLink).toHaveAttribute("href", "/recipes?origin=amelie")
+  })
+
+  it("renders no origin label when the recipe has no origin", async () => {
+    renderRecipePage("pasta-carbonara")
+    await waitFor(() => {
+      expect(screen.getByText("Pasta alla Carbonara")).toBeInTheDocument()
+    })
+    expect(screen.queryByText(/'s recipe/)).not.toBeInTheDocument()
+  })
 })
