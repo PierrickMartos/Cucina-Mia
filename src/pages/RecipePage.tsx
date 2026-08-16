@@ -408,9 +408,12 @@ export function RecipePage() {
           {t(`categories.${recipe.category}`, recipe.category)}
         </span>
         {recipe.origin && recipe.origin !== "none" && (
-          <span className="block text-[10px] uppercase tracking-[0.15em] text-muted-foreground mt-1">
+          <Link
+            to={`/recipes?origin=${encodeURIComponent(recipe.origin)}`}
+            className="block text-[10px] uppercase tracking-[0.15em] text-muted-foreground mt-1 hover:text-primary transition-colors"
+          >
             {t(`origins.${recipe.origin}`, recipe.origin)}
-          </span>
+          </Link>
         )}
 
         {/* Title */}
