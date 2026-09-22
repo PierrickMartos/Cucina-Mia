@@ -1,0 +1,191 @@
+{
+  "slug": "four-tomates-aubergines-courgettes-pesto",
+  "title": "Légumes Méditerranéens Rôtis au Pesto",
+  "description": "Une plaque de légumes méditerranéens (tomates, aubergines et courgettes) rôtis au four et nappés de pesto basilic maison, servis avec de la mozzarella di bufala.",
+  "images": {
+    "cover": "images/recipes/four-tomates-aubergines-courgettes-pesto/cover.jpg",
+    "web": "images/recipes/four-tomates-aubergines-courgettes-pesto/web.jpg"
+  },
+  "imageCredit": {
+    "id": "8027678",
+    "user": "Mondgesicht",
+    "pageURL": "https://pixabay.com/photos/vegetable-pan-grilled-vegetables-8027678/"
+  },
+  "prepTime": 15,
+  "cookTime": 20,
+  "servings": 4,
+  "difficulty": "Facile",
+  "category": "Secondi",
+  "tags": [
+    "four",
+    "végétarien",
+    "légumes",
+    "pesto",
+    "méditerranéen",
+    "été",
+    "plat-principal",
+    "sans-gluten",
+    "mozzarella",
+    "rapide"
+  ],
+  "ingredients": [
+    {
+      "items": [
+        "3 tomates",
+        "1 aubergine",
+        "2 courgettes",
+        "3 c. à soupe d'huile d'olive",
+        "2 pincées de fleur de sel",
+        "1 c. à café de miel liquide",
+        "15 feuilles de basilic frais",
+        "1 c. à soupe de vinaigre (balsamique ou de vin blanc)",
+        "Mozzarella di bufala q.s.",
+        "Sel et poivre q.s."
+      ]
+    }
+  ],
+  "steps": [
+    {
+      "text": "Préchauffer le four à 190°C."
+    },
+    {
+      "text": "Couper les tomates en 4, les aubergines en 16 et les courgettes en 8 (les morceaux doivent être des multiples de 4 pour une cuisson homogène). Disposer tous les légumes sur une plaque de cuisson."
+    },
+    {
+      "text": "Arroser d'huile d'olive, ajouter 2 pincées de fleur de sel et 1 cuillerée à café de miel liquide. Masser les légumes avec les mains pour bien les enrober."
+    },
+    {
+      "text": "Enfourner pendant 20 minutes, jusqu'à ce que les légumes soient tendres sous le couteau."
+    },
+    {
+      "text": "Pendant ce temps, préparer le pesto express : mixer 15 feuilles de basilic avec 3 cuillerées à soupe d'huile d'olive et 1 cuillerée à soupe de vinaigre. Saler."
+    },
+    {
+      "text": "Servir les légumes rôtis avec quelques cuillerées de pesto basilic et de beaux morceaux de mozzarella di bufala. À table !"
+    }
+  ],
+  "tips": [
+    "Couper les légumes en multiples de 4 assure une taille cohérente et une cuisson uniforme.",
+    "Le miel apporte une légère caramélisation et équilibre l'acidité des tomates.",
+    "Le pesto peut être préparé à l'avance et conservé au réfrigérateur dans un bocal hermétique recouvert d'un filet d'huile d'olive.",
+    "Pour une version végétalienne, remplacer la mozzarella par des noix de cajou ou simplement omettre le fromage."
+  ],
+  "translations": {
+    "en": {
+      "title": "Roasted Mediterranean Vegetables with Pesto",
+      "description": "A sheet pan of Mediterranean vegetables (tomatoes, eggplant and zucchini) roasted in the oven and topped with homemade basil pesto, served with mozzarella di bufala.",
+      "tags": [
+        "oven",
+        "vegetarian",
+        "vegetables",
+        "pesto",
+        "mediterranean",
+        "summer",
+        "main-course",
+        "gluten-free",
+        "mozzarella",
+        "quick"
+      ],
+      "ingredients": [
+        {
+          "items": [
+            "3 tomatoes",
+            "1 eggplant (aubergine)",
+            "2 zucchini",
+            "3 tbsp olive oil",
+            "2 pinches of fleur de sel",
+            "1 tsp liquid honey",
+            "15 fresh basil leaves",
+            "1 tbsp vinegar (balsamic or white wine)",
+            "Mozzarella di bufala to taste",
+            "Salt and pepper to taste"
+          ]
+        }
+      ],
+      "steps": [
+        {
+          "text": "Preheat the oven to 190°C (375°F)."
+        },
+        {
+          "text": "Cut the tomatoes into 4, the eggplant into 16 pieces and the zucchini into 8 pieces (multiples of 4 for even cooking). Arrange all the vegetables on a baking sheet."
+        },
+        {
+          "text": "Drizzle with olive oil, add 2 pinches of fleur de sel and 1 teaspoon of liquid honey. Massage the vegetables with your hands to coat them well."
+        },
+        {
+          "text": "Roast for 20 minutes, until the vegetables are tender when pierced with a knife."
+        },
+        {
+          "text": "Meanwhile, prepare the quick pesto: blend 15 basil leaves with 3 tablespoons of olive oil and 1 tablespoon of vinegar. Season with salt."
+        },
+        {
+          "text": "Serve the roasted vegetables with a few spoonfuls of basil pesto and generous pieces of mozzarella di bufala. Enjoy!"
+        }
+      ],
+      "tips": [
+        "Cutting vegetables in multiples of 4 ensures consistent size and even cooking.",
+        "The honey adds a light caramelisation and balances the acidity of the tomatoes.",
+        "The pesto can be prepared ahead and stored in the fridge in an airtight jar covered with a drizzle of olive oil.",
+        "For a vegan version, replace the mozzarella with cashews or simply omit the cheese."
+      ]
+    },
+    "it": {
+      "title": "Verdure Mediterranee al Forno con Pesto",
+      "description": "Una teglia di verdure mediterranee (pomodori, melanzane e zucchine) arrostite al forno e condite con pesto di basilico fatto in casa, servite con mozzarella di bufala.",
+      "tags": [
+        "forno",
+        "vegetariano",
+        "verdure",
+        "pesto",
+        "mediterraneo",
+        "estate",
+        "piatto-principale",
+        "senza-glutine",
+        "mozzarella",
+        "veloce"
+      ],
+      "ingredients": [
+        {
+          "items": [
+            "3 pomodori",
+            "1 melanzana",
+            "2 zucchine",
+            "3 cucchiai di olio extravergine d'oliva",
+            "2 pizzichi di fleur de sel",
+            "1 cucchiaino di miele liquido",
+            "15 foglie di basilico fresco",
+            "1 cucchiaio di aceto (balsamico o di vino bianco)",
+            "Mozzarella di bufala q.b.",
+            "Sale e pepe q.b."
+          ]
+        }
+      ],
+      "steps": [
+        {
+          "text": "Preriscaldare il forno a 190°C."
+        },
+        {
+          "text": "Tagliare i pomodori in 4, le melanzane in 16 pezzi e le zucchine in 8 pezzi (multipli di 4 per una cottura uniforme). Disporre tutte le verdure su una teglia da forno."
+        },
+        {
+          "text": "Condire con olio d'oliva, aggiungere 2 pizzichi di fleur de sel e 1 cucchiaino di miele liquido. Massaggiare le verdure con le mani per ricoprirle bene."
+        },
+        {
+          "text": "Infornare per 20 minuti, finché le verdure sono tenere sotto il coltello."
+        },
+        {
+          "text": "Nel frattempo, preparare il pesto veloce: frullare 15 foglie di basilico con 3 cucchiai di olio d'oliva e 1 cucchiaio di aceto. Salare."
+        },
+        {
+          "text": "Servire le verdure arrostite con qualche cucchiaio di pesto al basilico e bei pezzi di mozzarella di bufala. A tavola!"
+        }
+      ],
+      "tips": [
+        "Tagliare le verdure in multipli di 4 garantisce dimensioni uniformi e una cottura omogenea.",
+        "Il miele aggiunge una leggera caramellizzazione e bilancia l'acidità dei pomodori.",
+        "Il pesto può essere preparato in anticipo e conservato in frigo in un barattolo ermetico coperto con un filo d'olio d'oliva.",
+        "Per una versione vegana, sostituire la mozzarella con anacardi o semplicemente omettere il formaggio."
+      ]
+    }
+  }
+}

@@ -1,0 +1,159 @@
+{
+  "slug": "flan-a-la-ratatouille",
+  "title": "Flan à la ratatouille",
+  "description": "Un flan salé tout simple qui cache la ratatouille dans un appareil crémeux aux œufs, gratiné au fromage râpé. Quatre ingrédients et le four fait le reste.",
+  "images": {
+    "cover": "images/recipes/flan-a-la-ratatouille/cover.jpg",
+    "web": "images/recipes/flan-a-la-ratatouille/web.jpg"
+  },
+  "imageCredit": {
+    "author": "Compagnons",
+    "url": "https://unsplash.com/@sigmund"
+  },
+  "prepTime": 4,
+  "cookTime": 40,
+  "servings": 4,
+  "difficulty": "Facile",
+  "category": "Secondi",
+  "tags": [
+    "légumes",
+    "œufs",
+    "four",
+    "végétarien",
+    "sans-gluten",
+    "enfants",
+    "toute-la-famille",
+    "facile",
+    "5-ingrédients",
+    "français",
+    "plat-principal",
+    "réconfortant",
+    "chaud",
+    "restes-bienvenus"
+  ],
+  "ingredients": [
+    {
+      "items": [
+        "400 g de ratatouille",
+        "4 œufs",
+        "200 ml de crème liquide",
+        "40 g de fromage râpé",
+        "Beurre pour le plat",
+        "Sel et poivre"
+      ]
+    }
+  ],
+  "steps": [
+    {
+      "text": "Préchauffer le four à 180°C. Dans un saladier, casser les œufs. Ajouter la crème liquide, puis fouetter le tout à la fourchette ou au fouet. Saler et poivrer."
+    },
+    {
+      "text": "Ajouter la ratatouille, puis mélanger afin de bien l'incorporer à la préparation."
+    },
+    {
+      "text": "Beurrer un plat allant au four d'environ 29 cm de diamètre, puis y verser la préparation. Parsemer de fromage râpé, puis enfourner 40 minutes à 180°C."
+    },
+    {
+      "text": "Une fois le dessus bien doré et le fromage fondu, sortir le plat du four et servir le flan accompagné d'une salade verte."
+    }
+  ],
+  "source": "https://jow.fr/recipes/flan-a-la-ratatouille-8ewo4ttkbu50758u100z",
+  "originalSource": {
+    "type": "url",
+    "data": "https://jow.fr/recipes/flan-a-la-ratatouille-8ewo4ttkbu50758u100z"
+  },
+  "translations": {
+    "en": {
+      "title": "Ratatouille Baked Custard",
+      "description": "A very simple savoury flan that hides ratatouille inside a creamy egg custard, topped with melted cheese. Four ingredients and the oven does the rest.",
+      "tags": [
+        "vegetables",
+        "eggs",
+        "oven",
+        "vegetarian",
+        "gluten-free",
+        "kids",
+        "family-friendly",
+        "easy",
+        "5-ingredients",
+        "french",
+        "main-course",
+        "comfort-food",
+        "hot",
+        "leftovers-friendly"
+      ],
+      "ingredients": [
+        {
+          "items": [
+            "400 g ratatouille",
+            "4 eggs",
+            "200 ml single cream",
+            "40 g grated cheese",
+            "Butter for the dish",
+            "Salt and pepper"
+          ]
+        }
+      ],
+      "steps": [
+        {
+          "text": "Preheat the oven to 180°C. Crack the eggs into a bowl. Add the cream, then whisk everything with a fork or a whisk. Season with salt and pepper."
+        },
+        {
+          "text": "Add the ratatouille, then stir to fold it thoroughly into the mixture."
+        },
+        {
+          "text": "Butter an ovenproof dish about 29 cm across, then pour in the mixture. Scatter over the grated cheese and bake for 40 minutes at 180°C."
+        },
+        {
+          "text": "Once the top is golden and the cheese has melted, take the dish out of the oven and serve the flan with a green salad."
+        }
+      ]
+    },
+    "it": {
+      "title": "Sformato di ratatouille",
+      "description": "Uno sformato salato semplicissimo che nasconde la ratatouille in un composto cremoso di uova, gratinato con formaggio grattugiato. Quattro ingredienti e il forno fa il resto.",
+      "tags": [
+        "verdure",
+        "uova",
+        "forno",
+        "vegetariano",
+        "senza-glutine",
+        "bambini",
+        "tutta-la-famiglia",
+        "facile",
+        "5-ingredienti",
+        "francese",
+        "piatto-principale",
+        "confortante",
+        "caldo",
+        "avanzi-benvenuti"
+      ],
+      "ingredients": [
+        {
+          "items": [
+            "400 g di ratatouille",
+            "4 uova",
+            "200 ml di panna liquida",
+            "40 g di formaggio grattugiato",
+            "Burro per la pirofila",
+            "Sale e pepe"
+          ]
+        }
+      ],
+      "steps": [
+        {
+          "text": "Preriscaldare il forno a 180°C. In una ciotola, rompere le uova. Aggiungere la panna liquida, poi sbattere il tutto con una forchetta o una frusta. Salare e pepare."
+        },
+        {
+          "text": "Aggiungere la ratatouille, poi mescolare per incorporarla bene al composto."
+        },
+        {
+          "text": "Imburrare una pirofila da forno di circa 29 cm di diametro, poi versarvi il composto. Cospargere di formaggio grattugiato e infornare per 40 minuti a 180°C."
+        },
+        {
+          "text": "Quando la superficie è ben dorata e il formaggio è fuso, sfornare e servire lo sformato accompagnato da un'insalata verde."
+        }
+      ]
+    }
+  }
+}

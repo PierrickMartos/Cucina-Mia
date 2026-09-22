@@ -1,0 +1,191 @@
+{
+  "slug": "risotto-champignons-foie-gras-noisettes",
+  "title": "Risotto aux Champignons Sauvages, Foie Gras et Noisettes",
+  "description": "Un risotto d'exception aux champignons sauvages, couronné de tranches de foie gras mi-cuit et de noisettes torréfiées.",
+  "images": {
+    "cover": "images/recipes/risotto-champignons-foie-gras-noisettes/cover.jpg",
+    "web": "images/recipes/risotto-champignons-foie-gras-noisettes/web.jpg"
+  },
+  "imageCredit": {
+    "id": "5894347",
+    "author": "katiklinski",
+    "url": "https://pixabay.com/photos/risotto-meal-food-dish-5894347/"
+  },
+  "prepTime": 15,
+  "cookTime": 25,
+  "servings": 4,
+  "difficulty": "Medio",
+  "category": "Risotto",
+  "tags": [
+    "riz",
+    "risotto",
+    "champignons",
+    "foie-gras",
+    "noisettes",
+    "festif",
+    "automne",
+    "plat-principal",
+    "français",
+    "gourmand"
+  ],
+  "ingredients": [
+    {
+      "items": [
+        "200g de riz arborio",
+        "80g de champignons sauvages déshydratés (cèpes, girolles)",
+        "200g de foie gras mi-cuit",
+        "1 oignon",
+        "20cl de vin blanc moelleux",
+        "1L de bouillon de poulet",
+        "100g de parmesan râpé",
+        "15 noisettes torréfiées",
+        "20g de matière grasse (beurre ou huile d'olive)",
+        "Sel, poivre q.s."
+      ]
+    }
+  ],
+  "steps": [
+    {
+      "text": "Réhydrater les champignons dans de l'eau chaude pendant 20 minutes. Les égoutter et les réserver."
+    },
+    {
+      "text": "Peler l'oignon et l'émincer finement. Dans une sauteuse, faire revenir l'oignon dans la matière grasse. Ajouter le riz et, lorsqu'il est devenu translucide, mouiller avec le vin blanc. Laisser le vin s'évaporer en mélangeant régulièrement."
+    },
+    {
+      "text": "Mouiller avec une première louche de bouillon. Dès que celui-ci a été absorbé, verser le reste du bouillon de poulet en plusieurs fois jusqu'à ce que le riz soit parfaitement cuit. Compter environ 18 minutes de cuisson. Ne cesser pas de remuer."
+    },
+    {
+      "text": "10 minutes avant la fin de la cuisson, ajouter les champignons égouttés et poursuivre la cuisson en remuant régulièrement."
+    },
+    {
+      "text": "Une fois le riz cuit, ajouter le parmesan et les noisettes concassées hors du feu. Remuer et rectifier l'assaisonnement si nécessaire. Couvrir et laisser reposer 2 minutes."
+    },
+    {
+      "text": "Ajouter le foie gras en petits morceaux sur le risotto chaud au moment de servir. Déguster bien chaud."
+    }
+  ],
+  "tips": [
+    "Ne pas rincer le riz arborio avant la cuisson : l'amidon est essentiel pour obtenir un risotto crémeux.",
+    "Le bouillon doit être chaud lorsqu'on l'ajoute au risotto pour ne pas stopper la cuisson.",
+    "Le foie gras se fond doucement dans le risotto chaud : inutile de le cuire séparément.",
+    "Pour une version plus légère, remplacer le foie gras par des lamelles de magret fumé."
+  ],
+  "translations": {
+    "en": {
+      "title": "Wild Mushroom Risotto with Foie Gras and Hazelnuts",
+      "description": "An exceptional risotto with wild mushrooms, crowned with slices of mi-cuit foie gras and toasted hazelnuts.",
+      "tags": [
+        "rice",
+        "risotto",
+        "mushrooms",
+        "foie-gras",
+        "hazelnuts",
+        "festive",
+        "autumn",
+        "main-course",
+        "french",
+        "indulgent"
+      ],
+      "ingredients": [
+        {
+          "items": [
+            "200g arborio rice",
+            "80g dried wild mushrooms (porcini, chanterelles)",
+            "200g mi-cuit foie gras",
+            "1 onion",
+            "200ml sweet white wine",
+            "1L chicken stock",
+            "100g grated parmesan",
+            "15 toasted hazelnuts",
+            "20g fat (butter or olive oil)",
+            "Salt and pepper to taste"
+          ]
+        }
+      ],
+      "steps": [
+        {
+          "text": "Rehydrate the mushrooms in hot water for 20 minutes. Drain and set aside."
+        },
+        {
+          "text": "Peel and finely chop the onion. In a sauté pan, cook the onion in the fat until soft. Add the rice and, once it becomes translucent, deglaze with the white wine. Let the wine evaporate, stirring regularly."
+        },
+        {
+          "text": "Add the first ladle of stock. Once absorbed, continue adding the stock in several batches, stirring constantly, until the rice is perfectly cooked, about 18 minutes total."
+        },
+        {
+          "text": "10 minutes before the end of cooking, add the drained mushrooms and continue cooking while stirring regularly."
+        },
+        {
+          "text": "Once the rice is cooked, remove from heat and stir in the parmesan and crushed hazelnuts. Season to taste and cover. Rest for 2 minutes."
+        },
+        {
+          "text": "Add the foie gras in small pieces over the hot risotto just before serving. Enjoy immediately."
+        }
+      ],
+      "tips": [
+        "Do not rinse the arborio rice before cooking: the starch is essential for a creamy risotto.",
+        "The stock should be hot when added to the risotto to avoid stopping the cooking process.",
+        "The foie gras melts gently into the hot risotto: no need to cook it separately.",
+        "For a lighter version, replace the foie gras with slices of smoked duck breast."
+      ]
+    },
+    "it": {
+      "title": "Risotto ai Funghi Selvatici, Foie Gras e Nocciole",
+      "description": "Un risotto d'eccezione ai funghi selvatici, coronato da fettine di foie gras mi-cuit e nocciole tostate.",
+      "tags": [
+        "riso",
+        "risotto",
+        "funghi",
+        "foie-gras",
+        "nocciole",
+        "festivo",
+        "autunno",
+        "primo-piatto",
+        "francese",
+        "goloso"
+      ],
+      "ingredients": [
+        {
+          "items": [
+            "200g di riso arborio",
+            "80g di funghi selvatici essiccati (porcini, finferli)",
+            "200g di foie gras mi-cuit",
+            "1 cipolla",
+            "200ml di vino bianco dolce",
+            "1L di brodo di pollo",
+            "100g di parmigiano grattugiato",
+            "15 nocciole tostate",
+            "20g di materia grassa (burro o olio d'oliva)",
+            "Sale e pepe q.b."
+          ]
+        }
+      ],
+      "steps": [
+        {
+          "text": "Reidratare i funghi in acqua calda per 20 minuti. Scolarli e tenerli da parte."
+        },
+        {
+          "text": "Sbucciare e tritare finemente la cipolla. In una padella, far rosolare la cipolla nel grasso. Aggiungere il riso e, quando è diventato traslucido, sfumare con il vino bianco. Lasciare evaporare il vino mescolando regolarmente."
+        },
+        {
+          "text": "Aggiungere il primo mestolo di brodo. Una volta assorbito, continuare ad aggiungere il brodo a mestoli, mescolando costantemente, finché il riso non è perfettamente cotto, circa 18 minuti in totale."
+        },
+        {
+          "text": "10 minuti prima della fine della cottura, aggiungere i funghi scolati e continuare la cottura mescolando regolarmente."
+        },
+        {
+          "text": "Una volta cotto il riso, togliere dal fuoco e mantecare con il parmigiano e le nocciole tritate. Regolare di sale e pepe, coprire e lasciare riposare 2 minuti."
+        },
+        {
+          "text": "Aggiungere il foie gras a pezzetti sul risotto caldo al momento di servire. Gustare subito ben caldo."
+        }
+      ],
+      "tips": [
+        "Non sciacquare il riso arborio prima della cottura: l'amido è essenziale per ottenere un risotto cremoso.",
+        "Il brodo deve essere caldo quando viene aggiunto al risotto per non interrompere la cottura.",
+        "Il foie gras si scioglie delicatamente nel risotto caldo: non è necessario cuocerlo separatamente.",
+        "Per una versione più leggera, sostituire il foie gras con fettine di petto d'anatra affumicato."
+      ]
+    }
+  }
+}

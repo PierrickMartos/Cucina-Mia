@@ -1,0 +1,209 @@
+{
+  "slug": "pasta-tartuffo",
+  "title": "Pasta tartuffo",
+  "description": "Les fameuses pâtes à la truffe de Big Mamma, crémeuses au mascarpone, parmesan et champignons de Paris.",
+  "images": {
+    "cover": "images/recipes/pasta-tartuffo/cover.jpg",
+    "web": "images/recipes/pasta-tartuffo/web.jpg"
+  },
+  "prepTime": 15,
+  "cookTime": 20,
+  "servings": 4,
+  "difficulty": "Facile",
+  "category": "Pasta",
+  "tags": [
+    "pâtes",
+    "truffe",
+    "champignons",
+    "fromage",
+    "italien",
+    "rapide",
+    "facile",
+    "plat-principal",
+    "onctueux",
+    "gourmand",
+    "chaud",
+    "végétarien"
+  ],
+  "ingredients": [
+    {
+      "items": [
+        "400 g de mafaldina ou, à défaut, des tagliatelle",
+        "20 g de truffe noire fraîche",
+        "80 g de mascarpone",
+        "1/2 échalote",
+        "200 g de champignons de Paris",
+        "3 cl de vin blanc",
+        "20 g de beurre",
+        "2 c. à s. d'huile de truffe",
+        "70 g de parmesan râpé (Quanto basta)"
+      ]
+    }
+  ],
+  "steps": [
+    {
+      "text": "Faites fondre le beurre avec l'huile de truffe dans une sauteuse à fond épais."
+    },
+    {
+      "text": "Ajoutez l'échalote et la moitié de la truffe hachées, puis les champignons de Paris émincés."
+    },
+    {
+      "text": "Laissez revenir quelques minutes, puis déglacez au vin blanc en remuant bien avec une spatule en bois pour décoller tous les sucs."
+    },
+    {
+      "text": "Laissez cuire à feu doux pendant 10 minutes, puis mixez pour obtenir la crème de truffes."
+    },
+    {
+      "text": "Dans une autre casserole, faites cuire les pâtes un peu moins qu'al dente dans de l'eau bouillante salée."
+    },
+    {
+      "text": "Mélangez le mascarpone et la crème de truffes dans une casserole, puis faites chauffer doucement."
+    },
+    {
+      "text": "Ajoutez les pâtes, le parmesan râpé et un peu d'eau de cuisson si besoin."
+    },
+    {
+      "text": "Dressez sans tarder, en déposant sur le dessus de fines tranches de truffe, idéalement avec une râpe à truffes ou sinon un économe."
+    }
+  ],
+  "tips": [
+    "Si vous n'avez pas le temps de faire la crème de truffes, vous en trouverez de très bonnes déjà préparées dans des épiceries, bio de préférence et avec de la vraie truffe.",
+    "La mafaldina est fortement recommandée pour cette recette."
+  ],
+  "history": "Quand Big Mamma a ouvert son premier restaurant, l'équipe a mis ce plat à la carte avec quelques doutes, car c'était de loin le plus cher. Il est depuis devenu le plat le plus demandé, encore plus que la pizza margherita.",
+  "source": "Issue GitHub #53 - Big Mamma Book, p. 204",
+  "originalSource": {
+    "type": "image",
+    "data": "images/recipes/pasta-tartuffo/source.jpg"
+  },
+  "translations": {
+    "en": {
+      "title": "Truffle Pasta",
+      "description": "Big Mamma's famous truffle pasta, creamy with mascarpone, parmesan and button mushrooms.",
+      "tags": [
+        "pasta",
+        "truffle",
+        "mushrooms",
+        "cheese",
+        "italian",
+        "quick",
+        "easy",
+        "main-course",
+        "creamy",
+        "indulgent",
+        "hot",
+        "vegetarian"
+      ],
+      "ingredients": [
+        {
+          "items": [
+            "400 g mafaldina or, failing that, tagliatelle",
+            "20 g fresh black truffle",
+            "80 g mascarpone",
+            "1/2 shallot",
+            "200 g button mushrooms",
+            "3 cl white wine",
+            "20 g butter",
+            "2 tbsp truffle oil",
+            "70 g grated parmesan (Quanto basta)"
+          ]
+        }
+      ],
+      "steps": [
+        {
+          "text": "Melt the butter with the truffle oil in a heavy-bottomed saute pan."
+        },
+        {
+          "text": "Add the chopped shallot and half of the chopped truffle, then the sliced button mushrooms."
+        },
+        {
+          "text": "Cook for a few minutes, then deglaze with the white wine, stirring well with a wooden spatula to loosen all the browned bits."
+        },
+        {
+          "text": "Cook over low heat for 10 minutes, then blend to make the truffle cream."
+        },
+        {
+          "text": "In another saucepan, cook the pasta a little less than al dente in boiling salted water."
+        },
+        {
+          "text": "Mix the mascarpone and truffle cream in a saucepan, then warm gently."
+        },
+        {
+          "text": "Add the pasta, grated parmesan and a little cooking water if needed."
+        },
+        {
+          "text": "Plate immediately, topping with thin slices of truffle, ideally using a truffle slicer or otherwise a vegetable peeler."
+        }
+      ],
+      "tips": [
+        "If you do not have time to make the truffle cream, you can find very good ready-made versions in grocery stores, preferably organic and made with real truffle.",
+        "Mafaldina is strongly recommended for this recipe."
+      ],
+      "history": "When Big Mamma opened its first restaurant, the team put this dish on the menu with some doubts because it was by far the most expensive. It has since become the most requested dish, even more than the pizza margherita."
+    },
+    "it": {
+      "title": "Pasta al tartufo",
+      "description": "La famosa pasta al tartufo di Big Mamma, cremosa con mascarpone, parmigiano e champignon.",
+      "tags": [
+        "pasta",
+        "tartufo",
+        "funghi",
+        "formaggio",
+        "italiano",
+        "veloce",
+        "facile",
+        "primo-piatto",
+        "cremoso",
+        "goloso",
+        "caldo",
+        "vegetariano"
+      ],
+      "ingredients": [
+        {
+          "items": [
+            "400 g di mafaldina o, in alternativa, tagliatelle",
+            "20 g di tartufo nero fresco",
+            "80 g di mascarpone",
+            "1/2 scalogno",
+            "200 g di champignon",
+            "3 cl di vino bianco",
+            "20 g di burro",
+            "2 cucchiai di olio al tartufo",
+            "70 g di parmigiano grattugiato (Quanto basta)"
+          ]
+        }
+      ],
+      "steps": [
+        {
+          "text": "Fate sciogliere il burro con l'olio al tartufo in una padella a fondo spesso."
+        },
+        {
+          "text": "Aggiungete lo scalogno e metà del tartufo tritati, poi gli champignon affettati."
+        },
+        {
+          "text": "Lasciate insaporire per qualche minuto, poi sfumate con il vino bianco mescolando bene con una spatola di legno per staccare tutti i succhi."
+        },
+        {
+          "text": "Lasciate cuocere a fuoco dolce per 10 minuti, poi frullate per ottenere la crema di tartufo."
+        },
+        {
+          "text": "In un'altra casseruola, cuocete la pasta un po' meno che al dente in acqua bollente salata."
+        },
+        {
+          "text": "Mescolate il mascarpone e la crema di tartufo in una casseruola, poi scaldate dolcemente."
+        },
+        {
+          "text": "Aggiungete la pasta, il parmigiano grattugiato e un po' di acqua di cottura se necessario."
+        },
+        {
+          "text": "Impiattate subito, disponendo sopra fettine sottili di tartufo, idealmente con un affettatartufi o altrimenti con un pelapatate."
+        }
+      ],
+      "tips": [
+        "Se non avete tempo di preparare la crema al tartufo, ne troverete di ottime già pronte nelle gastronomie, preferibilmente biologiche e con vero tartufo.",
+        "La mafaldina è fortemente consigliata per questa ricetta."
+      ],
+      "history": "Quando Big Mamma ha aperto il suo primo ristorante, il team ha inserito questo piatto in menu con qualche dubbio, perché era di gran lunga il più caro. Da allora è diventato il piatto più richiesto, ancora più della pizza margherita."
+    }
+  }
+}
