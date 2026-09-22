@@ -1,6 +1,6 @@
 import { describe, it, expect } from "vitest"
 import { editDistance, normalize, stem, tokenize } from "@/lib/search/text"
-import { LexicalIndex, buildSearchDocuments, mergeResults, parseSearchExtras } from "@/lib/search"
+import { LexicalIndex, applyConstraints, buildSearchDocuments, buildTagAliases, mergeResults, parseQuery, parseSearchExtras } from "@/lib/search"
 import { parseEmbeddings, rankBySimilarity, selectSemanticHits } from "@/lib/search/semantic"
 import type { RecipeSummary } from "@/types/recipe"
 
@@ -50,8 +50,9 @@ const extras = parseSearchExtras([
   { slug: "unknown-shape" },
 ])
 
-const index = new LexicalIndex(buildSearchDocuments(recipes, extras))
-const search = (query: string) => index.search(query).hits.map((hit) => hit.slug)
+const index = new LexicalIndex(buildSearchDocuments(recipes, extras), buildTagAliases(recipes))
+const run = (query: string) => index.search(parseQuery(query))
+const search = (query: string) => run(query).hits.map((hit) => hit.slug)
 
 describe("text helpers", () => {
   it("normalises accents, ligatures and punctuation", () => {
@@ -118,11 +119,64 @@ describe("lexical search", () => {
 
   it("ranks title matches above description matches", () => {
     expect(search("curry")[0]).not.toBe("pasta-carbonara")
-    expect(index.search("carbonara").hits[0].exact).toBe(true)
+    expect(run("carbonara").hits[0].exact).toBe(true)
   })
 
   it("reports queries without meaningful terms", () => {
-    expect(index.search("de la").termCount).toBe(0)
+    expect(run("de la").termCount).toBe(0)
+  })
+})
+
+describe("query understanding", () => {
+  it("drops filler words and maps origins to cuisine tags", () => {
+    const parsed = parseQuery("recettes qui proviennent de l'Inde avec poulet")
+    expect(parsed.terms.map((t) => t.stems)).toEqual([["inde", "indien"], ["poulet"]])
+  })
+
+  it("expands dish families", () => {
+    expect(parseQuery("curry").terms[0].stems).toEqual(expect.arrayContaining(["curry", "korm", "tikk"]))
+  })
+
+  it("parses durations and difficulty", () => {
+    expect(parseQuery("dessert facile en moins de 30 minutes")).toMatchObject({
+      terms: [{ stems: ["dessert"] }],
+      maxMinutes: 30,
+      difficulty: "Facile",
+    })
+    expect(parseQuery("prêt en 1h30").maxMinutes).toBe(90)
+    expect(parseQuery("under 20 min").maxMinutes).toBe(20)
+  })
+
+  it("understands negations", () => {
+    expect(parseQuery("pâtes sans porc").exclude[0].stems).toEqual(expect.arrayContaining(["porc", "jambon"]))
+    expect(parseQuery("plat sans viande").terms.map((t) => t.stems)).toEqual([["vegetarien"]])
+    expect(parseQuery("sans gluten").exclude).toEqual([])
+    expect(parseQuery("sans gluten").terms).toHaveLength(2)
+  })
+
+  it("excludes negated ingredients but not description mentions", () => {
+    expect(search("sans porc")).toEqual([])
+    const parsed = parseQuery("sans porc")
+    const { excluded } = index.search(parsed)
+    expect(applyConstraints(null, recipes, parsed, excluded)).not.toContain("pasta-carbonara")
+    expect(applyConstraints(null, recipes, parsed, excluded)).toContain("tiramisu")
+  })
+
+  it("filters on duration and difficulty", () => {
+    const quick = [recipe("a", { prepTime: 5, cookTime: 10 }), recipe("b", { prepTime: 30, cookTime: 30, difficulty: "Medio" })]
+    const parsed = parseQuery("en moins de 20 minutes")
+    expect(applyConstraints(null, quick, parsed, new Set())).toEqual(["a"])
+    expect(applyConstraints(null, quick, parseQuery("moyen"), new Set())).toEqual(["b"])
+    expect(applyConstraints(["b", "a"], quick, parseQuery("poulet"), new Set())).toEqual(["b", "a"])
+  })
+
+  it("learns cross-language aliases from aligned tags", () => {
+    const aliases = buildTagAliases([
+      recipe("x", { tags: ["rapide", "réconfortant"], translations: { en: { tags: ["fast", "comfort-food"] } } }),
+    ])
+    expect(aliases.get("fast")).toEqual(["rapid"])
+    expect(aliases.get("comfort")).toEqual(["reconfortant"])
+    expect(aliases.has("rapid")).toBe(false)
   })
 })
 
@@ -174,10 +228,10 @@ describe("semantic search", () => {
 })
 
 describe("hybrid merge", () => {
-  const lexical = index.search("curry")
+  const lexical = run("curry")
 
   it("returns null when there is nothing to filter on", () => {
-    expect(mergeResults(index.search("le"), null)).toBeNull()
+    expect(mergeResults(run("le"), null)).toBeNull()
   })
 
   it("falls back to lexical results without semantic hits", () => {

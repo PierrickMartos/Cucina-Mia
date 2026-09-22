@@ -1,4 +1,5 @@
-import { editDistance, normalize, stem, tokenize } from "./text"
+import { editDistance, stem, tokenize } from "./text"
+import type { ParsedQuery, QueryTerm } from "./query"
 
 export type SearchField = "title" | "tags" | "category" | "ingredients" | "description"
 
@@ -20,6 +21,8 @@ export interface LexicalResult {
   hits: LexicalHit[]
   /** Number of meaningful terms in the query (0 means "no filtering"). */
   termCount: number
+  /** Recipes removed by a negation ("sans porc"). */
+  excluded: Set<string>
 }
 
 const FIELD_WEIGHTS: Record<SearchField, number> = {
@@ -29,26 +32,6 @@ const FIELD_WEIGHTS: Record<SearchField, number> = {
   ingredients: 1.5,
   description: 1,
 }
-
-// Query-side expansions for words that the recipe translations do not already cover.
-const SYNONYM_WORDS: Record<string, string[]> = {
-  veggie: ["vegetarien"],
-  vege: ["vegetarien"],
-  veg: ["vegetarien"],
-  vegan: ["vegetalien"],
-  vegane: ["vegetalien"],
-  express: ["rapide"],
-  vite: ["rapide"],
-  aperitif: ["apero"],
-  aperitivo: ["apero"],
-  gateau: ["dessert"],
-  cake: ["dessert"],
-  sucre: ["dessert"],
-}
-
-const SYNONYMS = new Map(
-  Object.entries(SYNONYM_WORDS).map(([word, targets]) => [stem(word), targets.map(stem)] as const)
-)
 
 const PREFIX_FACTOR = 0.75
 const FUZZY_FACTOR = [1, 0.6, 0.4]
@@ -64,14 +47,24 @@ export class LexicalIndex {
   private termIds = new Map<string, number>()
   /** termId -> (docIndex -> accumulated field weight) */
   private postings: Map<number, number>[] = []
+  /** termId -> docs having the term outside the description (used for exclusions) */
+  private strong: Set<number>[] = []
 
-  constructor(documents: SearchDocument[]) {
+  /** stem -> stems meaning the same thing in another language (see buildTagAliases) */
+  private aliases: Map<string, string[]>
+
+  constructor(documents: SearchDocument[], aliases: Map<string, string[]> = new Map()) {
+    this.aliases = aliases
     documents.forEach((doc, docIndex) => {
       this.slugs.push(doc.slug)
       const weights = new Map<string, number>()
+      const strong = new Set<string>()
       for (const field of Object.keys(FIELD_WEIGHTS) as SearchField[]) {
         const tokens = new Set((doc.fields[field] ?? []).flatMap(tokenize))
-        for (const token of tokens) weights.set(token, (weights.get(token) ?? 0) + FIELD_WEIGHTS[field])
+        for (const token of tokens) {
+          weights.set(token, (weights.get(token) ?? 0) + FIELD_WEIGHTS[field])
+          if (field !== "description") strong.add(token)
+        }
       }
       for (const [token, weight] of weights) {
         let id = this.termIds.get(token)
@@ -80,60 +73,80 @@ export class LexicalIndex {
           this.terms.push(token)
           this.termIds.set(token, id)
           this.postings.push(new Map())
+          this.strong.push(new Set())
         }
         this.postings[id].set(docIndex, weight)
+        if (strong.has(token)) this.strong[id].add(docIndex)
       }
     })
   }
 
-  search(query: string): LexicalResult {
-    const words = normalize(query).split(" ").filter(Boolean)
-    const slots = [...new Set(tokenize(query))]
-    if (slots.length === 0) return { hits: [], termCount: 0 }
-
-    // The last word is probably still being typed: match it as a prefix, before stemming
-    // ("pastè" must find "pastèque", not "pasta").
-    const typedWord = /\s$/.test(query) ? null : words[words.length - 1] ?? null
-    const typedSlot = typedWord ? stem(typedWord) : null
+  search(query: ParsedQuery): LexicalResult {
+    const excluded = new Set<string>()
+    for (const term of query.exclude) {
+      for (const candidate of term.stems) {
+        const id = this.termIds.get(candidate)
+        if (id !== undefined) this.strong[id].forEach((docIndex) => excluded.add(this.slugs[docIndex]))
+      }
+    }
+    if (query.terms.length === 0) return { hits: [], termCount: 0, excluded }
 
     const docScores = new Map<number, { score: number; matched: number; exact: number }>()
     const n = this.slugs.length
+    let requiredCount = 0
 
-    for (const slot of slots) {
-      const matches = (slot === typedSlot && this.matchTyped(typedWord!)) || this.matchTerm(slot, slot === typedSlot)
-      const perDoc = new Map<number, { score: number; exact: boolean }>()
+    for (const term of query.terms) {
+      const { matches, confident } = this.matchQueryTerm(term)
+      // Only words that characterise a recipe (title, tags, category, ingredients) are required. A word only
+      // reached through a typo, or only found in descriptions ("dinner", "soirée"), just boosts the ranking:
+      // it must not restrict "quick vegetarian dinner" to the one recipe whose description says "dinner".
+      const characteristic = matches.some((m) => this.strong[m.termIndex].size > 0)
+      const required = query.terms.length === 1 || (confident && characteristic)
+      if (required && matches.length > 0) requiredCount++
+      const perDoc = new Map<number, { score: number; exact: boolean; strong: boolean }>()
       for (const { termIndex, factor } of matches) {
         const posting = this.postings[termIndex]
         const idf = Math.log(1 + n / posting.size)
         for (const [docIndex, weight] of posting) {
           const score = factor * idf * weight
-          const current = perDoc.get(docIndex) ?? { score: 0, exact: false }
+          const current = perDoc.get(docIndex) ?? { score: 0, exact: false, strong: false }
           current.score = Math.max(current.score, score)
           current.exact ||= factor === 1
+          current.strong ||= this.strong[termIndex].has(docIndex)
           perDoc.set(docIndex, current)
         }
       }
-      for (const [docIndex, { score, exact }] of perDoc) {
+      for (const [docIndex, { score, exact, strong }] of perDoc) {
         const entry = docScores.get(docIndex) ?? { score: 0, matched: 0, exact: 0 }
         entry.score += score
-        entry.matched += 1
+        // "dessert" is satisfied by a dessert, not by a main course whose description suggests one.
+        if (required && (strong || !characteristic)) entry.matched += 1
         if (exact) entry.exact += 1
         docScores.set(docIndex, entry)
       }
     }
 
-    // AND semantics over the query terms that exist in the corpus: "poulet curry" only keeps recipes with both,
-    // while a word that matches nothing at all ("recette végétarienne") does not empty the result list.
-    let best = 0
-    for (const { matched } of docScores.values()) best = Math.max(best, matched)
-
+    // AND semantics over the required terms that exist in the corpus: "poulet curry" only keeps recipes with
+    // both, while a word that matches nothing at all ("recette végétarienne") does not empty the result list.
     const hits: LexicalHit[] = []
     for (const [docIndex, { score, matched, exact }] of docScores) {
-      if (matched < best) continue
-      hits.push({ slug: this.slugs[docIndex], score, matched, exact: exact === slots.length })
+      const slug = this.slugs[docIndex]
+      if (matched < requiredCount || excluded.has(slug)) continue
+      hits.push({ slug, score, matched, exact: exact === query.terms.length })
     }
     hits.sort((a, b) => Number(b.exact) - Number(a.exact) || b.score - a.score || a.slug.localeCompare(b.slug))
-    return { hits, termCount: slots.length }
+    return { hits, termCount: query.terms.length, excluded }
+  }
+
+  private matchQueryTerm(term: QueryTerm): { matches: Match[]; confident: boolean } {
+    if (term.typed) {
+      const typed = this.matchTyped(term.typed)
+      if (typed) return { matches: typed, confident: true }
+    }
+    const matches = this.matchTerm(term.stems, term.typed !== undefined)
+    const prefixIsConfident = term.typed !== undefined || term.stems[0].length >= 4
+    const confident = matches.some((m) => m.factor === 1 || (m.factor === PREFIX_FACTOR && prefixIsConfident))
+    return { matches, confident }
   }
 
   private matchTyped(word: string): Match[] | null {
@@ -145,8 +158,9 @@ export class LexicalIndex {
     return matches.length > 0 ? matches : null
   }
 
-  private matchTerm(slot: string, isTyping: boolean): Match[] {
-    const candidates = [slot, ...(SYNONYMS.get(slot) ?? [])]
+  private matchTerm(stems: string[], isTyping: boolean): Match[] {
+    const slot = stems[0]
+    const candidates = [...new Set(stems.flatMap((s) => [s, ...(this.aliases.get(s) ?? [])]))]
     const exact = candidates.flatMap((candidate) => this.termIds.get(candidate) ?? [])
     const matches: Match[] = exact.map((termIndex) => ({ termIndex, factor: 1 }))
 

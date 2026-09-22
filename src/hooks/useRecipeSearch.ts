@@ -2,8 +2,11 @@ import { useEffect, useMemo, useState, useSyncExternalStore } from "react"
 import type { RecipeSummary } from "@/types/recipe"
 import {
   LexicalIndex,
+  applyConstraints,
   buildSearchDocuments,
+  buildTagAliases,
   mergeResults,
+  parseQuery,
   parseSearchExtras,
   rankBySimilarity,
   selectSemanticHits,
@@ -25,8 +28,9 @@ function loadExtras() {
 }
 
 /**
- * Hybrid recipe search: instant lexical matching (accents, plurals, typos, ingredients, all
- * languages) merged with semantic matching once the in-browser embedding model is ready.
+ * Hybrid recipe search: the natural-language query is parsed (concepts, negations, duration,
+ * difficulty), matched lexically (accents, plurals, typos, ingredients, all languages) and merged
+ * with semantic matching once the in-browser embedding model is ready.
  * Returns the matching slugs in relevance order, or null when there is nothing to filter on.
  */
 export function useRecipeSearch(recipes: RecipeSummary[], query: string) {
@@ -43,7 +47,7 @@ export function useRecipeSearch(recipes: RecipeSummary[], query: string) {
     return () => { cancelled = true }
   }, [])
 
-  const index = useMemo(() => new LexicalIndex(buildSearchDocuments(recipes, extras)), [recipes, extras])
+  const index = useMemo(() => new LexicalIndex(buildSearchDocuments(recipes, extras), buildTagAliases(recipes)), [recipes, extras])
 
   useEffect(() => {
     if (trimmed) semanticEngine.start()
@@ -68,15 +72,16 @@ export function useRecipeSearch(recipes: RecipeSummary[], query: string) {
 
   const slugs = useMemo(() => {
     if (!trimmed) return null
-    const lexical = index.search(query)
+    const parsed = parseQuery(query)
+    const lexical = index.search(parsed)
     const embeddings = semanticEngine.index
     let semantic = null
     if (embeddings && embedded?.query === trimmed) {
       const strict = lexical.hits.some((hit) => hit.exact)
       semantic = selectSemanticHits(rankBySimilarity(embeddings, embedded.vector), strict)
     }
-    return mergeResults(lexical, semantic)
-  }, [index, query, trimmed, embedded])
+    return applyConstraints(mergeResults(lexical, semantic), recipes, parsed, lexical.excluded)
+  }, [index, recipes, query, trimmed, embedded])
 
   return { slugs, semanticStatus }
 }
