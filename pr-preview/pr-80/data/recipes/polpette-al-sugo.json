@@ -1,0 +1,256 @@
+{
+  "slug": "polpette-al-sugo",
+  "title": "Polpette al sugo",
+  "description": "Des boulettes de viande juteuses mijotées dans une riche sauce tomate aux herbes fraîches, un grand classique de la cuisine italienne.",
+  "images": {
+    "cover": "images/recipes/polpette-al-sugo/cover.jpg",
+    "web": "images/recipes/polpette-al-sugo/web.jpg"
+  },
+  "prepTime": 30,
+  "cookTime": 45,
+  "servings": 6,
+  "difficulty": "Medio",
+  "category": "Secondi",
+  "tags": [
+    "mijoté",
+    "bœuf",
+    "fromage",
+    "sauce-tomate",
+    "italien",
+    "réconfortant",
+    "convivial",
+    "plat-principal",
+    "hiver",
+    "automne",
+    "poêle",
+    "se-congèle"
+  ],
+  "ingredients": [
+    {
+      "group": "Boulettes",
+      "items": [
+        "100 g de chapelure",
+        "10 cl de lait",
+        "500 g de bœuf haché (ou mélange bœuf/veau)",
+        "2 saucisses de Toulouse",
+        "1 c. à c. de noix de muscade râpée",
+        "1 œuf battu",
+        "50 g de parmesan râpé",
+        "50 g de pecorino râpé",
+        "3 à 4 c. à s. de persil plat haché",
+        "1 c. à s. d'origan (optionnel)",
+        "1 c. à s. d'huile d'olive",
+        "Sel, poivre"
+      ]
+    },
+    {
+      "group": "Pour la cuisson",
+      "items": [
+        "15 g de beurre",
+        "2 c. à s. d'huile d'olive"
+      ]
+    },
+    {
+      "group": "Sauce tomate",
+      "items": [
+        "10 cl de vin blanc ou rouge (optionnel)",
+        "1 oignon finement ciselé",
+        "1 gousse d'ail hachée",
+        "400 à 500 g de coulis de tomate ou passata",
+        "3 c. à s. de persil plat haché",
+        "2 c. à s. de basilic haché",
+        "Sel, poivre"
+      ]
+    }
+  ],
+  "steps": [
+    {
+      "text": "Trempez la chapelure dans le lait pendant quelques minutes pour qu'elle soit bien imbibée."
+    },
+    {
+      "text": "Dans un saladier, mélangez et malaxez tous les ingrédients des boulettes jusqu'à obtenir une farce homogène."
+    },
+    {
+      "text": "Formez des boulettes de la taille de grosses noix en les serrant bien entre vos mains."
+    },
+    {
+      "text": "Dans une sauteuse, faites chauffer le beurre et l'huile d'olive à feu moyen. Faites dorer les boulettes environ 10 minutes en les retournant pour qu'elles soient dorées sur toute leur surface. Retirez-les avec une écumoire."
+    },
+    {
+      "text": "Dans la même sauteuse, versez une cuillère d'huile d'olive et augmentez le feu. Déglacez avec le vin en raclant les sucs de cuisson avec une spatule. Laissez presque complètement évaporer."
+    },
+    {
+      "text": "Ajoutez l'oignon et l'ail, faites revenir jusqu'à légère coloration."
+    },
+    {
+      "text": "Versez le coulis de tomate, ajoutez les herbes, le sel et le poivre. Faites chauffer à feu moyen 3 à 4 minutes."
+    },
+    {
+      "text": "Remettez les boulettes dans la sauce et enrobez-les bien. Baissez le feu, couvrez et laissez mijoter 15 à 20 minutes."
+    },
+    {
+      "text": "Servez chaud avec des pâtes, des gnocchis, de la polenta ou des légumes de saison."
+    }
+  ],
+  "tips": [
+    "Vous pouvez mélanger bœuf et veau pour des boulettes encore plus tendres.",
+    "Les boulettes se congèlent très bien dans leur sauce, idéal pour un batch cooking.",
+    "Préparez la farce la veille et réfrigérez-la pour une texture et des saveurs améliorées."
+  ],
+  "translations": {
+    "en": {
+      "title": "Italian Meatballs in Tomato Sauce",
+      "description": "Juicy beef meatballs simmered in a rich herb-filled tomato sauce, a beloved classic of Italian cuisine.",
+      "tags": ["simmered", "beef", "cheese", "tomato-sauce", "italian", "comforting", "family-friendly", "main-course", "winter", "autumn", "pan", "freezer-friendly"],
+      "ingredients": [
+        {
+          "group": "Meatballs",
+          "items": [
+            "100 g breadcrumbs",
+            "10 cl milk",
+            "500 g ground beef (or beef/veal mix)",
+            "2 Toulouse sausages",
+            "1 tsp grated nutmeg",
+            "1 egg, beaten",
+            "50 g grated parmesan",
+            "50 g grated pecorino",
+            "3 to 4 tbsp chopped flat-leaf parsley",
+            "1 tbsp dried oregano (optional)",
+            "1 tbsp olive oil",
+            "Salt, pepper"
+          ]
+        },
+        {
+          "group": "For cooking",
+          "items": [
+            "15 g butter",
+            "2 tbsp olive oil"
+          ]
+        },
+        {
+          "group": "Tomato sauce",
+          "items": [
+            "10 cl white or red wine (optional)",
+            "1 onion, finely diced",
+            "1 garlic clove, minced",
+            "400 to 500 g good tomato passata",
+            "3 tbsp chopped flat-leaf parsley",
+            "2 tbsp chopped basil",
+            "Salt, pepper"
+          ]
+        }
+      ],
+      "steps": [
+        {
+          "text": "Soak the breadcrumbs in the milk for a few minutes until well absorbed."
+        },
+        {
+          "text": "In a large bowl, mix and knead all the meatball ingredients until you get a uniform mixture."
+        },
+        {
+          "text": "Shape into meatballs the size of large walnuts, pressing them firmly between your hands."
+        },
+        {
+          "text": "Heat butter and olive oil in a wide pan over medium heat. Brown the meatballs for about 10 minutes, turning them so all sides are golden. Remove with a slotted spoon."
+        },
+        {
+          "text": "In the same pan, add a tablespoon of olive oil and increase the heat. Deglaze with the wine, scraping up the cooking juices with a spatula. Let it almost completely evaporate."
+        },
+        {
+          "text": "Add the onion and garlic, cook until lightly coloured."
+        },
+        {
+          "text": "Pour in the tomato passata, add the herbs, salt and pepper. Heat over medium heat for 3 to 4 minutes."
+        },
+        {
+          "text": "Return the meatballs to the sauce and coat them well. Reduce the heat, cover and simmer for 15 to 20 minutes."
+        },
+        {
+          "text": "Serve hot with pasta, gnocchi, polenta or seasonal vegetables."
+        }
+      ],
+      "tips": [
+        "Mixing beef and veal makes even more tender meatballs.",
+        "The meatballs freeze very well in their sauce, perfect for batch cooking.",
+        "Prepare the mixture the night before and refrigerate it for better texture and flavour."
+      ]
+    },
+    "it": {
+      "title": "Polpette al sugo",
+      "description": "Polpette di carne succose cotte a fuoco lento in un ricco sugo di pomodoro alle erbe fresche, un grande classico della cucina italiana.",
+      "tags": ["stufato", "manzo", "formaggio", "sugo-di-pomodoro", "italiano", "confortante", "conviviale", "secondo-piatto", "inverno", "autunno", "padella", "si-congela"],
+      "ingredients": [
+        {
+          "group": "Polpette",
+          "items": [
+            "100 g di pangrattato",
+            "10 cl di latte",
+            "500 g di manzo macinato (o mix manzo/vitello)",
+            "2 salsicce di maiale",
+            "1 cucchiaino di noce moscata grattugiata",
+            "1 uovo sbattuto",
+            "50 g di parmigiano grattugiato",
+            "50 g di pecorino grattugiato",
+            "3-4 cucchiai di prezzemolo tritato",
+            "1 cucchiaio di origano essiccato (facoltativo)",
+            "1 cucchiaio di olio d'oliva",
+            "Sale, pepe"
+          ]
+        },
+        {
+          "group": "Per la cottura",
+          "items": [
+            "15 g di burro",
+            "2 cucchiai di olio d'oliva"
+          ]
+        },
+        {
+          "group": "Sugo di pomodoro",
+          "items": [
+            "10 cl di vino bianco o rosso (facoltativo)",
+            "1 cipolla tritata finemente",
+            "1 spicchio d'aglio tritato",
+            "400-500 g di passata di pomodoro",
+            "3 cucchiai di prezzemolo tritato",
+            "2 cucchiai di basilico tritato",
+            "Sale, pepe"
+          ]
+        }
+      ],
+      "steps": [
+        {
+          "text": "Immergete il pangrattato nel latte per qualche minuto finché non è ben imbevuto."
+        },
+        {
+          "text": "In una ciotola capiente, mescolate e impastate tutti gli ingredienti delle polpette fino ad ottenere un composto omogeneo."
+        },
+        {
+          "text": "Formate delle polpette della grandezza di una noce, stringendole bene tra le mani."
+        },
+        {
+          "text": "In una padella larga, scaldate burro e olio d'oliva a fuoco medio. Fate rosolare le polpette per circa 10 minuti, girandole in modo che si dorino su tutti i lati. Toglietele con una schiumarola."
+        },
+        {
+          "text": "Nella stessa padella, versate un cucchiaio di olio d'oliva e alzate il fuoco. Sfumate con il vino raschiando i succhi di cottura con una spatola. Lasciate quasi completamente evaporare."
+        },
+        {
+          "text": "Aggiungete la cipolla e l'aglio, fate soffriggere fino a leggera doratura."
+        },
+        {
+          "text": "Versate la passata di pomodoro, aggiungete le erbe, il sale e il pepe. Fate cuocere a fuoco medio per 3-4 minuti."
+        },
+        {
+          "text": "Rimettete le polpette nel sugo e napatele bene. Abbassate il fuoco, coprite e lasciate sobbollire 15-20 minuti."
+        },
+        {
+          "text": "Servite caldo con pasta, gnocchi, polenta o verdure di stagione."
+        }
+      ],
+      "tips": [
+        "Mescolare manzo e vitello rende le polpette ancora più tenere.",
+        "Le polpette si congelano molto bene nel loro sugo, ideale per il batch cooking.",
+        "Preparate il composto la sera prima e tenetelo in frigorifero per una texture e un sapore migliori."
+      ]
+    }
+  }
+}

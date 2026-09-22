@@ -1,0 +1,232 @@
+{
+  "slug": "curry-legumes",
+  "title": "Curry de légumes",
+  "description": "Un curry de légumes facile et parfumé, avec des aubergines et des courgettes dorées puis mijotées dans du lait de coco et de la tomate, parsemé de noix de cajou grillées.",
+  "images": {
+    "cover": "images/recipes/curry-legumes/cover.jpg",
+    "web": "images/recipes/curry-legumes/web.jpg"
+  },
+  "imageCredit": {
+    "author": "iMattSmart",
+    "url": "https://unsplash.com/@imattsmart"
+  },
+  "prepTime": 25,
+  "cookTime": 35,
+  "servings": 4,
+  "difficulty": "Facile",
+  "category": "Secondi",
+  "tags": [
+    "mijoté",
+    "poêle",
+    "légumes",
+    "végétarien",
+    "plat-principal",
+    "asiatique",
+    "réconfortant",
+    "épicé",
+    "sans-gluten",
+    "sans-lactose",
+    "rapide",
+    "chaud",
+    "toute-la-famille",
+    "croquant"
+  ],
+  "origin": "pierrick",
+  "ingredients": [
+    {
+      "group": "Pour le curry",
+      "items": [
+        "2 aubergines (environ 500 g)",
+        "2 courgettes (environ 400 g)",
+        "1 oignon doux",
+        "2 gousses d'ail",
+        "1 c. à soupe de gingembre haché",
+        "1/2 à 1 c. à café de pâte de curry",
+        "2 c. à café de curcuma",
+        "500 g de purée de tomate",
+        "250 ml de lait de coco",
+        "80 g de noix de cajou non salées",
+        "Sel et poivre"
+      ]
+    },
+    {
+      "group": "Pour servir",
+      "items": [
+        "Riz basmati cuit",
+        "Coriandre fraîche"
+      ]
+    }
+  ],
+  "steps": [
+    {
+      "text": "Mixez dans un blender l'oignon grossièrement haché, le gingembre, l'ail et la pâte de curry jusqu'à obtenir une pâte homogène."
+    },
+    {
+      "text": "Dans une poêle avec un filet d'huile, faites cuire cette pâte à feu moyen 10 minutes, en ajoutant 1 à 2 c. à soupe d'eau. Remuez souvent jusqu'à ce que les oignons soient tendres."
+    },
+    {
+      "text": "Ajoutez le curcuma et les aubergines coupées en cubes. Faites-les dorer 5 minutes en remuant, puis ajoutez les courgettes coupées en cubes et poursuivez la cuisson 3 minutes."
+    },
+    {
+      "text": "Ajoutez la purée de tomate et le lait de coco. Laissez mijoter 15 minutes jusqu'à ce que les légumes soient tendres et la sauce épaissie. Rectifiez l'assaisonnement."
+    },
+    {
+      "text": "Pendant que le curry mijote, faites griller les noix de cajou à sec dans une petite poêle jusqu'à ce qu'elles soient dorées."
+    },
+    {
+      "text": "Servez bien chaud avec du riz basmati, parsemez de noix de cajou grillées et de quelques feuilles de coriandre fraîche."
+    }
+  ],
+  "tips": [
+    "Salez les cubes d'aubergine 15 minutes avant de les cuire et épongez-les : ils absorbent beaucoup moins d'huile.",
+    "Coupez les courgettes un peu plus gros que les aubergines pour qu'elles gardent de la tenue après le mijotage.",
+    "Dosez la pâte de curry selon la marque et vos goûts, elle peut être très piquante."
+  ],
+  "source": "Pierrick",
+  "originalSource": {
+    "type": "text",
+    "data": "Curry de légumes, à partir de la recette Poulet au curry.\n\nRemplacer le poulet par des aubergines et des courgettes.\nÀ la place de l'étape avec le poulet : faire dorer les aubergines d'abord, puis les courgettes.\n\nSource et origine : Pierrick"
+  },
+  "translations": {
+    "en": {
+      "title": "Vegetable Curry",
+      "description": "An easy and fragrant vegetable curry, with aubergine and courgette browned then simmered in coconut milk and tomato, scattered with toasted cashews.",
+      "tags": [
+        "simmered",
+        "pan",
+        "vegetables",
+        "vegetarian",
+        "main-course",
+        "asian",
+        "comforting",
+        "spicy",
+        "gluten-free",
+        "dairy-free",
+        "quick",
+        "hot",
+        "family-friendly",
+        "crunchy"
+      ],
+      "ingredients": [
+        {
+          "group": "For the curry",
+          "items": [
+            "2 aubergines (about 500 g)",
+            "2 courgettes (about 400 g)",
+            "1 sweet onion",
+            "2 garlic cloves",
+            "1 tbsp grated ginger",
+            "1/2 to 1 tsp curry paste",
+            "2 tsp turmeric",
+            "500 g tomato purée",
+            "250 ml coconut milk",
+            "80 g unsalted cashew nuts",
+            "Salt and pepper"
+          ]
+        },
+        {
+          "group": "To serve",
+          "items": [
+            "Cooked basmati rice",
+            "Fresh coriander"
+          ]
+        }
+      ],
+      "steps": [
+        {
+          "text": "Blend the roughly chopped onion, ginger, garlic and curry paste in a blender until smooth."
+        },
+        {
+          "text": "In a pan with a drizzle of oil, cook the paste over medium heat for 10 minutes, adding 1 to 2 tbsp of water. Stir often until the onion is soft."
+        },
+        {
+          "text": "Add the turmeric and the diced aubergine. Brown for 5 minutes, stirring, then add the diced courgette and cook for 3 minutes more."
+        },
+        {
+          "text": "Add the tomato purée and coconut milk. Simmer for 15 minutes until the vegetables are tender and the sauce has thickened. Adjust seasoning."
+        },
+        {
+          "text": "While the curry simmers, toast the cashews in a small dry pan until golden."
+        },
+        {
+          "text": "Serve hot with basmati rice, scattered with the toasted cashews and a few fresh coriander leaves."
+        }
+      ],
+      "tips": [
+        "Salt the diced aubergine 15 minutes before cooking and pat it dry: it will soak up far less oil.",
+        "Cut the courgette slightly larger than the aubergine so it holds its shape through the simmering.",
+        "Adjust the amount of curry paste to the brand and your taste, it can be very hot."
+      ]
+    },
+    "it": {
+      "title": "Curry di verdure",
+      "description": "Un curry di verdure facile e profumato, con melanzane e zucchine rosolate e poi cotte nel latte di cocco e nel pomodoro, con anacardi tostati.",
+      "tags": [
+        "stufato",
+        "padella",
+        "verdure",
+        "vegetariano",
+        "piatto-principale",
+        "asiatico",
+        "confortante",
+        "piccante",
+        "senza-glutine",
+        "senza-lattosio",
+        "veloce",
+        "caldo",
+        "tutta-la-famiglia",
+        "croccante"
+      ],
+      "ingredients": [
+        {
+          "group": "Per il curry",
+          "items": [
+            "2 melanzane (circa 500 g)",
+            "2 zucchine (circa 400 g)",
+            "1 cipolla dolce",
+            "2 spicchi d'aglio",
+            "1 cucchiaio di zenzero grattugiato",
+            "1/2 - 1 cucchiaino di pasta di curry",
+            "2 cucchiaini di curcuma",
+            "500 g di passata di pomodoro",
+            "250 ml di latte di cocco",
+            "80 g di anacardi non salati",
+            "Sale e pepe"
+          ]
+        },
+        {
+          "group": "Per servire",
+          "items": [
+            "Riso basmati cotto",
+            "Coriandolo fresco"
+          ]
+        }
+      ],
+      "steps": [
+        {
+          "text": "Frullare nel mixer la cipolla grossolanamente tritata, lo zenzero, l'aglio e la pasta di curry fino a ottenere un composto omogeneo."
+        },
+        {
+          "text": "In una padella con un filo d'olio, cuocere questo composto a fuoco medio per 10 minuti, aggiungendo 1-2 cucchiai d'acqua. Mescolare spesso finché la cipolla è morbida."
+        },
+        {
+          "text": "Aggiungere la curcuma e le melanzane tagliate a cubetti. Farle rosolare 5 minuti mescolando, poi unire le zucchine a cubetti e proseguire la cottura per 3 minuti."
+        },
+        {
+          "text": "Aggiungere la passata di pomodoro e il latte di cocco. Cuocere a fuoco lento 15 minuti finché le verdure sono tenere e la salsa si è addensata. Aggiustare di sale e pepe."
+        },
+        {
+          "text": "Mentre il curry cuoce, tostare gli anacardi in un padellino asciutto finché non sono dorati."
+        },
+        {
+          "text": "Servire ben caldo con riso basmati, cospargere con gli anacardi tostati e qualche foglia di coriandolo fresco."
+        }
+      ],
+      "tips": [
+        "Salate i cubetti di melanzana 15 minuti prima di cuocerli e asciugateli: assorbiranno molto meno olio.",
+        "Tagliate le zucchine un po' più grandi delle melanzane così mantengono la forma durante la cottura.",
+        "Dosate la pasta di curry secondo il marchio e i vostri gusti, può essere molto piccante."
+      ]
+    }
+  }
+}

@@ -1,0 +1,173 @@
+{
+  "slug": "tarte-tatin-mangue-espelette",
+  "title": "Tarte Tatin à la Mangue et au Piment d'Espelette",
+  "description": "Une tarte tatin exotique aux tranches de mangue caramélisées, relevée d'une touche de piment d'Espelette, recouverte d'une pâte brisée dorée.",
+  "images": {
+    "cover": "images/recipes/tarte-tatin-mangue-espelette/cover.jpg",
+    "web": "images/recipes/tarte-tatin-mangue-espelette/web.jpg"
+  },
+  "prepTime": 35,
+  "cookTime": 40,
+  "servings": 6,
+  "difficulty": "Medio",
+  "category": "Dolci",
+  "tags": [
+    "four",
+    "dessert",
+    "végétarien",
+    "fruits",
+    "exotique",
+    "épicé",
+    "caramel",
+    "festif",
+    "été",
+    "fondant"
+  ],
+  "ingredients": [
+    {
+      "group": "Pour la pâte brisée",
+      "items": [
+        "125 g de beurre demi-sel mou",
+        "250 g de farine",
+        "1 pincée de sel",
+        "12 cl d'eau tiède"
+      ]
+    },
+    {
+      "group": "Pour la garniture",
+      "items": [
+        "3 grosses mangues mûres avec la peau lisse et sans tache",
+        "60 g de cassonade (ou de sucre roux)",
+        "60 g de beurre",
+        "2 cuillères à soupe de vinaigre de xérès",
+        "4 g de piment d'Espelette en poudre"
+      ]
+    }
+  ],
+  "steps": [
+    {
+      "text": "Préparez la pâte brisée. Coupez le beurre en morceaux. Formez un cône avec la farine et le sel, creusez un puits au centre et mettez-y les morceaux de beurre. Travaillez le tout rapidement du bout des doigts, puis avec les paumes. Mouillez petit à petit la pâte avec l'eau tiède et pétrissez pour obtenir une consistance souple. Formez une boule, enveloppez-la de film alimentaire et laissez reposer au moins 1 heure au réfrigérateur."
+    },
+    {
+      "text": "Préparez la garniture. Épluchez les mangues et détaillez-les en grosses tranches, en recueillant le jus dans un bol. Réservez les trois quarts des tranches (les plus régulières). Réduisez le reste avec le jus en purée à l'aide d'un mixeur. Réservez."
+    },
+    {
+      "text": "Préchauffez le four à 200 °C (therm. 6-7)."
+    },
+    {
+      "text": "Dans une casserole, faites fondre la cassonade et le beurre. Versez la purée de mangue et le vinaigre de xérès. Faites chauffer jusqu'à obtenir un jus épais, presque sirupeux."
+    },
+    {
+      "text": "Pendant ce temps, étalez la pâte sur une épaisseur de 4 mm environ. Beurrez un moule de 26 à 28 cm de diamètre. Versez le jus sirupeux au fond du moule. Disposez les tranches de mangue dessus. Saupoudrez de piment d'Espelette. Recouvrez de la pâte brisée. Soudez les bords sur les parois du plat en pressant avec vos doigts mouillés. Enfournez pour 25 minutes."
+    },
+    {
+      "text": "À la sortie du four, posez un plat sur le moule et retournez le tout. Retirez délicatement le moule. Servez tiède avec une cuillerée à soupe de crème fouettée."
+    }
+  ],
+  "tips": [
+    "La pâte brisée doit reposer au minimum 1 heure au réfrigérateur (non compris dans le temps de préparation).",
+    "Choisissez des mangues bien mûres et fermes pour obtenir de belles tranches qui se tiennent à la cuisson."
+  ],
+  "translations": {
+    "en": {
+      "title": "Mango Tarte Tatin with Espelette Pepper",
+      "description": "An exotic tarte tatin with caramelized mango slices, lifted with a hint of Espelette chili pepper, covered with a golden shortcrust pastry.",
+      "tags": ["oven", "dessert", "vegetarian", "fruit", "exotic", "spiced", "caramel", "festive", "summer", "melt-in-mouth"],
+      "ingredients": [
+        {
+          "group": "For the shortcrust pastry",
+          "items": [
+            "125 g soft semi-salted butter",
+            "250 g flour",
+            "1 pinch of salt",
+            "12 cl warm water"
+          ]
+        },
+        {
+          "group": "For the filling",
+          "items": [
+            "3 large ripe mangoes with smooth, unblemished skin",
+            "60 g brown sugar (or muscovado sugar)",
+            "60 g butter",
+            "2 tablespoons sherry vinegar",
+            "4 g Espelette chili pepper powder"
+          ]
+        }
+      ],
+      "steps": [
+        {
+          "text": "Prepare the shortcrust pastry. Cut the butter into pieces. Form a mound with the flour and salt, make a well in the center and add the butter pieces. Work quickly with your fingertips, then with your palms. Gradually add the warm water and knead until you get a soft consistency. Shape into a ball, wrap in cling film and leave to rest for at least 1 hour in the refrigerator."
+        },
+        {
+          "text": "Prepare the filling. Peel the mangoes and cut them into thick slices, collecting the juice in a bowl. Set aside three-quarters of the slices (the most regular ones). Blend the rest with the juice into a puree. Set aside."
+        },
+        {
+          "text": "Preheat the oven to 200°C (gas mark 6-7)."
+        },
+        {
+          "text": "In a saucepan, melt the brown sugar and butter. Add the mango puree and sherry vinegar. Heat until you get a thick, almost syrupy liquid."
+        },
+        {
+          "text": "Meanwhile, roll out the pastry to about 4 mm thick. Butter a 26 to 28 cm diameter mold. Pour the syrupy liquid into the bottom of the mold. Arrange the mango slices on top. Sprinkle with Espelette pepper. Cover with the shortcrust pastry. Seal the edges to the sides of the dish by pressing with wet fingers. Bake for 25 minutes."
+        },
+        {
+          "text": "Remove from the oven, place a plate on the mold and turn upside down. Carefully remove the mold. Serve warm with a tablespoon of whipped cream."
+        }
+      ],
+      "tips": [
+        "The shortcrust pastry must rest for at least 1 hour in the refrigerator (not included in preparation time).",
+        "Choose ripe but firm mangoes to get nice slices that hold their shape during cooking."
+      ]
+    },
+    "it": {
+      "title": "Tarte Tatin al Mango e Peperoncino di Espelette",
+      "description": "Una tarte tatin esotica con fette di mango caramellate, arricchita da un tocco di peperoncino d'Espelette, ricoperta da una pasta brisée dorata.",
+      "tags": ["forno", "dessert", "vegetariano", "frutta", "esotico", "speziato", "caramello", "festivo", "estate", "fondente"],
+      "ingredients": [
+        {
+          "group": "Per la pasta brisée",
+          "items": [
+            "125 g di burro semi-salato morbido",
+            "250 g di farina",
+            "1 pizzico di sale",
+            "12 cl di acqua tiepida"
+          ]
+        },
+        {
+          "group": "Per il ripieno",
+          "items": [
+            "3 manghi grandi maturi con la buccia liscia e senza macchie",
+            "60 g di zucchero di canna (o muscovado)",
+            "60 g di burro",
+            "2 cucchiai di aceto di sherry",
+            "4 g di peperoncino d'Espelette in polvere"
+          ]
+        }
+      ],
+      "steps": [
+        {
+          "text": "Preparare la pasta brisée. Tagliare il burro a pezzi. Formare un cono con la farina e il sale, fare un pozzo al centro e unirvi i pezzi di burro. Lavorare rapidamente prima con i polpastrelli, poi con i palmi. Aggiungere l'acqua tiepida poco alla volta e impastare fino a ottenere una consistenza morbida. Formare una palla, avvolgerla nella pellicola e lasciar riposare almeno 1 ora in frigorifero."
+        },
+        {
+          "text": "Preparare il ripieno. Sbucciare i manghi e tagliarli a fette spesse, raccogliendo il succo in una ciotola. Mettere da parte tre quarti delle fette (le più regolari). Frullare il resto con il succo fino a ottenere una purea. Mettere da parte."
+        },
+        {
+          "text": "Preriscaldare il forno a 200°C."
+        },
+        {
+          "text": "In un pentolino, far sciogliere lo zucchero di canna e il burro. Aggiungere la purea di mango e l'aceto di sherry. Cuocere a fuoco medio fino a ottenere un liquido denso, quasi sciropposo."
+        },
+        {
+          "text": "Nel frattempo, stendere la pasta a uno spessore di 4 mm circa. Imburrare uno stampo di 26-28 cm di diametro. Versare il liquido sciropposo sul fondo dello stampo. Disporre le fette di mango sopra. Cospargere con il peperoncino d'Espelette. Coprire con la pasta brisée. Saldare i bordi sulle pareti dello stampo premendo con le dita bagnate. Infornare per 25 minuti."
+        },
+        {
+          "text": "Sfornare, posare un piatto sullo stampo e capovolgere il tutto. Togliere delicatamente lo stampo. Servire tiepida con un cucchiaio di panna montata."
+        }
+      ],
+      "tips": [
+        "La pasta brisée deve riposare almeno 1 ora in frigorifero (non incluso nel tempo di preparazione).",
+        "Scegliete manghi maturi ma sodi per ottenere belle fette che tengono la cottura."
+      ]
+    }
+  }
+}

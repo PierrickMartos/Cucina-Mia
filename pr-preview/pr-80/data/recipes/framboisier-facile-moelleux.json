@@ -1,0 +1,312 @@
+{
+  "slug": "framboisier-facile-moelleux",
+  "title": "Framboisier facile et moelleux",
+  "description": "Un gâteau à étages tout simple : deux génoises moelleuses coupées en deux, garnies de coulis, de framboises et de chantilly, le tout couvert d'amandes effilées torréfiées.",
+  "images": {
+    "cover": "images/recipes/framboisier-facile-moelleux/cover.jpg",
+    "web": "images/recipes/framboisier-facile-moelleux/web.jpg"
+  },
+  "imageCredit": {
+    "author": "Aneta Voborilova",
+    "url": "https://unsplash.com/@anetvob"
+  },
+  "prepTime": 45,
+  "cookTime": 40,
+  "servings": 8,
+  "difficulty": "Medio",
+  "category": "Dolci",
+  "tags": [
+    "dessert",
+    "four",
+    "fruits",
+    "français",
+    "végétarien",
+    "gourmand",
+    "moelleux",
+    "onctueux",
+    "festif",
+    "anniversaire",
+    "à-partager",
+    "printemps",
+    "été",
+    "toute-la-famille"
+  ],
+  "ingredients": [
+    {
+      "group": "Pour les deux génoises",
+      "items": [
+        "6 œufs",
+        "120 g de sucre",
+        "120 g de farine",
+        "60 g de beurre",
+        "1 sachet de levure",
+        "Un peu de colorant alimentaire rouge (facultatif)"
+      ]
+    },
+    {
+      "group": "Pour la garniture",
+      "items": [
+        "500 g de framboises surgelées",
+        "400 g de coulis de framboises",
+        "2 briques de crème fraîche liquide entière",
+        "3 à 4 cuillères à soupe de sucre glace",
+        "Des amandes effilées",
+        "1 feuille de gélatine (facultatif)"
+      ]
+    },
+    {
+      "group": "Pour la décoration",
+      "items": [
+        "Framboises fraîches",
+        "Amandes effilées torréfiées"
+      ]
+    }
+  ],
+  "steps": [
+    {
+      "text": "Préchauffez le four à 180 °C."
+    },
+    {
+      "text": "Pour la première génoise, cassez 3 œufs dans un saladier avec 60 g de sucre. Battez au fouet électrique jusqu'à ce que le mélange ait triplé de volume, environ 3 minutes."
+    },
+    {
+      "text": "Ajoutez 60 g de farine, un demi-sachet de levure et 30 g de beurre fondu."
+    },
+    {
+      "text": "Versez la pâte dans le moule beurré."
+    },
+    {
+      "text": "Enfournez une quinzaine de minutes, jusqu'à 25 minutes selon les fours. N'ouvrez surtout pas la porte du four pendant la cuisson. Sortez la génoise dès qu'elle prend une belle couleur dorée, puis laissez-la refroidir."
+    },
+    {
+      "text": "Procédez de la même façon pour la deuxième génoise, en ajoutant éventuellement du colorant alimentaire rouge à la pâte."
+    },
+    {
+      "text": "Torréfiez les amandes effilées dans une poêle à sec, à feu doux, en surveillant bien la coloration."
+    },
+    {
+      "text": "Coupez les génoises refroidies en deux dans l'épaisseur, pour obtenir quatre disques."
+    },
+    {
+      "text": "Préparez la chantilly dans un saladier passé au congélateur, avec une crème liquide bien froide. Montez la crème au fouet électrique, puis incorporez le sucre glace doucement, cuillère par cuillère, jusqu'à obtenir une crème bien ferme."
+    },
+    {
+      "text": "Déposez le premier disque de génoise dans le plat, tartinez-le de coulis de framboises, ajoutez des framboises puis couvrez de chantilly. Répétez pour chaque couche : génoise, coulis, framboises, chantilly."
+    },
+    {
+      "text": "Facultatif : faites chauffer le reste de coulis, environ 100 g, et mélangez-le avec la feuille de gélatine ramollie pour le gélifier."
+    },
+    {
+      "text": "Étalez le reste de chantilly sur le pourtour du gâteau, puis couvrez-le d'amandes effilées."
+    },
+    {
+      "text": "Parsemez le dessus du gâteau de framboises fraîches et de chantilly."
+    }
+  ],
+  "tips": [
+    "Passez le saladier au congélateur et utilisez une crème bien froide, c'est la condition pour que la chantilly monte ferme.",
+    "Le temps de cuisson de la génoise varie beaucoup d'un four à l'autre, de 15 à 25 minutes. N'ouvrez pas la porte pendant la cuisson, la génoise retomberait.",
+    "Toutes les variantes de décoration sont possibles : framboises, amandes effilées, petites meringues, coulis gélifié, c'est selon vos goûts."
+  ],
+  "source": "My Sweet Escape (Chloé)",
+  "originalSource": {
+    "type": "url",
+    "data": "https://mysweetescape.fr/2018/03/18/recette-framboisier-facile-moelleux/"
+  },
+  "translations": {
+    "en": {
+      "title": "Easy Raspberry Layer Cake",
+      "description": "A simple layer cake: two soft sponges cut in half, filled with raspberry coulis, raspberries and whipped cream, then covered in toasted flaked almonds.",
+      "tags": [
+        "dessert",
+        "oven",
+        "fruit",
+        "french",
+        "vegetarian",
+        "indulgent",
+        "soft",
+        "creamy",
+        "festive",
+        "birthday",
+        "to-share",
+        "spring",
+        "summer",
+        "family-friendly"
+      ],
+      "ingredients": [
+        {
+          "group": "For the two sponges",
+          "items": [
+            "6 eggs",
+            "120 g sugar",
+            "120 g flour",
+            "60 g butter",
+            "1 sachet of baking powder",
+            "A little red food colouring (optional)"
+          ]
+        },
+        {
+          "group": "For the filling",
+          "items": [
+            "500 g frozen raspberries",
+            "400 g raspberry coulis",
+            "2 cartons of full-fat whipping cream",
+            "3 to 4 tablespoons icing sugar",
+            "Flaked almonds",
+            "1 gelatine leaf (optional)"
+          ]
+        },
+        {
+          "group": "For the decoration",
+          "items": [
+            "Fresh raspberries",
+            "Toasted flaked almonds"
+          ]
+        }
+      ],
+      "steps": [
+        {
+          "text": "Preheat the oven to 180 °C."
+        },
+        {
+          "text": "For the first sponge, crack 3 eggs into a bowl with 60 g of sugar. Beat with an electric whisk until the mixture has tripled in volume, about 3 minutes."
+        },
+        {
+          "text": "Add 60 g of flour, half a sachet of baking powder and 30 g of melted butter."
+        },
+        {
+          "text": "Pour the batter into the buttered tin."
+        },
+        {
+          "text": "Bake for about fifteen minutes, up to 25 minutes depending on your oven. Do not open the oven door during baking. Take the sponge out as soon as it turns a nice golden colour, then leave it to cool."
+        },
+        {
+          "text": "Make the second sponge the same way, adding red food colouring to the batter if you like."
+        },
+        {
+          "text": "Toast the flaked almonds in a dry pan over low heat, watching the colour closely."
+        },
+        {
+          "text": "Slice the cooled sponges in half horizontally, to get four discs."
+        },
+        {
+          "text": "Make the whipped cream in a bowl chilled in the freezer, with very cold liquid cream. Whip with an electric whisk, then fold in the icing sugar slowly, spoonful by spoonful, until the cream is firm."
+        },
+        {
+          "text": "Place the first sponge disc in the dish, spread it with raspberry coulis, add raspberries, then cover with whipped cream. Repeat for each layer: sponge, coulis, raspberries, cream."
+        },
+        {
+          "text": "Optional: heat the remaining coulis, about 100 g, and stir in the softened gelatine leaf to set it."
+        },
+        {
+          "text": "Spread the remaining whipped cream around the sides of the cake, then coat it with flaked almonds."
+        },
+        {
+          "text": "Scatter fresh raspberries and whipped cream over the top of the cake."
+        }
+      ],
+      "tips": [
+        "Chill the bowl in the freezer and use very cold cream, that is what makes the whipped cream hold firm.",
+        "Baking time varies a lot from oven to oven, between 15 and 25 minutes. Do not open the door during baking or the sponge will sink.",
+        "Any decoration works: raspberries, flaked almonds, small meringues, set coulis, whatever you fancy."
+      ]
+    },
+    "it": {
+      "title": "Torta soffice ai lamponi",
+      "description": "Una torta a strati semplicissima: due pan di Spagna soffici tagliati a metà, farciti con coulis, lamponi e panna montata, ricoperti di mandorle a lamelle tostate.",
+      "tags": [
+        "dolce",
+        "forno",
+        "frutta",
+        "francese",
+        "vegetariano",
+        "goloso",
+        "morbido",
+        "cremoso",
+        "festivo",
+        "compleanno",
+        "da-condividere",
+        "primavera",
+        "estate",
+        "tutta-la-famiglia"
+      ],
+      "ingredients": [
+        {
+          "group": "Per i due pan di Spagna",
+          "items": [
+            "6 uova",
+            "120 g di zucchero",
+            "120 g di farina",
+            "60 g di burro",
+            "1 bustina di lievito",
+            "Un po' di colorante alimentare rosso (facoltativo)"
+          ]
+        },
+        {
+          "group": "Per la farcitura",
+          "items": [
+            "500 g di lamponi surgelati",
+            "400 g di coulis di lamponi",
+            "2 confezioni di panna liquida intera",
+            "3-4 cucchiai di zucchero a velo",
+            "Mandorle a lamelle",
+            "1 foglio di gelatina (facoltativo)"
+          ]
+        },
+        {
+          "group": "Per la decorazione",
+          "items": [
+            "Lamponi freschi",
+            "Mandorle a lamelle tostate"
+          ]
+        }
+      ],
+      "steps": [
+        {
+          "text": "Preriscaldate il forno a 180 °C."
+        },
+        {
+          "text": "Per il primo pan di Spagna, rompete 3 uova in una ciotola con 60 g di zucchero. Montate con le fruste elettriche finché il composto non ha triplicato il volume, circa 3 minuti."
+        },
+        {
+          "text": "Aggiungete 60 g di farina, mezza bustina di lievito e 30 g di burro fuso."
+        },
+        {
+          "text": "Versate l'impasto nello stampo imburrato."
+        },
+        {
+          "text": "Infornate per una quindicina di minuti, fino a 25 minuti a seconda del forno. Non aprite lo sportello durante la cottura. Sfornate il pan di Spagna appena prende un bel colore dorato, poi lasciatelo raffreddare."
+        },
+        {
+          "text": "Procedete allo stesso modo per il secondo pan di Spagna, aggiungendo eventualmente del colorante alimentare rosso all'impasto."
+        },
+        {
+          "text": "Tostate le mandorle a lamelle in una padella asciutta, a fuoco basso, sorvegliando la doratura."
+        },
+        {
+          "text": "Tagliate a metà nello spessore i pan di Spagna raffreddati, per ottenere quattro dischi."
+        },
+        {
+          "text": "Preparate la panna montata in una ciotola passata in freezer, con panna liquida ben fredda. Montate con le fruste elettriche, poi incorporate lo zucchero a velo lentamente, un cucchiaio alla volta, fino a ottenere una crema ben soda."
+        },
+        {
+          "text": "Adagiate il primo disco di pan di Spagna nel piatto, spalmatelo di coulis di lamponi, aggiungete i lamponi e coprite con la panna montata. Ripetete per ogni strato: pan di Spagna, coulis, lamponi, panna."
+        },
+        {
+          "text": "Facoltativo: scaldate il coulis rimasto, circa 100 g, e mescolatelo con il foglio di gelatina ammollato per gelificarlo."
+        },
+        {
+          "text": "Stendete la panna rimasta sul bordo della torta, poi ricopritela di mandorle a lamelle."
+        },
+        {
+          "text": "Cospargete la superficie della torta di lamponi freschi e panna montata."
+        }
+      ],
+      "tips": [
+        "Mettete la ciotola in freezer e usate una panna ben fredda, è la condizione perché la panna monti soda.",
+        "Il tempo di cottura del pan di Spagna varia molto da forno a forno, dai 15 ai 25 minuti. Non aprite lo sportello durante la cottura, altrimenti si sgonfia.",
+        "Tutte le varianti di decorazione sono possibili: lamponi, mandorle a lamelle, piccole meringhe, coulis gelificato, secondo i vostri gusti."
+      ]
+    }
+  }
+}

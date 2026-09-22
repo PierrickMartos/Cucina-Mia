@@ -1,0 +1,144 @@
+{
+  "slug": "gratin-ravioles-poireaux",
+  "title": "Gratin de Ravioles et Poireaux",
+  "description": "Un gratin réconfortant et rapide de ravioles du Dauphiné et poireaux fondants, nappés d'une crème à la moutarde à l'ancienne.",
+  "images": {
+    "cover": "images/recipes/gratin-ravioles-poireaux/cover.jpg",
+    "web": "images/recipes/gratin-ravioles-poireaux/web.jpg"
+  },
+  "imageCredit": {
+    "source": "Pixabay",
+    "photographer": "Hans",
+    "url": "https://pixabay.com/photos/gratinated-cheese-casserole-324243/",
+    "pixabayId": 324243
+  },
+  "prepTime": 12,
+  "cookTime": 25,
+  "servings": 2,
+  "difficulty": "Facile",
+  "category": "Pasta",
+  "tags": [
+    "four",
+    "végétarien",
+    "rapide",
+    "fromage",
+    "réconfortant",
+    "français",
+    "plat-principal",
+    "léger",
+    "économique",
+    "pâtes"
+  ],
+  "ingredients": [
+    {
+      "items": [
+        "4 plaques de raviole du Dauphiné",
+        "2 petits poireaux",
+        "125 ml de crème liquide à 15% de matière grasse",
+        "1 c.à.s de moutarde à l'ancienne",
+        "Sel et poivre",
+        "Parmesan ou gruyère pour gratiner (facultatif)"
+      ]
+    }
+  ],
+  "steps": [
+    {
+      "text": "Préchauffer le four à 180°C. Laver et émincer les poireaux. Les faire revenir 7 à 10 minutes dans une sauteuse. Saler et poivrer. Réserver."
+    },
+    {
+      "text": "Mélanger la crème liquide avec la moutarde. Saler et poivrer."
+    },
+    {
+      "text": "Monter le gratin dans un plat à gratin : un peu de crème, une plaque de ravioles du Dauphiné, des poireaux. Répéter jusqu'à terminer par de la crème. Ajouter du fromage sur le dessus si désiré."
+    },
+    {
+      "text": "Cuire au four pendant 25 à 30 minutes jusqu'à ce que le gratin soit bien doré."
+    }
+  ],
+  "translations": {
+    "en": {
+      "title": "Ravioles and Leek Gratin",
+      "description": "A comforting and quick gratin of Dauphiné ravioles and tender leeks in a whole-grain mustard cream.",
+      "tags": [
+        "oven",
+        "vegetarian",
+        "quick",
+        "cheese",
+        "comforting",
+        "french",
+        "main-course",
+        "light",
+        "economical",
+        "pasta"
+      ],
+      "ingredients": [
+        {
+          "items": [
+            "4 sheets of Dauphiné ravioles",
+            "2 small leeks",
+            "125 ml light cream (15% fat)",
+            "1 tbsp whole-grain mustard",
+            "Salt and pepper",
+            "Parmesan or gruyère for topping (optional)"
+          ]
+        }
+      ],
+      "steps": [
+        {
+          "text": "Preheat oven to 180°C. Wash and slice the leeks. Sauté them for 7 to 10 minutes in a pan. Season with salt and pepper. Set aside."
+        },
+        {
+          "text": "Mix the cream with the mustard. Season with salt and pepper."
+        },
+        {
+          "text": "Layer the gratin in a baking dish: a little cream, a sheet of ravioles, some leeks. Repeat until done, finishing with cream. Add cheese on top if desired."
+        },
+        {
+          "text": "Bake in the oven for 25 to 30 minutes until the gratin is nicely golden."
+        }
+      ]
+    },
+    "it": {
+      "title": "Gratin di Raviole e Porri",
+      "description": "Un gratin confortante e veloce di ravioli del Delfinato e porri teneri, avvolti in una crema alla senape in grani.",
+      "tags": [
+        "forno",
+        "vegetariano",
+        "veloce",
+        "formaggio",
+        "confortante",
+        "francese",
+        "piatto-principale",
+        "leggero",
+        "economico",
+        "pasta"
+      ],
+      "ingredients": [
+        {
+          "items": [
+            "4 sfoglie di ravioli del Delfinato",
+            "2 piccoli porri",
+            "125 ml di panna liquida al 15% di grassi",
+            "1 cucchiaio di senape in grani",
+            "Sale e pepe",
+            "Parmigiano o gruyère per gratinare (facoltativo)"
+          ]
+        }
+      ],
+      "steps": [
+        {
+          "text": "Preriscaldare il forno a 180°C. Lavare e affettare i porri. Farli rosolare per 7-10 minuti in una padella. Salare e pepare. Mettere da parte."
+        },
+        {
+          "text": "Mescolare la panna con la senape. Salare e pepare."
+        },
+        {
+          "text": "Assemblare il gratin in una pirofila: un po' di panna, una sfoglia di ravioli, dei porri. Ripetere fino a terminare con la panna. Aggiungere il formaggio sopra se desiderato."
+        },
+        {
+          "text": "Cuocere in forno per 25-30 minuti finché il gratin sia ben dorato."
+        }
+      ]
+    }
+  }
+}

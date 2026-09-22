@@ -1,0 +1,233 @@
+{
+  "slug": "ravioli-prosciutto-caprino",
+  "title": "Ravioles de jambon de pays et chèvre frais, pesto et roquette",
+  "description": "Des ravioles garnies de chèvre frais et de jambon de pays, nappées d'un pesto au basilic et servies avec une roquette aux tomates séchées.",
+  "images": {
+    "cover": "images/recipes/ravioli-prosciutto-caprino/cover.jpg",
+    "web": "images/recipes/ravioli-prosciutto-caprino/web.jpg"
+  },
+  "imageCredit": {
+    "author": "Atelier des Chefs",
+    "url": "https://www.atelierdeschefs.fr/recettes/14110/raviole-de-jambon-de-pays-et-chevre-frais-pesto-et-roquette/"
+  },
+  "prepTime": 45,
+  "cookTime": 3,
+  "servings": 4,
+  "difficulty": "Medio",
+  "category": "Pasta",
+  "tags": [
+    "pâtes",
+    "porc",
+    "fromage",
+    "pesto",
+    "festif",
+    "plat-principal",
+    "français",
+    "chaud",
+    "onctueux"
+  ],
+  "ingredients": [
+    {
+      "group": "Pour les ravioles",
+      "items": [
+        "16 feuilles de pâte à raviole",
+        "150 g de fromage de chèvre frais",
+        "2 tranches de jambon de pays (jambon cru)",
+        "1 petite botte de ciboulette",
+        "2 jaunes d'œufs (pour la dorure)",
+        "Fleur de sel",
+        "Piment d'Espelette"
+      ]
+    },
+    {
+      "group": "Pour le pesto et la salade",
+      "items": [
+        "1 botte de basilic frais",
+        "20 g de pignons de pin",
+        "20 g de parmesan râpé",
+        "1 gousse d'ail",
+        "7 cl d'huile d'olive",
+        "130 g de roquette",
+        "3 cl de vinaigre balsamique blanc",
+        "20 g de tomates séchées"
+      ]
+    }
+  ],
+  "steps": [
+    {
+      "text": "Laver les légumes. Travailler le chèvre à la fourchette pour le rendre plus crémeux. Tailler le jambon en petits dés. Ciseler finement la ciboulette."
+    },
+    {
+      "text": "Mélanger le chèvre, le jambon et la ciboulette. Assaisonner de fleur de sel et de piment d'Espelette."
+    },
+    {
+      "text": "Ajouter une goutte d'eau dans les jaunes d'œufs pour faciliter l'application de la dorure."
+    },
+    {
+      "text": "Disposer une feuille de raviole sur le plan de travail et déposer une belle cuillère à café de farce au milieu. Passer un peu de dorure sur les 4 bords, puis refermer avec une autre feuille en chassant l'air. Retailler éventuellement à l'emporte-pièce. Répéter pour les 8 ravioles."
+    },
+    {
+      "text": "Dans un blender, mixer le basilic, les pignons de pin, l'ail épluché et haché et le parmesan râpé. Monter à l'huile d'olive jusqu'à obtenir un pesto lisse."
+    },
+    {
+      "text": "Tailler les tomates séchées en petits dés. Assaisonner la roquette avec le vinaigre balsamique blanc, une pincée de sel et un filet d'huile d'olive. Ajouter les dés de tomates."
+    },
+    {
+      "text": "Porter une grande casserole d'eau à ébullition. Pocher les ravioles dans l'eau à peine frémissante pendant 3 minutes."
+    },
+    {
+      "text": "Disposer les ravioles dans les assiettes, les napper de pesto et poser la roquette à côté en lui donnant du volume."
+    }
+  ],
+  "tips": [
+    "Ne pas cuire les ravioles trop longtemps et utiliser une très grande casserole pour les pocher, sinon elles risquent de se coller entre elles.",
+    "Le pesto peut se préparer à l'avance et se conserve au réfrigérateur avec un filet d'huile d'olive par-dessus."
+  ],
+  "source": "https://www.atelierdeschefs.fr/recettes/14110/raviole-de-jambon-de-pays-et-chevre-frais-pesto-et-roquette/",
+  "translations": {
+    "en": {
+      "title": "Country Ham and Fresh Goat Cheese Ravioli with Pesto and Rocket",
+      "description": "Ravioles filled with fresh goat cheese and country ham, topped with basil pesto and served with arugula and sun-dried tomatoes.",
+      "tags": [
+        "pasta",
+        "pork",
+        "cheese",
+        "pesto",
+        "festive",
+        "main-course",
+        "french",
+        "hot",
+        "creamy"
+      ],
+      "ingredients": [
+        {
+          "group": "For the ravioles",
+          "items": [
+            "16 raviole pasta sheets",
+            "150 g fresh goat cheese",
+            "2 slices of cured country ham",
+            "1 small bunch of chives",
+            "2 egg yolks (for egg wash)",
+            "Fleur de sel",
+            "Espelette pepper"
+          ]
+        },
+        {
+          "group": "For the pesto and salad",
+          "items": [
+            "1 bunch fresh basil",
+            "20 g pine nuts",
+            "20 g grated parmesan",
+            "1 garlic clove",
+            "7 cl olive oil",
+            "130 g arugula (rocket)",
+            "3 cl white balsamic vinegar",
+            "20 g sun-dried tomatoes"
+          ]
+        }
+      ],
+      "steps": [
+        {
+          "text": "Wash the vegetables. Work the goat cheese with a fork until creamy. Dice the ham into small cubes. Finely chop the chives."
+        },
+        {
+          "text": "Mix the goat cheese, ham and chives together. Season with fleur de sel and Espelette pepper."
+        },
+        {
+          "text": "Add a drop of water to the egg yolks to make the egg wash easier to apply."
+        },
+        {
+          "text": "Place a raviole sheet on the work surface and put a generous teaspoon of filling in the center. Brush egg wash on the 4 edges, then close with another sheet, pressing out the air. Trim with a pastry cutter if needed. Repeat for all 8 ravioles."
+        },
+        {
+          "text": "In a blender, blend the basil, pine nuts, peeled and chopped garlic and grated parmesan. Drizzle in olive oil while blending until you have a smooth pesto."
+        },
+        {
+          "text": "Dice the sun-dried tomatoes. Dress the arugula with white balsamic vinegar, a pinch of salt and a drizzle of olive oil. Add the diced tomatoes."
+        },
+        {
+          "text": "Bring a large pot of water to a boil. Poach the ravioles in barely simmering water for 3 minutes."
+        },
+        {
+          "text": "Arrange the ravioles on plates, spoon over the pesto and place the arugula alongside, giving it some volume."
+        }
+      ],
+      "tips": [
+        "Do not overcook the ravioles and use a very large pot to poach them, otherwise they risk sticking together.",
+        "The pesto can be made ahead and stored in the refrigerator with a drizzle of olive oil on top."
+      ]
+    },
+    "it": {
+      "title": "Ravioli di Prosciutto Crudo e Caprino Fresco con Pesto e Rucola",
+      "description": "Ravioli ripieni di caprino fresco e prosciutto crudo, nappati di pesto al basilico e serviti con rucola e pomodori secchi.",
+      "tags": [
+        "pasta",
+        "maiale",
+        "formaggio",
+        "pesto",
+        "festivo",
+        "primo-piatto",
+        "francese",
+        "caldo",
+        "cremoso"
+      ],
+      "ingredients": [
+        {
+          "group": "Per i ravioli",
+          "items": [
+            "16 sfoglie di pasta per ravioli",
+            "150 g di caprino fresco",
+            "2 fette di prosciutto crudo di montagna",
+            "1 mazzetto piccolo di erba cipollina",
+            "2 tuorli d'uovo (per la doratura)",
+            "Fior di sale",
+            "Peperoncino di Espelette"
+          ]
+        },
+        {
+          "group": "Per il pesto e l'insalata",
+          "items": [
+            "1 mazzetto di basilico fresco",
+            "20 g di pinoli",
+            "20 g di parmigiano grattugiato",
+            "1 spicchio d'aglio",
+            "7 cl di olio d'oliva",
+            "130 g di rucola",
+            "3 cl di aceto balsamico bianco",
+            "20 g di pomodori secchi"
+          ]
+        }
+      ],
+      "steps": [
+        {
+          "text": "Lavare le verdure. Lavorare il caprino con una forchetta fino a renderlo cremoso. Tagliare il prosciutto a cubetti. Tritare finemente l'erba cipollina."
+        },
+        {
+          "text": "Mescolare il caprino, il prosciutto e l'erba cipollina. Condire con fior di sale e peperoncino di Espelette."
+        },
+        {
+          "text": "Aggiungere una goccia d'acqua ai tuorli per facilitare l'applicazione della doratura."
+        },
+        {
+          "text": "Disporre una sfoglia di pasta sul piano di lavoro e mettere un cucchiaino abbondante di farcia al centro. Spennellare la doratura sui 4 bordi, poi chiudere con un'altra sfoglia facendo uscire l'aria. Rifilare con un tagliapasta se necessario. Ripetere per tutti gli 8 ravioli."
+        },
+        {
+          "text": "In un frullatore, frullare il basilico, i pinoli, l'aglio sbucciato e tritato e il parmigiano grattugiato. Aggiungere l'olio d'oliva a filo fino a ottenere un pesto liscio."
+        },
+        {
+          "text": "Tagliare i pomodori secchi a cubetti. Condire la rucola con l'aceto balsamico bianco, un pizzico di sale e un filo d'olio d'oliva. Aggiungere i cubetti di pomodori secchi."
+        },
+        {
+          "text": "Portare a ebollizione una grande pentola d'acqua. Cuocere i ravioli in acqua appena fremissante per 3 minuti."
+        },
+        {
+          "text": "Disporre i ravioli nei piatti, cospargerli di pesto e aggiungere la rucola di lato dandole volume."
+        }
+      ],
+      "tips": [
+        "Non cuocere i ravioli troppo a lungo e usare una pentola molto grande per la cottura, altrimenti rischiano di attaccarsi tra loro.",
+        "Il pesto può essere preparato in anticipo e conservato in frigorifero con un filo d'olio d'oliva sopra."
+      ]
+    }
+  }
+}

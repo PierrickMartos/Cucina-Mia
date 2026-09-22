@@ -1,0 +1,150 @@
+{
+  "slug": "gaspacho-pasteque-tomates",
+  "title": "Gaspacho de tomates et pastèque",
+  "description": "Un gaspacho rafraîchissant, parfait pour les jours de canicule.",
+  "images": {
+    "cover": "images/recipes/gaspacho-pasteque-tomates/cover.jpg",
+    "web": "images/recipes/gaspacho-pasteque-tomates/web.jpg"
+  },
+  "imageCredit": {
+    "author": "yana_tik",
+    "url": "https://pixabay.com/users/yana_tik-5438050/"
+  },
+  "prepTime": 5,
+  "cookTime": 0,
+  "servings": 4,
+  "difficulty": "Facile",
+  "category": "Antipasti",
+  "tags": [
+    "gaspacho",
+    "froid",
+    "été",
+    "no-cuisson",
+    "végétarien",
+    "végétalien",
+    "rapide",
+    "léger",
+    "entrée",
+    "méditerranéen",
+    "légumes",
+    "sans-lactose"
+  ],
+  "ingredients": [
+    {
+      "items": [
+        "1/4 d'une grosse pastèque",
+        "2 grosses tomates",
+        "1 cuillère à soupe d'échalotes ciselées (très bon aussi avec un oignon rouge)",
+        "1 à 2 gousses d'ail",
+        "3/4 d'une botte de basilic frais",
+        "3 cuillères à soupe d'huile d'olive (Quanto basta)",
+        "1 cuillère à soupe de chapelure (parfait avec 20 g de pain)",
+        "Sel",
+        "Poivre",
+        "Un trait de vinaigre",
+        "Une pincée de paprika"
+      ]
+    }
+  ],
+  "steps": [
+    {
+      "text": "Mixer tous les ingrédients ensemble jusqu'à obtenir une texture lisse et homogène."
+    }
+  ],
+  "tips": [
+    "Réserver au réfrigérateur au moins 1 heure avant de servir pour un gaspacho bien frais."
+  ],
+  "source": "Camille mijote",
+  "originalSource": {
+    "type": "text",
+    "data": "Recipe Title: Gaspacho pastèque tomates\nDescription: Un gaspacho rafraîchissant parfait par canicule\nCategory: Antipasti — Difficulty: Facile — Prep: 5 min — Cook: 0 min — Servings: 4\n\nIngredients:\n1/4 d'une grosse pastèque\n2 grosses tomates\n1 cuillères à soupe d'échotes ciselées (très bon aussi avec un oignon rouge)\nl'équivalent d'une à 2 gousses d'ail,\nj'ai mis 3/4 d'une boîte de basilic,\n3 CS d'huile d'olive,\n1 Cs de Chapelure (parfait avec 20 g de pain),\nsel, poivre,\nun trait de vinaigre,\nune pincée de paprika\n\nSteps:\nMixer le tout\n\nSource: Camille mijote"
+  },
+  "translations": {
+    "en": {
+      "title": "Tomato and Watermelon Gazpacho",
+      "description": "A refreshing gazpacho, perfect for scorching summer days.",
+      "tags": [
+        "gazpacho",
+        "cold",
+        "summer",
+        "no-cook",
+        "vegetarian",
+        "vegan",
+        "quick",
+        "light",
+        "starter",
+        "mediterranean",
+        "vegetables",
+        "dairy-free"
+      ],
+      "ingredients": [
+        {
+          "items": [
+            "1/4 of a large watermelon",
+            "2 large tomatoes",
+            "1 tablespoon finely chopped shallots (also great with a red onion)",
+            "1 to 2 garlic cloves",
+            "3/4 of a bunch of fresh basil",
+            "3 tablespoons olive oil (Quanto basta)",
+            "1 tablespoon breadcrumbs (great with 20 g of bread)",
+            "Salt",
+            "Pepper",
+            "A dash of vinegar",
+            "A pinch of paprika"
+          ]
+        }
+      ],
+      "steps": [
+        {
+          "text": "Blend all the ingredients together until smooth and homogeneous."
+        }
+      ],
+      "tips": [
+        "Chill in the refrigerator for at least 1 hour before serving for a nicely cold gazpacho."
+      ]
+    },
+    "it": {
+      "title": "Gazpacho di pomodoro e anguria",
+      "description": "Un gazpacho rinfrescante, perfetto per le giornate di canicola.",
+      "tags": [
+        "gazpacho",
+        "freddo",
+        "estate",
+        "senza-cottura",
+        "vegetariano",
+        "vegano",
+        "veloce",
+        "leggero",
+        "antipasto",
+        "mediterraneo",
+        "verdure",
+        "senza-lattosio"
+      ],
+      "ingredients": [
+        {
+          "items": [
+            "1/4 di una grossa anguria",
+            "2 grossi pomodori",
+            "1 cucchiaio di scalogno tritato (ottimo anche con una cipolla rossa)",
+            "1-2 spicchi d'aglio",
+            "3/4 di un mazzetto di basilico fresco",
+            "3 cucchiai di olio d'oliva (Quanto basta)",
+            "1 cucchiaio di pangrattato (perfetto con 20 g di pane)",
+            "Sale",
+            "Pepe",
+            "Un goccio di aceto",
+            "Un pizzico di paprika"
+          ]
+        }
+      ],
+      "steps": [
+        {
+          "text": "Frullare tutti gli ingredienti insieme fino a ottenere una consistenza liscia e omogenea."
+        }
+      ],
+      "tips": [
+        "Riporre in frigorifero per almeno 1 ora prima di servire per un gazpacho ben freddo."
+      ]
+    }
+  }
+}
