@@ -27,12 +27,12 @@ describe("Layout logo", () => {
   })
 
   afterEach(() => {
+    vi.restoreAllMocks()
     Reflect.deleteProperty(window, "speechSynthesis")
   })
 
-  it("says 'Mamma mia!' in Italian and goes back to the home page", async () => {
-    const user = userEvent.setup()
-    render(
+  function renderLayout() {
+    return render(
       <MemoryRouter initialEntries={["/recipes"]}>
         <Routes>
           <Route element={<Layout />}>
@@ -42,6 +42,25 @@ describe("Layout logo", () => {
         </Routes>
       </MemoryRouter>
     )
+  }
+
+  it("plays the 'Mamma mia!' sound and goes back to the home page", async () => {
+    const play = vi.spyOn(HTMLMediaElement.prototype, "play").mockResolvedValue(undefined)
+    const user = userEvent.setup()
+    renderLayout()
+
+    await user.click(screen.getByRole("link", { name: "CUCINA MIA" }))
+
+    expect(screen.getByTestId("home-page")).toBeInTheDocument()
+    expect(play).toHaveBeenCalledTimes(1)
+    expect((play.mock.contexts[0] as HTMLAudioElement).src).toContain("sounds/mamma-mia.mp3")
+    expect(speak).not.toHaveBeenCalled()
+  })
+
+  it("falls back to an Italian voice when the sound can't be played", async () => {
+    vi.spyOn(HTMLMediaElement.prototype, "play").mockRejectedValue(new Error("NotSupportedError"))
+    const user = userEvent.setup()
+    renderLayout()
 
     await user.click(screen.getByRole("link", { name: "CUCINA MIA" }))
 
