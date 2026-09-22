@@ -34,7 +34,7 @@
         "1 bloc de feta (200 g environ)",
         "400 g de tomates cerises",
         "5 gousses d'ail",
-        "500 ml de bouillon de volaille",
+        "500 ml de bouillon de volaille (ou de légumes pour une version végétarienne)",
         "Origan, thym et romarin (ou herbes de Provence)",
         "Poivre du moulin",
         "Huile d'olive (Quanto basta)"
@@ -55,7 +55,7 @@
       "text": "Arroser généreusement d'huile d'olive, poivrer et parsemer d'origan, de thym et de romarin."
     },
     {
-      "text": "Verser le bouillon de volaille chaud le long du plat, jusqu'à recouvrir le riz."
+      "text": "Verser le bouillon chaud le long du plat, jusqu'à recouvrir le riz."
     },
     {
       "text": "Enfourner 40 minutes, jusqu'à ce que le riz ait absorbé tout le bouillon et que la feta soit dorée sur le dessus."
@@ -95,7 +95,7 @@
             "1 block of feta (about 200 g)",
             "400 g cherry tomatoes",
             "5 garlic cloves",
-            "500 ml chicken stock",
+            "500 ml chicken stock (or vegetable stock for a vegetarian version)",
             "Oregano, thyme and rosemary (or herbes de Provence)",
             "Freshly ground pepper",
             "Olive oil (Quanto basta)"
@@ -116,7 +116,7 @@
           "text": "Drizzle generously with olive oil, season with pepper and sprinkle with oregano, thyme and rosemary."
         },
         {
-          "text": "Pour the hot chicken stock down the side of the dish, until the rice is covered."
+          "text": "Pour the hot stock down the side of the dish, until the rice is covered."
         },
         {
           "text": "Bake for 40 minutes, until the rice has absorbed all the stock and the feta is golden on top."
@@ -152,7 +152,7 @@
             "1 blocco di feta (circa 200 g)",
             "400 g di pomodorini",
             "5 spicchi d'aglio",
-            "500 ml di brodo di pollo",
+            "500 ml di brodo di pollo (o vegetale per una versione vegetariana)",
             "Origano, timo e rosmarino (o erbe di Provenza)",
             "Pepe macinato fresco",
             "Olio d'oliva (Quanto basta)"
@@ -173,7 +173,7 @@
           "text": "Irrorare generosamente con olio d'oliva, pepare e cospargere di origano, timo e rosmarino."
         },
         {
-          "text": "Versare il brodo di pollo caldo lungo il bordo della pirofila, fino a coprire il riso."
+          "text": "Versare il brodo caldo lungo il bordo della pirofila, fino a coprire il riso."
         },
         {
           "text": "Infornare per 40 minuti, finché il riso non ha assorbito tutto il brodo e la feta è dorata in superficie."
