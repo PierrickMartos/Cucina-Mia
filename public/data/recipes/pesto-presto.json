@@ -3,8 +3,8 @@
   "title": "Pesto Presto",
   "description": "Busiate col pesto alla trapanese, une pâte sicilienne en spirale servie avec un pesto à base de tomates fraîches, amandes, basilic et pecorino, spécialité de Trapani.",
   "images": {
-    "cover": "images/recipes/pesto-presto/cover.jpg",
-    "web": "images/recipes/pesto-presto/web.jpg"
+    "cover": "images/recipes/pesto-presto/cover.webp",
+    "web": "images/recipes/pesto-presto/web.webp"
   },
   "prepTime": 45,
   "cookTime": 150,

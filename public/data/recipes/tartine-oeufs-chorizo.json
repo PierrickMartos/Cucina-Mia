@@ -3,8 +3,8 @@
   "title": "Tartine Œufs-Chorizo",
   "description": "Une tartine généreuse et savoureuse garnie d'œufs brouillés crémeux et de tranches de chorizo croustillant, le petit-déjeuner ou brunch parfait.",
   "images": {
-    "cover": "images/recipes/tartine-oeufs-chorizo/cover.jpg",
-    "web": "images/recipes/tartine-oeufs-chorizo/web.jpg"
+    "cover": "images/recipes/tartine-oeufs-chorizo/cover.webp",
+    "web": "images/recipes/tartine-oeufs-chorizo/web.webp"
   },
   "imageCredit": {
     "author": "Jarek Ceborski",

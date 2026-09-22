@@ -3,8 +3,8 @@
   "title": "Gaufre liégeoise croustillante et moelleuse",
   "description": "La vraie gaufre de Liège : une pâte briochée longuement pétrie, levée 1 h 30, puis parsemée de sucre perlé qui caramélise à la cuisson. Croustillante dehors, moelleuse dedans.",
   "images": {
-    "cover": "images/recipes/gaufre-liegeoise/cover.jpg",
-    "web": "images/recipes/gaufre-liegeoise/web.jpg"
+    "cover": "images/recipes/gaufre-liegeoise/cover.webp",
+    "web": "images/recipes/gaufre-liegeoise/web.webp"
   },
   "imageCredit": {
     "author": "blandinejoannic",

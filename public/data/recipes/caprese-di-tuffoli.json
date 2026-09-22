@@ -3,8 +3,8 @@
   "title": "Caprese di tuffoli",
   "description": "Salade de pâtes estivale aux tomates multicolores marinées, mozzarella di bufala et basilic frais, un must romain qui se mange froid.",
   "images": {
-    "cover": "images/recipes/caprese-di-tuffoli/cover.jpg",
-    "web": "images/recipes/caprese-di-tuffoli/web.jpg"
+    "cover": "images/recipes/caprese-di-tuffoli/cover.webp",
+    "web": "images/recipes/caprese-di-tuffoli/web.webp"
   },
   "prepTime": 20,
   "cookTime": 40,

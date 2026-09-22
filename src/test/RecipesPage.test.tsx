@@ -105,7 +105,7 @@ describe("RecipesPage", () => {
     localStorage.clear()
     i18n.changeLanguage("en")
     globalThis.fetch = async () =>
-      ({ json: async () => mockRecipes }) as Response
+      ({ ok: true, json: async () => mockRecipes }) as Response
   })
 
   it("renders all recipes after loading", async () => {

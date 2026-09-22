@@ -3,8 +3,8 @@
   "title": "Coquillettes jambon et truffe noire",
   "description": "Coquillettes sautées au beurre et mijotées au bouillon de volaille, garnies de lamelles de jambon au torchon et de truffe noire émincée, servies avec du parmesan râpé.",
   "images": {
-    "cover": "images/recipes/coquillettes-jambon-truffe/cover.jpg",
-    "web": "images/recipes/coquillettes-jambon-truffe/web.jpg"
+    "cover": "images/recipes/coquillettes-jambon-truffe/cover.webp",
+    "web": "images/recipes/coquillettes-jambon-truffe/web.webp"
   },
   "imageCredit": {
     "author": "SanderSmit",

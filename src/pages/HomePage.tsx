@@ -1,4 +1,4 @@
-import { useState, useEffect, useMemo } from "react"
+import { useState, useMemo } from "react"
 import { Link } from "react-router-dom"
 import { Search, SlidersHorizontal } from "lucide-react"
 import Fuse from "fuse.js"
@@ -6,24 +6,25 @@ import { Input } from "@/components/ui/input"
 import { Skeleton } from "@/components/ui/skeleton"
 import { RecipeGrid, RecipesNotFound, AnimateInView } from "@/components/RecipeGrid"
 import { sortCategories } from "@/lib/categories"
+import { useRecipeIndex } from "@/lib/recipeData"
 import { useTranslation } from "react-i18next"
 import type { RecipeSummary } from "@/types/recipe"
 
 const BASE = import.meta.env.BASE_URL
 
 const CATEGORY_IMAGES: Record<string, string> = {
-  Antipasti: "images/categories/antipasti.jpg",
-  Pasta: "images/categories/pasta.jpg",
-  Gnocchi: "images/categories/gnocchi.jpg",
-  Risotto: "images/categories/risotto.jpg",
-  Insalate: "images/categories/insalate.jpg",
-  Secondi: "images/categories/secondi.jpg",
-  Pizze: "images/categories/pizza.jpg",
-  Pane: "images/categories/focacia.jpg",
-  Dolci: "images/categories/dolci.jpg",
-  Bambini: "images/categories/bambini.jpg",
-  Breakfast: "images/categories/breakfast.jpg",
-  Brunch: "images/categories/brunch.jpg",
+  Antipasti: "images/categories/antipasti.webp",
+  Pasta: "images/categories/pasta.webp",
+  Gnocchi: "images/categories/gnocchi.webp",
+  Risotto: "images/categories/risotto.webp",
+  Insalate: "images/categories/insalate.webp",
+  Secondi: "images/categories/secondi.webp",
+  Pizze: "images/categories/pizza.webp",
+  Pane: "images/categories/focacia.webp",
+  Dolci: "images/categories/dolci.webp",
+  Bambini: "images/categories/bambini.webp",
+  Breakfast: "images/categories/breakfast.webp",
+  Brunch: "images/categories/brunch.webp",
 }
 
 interface CategoryCard {
@@ -34,35 +35,9 @@ interface CategoryCard {
 }
 
 export function HomePage() {
-  const [recipes, setRecipes] = useState<RecipeSummary[]>([])
-  const [loading, setLoading] = useState(true)
-  const [error, setError] = useState<string | null>(null)
-  const [retryCount, setRetryCount] = useState(0)
+  const { recipes, loading, error, retry } = useRecipeIndex()
   const [search, setSearch] = useState("")
   const { t } = useTranslation()
-
-  useEffect(() => {
-    let cancelled = false
-    // Reset loading/error state for each fetch attempt (including retries)
-    // eslint-disable-next-line react-hooks/set-state-in-effect
-    setLoading(true)
-    setError(null)
-    fetch(`${BASE}data/recipes/index.json`)
-      .then((res) => res.json())
-      .then((data: RecipeSummary[]) => {
-        if (!cancelled) {
-          setRecipes(data)
-          setLoading(false)
-        }
-      })
-      .catch(() => {
-        if (!cancelled) {
-          setError('Failed to load. Please try again.')
-          setLoading(false)
-        }
-      })
-    return () => { cancelled = true }
-  }, [retryCount])
 
   const categories = useMemo<CategoryCard[]>(() => {
     const map = new Map<string, RecipeSummary[]>()
@@ -127,12 +102,14 @@ export function HomePage() {
             <Input
               type="search"
               placeholder={t("home.searchPlaceholder")}
+              aria-label={t("recipes.searchLabel")}
               value={search}
               onChange={(e) => setSearch(e.target.value)}
               className="bg-transparent border-none shadow-none focus-visible:shadow-none focus-visible:ring-0 focus-visible:ring-offset-0 w-full text-base md:text-sm font-body placeholder:text-outline p-0 h-auto"
             />
             <Link
               to="/recipes?openFilters=1"
+              aria-label={t("filter.openFilters")}
               className="ml-2 flex items-center justify-center gradient-primary text-primary-foreground w-8 h-8 rounded-full hover:opacity-90 transition-all active:scale-95 duration-300 shrink-0"
             >
               <SlidersHorizontal className="h-4 w-4" />
@@ -144,14 +121,14 @@ export function HomePage() {
       {/* Content: search results or category cards */}
       <section className="flex-1 min-h-0 overflow-y-auto pb-2">
         {error ? (
-          <div className="flex flex-col items-center justify-center py-16 text-center gap-4">
-            <p className="text-sm text-muted-foreground">{error}</p>
+          <div role="alert" className="flex flex-col items-center justify-center py-16 text-center gap-4">
+            <p className="text-sm text-muted-foreground">{t("common.loadError")}</p>
             <button
               type="button"
-              onClick={() => setRetryCount(c => c + 1)}
+              onClick={retry}
               className="rounded-full bg-surface-high px-5 py-2 text-sm font-medium text-foreground hover:bg-surface-container transition-colors"
             >
-              Try again
+              {t("common.tryAgain")}
             </button>
           </div>
         ) : isSearching ? (
@@ -175,7 +152,7 @@ export function HomePage() {
                 <article className="relative h-48 lg:h-72 overflow-hidden rounded-[1.5rem] editorial-grain">
                   <img
                     src={`${BASE}${cat.image}`}
-                    alt={cat.category}
+                    alt=""
                     className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105"
                     loading="lazy"
                   />

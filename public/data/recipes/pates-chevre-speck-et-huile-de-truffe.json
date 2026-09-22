@@ -3,8 +3,8 @@
   "title": "Pâtes Chèvre, Speck et Huile de Truffe",
   "description": "Des penne crémeuses au chèvre frais, terminées avec du speck fondant et un filet d'huile de truffe.",
   "images": {
-    "cover": "images/recipes/pates-chevre-speck-et-huile-de-truffe/cover.jpg",
-    "web": "images/recipes/pates-chevre-speck-et-huile-de-truffe/web.jpg"
+    "cover": "images/recipes/pates-chevre-speck-et-huile-de-truffe/cover.webp",
+    "web": "images/recipes/pates-chevre-speck-et-huile-de-truffe/web.webp"
   },
   "prepTime": 5,
   "cookTime": 12,

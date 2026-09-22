@@ -3,8 +3,8 @@
   "title": "Gnocchi d'Aubergines au Curry",
   "description": "Des gnocchi de polenta moelleux et aubergines fondantes gratinés au four dans une sauce curry parfumée, un plat végétarien savoureux et réconfortant.",
   "images": {
-    "cover": "images/recipes/gnocchi-aubergines-curry/cover.jpg",
-    "web": "images/recipes/gnocchi-aubergines-curry/web.jpg"
+    "cover": "images/recipes/gnocchi-aubergines-curry/cover.webp",
+    "web": "images/recipes/gnocchi-aubergines-curry/web.webp"
   },
   "prepTime": 30,
   "cookTime": 120,

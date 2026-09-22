@@ -7,7 +7,9 @@
   },
   "common": {
     "close": "Close",
-    "tryAgain": "Try again"
+    "tryAgain": "Try again",
+    "loadError": "Failed to load. Please try again.",
+    "skipToContent": "Skip to content"
   },
   "language": {
     "switch": "Switch language"
@@ -27,7 +29,10 @@
     "builtIntro": "This website was built with the help of AI.",
     "builtContent": "Recipes are automatically extracted from photos, URLs or text, then added to the site. A special thank you to the photographers: some recipes on this site use photos found on Pixabay or Unsplash.",
     "thanks": "A big thank you to",
-    "thanksDetail": "for sparking the idea next to the coffee machine. All credit goes to him."
+    "thanksDetail": "for sparking the idea next to the coffee machine. All credit goes to him.",
+    "heroAlt": "A nonna making fresh pasta",
+    "sideAlt": "Pesto pasta with cherry tomatoes",
+    "builtAlt": "Laptop showing code on screen"
   },
   "recipes": {
     "title": "Recipes",
@@ -63,7 +68,10 @@
     "read": "Read",
     "readAloud": "Read aloud",
     "stop": "Stop",
-    "stopReading": "Stop reading"
+    "stopReading": "Stop reading",
+    "share": "Share",
+    "shareRecipe": "Share recipe",
+    "linkCopied": "Link copied!"
   },
   "filter": {
     "title": "Filter recipes",

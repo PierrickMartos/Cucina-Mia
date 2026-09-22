@@ -13,8 +13,8 @@ export function RecipesNotFound() {
   return (
     <div className="flex flex-col items-center text-center py-8 text-muted-foreground">
       <img
-        src={`${import.meta.env.BASE_URL}images/empty-state.png`}
-        alt="No recipes"
+        src={`${import.meta.env.BASE_URL}images/empty-state.webp`}
+        alt=""
         className="w-96 sm:w-[36rem] mb-2 opacity-90"
       />
       <p className="text-[10px] text-muted-foreground/50 mb-6">

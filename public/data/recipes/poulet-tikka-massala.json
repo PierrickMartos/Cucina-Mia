@@ -3,8 +3,8 @@
   "title": "Poulet Tikka Massala",
   "description": "Un poulet mariné au yaourt et aux épices, mijoté dans une sauce tomate parfumée, le classique indien par excellence.",
   "images": {
-    "cover": "images/recipes/poulet-tikka-massala/cover.jpg",
-    "web": "images/recipes/poulet-tikka-massala/web.jpg"
+    "cover": "images/recipes/poulet-tikka-massala/cover.webp",
+    "web": "images/recipes/poulet-tikka-massala/web.webp"
   },
   "imageCredit": {
     "author": "Kirtip",

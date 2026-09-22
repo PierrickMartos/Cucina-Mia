@@ -3,8 +3,8 @@
   "title": "Spaghettis alla Vittorio",
   "description": "Des spaghettis aux tomates datterino, Parmigiano Reggiano et basilic, inspirés du restaurant étoilé Da Vittorio près de Bergame.",
   "images": {
-    "cover": "images/recipes/spaghettis-alla-vittorio/cover.jpg",
-    "web": "images/recipes/spaghettis-alla-vittorio/cover.jpg"
+    "cover": "images/recipes/spaghettis-alla-vittorio/cover.webp",
+    "web": "images/recipes/spaghettis-alla-vittorio/cover.webp"
   },
   "prepTime": 15,
   "cookTime": 25,

@@ -3,8 +3,8 @@
   "title": "Légumes Méditerranéens Rôtis au Pesto",
   "description": "Une plaque de légumes méditerranéens (tomates, aubergines et courgettes) rôtis au four et nappés de pesto basilic maison, servis avec de la mozzarella di bufala.",
   "images": {
-    "cover": "images/recipes/four-tomates-aubergines-courgettes-pesto/cover.jpg",
-    "web": "images/recipes/four-tomates-aubergines-courgettes-pesto/web.jpg"
+    "cover": "images/recipes/four-tomates-aubergines-courgettes-pesto/cover.webp",
+    "web": "images/recipes/four-tomates-aubergines-courgettes-pesto/web.webp"
   },
   "imageCredit": {
     "id": "8027678",

@@ -3,8 +3,8 @@
   "title": "Avocado Toast",
   "description": "Toast croustillant garni de fromage frais, d'avocat en lamelles, d'œuf mollet et de radis croquants.",
   "images": {
-    "cover": "images/recipes/avocado-toast/cover.jpg",
-    "web": "images/recipes/avocado-toast/web.jpg"
+    "cover": "images/recipes/avocado-toast/cover.webp",
+    "web": "images/recipes/avocado-toast/web.webp"
   },
   "prepTime": 10,
   "cookTime": 5,

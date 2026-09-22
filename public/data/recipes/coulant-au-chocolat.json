@@ -3,8 +3,8 @@
   "title": "Coulant au Chocolat",
   "description": "Petit gâteau au chocolat noir avec un cœur fondant et coulant, prêt en 20 minutes seulement avec 5 ingrédients.",
   "images": {
-    "cover": "images/recipes/coulant-au-chocolat/cover.jpg",
-    "web": "images/recipes/coulant-au-chocolat/web.jpg"
+    "cover": "images/recipes/coulant-au-chocolat/cover.webp",
+    "web": "images/recipes/coulant-au-chocolat/web.webp"
   },
   "imageCredit": {
     "author": "romanakr",

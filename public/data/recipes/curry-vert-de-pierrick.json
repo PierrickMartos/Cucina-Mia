@@ -3,8 +3,8 @@
   "title": "Curry vert",
   "description": "Un curry vert thaï au poulet, crémeux au lait de coco, parfumé au combava et au basilic thaï.",
   "images": {
-    "cover": "images/recipes/curry-vert-de-pierrick/cover.jpg",
-    "web": "images/recipes/curry-vert-de-pierrick/web.jpg"
+    "cover": "images/recipes/curry-vert-de-pierrick/cover.webp",
+    "web": "images/recipes/curry-vert-de-pierrick/web.webp"
   },
   "prepTime": 10,
   "cookTime": 15,

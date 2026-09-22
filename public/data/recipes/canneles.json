@@ -3,8 +3,8 @@
   "title": "Cannelés",
   "description": "Petits gâteaux bordelais à la croûte caramélisée et croustillante, avec un intérieur moelleux parfumé à la vanille et au rhum.",
   "images": {
-    "cover": "images/recipes/canneles/cover.jpg",
-    "web": "images/recipes/canneles/web.jpg"
+    "cover": "images/recipes/canneles/cover.webp",
+    "web": "images/recipes/canneles/web.webp"
   },
   "imageCredit": {
     "author": "Elooi",

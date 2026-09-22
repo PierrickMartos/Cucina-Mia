@@ -3,8 +3,8 @@
   "title": "Tartine de l'Amour",
   "description": "Une tartine rustique et généreuse sur pain de campagne grillé, garnie de tomates concassées à l'échalote, au gingembre et au vinaigre balsamique, parsemée de parmesan. La recette emblématique de Bernard Guilhaudin, chef de La Tour d'Argent à Paris.",
   "images": {
-    "cover": "images/recipes/tartine-de-lamour/cover.jpg",
-    "web": "images/recipes/tartine-de-lamour/web.jpg"
+    "cover": "images/recipes/tartine-de-lamour/cover.webp",
+    "web": "images/recipes/tartine-de-lamour/web.webp"
   },
   "imageCredit": {
     "cover": {

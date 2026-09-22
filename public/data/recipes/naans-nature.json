@@ -3,8 +3,8 @@
   "title": "Naans nature",
   "description": "Pain levé d'origine indienne, léger et moelleux, cuit à la poêle et généreusement badigeonné de ghee fondu.",
   "images": {
-    "cover": "images/recipes/naans-nature/cover.jpg",
-    "web": "images/recipes/naans-nature/web.jpg"
+    "cover": "images/recipes/naans-nature/cover.webp",
+    "web": "images/recipes/naans-nature/web.webp"
   },
   "prepTime": 20,
   "cookTime": 30,

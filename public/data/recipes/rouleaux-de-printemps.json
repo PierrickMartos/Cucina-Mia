@@ -3,8 +3,8 @@
   "title": "Rouleaux de printemps",
   "description": "Des rouleaux de printemps frais et légers à la thaïlandaise, garnis de légumes croquants et d'herbes aromatiques, servis avec une sauce citronnée.",
   "images": {
-    "cover": "images/recipes/rouleaux-de-printemps/cover.jpg",
-    "web": "images/recipes/rouleaux-de-printemps/web.jpg"
+    "cover": "images/recipes/rouleaux-de-printemps/cover.webp",
+    "web": "images/recipes/rouleaux-de-printemps/web.webp"
   },
   "imageCredit": {
     "author": "phamkhanhquynhtrang",

@@ -136,7 +136,18 @@ final_score = (metadata_score * 0.3) + (visual_score * 0.7)
    - Files exist and are > 10KB
    - `file` command confirms they are JPEG images
 
-## Step 6: Report
+
+## Step 6: Convert to WebP
+
+The site only serves WebP photos. When the images were saved inside the Cucina Mia repo (`public/images/recipes/{slug}/`), convert them right after downloading:
+
+```bash
+npm run images:webp -- public/images/recipes/{slug}
+```
+
+This produces `cover.webp` (max 1600px wide) and `web.webp` (max 800px wide), deletes the JPG files and updates `.jpg` references in `public/data/**/*.json`. The recipe JSON `images` object must point to the `.webp` files. Skip this step when the caller asked for files outside the repo (e.g. `/tmp/...`).
+
+## Step 7: Report
 
 Print a short summary including these fields:
 - Pixabay image ID and page URL (`pageURL`)
@@ -156,7 +167,8 @@ For a recipe "Pasta alla Carbonara" with ingredients guanciale, pecorino, eggs:
 1. Queries: `pasta+carbonara`, `carbonara`
 2. Search returns ~370 food photos
 3. Top candidate: 6000x4000, 15 likes, 5067 downloads → score 87
-4. Download `largeImageURL` → `cover.jpg`
+4. Download `largeImageURL` → `cover.jpg`, `webformatURL` → `web.jpg`
+5. Convert both to WebP → `cover.webp`, `web.webp`
 
 ## Edge Cases
 

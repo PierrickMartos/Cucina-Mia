@@ -97,9 +97,13 @@ export function Layout() {
     <div className="h-dvh flex flex-col bg-surface overflow-hidden">
       <a
         href="#main-content"
+        onClick={(e) => {
+          e.preventDefault()
+          document.getElementById("main-content")?.focus()
+        }}
         className="sr-only focus:not-sr-only focus:absolute focus:top-4 focus:left-4 focus:z-50 focus:px-4 focus:py-2 focus:bg-white focus:text-black focus:rounded"
       >
-        Skip to content
+        {t("common.skipToContent")}
       </a>
       {/* Top App Bar */}
       <nav className="shrink-0 relative flex items-center px-6 h-14 bg-surface/70 backdrop-blur-md z-50 print:hidden">
@@ -121,7 +125,7 @@ export function Layout() {
       </nav>
 
       {/* Main Content */}
-      <main id="main-content" className="flex-1 overflow-y-auto overflow-x-hidden">
+      <main id="main-content" tabIndex={-1} className="focus:outline-none flex-1 overflow-y-auto overflow-x-hidden">
         <motion.div
           key={pathname}
           initial={reduceMotion ? { opacity: 1, y: 0 } : { opacity: 0, y: 10 }}

@@ -3,8 +3,8 @@
   "title": "Crumble Ananas et Mangue",
   "description": "Un crumble aux fruits exotiques avec de l'ananas caramélisé à la vanille, de la mangue et du fruit de la passion, recouvert d'un biscuit croustillant à la cannelle.",
   "images": {
-    "cover": "images/recipes/crumble-ananas-mangue/cover.jpg",
-    "web": "images/recipes/crumble-ananas-mangue/web.jpg"
+    "cover": "images/recipes/crumble-ananas-mangue/cover.webp",
+    "web": "images/recipes/crumble-ananas-mangue/web.webp"
   },
   "imageCredit": {
     "author": "NoName_13",

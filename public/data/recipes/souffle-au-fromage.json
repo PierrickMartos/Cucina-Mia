@@ -3,8 +3,8 @@
   "title": "Soufflé au Fromage",
   "description": "L'emblème de la cuisine française : un soufflé léger et aérien au gruyère, à servir aussitôt sorti du four pour en savourer toute la majesté.",
   "images": {
-    "cover": "images/recipes/souffle-au-fromage/cover.jpg",
-    "web": "images/recipes/souffle-au-fromage/web.jpg"
+    "cover": "images/recipes/souffle-au-fromage/cover.webp",
+    "web": "images/recipes/souffle-au-fromage/web.webp"
   },
   "imageCredit": {
     "id": 1258733,
