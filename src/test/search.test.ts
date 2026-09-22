@@ -65,6 +65,9 @@ describe("text helpers", () => {
     expect(stem("pomodori")).toBe(stem("pomodoro"))
     expect(stem("végétarienne".normalize("NFD").replace(/[̀-ͯ]/g, ""))).toBe("vegetarien")
     expect(stem("cremeuse")).toBe(stem("cremeux"))
+    expect(stem("japonaise")).toBe(stem("japonais"))
+    expect(stem("framboises")).toBe(stem("framboise"))
+    expect(stem("fraise")).not.toBe(stem("frais"))
   })
 
   it("drops stopwords, units and numbers", () => {
@@ -151,7 +154,9 @@ describe("query understanding", () => {
     expect(parseQuery("pâtes sans porc").exclude[0].stems).toEqual(expect.arrayContaining(["porc", "jambon"]))
     expect(parseQuery("plat sans viande").terms.map((t) => t.stems)).toEqual([["vegetarien"]])
     expect(parseQuery("sans gluten").exclude).toEqual([])
-    expect(parseQuery("sans gluten").terms).toHaveLength(2)
+    expect(parseQuery("sans gluten").terms).toEqual([{ stems: expect.arrayContaining(["sansgluten", "senzagluten"]) }])
+    expect(parseQuery("sans œufs").exclude).toHaveLength(1)
+    expect(parseQuery("plat du moyen-orient").difficulty).toBeUndefined()
   })
 
   it("excludes negated ingredients but not description mentions", () => {

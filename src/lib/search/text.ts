@@ -33,6 +33,8 @@ export function normalize(text: string): string {
 export function stem(word: string): string {
   let w = word
   if (w.length > 3 && (w.endsWith("s") || w.endsWith("x"))) w = w.slice(0, -1)
+  // French feminine "-aise" / "-oise" -> same stem as "-ais" / "-ois" (japonaise / japonais, liégeoise / liégeois).
+  if (w.length > 6 && /[ao]ise$/.test(w)) w = w.slice(0, -2)
   for (let i = 0; i < 2 && w.length > 4 && /[aeio]$/.test(w); i++) w = w.slice(0, -1)
   // French feminine forms: "italienne" -> "italien", "crémeuse" -> "crémeux".
   if (w.length > 5 && w.endsWith("nn")) w = w.slice(0, -1)

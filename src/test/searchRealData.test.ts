@@ -57,4 +57,47 @@ describe("search on the real recipes", () => {
   it("keeps a difficulty word that is part of a title", () => {
     expect(search("framboisier facile")).toContain("framboisier-facile-moelleux")
   })
+
+  it("maps countries and regions to their recipes", () => {
+    const cases: [string, string[]][] = [
+      ["cuisine espagnole", ["gaspacho-pasteque-tomates", "gaspacho-de-pasteque-a-la-feta"]],
+      ["recette tunisienne", ["chakchouka-du-brunch"]],
+      ["plat du moyen-orient", ["chakchouka-du-brunch", "poke-bowl-falafel-mangue"]],
+      ["korean food", ["mayak-gyeran"]],
+      ["recette vietnamienne", ["rouleaux-de-printemps"]],
+      ["recette romaine", ["pasta-carbonara", "pasta-amatriciana"]],
+      ["cuisine belge", ["gaufre-liegeoise"]],
+      ["piatto di Napoli", ["gnocchi-alla-sorrentina"]],
+      ["cuisine japonaise", ["katsudon"]],
+      ["dessert tropical", ["crumble-ananas-mangue", "tarte-tatin-mangue-espelette"]],
+    ]
+    for (const [query, expected] of cases) expect(search(query), query).toEqual(expect.arrayContaining(expected))
+    for (const slug of search("cuisine française")) expect(byslug.get(slug)!.tags, slug).toContain("français")
+  })
+
+  it("matches compound 'sans' tags exactly", () => {
+    expect(search("sans sucre")).toEqual(["galette-banane"])
+    const glutenFree = search("sans gluten")
+    for (const query of ["gluten free", "senza glutine", "sans glu"]) expect(search(query).sort(), query).toEqual([...glutenFree].sort())
+    for (const slug of search("sans gluten ni lactose")) {
+      expect(byslug.get(slug)!.tags).toEqual(expect.arrayContaining(["sans-gluten", "sans-lactose"]))
+    }
+  })
+
+  it("excludes eggs, cheese and pork with 'sans'", () => {
+    for (const [query, group] of [["dessert sans œufs", /œuf|oeuf/i], ["pâtes sans fromage", /fromage|parmesan|pecorino|mozzarella|feta|chèvre|ricotta|mascarpone/i]] as const) {
+      const results = search(query)
+      expect(results.length, query).toBeGreaterThan(0)
+      for (const slug of results) expect(byslug.get(slug)!.tags.join(" "), `${query}: ${slug}`).not.toMatch(group)
+    }
+  })
+
+  it("understands dish families and styles", () => {
+    expect(search("soupe froide")).toEqual(expect.arrayContaining(["gaspacho-pasteque-tomates", "gaspacho-de-pasteque-a-la-feta"]))
+    expect(search("sandwich")).toEqual(expect.arrayContaining(["tartine-oeufs-chorizo", "avocado-toast", "pita-dwich-italian-style"]))
+    for (const slug of search("plat piquant")) expect(byslug.get(slug)!.tags, slug).toContain("épicé")
+    for (const slug of search("repas de noël")) expect(byslug.get(slug)!.tags, slug).toContain("festif")
+    for (const slug of search("recette pas chère")) expect(byslug.get(slug)!.tags, slug).toContain("économique")
+    expect(search("bbq")).toContain("effiloche-de-porc")
+  })
 })

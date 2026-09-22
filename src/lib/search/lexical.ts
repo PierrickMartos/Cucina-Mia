@@ -1,4 +1,4 @@
-import { editDistance, stem, tokenize } from "./text"
+import { editDistance, normalize, stem, tokenize } from "./text"
 import type { ParsedQuery, QueryTerm } from "./query"
 
 export type SearchField = "title" | "tags" | "category" | "ingredients" | "description"
@@ -60,7 +60,11 @@ export class LexicalIndex {
       const weights = new Map<string, number>()
       const strong = new Set<string>()
       for (const field of Object.keys(FIELD_WEIGHTS) as SearchField[]) {
-        const tokens = new Set((doc.fields[field] ?? []).flatMap(tokenize))
+        const texts = doc.fields[field] ?? []
+        const tokens = new Set(texts.flatMap(tokenize))
+        // Compound tags are also indexed as one word, so "sans sucre" means the sans-sucre tag and not
+        // "any sans-xxx tag + sugar in the ingredients".
+        if (field === "tags") texts.forEach((tag) => tokens.add(stem(normalize(tag).replace(/ /g, ""))))
         for (const token of tokens) {
           weights.set(token, (weights.get(token) ?? 0) + FIELD_WEIGHTS[field])
           if (field !== "description") strong.add(token)

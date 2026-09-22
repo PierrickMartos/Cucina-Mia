@@ -34,55 +34,105 @@ export const FILLERS = new Set([
   "typiques", "cuisine", "cuisines", "plat", "plats", "bon", "bons", "bonne", "bonnes", "delicieux", "delicieuse",
   "super", "soir", "midi", "peux", "peut", "sont", "etre", "y", "tres", "peu", "comme", "genre", "type", "du",
   "contient", "contenant", "base", "ya", "il", "elle", "des", "leur", "ne", "pas", "ni", "tout", "toutes", "tous",
+  "envie", "ai", "as", "avoir", "besoin", "suggestion", "suggestions", "proposition", "propositions", "aide", "aider",
+  "connais", "pourrais", "pourriez", "avez", "auriez", "aujourd", "hui", "demain", "ce", "cette", "repas",
   // en
   "i", "me", "want", "would", "like", "looking", "look", "find", "show", "some", "something", "give", "dish",
   "dishes", "meal", "meals", "cook", "cooking", "make", "from", "that", "which", "what", "are", "is", "be", "come",
   "comes", "coming", "origin", "food", "good", "tonight", "can", "you", "please", "any", "containing", "based",
+  "idea", "ideas", "suggest", "suggestion", "suggestions", "need", "craving", "today", "tomorrow", "have", "get",
   // it
   "voglio", "vorrei", "cerco", "qualcosa", "piatto", "piatti", "cucina", "che", "vengono", "viene", "provenienti",
-  "dall", "dalla", "dal", "buono", "buoni", "stasera", "mi", "qualche",
+  "dall", "dalla", "dal", "buono", "buoni", "stasera", "mi", "qualche", "idee", "idea", "voglia", "ho", "fare",
+  "cucinare", "mangiare", "pasto", "oggi", "domani",
 ])
 
 // Concept expansions: a query word also matches these (corpus) words.
 export const CONCEPTS: Record<string, string[]> = {
-  // Cuisines / origins
+  // Cuisines, countries and regions (fr / en / it). Targets are French tags, or dish names when no tag exists.
   inde: ["indien"], india: ["indien"], indian: ["indien"], indiano: ["indien"], indienne: ["indien"],
   italie: ["italien"], italy: ["italien"], italia: ["italien"], italian: ["italien"], italienne: ["italien"],
-  japon: ["japonais"], japan: ["japonais"], japanese: ["japonais"], giappone: ["japonais"], japonaise: ["japonais"],
-  thailande: ["thai"], thailand: ["thai"], thailandais: ["thai"], thailandaise: ["thai"],
-  asie: ["asiatique", "japonais", "thai", "indien"], asia: ["asiatique", "japonais", "thai", "indien"],
-  asian: ["asiatique", "japonais", "thai", "indien"], asiatico: ["asiatique", "japonais", "thai", "indien"],
-  france: ["francais"], french: ["francais"], francia: ["francais"], francaise: ["francais"],
-  amerique: ["americain"], usa: ["americain"], america: ["americain"], american: ["americain"],
   sicile: ["sicilien"], sicily: ["sicilien"], sicilia: ["sicilien"],
   milan: ["milanais"], milano: ["milanais"], milanese: ["milanais"], milanaise: ["milanais"],
-  provence: ["provencal"], mediterranee: ["mediterraneen"], mediterranean: ["mediterraneen"],
-  coree: ["coreen", "asiatique"], korea: ["coreen", "asiatique"], korean: ["coreen", "asiatique"],
-  // Dish families
+  rome: ["romain", "carbonara", "amatriciana"], roma: ["romain", "carbonara", "amatriciana"],
+  romain: ["romain", "carbonara", "amatriciana"], romaine: ["romain", "carbonara", "amatriciana"],
+  roman: ["romain", "carbonara", "amatriciana"], romano: ["romain", "carbonara", "amatriciana"],
+  naples: ["napolitain", "sorrentina"], napoli: ["napolitain", "sorrentina"], napolitain: ["napolitain", "sorrentina"],
+  neapolitan: ["napolitain", "sorrentina"], napoletano: ["napolitain", "sorrentina"], sorrento: ["sorrentina"],
+  france: ["francais"], french: ["francais"], francia: ["francais"], francaise: ["francais"],
+  provence: ["provencal"], bordeaux: ["cannele"], bordelais: ["cannele"], savoie: ["savoie"], dauphine: ["dauphine"],
+  belgique: ["belge", "liegeois"], belgium: ["belge", "liegeois"], belgian: ["belge", "liegeois"],
+  belgio: ["belge", "liegeois"], belga: ["belge", "liegeois"], liege: ["liegeois"],
+  espagne: ["espagnol", "gaspacho"], spain: ["espagnol", "gaspacho"], spagna: ["espagnol", "gaspacho"],
+  espagnol: ["espagnol", "gaspacho"], spanish: ["espagnol", "gaspacho"], spagnolo: ["espagnol", "gaspacho"],
+  andalou: ["gaspacho"], andalousie: ["gaspacho"], andalusia: ["gaspacho"],
+  mediterranee: ["mediterraneen"], mediterranean: ["mediterraneen"], mediterraneo: ["mediterraneen"],
+  maghreb: ["maghrebin", "chakchouka"], tunisie: ["tunisien", "chakchouka"], tunisia: ["tunisien", "chakchouka"],
+  tunisien: ["tunisien", "chakchouka"], tunisian: ["tunisien", "chakchouka"], tunisino: ["tunisien", "chakchouka"],
+  orient: ["oriental", "chakchouka", "falafel"], oriental: ["oriental", "chakchouka", "falafel"],
+  orientale: ["oriental", "chakchouka", "falafel"], mediorientale: ["oriental", "chakchouka", "falafel"],
+  libanais: ["libanais", "falafel"], lebanese: ["libanais", "falafel"], liban: ["libanais", "falafel"],
+  amerique: ["americain"], usa: ["americain"], us: ["americain"], etats: ["americain"], america: ["americain"],
+  american: ["americain"], americano: ["americain"],
+  asie: ["asiatique", "japonais", "thai", "indien"], asia: ["asiatique", "japonais", "thai", "indien"],
+  asian: ["asiatique", "japonais", "thai", "indien"], asiatico: ["asiatique", "japonais", "thai", "indien"],
+  japon: ["japonais"], japan: ["japonais"], japanese: ["japonais"], giappone: ["japonais"], japonaise: ["japonais"],
+  giapponese: ["japonais"],
+  thailande: ["thai"], thailand: ["thai"], thailandais: ["thai"], thailandaise: ["thai"], tailandese: ["thai"],
+  coree: ["coreen", "mayak"], korea: ["coreen", "mayak"], korean: ["coreen", "mayak"], coreen: ["coreen", "mayak"],
+  coreano: ["coreen", "mayak"],
+  vietnam: ["vietnamien", "rouleau"], vietnamien: ["vietnamien", "rouleau"], vietnamese: ["vietnamien", "rouleau"],
+  vietnamita: ["vietnamien", "rouleau"],
+  tropical: ["exotique"], tropicale: ["exotique"], tropicali: ["exotique"], tropique: ["exotique"],
+  // Dish families: members that do not carry the family word in their title or tags.
   curry: ["curry", "korma", "tikka", "paneng", "vindaloo"],
-  // Diets and courses
-  veggie: ["vegetarien"], vege: ["vegetarien"], veg: ["vegetarien"], vegan: ["vegetalien"], vegane: ["vegetalien"],
-  express: ["rapide"], vite: ["rapide"], fast: ["rapide"], aperitif: ["apero"], aperitivo: ["apero"],
+  soupe: ["soupe", "gaspacho", "veloute", "potage"], soup: ["soupe", "gaspacho", "veloute", "potage"],
+  zuppa: ["soupe", "gaspacho", "veloute", "potage"], veloute: ["soupe", "gaspacho", "veloute", "potage"],
+  sandwich: ["sandwich", "tartine", "toast", "dwich"], panino: ["sandwich", "tartine", "toast", "dwich"],
+  panini: ["sandwich", "tartine", "toast", "dwich"],
   gateau: ["dessert"], gateaux: ["dessert"], cake: ["dessert"], sucre: ["dessert"],
-  viande: ["viande", "porc", "poulet", "boeuf", "agneau", "canard", "jambon", "lardon", "bacon", "guanciale", "chorizo", "speck", "magret", "veau"],
-  meat: ["viande", "porc", "poulet", "boeuf", "agneau", "canard", "jambon", "lardon", "bacon", "guanciale", "chorizo", "speck", "magret", "veau"],
-  carne: ["viande", "porc", "poulet", "boeuf", "agneau", "canard", "jambon", "lardon", "bacon", "guanciale", "chorizo", "speck", "magret", "veau"],
-  porc: ["porc", "jambon", "lardon", "bacon", "guanciale", "chorizo", "speck", "pancetta", "saucisse"],
-  pork: ["porc", "jambon", "lardon", "bacon", "guanciale", "chorizo", "speck", "pancetta", "saucisse"],
-  maiale: ["porc", "jambon", "lardon", "bacon", "guanciale", "chorizo", "speck", "pancetta", "saucisse"],
-  fromage: ["fromage", "parmesan", "mozzarella", "feta", "chevre", "comte", "cheddar", "pecorino", "ricotta", "mascarpone", "burrata"],
-  cheese: ["fromage", "parmesan", "mozzarella", "feta", "chevre", "comte", "cheddar", "pecorino", "ricotta", "mascarpone", "burrata"],
-  formaggio: ["fromage", "parmesan", "mozzarella", "feta", "chevre", "comte", "cheddar", "pecorino", "ricotta", "mascarpone", "burrata"],
+  // Diets, courses, occasions and styles
+  veggie: ["vegetarien"], vege: ["vegetarien"], veg: ["vegetarien"], vegan: ["vegetalien"], vegane: ["vegetalien"],
+  coeliaque: ["gluten"], celiac: ["gluten"], celiaco: ["gluten"],
+  express: ["rapide"], vite: ["rapide"], fast: ["rapide"],
+  mijote: ["mijote"], slow: ["mijote"], lent: ["mijote"],
+  aperitif: ["apero"], aperitivo: ["apero"], tapas: ["apero"], amuse: ["apero"],
+  healthy: ["leger", "equilibre"], sain: ["leger", "equilibre"], saine: ["leger", "equilibre"],
+  light: ["leger", "equilibre"], sano: ["leger", "equilibre"],
+  rafraichissant: ["froid", "leger"], refreshing: ["froid", "leger"], rinfrescante: ["froid", "leger"],
+  cocooning: ["reconfortant"], piquant: ["epice"], releve: ["epice"],
+  noel: ["festif"], christmas: ["festif"], natale: ["festif"], reveillon: ["festif"], fetes: ["festif"],
+  bbq: ["barbecue"], grill: ["grille", "barbecue"],
+  cher: ["economique"], cheap: ["economique"], budget: ["economique"], economique: ["economique"],
+  batch: ["prep", "preparation"], congeler: ["congele"], congelation: ["congele"], freezer: ["congele"],
+  freeze: ["congele"], congelare: ["congele"],
+  // Ingredient groups (also used by exclusions: "sans porc", "sans fromage")
+  viande: ["viande", "porc", "poulet", "boeuf", "agneau", "canard", "veau", "jambon", "lardon", "bacon", "guanciale", "chorizo", "speck", "prosciutto", "saucisse", "magret", "foie"],
+  meat: ["viande", "porc", "poulet", "boeuf", "agneau", "canard", "veau", "jambon", "lardon", "bacon", "guanciale", "chorizo", "speck", "prosciutto", "saucisse", "magret", "foie"],
+  carne: ["viande", "porc", "poulet", "boeuf", "agneau", "canard", "veau", "jambon", "lardon", "bacon", "guanciale", "chorizo", "speck", "prosciutto", "saucisse", "magret", "foie"],
+  porc: ["porc", "jambon", "lardon", "bacon", "guanciale", "chorizo", "speck", "pancetta", "prosciutto", "saucisse", "echine"],
+  pork: ["porc", "jambon", "lardon", "bacon", "guanciale", "chorizo", "speck", "pancetta", "prosciutto", "saucisse", "echine"],
+  maiale: ["porc", "jambon", "lardon", "bacon", "guanciale", "chorizo", "speck", "pancetta", "prosciutto", "saucisse", "echine"],
+  volaille: ["poulet", "canard"], poultry: ["poulet", "canard"], pollame: ["poulet", "canard"],
+  fromage: ["fromage", "parmesan", "parmigiano", "mozzarella", "burrata", "feta", "chevre", "comte", "cheddar", "gruyere", "pecorino", "provola", "ricotta", "mascarpone"],
+  cheese: ["fromage", "parmesan", "parmigiano", "mozzarella", "burrata", "feta", "chevre", "comte", "cheddar", "gruyere", "pecorino", "provola", "ricotta", "mascarpone"],
+  formaggio: ["fromage", "parmesan", "parmigiano", "mozzarella", "burrata", "feta", "chevre", "comte", "cheddar", "gruyere", "pecorino", "provola", "ricotta", "mascarpone"],
+  nuts: ["noix", "amande", "noisette", "pistache", "cajou", "cacahuete", "pignon"], oleagineux: ["noix", "amande", "noisette", "pistache", "cajou", "cacahuete", "pignon"], arachide: ["cacahuete", "arachide"], peanut: ["cacahuete", "arachide"],
 }
 
 // "sans X" is a positive tag for these X ("sans gluten"), a negation otherwise ("sans porc").
+// Keep this list to words that exist as "sans-xxx" / "no-xxx" tags: "sans œufs" must stay an exclusion.
 export const POSITIVE_WITHOUT = new Set([
-  "gluten", "lactose", "cuisson", "sucre", "equipement", "lait", "oeuf", "oeufs",
+  "gluten", "lactose", "cuisson", "sucre", "equipement",
   "glutine", "lattosio", "zucchero", "cottura", "attrezzatura", "attrezzature",
   "cook", "cooking", "bake", "baking", "sugar", "dairy", "special", "equipment",
 ])
-// How "sans" is written in tags: "sans-gluten", "no-cuisson", "senza-glutine", "no-cook".
-const WITHOUT_STEMS = [...new Set(["sans", "no", "senza", "without"].map(stem))]
+// How "sans" is written in tags: "sans-gluten", "no-cuisson", "senza-glutine", "no-cook", "gluten-free".
+// Compound tags are indexed as one word ("sansgluten"), see LexicalIndex.
+function withoutTag(object: string): QueryTerm {
+  const forms = ["sans", "no", "senza", "without"].map((negation) => negation + object)
+  return { stems: [...new Set([...forms, object + "free"].map(stem))] }
+}
 // "sans viande" means vegetarian rather than "exclude everything mentioning meat".
 const MEATLESS = new Set(["viande", "viandes", "meat", "carne"])
 const NEGATIONS = new Set(["sans", "without", "senza", "pas", "no"])
@@ -130,9 +180,12 @@ export function parseQuery(query: string): ParsedQuery {
       while (j < words.length - 1 && ["de", "d", "du", "des", "la", "le", "les", "l"].includes(words[j])) j++
       const object = words[j]
       if (word === "pas" && j === i + 1) continue
-      if (POSITIVE_WITHOUT.has(object)) {
-        const term = toTerm(object, typing && j === words.length - 1)
-        parsed.terms.push({ stems: WITHOUT_STEMS }, ...(term ? [term] : []))
+      // While typing "sans glu", anticipate "sans gluten" rather than excluding "glu".
+      const typingObject = typing && j === words.length - 1
+      const positive = POSITIVE_WITHOUT.has(object) || (typingObject && [...POSITIVE_WITHOUT].some((w) => w.startsWith(object)))
+      if (positive) {
+        // No concept expansion here: "sans sucre" is the sans-sucre tag, not "sans dessert".
+        parsed.terms.push(withoutTag(object))
       } else if (MEATLESS.has(object)) {
         parsed.terms.push({ stems: [stem("vegetarien")] })
       } else {
@@ -143,6 +196,8 @@ export function parseQuery(query: string): ParsedQuery {
       continue
     }
 
+    // "moyen-orient" is a place, not a medium difficulty.
+    if (word === "moyen" && words[i + 1] === "orient") continue
     const difficulty = DIFFICULTY_WORDS[word]
     if (difficulty) {
       parsed.difficulty = difficulty
@@ -150,6 +205,12 @@ export function parseQuery(query: string): ParsedQuery {
       continue
     }
     if (FILLERS.has(word)) continue
+    // English "gluten free", "dairy free".
+    if (words[i + 1] === "free" && POSITIVE_WITHOUT.has(word)) {
+      parsed.terms.push(withoutTag(word))
+      i++
+      continue
+    }
 
     const term = toTerm(word, typing && isLast)
     if (term) parsed.terms.push(term)
