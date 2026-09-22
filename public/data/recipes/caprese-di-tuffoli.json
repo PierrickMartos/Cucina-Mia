@@ -28,19 +28,19 @@
   "ingredients": [
     {
       "items": [
-        "320 g de tuffoli (ou autres pâtes courtes : rigatoni, ...)",
+        "320 g de tuffoli (ou autres pâtes courtes : rigatoni, mezzi paccheri...)",
         "300 g de tomates cerises multicolores",
         "300 g de tomates cœur-de-bœuf multicolores",
         "250 g de mozzarella di bufala",
         "6 à 8 feuilles de basilic frais",
-        "4 à 5 c. à s. d'huile d'olive vierge extra (Quanto vene)",
+        "4 à 5 c. à s. d'huile d'olive vierge extra",
         "Sel fin et poivre noir du moulin QB"
       ]
     }
   ],
   "steps": [
     {
-      "text": "Lavez soigneusement les tomates. Coupez les tomates cerises en deux ou en quatre selon leur taille, et les tomates cœur-de-bœuf en petits dés. Mélangez le tout dans un grand saladier, salez, poivrez, ajoutez un généreux filet d'huile d'olive et mélangez bien le tout à la main. Laissez mariner à température ambiante pendant 30 à 40 minutes pour que les tomates rendent leur jus et développent tout leur parfum."
+      "text": "Lavez soigneusement les tomates. Coupez les tomates cerises en deux ou en quatre selon leur taille, et les tomates cœur-de-bœuf en petits dés. Mélangez le tout dans un grand saladier, salez, poivrez, ajoutez un généreux filet d'huile d'olive et les feuilles de basilic déchirées à la main. Mélangez doucement et laissez mariner à température ambiante pendant 30 à 40 minutes pour que les tomates rendent leur jus et développent tout leur parfum."
     },
     {
       "text": "Pendant ce temps, faites cuire les tuffoli dans une grande quantité d'eau bouillante salée jusqu'à ce qu'ils soient al dente. Ce plat se mange froid, alors passez les pâtes sous l'eau froide dès qu'elles sont égouttées. Ajoutez un filet d'huile d'olive pour éviter qu'elles collent et mélangez délicatement."
@@ -49,7 +49,7 @@
       "text": "Égouttez bien la mozzarella di bufala puis coupez-la en tranches."
     },
     {
-      "text": "Ajoutez les pâtes refroidies dans le saladier avec les tomates marinées. Mélangez délicatement. Ajoutez la mozzarella, les feuilles de basilic déchirées à la main et un généreux filet du jus de tomates et d'huile. Mélangez une dernière fois et servez. Delizioso."
+      "text": "Ajoutez les pâtes refroidies dans le saladier avec les tomates marinées. Mélangez délicatement pour bien les enrober de jus et d'huile. Ajoutez la mozzarella et remuez une dernière fois avant de servir. Delizioso."
     }
   ],
   "tips": [
@@ -80,19 +80,19 @@
       "ingredients": [
         {
           "items": [
-            "320 g tuffoli (or other short pasta: rigatoni, ...)",
+            "320 g tuffoli (or other short pasta: rigatoni, mezzi paccheri...)",
             "300 g multicolour cherry tomatoes",
             "300 g multicolour beef tomatoes",
             "250 g buffalo mozzarella",
             "6 to 8 fresh basil leaves",
-            "4 to 5 tbsp extra-virgin olive oil (Quanto vene)",
+            "4 to 5 tbsp extra-virgin olive oil",
             "Fine salt and freshly ground black pepper to taste"
           ]
         }
       ],
       "steps": [
         {
-          "text": "Wash the tomatoes thoroughly. Halve or quarter the cherry tomatoes depending on size, and dice the beef tomatoes into small pieces. Combine everything in a large bowl, season with salt and pepper, drizzle generously with olive oil and toss by hand. Leave to marinate at room temperature for 30 to 40 minutes so the tomatoes release their juices and develop their full flavour."
+          "text": "Wash the tomatoes thoroughly. Halve or quarter the cherry tomatoes depending on size, and dice the beef tomatoes into small pieces. Combine everything in a large bowl, season with salt and pepper, and add a generous drizzle of olive oil and the basil leaves torn by hand. Toss gently and leave to marinate at room temperature for 30 to 40 minutes so the tomatoes release their juices and develop their full flavour."
         },
         {
           "text": "Meanwhile, cook the tuffoli in a large pot of well-salted boiling water until al dente. This dish is served cold, so rinse the pasta under cold water as soon as it is drained. Add a drizzle of olive oil to prevent sticking and toss gently."
@@ -101,7 +101,7 @@
           "text": "Drain the buffalo mozzarella well, then slice it."
         },
         {
-          "text": "Add the cooled pasta to the bowl of marinated tomatoes and toss gently. Add the mozzarella, the basil leaves torn by hand, and a generous drizzle of the tomato juices and oil. Toss one last time and serve. Delizioso."
+          "text": "Add the cooled pasta to the bowl of marinated tomatoes. Toss gently so it is well coated in the juices and oil. Add the mozzarella and stir one last time before serving. Delizioso."
         }
       ],
       "tips": [
@@ -128,19 +128,19 @@
       "ingredients": [
         {
           "items": [
-            "320 g di tuffoli (o altra pasta corta: rigatoni, ...)",
+            "320 g di tuffoli (o altra pasta corta: rigatoni, mezzi paccheri...)",
             "300 g di pomodorini multicolori",
             "300 g di pomodori cuore di bue multicolori",
             "250 g di mozzarella di bufala",
             "6-8 foglie di basilico fresco",
-            "4-5 cucchiai di olio extravergine di oliva (Quanto vene)",
+            "4-5 cucchiai di olio extravergine di oliva",
             "Sale fino e pepe nero macinato fresco QB"
           ]
         }
       ],
       "steps": [
         {
-          "text": "Lavate accuratamente i pomodori. Tagliate i pomodorini a metà o in quattro secondo la grandezza, e i pomodori cuore di bue a piccoli cubetti. Mescolate tutto in una grande ciotola, salate, pepate, aggiungete un generoso filo di olio d'oliva e mescolate bene con le mani. Lasciate marinare a temperatura ambiente per 30-40 minuti affinché i pomodori rilascino il loro succo e sviluppino tutto il loro profumo."
+          "text": "Lavate accuratamente i pomodori. Tagliate i pomodorini a metà o in quattro secondo la grandezza, e i pomodori cuore di bue a piccoli cubetti. Mescolate tutto in una grande ciotola, salate, pepate, aggiungete un generoso filo di olio d'oliva e le foglie di basilico spezzettate a mano. Mescolate delicatamente e lasciate marinare a temperatura ambiente per 30-40 minuti affinché i pomodori rilascino il loro succo e sviluppino tutto il loro profumo."
         },
         {
           "text": "Nel frattempo, cuocete i tuffoli in abbondante acqua bollente salata fino a cottura al dente. Questo piatto si mangia freddo, quindi passate la pasta sotto l'acqua fredda non appena scolata. Aggiungete un filo di olio d'oliva per evitare che si appiccichi e mescolate delicatamente."
@@ -149,7 +149,7 @@
           "text": "Scolate bene la mozzarella di bufala, poi tagliatela a fette."
         },
         {
-          "text": "Aggiungete la pasta fredda nella ciotola con i pomodori marinati e mescolate delicatamente. Unite la mozzarella, le foglie di basilico spezzate a mano e un generoso filo del succo di pomodoro e dell'olio. Mescolate un'ultima volta e servite. Delizioso."
+          "text": "Aggiungete la pasta fredda nella ciotola con i pomodori marinati. Mescolate delicatamente per condirla bene con il succo e l'olio. Unite la mozzarella e mescolate un'ultima volta prima di servire. Delizioso."
         }
       ],
       "tips": [
