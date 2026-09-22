@@ -19,6 +19,10 @@ export interface ParsedQuery {
   difficulty?: Difficulty
   /** The word that set the difficulty ("facile"): recipes with it in their title or tags also qualify. */
   difficultyWord?: string
+  /** Normalised French tags a result must not have ("hiver" rules out "ete"). */
+  avoidTags: string[]
+  /** Groups of normalised French tags; a result needs one tag of each group ("vegetarien"). */
+  requireTags: string[][]
 }
 
 // The lexicon below is reviewed and extended by the search-lexicon skill (.agents/skills/search-lexicon)
@@ -120,6 +124,33 @@ export const CONCEPTS: Record<string, string[]> = {
   nuts: ["noix", "amande", "noisette", "pistache", "cajou", "cacahuete", "pignon"], oleagineux: ["noix", "amande", "noisette", "pistache", "cajou", "cacahuete", "pignon"], arachide: ["cacahuete", "arachide"], peanut: ["cacahuete", "arachide"],
 }
 
+// Tags implied or ruled out by a query word, applied to every result: the semantic layer alone would
+// happily suggest a cold summer gaspacho for "réconfortant pour l'hiver". Keys are query words.
+const WINTER = { avoid: ["ete", "froid"] }
+const SUMMER = { avoid: ["hiver"] }
+const COLD = { avoid: ["chaud"] }
+const HOT = { avoid: ["froid"] }
+const VEGETARIAN = { require: ["vegetarien", "vegetalien"] }
+const VEGAN = { require: ["vegetalien"] }
+export const TAG_RULES: Record<string, { avoid?: string[]; require?: string[] }> = {
+  hiver: WINTER, winter: WINTER, inverno: WINTER, hivernal: WINTER, invernale: WINTER,
+  ete: SUMMER, summer: SUMMER, estate: SUMMER, estivo: SUMMER,
+  froid: COLD, cold: COLD, freddo: COLD,
+  chaud: HOT, hot: HOT, caldo: HOT,
+  vegetarien: VEGETARIAN, vegetarian: VEGETARIAN, vegetariano: VEGETARIAN, veggie: VEGETARIAN, vege: VEGETARIAN,
+  veg: VEGETARIAN, vegetalien: VEGAN, vegan: VEGAN, vegane: VEGAN, vegano: VEGAN,
+}
+// "sans X" tags a result must carry.
+const WITHOUT_TAGS: Record<string, string[]> = {
+  gluten: ["sans gluten"], glutine: ["sans gluten"],
+  lactose: ["sans lactose"], lattosio: ["sans lactose"], dairy: ["sans lactose"],
+  sucre: ["sans sucre"], zucchero: ["sans sucre"], sugar: ["sans sucre"],
+  cuisson: ["sans cuisson", "no cuisson"], cottura: ["sans cuisson", "no cuisson"],
+  cook: ["sans cuisson", "no cuisson"], cooking: ["sans cuisson", "no cuisson"],
+  bake: ["sans cuisson", "no cuisson"], baking: ["sans cuisson", "no cuisson"],
+}
+const TAG_RULE_STEMS = new Map(Object.entries(TAG_RULES).map(([word, rule]) => [stem(word), rule] as const))
+
 // "sans X" is a positive tag for these X ("sans gluten"), a negation otherwise ("sans porc").
 // Keep this list to words that exist as "sans-xxx" / "no-xxx" tags: "sans œufs" must stay an exclusion.
 export const POSITIVE_WITHOUT = new Set([
@@ -157,7 +188,7 @@ function toTerm(word: string, typed: boolean): QueryTerm | null {
 }
 
 export function parseQuery(query: string): ParsedQuery {
-  const parsed: ParsedQuery = { terms: [], exclude: [] }
+  const parsed: ParsedQuery = { terms: [], exclude: [], avoidTags: [], requireTags: [] }
   let text = normalize(query)
   const typing = !/\s$/.test(query)
 
@@ -186,6 +217,7 @@ export function parseQuery(query: string): ParsedQuery {
       if (positive) {
         // No concept expansion here: "sans sucre" is the sans-sucre tag, not "sans dessert".
         parsed.terms.push(withoutTag(object))
+        if (WITHOUT_TAGS[object]) parsed.requireTags.push(WITHOUT_TAGS[object])
       } else if (MEATLESS.has(object)) {
         parsed.terms.push({ stems: [stem("vegetarien")] })
       } else {
@@ -208,12 +240,19 @@ export function parseQuery(query: string): ParsedQuery {
     // English "gluten free", "dairy free".
     if (words[i + 1] === "free" && POSITIVE_WITHOUT.has(word)) {
       parsed.terms.push(withoutTag(word))
+      if (WITHOUT_TAGS[word]) parsed.requireTags.push(WITHOUT_TAGS[word])
       i++
       continue
     }
 
     const term = toTerm(word, typing && isLast)
     if (term) parsed.terms.push(term)
+  }
+
+  for (const term of parsed.terms) {
+    const rule = TAG_RULE_STEMS.get(term.stems[0])
+    if (rule?.avoid) parsed.avoidTags.push(...rule.avoid)
+    if (rule?.require) parsed.requireTags.push(rule.require)
   }
 
   // Deduplicate identical terms ("curry curry", "indien" + "inde").
@@ -228,5 +267,11 @@ export function parseQuery(query: string): ParsedQuery {
 }
 
 export function hasConstraints(parsed: ParsedQuery) {
-  return parsed.exclude.length > 0 || parsed.maxMinutes !== undefined || parsed.difficulty !== undefined
+  return (
+    parsed.exclude.length > 0 ||
+    parsed.maxMinutes !== undefined ||
+    parsed.difficulty !== undefined ||
+    parsed.avoidTags.length > 0 ||
+    parsed.requireTags.length > 0
+  )
 }

@@ -1,7 +1,7 @@
 // Regression tests on the real cookbook: natural-language queries must return sensible recipes.
 // Add a case here whenever the search lexicon is extended (see .agents/skills/search-lexicon).
 import { describe, it, expect } from "vitest"
-import { bySlug as byslug, search } from "./helpers/realSearch"
+import { bySlug as byslug, recipes, search } from "./helpers/realSearch"
 
 describe("search on the real recipes", () => {
   it("finds every curry, including those without 'curry' in the title", () => {
@@ -99,5 +99,22 @@ describe("search on the real recipes", () => {
     for (const slug of search("repas de noël")) expect(byslug.get(slug)!.tags, slug).toContain("festif")
     for (const slug of search("recette pas chère")) expect(byslug.get(slug)!.tags, slug).toContain("économique")
     expect(search("bbq")).toContain("effiloche-de-porc")
+  })
+
+  it("keeps semantic suggestions consistent with the query", () => {
+    // Worst case: the embedding layer ranks every recipe, cold summer soups first.
+    const everything = recipes.map((r) => r.slug).sort((a, b) => Number(b.includes("gaspacho")) - Number(a.includes("gaspacho")))
+    const winter = search("quelque chose de réconfortant pour l'hiver", everything)
+    expect(winter).toEqual(expect.arrayContaining(["biryani-agneau", "polpette-al-sugo"]))
+    expect(winter.some((slug) => slug.includes("gaspacho"))).toBe(false)
+    for (const slug of winter) {
+      const tags = byslug.get(slug)!.tags
+      expect(tags, slug).not.toContain("été")
+      expect(tags, slug).not.toContain("froid")
+      expect(tags.some((t) => t === "réconfortant" || t === "hiver"), slug).toBe(true)
+    }
+    for (const slug of search("plat réconfortant sans viande", everything)) {
+      expect(byslug.get(slug)!.tags, slug).toContain("végétarien")
+    }
   })
 })

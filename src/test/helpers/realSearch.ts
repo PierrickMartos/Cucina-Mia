@@ -33,13 +33,17 @@ const extras = new Map(
 export const index = new LexicalIndex(buildSearchDocuments(recipes, extras), buildTagAliases(recipes))
 export const bySlug = new Map(recipes.map((r) => [r.slug, r]))
 
-/** Lexical search as the app runs it (without the semantic layer). Null means "no filter". */
-export function searchSlugs(query: string): string[] | null {
+/**
+ * Search as the app runs it. Without `semantic`, lexical only; pass semantic hits (best first) to
+ * simulate the embedding layer. Null means "no filter".
+ */
+export function searchSlugs(query: string, semantic: string[] | null = null): string[] | null {
   const parsed = parseQuery(query)
   const lexical = index.search(parsed)
-  return applyConstraints(mergeResults(lexical, null), recipes, parsed, lexical.excluded)
+  const hits = semantic?.map((slug, rank) => ({ slug, score: 1 - rank / 1000 })) ?? null
+  return applyConstraints(mergeResults(lexical, hits), recipes, parsed, lexical.excluded)
 }
 
-export function search(query: string): string[] {
-  return searchSlugs(query) ?? []
+export function search(query: string, semantic: string[] | null = null): string[] {
+  return searchSlugs(query, semantic) ?? []
 }

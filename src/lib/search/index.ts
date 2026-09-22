@@ -4,7 +4,7 @@ import fr from "@/i18n/locales/fr.json"
 import it from "@/i18n/locales/it.json"
 import type { LexicalResult, SearchDocument } from "./lexical"
 import { hasConstraints, type ParsedQuery } from "./query"
-import { tokenize } from "./text"
+import { normalize, tokenize } from "./text"
 import type { SemanticHit } from "./semantic"
 
 export { LexicalIndex } from "./lexical"
@@ -86,6 +86,9 @@ const SEMANTIC_WEIGHT = 0.8
  */
 export function mergeResults(lexical: LexicalResult, semantic: SemanticHit[] | null): string[] | null {
   if (lexical.termCount === 0) return null
+  // The semantic layer extends the results within the recipes matching part of the query ("réconfortant"
+  // for "réconfortant pour l'hiver"), and only goes free when no word matched at all.
+  if (semantic && lexical.related.size > 0) semantic = semantic.filter((hit) => lexical.related.has(hit.slug))
   if (!semantic || semantic.length === 0) return lexical.hits.map((hit) => hit.slug)
 
   const scores = new Map<string, number>()
@@ -121,6 +124,9 @@ export function applyConstraints(
     if (query.maxMinutes !== undefined && recipe.prepTime + recipe.cookTime > query.maxMinutes) return false
     // "facile" also matches "Framboisier facile" or a recipe tagged "facile" rated a bit harder.
     if (query.difficulty && recipe.difficulty !== query.difficulty && !mentions(recipe, query.difficultyWord)) return false
+    const tags = recipe.tags.map(normalize)
+    if (query.avoidTags.some((tag) => tags.includes(tag))) return false
+    if (query.requireTags.some((group) => !group.some((tag) => tags.includes(tag)))) return false
     return true
   })
 }

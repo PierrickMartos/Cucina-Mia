@@ -25,7 +25,7 @@ for (const recipe of recipes) {
   texts.flatMap(tokenize).forEach((token) => titleTagStems.add(token))
 }
 // Anywhere in the index, ingredients and descriptions included.
-const hasStem = (s: string) => index.search({ terms: [{ stems: [s] }], exclude: [] }).hits.length > 0
+const hasStem = (s: string) => index.search({ terms: [{ stems: [s] }], exclude: [], avoidTags: [], requireTags: [] }).hits.length > 0
 
 describe("search lexicon audit", () => {
   it("translates tags position by position (needed for cross-language aliases)", () => {

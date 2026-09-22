@@ -243,13 +243,30 @@ describe("hybrid merge", () => {
     expect(mergeResults(lexical, null)).toEqual(lexical.hits.map((hit) => hit.slug))
   })
 
-  it("adds semantic-only recipes and boosts recipes found by both", () => {
-    const merged = mergeResults(lexical, [
+  it("boosts recipes found by both and only adds semantic hits related to the query", () => {
+    const partial = run("curry poulet")
+    const merged = mergeResults(partial, [
       { slug: "curry-de-legumes", score: 0.9 },
       { slug: "gaspacho-pasteque", score: 0.88 },
     ])!
-    expect(merged[0]).toBe("curry-de-legumes")
-    expect(merged).toContain("gaspacho-pasteque")
-    expect(merged).toContain("poulet-au-curry")
+    expect(merged[0]).toBe("poulet-au-curry")
+    // Matches "curry" (part of the query): added. Matches nothing: left out.
+    expect(merged).toContain("curry-de-legumes")
+    expect(merged).not.toContain("gaspacho-pasteque")
+  })
+
+  it("lets the semantic layer go free when no query word matches", () => {
+    const unknown = run("zzzz")
+    expect(mergeResults(unknown, [{ slug: "tiramisu", score: 0.9 }])).toEqual(["tiramisu"])
+  })
+
+  it("applies tag rules from the query words to every result", () => {
+    const seasonal = [recipe("soupe-ete", { tags: ["été", "froid"] }), recipe("ragout", { tags: ["hiver", "chaud"] })]
+    const parsed = parseQuery("plat d'hiver")
+    expect(applyConstraints(["soupe-ete", "ragout"], seasonal, parsed, new Set())).toEqual(["ragout"])
+    const veggie = [recipe("a", { tags: ["végétarien"] }), recipe("b", { tags: ["porc"] })]
+    expect(applyConstraints(["a", "b"], veggie, parseQuery("réconfortant sans viande"), new Set())).toEqual(["a"])
+    const glutenFree = [recipe("a", { tags: ["sans-gluten"] }), recipe("b", { tags: ["sans-lactose"] })]
+    expect(applyConstraints(["a", "b"], glutenFree, parseQuery("gluten free"), new Set())).toEqual(["a"])
   })
 })

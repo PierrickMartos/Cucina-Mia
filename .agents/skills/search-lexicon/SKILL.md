@@ -20,6 +20,8 @@ recipes, updates it, and locks the result with regression tests.
 | `POSITIVE_WITHOUT` | After "sans/no/senza", these stay positive tags instead of exclusions | "sans gluten", "no-cook", "senza lattosio" |
 | `MEATLESS` | "sans viande" → vegetarian | |
 | `DIFFICULTY_WORDS` | Words turned into a difficulty filter | "facile", "easy", "difficile" |
+| `TAG_RULES` | Tags a query word rules out or requires, on **every** result (semantic ones included) | `hiver → avoid été, froid`, `végétarien → require végétarien` |
+| `WITHOUT_TAGS` | The `sans-xxx` tag a "sans xxx" query requires | `gluten → sans-gluten` |
 | `DURATION` regex | "en moins de 30 minutes", "1h30", "under 20 min" → time filter | |
 
 Things you do **not** maintain by hand:
@@ -69,14 +71,20 @@ the whole cookbook. For each recipe, ask:
    `fromage` → `burrata`, `viande` → `veau`, `poisson` → `cabillaud`…). These groups power both positive queries
    and exclusions ("sans porc").
 4. **Diets and "sans" tags**: a new `sans-xxx` / `no-xxx` tag means `xxx` (and its en/it translations) must be in
-   `POSITIVE_WITHOUT`, otherwise "sans xxx" becomes an exclusion.
-5. **Natural queries**: write 2-3 queries a real user would type to find this recipe (in French first, then one
+   `POSITIVE_WITHOUT` and `WITHOUT_TAGS`, otherwise "sans xxx" becomes an exclusion.
+5. **Contradictions**: the semantic layer does not understand opposites (it may suggest a cold summer gaspacho for
+   "réconfortant pour l'hiver"). When a tag has an opposite (seasons, hot/cold) or a diet must hold strictly,
+   add it to `TAG_RULES` in fr/en/it. Only add rules that are always true: "hiver" never wants a summer dish,
+   but "léger" does not rule out "réconfortant".
+6. **Natural queries**: write 2-3 queries a real user would type to find this recipe (in French first, then one
    in English or Italian), e.g. for a Lebanese chicken shawarma: "plat libanais au poulet",
    "lebanese street food", "recette du moyen-orient". Probe them:
    ```bash
    SEARCH_PROBE="plat libanais au poulet;lebanese street food" npx vitest run src/test/searchLexicon.test.ts
    ```
-   The output shows how each query was parsed and the lexical results. The recipe should appear, and unrelated
+   The output shows how each query was parsed and the lexical results. To check what the semantic layer may
+   add, use `search(query, semanticSlugs)` from `src/test/helpers/realSearch.ts` in a test: semantic hits are
+   only kept among recipes matching part of the query, then filtered by `TAG_RULES`. The recipe should appear, and unrelated
    recipes should not. If a word is lost or misread, fix the lexicon. If the query needs meaning rather than
    vocabulary ("quelque chose de réconfortant"), leave it to the semantic layer: do not stuff the lexicon.
 

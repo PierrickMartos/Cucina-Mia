@@ -23,6 +23,8 @@ export interface LexicalResult {
   termCount: number
   /** Recipes removed by a negation ("sans porc"). */
   excluded: Set<string>
+  /** Recipes matching at least one required term: where the semantic layer may add results. */
+  related: Set<string>
 }
 
 const FIELD_WEIGHTS: Record<SearchField, number> = {
@@ -93,7 +95,7 @@ export class LexicalIndex {
         if (id !== undefined) this.strong[id].forEach((docIndex) => excluded.add(this.slugs[docIndex]))
       }
     }
-    if (query.terms.length === 0) return { hits: [], termCount: 0, excluded }
+    if (query.terms.length === 0) return { hits: [], termCount: 0, excluded, related: new Set() }
 
     const docScores = new Map<number, { score: number; matched: number; exact: number }>()
     const n = this.slugs.length
@@ -133,13 +135,15 @@ export class LexicalIndex {
     // AND semantics over the required terms that exist in the corpus: "poulet curry" only keeps recipes with
     // both, while a word that matches nothing at all ("recette végétarienne") does not empty the result list.
     const hits: LexicalHit[] = []
+    const related = new Set<string>()
     for (const [docIndex, { score, matched, exact }] of docScores) {
       const slug = this.slugs[docIndex]
+      if (matched > 0 && !excluded.has(slug)) related.add(slug)
       if (matched < requiredCount || excluded.has(slug)) continue
       hits.push({ slug, score, matched, exact: exact === query.terms.length })
     }
     hits.sort((a, b) => Number(b.exact) - Number(a.exact) || b.score - a.score || a.slug.localeCompare(b.slug))
-    return { hits, termCount: query.terms.length, excluded }
+    return { hits, termCount: query.terms.length, excluded, related }
   }
 
   private matchQueryTerm(term: QueryTerm): { matches: Match[]; confident: boolean } {
