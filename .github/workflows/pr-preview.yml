@@ -35,6 +35,8 @@ jobs:
           VITE_BASE_PATH: /Cucina-Mia/pr-preview/pr-${{ github.event.pull_request.number }}/
 
       - name: Deploy preview to gh-pages
+        id: deploy_attempt_1
+        continue-on-error: true
         uses: peaceiris/actions-gh-pages@v4
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
@@ -42,30 +44,80 @@ jobs:
           destination_dir: pr-preview/pr-${{ github.event.pull_request.number }}
           keep_files: true
 
+      # Another workflow may have pushed to gh-pages in the meantime, retry once
+      - name: Wait before retrying deploy
+        if: steps.deploy_attempt_1.outcome == 'failure'
+        run: sleep 20
+
+      - name: Deploy preview to gh-pages (retry)
+        if: steps.deploy_attempt_1.outcome == 'failure'
+        uses: peaceiris/actions-gh-pages@v4
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./dist
+          destination_dir: pr-preview/pr-${{ github.event.pull_request.number }}
+          keep_files: true
+
+      # Pushing to gh-pages only triggers the "pages build and deployment"
+      # workflow, the preview is live a few minutes later. Wait until the
+      # served index.html references this build's bundle before commenting.
+      - name: Wait for GitHub Pages to serve the preview
+        id: wait_live
+        run: |
+          PREVIEW_URL="https://${{ github.repository_owner }}.github.io/Cucina-Mia/pr-preview/pr-${{ github.event.pull_request.number }}/"
+          ASSET=$(grep -o 'assets/index-[^"]*\.js' dist/index.html | head -1)
+          echo "Waiting for $PREVIEW_URL to serve $ASSET"
+          for i in $(seq 1 60); do
+            if curl -fsSL "${PREVIEW_URL}?t=$(date +%s)" | grep -q "$ASSET"; then
+              echo "Preview is live after ~$((i * 15))s"
+              echo "live=true" >> "$GITHUB_OUTPUT"
+              exit 0
+            fi
+            sleep 15
+          done
+          echo "::warning::Preview not live after 15 minutes"
+          echo "live=false" >> "$GITHUB_OUTPUT"
+
       - name: Comment preview URL on PR
         uses: actions/github-script@v7
+        env:
+          PREVIEW_LIVE: ${{ steps.wait_live.outputs.live }}
         with:
           script: |
             const prNumber = context.payload.pull_request.number;
             const previewUrl = `https://${context.repo.owner}.github.io/Cucina-Mia/pr-preview/pr-${prNumber}/`;
+            const sha = context.payload.pull_request.head.sha.slice(0, 7);
+            const marker = '<!-- pr-preview -->';
 
-            // Only comment once, skip if a preview comment already exists
-            const comments = await github.rest.issues.listComments({
+            const body = process.env.PREVIEW_LIVE === 'true'
+              ? `${marker}\n🍝 **Preview deployed!**\n\n${previewUrl}\n\nCommit: ${sha}`
+              : `${marker}\n⏳ **Preview pushed, GitHub Pages is still publishing it**\n\n${previewUrl}\n\nCommit: ${sha}. It may return a 404 for a few more minutes.`;
+
+            // Keep a single preview comment per PR, updated on every deploy
+            const comments = await github.paginate(github.rest.issues.listComments, {
               owner: context.repo.owner,
               repo: context.repo.repo,
               issue_number: prNumber,
             });
 
-            const hasPreviewComment = comments.data.some(c =>
-              c.user.type === 'Bot' && c.body.includes('Preview deployed!')
+            const existing = comments.find(c =>
+              c.user.type === 'Bot' &&
+              (c.body.includes(marker) || c.body.includes('Preview deployed!'))
             );
 
-            if (!hasPreviewComment) {
+            if (existing) {
+              await github.rest.issues.updateComment({
+                owner: context.repo.owner,
+                repo: context.repo.repo,
+                comment_id: existing.id,
+                body,
+              });
+            } else {
               await github.rest.issues.createComment({
                 owner: context.repo.owner,
                 repo: context.repo.repo,
                 issue_number: prNumber,
-                body: `🍝 **Preview deployed!**\n\n${previewUrl}`,
+                body,
               });
             }
 
