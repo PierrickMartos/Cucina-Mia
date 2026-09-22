@@ -37,11 +37,11 @@
     {
       "group": "Pour les tomates confites",
       "items": [
-        "200 g de tomates (cerises ou San Marzano)",
+        "200 g de tomates (datterino ou cerises)",
         "2 c. à s. d'huile d'olive vierge extra (Quanto basta)",
         "1 pincée de sel fin",
         "1 pincée de sucre",
-        "Quelques feuilles de thym ou d'origan"
+        "Quelques feuilles de thym ou d'origan (facultatif)"
       ]
     },
     {
@@ -71,13 +71,13 @@
       "text": "Préparer le pesto alla trapanese : faire légèrement griller les amandes à sec dans une poêle. Plonger les tomates fraîches une minute dans l'eau bouillante, les peler avec délicatesse, puis les couper en morceaux. Dans un mortier ou un mixeur, broyer les amandes avec l'ail, les tomates, puis ajouter le basilic frais. Incorporer le pecorino râpé et verser les 80 ml d'huile d'olive progressivement en mixant. La consistance doit être légèrement grossière, pas totalement lisse. Saler et poivrer."
     },
     {
-      "text": "Cuire les busiate dans une grande casserole d'eau bouillante bien salée jusqu'à al dente. Réserver une tasse d'eau de cuisson avant d'égoutter."
+      "text": "Cuire les busiate dans une grande casserole d'eau bouillante bien salée jusqu'à al dente. Réserver une petite louche d'eau de cuisson avant d'égoutter."
     },
     {
-      "text": "Dans un grand saladier ou une poêle, mélanger les busiate chaudes avec le pesto en ajoutant un peu d'eau de cuisson pour lier la sauce. Bien enrober chaque pâte."
+      "text": "Dans un grand saladier ou une poêle, mélanger les busiate chaudes, hors du feu, avec le pesto, les tomates confites et un peu d'eau de cuisson pour lier la sauce. Bien enrober chaque pâte."
     },
     {
-      "text": "Servir aussitôt dans des assiettes chaudes, garni d'une pincée de pecorino râpé, d'amandes concassées et de quelques feuilles de basilic frais. Finir avec un filet d'huile d'olive vierge extra."
+      "text": "Servir aussitôt dans des assiettes chaudes, garni d'une pincée de pecorino râpé, d'amandes concassées, de quelques tomates confites et de quelques feuilles de basilic frais. Finir avec un filet d'huile d'olive vierge extra."
     }
   ],
   "tips": [
@@ -119,11 +119,11 @@
         {
           "group": "For the confit tomatoes",
           "items": [
-            "200 g tomatoes (cherry or San Marzano)",
+            "200 g tomatoes (datterino or cherry)",
             "2 tbsp extra virgin olive oil (to taste)",
             "1 pinch of fine salt",
             "1 pinch of sugar",
-            "A few sprigs of thyme or oregano"
+            "A few sprigs of thyme or oregano (optional)"
           ]
         },
         {
@@ -153,13 +153,13 @@
           "text": "Make the Trapanese pesto: lightly toast the almonds dry in a pan. Plunge the fresh tomatoes into boiling water for one minute, peel them gently, then cut into pieces. In a mortar or blender, crush the almonds with the garlic, the tomatoes, then add the fresh basil. Add the grated pecorino and drizzle in the 80 ml of olive oil while mixing. The texture should be slightly coarse, not completely smooth. Season with salt and pepper."
         },
         {
-          "text": "Cook the busiate in a large pot of well-salted boiling water until al dente. Reserve a cup of cooking water before draining."
+          "text": "Cook the busiate in a large pot of well-salted boiling water until al dente. Reserve a small ladle of cooking water before draining."
         },
         {
-          "text": "In a large bowl or pan, toss the hot busiate with the pesto, adding a splash of cooking water to loosen the sauce. Coat every piece of pasta well."
+          "text": "In a large bowl or pan, toss the hot busiate, off the heat, with the pesto, the confit tomatoes and a splash of cooking water to loosen the sauce. Coat every piece of pasta well."
         },
         {
-          "text": "Serve immediately in warm bowls, topped with a sprinkle of grated pecorino, crushed almonds, and a few fresh basil leaves. Finish with a drizzle of extra virgin olive oil."
+          "text": "Serve immediately in warm bowls, topped with a sprinkle of grated pecorino, crushed almonds, a few confit tomatoes, and a few fresh basil leaves. Finish with a drizzle of extra virgin olive oil."
         }
       ],
       "tips": [
@@ -196,11 +196,11 @@
         {
           "group": "Per i pomodori confit",
           "items": [
-            "200 g di pomodori (ciliegino o San Marzano)",
+            "200 g di pomodori (datterini o ciliegini)",
             "2 cucchiai di olio extravergine di oliva (Quanto basta)",
             "1 pizzico di sale fino",
             "1 pizzico di zucchero",
-            "Qualche foglia di timo o origano"
+            "Qualche foglia di timo o origano (facoltativo)"
           ]
         },
         {
@@ -230,13 +230,13 @@
           "text": "Preparare il pesto alla trapanese: tostare leggermente le mandorle a secco in una padella. Scottare i pomodori freschi per un minuto in acqua bollente, pelarli delicatamente, poi tagliarli a pezzi. In un mortaio o frullatore, pestare le mandorle con l'aglio, i pomodori, poi aggiungere il basilico fresco. Incorporare il pecorino grattugiato e versare gli 80 ml di olio a filo mescolando. La consistenza deve essere leggermente grossolana, non completamente liscia. Salare e pepare."
         },
         {
-          "text": "Cuocere le busiate in abbondante acqua bollente salata fino a cottura al dente. Conservare una tazza di acqua di cottura prima di scolare."
+          "text": "Cuocere le busiate in abbondante acqua bollente salata fino a cottura al dente. Conservare un piccolo mestolo di acqua di cottura prima di scolare."
         },
         {
-          "text": "In una ciotola grande o in padella, mantecare le busiate calde con il pesto aggiungendo un po' di acqua di cottura per legare il condimento. Mescolare bene per ricoprire ogni pasta."
+          "text": "In una ciotola grande o in padella, mantecare le busiate calde, fuori dal fuoco, con il pesto, i pomodori confit e un po' di acqua di cottura per legare il condimento. Mescolare bene per ricoprire ogni pasta."
         },
         {
-          "text": "Servire subito in piatti caldi, guarnendo con una spolverata di pecorino grattugiato, mandorle tritate grossolanamente e qualche foglia di basilico fresco. Terminare con un filo d'olio extravergine di oliva."
+          "text": "Servire subito in piatti caldi, guarnendo con una spolverata di pecorino grattugiato, mandorle tritate grossolanamente, qualche pomodoro confit e qualche foglia di basilico fresco. Terminare con un filo d'olio extravergine di oliva."
         }
       ],
       "tips": [
