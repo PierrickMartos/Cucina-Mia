@@ -38,7 +38,7 @@
     "title": "Recettes",
     "description": "Recettes de grand-mère, de grand-père, de belle-mère, de maman, de papa, des internets ou d'ailleurs",
     "noResults": "Mamma mia, rien dans les casseroles !",
-    "noResultsHint": "Essayez d'autres filtres.",
+    "noResultsHint": "Même la nonna ne saurait pas quoi cuisiner ici. Essayez d'autres filtres.",
     "searchPlaceholder": "Chercher des recettes...",
     "searchLabel": "Chercher des recettes",
     "goToTop": "Remonter en haut"
@@ -47,7 +47,7 @@
     "notFound": "Recette introuvable",
     "backToRecipes": "Retour aux recettes",
     "back": "Retour",
-    "prep": "Prep :",
+    "prep": "Préparation :",
     "cook": "Cuisson :",
     "servings": "portions",
     "ingredients": "Ingrédients",
@@ -56,7 +56,7 @@
     "history": "Histoire",
     "source": "Source",
     "difficulty": "Difficulté",
-    "step": "Etape {{number}}",
+    "step": "Étape {{number}}",
     "print": "Imprimer la recette",
     "resetChecks": "Réinitialiser",
     "prev": "Préc.",
@@ -144,12 +144,19 @@
     "Dolci": "Desserts",
     "Pizze": "Pizzas",
     "Pane": "Pains",
-    "Breakfast": "Petit-dej",
-    "Brunch": "Brunch"
+    "Breakfast": "Petit-déj",
+    "Brunch": "Brunch",
+    "Bambini": "Enfants"
   },
   "difficulties": {
     "Facile": "Facile",
     "Medio": "Moyen",
     "Difficile": "Difficile"
+  },
+  "credits": {
+    "imageBy": "Image de",
+    "photosBy": "Photos de",
+    "and": "et",
+    "from": "sur"
   }
 }

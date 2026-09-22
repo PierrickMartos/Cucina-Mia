@@ -117,6 +117,30 @@ describe("RecipesPage", () => {
     })
   })
 
+  it("filters by diet tag using the base French tags when the UI is in English", async () => {
+    globalThis.fetch = async () =>
+      ({
+        ok: true,
+        json: async () => [
+          { ...mockRecipes[0], tags: ["végétarien"], translations: { en: { tags: ["vegetarian"] } } },
+          mockRecipes[1],
+        ],
+      }) as Response
+    render(
+      <main id="main-content">
+        <MemoryRouter initialEntries={[`/recipes?diet=${encodeURIComponent("végétarien")}`]}>
+          <Routes>
+            <Route path="/recipes" element={<RecipesPage />} />
+          </Routes>
+        </MemoryRouter>
+      </main>
+    )
+    await waitFor(() => {
+      expect(screen.getByText("Pasta alla Carbonara")).toBeInTheDocument()
+    })
+    expect(screen.queryByText("Tiramisù Classico")).not.toBeInTheDocument()
+  })
+
   it("filters recipes by search input", async () => {
     const user = userEvent.setup()
     renderRecipesPage()

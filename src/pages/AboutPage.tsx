@@ -152,13 +152,13 @@ export function AboutPage() {
           <p className="text-sm text-muted-foreground">{t("about.thanksDetail")}</p>
         </div>
         <p className="text-[10px] text-muted-foreground/40">
-          Photos by{" "}
+          {t("credits.photosBy")}{" "}
           <a href="https://pixabay.com/users/stocksnap-894430/" target="_blank" rel="noopener noreferrer" className="underline">StockSnap</a>
           {", "}
           <a href="https://pixabay.com/users/tookapic-1386461/" target="_blank" rel="noopener noreferrer" className="underline">tookapic</a>
-          {" "}&{" "}
+          {" "}{t("credits.and")}{" "}
           <a href="https://pixabay.com/users/pexels-2286921/" target="_blank" rel="noopener noreferrer" className="underline">Pexels</a>
-          {" "}from{" "}
+          {" "}{t("credits.from")}{" "}
           <a href="https://pixabay.com/" target="_blank" rel="noopener noreferrer" className="underline">Pixabay</a>
         </p>
       </motion.div>

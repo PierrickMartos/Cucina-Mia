@@ -52,7 +52,7 @@
     "servings": "servings",
     "ingredients": "Ingredients",
     "instructions": "Instructions",
-    "tips": "Curator's Tip",
+    "tips": "Tips",
     "history": "The Story",
     "source": "Source",
     "difficulty": "Difficulty",
@@ -103,9 +103,9 @@
     "complex": "🎓 ≥ 8 steps"
   },
   "ingredientsOptions": {
-    "few": "🛒 ≤ 6 items",
-    "moderate": "🧺 7-11 items",
-    "many": "📦 ≥ 12 items"
+    "few": "🛒 ≤ 6 ingredients",
+    "moderate": "🧺 7-11 ingredients",
+    "many": "📦 ≥ 12 ingredients"
   },
   "tags": {
     "végétarien": "🌿 Vegetarian",
@@ -145,11 +145,18 @@
     "Pane": "Breads",
     "Bambini": "Kids",
     "Breakfast": "Breakfast",
-    "Brunch": "Brunch"
+    "Brunch": "Brunch",
+    "Contorni": "Sides"
   },
   "difficulties": {
     "Facile": "Easy",
     "Medio": "Medium",
     "Difficile": "Hard"
+  },
+  "credits": {
+    "imageBy": "Image by",
+    "photosBy": "Photos by",
+    "and": "&",
+    "from": "from"
   }
 }

@@ -47,12 +47,12 @@
     "notFound": "Ricetta non trovata",
     "backToRecipes": "Torna alle ricette",
     "back": "Indietro",
-    "prep": "Prep:",
+    "prep": "Preparazione:",
     "cook": "Cottura:",
     "servings": "porzioni",
     "ingredients": "Ingredienti",
     "instructions": "Procedimento",
-    "tips": "Consiglio del curatore",
+    "tips": "Consigli",
     "history": "La Storia",
     "source": "Fonte",
     "difficulty": "Difficoltà",
@@ -145,11 +145,18 @@
     "Pane": "Pane",
     "Bambini": "Bambini",
     "Breakfast": "Colazione",
-    "Brunch": "Brunch"
+    "Brunch": "Brunch",
+    "Contorni": "Contorni"
   },
   "difficulties": {
     "Facile": "Facile",
     "Medio": "Medio",
     "Difficile": "Difficile"
+  },
+  "credits": {
+    "imageBy": "Immagine di",
+    "photosBy": "Foto di",
+    "and": "e",
+    "from": "su"
   }
 }

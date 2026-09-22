@@ -7,6 +7,7 @@ import { Skeleton } from "@/components/ui/skeleton"
 import { RecipeGrid, RecipesNotFound, AnimateInView } from "@/components/RecipeGrid"
 import { sortCategories } from "@/lib/categories"
 import { useRecipeIndex } from "@/lib/recipeData"
+import { localizeRecipeSummary } from "@/lib/localize"
 import { useTranslation } from "react-i18next"
 import type { RecipeSummary } from "@/types/recipe"
 
@@ -37,7 +38,11 @@ interface CategoryCard {
 export function HomePage() {
   const { recipes, loading, error, retry } = useRecipeIndex()
   const [search, setSearch] = useState("")
-  const { t } = useTranslation()
+  const { t, i18n } = useTranslation()
+  const localizedRecipes = useMemo(
+    () => recipes.map((r) => localizeRecipeSummary(r, i18n.language)),
+    [recipes, i18n.language]
+  )
 
   const categories = useMemo<CategoryCard[]>(() => {
     const map = new Map<string, RecipeSummary[]>()
@@ -59,7 +64,7 @@ export function HomePage() {
 
   const fuse = useMemo(
     () =>
-      new Fuse(recipes, {
+      new Fuse(localizedRecipes, {
         keys: [
           { name: "title", weight: 2 },
           { name: "description", weight: 1 },
@@ -69,7 +74,7 @@ export function HomePage() {
         threshold: 0.4,
         ignoreLocation: true,
       }),
-    [recipes]
+    [localizedRecipes]
   )
 
   const searchResults = useMemo(

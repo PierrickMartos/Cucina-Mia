@@ -3,6 +3,7 @@ import { Home, BookOpen, PlusCircle, Info } from "lucide-react"
 import { useTranslation } from "react-i18next"
 import { motion, useReducedMotion } from "motion/react"
 import { useState, useRef, useEffect, useId } from "react"
+import { preloadVoices, sayMammaMia } from "@/lib/mammaMia"
 
 const LANGUAGES = [
   { code: "en", label: "English" },
@@ -87,6 +88,10 @@ export function Layout() {
   const { t } = useTranslation()
   const reduceMotion = useReducedMotion()
 
+  useEffect(() => {
+    preloadVoices()
+  }, [])
+
   const navItems = [
     { to: "/", icon: Home, label: t("nav.home") },
     { to: "/recipes", icon: BookOpen, label: t("nav.recipes") },
@@ -108,7 +113,7 @@ export function Layout() {
       {/* Top App Bar */}
       <nav className="shrink-0 relative flex items-center px-6 h-14 bg-surface/70 backdrop-blur-md z-50 print:hidden">
         <div id="header-left-slot" className="w-24 shrink-0" />
-        <Link to="/" className="absolute left-1/2 -translate-x-1/2">
+        <Link to="/" onClick={sayMammaMia} className="absolute left-1/2 -translate-x-1/2">
           <motion.h1
             key={pathname}
             className="text-3xl font-headline text-primary font-bold whitespace-nowrap"
