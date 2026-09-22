@@ -3,8 +3,8 @@
   "title": "Naans au fromage",
   "description": "Des naans moelleux fourrés au fromage fondant, inspirés du cheese naan parisien à décliner avec comté, cheddar ou bleu.",
   "images": {
-    "cover": "images/recipes/naans-au-fromage/cover.jpg",
-    "web": "images/recipes/naans-au-fromage/web.jpg"
+    "cover": "images/recipes/naans-au-fromage/cover.webp",
+    "web": "images/recipes/naans-au-fromage/web.webp"
   },
   "imageCredit": {
     "author": "Dipesh Gurav",

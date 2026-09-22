@@ -3,8 +3,8 @@
   "title": "Katsudon",
   "description": "Le katsudon est un plat japonais réconfortant composé d'une escalope de porc panée au panko (tonkatsu), mijotée dans une sauce dashi-soja avec des oignons et des œufs, servie sur un bol de riz chaud.",
   "images": {
-    "cover": "images/recipes/katsudon/cover.jpg",
-    "web": "images/recipes/katsudon/web.jpg"
+    "cover": "images/recipes/katsudon/cover.webp",
+    "web": "images/recipes/katsudon/web.webp"
   },
   "imageCredit": {
     "author": "takedahrs",

@@ -3,8 +3,8 @@
   "title": "Tarte Tatin à la Mangue et au Piment d'Espelette",
   "description": "Une tarte tatin exotique aux tranches de mangue caramélisées, relevée d'une touche de piment d'Espelette, recouverte d'une pâte brisée dorée.",
   "images": {
-    "cover": "images/recipes/tarte-tatin-mangue-espelette/cover.jpg",
-    "web": "images/recipes/tarte-tatin-mangue-espelette/web.jpg"
+    "cover": "images/recipes/tarte-tatin-mangue-espelette/cover.webp",
+    "web": "images/recipes/tarte-tatin-mangue-espelette/web.webp"
   },
   "prepTime": 35,
   "cookTime": 40,

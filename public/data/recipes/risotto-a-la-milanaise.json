@@ -3,8 +3,8 @@
   "title": "Risotto à la Milanaise",
   "description": "Le grand classique milanais : un risotto d'un jaune doré lumineux au safran et à la moelle de bœuf, crémeux et parfumé.",
   "images": {
-    "cover": "images/recipes/risotto-a-la-milanaise/cover.jpg",
-    "web": "images/recipes/risotto-a-la-milanaise/web.jpg"
+    "cover": "images/recipes/risotto-a-la-milanaise/cover.webp",
+    "web": "images/recipes/risotto-a-la-milanaise/web.webp"
   },
   "imageCredit": {
     "name": "DanielaElenaTentis",

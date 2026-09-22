@@ -3,8 +3,8 @@
   "title": "Galette à la banane",
   "description": "Une galette moelleuse à la banane écrasée et aux flocons d'avoine, dorée à la poêle dans un peu de beurre. Trois ingrédients, prête en dix minutes.",
   "images": {
-    "cover": "images/recipes/galette-banane/cover.jpg",
-    "web": "images/recipes/galette-banane/web.jpg"
+    "cover": "images/recipes/galette-banane/cover.webp",
+    "web": "images/recipes/galette-banane/web.webp"
   },
   "imageCredit": {
     "author": "Eiliv Aceron",

@@ -3,8 +3,8 @@
   "title": "Gratin de Butternut",
   "description": "Un gratin automnal onctueux de courge butternut fondante, nappée de crème et gratinée de chapelure et de comté.",
   "images": {
-    "cover": "images/recipes/gratin-butternut/cover.jpg",
-    "web": "images/recipes/gratin-butternut/web.jpg"
+    "cover": "images/recipes/gratin-butternut/cover.webp",
+    "web": "images/recipes/gratin-butternut/web.webp"
   },
   "imageCredit": {
     "name": "RitaE",

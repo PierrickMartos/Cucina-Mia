@@ -3,8 +3,8 @@
   "title": "Omelette à la courgette",
   "description": "Une omelette moelleuse aux courgettes râpées et bien pressées, servie avec une sauce fraîche au yaourt, fromage frais, ail et herbes. Idéale au brunch ou en dîner express.",
   "images": {
-    "cover": "images/recipes/omelette-a-la-courgette/cover.jpg",
-    "web": "images/recipes/omelette-a-la-courgette/web.jpg"
+    "cover": "images/recipes/omelette-a-la-courgette/cover.webp",
+    "web": "images/recipes/omelette-a-la-courgette/web.webp"
   },
   "imageCredit": {
     "author": "Eaters Collective",

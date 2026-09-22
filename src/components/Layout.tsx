@@ -3,6 +3,7 @@ import { Home, BookOpen, PlusCircle, Info } from "lucide-react"
 import { useTranslation } from "react-i18next"
 import { motion, useReducedMotion } from "motion/react"
 import { useState, useRef, useEffect, useId } from "react"
+import { preloadMammaMia, sayMammaMia } from "@/lib/mammaMia"
 
 const LANGUAGES = [
   { code: "en", label: "English" },
@@ -87,6 +88,10 @@ export function Layout() {
   const { t } = useTranslation()
   const reduceMotion = useReducedMotion()
 
+  useEffect(() => {
+    preloadMammaMia()
+  }, [])
+
   const navItems = [
     { to: "/", icon: Home, label: t("nav.home") },
     { to: "/recipes", icon: BookOpen, label: t("nav.recipes") },
@@ -97,14 +102,18 @@ export function Layout() {
     <div className="h-dvh flex flex-col bg-surface overflow-hidden">
       <a
         href="#main-content"
+        onClick={(e) => {
+          e.preventDefault()
+          document.getElementById("main-content")?.focus()
+        }}
         className="sr-only focus:not-sr-only focus:absolute focus:top-4 focus:left-4 focus:z-50 focus:px-4 focus:py-2 focus:bg-white focus:text-black focus:rounded"
       >
-        Skip to content
+        {t("common.skipToContent")}
       </a>
       {/* Top App Bar */}
       <nav className="shrink-0 relative flex items-center px-6 h-14 bg-surface/70 backdrop-blur-md z-50 print:hidden">
         <div id="header-left-slot" className="w-24 shrink-0" />
-        <Link to="/" className="absolute left-1/2 -translate-x-1/2">
+        <Link to="/" onClick={sayMammaMia} className="absolute left-1/2 -translate-x-1/2">
           <motion.h1
             key={pathname}
             className="text-3xl font-headline text-primary font-bold whitespace-nowrap"
@@ -121,7 +130,7 @@ export function Layout() {
       </nav>
 
       {/* Main Content */}
-      <main id="main-content" className="flex-1 overflow-y-auto overflow-x-hidden">
+      <main id="main-content" tabIndex={-1} className="focus:outline-none flex-1 overflow-y-auto overflow-x-hidden">
         <motion.div
           key={pathname}
           initial={reduceMotion ? { opacity: 1, y: 0 } : { opacity: 0, y: 10 }}

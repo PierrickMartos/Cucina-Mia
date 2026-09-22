@@ -45,6 +45,7 @@ describe("HomePage", () => {
     i18n.changeLanguage("en")
     globalThis.fetch = async () =>
       ({
+        ok: true,
         json: async () => mockRecipes,
       }) as Response
   })

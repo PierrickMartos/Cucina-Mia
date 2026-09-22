@@ -3,8 +3,8 @@
   "title": "Flan à la ratatouille",
   "description": "Un flan salé tout simple qui cache la ratatouille dans un appareil crémeux aux œufs, gratiné au fromage râpé. Quatre ingrédients et le four fait le reste.",
   "images": {
-    "cover": "images/recipes/flan-a-la-ratatouille/cover.jpg",
-    "web": "images/recipes/flan-a-la-ratatouille/web.jpg"
+    "cover": "images/recipes/flan-a-la-ratatouille/cover.webp",
+    "web": "images/recipes/flan-a-la-ratatouille/web.webp"
   },
   "imageCredit": {
     "author": "Compagnons",

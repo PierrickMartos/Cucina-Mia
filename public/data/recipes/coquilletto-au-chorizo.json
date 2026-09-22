@@ -3,8 +3,8 @@
   "title": "Coquilletto au Chorizo",
   "description": "Des coquillettes cuisinées façon risotto dans la bière ambrée avec du chorizo croustillant, un plat réconfortant et original.",
   "images": {
-    "cover": "images/recipes/coquilletto-au-chorizo/cover.jpg",
-    "web": "images/recipes/coquilletto-au-chorizo/web.jpg"
+    "cover": "images/recipes/coquilletto-au-chorizo/cover.webp",
+    "web": "images/recipes/coquilletto-au-chorizo/web.webp"
   },
   "prepTime": 10,
   "cookTime": 30,

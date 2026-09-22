@@ -3,8 +3,8 @@
   "title": "Poulet tandoori",
   "description": "Un grand classique de la cuisine indienne qui devient sublime lorsque l'on prépare soi-même la poudre tandoori.",
   "images": {
-    "cover": "images/recipes/poulet-tandoori/cover.jpg",
-    "web": "images/recipes/poulet-tandoori/web.jpg"
+    "cover": "images/recipes/poulet-tandoori/cover.webp",
+    "web": "images/recipes/poulet-tandoori/web.webp"
   },
   "imageCredit": {
     "author": "ArtificialOG",

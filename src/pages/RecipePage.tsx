@@ -3,12 +3,12 @@ import type { KeyboardEvent as ReactKeyboardEvent } from "react"
 import { createPortal } from "react-dom"
 import { useParams, Link, useNavigate } from "react-router-dom"
 import { useTranslation } from "react-i18next"
-import { ArrowLeft, Clock, CookingPot, Users, ChefHat, UtensilsCrossed, Printer, Volume2, VolumeX, BookOpen } from "lucide-react"
+import { ArrowLeft, Clock, CookingPot, Users, ChefHat, UtensilsCrossed, Printer, Share2, Check, Volume2, VolumeX, BookOpen } from "lucide-react"
 import { motion, useMotionValue, useTransform, useReducedMotion, type Variants } from "motion/react"
 import { Badge } from "@/components/ui/badge"
 import { Skeleton } from "@/components/ui/skeleton"
 import { localizeRecipeDetail } from "@/lib/localize"
-import type { RecipeDetail } from "@/types/recipe"
+import { useRecipe } from "@/lib/recipeData"
 
 const BASE = import.meta.env.BASE_URL
 
@@ -43,10 +43,7 @@ export function RecipePage() {
   const navigate = useNavigate()
   const { t, i18n } = useTranslation()
   const reduceMotion = useReducedMotion()
-  const [rawRecipe, setRawRecipe] = useState<RecipeDetail | null>(null)
-  const [loading, setLoading] = useState(true)
-  const [error, setError] = useState<string | null>(null)
-  const [retryCount, setRetryCount] = useState(0)
+  const { recipe: rawRecipe, loading, error, retry } = useRecipe(slug)
   const recipe = rawRecipe ? localizeRecipeDetail(rawRecipe, i18n.language) : null
   const [activeTab, setActiveTab] = useState<Tab>("ingredients")
   const storageKey = `cucina-mia:checks:${slug}`
@@ -56,6 +53,8 @@ export function RecipePage() {
     } catch { return {} }
   })
   const [headerBackVisible, setHeaderBackVisible] = useState(false)
+  const [linkCopied, setLinkCopied] = useState(false)
+  const linkCopiedTimeoutRef = useRef<ReturnType<typeof setTimeout> | null>(null)
   const [currentStep, setCurrentStep] = useState(0)
   const [speakingStep, setSpeakingStep] = useState<number | null>(null)
   const ingredientsTabId = useId()
@@ -117,7 +116,7 @@ export function RecipePage() {
     const metaDesc = document.querySelector('meta[name="description"]')
     const prevDesc = metaDesc?.getAttribute('content') ?? ''
     document.title = `${recipe.title} · Cucina Mia`
-    metaDesc?.setAttribute('content', recipe.description ?? `Recette ${recipe.title} · Cucina Mia`)
+    metaDesc?.setAttribute('content', recipe.description ?? `${recipe.title} · Cucina Mia`)
     return () => {
       document.title = prevTitle
       metaDesc?.setAttribute('content', prevDesc)
@@ -170,34 +169,26 @@ export function RecipePage() {
     return () => { lock?.release() }
   }, [])
 
-  useEffect(() => {
-    if (!slug) return
-    let cancelled = false
-    // Reset loading/error state for each fetch attempt (including retries)
-    // eslint-disable-next-line react-hooks/set-state-in-effect
-    setLoading(true)
-    setError(null)
-    fetch(`${BASE}data/recipes/${slug}.json`)
-      .then((res) => {
-        if (!res.ok) {
-          if (!cancelled) setLoading(false)
-          return
-        }
-        return res.json().then((data) => {
-          if (!cancelled) {
-            setRawRecipe(data)
-            setLoading(false)
-          }
-        })
-      })
-      .catch(() => {
-        if (!cancelled) {
-          setError('Failed to load. Please try again.')
-          setLoading(false)
-        }
-      })
-    return () => { cancelled = true }
-  }, [slug, retryCount])
+  const shareRecipe = async () => {
+    if (!recipe) return
+    const url = window.location.href
+    if (navigator.share) {
+      try {
+        await navigator.share({ title: recipe.title, text: recipe.description, url })
+      } catch { /* Share dialog dismissed */ }
+      return
+    }
+    try {
+      await navigator.clipboard.writeText(url)
+      setLinkCopied(true)
+      if (linkCopiedTimeoutRef.current) clearTimeout(linkCopiedTimeoutRef.current)
+      linkCopiedTimeoutRef.current = setTimeout(() => setLinkCopied(false), 2000)
+    } catch { /* Clipboard not available */ }
+  }
+
+  useEffect(() => () => {
+    if (linkCopiedTimeoutRef.current) clearTimeout(linkCopiedTimeoutRef.current)
+  }, [])
 
   const toggleIngredient = (id: string) => {
     setCheckedIngredients(prev => {
@@ -295,14 +286,14 @@ export function RecipePage() {
 
   if (error) {
     return (
-      <div className="flex flex-col items-center justify-center py-16 px-6 text-center gap-4">
-        <p className="text-sm text-muted-foreground">{error}</p>
+      <div role="alert" className="flex flex-col items-center justify-center py-16 px-6 text-center gap-4">
+        <p className="text-sm text-muted-foreground">{t("common.loadError")}</p>
         <button
           type="button"
-          onClick={() => setRetryCount(c => c + 1)}
+          onClick={retry}
           className="rounded-full bg-surface-high px-5 py-2 text-sm font-medium text-foreground hover:bg-surface-container transition-colors"
         >
-          Try again
+          {t("common.tryAgain")}
         </button>
       </div>
     )
@@ -471,18 +462,28 @@ export function RecipePage() {
           </div>
         </motion.div>
 
-        {/* Print button, desktop only */}
-        <div className="hidden md:flex justify-center mt-5 print:hidden">
+        {/* Share button, and print button on desktop only */}
+        <div className="flex justify-center gap-3 mt-5 print:hidden">
+          <button
+            type="button"
+            onClick={shareRecipe}
+            className="inline-flex items-center gap-2 rounded-full border border-border px-4 py-2 text-xs font-semibold uppercase tracking-widest text-muted-foreground hover:text-primary hover:border-primary/40 transition-colors cursor-pointer"
+            aria-label={t("recipe.shareRecipe")}
+          >
+            {linkCopied ? <Check className="h-3.5 w-3.5" /> : <Share2 className="h-3.5 w-3.5" />}
+            {linkCopied ? t("recipe.linkCopied") : t("recipe.share")}
+          </button>
           <button
             type="button"
             onClick={() => window.print()}
-            className="inline-flex items-center gap-2 rounded-full border border-border px-4 py-2 text-xs font-semibold uppercase tracking-widest text-muted-foreground hover:text-primary hover:border-primary/40 transition-colors cursor-pointer"
+            className="hidden md:inline-flex items-center gap-2 rounded-full border border-border px-4 py-2 text-xs font-semibold uppercase tracking-widest text-muted-foreground hover:text-primary hover:border-primary/40 transition-colors cursor-pointer"
             aria-label={t("recipe.print", "Print recipe")}
           >
             <Printer className="h-3.5 w-3.5" />
             {t("recipe.print", "Print")}
           </button>
         </div>
+        <p role="status" className="sr-only">{linkCopied ? t("recipe.linkCopied") : ""}</p>
 
       </motion.div>
 

@@ -3,8 +3,8 @@
   "title": "Ravioli di Ricotta e Spinaci",
   "description": "Pâtes fraîches maison farcies aux épinards et à la ricotta, une recette traditionnelle italienne à préparer de A à Z.",
   "images": {
-    "cover": "images/recipes/ravioli-ricotta-spinaci/cover.jpg",
-    "web": "images/recipes/ravioli-ricotta-spinaci/web.jpg"
+    "cover": "images/recipes/ravioli-ricotta-spinaci/cover.webp",
+    "web": "images/recipes/ravioli-ricotta-spinaci/web.webp"
   },
   "prepTime": 90,
   "cookTime": 5,

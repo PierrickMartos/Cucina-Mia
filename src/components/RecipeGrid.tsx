@@ -13,12 +13,12 @@ export function RecipesNotFound() {
   return (
     <div className="flex flex-col items-center text-center py-8 text-muted-foreground">
       <img
-        src={`${import.meta.env.BASE_URL}images/empty-state.png`}
-        alt="No recipes"
+        src={`${import.meta.env.BASE_URL}images/empty-state.webp`}
+        alt=""
         className="w-96 sm:w-[36rem] mb-2 opacity-90"
       />
       <p className="text-[10px] text-muted-foreground/50 mb-6">
-        Image by <a href="https://pixabay.com/users/flutie8211-17475707/?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=10203854" target="_blank" rel="noopener noreferrer" className="underline">Vicki Hamilton</a> from <a href="https://pixabay.com//?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=10203854" target="_blank" rel="noopener noreferrer" className="underline">Pixabay</a>
+        {t("credits.imageBy")} <a href="https://pixabay.com/users/flutie8211-17475707/?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=10203854" target="_blank" rel="noopener noreferrer" className="underline">Vicki Hamilton</a> {t("credits.from")} <a href="https://pixabay.com/?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=10203854" target="_blank" rel="noopener noreferrer" className="underline">Pixabay</a>
       </p>
       <p className="text-lg font-headline text-foreground">{t("recipes.noResults")}</p>
       <p className="text-sm mt-1">{t("recipes.noResultsHint")}</p>

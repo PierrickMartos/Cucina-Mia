@@ -154,7 +154,18 @@ final_score = (metadata_score * 0.3) + (visual_score * 0.7)
    - Files exist and are > 10KB
    - `file` command confirms they are JPEG images
 
-## Step 6: Report
+
+## Step 6: Convert to WebP
+
+The site only serves WebP photos. When the images were saved inside the Cucina Mia repo (`public/images/recipes/{slug}/`), convert them right after downloading:
+
+```bash
+npm run images:webp -- public/images/recipes/{slug}
+```
+
+This produces `cover.webp` (max 1600px wide) and `web.webp` (max 800px wide), deletes the JPG files and updates `.jpg` references in `public/data/**/*.json`. The recipe JSON `images` object must point to the `.webp` files. Skip this step when the caller asked for files outside the repo (e.g. `/tmp/...`).
+
+## Step 7: Report
 
 Print a short summary including these fields:
 - Unsplash photo ID and page URL (`links.html`)
@@ -176,6 +187,7 @@ For a recipe "Pasta alla Carbonara":
 3. Top candidate after visual scoring: 5472x3648, 87 likes → final_score 82
 4. Trigger download event for photo ID
 5. Download `urls.full` → `cover.jpg`, `urls.regular` → `web.jpg`
+6. Convert both to WebP → `cover.webp`, `web.webp`
 
 ## Edge Cases
 

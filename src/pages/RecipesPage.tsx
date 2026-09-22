@@ -7,10 +7,9 @@ import { FilterDrawer, type TimeBucket, type PrepTimeBucket, type StepsBucket, t
 import { RecipeGrid } from "@/components/RecipeGrid"
 import { sortCategories, sortDifficulties } from "@/lib/categories"
 import { localizeRecipeSummary } from "@/lib/localize"
+import { useRecipeIndex } from "@/lib/recipeData"
 import { useRecipeSearch } from "@/hooks/useRecipeSearch"
-import type { RecipeSummary } from "@/types/recipe"
 
-const BASE = import.meta.env.BASE_URL
 const FILTERS_KEY = "cucina-mia-filters"
 const ESSENTIAL_RECIPE_SLUGS = new Set([
   "pasta-carbonara",
@@ -51,10 +50,7 @@ function setMultiParam(params: URLSearchParams, key: string, values: string[]) {
 
 export function RecipesPage() {
   const [searchParams, setSearchParams] = useSearchParams()
-  const [recipes, setRecipes] = useState<RecipeSummary[]>([])
-  const [loading, setLoading] = useState(true)
-  const [error, setError] = useState<string | null>(null)
-  const [retryCount, setRetryCount] = useState(0)
+  const { recipes, loading, error, retry } = useRecipeIndex()
   const [search, setSearch] = useState(searchParams.get("q") ?? "")
   const [selectedTag, setSelectedTag] = useState<string | null>(searchParams.get("tag"))
   const [selectedCategories, setSelectedCategories] = useState<string[]>(() => {
@@ -97,29 +93,12 @@ export function RecipesPage() {
     () => recipes.map((r) => localizeRecipeSummary(r, i18n.language)),
     [recipes, i18n.language]
   )
+  // Diet/season filters use the base (French) tag keys, whatever the UI language
+  const baseTagsBySlug = useMemo(
+    () => new Map(recipes.map((r) => [r.slug, r.tags])),
+    [recipes]
+  )
 
-  useEffect(() => {
-    let cancelled = false
-    // Reset loading/error state for each fetch attempt (including retries)
-    // eslint-disable-next-line react-hooks/set-state-in-effect
-    setLoading(true)
-    setError(null)
-    fetch(`${BASE}data/recipes/index.json`)
-      .then((res) => res.json())
-      .then((data) => {
-        if (!cancelled) {
-          setRecipes(data)
-          setLoading(false)
-        }
-      })
-      .catch(() => {
-        if (!cancelled) {
-          setError('Failed to load. Please try again.')
-          setLoading(false)
-        }
-      })
-    return () => { cancelled = true }
-  }, [retryCount])
 
   useEffect(() => {
     const allEmpty =
@@ -316,13 +295,13 @@ export function RecipesPage() {
 
     if (selectedDietTags.length > 0) {
       result = result.filter((r) =>
-        selectedDietTags.some((tag) => r.tags.includes(tag))
+        selectedDietTags.some((tag) => baseTagsBySlug.get(r.slug)?.includes(tag))
       )
     }
 
     if (selectedSeasonTags.length > 0) {
       result = result.filter((r) =>
-        selectedSeasonTags.some((tag) => r.tags.includes(tag))
+        selectedSeasonTags.some((tag) => baseTagsBySlug.get(r.slug)?.includes(tag))
       )
     }
 
@@ -337,11 +316,11 @@ export function RecipesPage() {
     }
 
     if (selectedTag) {
-      result = result.filter((r) => r.tags.includes(selectedTag))
+      result = result.filter((r) => r.tags.includes(selectedTag) || baseTagsBySlug.get(r.slug)?.includes(selectedTag))
     }
 
     return result
-  }, [localizedRecipes, searchSlugs, selectedCategories, selectedDifficulties, selectedTimes, selectedPrepTimes, selectedSteps, selectedIngredients, selectedDietTags, selectedSeasonTags, selectedOrigins, selectedEssentials, selectedTag])
+  }, [localizedRecipes, baseTagsBySlug, searchSlugs, selectedCategories, selectedDifficulties, selectedTimes, selectedPrepTimes, selectedSteps, selectedIngredients, selectedDietTags, selectedSeasonTags, selectedOrigins, selectedEssentials, selectedTag])
 
   return (
     <div className="px-6 py-6">
@@ -486,11 +465,11 @@ export function RecipesPage() {
       )}
 
       {error ? (
-        <div className="flex flex-col items-center justify-center py-16 text-center gap-4">
-          <p className="text-sm text-muted-foreground">{error}</p>
+        <div role="alert" className="flex flex-col items-center justify-center py-16 text-center gap-4">
+          <p className="text-sm text-muted-foreground">{t("common.loadError")}</p>
           <button
             type="button"
-            onClick={() => setRetryCount(c => c + 1)}
+            onClick={retry}
             className="rounded-full bg-surface-high px-5 py-2 text-sm font-medium text-foreground hover:bg-surface-container transition-colors"
           >
             {t("common.tryAgain")}

@@ -7,7 +7,9 @@
   },
   "common": {
     "close": "Fermer",
-    "tryAgain": "Réessayer"
+    "tryAgain": "Réessayer",
+    "loadError": "Le chargement a échoué. Veuillez réessayer.",
+    "skipToContent": "Aller au contenu"
   },
   "language": {
     "switch": "Changer de langue"
@@ -27,13 +29,16 @@
     "builtIntro": "Ce site a été construit avec l'aide de l'IA.",
     "builtContent": "Les recettes sont ainsi automatiquement extraites à partir de photos, d'URLs ou de textes, avant d'être intégrées au site. Un merci tout particulier aux photographes : certaines recettes de ce site bénéficient de photos dégotées sur Pixabay ou Unsplash.",
     "thanks": "Un grand merci à",
-    "thanksDetail": "pour avoir eu l'idée de ce projet à la machine à café et me l'avoir partagée. Tout le mérite lui revient."
+    "thanksDetail": "pour avoir eu l'idée de ce projet à la machine à café et me l'avoir partagée. Tout le mérite lui revient.",
+    "heroAlt": "Une nonna préparant des pâtes fraîches",
+    "sideAlt": "Pâtes au pesto et tomates cerises",
+    "builtAlt": "Ordinateur portable affichant du code"
   },
   "recipes": {
     "title": "Recettes",
     "description": "Recettes de grand-mère, de grand-père, de belle-mère, de maman, de papa, des internets ou d'ailleurs",
     "noResults": "Mamma mia, rien dans les casseroles !",
-    "noResultsHint": "Essayez d'autres filtres.",
+    "noResultsHint": "Même la nonna ne saurait pas quoi cuisiner ici. Essayez d'autres filtres.",
     "searchPlaceholder": "Chercher des recettes...",
     "searchLabel": "Chercher des recettes",
     "goToTop": "Remonter en haut"
@@ -42,7 +47,7 @@
     "notFound": "Recette introuvable",
     "backToRecipes": "Retour aux recettes",
     "back": "Retour",
-    "prep": "Prep :",
+    "prep": "Préparation :",
     "cook": "Cuisson :",
     "servings": "portions",
     "ingredients": "Ingrédients",
@@ -51,7 +56,7 @@
     "history": "Histoire",
     "source": "Source",
     "difficulty": "Difficulté",
-    "step": "Etape {{number}}",
+    "step": "Étape {{number}}",
     "print": "Imprimer la recette",
     "resetChecks": "Réinitialiser",
     "prev": "Préc.",
@@ -63,7 +68,10 @@
     "read": "Lire",
     "readAloud": "Lire à voix haute",
     "stop": "Arrêter",
-    "stopReading": "Arrêter la lecture"
+    "stopReading": "Arrêter la lecture",
+    "share": "Partager",
+    "shareRecipe": "Partager la recette",
+    "linkCopied": "Lien copié !"
   },
   "filter": {
     "title": "Filtrer les recettes",
@@ -136,8 +144,9 @@
     "Dolci": "Desserts",
     "Pizze": "Pizzas",
     "Pane": "Pains",
-    "Breakfast": "Petit-dej",
-    "Brunch": "Brunch"
+    "Breakfast": "Petit-déj",
+    "Brunch": "Brunch",
+    "Bambini": "Enfants"
   },
   "difficulties": {
     "Facile": "Facile",
@@ -147,5 +156,11 @@
   "search": {
     "semanticLoading": "Préparation de la recherche intelligente…",
     "semanticReady": "Recherche intelligente activée : les recettes proches par le sens sont aussi proposées"
+  },
+  "credits": {
+    "imageBy": "Image de",
+    "photosBy": "Photos de",
+    "and": "et",
+    "from": "sur"
   }
 }

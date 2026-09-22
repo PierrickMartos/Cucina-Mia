@@ -48,7 +48,7 @@ Every recipe must preserve its original source material in the `originalSource` 
 
 **For file sources (image/PDF):**
 1. Download the file from the issue attachment URL
-2. Save it to `public/images/recipes/{slug}/source.{ext}` (preserve the original extension)
+2. Save it to `public/images/recipes/{slug}/source.{ext}` (preserve the original extension, do NOT convert it to WebP: source files are kept as-is in the repo and are automatically excluded from the deployed build)
 3. Set `data` to the relative path: `images/recipes/{slug}/source.{ext}`
 
 **For text sources:**
@@ -372,11 +372,11 @@ Key rules:
 - `images` is an object with two keys:
   ```json
   "images": {
-    "cover": "images/recipes/{slug}/cover.jpg",
-    "web": "images/recipes/{slug}/web.jpg"
+    "cover": "images/recipes/{slug}/cover.webp",
+    "web": "images/recipes/{slug}/web.webp"
   }
   ```
-  Use `.jpg` extension when the image comes from Unsplash or an uploaded photo. Use `.svg` only if an SVG illustration was generated.
+  Use `.webp` extension when the image comes from Unsplash, Pixabay or an uploaded photo (photos are converted to WebP in Step 7). Use `.svg` only if an SVG illustration was generated. Never reference `.jpg`/`.png` cover or web images.
 - When the image comes from Unsplash, add an `imageCredit` object immediately after `images`, be careful to not rename keys:
   ```json
   "imageCredit": {
@@ -401,8 +401,8 @@ Key rules:
 Append a new entry at the END of the array using Python. The index entry uses the same `images` object format as the detail JSON:
 ```json
 "images": {
-  "cover": "images/recipes/{slug}/cover.jpg",
-  "web": "images/recipes/{slug}/web.jpg"
+  "cover": "images/recipes/{slug}/cover.webp",
+  "web": "images/recipes/{slug}/web.webp"
 }
 ```
 
@@ -437,7 +437,7 @@ Do NOT re-sort the array. The existing order is intentional.
 Create directory `public/images/recipes/{slug}/` if needed.
 
 ### If a cover image was uploaded in the issue
-Download the uploaded image and save it as `public/images/recipes/{slug}/cover.jpg` (or the appropriate extension). Also create a web-sized version at `public/images/recipes/{slug}/web.jpg` if the uploaded image is large (resize or use it directly if already web-appropriate).
+Download the uploaded image and save it as `public/images/recipes/{slug}/cover.jpg` (or the appropriate extension), and also copy it to `public/images/recipes/{slug}/web.jpg`. Then convert both to WebP (see **Convert photos to WebP** below), which also resizes them.
 
 ### If no cover image was provided
 Use the **unsplash-recipe-image** skill (`.agents/skills/unsplash-recipe-image/SKILL.md`) to find and download a professional food photograph from Unsplash. Pass the recipe title and a brief summary of ingredients/description as context.
@@ -465,9 +465,19 @@ Generate an SVG cover illustration. Read 1-2 existing SVGs from `public/images/r
 
 When using SVG, set both `cover` and `web` in the `images` object to the same `.svg` path.
 
+### Convert photos to WebP
+
+Every photo cover (uploaded, Unsplash or Pixabay) must be served as WebP. After the `cover.*` and `web.*` files are in place, run:
+
+```bash
+npm run images:webp -- public/images/recipes/{slug}
+```
+
+The script (`scripts/convert-images-to-webp.mjs`) converts `cover.jpg|png` (max 1600px wide) and `web.jpg|png` (max 800px wide) to `.webp`, deletes the JPG/PNG originals, updates any `.jpg`/`.png` references in `public/data/**/*.json`, and never touches `source*` files. Run `npm ci` first if `node_modules` is missing (it needs the `sharp` dev dependency).
+
 ## Step 8: Verify
 
-1. Confirm cover image exists at `public/images/recipes/{slug}/cover.{jpg,svg}` and web image at `public/images/recipes/{slug}/web.{jpg,svg}`
+1. Confirm cover image exists at `public/images/recipes/{slug}/cover.{webp,svg}` and web image at `public/images/recipes/{slug}/web.{webp,svg}`, and that no `cover.jpg`/`web.jpg` is left in that directory
 2. Sync `stepCount` and `ingredientCount` in the index from the actual recipe files:
    ```bash
    python3 .agents/skills/add-recipe/sync-recipe-counts.py

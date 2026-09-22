@@ -3,8 +3,8 @@
   "title": "Rouleaux de saison, fleurs, fruits et légumes",
   "description": "Des rouleaux de riz garnis de légumes de saison, fleurs comestibles et basilic thaï, accompagnés d'une sauce tamarin, soja et cacahuètes.",
   "images": {
-    "cover": "images/recipes/rouleaux-de-saison-fleurs-fruits-legumes/cover.jpg",
-    "web": "images/recipes/rouleaux-de-saison-fleurs-fruits-legumes/web.jpg"
+    "cover": "images/recipes/rouleaux-de-saison-fleurs-fruits-legumes/cover.webp",
+    "web": "images/recipes/rouleaux-de-saison-fleurs-fruits-legumes/web.webp"
   },
   "imageCredit": {
     "author": "Charles \"Duck\" Unitas",

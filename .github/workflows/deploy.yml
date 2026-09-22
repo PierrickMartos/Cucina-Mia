@@ -15,6 +15,10 @@ concurrency:
 jobs:
   deploy:
     runs-on: ubuntu-latest
+    # Shared with pr-preview.yml: only one job pushes to gh-pages at a time
+    concurrency:
+      group: gh-pages
+      cancel-in-progress: false
     environment:
       name: github-pages
       url: https://${{ github.repository_owner }}.github.io/Cucina-Mia/

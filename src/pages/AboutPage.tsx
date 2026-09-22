@@ -24,8 +24,8 @@ export function AboutPage() {
       {/* Full-width hero */}
       <div className="relative overflow-hidden h-[55vh] sm:h-[65vh]">
         <motion.img
-          src={`${BASE}images/nonna.jpg`}
-          alt="Nonna making pasta"
+          src={`${BASE}images/nonna.webp`}
+          alt={t("about.heroAlt")}
           style={{ y: heroY }}
           className="absolute inset-0 h-[115%] w-full object-cover object-center"
         />
@@ -74,8 +74,8 @@ export function AboutPage() {
           {/* Right: image */}
           <div className="w-full sm:w-64 shrink-0">
             <img
-              src={`${BASE}images/about-side.jpg`}
-              alt="Pasta al pesto con pomodorini"
+              src={`${BASE}images/about-side.webp`}
+              alt={t("about.sideAlt")}
               className="w-full rounded-2xl shadow-ambient object-cover aspect-[4/3] sm:aspect-auto sm:h-64"
             />
           </div>
@@ -94,8 +94,8 @@ export function AboutPage() {
           {/* Left: image */}
           <div className="w-full sm:w-64 shrink-0">
             <img
-              src={`${BASE}images/about-built-with.jpg`}
-              alt="Laptop with code on screen"
+              src={`${BASE}images/about-built-with.webp`}
+              alt={t("about.builtAlt")}
               className="w-full rounded-2xl shadow-ambient object-cover aspect-[4/3] sm:aspect-auto sm:h-64"
             />
           </div>
@@ -152,13 +152,13 @@ export function AboutPage() {
           <p className="text-sm text-muted-foreground">{t("about.thanksDetail")}</p>
         </div>
         <p className="text-[10px] text-muted-foreground/40">
-          Photos by{" "}
+          {t("credits.photosBy")}{" "}
           <a href="https://pixabay.com/users/stocksnap-894430/" target="_blank" rel="noopener noreferrer" className="underline">StockSnap</a>
           {", "}
           <a href="https://pixabay.com/users/tookapic-1386461/" target="_blank" rel="noopener noreferrer" className="underline">tookapic</a>
-          {" "}&{" "}
+          {" "}{t("credits.and")}{" "}
           <a href="https://pixabay.com/users/pexels-2286921/" target="_blank" rel="noopener noreferrer" className="underline">Pexels</a>
-          {" "}from{" "}
+          {" "}{t("credits.from")}{" "}
           <a href="https://pixabay.com/" target="_blank" rel="noopener noreferrer" className="underline">Pixabay</a>
         </p>
       </motion.div>
