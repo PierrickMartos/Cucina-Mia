@@ -29,7 +29,12 @@ Recipe data is **static JSON** served from `public/data/recipes/`. Each page fet
 
 ### Search
 
-Fuzzy search uses **Fuse.js** on the client, configured in `RecipesPage.tsx`. Searches across title (weight 2), tags (1.5), description (1), and category (1) with threshold 0.4.
+Hybrid search, fully static (no backend), in `src/lib/search/` and exposed through the `useRecipeSearch` hook (used by `HomePage` and `RecipesPage`):
+
+- **Lexical** (`lexical.ts`, `text.ts`): instant in-memory index over title (weight 3), tags (2), category incl. translated labels (2), ingredients (1.5) and description (1), with every language (fr/en/it) merged into each recipe document. Accent/ligature folding, light plural/feminine stemming, stopwords, prefix matching for the word being typed, typo tolerance and a few synonyms. Query terms are ANDed (terms matching nothing in the corpus are ignored).
+- **Semantic** (`semantic.ts`, `semantic.worker.ts`): recipe embeddings are precomputed with `Xenova/multilingual-e5-small`; the browser embeds the query with the same model via `@huggingface/transformers` in a Web Worker, lazily on the first search (model downloaded once from the Hugging Face CDN, then cached; skipped when Save-Data is on). Results are merged with the lexical ones by reciprocal rank fusion.
+- Generated assets (git-ignored) in `public/data/search/`, built by `scripts/build-search-index.mjs`: `documents.json` (ingredients, rebuilt automatically by `predev`/`prebuild`) and `embeddings.json` (`npm run build:embeddings`, needs Hugging Face access, run in the deploy and PR preview workflows). Without `embeddings.json` the app silently falls back to lexical-only search.
+- `.npmrc` skips the optional CUDA download of `onnxruntime-node` (only used by the embeddings script).
 
 ### Component Structure
 

@@ -10,14 +10,17 @@
     "preview": "vite preview",
     "test": "vitest run",
     "test:watch": "vitest",
-    "validate:recipes": "vitest run src/test/recipeValidation.test.ts"
+    "validate:recipes": "vitest run src/test/recipeValidation.test.ts",
+    "predev": "node scripts/build-search-index.mjs",
+    "prebuild": "node scripts/build-search-index.mjs",
+    "build:embeddings": "node scripts/build-search-index.mjs --embeddings"
   },
   "dependencies": {
     "@formkit/auto-animate": "^0.9.0",
+    "@huggingface/transformers": "^4.3.0",
     "class-variance-authority": "^0.7.1",
     "clsx": "^2.1.1",
     "focus-trap-react": "^12.0.0",
-    "fuse.js": "^7.1.0",
     "i18next": "^26.0.3",
     "i18next-browser-languagedetector": "^8.2.1",
     "lucide-react": "^1.7.0",

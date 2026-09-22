@@ -29,6 +29,16 @@ jobs:
 
       - run: npm ci
 
+      - name: Cache embedding model
+        uses: actions/cache@v4
+        with:
+          path: .cache/transformers
+          key: transformers-multilingual-e5-small-q8
+
+      - name: Build semantic search embeddings
+        run: npm run build:embeddings
+        continue-on-error: true
+
       - name: Build with preview base path
         run: npm run build
         env:

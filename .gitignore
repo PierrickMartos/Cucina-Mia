@@ -25,3 +25,7 @@ dist-ssr
 *.njsproj
 *.sln
 *.sw?
+
+# Generated search assets (scripts/build-search-index.mjs)
+public/data/search/
+.cache/

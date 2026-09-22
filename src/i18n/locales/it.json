@@ -143,5 +143,9 @@
     "Facile": "Facile",
     "Medio": "Medio",
     "Difficile": "Difficile"
+  },
+  "search": {
+    "semanticLoading": "Preparazione della ricerca intelligente…",
+    "semanticReady": "Ricerca intelligente attiva: vengono proposte anche ricette dal significato simile"
   }
 }

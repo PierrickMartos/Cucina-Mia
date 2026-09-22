@@ -1,13 +1,13 @@
 import { useState, useEffect, useMemo, useRef } from "react"
 import { useSearchParams } from "react-router-dom"
 import { useTranslation } from "react-i18next"
-import Fuse from "fuse.js"
 import { ChevronUp, X } from "lucide-react"
 import { SearchBar } from "@/components/SearchBar"
 import { FilterDrawer, type TimeBucket, type PrepTimeBucket, type StepsBucket, type IngredientsBucket } from "@/components/FilterDrawer"
 import { RecipeGrid } from "@/components/RecipeGrid"
 import { sortCategories, sortDifficulties } from "@/lib/categories"
 import { localizeRecipeSummary } from "@/lib/localize"
+import { useRecipeSearch } from "@/hooks/useRecipeSearch"
 import type { RecipeSummary } from "@/types/recipe"
 
 const BASE = import.meta.env.BASE_URL
@@ -178,20 +178,7 @@ export function RecipesPage() {
     [recipes]
   )
 
-  const fuse = useMemo(
-    () =>
-      new Fuse(localizedRecipes, {
-        keys: [
-          { name: "title", weight: 2 },
-          { name: "description", weight: 1 },
-          { name: "tags", weight: 1.5 },
-          { name: "category", weight: 1 },
-        ],
-        threshold: 0.4,
-        ignoreLocation: true,
-      }),
-    [localizedRecipes]
-  )
+  const { slugs: searchSlugs, semanticStatus } = useRecipeSearch(recipes, search)
 
   function getTimeBucket(prepTime: number, cookTime: number): TimeBucket {
     const total = prepTime + cookTime
@@ -289,9 +276,11 @@ export function RecipesPage() {
     selectedEssentials
 
   const filtered = useMemo(() => {
-    let result = search.trim()
-      ? fuse.search(search).map((r) => r.item)
-      : localizedRecipes
+    let result = localizedRecipes
+    if (searchSlugs) {
+      const bySlug = new Map(localizedRecipes.map((r) => [r.slug, r]))
+      result = searchSlugs.flatMap((slug) => bySlug.get(slug) ?? [])
+    }
 
     if (selectedCategories.length > 0) {
       result = result.filter((r) => selectedCategories.includes(r.category))
@@ -352,7 +341,7 @@ export function RecipesPage() {
     }
 
     return result
-  }, [localizedRecipes, fuse, search, selectedCategories, selectedDifficulties, selectedTimes, selectedPrepTimes, selectedSteps, selectedIngredients, selectedDietTags, selectedSeasonTags, selectedOrigins, selectedEssentials, selectedTag])
+  }, [localizedRecipes, searchSlugs, selectedCategories, selectedDifficulties, selectedTimes, selectedPrepTimes, selectedSteps, selectedIngredients, selectedDietTags, selectedSeasonTags, selectedOrigins, selectedEssentials, selectedTag])
 
   return (
     <div className="px-6 py-6">
@@ -373,7 +362,7 @@ export function RecipesPage() {
 
       <div className="flex items-center gap-3 mb-3">
         <div className="flex-1">
-          <SearchBar value={search} onChange={setSearch} />
+          <SearchBar value={search} onChange={setSearch} semanticStatus={semanticStatus} />
         </div>
         <FilterDrawer
           categories={categories}
