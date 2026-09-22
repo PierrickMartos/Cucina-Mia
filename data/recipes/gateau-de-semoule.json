@@ -34,12 +34,13 @@
   "ingredients": [
     {
       "items": [
-        "1 litre de lait",
+        "½ litre de lait",
         "80 g de semoule fine",
         "80 g de sucre",
         "80 g de beurre",
         "4 œufs",
-        "1 gousse de vanille"
+        "1 gousse de vanille",
+        "Sel"
       ]
     },
     {
@@ -67,14 +68,14 @@
       "text": "Caramélisez un moule à manqué : posez le moule contenant les morceaux de sucre mouillés d'eau sur feu doux en surveillant la cuisson. Dès que le sucre prend une coloration dorée, retirez du feu et inclinez le moule de manière à ce que le caramel le couvre complètement."
     },
     {
-      "text": "Versez la préparation dans le moule caramélisé et faites cuire au bain-marie préchauffé à 200 °C (th. 6-7) pendant une vingtaine de minutes."
+      "text": "Versez la préparation dans le moule caramélisé et faites cuire au four préchauffé à 200 °C (th. 6-7) pendant une vingtaine de minutes."
     },
     {
       "text": "Le gâteau est cuit lorsque la lame d'un couteau en sort sèche. Démoulez sur un plat et servez nature ou avec une crème anglaise."
     }
   ],
   "tips": [
-    "Battez la semoule cuite pendant quelques minutes au batteur avant d'ajouter les œufs. Elle doit avoir refroidi dans le moule. Vous serez étonné par la légèreté du gâteau !"
+    "Battez la semoule cuite pendant quelques minutes au fouet avant d'ajouter les œufs et de la verser dans le moule. Vous serez étonné par la légèreté du gâteau !"
   ],
   "history": "Plein de souvenirs d'enfance avec ce gateau de semoule, surtout l'odeur du caramel qui embaume la cuisine et mes frères et mon cousin qui nous léchions les babines",
   "origin": "pierrick-grandma",
@@ -103,12 +104,13 @@
       "ingredients": [
         {
           "items": [
-            "1 litre whole milk",
+            "½ litre milk",
             "80 g fine semolina",
             "80 g sugar",
             "80 g butter",
             "4 eggs",
-            "1 vanilla pod"
+            "1 vanilla pod",
+            "Salt"
           ]
         },
         {
@@ -136,14 +138,14 @@
           "text": "Make the caramel: place the mould containing the sugar cubes moistened with water over low heat and watch carefully. As soon as the sugar turns golden, remove from the heat and tilt the mould so the caramel coats it completely."
         },
         {
-          "text": "Pour the semolina mixture into the caramel-lined mould and bake in a bain-marie in an oven preheated to 200 °C (Gas Mark 6-7) for about 20 minutes."
+          "text": "Pour the semolina mixture into the caramel-lined mould and bake in an oven preheated to 200 °C (Gas Mark 6-7) for about 20 minutes."
         },
         {
           "text": "The cake is done when a knife blade inserted in the centre comes out clean. Unmould onto a plate and serve plain or with custard cream."
         }
       ],
       "tips": [
-        "Beat the cooked semolina for a few minutes with a mixer before adding the eggs. Let it cool slightly in the mould first: you will be amazed at how light the cake turns out!"
+        "Beat the cooked semolina with a whisk for a few minutes before adding the eggs and pouring it into the mould. You will be amazed at how light the cake turns out!"
       ],
       "history": "Full of childhood memories with this semolina cake, especially the smell of the caramel filling the kitchen, and my brothers and cousin all licking their lips."
     },
@@ -167,12 +169,13 @@
       "ingredients": [
         {
           "items": [
-            "1 litro di latte intero",
+            "½ litro di latte",
             "80 g di semolino fine",
             "80 g di zucchero",
             "80 g di burro",
             "4 uova",
-            "1 baccello di vaniglia"
+            "1 baccello di vaniglia",
+            "Sale"
           ]
         },
         {
@@ -200,14 +203,14 @@
           "text": "Caramellate lo stampo: posate lo stampo con le zollette di zucchero inumidite d'acqua su fuoco basso sorvegliando la cottura. Non appena lo zucchero prende un colore dorato, togliete dal fuoco e inclinate lo stampo in modo che il caramello lo ricopra completamente."
         },
         {
-          "text": "Versate il composto nello stampo caramellato e cuocete a bagnomaria in forno preriscaldato a 200 °C (th. 6-7) per una ventina di minuti."
+          "text": "Versate il composto nello stampo caramellato e cuocete in forno preriscaldato a 200 °C (th. 6-7) per una ventina di minuti."
         },
         {
           "text": "La torta è cotta quando la lama di un coltello esce asciutta. Sformate su un piatto e servite così com'è o con una crema inglese."
         }
       ],
       "tips": [
-        "Sbattete il semolino cotto per qualche minuto con le fruste prima di aggiungere le uova. Lasciatelo intiepidire nello stampo prima: rimarrete sorpresi dalla leggerezza della torta!"
+        "Sbattete il semolino cotto per qualche minuto con la frusta prima di aggiungere le uova e di versarlo nello stampo. Rimarrete sorpresi dalla leggerezza della torta!"
       ],
       "history": "Tanti ricordi d'infanzia con questa torta di semolino, soprattutto il profumo del caramello che invade la cucina e i miei fratelli e il mio cugino che ci leccavamo i baffi."
     }
