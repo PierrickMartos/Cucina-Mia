@@ -16,9 +16,15 @@ jobs:
   deploy-preview:
     if: github.event.action != 'closed'
     runs-on: ubuntu-latest
+    # Shared with deploy.yml: only one job pushes to gh-pages at a time
+    concurrency:
+      group: gh-pages
+      cancel-in-progress: false
     environment:
       name: pr-preview-${{ github.event.pull_request.number }}
       url: https://${{ github.repository_owner }}.github.io/Cucina-Mia/pr-preview/pr-${{ github.event.pull_request.number }}/
+    outputs:
+      asset: ${{ steps.asset.outputs.asset }}
     steps:
       - uses: actions/checkout@v4
 
@@ -34,9 +40,11 @@ jobs:
         env:
           VITE_BASE_PATH: /Cucina-Mia/pr-preview/pr-${{ github.event.pull_request.number }}/
 
+      - name: Record bundle name
+        id: asset
+        run: echo "asset=$(grep -o 'assets/index-[^"]*\.js' dist/index.html | head -1)" >> "$GITHUB_OUTPUT"
+
       - name: Deploy preview to gh-pages
-        id: deploy_attempt_1
-        continue-on-error: true
         uses: peaceiris/actions-gh-pages@v4
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
@@ -44,28 +52,19 @@ jobs:
           destination_dir: pr-preview/pr-${{ github.event.pull_request.number }}
           keep_files: true
 
-      # Another workflow may have pushed to gh-pages in the meantime, retry once
-      - name: Wait before retrying deploy
-        if: steps.deploy_attempt_1.outcome == 'failure'
-        run: sleep 20
-
-      - name: Deploy preview to gh-pages (retry)
-        if: steps.deploy_attempt_1.outcome == 'failure'
-        uses: peaceiris/actions-gh-pages@v4
-        with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: ./dist
-          destination_dir: pr-preview/pr-${{ github.event.pull_request.number }}
-          keep_files: true
-
+  comment-preview:
+    needs: deploy-preview
+    runs-on: ubuntu-latest
+    steps:
       # Pushing to gh-pages only triggers the "pages build and deployment"
       # workflow, the preview is live a few minutes later. Wait until the
       # served index.html references this build's bundle before commenting.
       - name: Wait for GitHub Pages to serve the preview
         id: wait_live
+        env:
+          ASSET: ${{ needs.deploy-preview.outputs.asset }}
         run: |
           PREVIEW_URL="https://${{ github.repository_owner }}.github.io/Cucina-Mia/pr-preview/pr-${{ github.event.pull_request.number }}/"
-          ASSET=$(grep -o 'assets/index-[^"]*\.js' dist/index.html | head -1)
           echo "Waiting for $PREVIEW_URL to serve $ASSET"
           for i in $(seq 1 60); do
             if curl -fsSL "${PREVIEW_URL}?t=$(date +%s)" | grep -q "$ASSET"; then
@@ -124,6 +123,9 @@ jobs:
   cleanup-preview:
     if: github.event.action == 'closed'
     runs-on: ubuntu-latest
+    concurrency:
+      group: gh-pages
+      cancel-in-progress: false
     steps:
       - uses: actions/checkout@v4
         with:
