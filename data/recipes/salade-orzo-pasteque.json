@@ -3,8 +3,8 @@
   "title": "Salade d'orzo à la pastèque",
   "description": "Une salade estivale d'orzo à la pastèque, feta et roquette, relevée d'une vinaigrette au citron vert et au miel et parsemée de pignons grillés.",
   "images": {
-    "cover": "images/recipes/salade-orzo-pasteque/cover.jpg",
-    "web": "images/recipes/salade-orzo-pasteque/web.jpg"
+    "cover": "images/recipes/salade-orzo-pasteque/cover.webp",
+    "web": "images/recipes/salade-orzo-pasteque/web.webp"
   },
   "prepTime": 20,
   "cookTime": 10,

@@ -3,8 +3,8 @@
   "title": "Gnocchi alla sorrentina",
   "description": "Des gnocchi de pomme de terre à la sauce tomate, gratinés avec provola affumicata et parmesan.",
   "images": {
-    "cover": "images/recipes/gnocchi-alla-sorrentina/cover.jpg",
-    "web": "images/recipes/gnocchi-alla-sorrentina/web.jpg"
+    "cover": "images/recipes/gnocchi-alla-sorrentina/cover.webp",
+    "web": "images/recipes/gnocchi-alla-sorrentina/web.webp"
   },
   "prepTime": 45,
   "cookTime": 30,

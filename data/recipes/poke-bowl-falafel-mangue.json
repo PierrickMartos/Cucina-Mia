@@ -3,8 +3,8 @@
   "title": "Poke bowl falafel",
   "description": "Un bowl végétarien coloré avec riz, falafels, mangue ou framboises, avocat et légumes croquants, relevé d'une sauce sésame-soja au gingembre.",
   "images": {
-    "cover": "images/recipes/poke-bowl-falafel-mangue/cover.jpg",
-    "web": "images/recipes/poke-bowl-falafel-mangue/web.jpg"
+    "cover": "images/recipes/poke-bowl-falafel-mangue/cover.webp",
+    "web": "images/recipes/poke-bowl-falafel-mangue/web.webp"
   },
   "prepTime": 20,
   "cookTime": 15,

@@ -3,8 +3,8 @@
   "title": "Risotto Cheddar et Bacon",
   "description": "Un risotto généreux et réconfortant au cheddar fondu et bacon croustillant, une version anglaise gourmande du grand classique italien.",
   "images": {
-    "cover": "images/recipes/risotto-cheddar-bacon/cover.jpg",
-    "web": "images/recipes/risotto-cheddar-bacon/web.jpg"
+    "cover": "images/recipes/risotto-cheddar-bacon/cover.webp",
+    "web": "images/recipes/risotto-cheddar-bacon/web.webp"
   },
   "imageCredit": {
     "id": 1126412,

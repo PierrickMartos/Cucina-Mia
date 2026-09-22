@@ -3,8 +3,8 @@
   "title": "Gaspacho de pastèque à la feta",
   "description": "Un gaspacho froid de pastèque, poivron rouge, menthe et feta, parfait pour une entrée légère et très fraîche en été.",
   "images": {
-    "cover": "images/recipes/gaspacho-de-pasteque-a-la-feta/cover.jpg",
-    "web": "images/recipes/gaspacho-de-pasteque-a-la-feta/web.jpg"
+    "cover": "images/recipes/gaspacho-de-pasteque-a-la-feta/cover.webp",
+    "web": "images/recipes/gaspacho-de-pasteque-a-la-feta/web.webp"
   },
   "prepTime": 20,
   "cookTime": 0,

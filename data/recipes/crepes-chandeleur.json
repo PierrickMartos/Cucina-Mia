@@ -3,8 +3,8 @@
   "title": "Crêpes moelleuses de la Chandeleur",
   "description": "La pâte à crêpes inratable d'Hervé Cuisine : farine, œufs, lait tiède et beurre fondu, parfumée au rhum ou à la fleur d'oranger, reposée 30 minutes pour des crêpes bien moelleuses.",
   "images": {
-    "cover": "images/recipes/crepes-chandeleur/cover.jpg",
-    "web": "images/recipes/crepes-chandeleur/web.jpg"
+    "cover": "images/recipes/crepes-chandeleur/cover.webp",
+    "web": "images/recipes/crepes-chandeleur/web.webp"
   },
   "imageCredit": {
     "author": "RitaE",

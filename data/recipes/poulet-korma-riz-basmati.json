@@ -3,8 +3,8 @@
   "title": "Poulet Korma et Riz Basmati",
   "description": "Dés de poulet dorés mijotés dans un lait de coco parfumé au garam masala, curcuma et cumin, servis sur un lit de riz basmati.",
   "images": {
-    "cover": "images/recipes/poulet-korma-riz-basmati/cover.jpg",
-    "web": "images/recipes/poulet-korma-riz-basmati/web.jpg"
+    "cover": "images/recipes/poulet-korma-riz-basmati/cover.webp",
+    "web": "images/recipes/poulet-korma-riz-basmati/web.webp"
   },
   "imageCredit": {
     "author": "quikish",

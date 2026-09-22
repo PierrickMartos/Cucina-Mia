@@ -3,8 +3,8 @@
   "title": "Macaronis au Fromage Façon Risotto",
   "description": "Des macaronis cuisinés façon risotto dans le bouillon de bœuf, enrobés d'une sauce crémeuse au cheddar, le mac & cheese à la française.",
   "images": {
-    "cover": "images/recipes/macaronis-fromage-facon-risotto/cover.jpg",
-    "web": "images/recipes/macaronis-fromage-facon-risotto/web.jpg"
+    "cover": "images/recipes/macaronis-fromage-facon-risotto/cover.webp",
+    "web": "images/recipes/macaronis-fromage-facon-risotto/web.webp"
   },
   "prepTime": 10,
   "cookTime": 30,

@@ -3,8 +3,8 @@
   "title": "Chakchouka du Brunch",
   "description": "Oeufs pochés dans une sauce tomate épicée aux poivrons et oignons, parfaite pour un brunch gourmand.",
   "images": {
-    "cover": "images/recipes/chakchouka-du-brunch/cover.jpg",
-    "web": "images/recipes/chakchouka-du-brunch/web.jpg"
+    "cover": "images/recipes/chakchouka-du-brunch/cover.webp",
+    "web": "images/recipes/chakchouka-du-brunch/web.webp"
   },
   "prepTime": 15,
   "cookTime": 25,

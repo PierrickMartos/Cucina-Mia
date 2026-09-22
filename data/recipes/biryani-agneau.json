@@ -3,8 +3,8 @@
   "title": "Biryani d'agneau",
   "description": "Un biryani d'agneau parfumé au safran, à la cannelle et aux herbes fraîches, cuit en couches dorées avec du riz basmati grillé.",
   "images": {
-    "cover": "images/recipes/biryani-agneau/cover.jpg",
-    "web": "images/recipes/biryani-agneau/web.jpg"
+    "cover": "images/recipes/biryani-agneau/cover.webp",
+    "web": "images/recipes/biryani-agneau/web.webp"
   },
   "imageCredit": {
     "author": "MD-OSMAN-GANI",

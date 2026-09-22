@@ -3,8 +3,8 @@
   "title": "Curry de légumes",
   "description": "Un curry de légumes facile et parfumé, avec des aubergines et des courgettes dorées puis mijotées dans du lait de coco et de la tomate, parsemé de noix de cajou grillées.",
   "images": {
-    "cover": "images/recipes/curry-legumes/cover.jpg",
-    "web": "images/recipes/curry-legumes/web.jpg"
+    "cover": "images/recipes/curry-legumes/cover.webp",
+    "web": "images/recipes/curry-legumes/web.webp"
   },
   "imageCredit": {
     "author": "iMattSmart",

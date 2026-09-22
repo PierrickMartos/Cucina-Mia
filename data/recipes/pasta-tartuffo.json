@@ -3,8 +3,8 @@
   "title": "Pasta tartuffo",
   "description": "Les fameuses pâtes à la truffe de Big Mamma, crémeuses au mascarpone, parmesan et champignons de Paris.",
   "images": {
-    "cover": "images/recipes/pasta-tartuffo/cover.jpg",
-    "web": "images/recipes/pasta-tartuffo/web.jpg"
+    "cover": "images/recipes/pasta-tartuffo/cover.webp",
+    "web": "images/recipes/pasta-tartuffo/web.webp"
   },
   "prepTime": 15,
   "cookTime": 20,

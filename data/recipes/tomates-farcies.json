@@ -3,8 +3,8 @@
   "title": "Tomates Farcies",
   "description": "Les tomates farcies de l'enfance : une farce généreuse au jambon cru et viande hachée parfumée aux herbes, cuites lentement au four.",
   "images": {
-    "cover": "images/recipes/tomates-farcies/cover.jpg",
-    "web": "images/recipes/tomates-farcies/web.jpg"
+    "cover": "images/recipes/tomates-farcies/cover.webp",
+    "web": "images/recipes/tomates-farcies/web.webp"
   },
   "imageCredit": {
     "source": "Pixabay",

@@ -3,8 +3,8 @@
   "title": "Pain pita turbo",
   "description": "Des pitas moelleux prêts en quelques minutes, sans four ni levée, avec seulement 4 ingrédients.",
   "images": {
-    "cover": "images/recipes/pain-pita-turbo/cover.jpg",
-    "web": "images/recipes/pain-pita-turbo/web.jpg"
+    "cover": "images/recipes/pain-pita-turbo/cover.webp",
+    "web": "images/recipes/pain-pita-turbo/web.webp"
   },
   "imageCredit": {
     "author": "hekoer_1",
