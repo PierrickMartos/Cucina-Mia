@@ -3,7 +3,7 @@ import { Home, BookOpen, PlusCircle, Info } from "lucide-react"
 import { useTranslation } from "react-i18next"
 import { motion, useReducedMotion } from "motion/react"
 import { useState, useRef, useEffect, useId } from "react"
-import { preloadVoices, sayMammaMia } from "@/lib/mammaMia"
+import { preloadMammaMia, sayMammaMia } from "@/lib/mammaMia"
 
 const LANGUAGES = [
   { code: "en", label: "English" },
@@ -89,7 +89,7 @@ export function Layout() {
   const reduceMotion = useReducedMotion()
 
   useEffect(() => {
-    preloadVoices()
+    preloadMammaMia()
   }, [])
 
   const navItems = [
