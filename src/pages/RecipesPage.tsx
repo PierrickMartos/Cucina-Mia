@@ -93,6 +93,11 @@ export function RecipesPage() {
     () => recipes.map((r) => localizeRecipeSummary(r, i18n.language)),
     [recipes, i18n.language]
   )
+  // Diet/season filters use the base (French) tag keys, whatever the UI language
+  const baseTagsBySlug = useMemo(
+    () => new Map(recipes.map((r) => [r.slug, r.tags])),
+    [recipes]
+  )
 
 
   useEffect(() => {
@@ -301,13 +306,13 @@ export function RecipesPage() {
 
     if (selectedDietTags.length > 0) {
       result = result.filter((r) =>
-        selectedDietTags.some((tag) => r.tags.includes(tag))
+        selectedDietTags.some((tag) => baseTagsBySlug.get(r.slug)?.includes(tag))
       )
     }
 
     if (selectedSeasonTags.length > 0) {
       result = result.filter((r) =>
-        selectedSeasonTags.some((tag) => r.tags.includes(tag))
+        selectedSeasonTags.some((tag) => baseTagsBySlug.get(r.slug)?.includes(tag))
       )
     }
 
@@ -322,11 +327,11 @@ export function RecipesPage() {
     }
 
     if (selectedTag) {
-      result = result.filter((r) => r.tags.includes(selectedTag))
+      result = result.filter((r) => r.tags.includes(selectedTag) || baseTagsBySlug.get(r.slug)?.includes(selectedTag))
     }
 
     return result
-  }, [localizedRecipes, fuse, search, selectedCategories, selectedDifficulties, selectedTimes, selectedPrepTimes, selectedSteps, selectedIngredients, selectedDietTags, selectedSeasonTags, selectedOrigins, selectedEssentials, selectedTag])
+  }, [localizedRecipes, baseTagsBySlug, fuse, search, selectedCategories, selectedDifficulties, selectedTimes, selectedPrepTimes, selectedSteps, selectedIngredients, selectedDietTags, selectedSeasonTags, selectedOrigins, selectedEssentials, selectedTag])
 
   return (
     <div className="px-6 py-6">

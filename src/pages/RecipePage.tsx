@@ -116,7 +116,7 @@ export function RecipePage() {
     const metaDesc = document.querySelector('meta[name="description"]')
     const prevDesc = metaDesc?.getAttribute('content') ?? ''
     document.title = `${recipe.title} · Cucina Mia`
-    metaDesc?.setAttribute('content', recipe.description ?? `Recette ${recipe.title} · Cucina Mia`)
+    metaDesc?.setAttribute('content', recipe.description ?? `${recipe.title} · Cucina Mia`)
     return () => {
       document.title = prevTitle
       metaDesc?.setAttribute('content', prevDesc)
