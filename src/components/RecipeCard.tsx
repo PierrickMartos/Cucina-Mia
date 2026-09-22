@@ -19,7 +19,7 @@ export function RecipeCard({ recipe: rawRecipe }: { recipe: RecipeSummary }) {
         <div className="aspect-[4/3] overflow-hidden relative editorial-grain">
           <img
             src={`${BASE}${recipe.images.web}`}
-            alt={recipe.title}
+            alt=""
             className="h-full w-full object-cover transition-transform duration-700 group-hover:scale-105"
             loading="lazy"
           />

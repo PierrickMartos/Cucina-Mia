@@ -3,8 +3,8 @@
   "title": "Mayak Gyeran",
   "description": "Des œufs mollets marinés à la coréenne dans une sauce soja parfumée, servis sur du riz chaud.",
   "images": {
-    "cover": "images/recipes/mayak-gyeran/cover.jpg",
-    "web": "images/recipes/mayak-gyeran/web.jpg"
+    "cover": "images/recipes/mayak-gyeran/cover.webp",
+    "web": "images/recipes/mayak-gyeran/web.webp"
   },
   "prepTime": 15,
   "cookTime": 6,

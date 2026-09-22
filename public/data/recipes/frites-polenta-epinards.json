@@ -3,8 +3,8 @@
   "title": "Frites de Polenta et Épinards",
   "description": "Des frites de polenta croustillantes au parmesan accompagnées d'épinards à l'ail, une alternative originale et végétarienne aux frites classiques.",
   "images": {
-    "cover": "images/recipes/frites-polenta-epinards/cover.jpg",
-    "web": "images/recipes/frites-polenta-epinards/web.jpg"
+    "cover": "images/recipes/frites-polenta-epinards/cover.webp",
+    "web": "images/recipes/frites-polenta-epinards/web.webp"
   },
   "prepTime": 20,
   "cookTime": 30,

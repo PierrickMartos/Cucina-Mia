@@ -3,8 +3,8 @@
   "title": "Gâteau de Savoie",
   "description": "Gâteau traditionnel savoyard, ultra-léger et aérien, réalisé à base de Maïzena et d'œufs battus en neige avec un délicat parfum de citron.",
   "images": {
-    "cover": "images/recipes/gateau-de-savoie/cover.jpg",
-    "web": "images/recipes/gateau-de-savoie/web.jpg"
+    "cover": "images/recipes/gateau-de-savoie/cover.webp",
+    "web": "images/recipes/gateau-de-savoie/web.webp"
   },
   "imageCredit": {
     "author": "ulleo",

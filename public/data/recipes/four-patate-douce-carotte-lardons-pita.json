@@ -3,8 +3,8 @@
   "title": "Plaque au Four : Patate Douce, Carottes et Lardons",
   "description": "Une plaque au four colorée et savoureuse de patate douce, carottes et oignons rôtis avec des lardons, servie avec du pain pita.",
   "images": {
-    "cover": "images/recipes/four-patate-douce-carotte-lardons-pita/cover.jpg",
-    "web": "images/recipes/four-patate-douce-carotte-lardons-pita/web.jpg"
+    "cover": "images/recipes/four-patate-douce-carotte-lardons-pita/cover.webp",
+    "web": "images/recipes/four-patate-douce-carotte-lardons-pita/web.webp"
   },
   "imageCredit": {
     "id": "8295778",

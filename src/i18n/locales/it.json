@@ -7,7 +7,9 @@
   },
   "common": {
     "close": "Chiudi",
-    "tryAgain": "Riprova"
+    "tryAgain": "Riprova",
+    "loadError": "Caricamento non riuscito. Riprova.",
+    "skipToContent": "Vai al contenuto"
   },
   "language": {
     "switch": "Cambia lingua"
@@ -27,7 +29,10 @@
     "builtIntro": "Questo sito è stato costruito con l'aiuto dell'IA.",
     "builtContent": "Le ricette vengono estratte automaticamente da foto, URL o testi, prima di essere integrate nel sito. Un ringraziamento speciale ai fotografi: alcune ricette di questo sito usano foto trovate su Pixabay o Unsplash.",
     "thanks": "Un grande grazie a",
-    "thanksDetail": "per aver avuto l'idea di questo progetto vicino alla macchinetta del caffè. Tutto il merito è suo."
+    "thanksDetail": "per aver avuto l'idea di questo progetto vicino alla macchinetta del caffè. Tutto il merito è suo.",
+    "heroAlt": "Una nonna che prepara la pasta fresca",
+    "sideAlt": "Pasta al pesto con pomodorini",
+    "builtAlt": "Portatile con del codice sullo schermo"
   },
   "recipes": {
     "title": "Ricette",
@@ -63,7 +68,10 @@
     "read": "Leggi",
     "readAloud": "Leggi ad alta voce",
     "stop": "Ferma",
-    "stopReading": "Ferma la lettura"
+    "stopReading": "Ferma la lettura",
+    "share": "Condividi",
+    "shareRecipe": "Condividi la ricetta",
+    "linkCopied": "Link copiato!"
   },
   "filter": {
     "title": "Filtra ricette",

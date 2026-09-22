@@ -3,8 +3,8 @@
   "title": "Pasta all'Amatriciana",
   "description": "Sauce romaine emblématique au guanciale et aux tomates, agrémentée de pecorino romano, servie sur des bucatini.",
   "images": {
-    "cover": "images/recipes/pasta-amatriciana/cover.jpg",
-    "web": "images/recipes/pasta-amatriciana/web.jpg"
+    "cover": "images/recipes/pasta-amatriciana/cover.webp",
+    "web": "images/recipes/pasta-amatriciana/web.webp"
   },
   "prepTime": 10,
   "cookTime": 30,

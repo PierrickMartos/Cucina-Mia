@@ -3,8 +3,8 @@
   "title": "Tarte Tomate, Mozzarella et Basilic",
   "description": "Une tarte provençale estivale aux tomates fraîches disposées en rosace, sur un lit de basilic et concentré de tomate, agrémentée de mozzarella di bufala.",
   "images": {
-    "cover": "images/recipes/tarte-tomate-mozza-basilic/cover.jpg",
-    "web": "images/recipes/tarte-tomate-mozza-basilic/web.jpg"
+    "cover": "images/recipes/tarte-tomate-mozza-basilic/cover.webp",
+    "web": "images/recipes/tarte-tomate-mozza-basilic/web.webp"
   },
   "prepTime": 40,
   "cookTime": 35,

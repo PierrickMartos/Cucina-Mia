@@ -24,8 +24,8 @@
     "méditerranéen"
   ],
   "images": {
-    "cover": "images/recipes/melon-basilic/cover.jpg",
-    "web": "images/recipes/melon-basilic/web.jpg"
+    "cover": "images/recipes/melon-basilic/cover.webp",
+    "web": "images/recipes/melon-basilic/web.webp"
   },
   "imageCredit": {
     "author": "Natalie Behn",

@@ -7,7 +7,9 @@
   },
   "common": {
     "close": "Fermer",
-    "tryAgain": "Réessayer"
+    "tryAgain": "Réessayer",
+    "loadError": "Le chargement a échoué. Veuillez réessayer.",
+    "skipToContent": "Aller au contenu"
   },
   "language": {
     "switch": "Changer de langue"
@@ -27,7 +29,10 @@
     "builtIntro": "Ce site a été construit avec l'aide de l'IA.",
     "builtContent": "Les recettes sont ainsi automatiquement extraites à partir de photos, d'URLs ou de textes, avant d'être intégrées au site. Un merci tout particulier aux photographes : certaines recettes de ce site bénéficient de photos dégotées sur Pixabay ou Unsplash.",
     "thanks": "Un grand merci à",
-    "thanksDetail": "pour avoir eu l'idée de ce projet à la machine à café et me l'avoir partagée. Tout le mérite lui revient."
+    "thanksDetail": "pour avoir eu l'idée de ce projet à la machine à café et me l'avoir partagée. Tout le mérite lui revient.",
+    "heroAlt": "Une nonna préparant des pâtes fraîches",
+    "sideAlt": "Pâtes au pesto et tomates cerises",
+    "builtAlt": "Ordinateur portable affichant du code"
   },
   "recipes": {
     "title": "Recettes",
@@ -63,7 +68,10 @@
     "read": "Lire",
     "readAloud": "Lire à voix haute",
     "stop": "Arrêter",
-    "stopReading": "Arrêter la lecture"
+    "stopReading": "Arrêter la lecture",
+    "share": "Partager",
+    "shareRecipe": "Partager la recette",
+    "linkCopied": "Lien copié !"
   },
   "filter": {
     "title": "Filtrer les recettes",

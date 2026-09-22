@@ -1,7 +1,7 @@
 import { render, screen, waitFor } from "@testing-library/react"
 import userEvent from "@testing-library/user-event"
 import { MemoryRouter, Route, Routes } from "react-router-dom"
-import { describe, it, expect, beforeEach } from "vitest"
+import { describe, it, expect, beforeEach, afterEach, vi } from "vitest"
 import i18n from "i18next"
 import { RecipePage } from "@/pages/RecipePage"
 
@@ -158,5 +158,39 @@ describe("RecipePage", () => {
       expect(screen.getByText("Pasta alla Carbonara")).toBeInTheDocument()
     })
     expect(screen.queryByText(/'s recipe/)).not.toBeInTheDocument()
+  })
+
+  describe("share button", () => {
+    const originalShare = navigator.share
+    const originalClipboard = navigator.clipboard
+
+    afterEach(() => {
+      Object.defineProperty(navigator, "share", { value: originalShare, configurable: true })
+      Object.defineProperty(navigator, "clipboard", { value: originalClipboard, configurable: true })
+    })
+
+    it("uses the native share sheet when available", async () => {
+      const share = vi.fn().mockResolvedValue(undefined)
+      Object.defineProperty(navigator, "share", { value: share, configurable: true })
+      const user = userEvent.setup()
+      renderRecipePage("pasta-carbonara")
+      await user.click(await screen.findByRole("button", { name: "Share recipe" }))
+      expect(share).toHaveBeenCalledWith({
+        title: "Pasta alla Carbonara",
+        text: "La vera carbonara romana.",
+        url: window.location.href,
+      })
+    })
+
+    it("copies the link when native share is not available", async () => {
+      Object.defineProperty(navigator, "share", { value: undefined, configurable: true })
+      const user = userEvent.setup()
+      const writeText = vi.fn().mockResolvedValue(undefined)
+      Object.defineProperty(navigator, "clipboard", { value: { writeText }, configurable: true })
+      renderRecipePage("pasta-carbonara")
+      await user.click(await screen.findByRole("button", { name: "Share recipe" }))
+      expect(writeText).toHaveBeenCalledWith(window.location.href)
+      expect(await screen.findByRole("status")).toHaveTextContent("Link copied!")
+    })
   })
 })

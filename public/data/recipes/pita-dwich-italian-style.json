@@ -3,8 +3,8 @@
   "title": "Pita dwich italian style",
   "description": "Un pain pita garni de crème fraîche aux herbes, de légumes croquants, d'avocat et de mozzarella, arrosé d'une sauce basilic et huile d'olive.",
   "images": {
-    "cover": "images/recipes/pita-dwich-italian-style/cover.jpg",
-    "web": "images/recipes/pita-dwich-italian-style/web.jpg"
+    "cover": "images/recipes/pita-dwich-italian-style/cover.webp",
+    "web": "images/recipes/pita-dwich-italian-style/web.webp"
   },
   "prepTime": 15,
   "cookTime": 0,

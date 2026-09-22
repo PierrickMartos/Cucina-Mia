@@ -3,8 +3,8 @@
   "title": "Gaspacho de tomates et pastèque",
   "description": "Un gaspacho rafraîchissant, parfait pour les jours de canicule.",
   "images": {
-    "cover": "images/recipes/gaspacho-pasteque-tomates/cover.jpg",
-    "web": "images/recipes/gaspacho-pasteque-tomates/web.jpg"
+    "cover": "images/recipes/gaspacho-pasteque-tomates/cover.webp",
+    "web": "images/recipes/gaspacho-pasteque-tomates/web.webp"
   },
   "imageCredit": {
     "author": "yana_tik",

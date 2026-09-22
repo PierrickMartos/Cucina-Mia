@@ -3,8 +3,8 @@
   "title": "Gnocchi & Brocoli en Folie (au four !)",
   "description": "Gnocchi et brocolis rôtis au four en une seule plaque, avec citron, ail et pecorino. Prêt en 25 minutes.",
   "images": {
-    "cover": "images/recipes/gnocchi-broccoli-al-forno/cover.jpg",
-    "web": "images/recipes/gnocchi-broccoli-al-forno/web.jpg"
+    "cover": "images/recipes/gnocchi-broccoli-al-forno/cover.webp",
+    "web": "images/recipes/gnocchi-broccoli-al-forno/web.webp"
   },
   "prepTime": 5,
   "cookTime": 25,

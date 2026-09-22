@@ -3,8 +3,8 @@
   "title": "Riz tomates cerises et feta au four",
   "description": "Un riz qui cuit tout seul au four avec un bloc de feta fondante, des tomates cerises confites et de l'ail. Un plat tout-en-un que les enfants réclament.",
   "images": {
-    "cover": "images/recipes/riz-tomates-cerises-et-feta-au-four/cover.jpg",
-    "web": "images/recipes/riz-tomates-cerises-et-feta-au-four/web.jpg"
+    "cover": "images/recipes/riz-tomates-cerises-et-feta-au-four/cover.webp",
+    "web": "images/recipes/riz-tomates-cerises-et-feta-au-four/web.webp"
   },
   "prepTime": 5,
   "cookTime": 40,

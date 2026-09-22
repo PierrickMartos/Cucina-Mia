@@ -3,8 +3,8 @@
   "title": "Pâtes de lentilles aux aubergines, yaourt et tapenade",
   "description": "Une salade de pâtes de lentilles sans gluten, généreuse et fraîche, avec aubergines dorées, tapenade de tomates, yaourt grec et amandes grillées.",
   "images": {
-    "cover": "images/recipes/pasta-lenticchie-melanzane-yogurt-tapenade/cover.jpg",
-    "web": "images/recipes/pasta-lenticchie-melanzane-yogurt-tapenade/web.jpg"
+    "cover": "images/recipes/pasta-lenticchie-melanzane-yogurt-tapenade/cover.webp",
+    "web": "images/recipes/pasta-lenticchie-melanzane-yogurt-tapenade/web.webp"
   },
   "prepTime": 20,
   "cookTime": 25,

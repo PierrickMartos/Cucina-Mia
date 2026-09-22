@@ -3,8 +3,8 @@
   "title": "Filet mignon & crème à la moutarde",
   "description": "Des tranches de filet mignon dorées à la poêle, nappées d'une crème à la moutarde parfumée au thym et servies sur un lit de riz. Quel plus grand plaisir que de saucer le plat après avoir fini toute son assiette.",
   "images": {
-    "cover": "images/recipes/filet-mignon-creme-moutarde/cover.jpg",
-    "web": "images/recipes/filet-mignon-creme-moutarde/web.jpg"
+    "cover": "images/recipes/filet-mignon-creme-moutarde/cover.webp",
+    "web": "images/recipes/filet-mignon-creme-moutarde/web.webp"
   },
   "prepTime": 5,
   "cookTime": 10,

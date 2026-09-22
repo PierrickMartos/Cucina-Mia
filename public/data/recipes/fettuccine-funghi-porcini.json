@@ -3,8 +3,8 @@
   "title": "Fettuccine funghi porcini",
   "description": "Des fettuccine maison aux cèpes, nappées d'une sauce au beurre, ail et huile d'olive, avec une touche de persil et de parmesan.",
   "images": {
-    "cover": "images/recipes/fettuccine-funghi-porcini/cover.jpg",
-    "web": "images/recipes/fettuccine-funghi-porcini/web.jpg"
+    "cover": "images/recipes/fettuccine-funghi-porcini/cover.webp",
+    "web": "images/recipes/fettuccine-funghi-porcini/web.webp"
   },
   "prepTime": 60,
   "cookTime": 20,

@@ -8,9 +8,8 @@ import { FilterDrawer, type TimeBucket, type PrepTimeBucket, type StepsBucket, t
 import { RecipeGrid } from "@/components/RecipeGrid"
 import { sortCategories, sortDifficulties } from "@/lib/categories"
 import { localizeRecipeSummary } from "@/lib/localize"
-import type { RecipeSummary } from "@/types/recipe"
+import { useRecipeIndex } from "@/lib/recipeData"
 
-const BASE = import.meta.env.BASE_URL
 const FILTERS_KEY = "cucina-mia-filters"
 const ESSENTIAL_RECIPE_SLUGS = new Set([
   "pasta-carbonara",
@@ -51,10 +50,7 @@ function setMultiParam(params: URLSearchParams, key: string, values: string[]) {
 
 export function RecipesPage() {
   const [searchParams, setSearchParams] = useSearchParams()
-  const [recipes, setRecipes] = useState<RecipeSummary[]>([])
-  const [loading, setLoading] = useState(true)
-  const [error, setError] = useState<string | null>(null)
-  const [retryCount, setRetryCount] = useState(0)
+  const { recipes, loading, error, retry } = useRecipeIndex()
   const [search, setSearch] = useState(searchParams.get("q") ?? "")
   const [selectedTag, setSelectedTag] = useState<string | null>(searchParams.get("tag"))
   const [selectedCategories, setSelectedCategories] = useState<string[]>(() => {
@@ -98,28 +94,6 @@ export function RecipesPage() {
     [recipes, i18n.language]
   )
 
-  useEffect(() => {
-    let cancelled = false
-    // Reset loading/error state for each fetch attempt (including retries)
-    // eslint-disable-next-line react-hooks/set-state-in-effect
-    setLoading(true)
-    setError(null)
-    fetch(`${BASE}data/recipes/index.json`)
-      .then((res) => res.json())
-      .then((data) => {
-        if (!cancelled) {
-          setRecipes(data)
-          setLoading(false)
-        }
-      })
-      .catch(() => {
-        if (!cancelled) {
-          setError('Failed to load. Please try again.')
-          setLoading(false)
-        }
-      })
-    return () => { cancelled = true }
-  }, [retryCount])
 
   useEffect(() => {
     const allEmpty =
@@ -497,11 +471,11 @@ export function RecipesPage() {
       )}
 
       {error ? (
-        <div className="flex flex-col items-center justify-center py-16 text-center gap-4">
-          <p className="text-sm text-muted-foreground">{error}</p>
+        <div role="alert" className="flex flex-col items-center justify-center py-16 text-center gap-4">
+          <p className="text-sm text-muted-foreground">{t("common.loadError")}</p>
           <button
             type="button"
-            onClick={() => setRetryCount(c => c + 1)}
+            onClick={retry}
             className="rounded-full bg-surface-high px-5 py-2 text-sm font-medium text-foreground hover:bg-surface-container transition-colors"
           >
             {t("common.tryAgain")}

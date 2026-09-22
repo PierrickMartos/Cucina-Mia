@@ -3,8 +3,8 @@
   "title": "Bananamisù aux spéculoos et à la banane",
   "description": "Un dessert façon tiramisu à la banane, avec une base de spéculoos croustillante et une crème mascarpone légère.",
   "images": {
-    "cover": "images/recipes/bananamisu/cover.jpg",
-    "web": "images/recipes/bananamisu/web.jpg"
+    "cover": "images/recipes/bananamisu/cover.webp",
+    "web": "images/recipes/bananamisu/web.webp"
   },
   "prepTime": 35,
   "cookTime": 3,

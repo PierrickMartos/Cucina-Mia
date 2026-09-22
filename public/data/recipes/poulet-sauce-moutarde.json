@@ -3,8 +3,8 @@
   "title": "Poulet sauce moutarde",
   "description": "Des escalopes de poulet poêlées avec champignons et oignon rouge, nappées d'une sauce crémeuse à la moutarde à l'ancienne. Servi avec du riz, c'est le dîner de semaine parfait.",
   "images": {
-    "cover": "images/recipes/poulet-sauce-moutarde/cover.jpg",
-    "web": "images/recipes/poulet-sauce-moutarde/web.jpg"
+    "cover": "images/recipes/poulet-sauce-moutarde/cover.webp",
+    "web": "images/recipes/poulet-sauce-moutarde/web.webp"
   },
   "imageCredit": {
     "author": "Grutto",
