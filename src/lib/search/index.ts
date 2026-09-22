@@ -96,6 +96,13 @@ export function mergeResults(lexical: LexicalResult, semantic: SemanticHit[] | n
   return [...scores].sort((a, b) => b[1] - a[1]).map(([slug]) => slug)
 }
 
+function mentions(recipe: RecipeSummary, word: string | undefined) {
+  if (!word) return false
+  const translations = Object.values(recipe.translations ?? {})
+  const texts = [recipe.title, ...recipe.tags, ...translations.flatMap((t) => [t.title ?? "", ...(t.tags ?? [])])]
+  return texts.some((text) => tokenize(text).includes(word))
+}
+
 /**
  * Applies the structured part of the query (negations, "en moins de 30 minutes", "facile") to the
  * ranked slugs, or to every recipe when the query had no search term ("dessert" aside, e.g. "rapide et facile").
@@ -112,7 +119,8 @@ export function applyConstraints(
     const recipe = bySlug.get(slug)
     if (!recipe || excluded.has(slug)) return false
     if (query.maxMinutes !== undefined && recipe.prepTime + recipe.cookTime > query.maxMinutes) return false
-    if (query.difficulty && recipe.difficulty !== query.difficulty) return false
+    // "facile" also matches "Framboisier facile" or a recipe tagged "facile" rated a bit harder.
+    if (query.difficulty && recipe.difficulty !== query.difficulty && !mentions(recipe, query.difficultyWord)) return false
     return true
   })
 }

@@ -1,39 +1,7 @@
 // Regression tests on the real cookbook: natural-language queries must return sensible recipes.
-import { readFileSync, readdirSync } from "node:fs"
+// Add a case here whenever the search lexicon is extended (see .agents/skills/search-lexicon).
 import { describe, it, expect } from "vitest"
-import {
-  LexicalIndex,
-  applyConstraints,
-  buildSearchDocuments,
-  buildTagAliases,
-  mergeResults,
-  parseQuery,
-} from "@/lib/search"
-import type { RecipeDetail, RecipeSummary } from "@/types/recipe"
-
-const dir = "public/data/recipes"
-const recipes: RecipeSummary[] = JSON.parse(readFileSync(`${dir}/index.json`, "utf8"))
-const details: RecipeDetail[] = readdirSync(dir)
-  .filter((file) => file.endsWith(".json") && file !== "index.json")
-  .map((file) => JSON.parse(readFileSync(`${dir}/${file}`, "utf8")))
-const extras = new Map(
-  details.map((d) => [
-    d.slug,
-    {
-      ingredients: [d.ingredients, ...Object.values(d.translations ?? {}).map((t) => t.ingredients ?? [])].map(
-        (groups) => groups.flatMap((g) => g.items).join(" · ")
-      ),
-    },
-  ])
-)
-const index = new LexicalIndex(buildSearchDocuments(recipes, extras), buildTagAliases(recipes))
-const byslug = new Map(recipes.map((r) => [r.slug, r]))
-
-function search(query: string) {
-  const parsed = parseQuery(query)
-  const lexical = index.search(parsed)
-  return applyConstraints(mergeResults(lexical, null), recipes, parsed, lexical.excluded) ?? []
-}
+import { bySlug as byslug, search } from "./helpers/realSearch"
 
 describe("search on the real recipes", () => {
   it("finds every curry, including those without 'curry' in the title", () => {
@@ -72,5 +40,21 @@ describe("search on the real recipes", () => {
 
   it("does not let description-only words restrict the results", () => {
     expect(search("quick vegetarian dinner").length).toBeGreaterThan(10)
+  })
+
+  it("maps place names to regional cuisines", () => {
+    expect(search("recette de Milan")).toContain("risotto-a-la-milanaise")
+  })
+
+  it("understands 'sans' tags in every language", () => {
+    for (const query of ["sans gluten", "senza glutine", "no cook", "senza cottura"]) {
+      const results = search(query)
+      expect(results.length, query).toBeGreaterThan(3)
+    }
+    for (const slug of search("senza glutine")) expect(byslug.get(slug)!.tags, slug).toContain("sans-gluten")
+  })
+
+  it("keeps a difficulty word that is part of a title", () => {
+    expect(search("framboisier facile")).toContain("framboisier-facile-moelleux")
   })
 })

@@ -17,10 +17,15 @@ export interface ParsedQuery {
   exclude: QueryTerm[]
   maxMinutes?: number
   difficulty?: Difficulty
+  /** The word that set the difficulty ("facile"): recipes with it in their title or tags also qualify. */
+  difficultyWord?: string
 }
 
+// The lexicon below is reviewed and extended by the search-lexicon skill (.agents/skills/search-lexicon)
+// and audited by src/test/searchLexicon.test.ts.
+
 // Words that carry no meaning in a recipe search sentence.
-const FILLERS = new Set([
+export const FILLERS = new Set([
   // fr
   "je", "j", "tu", "on", "nous", "vous", "moi", "veux", "voudrais", "aimerais", "cherche", "chercher", "trouve",
   "trouver", "montre", "montrer", "donne", "propose", "proposer", "idee", "idees", "quelque", "quelques", "chose",
@@ -39,7 +44,7 @@ const FILLERS = new Set([
 ])
 
 // Concept expansions: a query word also matches these (corpus) words.
-const CONCEPTS: Record<string, string[]> = {
+export const CONCEPTS: Record<string, string[]> = {
   // Cuisines / origins
   inde: ["indien"], india: ["indien"], indian: ["indien"], indiano: ["indien"], indienne: ["indien"],
   italie: ["italien"], italy: ["italien"], italia: ["italien"], italian: ["italien"], italienne: ["italien"],
@@ -50,6 +55,7 @@ const CONCEPTS: Record<string, string[]> = {
   france: ["francais"], french: ["francais"], francia: ["francais"], francaise: ["francais"],
   amerique: ["americain"], usa: ["americain"], america: ["americain"], american: ["americain"],
   sicile: ["sicilien"], sicily: ["sicilien"], sicilia: ["sicilien"],
+  milan: ["milanais"], milano: ["milanais"], milanese: ["milanais"], milanaise: ["milanais"],
   provence: ["provencal"], mediterranee: ["mediterraneen"], mediterranean: ["mediterraneen"],
   coree: ["coreen", "asiatique"], korea: ["coreen", "asiatique"], korean: ["coreen", "asiatique"],
   // Dish families
@@ -70,12 +76,18 @@ const CONCEPTS: Record<string, string[]> = {
 }
 
 // "sans X" is a positive tag for these X ("sans gluten"), a negation otherwise ("sans porc").
-const POSITIVE_WITHOUT = new Set(["gluten", "lactose", "cuisson", "sucre", "equipement", "lait", "oeuf", "oeufs"])
+export const POSITIVE_WITHOUT = new Set([
+  "gluten", "lactose", "cuisson", "sucre", "equipement", "lait", "oeuf", "oeufs",
+  "glutine", "lattosio", "zucchero", "cottura", "attrezzatura", "attrezzature",
+  "cook", "cooking", "bake", "baking", "sugar", "dairy", "special", "equipment",
+])
+// How "sans" is written in tags: "sans-gluten", "no-cuisson", "senza-glutine", "no-cook".
+const WITHOUT_STEMS = [...new Set(["sans", "no", "senza", "without"].map(stem))]
 // "sans viande" means vegetarian rather than "exclude everything mentioning meat".
 const MEATLESS = new Set(["viande", "viandes", "meat", "carne"])
 const NEGATIONS = new Set(["sans", "without", "senza", "pas", "no"])
 
-const DIFFICULTY_WORDS: Record<string, Difficulty> = {
+export const DIFFICULTY_WORDS: Record<string, Difficulty> = {
   facile: "Facile", facil: "Facile", easy: "Facile", simple: "Facile", simples: "Facile", semplice: "Facile",
   moyen: "Medio", medium: "Medio", medio: "Medio",
   difficile: "Difficile", difficult: "Difficile", hard: "Difficile", complique: "Difficile",
@@ -120,7 +132,7 @@ export function parseQuery(query: string): ParsedQuery {
       if (word === "pas" && j === i + 1) continue
       if (POSITIVE_WITHOUT.has(object)) {
         const term = toTerm(object, typing && j === words.length - 1)
-        parsed.terms.push({ stems: [stem("sans")] }, ...(term ? [term] : []))
+        parsed.terms.push({ stems: WITHOUT_STEMS }, ...(term ? [term] : []))
       } else if (MEATLESS.has(object)) {
         parsed.terms.push({ stems: [stem("vegetarien")] })
       } else {
@@ -134,6 +146,7 @@ export function parseQuery(query: string): ParsedQuery {
     const difficulty = DIFFICULTY_WORDS[word]
     if (difficulty) {
       parsed.difficulty = difficulty
+      parsed.difficultyWord = stem(word)
       continue
     }
     if (FILLERS.has(word)) continue
