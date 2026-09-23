@@ -44,7 +44,8 @@
   ],
   "steps": [
     {
-      "text": "Cuire les œufs 5 min 30 dans de l'eau bouillante et les débarrasser immédiatement dans un bain d'eau glacée, avec quelques glaçons si besoin."
+      "text": "Cuire les œufs 5 min 30 dans de l'eau bouillante et les débarrasser immédiatement dans un bain d'eau glacée, avec quelques glaçons si besoin.",
+      "timers": [5.5]
     },
     {
       "text": "Les écaler quand ils sont bien froids."
@@ -56,7 +57,8 @@
       "text": "Plonger les œufs dans la marinade. Ils doivent être parfaitement immergés ; ne pas hésiter à les recouvrir avec l'oignon cébette."
     },
     {
-      "text": "Laisser mariner au minimum 6 heures, idéalement 12 heures."
+      "text": "Laisser mariner au minimum 6 heures, idéalement 12 heures.",
+      "timers": [360]
     },
     {
       "text": "Sortir les œufs de la marinade et les couper en deux."
@@ -76,6 +78,12 @@
     "type": "image",
     "data": "images/recipes/mayak-gyeran/source.jpg"
   },
+  "related": [
+    "katsudon",
+    "poke-bowl-falafel-mangue",
+    "aubergines-braisees-au-porc-et-riz",
+    "chakchouka-du-brunch"
+  ],
   "translations": {
     "en": {
       "title": "Mayak Gyeran",

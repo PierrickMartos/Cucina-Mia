@@ -41,7 +41,8 @@
   ],
   "steps": [
     {
-      "text": "Dans une casserole, faites chauffer un généreux filet d'huile d'olive, ajoutez l'oignon émincé et faites-le revenir à feu doux jusqu'à ce qu'il devienne translucide. Ajoutez les tomates datterino en conserve grossièrement concassées à la main, puis les tomates fraîches coupées en deux. Laissez mijoter 20 à 25 minutes à feu moyen jusqu'à ce que la sauce devienne dense et brillante. Ensuite, deux possibilités : si vous aimez le côté rustique, gardez les morceaux ; sinon, passez le tout au mixeur pour une sauce lisse. Salez, poivrez et réservez."
+      "text": "Dans une casserole, faites chauffer un généreux filet d'huile d'olive, ajoutez l'oignon émincé et faites-le revenir à feu doux jusqu'à ce qu'il devienne translucide. Ajoutez les tomates datterino en conserve grossièrement concassées à la main, puis les tomates fraîches coupées en deux. Laissez mijoter 20 à 25 minutes à feu moyen jusqu'à ce que la sauce devienne dense et brillante. Ensuite, deux possibilités : si vous aimez le côté rustique, gardez les morceaux ; sinon, passez le tout au mixeur pour une sauce lisse. Salez, poivrez et réservez.",
+      "timers": [20]
     },
     {
       "text": "Pendant ce temps, faites cuire les spaghetti, sans les casser, dans une grande quantité d'eau bouillante salée jusqu'à ce qu'ils soient al dente. Égouttez-les en conservant une louche d'eau de cuisson."
@@ -59,6 +60,12 @@
     "type": "image",
     "data": "images/recipes/spaghettis-alla-vittorio/source.jpg"
   },
+  "related": [
+    "pasta-amatriciana",
+    "pesto-presto",
+    "fusilloni-alla-norma",
+    "caprese-di-tuffoli"
+  ],
   "translations": {
     "en": {
       "title": "Spaghetti alla Vittorio",

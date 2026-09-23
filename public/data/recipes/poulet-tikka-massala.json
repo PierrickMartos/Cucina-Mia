@@ -50,29 +50,40 @@
   ],
   "steps": [
     {
-      "text": "Dans un saladier, mélanger 100 ml de yaourt grec avec la moitié des épices (curry, cumin), le concentré de tomates et 1 c.à.c de sucre. Enrober les morceaux de poulet de cette marinade et laisser macérer au moins 30 minutes."
+      "text": "Dans un saladier, mélanger 100 ml de yaourt grec avec la moitié des épices (curry, cumin), le concentré de tomates et 1 c.à.c de sucre. Enrober les morceaux de poulet de cette marinade et laisser macérer au moins 30 minutes.",
+      "timers": [30]
     },
     {
-      "text": "Dans une cocotte à feu moyen, faire dorer l'oignon épluché et émincé avec un filet d'huile d'olive et le sucre restant pendant 10 minutes."
+      "text": "Dans une cocotte à feu moyen, faire dorer l'oignon épluché et émincé avec un filet d'huile d'olive et le sucre restant pendant 10 minutes.",
+      "timers": [10]
     },
     {
       "text": "Ajouter la gousse d'ail hachée, le poulet et la marinade."
     },
     {
-      "text": "Maintenir à feu moyen pendant 20 minutes en retournant les morceaux de poulet régulièrement."
+      "text": "Maintenir à feu moyen pendant 20 minutes en retournant les morceaux de poulet régulièrement.",
+      "timers": [20]
     },
     {
-      "text": "Incorporer les amandes effilées, les tomates concassées, le reste des épices et un peu d'eau si nécessaire. Couvrir et laisser mijoter 20 minutes."
+      "text": "Incorporer les amandes effilées, les tomates concassées, le reste des épices et un peu d'eau si nécessaire. Couvrir et laisser mijoter 20 minutes.",
+      "timers": [20]
     },
     {
       "text": "Incorporer le yaourt grec restant pour lier la sauce, ajouter une bonne cuillère de coriandre fraîche hachée et rectifier l'assaisonnement."
     },
     {
-      "text": "Laisser sur feu doux 5 à 10 minutes à découvert."
+      "text": "Laisser sur feu doux 5 à 10 minutes à découvert.",
+      "timers": [5]
     },
     {
       "text": "Servir accompagné d'un riz pilaf au safran."
     }
+  ],
+  "related": [
+    "poulet-korma-riz-basmati",
+    "poulet-tandoori",
+    "biryani-agneau",
+    "naans-au-fromage"
   ],
   "translations": {
     "en": {

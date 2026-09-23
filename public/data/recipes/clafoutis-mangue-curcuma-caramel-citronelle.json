@@ -64,7 +64,8 @@
       "text": "Dans un récipient, disposer la poudre d'amande, le sucre, la fécule et le curcuma. Ajouter les œufs et les jaunes, puis terminer par la crème fraîche. Laisser reposer quelques minutes au réfrigérateur."
     },
     {
-      "text": "Verser l'appareil à clafoutis dans des moules en silicone, puis disposer quelques cubes de mangue au centre. Enfourner pendant une vingtaine de minutes."
+      "text": "Verser l'appareil à clafoutis dans des moules en silicone, puis disposer quelques cubes de mangue au centre. Enfourner pendant une vingtaine de minutes.",
+      "timers": [20]
     },
     {
       "text": "À la sortie du four, laisser refroidir avant de démouler."
@@ -80,6 +81,12 @@
     "Pour que les fruits restent bien centrés et ne tombent pas au fond, commencez à cuire le clafoutis à blanc (sans fruits) pendant 6 min, puis ajoutez les fruits et terminez la cuisson."
   ],
   "source": "https://www.atelierdeschefs.fr/fr/recette/16276",
+  "related": [
+    "tarte-tatin-mangue-espelette",
+    "crumble-ananas-mangue",
+    "gateaux-ananas-mojito",
+    "framboisier-facile-moelleux"
+  ],
   "translations": {
     "en": {
       "title": "Mango Turmeric Clafoutis with Lemongrass Caramel",

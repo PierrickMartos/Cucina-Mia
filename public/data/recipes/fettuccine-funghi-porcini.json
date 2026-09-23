@@ -50,10 +50,12 @@
   ],
   "steps": [
     {
-      "text": "Sur un plan de travail propre, versez la farine et la semoule en petit monticule, faites un puits au centre et ajoutez les jaunes d'œufs. Pétrissez jusqu'à obtenir une pâte bien souple. Filmez et laissez reposer 30 minutes à température ambiante."
+      "text": "Sur un plan de travail propre, versez la farine et la semoule en petit monticule, faites un puits au centre et ajoutez les jaunes d'œufs. Pétrissez jusqu'à obtenir une pâte bien souple. Filmez et laissez reposer 30 minutes à température ambiante.",
+      "timers": [30]
     },
     {
-      "text": "Préparez les cèpes. S'ils sont frais, nettoyez-les avec un pinceau doux, un petit couteau d'office pour gratter la terre sur le pied et un chiffon légèrement humide pour les finitions, sans les rincer à l'eau. S'ils sont séchés, réhydratez-les dans de l'eau tiède pendant 30 minutes, égouttez-les et gardez l'eau de trempage filtrée pour la sauce. Coupez les champignons en morceaux."
+      "text": "Préparez les cèpes. S'ils sont frais, nettoyez-les avec un pinceau doux, un petit couteau d'office pour gratter la terre sur le pied et un chiffon légèrement humide pour les finitions, sans les rincer à l'eau. S'ils sont séchés, réhydratez-les dans de l'eau tiède pendant 30 minutes, égouttez-les et gardez l'eau de trempage filtrée pour la sauce. Coupez les champignons en morceaux.",
+      "timers": [30]
     },
     {
       "text": "Étalez finement la pâte des fettuccine au rouleau ou au laminoir, puis façonnez les pâtes."
@@ -62,10 +64,12 @@
       "text": "Dans une grande poêle, faites chauffer l'huile d'olive et le beurre à feu doux. Ajoutez les gousses d'ail entières légèrement écrasées et laissez-les dorer doucement pour parfumer la matière grasse avant de les retirer."
     },
     {
-      "text": "Ajoutez les cèpes. Faites-les revenir à feu moyen pendant 8 à 10 minutes, jusqu'à ce qu'ils soient bien dorés, fondants et parfumés. Salez, poivrez, puis ajoutez une petite louche d'eau des champignons ou un peu d'eau chaude si besoin pour obtenir une sauce bien onctueuse."
+      "text": "Ajoutez les cèpes. Faites-les revenir à feu moyen pendant 8 à 10 minutes, jusqu'à ce qu'ils soient bien dorés, fondants et parfumés. Salez, poivrez, puis ajoutez une petite louche d'eau des champignons ou un peu d'eau chaude si besoin pour obtenir une sauce bien onctueuse.",
+      "timers": [8]
     },
     {
-      "text": "Faites bouillir une grande casserole d'eau salée. Plongez-y les fettuccine et faites-les cuire al dente, environ 4 minutes. Égouttez-les rapidement en gardant un peu d'eau de cuisson."
+      "text": "Faites bouillir une grande casserole d'eau salée. Plongez-y les fettuccine et faites-les cuire al dente, environ 4 minutes. Égouttez-les rapidement en gardant un peu d'eau de cuisson.",
+      "timers": [4]
     },
     {
       "text": "Ajoutez les fettuccine dans la poêle avec les champignons. Mélangez délicatement pour bien enrober les pâtes de sauce et, si besoin, ajoutez 1 ou 2 cuillerées d'eau de cuisson pour lier."
@@ -83,6 +87,12 @@
     "type": "image",
     "data": "images/recipes/fettuccine-funghi-porcini/source.jpg"
   },
+  "related": [
+    "pasta-tartuffo",
+    "risotto-champignons-foie-gras-noisettes",
+    "gnocchi-champi-ail-au-four",
+    "spaghettis-alla-vittorio"
+  ],
   "translations": {
     "en": {
       "title": "Fettuccine with Porcini Mushrooms",

@@ -54,10 +54,12 @@
       "text": "Incorporez le chocolat fondu et mélangez bien jusqu'à obtenir une pâte lisse et homogène."
     },
     {
-      "text": "Versez la préparation dans les moules et enfournez pour 8 minutes exactement."
+      "text": "Versez la préparation dans les moules et enfournez pour 8 minutes exactement.",
+      "timers": [8]
     },
     {
-      "text": "Laissez reposer 1 minute avant de démouler et servez immédiatement."
+      "text": "Laissez reposer 1 minute avant de démouler et servez immédiatement.",
+      "timers": [1]
     }
   ],
   "tips": [
@@ -66,6 +68,12 @@
     "Accompagnez d'une boule de glace à la vanille pour un dessert encore plus gourmand."
   ],
   "source": "Recettes Team Building Suricates Akeneo Q2 2023, L'Atelier Gourmand de Nantes",
+  "related": [
+    "bananamisu",
+    "canneles",
+    "framboisier-facile-moelleux",
+    "panna-cotta-aux-framboises"
+  ],
   "translations": {
     "en": {
       "title": "Chocolate Lava Cake",

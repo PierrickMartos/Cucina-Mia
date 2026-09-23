@@ -48,16 +48,19 @@
       "text": "Faire revenir les lardons dans une grande sauteuse à feu vif jusqu'à ce qu'ils soient bien dorés et croustillants. Les retirer et réserver sur du papier absorbant, en conservant un peu de graisse dans la poêle."
     },
     {
-      "text": "Dans la même sauteuse, faire revenir l'oignon émincé à feu moyen dans la graisse de lardons jusqu'à ce qu'il soit translucide, environ 3 minutes."
+      "text": "Dans la même sauteuse, faire revenir l'oignon émincé à feu moyen dans la graisse de lardons jusqu'à ce qu'il soit translucide, environ 3 minutes.",
+      "timers": [3]
     },
     {
-      "text": "Ajouter le riz arborio et le faire nacrer 2 minutes en remuant, jusqu'à ce qu'il devienne légèrement translucide sur les bords."
+      "text": "Ajouter le riz arborio et le faire nacrer 2 minutes en remuant, jusqu'à ce qu'il devienne légèrement translucide sur les bords.",
+      "timers": [2]
     },
     {
       "text": "Verser le vin blanc et remuer jusqu'à évaporation complète."
     },
     {
-      "text": "Ajouter le bouillon chaud, louche par louche, en remuant régulièrement et en attendant que chaque louche soit absorbée avant d'en ajouter une autre. Compter environ 18 minutes de cuisson."
+      "text": "Ajouter le bouillon chaud, louche par louche, en remuant régulièrement et en attendant que chaque louche soit absorbée avant d'en ajouter une autre. Compter environ 18 minutes de cuisson.",
+      "timers": [18]
     },
     {
       "text": "Hors du feu, incorporer le beurre et le cheddar râpé. Remuer vigoureusement pour obtenir une texture crémeuse et onctueuse. Saler et poivrer."
@@ -70,6 +73,12 @@
     "Ne jamais cesser de remuer : c'est le secret d'un risotto onctueux.",
     "Le bouillon doit être chaud lorsqu'on l'ajoute pour ne pas interrompre la cuisson du riz.",
     "Pour une version plus riche, remplacer une louche de bouillon par 10 cl de crème liquide en fin de cuisson."
+  ],
+  "related": [
+    "macaronis-fromage-facon-risotto",
+    "risotto-a-la-milanaise",
+    "risotto-roquette-jambon-mascarpone",
+    "coquilletto-au-chorizo"
   ],
   "translations": {
     "en": {

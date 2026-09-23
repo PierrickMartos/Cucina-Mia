@@ -54,7 +54,8 @@
       "text": "Les égoutter brièvement. Les mélanger à la sauce en ajoutant une première poignée de parmesan. Sortir du feu, puis ajouter la provola coupée en morceaux."
     },
     {
-      "text": "Verser les gnocchi dans un plat à gratin passant au four et parsemer le parmesan restant. Faire gratiner dans un four préchauffé à 190 °C pendant 20 minutes environ."
+      "text": "Verser les gnocchi dans un plat à gratin passant au four et parsemer le parmesan restant. Faire gratiner dans un four préchauffé à 190 °C pendant 20 minutes environ.",
+      "timers": [20]
     },
     {
       "text": "Ajouter quelques feuilles de basilic pour présenter."
@@ -69,6 +70,12 @@
     "type": "image",
     "data": "images/recipes/gnocchi-alla-sorrentina/source.jpg"
   },
+  "related": [
+    "gnocchi-crema-peperone",
+    "gnocchi-broccoli-al-forno",
+    "gnocchi-champi-ail-au-four",
+    "fusilloni-alla-norma"
+  ],
   "translations": {
     "en": {
       "title": "Gnocchi alla Sorrentina",

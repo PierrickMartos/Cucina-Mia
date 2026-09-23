@@ -14,25 +14,42 @@ import type { RecipeSummary } from "@/types/recipe"
 
 const BASE = import.meta.env.BASE_URL
 
-const CATEGORY_IMAGES: Record<string, string> = {
-  Antipasti: "images/categories/antipasti.webp",
-  Pasta: "images/categories/pasta.webp",
-  Gnocchi: "images/categories/gnocchi.webp",
-  Risotto: "images/categories/risotto.webp",
-  Insalate: "images/categories/insalate.webp",
-  Secondi: "images/categories/secondi.webp",
-  Pizze: "images/categories/pizza.webp",
-  Pane: "images/categories/focacia.webp",
-  Dolci: "images/categories/dolci.webp",
-  Bambini: "images/categories/bambini.webp",
-  Breakfast: "images/categories/breakfast.webp",
-  Brunch: "images/categories/brunch.webp",
+// Category covers: `{name}.webp` at `width`, plus `{name}-640.webp` and `{name}-960.webp`
+// (when wider than 960) so small screens don't download the full-size photo.
+const CATEGORY_IMAGES: Record<string, { name: string; width: number }> = {
+  Antipasti: { name: "antipasti", width: 1280 },
+  Pasta: { name: "pasta", width: 1280 },
+  Gnocchi: { name: "gnocchi", width: 1280 },
+  Risotto: { name: "risotto", width: 1280 },
+  Insalate: { name: "insalate", width: 960 },
+  Secondi: { name: "secondi", width: 1280 },
+  Pizze: { name: "pizza", width: 1280 },
+  Pane: { name: "focacia", width: 1280 },
+  Dolci: { name: "dolci", width: 1086 },
+  Bambini: { name: "bambini", width: 1280 },
+  Breakfast: { name: "breakfast", width: 1280 },
+  Brunch: { name: "brunch", width: 1024 },
+}
+
+// Matches the grid below: 1 column, then 2 from `sm`, then 3 from `lg`.
+const CATEGORY_IMAGE_SIZES = "(min-width: 1024px) 33vw, (min-width: 640px) 50vw, 100vw"
+
+function categoryImage(category: string, fallback: string) {
+  const image = CATEGORY_IMAGES[category]
+  if (!image) return { src: `${BASE}${fallback}` }
+  const path = `${BASE}images/categories/${image.name}`
+  const widths = [640, 960].filter((w) => w < image.width)
+  return {
+    src: `${path}.webp`,
+    srcSet: [...widths.map((w) => `${path}-${w}.webp ${w}w`), `${path}.webp ${image.width}w`].join(", "),
+    sizes: CATEGORY_IMAGE_SIZES,
+  }
 }
 
 interface CategoryCard {
   category: string
   label: string
-  image: string
+  image: { src: string; srcSet?: string; sizes?: string }
   count: number
 }
 
@@ -55,7 +72,7 @@ export function HomePage() {
     const cards = Array.from(map.entries()).map(([category, items]) => ({
       category,
       label: t(`categories.${category}`, category),
-      image: CATEGORY_IMAGES[category] ?? items[0].images.web,
+      image: categoryImage(category, items[0].images.web),
       count: items.length,
     }))
     return sortCategories(cards.map((c) => c.category)).map(
@@ -146,10 +163,12 @@ export function HomePage() {
               >
                 <article className="relative h-48 lg:h-72 overflow-hidden rounded-[1.5rem] editorial-grain">
                   <img
-                    src={`${BASE}${cat.image}`}
+                    {...cat.image}
                     alt=""
                     className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105"
-                    loading="lazy"
+                    // The first row is visible right away: don't wait for layout to start loading it
+                    loading={index < 3 ? "eager" : "lazy"}
+                    decoding="async"
                   />
                   <div className="vignette-overlay absolute inset-0 flex flex-col justify-end p-5">
                     <span className="text-white/80 font-body uppercase tracking-widest text-[10px] mb-1">

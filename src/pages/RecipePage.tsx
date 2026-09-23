@@ -11,6 +11,8 @@ import { ServingsSelect } from "@/components/ServingsSelect"
 import { localizeRecipeDetail } from "@/lib/localize"
 import { useRecipe } from "@/lib/recipeData"
 import { scaleIngredient } from "@/lib/scaleIngredient"
+import { StepTimerButtons } from "@/components/CookingTimers"
+import { RelatedRecipes } from "@/components/RelatedRecipes"
 
 const BASE = import.meta.env.BASE_URL
 
@@ -175,7 +177,9 @@ export function RecipePage() {
 
   const shareRecipe = async () => {
     if (!recipe) return
-    const url = window.location.href
+    // Static page carrying the recipe's link preview (built by scripts/vite-plugin-share-pages.ts):
+    // messaging apps never see the #/recipe/… part of the app URL
+    const url = new URL(`${BASE}r/${recipe.slug}/`, window.location.origin).href
     if (navigator.share) {
       try {
         await navigator.share({ title: recipe.title, text: recipe.description, url })
@@ -394,6 +398,7 @@ export function RecipePage() {
         <motion.img
           src={`${BASE}${recipe.images.cover}`}
           alt={recipe.title}
+          fetchPriority="high"
           style={{ y: heroY }}
           className="absolute inset-0 h-[115%] w-full object-cover object-center"
         />
@@ -708,18 +713,23 @@ export function RecipePage() {
                       loading="lazy"
                     />
                   )}
-                  <button
-                    type="button"
-                    onClick={() => speakingStep === i ? stopSpeaking() : speakText(step.text, i)}
-                    aria-label={speakingStep === i ? t("recipe.stopReading", "Stop reading") : t("recipe.readAloud", "Read aloud")}
-                    className="mt-2 inline-flex items-center gap-1.5 text-xs text-muted-foreground hover:text-foreground transition-colors cursor-pointer print:hidden"
-                  >
-                    {speakingStep === i ? (
-                      <><VolumeX className="h-3.5 w-3.5" />{t("recipe.stop", "Stop")}</>
-                    ) : (
-                      <><Volume2 className="h-3.5 w-3.5" />{t("recipe.read", "Read")}</>
+                  <div className="flex flex-wrap items-center gap-x-3">
+                    <button
+                      type="button"
+                      onClick={() => speakingStep === i ? stopSpeaking() : speakText(step.text, i)}
+                      aria-label={speakingStep === i ? t("recipe.stopReading", "Stop reading") : t("recipe.readAloud", "Read aloud")}
+                      className="mt-2 inline-flex items-center gap-1.5 text-xs text-muted-foreground hover:text-foreground transition-colors cursor-pointer print:hidden"
+                    >
+                      {speakingStep === i ? (
+                        <><VolumeX className="h-3.5 w-3.5" />{t("recipe.stop", "Stop")}</>
+                      ) : (
+                        <><Volume2 className="h-3.5 w-3.5" />{t("recipe.read", "Read")}</>
+                      )}
+                    </button>
+                    {step.timers && (
+                      <StepTimerButtons slug={recipe.slug} recipeTitle={recipe.title} step={i} timers={step.timers} />
                     )}
-                  </button>
+                  </div>
                 </div>
               </li>
             ))}
@@ -831,18 +841,23 @@ export function RecipePage() {
                       loading="lazy"
                     />
                   )}
-                  <button
-                    type="button"
-                    onClick={() => speakingStep === i ? stopSpeaking() : speakText(step.text, i)}
-                    aria-label={speakingStep === i ? t("recipe.stopReading", "Stop reading") : t("recipe.readAloud", "Read aloud")}
-                    className="mt-2 inline-flex items-center gap-1.5 text-xs text-muted-foreground hover:text-foreground transition-colors cursor-pointer print:hidden"
-                  >
-                    {speakingStep === i ? (
-                      <><VolumeX className="h-3.5 w-3.5" />{t("recipe.stop", "Stop")}</>
-                    ) : (
-                      <><Volume2 className="h-3.5 w-3.5" />{t("recipe.read", "Read")}</>
+                  <div className="flex flex-wrap items-center gap-x-3">
+                    <button
+                      type="button"
+                      onClick={() => speakingStep === i ? stopSpeaking() : speakText(step.text, i)}
+                      aria-label={speakingStep === i ? t("recipe.stopReading", "Stop reading") : t("recipe.readAloud", "Read aloud")}
+                      className="mt-2 inline-flex items-center gap-1.5 text-xs text-muted-foreground hover:text-foreground transition-colors cursor-pointer print:hidden"
+                    >
+                      {speakingStep === i ? (
+                        <><VolumeX className="h-3.5 w-3.5" />{t("recipe.stop", "Stop")}</>
+                      ) : (
+                        <><Volume2 className="h-3.5 w-3.5" />{t("recipe.read", "Read")}</>
+                      )}
+                    </button>
+                    {step.timers && (
+                      <StepTimerButtons slug={recipe.slug} recipeTitle={recipe.title} step={i} timers={step.timers} />
                     )}
-                  </button>
+                  </div>
                 </div>
               </li>
             ))}
@@ -874,6 +889,8 @@ export function RecipePage() {
           </div>
         </div>
       )}
+
+      {recipe.related && recipe.related.length > 0 && <RelatedRecipes slugs={recipe.related} />}
       </div>
 
       {/* Step navigator sticky bar, mobile only, portaled to body */}

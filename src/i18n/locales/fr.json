@@ -74,7 +74,18 @@
     "stopReading": "Arrêter la lecture",
     "share": "Partager",
     "shareRecipe": "Partager la recette",
-    "linkCopied": "Lien copié !"
+    "linkCopied": "Lien copié !",
+    "related": "Vous aimerez aussi"
+  },
+  "timer": {
+    "start": "Lancer un minuteur de {{duration}}",
+    "pause": "Mettre le minuteur en pause",
+    "resume": "Reprendre le minuteur",
+    "cancel": "Supprimer le minuteur",
+    "addMinute": "Ajouter 1 minute",
+    "stopAlarm": "Arrêter l'alarme",
+    "done": "Terminé !",
+    "tray": "Minuteurs"
   },
   "filter": {
     "title": "Filtrer les recettes",

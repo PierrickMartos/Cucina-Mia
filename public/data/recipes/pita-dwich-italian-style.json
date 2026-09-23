@@ -85,6 +85,12 @@
     "type": "text",
     "data": "pita dwich italian style\n\ningredients:\n- tomates cerises\n- avocat\n- radis\n- mozza\n- basilic\n- huile olive\n- sel\n- poivre\n- concombre\n- creme fraiche aux herbes\n\nprep une sauce huile olive / basilic"
   },
+  "related": [
+    "pain-pita-turbo",
+    "caprese-di-tuffoli",
+    "poke-bowl-falafel-mangue",
+    "tartine-de-lamour"
+  ],
   "translations": {
     "en": {
       "title": "Italian Style Pita Dwich",

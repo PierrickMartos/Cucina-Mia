@@ -28,7 +28,19 @@ Recipe data is **static JSON** served from `public/data/recipes/`. Pages load it
 - `public/images/recipes/{slug}/cover.webp` + `web.webp` (photo) or `cover.svg` (illustration)
 - `public/images/recipes/{slug}/source.*`: original recipe source (kept in the repo, excluded from `dist/` by a Vite plugin)
 
+Recipe detail files also carry **step timers** (`steps[].timers`, minutes, base steps only: translated steps reuse them by position through `localizeRecipeDetail`) and **related recipes** (`related`, 3 to 4 slugs, candidates from `node scripts/suggest-related.mjs <slug>`). Both are maintained by the `add-recipe` skill and checked by `src/test/recipeValidation.test.ts`. Running timers live in a module-level store (`src/lib/timers.ts`, persisted in localStorage with their end time) and are shown in a floating tray on every page (`src/components/CookingTimers.tsx`).
+
 Photos are served as WebP only: run `npm run images:webp -- <path>` after adding JPG/PNG images (converts, resizes and updates JSON references).
+
+Home category covers (`public/images/categories/{name}.webp`, listed in `CATEGORY_IMAGES` in `HomePage.tsx` with their width) also have `{name}-640.webp` and `{name}-960.webp` variants for `srcset`: generate them when adding or replacing one.
+
+### Share link previews
+
+Crawlers (WhatsApp, Slack, Messenger, iMessage…) never run JS nor see the URL hash, so the share button hands out `{base}r/{slug}/` instead of `#/recipe/{slug}`. At build time `scripts/vite-plugin-share-pages.ts` writes, for every recipe in `index.json`, `dist/r/{slug}/index.html` (Open Graph/Twitter tags rendered by `scripts/share-page.ts`, then a JS-only redirect to the app) and a 1200×630 JPEG `dist/r/{slug}/og.jpg` from the recipe photo; it also adds the tags to the home page (`dist/og.jpg`). Absolute URLs use `VITE_SITE_ORIGIN` (default `https://pierrickmartos.github.io`). In dev, `/r/{slug}/` redirects to the recipe. Nothing to do when adding a recipe.
+
+### Loading performance
+
+Only the home and recipe pages are in the main bundle; the other pages are lazy-loaded and prefetched when the browser is idle. Vendor libraries are split into long-cached chunks (`vite.config.ts`). `index.html` preloads the JSON the landing route needs (`index.json` or the recipe detail) while the JS downloads. Google Fonts load without blocking the first paint. The search documents and the lexical index are loaded or built on idle or on the first search, not at startup.
 
 ### Search
 

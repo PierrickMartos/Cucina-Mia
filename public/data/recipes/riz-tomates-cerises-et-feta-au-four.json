@@ -58,7 +58,8 @@
       "text": "Verser le bouillon chaud le long du plat, jusqu'à recouvrir le riz."
     },
     {
-      "text": "Enfourner 40 minutes, jusqu'à ce que le riz ait absorbé tout le bouillon et que la feta soit dorée sur le dessus."
+      "text": "Enfourner 40 minutes, jusqu'à ce que le riz ait absorbé tout le bouillon et que la feta soit dorée sur le dessus.",
+      "timers": [40]
     },
     {
       "text": "Écraser la feta et les tomates à la fourchette, mélanger le tout et servir aussitôt."
@@ -68,6 +69,12 @@
     "type": "text",
     "data": "Riz tomates cerises et feta au four\n\nDescription : Une recette facile et pratique qui ravi aussi les enfants\n\nIngrédients :\n200g de riz\n1 bloc de feta\ntomates cerises\n5 gousse d'ail\n500ml de bouillon de volaille\norigan/romarin/herbe de provences/thym\npoivre\nhuile d'olive\n\nÉtapes :\nMettre le riz au fond d'un plat\nMettre le bloc de feta par dessus et les tomates cerises\nArroser d'huile d'olive\nAjouter le poivre, origan et finir avec le bouillon\nMettre au four 40 min à 200° chaleur tournante"
   },
+  "related": [
+    "legumes-du-soleil-et-feta-rotis",
+    "tomates-farcies",
+    "four-tomates-aubergines-courgettes-pesto",
+    "gaspacho-de-pasteque-a-la-feta"
+  ],
   "translations": {
     "en": {
       "title": "Baked Rice with Cherry Tomatoes and Feta",

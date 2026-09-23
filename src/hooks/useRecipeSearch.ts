@@ -1,5 +1,6 @@
 import { useEffect, useMemo, useState, useSyncExternalStore } from "react"
 import type { RecipeSummary } from "@/types/recipe"
+import { runWhenIdle } from "@/lib/utils"
 import {
   LexicalIndex,
   applyConstraints,
@@ -39,15 +40,27 @@ export function useRecipeSearch(recipes: RecipeSummary[], query: string) {
   const semanticStatus = useSyncExternalStore(semanticEngine.subscribe, semanticEngine.getStatus)
   const trimmed = query.trim()
 
+  // Ingredient documents only refine search: load them once the page has settled, or right away
+  // when the user starts typing, so they don't compete with the first render.
+  const [wantExtras, setWantExtras] = useState(() => extrasPromise !== null)
+  useEffect(() => (wantExtras ? undefined : runWhenIdle(() => setWantExtras(true), 3000)), [wantExtras])
+  const searching = trimmed !== ""
+  const needExtras = wantExtras || searching
+
   useEffect(() => {
+    if (!needExtras) return
     let cancelled = false
     loadExtras().then((loaded) => {
       if (!cancelled) setExtras(loaded)
     })
     return () => { cancelled = true }
-  }, [])
+  }, [needExtras])
 
-  const index = useMemo(() => new LexicalIndex(buildSearchDocuments(recipes, extras), buildTagAliases(recipes)), [recipes, extras])
+  // Built on the first search rather than on every page load
+  const index = useMemo(
+    () => (searching ? new LexicalIndex(buildSearchDocuments(recipes, extras), buildTagAliases(recipes)) : null),
+    [recipes, extras, searching]
+  )
 
   useEffect(() => {
     if (trimmed) semanticEngine.start()
@@ -71,7 +84,7 @@ export function useRecipeSearch(recipes: RecipeSummary[], query: string) {
   }, [trimmed, semanticStatus])
 
   const slugs = useMemo(() => {
-    if (!trimmed) return null
+    if (!trimmed || !index) return null
     const parsed = parseQuery(query)
     const lexical = index.search(parsed)
     const embeddings = semanticEngine.index

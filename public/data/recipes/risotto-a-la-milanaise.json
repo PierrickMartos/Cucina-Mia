@@ -52,10 +52,12 @@
       "text": "Peler et émincer finement l'oignon. Dans une sauteuse, faire fondre le beurre et faire colorer légèrement le riz. Lorsqu'il est translucide, mouiller avec le vin blanc. Laisser s'évaporer en mélangeant."
     },
     {
-      "text": "Mouiller avec une première louche de bouillon et ajouter le safran. Dès que le bouillon est absorbé, verser le reste en plusieurs fois jusqu'à ce que le riz soit cuit. Ne pas cesser de remuer. Compter 18 minutes de cuisson."
+      "text": "Mouiller avec une première louche de bouillon et ajouter le safran. Dès que le bouillon est absorbé, verser le reste en plusieurs fois jusqu'à ce que le riz soit cuit. Ne pas cesser de remuer. Compter 18 minutes de cuisson.",
+      "timers": [18]
     },
     {
-      "text": "Une fois le riz cuit, ajouter le parmesan. Couvrir et laisser reposer 2 minutes hors du feu. Remuer et rectifier l'assaisonnement."
+      "text": "Une fois le riz cuit, ajouter le parmesan. Couvrir et laisser reposer 2 minutes hors du feu. Remuer et rectifier l'assaisonnement.",
+      "timers": [2]
     },
     {
       "text": "Déguster bien chaud."
@@ -65,6 +67,12 @@
     "Utilisez impérativement du riz à risotto (arborio ou carnaroli) : ils absorbent le bouillon progressivement et libèrent l'amidon qui donne la texture crémeuse.",
     "Ne cessez jamais de remuer : c'est le secret du risotto parfaitement lié.",
     "Le bouillon doit être chaud lorsque vous le versez pour ne pas arrêter la cuisson du riz."
+  ],
+  "related": [
+    "risotto-roquette-jambon-mascarpone",
+    "risotto-champignons-foie-gras-noisettes",
+    "risotto-cheddar-bacon",
+    "orgesotto-pommes-magret-canard"
   ],
   "translations": {
     "en": {

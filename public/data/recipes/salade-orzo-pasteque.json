@@ -77,6 +77,12 @@
     "type": "pdf",
     "data": "images/recipes/salade-orzo-pasteque/source.pdf"
   },
+  "related": [
+    "gaspacho-de-pasteque-a-la-feta",
+    "caprese-di-tuffoli",
+    "melon-basilic",
+    "pasta-pesto-agrumes"
+  ],
   "translations": {
     "en": {
       "title": "Watermelon Orzo Salad",

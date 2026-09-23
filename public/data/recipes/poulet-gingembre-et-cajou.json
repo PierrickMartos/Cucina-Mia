@@ -62,19 +62,23 @@
       "text": "Émincer l'ail finement."
     },
     {
-      "text": "Placer les légumes dans une poêle avec un filet d'huile d'olive et les faire cuire 3 minutes."
+      "text": "Placer les légumes dans une poêle avec un filet d'huile d'olive et les faire cuire 3 minutes.",
+      "timers": [3]
     },
     {
-      "text": "Ajouter la moitié de l'ail. Râper la moitié du gingembre et l'ajouter avec 4 c. à soupe d'eau. Saler, couvrir et laisser cuire 5 minutes."
+      "text": "Ajouter la moitié de l'ail. Râper la moitié du gingembre et l'ajouter avec 4 c. à soupe d'eau. Saler, couvrir et laisser cuire 5 minutes.",
+      "timers": [5]
     },
     {
-      "text": "Réserver les légumes. Saisir le poulet 2 minutes de chaque côté dans une poêle très chaude avec un filet d'huile d'olive."
+      "text": "Réserver les légumes. Saisir le poulet 2 minutes de chaque côté dans une poêle très chaude avec un filet d'huile d'olive.",
+      "timers": [2]
     },
     {
       "text": "Couper le poulet en lamelles."
     },
     {
-      "text": "Dans une poêle chaude, ajouter les noix de cajou, la sauce soja, le reste de l'ail et du gingembre râpé, 4 c. à soupe d'eau, le poulet et le sucre. Faire revenir 2 minutes."
+      "text": "Dans une poêle chaude, ajouter les noix de cajou, la sauce soja, le reste de l'ail et du gingembre râpé, 4 c. à soupe d'eau, le poulet et le sucre. Faire revenir 2 minutes.",
+      "timers": [2]
     },
     {
       "text": "Servir le riz avec les légumes et le poulet."
@@ -85,6 +89,12 @@
     "type": "url",
     "data": "https://jow.fr/recipes/poulet-gingembre-et-cajou-855pki5ngy2vbab8016i"
   },
+  "related": [
+    "porc-au-caramel",
+    "aubergines-braisees-au-porc-et-riz",
+    "curry-paneng-poulet-feuilles-combawa",
+    "poke-bowl-falafel-mangue"
+  ],
   "translations": {
     "en": {
       "title": "Ginger and Cashew Chicken",

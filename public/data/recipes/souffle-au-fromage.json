@@ -47,7 +47,8 @@
       "text": "Préchauffer le four à 200°C (th. 6-7). Beurrer généreusement 4 ramequins individuels ou un grand moule à soufflé. Saupoudrer de chapelure si désiré, en tapotant pour enlever l'excédent."
     },
     {
-      "text": "Préparer la béchamel : faire fondre le beurre dans une casserole à feu moyen. Ajouter la farine d'un coup et mélanger vigoureusement à la spatule pendant 1 minute. Verser le lait progressivement en fouettant sans arrêt jusqu'à obtenir une béchamel épaisse et lisse. Cuire encore 2 minutes. Retirer du feu."
+      "text": "Préparer la béchamel : faire fondre le beurre dans une casserole à feu moyen. Ajouter la farine d'un coup et mélanger vigoureusement à la spatule pendant 1 minute. Verser le lait progressivement en fouettant sans arrêt jusqu'à obtenir une béchamel épaisse et lisse. Cuire encore 2 minutes. Retirer du feu.",
+      "timers": [1, 2]
     },
     {
       "text": "Incorporer les 4 jaunes d'œufs un à un dans la béchamel encore chaude, en mélangeant bien après chaque ajout. Ajouter le gruyère râpé, la muscade, saler et poivrer. Bien mélanger jusqu'à ce que le fromage soit fondu."
@@ -62,7 +63,8 @@
       "text": "Verser la préparation dans les moules beurrés jusqu'aux trois quarts. Passer le pouce le long du rebord intérieur du moule pour créer un léger sillon qui aidera le soufflé à monter droit."
     },
     {
-      "text": "Enfourner immédiatement et cuire 20 à 25 minutes sans jamais ouvrir la porte du four pendant la cuisson. Le soufflé doit être bien gonflé et doré. Servir aussitôt à table, car il retombe en quelques minutes."
+      "text": "Enfourner immédiatement et cuire 20 à 25 minutes sans jamais ouvrir la porte du four pendant la cuisson. Le soufflé doit être bien gonflé et doré. Servir aussitôt à table, car il retombe en quelques minutes.",
+      "timers": [20]
     }
   ],
   "tips": [
@@ -70,6 +72,12 @@
     "Pour des blancs bien fermes, les œufs doivent être à température ambiante et le bol parfaitement propre (sans trace de gras).",
     "La béchamel peut être préparée à l'avance. Incorporez les jaunes et le fromage au dernier moment, puis les blancs juste avant d'enfourner.",
     "Baisser légèrement la température à 180°C dans les 5 dernières minutes pour stabiliser la cuisson."
+  ],
+  "related": [
+    "gratin-butternut",
+    "flan-a-la-ratatouille",
+    "cookies-sales-au-comte",
+    "omelette-a-la-courgette"
   ],
   "translations": {
     "en": {

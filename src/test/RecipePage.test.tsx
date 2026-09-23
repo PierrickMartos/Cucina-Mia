@@ -205,7 +205,7 @@ describe("RecipePage", () => {
       expect(share).toHaveBeenCalledWith({
         title: "Pasta alla Carbonara",
         text: "La vera carbonara romana.",
-        url: window.location.href,
+        url: `${window.location.origin}${import.meta.env.BASE_URL}r/pasta-carbonara/`,
       })
     })
 
@@ -216,8 +216,70 @@ describe("RecipePage", () => {
       Object.defineProperty(navigator, "clipboard", { value: { writeText }, configurable: true })
       renderRecipePage("pasta-carbonara")
       await user.click(await screen.findByRole("button", { name: "Share recipe" }))
-      expect(writeText).toHaveBeenCalledWith(window.location.href)
+      expect(writeText).toHaveBeenCalledWith(`${window.location.origin}${import.meta.env.BASE_URL}r/pasta-carbonara/`)
       expect(await screen.findByRole("status")).toHaveTextContent("Link copied!")
     })
+  })
+})
+
+describe("RecipePage timers and related recipes", () => {
+  const summary = (slug: string, title: string) => ({
+    slug,
+    title,
+    description: `${title} description`,
+    images: { cover: `images/recipes/${slug}/cover.webp`, web: `images/recipes/${slug}/web.webp` },
+    prepTime: 5,
+    cookTime: 10,
+    servings: 2,
+    difficulty: "Facile",
+    category: "Pasta",
+    tags: ["pâtes"],
+  })
+  const recipe = {
+    ...mockRecipe,
+    steps: [{ text: "Cuire les pâtes 9 minutes.", timers: [9] }, { text: "Servir." }],
+    related: ["pasta-amatriciana", "pesto-presto", "missing-recipe"],
+    translations: { en: { steps: [{ text: "Cook the pasta for 9 minutes." }, { text: "Serve." }] } },
+  }
+
+  beforeEach(async () => {
+    const { clearRecipeCache } = await import("@/lib/recipeData")
+    const { resetTimers } = await import("@/lib/timers")
+    clearRecipeCache()
+    resetTimers()
+    localStorage.clear()
+    i18n.changeLanguage("en")
+    globalThis.fetch = (async (url: string) =>
+      ({
+        ok: true,
+        json: async () =>
+          String(url).endsWith("index.json")
+            ? [summary("pasta-amatriciana", "Pasta all'Amatriciana"), summary("pesto-presto", "Pesto Presto")]
+            : recipe,
+      }) as Response) as typeof fetch
+  })
+
+  it("keeps base timers on translated steps and starts a countdown", async () => {
+    const user = userEvent.setup()
+    renderRecipePage("pasta-carbonara")
+    const buttons = await screen.findAllByRole("button", { name: "Start a 9 min timer" })
+    expect(screen.getAllByText("Cook the pasta for 9 minutes.")[0]).toBeInTheDocument()
+
+    await user.click(buttons[0])
+    expect(screen.getAllByRole("button", { name: "Pause timer" }).length).toBeGreaterThan(0)
+    expect(screen.getAllByRole("timer")[0]).toHaveTextContent("9:00")
+  })
+
+  it("uses the translation of a regional browser language (en-US)", async () => {
+    await i18n.changeLanguage("en-US")
+    renderRecipePage("pasta-carbonara")
+    expect((await screen.findAllByText("Cook the pasta for 9 minutes."))[0]).toBeInTheDocument()
+  })
+
+  it("shows the related recipes that exist", async () => {
+    renderRecipePage("pasta-carbonara")
+    expect(await screen.findByRole("heading", { name: "You might also like" })).toBeInTheDocument()
+    expect(screen.getByText("Pasta all'Amatriciana")).toBeInTheDocument()
+    expect(screen.getByText("Pesto Presto")).toBeInTheDocument()
   })
 })

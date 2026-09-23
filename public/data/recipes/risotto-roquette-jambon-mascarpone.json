@@ -51,10 +51,12 @@
       "text": "Dans une sauteuse, faire revenir l'oignon dans le beurre. Ajouter le riz et, lorsqu'il est translucide, mouiller avec le vin blanc. Laisser s'évaporer en mélangeant régulièrement."
     },
     {
-      "text": "Mouiller avec une première louche de bouillon chaud et, dès qu'il a été absorbé, verser le reste en plusieurs fois jusqu'à ce que le riz soit cuit. Ne cesser de remuer. Compter 18 minutes de cuisson."
+      "text": "Mouiller avec une première louche de bouillon chaud et, dès qu'il a été absorbé, verser le reste en plusieurs fois jusqu'à ce que le riz soit cuit. Ne cesser de remuer. Compter 18 minutes de cuisson.",
+      "timers": [18]
     },
     {
-      "text": "Une fois le riz cuit, ajouter le parmesan et le mascarpone. Couvrir et laisser reposer 2 minutes hors du feu. Remuer et rectifier l'assaisonnement."
+      "text": "Une fois le riz cuit, ajouter le parmesan et le mascarpone. Couvrir et laisser reposer 2 minutes hors du feu. Remuer et rectifier l'assaisonnement.",
+      "timers": [2]
     },
     {
       "text": "Servir le risotto dans les assiettes, puis répartir le jambon cru et la roquette."
@@ -67,6 +69,12 @@
     "Le bouillon doit être chaud pour ne pas stopper la cuisson du riz à chaque ajout.",
     "Ne jamais cesser de remuer pour libérer l'amidon et obtenir un risotto bien crémeux.",
     "Ajouter la roquette au dernier moment pour qu'elle reste fraîche et légèrement croquante."
+  ],
+  "related": [
+    "risotto-a-la-milanaise",
+    "risotto-cheddar-bacon",
+    "risotto-champignons-foie-gras-noisettes",
+    "ravioli-prosciutto-caprino"
   ],
   "translations": {
     "en": {

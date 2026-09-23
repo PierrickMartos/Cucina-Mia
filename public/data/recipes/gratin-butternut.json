@@ -50,14 +50,22 @@
       "text": "Préchauffer le four à 180°C. Beurrer un plat à gratin de 25 cm."
     },
     {
-      "text": "Dans une grande poêle, faire fondre 2 cuillères à soupe de beurre à feu moyen. Ajouter l'oignon et l'ail et cuire jusqu'à ce qu'ils soient tendres et translucides, environ 4 minutes. Ajouter les tranches de butternut et la muscade, cuire jusqu'à ce qu'ils soient légèrement tendres, 3 à 5 minutes. Saler et poivrer."
+      "text": "Dans une grande poêle, faire fondre 2 cuillères à soupe de beurre à feu moyen. Ajouter l'oignon et l'ail et cuire jusqu'à ce qu'ils soient tendres et translucides, environ 4 minutes. Ajouter les tranches de butternut et la muscade, cuire jusqu'à ce qu'ils soient légèrement tendres, 3 à 5 minutes. Saler et poivrer.",
+      "timers": [4, 3]
     },
     {
       "text": "Transférer le mélange dans le plat à gratin. Verser la crème, parsemer la chapelure et le fromage, et parsemer de la dernière cuillère à soupe de beurre."
     },
     {
-      "text": "Cuire au four jusqu'à ce que le gratin soit doré et bouillonnant, 25 à 30 minutes. Servir immédiatement, parsemé de ciboulette."
+      "text": "Cuire au four jusqu'à ce que le gratin soit doré et bouillonnant, 25 à 30 minutes. Servir immédiatement, parsemé de ciboulette.",
+      "timers": [25]
     }
+  ],
+  "related": [
+    "souffle-au-fromage",
+    "gratin-ravioles-poireaux",
+    "flan-a-la-ratatouille",
+    "creme-de-carottes-aux-pommes"
   ],
   "translations": {
     "en": {
