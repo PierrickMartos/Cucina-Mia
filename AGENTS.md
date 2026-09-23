@@ -36,7 +36,7 @@ Home category covers (`public/images/categories/{name}.webp`, listed in `CATEGOR
 
 ### Share link previews
 
-Crawlers (WhatsApp, Slack, Messenger, iMessage…) never run JS nor see the URL hash, so the share button hands out `{base}r/{slug}/` instead of `#/recipe/{slug}`. At build time `scripts/vite-plugin-share-pages.ts` writes, for every recipe in `index.json`, `dist/r/{slug}/index.html` (Open Graph/Twitter tags rendered by `scripts/share-page.ts`, then a JS-only redirect to the app) and a 1200×630 JPEG `dist/r/{slug}/og.jpg` from the recipe photo; it also adds the tags to the home page (`dist/og.jpg`). Absolute URLs use `VITE_SITE_ORIGIN` (default `https://pierrickmartos.github.io`). In dev, `/r/{slug}/` redirects to the recipe. Nothing to do when adding a recipe.
+Crawlers (WhatsApp, Slack, Messenger, iMessage…) never run JS nor see the URL hash or the visitor's locale, so the share button hands out a static page per recipe and language instead of `#/recipe/{slug}`: `{base}r/{slug}/` (French), `r/{slug}/en/`, `r/{slug}/it/` (`src/lib/sharePath.ts`), picked from the current site language. At build time `scripts/vite-plugin-share-pages.ts` writes, for every recipe in `index.json` and every language in `src/i18n/languages.ts`, `dist/r/{slug}/[{lang}/]index.html` (translated title/description falling back to French, `og:locale` + `hreflang` alternates, rendered by `scripts/share-page.ts`) plus one 1200×630 JPEG `dist/r/{slug}/og.jpg` from the recipe photo; it also adds the tags to the home page (`dist/og.jpg`). The page then redirects with JS only, first storing the link's language for visitors with no language yet (an existing choice wins). Absolute URLs use `VITE_SITE_ORIGIN` (default `https://pierrickmartos.github.io`). In dev, `/r/{slug}/[{lang}/]` redirects to the recipe. Nothing to do when adding a recipe.
 
 ### Loading performance
 
@@ -59,6 +59,10 @@ Hybrid search, fully static (no backend), in `src/lib/search/` and exposed throu
 ### Servings Scaling
 
 The recipe page has a servings dropdown (`ServingsSelect`) that rescales ingredient quantities at display time with `scaleIngredient()` (`src/lib/scaleIngredient.ts`). Ingredients stay free-text strings and `servings` keeps the source's value: the leading quantity (integers, decimals, fractions, ranges) and later metric weights/volumes are parsed from the text, everything else is left as written. Steps are not scaled. `src/test/recipeValidation.test.ts` checks that each ingredient line scales the same way in FR, EN and IT; the `add-recipe` skill documents how to write scalable quantities.
+
+### Cooking Mode
+
+The recipe page's "Mode cuisine" button (and the step counter of the mobile step bar) opens `CookingMode` (`src/components/CookingMode.tsx`): a full-screen dialog showing one step at a time in big text, sharing `currentStep` with the page. Swipes, arrow keys (plus PageUp/PageDown for clickers, Home/End, Escape) move between steps; the step's timers are shown inline with `StepTimerButtons size="large"`. It can read each step aloud (reusing the page's speech synthesis, preference kept in localStorage), keeps the screen awake (`useWakeLock`, re-acquired when the page becomes visible again) and requests browser full screen when allowed. Optional voice commands (`useVoiceCommands`, Web Speech `SpeechRecognition`, Chrome/Edge/Safari) are parsed by `parseVoiceCommand` (`src/lib/voiceCommands.ts`): next / previous / repeat / timer / stop, in fr/en/it whatever the UI language, only for short utterances, and only "stop" while a step is being read aloud so the synthesized voice cannot trigger commands.
 
 ### Component Structure
 

@@ -88,6 +88,18 @@
     "done": "Terminé !",
     "tray": "Minuteurs"
   },
+  "cookingMode": {
+    "start": "Mode cuisine",
+    "exit": "Quitter le mode cuisine",
+    "finish": "Terminé, buon appetito !",
+    "navigation": "Navigation entre les étapes",
+    "readAloud": "Lire chaque étape à voix haute",
+    "voiceControl": "Commandes vocales",
+    "voiceHint": "Dites « suivant », « précédent », « répète », « minuteur » ou « stop »",
+    "voiceHeard": "Compris : « {{text}} »",
+    "voiceDenied": "Micro refusé : autorisez-le dans le navigateur pour les commandes vocales.",
+    "voiceError": "Commandes vocales indisponibles pour le moment."
+  },
   "filter": {
     "title": "Filtrer les recettes",
     "category": "Catégorie",

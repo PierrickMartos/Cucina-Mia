@@ -103,3 +103,30 @@ describe("recipe cross-checks", () => {
     })
   })
 })
+
+// The listing, search and share previews read texts and translations from index.json:
+// keep them in sync with the detail files, which are the source.
+describe("index.json matches the detail files", () => {
+  const index = JSON.parse(readFileSync(resolve(DATA_DIR, "index.json"), "utf-8")) as {
+    slug: string
+    title: string
+    description: string
+    tags: string[]
+    translations?: Record<string, { title?: string; description?: string; tags?: string[] }>
+  }[]
+
+  it.each(index.map((r) => r.slug))("%s matches its detail file", (...args: unknown[]) => {
+    const summary = index.find((r) => r.slug === args[0])!
+    const detail = JSON.parse(readFileSync(resolve(DATA_DIR, `${summary.slug}.json`), "utf-8"))
+    expect(summary.title, `${summary.slug} title`).toBe(detail.title)
+    expect(summary.description, `${summary.slug} description`).toBe(detail.description)
+    expect(summary.tags, `${summary.slug} tags`).toEqual(detail.tags)
+    for (const [lang, translation] of Object.entries(detail.translations ?? {}) as [string, typeof summary][]) {
+      const listed = summary.translations?.[lang]
+      expect(listed, `${summary.slug}: missing "${lang}" translation in index.json`).toBeDefined()
+      expect(listed!.title ?? summary.title, `${summary.slug} ${lang} title`).toBe(translation.title ?? detail.title)
+      expect(listed!.description ?? summary.description, `${summary.slug} ${lang} description`).toBe(translation.description ?? detail.description)
+      expect(listed!.tags ?? summary.tags, `${summary.slug} ${lang} tags`).toEqual(translation.tags ?? detail.tags)
+    }
+  })
+})

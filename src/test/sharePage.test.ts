@@ -1,6 +1,7 @@
-import { renderSharePage, truncate, type ShareMeta } from "../../scripts/share-page.ts"
+import { renderSharePage, sharePath, truncate, type ShareMeta } from "../../scripts/share-page.ts"
 
 const meta: ShareMeta = {
+  lang: "fr",
   url: "https://example.github.io/Cucina-Mia/r/pasta-carbonara/",
   redirectTo: "/Cucina-Mia/#/recipe/pasta-carbonara",
   title: "Pasta alla \"Carbonara\" <vraie>",
@@ -46,6 +47,54 @@ describe("share page", () => {
     expect(doc.querySelector('meta[http-equiv="refresh"]')).toBeNull()
     expect(doc.querySelector("script")?.textContent).toContain(`location.replace("${meta.redirectTo}")`)
     expect(doc.querySelector("a")?.getAttribute("href")).toBe(meta.redirectTo)
+  })
+
+  it("has one URL per language, French at the root", () => {
+    expect(sharePath("canneles")).toBe("r/canneles/")
+    expect(sharePath("canneles", "fr")).toBe("r/canneles/")
+    expect(sharePath("canneles", "en")).toBe("r/canneles/en/")
+    expect(sharePath("canneles", "it")).toBe("r/canneles/it/")
+  })
+
+  it("declares its language and links the other ones", () => {
+    const doc = parse(renderSharePage({
+      ...meta,
+      lang: "en",
+      alternates: {
+        fr: "https://example.github.io/Cucina-Mia/r/pasta-carbonara/",
+        en: "https://example.github.io/Cucina-Mia/r/pasta-carbonara/en/",
+        it: "https://example.github.io/Cucina-Mia/r/pasta-carbonara/it/",
+      },
+    }))
+    expect(doc.documentElement.lang).toBe("en")
+    expect(metaContent(doc, "og:locale")).toBe("en_US")
+    expect([...doc.querySelectorAll('meta[property="og:locale:alternate"]')].map(m => m.getAttribute("content")))
+      .toEqual(["fr_FR", "it_IT"])
+    expect(doc.querySelector('link[hreflang="it"]')?.getAttribute("href")).toContain("/it/")
+    expect(doc.querySelector('link[hreflang="x-default"]')?.getAttribute("href")).toMatch(/pasta-carbonara\/$/)
+  })
+
+  describe("redirect", () => {
+    beforeEach(() => localStorage.clear())
+
+    function runRedirect(lang: ShareMeta["lang"]) {
+      const script = parse(renderSharePage({ ...meta, lang })).querySelector("script")!.textContent!
+      const replace = vi.fn()
+      new Function("location", script)({ replace })
+      return replace
+    }
+
+    it("opens the app in the shared language for first-time visitors", () => {
+      const replace = runRedirect("it")
+      expect(localStorage.getItem("cucina-mia-lang")).toBe("it")
+      expect(replace).toHaveBeenCalledWith(meta.redirectTo)
+    })
+
+    it("keeps the language a visitor already has", () => {
+      localStorage.setItem("cucina-mia-lang", "en")
+      runRedirect("it")
+      expect(localStorage.getItem("cucina-mia-lang")).toBe("en")
+    })
   })
 
   it("keeps descriptions short enough for previews", () => {

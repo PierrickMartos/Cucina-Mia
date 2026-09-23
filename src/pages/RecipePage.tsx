@@ -3,7 +3,7 @@ import type { KeyboardEvent as ReactKeyboardEvent } from "react"
 import { createPortal } from "react-dom"
 import { useParams, Link, useNavigate } from "react-router-dom"
 import { useTranslation } from "react-i18next"
-import { ArrowLeft, Clock, CookingPot, ChefHat, UtensilsCrossed, Printer, Share2, Check, Volume2, VolumeX, BookOpen } from "lucide-react"
+import { ArrowLeft, Clock, CookingPot, ChefHat, UtensilsCrossed, Printer, Share2, Check, Volume2, VolumeX, BookOpen, Maximize2 } from "lucide-react"
 import { motion, useMotionValue, useTransform, useReducedMotion, type Variants } from "motion/react"
 import { Badge } from "@/components/ui/badge"
 import { Skeleton } from "@/components/ui/skeleton"
@@ -13,6 +13,10 @@ import { useRecipe } from "@/lib/recipeData"
 import { scaleIngredient } from "@/lib/scaleIngredient"
 import { StepTimerButtons } from "@/components/CookingTimers"
 import { RelatedRecipes } from "@/components/RelatedRecipes"
+import { CookingMode } from "@/components/CookingMode"
+import { useWakeLock } from "@/hooks/useWakeLock"
+import { toLanguage } from "@/i18n/languages"
+import { sharePath } from "@/lib/sharePath"
 
 const BASE = import.meta.env.BASE_URL
 
@@ -63,6 +67,8 @@ export function RecipePage() {
   const linkCopiedTimeoutRef = useRef<ReturnType<typeof setTimeout> | null>(null)
   const [currentStep, setCurrentStep] = useState(0)
   const [speakingStep, setSpeakingStep] = useState<number | null>(null)
+  const [cookingMode, setCookingMode] = useState(false)
+  const cookingModeOpenerRef = useRef<HTMLElement | null>(null)
   const ingredientsTabId = useId()
   const instructionsTabId = useId()
   const ingredientsPanelId = useId()
@@ -83,7 +89,7 @@ export function RecipePage() {
   }
 
   const stopSpeaking = () => {
-    window.speechSynthesis.cancel()
+    window.speechSynthesis?.cancel()
     setSpeakingStep(null)
   }
 
@@ -164,22 +170,14 @@ export function RecipePage() {
   useEffect(() => () => { window.speechSynthesis?.cancel() }, [])
 
   // Keep screen awake while reading a recipe
-  useEffect(() => {
-    let lock: WakeLockSentinel | null = null
-    const acquire = async () => {
-      try {
-        lock = await navigator.wakeLock.request('screen')
-      } catch { /* Wake Lock not supported */ }
-    }
-    acquire()
-    return () => { lock?.release() }
-  }, [])
+  useWakeLock()
 
   const shareRecipe = async () => {
     if (!recipe) return
     // Static page carrying the recipe's link preview (built by scripts/vite-plugin-share-pages.ts):
-    // messaging apps never see the #/recipe/… part of the app URL
-    const url = new URL(`${BASE}r/${recipe.slug}/`, window.location.origin).href
+    // messaging apps never see the #/recipe/… part of the app URL. One per language, so the
+    // preview matches the language the recipe is read in
+    const url = new URL(`${BASE}${sharePath(recipe.slug, toLanguage(i18n.resolvedLanguage))}`, window.location.origin).href
     if (navigator.share) {
       try {
         await navigator.share({ title: recipe.title, text: recipe.description, url })
@@ -240,10 +238,22 @@ export function RecipePage() {
     })
   }
 
-  // Arrow key navigation for step navigator
+  const openCookingMode = (opener: HTMLElement) => {
+    cookingModeOpenerRef.current = opener
+    setCookingMode(true)
+  }
+
+  const closeCookingMode = () => {
+    setCookingMode(false)
+    // Back on the page, show the step the cook stopped at
+    goToStep(currentStep)
+    requestAnimationFrame(() => cookingModeOpenerRef.current?.focus())
+  }
+
+  // Arrow key navigation for step navigator (the cooking mode has its own)
   useEffect(() => {
     const total = recipe?.steps.length ?? 0
-    if (!total) return
+    if (!total || cookingMode) return
     const handleKey = (e: globalThis.KeyboardEvent) => {
       if (e.key === "ArrowRight") {
         setCurrentStep(prev => {
@@ -270,7 +280,7 @@ export function RecipePage() {
     }
     window.addEventListener("keydown", handleKey)
     return () => window.removeEventListener("keydown", handleKey)
-  }, [recipe?.steps.length, reduceMotion])
+  }, [recipe?.steps.length, reduceMotion, cookingMode])
 
   if (loading) {
     return (
@@ -493,8 +503,18 @@ export function RecipePage() {
           </div>
         </motion.div>
 
-        {/* Share button, and print button on desktop only */}
-        <div className="flex justify-center gap-3 mt-5 print:hidden">
+        {/* Cooking mode and share buttons, and print button on desktop only */}
+        <div className="flex flex-wrap justify-center gap-3 mt-5 print:hidden">
+          {recipe.steps.length > 0 && (
+            <button
+              type="button"
+              onClick={(e) => openCookingMode(e.currentTarget)}
+              className="inline-flex items-center gap-2 rounded-full gradient-primary px-4 py-2 text-xs font-semibold uppercase tracking-widest text-primary-foreground cursor-pointer"
+            >
+              <ChefHat className="h-3.5 w-3.5" />
+              {t("cookingMode.start")}
+            </button>
+          )}
           <button
             type="button"
             onClick={shareRecipe}
@@ -916,9 +936,15 @@ export function RecipePage() {
               {t("recipe.prev", "Prev")}
             </button>
 
-            <span className="text-xs font-semibold text-muted-foreground uppercase tracking-widest select-none">
+            <button
+              type="button"
+              onClick={(e) => openCookingMode(e.currentTarget)}
+              title={t("cookingMode.start")}
+              className="inline-flex items-center gap-1.5 text-xs font-semibold text-muted-foreground uppercase tracking-widest px-2 py-1.5 rounded-lg hover:bg-surface-high hover:text-foreground transition-colors cursor-pointer"
+            >
               {t("recipe.stepOf", { current: currentStep + 1, total: recipe.steps.length, defaultValue: `Step ${currentStep + 1} of ${recipe.steps.length}` })}
-            </span>
+              <Maximize2 className="h-3.5 w-3.5" aria-hidden="true" />
+            </button>
 
             <button
               type="button"
@@ -933,6 +959,19 @@ export function RecipePage() {
           </div>
         </div>,
         document.body
+      )}
+
+      {cookingMode && recipe.steps.length > 0 && (
+        <CookingMode
+          recipe={recipe}
+          step={Math.min(currentStep, recipe.steps.length - 1)}
+          onStepChange={setCurrentStep}
+          onClose={closeCookingMode}
+          displayIngredient={displayIngredient}
+          speakingStep={speakingStep}
+          onSpeak={(i) => speakText(recipe.steps[i].text, i)}
+          onStopSpeaking={stopSpeaking}
+        />
       )}
     </div>
   )

@@ -205,7 +205,7 @@ describe("RecipePage", () => {
       expect(share).toHaveBeenCalledWith({
         title: "Pasta alla Carbonara",
         text: "La vera carbonara romana.",
-        url: `${window.location.origin}${import.meta.env.BASE_URL}r/pasta-carbonara/`,
+        url: `${window.location.origin}${import.meta.env.BASE_URL}r/pasta-carbonara/en/`,
       })
     })
 
@@ -216,8 +216,20 @@ describe("RecipePage", () => {
       Object.defineProperty(navigator, "clipboard", { value: { writeText }, configurable: true })
       renderRecipePage("pasta-carbonara")
       await user.click(await screen.findByRole("button", { name: "Share recipe" }))
-      expect(writeText).toHaveBeenCalledWith(`${window.location.origin}${import.meta.env.BASE_URL}r/pasta-carbonara/`)
+      expect(writeText).toHaveBeenCalledWith(`${window.location.origin}${import.meta.env.BASE_URL}r/pasta-carbonara/en/`)
       expect(await screen.findByRole("status")).toHaveTextContent("Link copied!")
+    })
+
+    it("shares the link preview in the language the recipe is read in", async () => {
+      const share = vi.fn().mockResolvedValue(undefined)
+      Object.defineProperty(navigator, "share", { value: share, configurable: true })
+      await i18n.changeLanguage("fr")
+      const user = userEvent.setup()
+      renderRecipePage("pasta-carbonara")
+      await user.click(await screen.findByRole("button", { name: "Partager la recette" }))
+      expect(share).toHaveBeenCalledWith(expect.objectContaining({
+        url: `${window.location.origin}${import.meta.env.BASE_URL}r/pasta-carbonara/`,
+      }))
     })
   })
 })
