@@ -6,6 +6,7 @@ import { useState, useRef, useEffect, useId } from "react"
 import { preloadMammaMia, sayMammaMia } from "@/lib/mammaMia"
 import { runWhenIdle } from "@/lib/utils"
 import { TimerTray } from "@/components/CookingTimers"
+import { LANG_STORAGE_KEY } from "@/i18n/languages"
 
 const LANGUAGES = [
   { code: "en", label: "English" },
@@ -42,7 +43,7 @@ function LanguageSwitcher() {
 
   function selectLanguage(code: string) {
     i18n.changeLanguage(code)
-    localStorage.setItem("cucina-mia-lang", code)
+    localStorage.setItem(LANG_STORAGE_KEY, code)
     setOpen(false)
   }
 

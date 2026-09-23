@@ -5,6 +5,7 @@ import LanguageDetector from "i18next-browser-languagedetector"
 import en from "./locales/en.json"
 import fr from "./locales/fr.json"
 import it from "./locales/it.json"
+import { DEFAULT_LANGUAGE, LANG_STORAGE_KEY } from "./languages"
 
 i18n
   .use(LanguageDetector)
@@ -15,13 +16,13 @@ i18n
       fr: { translation: fr },
       it: { translation: it },
     },
-    fallbackLng: "fr",
+    fallbackLng: DEFAULT_LANGUAGE,
     interpolation: {
       escapeValue: false,
     },
     detection: {
       order: ["localStorage", "navigator"],
-      lookupLocalStorage: "cucina-mia-lang",
+      lookupLocalStorage: LANG_STORAGE_KEY,
     },
   })
 
