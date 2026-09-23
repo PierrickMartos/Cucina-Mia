@@ -19,7 +19,7 @@ Cucina Mia is an Italian recipe cookbook web app built with React 19, TypeScript
 
 ### Routing & Data Loading
 
-Uses `react-router-dom` with `HashRouter` (for GitHub Pages compatibility). Three routes: home (`/`), recipe listing (`/recipes`), and recipe detail (`/recipe/:slug`).
+Uses `react-router-dom` with `HashRouter` (for GitHub Pages compatibility). Routes: home (`/`), recipe listing (`/recipes`), recipe detail (`/recipe/:slug`), about (`/about`) and "what can I make with…" (`/pantry`).
 
 Recipe data is **static JSON** served from `public/data/recipes/`. Pages load it through `src/lib/recipeData.ts` (`useRecipeIndex`, `useRecipe`), which fetches with `import.meta.env.BASE_URL` as prefix and caches results in memory for the session. There is no backend or API, all data lives in the `public/` directory.
 
@@ -51,6 +51,10 @@ Hybrid search, fully static (no backend), in `src/lib/search/` and exposed throu
 - **Semantic** (`semantic.ts`, `semantic.worker.ts`): recipe embeddings are precomputed with `Xenova/multilingual-e5-small`; the browser embeds the query with the same model via `@huggingface/transformers` in a Web Worker, lazily on the first search (model downloaded once from the Hugging Face CDN, then cached; skipped when Save-Data is on). Results are merged with the lexical ones by reciprocal rank fusion. Semantic hits are only kept among recipes matching at least one query term (free only when no term matches), and every result goes through the query's tag rules (`TAG_RULES`: "hiver" rules out summer/cold dishes, "végétarien" requires the tag).
 - Generated assets (git-ignored) in `public/data/search/`, built by `scripts/build-search-index.mjs`: `documents.json` (ingredients, rebuilt automatically by `predev`/`prebuild`) and `embeddings.json` (`npm run build:embeddings`, needs Hugging Face access, run in the deploy and PR preview workflows). Without `embeddings.json` the app silently falls back to lexical-only search.
 - `.npmrc` skips the optional CUDA download of `onnxruntime-node` (only used by the embeddings script).
+
+### What can I make with…
+
+`/pantry` (`src/pages/PantryPage.tsx`, linked from the home page): the user ticks the ingredients they have and recipes are ranked by how many of them they use (or by fewest missing), with what is still missing. `src/lib/pantry.ts` holds a curated catalog (id, group, fr/en/it labels, English patterns) matched against each recipe's English ingredient lines from `documents.json` (longest pattern wins, "or" lines are alternatives, staples like salt/pepper/oil/water are ignored). `src/test/pantry.test.ts` fails when a real ingredient line is not recognised, so extend the catalog when adding recipes. The selection lives in the URL (`?have=eggs,flour`) and localStorage.
 
 ### Servings Scaling
 

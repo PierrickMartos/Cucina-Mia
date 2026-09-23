@@ -1,6 +1,6 @@
 import { useState, useMemo } from "react"
 import { Link } from "react-router-dom"
-import { Search, SlidersHorizontal } from "lucide-react"
+import { ChevronRight, Refrigerator, Search, SlidersHorizontal } from "lucide-react"
 import { Input } from "@/components/ui/input"
 import { Skeleton } from "@/components/ui/skeleton"
 import { RecipeGrid, RecipesNotFound, AnimateInView } from "@/components/RecipeGrid"
@@ -128,6 +128,15 @@ export function HomePage() {
             </Link>
           </div>
         </div>
+
+        <Link
+          to="/pantry"
+          className="group flex items-center gap-3 rounded-full bg-primary/10 px-4 py-2.5 text-sm font-medium text-primary hover:bg-primary/15 transition-colors"
+        >
+          <Refrigerator className="h-4 w-4 shrink-0" />
+          <span className="flex-1">{t("home.pantryLink")}</span>
+          <ChevronRight className="h-4 w-4 shrink-0 transition-transform group-hover:translate-x-0.5" />
+        </Link>
       </header>
 
       {/* Content: search results or category cards */}

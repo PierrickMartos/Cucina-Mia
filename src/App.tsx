@@ -9,14 +9,16 @@ import { runWhenIdle } from "./lib/utils"
 // Secondary pages are split out of the main bundle so the first page renders sooner.
 const loadRecipesPage = () => import("./pages/RecipesPage")
 const loadAboutPage = () => import("./pages/AboutPage")
+const loadPantryPage = () => import("./pages/PantryPage")
 const RecipesPage = lazy(() => loadRecipesPage().then((m) => ({ default: m.RecipesPage })))
 const AboutPage = lazy(() => loadAboutPage().then((m) => ({ default: m.AboutPage })))
+const PantryPage = lazy(() => loadPantryPage().then((m) => ({ default: m.PantryPage })))
 
 // Once the first page is up, fetch the other pages in the background so navigating stays instant.
 function usePrefetchPages() {
   useEffect(() => {
     return runWhenIdle(() => {
-      for (const load of [loadRecipesPage, loadAboutPage]) load().catch(() => {})
+      for (const load of [loadRecipesPage, loadAboutPage, loadPantryPage]) load().catch(() => {})
     }, 3000)
   }, [])
 }
@@ -44,6 +46,7 @@ export default function App() {
         <Route path="/recipes" element={<Page><RecipesPage /></Page>} />
         <Route path="/recipe/:slug" element={<RecipePage />} />
         <Route path="/about" element={<Page><AboutPage /></Page>} />
+        <Route path="/pantry" element={<Page><PantryPage /></Page>} />
       </Route>
     </Routes>
     </>

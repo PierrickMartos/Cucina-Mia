@@ -46,6 +46,25 @@ export function loadRecipe(slug: string): Promise<RecipeDetail | null> {
   return promise
 }
 
+let documentsPromise: Promise<unknown> | null = null
+
+/**
+ * Generated per-recipe extras (ingredient lines in every language, see scripts/build-search-index.mjs),
+ * shared by the search and the "what can I make with…" page. Failed requests are evicted so a retry refetches.
+ */
+export function loadSearchDocuments(): Promise<unknown> {
+  documentsPromise ??= fetch(`${BASE}data/search/documents.json`)
+    .then((res) => {
+      if (!res.ok) throw new Error(`HTTP ${res.status}`)
+      return res.json() as Promise<unknown>
+    })
+    .catch((err) => {
+      documentsPromise = null
+      throw err
+    })
+  return documentsPromise
+}
+
 /** Warms the cache ahead of a likely navigation (hover, focus, touch). Errors are ignored. */
 export function prefetchRecipe(slug: string) {
   loadRecipe(slug).catch(() => {})
@@ -56,6 +75,7 @@ export function clearRecipeCache() {
   indexValue = undefined
   detailPromises.clear()
   detailValues.clear()
+  documentsPromise = null
 }
 
 interface Resource<T> {

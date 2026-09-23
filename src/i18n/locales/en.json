@@ -17,7 +17,8 @@
   "home": {
     "subtitle": "Home recipes, from grandma, grandpa, mother-in-law, mum, dad, the internet or elsewhere",
     "title": "Buon appetito",
-    "searchPlaceholder": "Search a recipe..."
+    "searchPlaceholder": "Search a recipe...",
+    "pantryLink": "What can I make with what I have?"
   },
   "about": {
     "heroTitle": "The Heart of",
@@ -176,5 +177,41 @@
     "photosBy": "Photos by",
     "and": "&",
     "from": "from"
+  },
+  "pantry": {
+    "title": "What can I make?",
+    "subtitle": "Tick what you have, nonna finds the recipes",
+    "ingredients": "Ingredients",
+    "searchPlaceholder": "Find an ingredient...",
+    "searchLabel": "Find an ingredient",
+    "selected_one": "{{count}} ingredient",
+    "selected_other": "{{count}} ingredients",
+    "clear": "Clear all",
+    "seeResults_one": "See {{count}} recipe",
+    "seeResults_other": "See {{count}} recipes",
+    "noIngredient": "No ingredient matches.",
+    "showMore": "+ {{count}} more",
+    "showLess": "Less",
+    "staplesHint": "Salt, pepper, oil and water are assumed to be in the cupboard.",
+    "resultsTitle": "Recipes",
+    "results_one": "{{count}} recipe",
+    "results_other": "{{count}} recipes",
+    "sortLabel": "Sort",
+    "sortMatches": "Most ingredients",
+    "sortMissing": "Fewest to buy",
+    "pickPrompt": "Tick at least one ingredient to see what you can cook.",
+    "matched": "{{count}}/{{total}} ingredients",
+    "complete": "You have everything, get cooking!",
+    "missing": "Missing: {{list}}",
+    "groups": {
+      "produce": "Vegetables",
+      "fruit": "Fruit",
+      "herbs": "Herbs and aromatics",
+      "dairy": "Eggs and dairy",
+      "meat": "Meat and charcuterie",
+      "starches": "Pasta, rice, bread and flour",
+      "pantry": "Pantry",
+      "spices": "Spices"
+    }
   }
 }

@@ -1,6 +1,7 @@
 import { useEffect, useMemo, useState, useSyncExternalStore } from "react"
 import type { RecipeSummary } from "@/types/recipe"
 import { runWhenIdle } from "@/lib/utils"
+import { loadSearchDocuments } from "@/lib/recipeData"
 import {
   LexicalIndex,
   applyConstraints,
@@ -15,14 +16,12 @@ import {
   type SearchExtras,
 } from "@/lib/search"
 
-const DOCUMENTS_URL = `${import.meta.env.BASE_URL}data/search/documents.json`
 const SEMANTIC_DEBOUNCE_MS = 200
 
 let extrasPromise: Promise<SearchExtras> | null = null
 
 function loadExtras() {
-  extrasPromise ??= fetch(DOCUMENTS_URL)
-    .then((res) => (res.ok ? res.json() : []))
+  extrasPromise ??= loadSearchDocuments()
     .then(parseSearchExtras)
     .catch(() => new Map())
   return extrasPromise
