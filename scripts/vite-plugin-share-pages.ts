@@ -12,12 +12,14 @@ import {
   renderSharePage,
   sharePath,
 } from "./share-page.ts"
+import { DEFAULT_LANGUAGE, LANGUAGES } from "../src/i18n/languages.ts"
 
 interface IndexRecipe {
   slug: string
   title: string
   description?: string
   images: { cover: string; web?: string }
+  translations?: { [lang: string]: { title?: string; description?: string } }
 }
 
 // Cover used for the home page preview
@@ -39,8 +41,9 @@ async function writeShareImage(source: string, target: string) {
 }
 
 /**
- * Builds `r/{slug}/index.html` + `r/{slug}/og.jpg` for every recipe (the URL the
- * share button hands out) and adds Open Graph tags to the home page.
+ * Builds `r/{slug}/og.jpg` and one `index.html` per language (`r/{slug}/`,
+ * `r/{slug}/en/`, `r/{slug}/it/`: the URLs the share button hands out) for every
+ * recipe, and adds Open Graph tags to the home page.
  */
 export function sharePages(): Plugin {
   let base = "/"
@@ -59,7 +62,7 @@ export function sharePages(): Plugin {
     // Dev server: no generated pages, send share links straight to the recipe
     configureServer(server) {
       server.middlewares.use((req, res, next) => {
-        const match = req.url?.startsWith(`${base}r/`) && /\/r\/([^/?#]+)\/?(?:[?#].*)?$/.exec(req.url)
+        const match = req.url?.startsWith(`${base}r/`) && /\/r\/([^/?#]+)(?:\/[a-z]{2})?\/?(?:[?#].*)?$/.exec(req.url)
         if (!match) return next()
         res.statusCode = 302
         res.setHeader("Location", `${base}#/recipe/${match[1]}`)
@@ -71,6 +74,7 @@ export function sharePages(): Plugin {
       handler(html, ctx) {
         if (ctx.server) return html
         const tags = renderMetaTags({
+          lang: DEFAULT_LANGUAGE,
           url: absolute(""),
           redirectTo: absolute(""),
           title: SITE_NAME,
@@ -94,15 +98,27 @@ export function sharePages(): Plugin {
         mkdirSync(dir, { recursive: true })
         const image = recipe.images.web || recipe.images.cover
         await writeShareImage(path.join(publicDir, image), path.join(dir, SHARE_IMAGE_FILE))
-        writeFileSync(path.join(dir, "index.html"), renderSharePage({
-          url: absolute(sharePath(recipe.slug)),
-          redirectTo: `${base}#/recipe/${recipe.slug}`,
-          title: recipe.title,
-          description: recipe.description || `${recipe.title} · ${SITE_NAME}`,
-          image: absolute(`${sharePath(recipe.slug)}${SHARE_IMAGE_FILE}`),
-          imageAlt: recipe.title,
-          type: "article",
-        }))
+
+        // Every language gets a page, even without a translation (the share button can
+        // hand out any of them): the French text is used then
+        const alternates = Object.fromEntries(LANGUAGES.map(lang => [lang, absolute(sharePath(recipe.slug, lang))]))
+        for (const lang of LANGUAGES) {
+          const translation = lang === DEFAULT_LANGUAGE ? undefined : recipe.translations?.[lang]
+          const title = translation?.title || recipe.title
+          const pageDir = path.join(outDir, sharePath(recipe.slug, lang))
+          mkdirSync(pageDir, { recursive: true })
+          writeFileSync(path.join(pageDir, "index.html"), renderSharePage({
+            lang,
+            url: alternates[lang],
+            redirectTo: `${base}#/recipe/${recipe.slug}`,
+            title,
+            description: translation?.description || recipe.description || `${title} · ${SITE_NAME}`,
+            image: absolute(`${sharePath(recipe.slug)}${SHARE_IMAGE_FILE}`),
+            imageAlt: title,
+            type: "article",
+            alternates,
+          }))
+        }
       }))
     },
   }
