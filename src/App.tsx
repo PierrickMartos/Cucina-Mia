@@ -10,7 +10,9 @@ import { runWhenIdle } from "./lib/utils"
 const loadRecipesPage = () => import("./pages/RecipesPage")
 const loadAboutPage = () => import("./pages/AboutPage")
 const loadPantryPage = () => import("./pages/PantryPage")
+const loadFavoritesPage = () => import("./pages/FavoritesPage")
 const RecipesPage = lazy(() => loadRecipesPage().then((m) => ({ default: m.RecipesPage })))
+const FavoritesPage = lazy(() => loadFavoritesPage().then((m) => ({ default: m.FavoritesPage })))
 const AboutPage = lazy(() => loadAboutPage().then((m) => ({ default: m.AboutPage })))
 const PantryPage = lazy(() => loadPantryPage().then((m) => ({ default: m.PantryPage })))
 
@@ -18,7 +20,7 @@ const PantryPage = lazy(() => loadPantryPage().then((m) => ({ default: m.PantryP
 function usePrefetchPages() {
   useEffect(() => {
     return runWhenIdle(() => {
-      for (const load of [loadRecipesPage, loadAboutPage, loadPantryPage]) load().catch(() => {})
+      for (const load of [loadRecipesPage, loadFavoritesPage, loadAboutPage, loadPantryPage]) load().catch(() => {})
     }, 3000)
   }, [])
 }
@@ -45,6 +47,7 @@ export default function App() {
         <Route path="/" element={<HomePage />} />
         <Route path="/recipes" element={<Page><RecipesPage /></Page>} />
         <Route path="/recipe/:slug" element={<RecipePage />} />
+        <Route path="/favorites" element={<Page><FavoritesPage /></Page>} />
         <Route path="/about" element={<Page><AboutPage /></Page>} />
         <Route path="/pantry" element={<Page><PantryPage /></Page>} />
       </Route>

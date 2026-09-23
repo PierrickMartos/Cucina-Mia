@@ -1,7 +1,7 @@
 import { useState, useEffect, useMemo, useRef } from "react"
 import { useSearchParams } from "react-router-dom"
 import { useTranslation } from "react-i18next"
-import { ChevronUp, X } from "lucide-react"
+import { ChevronDown, ChevronUp, X } from "lucide-react"
 import { SearchBar } from "@/components/SearchBar"
 import { FilterDrawer, type TimeBucket, type PrepTimeBucket, type StepsBucket, type IngredientsBucket } from "@/components/FilterDrawer"
 import { RecipeGrid } from "@/components/RecipeGrid"
@@ -9,6 +9,7 @@ import { sortCategories, sortDifficulties } from "@/lib/categories"
 import { localizeRecipeSummary } from "@/lib/localize"
 import { useRecipeIndex } from "@/lib/recipeData"
 import { useRecipeSearch } from "@/hooks/useRecipeSearch"
+import type { RecipeSummary } from "@/types/recipe"
 
 const FILTERS_KEY = "cucina-mia-filters"
 const ESSENTIAL_RECIPE_SLUGS = new Set([
@@ -25,6 +26,34 @@ const ESSENTIAL_RECIPE_SLUGS = new Set([
   "coquillettes-jambon-truffe",
   "ravioli-prosciutto-caprino",
 ])
+
+// "default" keeps the search ranking, or the cookbook order (oldest first) without a search
+const SORT_OPTIONS = ["default", "newest", "quickest", "easiest", "alpha"] as const
+type SortOption = (typeof SORT_OPTIONS)[number]
+const DIFFICULTY_RANK: Record<RecipeSummary["difficulty"], number> = { Facile: 0, Medio: 1, Difficile: 2 }
+
+function parseSort(value: string | null): SortOption {
+  return SORT_OPTIONS.find((option) => option === value) ?? "default"
+}
+
+function sortRecipes(recipes: RecipeSummary[], sort: SortOption, order: Map<string, number>, locale: string) {
+  const totalTime = (r: RecipeSummary) => r.prepTime + r.cookTime
+  const position = (r: RecipeSummary) => order.get(r.slug) ?? 0
+  switch (sort) {
+    case "newest":
+      return [...recipes].sort((a, b) => position(b) - position(a))
+    case "quickest":
+      return [...recipes].sort((a, b) => totalTime(a) - totalTime(b))
+    case "easiest":
+      return [...recipes].sort((a, b) => DIFFICULTY_RANK[a.difficulty] - DIFFICULTY_RANK[b.difficulty] || totalTime(a) - totalTime(b))
+    case "alpha": {
+      const collator = new Intl.Collator(locale, { sensitivity: "base" })
+      return [...recipes].sort((a, b) => collator.compare(a.title, b.title))
+    }
+    default:
+      return recipes
+  }
+}
 
 function loadFilters() {
   try {
@@ -84,6 +113,7 @@ export function RecipesPage() {
     if (value !== null) return value === "1"
     return fromCategory ? false : loadFilters().essentials ?? false
   })
+  const [sort, setSort] = useState<SortOption>(() => parseSort(searchParams.get("sort")))
   const [showCleared, setShowCleared] = useState(false)
   const [showScrollTop, setShowScrollTop] = useState(false)
   const clearTimeoutRef = useRef<ReturnType<typeof setTimeout> | null>(null)
@@ -94,6 +124,10 @@ export function RecipesPage() {
     [recipes, i18n.language]
   )
   // Diet/season filters use the base (French) tag keys, whatever the UI language
+  const indexOrder = useMemo(
+    () => new Map(recipes.map((r, i) => [r.slug, i])),
+    [recipes]
+  )
   const baseTagsBySlug = useMemo(
     () => new Map(recipes.map((r) => [r.slug, r.tags])),
     [recipes]
@@ -144,8 +178,9 @@ export function RecipesPage() {
     setMultiParam(next, "season", selectedSeasonTags)
     setMultiParam(next, "origin", selectedOrigins)
     if (selectedEssentials) next.set("incontournables", "1")
+    if (sort !== "default") next.set("sort", sort)
     setSearchParams(next, { replace: true })
-  }, [search, selectedTag, selectedCategories, selectedDifficulties, selectedTimes, selectedPrepTimes, selectedSteps, selectedIngredients, selectedDietTags, selectedSeasonTags, selectedOrigins, selectedEssentials, setSearchParams])
+  }, [sort, search, selectedTag, selectedCategories, selectedDifficulties, selectedTimes, selectedPrepTimes, selectedSteps, selectedIngredients, selectedDietTags, selectedSeasonTags, selectedOrigins, selectedEssentials, setSearchParams])
 
   const categories = useMemo(
     () => sortCategories([...new Set(recipes.map((r) => r.category))]),
@@ -319,8 +354,8 @@ export function RecipesPage() {
       result = result.filter((r) => r.tags.includes(selectedTag) || baseTagsBySlug.get(r.slug)?.includes(selectedTag))
     }
 
-    return result
-  }, [localizedRecipes, baseTagsBySlug, searchSlugs, selectedCategories, selectedDifficulties, selectedTimes, selectedPrepTimes, selectedSteps, selectedIngredients, selectedDietTags, selectedSeasonTags, selectedOrigins, selectedEssentials, selectedTag])
+    return sortRecipes(result, sort, indexOrder, i18n.language)
+  }, [sort, indexOrder, i18n.language, localizedRecipes, baseTagsBySlug, searchSlugs, selectedCategories, selectedDifficulties, selectedTimes, selectedPrepTimes, selectedSteps, selectedIngredients, selectedDietTags, selectedSeasonTags, selectedOrigins, selectedEssentials, selectedTag])
 
   return (
     <div className="px-6 py-6">
@@ -461,6 +496,28 @@ export function RecipesPage() {
               {selectedTag}<X className="h-3 w-3" />
             </button>
           )}
+        </div>
+      )}
+
+      {!error && !loading && filtered.length > 1 && (
+        <div className="flex justify-end mb-4">
+          <label className="flex items-center gap-2 text-xs text-muted-foreground">
+            <span className="uppercase tracking-widest font-semibold">{t("sort.label")}</span>
+            <span className="relative">
+              <select
+                value={sort}
+                onChange={(e) => setSort(parseSort(e.target.value))}
+                className="appearance-none rounded-full border border-border bg-background pl-3 pr-7 py-1 text-sm font-semibold text-foreground hover:border-primary/40 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring cursor-pointer transition-colors"
+              >
+                {SORT_OPTIONS.map((option) => (
+                  <option key={option} value={option}>
+                    {option === "default" && search.trim() ? t("sort.relevance") : t(`sort.${option}`)}
+                  </option>
+                ))}
+              </select>
+              <ChevronDown className="pointer-events-none absolute right-2 top-1/2 h-3.5 w-3.5 -translate-y-1/2" aria-hidden="true" />
+            </span>
+          </label>
         </div>
       )}
 

@@ -3,8 +3,8 @@ import type { KeyboardEvent as ReactKeyboardEvent } from "react"
 import { createPortal } from "react-dom"
 import { useParams, Link, useNavigate } from "react-router-dom"
 import { useTranslation } from "react-i18next"
-import { ArrowLeft, Clock, CookingPot, ChefHat, UtensilsCrossed, Printer, Share2, Check, Volume2, VolumeX, BookOpen, Maximize2 } from "lucide-react"
-import { motion, useMotionValue, useTransform, useReducedMotion, type Variants } from "motion/react"
+import { ArrowLeft, Clock, CookingPot, ChefHat, UtensilsCrossed, Printer, Share2, Check, Volume2, VolumeX, BookOpen, Maximize2, ChevronUp, X } from "lucide-react"
+import { AnimatePresence, motion, useMotionValue, useTransform, useReducedMotion, type Variants } from "motion/react"
 import { Badge } from "@/components/ui/badge"
 import { Skeleton } from "@/components/ui/skeleton"
 import { ServingsSelect } from "@/components/ServingsSelect"
@@ -17,6 +17,9 @@ import { CookingMode } from "@/components/CookingMode"
 import { useWakeLock } from "@/hooks/useWakeLock"
 import { toLanguage } from "@/i18n/languages"
 import { sharePath } from "@/lib/sharePath"
+import { FavoriteButton } from "@/components/FavoriteButton"
+import { markViewed } from "@/lib/savedRecipes"
+import type { RecipeDetail } from "@/types/recipe"
 
 const BASE = import.meta.env.BASE_URL
 
@@ -46,6 +49,87 @@ const staggerContainerReduced: Variants = {
   visible: {},
 }
 
+interface IngredientChecklistProps {
+  groups: RecipeDetail["ingredients"]
+  checked: Record<string, boolean>
+  onToggle: (key: string) => void
+  display: (item: string) => string
+  /** Unique per rendered copy: the list is shown in several places (tab, column, sheet). */
+  idPrefix: string
+}
+
+function IngredientChecklist({ groups, checked, onToggle, display, idPrefix }: IngredientChecklistProps) {
+  return (
+    <>
+    {groups.map((group, gi) => (
+      <div key={gi} className="mb-6">
+        {group.group && (
+          <h3 className="font-semibold text-[10px] uppercase tracking-widest text-muted-foreground mb-4">
+            {group.group}
+          </h3>
+        )}
+        <ul className="space-y-1.5">
+          {group.items.map((item, ii) => {
+            const key = `${gi}-${ii}`
+            const isChecked = !!checked[key]
+            const inputId = `${idPrefix}-${key}`
+            return (
+              <li key={key}>
+                <label
+                  htmlFor={inputId}
+                  className="flex items-center gap-4 py-2 cursor-pointer group"
+                >
+                  <input
+                    id={inputId}
+                    type="checkbox"
+                    checked={isChecked}
+                    onChange={() => onToggle(key)}
+                    className="sr-only peer"
+                  />
+                  <div
+                    aria-hidden="true"
+                    className={`h-6 w-6 rounded-lg shrink-0 flex items-center justify-center transition-colors ${
+                      isChecked
+                        ? "gradient-primary"
+                        : "bg-surface-high group-hover:bg-surface-container"
+                    } peer-focus-visible:ring-2 peer-focus-visible:ring-ring peer-focus-visible:ring-offset-2`}
+                  >
+                    {isChecked && (
+                      <svg
+                        className="h-3.5 w-3.5 text-primary-foreground"
+                        fill="none"
+                        viewBox="0 0 24 24"
+                        stroke="currentColor"
+                        strokeWidth={3}
+                      >
+                        <path
+                          strokeLinecap="round"
+                          strokeLinejoin="round"
+                          d="M5 13l4 4L19 7"
+                        />
+                      </svg>
+                    )}
+                  </div>
+                  <span
+                    className={`text-base transition-colors ${
+                      isChecked
+                        ? "line-through text-outline"
+                        : "text-foreground"
+                    }`}
+                  >
+                    {display(item)}
+                  </span>
+                </label>
+              </li>
+            )
+          })}
+        </ul>
+      </div>
+    ))}
+    </>
+  )
+}
+
 export function RecipePage() {
   const { slug } = useParams<{ slug: string }>()
   const navigate = useNavigate()
@@ -69,6 +153,11 @@ export function RecipePage() {
   const [speakingStep, setSpeakingStep] = useState<number | null>(null)
   const [cookingMode, setCookingMode] = useState(false)
   const cookingModeOpenerRef = useRef<HTMLElement | null>(null)
+  // Recipe whose ingredients sheet is open: another recipe starts with it closed
+  const [ingredientsSheetFor, setIngredientsSheetFor] = useState<string | null>(null)
+  const ingredientsSheetOpen = !!slug && ingredientsSheetFor === slug && activeTab === "instructions"
+  const closeIngredientsSheet = () => setIngredientsSheetFor(null)
+  const ingredientsSheetTitleId = useId()
   const ingredientsTabId = useId()
   const instructionsTabId = useId()
   const ingredientsPanelId = useId()
@@ -165,6 +254,22 @@ export function RecipePage() {
       script.remove()
     }
   }, [recipe, t])
+
+  // Remember the visit for the "recently viewed" row of the home page
+  const loadedSlug = rawRecipe?.slug
+  useEffect(() => {
+    if (loadedSlug) markViewed(loadedSlug)
+  }, [loadedSlug])
+
+  // Ingredients sheet: close on Escape, focus its close button when it opens
+  const sheetCloseRef = useRef<HTMLButtonElement>(null)
+  useEffect(() => {
+    if (!ingredientsSheetOpen) return
+    sheetCloseRef.current?.focus()
+    const onKey = (e: globalThis.KeyboardEvent) => { if (e.key === "Escape") setIngredientsSheetFor(null) }
+    window.addEventListener("keydown", onKey)
+    return () => window.removeEventListener("keydown", onKey)
+  }, [ingredientsSheetOpen])
 
   // Stop speech on unmount
   useEffect(() => () => { window.speechSynthesis?.cancel() }, [])
@@ -339,6 +444,11 @@ export function RecipePage() {
   const servingsFactor = servings / recipe.servings
   const setServings = (value: number) => setServingsChoice({ slug, value })
   const displayIngredient = (item: string) => scaleIngredient(item, servingsFactor, i18n.language)
+  const ingredientCount = recipe.ingredients.reduce((n, group) => n + group.items.length, 0)
+  const checkedCount = recipe.ingredients.reduce(
+    (n, group, gi) => n + group.items.filter((_, ii) => checkedIngredients[`${gi}-${ii}`]).length,
+    0
+  )
 
   const scaledNote = (withReset: boolean) => servingsFactor !== 1 && (
     <p className="mb-5 text-xs text-muted-foreground">
@@ -503,7 +613,7 @@ export function RecipePage() {
           </div>
         </motion.div>
 
-        {/* Cooking mode and share buttons, and print button on desktop only */}
+        {/* Cooking mode, favourite and share buttons, and print button on desktop only */}
         <div className="flex flex-wrap justify-center gap-3 mt-5 print:hidden">
           {recipe.steps.length > 0 && (
             <button
@@ -515,6 +625,7 @@ export function RecipePage() {
               {t("cookingMode.start")}
             </button>
           )}
+          <FavoriteButton slug={recipe.slug} title={recipe.title} variant="pill" />
           <button
             type="button"
             onClick={shareRecipe}
@@ -635,71 +746,7 @@ export function RecipePage() {
             )}
           </div>
           {scaledNote(true)}
-          {recipe.ingredients.map((group, gi) => (
-            <div key={gi} className="mb-6">
-              {group.group && (
-                <h3 className="font-semibold text-[10px] uppercase tracking-widest text-muted-foreground mb-4">
-                  {group.group}
-                </h3>
-              )}
-              <ul className="space-y-1.5">
-                {group.items.map((item, ii) => {
-                  const key = `${gi}-${ii}`
-                  const isChecked = !!checkedIngredients[key]
-                  const inputId = `${checkboxIdBase}-mobile-${key}`
-                  return (
-                    <li key={key}>
-                      <label
-                        htmlFor={inputId}
-                        className="flex items-center gap-4 py-2 cursor-pointer group"
-                      >
-                        <input
-                          id={inputId}
-                          type="checkbox"
-                          checked={isChecked}
-                          onChange={() => toggleIngredient(key)}
-                          className="sr-only peer"
-                        />
-                        <div
-                          aria-hidden="true"
-                          className={`h-6 w-6 rounded-lg shrink-0 flex items-center justify-center transition-colors ${
-                            isChecked
-                              ? "gradient-primary"
-                              : "bg-surface-high group-hover:bg-surface-container"
-                          } peer-focus-visible:ring-2 peer-focus-visible:ring-ring peer-focus-visible:ring-offset-2`}
-                        >
-                          {isChecked && (
-                            <svg
-                              className="h-3.5 w-3.5 text-primary-foreground"
-                              fill="none"
-                              viewBox="0 0 24 24"
-                              stroke="currentColor"
-                              strokeWidth={3}
-                            >
-                              <path
-                                strokeLinecap="round"
-                                strokeLinejoin="round"
-                                d="M5 13l4 4L19 7"
-                              />
-                            </svg>
-                          )}
-                        </div>
-                        <span
-                          className={`text-base transition-colors ${
-                            isChecked
-                              ? "line-through text-outline"
-                              : "text-foreground"
-                          }`}
-                        >
-                          {displayIngredient(item)}
-                        </span>
-                      </label>
-                    </li>
-                  )
-                })}
-              </ul>
-            </div>
-          ))}
+          <IngredientChecklist groups={recipe.ingredients} checked={checkedIngredients} onToggle={toggleIngredient} display={displayIngredient} idPrefix={`${checkboxIdBase}-mobile`} />
         </section>
       ) : (
         <section
@@ -775,71 +822,7 @@ export function RecipePage() {
             )}
           </div>
           {scaledNote(true)}
-          {recipe.ingredients.map((group, gi) => (
-            <div key={gi} className="mb-6">
-              {group.group && (
-                <h3 className="font-semibold text-[10px] uppercase tracking-widest text-muted-foreground mb-4">
-                  {group.group}
-                </h3>
-              )}
-              <ul className="space-y-1.5">
-                {group.items.map((item, ii) => {
-                  const key = `${gi}-${ii}`
-                  const isChecked = !!checkedIngredients[key]
-                  const inputId = `${checkboxIdBase}-desktop-${key}`
-                  return (
-                    <li key={key}>
-                      <label
-                        htmlFor={inputId}
-                        className="flex items-center gap-4 py-2 cursor-pointer group"
-                      >
-                        <input
-                          id={inputId}
-                          type="checkbox"
-                          checked={isChecked}
-                          onChange={() => toggleIngredient(key)}
-                          className="sr-only peer"
-                        />
-                        <div
-                          aria-hidden="true"
-                          className={`h-6 w-6 rounded-lg shrink-0 flex items-center justify-center transition-colors ${
-                            isChecked
-                              ? "gradient-primary"
-                              : "bg-surface-high group-hover:bg-surface-container"
-                          } peer-focus-visible:ring-2 peer-focus-visible:ring-ring peer-focus-visible:ring-offset-2`}
-                        >
-                          {isChecked && (
-                            <svg
-                              className="h-3.5 w-3.5 text-primary-foreground"
-                              fill="none"
-                              viewBox="0 0 24 24"
-                              stroke="currentColor"
-                              strokeWidth={3}
-                            >
-                              <path
-                                strokeLinecap="round"
-                                strokeLinejoin="round"
-                                d="M5 13l4 4L19 7"
-                              />
-                            </svg>
-                          )}
-                        </div>
-                        <span
-                          className={`text-base transition-colors ${
-                            isChecked
-                              ? "line-through text-outline"
-                              : "text-foreground"
-                          }`}
-                        >
-                          {displayIngredient(item)}
-                        </span>
-                      </label>
-                    </li>
-                  )
-                })}
-              </ul>
-            </div>
-          ))}
+          <IngredientChecklist groups={recipe.ingredients} checked={checkedIngredients} onToggle={toggleIngredient} display={displayIngredient} idPrefix={`${checkboxIdBase}-desktop`} />
         </section>
 
         {/* Instructions column */}
@@ -916,6 +899,22 @@ export function RecipePage() {
       {/* Step navigator sticky bar, mobile only, portaled to body */}
       {recipe.steps.length > 0 && createPortal(
         <div className="lg:hidden fixed bottom-0 inset-x-0 z-50 bg-background border-t border-border print:hidden">
+          {/* Ingredients handle: tap or pull up to check quantities without leaving the steps */}
+          {activeTab === "instructions" && !ingredientsSheetOpen && (
+            <motion.button
+              type="button"
+              onClick={() => setIngredientsSheetFor(slug ?? null)}
+              onPanEnd={(_, info) => { if (info.offset.y < -20) setIngredientsSheetFor(slug ?? null) }}
+              aria-haspopup="dialog"
+              className="absolute left-1/2 -translate-x-1/2 bottom-full -mb-px touch-none inline-flex items-center gap-1.5 rounded-t-2xl border border-b-0 border-border bg-background px-4 pt-1.5 pb-1 text-[10px] font-semibold uppercase tracking-widest text-muted-foreground hover:text-primary transition-colors cursor-pointer"
+            >
+              <ChevronUp className="h-3.5 w-3.5" />
+              {t("recipe.ingredients")}
+              {checkedCount > 0 && (
+                <span className="tabular-nums text-primary">{checkedCount}/{ingredientCount}</span>
+              )}
+            </motion.button>
+          )}
           {/* Progress bar */}
           <div className="h-1 bg-border">
             <div
@@ -972,6 +971,64 @@ export function RecipePage() {
           onSpeak={(i) => speakText(recipe.steps[i].text, i)}
           onStopSpeaking={stopSpeaking}
         />
+      )}
+
+      {/* Ingredients sheet, mobile only, opened from the step navigator */}
+      {createPortal(
+        <AnimatePresence>
+          {ingredientsSheetOpen && (
+            <div key="ingredients-sheet" className="lg:hidden fixed inset-0 z-[70] print:hidden">
+              <motion.div
+                className="absolute inset-0 bg-black/50"
+                role="presentation"
+                onClick={closeIngredientsSheet}
+                initial={{ opacity: 0 }}
+                animate={{ opacity: 1 }}
+                exit={{ opacity: 0 }}
+              />
+              <motion.div
+                role="dialog"
+                aria-modal="true"
+                aria-labelledby={ingredientsSheetTitleId}
+                className="absolute inset-x-0 bottom-0 flex max-h-[75dvh] flex-col rounded-t-3xl bg-background shadow-ambient"
+                initial={reduceMotion ? { opacity: 0 } : { y: "100%" }}
+                animate={reduceMotion ? { opacity: 1 } : { y: 0 }}
+                exit={reduceMotion ? { opacity: 0 } : { y: "100%" }}
+                transition={{ type: "spring", stiffness: 400, damping: 40 }}
+              >
+                {/* Header: pull down to close */}
+                <motion.div
+                  onPanEnd={(_, info) => { if (info.offset.y > 40) closeIngredientsSheet() }}
+                  className="shrink-0 touch-none px-6 pt-3 pb-3 border-b border-border"
+                >
+                  <div className="mx-auto mb-3 h-1.5 w-10 rounded-full bg-border" aria-hidden="true" />
+                  <div className="flex items-center justify-between gap-4">
+                    <h2 id={ingredientsSheetTitleId} className="font-headline text-xl font-bold tracking-[-0.02em] text-primary">
+                      {t("recipe.ingredients")}
+                      <span className="ml-2 text-xs font-body font-semibold text-muted-foreground tabular-nums">
+                        {checkedCount}/{ingredientCount}
+                      </span>
+                    </h2>
+                    <button
+                      ref={sheetCloseRef}
+                      type="button"
+                      onClick={closeIngredientsSheet}
+                      aria-label={t("common.close")}
+                      className="cursor-pointer inline-flex h-9 w-9 items-center justify-center rounded-full bg-surface-high text-muted-foreground hover:text-foreground transition-colors"
+                    >
+                      <X className="h-4 w-4" />
+                    </button>
+                  </div>
+                </motion.div>
+                <div className="overflow-y-auto overscroll-contain px-6 pt-4 pb-8">
+                  {scaledNote(false)}
+                  <IngredientChecklist groups={recipe.ingredients} checked={checkedIngredients} onToggle={toggleIngredient} display={displayIngredient} idPrefix={`${checkboxIdBase}-sheet`} />
+                </div>
+              </motion.div>
+            </div>
+          )}
+        </AnimatePresence>,
+        document.body
       )}
     </div>
   )

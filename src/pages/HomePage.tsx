@@ -9,6 +9,7 @@ import { useRecipeIndex } from "@/lib/recipeData"
 import { localizeRecipeSummary } from "@/lib/localize"
 import { useRecipeSearch } from "@/hooks/useRecipeSearch"
 import { SemanticSearchIndicator } from "@/components/SemanticSearchIndicator"
+import { RecentlyViewed } from "@/components/RecentlyViewed"
 import { useTranslation } from "react-i18next"
 import type { RecipeSummary } from "@/types/recipe"
 
@@ -163,6 +164,8 @@ export function HomePage() {
             ))}
           </div>
         ) : (
+          <>
+          <RecentlyViewed recipes={recipes} />
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
             {categories.map((cat, index) => (
               <AnimateInView key={cat.category} index={index}>
@@ -192,6 +195,7 @@ export function HomePage() {
               </AnimateInView>
             ))}
           </div>
+          </>
         )}
       </section>
     </div>

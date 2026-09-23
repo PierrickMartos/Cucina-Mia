@@ -6,6 +6,7 @@ import { Badge } from "@/components/ui/badge"
 import { localizeRecipeSummary } from "@/lib/localize"
 import { prefetchRecipe } from "@/lib/recipeData"
 import type { ReactNode } from "react"
+import { FavoriteButton } from "@/components/FavoriteButton"
 import type { RecipeSummary } from "@/types/recipe"
 
 const BASE = import.meta.env.BASE_URL
@@ -23,9 +24,11 @@ export function RecipeCard({ recipe: rawRecipe, children }: { recipe: RecipeSumm
   const totalTime = recipe.prepTime + recipe.cookTime
 
   return (
+    // The favourite button sits next to the link, not inside it: a button can't be nested in a link
+    <div className="relative group h-full">
     <Link
       to={`/recipe/${recipe.slug}`}
-      className="group"
+      className="block h-full"
       // Fetch the recipe as soon as the user shows intent, so the page opens without a spinner
       onPointerEnter={() => prefetchRecipe(recipe.slug)}
       onFocus={() => prefetchRecipe(recipe.slug)}
@@ -79,5 +82,7 @@ export function RecipeCard({ recipe: rawRecipe, children }: { recipe: RecipeSumm
         </CardContent>
       </Card>
     </Link>
+    <FavoriteButton slug={recipe.slug} title={recipe.title} className="absolute top-3 right-3 z-10" />
+    </div>
   )
 }
