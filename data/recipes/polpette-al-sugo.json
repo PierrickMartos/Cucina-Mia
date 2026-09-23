@@ -74,7 +74,8 @@
       "text": "Formez des boulettes de la taille de grosses noix en les serrant bien entre vos mains."
     },
     {
-      "text": "Dans une sauteuse, faites chauffer le beurre et l'huile d'olive à feu moyen. Faites dorer les boulettes environ 10 minutes en les retournant pour qu'elles soient dorées sur toute leur surface. Retirez-les avec une écumoire."
+      "text": "Dans une sauteuse, faites chauffer le beurre et l'huile d'olive à feu moyen. Faites dorer les boulettes environ 10 minutes en les retournant pour qu'elles soient dorées sur toute leur surface. Retirez-les avec une écumoire.",
+      "timers": [10]
     },
     {
       "text": "Dans la même sauteuse, versez une cuillère d'huile d'olive et augmentez le feu. Déglacez avec le vin en raclant les sucs de cuisson avec une spatule. Laissez presque complètement évaporer."
@@ -83,10 +84,12 @@
       "text": "Ajoutez l'oignon et l'ail, faites revenir jusqu'à légère coloration."
     },
     {
-      "text": "Versez le coulis de tomate, ajoutez les herbes, le sel et le poivre. Faites chauffer à feu moyen 3 à 4 minutes."
+      "text": "Versez le coulis de tomate, ajoutez les herbes, le sel et le poivre. Faites chauffer à feu moyen 3 à 4 minutes.",
+      "timers": [3]
     },
     {
-      "text": "Remettez les boulettes dans la sauce et enrobez-les bien. Baissez le feu, couvrez et laissez mijoter 15 à 20 minutes."
+      "text": "Remettez les boulettes dans la sauce et enrobez-les bien. Baissez le feu, couvrez et laissez mijoter 15 à 20 minutes.",
+      "timers": [15]
     },
     {
       "text": "Servez chaud avec des pâtes, des gnocchis, de la polenta ou des légumes de saison."
@@ -96,6 +99,12 @@
     "Vous pouvez mélanger bœuf et veau pour des boulettes encore plus tendres.",
     "Les boulettes se congèlent très bien dans leur sauce, idéal pour un batch cooking.",
     "Préparez la farce la veille et réfrigérez-la pour une texture et des saveurs améliorées."
+  ],
+  "related": [
+    "pasta-amatriciana",
+    "tomates-farcies",
+    "gnocchi-alla-sorrentina",
+    "spaghettis-alla-vittorio"
   ],
   "translations": {
     "en": {

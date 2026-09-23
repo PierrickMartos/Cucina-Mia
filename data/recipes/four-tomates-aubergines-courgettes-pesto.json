@@ -55,7 +55,8 @@
       "text": "Arroser d'huile d'olive, ajouter 2 pincées de fleur de sel et 1 cuillerée à café de miel liquide. Masser les légumes avec les mains pour bien les enrober."
     },
     {
-      "text": "Enfourner pendant 20 minutes, jusqu'à ce que les légumes soient tendres sous le couteau."
+      "text": "Enfourner pendant 20 minutes, jusqu'à ce que les légumes soient tendres sous le couteau.",
+      "timers": [20]
     },
     {
       "text": "Pendant ce temps, préparer le pesto express : mixer 15 feuilles de basilic avec 3 cuillerées à soupe d'huile d'olive et 1 cuillerée à soupe de vinaigre. Saler."
@@ -69,6 +70,12 @@
     "Le miel apporte une légère caramélisation et équilibre l'acidité des tomates.",
     "Le pesto peut être préparé à l'avance et conservé au réfrigérateur dans un bocal hermétique recouvert d'un filet d'huile d'olive.",
     "Pour une version végétalienne, remplacer la mozzarella par des noix de cajou ou simplement omettre le fromage."
+  ],
+  "related": [
+    "legumes-du-soleil-et-feta-rotis",
+    "tarte-tomate-mozza-basilic",
+    "flan-a-la-ratatouille",
+    "fusilloni-alla-norma"
   ],
   "translations": {
     "en": {

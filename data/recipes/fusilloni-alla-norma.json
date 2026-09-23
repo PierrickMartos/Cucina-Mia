@@ -43,13 +43,15 @@
   ],
   "steps": [
     {
-      "text": "Lavez les aubergines et coupez-les en cubes. Salez et laissez dégorger dans une passoire pendant 30 minutes, puis rincez et séchez-les avant de les faire frire."
+      "text": "Lavez les aubergines et coupez-les en cubes. Salez et laissez dégorger dans une passoire pendant 30 minutes, puis rincez et séchez-les avant de les faire frire.",
+      "timers": [30]
     },
     {
       "text": "Dans l'huile chaude, faites colorer les aubergines jusqu'à ce qu'elles soient bien tendres et dorées. Égouttez sur du papier absorbant et réservez au chaud."
     },
     {
-      "text": "Dans une poêle, faites revenir l'ail dans un filet d'huile d'olive. Ajoutez les tomates pelées concassées. Salez, poivrez. Laissez mijoter 20 minutes. À la toute fin, ajoutez le basilic. Ça doit sentir l'Italie jusqu'aux voisins."
+      "text": "Dans une poêle, faites revenir l'ail dans un filet d'huile d'olive. Ajoutez les tomates pelées concassées. Salez, poivrez. Laissez mijoter 20 minutes. À la toute fin, ajoutez le basilic. Ça doit sentir l'Italie jusqu'aux voisins.",
+      "timers": [20]
     },
     {
       "text": "Faites cuire les fusilloni al dente dans une casserole d'eau bouillante salée. Égouttez et mélangez dans la sauce. Mélangez et servez bien chaud !"
@@ -67,6 +69,12 @@
     "type": "image",
     "data": "images/recipes/fusilloni-alla-norma/source.jpg"
   },
+  "related": [
+    "pasta-lenticchie-melanzane-yogurt-tapenade",
+    "spaghettis-alla-vittorio",
+    "pesto-presto",
+    "gnocchi-alla-sorrentina"
+  ],
   "translations": {
     "en": {
       "title": "Fusilloni alla Norma",

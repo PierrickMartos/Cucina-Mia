@@ -53,10 +53,12 @@
       "text": "Dans le plat, mélanger intimement tous les ingrédients jusqu'à l'huile d'olive. Saler et poivrer généreusement (tu pourras rectifier l'assaisonnement avant le grill)."
     },
     {
-      "text": "Enfourner pour 20 minutes ou jusqu'à ce que les gnocchi soient bien dorés, légèrement croustillants et le brocoli bruni. Sortir le plat et allumer le grill, en laissant la grille au milieu du four."
+      "text": "Enfourner pour 20 minutes ou jusqu'à ce que les gnocchi soient bien dorés, légèrement croustillants et le brocoli bruni. Sortir le plat et allumer le grill, en laissant la grille au milieu du four.",
+      "timers": [20]
     },
     {
-      "text": "Ajouter l'ail écrasé et bien mélanger, pour permettre à la pulpe du citron rôti d'imprégner les gnocchi. Parsemer de pecorino râpé et passer sous le grill environ 2 minutes, le temps que ça gratine amoureusement."
+      "text": "Ajouter l'ail écrasé et bien mélanger, pour permettre à la pulpe du citron rôti d'imprégner les gnocchi. Parsemer de pecorino râpé et passer sous le grill environ 2 minutes, le temps que ça gratine amoureusement.",
+      "timers": [2]
     },
     {
       "text": "Servir immédiatement avec les bouts de citron, et éventuellement un filet de jus de citron supplémentaire pour plus de brio."
@@ -68,6 +70,12 @@
     "Ne pas oublier le piment : il donne du relief au plat. Il peut être remplacé par du paprika fumé.",
     "Veiller à étaler les ingrédients en une seule couche dans le plat : s'ils sont entassés, ils vont bouillir plutôt que rôtir.",
     "Utiliser un grand plat à four en métal si possible, assez grand pour tout étaler en une seule couche."
+  ],
+  "related": [
+    "gnocchi-champi-ail-au-four",
+    "gnocchi-crema-peperone",
+    "gnocchi-alla-sorrentina",
+    "four-patate-douce-carotte-lardons-pita"
   ],
   "translations": {
     "en": {

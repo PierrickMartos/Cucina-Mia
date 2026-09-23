@@ -40,7 +40,8 @@
   ],
   "steps": [
     {
-      "text": "Éplucher et couper les carottes en rondelles. Dans une casserole, couvrir d'eau à hauteur des carottes, bien saler et cuire environ 20 minutes jusqu'à ce qu'elles soient fondantes. Ajouter de l'eau si elle s'évapore trop vite."
+      "text": "Éplucher et couper les carottes en rondelles. Dans une casserole, couvrir d'eau à hauteur des carottes, bien saler et cuire environ 20 minutes jusqu'à ce qu'elles soient fondantes. Ajouter de l'eau si elle s'évapore trop vite.",
+      "timers": [20]
     },
     {
       "text": "Éplucher et couper la pomme en cubes. Placer dans le bol d'un mixeur avec les carottes cuites, un peu d'eau de cuisson et le gingembre en poudre. Mixer jusqu'à obtenir une crème soyeuse. Rectifier l'assaisonnement si besoin."
@@ -54,6 +55,12 @@
     "Servir frais pour une entrée fraîcheur, ou tiède pour un amuse-bouche plus réconfortant."
   ],
   "source": "Dans l'assiette d'une confinée",
+  "related": [
+    "creme-avocat-mousse-concombre",
+    "gaspacho-pasteque-tomates",
+    "gratin-butternut",
+    "rouleaux-de-printemps"
+  ],
   "translations": {
     "en": {
       "description": "A fresh and colorful carrot and apple cream, perfect for a cocktail appetizer or a light, indulgent starter.",

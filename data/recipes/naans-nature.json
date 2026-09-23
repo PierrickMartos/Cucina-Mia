@@ -36,22 +36,31 @@
   ],
   "steps": [
     {
-      "text": "Dans un saladier, délayez la levure de boulanger et le sucre avec 15 centilitres d'eau tiède. Ajoutez la moitié de la farine. Travaillez la pâte 5 minutes afin d'obtenir une préparation homogène. Couvrez le saladier avec un linge humide et laissez lever la pâte pendant 30 minutes."
+      "text": "Dans un saladier, délayez la levure de boulanger et le sucre avec 15 centilitres d'eau tiède. Ajoutez la moitié de la farine. Travaillez la pâte 5 minutes afin d'obtenir une préparation homogène. Couvrez le saladier avec un linge humide et laissez lever la pâte pendant 30 minutes.",
+      "timers": [5, 30]
     },
     {
-      "text": "Ajoutez dans le saladier le yaourt, la levure chimique, le reste de la farine et 3 cuillerées à soupe de ghee. Retravaillez la pâte pendant 5 minutes. Laissez à nouveau reposer pendant 30 minutes."
+      "text": "Ajoutez dans le saladier le yaourt, la levure chimique, le reste de la farine et 3 cuillerées à soupe de ghee. Retravaillez la pâte pendant 5 minutes. Laissez à nouveau reposer pendant 30 minutes.",
+      "timers": [5, 30]
     },
     {
       "text": "Partagez la pâte en 4 ou 8 parts. Étalez chaque part sur une planche farinée en lui donnant une forme de triangle."
     },
     {
-      "text": "Chauffez une poêle à feu vif. Faites cuire les naans 2 minutes de chaque côté. Déposez un peu de ghee sur chaque galette."
+      "text": "Chauffez une poêle à feu vif. Faites cuire les naans 2 minutes de chaque côté. Déposez un peu de ghee sur chaque galette.",
+      "timers": [2]
     }
   ],
   "originalSource": {
     "type": "image",
     "data": "images/recipes/naans-nature/source.jpg"
   },
+  "related": [
+    "naans-au-fromage",
+    "pain-pita-turbo",
+    "poulet-korma-riz-basmati",
+    "biryani-agneau"
+  ],
   "translations": {
     "en": {
       "title": "Plain Naans",

@@ -63,7 +63,8 @@
   ],
   "steps": [
     {
-      "text": "Laver le riz jusqu'à ce que l'eau devienne claire, puis l'égoutter et le mettre dans une casserole avec 440 ml d'eau. Laisser tremper 30 minutes, couvrir, porter à ébullition et laisser bouillir 2 à 3 minutes. Réduire le feu au minimum et cuire 12 minutes. Éteindre le feu et laisser reposer 10 minutes à couvert. Maintenir chaud jusqu'à utilisation."
+      "text": "Laver le riz jusqu'à ce que l'eau devienne claire, puis l'égoutter et le mettre dans une casserole avec 440 ml d'eau. Laisser tremper 30 minutes, couvrir, porter à ébullition et laisser bouillir 2 à 3 minutes. Réduire le feu au minimum et cuire 12 minutes. Éteindre le feu et laisser reposer 10 minutes à couvert. Maintenir chaud jusqu'à utilisation.",
+      "timers": [30, 2, 12, 10]
     },
     {
       "text": "Parer l'échine de porc en retirant nerfs, grasse et ossicini. La battre avec le dos d'un couteau pour l'attendrir et l'affiner."
@@ -78,7 +79,8 @@
       "text": "Émincer l'oignon. Laver et ciseler finement la ciboule (pour la décoration)."
     },
     {
-      "text": "Dans une casserole, faire suer l'oignon émincé dans l'huile d'arachide. Ajouter la sauce soja, le sucre, le mirin et l'eau tiède mélangée au dashi en poudre. Laisser mijoter 5 minutes."
+      "text": "Dans une casserole, faire suer l'oignon émincé dans l'huile d'arachide. Ajouter la sauce soja, le sucre, le mirin et l'eau tiède mélangée au dashi en poudre. Laisser mijoter 5 minutes.",
+      "timers": [5]
     },
     {
       "text": "Déposer les tranches de porc pané dans la casserole et recouvrir avec les 4 œufs entiers légèrement battus (1 à 2 œufs par portion). Couvrir et cuire à feu doux quelques minutes jusqu'à ce que les œufs soient juste pris."
@@ -91,6 +93,12 @@
     "Utilisez impérativement du panko (chapelure japonaise à gros grains) pour une panure ultra-croustillante.",
     "Vous pouvez remplacer le porc par des lamelles de bœuf pour obtenir un Gyudon, ou par du poulet pour un Oyakodon.",
     "Les œufs de finition doivent rester légèrement coulants : couvrez juste le temps qu'ils se raffermissent en surface."
+  ],
+  "related": [
+    "mayak-gyeran",
+    "porc-au-caramel",
+    "aubergines-braisees-au-porc-et-riz",
+    "poulet-gingembre-et-cajou"
   ],
   "translations": {
     "en": {

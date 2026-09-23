@@ -72,6 +72,12 @@
     "Vous pouvez remplacer le parmesan par de la burrata ou de la mozzarella fraîche pour une version plus gourmande.",
     "Bernard Guilhaudin, chef de La Tour d'Argent à Paris, prépare cette tartine pour ses amoureux."
   ],
+  "related": [
+    "tartine-oeufs-chorizo",
+    "avocado-toast",
+    "tartine-agneau-legumes",
+    "caprese-di-tuffoli"
+  ],
   "translations": {
     "en": {
       "title": "Tartine de l'Amour",

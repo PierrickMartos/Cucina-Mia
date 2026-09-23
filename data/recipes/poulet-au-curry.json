@@ -54,10 +54,12 @@
       "text": "Mixez dans un blender l'oignon grossièrement haché, le gingembre, l'ail et la pâte de curry jusqu'à obtenir une pâte homogène."
     },
     {
-      "text": "Dans une poêle avec un filet d'huile, faites cuire cette pâte à feu moyen 10 minutes, en ajoutant 1 à 2 c. à soupe d'eau. Remuez souvent jusqu'à ce que les oignons soient tendres."
+      "text": "Dans une poêle avec un filet d'huile, faites cuire cette pâte à feu moyen 10 minutes, en ajoutant 1 à 2 c. à soupe d'eau. Remuez souvent jusqu'à ce que les oignons soient tendres.",
+      "timers": [10]
     },
     {
-      "text": "Ajoutez le curcuma et le poulet coupé en morceaux. Laissez colorer 2 minutes, puis ajoutez la purée de tomate et le lait de coco. Laissez mijoter 10 à 15 minutes jusqu'à ce que le poulet soit cuit et la sauce épaissie. Rectifiez l'assaisonnement."
+      "text": "Ajoutez le curcuma et le poulet coupé en morceaux. Laissez colorer 2 minutes, puis ajoutez la purée de tomate et le lait de coco. Laissez mijoter 10 à 15 minutes jusqu'à ce que le poulet soit cuit et la sauce épaissie. Rectifiez l'assaisonnement.",
+      "timers": [2, 10]
     },
     {
       "text": "Pendant que le curry mijote, faites griller les noix de cajou à sec dans une petite poêle jusqu'à ce qu'elles soient dorées."
@@ -71,6 +73,12 @@
     "Dosez la pâte de curry selon la marque et vos goûts : elle peut être très piquante."
   ],
   "source": "Régal (Pauline Guillet)",
+  "related": [
+    "curry-legumes",
+    "poulet-korma-riz-basmati",
+    "poulet-tikka-massala",
+    "curry-paneng-poulet-feuilles-combawa"
+  ],
   "translations": {
     "en": {
       "title": "Chicken Curry",

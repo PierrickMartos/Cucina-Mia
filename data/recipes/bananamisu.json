@@ -42,10 +42,12 @@
   ],
   "steps": [
     {
-      "text": "Mettez 2 feuilles de gélatine à ramollir dans un bol d'eau froide pendant 15 minutes."
+      "text": "Mettez 2 feuilles de gélatine à ramollir dans un bol d'eau froide pendant 15 minutes.",
+      "timers": [15]
     },
     {
-      "text": "Égouttez-les à la main, mélangez-les dans une casserole avec 3 cuillerées à soupe de crème, puis faites fondre la gélatine à feu doux en mélangeant pendant 3 minutes."
+      "text": "Égouttez-les à la main, mélangez-les dans une casserole avec 3 cuillerées à soupe de crème, puis faites fondre la gélatine à feu doux en mélangeant pendant 3 minutes.",
+      "timers": [3]
     },
     {
       "text": "Montez les 100 g de crème liquide en crème fouettée bien ferme."
@@ -89,6 +91,12 @@
     "type": "image",
     "data": "images/recipes/bananamisu/source.jpg"
   },
+  "related": [
+    "panna-cotta-aux-framboises",
+    "verrines-tarte-citron-meringuee",
+    "coulant-au-chocolat",
+    "framboisier-facile-moelleux"
+  ],
   "translations": {
     "en": {
       "title": "Bananamisu with speculoos and banana",

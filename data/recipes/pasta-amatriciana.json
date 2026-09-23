@@ -75,6 +75,12 @@
     "Les bucatini sont la forme traditionnelle pour l'amatriciana, mais les rigatoni conviennent aussi."
   ],
   "source": "Kitchen class in Roma with Italian chef",
+  "related": [
+    "pasta-carbonara",
+    "spaghettis-alla-vittorio",
+    "fusilloni-alla-norma",
+    "polpette-al-sugo"
+  ],
   "translations": {
     "en": {
       "title": "Pasta all'Amatriciana",

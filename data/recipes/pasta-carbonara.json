@@ -64,6 +64,12 @@
     "Version végétarienne : remplacer le guanciale par des courgettes coupées en petits morceaux et dorées à l'huile d'olive."
   ],
   "source": "Kitchen class in Roma with Italian chef",
+  "related": [
+    "pasta-amatriciana",
+    "spaghettis-alla-vittorio",
+    "pates-chevre-speck-et-huile-de-truffe",
+    "fettuccine-funghi-porcini"
+  ],
   "translations": {
     "en": {
       "title": "Pasta alla Carbonara",

@@ -45,10 +45,12 @@
   ],
   "steps": [
     {
-      "text": "Porter à ébullition une casserole d'eau. Cuire les penne 11 à 13 minutes al dente. Égoutter, remettre dans la casserole, ajouter un filet d'huile d'olive, saler et poivrer."
+      "text": "Porter à ébullition une casserole d'eau. Cuire les penne 11 à 13 minutes al dente. Égoutter, remettre dans la casserole, ajouter un filet d'huile d'olive, saler et poivrer.",
+      "timers": [11]
     },
     {
-      "text": "Dans une sauteuse, faire chauffer un filet d'huile d'olive à feu moyen-vif. Émincer le poireau (retirer la base et le vert abîmé, inciser en 2 dans la longueur, rincer). Le faire revenir 7 minutes jusqu'à ce qu'il soit tendre, saler et poivrer."
+      "text": "Dans une sauteuse, faire chauffer un filet d'huile d'olive à feu moyen-vif. Émincer le poireau (retirer la base et le vert abîmé, inciser en 2 dans la longueur, rincer). Le faire revenir 7 minutes jusqu'à ce qu'il soit tendre, saler et poivrer.",
+      "timers": [7]
     },
     {
       "text": "Ouvrir les noix et les concasser grossièrement."
@@ -64,6 +66,12 @@
     "Choisir un chèvre frais au piment pour relever le plat, ou un chèvre nature pour une version plus douce.",
     "Ne pas trop cuire le poireau : il doit rester légèrement fondant et garder une belle couleur verte.",
     "Ajouter une poignée de roquette assaisonnée d'huile d'olive et de vinaigre pour une touche fraîche en accompagnement."
+  ],
+  "related": [
+    "pates-chevre-speck-et-huile-de-truffe",
+    "ravioli-prosciutto-caprino",
+    "gratin-ravioles-poireaux",
+    "fettuccine-funghi-porcini"
   ],
   "translations": {
     "en": {

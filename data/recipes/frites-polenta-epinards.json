@@ -49,22 +49,26 @@
       "text": "Préchauffer le four à 200°C. Préparer un plat rectangulaire légèrement huilé."
     },
     {
-      "text": "Porter le bouillon de légumes à ébullition dans une casserole. Verser la polenta en pluie en fouettant constamment. Baisser le feu et cuire 5 minutes en remuant sans arrêter."
+      "text": "Porter le bouillon de légumes à ébullition dans une casserole. Verser la polenta en pluie en fouettant constamment. Baisser le feu et cuire 5 minutes en remuant sans arrêter.",
+      "timers": [5]
     },
     {
       "text": "Hors du feu, ajouter le beurre, le parmesan râpé et mélanger jusqu'à homogénéité. Incorporer les épinards hachés et les oignons nouveaux. Saler et poivrer."
     },
     {
-      "text": "Verser la polenta dans le plat préparé et l'étaler sur environ 1,5 cm d'épaisseur. Laisser refroidir complètement à température ambiante (30 minutes minimum)."
+      "text": "Verser la polenta dans le plat préparé et l'étaler sur environ 1,5 cm d'épaisseur. Laisser refroidir complètement à température ambiante (30 minutes minimum).",
+      "timers": [30]
     },
     {
       "text": "Une fois la polenta bien ferme, démouler et découper en grosses frites régulières. Disposer les frites sur une plaque de cuisson recouverte de papier sulfurisé et arroser d'un filet d'huile d'olive."
     },
     {
-      "text": "Enfourner pour 30 minutes en retournant les frites à mi-cuisson, jusqu'à ce qu'elles soient bien dorées et croustillantes."
+      "text": "Enfourner pour 30 minutes en retournant les frites à mi-cuisson, jusqu'à ce qu'elles soient bien dorées et croustillantes.",
+      "timers": [30]
     },
     {
-      "text": "Pendant ce temps, faire revenir l'ail émincé dans un filet d'huile d'olive. Ajouter les épinards et les faire sauter à feu vif 2-3 minutes. Saler et poivrer. Servir les frites de polenta avec les épinards à l'ail."
+      "text": "Pendant ce temps, faire revenir l'ail émincé dans un filet d'huile d'olive. Ajouter les épinards et les faire sauter à feu vif 2-3 minutes. Saler et poivrer. Servir les frites de polenta avec les épinards à l'ail.",
+      "timers": [2]
     }
   ],
   "tips": [
@@ -72,6 +76,12 @@
     "Pour une texture encore plus croustillante, retourner les frites deux fois pendant la cuisson.",
     "Version enrichie : parsemer de parmesan râpé supplémentaire les 5 dernières minutes de cuisson.",
     "Les frites se conservent mal : les déguster immédiatement à la sortie du four."
+  ],
+  "related": [
+    "gratin-butternut",
+    "gnocchi-crema-peperone",
+    "legumes-du-soleil-et-feta-rotis",
+    "souffle-au-fromage"
   ],
   "translations": {
     "en": {

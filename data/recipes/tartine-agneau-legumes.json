@@ -45,7 +45,8 @@
       "text": "Commencer par couper en très fines lamelles la courgette, l'aubergine et la tomate."
     },
     {
-      "text": "Les ranger sur une plaque avec du papier sulfurisé et les faire cuire au four doux (180°C) pendant une demi-heure."
+      "text": "Les ranger sur une plaque avec du papier sulfurisé et les faire cuire au four doux (180°C) pendant une demi-heure.",
+      "timers": [30]
     },
     {
       "text": "Alterner une tomate, une aubergine et une courgette et ainsi de suite afin de réaliser le baïaldi de légumes."
@@ -67,6 +68,12 @@
     "Le baïaldi est une garniture provençale de légumes finement tranchés et superposés, cuits lentement au four : pensez à bien les couper très finement pour une cuisson homogène.",
     "L'agneau confit peut être préparé la veille : effilocher la viande et la conserver au réfrigérateur jusqu'au moment du dressage.",
     "Servir tiède permet de profiter au mieux des saveurs de l'agneau et des légumes fondants."
+  ],
+  "related": [
+    "tartine-de-lamour",
+    "tartine-oeufs-chorizo",
+    "tomates-farcies",
+    "biryani-agneau"
   ],
   "translations": {
     "en": {

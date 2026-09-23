@@ -52,13 +52,16 @@
       "text": "Pelez et coupez l'ananas en tranches régulières. Battez le beurre avec 200 g de sucre, puis ajoutez les œufs un par un. Incorporez la farine et les graines de la gousse de vanille."
     },
     {
-      "text": "Préchauffez le four à 180 °C (th. 6). Rangez des tranches d'ananas dans le fond des ramequins et des demi-tranches contre les parois. Répartissez la pâte dans chacun et enfournez environ 30 min (vérifiez la cuisson après 15-20 min avec la pointe d'un couteau)."
+      "text": "Préchauffez le four à 180 °C (th. 6). Rangez des tranches d'ananas dans le fond des ramequins et des demi-tranches contre les parois. Répartissez la pâte dans chacun et enfournez environ 30 min (vérifiez la cuisson après 15-20 min avec la pointe d'un couteau).",
+      "timers": [30]
     },
     {
-      "text": "Portez à ébullition 10 cl d'eau avec le rhum, le zeste râpé du citron vert, la cassonade et les feuilles de menthe. Aux premiers bouillons, éteignez le feu et laissez infuser 5 min. Filtrez et ajoutez le jus du citron vert."
+      "text": "Portez à ébullition 10 cl d'eau avec le rhum, le zeste râpé du citron vert, la cassonade et les feuilles de menthe. Aux premiers bouillons, éteignez le feu et laissez infuser 5 min. Filtrez et ajoutez le jus du citron vert.",
+      "timers": [5]
     },
     {
-      "text": "Démoulez les gâteaux sur une grille et arrosez-les de sirop. Laissez refroidir, puis réfrigérez 6 h avant de servir."
+      "text": "Démoulez les gâteaux sur une grille et arrosez-les de sirop. Laissez refroidir, puis réfrigérez 6 h avant de servir.",
+      "timers": [360]
     }
   ],
   "tips": [
@@ -67,6 +70,12 @@
     "Le repos de 6 h au réfrigérateur est essentiel : le sirop pénètre dans la génoise et développe tous les arômes."
   ],
   "source": "Prima magazine, p. 76",
+  "related": [
+    "crumble-ananas-mangue",
+    "tarte-tatin-mangue-espelette",
+    "clafoutis-mangue-curcuma-caramel-citronelle",
+    "framboisier-facile-moelleux"
+  ],
   "translations": {
     "en": {
       "title": "Pineapple Cakes with Mojito Syrup",
