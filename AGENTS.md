@@ -30,6 +30,12 @@ Recipe data is **static JSON** served from `public/data/recipes/`. Pages load it
 
 Photos are served as WebP only: run `npm run images:webp -- <path>` after adding JPG/PNG images (converts, resizes and updates JSON references).
 
+Home category covers (`public/images/categories/{name}.webp`, listed in `CATEGORY_IMAGES` in `HomePage.tsx` with their width) also have `{name}-640.webp` and `{name}-960.webp` variants for `srcset`: generate them when adding or replacing one.
+
+### Loading performance
+
+Only the home and recipe pages are in the main bundle; the other pages are lazy-loaded and prefetched when the browser is idle. Vendor libraries are split into long-cached chunks (`vite.config.ts`). `index.html` preloads the JSON the landing route needs (`index.json` or the recipe detail) while the JS downloads. Google Fonts load without blocking the first paint. The search documents and the lexical index are loaded or built on idle or on the first search, not at startup.
+
 ### Search
 
 Hybrid search, fully static (no backend), in `src/lib/search/` and exposed through the `useRecipeSearch` hook (used by `HomePage` and `RecipesPage`):

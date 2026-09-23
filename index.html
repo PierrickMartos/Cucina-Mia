@@ -13,7 +13,29 @@
     <title>Cucina Mia</title>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link href="https://fonts.googleapis.com/css2?family=Noto+Serif:wght@400;700;800&family=Manrope:wght@400;500;600;700&display=swap" rel="stylesheet" />
+    <!-- Fonts load without blocking the first paint (display=swap already shows fallback text meanwhile) -->
+    <link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Noto+Serif:wght@400;700;800&family=Manrope:wght@400;500;600;700&display=swap" />
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Serif:wght@400;700;800&family=Manrope:wght@400;500;600;700&display=swap" rel="stylesheet" media="print" onload="this.media='all'" />
+    <noscript><link href="https://fonts.googleapis.com/css2?family=Noto+Serif:wght@400;700;800&family=Manrope:wght@400;500;600;700&display=swap" rel="stylesheet" /></noscript>
+    <!-- Start fetching the data the first page needs while the JS bundle downloads.
+         Same request mode as fetch() in src/lib/recipeData.ts, so the preloaded response is reused. -->
+    <script>
+      (function () {
+        var base = "%BASE_URL%"
+        function preload(path) {
+          var link = document.createElement("link")
+          link.rel = "preload"
+          link.as = "fetch"
+          link.crossOrigin = "anonymous"
+          link.href = base + path
+          document.head.appendChild(link)
+        }
+        var hash = location.hash
+        var recipe = /^#\/recipe\/([^/?#]+)/.exec(hash)
+        if (recipe) preload("data/recipes/" + recipe[1] + ".json")
+        else if (/^(#\/?(recipes)?)?([?].*)?$/.test(hash)) preload("data/recipes/index.json")
+      })()
+    </script>
   </head>
   <body>
     <div id="root"></div>

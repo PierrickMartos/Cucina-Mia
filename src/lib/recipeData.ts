@@ -46,6 +46,11 @@ export function loadRecipe(slug: string): Promise<RecipeDetail | null> {
   return promise
 }
 
+/** Warms the cache ahead of a likely navigation (hover, focus, touch). Errors are ignored. */
+export function prefetchRecipe(slug: string) {
+  loadRecipe(slug).catch(() => {})
+}
+
 export function clearRecipeCache() {
   indexPromise = null
   indexValue = undefined
