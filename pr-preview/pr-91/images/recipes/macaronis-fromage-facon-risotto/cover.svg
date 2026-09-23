@@ -1,0 +1,183 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <defs>
+    <!-- Background radial gradient -->
+    <radialGradient id="mffr-bg" cx="50%" cy="55%" r="70%">
+      <stop offset="0%" stop-color="#3d2a14"/>
+      <stop offset="60%" stop-color="#2a1a0a"/>
+      <stop offset="100%" stop-color="#150d05"/>
+    </radialGradient>
+    <!-- Cast iron skillet gradient -->
+    <radialGradient id="mffr-skillet" cx="50%" cy="35%" r="60%">
+      <stop offset="0%" stop-color="#4a4a4a"/>
+      <stop offset="100%" stop-color="#1a1a1a"/>
+    </radialGradient>
+    <!-- Cheese sauce top gradient -->
+    <radialGradient id="mffr-sauce-top" cx="45%" cy="40%" r="55%">
+      <stop offset="0%" stop-color="#f5e8c0"/>
+      <stop offset="30%" stop-color="#e8a020"/>
+      <stop offset="70%" stop-color="#d49010"/>
+      <stop offset="100%" stop-color="#b87800"/>
+    </radialGradient>
+    <!-- Sauce inner glow -->
+    <radialGradient id="mffr-sauce-glow" cx="40%" cy="35%" r="45%">
+      <stop offset="0%" stop-color="#fff8e0" stop-opacity="0.7"/>
+      <stop offset="100%" stop-color="#e8a020" stop-opacity="0"/>
+    </radialGradient>
+    <!-- Steam gradient -->
+    <linearGradient id="mffr-steam1" x1="0%" y1="100%" x2="0%" y2="0%">
+      <stop offset="0%" stop-color="#ffffff" stop-opacity="0.3"/>
+      <stop offset="100%" stop-color="#ffffff" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="mffr-steam2" x1="0%" y1="100%" x2="0%" y2="0%">
+      <stop offset="0%" stop-color="#ffffff" stop-opacity="0.2"/>
+      <stop offset="100%" stop-color="#ffffff" stop-opacity="0"/>
+    </linearGradient>
+    <!-- Brown crust gradient -->
+    <radialGradient id="mffr-crust" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#c47820"/>
+      <stop offset="100%" stop-color="#8a4e00"/>
+    </radialGradient>
+    <!-- Handle gradient -->
+    <linearGradient id="mffr-handle" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#555555"/>
+      <stop offset="100%" stop-color="#1a1a1a"/>
+    </linearGradient>
+    <!-- Table surface gradient -->
+    <linearGradient id="mffr-table" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#3d2a14"/>
+      <stop offset="100%" stop-color="#1e1208"/>
+    </linearGradient>
+    <!-- Warm spotlight -->
+    <radialGradient id="mffr-spotlight" cx="50%" cy="40%" r="45%">
+      <stop offset="0%" stop-color="#ff9930" stop-opacity="0.15"/>
+      <stop offset="100%" stop-color="#ff9930" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="mffr-blur-light">
+      <feGaussianBlur stdDeviation="3"/>
+    </filter>
+    <filter id="mffr-steam-blur">
+      <feGaussianBlur stdDeviation="4"/>
+    </filter>
+  </defs>
+
+  <!-- Dark warm background -->
+  <rect width="800" height="600" fill="url(#mffr-bg)"/>
+
+  <!-- Warm spotlight overlay -->
+  <ellipse cx="400" cy="280" rx="320" ry="240" fill="url(#mffr-spotlight)"/>
+
+  <!-- Table surface -->
+  <rect x="0" y="440" width="800" height="160" fill="url(#mffr-table)" rx="0"/>
+  <line x1="0" y1="440" x2="800" y2="440" stroke="#5a3a1a" stroke-width="1" opacity="0.5"/>
+
+  <!-- Cast iron skillet body shadow -->
+  <ellipse cx="402" cy="438" rx="248" ry="38" fill="#000000" opacity="0.5"/>
+
+  <!-- Cast iron skillet handle (left) -->
+  <rect x="98" y="355" width="115" height="32" rx="16" fill="url(#mffr-handle)"/>
+  <rect x="100" y="357" width="111" height="14" rx="7" fill="#555555" opacity="0.4"/>
+
+  <!-- Cast iron skillet rim outer -->
+  <ellipse cx="400" cy="390" rx="248" ry="62" fill="#222222"/>
+  <!-- Cast iron skillet rim inner edge -->
+  <ellipse cx="400" cy="388" rx="238" ry="56" fill="#2e2e2e"/>
+  <!-- Cast iron skillet bottom/interior -->
+  <ellipse cx="400" cy="385" rx="230" ry="52" fill="url(#mffr-skillet)"/>
+
+  <!-- Cheese sauce base layer -->
+  <ellipse cx="400" cy="375" rx="215" ry="45" fill="#c07010"/>
+  <!-- Cheese sauce top surface -->
+  <ellipse cx="400" cy="368" rx="215" ry="45" fill="url(#mffr-sauce-top)"/>
+  <!-- Sauce inner highlight -->
+  <ellipse cx="385" cy="355" rx="140" ry="28" fill="url(#mffr-sauce-glow)"/>
+
+  <!-- Macaroni tubes visible in sauce - layer 1 (background) -->
+  <g opacity="0.85" fill="#e0c870" stroke="#c8a840" stroke-width="0.8">
+    <!-- Row 1 far back -->
+    <ellipse cx="300" cy="358" rx="12" ry="5.5"/>
+    <ellipse cx="330" cy="355" rx="12" ry="5.5"/>
+    <ellipse cx="360" cy="353" rx="12" ry="5.5"/>
+    <ellipse cx="390" cy="352" rx="12" ry="5.5"/>
+    <ellipse cx="420" cy="353" rx="12" ry="5.5"/>
+    <ellipse cx="450" cy="355" rx="12" ry="5.5"/>
+    <ellipse cx="480" cy="358" rx="12" ry="5.5"/>
+    <!-- Row 2 -->
+    <ellipse cx="285" cy="368" rx="12" ry="5.5"/>
+    <ellipse cx="315" cy="364" rx="12" ry="5.5"/>
+    <ellipse cx="345" cy="361" rx="12" ry="5.5"/>
+    <ellipse cx="375" cy="360" rx="12" ry="5.5"/>
+    <ellipse cx="405" cy="360" rx="12" ry="5.5"/>
+    <ellipse cx="435" cy="361" rx="12" ry="5.5"/>
+    <ellipse cx="465" cy="364" rx="12" ry="5.5"/>
+    <ellipse cx="495" cy="368" rx="12" ry="5.5"/>
+    <!-- Row 3 front -->
+    <ellipse cx="310" cy="376" rx="12" ry="5.5"/>
+    <ellipse cx="340" cy="372" rx="12" ry="5.5"/>
+    <ellipse cx="370" cy="370" rx="12" ry="5.5"/>
+    <ellipse cx="400" cy="369" rx="12" ry="5.5"/>
+    <ellipse cx="430" cy="370" rx="12" ry="5.5"/>
+    <ellipse cx="460" cy="372" rx="12" ry="5.5"/>
+    <ellipse cx="490" cy="376" rx="12" ry="5.5"/>
+  </g>
+
+  <!-- Macaroni tube holes (dark center) -->
+  <g opacity="0.7" fill="#8a6010">
+    <ellipse cx="300" cy="358" rx="5" ry="2.5"/>
+    <ellipse cx="330" cy="355" rx="5" ry="2.5"/>
+    <ellipse cx="360" cy="353" rx="5" ry="2.5"/>
+    <ellipse cx="390" cy="352" rx="5" ry="2.5"/>
+    <ellipse cx="420" cy="353" rx="5" ry="2.5"/>
+    <ellipse cx="450" cy="355" rx="5" ry="2.5"/>
+    <ellipse cx="480" cy="358" rx="5" ry="2.5"/>
+    <ellipse cx="285" cy="368" rx="5" ry="2.5"/>
+    <ellipse cx="315" cy="364" rx="5" ry="2.5"/>
+    <ellipse cx="345" cy="361" rx="5" ry="2.5"/>
+    <ellipse cx="375" cy="360" rx="5" ry="2.5"/>
+    <ellipse cx="405" cy="360" rx="5" ry="2.5"/>
+    <ellipse cx="435" cy="361" rx="5" ry="2.5"/>
+    <ellipse cx="465" cy="364" rx="5" ry="2.5"/>
+    <ellipse cx="495" cy="368" rx="5" ry="2.5"/>
+    <ellipse cx="310" cy="376" rx="5" ry="2.5"/>
+    <ellipse cx="340" cy="372" rx="5" ry="2.5"/>
+    <ellipse cx="370" cy="370" rx="5" ry="2.5"/>
+    <ellipse cx="400" cy="369" rx="5" ry="2.5"/>
+    <ellipse cx="430" cy="370" rx="5" ry="2.5"/>
+    <ellipse cx="460" cy="372" rx="5" ry="2.5"/>
+    <ellipse cx="490" cy="376" rx="5" ry="2.5"/>
+  </g>
+
+  <!-- Brown crust spots (slight browning on top) -->
+  <g opacity="0.6">
+    <ellipse cx="340" cy="358" rx="18" ry="7" fill="url(#mffr-crust)" transform="rotate(-15 340 358)"/>
+    <ellipse cx="460" cy="362" rx="15" ry="6" fill="url(#mffr-crust)" transform="rotate(10 460 362)"/>
+    <ellipse cx="400" cy="353" rx="20" ry="7" fill="url(#mffr-crust)" transform="rotate(5 400 353)"/>
+    <ellipse cx="310" cy="370" rx="12" ry="5" fill="url(#mffr-crust)" transform="rotate(-20 310 370)"/>
+    <ellipse cx="490" cy="372" rx="10" ry="4" fill="url(#mffr-crust)" transform="rotate(12 490 372)"/>
+  </g>
+
+  <!-- Cheese sauce pooling/dripping over macaroni -->
+  <ellipse cx="400" cy="380" rx="200" ry="35" fill="#e8a020" opacity="0.45"/>
+  <!-- Sauce sheen highlights -->
+  <ellipse cx="360" cy="363" rx="50" ry="10" fill="#fff8e0" opacity="0.25" transform="rotate(-5 360 363)"/>
+  <ellipse cx="450" cy="368" rx="30" ry="7" fill="#fff8e0" opacity="0.18" transform="rotate(8 450 368)"/>
+
+  <!-- Skillet rim highlight (top edge) -->
+  <ellipse cx="400" cy="336" rx="248" ry="62" fill="none" stroke="#555555" stroke-width="2" opacity="0.6"/>
+  <ellipse cx="400" cy="334" rx="246" ry="61" fill="none" stroke="#888888" stroke-width="1" opacity="0.3"/>
+
+  <!-- Steam wisps -->
+  <g filter="url(#mffr-steam-blur)">
+    <!-- Steam 1 -->
+    <path d="M350 330 Q345 310 355 290 Q365 270 355 250" stroke="url(#mffr-steam1)" stroke-width="10" fill="none" stroke-linecap="round"/>
+    <!-- Steam 2 -->
+    <path d="M400 325 Q393 300 405 278 Q415 255 405 232" stroke="url(#mffr-steam1)" stroke-width="12" fill="none" stroke-linecap="round"/>
+    <!-- Steam 3 -->
+    <path d="M450 330 Q458 308 447 285 Q436 262 448 240" stroke="url(#mffr-steam2)" stroke-width="9" fill="none" stroke-linecap="round"/>
+    <!-- Steam 4 smaller -->
+    <path d="M375 328 Q368 312 378 295 Q387 278 378 260" stroke="url(#mffr-steam2)" stroke-width="7" fill="none" stroke-linecap="round"/>
+    <path d="M425 328 Q433 310 422 293 Q413 276 423 258" stroke="url(#mffr-steam2)" stroke-width="7" fill="none" stroke-linecap="round"/>
+  </g>
+
+  <!-- Ambient warm glow under skillet -->
+  <ellipse cx="400" cy="442" rx="220" ry="18" fill="#e8a020" opacity="0.08" filter="url(#mffr-blur-light)"/>
+</svg>
