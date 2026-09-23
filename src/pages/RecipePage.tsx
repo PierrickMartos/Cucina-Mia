@@ -369,6 +369,7 @@ export function RecipePage() {
         <motion.img
           src={`${BASE}${recipe.images.cover}`}
           alt={recipe.title}
+          fetchPriority="high"
           style={{ y: heroY }}
           className="absolute inset-0 h-[115%] w-full object-cover object-center"
         />

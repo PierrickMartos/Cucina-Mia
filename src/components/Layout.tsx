@@ -4,6 +4,7 @@ import { useTranslation } from "react-i18next"
 import { motion, useReducedMotion } from "motion/react"
 import { useState, useRef, useEffect, useId } from "react"
 import { preloadMammaMia, sayMammaMia } from "@/lib/mammaMia"
+import { runWhenIdle } from "@/lib/utils"
 import { TimerTray } from "@/components/CookingTimers"
 
 const LANGUAGES = [
@@ -89,9 +90,8 @@ export function Layout() {
   const { t } = useTranslation()
   const reduceMotion = useReducedMotion()
 
-  useEffect(() => {
-    preloadMammaMia()
-  }, [])
+  // Not needed for the first paint: wait until the page has settled
+  useEffect(() => runWhenIdle(preloadMammaMia, 5000), [])
 
   const navItems = [
     { to: "/", icon: Home, label: t("nav.home") },
