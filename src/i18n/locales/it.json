@@ -17,7 +17,8 @@
   "home": {
     "subtitle": "Ricette di casa, della nonna, del nonno, della suocera, della mamma, del papà, da internet o da altrove",
     "title": "Buon appetito",
-    "searchPlaceholder": "Cerca una ricetta..."
+    "searchPlaceholder": "Cerca una ricetta...",
+    "pantryLink": "Cosa cucino con quello che ho?"
   },
   "about": {
     "heroTitle": "Il Cuore della",
@@ -188,5 +189,41 @@
     "photosBy": "Foto di",
     "and": "e",
     "from": "su"
+  },
+  "pantry": {
+    "title": "Cosa cucino?",
+    "subtitle": "Spunta quello che hai, la nonna trova le ricette",
+    "ingredients": "Ingredienti",
+    "searchPlaceholder": "Cerca un ingrediente...",
+    "searchLabel": "Cerca un ingrediente",
+    "selected_one": "{{count}} ingrediente",
+    "selected_other": "{{count}} ingredienti",
+    "clear": "Cancella tutto",
+    "seeResults_one": "Vedi {{count}} ricetta",
+    "seeResults_other": "Vedi le {{count}} ricette",
+    "noIngredient": "Nessun ingrediente corrisponde.",
+    "showMore": "+ altri {{count}}",
+    "showLess": "Meno",
+    "staplesHint": "Sale, pepe, olio e acqua sono dati per scontati in dispensa.",
+    "resultsTitle": "Ricette",
+    "results_one": "{{count}} ricetta",
+    "results_other": "{{count}} ricette",
+    "sortLabel": "Ordina",
+    "sortMatches": "Più ingredienti",
+    "sortMissing": "Meno spesa",
+    "pickPrompt": "Spunta almeno un ingrediente per vedere cosa puoi cucinare.",
+    "matched": "{{count}}/{{total}} ingredienti",
+    "complete": "Hai tutto, ai fornelli!",
+    "missing": "Manca: {{list}}",
+    "groups": {
+      "produce": "Verdure",
+      "fruit": "Frutta",
+      "herbs": "Erbe e aromi",
+      "dairy": "Uova e latticini",
+      "meat": "Carne e salumi",
+      "starches": "Pasta, riso, pane e farine",
+      "pantry": "Dispensa",
+      "spices": "Spezie"
+    }
   }
 }

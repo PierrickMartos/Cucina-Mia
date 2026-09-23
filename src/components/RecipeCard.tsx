@@ -5,6 +5,7 @@ import { Card, CardContent } from "@/components/ui/card"
 import { Badge } from "@/components/ui/badge"
 import { localizeRecipeSummary } from "@/lib/localize"
 import { prefetchRecipe } from "@/lib/recipeData"
+import type { ReactNode } from "react"
 import type { RecipeSummary } from "@/types/recipe"
 
 const BASE = import.meta.env.BASE_URL
@@ -15,7 +16,8 @@ function preloadImage(src: string) {
   img.src = src
 }
 
-export function RecipeCard({ recipe: rawRecipe }: { recipe: RecipeSummary }) {
+/** `children` is shown under the description (e.g. the pantry match summary). */
+export function RecipeCard({ recipe: rawRecipe, children }: { recipe: RecipeSummary; children?: ReactNode }) {
   const { t, i18n } = useTranslation()
   const recipe = localizeRecipeSummary(rawRecipe, i18n.language)
   const totalTime = recipe.prepTime + recipe.cookTime
@@ -60,6 +62,7 @@ export function RecipeCard({ recipe: rawRecipe }: { recipe: RecipeSummary }) {
           <p className="text-sm text-muted-foreground line-clamp-2 mb-4">
             {recipe.description}
           </p>
+          {children}
           <div className="flex items-center gap-4 text-xs text-outline">
             <span className="flex items-center gap-1">
               <Clock className="h-3.5 w-3.5" />

@@ -566,7 +566,14 @@ The script (`scripts/convert-images-to-webp.mjs`) converts `cover.jpg|png` (max 
    npm run validate:recipes
    ```
    This validates all recipe detail files and `index.json` against the TypeScript types, and checks that each ingredient line scales the same way in FR, EN and IT (a translation that lost its leading quantity fails). Fix any reported errors before proceeding.
-4. Run `npm run build` to confirm nothing breaks
+4. Check the "What can I make with…" ingredient catalog (`src/lib/pantry.ts`) recognises every ingredient:
+   ```bash
+   npx vitest run src/test/pantry.test.ts
+   ```
+   An unrecognised English ingredient line is listed with its slug: add an English pattern to the matching item
+   (plurals and accents fold, the longest pattern wins), or a new item with its fr/en/it labels. Salt, pepper,
+   cooking oils and water are staples and never counted.
+5. Run `npm run build` to confirm nothing breaks
 
 ## Step 9: Update the Search Lexicon
 

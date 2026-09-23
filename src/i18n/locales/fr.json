@@ -17,7 +17,8 @@
   "home": {
     "subtitle": "Recettes de grand-mère, de grand-père, de belle-mère, de maman, de papa, des internets ou d'ailleurs",
     "title": "Buon appetito",
-    "searchPlaceholder": "Chercher une recette..."
+    "searchPlaceholder": "Chercher une recette...",
+    "pantryLink": "Que cuisiner avec ce que j'ai ?"
   },
   "about": {
     "heroTitle": "Le Cœur de",
@@ -188,5 +189,41 @@
     "photosBy": "Photos de",
     "and": "et",
     "from": "sur"
+  },
+  "pantry": {
+    "title": "Qu'est-ce que je cuisine ?",
+    "subtitle": "Cochez ce que vous avez, la nonna trouve les recettes",
+    "ingredients": "Ingrédients",
+    "searchPlaceholder": "Chercher un ingrédient...",
+    "searchLabel": "Chercher un ingrédient",
+    "selected_one": "{{count}} ingrédient",
+    "selected_other": "{{count}} ingrédients",
+    "clear": "Tout effacer",
+    "seeResults_one": "Voir {{count}} recette",
+    "seeResults_other": "Voir les {{count}} recettes",
+    "noIngredient": "Aucun ingrédient ne correspond.",
+    "showMore": "+ {{count}} de plus",
+    "showLess": "Moins",
+    "staplesHint": "Sel, poivre, huile et eau sont supposés dans le placard.",
+    "resultsTitle": "Recettes",
+    "results_one": "{{count}} recette",
+    "results_other": "{{count}} recettes",
+    "sortLabel": "Trier",
+    "sortMatches": "Le plus d'ingrédients",
+    "sortMissing": "Le moins de courses",
+    "pickPrompt": "Cochez au moins un ingrédient pour voir ce que vous pouvez cuisiner.",
+    "matched": "{{count}}/{{total}} ingrédients",
+    "complete": "Vous avez tout, à vos fourneaux !",
+    "missing": "Il manque : {{list}}",
+    "groups": {
+      "produce": "Légumes",
+      "fruit": "Fruits",
+      "herbs": "Herbes et aromates",
+      "dairy": "Œufs et produits laitiers",
+      "meat": "Viandes et charcuterie",
+      "starches": "Pâtes, riz, pain et farines",
+      "pantry": "Épicerie",
+      "spices": "Épices"
+    }
   }
 }
