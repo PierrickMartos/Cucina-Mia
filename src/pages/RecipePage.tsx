@@ -15,6 +15,8 @@ import { StepTimerButtons } from "@/components/CookingTimers"
 import { RelatedRecipes } from "@/components/RelatedRecipes"
 import { CookingMode } from "@/components/CookingMode"
 import { useWakeLock } from "@/hooks/useWakeLock"
+import { toLanguage } from "@/i18n/languages"
+import { sharePath } from "@/lib/sharePath"
 
 const BASE = import.meta.env.BASE_URL
 
@@ -173,8 +175,9 @@ export function RecipePage() {
   const shareRecipe = async () => {
     if (!recipe) return
     // Static page carrying the recipe's link preview (built by scripts/vite-plugin-share-pages.ts):
-    // messaging apps never see the #/recipe/… part of the app URL
-    const url = new URL(`${BASE}r/${recipe.slug}/`, window.location.origin).href
+    // messaging apps never see the #/recipe/… part of the app URL. One per language, so the
+    // preview matches the language the recipe is read in
+    const url = new URL(`${BASE}${sharePath(recipe.slug, toLanguage(i18n.resolvedLanguage))}`, window.location.origin).href
     if (navigator.share) {
       try {
         await navigator.share({ title: recipe.title, text: recipe.description, url })
