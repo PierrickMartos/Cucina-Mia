@@ -71,7 +71,18 @@
     "stopReading": "Stop reading",
     "share": "Share",
     "shareRecipe": "Share recipe",
-    "linkCopied": "Link copied!"
+    "linkCopied": "Link copied!",
+    "related": "You might also like"
+  },
+  "timer": {
+    "start": "Start a {{duration}} timer",
+    "pause": "Pause timer",
+    "resume": "Resume timer",
+    "cancel": "Remove timer",
+    "addMinute": "Add 1 minute",
+    "stopAlarm": "Stop alarm",
+    "done": "Done!",
+    "tray": "Timers"
   },
   "filter": {
     "title": "Filter recipes",

@@ -61,7 +61,8 @@
       "text": "Disposer les légumes (patate douce, carottes, oignons) et les lardons sur une plaque de four. Arroser d'huile, saupoudrer de cumin et paprika. Ajouter éventuellement un filet de sirop d'érable. Mélanger pour bien enrober, saler et poivrer."
     },
     {
-      "text": "Enfourner à 200°C pendant 30 minutes, en retournant à mi-cuisson, jusqu'à ce que les légumes soient tendres et légèrement dorés."
+      "text": "Enfourner à 200°C pendant 30 minutes, en retournant à mi-cuisson, jusqu'à ce que les légumes soient tendres et légèrement dorés.",
+      "timers": [30]
     },
     {
       "text": "Pendant ce temps, préparer la sauce yaourt en mélangeant le yaourt, l'huile d'olive, le jus de citron et le sel."
@@ -74,6 +75,12 @@
     "Pour une version encore plus savoureuse, ajouter du tofu fumé en remplacement des lardons pour une option végétarienne.",
     "Le sirop d'érable apporte une légère note sucrée qui se marie très bien avec les épices.",
     "On peut aussi chauffer les pitas directement sur la plaque du four les 5 dernières minutes de cuisson."
+  ],
+  "related": [
+    "gnocchi-broccoli-al-forno",
+    "legumes-du-soleil-et-feta-rotis",
+    "gratin-butternut",
+    "pain-pita-turbo"
   ],
   "translations": {
     "en": {

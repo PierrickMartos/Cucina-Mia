@@ -49,10 +49,12 @@
       "text": "Préchauffer le four à 200°C."
     },
     {
-      "text": "Mélanger tous les ingrédients (gnocchi, champignons tranchés, gousses d'ail entières, ail en poudre, piment, huile d'olive) dans un très grand plat à four. Étaler en une seule couche. Enfourner pour 20 minutes. Les champignons doivent avoir bien coloré."
+      "text": "Mélanger tous les ingrédients (gnocchi, champignons tranchés, gousses d'ail entières, ail en poudre, piment, huile d'olive) dans un très grand plat à four. Étaler en une seule couche. Enfourner pour 20 minutes. Les champignons doivent avoir bien coloré.",
+      "timers": [20]
     },
     {
-      "text": "Ajouter l'ail écrasé et la crème liquide. Mélanger. Mettre 2 minutes sous le grill."
+      "text": "Ajouter l'ail écrasé et la crème liquide. Mélanger. Mettre 2 minutes sous le grill.",
+      "timers": [2]
     },
     {
       "text": "Mélanger à nouveau et écraser les gousses d'ail entières à la fourchette pour les incorporer à la sauce."
@@ -65,6 +67,12 @@
     "Utiliser un très grand plat : un plat surchargé donne des légumes bouillis plutôt que rôtis.",
     "Les gnocchi seront moelleux (et pas croustillants) grâce à l'humidité des champignons et de la crème : c'est l'effet recherché.",
     "On peut ajouter du fromage (bleu ou chèvre crémeux) avant le passage sous le grill pour plus de gourmandise."
+  ],
+  "related": [
+    "gnocchi-broccoli-al-forno",
+    "gnocchi-alla-sorrentina",
+    "fettuccine-funghi-porcini",
+    "gratin-ravioles-poireaux"
   ],
   "translations": {
     "en": {

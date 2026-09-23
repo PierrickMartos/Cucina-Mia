@@ -50,22 +50,26 @@
   ],
   "steps": [
     {
-      "text": "Faire tiédir le lait dans un bol. Ajouter la levure, couvrir et laisser reposer 10 minutes pour l'activer."
+      "text": "Faire tiédir le lait dans un bol. Ajouter la levure, couvrir et laisser reposer 10 minutes pour l'activer.",
+      "timers": [10]
     },
     {
       "text": "Dans le bol du robot ou un large récipient, mélanger la farine, le sucre cassonade et le sel. Ajouter ensuite les œufs, la vanille et le mélange lait et levure."
     },
     {
-      "text": "Pétrir pendant 5 minutes à vitesse lente. Incorporer le beurre mou en morceaux, puis pétrir à nouveau 10 minutes à vitesse lente."
+      "text": "Pétrir pendant 5 minutes à vitesse lente. Incorporer le beurre mou en morceaux, puis pétrir à nouveau 10 minutes à vitesse lente.",
+      "timers": [5, 10]
     },
     {
-      "text": "Couvrir le récipient d'un torchon et le placer dans un endroit tiède, ou dans un four chauffé à 30 °C. Laisser lever la pâte 1 h 30, elle doit doubler de volume."
+      "text": "Couvrir le récipient d'un torchon et le placer dans un endroit tiède, ou dans un four chauffé à 30 °C. Laisser lever la pâte 1 h 30, elle doit doubler de volume.",
+      "timers": [90]
     },
     {
       "text": "Dégazer la pâte puis ajouter le sucre perlé. Former de petits pâtons de 100 g chacun, légèrement arrondis."
     },
     {
-      "text": "Chauffer le gaufrier, thermostat 6 à 7 sur un gaufrier Frifri. Déposer un pâton et cuire 2 minutes 20, puis retourner et cuire la même durée. La gaufre est prête quand elle est bien caramélisée. La durée peut varier selon le matériel."
+      "text": "Chauffer le gaufrier, thermostat 6 à 7 sur un gaufrier Frifri. Déposer un pâton et cuire 2 minutes 20, puis retourner et cuire la même durée. La gaufre est prête quand elle est bien caramélisée. La durée peut varier selon le matériel.",
+      "timers": [2.33]
     },
     {
       "text": "Déposer la gaufre sur une grille pour qu'elle tiédisse. Poursuivre avec les autres pâtons."
@@ -86,6 +90,12 @@
     "type": "url",
     "data": "https://liliebakery.fr/gaufre-liegeoise/"
   },
+  "related": [
+    "crepes-chandeleur",
+    "pancakes-moelleux-sirop-erable",
+    "pain-au-lait-de-mamie-yvette",
+    "canneles"
+  ],
   "translations": {
     "en": {
       "title": "Crispy and Soft Liège Waffles",

@@ -59,7 +59,8 @@
       "text": "Mettre la gélatine à ramollir dans de l'eau froide. Faire bouillir 200 g de crème liquide avec 100 g de sucre et ajouter la gélatine égouttée. Bien mélanger et ajouter le reste de la crème froide."
     },
     {
-      "text": "Mouler en desserts individuels et mettre au réfrigérateur au moins 1 heure."
+      "text": "Mouler en desserts individuels et mettre au réfrigérateur au moins 1 heure.",
+      "timers": [60]
     },
     {
       "text": "Laver les framboises et les mixer au blender avec 15 g de sucre, ajouter de l'eau si nécessaire. Réserver au frais."
@@ -68,7 +69,8 @@
       "text": "Préchauffer le four à 200 °C. Mélanger l'ensemble des ingrédients des tuiles (sucre glace, farine, amandes hachées, jus d'orange et beurre fondu) sans trop travailler l'appareil et sans incorporer d'air."
     },
     {
-      "text": "Déposer des tas de pâte à tuile suffisamment espacés sur une plaque. Cuire au four pendant 3 min en restant attentif à la coloration."
+      "text": "Déposer des tas de pâte à tuile suffisamment espacés sur une plaque. Cuire au four pendant 3 min en restant attentif à la coloration.",
+      "timers": [3]
     },
     {
       "text": "À la sortie du four, laisser reposer quelques minutes puis mettre les tuiles à la forme désirée avant qu'elles ne refroidissent."
@@ -83,6 +85,12 @@
     "Travailler les tuiles le moins possible pour ne pas incorporer d'air dans la pâte."
   ],
   "source": "https://www.atelierdeschefs.fr/fr/recette/4222",
+  "related": [
+    "framboisier-facile-moelleux",
+    "verrines-tarte-citron-meringuee",
+    "bananamisu",
+    "coulant-au-chocolat"
+  ],
   "translations": {
     "en": {
       "title": "Panna Cotta with Raspberries and Crispy Tuile",

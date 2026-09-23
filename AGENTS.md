@@ -28,6 +28,8 @@ Recipe data is **static JSON** served from `public/data/recipes/`. Pages load it
 - `public/images/recipes/{slug}/cover.webp` + `web.webp` (photo) or `cover.svg` (illustration)
 - `public/images/recipes/{slug}/source.*`: original recipe source (kept in the repo, excluded from `dist/` by a Vite plugin)
 
+Recipe detail files also carry **step timers** (`steps[].timers`, minutes, base steps only: translated steps reuse them by position through `localizeRecipeDetail`) and **related recipes** (`related`, 3 to 4 slugs, candidates from `node scripts/suggest-related.mjs <slug>`). Both are maintained by the `add-recipe` skill and checked by `src/test/recipeValidation.test.ts`. Running timers live in a module-level store (`src/lib/timers.ts`, persisted in localStorage with their end time) and are shown in a floating tray on every page (`src/components/CookingTimers.tsx`).
+
 Photos are served as WebP only: run `npm run images:webp -- <path>` after adding JPG/PNG images (converts, resizes and updates JSON references).
 
 Home category covers (`public/images/categories/{name}.webp`, listed in `CATEGORY_IMAGES` in `HomePage.tsx` with their width) also have `{name}-640.webp` and `{name}-960.webp` variants for `srcset`: generate them when adding or replacing one.

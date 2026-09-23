@@ -66,7 +66,8 @@
   ],
   "steps": [
     {
-      "text": "Pour les aubergines, choisissez l'une des deux cuissons. Au four : taillez les aubergines en dés réguliers, disposez-les sur une plaque recouverte de papier cuisson, arrosez d'un filet d'huile d'olive, salez, puis enfournez à 200 °C pendant environ 25 minutes, jusqu'à ce qu'elles soient bien dorées. En friture : taillez les aubergines en dés, plongez-les dans une huile chaude jusqu'à belle coloration, puis égouttez-les soigneusement sur du papier absorbant avant de les saler légèrement."
+      "text": "Pour les aubergines, choisissez l'une des deux cuissons. Au four : taillez les aubergines en dés réguliers, disposez-les sur une plaque recouverte de papier cuisson, arrosez d'un filet d'huile d'olive, salez, puis enfournez à 200 °C pendant environ 25 minutes, jusqu'à ce qu'elles soient bien dorées. En friture : taillez les aubergines en dés, plongez-les dans une huile chaude jusqu'à belle coloration, puis égouttez-les soigneusement sur du papier absorbant avant de les saler légèrement.",
+      "timers": [25]
     },
     {
       "text": "Préparez la tapenade de tomates : mixez les tomates fraîches et confites avec l'huile d'olive, l'ail, le basilic, un peu de sel et un peu de poivre."
@@ -87,6 +88,12 @@
     "type": "image",
     "data": "images/recipes/pasta-lenticchie-melanzane-yogurt-tapenade/source.jpg"
   },
+  "related": [
+    "fusilloni-alla-norma",
+    "pesto-presto",
+    "caprese-di-tuffoli",
+    "gnocchi-aubergines-curry"
+  ],
   "translations": {
     "en": {
       "title": "Lentil Pasta with Eggplant, Yogurt and Tapenade",

@@ -52,10 +52,12 @@
       "text": "Peler et émincer l'oignon. Dans une sauteuse, faire revenir l'oignon dans la matière grasse, ajouter l'orge perlé et mouiller avec le champagne."
     },
     {
-      "text": "Dès que le champagne est évaporé, verser le bouillon en plusieurs fois jusqu'à ce que l'orge soit cuite. Ne jamais cesser de remuer. Compter 20 minutes de cuisson. À mi-cuisson, ajouter les champignons égouttés."
+      "text": "Dès que le champagne est évaporé, verser le bouillon en plusieurs fois jusqu'à ce que l'orge soit cuite. Ne jamais cesser de remuer. Compter 20 minutes de cuisson. À mi-cuisson, ajouter les champignons égouttés.",
+      "timers": [20]
     },
     {
-      "text": "Une fois l'orge cuite, ajouter le parmesan. Couvrir et laisser reposer 2 minutes hors du feu. Remuer et rectifier l'assaisonnement."
+      "text": "Une fois l'orge cuite, ajouter le parmesan. Couvrir et laisser reposer 2 minutes hors du feu. Remuer et rectifier l'assaisonnement.",
+      "timers": [2]
     },
     {
       "text": "Dresser dans les assiettes avec les pommes caramélisées, les noix concassées et les tranches de magret de canard séché."
@@ -68,6 +70,12 @@
     "L'orge perlé peut tremper 20 minutes dans l'eau froide avant cuisson pour accélérer le processus.",
     "Le champagne apporte une belle acidité ; un crémant ou un prosecco font tout aussi bien l'affaire.",
     "Pour une version plus gourmande, ajouter une noisette de beurre supplémentaire au moment de la mantecatura (hors du feu)."
+  ],
+  "related": [
+    "risotto-champignons-foie-gras-noisettes",
+    "risotto-roquette-jambon-mascarpone",
+    "risotto-a-la-milanaise",
+    "lentilles-corail-garam-massala"
   ],
   "translations": {
     "en": {

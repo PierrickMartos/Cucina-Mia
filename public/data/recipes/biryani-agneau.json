@@ -60,13 +60,16 @@
       "text": "Épluchez les oignons. Réservez la première couche de 2 oignons pour la garniture, puis émincez le reste très finement. Lavez et détaillez les tomates en dés. Pelez l'ail et le gingembre et écrasez-les avec le piment dans un mortier. Lavez et hachez finement les feuilles de coriandre et de menthe."
     },
     {
-      "text": "Dans un faitout, mettez à chauffer 2 cuillerées à soupe de ghee. Faites revenir les morceaux d'agneau 5 minutes. Ajoutez les oignons émincés et faites-les rissoler 5 minutes en mélangeant. Incorporez le mélange gingembre-piment-ail et faites cuire 2 minutes."
+      "text": "Dans un faitout, mettez à chauffer 2 cuillerées à soupe de ghee. Faites revenir les morceaux d'agneau 5 minutes. Ajoutez les oignons émincés et faites-les rissoler 5 minutes en mélangeant. Incorporez le mélange gingembre-piment-ail et faites cuire 2 minutes.",
+      "timers": [5, 5, 2]
     },
     {
-      "text": "Ajoutez le fenouil et la coriandre en poudre puis le yaourt, les tomates, le jus de citron, la menthe et la coriandre fraîches, le sel et 1 verre d'eau. Faites mijoter 30 à 35 minutes à feu moyen en remuant de temps en temps. Ajoutez alors le biryani masala. Rectifiez l'assaisonnement si nécessaire et poursuivez la cuisson 10 minutes environ, jusqu'à ce que l'eau soit évaporée."
+      "text": "Ajoutez le fenouil et la coriandre en poudre puis le yaourt, les tomates, le jus de citron, la menthe et la coriandre fraîches, le sel et 1 verre d'eau. Faites mijoter 30 à 35 minutes à feu moyen en remuant de temps en temps. Ajoutez alors le biryani masala. Rectifiez l'assaisonnement si nécessaire et poursuivez la cuisson 10 minutes environ, jusqu'à ce que l'eau soit évaporée.",
+      "timers": [30, 10]
     },
     {
-      "text": "Pendant ce temps, mettez à chauffer 2 cuillerées à soupe de ghee dans une grande casserole. Faites revenir le riz à feu moyen pendant 2 minutes en mélangeant jusqu'à ce que les grains soient légèrement transparents. Ajoutez 4 verres d'eau bouillante. Salez et faites cuire 20 minutes environ en remuant de temps en temps, jusqu'à ce que l'eau soit évaporée."
+      "text": "Pendant ce temps, mettez à chauffer 2 cuillerées à soupe de ghee dans une grande casserole. Faites revenir le riz à feu moyen pendant 2 minutes en mélangeant jusqu'à ce que les grains soient légèrement transparents. Ajoutez 4 verres d'eau bouillante. Salez et faites cuire 20 minutes environ en remuant de temps en temps, jusqu'à ce que l'eau soit évaporée.",
+      "timers": [2, 20]
     },
     {
       "text": "Préchauffez le four à 100 °C (thermostat 3-4). Coupez en fines lamelles la couche d'oignons réservée."
@@ -81,7 +84,8 @@
       "text": "Délayez le safran dans 1 cuillerée à soupe d'eau chaude."
     },
     {
-      "text": "Dans un plat allant au four, déposez une couche de riz. Arrosez uniformément avec quelques gouttes de safran. Disposez quelques raisins secs et noix de cajou. Étalez une couche de viande. Réservez quelques raisins secs et noix de cajou et recommencez jusqu'à épuisement des ingrédients en finissant par une couche de riz. Recouvrez le plat d'une feuille de papier aluminium et passez au four 5 minutes."
+      "text": "Dans un plat allant au four, déposez une couche de riz. Arrosez uniformément avec quelques gouttes de safran. Disposez quelques raisins secs et noix de cajou. Étalez une couche de viande. Réservez quelques raisins secs et noix de cajou et recommencez jusqu'à épuisement des ingrédients en finissant par une couche de riz. Recouvrez le plat d'une feuille de papier aluminium et passez au four 5 minutes.",
+      "timers": [5]
     },
     {
       "text": "Dressez dans un plat de service et décorez avec les raisins secs, les oignons et les noix de cajou réservés."
@@ -96,6 +100,12 @@
     "type": "image",
     "data": "images/recipes/biryani-agneau/source.jpg"
   },
+  "related": [
+    "poulet-korma-riz-basmati",
+    "poulet-tikka-massala",
+    "poulet-tandoori",
+    "naans-nature"
+  ],
   "translations": {
     "en": {
       "title": "Lamb Biryani",

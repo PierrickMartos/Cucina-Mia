@@ -10,7 +10,7 @@ This skill processes recipe submissions and adds them to the Cucina Mia cookbook
 - **Unstructured file issues** from the `recipe-submission-file.yml` template (uploaded file + recipe name)
 - **Unstructured URL issues** from the `recipe-submission-url.yml` template (webpage URL + recipe name)
 
-Each recipe needs: a detail JSON file, an entry in the index, an SVG cover illustration, and translations in French (base), English, and Italian.
+Each recipe needs: a detail JSON file, an entry in the index, an SVG cover illustration, and translations in French (base), English, and Italian. The detail JSON also carries **step timers** (Step 4b) and **related recipes** (Step 4c).
 
 ## Step 1: Fetch and Classify the Issue
 
@@ -76,7 +76,7 @@ Parse the issue body. Each field appears as `### Field Name` followed by the val
 | Servings | `servings` | Integer |
 | Tags | `tags` | Split on commas, trim, lowercase French array, see Tag Strategy below |
 | Ingredients | `ingredients` | See below |
-| Steps | `steps` | One per line -> `{"text": "..."}` |
+| Steps | `steps` | One per line -> `{"text": "..."}`, plus `timers` when the step has a duration (see Step 4b) |
 | Tips | `tips` | One per line, omit field if empty |
 | History | `history` | Optional anecdote or story about the recipe, omit field if empty |
 | Source | `source` | Omit field if empty |
@@ -364,6 +364,48 @@ Before writing files, check:
 5. **Numbers**: prepTime, cookTime, servings are non-negative integers
 6. **Translations**: both `en` and `it` translations are present with title, description, tags, ingredients, steps, tips (if tips exist in base), and history (if history exists in base)
 
+## Step 4b: Add Step Timers
+
+Every step that tells the cook to wait for a duration gets a `timers` array: one number per duration, **in minutes**, in the order they appear in the text. The recipe page turns each one into a tap-to-start countdown button (with an alarm), so timers must match the step text exactly.
+
+```json
+{ "text": "Plonger les œufs 5 min, puis 1 min dans l'eau froide.", "timers": [5, 1] }
+```
+
+Rules:
+- **Minutes**, decimals allowed for seconds: `30 secondes` -> `0.5`, `5 min 30` -> `5.5`, `2 minutes 20` -> `2.33`. Hours are converted: `1 h 30` -> `90`, `12 heures` -> `720`.
+- **Ranges use the lower bound** (the cook checks doneness, then adds time from the timer): `20 à 25 minutes` -> `20`.
+- Durations in words count too: `une quinzaine de minutes` -> `15`, `une demi-heure` -> `30`, `une minute` -> `1`.
+- Include cooking, simmering, baking, resting, soaking, marinating, rising, kneading and whisking durations, long ones included (marinade `6 heures` -> `360`).
+- **No timer** for relative or vague durations: `5 minutes avant la fin`, `2 minutes de moins que le paquet`, `selon le temps indiqué`, `quelques minutes`, `idéalement 24 h` (only the minimum `au moins 6 heures` gets one).
+- `3 minutes par face` / `2 minutes de chaque côté` -> one timer (`[3]`), the cook restarts it for the other side.
+- Omit `timers` on steps without a duration (no empty array). Values must be > 0 and ≤ 2880 (48 h).
+- Only on the **base (French) steps**. Translated steps keep `{"text": "..."}` only: they reuse the base timers by position, so every translation must have exactly the same number of steps as the base.
+
+`npm run validate:recipes` rejects timers in translations, misaligned translated steps and timers on a step whose text has no duration.
+
+## Step 4c: Pick Related Recipes
+
+Every recipe lists 3 to 4 similar recipes in `related` (slugs), shown as "Vous aimerez aussi" cards at the end of the recipe page.
+
+1. Get ranked candidates (shared tags and ingredients weighted by rarity, same category, sweet/savoury penalty). Run it **after** writing the detail JSON (Step 5), then add `related` to the file:
+   ```bash
+   node scripts/suggest-related.mjs {slug}
+   ```
+2. Pick 4 slugs by judgment, not blindly the top of the list. Prefer, in this order: the same dish family or technique (other curries, risottos, gnocchi, crêpes/gaufres/pancakes), the same cuisine, the same main ingredient, the same meal moment (brunch, apéro, dessert). Never mix sweet and savoury, and avoid four near-duplicates when a varied pick is as relevant.
+3. Place `related` in the detail JSON right before `translations`, one slug per line:
+   ```json
+   "related": [
+     "pasta-amatriciana",
+     "spaghettis-alla-vittorio",
+     "pates-chevre-speck-et-huile-de-truffe",
+     "fettuccine-funghi-porcini"
+   ],
+   ```
+4. **Link back from existing recipes**: check the new recipe's strongest matches (`node scripts/suggest-related.mjs <other-slug>` shows their current list). When the new recipe is a clearly better match than the weakest entry of 1 to 3 of them, replace that entry, keeping every list at 3 to 4 slugs. A new recipe should be linked from at least one existing recipe so it can be discovered.
+
+`npm run validate:recipes` checks that every recipe has 3 to 4 related slugs, all existing, without duplicates or self-reference.
+
 ## Step 5: Write the Recipe Detail JSON
 
 Create `public/data/recipes/{slug}.json` following the exact structure of existing recipes. Reference `public/data/recipes/pasta-carbonara.json` for format.
@@ -391,6 +433,8 @@ Key rules:
 - Include `originalSource` with `type` and `data`, see **Storing the Original Source** above. Place it after `source`, before `translations`.
 - Omit `group` from ingredient objects when there's no group
 - Omit `image` from step objects (not used)
+- Add `timers` on base steps with a duration (Step 4b), never in translated steps
+- Add `related` right before `translations` (Step 4c)
 - 2-space indentation, trailing newline
 - `translations` object at the end, with `en` and `it` keys
 
@@ -508,11 +552,13 @@ report.
 
 Summarize:
 - Recipe title, slug, category, difficulty
-- Number of ingredients, steps, tips
+- Number of ingredients, steps, tips, and steps with timers
+- Related recipes picked, and the existing recipes updated to link back to it
 - Languages: IT (base), EN, FR
 - Files created/modified:
   - `public/data/recipes/{slug}.json` (new)
   - `public/data/recipes/index.json` (updated)
+  - `public/data/recipes/{other-slug}.json` (if their `related` list now includes the new recipe)
   - `public/images/recipes/{slug}/cover.svg` (new)
   - `src/lib/search/query.ts` and `src/test/searchRealData.test.ts` (if the search lexicon was updated)
 - **Search**: lexicon changes and probe queries from Step 9, or "Search lexicon: no change needed"

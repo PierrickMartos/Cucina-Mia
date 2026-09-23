@@ -41,13 +41,15 @@
   ],
   "steps": [
     {
-      "text": "Dans un saladier, mélanger le yaourt avec la poudre tandoori, le jus de citron et 2 cuillères à soupe d'huile. Ajouter les morceaux de poulet et les mélanger à la préparation pour qu'ils absorbent le maximum de marinade. Couvrir et laisser reposer au minimum 6 heures au frais."
+      "text": "Dans un saladier, mélanger le yaourt avec la poudre tandoori, le jus de citron et 2 cuillères à soupe d'huile. Ajouter les morceaux de poulet et les mélanger à la préparation pour qu'ils absorbent le maximum de marinade. Couvrir et laisser reposer au minimum 6 heures au frais.",
+      "timers": [360]
     },
     {
       "text": "Préchauffer le four à 180 °C."
     },
     {
-      "text": "Dans un plat allant au four, verser le reste d'huile. Déposer les morceaux de poulet et la marinade. Enfourner et laisser cuire 35 minutes en retournant le poulet à mi-cuisson."
+      "text": "Dans un plat allant au four, verser le reste d'huile. Déposer les morceaux de poulet et la marinade. Enfourner et laisser cuire 35 minutes en retournant le poulet à mi-cuisson.",
+      "timers": [35]
     }
   ],
   "tips": [
@@ -59,6 +61,12 @@
     "type": "image",
     "data": "images/recipes/poulet-tandoori/source.jpg"
   },
+  "related": [
+    "poulet-tikka-massala",
+    "biryani-agneau",
+    "naans-au-fromage",
+    "poulet-korma-riz-basmati"
+  ],
   "translations": {
     "en": {
       "title": "Tandoori Chicken",

@@ -68,7 +68,8 @@
       "text": "Caramélisez un moule à manqué : posez le moule contenant les morceaux de sucre mouillés d'eau sur feu doux en surveillant la cuisson. Dès que le sucre prend une coloration dorée, retirez du feu et inclinez le moule de manière à ce que le caramel le couvre complètement."
     },
     {
-      "text": "Versez la préparation dans le moule caramélisé et faites cuire au four préchauffé à 200 °C (th. 6-7) pendant une vingtaine de minutes."
+      "text": "Versez la préparation dans le moule caramélisé et faites cuire au four préchauffé à 200 °C (th. 6-7) pendant une vingtaine de minutes.",
+      "timers": [20]
     },
     {
       "text": "Le gâteau est cuit lorsque la lame d'un couteau en sort sèche. Démoulez sur un plat et servez nature ou avec une crème anglaise."
@@ -83,6 +84,12 @@
     "type": "image",
     "data": "images/recipes/gateau-de-semoule/source.jpg"
   },
+  "related": [
+    "pain-au-lait-de-mamie-yvette",
+    "crepes-chandeleur",
+    "gateau-de-savoie",
+    "canneles"
+  ],
   "translations": {
     "en": {
       "title": "Grandma's Semolina Cake",

@@ -46,19 +46,22 @@
   ],
   "steps": [
     {
-      "text": "Réhydrater les champignons dans de l'eau chaude pendant 20 minutes. Les égoutter et les réserver."
+      "text": "Réhydrater les champignons dans de l'eau chaude pendant 20 minutes. Les égoutter et les réserver.",
+      "timers": [20]
     },
     {
       "text": "Peler l'oignon et l'émincer finement. Dans une sauteuse, faire revenir l'oignon dans la matière grasse. Ajouter le riz et, lorsqu'il est devenu translucide, mouiller avec le vin blanc. Laisser le vin s'évaporer en mélangeant régulièrement."
     },
     {
-      "text": "Mouiller avec une première louche de bouillon. Dès que celui-ci a été absorbé, verser le reste du bouillon de poulet en plusieurs fois jusqu'à ce que le riz soit parfaitement cuit. Compter environ 18 minutes de cuisson. Ne cesser pas de remuer."
+      "text": "Mouiller avec une première louche de bouillon. Dès que celui-ci a été absorbé, verser le reste du bouillon de poulet en plusieurs fois jusqu'à ce que le riz soit parfaitement cuit. Compter environ 18 minutes de cuisson. Ne cesser pas de remuer.",
+      "timers": [18]
     },
     {
       "text": "10 minutes avant la fin de la cuisson, ajouter les champignons égouttés et poursuivre la cuisson en remuant régulièrement."
     },
     {
-      "text": "Une fois le riz cuit, ajouter le parmesan et les noisettes concassées hors du feu. Remuer et rectifier l'assaisonnement si nécessaire. Couvrir et laisser reposer 2 minutes."
+      "text": "Une fois le riz cuit, ajouter le parmesan et les noisettes concassées hors du feu. Remuer et rectifier l'assaisonnement si nécessaire. Couvrir et laisser reposer 2 minutes.",
+      "timers": [2]
     },
     {
       "text": "Ajouter le foie gras en petits morceaux sur le risotto chaud au moment de servir. Déguster bien chaud."
@@ -69,6 +72,12 @@
     "Le bouillon doit être chaud lorsqu'on l'ajoute au risotto pour ne pas stopper la cuisson.",
     "Le foie gras se fond doucement dans le risotto chaud : inutile de le cuire séparément.",
     "Pour une version plus légère, remplacer le foie gras par des lamelles de magret fumé."
+  ],
+  "related": [
+    "orgesotto-pommes-magret-canard",
+    "risotto-a-la-milanaise",
+    "fettuccine-funghi-porcini",
+    "risotto-roquette-jambon-mascarpone"
   ],
   "translations": {
     "en": {

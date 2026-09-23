@@ -46,7 +46,8 @@
   ],
   "steps": [
     {
-      "text": "Préparez la pâte brisée. Coupez le beurre en morceaux. Formez un cône avec la farine et le sel, creusez un puits au centre et mettez-y les morceaux de beurre. Travaillez le tout rapidement du bout des doigts, puis avec les paumes. Mouillez petit à petit la pâte avec l'eau tiède et pétrissez pour obtenir une consistance souple. Formez une boule, enveloppez-la de film alimentaire et laissez reposer au moins 1 heure au réfrigérateur."
+      "text": "Préparez la pâte brisée. Coupez le beurre en morceaux. Formez un cône avec la farine et le sel, creusez un puits au centre et mettez-y les morceaux de beurre. Travaillez le tout rapidement du bout des doigts, puis avec les paumes. Mouillez petit à petit la pâte avec l'eau tiède et pétrissez pour obtenir une consistance souple. Formez une boule, enveloppez-la de film alimentaire et laissez reposer au moins 1 heure au réfrigérateur.",
+      "timers": [60]
     },
     {
       "text": "Préparez la garniture. Épluchez les mangues et détaillez-les en grosses tranches, en recueillant le jus dans un bol. Réservez les trois quarts des tranches (les plus régulières). Réduisez le reste avec le jus en purée à l'aide d'un mixeur. Réservez."
@@ -58,7 +59,8 @@
       "text": "Dans une casserole, faites fondre la cassonade et le beurre. Versez la purée de mangue et le vinaigre de xérès. Faites chauffer jusqu'à obtenir un jus épais, presque sirupeux."
     },
     {
-      "text": "Pendant ce temps, étalez la pâte sur une épaisseur de 4 mm environ. Beurrez un moule de 26 à 28 cm de diamètre. Versez le jus sirupeux au fond du moule. Disposez les tranches de mangue dessus. Saupoudrez de piment d'Espelette. Recouvrez de la pâte brisée. Soudez les bords sur les parois du plat en pressant avec vos doigts mouillés. Enfournez pour 25 minutes."
+      "text": "Pendant ce temps, étalez la pâte sur une épaisseur de 4 mm environ. Beurrez un moule de 26 à 28 cm de diamètre. Versez le jus sirupeux au fond du moule. Disposez les tranches de mangue dessus. Saupoudrez de piment d'Espelette. Recouvrez de la pâte brisée. Soudez les bords sur les parois du plat en pressant avec vos doigts mouillés. Enfournez pour 25 minutes.",
+      "timers": [25]
     },
     {
       "text": "À la sortie du four, posez un plat sur le moule et retournez le tout. Retirez délicatement le moule. Servez tiède avec une cuillerée à soupe de crème fouettée."
@@ -67,6 +69,12 @@
   "tips": [
     "La pâte brisée doit reposer au minimum 1 heure au réfrigérateur (non compris dans le temps de préparation).",
     "Choisissez des mangues bien mûres et fermes pour obtenir de belles tranches qui se tiennent à la cuisson."
+  ],
+  "related": [
+    "clafoutis-mangue-curcuma-caramel-citronelle",
+    "crumble-ananas-mangue",
+    "gateaux-ananas-mojito",
+    "verrines-tarte-citron-meringuee"
   ],
   "translations": {
     "en": {
