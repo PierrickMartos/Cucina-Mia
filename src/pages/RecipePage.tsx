@@ -171,7 +171,9 @@ export function RecipePage() {
 
   const shareRecipe = async () => {
     if (!recipe) return
-    const url = window.location.href
+    // Static page carrying the recipe's link preview (built by scripts/vite-plugin-share-pages.ts):
+    // messaging apps never see the #/recipe/… part of the app URL
+    const url = new URL(`${BASE}r/${recipe.slug}/`, window.location.origin).href
     if (navigator.share) {
       try {
         await navigator.share({ title: recipe.title, text: recipe.description, url })

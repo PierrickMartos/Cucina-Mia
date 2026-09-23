@@ -32,6 +32,14 @@ Photos are served as WebP only: run `npm run images:webp -- <path>` after adding
 
 Home category covers (`public/images/categories/{name}.webp`, listed in `CATEGORY_IMAGES` in `HomePage.tsx` with their width) also have `{name}-640.webp` and `{name}-960.webp` variants for `srcset`: generate them when adding or replacing one.
 
+### Share link previews
+
+Crawlers (WhatsApp, Slack, Messenger, iMessage…) never run JS nor see the URL hash, so the share button hands out `{base}r/{slug}/` instead of `#/recipe/{slug}`. At build time `scripts/vite-plugin-share-pages.ts` writes, for every recipe in `index.json`, `dist/r/{slug}/index.html` (Open Graph/Twitter tags rendered by `scripts/share-page.ts`, then a JS-only redirect to the app) and a 1200×630 JPEG `dist/r/{slug}/og.jpg` from the recipe photo; it also adds the tags to the home page (`dist/og.jpg`). Absolute URLs use `VITE_SITE_ORIGIN` (default `https://pierrickmartos.github.io`). In dev, `/r/{slug}/` redirects to the recipe. Nothing to do when adding a recipe.
+
+### Share link previews
+
+Crawlers (WhatsApp, Slack, Messenger, iMessage…) never run JS nor see the URL hash, so the share button hands out `{base}r/{slug}/` instead of `#/recipe/{slug}`. At build time `scripts/vite-plugin-share-pages.ts` writes, for every recipe in `index.json`, `dist/r/{slug}/index.html` (Open Graph/Twitter tags rendered by `scripts/share-page.ts`, then a JS-only redirect to the app) and a 1200×630 JPEG `dist/r/{slug}/og.jpg` from the recipe photo; it also adds the tags to the home page (`dist/og.jpg`). Absolute URLs use `VITE_SITE_ORIGIN` (default `https://pierrickmartos.github.io`). In dev, `/r/{slug}/` redirects to the recipe. Nothing to do when adding a recipe.
+
 ### Loading performance
 
 Only the home and recipe pages are in the main bundle; the other pages are lazy-loaded and prefetched when the browser is idle. Vendor libraries are split into long-cached chunks (`vite.config.ts`). `index.html` preloads the JSON the landing route needs (`index.json` or the recipe detail) while the JS downloads. Google Fonts load without blocking the first paint. The search documents and the lexical index are loaded or built on idle or on the first search, not at startup.

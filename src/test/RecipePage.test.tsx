@@ -178,7 +178,7 @@ describe("RecipePage", () => {
       expect(share).toHaveBeenCalledWith({
         title: "Pasta alla Carbonara",
         text: "La vera carbonara romana.",
-        url: window.location.href,
+        url: `${window.location.origin}${import.meta.env.BASE_URL}r/pasta-carbonara/`,
       })
     })
 
@@ -189,7 +189,7 @@ describe("RecipePage", () => {
       Object.defineProperty(navigator, "clipboard", { value: { writeText }, configurable: true })
       renderRecipePage("pasta-carbonara")
       await user.click(await screen.findByRole("button", { name: "Share recipe" }))
-      expect(writeText).toHaveBeenCalledWith(window.location.href)
+      expect(writeText).toHaveBeenCalledWith(`${window.location.origin}${import.meta.env.BASE_URL}r/pasta-carbonara/`)
       expect(await screen.findByRole("status")).toHaveTextContent("Link copied!")
     })
   })
