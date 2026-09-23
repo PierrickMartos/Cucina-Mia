@@ -26,6 +26,13 @@ body:
     validations:
       required: true
 
+  - type: input
+    id: servings
+    attributes:
+      label: Servings (optional)
+      description: "How many people (or pieces) the recipe makes, if you know it. We'll read it from the recipe otherwise. Visitors can then scale the quantities up or down."
+      placeholder: "4"
+
   - type: textarea
     id: cover_image
     attributes:

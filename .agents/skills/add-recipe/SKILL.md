@@ -12,6 +12,8 @@ This skill processes recipe submissions and adds them to the Cucina Mia cookbook
 
 Each recipe needs: a detail JSON file, an entry in the index, an SVG cover illustration, and translations in French (base), English, and Italian.
 
+The recipe page has a **servings dropdown** that rescales the ingredient quantities in the browser (`src/lib/scaleIngredient.ts`). Ingredients stay plain strings, so the only requirements are a correct `servings` value and quantities written the way the scaler reads them, see **Ingredient Quantities & Servings** below.
+
 ## Step 1: Fetch and Classify the Issue
 
 If given a GitHub issue number, fetch it:
@@ -21,8 +23,8 @@ gh issue view <number> --json title,body,labels
 
 Classify based on labels and body content:
 - **Structured**: has `recipe-submission` label but NOT `needs-formatting`. Body has form sections like `### Recipe Title`, `### Slug`, `### Category`, etc.
-- **Unstructured (file)**: has both `recipe-submission` and `needs-formatting` labels. Body has `### Recipe Name`, `### Recipe File` (uploaded file URL), optional `### Recipe Image` and `### Notes`.
-- **Unstructured (URL)**: has both `recipe-submission` and `needs-formatting` labels. Body has `### Recipe Name`, `### Recipe URL` (webpage link), optional `### Recipe Image` and `### Notes`.
+- **Unstructured (file)**: has both `recipe-submission` and `needs-formatting` labels. Body has `### Recipe Name`, `### Recipe File` (uploaded file URL), optional `### Servings (optional)`, `### Recipe Image` and `### Notes`.
+- **Unstructured (URL)**: has both `recipe-submission` and `needs-formatting` labels. Body has `### Recipe Name`, `### Recipe URL` (webpage link), optional `### Servings (optional)`, `### Recipe Image` and `### Notes`.
 
 If the user provides recipe content directly (not via issue), treat it as unstructured input and extract the data.
 
@@ -73,7 +75,7 @@ Parse the issue body. Each field appears as `### Field Name` followed by the val
 | Difficulty | `difficulty` | One of: Facile, Medio, Difficile |
 | Prep Time (minutes) | `prepTime` | Integer |
 | Cook Time (minutes) | `cookTime` | Integer |
-| Servings | `servings` | Integer |
+| Servings | `servings` | Integer, the number of portions (or pieces) the ingredient quantities are written for. Keep the submitted value, never normalize it to 4 |
 | Tags | `tags` | Split on commas, trim, lowercase French array, see Tag Strategy below |
 | Ingredients | `ingredients` | See below |
 | Steps | `steps` | One per line -> `{"text": "..."}` |
@@ -112,6 +114,34 @@ Single lowercase words or hyphenated compounds only. No accents in tag slugs (us
 - Lines without a group header go in a single object without the `group` field
 - Empty lines are skipped
 - When an ingredient contains pecorino, parmesan/parmigiano, or olive oil (in any language), append `(Quanto basta)` after the ingredient text. Example: `"50 g de pecorino râpé (Quanto basta)"`
+- Rewrite each line so its quantity comes first, see **Ingredient Quantities & Servings** below
+
+### Ingredient Quantities & Servings
+
+Visitors pick the number of servings in a dropdown and every ingredient quantity is multiplied by `chosen / servings` at display time. The scaler reads free text, so write quantities in a form it understands:
+
+**What gets scaled:**
+- The quantity at the **start** of the line, optionally after `environ`/`about`/`circa`/`da`: `4 œufs`, `200 g de farine`, `680g de courge`, `1,5 l de bouillon`, `1/2 citron`, `1 1/2 c. à soupe`, `½ ananas`
+- Both ends of a range: `6 à 8 feuilles`, `3-4 cucchiai`, `2 ou 3 tomates`, `1/2 to 1 tsp`
+- Metric weights/volumes later in the line (`kg`, `g`, `mg`, `l`, `dl`, `cl`, `ml`): `1 filet mignon (environ 600 g)`, `½ mangue (200 g)`, `200 g de sucre + 125 g pour le caramel`
+- A head count: `Gnocchi pour 2 personnes`
+
+**What is left as written:** lines without a leading number (`Sel et poivre`, `Quelques feuilles de menthe`, `Huile d'olive (Quanto basta)`), lengths (`5 cm`, `5 mm`), percentages, flour types (`T55`), per-unit amounts (`2 g each`, `2 g chacune`) and per-person notes (`1 par personne`).
+
+**Rules when writing ingredients (base AND translations):**
+1. **Quantity first, in digits**: `1 citron vert (jus)`, not `Jus d'1 citron vert`; `2 œufs`, not `deux œufs`; `1 grosse pincée de sel`, not `Une grosse pincée de sel`; `1 morceau de gingembre (5 cm)`, not `5 cm de gingembre`
+2. **Same structure in every language**: if the French line starts with a quantity, the EN and IT lines at the same position must too (`1 large pinch of onion powder`, not `A large pinch of onion powder`). `npm run validate:recipes` fails otherwise
+3. **Fractions** as `1/2`, `1 1/2` or `½`; decimals with a comma in FR/IT (`1,5`) and a dot in EN (`1.5`)
+4. **Ranges** with `à` (FR), `-` (IT) or `to` (EN), and the unit after the second number: `100 à 150 g`
+5. **Keep the metric equivalent** in parentheses when the source gives one: `2 aubergines (environ 500 g)`
+6. **Non-scalable amounts** (salt, garnish, oil for the pan) have no leading number: `Sel`, `Beurre pour le moule`
+7. Do not put quantities in the steps when they already appear in the ingredients: steps are not scaled (the page says so when scaled)
+
+**Servings value:**
+- Use the number stated by the source (`pour 6 personnes`, `serves 2`, `per 4 persone`)
+- For recipes that make pieces (cookies, naans, crêpes, cannelés), use the number of pieces when the source gives it (`12` for "12 cookies") rather than guessing a number of people
+- Only when the source says nothing, estimate it from the quantities (~100 g of dry pasta, ~150 g of meat per person) and mention it as inferred in the report; `4` is the last-resort default
+- Never change the quantities to fit a different number of servings: keep the source's quantities and its servings together
 
 ### From Unstructured File Issues
 
@@ -121,13 +151,14 @@ Single lowercase words or hyphenated compounds only. No accents in tag slugs (us
    - For PDFs/docs: download via WebFetch
 3. **Save the original source file** to `public/images/recipes/{slug}/source.{ext}` (preserve the original file extension). This will be referenced in `originalSource.data`.
 4. Check `### Recipe Image` for an optional cover photo
-5. Read any `### Notes` for context (origin, variations, tips)
-6. **Run Parallel 3-Agent Extraction** (see below) on the file content
-7. Generate the slug from the recipe title: lowercase, replace spaces with hyphens, remove accents, keep only `[a-z0-9-]`
-8. Infer missing fields with reasonable defaults:
+5. Read `### Servings (optional)`: when filled, it is the number of servings the submitter confirms for the quantities and takes precedence over the extraction
+6. Read any `### Notes` for context (origin, variations, tips)
+7. **Run Parallel 3-Agent Extraction** (see below) on the file content
+8. Generate the slug from the recipe title: lowercase, replace spaces with hyphens, remove accents, keep only `[a-z0-9-]`
+9. Infer missing fields with reasonable defaults:
    - `difficulty`: estimate from technique complexity
    - `prepTime`/`cookTime`: estimate from recipe
-   - `servings`: default 4 if unclear
+   - `servings`: from the source, see **Servings value** above (default 4 only as a last resort)
    - `category`: infer from dish type
    - `tags`: 5-15 relevant French tags, see **Tag Strategy** above
 
@@ -136,13 +167,14 @@ Single lowercase words or hyphenated compounds only. No accents in tag slugs (us
 1. Extract the recipe name from `### Recipe Name`
 2. Fetch the webpage from `### Recipe URL` using WebFetch
 3. Check `### Recipe Image` for an optional cover photo
-4. Read any `### Notes` for context (origin, variations, tips)
-5. **Run Parallel 3-Agent Extraction** (see below) on the fetched page content
-6. Generate the slug from the recipe title: lowercase, replace spaces with hyphens, remove accents, keep only `[a-z0-9-]`
-7. Infer missing fields with reasonable defaults:
+4. Read `### Servings (optional)`: when filled, it is the number of servings the submitter confirms for the quantities and takes precedence over the extraction
+5. Read any `### Notes` for context (origin, variations, tips)
+6. **Run Parallel 3-Agent Extraction** (see below) on the fetched page content
+7. Generate the slug from the recipe title: lowercase, replace spaces with hyphens, remove accents, keep only `[a-z0-9-]`
+8. Infer missing fields with reasonable defaults:
    - `difficulty`: estimate from technique complexity
-   - `prepTime`/`cookTime`: estimate from recipe or page metadata
-   - `servings`: default 4 if unclear
+   - `prepTime`/`cookTime`: estimate from recipe or page metadata (schema.org `recipeYield` gives the servings)
+   - `servings`: from the source, see **Servings value** above (default 4 only as a last resort)
    - `category`: infer from dish type
    - `tags`: 5-15 relevant French tags, see **Tag Strategy** above
 
@@ -172,7 +204,7 @@ Use a single message with 3 Agent tool calls. Each agent receives the same promp
 
 **Agent prompt template** (adapt the source reference for file vs URL):
 
-> Extract the complete recipe from the following source material. Return ONLY a JSON object with these fields: title, description, ingredients (array of {group?, items[]}), steps (array of {text}), tips (array of strings, omit if none), prepTime (minutes, integer), cookTime (minutes, integer), servings (integer), difficulty (Facile/Medio/Difficile), category, source. Extract every ingredient and every step, do not summarize or skip. All text should be in the original language of the source. If any field is ambiguous, use your best judgment.
+> Extract the complete recipe from the following source material. Return ONLY a JSON object with these fields: title, description, ingredients (array of {group?, items[]}), steps (array of {text}), tips (array of strings, omit if none), prepTime (minutes, integer), cookTime (minutes, integer), servings (integer, the number of portions or pieces the quantities are for, as stated by the source), difficulty (Facile/Medio/Difficile), category, source. Extract every ingredient and every step, do not summarize or skip. Write each ingredient with its quantity first, in digits (e.g. "2 eggs", "200 g flour", "1 lime (juice)"), keeping the source's amounts unchanged. All text should be in the original language of the source. If any field is ambiguous, use your best judgment.
 >
 > Source: [insert file content, image path to read, or fetched URL text]
 
@@ -247,7 +279,7 @@ After building the consensus recipe, launch a **single judge agent** that indepe
 > 4. **Completeness**: Verify that NO ingredients or steps were omitted. Re-read the source line by line and check each item is present in the consensus
 > 5. **Ingredient names**: Verify correct identification, especially for similar items (e.g., baking soda vs baking powder, cream vs crème fraîche, stock vs broth)
 > 6. **Step ordering**: Verify the steps follow the correct sequence from the source
-> 7. **Servings**: Verify the serving count matches the source
+> 7. **Servings**: Verify the serving count matches the source (people or pieces), and that the quantities were not rescaled to another number of servings
 >
 > Return a JSON object with this structure:
 > ```json
@@ -349,6 +381,8 @@ Whatever language the source content is in, translate it to all three languages.
 
 Important: ingredient group names (if any) should also be translated within the translations object. The `group` field in translated ingredients should be in the target language.
 
+Keep ingredient quantities identical and **at the start of the line** in every language (same position, same numbers): `"1 citron vert (jus)"` → `"1 lime (juice)"` → `"1 lime (succo)"`, not `"Juice of 1 lime"`. Only the decimal separator changes (`1,5` in FR/IT, `1.5` in EN). See **Ingredient Quantities & Servings**.
+
 ## Step 4: Validate
 
 Before writing files, check:
@@ -361,8 +395,9 @@ Before writing files, check:
    Stop and report if it does.
 3. **Required fields**: slug, title, description, prepTime, cookTime, servings, difficulty, category, tags (non-empty), ingredients (at least one item), steps (at least one)
 4. **Enums**: difficulty is "Facile"|"Medio"|"Difficile"; category is a known value
-5. **Numbers**: prepTime, cookTime, servings are non-negative integers
-6. **Translations**: both `en` and `it` translations are present with title, description, tags, ingredients, steps, tips (if tips exist in base), and history (if history exists in base)
+5. **Numbers**: prepTime, cookTime are non-negative integers; servings is a positive integer matching the source (see **Servings value**)
+6. **Scalable quantities**: every ingredient with an amount starts with it, in digits, in FR, EN and IT alike (see **Ingredient Quantities & Servings**)
+7. **Translations**: both `en` and `it` translations are present with title, description, tags, ingredients, steps, tips (if tips exist in base), and history (if history exists in base)
 
 ## Step 5: Write the Recipe Detail JSON
 
@@ -486,7 +521,7 @@ The script (`scripts/convert-images-to-webp.mjs`) converts `cover.jpg|png` (max 
    ```bash
    npm run validate:recipes
    ```
-   This validates all recipe detail files and `index.json` against the TypeScript types. Fix any reported errors before proceeding.
+   This validates all recipe detail files and `index.json` against the TypeScript types, and checks that each ingredient line scales the same way in FR, EN and IT (a translation that lost its leading quantity fails). Fix any reported errors before proceeding.
 4. Run `npm run build` to confirm nothing breaks
 
 ## Step 9: Update the Search Lexicon
@@ -516,7 +551,7 @@ Summarize:
   - `public/images/recipes/{slug}/cover.svg` (new)
   - `src/lib/search/query.ts` and `src/test/searchRealData.test.ts` (if the search lexicon was updated)
 - **Search**: lexicon changes and probe queries from Step 9, or "Search lexicon: no change needed"
-- For unstructured input: note which fields were inferred vs extracted
+- For unstructured input: note which fields were inferred vs extracted (say explicitly when `servings` was inferred rather than stated by the source)
 - **Extraction confidence** (for unstructured file/URL issues only):
   - If all 3 agents agreed: "✅ High confidence, all 3 extraction agents produced consistent results"
   - If discrepancies exist: list them with severity levels (🔴/🟡/🟢)
@@ -605,4 +640,5 @@ This review comment helps PR reviewers quickly identify which parts of the recip
 - **Long descriptions**: keep to 1-2 sentences (<200 chars). Extra detail goes to tips.
 - **Tags**: 5-15 tags per recipe using the Tag Strategy dimensions. Single lowercase words or hyphenated compounds in French (e.g., `four`, `no-cuisson`, `enfants`, `sans-gluten`, `été`). Translate to EN and IT in the translations block.
 - **Cook time 0**: valid (e.g., tiramisu, gelato).
+- **Yield in pieces or a mould size** ("12 cookies", "1 moule de 24 cm"): use the number of pieces for `servings` when given; for a single cake/tart use the number of slices the source states, else estimate (a 24 cm tart ≈ 8) and report it as inferred.
 - **Category not in template dropdown**: accept if reasonable (e.g., "Bambini" is valid).

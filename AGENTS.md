@@ -40,6 +40,10 @@ Hybrid search, fully static (no backend), in `src/lib/search/` and exposed throu
 - Generated assets (git-ignored) in `public/data/search/`, built by `scripts/build-search-index.mjs`: `documents.json` (ingredients, rebuilt automatically by `predev`/`prebuild`) and `embeddings.json` (`npm run build:embeddings`, needs Hugging Face access, run in the deploy and PR preview workflows). Without `embeddings.json` the app silently falls back to lexical-only search.
 - `.npmrc` skips the optional CUDA download of `onnxruntime-node` (only used by the embeddings script).
 
+### Servings Scaling
+
+The recipe page has a servings dropdown (`ServingsSelect`) that rescales ingredient quantities at display time with `scaleIngredient()` (`src/lib/scaleIngredient.ts`). Ingredients stay free-text strings and `servings` keeps the source's value: the leading quantity (integers, decimals, fractions, ranges) and later metric weights/volumes are parsed from the text, everything else is left as written. Steps are not scaled. `src/test/recipeValidation.test.ts` checks that each ingredient line scales the same way in FR, EN and IT; the `add-recipe` skill documents how to write scalable quantities.
+
 ### Component Structure
 
 - `src/components/ui/`: shadcn/ui-style primitives (button, card, input, sheet, badge, skeleton) using `class-variance-authority` + `tailwind-merge`

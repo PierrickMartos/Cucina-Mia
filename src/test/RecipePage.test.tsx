@@ -160,6 +160,25 @@ describe("RecipePage", () => {
     expect(screen.queryByText(/'s recipe/)).not.toBeInTheDocument()
   })
 
+  it("scales ingredient quantities with the servings dropdown", async () => {
+    const user = userEvent.setup()
+    renderRecipePage("pasta-carbonara")
+    const selects = await screen.findAllByRole("combobox", { name: "Number of servings" })
+    expect(selects[0]).toHaveValue("4")
+    expect(screen.queryByText(/Quantities adjusted/)).not.toBeInTheDocument()
+
+    await user.selectOptions(selects[0], "2")
+    for (const select of screen.getAllByRole("combobox", { name: "Number of servings" })) {
+      expect(select).toHaveValue("2")
+    }
+    expect(screen.getAllByText("200g spaghetti")[0]).toBeInTheDocument()
+    expect(screen.getAllByText("100g guanciale")[0]).toBeInTheDocument()
+    expect(screen.getAllByText(/Quantities adjusted \(recipe written for 4\)/)[0]).toBeInTheDocument()
+
+    await user.click(screen.getAllByRole("button", { name: "Back to 4" })[0])
+    expect(screen.getAllByText("400g spaghetti")[0]).toBeInTheDocument()
+  })
+
   describe("share button", () => {
     const originalShare = navigator.share
     const originalClipboard = navigator.clipboard
