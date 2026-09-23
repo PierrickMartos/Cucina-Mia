@@ -56,6 +56,10 @@ Hybrid search, fully static (no backend), in `src/lib/search/` and exposed throu
 
 The recipe page has a servings dropdown (`ServingsSelect`) that rescales ingredient quantities at display time with `scaleIngredient()` (`src/lib/scaleIngredient.ts`). Ingredients stay free-text strings and `servings` keeps the source's value: the leading quantity (integers, decimals, fractions, ranges) and later metric weights/volumes are parsed from the text, everything else is left as written. Steps are not scaled. `src/test/recipeValidation.test.ts` checks that each ingredient line scales the same way in FR, EN and IT; the `add-recipe` skill documents how to write scalable quantities.
 
+### Cooking Mode
+
+The recipe page's "Mode cuisine" button (and the step counter of the mobile step bar) opens `CookingMode` (`src/components/CookingMode.tsx`): a full-screen dialog showing one step at a time in big text, sharing `currentStep` with the page. Swipes, arrow keys (plus PageUp/PageDown for clickers, Home/End, Escape) move between steps; the step's timers are shown inline with `StepTimerButtons size="large"`. It can read each step aloud (reusing the page's speech synthesis, preference kept in localStorage), keeps the screen awake (`useWakeLock`, re-acquired when the page becomes visible again) and requests browser full screen when allowed. Optional voice commands (`useVoiceCommands`, Web Speech `SpeechRecognition`, Chrome/Edge/Safari) are parsed by `parseVoiceCommand` (`src/lib/voiceCommands.ts`): next / previous / repeat / timer / stop, in fr/en/it whatever the UI language, only for short utterances, and only "stop" while a step is being read aloud so the synthesized voice cannot trigger commands.
+
 ### Component Structure
 
 - `src/components/ui/`: shadcn/ui-style primitives (button, card, input, sheet, badge, skeleton) using `class-variance-authority` + `tailwind-merge`

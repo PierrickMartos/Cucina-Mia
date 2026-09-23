@@ -87,6 +87,18 @@
     "done": "Finito!",
     "tray": "Timer"
   },
+  "cookingMode": {
+    "start": "Modalità cucina",
+    "exit": "Esci dalla modalità cucina",
+    "finish": "Fatto, buon appetito!",
+    "navigation": "Navigazione tra i passaggi",
+    "readAloud": "Leggi ogni passaggio ad alta voce",
+    "voiceControl": "Comandi vocali",
+    "voiceHint": "Di' «avanti», «indietro», «ripeti», «timer» o «stop»",
+    "voiceHeard": "Capito: «{{text}}»",
+    "voiceDenied": "Microfono bloccato: consentilo nel browser per usare i comandi vocali.",
+    "voiceError": "Comandi vocali non disponibili al momento."
+  },
   "filter": {
     "title": "Filtra ricette",
     "category": "Categoria",
