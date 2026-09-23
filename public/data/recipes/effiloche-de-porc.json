@@ -65,7 +65,8 @@
       "text": "Ajouter la sauce barbecue, verser 2 verres d'eau et couvrir."
     },
     {
-      "text": "Enfourner pour 3 heures de cuisson en retournant la viande à mi-cuisson."
+      "text": "Enfourner pour 3 heures de cuisson en retournant la viande à mi-cuisson.",
+      "timers": [180]
     },
     {
       "text": "Sortir la cocotte du four. Effilocher la viande à l'aide de deux fourchettes et bien mélanger à la sauce barbecue. Servir avec des frites maison ou des pommes de terre cuites au barbecue."
@@ -74,6 +75,12 @@
   "tips": [
     "Une recette créée par Laurent Mariotte pour l'émission Petits Plats en Équilibre sur TF1.",
     "Très bonne recette pour un repas convivial ou un buffet."
+  ],
+  "related": [
+    "porc-au-caramel",
+    "filet-mignon-creme-moutarde",
+    "polpette-al-sugo",
+    "pain-pita-turbo"
   ],
   "translations": {
     "en": {

@@ -42,7 +42,8 @@
   ],
   "steps": [
     {
-      "text": "Sur un plan de travail légèrement fariné, abaisser la pâte en un cercle de 30 cm de diamètre sur environ 5mm d'épaisseur. La disposer dans un moule à tarte de 25 cm et rogner les bords. Piquer le fond avec une fourchette. Mettre au réfrigérateur 30 minutes."
+      "text": "Sur un plan de travail légèrement fariné, abaisser la pâte en un cercle de 30 cm de diamètre sur environ 5mm d'épaisseur. La disposer dans un moule à tarte de 25 cm et rogner les bords. Piquer le fond avec une fourchette. Mettre au réfrigérateur 30 minutes.",
+      "timers": [30]
     },
     {
       "text": "Préchauffer le four à 180°C."
@@ -54,7 +55,8 @@
       "text": "Étaler le concentré de tomate sur le fond de tarte, puis verser l'huile de basilic par-dessus. Disposer les tranches de tomates en cercles, en une seule couche. Saler, poivrer. Arroser du miel et des 2 c.à.s d'huile d'olive restantes."
     },
     {
-      "text": "Cuire environ 35 minutes jusqu'à ce que la pâte soit dorée. Laisser reposer 15 minutes."
+      "text": "Cuire environ 35 minutes jusqu'à ce que la pâte soit dorée. Laisser reposer 15 minutes.",
+      "timers": [35, 15]
     },
     {
       "text": "Parsemer de mozzarella déchirée et de feuilles de basilic avant de servir."
@@ -64,6 +66,12 @@
     "Choisir des tomates bien mûres et fermes pour éviter qu'elles ne rendent trop d'eau à la cuisson.",
     "L'huile de basilic peut être préparée à l'avance et conservée au réfrigérateur quelques heures.",
     "Servir tiède plutôt que chaude pour que les saveurs s'expriment pleinement."
+  ],
+  "related": [
+    "four-tomates-aubergines-courgettes-pesto",
+    "caprese-di-tuffoli",
+    "tomates-farcies",
+    "pasta-per-torta-veloce"
   ],
   "translations": {
     "en": {

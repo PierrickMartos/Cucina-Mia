@@ -61,7 +61,8 @@
       "text": "Poser les blocs de feta sur le dessus, ajouter un filet d'huile d'olive dessus et poivrer."
     },
     {
-      "text": "Enfourner à 240°C jusqu'à ce que la feta soit bien dorée, environ 20 minutes."
+      "text": "Enfourner à 240°C jusqu'à ce que la feta soit bien dorée, environ 20 minutes.",
+      "timers": [20]
     },
     {
       "text": "Servir aussitôt avec une salade et un peu de pain pour saucer le tout."
@@ -72,6 +73,12 @@
     "type": "url",
     "data": "https://jow.fr/recipes/legumes-du-soleil-et-feta-rotis-8btrlh0t6b1jdzgp10ri"
   },
+  "related": [
+    "riz-tomates-cerises-et-feta-au-four",
+    "four-tomates-aubergines-courgettes-pesto",
+    "flan-a-la-ratatouille",
+    "frites-polenta-epinards"
+  ],
   "translations": {
     "en": {
       "title": "Roasted Summer Vegetables with Feta",

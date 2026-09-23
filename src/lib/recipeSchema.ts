@@ -20,12 +20,21 @@ const StepSchema = z.object({
   image: z.string().optional(),
 })
 
+// Timers (minutes) are only set on base steps, translated steps reuse them by position.
+const BaseStepSchema = StepSchema.extend({
+  timers: z.array(z.number().positive().max(48 * 60)).min(1).optional(),
+})
+
+const SlugSchema = z
+  .string()
+  .regex(/^[a-z0-9]+(-[a-z0-9]+)*$/, "Slug must be lowercase alphanumeric with hyphens")
+
 const TranslationSchema = z.object({
   title: z.string().optional(),
   description: z.string().optional(),
   tags: z.array(z.string()).optional(),
   ingredients: z.array(IngredientGroupSchema).optional(),
-  steps: z.array(StepSchema).optional(),
+  steps: z.array(StepSchema.strict()).optional(),
   tips: z.array(z.string()).optional(),
   history: z.string().optional(),
 })
@@ -33,9 +42,7 @@ const TranslationSchema = z.object({
 const RecipeOriginSchema = z.enum(["none", "pierrick", "amelie", "pierrick-grandma", "amelie-grandpa"])
 
 export const RecipeSummarySchema = z.object({
-  slug: z
-    .string()
-    .regex(/^[a-z0-9]+(-[a-z0-9]+)*$/, "Slug must be lowercase alphanumeric with hyphens"),
+  slug: SlugSchema,
   title: z.string().min(1),
   description: z.string().min(1),
   images: RecipeImagesSchema,
@@ -68,11 +75,12 @@ const RecipeOriginalSourceSchema = z.object({
 
 export const RecipeDetailSchema = RecipeSummarySchema.extend({
   ingredients: z.array(IngredientGroupSchema).min(1),
-  steps: z.array(StepSchema).min(1),
+  steps: z.array(BaseStepSchema).min(1),
   tips: z.array(z.string()).optional(),
   history: z.string().optional(),
   source: z.string().optional(),
   originalSource: RecipeOriginalSourceSchema.optional(),
+  related: z.array(SlugSchema).min(3).max(4).optional(),
   translations: z.record(z.string(), TranslationSchema).optional(),
 })
 

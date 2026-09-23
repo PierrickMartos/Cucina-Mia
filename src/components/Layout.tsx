@@ -4,6 +4,7 @@ import { useTranslation } from "react-i18next"
 import { motion, useReducedMotion } from "motion/react"
 import { useState, useRef, useEffect, useId } from "react"
 import { preloadMammaMia, sayMammaMia } from "@/lib/mammaMia"
+import { TimerTray } from "@/components/CookingTimers"
 
 const LANGUAGES = [
   { code: "en", label: "English" },
@@ -140,6 +141,8 @@ export function Layout() {
           <Outlet />
         </motion.div>
       </main>
+
+      <TimerTray />
 
       {/* Bottom Nav Bar */}
       <nav className="shrink-0 flex justify-around items-center px-4 pb-1.5 pt-1.5 bg-surface/70 backdrop-blur-[20px] rounded-t-xl z-50 print:hidden">

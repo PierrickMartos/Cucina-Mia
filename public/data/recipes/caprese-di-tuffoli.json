@@ -40,7 +40,8 @@
   ],
   "steps": [
     {
-      "text": "Lavez soigneusement les tomates. Coupez les tomates cerises en deux ou en quatre selon leur taille, et les tomates cœur-de-bœuf en petits dés. Mélangez le tout dans un grand saladier, salez, poivrez, ajoutez un généreux filet d'huile d'olive et les feuilles de basilic déchirées à la main. Mélangez doucement et laissez mariner à température ambiante pendant 30 à 40 minutes pour que les tomates rendent leur jus et développent tout leur parfum."
+      "text": "Lavez soigneusement les tomates. Coupez les tomates cerises en deux ou en quatre selon leur taille, et les tomates cœur-de-bœuf en petits dés. Mélangez le tout dans un grand saladier, salez, poivrez, ajoutez un généreux filet d'huile d'olive et les feuilles de basilic déchirées à la main. Mélangez doucement et laissez mariner à température ambiante pendant 30 à 40 minutes pour que les tomates rendent leur jus et développent tout leur parfum.",
+      "timers": [30]
     },
     {
       "text": "Pendant ce temps, faites cuire les tuffoli dans une grande quantité d'eau bouillante salée jusqu'à ce qu'ils soient al dente. Ce plat se mange froid, alors passez les pâtes sous l'eau froide dès qu'elles sont égouttées. Ajoutez un filet d'huile d'olive pour éviter qu'elles collent et mélangez délicatement."
@@ -59,6 +60,12 @@
     "type": "image",
     "data": "images/recipes/caprese-di-tuffoli/source.jpg"
   },
+  "related": [
+    "carpaccio-de-tomates-au-pesto-de-pistaches",
+    "salade-orzo-pasteque",
+    "tarte-tomate-mozza-basilic",
+    "spaghettis-alla-vittorio"
+  ],
   "translations": {
     "en": {
       "title": "Tuffoli Caprese Salad",

@@ -65,13 +65,20 @@
       "text": "Remplir les tomates de farce."
     },
     {
-      "text": "Disposer les tomates farcies dans un grand plat, refermer chacune de son chapeau. Cuire à four doux 140°C pendant 40 minutes. Servir avec un riz créole ou une salade verte."
+      "text": "Disposer les tomates farcies dans un grand plat, refermer chacune de son chapeau. Cuire à four doux 140°C pendant 40 minutes. Servir avec un riz créole ou une salade verte.",
+      "timers": [40]
     }
   ],
   "tips": [
     "Pour une bonne tomate farcie, la qualité de la tomate est essentielle : préférer des tomates de plein champ à chair ferme, comme la Roma.",
     "Bien égoutter la mie de pain : elle doit être humide, mais on n'a pas besoin du lait dans la farce.",
     "On peut ajouter du cumin à la farce pour un petit goût \"soleil\"."
+  ],
+  "related": [
+    "polpette-al-sugo",
+    "riz-tomates-cerises-et-feta-au-four",
+    "tarte-tomate-mozza-basilic",
+    "flan-a-la-ratatouille"
   ],
   "translations": {
     "en": {

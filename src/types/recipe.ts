@@ -8,6 +8,13 @@ export interface RecipeTranslation {
   history?: string
 }
 
+export interface RecipeStep {
+  text: string
+  image?: string
+  /** Durations in minutes (decimals allowed, e.g. 0.5 = 30 s), one timer button each. Base steps only. */
+  timers?: number[]
+}
+
 export interface ImageCredit {
   author?: string
   url?: string
@@ -45,10 +52,12 @@ export interface RecipeOriginalSource {
 
 export interface RecipeDetail extends RecipeSummary {
   ingredients: { group?: string; items: string[] }[]
-  steps: { text: string; image?: string }[]
+  steps: RecipeStep[]
   tips?: string[]
   history?: string
   source?: string
   originalSource?: RecipeOriginalSource
+  /** Slugs of 3 to 4 similar recipes, shown at the end of the recipe page. */
+  related?: string[]
   translations?: { [lang: string]: RecipeTranslation }
 }

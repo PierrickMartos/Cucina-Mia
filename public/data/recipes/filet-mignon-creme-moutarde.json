@@ -48,13 +48,15 @@
       "text": "Couper le filet mignon en tranches de 2 cm d'épaisseur environ."
     },
     {
-      "text": "Dans une poêle, faire fondre le beurre et y faire revenir les tranches de filet mignon 5 minutes à feu fort, en les retournant à mi-cuisson."
+      "text": "Dans une poêle, faire fondre le beurre et y faire revenir les tranches de filet mignon 5 minutes à feu fort, en les retournant à mi-cuisson.",
+      "timers": [5]
     },
     {
       "text": "Une fois les tranches bien dorées, ajouter la crème, la moutarde et le thym dans la poêle. Assaisonner selon les goûts."
     },
     {
-      "text": "Mélanger et laisser cuire 2 minutes supplémentaires à feu moyen, le temps que la sauce nappe la viande."
+      "text": "Mélanger et laisser cuire 2 minutes supplémentaires à feu moyen, le temps que la sauce nappe la viande.",
+      "timers": [2]
     },
     {
       "text": "Servir le riz avec la viande et sa sauce. C'est prêt !"
@@ -69,6 +71,12 @@
     "type": "url",
     "data": "https://jow.fr/recipes/filet-mignon-et-creme-a-la-moutarde-89o028z7gg11hua70985"
   },
+  "related": [
+    "poulet-sauce-moutarde",
+    "porc-au-caramel",
+    "effiloche-de-porc",
+    "gratin-butternut"
+  ],
   "translations": {
     "en": {
       "title": "Pork Tenderloin in Mustard Cream Sauce",

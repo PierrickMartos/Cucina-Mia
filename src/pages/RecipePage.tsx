@@ -9,6 +9,8 @@ import { Badge } from "@/components/ui/badge"
 import { Skeleton } from "@/components/ui/skeleton"
 import { localizeRecipeDetail } from "@/lib/localize"
 import { useRecipe } from "@/lib/recipeData"
+import { StepTimerButtons } from "@/components/CookingTimers"
+import { RelatedRecipes } from "@/components/RelatedRecipes"
 
 const BASE = import.meta.env.BASE_URL
 
@@ -680,18 +682,23 @@ export function RecipePage() {
                       loading="lazy"
                     />
                   )}
-                  <button
-                    type="button"
-                    onClick={() => speakingStep === i ? stopSpeaking() : speakText(step.text, i)}
-                    aria-label={speakingStep === i ? t("recipe.stopReading", "Stop reading") : t("recipe.readAloud", "Read aloud")}
-                    className="mt-2 inline-flex items-center gap-1.5 text-xs text-muted-foreground hover:text-foreground transition-colors cursor-pointer print:hidden"
-                  >
-                    {speakingStep === i ? (
-                      <><VolumeX className="h-3.5 w-3.5" />{t("recipe.stop", "Stop")}</>
-                    ) : (
-                      <><Volume2 className="h-3.5 w-3.5" />{t("recipe.read", "Read")}</>
+                  <div className="flex flex-wrap items-center gap-x-3">
+                    <button
+                      type="button"
+                      onClick={() => speakingStep === i ? stopSpeaking() : speakText(step.text, i)}
+                      aria-label={speakingStep === i ? t("recipe.stopReading", "Stop reading") : t("recipe.readAloud", "Read aloud")}
+                      className="mt-2 inline-flex items-center gap-1.5 text-xs text-muted-foreground hover:text-foreground transition-colors cursor-pointer print:hidden"
+                    >
+                      {speakingStep === i ? (
+                        <><VolumeX className="h-3.5 w-3.5" />{t("recipe.stop", "Stop")}</>
+                      ) : (
+                        <><Volume2 className="h-3.5 w-3.5" />{t("recipe.read", "Read")}</>
+                      )}
+                    </button>
+                    {step.timers && (
+                      <StepTimerButtons slug={recipe.slug} recipeTitle={recipe.title} step={i} timers={step.timers} />
                     )}
-                  </button>
+                  </div>
                 </div>
               </li>
             ))}
@@ -802,18 +809,23 @@ export function RecipePage() {
                       loading="lazy"
                     />
                   )}
-                  <button
-                    type="button"
-                    onClick={() => speakingStep === i ? stopSpeaking() : speakText(step.text, i)}
-                    aria-label={speakingStep === i ? t("recipe.stopReading", "Stop reading") : t("recipe.readAloud", "Read aloud")}
-                    className="mt-2 inline-flex items-center gap-1.5 text-xs text-muted-foreground hover:text-foreground transition-colors cursor-pointer print:hidden"
-                  >
-                    {speakingStep === i ? (
-                      <><VolumeX className="h-3.5 w-3.5" />{t("recipe.stop", "Stop")}</>
-                    ) : (
-                      <><Volume2 className="h-3.5 w-3.5" />{t("recipe.read", "Read")}</>
+                  <div className="flex flex-wrap items-center gap-x-3">
+                    <button
+                      type="button"
+                      onClick={() => speakingStep === i ? stopSpeaking() : speakText(step.text, i)}
+                      aria-label={speakingStep === i ? t("recipe.stopReading", "Stop reading") : t("recipe.readAloud", "Read aloud")}
+                      className="mt-2 inline-flex items-center gap-1.5 text-xs text-muted-foreground hover:text-foreground transition-colors cursor-pointer print:hidden"
+                    >
+                      {speakingStep === i ? (
+                        <><VolumeX className="h-3.5 w-3.5" />{t("recipe.stop", "Stop")}</>
+                      ) : (
+                        <><Volume2 className="h-3.5 w-3.5" />{t("recipe.read", "Read")}</>
+                      )}
+                    </button>
+                    {step.timers && (
+                      <StepTimerButtons slug={recipe.slug} recipeTitle={recipe.title} step={i} timers={step.timers} />
                     )}
-                  </button>
+                  </div>
                 </div>
               </li>
             ))}
@@ -845,6 +857,8 @@ export function RecipePage() {
           </div>
         </div>
       )}
+
+      {recipe.related && recipe.related.length > 0 && <RelatedRecipes slugs={recipe.related} />}
       </div>
 
       {/* Step navigator sticky bar, mobile only, portaled to body */}

@@ -51,7 +51,8 @@
       "text": "Laissez revenir quelques minutes, puis déglacez au vin blanc en remuant bien avec une spatule en bois pour décoller tous les sucs."
     },
     {
-      "text": "Laissez cuire à feu doux pendant 10 minutes, puis mixez pour obtenir la crème de truffes."
+      "text": "Laissez cuire à feu doux pendant 10 minutes, puis mixez pour obtenir la crème de truffes.",
+      "timers": [10]
     },
     {
       "text": "Dans une autre casserole, faites cuire les pâtes un peu moins qu'al dente dans de l'eau bouillante salée."
@@ -76,6 +77,12 @@
     "type": "image",
     "data": "images/recipes/pasta-tartuffo/source.jpg"
   },
+  "related": [
+    "pates-chevre-speck-et-huile-de-truffe",
+    "coquillettes-jambon-truffe",
+    "fettuccine-funghi-porcini",
+    "risotto-champignons-foie-gras-noisettes"
+  ],
   "translations": {
     "en": {
       "title": "Truffle Pasta",

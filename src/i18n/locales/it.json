@@ -71,7 +71,18 @@
     "stopReading": "Ferma la lettura",
     "share": "Condividi",
     "shareRecipe": "Condividi la ricetta",
-    "linkCopied": "Link copiato!"
+    "linkCopied": "Link copiato!",
+    "related": "Potrebbe piacerti anche"
+  },
+  "timer": {
+    "start": "Avvia un timer di {{duration}}",
+    "pause": "Metti in pausa il timer",
+    "resume": "Riprendi il timer",
+    "cancel": "Rimuovi il timer",
+    "addMinute": "Aggiungi 1 minuto",
+    "stopAlarm": "Ferma la sveglia",
+    "done": "Finito!",
+    "tray": "Timer"
   },
   "filter": {
     "title": "Filtra ricette",

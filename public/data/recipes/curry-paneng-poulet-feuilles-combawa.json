@@ -52,22 +52,32 @@
       "text": "Coupez le filet de poulet en fines lamelles. Laissez reposer."
     },
     {
-      "text": "Dans une casserole à feu moyen, faites chauffer 3 cuillères à soupe d'huile, ajoutez la pâte de curry « Paneng » et faites revenir le tout pendant environ 1 minute. Versez environ 100 ml de lait de coco et bien mélanger."
+      "text": "Dans une casserole à feu moyen, faites chauffer 3 cuillères à soupe d'huile, ajoutez la pâte de curry « Paneng » et faites revenir le tout pendant environ 1 minute. Versez environ 100 ml de lait de coco et bien mélanger.",
+      "timers": [1]
     },
     {
-      "text": "Ajoutez les morceaux de poulet et faites-les revenir pendant 2 minutes."
+      "text": "Ajoutez les morceaux de poulet et faites-les revenir pendant 2 minutes.",
+      "timers": [2]
     },
     {
-      "text": "Versez le reste de lait de coco et laissez mijoter pendant 10 minutes à feu doux."
+      "text": "Versez le reste de lait de coco et laissez mijoter pendant 10 minutes à feu doux.",
+      "timers": [10]
     },
     {
       "text": "Ajoutez le sucre de palmier, le concentré de tamarin, et la sauce de poisson."
     },
     {
-      "text": "Laissez mijoter à feu doux encore pendant 5-8 minutes. Stoppez la cuisson et ajoutez les feuilles de combawa coupées finement avant de servir."
+      "text": "Laissez mijoter à feu doux encore pendant 5-8 minutes. Stoppez la cuisson et ajoutez les feuilles de combawa coupées finement avant de servir.",
+      "timers": [5]
     }
   ],
   "source": "www.atelierthai.com",
+  "related": [
+    "curry-vert-de-pierrick",
+    "poulet-au-curry",
+    "poulet-gingembre-et-cajou",
+    "curry-legumes"
+  ],
   "translations": {
     "en": {
       "title": "Paneng Chicken Curry with Kaffir Lime Leaves",

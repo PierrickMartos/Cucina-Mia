@@ -53,10 +53,12 @@
       "text": "Pendant ce temps, couper le filet mignon en tranches épaisses d'environ 2 cm."
     },
     {
-      "text": "Dans une poêle, faire fondre une noisette de beurre sur feu vif. Ajouter les tranches de filet mignon et les faire revenir 5 minutes, en les retournant à mi-cuisson."
+      "text": "Dans une poêle, faire fondre une noisette de beurre sur feu vif. Ajouter les tranches de filet mignon et les faire revenir 5 minutes, en les retournant à mi-cuisson.",
+      "timers": [5]
     },
     {
-      "text": "Baisser à feu moyen, puis ajouter la sauce soja, le vinaigre, le sucre et le gingembre râpé. Mélanger et couvrir. Laisser mijoter 6 à 7 minutes sur feu doux."
+      "text": "Baisser à feu moyen, puis ajouter la sauce soja, le vinaigre, le sucre et le gingembre râpé. Mélanger et couvrir. Laisser mijoter 6 à 7 minutes sur feu doux.",
+      "timers": [6]
     },
     {
       "text": "Dans un bol ou une assiette creuse, servir le riz avec le porc au caramel. Rectifier l'assaisonnement et déguster."
@@ -70,6 +72,12 @@
     "type": "url",
     "data": "https://jow.fr/recipes/porc-au-caramel-89s426rhhbjk5s4h140u"
   },
+  "related": [
+    "aubergines-braisees-au-porc-et-riz",
+    "poulet-gingembre-et-cajou",
+    "katsudon",
+    "filet-mignon-creme-moutarde"
+  ],
   "translations": {
     "en": {
       "title": "Caramel Pork",

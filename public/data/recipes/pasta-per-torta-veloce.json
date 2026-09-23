@@ -50,7 +50,8 @@
       "text": "Transférer dans un moule à tarte et piquer avec une fourchette."
     },
     {
-      "text": "Cuire à blanc à 200°C pendant 10 minutes, puis ajouter la garniture et enfourner 20 à 40 minutes."
+      "text": "Cuire à blanc à 200°C pendant 10 minutes, puis ajouter la garniture et enfourner 20 à 40 minutes.",
+      "timers": [10, 20]
     }
   ],
   "tips": [
@@ -59,6 +60,12 @@
     "On peut personnaliser en ajoutant des graines, des épices ou des herbes aromatiques à la pâte."
   ],
   "source": "https://www.cuisinez-pour-bebe.fr/pate-a-tarte-facile-et-rapide-inratable/",
+  "related": [
+    "tarte-tomate-mozza-basilic",
+    "flan-a-la-ratatouille",
+    "pain-pita-turbo",
+    "cookies-sales-au-comte"
+  ],
   "translations": {
     "en": {
       "title": "Quick Pastry Dough",

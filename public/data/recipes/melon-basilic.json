@@ -53,6 +53,12 @@
     "type": "image",
     "data": "images/recipes/melon-basilic/source.jpg"
   },
+  "related": [
+    "gaspacho-pasteque-tomates",
+    "gaspacho-de-pasteque-a-la-feta",
+    "carpaccio-de-tomates-au-pesto-de-pistaches",
+    "creme-avocat-mousse-concombre"
+  ],
   "translations": {
     "en": {
       "title": "Honey-Marinated Melon with Basil",

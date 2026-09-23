@@ -56,7 +56,8 @@
   ],
   "steps": [
     {
-      "text": "Lavez et séchez les citrons. Prélevez les zestes et coupez-les en tout petits morceaux. Mélangez les zestes avec le sucre en poudre du bout des doigts et laissez reposer 5 minutes."
+      "text": "Lavez et séchez les citrons. Prélevez les zestes et coupez-les en tout petits morceaux. Mélangez les zestes avec le sucre en poudre du bout des doigts et laissez reposer 5 minutes.",
+      "timers": [5]
     },
     {
       "text": "Ajoutez le jus de citron et les œufs battus. Faites cuire au bain-marie en fouettant sans cesse jusqu'à ce que le mélange épaississe. La température ne doit pas dépasser 75°C sinon le mélange prendra un goût d'omelette."
@@ -68,13 +69,15 @@
       "text": "Préchauffez le four à 150°C. Dans un saladier, mélangez la farine, le sucre en poudre et la poudre d'amandes. Ajoutez le beurre froid en morceaux et travaillez du bout des doigts pour obtenir un mélange sableux grossier."
     },
     {
-      "text": "Étalez le crumble sur une plaque garnie de papier sulfurisé. Enfournez 20 à 25 minutes jusqu'à ce qu'il soit doré. Laissez refroidir à la sortie du four, puis émiettez à la fourchette si nécessaire."
+      "text": "Étalez le crumble sur une plaque garnie de papier sulfurisé. Enfournez 20 à 25 minutes jusqu'à ce qu'il soit doré. Laissez refroidir à la sortie du four, puis émiettez à la fourchette si nécessaire.",
+      "timers": [20]
     },
     {
       "text": "Dans une casserole, faites bouillir l'eau et le sucre jusqu'à atteindre 120°C. Pendant ce temps, montez le blanc d'œuf en neige."
     },
     {
-      "text": "Versez le sirop chaud en mince filet sur le blanc en neige tout en continuant de battre. Fouettez pendant une dizaine de minutes jusqu'à complet refroidissement : la meringue doit être ferme et brillante."
+      "text": "Versez le sirop chaud en mince filet sur le blanc en neige tout en continuant de battre. Fouettez pendant une dizaine de minutes jusqu'à complet refroidissement : la meringue doit être ferme et brillante.",
+      "timers": [10]
     },
     {
       "text": "Garnissez le fond de chaque verrine d'une couche de crumble, puis d'une couche généreuse de lemon curd bien froid."
@@ -90,6 +93,12 @@
     "Doublez les quantités pour réaliser des verrines de taille normale à la place des mini-verrines."
   ],
   "source": "http://cotegourmandises.canalblog.com/archives/2013/01/17/26161467.html",
+  "related": [
+    "panna-cotta-aux-framboises",
+    "bananamisu",
+    "framboisier-facile-moelleux",
+    "tarte-tatin-mangue-espelette"
+  ],
   "translations": {
     "en": {
       "title": "Lemon Meringue Pie Verrines",

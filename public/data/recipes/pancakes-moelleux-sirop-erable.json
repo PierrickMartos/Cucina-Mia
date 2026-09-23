@@ -49,13 +49,15 @@
       "text": "Dans un grand bol, mélanger les ingrédients secs : farine, levure, sucre, sel et sucre vanillé."
     },
     {
-      "text": "Dans un autre bol, mélanger les jaunes d'œufs avec le lait, puis verser sur les ingrédients secs en mélangeant jusqu'à obtenir une pâte à crêpes bien épaisse. Laisser reposer 15 à 30 minutes."
+      "text": "Dans un autre bol, mélanger les jaunes d'œufs avec le lait, puis verser sur les ingrédients secs en mélangeant jusqu'à obtenir une pâte à crêpes bien épaisse. Laisser reposer 15 à 30 minutes.",
+      "timers": [15]
     },
     {
       "text": "Battre les blancs en neige, puis les incorporer délicatement à la préparation pour obtenir des pancakes très moelleux."
     },
     {
-      "text": "Faire cuire dans une petite poêle beurrée bien chaude pendant environ 1 minute de chaque côté."
+      "text": "Faire cuire dans une petite poêle beurrée bien chaude pendant environ 1 minute de chaque côté.",
+      "timers": [1]
     },
     {
       "text": "Retourner le pancake lorsque le bord est doré et que de petites bulles se forment sur le dessus. Servir chaud, idéalement avec du sirop d'érable."
@@ -76,6 +78,12 @@
     "type": "url",
     "data": "https://www.hervecuisine.com/recette/pancakes-authentiques-au-sirop-derable/"
   },
+  "related": [
+    "crepes-chandeleur",
+    "gaufre-liegeoise",
+    "galette-banane",
+    "pain-au-lait-de-mamie-yvette"
+  ],
   "translations": {
     "en": {
       "title": "Fluffy Pancakes with Maple Syrup",

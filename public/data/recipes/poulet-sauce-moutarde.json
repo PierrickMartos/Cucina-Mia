@@ -56,16 +56,20 @@
       "text": "Couper le poulet en tranches."
     },
     {
-      "text": "Faire chauffer un filet d'huile d'olive dans une poêle, sur feu moyen. Ajouter les oignons et les champignons. Saler, poivrer et les faire revenir 4 à 5 minutes en mélangeant. Réserver hors du feu."
+      "text": "Faire chauffer un filet d'huile d'olive dans une poêle, sur feu moyen. Ajouter les oignons et les champignons. Saler, poivrer et les faire revenir 4 à 5 minutes en mélangeant. Réserver hors du feu.",
+      "timers": [4]
     },
     {
-      "text": "Dans la même poêle, faire chauffer un filet d'huile d'olive sur feu moyen. Ajouter le poulet, saler, poivrer et le faire revenir 4 à 5 minutes en mélangeant."
+      "text": "Dans la même poêle, faire chauffer un filet d'huile d'olive sur feu moyen. Ajouter le poulet, saler, poivrer et le faire revenir 4 à 5 minutes en mélangeant.",
+      "timers": [4]
     },
     {
-      "text": "Remettre les champignons et les oignons dans la poêle et mélanger 1 minute supplémentaire."
+      "text": "Remettre les champignons et les oignons dans la poêle et mélanger 1 minute supplémentaire.",
+      "timers": [1]
     },
     {
-      "text": "Ajouter la moutarde à l'ancienne et la crème liquide. Laisser mijoter 3 à 4 minutes sur feu doux, en mélangeant."
+      "text": "Ajouter la moutarde à l'ancienne et la crème liquide. Laisser mijoter 3 à 4 minutes sur feu doux, en mélangeant.",
+      "timers": [3]
     },
     {
       "text": "Pendant ce temps, préparer le riz selon les instructions du paquet. Le servir avec le poulet crémeux, rectifier l'assaisonnement et déguster aussitôt."
@@ -76,6 +80,12 @@
     "type": "url",
     "data": "https://jow.fr/recipes/poulet-sauce-moutarde-83ik0b9dizx31qkv0v9y"
   },
+  "related": [
+    "filet-mignon-creme-moutarde",
+    "poulet-au-curry",
+    "gratin-butternut",
+    "gnocchi-champi-ail-au-four"
+  ],
   "translations": {
     "en": {
       "title": "Chicken in Mustard Cream Sauce",
