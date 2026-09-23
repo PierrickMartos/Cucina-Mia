@@ -326,20 +326,21 @@ export function RecipePage() {
   const setServings = (value: number) => setServingsChoice({ slug, value })
   const displayIngredient = (item: string) => scaleIngredient(item, servingsFactor, i18n.language)
 
-  const servingsSelect = (
-    <ServingsSelect base={recipe.servings} value={servings} onChange={setServings} />
-  )
-
-  const scaledNote = servingsFactor !== 1 && (
+  const scaledNote = (withReset: boolean) => servingsFactor !== 1 && (
     <p className="mb-5 text-xs text-muted-foreground">
-      {t("recipe.scaledNote", { base: recipe.servings })}{" "}
-      <button
-        type="button"
-        onClick={() => setServings(recipe.servings)}
-        className="underline underline-offset-2 hover:text-foreground transition-colors cursor-pointer print:hidden"
-      >
-        {t("recipe.resetServings", { count: recipe.servings })}
-      </button>
+      {t("recipe.scaledNote", { base: recipe.servings })}
+      {withReset && (
+        <>
+          {" "}
+          <button
+            type="button"
+            onClick={() => setServings(recipe.servings)}
+            className="underline underline-offset-2 hover:text-foreground transition-colors cursor-pointer print:hidden"
+          >
+            {t("recipe.resetServings", { count: recipe.servings })}
+          </button>
+        </>
+      )}
     </p>
   )
 
@@ -472,7 +473,7 @@ export function RecipePage() {
           className="flex items-center justify-center gap-4 pt-4 border-t border-border"
         >
           <motion.div variants={reduceMotion ? itemVariantsReduced : itemVariants}>
-            {servingsSelect}
+            <ServingsSelect base={recipe.servings} value={servings} onChange={setServings} />
           </motion.div>
           <div className="flex flex-wrap justify-center gap-1.5">
             {recipe.tags.map((tag) => (
@@ -597,7 +598,7 @@ export function RecipePage() {
           className="mb-8"
         >
           <div className="flex items-center justify-between mb-4">
-            {servingsSelect}
+            <span />
             {Object.values(checkedIngredients).some(Boolean) && (
               <button
                 type="button"
@@ -608,7 +609,7 @@ export function RecipePage() {
               </button>
             )}
           </div>
-          {scaledNote}
+          {scaledNote(true)}
           {recipe.ingredients.map((group, gi) => (
             <div key={gi} className="mb-6">
               {group.group && (
@@ -682,6 +683,7 @@ export function RecipePage() {
           aria-labelledby={instructionsTabId}
           className="mb-8 pb-24"
         >
+          {scaledNote(false)}
           <ol className="space-y-6">
             {recipe.steps.map((step, i) => (
               <li
@@ -742,8 +744,7 @@ export function RecipePage() {
               </button>
             )}
           </div>
-          <div className="mb-5">{servingsSelect}</div>
-          {scaledNote}
+          {scaledNote(true)}
           {recipe.ingredients.map((group, gi) => (
             <div key={gi} className="mb-6">
               {group.group && (
