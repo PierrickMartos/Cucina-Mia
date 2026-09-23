@@ -46,11 +46,18 @@
       "text": "Peler et émincer finement les échalotes. Dans une sauteuse, faire chauffer la matière grasse et faire revenir les échalotes. Dès qu'elles colorent légèrement, ajouter les pâtes. Remuer sans cesse et mouiller avec le vin blanc."
     },
     {
-      "text": "Dès que le vin blanc est évaporé, verser le bouillon de bœuf en plusieurs fois jusqu'à ce que les pâtes soient parfaitement cuites. Ne pas cesser de remuer. Compter 20 minutes de cuisson."
+      "text": "Dès que le vin blanc est évaporé, verser le bouillon de bœuf en plusieurs fois jusqu'à ce que les pâtes soient parfaitement cuites. Ne pas cesser de remuer. Compter 20 minutes de cuisson.",
+      "timers": [20]
     },
     {
       "text": "Une fois les pâtes cuites, ajouter le mélange cheddar-crème. Rectifier l'assaisonnement et déguster bien chaud."
     }
+  ],
+  "related": [
+    "risotto-cheddar-bacon",
+    "coquilletto-au-chorizo",
+    "gratin-ravioles-poireaux",
+    "coquillettes-jambon-truffe"
   ],
   "translations": {
     "en": {

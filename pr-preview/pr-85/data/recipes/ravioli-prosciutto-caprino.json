@@ -73,7 +73,8 @@
       "text": "Tailler les tomates séchées en petits dés. Assaisonner la roquette avec le vinaigre balsamique blanc, une pincée de sel et un filet d'huile d'olive. Ajouter les dés de tomates."
     },
     {
-      "text": "Porter une grande casserole d'eau à ébullition. Pocher les ravioles dans l'eau à peine frémissante pendant 3 minutes."
+      "text": "Porter une grande casserole d'eau à ébullition. Pocher les ravioles dans l'eau à peine frémissante pendant 3 minutes.",
+      "timers": [3]
     },
     {
       "text": "Disposer les ravioles dans les assiettes, les napper de pesto et poser la roquette à côté en lui donnant du volume."
@@ -84,6 +85,12 @@
     "Le pesto peut se préparer à l'avance et se conserve au réfrigérateur avec un filet d'huile d'olive par-dessus."
   ],
   "source": "https://www.atelierdeschefs.fr/recettes/14110/raviole-de-jambon-de-pays-et-chevre-frais-pesto-et-roquette/",
+  "related": [
+    "ravioli-ricotta-spinaci",
+    "coquillettes-jambon-truffe",
+    "penne-creme-chevre-noix",
+    "risotto-roquette-jambon-mascarpone"
+  ],
   "translations": {
     "en": {
       "title": "Country Ham and Fresh Goat Cheese Ravioli with Pesto and Rocket",

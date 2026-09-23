@@ -56,7 +56,8 @@
       "text": "Ajoutez les œufs, le beurre fondu, puis progressivement le lait, en battant bien au fouet."
     },
     {
-      "text": "Ajoutez la bière ou le rhum et la vanille, puis laissez reposer la pâte 30 minutes à température ambiante."
+      "text": "Ajoutez la bière ou le rhum et la vanille, puis laissez reposer la pâte 30 minutes à température ambiante.",
+      "timers": [30]
     },
     {
       "text": "Faites chauffer une noix de beurre dans la poêle, bien chaude, et versez une louche de pâte."
@@ -83,6 +84,12 @@
     "type": "url",
     "data": "https://www.hervecuisine.com/recette/crepes-de-la-chandeleur/"
   },
+  "related": [
+    "gaufre-liegeoise",
+    "pancakes-moelleux-sirop-erable",
+    "galette-banane",
+    "canneles"
+  ],
   "translations": {
     "en": {
       "title": "Soft Chandeleur Crêpes",

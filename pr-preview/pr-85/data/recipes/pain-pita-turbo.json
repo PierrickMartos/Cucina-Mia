@@ -46,12 +46,19 @@
       "text": "Travailler la pâte à la main sur un plan de travail fariné, puis séparer la boule en 6 parts égales."
     },
     {
-      "text": "Aplatir chaque morceau au rouleau. Faire cuire sur une poêle antiadhésive chaude. Retourner quand la première face a pris une jolie couleur. Environ 2 minutes de chaque côté."
+      "text": "Aplatir chaque morceau au rouleau. Faire cuire sur une poêle antiadhésive chaude. Retourner quand la première face a pris une jolie couleur. Environ 2 minutes de chaque côté.",
+      "timers": [2]
     }
   ],
   "tips": [
     "Le yaourt grec donne une pâte plus moelleuse et légèrement plus riche.",
     "Les pitas se conservent 1 à 2 jours dans un torchon propre ou se congèlent très bien."
+  ],
+  "related": [
+    "naans-nature",
+    "naans-au-fromage",
+    "pita-dwich-italian-style",
+    "pasta-per-torta-veloce"
   ],
   "translations": {
     "en": {

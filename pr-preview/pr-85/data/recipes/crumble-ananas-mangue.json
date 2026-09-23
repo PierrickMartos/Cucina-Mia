@@ -54,7 +54,8 @@
       "text": "Coupez l'ananas en 2, enlevez la peau et les yeux, jetez le cœur. Coupez-le en cubes."
     },
     {
-      "text": "Dans une poêle, faites fondre le beurre avec le sucre. Incorporez les morceaux d'ananas et amenez doucement à coloration pendant environ 7 minutes."
+      "text": "Dans une poêle, faites fondre le beurre avec le sucre. Incorporez les morceaux d'ananas et amenez doucement à coloration pendant environ 7 minutes.",
+      "timers": [7]
     },
     {
       "text": "Fendez la gousse de vanille en 2 et récupérez les graines. Incorporez les grains de vanille et le rhum vieux à l'ananas caramélisé. Retirez du feu et laissez de côté."
@@ -75,7 +76,8 @@
       "text": "Répartissez le biscuit crumble sur les ramequins, par-dessus le mélange de fruits."
     },
     {
-      "text": "Enfournez pendant 20 à 25 minutes jusqu'à ce que le biscuit soit bien doré."
+      "text": "Enfournez pendant 20 à 25 minutes jusqu'à ce que le biscuit soit bien doré.",
+      "timers": [20]
     },
     {
       "text": "Dégustez tiède accompagné d'une boule de glace à la vanille."
@@ -86,6 +88,12 @@
     "Ce crumble se marie très bien avec d'autres fruits exotiques comme la papaye."
   ],
   "source": "https://www.tatiemaryse.com/crumble-aux-fruits-exotiques/",
+  "related": [
+    "gateaux-ananas-mojito",
+    "tarte-tatin-mangue-espelette",
+    "clafoutis-mangue-curcuma-caramel-citronelle",
+    "framboisier-facile-moelleux"
+  ],
   "translations": {
     "en": {
       "title": "Pineapple and Mango Crumble",

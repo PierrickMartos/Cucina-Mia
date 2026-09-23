@@ -43,7 +43,8 @@
   ],
   "steps": [
     {
-      "text": "Préchauffer le four à 180°C. Laver et émincer les poireaux. Les faire revenir 7 à 10 minutes dans une sauteuse. Saler et poivrer. Réserver."
+      "text": "Préchauffer le four à 180°C. Laver et émincer les poireaux. Les faire revenir 7 à 10 minutes dans une sauteuse. Saler et poivrer. Réserver.",
+      "timers": [7]
     },
     {
       "text": "Mélanger la crème liquide avec la moutarde. Saler et poivrer."
@@ -52,8 +53,15 @@
       "text": "Monter le gratin dans un plat à gratin : un peu de crème, une plaque de ravioles du Dauphiné, des poireaux. Répéter jusqu'à terminer par de la crème. Ajouter du fromage sur le dessus si désiré."
     },
     {
-      "text": "Cuire au four pendant 25 à 30 minutes jusqu'à ce que le gratin soit bien doré."
+      "text": "Cuire au four pendant 25 à 30 minutes jusqu'à ce que le gratin soit bien doré.",
+      "timers": [25]
     }
+  ],
+  "related": [
+    "macaronis-fromage-facon-risotto",
+    "penne-creme-chevre-noix",
+    "gratin-butternut",
+    "ravioli-prosciutto-caprino"
   ],
   "translations": {
     "en": {

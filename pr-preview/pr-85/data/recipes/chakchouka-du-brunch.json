@@ -47,19 +47,24 @@
       "text": "Chauffer l'huile d'olive dans une grande poêle ou un plat allant au four à feu moyen."
     },
     {
-      "text": "Faire revenir l'oignon émincé pendant 5 minutes jusqu'à ce qu'il soit translucide."
+      "text": "Faire revenir l'oignon émincé pendant 5 minutes jusqu'à ce qu'il soit translucide.",
+      "timers": [5]
     },
     {
-      "text": "Ajouter le poivron rouge en dés et l'ail haché, cuire 3 minutes de plus."
+      "text": "Ajouter le poivron rouge en dés et l'ail haché, cuire 3 minutes de plus.",
+      "timers": [3]
     },
     {
-      "text": "Ajouter le cumin, le paprika et le piment de Cayenne, mélanger pendant 1 minute pour libérer les arômes."
+      "text": "Ajouter le cumin, le paprika et le piment de Cayenne, mélanger pendant 1 minute pour libérer les arômes.",
+      "timers": [1]
     },
     {
-      "text": "Verser les tomates concassées et le concentré de tomates, assaisonner de sel et poivre. Laisser mijoter 10 minutes à feu doux."
+      "text": "Verser les tomates concassées et le concentré de tomates, assaisonner de sel et poivre. Laisser mijoter 10 minutes à feu doux.",
+      "timers": [10]
     },
     {
-      "text": "Former 4 puits dans la sauce et y casser délicatement les oeufs. Couvrir et cuire 5 à 8 minutes jusqu'à ce que les blancs soient pris mais les jaunes encore coulants."
+      "text": "Former 4 puits dans la sauce et y casser délicatement les oeufs. Couvrir et cuire 5 à 8 minutes jusqu'à ce que les blancs soient pris mais les jaunes encore coulants.",
+      "timers": [5]
     },
     {
       "text": "Parsemer de coriandre fraîche et servir directement dans la poêle avec du pain grillé."
@@ -69,6 +74,12 @@
     "On peut ajouter de la feta émiettée sur le dessus juste avant de servir.",
     "Le piment de Cayenne peut être remplacé par du piment d'Espelette pour une version plus douce.",
     "Pour un brunch complet, servir avec du pain au levain grillé et de l'avocat."
+  ],
+  "related": [
+    "tartine-oeufs-chorizo",
+    "omelette-a-la-courgette",
+    "mayak-gyeran",
+    "avocado-toast"
   ],
   "translations": {
     "en": {

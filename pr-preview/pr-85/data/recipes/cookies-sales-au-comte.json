@@ -64,7 +64,8 @@
       "text": "Incorporer les dés de comté, puis former 12 petites boules de taille moyenne et les disposer sur une plaque."
     },
     {
-      "text": "Préchauffer le four à 180 °C et faire cuire pendant 15 minutes."
+      "text": "Préchauffer le four à 180 °C et faire cuire pendant 15 minutes.",
+      "timers": [15]
     }
   ],
   "tips": [
@@ -75,6 +76,12 @@
     "type": "image",
     "data": "images/recipes/cookies-sales-au-comte/source.jpeg"
   },
+  "related": [
+    "souffle-au-fromage",
+    "naans-au-fromage",
+    "pain-pita-turbo",
+    "rouleaux-de-printemps"
+  ],
   "translations": {
     "en": {
       "title": "Savory Comté Cookies",

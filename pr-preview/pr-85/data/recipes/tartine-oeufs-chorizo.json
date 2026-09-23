@@ -66,6 +66,12 @@
     "Variante : remplacer le gruyère par du fromage de chèvre frais ou de la mozzarella.",
     "Pour un brunch complet, ajouter quelques tomates cerises rôties ou de l'avocat tranché."
   ],
+  "related": [
+    "avocado-toast",
+    "tartine-de-lamour",
+    "chakchouka-du-brunch",
+    "omelette-a-la-courgette"
+  ],
   "translations": {
     "en": {
       "title": "Eggs and Chorizo Toast",

@@ -51,7 +51,8 @@
       "text": "Séparer les jaunes des blancs d'œufs. Réserver les blancs avec une pincée de sel."
     },
     {
-      "text": "Battre les jaunes avec le sucre citronné pendant 10 minutes au batteur électrique jusqu'à ce que le mélange blanchisse et devienne mousseux."
+      "text": "Battre les jaunes avec le sucre citronné pendant 10 minutes au batteur électrique jusqu'à ce que le mélange blanchisse et devienne mousseux.",
+      "timers": [10]
     },
     {
       "text": "Monter tous les blancs en neige ferme, puis incorporer progressivement 50g de sucre."
@@ -69,7 +70,8 @@
       "text": "Verser la préparation dans le moule."
     },
     {
-      "text": "Enfourner 6 minutes à 220°C, puis baisser la température à 130°C et cuire encore 35 minutes. Laisser refroidir avant de démouler et saupoudrer de sucre glace."
+      "text": "Enfourner 6 minutes à 220°C, puis baisser la température à 130°C et cuire encore 35 minutes. Laisser refroidir avant de démouler et saupoudrer de sucre glace.",
+      "timers": [6, 35]
     }
   ],
   "tips": [
@@ -78,6 +80,12 @@
     "Ce gâteau est naturellement sans gluten grâce à la Maïzena à la place de la farine."
   ],
   "source": "https://www.750g.com/gateau-de-savoie-r81304.htm",
+  "related": [
+    "framboisier-facile-moelleux",
+    "canneles",
+    "gateau-de-semoule",
+    "verrines-tarte-citron-meringuee"
+  ],
   "translations": {
     "en": {
       "title": "Gâteau de Savoie",

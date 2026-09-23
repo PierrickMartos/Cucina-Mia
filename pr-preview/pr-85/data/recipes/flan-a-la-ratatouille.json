@@ -51,7 +51,8 @@
       "text": "Ajouter la ratatouille, puis mélanger afin de bien l'incorporer à la préparation."
     },
     {
-      "text": "Beurrer un plat allant au four d'environ 29 cm de diamètre, puis y verser la préparation. Parsemer de fromage râpé, puis enfourner 40 minutes à 180°C."
+      "text": "Beurrer un plat allant au four d'environ 29 cm de diamètre, puis y verser la préparation. Parsemer de fromage râpé, puis enfourner 40 minutes à 180°C.",
+      "timers": [40]
     },
     {
       "text": "Une fois le dessus bien doré et le fromage fondu, sortir le plat du four et servir le flan accompagné d'une salade verte."
@@ -62,6 +63,12 @@
     "type": "url",
     "data": "https://jow.fr/recipes/flan-a-la-ratatouille-8ewo4ttkbu50758u100z"
   },
+  "related": [
+    "legumes-du-soleil-et-feta-rotis",
+    "four-tomates-aubergines-courgettes-pesto",
+    "tomates-farcies",
+    "souffle-au-fromage"
+  ],
   "translations": {
     "en": {
       "title": "Ratatouille Baked Custard",

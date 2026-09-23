@@ -59,16 +59,19 @@
   ],
   "steps": [
     {
-      "text": "Préchauffer le four à 100 °C. Couper les tomates en deux, les disposer côté coupé vers le haut sur une plaque recouverte de papier sulfurisé. Arroser d'un filet d'huile d'olive, saupoudrer d'une pincée de sel, de sucre et de thym ou d'origan. Enfourner 1 à 2 heures jusqu'à ce qu'elles soient fondantes et bien concentrées."
+      "text": "Préchauffer le four à 100 °C. Couper les tomates en deux, les disposer côté coupé vers le haut sur une plaque recouverte de papier sulfurisé. Arroser d'un filet d'huile d'olive, saupoudrer d'une pincée de sel, de sucre et de thym ou d'origan. Enfourner 1 à 2 heures jusqu'à ce qu'elles soient fondantes et bien concentrées.",
+      "timers": [60]
     },
     {
-      "text": "Préparer les busiate : verser la semoule fine sur le plan de travail et former un puits. Incorporer progressivement les 160 ml d'eau tiède, d'abord en mélangeant petit à petit avec une fourchette, puis en pétrissant avec les doigts lorsque la pâte commence à se former. Pétrir pendant 10 minutes jusqu'à obtenir une pâte lisse et souple. Couvrir d'un torchon humide et laisser reposer 30 minutes."
+      "text": "Préparer les busiate : verser la semoule fine sur le plan de travail et former un puits. Incorporer progressivement les 160 ml d'eau tiède, d'abord en mélangeant petit à petit avec une fourchette, puis en pétrissant avec les doigts lorsque la pâte commence à se former. Pétrir pendant 10 minutes jusqu'à obtenir une pâte lisse et souple. Couvrir d'un torchon humide et laisser reposer 30 minutes.",
+      "timers": [10, 30]
     },
     {
       "text": "Façonner les busiate : prélever des petits morceaux de pâte et former de fins boudins. Enrouler chaque boudin en spirale autour d'un pic en bois ou d'une brochette fine, puis faire glisser pour libérer la pâte. Réserver sur un plateau fariné."
     },
     {
-      "text": "Préparer le pesto alla trapanese : faire légèrement griller les amandes à sec dans une poêle. Plonger les tomates fraîches une minute dans l'eau bouillante, les peler avec délicatesse, puis les couper en morceaux. Dans un mortier ou un mixeur, broyer les amandes avec l'ail, les tomates, puis ajouter le basilic frais. Incorporer le pecorino râpé et verser les 80 ml d'huile d'olive progressivement en mixant. La consistance doit être légèrement grossière, pas totalement lisse. Saler et poivrer."
+      "text": "Préparer le pesto alla trapanese : faire légèrement griller les amandes à sec dans une poêle. Plonger les tomates fraîches une minute dans l'eau bouillante, les peler avec délicatesse, puis les couper en morceaux. Dans un mortier ou un mixeur, broyer les amandes avec l'ail, les tomates, puis ajouter le basilic frais. Incorporer le pecorino râpé et verser les 80 ml d'huile d'olive progressivement en mixant. La consistance doit être légèrement grossière, pas totalement lisse. Saler et poivrer.",
+      "timers": [1]
     },
     {
       "text": "Cuire les busiate dans une grande casserole d'eau bouillante bien salée jusqu'à al dente. Réserver une petite louche d'eau de cuisson avant d'égoutter."
@@ -89,6 +92,12 @@
     "type": "image",
     "data": "images/recipes/pesto-presto/source.jpg"
   },
+  "related": [
+    "pasta-pesto-agrumes",
+    "fusilloni-alla-norma",
+    "spaghettis-alla-vittorio",
+    "caprese-di-tuffoli"
+  ],
   "translations": {
     "en": {
       "title": "Pesto Presto",

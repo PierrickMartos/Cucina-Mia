@@ -47,31 +47,41 @@
       "text": "Faire bouillir le beurre et le lait avec la gousse de vanille grattée et la pincée de sel."
     },
     {
-      "text": "Faire blanchir les jaunes et les œufs avec le sucre en fouettant pendant 3 minutes. Ajouter la farine."
+      "text": "Faire blanchir les jaunes et les œufs avec le sucre en fouettant pendant 3 minutes. Ajouter la farine.",
+      "timers": [3]
     },
     {
       "text": "Incorporer le lait refroidi en versant peu à peu et en travaillant très peu. Incorporer alors les arômes (rhum et amande amère)."
     },
     {
-      "text": "Laisser reposer l'appareil au réfrigérateur pendant 12 heures."
+      "text": "Laisser reposer l'appareil au réfrigérateur pendant 12 heures.",
+      "timers": [720]
     },
     {
       "text": "Beurrer au pinceau les moules à cannelés en cuivre, ou les enduire de cire d'abeille."
     },
     {
-      "text": "Mettre les moules beurrés au congélateur pendant 5 à 10 minutes, puis les rebeurrer avec du beurre fondu."
+      "text": "Mettre les moules beurrés au congélateur pendant 5 à 10 minutes, puis les rebeurrer avec du beurre fondu.",
+      "timers": [5]
     },
     {
       "text": "Préchauffer le four à 280°C en chaleur tournante."
     },
     {
-      "text": "Remplir les moules à cannelés et cuire pendant 10 minutes à 280°C, puis 40 minutes à 200°C. Laisser refroidir avant de démouler."
+      "text": "Remplir les moules à cannelés et cuire pendant 10 minutes à 280°C, puis 40 minutes à 200°C. Laisser refroidir avant de démouler.",
+      "timers": [10, 40]
     }
   ],
   "tips": [
     "Utiliser de préférence des moules en cuivre pour un résultat optimal avec la croûte caramélisée caractéristique.",
     "Le repos de 12 heures au réfrigérateur est essentiel : ne pas raccourcir cette étape.",
     "La double beurrure avec passage au congélateur garantit un démoulage parfait."
+  ],
+  "related": [
+    "gateau-de-savoie",
+    "gaufre-liegeoise",
+    "crepes-chandeleur",
+    "gateau-de-semoule"
   ],
   "translations": {
     "en": {

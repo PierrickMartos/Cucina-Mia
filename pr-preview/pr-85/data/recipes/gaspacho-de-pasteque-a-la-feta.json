@@ -65,6 +65,12 @@
     "type": "url",
     "data": "https://www.marieclaire.fr/cuisine/gaspacho-de-pasteque-a-la-feta,1376603.asp"
   },
+  "related": [
+    "gaspacho-pasteque-tomates",
+    "salade-orzo-pasteque",
+    "melon-basilic",
+    "creme-avocat-mousse-concombre"
+  ],
   "translations": {
     "en": {
       "title": "Watermelon Gazpacho with Feta",

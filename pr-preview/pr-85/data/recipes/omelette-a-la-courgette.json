@@ -80,7 +80,8 @@
       "text": "Dans une poêle sur feu moyen, verser un filet d'huile d'olive puis les œufs battus."
     },
     {
-      "text": "Diviser la préparation en quatre omelettes et les cuire 4 minutes chacune, jusqu'à ce qu'elles soient bien dorées."
+      "text": "Diviser la préparation en quatre omelettes et les cuire 4 minutes chacune, jusqu'à ce qu'elles soient bien dorées.",
+      "timers": [4]
     },
     {
       "text": "Servir les omelettes avec la sauce au fromage frais et aux herbes, saler, poivrer et ajouter un filet d'huile d'olive."
@@ -91,6 +92,12 @@
     "type": "url",
     "data": "https://jow.fr/recipes/omelette-a-la-courgette-85kbkijdgl3m4ats0bf8"
   },
+  "related": [
+    "chakchouka-du-brunch",
+    "tartine-oeufs-chorizo",
+    "avocado-toast",
+    "souffle-au-fromage"
+  ],
   "translations": {
     "en": {
       "title": "Courgette Omelette",

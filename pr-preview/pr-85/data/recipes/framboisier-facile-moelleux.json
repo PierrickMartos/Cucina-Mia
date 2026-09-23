@@ -67,7 +67,8 @@
       "text": "Préchauffez le four à 180 °C."
     },
     {
-      "text": "Pour la première génoise, cassez 3 œufs dans un saladier avec 60 g de sucre. Battez au fouet électrique jusqu'à ce que le mélange ait triplé de volume, environ 3 minutes."
+      "text": "Pour la première génoise, cassez 3 œufs dans un saladier avec 60 g de sucre. Battez au fouet électrique jusqu'à ce que le mélange ait triplé de volume, environ 3 minutes.",
+      "timers": [3]
     },
     {
       "text": "Ajoutez 60 g de farine, un demi-sachet de levure et 30 g de beurre fondu."
@@ -76,7 +77,8 @@
       "text": "Versez la pâte dans le moule beurré."
     },
     {
-      "text": "Enfournez une quinzaine de minutes, jusqu'à 25 minutes selon les fours. N'ouvrez surtout pas la porte du four pendant la cuisson. Sortez la génoise dès qu'elle prend une belle couleur dorée, puis laissez-la refroidir."
+      "text": "Enfournez une quinzaine de minutes, jusqu'à 25 minutes selon les fours. N'ouvrez surtout pas la porte du four pendant la cuisson. Sortez la génoise dès qu'elle prend une belle couleur dorée, puis laissez-la refroidir.",
+      "timers": [15]
     },
     {
       "text": "Procédez de la même façon pour la deuxième génoise, en ajoutant éventuellement du colorant alimentaire rouge à la pâte."
@@ -113,6 +115,12 @@
     "type": "url",
     "data": "https://mysweetescape.fr/2018/03/18/recette-framboisier-facile-moelleux/"
   },
+  "related": [
+    "panna-cotta-aux-framboises",
+    "gateau-de-savoie",
+    "verrines-tarte-citron-meringuee",
+    "clafoutis-mangue-curcuma-caramel-citronelle"
+  ],
   "translations": {
     "en": {
       "title": "Easy Raspberry Layer Cake",

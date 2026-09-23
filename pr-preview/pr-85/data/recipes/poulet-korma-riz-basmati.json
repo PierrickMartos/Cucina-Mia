@@ -75,6 +75,12 @@
     "Le poulet peut être remplacé par des pois chiches pour une version végétarienne tout aussi savoureuse."
   ],
   "source": "Recettes Team Building Suricates Akeneo Q2 2023, L'Atelier Gourmand de Nantes",
+  "related": [
+    "poulet-tikka-massala",
+    "poulet-au-curry",
+    "biryani-agneau",
+    "naans-nature"
+  ],
   "translations": {
     "en": {
       "title": "Chicken Korma with Basmati Rice",

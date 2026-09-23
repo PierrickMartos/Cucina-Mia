@@ -40,7 +40,8 @@
   ],
   "steps": [
     {
-      "text": "Préparez les œufs mollets : faites bouillir de l'eau, plongez-y les œufs 5 min, puis mettez-les 1 min dans de l'eau froide."
+      "text": "Préparez les œufs mollets : faites bouillir de l'eau, plongez-y les œufs 5 min, puis mettez-les 1 min dans de l'eau froide.",
+      "timers": [5, 1]
     },
     {
       "text": "Tartinez le pain de fromage frais. Ajoutez l'avocat en lamelles et arrosez de jus de citron. Salez et poivrez."
@@ -55,6 +56,12 @@
   },
   "tips": [
     "Pour une version végétarienne, remplacez le jambon ou le saumon par de la feta et/ou des champignons dorés à la poêle."
+  ],
+  "related": [
+    "tartine-oeufs-chorizo",
+    "tartine-de-lamour",
+    "omelette-a-la-courgette",
+    "chakchouka-du-brunch"
   ],
   "translations": {
     "en": {

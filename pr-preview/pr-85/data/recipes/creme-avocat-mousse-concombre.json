@@ -83,7 +83,8 @@
       "text": "Rincez les tomates cerises et découpez-les en quartiers. Ciselez la feuille de basilic."
     },
     {
-      "text": "Mélangez les tomates avec le vinaigre balsamique, l'huile d'olive, le basilic, du sel et du poivre. Laissez mariner 5 minutes."
+      "text": "Mélangez les tomates avec le vinaigre balsamique, l'huile d'olive, le basilic, du sel et du poivre. Laissez mariner 5 minutes.",
+      "timers": [5]
     },
     {
       "text": "Déposez les tomates cerises marinées sur la mousse de concombre juste avant de servir."
@@ -94,6 +95,12 @@
     "Préparez les verrines à l'avance mais ajoutez les tomates au dernier moment pour conserver leur fraîcheur."
   ],
   "source": "Recettes Team Building Suricates Akeneo Q2 2023, L'Atelier Gourmand de Nantes",
+  "related": [
+    "melon-basilic",
+    "gaspacho-pasteque-tomates",
+    "creme-de-carottes-aux-pommes",
+    "carpaccio-de-tomates-au-pesto-de-pistaches"
+  ],
   "translations": {
     "en": {
       "title": "Avocado Cream, Cucumber Mousse and Marinated Cherry Tomato",

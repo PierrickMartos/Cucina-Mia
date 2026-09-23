@@ -47,7 +47,8 @@
   ],
   "steps": [
     {
-      "text": "Émietter la levure dans un peu d'eau tiède avec une pincée de sucre. Laisser activer 10 minutes jusqu'à ce qu'elle mousse."
+      "text": "Émietter la levure dans un peu d'eau tiède avec une pincée de sucre. Laisser activer 10 minutes jusqu'à ce qu'elle mousse.",
+      "timers": [10]
     },
     {
       "text": "Faire fondre le beurre avec le lait dans une casserole à feu doux. Laisser tiédir jusqu'à ce que le mélange soit à peine tiède au toucher."
@@ -62,19 +63,23 @@
       "text": "Battre les blancs en neige ferme et les incorporer délicatement à la pâte : c'est le secret de Mamie Yvette pour une mie légère et aérienne."
     },
     {
-      "text": "Pétrir la pâte sur un plan légèrement fariné pendant 8 à 10 minutes. Elle doit rester souple et légèrement collante ; éviter d'ajouter trop de farine."
+      "text": "Pétrir la pâte sur un plan légèrement fariné pendant 8 à 10 minutes. Elle doit rester souple et légèrement collante ; éviter d'ajouter trop de farine.",
+      "timers": [8]
     },
     {
-      "text": "Couvrir d'un torchon propre et laisser lever à température ambiante 1 heure à 1h30, jusqu'à ce que la pâte double de volume."
+      "text": "Couvrir d'un torchon propre et laisser lever à température ambiante 1 heure à 1h30, jusqu'à ce que la pâte double de volume.",
+      "timers": [60]
     },
     {
       "text": "Préchauffer le four à 180 °C. Dégazer la pâte et façonner des petits pains à sa fantaisie : boules, navettes, tresses…"
     },
     {
-      "text": "Disposer sur une plaque garnie de papier cuisson. Laisser reposer encore 15 minutes, puis dorer la surface avec un peu de lait."
+      "text": "Disposer sur une plaque garnie de papier cuisson. Laisser reposer encore 15 minutes, puis dorer la surface avec un peu de lait.",
+      "timers": [15]
     },
     {
-      "text": "Enfourner 15 à 20 minutes jusqu'à ce que les pains soient bien dorés. Déguster tièdes avec du beurre."
+      "text": "Enfourner 15 à 20 minutes jusqu'à ce que les pains soient bien dorés. Déguster tièdes avec du beurre.",
+      "timers": [15]
     }
   ],
   "history": "Notre grand-mère Yvette nous préparait ses petits pains tout chaud pour le réveil quand on dormait chez elle, ou bien pour le goûter. Avec un peu de confiture ou du Nutella, on en raffolait !",
@@ -87,6 +92,12 @@
     "Séparer les blancs et les monter en neige avant de les incorporer : c'est le secret de Mamie pour des pains au lait plus légers et aériens.",
     "Résistez à la tentation d'ajouter trop de farine lors du pétrissage : une pâte légèrement collante donne un résultat plus moelleux.",
     "Ces pains se congèlent très bien ; réchauffez-les 5 minutes dans un four à 150 °C."
+  ],
+  "related": [
+    "gateau-de-semoule",
+    "gaufre-liegeoise",
+    "crepes-chandeleur",
+    "pancakes-moelleux-sirop-erable"
   ],
   "translations": {
     "en": {

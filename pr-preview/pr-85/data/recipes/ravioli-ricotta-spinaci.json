@@ -51,10 +51,12 @@
       "text": "Ajouter un filet d'huile d'olive extra vierge et pétrir à nouveau brièvement."
     },
     {
-      "text": "Couvrir la pâte avec un torchon humide et laisser reposer au réfrigérateur pendant 1 heure."
+      "text": "Couvrir la pâte avec un torchon humide et laisser reposer au réfrigérateur pendant 1 heure.",
+      "timers": [60]
     },
     {
-      "text": "Plonger les épinards dans de l'eau bouillante pendant 2 minutes, égoutter et laisser refroidir."
+      "text": "Plonger les épinards dans de l'eau bouillante pendant 2 minutes, égoutter et laisser refroidir.",
+      "timers": [2]
     },
     {
       "text": "Presser les épinards pour retirer l'excès d'eau, puis les couper finement."
@@ -69,7 +71,8 @@
       "text": "Disposer des petites cuillerées de farce sur la pâte, replier et sceller les bords. Découper les raviolis."
     },
     {
-      "text": "Cuire les raviolis dans de l'eau bouillante salée pendant 3 à 4 minutes, jusqu'à ce qu'ils remontent à la surface."
+      "text": "Cuire les raviolis dans de l'eau bouillante salée pendant 3 à 4 minutes, jusqu'à ce qu'ils remontent à la surface.",
+      "timers": [3]
     }
   ],
   "imageCredit": {
@@ -82,6 +85,12 @@
     "Les raviolis peuvent être servis simplement avec du beurre fondu et de la sauge."
   ],
   "source": "Kitchen class in Roma with Italian chef",
+  "related": [
+    "ravioli-prosciutto-caprino",
+    "gnocchi-crema-peperone",
+    "pesto-presto",
+    "pasta-carbonara"
+  ],
   "translations": {
     "en": {
       "title": "Ricotta and Spinach Ravioli",

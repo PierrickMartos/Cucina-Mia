@@ -45,10 +45,12 @@
       "text": "Peler et émincer les échalotes. Les faire frire dans le gras du chorizo. Ajouter les coquillettes. Remuer sans cesse et mouiller avec la bière."
     },
     {
-      "text": "Dès que la bière est complètement évaporée, verser le bouillon de légumes en plusieurs fois jusqu'à ce que les pâtes soient parfaitement cuites. Ne pas cesser de remuer. Compter 20 minutes de cuisson. Ajouter les tomates émincées 5 minutes avant la fin."
+      "text": "Dès que la bière est complètement évaporée, verser le bouillon de légumes en plusieurs fois jusqu'à ce que les pâtes soient parfaitement cuites. Ne pas cesser de remuer. Compter 20 minutes de cuisson. Ajouter les tomates émincées 5 minutes avant la fin.",
+      "timers": [20]
     },
     {
-      "text": "Une fois les pâtes cuites, ajouter le parmesan. Couvrir et laisser reposer 2 minutes hors du feu. Remuer et rectifier l'assaisonnement."
+      "text": "Une fois les pâtes cuites, ajouter le parmesan. Couvrir et laisser reposer 2 minutes hors du feu. Remuer et rectifier l'assaisonnement.",
+      "timers": [2]
     },
     {
       "text": "Déguster bien chaud."
@@ -58,6 +60,12 @@
     "Ne pas cesser de remuer pendant la cuisson, comme pour un vrai risotto.",
     "La bière ambrée apporte une légère amertume qui équilibre le gras du chorizo.",
     "Version plus douce : remplacer la bière ambrée par du bouillon supplémentaire et ajouter une cuillère de crème fraîche à la fin."
+  ],
+  "related": [
+    "coquillettes-jambon-truffe",
+    "macaronis-fromage-facon-risotto",
+    "risotto-cheddar-bacon",
+    "lentilles-corail-garam-massala"
   ],
   "translations": {
     "en": {

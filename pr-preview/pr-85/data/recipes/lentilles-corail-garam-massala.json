@@ -60,13 +60,15 @@
       "text": "Peler et émincer l'oignon. Dans la même sauteuse avec le reste de matière grasse, faire revenir l'oignon, ajouter les lentilles et mouiller avec la bière."
     },
     {
-      "text": "Dès que la bière est évaporée, verser le bouillon en plusieurs fois jusqu'à ce que les lentilles soient cuites (environ 30 min). Ne cesser de remuer. À mi-cuisson, ajouter l'effiloché de poulet. 5 min avant la fin, ajouter les poivrons."
+      "text": "Dès que la bière est évaporée, verser le bouillon en plusieurs fois jusqu'à ce que les lentilles soient cuites (environ 30 min). Ne cesser de remuer. À mi-cuisson, ajouter l'effiloché de poulet. 5 min avant la fin, ajouter les poivrons.",
+      "timers": [30]
     },
     {
       "text": "Au moment de la dernière louche de bouillon, la remplacer par la marinade au lait de coco."
     },
     {
-      "text": "Une fois les lentilles cuites, ajouter le parmesan. Couvrir et laisser reposer 2 minutes. Remuer et rectifier l'assaisonnement."
+      "text": "Une fois les lentilles cuites, ajouter le parmesan. Couvrir et laisser reposer 2 minutes. Remuer et rectifier l'assaisonnement.",
+      "timers": [2]
     },
     {
       "text": "Déguster sans attendre."
@@ -76,6 +78,12 @@
     "Pour un effiloché réussi, faites cuire le poulet à feu vif et émiettez-le à la fourchette en fin de cuisson.",
     "Les lentilles corail cuisent rapidement : ne les quittez pas des yeux et remuez constamment pour éviter qu'elles attachent.",
     "La marinade au lait de coco en fin de cuisson apporte une onctuosité et une douceur qui équilibre le piquant du garam massala."
+  ],
+  "related": [
+    "curry-legumes",
+    "poulet-tikka-massala",
+    "macaronis-fromage-facon-risotto",
+    "orgesotto-pommes-magret-canard"
   ],
   "translations": {
     "en": {
