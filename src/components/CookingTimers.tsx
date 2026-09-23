@@ -19,10 +19,12 @@ interface StepTimerButtonsProps {
   recipeTitle: string
   step: number
   timers: number[]
+  /** Bigger buttons for the hands-free cooking mode. */
+  size?: "default" | "large"
 }
 
 /** One button per timer of a step: start it, then pause/resume it, then stop the alarm. */
-export function StepTimerButtons({ slug, recipeTitle, step, timers }: StepTimerButtonsProps) {
+export function StepTimerButtons({ slug, recipeTitle, step, timers, size = "default" }: StepTimerButtonsProps) {
   const { t } = useTranslation()
   const { timers: active, now } = useTimers()
 
@@ -32,8 +34,9 @@ export function StepTimerButtons({ slug, recipeTitle, step, timers }: StepTimerB
         const id = timerId(slug, step, index)
         const timer = active.find((a) => a.id === id)
         const duration = formatDuration(minutes)
-        const base =
-          "mt-2 inline-flex items-center gap-1.5 rounded-full px-3 py-1 text-xs font-semibold transition-colors cursor-pointer print:hidden tabular-nums"
+        const base = `inline-flex items-center rounded-full font-semibold transition-colors cursor-pointer print:hidden tabular-nums ${
+          size === "large" ? "gap-2.5 px-6 py-3.5 text-xl [&_svg]:h-6 [&_svg]:w-6" : "mt-2 gap-1.5 px-3 py-1 text-xs"
+        }`
 
         if (!timer) {
           return (

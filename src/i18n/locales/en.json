@@ -87,6 +87,18 @@
     "done": "Done!",
     "tray": "Timers"
   },
+  "cookingMode": {
+    "start": "Cooking mode",
+    "exit": "Exit cooking mode",
+    "finish": "Done, buon appetito!",
+    "navigation": "Step navigation",
+    "readAloud": "Read each step aloud",
+    "voiceControl": "Voice commands",
+    "voiceHint": "Say “next”, “previous”, “repeat”, “timer” or “stop”",
+    "voiceHeard": "Heard: “{{text}}”",
+    "voiceDenied": "Microphone blocked: allow it in your browser to use voice commands.",
+    "voiceError": "Voice commands are unavailable right now."
+  },
   "filter": {
     "title": "Filter recipes",
     "category": "Category",
