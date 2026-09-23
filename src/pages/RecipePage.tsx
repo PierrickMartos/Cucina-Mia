@@ -3,12 +3,14 @@ import type { KeyboardEvent as ReactKeyboardEvent } from "react"
 import { createPortal } from "react-dom"
 import { useParams, Link, useNavigate } from "react-router-dom"
 import { useTranslation } from "react-i18next"
-import { ArrowLeft, Clock, CookingPot, Users, ChefHat, UtensilsCrossed, Printer, Share2, Check, Volume2, VolumeX, BookOpen } from "lucide-react"
+import { ArrowLeft, Clock, CookingPot, ChefHat, UtensilsCrossed, Printer, Share2, Check, Volume2, VolumeX, BookOpen } from "lucide-react"
 import { motion, useMotionValue, useTransform, useReducedMotion, type Variants } from "motion/react"
 import { Badge } from "@/components/ui/badge"
 import { Skeleton } from "@/components/ui/skeleton"
+import { ServingsSelect } from "@/components/ServingsSelect"
 import { localizeRecipeDetail } from "@/lib/localize"
 import { useRecipe } from "@/lib/recipeData"
+import { scaleIngredient } from "@/lib/scaleIngredient"
 import { StepTimerButtons } from "@/components/CookingTimers"
 import { RelatedRecipes } from "@/components/RelatedRecipes"
 
@@ -54,6 +56,8 @@ export function RecipePage() {
       return JSON.parse(localStorage.getItem(`cucina-mia:checks:${slug}`) ?? '{}')
     } catch { return {} }
   })
+  // Chosen servings, tied to the slug so another recipe starts back at its own servings
+  const [servingsChoice, setServingsChoice] = useState<{ slug?: string; value: number } | null>(null)
   const [headerBackVisible, setHeaderBackVisible] = useState(false)
   const [linkCopied, setLinkCopied] = useState(false)
   const linkCopiedTimeoutRef = useRef<ReturnType<typeof setTimeout> | null>(null)
@@ -321,6 +325,29 @@ export function RecipePage() {
 
   const headerSlot = document.getElementById("header-left-slot")
 
+  const servings = servingsChoice && servingsChoice.slug === slug ? servingsChoice.value : recipe.servings
+  const servingsFactor = servings / recipe.servings
+  const setServings = (value: number) => setServingsChoice({ slug, value })
+  const displayIngredient = (item: string) => scaleIngredient(item, servingsFactor, i18n.language)
+
+  const scaledNote = (withReset: boolean) => servingsFactor !== 1 && (
+    <p className="mb-5 text-xs text-muted-foreground">
+      {t("recipe.scaledNote", { base: recipe.servings })}
+      {withReset && (
+        <>
+          {" "}
+          <button
+            type="button"
+            onClick={() => setServings(recipe.servings)}
+            className="underline underline-offset-2 hover:text-foreground transition-colors cursor-pointer print:hidden"
+          >
+            {t("recipe.resetServings", { count: recipe.servings })}
+          </button>
+        </>
+      )}
+    </p>
+  )
+
   const formatTime = (minutes: number) => {
     if (minutes >= 60) {
       const hours = Math.floor(minutes / 60)
@@ -450,9 +477,8 @@ export function RecipePage() {
           animate="visible"
           className="flex items-center justify-center gap-4 pt-4 border-t border-border"
         >
-          <motion.div variants={reduceMotion ? itemVariantsReduced : itemVariants} className="flex items-center gap-1.5 text-sm text-muted-foreground">
-            <Users className="h-4 w-4" />
-            <span>{recipe.servings} {t("recipe.servings")}</span>
+          <motion.div variants={reduceMotion ? itemVariantsReduced : itemVariants}>
+            <ServingsSelect base={recipe.servings} value={servings} onChange={setServings} />
           </motion.div>
           <div className="flex flex-wrap justify-center gap-1.5">
             {recipe.tags.map((tag) => (
@@ -588,6 +614,7 @@ export function RecipePage() {
               </button>
             )}
           </div>
+          {scaledNote(true)}
           {recipe.ingredients.map((group, gi) => (
             <div key={gi} className="mb-6">
               {group.group && (
@@ -644,7 +671,7 @@ export function RecipePage() {
                               : "text-foreground"
                           }`}
                         >
-                          {item}
+                          {displayIngredient(item)}
                         </span>
                       </label>
                     </li>
@@ -661,6 +688,7 @@ export function RecipePage() {
           aria-labelledby={instructionsTabId}
           className="mb-8 pb-24"
         >
+          {scaledNote(false)}
           <ol className="space-y-6">
             {recipe.steps.map((step, i) => (
               <li
@@ -726,6 +754,7 @@ export function RecipePage() {
               </button>
             )}
           </div>
+          {scaledNote(true)}
           {recipe.ingredients.map((group, gi) => (
             <div key={gi} className="mb-6">
               {group.group && (
@@ -782,7 +811,7 @@ export function RecipePage() {
                               : "text-foreground"
                           }`}
                         >
-                          {item}
+                          {displayIngredient(item)}
                         </span>
                       </label>
                     </li>

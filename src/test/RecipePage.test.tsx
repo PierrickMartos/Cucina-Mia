@@ -1,4 +1,4 @@
-import { render, screen, waitFor } from "@testing-library/react"
+import { render, screen, waitFor, within } from "@testing-library/react"
 import userEvent from "@testing-library/user-event"
 import { MemoryRouter, Route, Routes } from "react-router-dom"
 import { describe, it, expect, beforeEach, afterEach, vi } from "vitest"
@@ -158,6 +158,33 @@ describe("RecipePage", () => {
       expect(screen.getByText("Pasta alla Carbonara")).toBeInTheDocument()
     })
     expect(screen.queryByText(/'s recipe/)).not.toBeInTheDocument()
+  })
+
+  it("scales ingredient quantities with the servings dropdown", async () => {
+    const user = userEvent.setup()
+    renderRecipePage("pasta-carbonara")
+    const select = await screen.findByRole("combobox", { name: "Number of servings" })
+    expect(screen.getAllByRole("combobox")).toHaveLength(1)
+    expect(select).toHaveValue("4")
+    expect(screen.queryByText(/Quantities adjusted/)).not.toBeInTheDocument()
+
+    await user.selectOptions(select, "2")
+    expect(select).toHaveValue("2")
+    expect(screen.getAllByText("200g spaghetti")[0]).toBeInTheDocument()
+    expect(screen.getAllByText("100g guanciale")[0]).toBeInTheDocument()
+    // Mobile ingredients tab + desktop ingredients column, both with the reset link
+    expect(screen.getAllByText(/Quantities adjusted \(recipe written for 4\)/)).toHaveLength(2)
+    expect(screen.getAllByRole("button", { name: "Back to 4" })).toHaveLength(2)
+
+    // Mobile instructions tab: the note only, without the reset link
+    await user.click(screen.getByRole("tab", { name: "Instructions" }))
+    const stepsPanel = screen.getByRole("tabpanel")
+    expect(within(stepsPanel).getByText(/Quantities adjusted \(recipe written for 4\)/)).toBeInTheDocument()
+    expect(within(stepsPanel).queryByRole("button", { name: "Back to 4" })).not.toBeInTheDocument()
+
+    await user.click(screen.getAllByRole("button", { name: "Back to 4" })[0])
+    expect(select).toHaveValue("4")
+    expect(screen.getAllByText("400g spaghetti")[0]).toBeInTheDocument()
   })
 
   describe("share button", () => {

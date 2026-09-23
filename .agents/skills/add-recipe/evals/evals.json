@@ -23,7 +23,8 @@
         "The originalSource field has type 'text'",
         "The images field has both 'cover' and 'web' paths",
         "An entry for 'naan-nature' was added to index.json",
-        "The source field is omitted (not present or empty) since no source was provided"
+        "The source field is omitted (not present or empty) since no source was provided",
+        "Every ingredient with an amount starts with its quantity in digits, at the same position in FR, EN and IT, so the servings dropdown can scale it (npm run validate:recipes passes)"
       ]
     },
     {
@@ -45,7 +46,8 @@
         "The category is 'Pane' and difficulty is 'Facile'",
         "Both 'en' and 'it' translations are present with ingredients and steps",
         "The description is in French and under 200 characters",
-        "An entry was added to index.json with matching slug"
+        "An entry was added to index.json with matching slug",
+        "Every ingredient with an amount starts with its quantity in digits, at the same position in FR, EN and IT, so the servings dropdown can scale it (npm run validate:recipes passes)"
       ]
     },
     {
@@ -68,7 +70,8 @@
         "The tags include relevant French tags like 'no-cuisson', 'dessert', 'italien'",
         "Both 'en' and 'it' translations are present with full ingredients and steps",
         "The Italian translation preserves the recipe closely to the original PDF text",
-        "An entry was added to index.json with matching slug"
+        "An entry was added to index.json with matching slug",
+        "Every ingredient with an amount starts with its quantity in digits, at the same position in FR, EN and IT, so the servings dropdown can scale it (npm run validate:recipes passes)"
       ]
     },
     {
@@ -91,7 +94,8 @@
         "Tags include French terms like 'cru' or 'no-cuisson', 'italien', 'méditerranéen'",
         "Both 'en' and 'it' translations are present with full ingredients and steps",
         "The description is in French and under 200 characters",
-        "An entry was added to index.json with matching slug"
+        "An entry was added to index.json with matching slug",
+        "Every ingredient with an amount starts with its quantity in digits, at the same position in FR, EN and IT, so the servings dropdown can scale it (npm run validate:recipes passes)"
       ]
     },
     {
@@ -113,7 +117,8 @@
         "The prepTime is 15, cookTime is 55, servings is 8",
         "There are at least 8 ingredients and at least 9 steps",
         "The originalSource has type 'text'",
-        "An entry was added to index.json with matching slug"
+        "An entry was added to index.json with matching slug",
+        "Every ingredient with an amount starts with its quantity in digits, at the same position in FR, EN and IT, so the servings dropdown can scale it (npm run validate:recipes passes)"
       ]
     },
     {
