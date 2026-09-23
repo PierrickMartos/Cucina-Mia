@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="favicon.svg" />
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png" />
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png" />
+    <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png" />
+    <link rel="manifest" href="site.webmanifest" />
+    <meta name="theme-color" content="#DC2626" />
+    <meta name="description" content="Cucina Mia. Recettes de grand-mère, de grand-père, de belle-mère, de maman, de papa, des internets ou d'ailleurs. Buon appetito!" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Cucina Mia</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <!-- Fonts load without blocking the first paint (display=swap already shows fallback text meanwhile) -->
+    <link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Noto+Serif:wght@400;700;800&family=Manrope:wght@400;500;600;700&display=swap" />
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Serif:wght@400;700;800&family=Manrope:wght@400;500;600;700&display=swap" rel="stylesheet" media="print" onload="this.media='all'" />
+    <noscript><link href="https://fonts.googleapis.com/css2?family=Noto+Serif:wght@400;700;800&family=Manrope:wght@400;500;600;700&display=swap" rel="stylesheet" /></noscript>
+    <!-- Start fetching the data the first page needs while the JS bundle downloads.
+         Same request mode as fetch() in src/lib/recipeData.ts, so the preloaded response is reused. -->
+    <script>
+      (function () {
+        var base = "/Cucina-Mia/pr-preview/pr-86/"
+        function preload(path) {
+          var link = document.createElement("link")
+          link.rel = "preload"
+          link.as = "fetch"
+          link.crossOrigin = "anonymous"
+          link.href = base + path
+          document.head.appendChild(link)
+        }
+        var hash = location.hash
+        var recipe = /^#\/recipe\/([^/?#]+)/.exec(hash)
+        if (recipe) preload("data/recipes/" + recipe[1] + ".json")
+        else if (/^(#\/?(recipes)?)?([?].*)?$/.test(hash)) preload("data/recipes/index.json")
+      })()
+    </script>
+    <script type="module" crossorigin src="/Cucina-Mia/pr-preview/pr-86/assets/index-DyXKz4dK.js"></script>
+    <link rel="modulepreload" crossorigin href="/Cucina-Mia/pr-preview/pr-86/assets/rolldown-runtime-COnpUsM8.js">
+    <link rel="modulepreload" crossorigin href="/Cucina-Mia/pr-preview/pr-86/assets/react-Pak8Ff9c.js">
+    <link rel="modulepreload" crossorigin href="/Cucina-Mia/pr-preview/pr-86/assets/motion-Hn9RCBPB.js">
+    <link rel="modulepreload" crossorigin href="/Cucina-Mia/pr-preview/pr-86/assets/i18n-Bd-5wxIs.js">
+    <link rel="modulepreload" crossorigin href="/Cucina-Mia/pr-preview/pr-86/assets/createLucideIcon-BPCvbg5W.js">
+    <link rel="stylesheet" crossorigin href="/Cucina-Mia/pr-preview/pr-86/assets/index-Ed8aKuev.css">
+  </head>
+  <body>
+    <div id="root"></div>
+  </body>
+</html>
