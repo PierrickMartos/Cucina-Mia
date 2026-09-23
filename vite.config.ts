@@ -30,6 +30,20 @@ function excludeRecipeSources(): Plugin {
 export default defineConfig({
   base: process.env.VITE_BASE_PATH || "/Cucina-Mia/",
   plugins: [react(), tailwindcss(), excludeRecipeSources()],
+  build: {
+    rolldownOptions: {
+      output: {
+        // Libraries change far less often than the app: keep them in their own long-cached chunks.
+        codeSplitting: {
+          groups: [
+            { name: "react", test: /[\\/]node_modules[\\/](react|react-dom|react-router|react-router-dom|scheduler)[\\/]/ },
+            { name: "motion", test: /[\\/]node_modules[\\/](motion|motion-dom|motion-utils|framer-motion)[\\/]/ },
+            { name: "i18n", test: /[\\/]node_modules[\\/](i18next|i18next-browser-languagedetector|react-i18next)[\\/]/ },
+          ],
+        },
+      },
+    },
+  },
   resolve: {
     alias: {
       "@": path.resolve(__dirname, "./src"),

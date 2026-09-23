@@ -4,9 +4,16 @@ import { Clock, Users, ArrowRight } from "lucide-react"
 import { Card, CardContent } from "@/components/ui/card"
 import { Badge } from "@/components/ui/badge"
 import { localizeRecipeSummary } from "@/lib/localize"
+import { prefetchRecipe } from "@/lib/recipeData"
 import type { RecipeSummary } from "@/types/recipe"
 
 const BASE = import.meta.env.BASE_URL
+
+// A press is almost always followed by the navigation: start the hero image download right away.
+function preloadImage(src: string) {
+  const img = new Image()
+  img.src = src
+}
 
 export function RecipeCard({ recipe: rawRecipe }: { recipe: RecipeSummary }) {
   const { t, i18n } = useTranslation()
@@ -14,7 +21,15 @@ export function RecipeCard({ recipe: rawRecipe }: { recipe: RecipeSummary }) {
   const totalTime = recipe.prepTime + recipe.cookTime
 
   return (
-    <Link to={`/recipe/${recipe.slug}`} className="group">
+    <Link
+      to={`/recipe/${recipe.slug}`}
+      className="group"
+      // Fetch the recipe as soon as the user shows intent, so the page opens without a spinner
+      onPointerEnter={() => prefetchRecipe(recipe.slug)}
+      onFocus={() => prefetchRecipe(recipe.slug)}
+      onTouchStart={() => prefetchRecipe(recipe.slug)}
+      onPointerDown={() => preloadImage(`${BASE}${recipe.images.cover}`)}
+    >
       <Card className="overflow-hidden py-0 h-full bg-surface-lowest rounded-[1.5rem] transition-all duration-300 hover:shadow-ambient">
         <div className="aspect-[4/3] overflow-hidden relative editorial-grain">
           <img
@@ -22,6 +37,7 @@ export function RecipeCard({ recipe: rawRecipe }: { recipe: RecipeSummary }) {
             alt=""
             className="h-full w-full object-cover transition-transform duration-700 group-hover:scale-105"
             loading="lazy"
+            decoding="async"
           />
         </div>
         <CardContent className="relative px-5 pb-5 pt-0">
