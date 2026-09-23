@@ -183,7 +183,7 @@ export function Layout() {
           target="_blank"
           rel="noopener noreferrer"
           aria-label={t("nav.add")}
-          className="flex flex-col items-center justify-center text-outline px-1 sm:px-5 py-1 hover:text-primary transition-colors"
+          className="flex max-[360px]:hidden flex-col items-center justify-center text-outline px-1 sm:px-5 py-1 hover:text-primary transition-colors"
         >
           <PlusCircle className="h-5 w-5" strokeWidth={2} />
           <span className="text-[9px] uppercase tracking-widest whitespace-nowrap font-semibold mt-0.5">
