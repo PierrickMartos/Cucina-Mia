@@ -153,6 +153,10 @@
     "Medio": "Medium",
     "Difficile": "Hard"
   },
+  "search": {
+    "semanticLoading": "Preparing smart search…",
+    "semanticReady": "Smart search on: recipes with a similar meaning are suggested too"
+  },
   "credits": {
     "imageBy": "Image by",
     "photosBy": "Photos by",

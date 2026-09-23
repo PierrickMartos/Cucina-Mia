@@ -201,7 +201,7 @@ After all 3 agents return their results, compare them to build a consensus recip
    - If all 3 disagree on a field, use the value from Agent 1 but flag it as uncertain
    - For ingredients and steps: use the most complete list (longest) as the base, but flag any items not confirmed by at least 2 agents
 
-5. **Generate a discrepancy report** (used in Step 9 and PR comments):
+5. **Generate a discrepancy report** (used in Step 10 and PR comments):
    - List every discrepancy found, grouped by category:
      - `🔴 High confidence issue`: all 3 agents disagree on an ingredient quantity or a step detail
      - `🟡 Medium confidence issue`: 2 agents agree but 1 differs
@@ -489,7 +489,22 @@ The script (`scripts/convert-images-to-webp.mjs`) converts `cover.jpg|png` (max 
    This validates all recipe detail files and `index.json` against the TypeScript types. Fix any reported errors before proceeding.
 4. Run `npm run build` to confirm nothing breaks
 
-## Step 9: Report
+## Step 9: Update the Search Lexicon
+
+Invoke the **`search-lexicon`** skill (`.agents/skills/search-lexicon/SKILL.md`) for the new recipe, so that
+natural-language searches find it ("plat libanais au poulet", "curry", "sans porc"…). In short:
+
+1. Run the audit: `npx vitest run src/test/searchLexicon.test.ts` (it also fails if the EN/IT `tags` are not
+   translated **position by position**, in the same order as the French `tags`, so keep them aligned).
+2. Review the recipe's cuisine/origin, dish family, ingredient groups and `sans-xxx` tags against
+   `src/lib/search/query.ts`, and probe 2-3 realistic queries with `SEARCH_PROBE="…"`.
+3. Update the lexicon if needed (fr/en/it) and add the meaningful queries to `src/test/searchRealData.test.ts`.
+4. Include `src/lib/search/query.ts` and `src/test/searchRealData.test.ts` in the same commit/PR when changed.
+
+Do not skip this step when nothing seems new: the audit is quick, and "no change needed" is a valid outcome to
+report.
+
+## Step 10: Report
 
 Summarize:
 - Recipe title, slug, category, difficulty
@@ -499,6 +514,8 @@ Summarize:
   - `public/data/recipes/{slug}.json` (new)
   - `public/data/recipes/index.json` (updated)
   - `public/images/recipes/{slug}/cover.svg` (new)
+  - `src/lib/search/query.ts` and `src/test/searchRealData.test.ts` (if the search lexicon was updated)
+- **Search**: lexicon changes and probe queries from Step 9, or "Search lexicon: no change needed"
 - For unstructured input: note which fields were inferred vs extracted
 - **Extraction confidence** (for unstructured file/URL issues only):
   - If all 3 agents agreed: "✅ High confidence, all 3 extraction agents produced consistent results"

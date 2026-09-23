@@ -1,13 +1,14 @@
 import { useState, useMemo } from "react"
 import { Link } from "react-router-dom"
 import { Search, SlidersHorizontal } from "lucide-react"
-import Fuse from "fuse.js"
 import { Input } from "@/components/ui/input"
 import { Skeleton } from "@/components/ui/skeleton"
 import { RecipeGrid, RecipesNotFound, AnimateInView } from "@/components/RecipeGrid"
 import { sortCategories } from "@/lib/categories"
 import { useRecipeIndex } from "@/lib/recipeData"
 import { localizeRecipeSummary } from "@/lib/localize"
+import { useRecipeSearch } from "@/hooks/useRecipeSearch"
+import { SemanticSearchIndicator } from "@/components/SemanticSearchIndicator"
 import { useTranslation } from "react-i18next"
 import type { RecipeSummary } from "@/types/recipe"
 
@@ -62,25 +63,13 @@ export function HomePage() {
     )
   }, [recipes, t])
 
-  const fuse = useMemo(
-    () =>
-      new Fuse(localizedRecipes, {
-        keys: [
-          { name: "title", weight: 2 },
-          { name: "description", weight: 1 },
-          { name: "tags", weight: 1.5 },
-          { name: "category", weight: 1 },
-        ],
-        threshold: 0.4,
-        ignoreLocation: true,
-      }),
-    [localizedRecipes]
-  )
+  const { slugs: searchSlugs, semanticStatus } = useRecipeSearch(recipes, search)
 
-  const searchResults = useMemo(
-    () => (search.trim() ? fuse.search(search).map((r) => r.item) : []),
-    [fuse, search]
-  )
+  const searchResults = useMemo(() => {
+    if (!searchSlugs) return search.trim() ? localizedRecipes : []
+    const bySlug = new Map(localizedRecipes.map((r) => [r.slug, r]))
+    return searchSlugs.flatMap((slug) => bySlug.get(slug) ?? [])
+  }, [localizedRecipes, search, searchSlugs])
 
   const isSearching = search.trim().length > 0
 
@@ -112,6 +101,7 @@ export function HomePage() {
               onChange={(e) => setSearch(e.target.value)}
               className="bg-transparent border-none shadow-none focus-visible:shadow-none focus-visible:ring-0 focus-visible:ring-offset-0 w-full text-base md:text-sm font-body placeholder:text-outline p-0 h-auto"
             />
+            <SemanticSearchIndicator status={semanticStatus} />
             <Link
               to="/recipes?openFilters=1"
               aria-label={t("filter.openFilters")}
