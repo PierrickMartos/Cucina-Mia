@@ -19,7 +19,9 @@ Cucina Mia is an Italian recipe cookbook web app built with React 19, TypeScript
 
 ### Routing & Data Loading
 
-Uses `react-router-dom` with `HashRouter` (for GitHub Pages compatibility). Routes: home (`/`), recipe listing (`/recipes`), recipe detail (`/recipe/:slug`), about (`/about`) and "what can I make with…" (`/pantry`).
+Uses `react-router-dom` with `HashRouter` (for GitHub Pages compatibility). Routes: home (`/`), recipe listing (`/recipes`, with a `sort` URL param), recipe detail (`/recipe/:slug`), favourites (`/favorites`), about (`/about`) and "what can I make with…" (`/pantry`).
+
+Favourites and recently viewed recipes (last 8, shown on the home page) are slug lists kept in localStorage by `src/lib/savedRecipes.ts` (`useFavorites`, `useRecentlyViewed`), synced across tabs; the heart button is `src/components/FavoriteButton.tsx`. On mobile, the recipe step navigator has a pull-up handle opening the ingredient checklist in a bottom sheet.
 
 Recipe data is **static JSON** served from `public/data/recipes/`. Pages load it through `src/lib/recipeData.ts` (`useRecipeIndex`, `useRecipe`), which fetches with `import.meta.env.BASE_URL` as prefix and caches results in memory for the session. There is no backend or API, all data lives in the `public/` directory.
 

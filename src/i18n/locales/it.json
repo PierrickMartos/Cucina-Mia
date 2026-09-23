@@ -3,7 +3,8 @@
     "home": "Home",
     "recipes": "Ricette",
     "add": "Aggiungi",
-    "about": "Chi siamo"
+    "about": "Chi siamo",
+    "favorites": "Preferiti"
   },
   "common": {
     "close": "Chiudi",
@@ -18,7 +19,9 @@
     "subtitle": "Ricette di casa, della nonna, del nonno, della suocera, della mamma, del papà, da internet o da altrove",
     "title": "Buon appetito",
     "searchPlaceholder": "Cerca una ricetta...",
-    "pantryLink": "Cosa cucino con quello che ho?"
+    "pantryLink": "Cosa cucino con quello che ho?",
+    "recentlyViewed": "Visti di recente",
+    "clearRecent": "Cancella"
   },
   "about": {
     "heroTitle": "Il Cuore della",
@@ -225,5 +228,25 @@
       "pantry": "Dispensa",
       "spices": "Spezie"
     }
+  },
+  "favorites": {
+    "title": "I miei preferiti",
+    "description": "Le ricette che tieni sempre a portata di mano",
+    "empty": "Ancora nessun preferito",
+    "emptyHint": "Tocca il cuore di una ricetta per ritrovarla qui.",
+    "browse": "Sfoglia le ricette",
+    "add": "Aggiungi «{{title}}» ai preferiti",
+    "remove": "Togli «{{title}}» dai preferiti",
+    "save": "Preferito",
+    "saved": "Nei preferiti"
+  },
+  "sort": {
+    "label": "Ordina",
+    "default": "Predefinito",
+    "relevance": "Pertinenza",
+    "newest": "Più recenti",
+    "quickest": "Più veloci",
+    "easiest": "Più facili",
+    "alpha": "Dalla A alla Z"
   }
 }

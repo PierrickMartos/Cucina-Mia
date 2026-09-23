@@ -108,6 +108,38 @@ describe("RecipesPage", () => {
       ({ ok: true, json: async () => mockRecipes }) as Response
   })
 
+  it("sorts recipes with the sort dropdown and keeps the choice in the URL", async () => {
+    const user = userEvent.setup()
+    render(
+      <main id="main-content">
+        <MemoryRouter initialEntries={["/recipes"]}>
+          <LocationDisplay />
+          <Routes>
+            <Route path="/recipes" element={<RecipesPage />} />
+          </Routes>
+        </MemoryRouter>
+      </main>
+    )
+    const titles = () => screen.getAllByRole("heading", { level: 3 }).map((h) => h.textContent)
+    await waitFor(() => expect(titles()).toEqual(["Pasta alla Carbonara", "Tiramisù Classico", "Pizza Margherita"]))
+
+    const select = screen.getByRole("combobox", { name: /sort/i })
+    await user.selectOptions(select, "newest")
+    expect(titles()).toEqual(["Pizza Margherita", "Tiramisù Classico", "Pasta alla Carbonara"])
+    expect(screen.getByTestId("location")).toHaveTextContent("sort=newest")
+
+    // 25 min first, then the two 30 min recipes in cookbook order
+    await user.selectOptions(select, "quickest")
+    expect(titles()).toEqual(["Pasta alla Carbonara", "Tiramisù Classico", "Pizza Margherita"])
+
+    // Facile first, then Medio by total time
+    await user.selectOptions(select, "easiest")
+    expect(titles()).toEqual(["Tiramisù Classico", "Pasta alla Carbonara", "Pizza Margherita"])
+
+    await user.selectOptions(select, "alpha")
+    expect(titles()).toEqual(["Pasta alla Carbonara", "Pizza Margherita", "Tiramisù Classico"])
+  })
+
   it("renders all recipes after loading", async () => {
     renderRecipesPage()
     await waitFor(() => {

@@ -100,6 +100,37 @@ describe("RecipePage", () => {
     expect(screen.getAllByText("Rosolare il guanciale.")[0]).toBeInTheDocument()
   })
 
+  it("opens the ingredients sheet from the step navigator, sharing the checked state", async () => {
+    const user = userEvent.setup()
+    renderRecipePage("pasta-carbonara")
+    await waitFor(() => expect(screen.getAllByText("400g spaghetti")[0]).toBeInTheDocument())
+    await user.click(screen.getAllByText("400g spaghetti")[0].closest("label")!)
+
+    // No handle on the ingredients tab: the list is already there
+    expect(screen.queryByRole("button", { name: /^Ingredients\s*1\/2$/ })).not.toBeInTheDocument()
+    await user.click(screen.getByRole("tab", { name: "Instructions" }))
+    await user.click(screen.getByRole("button", { name: /^Ingredients\s*1\/2$/ }))
+
+    const sheet = screen.getByRole("dialog", { name: /Ingredients/ })
+    expect(within(sheet).getByText("400g spaghetti")).toHaveClass("line-through")
+    await user.click(within(sheet).getByText("200g guanciale").closest("label")!)
+    expect(within(sheet).getByText("2/2")).toBeInTheDocument()
+
+    await user.keyboard("{Escape}")
+    await waitFor(() => expect(screen.queryByRole("dialog")).not.toBeInTheDocument())
+  })
+
+  it("saves the recipe as a favourite and remembers the visit", async () => {
+    const user = userEvent.setup()
+    renderRecipePage("pasta-carbonara")
+    const button = await screen.findByRole("button", { name: "Add “Pasta alla Carbonara” to favorites" })
+    expect(JSON.parse(localStorage.getItem("cucina-mia:recent")!)).toEqual(["pasta-carbonara"])
+
+    await user.click(button)
+    expect(screen.getByRole("button", { name: "Remove “Pasta alla Carbonara” from favorites" })).toHaveAttribute("aria-pressed", "true")
+    expect(JSON.parse(localStorage.getItem("cucina-mia:favorites")!)).toEqual(["pasta-carbonara"])
+  })
+
   it("shows not found for missing recipe", async () => {
     globalThis.fetch = async () =>
       ({ ok: false } as Response)

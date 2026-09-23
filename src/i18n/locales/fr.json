@@ -3,7 +3,8 @@
     "home": "Accueil",
     "recipes": "Recettes",
     "add": "Ajouter",
-    "about": "À propos"
+    "about": "À propos",
+    "favorites": "Favoris"
   },
   "common": {
     "close": "Fermer",
@@ -18,7 +19,9 @@
     "subtitle": "Recettes de grand-mère, de grand-père, de belle-mère, de maman, de papa, des internets ou d'ailleurs",
     "title": "Buon appetito",
     "searchPlaceholder": "Chercher une recette...",
-    "pantryLink": "Que cuisiner avec ce que j'ai ?"
+    "pantryLink": "Que cuisiner avec ce que j'ai ?",
+    "recentlyViewed": "Vues récemment",
+    "clearRecent": "Effacer"
   },
   "about": {
     "heroTitle": "Le Cœur de",
@@ -225,5 +228,25 @@
       "pantry": "Épicerie",
       "spices": "Épices"
     }
+  },
+  "favorites": {
+    "title": "Mes favoris",
+    "description": "Les recettes que vous avez gardées sous le coude",
+    "empty": "Aucun favori pour l'instant",
+    "emptyHint": "Touchez le cœur d'une recette pour la retrouver ici.",
+    "browse": "Parcourir les recettes",
+    "add": "Ajouter « {{title}} » aux favoris",
+    "remove": "Retirer « {{title}} » des favoris",
+    "save": "Favori",
+    "saved": "En favori"
+  },
+  "sort": {
+    "label": "Trier",
+    "default": "Par défaut",
+    "relevance": "Pertinence",
+    "newest": "Plus récentes",
+    "quickest": "Plus rapides",
+    "easiest": "Plus faciles",
+    "alpha": "De A à Z"
   }
 }

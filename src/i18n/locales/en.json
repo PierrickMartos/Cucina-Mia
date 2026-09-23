@@ -3,7 +3,8 @@
     "home": "Home",
     "recipes": "Recipes",
     "add": "Add",
-    "about": "About"
+    "about": "About",
+    "favorites": "Favorites"
   },
   "common": {
     "close": "Close",
@@ -18,7 +19,9 @@
     "subtitle": "Home recipes, from grandma, grandpa, mother-in-law, mum, dad, the internet or elsewhere",
     "title": "Buon appetito",
     "searchPlaceholder": "Search a recipe...",
-    "pantryLink": "What can I make with what I have?"
+    "pantryLink": "What can I make with what I have?",
+    "recentlyViewed": "Recently viewed",
+    "clearRecent": "Clear"
   },
   "about": {
     "heroTitle": "The Heart of",
@@ -225,5 +228,25 @@
       "pantry": "Pantry",
       "spices": "Spices"
     }
+  },
+  "favorites": {
+    "title": "My favorites",
+    "description": "The recipes you keep coming back to",
+    "empty": "No favorites yet",
+    "emptyHint": "Tap the heart on a recipe to find it here.",
+    "browse": "Browse recipes",
+    "add": "Add “{{title}}” to favorites",
+    "remove": "Remove “{{title}}” from favorites",
+    "save": "Save",
+    "saved": "Saved"
+  },
+  "sort": {
+    "label": "Sort",
+    "default": "Default",
+    "relevance": "Relevance",
+    "newest": "Newest",
+    "quickest": "Quickest",
+    "easiest": "Easiest",
+    "alpha": "A to Z"
   }
 }
