@@ -147,7 +147,7 @@ export function Layout() {
       <TimerTray />
 
       {/* Bottom Nav Bar */}
-      <nav className="shrink-0 flex justify-around items-center px-2 sm:px-4 pb-1.5 pt-1.5 bg-surface/70 backdrop-blur-[20px] rounded-t-xl z-50 print:hidden">
+      <nav className="shrink-0 flex justify-around items-center px-1 sm:px-4 pb-1.5 pt-1.5 bg-surface/70 backdrop-blur-[20px] rounded-t-xl z-50 print:hidden">
         {navItems.map(({ to, icon: Icon, label }) => {
           const isActive = to === "/"
             ? pathname === "/"
@@ -160,8 +160,8 @@ export function Layout() {
               aria-current={isActive ? "page" : undefined}
               className={
                 isActive
-                  ? "relative flex flex-col items-center justify-center text-primary-foreground rounded-xl px-2 sm:px-5 py-1 scale-95 transition-transform"
-                  : "relative flex flex-col items-center justify-center text-outline px-2 sm:px-5 py-1 hover:text-primary transition-colors"
+                  ? "relative flex flex-col items-center justify-center text-primary-foreground rounded-xl px-5 -mx-3 sm:mx-0 py-1 scale-95 transition-transform"
+                  : "relative flex flex-col items-center justify-center text-outline px-1 sm:px-5 py-1 hover:text-primary transition-colors"
               }
             >
               {isActive && (
@@ -172,7 +172,7 @@ export function Layout() {
                 />
               )}
               <Icon className="relative z-10 h-5 w-5" strokeWidth={isActive ? 2.5 : 2} />
-              <span className="relative z-10 text-[9px] uppercase tracking-wider sm:tracking-widest whitespace-nowrap font-semibold mt-0.5">
+              <span className="relative z-10 text-[9px] uppercase tracking-widest whitespace-nowrap font-semibold mt-0.5">
                 {label}
               </span>
             </Link>
@@ -183,10 +183,10 @@ export function Layout() {
           target="_blank"
           rel="noopener noreferrer"
           aria-label={t("nav.add")}
-          className="flex flex-col items-center justify-center text-outline px-2 sm:px-5 py-1 hover:text-primary transition-colors"
+          className="flex flex-col items-center justify-center text-outline px-1 sm:px-5 py-1 hover:text-primary transition-colors"
         >
           <PlusCircle className="h-5 w-5" strokeWidth={2} />
-          <span className="text-[9px] uppercase tracking-wider sm:tracking-widest whitespace-nowrap font-semibold mt-0.5">
+          <span className="text-[9px] uppercase tracking-widest whitespace-nowrap font-semibold mt-0.5">
             {t("nav.add")}
           </span>
         </a>
