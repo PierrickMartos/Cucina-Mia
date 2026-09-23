@@ -2007,6 +2007,40 @@
       "plat-principal",
       "économique"
     ],
+    "translations": {
+      "en": {
+        "title": "Sheet Pan Roasted Sweet Potato, Carrot and Bacon",
+        "description": "A colourful and flavourful sheet pan of roasted sweet potatoes, carrots and onions with bacon bits, served with pita bread.",
+        "tags": [
+          "oven",
+          "sweet-potato",
+          "carrots",
+          "bacon",
+          "one-pan",
+          "quick",
+          "comforting",
+          "autumn",
+          "main-course",
+          "budget"
+        ]
+      },
+      "it": {
+        "title": "Teglia al Forno: Patata Dolce, Carote e Pancetta",
+        "description": "Una teglia colorata e saporita di patate dolci, carote e cipolle arrosto con pancetta affumicata, servita con pane pita.",
+        "tags": [
+          "forno",
+          "patata-dolce",
+          "carote",
+          "pancetta",
+          "one-pan",
+          "veloce",
+          "confortante",
+          "autunno",
+          "piatto-principale",
+          "economico"
+        ]
+      }
+    },
     "images": {
       "cover": "images/recipes/four-patate-douce-carotte-lardons-pita/cover.webp",
       "web": "images/recipes/four-patate-douce-carotte-lardons-pita/web.webp"
@@ -2040,6 +2074,40 @@
       "mozzarella",
       "rapide"
     ],
+    "translations": {
+      "en": {
+        "title": "Roasted Mediterranean Vegetables with Pesto",
+        "description": "A sheet pan of Mediterranean vegetables (tomatoes, eggplant and zucchini) roasted in the oven and topped with homemade basil pesto, served with mozzarella di bufala.",
+        "tags": [
+          "oven",
+          "vegetarian",
+          "vegetables",
+          "pesto",
+          "mediterranean",
+          "summer",
+          "main-course",
+          "gluten-free",
+          "mozzarella",
+          "quick"
+        ]
+      },
+      "it": {
+        "title": "Verdure Mediterranee al Forno con Pesto",
+        "description": "Una teglia di verdure mediterranee (pomodori, melanzane e zucchine) arrostite al forno e condite con pesto di basilico fatto in casa, servite con mozzarella di bufala.",
+        "tags": [
+          "forno",
+          "vegetariano",
+          "verdure",
+          "pesto",
+          "mediterraneo",
+          "estate",
+          "piatto-principale",
+          "senza-glutine",
+          "mozzarella",
+          "veloce"
+        ]
+      }
+    },
     "images": {
       "cover": "images/recipes/four-tomates-aubergines-courgettes-pesto/cover.webp",
       "web": "images/recipes/four-tomates-aubergines-courgettes-pesto/web.webp"
@@ -2102,6 +2170,40 @@
       "légumes",
       "italien"
     ],
+    "translations": {
+      "en": {
+        "title": "Polenta Fries with Spinach",
+        "description": "Crispy baked polenta fries with parmesan and spinach, an original vegetarian alternative to classic fries.",
+        "tags": [
+          "polenta",
+          "spinach",
+          "vegetarian",
+          "oven",
+          "crispy",
+          "gluten-free",
+          "main-course",
+          "budget",
+          "vegetables",
+          "italian"
+        ]
+      },
+      "it": {
+        "title": "Patatine di Polenta con Spinaci",
+        "description": "Patatine di polenta croccanti al forno con parmigiano e spinaci, un'alternativa originale e vegetariana alle classiche patatine fritte.",
+        "tags": [
+          "polenta",
+          "spinaci",
+          "vegetariano",
+          "forno",
+          "croccante",
+          "senza-glutine",
+          "secondo-piatto",
+          "economico",
+          "verdure",
+          "italiano"
+        ]
+      }
+    },
     "stepCount": 7,
     "ingredientCount": 9,
     "images": {
@@ -2405,11 +2507,35 @@
     "translations": {
       "en": {
         "title": "Red Lentils with Garam Masala Risotto-Style",
-        "description": "Red lentils and coconut-marinated chicken cooked risotto-style with garam masala, a spiced, aromatic one-pot dish."
+        "description": "Red lentils and coconut-marinated chicken cooked risotto-style with garam masala, a spiced, aromatic one-pot dish.",
+        "tags": [
+          "lentils",
+          "chicken",
+          "indian",
+          "spiced",
+          "garam-masala",
+          "curry",
+          "comforting",
+          "main-course",
+          "gluten-free",
+          "autumn"
+        ]
       },
       "it": {
         "title": "Lenticchie Rosse al Garam Masala in Stile Risotto",
-        "description": "Lenticchie rosse e pollo marinato nel latte di cocco cotti in stile risotto con garam masala, un piatto speziato e aromatico."
+        "description": "Lenticchie rosse e pollo marinato nel latte di cocco cotti in stile risotto con garam masala, un piatto speziato e aromatico.",
+        "tags": [
+          "lenticchie",
+          "pollo",
+          "indiano",
+          "speziato",
+          "garam-masala",
+          "curry",
+          "confortante",
+          "piatto-principale",
+          "senza-glutine",
+          "autunno"
+        ]
       }
     },
     "imageCredit": {
@@ -2449,11 +2575,35 @@
     "translations": {
       "en": {
         "title": "Mac & Cheese Risotto Style",
-        "description": "Macaroni cooked risotto-style in beef stock, then coated in a creamy cheddar sauce, the French take on mac & cheese."
+        "description": "Macaroni cooked risotto-style in beef stock, then coated in a creamy cheddar sauce, the French take on mac & cheese.",
+        "tags": [
+          "pasta",
+          "cheese",
+          "cheddar",
+          "comfort-food",
+          "quick",
+          "main-course",
+          "creamy",
+          "american",
+          "french",
+          "kids"
+        ]
       },
       "it": {
         "title": "Maccheroni al Formaggio alla Maniera del Risotto",
-        "description": "Maccheroni cotti alla maniera del risotto nel brodo di manzo, avvolti in una cremosa salsa al cheddar, il mac & cheese alla francese."
+        "description": "Maccheroni cotti alla maniera del risotto nel brodo di manzo, avvolti in una cremosa salsa al cheddar, il mac & cheese alla francese.",
+        "tags": [
+          "pasta",
+          "formaggio",
+          "cheddar",
+          "comfort-food",
+          "veloce",
+          "primo-piatto",
+          "cremoso",
+          "americano",
+          "francese",
+          "bambini"
+        ]
       }
     },
     "imageCredit": {
@@ -2494,11 +2644,35 @@
     "translations": {
       "en": {
         "title": "Pearl Barley Risotto with Caramelised Apples and Dried Duck Breast",
-        "description": "A champagne pearl barley risotto topped with caramelised apples, crunchy walnuts and slices of dried duck breast."
+        "description": "A champagne pearl barley risotto topped with caramelised apples, crunchy walnuts and slices of dried duck breast.",
+        "tags": [
+          "barley",
+          "duck",
+          "apples",
+          "mushrooms",
+          "champagne",
+          "autumn",
+          "braised",
+          "main-course",
+          "festive",
+          "sweet-savoury"
+        ]
       },
       "it": {
         "title": "Orzotto alle Mele Caramellate e Magret d'Anatra Essiccato",
-        "description": "Un orzotto allo champagne coronato da mele caramellate, noci croccanti e fettine di magret d'anatra essiccato."
+        "description": "Un orzotto allo champagne coronato da mele caramellate, noci croccanti e fettine di magret d'anatra essiccato.",
+        "tags": [
+          "orzo",
+          "anatra",
+          "mele",
+          "funghi",
+          "champagne",
+          "autunno",
+          "brasato",
+          "primo-piatto",
+          "festivo",
+          "dolce-salato"
+        ]
       }
     }
   },
@@ -2668,11 +2842,35 @@
     "translations": {
       "en": {
         "title": "Milanese Risotto",
-        "description": "The great Milanese classic: a saffron and bone marrow risotto with a brilliant golden-yellow hue, creamy and aromatic."
+        "description": "The great Milanese classic: a saffron and bone marrow risotto with a brilliant golden-yellow hue, creamy and aromatic.",
+        "tags": [
+          "rice",
+          "risotto",
+          "saffron",
+          "cheese",
+          "italian",
+          "milanese",
+          "quick",
+          "main-course",
+          "hot",
+          "traditional"
+        ]
       },
       "it": {
         "title": "Risotto alla Milanese",
-        "description": "Il grande classico milanese: un risotto di un giallo dorato luminoso allo zafferano e al midollo di bue, cremoso e profumato."
+        "description": "Il grande classico milanese: un risotto di un giallo dorato luminoso allo zafferano e al midollo di bue, cremoso e profumato.",
+        "tags": [
+          "riso",
+          "risotto",
+          "zafferano",
+          "formaggio",
+          "italiano",
+          "milanese",
+          "veloce",
+          "primo-piatto",
+          "caldo",
+          "tradizionale"
+        ]
       }
     },
     "imageCredit": {
@@ -2717,11 +2915,35 @@
     "translations": {
       "en": {
         "title": "Wild Mushroom Risotto with Foie Gras and Hazelnuts",
-        "description": "An exceptional risotto with wild mushrooms, crowned with slices of mi-cuit foie gras and toasted hazelnuts."
+        "description": "An exceptional risotto with wild mushrooms, crowned with slices of mi-cuit foie gras and toasted hazelnuts.",
+        "tags": [
+          "rice",
+          "risotto",
+          "mushrooms",
+          "foie-gras",
+          "hazelnuts",
+          "festive",
+          "autumn",
+          "main-course",
+          "french",
+          "indulgent"
+        ]
       },
       "it": {
         "title": "Risotto ai Funghi Selvatici, Foie Gras e Nocciole",
-        "description": "Un risotto d'eccezione ai funghi selvatici, coronato da fettine di foie gras mi-cuit e nocciole tostate."
+        "description": "Un risotto d'eccezione ai funghi selvatici, coronato da fettine di foie gras mi-cuit e nocciole tostate.",
+        "tags": [
+          "riso",
+          "risotto",
+          "funghi",
+          "foie-gras",
+          "nocciole",
+          "festivo",
+          "autunno",
+          "primo-piatto",
+          "francese",
+          "goloso"
+        ]
       }
     }
   },
@@ -2755,6 +2977,40 @@
       "chaud",
       "onctueux"
     ],
+    "translations": {
+      "en": {
+        "title": "Cheddar and Bacon Risotto",
+        "description": "A generous, comforting risotto with melted cheddar and crispy bacon, a British-inspired twist on the great Italian classic.",
+        "tags": [
+          "rice",
+          "risotto",
+          "cheese",
+          "cheddar",
+          "bacon",
+          "pork",
+          "comfort-food",
+          "main-course",
+          "hot",
+          "creamy"
+        ]
+      },
+      "it": {
+        "title": "Risotto Cheddar e Bacon",
+        "description": "Un risotto generoso e confortante con cheddar fuso e bacon croccante, una versione anglosassone golosa del grande classico italiano.",
+        "tags": [
+          "riso",
+          "risotto",
+          "formaggio",
+          "cheddar",
+          "bacon",
+          "maiale",
+          "comfort-food",
+          "primo-piatto",
+          "caldo",
+          "cremoso"
+        ]
+      }
+    },
     "stepCount": 7,
     "ingredientCount": 9
   },
@@ -2788,11 +3044,35 @@
     "translations": {
       "en": {
         "title": "Rocket, Parma Ham and Mascarpone Risotto",
-        "description": "A creamy mascarpone risotto topped with melt-in-your-mouth cured ham and fresh rocket, Italian elegance in 30 minutes."
+        "description": "A creamy mascarpone risotto topped with melt-in-your-mouth cured ham and fresh rocket, Italian elegance in 30 minutes.",
+        "tags": [
+          "rice",
+          "risotto",
+          "ham",
+          "cheese",
+          "mascarpone",
+          "italian",
+          "quick",
+          "main-course",
+          "hot",
+          "creamy"
+        ]
       },
       "it": {
         "title": "Risotto con Rucola, Prosciutto Crudo e Mascarpone",
-        "description": "Un risotto cremoso al mascarpone guarnito con prosciutto crudo fondente e rucola fresca, l'eleganza italiana in 30 minuti."
+        "description": "Un risotto cremoso al mascarpone guarnito con prosciutto crudo fondente e rucola fresca, l'eleganza italiana in 30 minuti.",
+        "tags": [
+          "riso",
+          "risotto",
+          "prosciutto",
+          "formaggio",
+          "mascarpone",
+          "italiano",
+          "veloce",
+          "primo-piatto",
+          "caldo",
+          "cremoso"
+        ]
       }
     },
     "imageCredit": {
@@ -2955,6 +3235,38 @@
       "grillé",
       "herbes"
     ],
+    "translations": {
+      "en": {
+        "title": "Open-Faced Lamb and Vegetable Toast",
+        "description": "Confit lamb open-faced toast on grilled sandwich bread, topped with a Provençal baïaldi of slowly oven-roasted vegetables (tomato, eggplant, zucchini), brushed with whole-grain mustard, an elegant and generous recipe by André Charrial.",
+        "tags": [
+          "open-faced",
+          "lamb",
+          "vegetables",
+          "mediterranean",
+          "quick",
+          "main-course",
+          "oven",
+          "grilled",
+          "herbs"
+        ]
+      },
+      "it": {
+        "title": "Tartine di Agnello e Verdure",
+        "description": "Tartine di agnello confit su pane in cassetta tostato, guarnite con un baïaldi di verdure (pomodoro, melanzana, zucchina) cotte lentamente al forno, spennellate con senape in grani, una ricetta provenzale elegante e generosa firmata André Charrial.",
+        "tags": [
+          "tartine",
+          "agnello",
+          "verdure",
+          "mediterraneo",
+          "veloce",
+          "piatto-principale",
+          "forno",
+          "grigliato",
+          "erbe"
+        ]
+      }
+    },
     "images": {
       "cover": "images/recipes/tartine-agneau-legumes/cover.webp",
       "web": "images/recipes/tartine-agneau-legumes/web.webp"
@@ -2970,7 +3282,7 @@
   {
     "slug": "tartine-de-lamour",
     "title": "Tartine de l'Amour",
-    "description": "Une tartine rustique et généreuse sur pain de campagne grillé, garnie de tomates concassées à l'échalote, au gingembre et au vinaigre balsamique, parsemée de parmesan.",
+    "description": "Une tartine rustique et généreuse sur pain de campagne grillé, garnie de tomates concassées à l'échalote, au gingembre et au vinaigre balsamique, parsemée de parmesan. La recette emblématique de Bernard Guilhaudin, chef de La Tour d'Argent à Paris.",
     "category": "Brunch",
     "difficulty": "Facile",
     "prepTime": 10,
@@ -2988,6 +3300,40 @@
       "végétarien",
       "français"
     ],
+    "translations": {
+      "en": {
+        "title": "Tartine de l'Amour",
+        "description": "A rustic and generous open-faced toast on toasted country bread, topped with tomato concassée with shallots, ginger and balsamic vinegar, sprinkled with parmesan shavings. The iconic recipe by Bernard Guilhaudin, chef at La Tour d'Argent in Paris.",
+        "tags": [
+          "toast",
+          "brunch",
+          "quick",
+          "easy",
+          "tomato",
+          "country-bread",
+          "balsamic",
+          "parmesan",
+          "vegetarian",
+          "french"
+        ]
+      },
+      "it": {
+        "title": "Tartine de l'Amour",
+        "description": "Una tartina rustica e generosa su pane di campagna tostato, guarnita con pomodori concassé con scalogno, zenzero e aceto balsamico, cosparsa di scaglie di parmigiano. La ricetta iconica di Bernard Guilhaudin, chef de La Tour d'Argent a Parigi.",
+        "tags": [
+          "tartina",
+          "brunch",
+          "veloce",
+          "facile",
+          "pomodoro",
+          "pane-di-campagna",
+          "balsamico",
+          "parmigiano",
+          "vegetariano",
+          "francese"
+        ]
+      }
+    },
     "images": {
       "cover": "images/recipes/tartine-de-lamour/cover.webp",
       "web": "images/recipes/tartine-de-lamour/web.webp"
@@ -3276,7 +3622,7 @@
   {
     "slug": "pesto-presto",
     "title": "Pesto Presto",
-    "description": "Busiate col pesto alla trapanese, une pâte sicilienne en spirale servie avec un pesto à base de tomates confites, amandes, basilic et pecorino, spécialité de Trapani.",
+    "description": "Busiate col pesto alla trapanese, une pâte sicilienne en spirale servie avec un pesto à base de tomates fraîches, amandes, basilic et pecorino, spécialité de Trapani.",
     "images": {
       "cover": "images/recipes/pesto-presto/cover.webp",
       "web": "images/recipes/pesto-presto/web.webp"
@@ -3304,7 +3650,7 @@
     "translations": {
       "en": {
         "title": "Pesto Presto",
-        "description": "Busiate pasta with Trapanese pesto, a Sicilian specialty made with slow-roasted tomatoes, almonds, basil, and pecorino from the province of Trapani.",
+        "description": "Busiate pasta with Trapanese pesto, a Sicilian specialty made with fresh tomatoes, almonds, basil, and pecorino from the province of Trapani.",
         "tags": [
           "pasta",
           "tomatoes",
@@ -3323,7 +3669,7 @@
       },
       "it": {
         "title": "Pesto Presto",
-        "description": "Busiate col pesto alla trapanese, specialità siciliana con pomodori confit, mandorle, basilico e pecorino, tipica della provincia di Trapani.",
+        "description": "Busiate col pesto alla trapanese, specialità siciliana con pomodori freschi, mandorle, basilico e pecorino, tipica della provincia di Trapani.",
         "tags": [
           "pasta",
           "pomodori",
