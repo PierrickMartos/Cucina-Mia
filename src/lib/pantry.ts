@@ -121,6 +121,7 @@ export const PANTRY_ITEMS: PantryItem[] = [
   item("candied-fruit", "fruit", "Fruits confits", "Candied fruit", "Canditi", ["candied fruit", "mixed candied fruit", "poached candied fruit"]),
   item("chestnut", "fruit", "Marrons", "Chestnuts", "Castagne", ["chestnut"]),
   item("prunes", "fruit", "Pruneaux", "Prunes", "Prugne secche", ["prune"]),
+  item("dates", "fruit", "Dattes", "Dates", "Datteri", ["date"]),
 
   // Herbs and aromatics
   item("basil", "herbs", "Basilic", "Basil", "Basilico", ["basil", "thai basil"]),
