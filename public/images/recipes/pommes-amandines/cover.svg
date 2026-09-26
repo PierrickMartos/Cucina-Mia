@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <defs>
+    <radialGradient id="pabg" cx="50%" cy="45%" r="70%"><stop offset="0%" stop-color="#2e2822"/><stop offset="100%" stop-color="#1a1510"/></radialGradient>
+    <radialGradient id="paplate" cx="45%" cy="40%" r="60%"><stop offset="0%" stop-color="#e8e2d6"/><stop offset="100%" stop-color="#9c9486"/></radialGradient>
+    <radialGradient id="paball" cx="38%" cy="32%" r="70%"><stop offset="0%" stop-color="#f0c878"/><stop offset="65%" stop-color="#c88c3c"/><stop offset="100%" stop-color="#7a4a18"/></radialGradient>
+  </defs>
+  <rect width="800" height="600" fill="url(#pabg)"/>
+  <g fill="#e8d8b0" opacity="0.1"><ellipse cx="90" cy="500" rx="10" ry="4"/><ellipse cx="110" cy="510" rx="10" ry="4" transform="rotate(30 110 510)"/><ellipse cx="700" cy="120" rx="10" ry="4"/><ellipse cx="720" cy="100" rx="10" ry="4" transform="rotate(-40 720 100)"/></g>
+  <ellipse cx="400" cy="460" rx="310" ry="50" fill="#000" opacity="0.35"/>
+  <ellipse cx="400" cy="330" rx="300" ry="165" fill="url(#paplate)"/>
+  <ellipse cx="400" cy="325" rx="250" ry="132" fill="#fbf6ea" stroke="#e0d6c0" stroke-width="10" stroke-dasharray="6 8"/>
+  <ellipse cx="400" cy="325" rx="220" ry="112" fill="none" stroke="#e8dfcc" stroke-width="2" stroke-dasharray="2 6"/>
+  <defs>
+  <g id="paam">
+    <circle r="46" fill="url(#paball)"/>
+    <g fill="#f0dcae">
+      <ellipse cx="-22" cy="-20" rx="11" ry="4" transform="rotate(-30 -22 -20)"/><ellipse cx="6" cy="-30" rx="11" ry="4" transform="rotate(15 6 -30)"/>
+      <ellipse cx="26" cy="-12" rx="10" ry="4" transform="rotate(60 26 -12)"/><ellipse cx="-30" cy="6" rx="10" ry="4" transform="rotate(80 -30 6)"/>
+      <ellipse cx="-4" cy="-6" rx="11" ry="4" transform="rotate(-50 -4 -6)"/><ellipse cx="18" cy="14" rx="10" ry="4" transform="rotate(20 18 14)"/>
+      <ellipse cx="-14" cy="24" rx="10" ry="4" transform="rotate(-10 -14 24)"/><ellipse cx="34" cy="10" rx="8" ry="3" transform="rotate(100 34 10)"/>
+    </g>
+    <g fill="#b07830" opacity="0.7">
+      <ellipse cx="-12" cy="-36" rx="9" ry="3" transform="rotate(-20 -12 -36)"/><ellipse cx="10" cy="30" rx="10" ry="3" transform="rotate(40 10 30)"/>
+      <ellipse cx="-34" cy="-8" rx="8" ry="3" transform="rotate(70 -34 -8)"/><ellipse cx="30" cy="-28" rx="8" ry="3" transform="rotate(-60 30 -28)"/>
+    </g>
+    <ellipse cx="-16" cy="-22" rx="14" ry="7" fill="#fff" opacity="0.18"/>
+  </g>
+  </defs>
+  <use href="#paam" x="290" y="340"/><use href="#paam" x="400" y="360"/><use href="#paam" x="510" y="340"/>
+  <use href="#paam" x="345" y="275"/><use href="#paam" x="455" y="275"/><use href="#paam" x="400" y="225"/>
+</svg>
