@@ -1,0 +1,241 @@
+{
+  "slug": "boeuf-mode-a-l-ancienne",
+  "title": "Bœuf mode à l'ancienne",
+  "description": "Bœuf braisé au vin blanc avec pied de veau et couennes, servi avec des carottes et des petits oignons glacés.",
+  "images": {
+    "cover": "images/recipes/boeuf-mode-a-l-ancienne/cover.webp",
+    "web": "images/recipes/boeuf-mode-a-l-ancienne/web.webp"
+  },
+  "imageCredit": {
+    "author": "Holly Spangler",
+    "url": "https://unsplash.com/@h_spangler"
+  },
+  "prepTime": 30,
+  "cookTime": 120,
+  "servings": 8,
+  "difficulty": "Medio",
+  "category": "Secondi",
+  "origin": "amelie-grandpa",
+  "tags": [
+    "bœuf",
+    "mijoté",
+    "plat-principal",
+    "français",
+    "nostalgique",
+    "recette-de-famille",
+    "réconfortant",
+    "hiver",
+    "chaud",
+    "toute-la-famille",
+    "à-partager",
+    "restes-bienvenus"
+  ],
+  "ingredients": [
+    {
+      "items": [
+        "1,5 kg de bœuf (aiguillette, tranche, gîte)",
+        "1 pied de veau fendu et désossé",
+        "3 couennes de porc",
+        "2 oignons",
+        "3 gousses d'ail",
+        "Sel fin, poivre",
+        "1 bouquet garni",
+        "½ l de vin blanc",
+        "2 à 3 cubes de bouillon",
+        "1 dl de Cognac",
+        "100 g de beurre",
+        "1 boîte 1/10 de concentré de tomate"
+      ]
+    },
+    {
+      "group": "Garniture",
+      "items": [
+        "800 g de carottes",
+        "300 g de petits oignons",
+        "1 pincée de sucre"
+      ]
+    }
+  ],
+  "steps": [
+    {
+      "text": "Faire blanchir le pied de veau et les couennes."
+    },
+    {
+      "text": "Dans une cocotte, faire fondre 50 g de beurre, faire rissoler la viande, ajouter l'oignon émincé, mouiller avec le vin blanc, du bouillon (eau additionnée de 2 à 3 cubes de bouillon)."
+    },
+    {
+      "text": "Ajouter le concentré de tomate, le pied de veau, les couennes, l'ail écrasé et le bouquet garni."
+    },
+    {
+      "text": "Couvrir et laisser mijoter 40 à 45 minutes.",
+      "timers": [40]
+    },
+    {
+      "text": "Ajouter les carottes épluchées et coupées en rondelles, couvrir et laisser cuire 50 à 60 minutes.",
+      "timers": [50]
+    },
+    {
+      "text": "Éplucher les petits oignons, mettre dans une casserole avec le reste de beurre, le sel et une pincée de sucre, mouiller à hauteur avec de l'eau, cuire jusqu'à évaporation 30 minutes environ.",
+      "timers": [30]
+    },
+    {
+      "text": "Au terme de la cuisson, retirer la viande, le pied de veau, les couennes et le bouquet garni. Faire réduire le jus de cuisson si c'est nécessaire ; ajouter les petits oignons et le pied de veau coupé en petits morceaux."
+    },
+    {
+      "text": "Couper la viande en tranches et mettre dans un plat creux. Disposer la garniture dessus et arroser de jus de cuisson."
+    }
+  ],
+  "source": "Les recettes de Maurice Houdré, tome 2, Les viandes",
+  "originalSource": {
+    "type": "text",
+    "data": "Bœuf mode à l’ancienne\n\nIngrédients : pour 8 personnes\n\n. 1,5 kg de bœuf (aiguillette, tranche, gîte)\t\tGarniture :\n. 1 pied de veau fendu et désossé\t\t\t. 800 g de carottes\n. 3 couennes de porc\t\t\t\t\t. 300 g de petits oignons\n. 2 oignons\t\n. 3 gousses d’ail\n. sel fin, poivre\n. 1 bouquet garni\n. ½ l de vin blanc\n. 1 dl de Cognac\n. 100 g de beurre\n. 1 boîte 1/10 de concentré de tomate\n\nPréparation\n\nFaire blanchir le pied de veau et les couennes.\n\nDans une cocotte, faire fondre 50 g de beurre, faire rissoler la viande, ajouter l’oignon émincé, mouiller avec le vin blanc, du bouillon (eau additionnée de 2 à 3 cubes de bouillon).\nAjouter le concentré de tomate, le pied de veau, les couennes, l’ail écrasé et la bouquet garni.\nCouvrir et laisser mijoter 40 à 45 minutes.\nAjouter les carottes épluchées et coupées en rondelles, couvrir et laisser cuire 50 à 60 minutes.\nEplucher les petits oignons, mettre dans une casserole avec le reste de beurre, le sel et une pincée de sucre, mouiller à hauteur avec de l’eau, cuire jusqu’à évaporation 30 minutes environ.\nAu terme de la cuisson, retirer la viande, le pied de veau, les couennes et le bouquet garni. Faire réduire le jus de cuisson si c’est nécessaire ; ajouter les petits oignons et le pied de veau coupé en petits morceaux.\nCouper la viande en tranches et mettre dans un plat creux. Disposer la garniture dessus et arroser de jus de cuisson.\n"
+  },
+  "related": [
+    "estouffade-de-boeuf-a-la-bourguignonne",
+    "saute-d-agneau-aux-primeurs-ou-navarin-printanier",
+    "fricassee-de-veau-aux-aubergines-et-pruneaux",
+    "roti-de-porc-farci-en-croute"
+  ],
+  "translations": {
+    "en": {
+      "title": "Old-fashioned Bœuf mode",
+      "description": "Beef braised in white wine with calf's foot and pork rinds, served with carrots and glazed baby onions.",
+      "tags": [
+        "beef",
+        "simmered",
+        "main-course",
+        "french",
+        "nostalgic",
+        "family-recipe",
+        "comforting",
+        "winter",
+        "hot",
+        "family-friendly",
+        "to-share",
+        "leftovers-friendly"
+      ],
+      "ingredients": [
+        {
+          "items": [
+            "1.5 kg beef (aiguillette, topside, shin)",
+            "1 calf's foot, split and boned",
+            "3 pork rinds",
+            "2 onions",
+            "3 cloves of garlic",
+            "Fine salt, pepper",
+            "1 bouquet garni",
+            "½ l of white wine",
+            "2 to 3 stock cubes",
+            "1 dl of Cognac",
+            "100 g of butter",
+            "1 can (1/10 size) of tomato paste"
+          ]
+        },
+        {
+          "group": "Garnish",
+          "items": [
+            "800 g of carrots",
+            "300 g of baby onions",
+            "1 pinch of sugar"
+          ]
+        }
+      ],
+      "steps": [
+        {
+          "text": "Blanch the calf's foot and the pork rinds."
+        },
+        {
+          "text": "In a casserole dish, melt 50 g of butter, brown the meat, add the thinly sliced onion, then add liquid: the white wine and some stock (water with 2 to 3 stock cubes)."
+        },
+        {
+          "text": "Add the tomato paste, the calf's foot, the pork rinds, the crushed garlic and the bouquet garni."
+        },
+        {
+          "text": "Cover and simmer for 40 to 45 minutes."
+        },
+        {
+          "text": "Add the carrots, peeled and cut into rounds, cover and cook for 50 to 60 minutes."
+        },
+        {
+          "text": "Peel the baby onions, put them in a saucepan with the rest of the butter, the salt and a pinch of sugar, add water just to cover and cook until it evaporates, about 30 minutes."
+        },
+        {
+          "text": "At the end of cooking, remove the meat, the calf's foot, the pork rinds and the bouquet garni. Reduce the cooking juices if needed; add the baby onions and the calf's foot cut into small pieces."
+        },
+        {
+          "text": "Slice the meat and place it in a deep dish. Arrange the garnish on top and pour the cooking juices over it."
+        }
+      ]
+    },
+    "it": {
+      "title": "Bœuf mode all'antica",
+      "description": "Manzo brasato al vino bianco con piede di vitello e cotenne, servito con carote e cipolline glassate.",
+      "tags": [
+        "manzo",
+        "stufato",
+        "piatto-principale",
+        "francese",
+        "nostalgico",
+        "ricetta-di-famiglia",
+        "confortante",
+        "inverno",
+        "caldo",
+        "tutta-la-famiglia",
+        "da-condividere",
+        "avanzi-benvenuti"
+      ],
+      "ingredients": [
+        {
+          "items": [
+            "1,5 kg di manzo (aiguillette, fesa, geretto)",
+            "1 piede di vitello tagliato a metà e disossato",
+            "3 cotenne di maiale",
+            "2 cipolle",
+            "3 spicchi d'aglio",
+            "Sale fino, pepe",
+            "1 mazzetto aromatico",
+            "½ l di vino bianco",
+            "2-3 dadi da brodo",
+            "1 dl di Cognac",
+            "100 g di burro",
+            "1 scatola 1/10 di concentrato di pomodoro"
+          ]
+        },
+        {
+          "group": "Guarnizione",
+          "items": [
+            "800 g di carote",
+            "300 g di cipolline",
+            "1 pizzico di zucchero"
+          ]
+        }
+      ],
+      "steps": [
+        {
+          "text": "Sbollentare il piede di vitello e le cotenne."
+        },
+        {
+          "text": "In una casseruola, far sciogliere 50 g di burro, rosolare la carne, aggiungere la cipolla affettata sottilmente, bagnare con il vino bianco e del brodo (acqua con 2-3 dadi da brodo)."
+        },
+        {
+          "text": "Aggiungere il concentrato di pomodoro, il piede di vitello, le cotenne, l'aglio schiacciato e il mazzetto aromatico."
+        },
+        {
+          "text": "Coprire e lasciar sobbollire per 40-45 minuti."
+        },
+        {
+          "text": "Aggiungere le carote pelate e tagliate a rondelle, coprire e lasciar cuocere per 50-60 minuti."
+        },
+        {
+          "text": "Pelare le cipolline, metterle in un pentolino con il resto del burro, il sale e un pizzico di zucchero, bagnare con acqua a filo e cuocere fino a evaporazione, circa 30 minuti."
+        },
+        {
+          "text": "A fine cottura, togliere la carne, il piede di vitello, le cotenne e il mazzetto aromatico. Far ridurre il fondo di cottura se necessario; aggiungere le cipolline e il piede di vitello tagliato a pezzetti."
+        },
+        {
+          "text": "Tagliare la carne a fette e metterla in un piatto fondo. Disporre la guarnizione sopra e irrorare con il fondo di cottura."
+        }
+      ]
+    }
+  }
+}

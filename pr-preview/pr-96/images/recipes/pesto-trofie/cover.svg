@@ -1,0 +1,61 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <defs>
+    <radialGradient id="ptbg" cx="50%" cy="40%" r="70%"><stop offset="0%" stop-color="#2a2820"/><stop offset="100%" stop-color="#141210"/></radialGradient>
+    <radialGradient id="ptplate" cx="48%" cy="48%" r="50%"><stop offset="0%" stop-color="#f0ebe4"/><stop offset="80%" stop-color="#d9d0c4"/><stop offset="100%" stop-color="#c4b8a8"/></radialGradient>
+  </defs>
+  <rect width="800" height="600" fill="url(#ptbg)"/>
+  <ellipse cx="405" cy="330" rx="210" ry="66" fill="#0d0a07" opacity="0.4"/>
+  <ellipse cx="400" cy="315" rx="205" ry="60" fill="url(#ptplate)"/>
+  <ellipse cx="400" cy="315" rx="185" ry="52" fill="#e8e0d4"/>
+  <ellipse cx="400" cy="315" rx="160" ry="44" fill="#f2ece4"/>
+  <!-- Pesto sauce pool -->
+  <ellipse cx="400" cy="310" rx="130" ry="38" fill="#3a7a20" opacity="0.4"/>
+  <!-- Trofie pasta -->
+  <g fill="#e0c870" opacity="0.9">
+    <ellipse cx="350" cy="290" rx="12" ry="4" transform="rotate(30 350 290)"/>
+    <ellipse cx="370" cy="285" rx="11" ry="3.5" transform="rotate(-20 370 285)"/>
+    <ellipse cx="395" cy="282" rx="12" ry="4" transform="rotate(45 395 282)"/>
+    <ellipse cx="420" cy="288" rx="11" ry="3.5" transform="rotate(-35 420 288)"/>
+    <ellipse cx="440" cy="295" rx="12" ry="4" transform="rotate(25 440 295)"/>
+    <ellipse cx="355" cy="305" rx="11" ry="3.5" transform="rotate(-15 355 305)"/>
+    <ellipse cx="380" cy="300" rx="12" ry="4" transform="rotate(40 380 300)"/>
+    <ellipse cx="405" cy="298" rx="11" ry="3.5" transform="rotate(-30 405 298)"/>
+    <ellipse cx="430" cy="305" rx="12" ry="4" transform="rotate(20 430 305)"/>
+    <ellipse cx="365" cy="315" rx="11" ry="3.5" transform="rotate(-40 365 315)"/>
+    <ellipse cx="390" cy="312" rx="12" ry="4" transform="rotate(35 390 312)"/>
+    <ellipse cx="415" cy="318" rx="11" ry="3.5" transform="rotate(-25 415 318)"/>
+    <ellipse cx="340" cy="298" rx="10" ry="3" transform="rotate(50 340 298)"/>
+    <ellipse cx="450" cy="310" rx="10" ry="3" transform="rotate(-45 450 310)"/>
+  </g>
+  <!-- Pesto coating on trofie -->
+  <g fill="#2a6a15" opacity="0.35">
+    <ellipse cx="350" cy="290" rx="12" ry="4" transform="rotate(30 350 290)"/>
+    <ellipse cx="395" cy="282" rx="12" ry="4" transform="rotate(45 395 282)"/>
+    <ellipse cx="440" cy="295" rx="12" ry="4" transform="rotate(25 440 295)"/>
+    <ellipse cx="380" cy="300" rx="12" ry="4" transform="rotate(40 380 300)"/>
+    <ellipse cx="365" cy="315" rx="11" ry="3.5" transform="rotate(-40 365 315)"/>
+    <ellipse cx="415" cy="318" rx="11" ry="3.5" transform="rotate(-25 415 318)"/>
+  </g>
+  <!-- Potato cubes -->
+  <g fill="#e8d8a0" opacity="0.7">
+    <rect x="360" y="292" width="8" height="7" rx="1" transform="rotate(10 364 296)"/>
+    <rect x="420" y="302" width="7" height="6" rx="1" transform="rotate(-5 424 305)"/>
+    <rect x="380" y="320" width="8" height="7" rx="1" transform="rotate(15 384 324)"/>
+  </g>
+  <!-- Green beans -->
+  <g stroke="#4a8a28" stroke-width="2.5" fill="none" opacity="0.6" stroke-linecap="round">
+    <path d="M345,310 Q355,305 365,310"/><path d="M430,290 Q440,285 450,290"/>
+    <path d="M395,322 Q405,317 415,322"/>
+  </g>
+  <!-- Pine nuts -->
+  <g fill="#d8c078" opacity="0.6">
+    <ellipse cx="388" cy="278" rx="4" ry="2.5" transform="rotate(20 388 278)"/>
+    <ellipse cx="412" cy="275" rx="3.5" ry="2" transform="rotate(-10 412 275)"/>
+    <ellipse cx="400" cy="270" rx="3" ry="2" transform="rotate(5 400 270)"/>
+  </g>
+  <!-- Parmesan -->
+  <g fill="#f5f0d8" opacity="0.5">
+    <ellipse cx="375" cy="276" rx="6" ry="2" transform="rotate(-15 375 276)"/>
+    <ellipse cx="425" cy="280" rx="5" ry="2" transform="rotate(10 425 280)"/>
+  </g>
+</svg>
