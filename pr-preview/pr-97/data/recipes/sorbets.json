@@ -1,0 +1,271 @@
+{
+  "slug": "sorbets",
+  "title": "Sorbets",
+  "description": "Trois sorbets du papi à base de sirop cuit : agrumes, ananas et fruits rouges, pour 2 litres de glace environ.",
+  "images": {
+    "cover": "images/recipes/sorbets/cover.webp",
+    "web": "images/recipes/sorbets/web.webp"
+  },
+  "imageCredit": {
+    "author": "VIVIANE6276",
+    "url": "https://pixabay.com/users/viviane6276-8115285/"
+  },
+  "prepTime": 20,
+  "cookTime": 10,
+  "servings": 16,
+  "difficulty": "Facile",
+  "category": "Gelati",
+  "origin": "amelie-grandpa",
+  "tags": [
+    "dessert",
+    "fruits",
+    "agrumes",
+    "glacé",
+    "été",
+    "végétarien",
+    "sans-lactose",
+    "facile",
+    "préparation-à-lavance",
+    "français",
+    "nostalgique",
+    "recette-de-famille"
+  ],
+  "ingredients": [
+    {
+      "group": "Agrumes",
+      "items": [
+        "1 kg environ d'agrumes (citrons ou oranges ou pamplemousses) pour obtenir 350 à 400 g de jus de fruits",
+        "7 à 8 dl d'eau",
+        "400 g de sucre",
+        "100 g de glucose",
+        "Les zestes des agrumes"
+      ]
+    },
+    {
+      "group": "Ananas",
+      "items": [
+        "300 g d'eau",
+        "400 g de sucre",
+        "100 g de glucose",
+        "Quelques morceaux d'écorces d'ananas",
+        "1 l de pulpe d'ananas"
+      ]
+    },
+    {
+      "group": "Fruits rouges",
+      "items": [
+        "300 g d'eau",
+        "400 g de sucre",
+        "100 g de glucose",
+        "1 l de pulpe de fruits rouges (cassis, fraises, framboises)"
+      ]
+    }
+  ],
+  "steps": [
+    {
+      "text": "Agrumes, sirop : chaque préparation donne 2 litres de glace environ. Réunir 7 à 8 dl d'eau, 400 g de sucre et 100 g de glucose, ajouter les zestes."
+    },
+    {
+      "text": "Porter à ébullition, faire bouillir plusieurs minutes et passer au chinois métallique, laisser refroidir."
+    },
+    {
+      "text": "Ajouter 750 g de jus de fruits, mélanger au sirop."
+    },
+    {
+      "text": "Ananas, sirop : réunir 300 g d'eau, 400 g de sucre et 100 g de glucose, ajouter quelques morceaux d'écorces d'ananas."
+    },
+    {
+      "text": "Porter à ébullition, faire bouillir plusieurs minutes et passer au chinois métallique, laisser refroidir."
+    },
+    {
+      "text": "Ajouter 1 l de pulpe d'ananas, mélanger au sirop."
+    },
+    {
+      "text": "Fruits rouges (cassis, fraises, framboises), sirop : réunir 300 g d'eau, 400 g de sucre et 100 g de glucose."
+    },
+    {
+      "text": "Porter à ébullition, faire bouillir plusieurs minutes et passer au chinois métallique, laisser refroidir."
+    },
+    {
+      "text": "Ajouter 1 l de pulpe de fruits rouges pour 1 l de sirop, mélanger."
+    }
+  ],
+  "tips": [
+    "Le sorbet est une variante de glace à base de sirop dans lequel on ajoute une quantité de fine purée de fruits ou d'alcool ou de liqueur."
+  ],
+  "source": "Les recettes de Maurice Houdré, tome 3, Glaces et sorbets",
+  "originalSource": {
+    "type": "text",
+    "data": "Les sorbets\n\nVariante de glace à base de sirop dans lequel on ajoute une quantité de fine purée de fruits ou d’alcool ou de liqueur.\nPréparation pour 2 litres de glace environ.\n\nAgrumes : 1 kg environ pour obtenir 350 à 400 g de jus de fruits (citrons ou oranges ou pamplemousses).\nSirop :\n7 à 8 dl d’eau, 400 g de sucre, 100 g de glucose, ajouter les zestes.\nPorter à ébullition, faire bouillir plusieurs minutes et passer au chinois métallique, laisser refroidir. Ajouter 750 g de jus de fruits, mélanger au sirop.\n\nAnanas :\nSirop :\n300 g d’eau, 400 g de sucre, 100 g de glucose, ajouter quelques morceaux d’écorces d’ananas.\nPorter à ébullition, faire bouillir plusieurs minutes et passer au chinois métallique, laisser refroidir. Ajouter 1 l de pulpe d’ananas, mélanger au sirop.\n\nFruits rouges : cassis, fraises, framboises.\nSirop :\n300 g d’eau, 400 g de sucre, 100 g de glucose.\nPorter à ébullition, faire bouillir plusieurs minutes et passer au chinois métallique, laisser refroidir. Ajouter 1 l de pulpe de fruits rouges pour 1 l de sirop, mélanger.\n"
+  },
+  "related": [
+    "glaces-ou-sorbets-aux-fruits",
+    "glace-au-yaourt-et-citron-orange",
+    "glace-a-la-creme-anglaise",
+    "confiture-d-oranges"
+  ],
+  "translations": {
+    "en": {
+      "title": "Sorbets",
+      "description": "Grandpa's three sorbets made with a cooked syrup: citrus, pineapple and red berries, for about 2 litres of ice each.",
+      "tags": [
+        "dessert",
+        "fruit",
+        "citrus",
+        "frozen",
+        "summer",
+        "vegetarian",
+        "dairy-free",
+        "easy",
+        "make-ahead",
+        "french",
+        "nostalgic",
+        "family-recipe"
+      ],
+      "ingredients": [
+        {
+          "group": "Citrus",
+          "items": [
+            "1 kg (about) of citrus fruits (lemons, oranges or grapefruits) to obtain 350 to 400 g of fruit juice",
+            "7 to 8 dl of water",
+            "400 g of sugar",
+            "100 g of glucose",
+            "The zest of the citrus fruits"
+          ]
+        },
+        {
+          "group": "Pineapple",
+          "items": [
+            "300 g of water",
+            "400 g of sugar",
+            "100 g of glucose",
+            "A few pieces of pineapple peel",
+            "1 l of pineapple pulp"
+          ]
+        },
+        {
+          "group": "Red berries",
+          "items": [
+            "300 g of water",
+            "400 g of sugar",
+            "100 g of glucose",
+            "1 l of red berry pulp (blackcurrants, strawberries, raspberries)"
+          ]
+        }
+      ],
+      "steps": [
+        {
+          "text": "Citrus, syrup: each preparation makes about 2 litres of ice. Combine 7 to 8 dl of water, 400 g of sugar and 100 g of glucose, then add the zest."
+        },
+        {
+          "text": "Bring to the boil, boil for several minutes and strain through a fine metal chinois, then leave to cool."
+        },
+        {
+          "text": "Add 750 g of fruit juice and mix into the syrup."
+        },
+        {
+          "text": "Pineapple, syrup: combine 300 g of water, 400 g of sugar and 100 g of glucose, then add a few pieces of pineapple peel."
+        },
+        {
+          "text": "Bring to the boil, boil for several minutes and strain through a fine metal chinois, then leave to cool."
+        },
+        {
+          "text": "Add 1 l of pineapple pulp and mix into the syrup."
+        },
+        {
+          "text": "Red berries (blackcurrants, strawberries, raspberries), syrup: combine 300 g of water, 400 g of sugar and 100 g of glucose."
+        },
+        {
+          "text": "Bring to the boil, boil for several minutes and strain through a fine metal chinois, then leave to cool."
+        },
+        {
+          "text": "Add 1 l of red berry pulp for 1 l of syrup and mix."
+        }
+      ],
+      "tips": [
+        "A sorbet is a type of ice made from a syrup, to which a quantity of fine fruit purée, spirit or liqueur is added."
+      ]
+    },
+    "it": {
+      "title": "Sorbetti",
+      "description": "I tre sorbetti del nonno a base di sciroppo cotto: agrumi, ananas e frutti rossi, per circa 2 litri di gelato ciascuno.",
+      "tags": [
+        "dessert",
+        "frutta",
+        "agrumi",
+        "ghiacciato",
+        "estate",
+        "vegetariano",
+        "senza-lattosio",
+        "facile",
+        "da-preparare-in-anticipo",
+        "francese",
+        "nostalgico",
+        "ricetta-di-famiglia"
+      ],
+      "ingredients": [
+        {
+          "group": "Agrumi",
+          "items": [
+            "1 kg circa di agrumi (limoni, arance o pompelmi) per ottenere 350-400 g di succo di frutta",
+            "7-8 dl di acqua",
+            "400 g di zucchero",
+            "100 g di glucosio",
+            "Le scorze degli agrumi"
+          ]
+        },
+        {
+          "group": "Ananas",
+          "items": [
+            "300 g di acqua",
+            "400 g di zucchero",
+            "100 g di glucosio",
+            "Qualche pezzo di buccia d'ananas",
+            "1 l di polpa d'ananas"
+          ]
+        },
+        {
+          "group": "Frutti rossi",
+          "items": [
+            "300 g di acqua",
+            "400 g di zucchero",
+            "100 g di glucosio",
+            "1 l di polpa di frutti rossi (ribes nero, fragole, lamponi)"
+          ]
+        }
+      ],
+      "steps": [
+        {
+          "text": "Agrumi, sciroppo: ogni preparazione dà circa 2 litri di gelato. Riunire 7-8 dl di acqua, 400 g di zucchero e 100 g di glucosio, aggiungere le scorze."
+        },
+        {
+          "text": "Portare a ebollizione, far bollire per alcuni minuti e passare al colino cinese metallico, lasciare raffreddare."
+        },
+        {
+          "text": "Aggiungere 750 g di succo di frutta, mescolare allo sciroppo."
+        },
+        {
+          "text": "Ananas, sciroppo: riunire 300 g di acqua, 400 g di zucchero e 100 g di glucosio, aggiungere qualche pezzo di buccia d'ananas."
+        },
+        {
+          "text": "Portare a ebollizione, far bollire per alcuni minuti e passare al colino cinese metallico, lasciare raffreddare."
+        },
+        {
+          "text": "Aggiungere 1 l di polpa d'ananas, mescolare allo sciroppo."
+        },
+        {
+          "text": "Frutti rossi (ribes nero, fragole, lamponi), sciroppo: riunire 300 g di acqua, 400 g di zucchero e 100 g di glucosio."
+        },
+        {
+          "text": "Portare a ebollizione, far bollire per alcuni minuti e passare al colino cinese metallico, lasciare raffreddare."
+        },
+        {
+          "text": "Aggiungere 1 l di polpa di frutti rossi per 1 l di sciroppo, mescolare."
+        }
+      ],
+      "tips": [
+        "Il sorbetto è una variante del gelato a base di sciroppo, a cui si aggiunge una quantità di purea fine di frutta, di distillato o di liquore."
+      ]
+    }
+  }
+}
