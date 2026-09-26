@@ -1,0 +1,208 @@
+{
+  "slug": "avocat-farci-a-la-parisienne",
+  "title": "Avocat farci à la parisienne",
+  "description": "Des moitiés d'avocat garnies de dés d'avocat, de jambon blanc, de salade et d'œufs durs liés à la mayonnaise, servies bien fraîches.",
+  "images": {
+    "cover": "images/recipes/avocat-farci-a-la-parisienne/cover.webp",
+    "web": "images/recipes/avocat-farci-a-la-parisienne/web.webp"
+  },
+  "imageCredit": {
+    "author": "stevepb",
+    "url": "https://pixabay.com/users/stevepb-282134/"
+  },
+  "prepTime": 25,
+  "cookTime": 10,
+  "servings": 8,
+  "difficulty": "Facile",
+  "category": "Antipasti",
+  "origin": "amelie-grandpa",
+  "tags": [
+    "avocat",
+    "œufs",
+    "porc",
+    "entrée",
+    "froid",
+    "facile",
+    "rapide",
+    "été",
+    "buffet",
+    "convivial",
+    "français",
+    "nostalgique",
+    "recette-de-famille"
+  ],
+  "ingredients": [
+    {
+      "items": [
+        "4 avocats mûrs à point",
+        "2 tranches de jambon blanc",
+        "3 œufs",
+        "Quelques feuilles de salade",
+        "2 à 3 cuillères à potage de mayonnaise (1/4 d'huile, 2 jaunes, 1 cuillerée de moutarde, sel, poivre)",
+        "Persil haché"
+      ]
+    }
+  ],
+  "steps": [
+    {
+      "text": "Faire durcir les œufs."
+    },
+    {
+      "text": "Couper les avocats en deux, enlever le noyau."
+    },
+    {
+      "text": "Couper le jambon en petits morceaux."
+    },
+    {
+      "text": "Retirer la chair des avocats, couper en petits dés."
+    },
+    {
+      "text": "Concasser grossièrement 2 œufs durs, hacher le troisième."
+    },
+    {
+      "text": "Ciseler finement la salade."
+    },
+    {
+      "text": "Dans une terrine, mélanger les dés d'avocats, le jambon, la salade, les œufs durs concassés, la mayonnaise, remuer délicatement et garnir les moitiés d'avocats."
+    },
+    {
+      "text": "Sur le dessus, parsemer l'œuf dur haché mélangé avec le persil haché."
+    },
+    {
+      "text": "Disposer sur un plat et réserver au frais."
+    }
+  ],
+  "source": "Les recettes de Maurice Houdré, tome 1, Les entrées en assiette froide et salades composées",
+  "originalSource": {
+    "type": "text",
+    "data": "Avocat farci à la parisienne\n\nIngrédients : pour 8 personnes\n\n. 4 avocats mûrs à point\n. 2 tranches de jambon blanc\n. 3 œufs\n. quelques feuilles de salade\n. 2 à 3 cuillères à potage de mayonnaise (1/4 d’huile, 2 jaunes, 1 cuillérée de moutarde, sel, poivre)\n\nPréparation :\n\nFaire durcir les œufs.\nCouper les avocats en deux, enlever le noyau.\nCouper le jambon en petits morceaux.\nRetirer la chair des avocats, couper en petits dés.\nConcasser grossièrement 2 œufs durs, hacher le 3ème.\nCiseler finement la salade.\nDans une terrine, mélanger les dés d’avocats, le jambon, la salade, les œufs durs concassés, la mayonnaise, remuer délicatement et garnir les moitiés d’avocats.\nSur le dessus, parsemer l’œuf dur haché mélangé avec le persil haché.\nDisposer sur un plat et réserver au frais.\n"
+  },
+  "related": [
+    "avocat-farci-aux-crevettes",
+    "salade-de-papillons-au-blanc-de-volaille",
+    "assiette-neptune",
+    "oeufs-farcis-au-thon"
+  ],
+  "translations": {
+    "en": {
+      "title": "Parisian-style stuffed avocado",
+      "description": "Avocado halves filled with diced avocado, cooked ham, lettuce and hard-boiled eggs bound with mayonnaise, served well chilled.",
+      "tags": [
+        "avocado",
+        "eggs",
+        "pork",
+        "starter",
+        "cold",
+        "easy",
+        "quick",
+        "summer",
+        "buffet",
+        "convivial",
+        "french",
+        "nostalgic",
+        "family-recipe"
+      ],
+      "ingredients": [
+        {
+          "items": [
+            "4 perfectly ripe avocados",
+            "2 slices of cooked ham",
+            "3 eggs",
+            "A few lettuce leaves",
+            "2 to 3 tablespoons of mayonnaise (1/4 of oil, 2 yolks, 1 spoonful of mustard, salt, pepper)",
+            "Chopped parsley"
+          ]
+        }
+      ],
+      "steps": [
+        {
+          "text": "Hard-boil the eggs."
+        },
+        {
+          "text": "Cut the avocados in half and remove the stone."
+        },
+        {
+          "text": "Cut the ham into small pieces."
+        },
+        {
+          "text": "Scoop out the avocado flesh and cut it into small dice."
+        },
+        {
+          "text": "Roughly chop 2 hard-boiled eggs and chop the third one."
+        },
+        {
+          "text": "Finely chop the lettuce."
+        },
+        {
+          "text": "In a bowl, combine the diced avocado, the ham, the lettuce, the roughly chopped hard-boiled eggs and the mayonnaise, stir gently and fill the avocado halves."
+        },
+        {
+          "text": "Sprinkle the top with the chopped hard-boiled egg mixed with the chopped parsley."
+        },
+        {
+          "text": "Arrange on a serving dish and keep chilled."
+        }
+      ]
+    },
+    "it": {
+      "title": "Avocado ripieno alla parigina",
+      "description": "Mezzi avocado farciti con dadini di avocado, prosciutto cotto, insalata e uova sode legati con la maionese, serviti ben freschi.",
+      "tags": [
+        "avocado",
+        "uova",
+        "maiale",
+        "antipasto",
+        "freddo",
+        "facile",
+        "veloce",
+        "estate",
+        "buffet",
+        "conviviale",
+        "francese",
+        "nostalgico",
+        "ricetta-di-famiglia"
+      ],
+      "ingredients": [
+        {
+          "items": [
+            "4 avocado maturi al punto giusto",
+            "2 fette di prosciutto cotto",
+            "3 uova",
+            "Qualche foglia di insalata",
+            "2 - 3 cucchiai di maionese (1/4 di olio, 2 tuorli, 1 cucchiaio di senape, sale, pepe)",
+            "Prezzemolo tritato"
+          ]
+        }
+      ],
+      "steps": [
+        {
+          "text": "Rassodare le uova."
+        },
+        {
+          "text": "Tagliare gli avocado a metà ed eliminare il nocciolo."
+        },
+        {
+          "text": "Tagliare il prosciutto a pezzetti."
+        },
+        {
+          "text": "Estrarre la polpa degli avocado e tagliarla a dadini."
+        },
+        {
+          "text": "Tritare grossolanamente 2 uova sode e tritare la terza."
+        },
+        {
+          "text": "Tritare finemente l'insalata."
+        },
+        {
+          "text": "In una terrina, mescolare i dadini di avocado, il prosciutto, l'insalata, le uova sode tritate grossolanamente e la maionese, girare delicatamente e farcire i mezzi avocado."
+        },
+        {
+          "text": "Cospargere la superficie con l'uovo sodo tritato mescolato al prezzemolo tritato."
+        },
+        {
+          "text": "Disporre su un piatto da portata e tenere in fresco."
+        }
+      ]
+    }
+  }
+}

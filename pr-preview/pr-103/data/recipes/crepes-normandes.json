@@ -1,0 +1,165 @@
+{
+  "slug": "crepes-normandes",
+  "title": "Crêpes normandes",
+  "description": "Des crêpes sucrées garnies de pommes Reinette caramélisées au beurre et flambées au Calvados, roulées et servies chaudes.",
+  "images": {
+    "cover": "images/recipes/crepes-normandes/cover.svg",
+    "web": "images/recipes/crepes-normandes/cover.svg"
+  },
+  "prepTime": 20,
+  "cookTime": 20,
+  "servings": 8,
+  "difficulty": "Facile",
+  "category": "Dolci",
+  "origin": "amelie-grandpa",
+  "tags": [
+    "crêpes",
+    "pommes",
+    "dessert",
+    "poêle",
+    "flambé",
+    "automne",
+    "gourmand",
+    "réconfortant",
+    "chaud",
+    "facile",
+    "français",
+    "nostalgique",
+    "recette-de-famille"
+  ],
+  "ingredients": [
+    {
+      "items": [
+        "1 recette de base de crêpes sucrées",
+        "8 pommes « Reinette »",
+        "80 g de beurre",
+        "80 g de sucre",
+        "½ dl de Calvados"
+      ]
+    }
+  ],
+  "steps": [
+    {
+      "text": "Préparation de base : voir la recette des crêpes sucrées."
+    },
+    {
+      "text": "Éplucher les pommes, les couper en quartiers, enlever les pépins et les couper en fines tranches."
+    },
+    {
+      "text": "Dans une poêle, faire fondre le beurre, ajouter les pommes, faire cuire à chaleur moyenne."
+    },
+    {
+      "text": "Quand elles sont cuites, ajouter le sucre, remuer et faire dorer (caraméliser), puis flamber avec le Calvados."
+    },
+    {
+      "text": "Dressage : étaler une bonne cuillerée de pommes sur chaque crêpe, la rouler et disposer sur un plat, servir chaud."
+    }
+  ],
+  "source": "Les recettes de Maurice Houdré, tome 3, Les entremets",
+  "originalSource": {
+    "type": "text",
+    "data": "Crêpes normandes\n\nIngrédients : pour 8 personnes\n\n. 1 recette de base de crêpes sucrées\n. 8 pommes « Reinette »\n. 80 g de beurre\n. 80 g de sucre\n. ½ dl de Calvados\n\nPréparation de base :\nVoir recette « Crêpes sucrées ».\n\nEplucher les pommes, couper les en quartiers, enlever les pépins et couper les en fines tranches.\nDans une poêle, faire fondre le beurre, ajouter les pommes, faire cuire à chaleur moyenne. Quand elles sont cuites, ajouter le sucre, remuer et faire dorer (caraméliser), puis flamber avec le Calvados.\n\nDressage :\nEtaler une bonne cuillérée de pommes sur chaque crêpe, rouler la et disposer sur un plat, servir chaud.\n"
+  },
+  "related": [
+    "crepes-flambees",
+    "gratin-de-pommes",
+    "crepes-soufflees",
+    "crepes-a-la-peche-et-glace"
+  ],
+  "translations": {
+    "en": {
+      "title": "Normandy crêpes",
+      "description": "Sweet crêpes filled with Reinette apples caramelised in butter and flambéed with Calvados, rolled up and served hot.",
+      "tags": [
+        "crepes",
+        "apples",
+        "dessert",
+        "pan",
+        "flambeed",
+        "autumn",
+        "indulgent",
+        "comforting",
+        "hot",
+        "easy",
+        "french",
+        "nostalgic",
+        "family-recipe"
+      ],
+      "ingredients": [
+        {
+          "items": [
+            "1 batch of basic sweet crêpes",
+            "8 “Reinette” apples",
+            "80 g of butter",
+            "80 g of sugar",
+            "½ dl of Calvados"
+          ]
+        }
+      ],
+      "steps": [
+        {
+          "text": "Base preparation: see the sweet crêpes recipe."
+        },
+        {
+          "text": "Peel the apples, cut them into quarters, remove the pips and cut them into thin slices."
+        },
+        {
+          "text": "In a frying pan, melt the butter, add the apples and cook over medium heat."
+        },
+        {
+          "text": "When they are cooked, add the sugar, stir and let them brown (caramelise), then flambé with the Calvados."
+        },
+        {
+          "text": "To serve: spread a generous spoonful of apples on each crêpe, roll it up and arrange on a dish, serve hot."
+        }
+      ]
+    },
+    "it": {
+      "title": "Crêpes alla normanna",
+      "description": "Crêpes dolci farcite con mele Reinette caramellate nel burro e flambate al Calvados, arrotolate e servite calde.",
+      "tags": [
+        "crêpes",
+        "mele",
+        "dessert",
+        "padella",
+        "flambé",
+        "autunno",
+        "goloso",
+        "confortante",
+        "caldo",
+        "facile",
+        "francese",
+        "nostalgico",
+        "ricetta-di-famiglia"
+      ],
+      "ingredients": [
+        {
+          "items": [
+            "1 dose di crêpes dolci di base",
+            "8 mele «Reinette»",
+            "80 g di burro",
+            "80 g di zucchero",
+            "½ dl di Calvados"
+          ]
+        }
+      ],
+      "steps": [
+        {
+          "text": "Preparazione di base: vedere la ricetta delle crêpes dolci."
+        },
+        {
+          "text": "Sbucciare le mele, tagliarle in quarti, togliere i semi e tagliarle a fettine sottili."
+        },
+        {
+          "text": "In una padella, far fondere il burro, aggiungere le mele e cuocere a fuoco medio."
+        },
+        {
+          "text": "Quando sono cotte, aggiungere lo zucchero, mescolare e far dorare (caramellare), poi flambare con il Calvados."
+        },
+        {
+          "text": "Presentazione: stendere una bella cucchiaiata di mele su ogni crêpe, arrotolarla e disporla su un piatto, servire caldo."
+        }
+      ]
+    }
+  }
+}

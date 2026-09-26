@@ -1,0 +1,99 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <defs>
+    <radialGradient id="bg" cx="50%" cy="40%" r="70%">
+      <stop offset="0%" stop-color="#3a3028"/>
+      <stop offset="100%" stop-color="#1a1510"/>
+    </radialGradient>
+    <radialGradient id="dough" cx="45%" cy="40%" r="55%">
+      <stop offset="0%" stop-color="#f0d090"/>
+      <stop offset="100%" stop-color="#d4a550"/>
+    </radialGradient>
+    <radialGradient id="sauce" cx="45%" cy="40%" r="50%">
+      <stop offset="0%" stop-color="#d44020"/>
+      <stop offset="100%" stop-color="#b82818"/>
+    </radialGradient>
+  </defs>
+  <rect width="800" height="600" fill="url(#bg)"/>
+  <!-- Checkered tablecloth -->
+  <g opacity="0.08">
+    <rect x="0" y="0" width="100" height="100" fill="#c0392b"/>
+    <rect x="200" y="0" width="100" height="100" fill="#c0392b"/>
+    <rect x="400" y="0" width="100" height="100" fill="#c0392b"/>
+    <rect x="600" y="0" width="100" height="100" fill="#c0392b"/>
+    <rect x="100" y="100" width="100" height="100" fill="#c0392b"/>
+    <rect x="300" y="100" width="100" height="100" fill="#c0392b"/>
+    <rect x="500" y="100" width="100" height="100" fill="#c0392b"/>
+    <rect x="700" y="100" width="100" height="100" fill="#c0392b"/>
+  </g>
+  <!-- Wooden board -->
+  <ellipse cx="400" cy="320" rx="250" ry="230" fill="#a0784a"/>
+  <ellipse cx="400" cy="315" rx="245" ry="225" fill="#b8905c"/>
+  <g stroke="#a07840" stroke-width="0.6" opacity="0.2">
+    <path d="M180,250 Q300,245 400,252 Q500,258 620,250"/>
+    <path d="M170,320 Q300,316 400,322 Q500,328 630,320"/>
+    <path d="M180,390 Q300,386 400,392 Q500,398 620,390"/>
+  </g>
+  <!-- Shadow under pizza -->
+  <ellipse cx="400" cy="340" rx="165" ry="160" fill="#8a6838" opacity="0.3"/>
+  <!-- Pizza base -->
+  <circle cx="400" cy="300" r="155" fill="url(#dough)"/>
+  <!-- Crust edge -->
+  <circle cx="400" cy="300" r="155" fill="none" stroke="#c89040" stroke-width="22"/>
+  <circle cx="400" cy="300" r="155" fill="none" stroke="#daa858" stroke-width="16"/>
+  <!-- Crust bumps -->
+  <g fill="#daa858">
+    <circle cx="258" cy="240" r="10"/><circle cx="248" cy="280" r="10"/>
+    <circle cx="252" cy="320" r="9"/><circle cx="265" cy="360" r="10"/>
+    <circle cx="290" cy="395" r="10"/><circle cx="325" cy="420" r="10"/>
+    <circle cx="365" cy="438" r="10"/><circle cx="400" cy="442" r="10"/>
+    <circle cx="435" cy="438" r="10"/><circle cx="475" cy="420" r="10"/>
+    <circle cx="510" cy="395" r="10"/><circle cx="535" cy="360" r="10"/>
+    <circle cx="548" cy="320" r="9"/><circle cx="552" cy="280" r="10"/>
+    <circle cx="542" cy="240" r="10"/><circle cx="520" cy="205" r="10"/>
+    <circle cx="490" cy="178" r="10"/><circle cx="455" cy="162" r="10"/>
+    <circle cx="400" cy="155" r="10"/><circle cx="345" cy="162" r="10"/>
+    <circle cx="310" cy="178" r="10"/><circle cx="280" cy="205" r="10"/>
+  </g>
+  <!-- Tomato sauce -->
+  <circle cx="400" cy="300" r="130" fill="url(#sauce)"/>
+  <!-- Cheese base -->
+  <circle cx="400" cy="300" r="125" fill="#f5e8a0" opacity="0.4"/>
+  <!-- SMILEY FACE made with toppings! -->
+  <!-- Left eye - olive -->
+  <circle cx="355" cy="265" r="20" fill="#2a2a1a"/>
+  <circle cx="355" cy="265" r="14" fill="#3a3a20"/>
+  <circle cx="355" cy="265" r="7" fill="#c43020"/>
+  <ellipse cx="351" cy="260" rx="4" ry="3" fill="#5a5a38" opacity="0.5"/>
+  <!-- Right eye - olive -->
+  <circle cx="445" cy="265" r="20" fill="#2a2a1a"/>
+  <circle cx="445" cy="265" r="14" fill="#3a3a20"/>
+  <circle cx="445" cy="265" r="7" fill="#c43020"/>
+  <ellipse cx="441" cy="260" rx="4" ry="3" fill="#5a5a38" opacity="0.5"/>
+  <!-- Nose - cherry tomato -->
+  <circle cx="400" cy="305" r="12" fill="#e8402a"/>
+  <ellipse cx="396" cy="300" rx="5" ry="4" fill="#f06048" opacity="0.5"/>
+  <!-- Smile - yellow pepper slice -->
+  <path d="M340,340 Q370,380 400,385 Q430,380 460,340" stroke="#e8c020" stroke-width="14" fill="none" stroke-linecap="round"/>
+  <path d="M340,340 Q370,380 400,385 Q430,380 460,340" stroke="#f0d040" stroke-width="8" fill="none" stroke-linecap="round"/>
+  <!-- Cheeks - mozzarella blobs -->
+  <ellipse cx="325" cy="325" rx="22" ry="18" fill="#faf5e8" opacity="0.7"/>
+  <ellipse cx="475" cy="325" rx="22" ry="18" fill="#faf5e8" opacity="0.7"/>
+  <!-- Basil leaves scattered -->
+  <g fill="#3a8830">
+    <ellipse cx="310" cy="270" rx="10" ry="6" transform="rotate(-30 310 270)"/>
+    <ellipse cx="480" cy="350" rx="12" ry="6" transform="rotate(20 480 350)"/>
+    <ellipse cx="380" cy="220" rx="9" ry="5" transform="rotate(-15 380 220)"/>
+    <ellipse cx="430" cy="400" rx="10" ry="5" transform="rotate(35 430 400)"/>
+  </g>
+  <g fill="#48a040" opacity="0.7">
+    <ellipse cx="312" cy="272" rx="8" ry="4" transform="rotate(-30 312 272)"/>
+    <ellipse cx="482" cy="352" rx="10" ry="4" transform="rotate(20 482 352)"/>
+  </g>
+  <!-- Small stars decoration -->
+  <g fill="#f0c040" opacity="0.08">
+    <polygon points="120,80 125,95 140,95 128,105 133,120 120,110 107,120 112,105 100,95 115,95"/>
+    <polygon points="680,100 685,115 700,115 688,125 693,140 680,130 667,140 672,125 660,115 675,115"/>
+    <polygon points="150,500 155,515 170,515 158,525 163,540 150,530 137,540 142,525 130,515 145,515"/>
+    <polygon points="650,480 655,495 670,495 658,505 663,520 650,510 637,520 642,505 630,495 645,495"/>
+  </g>
+</svg>

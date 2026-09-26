@@ -1,0 +1,199 @@
+{
+  "slug": "faisan-au-chou",
+  "title": "Faisan au chou",
+  "description": "Un faisan doré au beurre puis cuit au vin blanc, servi sur un chou vert mijoté avec des lardons et le jus de cuisson.",
+  "images": {
+    "cover": "images/recipes/faisan-au-chou/cover.svg",
+    "web": "images/recipes/faisan-au-chou/cover.svg"
+  },
+  "prepTime": 30,
+  "cookTime": 75,
+  "servings": 8,
+  "difficulty": "Medio",
+  "category": "Secondi",
+  "origin": "amelie-grandpa",
+  "tags": [
+    "gibier",
+    "volaille",
+    "porc",
+    "mijoté",
+    "plat-principal",
+    "français",
+    "nostalgique",
+    "recette-de-famille",
+    "automne",
+    "hiver",
+    "réconfortant",
+    "festif",
+    "chaud"
+  ],
+  "ingredients": [
+    {
+      "items": [
+        "1 beau faisan",
+        "1 gros chou vert",
+        "250 g de poitrine de porc fraîche",
+        "100 g de beurre",
+        "Sel fin, poivre, gros sel",
+        "2 oignons",
+        "2 carottes",
+        "1 dl de vin blanc",
+        "1 bouquet garni"
+      ]
+    }
+  ],
+  "steps": [
+    {
+      "text": "Préparer le chou. Retirer les feuilles et les côtes, les laver et les faire blanchir dans une bonne quantité d'eau bouillante salée (gros sel). Laisser bouillir pendant 4 à 5 minutes, rafraîchir et égoutter.",
+      "timers": [4]
+    },
+    {
+      "text": "Couper la poitrine en lardons, faire blanchir puis égoutter."
+    },
+    {
+      "text": "Dans une cocotte, faire chauffer le beurre, mettre le faisan et le faire dorer, ajouter 1 oignon et 1 carotte émincés, faire suer 5 à 6 minutes, saler, poivrer, ajouter le vin blanc, le bouquet garni, couvrir et faire cuire à feu doux 40 à 50 minutes.",
+      "timers": [5, 40]
+    },
+    {
+      "text": "Au terme de la cuisson, retirer le faisan et passer le jus au chinois."
+    },
+    {
+      "text": "Pendant ce temps, dans une casserole et sans chauffer le beurre, mettre l'oignon et la carotte émincés, les lardons, faire suer 5 à 6 minutes, ajouter le chou, sel et poivre, ajouter de l'eau à hauteur et faire cuire 40 à 50 minutes.",
+      "timers": [5, 40]
+    },
+    {
+      "text": "Quand le chou est cuit, l'égoutter, remettre dans la cocotte, verser le jus de cuisson du faisan, faire mijoter 10 minutes.",
+      "timers": [10]
+    },
+    {
+      "text": "Dressage : mettre le chou dans un plat rond creux, disposer les cuisses et les ailes du faisan coupées en deux."
+    }
+  ],
+  "source": "Les recettes de Maurice Houdré, tome 2, Volailles, lapins, foie gras",
+  "originalSource": {
+    "type": "text",
+    "data": "Faisan au chou\n\nIngrédients : pour 8 personnes\n\n. 1 beau faisan\n. 1 gros chou vert\n. 250 g de poitrine de porc fraîche\n. 100 g de beurre\n. sel fin, poivre, gros sel\n. 2 oignons\n. 2 carottes\n. 1 dl de vin blanc\n. 1 bouquet garni\n\nPréparer le chou. Retirer les feuilles et les côtes, les laver et les faire blanchir dans une bonne quantité d’eau bouillante salée (gros sel). Laisser bouillir pendant 4 à 5 minutes, rafraîchir et égoutter. Couper la poitrine en lardons, faire blanchir puis égoutter.\nDans une cocotte, faire chauffer le beurre, mettre le faisan et le faire dorer, ajouter 1 oignon et 1 carotte émincés, faire suer 5 à 6 minutes, saler, poivrer, ajouter le vin blanc, le bouquet garni, couvrir et faire cuire à feu doux 40 à 50 minutes.\nAu terme de la cuisson, retirer le faisan et passer le jus au chinois.\nPendant ce temps, dans une casserole et sans chauffer le beurre, mettre l’oignon et la carotte émincés, les lardons, faire suer 5 à 6 minutes, ajouter le chou, sel et poivre, ajouter de l’eau à hauteur et faire cuire 40 à 50 minutes.\nQuand le chou est cuit, l’égoutter, remettre dans la cocotte, verser le jus de cuisson du faisan, faire mijoter 10 minutes.\n\nDressage :\nMettre le chou dans un plat rond creux, disposer les cuisses et les ailes du faisan coupées en deux.\n"
+  },
+  "related": [
+    "faisan-braise-sur-choucroute",
+    "canard-farci-braise-aux-navets",
+    "roti-de-porc-farci-en-croute",
+    "filet-mignon-de-porc-a-la-sauge"
+  ],
+  "translations": {
+    "en": {
+      "title": "Pheasant with cabbage",
+      "description": "A pheasant browned in butter then cooked in white wine, served on a green cabbage simmered with lardons and the cooking juices.",
+      "tags": [
+        "game",
+        "poultry",
+        "pork",
+        "simmered",
+        "main-course",
+        "french",
+        "nostalgic",
+        "family-recipe",
+        "autumn",
+        "winter",
+        "comforting",
+        "festive",
+        "hot"
+      ],
+      "ingredients": [
+        {
+          "items": [
+            "1 fine pheasant",
+            "1 large green cabbage",
+            "250 g fresh pork belly",
+            "100 g butter",
+            "Fine salt, pepper, coarse salt",
+            "2 onions",
+            "2 carrots",
+            "1 dl white wine",
+            "1 bouquet garni"
+          ]
+        }
+      ],
+      "steps": [
+        {
+          "text": "Prepare the cabbage. Remove the leaves and the ribs, wash them and blanch them in plenty of boiling salted water (coarse salt). Boil for 4 to 5 minutes, refresh and drain."
+        },
+        {
+          "text": "Cut the pork belly into lardons, blanch, then drain."
+        },
+        {
+          "text": "In a casserole dish, heat the butter, add the pheasant and brown it, add 1 thinly sliced onion and 1 thinly sliced carrot, sweat for 5 to 6 minutes, season with salt and pepper, add the white wine and the bouquet garni, cover and cook over low heat for 40 to 50 minutes."
+        },
+        {
+          "text": "At the end of the cooking time, remove the pheasant and strain the juices through a chinois."
+        },
+        {
+          "text": "Meanwhile, in a saucepan and without heating the butter, put the thinly sliced onion and carrot and the lardons, sweat for 5 to 6 minutes, add the cabbage, salt and pepper, add water to cover and cook for 40 to 50 minutes."
+        },
+        {
+          "text": "When the cabbage is cooked, drain it, put it back in the casserole dish, pour in the pheasant cooking juices and simmer for 10 minutes."
+        },
+        {
+          "text": "Dressage: place the cabbage in a deep round dish and arrange the pheasant legs and wings, cut in half, on top."
+        }
+      ]
+    },
+    "it": {
+      "title": "Fagiano con cavolo",
+      "description": "Un fagiano rosolato nel burro e poi cotto nel vino bianco, servito su un cavolo verde stufato con la pancetta a dadini e il fondo di cottura.",
+      "tags": [
+        "selvaggina",
+        "pollame",
+        "maiale",
+        "stufato",
+        "piatto-principale",
+        "francese",
+        "nostalgico",
+        "ricetta-di-famiglia",
+        "autunno",
+        "inverno",
+        "confortante",
+        "festivo",
+        "caldo"
+      ],
+      "ingredients": [
+        {
+          "items": [
+            "1 bel fagiano",
+            "1 grosso cavolo verde",
+            "250 g di pancetta di maiale fresca",
+            "100 g di burro",
+            "Sale fino, pepe, sale grosso",
+            "2 cipolle",
+            "2 carote",
+            "1 dl di vino bianco",
+            "1 mazzetto aromatico"
+          ]
+        }
+      ],
+      "steps": [
+        {
+          "text": "Preparare il cavolo. Staccare le foglie ed eliminare le coste, lavarle e sbollentarle in abbondante acqua bollente salata (sale grosso). Far bollire per 4-5 minuti, raffreddare e scolare."
+        },
+        {
+          "text": "Tagliare la pancetta a dadini, sbollentarla e poi scolarla."
+        },
+        {
+          "text": "In una casseruola, scaldare il burro, mettere il fagiano e rosolarlo, aggiungere 1 cipolla e 1 carota affettate sottilmente, far sudare per 5-6 minuti, salare, pepare, aggiungere il vino bianco e il mazzetto aromatico, coprire e cuocere a fuoco dolce per 40-50 minuti."
+        },
+        {
+          "text": "A fine cottura, togliere il fagiano e filtrare il fondo con un colino cinese."
+        },
+        {
+          "text": "Nel frattempo, in un tegame e senza scaldare il burro, mettere la cipolla e la carota affettate sottilmente e la pancetta a dadini, far sudare per 5-6 minuti, aggiungere il cavolo, sale e pepe, aggiungere acqua fino a coprire e cuocere per 40-50 minuti."
+        },
+        {
+          "text": "Quando il cavolo è cotto, scolarlo, rimetterlo nella casseruola, versare il fondo di cottura del fagiano e far sobbollire per 10 minuti."
+        },
+        {
+          "text": "Impiattamento: mettere il cavolo in un piatto fondo rotondo e disporvi sopra le cosce e le ali del fagiano tagliate a metà."
+        }
+      ]
+    }
+  }
+}

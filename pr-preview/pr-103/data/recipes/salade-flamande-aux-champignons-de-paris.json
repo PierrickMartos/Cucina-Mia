@@ -1,0 +1,231 @@
+{
+  "slug": "salade-flamande-aux-champignons-de-paris",
+  "title": "Salade flamande aux champignons de Paris",
+  "description": "Salade de pommes de terre, endives et champignons de Paris crus à la vinaigrette, décorée d'un quadrillage de filets de hareng.",
+  "images": {
+    "cover": "images/recipes/salade-flamande-aux-champignons-de-paris/cover.svg",
+    "web": "images/recipes/salade-flamande-aux-champignons-de-paris/cover.svg"
+  },
+  "prepTime": 80,
+  "cookTime": 20,
+  "servings": 10,
+  "difficulty": "Facile",
+  "category": "Insalate",
+  "origin": "amelie-grandpa",
+  "tags": [
+    "champignons",
+    "pommes-de-terre",
+    "poisson",
+    "entrée",
+    "français",
+    "nostalgique",
+    "recette-de-famille",
+    "froid",
+    "buffet",
+    "acidulé",
+    "à-partager",
+    "économique"
+  ],
+  "ingredients": [
+    {
+      "items": [
+        "500 g de champignons de Paris frais",
+        "800 g d'endives",
+        "1 kg de pommes de terre",
+        "200 g de filets de hareng",
+        "1 ou 2 gros oignons",
+        "1 citron",
+        "20 g de cerfeuil",
+        "20 g de persil",
+        "Sel, poivre"
+      ]
+    },
+    {
+      "group": "Vinaigrette",
+      "items": [
+        "1 dl de vinaigre",
+        "3 dl d'huile"
+      ]
+    }
+  ],
+  "steps": [
+    {
+      "text": "Laver et émincer les endives."
+    },
+    {
+      "text": "Couper les pommes de terre (cuites à l'eau et avec leur peau) en grosse julienne."
+    },
+    {
+      "text": "Couper les champignons en dés, ajouter le jus de citron et mélanger."
+    },
+    {
+      "text": "Hacher le persil et le cerfeuil."
+    },
+    {
+      "text": "Ciseler grossièrement les oignons."
+    },
+    {
+      "text": "Mélanger ensemble les pommes de terre, les endives, les champignons, les oignons, le cerfeuil et la moitié du persil."
+    },
+    {
+      "text": "Assaisonner le tout de vinaigrette."
+    },
+    {
+      "text": "Dresser en plats ou en grands raviers."
+    },
+    {
+      "text": "Disposer dessus les filets de hareng, taillés en lanières (décoration en quadrillage), et parsemer de persil haché."
+    }
+  ],
+  "source": "Les recettes de Maurice Houdré, tome 1, Les entrées en assiette froide et salades composées",
+  "originalSource": {
+    "type": "text",
+    "data": "Salade flamande aux champignons de Paris \n\nIngrédients : pour 10 personnes\n\n. 500 g de champignons de Paris frais\t\t\tPréparation : 1 heure\n. 800 g d’endives\t\t\t\t\t\tCuisson : 20 minutes\n. 1 kg de pommes de terre\t\t\t\t\tDressage : 20 minutes\n. 200 g de filets de hareng\n. 1 ou 2 gros oignons\n. 1 citron\n. 20 g de cerfeuil\n. 20 g de persil\n. vinaigrette : 1 dl de vinaigre, 3 dl d’huile\n. sel, poivre \n\nPréparation :\n\nLaver et émincer les endives. Couper les pommes de terre (cuites à l’eau et avec leur peau) en grosse Julienne.\nCouper les champignons en dés, ajouter le jus de citron et mélanger.\nHacher le persil et le cerfeuil. \nCiseler grossièrement les oignons.\nMélanger ensemble : les pommes de terre, les endives, les champignons, les oignons, le cerfeuil et la moitié du persil. \nAssaisonner le tout de vinaigrette.\nDresser en plats ou en grands raviers.\nDisposer dessus, les filets de harengs, taillés en lanières (décoration en quadrillage) et parsemer de persil haché.\n"
+  },
+  "related": [
+    "salade-percheronne-aux-champignons-de-paris",
+    "salade-americaine-aux-champignons-de-paris",
+    "salade-de-boeuf-et-champignons-a-la-parisienne",
+    "salade-de-coquillettes-aux-champignons-de-paris"
+  ],
+  "translations": {
+    "en": {
+      "title": "Flemish salad with button mushrooms",
+      "description": "Potato, chicory and raw button mushroom salad in vinaigrette, topped with a lattice of herring fillets.",
+      "tags": [
+        "mushrooms",
+        "potatoes",
+        "fish",
+        "starter",
+        "french",
+        "nostalgic",
+        "family-recipe",
+        "cold",
+        "buffet",
+        "tangy",
+        "to-share",
+        "budget-friendly"
+      ],
+      "ingredients": [
+        {
+          "items": [
+            "500 g fresh button mushrooms",
+            "800 g chicory (Belgian endive)",
+            "1 kg potatoes",
+            "200 g herring fillets",
+            "1 or 2 large onions",
+            "1 lemon",
+            "20 g chervil",
+            "20 g parsley",
+            "Salt, pepper"
+          ]
+        },
+        {
+          "group": "Vinaigrette",
+          "items": [
+            "1 dl vinegar",
+            "3 dl oil"
+          ]
+        }
+      ],
+      "steps": [
+        {
+          "text": "Wash and thinly slice the chicory."
+        },
+        {
+          "text": "Cut the potatoes (boiled in their skins) into a coarse julienne."
+        },
+        {
+          "text": "Dice the mushrooms, add the lemon juice and mix."
+        },
+        {
+          "text": "Chop the parsley and the chervil."
+        },
+        {
+          "text": "Roughly chop the onions."
+        },
+        {
+          "text": "Mix together the potatoes, chicory, mushrooms, onions, chervil and half of the parsley."
+        },
+        {
+          "text": "Dress everything with the vinaigrette."
+        },
+        {
+          "text": "Arrange on platters or in large serving dishes."
+        },
+        {
+          "text": "Lay the herring fillets on top, cut into strips (in a lattice pattern), and sprinkle with chopped parsley."
+        }
+      ]
+    },
+    "it": {
+      "title": "Insalata fiamminga con champignon",
+      "description": "Insalata di patate, indivia belga e champignon crudi alla vinaigrette, decorata con una griglia di filetti di aringa.",
+      "tags": [
+        "funghi",
+        "patate",
+        "pesce",
+        "antipasto",
+        "francese",
+        "nostalgico",
+        "ricetta-di-famiglia",
+        "freddo",
+        "buffet",
+        "acidulo",
+        "da-condividere",
+        "economico"
+      ],
+      "ingredients": [
+        {
+          "items": [
+            "500 g di funghi champignon freschi",
+            "800 g di indivia belga",
+            "1 kg di patate",
+            "200 g di filetti di aringa",
+            "1 o 2 cipolle grandi",
+            "1 limone",
+            "20 g di cerfoglio",
+            "20 g di prezzemolo",
+            "Sale, pepe"
+          ]
+        },
+        {
+          "group": "Vinaigrette",
+          "items": [
+            "1 dl di aceto",
+            "3 dl di olio"
+          ]
+        }
+      ],
+      "steps": [
+        {
+          "text": "Lavare e affettare sottilmente l'indivia belga."
+        },
+        {
+          "text": "Tagliare le patate (lessate con la buccia) a julienne grossa."
+        },
+        {
+          "text": "Tagliare i funghi a dadini, aggiungere il succo di limone e mescolare."
+        },
+        {
+          "text": "Tritare il prezzemolo e il cerfoglio."
+        },
+        {
+          "text": "Tritare grossolanamente le cipolle."
+        },
+        {
+          "text": "Mescolare insieme le patate, l'indivia, i funghi, le cipolle, il cerfoglio e metà del prezzemolo."
+        },
+        {
+          "text": "Condire il tutto con la vinaigrette."
+        },
+        {
+          "text": "Disporre su piatti da portata o in grandi ciotole da servizio."
+        },
+        {
+          "text": "Adagiare sopra i filetti di aringa, tagliati a listarelle (decorazione a griglia), e cospargere di prezzemolo tritato."
+        }
+      ]
+    }
+  }
+}

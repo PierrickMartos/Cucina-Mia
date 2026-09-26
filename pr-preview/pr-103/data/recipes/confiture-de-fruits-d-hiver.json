@@ -1,0 +1,189 @@
+{
+  "slug": "confiture-de-fruits-d-hiver",
+  "title": "Confiture de fruits d'hiver",
+  "description": "Une confiture d'hiver aux poires, potiron et agrumes, relevée de raisins de Smyrne macérés dans le rhum.",
+  "images": {
+    "cover": "images/recipes/confiture-de-fruits-d-hiver/cover.webp",
+    "web": "images/recipes/confiture-de-fruits-d-hiver/web.webp"
+  },
+  "imageCredit": {
+    "author": "jarmoluk",
+    "url": "https://pixabay.com/users/jarmoluk-143740/"
+  },
+  "prepTime": 30,
+  "cookTime": 45,
+  "servings": 13,
+  "difficulty": "Facile",
+  "category": "Conserve",
+  "origin": "amelie-grandpa",
+  "tags": [
+    "fruits",
+    "hiver",
+    "mijoté",
+    "végétarien",
+    "facile",
+    "préparation-à-lavance",
+    "petit-déjeuner",
+    "goûter",
+    "acidulé",
+    "français",
+    "nostalgique",
+    "recette-de-famille"
+  ],
+  "ingredients": [
+    {
+      "items": [
+        "1 kg de poires épluchées",
+        "1 kg de potiron épluché",
+        "3 oranges",
+        "1 pamplemousse",
+        "2 citrons",
+        "150 g de raisins de Smyrne",
+        "1 dl de rhum",
+        "2 kg de sucre cristallisé",
+        "1 kg de confisucre"
+      ]
+    }
+  ],
+  "steps": [
+    {
+      "text": "Laver le raisin, faire macérer dans le rhum."
+    },
+    {
+      "text": "Laver le pamplemousse, les oranges et les citrons, en extraire les zestes puis les hacher finement. Presser les jus et mettre sur les zestes."
+    },
+    {
+      "text": "Éplucher les poires et le potiron, les couper en morceaux."
+    },
+    {
+      "text": "Dans la bassine à confiture, mélanger les poires, le potiron, les zestes et les jus puis ajouter le sucre cristallisé. Faire macérer plusieurs heures."
+    },
+    {
+      "text": "Cuire à feu doux et remuer de temps en temps pendant 25 à 30 minutes.",
+      "timers": [25]
+    },
+    {
+      "text": "Ajouter le raisin, cuire 10 minutes, ajouter le confisucre, remuer et cuire pendant 5 minutes, faire refroidir et mettre en pots.",
+      "timers": [10, 5]
+    }
+  ],
+  "source": "Les recettes de Maurice Houdré, tome 3, Confiture, gelée, marmelade",
+  "originalSource": {
+    "type": "text",
+    "data": "Confiture de fruits d’hiver\n\nIngrédients :\n\n. 1 kg de poires épluchées\n. 1 kg de potiron épluché\n. 3 oranges\n. 1 pamplemousse\n. 2 citrons\n. 150 g de raisins de Smyrne\n. 1 dl de rhum\n. 2 kg de sucre cristallisé + 1 kg de confisucre\n\nPréparation :\n\nLaver le raisin, faire macérer dans le rhum. Laver le pamplemousse, les oranges et  les citrons, en extraire les zestes puis les hacher finement. Presser les jus et mettre sur les zestes. Eplucher les poires et le potiron, les couper en morceaux. Dans la bassine à confiture, mélanger les poires, le potiron, les zestes et les jus puis ajouter le sucre cristallisé. Faire macérer plusieurs heures.\nCuire à feu doux et remuer de temps en temps pendant 25 à 30 minutes.\nAjouter le raisin, cuire 10 minutes, ajouter le confisucre, remuer et cuire pendant 5 minutes, faire refroidir et mettre en pots.\n"
+  },
+  "related": [
+    "confiture-de-poires-aux-agrumes",
+    "gelee-d-agrumes-aux-zestes-confits",
+    "confiture-d-oranges",
+    "confiture-de-peches"
+  ],
+  "translations": {
+    "en": {
+      "title": "Winter Fruit Jam",
+      "description": "A winter jam of pears, pumpkin and citrus fruit, lifted with sultanas soaked in rum.",
+      "tags": [
+        "fruit",
+        "winter",
+        "slow-cooked",
+        "vegetarian",
+        "easy",
+        "make-ahead",
+        "breakfast",
+        "afternoon-snack",
+        "tangy",
+        "french",
+        "nostalgic",
+        "family-recipe"
+      ],
+      "ingredients": [
+        {
+          "items": [
+            "1 kg of peeled pears",
+            "1 kg of peeled pumpkin",
+            "3 oranges",
+            "1 grapefruit",
+            "2 lemons",
+            "150 g of sultanas",
+            "1 dl of rum",
+            "2 kg of granulated sugar",
+            "1 kg of jam sugar (with added pectin)"
+          ]
+        }
+      ],
+      "steps": [
+        {
+          "text": "Wash the sultanas and leave them to soak in the rum."
+        },
+        {
+          "text": "Wash the grapefruit, oranges and lemons, remove the zest and chop it finely. Squeeze the juice and pour it over the zest."
+        },
+        {
+          "text": "Peel the pears and the pumpkin and cut them into pieces."
+        },
+        {
+          "text": "In the jam pan, mix the pears, pumpkin, zest and juice, then add the granulated sugar. Leave to macerate for several hours."
+        },
+        {
+          "text": "Cook over a low heat, stirring from time to time, for 25 to 30 minutes."
+        },
+        {
+          "text": "Add the sultanas, cook for 10 minutes, add the jam sugar, stir and cook for 5 minutes, then leave to cool and pour into jars."
+        }
+      ]
+    },
+    "it": {
+      "title": "Confettura di frutta invernale",
+      "description": "Una confettura invernale di pere, zucca e agrumi, arricchita con uvetta sultanina macerata nel rum.",
+      "tags": [
+        "frutta",
+        "inverno",
+        "cottura-lenta",
+        "vegetariano",
+        "facile",
+        "da-preparare-in-anticipo",
+        "colazione",
+        "merenda",
+        "acidulo",
+        "francese",
+        "nostalgico",
+        "ricetta-di-famiglia"
+      ],
+      "ingredients": [
+        {
+          "items": [
+            "1 kg di pere sbucciate",
+            "1 kg di zucca sbucciata",
+            "3 arance",
+            "1 pompelmo",
+            "2 limoni",
+            "150 g di uvetta sultanina",
+            "1 dl di rum",
+            "2 kg di zucchero semolato",
+            "1 kg di zucchero per confetture (con pectina)"
+          ]
+        }
+      ],
+      "steps": [
+        {
+          "text": "Lavare l'uvetta e lasciarla macerare nel rum."
+        },
+        {
+          "text": "Lavare il pompelmo, le arance e i limoni, ricavarne la scorza e tritarla finemente. Spremere il succo e versarlo sulla scorza."
+        },
+        {
+          "text": "Sbucciare le pere e la zucca e tagliarle a pezzi."
+        },
+        {
+          "text": "Nella bacinella per confetture, mescolare le pere, la zucca, la scorza e il succo, poi aggiungere lo zucchero semolato. Lasciare macerare per diverse ore."
+        },
+        {
+          "text": "Cuocere a fuoco basso, mescolando di tanto in tanto, per 25-30 minuti."
+        },
+        {
+          "text": "Aggiungere l'uvetta, cuocere 10 minuti, aggiungere lo zucchero per confetture, mescolare e cuocere per 5 minuti, poi lasciare raffreddare e invasare."
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <defs>
+    <radialGradient id="pbcbg" cx="50%" cy="45%" r="70%"><stop offset="0%" stop-color="#2e2822"/><stop offset="100%" stop-color="#1a1510"/></radialGradient>
+    <radialGradient id="pbcplate" cx="50%" cy="40%" r="60%"><stop offset="0%" stop-color="#f0e8dc"/><stop offset="100%" stop-color="#aca090"/></radialGradient>
+    <radialGradient id="pbccream" cx="50%" cy="40%" r="60%"><stop offset="0%" stop-color="#fcecb0"/><stop offset="100%" stop-color="#e8c66c"/></radialGradient>
+    <radialGradient id="pbctop" cx="45%" cy="35%" r="65%"><stop offset="0%" stop-color="#5a3420"/><stop offset="100%" stop-color="#2a140a"/></radialGradient>
+    <linearGradient id="pbcside" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#3e2010"/><stop offset="100%" stop-color="#22100a"/></linearGradient>
+    <radialGradient id="pbcmelt" cx="50%" cy="30%" r="70%"><stop offset="0%" stop-color="#6a3a1c"/><stop offset="100%" stop-color="#2a1206"/></radialGradient>
+  </defs>
+  <rect width="800" height="600" fill="url(#pbcbg)"/>
+  <g opacity="0.16" fill="#4a2814"><rect x="70" y="150" width="44" height="30" rx="3"/><rect x="118" y="150" width="44" height="30" rx="3"/><rect x="70" y="184" width="44" height="30" rx="3"/><rect x="660" y="450" width="44" height="30" rx="3" transform="rotate(12 682 465)"/></g>
+  <ellipse cx="400" cy="460" rx="300" ry="64" fill="#000" opacity="0.35"/>
+  <ellipse cx="400" cy="420" rx="290" ry="84" fill="url(#pbcplate)"/>
+  <ellipse cx="400" cy="420" rx="250" ry="66" fill="url(#pbccream)"/>
+  <ellipse cx="360" cy="408" rx="120" ry="18" fill="#fff" opacity="0.22"/>
+  <path d="M225,330 L235,392 A75,20 0 0 0 385,392 L395,330Z" fill="url(#pbcside)"/>
+  <ellipse cx="310" cy="330" rx="85" ry="24" fill="url(#pbctop)"/>
+  <g stroke="#6e4228" stroke-width="1.5" fill="none" opacity="0.5"><path d="M260,328 Q290,318 320,330"/><path d="M300,340 Q330,332 355,342"/></g>
+  <g fill="#f6efe4" opacity="0.8"><circle cx="270" cy="326" r="1.4"/><circle cx="300" cy="320" r="1.4"/><circle cx="330" cy="336" r="1.4"/><circle cx="350" cy="324" r="1.4"/><circle cx="290" cy="342" r="1.4"/></g>
+  <path d="M420,330 L430,392 A75,20 0 0 0 580,392 L590,330Z" fill="url(#pbcside)"/>
+  <ellipse cx="505" cy="330" rx="85" ry="24" fill="url(#pbctop)"/>
+  <path d="M455,332 Q470,312 505,314 Q545,316 556,334 Q540,350 505,350 Q468,350 455,332Z" fill="#1e0c04"/>
+  <ellipse cx="505" cy="334" rx="42" ry="12" fill="url(#pbcmelt)"/>
+  <rect x="478" y="322" width="22" height="16" rx="2" fill="#3a1a0a" transform="rotate(-12 489 330)"/>
+  <rect x="506" y="320" width="22" height="16" rx="2" fill="#44200c" transform="rotate(10 517 328)"/>
+  <path d="M490,346 Q486,380 496,404 Q520,420 570,414 Q600,408 596,400 Q560,402 530,392 Q518,370 522,346Z" fill="#3a1a08"/>
+  <ellipse cx="560" cy="406" rx="20" ry="3" fill="#fff" opacity="0.15"/>
+  <ellipse cx="500" cy="330" rx="16" ry="4" fill="#fff" opacity="0.2"/>
+  <g fill="#f6efe4" opacity="0.7"><circle cx="450" cy="326" r="1.3"/><circle cx="565" cy="334" r="1.3"/><circle cx="545" cy="316" r="1.3"/><circle cx="470" cy="316" r="1.3"/></g>
+</svg>

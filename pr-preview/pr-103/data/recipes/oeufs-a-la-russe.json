@@ -1,0 +1,205 @@
+{
+  "slug": "oeufs-a-la-russe",
+  "title": "Œufs à la russe",
+  "description": "Des œufs durs posés sur une macédoine de légumes frais liée à la mayonnaise, nappés de mayonnaise et décorés de tomates.",
+  "images": {
+    "cover": "images/recipes/oeufs-a-la-russe/cover.webp",
+    "web": "images/recipes/oeufs-a-la-russe/web.webp"
+  },
+  "imageCredit": {
+    "author": "GamerChef6",
+    "url": "https://pixabay.com/users/gamerchef6-3307833/"
+  },
+  "prepTime": 40,
+  "cookTime": 25,
+  "servings": 8,
+  "difficulty": "Facile",
+  "category": "Antipasti",
+  "origin": "amelie-grandpa",
+  "tags": [
+    "œufs",
+    "légumes",
+    "entrée",
+    "froid",
+    "végétarien",
+    "facile",
+    "économique",
+    "buffet",
+    "printemps",
+    "français",
+    "nostalgique",
+    "recette-de-famille"
+  ],
+  "ingredients": [
+    {
+      "items": [
+        "8 œufs",
+        "Macédoine de légumes",
+        "¼ de mayonnaise",
+        "Persil",
+        "4 tomates"
+      ]
+    },
+    {
+      "group": "Macédoine de légumes",
+      "items": [
+        "300 g de carottes",
+        "300 g de navets",
+        "250 g de haricots verts",
+        "400 g de petits pois",
+        "Sel, poivre"
+      ]
+    }
+  ],
+  "steps": [
+    {
+      "text": "Faire une macédoine fraîche avec les légumes suivants : 300 g de carottes, 300 g de navets, 250 g de haricots verts, 400 g de petits pois."
+    },
+    {
+      "text": "Éplucher les légumes, couper les carottes, les navets et les haricots verts en petits dés. Cuire tous ces légumes séparément dans l'eau salée, les rafraîchir et les égoutter."
+    },
+    {
+      "text": "Mélanger les légumes, ajouter le sel, le poivre et la mayonnaise, remuer délicatement ensemble."
+    },
+    {
+      "text": "Faire durcir les œufs, les rafraîchir et les écaler."
+    },
+    {
+      "text": "Disposer la macédoine dans un plat, mettre les œufs durs dessus, napper de mayonnaise et de persil haché."
+    },
+    {
+      "text": "Décorer de quartiers de tomates tout autour."
+    }
+  ],
+  "source": "Les recettes de Maurice Houdré, tome 1, Les entrées en assiette froide et salades composées",
+  "originalSource": {
+    "type": "text",
+    "data": "Œufs à la russe\n\nIngrédients : pour 8 personnes\n\n. 8 œufs\n. macédoine de légumes\n. ¼ de mayonnaise\n. persil\n. 4 tomates\n\nPréparation :\n\nFaire une macédoine fraîche  avec les légumes suivants :\n300 g de carottes, 300 g de navets, 250 g de haricots verts, 400 g de petits pois.\n\nEplucher les légumes, couper les carottes, les navets et les haricots verts en petits dés, cuire tous ces légumes séparément dans l’eau salée, les rafraîchir et égoutter. Mélanger les légumes, ajouter le sel, poivre et la mayonnaise, remuer délicatement ensemble, faire durcir les œufs, rafraîchir et les écaler.\nDisposer la macédoine dans un plat, mettre les œufs durs dessus, napper de mayonnaise et de persil haché.\nDécorer de quartiers de tomates tout autour.\n"
+  },
+  "related": [
+    "oeufs-durs-vert-pre",
+    "saute-d-agneau-aux-primeurs-ou-navarin-printanier",
+    "tomates-en-surprise-aux-champignons-de-paris",
+    "avocat-farci-a-la-parisienne"
+  ],
+  "translations": {
+    "en": {
+      "title": "Russian-Style Eggs",
+      "description": "Hard-boiled eggs set on a fresh vegetable macédoine bound with mayonnaise, coated with mayonnaise and garnished with tomatoes.",
+      "tags": [
+        "eggs",
+        "vegetables",
+        "starter",
+        "cold",
+        "vegetarian",
+        "easy",
+        "budget-friendly",
+        "buffet",
+        "spring",
+        "french",
+        "nostalgic",
+        "family-recipe"
+      ],
+      "ingredients": [
+        {
+          "items": [
+            "8 eggs",
+            "Vegetable macédoine",
+            "¼ of mayonnaise",
+            "Parsley",
+            "4 tomatoes"
+          ]
+        },
+        {
+          "group": "Vegetable macédoine",
+          "items": [
+            "300 g of carrots",
+            "300 g of turnips",
+            "250 g of green beans",
+            "400 g of peas",
+            "Salt, pepper"
+          ]
+        }
+      ],
+      "steps": [
+        {
+          "text": "Make a fresh macédoine with the following vegetables: 300 g of carrots, 300 g of turnips, 250 g of green beans, 400 g of peas."
+        },
+        {
+          "text": "Peel the vegetables, cut the carrots, turnips and green beans into small dice. Cook all these vegetables separately in salted water, refresh them and drain them."
+        },
+        {
+          "text": "Mix the vegetables, add the salt, pepper and mayonnaise, and stir gently together."
+        },
+        {
+          "text": "Hard-boil the eggs, refresh them and shell them."
+        },
+        {
+          "text": "Arrange the macédoine on a dish, place the hard-boiled eggs on top, coat with mayonnaise and chopped parsley."
+        },
+        {
+          "text": "Garnish with tomato wedges all around."
+        }
+      ]
+    },
+    "it": {
+      "title": "Uova alla russa",
+      "description": "Uova sode adagiate su una macedonia di verdure fresche legata con maionese, nappate di maionese e decorate con pomodori.",
+      "tags": [
+        "uova",
+        "verdure",
+        "antipasto",
+        "freddo",
+        "vegetariano",
+        "facile",
+        "economico",
+        "buffet",
+        "primavera",
+        "francese",
+        "nostalgico",
+        "ricetta-di-famiglia"
+      ],
+      "ingredients": [
+        {
+          "items": [
+            "8 uova",
+            "Macedonia di verdure",
+            "¼ di maionese",
+            "Prezzemolo",
+            "4 pomodori"
+          ]
+        },
+        {
+          "group": "Macedonia di verdure",
+          "items": [
+            "300 g di carote",
+            "300 g di rape",
+            "250 g di fagiolini",
+            "400 g di piselli",
+            "Sale, pepe"
+          ]
+        }
+      ],
+      "steps": [
+        {
+          "text": "Preparare una macedonia fresca con le seguenti verdure: 300 g di carote, 300 g di rape, 250 g di fagiolini, 400 g di piselli."
+        },
+        {
+          "text": "Pelare le verdure, tagliare le carote, le rape e i fagiolini a dadini. Cuocere tutte queste verdure separatamente in acqua salata, raffreddarle e scolarle."
+        },
+        {
+          "text": "Mescolare le verdure, aggiungere il sale, il pepe e la maionese, mescolare delicatamente insieme."
+        },
+        {
+          "text": "Rassodare le uova, raffreddarle e sgusciarle."
+        },
+        {
+          "text": "Disporre la macedonia in un piatto, adagiarvi sopra le uova sode, nappare di maionese e prezzemolo tritato."
+        },
+        {
+          "text": "Decorare tutto intorno con spicchi di pomodoro."
+        }
+      ]
+    }
+  }
+}

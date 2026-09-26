@@ -1,0 +1,214 @@
+{
+  "slug": "terrine-aux-crevettes-et-poivrons-verts",
+  "title": "Terrine aux crevettes et poivrons verts",
+  "description": "Une farce fine de merlan relevée à la harissa, garnie de crevettes et de poivrons verts, pochée au bain-marie et servie froide ou chaude.",
+  "images": {
+    "cover": "images/recipes/terrine-aux-crevettes-et-poivrons-verts/cover.svg",
+    "web": "images/recipes/terrine-aux-crevettes-et-poivrons-verts/cover.svg"
+  },
+  "prepTime": 45,
+  "cookTime": 60,
+  "servings": 8,
+  "difficulty": "Medio",
+  "category": "Secondi",
+  "origin": "amelie-grandpa",
+  "tags": [
+    "poisson",
+    "fruits-de-mer",
+    "bain-marie",
+    "plat-principal",
+    "froid",
+    "chaud",
+    "épicé",
+    "festif",
+    "préparation-à-lavance",
+    "français",
+    "nostalgique",
+    "recette-de-famille"
+  ],
+  "ingredients": [
+    {
+      "items": [
+        "¾ l de crème fraîche",
+        "1 cuillère à café de harissa",
+        "300 g de grosses crevettes",
+        "2 poivrons verts",
+        "2 dl d'huile",
+        "700 à 800 g de filets de merlan",
+        "1 court-bouillon de poisson",
+        "50 g de beurre",
+        "3 œufs + 2 blancs",
+        "Sel et poivre"
+      ]
+    }
+  ],
+  "steps": [
+    {
+      "text": "Passer les poivrons dans la friture, retirer la peau, les hacher et les réserver au frais."
+    },
+    {
+      "text": "Décortiquer les crevettes, couper les queues en 2 ou 3, les saisir rapidement à l'huile, les égoutter et les mettre avec les poivrons."
+    },
+    {
+      "text": "Faire la farce de poisson : broyer la chair du merlan au mixer, la passer au tamis, la mettre dans une petite bassine ou « cul de poule » sur glace. Mélanger délicatement avec le sel, le poivre, la harissa, les œufs un par un, plus 2 blancs, puis la crème. Vérifier l'assaisonnement si nécessaire."
+    },
+    {
+      "text": "Contrôler la texture en faisant pocher une ou deux petites cuillères de farce de poisson dans un peu de fumet ou, à défaut, dans de l'eau salée."
+    },
+    {
+      "text": "Ajouter à la farce les crevettes et les poivrons, puis mélanger."
+    },
+    {
+      "text": "Garnir des moules individuels beurrés ou, de préférence, une terrine rectangulaire."
+    },
+    {
+      "text": "Cuisson : pocher au bain-marie dans une plaque et à four moyen, en couvrant les moules avec du papier aluminium."
+    },
+    {
+      "text": "Compter 20 minutes pour les moules individuels, et 50 minutes à 1 heure pour la terrine selon la grosseur des moules.",
+      "timers": [20, 50]
+    },
+    {
+      "text": "Dressage : servir froid avec une sauce verte ou une sauce Chantilly (mayonnaise + crème fouettée), ou chaud avec un coulis de crevettes (fait avec les têtes et les carapaces) comme la sauce américaine."
+    }
+  ],
+  "source": "Les recettes de Maurice Houdré, tome 2, Les poissons et crustacés",
+  "originalSource": {
+    "type": "text",
+    "data": "Terrine aux crevettes et poivrons verts\n\nIngrédients : pour 8 personnes\n\n. ¾ l de crème fraîche\n. 1 cuillère à café d’Harissa\n. 300 g de grosses crevettes\n. 2 poivrons verts\n. 2 dl d’huile\n. 700 à 800 g de filets de merlan\n. 1 court bouillon de poisson\n. 50 g de beurre\n. 3 œufs + 2 blancs\n. sel et poivre\n\nPasser les poivrons dans la friture, retirer la peau, hacher les et réserver au frais.\nDécortiquer les crevettes, couper les queues en 2 ou 3, les saisir rapidement à l’huile, égoutter et mettre avec les poivrons.\n\nFaire la farce de poisson : Broyer la chair du merlan au mixer, passer au tamis, mettre dans une petite bassine ou « cul de poule » et sur glace, mélanger délicatement avec le sel, poivre, harissa, les œufs un par un, plus 2 blancs puis la crème. Vérifier l’assaisonnement si nécessaire.\nContrôler la texture en faisant pocher une ou deux petites cuillères de farce de poisson dans un peu de fumet ou à défaut dans l’eau salée.\nAjouter à la farce, les crevettes et les poivrons puis mélanger.\nGarnir dans des moules individuels et beurrés ou dans une terrine rectangulaire de préférence.\n\nCuisson :\nPocher au bain-marie dans une plaque et à four moyen, couvrir les moules avec du papier en aluminium.\nMoules individuels, 20 minutes.\nTerrine, 50 minutes à 1 heure selon la grosseur des moules.\n\nService :\nFroid\t: avec une sauce verte ou Chantilly (mayonnaise + crème fouettée)\nChaud\t : avec un coulis de crevettes (fait avec les têtes et carapaces) comme la sauce américaine.\n"
+  },
+  "related": [
+    "mousse-de-poisson",
+    "terrines-et-mousse-de-poisson",
+    "filets-de-sole-a-la-norvegienne",
+    "paupiette-de-sole-farcie-aux-crevettes"
+  ],
+  "translations": {
+    "en": {
+      "title": "Prawn and Green Pepper Terrine",
+      "description": "A fine whiting forcemeat spiced with harissa, studded with prawns and green peppers, poached in a bain-marie and served cold or hot.",
+      "tags": [
+        "fish",
+        "seafood",
+        "bain-marie",
+        "main-course",
+        "cold",
+        "hot",
+        "spiced",
+        "festive",
+        "make-ahead",
+        "french",
+        "nostalgic",
+        "family-recipe"
+      ],
+      "ingredients": [
+        {
+          "items": [
+            "¾ l of crème fraîche",
+            "1 teaspoon of harissa",
+            "300 g of large prawns",
+            "2 green peppers",
+            "2 dl of oil",
+            "700 to 800 g of whiting fillets",
+            "1 fish court-bouillon",
+            "50 g of butter",
+            "3 eggs + 2 whites",
+            "Salt and pepper"
+          ]
+        }
+      ],
+      "steps": [
+        {
+          "text": "Deep-fry the peppers briefly, remove the skin, chop them and keep them in the fridge."
+        },
+        {
+          "text": "Peel the prawns, cut the tails into 2 or 3 pieces, sear them quickly in oil, drain them and add them to the peppers."
+        },
+        {
+          "text": "Make the fish forcemeat: blend the whiting flesh in the mixer, press it through a sieve and put it in a small bowl or mixing bowl set on ice. Gently mix in the salt, pepper, harissa, the eggs one at a time, plus 2 whites, then the cream. Adjust the seasoning if needed."
+        },
+        {
+          "text": "Check the texture by poaching one or two small spoonfuls of fish forcemeat in a little fish stock or, failing that, in salted water."
+        },
+        {
+          "text": "Add the prawns and peppers to the forcemeat, then mix."
+        },
+        {
+          "text": "Fill buttered individual moulds or, preferably, a rectangular terrine."
+        },
+        {
+          "text": "Cooking: poach in a bain-marie in a roasting tray in a moderate oven, covering the moulds with aluminium foil."
+        },
+        {
+          "text": "Allow 20 minutes for individual moulds, and 50 minutes to 1 hour for the terrine depending on the size of the moulds."
+        },
+        {
+          "text": "Serving: serve cold with a green sauce or a Chantilly sauce (mayonnaise + whipped cream), or hot with a prawn coulis (made with the heads and shells) like an américaine sauce."
+        }
+      ]
+    },
+    "it": {
+      "title": "Terrina di gamberi e peperoni verdi",
+      "description": "Una fine farcia di merlano insaporita con harissa, arricchita di gamberi e peperoni verdi, cotta a bagnomaria e servita fredda o calda.",
+      "tags": [
+        "pesce",
+        "frutti-di-mare",
+        "bagnomaria",
+        "piatto-principale",
+        "freddo",
+        "caldo",
+        "speziato",
+        "festivo",
+        "preparazione-anticipata",
+        "francese",
+        "nostalgico",
+        "ricetta-di-famiglia"
+      ],
+      "ingredients": [
+        {
+          "items": [
+            "¾ l di panna fresca (crème fraîche)",
+            "1 cucchiaino di harissa",
+            "300 g di gamberi grandi",
+            "2 peperoni verdi",
+            "2 dl di olio",
+            "700 - 800 g di filetti di merlano",
+            "1 court-bouillon di pesce",
+            "50 g di burro",
+            "3 uova + 2 albumi",
+            "Sale e pepe"
+          ]
+        }
+      ],
+      "steps": [
+        {
+          "text": "Passare brevemente i peperoni nella friggitrice, togliere la pelle, tritarli e tenerli in frigorifero."
+        },
+        {
+          "text": "Sgusciare i gamberi, tagliare le code in 2 o 3 pezzi, scottarli rapidamente nell'olio, scolarli e unirli ai peperoni."
+        },
+        {
+          "text": "Preparare la farcia di pesce: frullare la polpa del merlano nel mixer, passarla al setaccio e metterla in una piccola ciotola o bacinella semisferica su ghiaccio. Mescolare delicatamente con il sale, il pepe, l'harissa, le uova una alla volta, più 2 albumi, poi la panna. Aggiustare di sale se necessario."
+        },
+        {
+          "text": "Verificare la consistenza cuocendo in camicia uno o due cucchiaini di farcia di pesce in un po' di fumetto o, in mancanza, in acqua salata."
+        },
+        {
+          "text": "Aggiungere alla farcia i gamberi e i peperoni, poi mescolare."
+        },
+        {
+          "text": "Riempire degli stampini individuali imburrati o, meglio, una terrina rettangolare."
+        },
+        {
+          "text": "Cottura: cuocere a bagnomaria in una teglia in forno moderato, coprendo gli stampi con carta stagnola."
+        },
+        {
+          "text": "Contare 20 minuti per gli stampini individuali, e da 50 minuti a 1 ora per la terrina secondo la grandezza degli stampi."
+        },
+        {
+          "text": "Impiattamento: servire freddo con una salsa verde o una salsa Chantilly (maionese + panna montata), oppure caldo con un coulis di gamberi (fatto con le teste e i carapaci) come la salsa all'americana."
+        }
+      ]
+    }
+  }
+}

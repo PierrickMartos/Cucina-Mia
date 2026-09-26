@@ -1,0 +1,163 @@
+{
+  "slug": "biscuit-aux-pruneaux",
+  "title": "Biscuit aux pruneaux",
+  "description": "Un biscuit moelleux garni de pruneaux macérés dans l'alcool de prune, cuit dans un moule à génoise.",
+  "images": {
+    "cover": "images/recipes/biscuit-aux-pruneaux/cover.svg",
+    "web": "images/recipes/biscuit-aux-pruneaux/cover.svg"
+  },
+  "prepTime": 25,
+  "cookTime": 45,
+  "servings": 8,
+  "difficulty": "Facile",
+  "category": "Dolci",
+  "origin": "amelie-grandpa",
+  "tags": [
+    "dessert",
+    "pruneaux",
+    "fruits",
+    "four",
+    "moelleux",
+    "goûter",
+    "réconfortant",
+    "facile",
+    "gourmand",
+    "français",
+    "nostalgique",
+    "recette-de-famille"
+  ],
+  "ingredients": [
+    {
+      "items": [
+        "300 g de pruneaux",
+        "3 œufs",
+        "180 g de sucre semoule",
+        "180 g de farine",
+        "80 g de beurre",
+        "2 dl de crème légère",
+        "1 paquet de levure",
+        "1 dl d'alcool de prune"
+      ]
+    }
+  ],
+  "steps": [
+    {
+      "text": "Laver et dénoyauter les pruneaux, les couper en deux et les faire macérer dans l'alcool de prune."
+    },
+    {
+      "text": "Battre les œufs avec le sucre. Quand le mélange est mousseux, mettre la farine et la levure tamisées, mélanger le tout, ajouter le beurre fondu puis la crème."
+    },
+    {
+      "text": "Remuer le mélange pâte et pruneaux. Beurrer un moule à génoise ou à biscuit puis saupoudrer de sucre semoule."
+    },
+    {
+      "text": "Verser la préparation et cuire pendant 10 minutes à four chaud à 250 °C puis à four moyen à 180/200 °C pendant 30 à 40 minutes.",
+      "timers": [10, 30]
+    }
+  ],
+  "source": "Les recettes de Maurice Houdré, tome 3, Les pâtisseries",
+  "originalSource": {
+    "type": "text",
+    "data": "Biscuit aux pruneaux\n\nIngrédients : pour 8 personnes\n\n. 300 g de pruneaux\n. 3 oeufs\n. 180 g de sucre semoule\n. 180 g de farine\n. 80 g de beurre\n. 2 dl de crème légère\n. 1 paquet de levure\n. 1 dl d’alcool de prune\n\nPréparation :\n\nLaver et dénoyauter les pruneaux, les couper en deux et les faire macérer dans l’alcool de prune. \n\nBattre les œufs avec le sucre, quand le mélange est mousseux, mettre la farine et la levure tamisée, mélanger le tout, ajouter le beurre fondu puis la crème. \nRemuer le mélange pâte et pruneaux. Beurrer un moule à génoise ou à biscuit puis saupoudrer de sucre semoule. \nVerser la préparation et cuire pendant 10 minutes à four chaud à 250 °C puis à four moyen à 180/200 °C pendant 30 à 40 minutes.\n"
+  },
+  "related": [
+    "biscuit-aux-fruits",
+    "cake-aux-fruits",
+    "gateau-aux-marrons-l-ardechois",
+    "biscuit-aux-amandes"
+  ],
+  "translations": {
+    "en": {
+      "title": "Prune sponge cake",
+      "description": "A soft sponge cake filled with prunes soaked in plum brandy, baked in a sponge cake tin.",
+      "tags": [
+        "dessert",
+        "prunes",
+        "fruit",
+        "oven",
+        "soft",
+        "snack",
+        "comforting",
+        "easy",
+        "indulgent",
+        "french",
+        "nostalgic",
+        "family-recipe"
+      ],
+      "ingredients": [
+        {
+          "items": [
+            "300 g prunes",
+            "3 eggs",
+            "180 g caster sugar",
+            "180 g flour",
+            "80 g butter",
+            "2 dl light cream",
+            "1 packet of baking powder",
+            "1 dl plum brandy"
+          ]
+        }
+      ],
+      "steps": [
+        {
+          "text": "Wash and pit the prunes, cut them in half and leave them to soak in the plum brandy."
+        },
+        {
+          "text": "Beat the eggs with the sugar. When the mixture is frothy, add the sifted flour and baking powder, mix everything together, then add the melted butter and then the cream."
+        },
+        {
+          "text": "Stir the batter and prunes together. Butter a sponge cake or biscuit tin, then sprinkle it with caster sugar."
+        },
+        {
+          "text": "Pour in the mixture and bake for 10 minutes in a hot oven at 250 °C, then in a moderate oven at 180/200 °C for 30 to 40 minutes."
+        }
+      ]
+    },
+    "it": {
+      "title": "Torta soffice alle prugne secche",
+      "description": "Una torta soffice farcita di prugne secche macerate nell'acquavite di prugne, cotta in uno stampo da pan di Spagna.",
+      "tags": [
+        "dessert",
+        "prugne-secche",
+        "frutta",
+        "forno",
+        "morbido",
+        "merenda",
+        "confortante",
+        "facile",
+        "goloso",
+        "francese",
+        "nostalgico",
+        "ricetta-di-famiglia"
+      ],
+      "ingredients": [
+        {
+          "items": [
+            "300 g di prugne secche",
+            "3 uova",
+            "180 g di zucchero semolato",
+            "180 g di farina",
+            "80 g di burro",
+            "2 dl di panna leggera",
+            "1 bustina di lievito per dolci",
+            "1 dl di acquavite di prugne"
+          ]
+        }
+      ],
+      "steps": [
+        {
+          "text": "Lavare e snocciolare le prugne secche, tagliarle a metà e lasciarle macerare nell'acquavite di prugne."
+        },
+        {
+          "text": "Sbattere le uova con lo zucchero. Quando il composto è spumoso, aggiungere la farina e il lievito setacciati, mescolare il tutto, poi aggiungere il burro fuso e infine la panna."
+        },
+        {
+          "text": "Mescolare l'impasto con le prugne secche. Imburrare uno stampo da pan di Spagna o da biscuit, poi cospargerlo di zucchero semolato."
+        },
+        {
+          "text": "Versare il composto e cuocere per 10 minuti in forno caldo a 250 °C, poi in forno medio a 180/200 °C per 30-40 minuti."
+        }
+      ]
+    }
+  }
+}
