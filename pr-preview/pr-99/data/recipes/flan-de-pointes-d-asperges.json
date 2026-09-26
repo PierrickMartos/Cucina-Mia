@@ -1,0 +1,156 @@
+{
+  "slug": "flan-de-pointes-d-asperges",
+  "title": "Flan de pointes d'asperges",
+  "description": "Des barquettes de pâte brisée garnies de pointes d'asperges étuvées au beurre et d'un appareil au lait, à la crème et aux œufs.",
+  "images": {
+    "cover": "images/recipes/flan-de-pointes-d-asperges/cover.svg",
+    "web": "images/recipes/flan-de-pointes-d-asperges/cover.svg"
+  },
+  "prepTime": 30,
+  "cookTime": 30,
+  "servings": 10,
+  "difficulty": "Facile",
+  "category": "Contorni",
+  "origin": "amelie-grandpa",
+  "tags": [
+    "asperges",
+    "légumes",
+    "accompagnement",
+    "français",
+    "nostalgique",
+    "recette-de-famille",
+    "four",
+    "printemps",
+    "végétarien",
+    "facile",
+    "fondant",
+    "chaud"
+  ],
+  "ingredients": [
+    {
+      "items": [
+        "800 g à 1 kg de pointes d'asperges fraîches ou 2 à 3 boîtes en conserve",
+        "¼ de lait",
+        "¼ de crème",
+        "2 œufs entiers",
+        "2 jaunes",
+        "Sel, poivre de Cayenne"
+      ]
+    }
+  ],
+  "steps": [
+    {
+      "text": "Foncer 10 à 12 moules à barquettes en pâte brisée ou beurrer un plat à gratin."
+    },
+    {
+      "text": "Disposer quelques pointes d'asperges étuvées au beurre."
+    },
+    {
+      "text": "Garnir de l'appareil fait avec le lait, la crème, les œufs entiers, les jaunes, le sel et le poivre."
+    },
+    {
+      "text": "Cuire à four moyen."
+    }
+  ],
+  "source": "Les recettes de Maurice Houdré, tome 2, Préparations à base de légumes",
+  "originalSource": {
+    "type": "text",
+    "data": "Flan de pointes d’asperges\n\nIngrédients : pour 10 à 12 barquettes\n\n. 800 g à 1 kg de pointes d’asperges fraîches ou 2 à 3 boîtes en conserve\n. ¼ de lait\n. ¼ de crème\n. 2 œufs entiers\n. 2 jaunes\n. sel, poivre de Cayenne\n\nPréparation\n\nFoncer des moules à barquettes en pâte brisée ou beurrer un plat à gratin.\n\nDisposer quelques pointes d’asperges étuvées au beurre.\nGarnir l’appareil avec le lait, la crème, les œufs entiers, jaunes, sel et poivre.\nCuire à four moyen.\n"
+  },
+  "related": [
+    "terrine-de-courgettes-au-basilic",
+    "pommes-amandines",
+    "timbale-d-epinards",
+    "tomates-soufflees"
+  ],
+  "translations": {
+    "en": {
+      "title": "Asparagus tip flan",
+      "description": "Shortcrust pastry barquettes filled with asparagus tips sweated in butter and a mixture of milk, cream and eggs.",
+      "tags": [
+        "asparagus",
+        "vegetables",
+        "side-dish",
+        "french",
+        "nostalgic",
+        "family-recipe",
+        "oven",
+        "spring",
+        "vegetarian",
+        "easy",
+        "melting",
+        "hot"
+      ],
+      "ingredients": [
+        {
+          "items": [
+            "800 g to 1 kg fresh asparagus tips or 2 to 3 cans",
+            "¼ of milk",
+            "¼ of cream",
+            "2 whole eggs",
+            "2 yolks",
+            "Salt, cayenne pepper"
+          ]
+        }
+      ],
+      "steps": [
+        {
+          "text": "Line 10 to 12 barquette (small boat-shaped) tins with shortcrust pastry, or butter a gratin dish."
+        },
+        {
+          "text": "Arrange a few asparagus tips sweated in butter."
+        },
+        {
+          "text": "Fill with the mixture made from the milk, the cream, the whole eggs, the yolks, the salt and the pepper."
+        },
+        {
+          "text": "Bake in a moderate oven."
+        }
+      ]
+    },
+    "it": {
+      "title": "Flan di punte di asparagi",
+      "description": "Barchette di pasta brisée farcite con punte di asparagi stufate nel burro e un composto di latte, panna e uova.",
+      "tags": [
+        "asparagi",
+        "verdure",
+        "contorno",
+        "francese",
+        "nostalgico",
+        "ricetta-di-famiglia",
+        "forno",
+        "primavera",
+        "vegetariano",
+        "facile",
+        "fondente",
+        "caldo"
+      ],
+      "ingredients": [
+        {
+          "items": [
+            "800 g - 1 kg di punte di asparagi fresche o 2-3 scatole in conserva",
+            "¼ di latte",
+            "¼ di panna",
+            "2 uova intere",
+            "2 tuorli",
+            "Sale, pepe di Caienna"
+          ]
+        }
+      ],
+      "steps": [
+        {
+          "text": "Foderare 10-12 stampini a barchetta con pasta brisée oppure imburrare una pirofila da gratin."
+        },
+        {
+          "text": "Disporre qualche punta di asparago stufata nel burro."
+        },
+        {
+          "text": "Riempire con il composto preparato con il latte, la panna, le uova intere, i tuorli, il sale e il pepe."
+        },
+        {
+          "text": "Cuocere in forno moderato."
+        }
+      ]
+    }
+  }
+}

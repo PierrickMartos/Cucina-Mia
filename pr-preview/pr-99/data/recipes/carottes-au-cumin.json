@@ -1,0 +1,170 @@
+{
+  "slug": "carottes-au-cumin",
+  "title": "Carottes au cumin",
+  "description": "Des bâtonnets de carottes mijotés dans une sauce au vin blanc, tomate, poivron, paprika et cumin, servis froids en entrée.",
+  "images": {
+    "cover": "images/recipes/carottes-au-cumin/cover.webp",
+    "web": "images/recipes/carottes-au-cumin/web.webp"
+  },
+  "imageCredit": {
+    "author": "RitaE",
+    "url": "https://pixabay.com/users/ritae-19628/"
+  },
+  "prepTime": 20,
+  "cookTime": 45,
+  "servings": 8,
+  "difficulty": "Facile",
+  "category": "Antipasti",
+  "origin": "amelie-grandpa",
+  "tags": [
+    "carottes",
+    "légumes",
+    "entrée",
+    "français",
+    "nostalgique",
+    "recette-de-famille",
+    "végétarien",
+    "mijoté",
+    "froid",
+    "épicé",
+    "facile",
+    "préparation-à-lavance"
+  ],
+  "ingredients": [
+    {
+      "items": [
+        "500 g de carottes",
+        "1 poivron vert",
+        "2 dl de vin blanc",
+        "2 dl de purée de tomates",
+        "1 cuillère à dessert de paprika",
+        "1 cuillère à dessert de cumin",
+        "1 dl d'huile d'olive (Quanto basta)",
+        "1 pointe de Cayenne",
+        "Sel, poivre"
+      ]
+    }
+  ],
+  "steps": [
+    {
+      "text": "Éplucher les carottes, les couper en 3, 4 ou 5 morceaux selon la longueur, puis en gros bâtonnets."
+    },
+    {
+      "text": "Éplucher et émincer très finement le poivron. Dans une casserole, faire chauffer l'huile, faire suer le poivron, ajouter le vin blanc, la purée de tomates, sel et poivre, paprika, cumin et Cayenne."
+    },
+    {
+      "text": "Faire cuire les carottes à l'eau salée pendant 20 à 25 minutes, égoutter, verser dans la casserole, bien mélanger et cuire à petit feu pendant ¼ d'heure.",
+      "timers": [20, 15]
+    },
+    {
+      "text": "Laisser refroidir et réserver au frais."
+    }
+  ],
+  "source": "Les recettes de Maurice Houdré, tome 1, Les entrées en assiette froide et salades composées",
+  "originalSource": {
+    "type": "text",
+    "data": "Carottes au cumin\n\nIngrédients : pour 8 personnes\n\n. 500 g de carottes\n. 1 poivron vert\n. 2 dl de vin blanc\n. 2 dl de purée de tomates\n. 1 cuillère à dessert de paprika\n. 1 cuillère à dessert de cumin\n. 1 dl d’huile d’olive\n. 1 pointe de Cayenne\n. sel, poivre\n\nPréparation :\n\n Eplucher les carottes, couper les en 3, 4 ou 5 morceaux selon la longueur, puis en gros bâtonnets.\n\nEplucher et émincer très finement le poivron. Dans une casserole, faire chauffer l’huile, faire suer le poivron, ajouter le vin blanc, la purée de tomate, sel et poivre, paprika, cumin et Cayenne.\n\nFaire cuire les carottes à l’eau salée pendant 20 à 25 minutes, égoutter, verser dans la casserole, bien mélanger et cuire à petit feu pendant ¼ d’heure.\nLaisser refroidir et réserver au frais.\n"
+  },
+  "related": [
+    "fonds-d-artichaut-a-l-orientale",
+    "courgettes-a-la-grecque",
+    "salade-de-riz-aux-fruits-de-mer",
+    "oeufs-a-la-russe"
+  ],
+  "translations": {
+    "en": {
+      "title": "Cumin Carrots",
+      "description": "Carrot sticks simmered in a white wine, tomato, green pepper, paprika and cumin sauce, served cold as a starter.",
+      "tags": [
+        "carrots",
+        "vegetables",
+        "starter",
+        "french",
+        "nostalgic",
+        "family-recipe",
+        "vegetarian",
+        "simmered",
+        "cold",
+        "spicy",
+        "easy",
+        "make-ahead"
+      ],
+      "ingredients": [
+        {
+          "items": [
+            "500 g carrots",
+            "1 green pepper",
+            "2 dl white wine",
+            "2 dl tomato purée",
+            "1 dessert spoon paprika",
+            "1 dessert spoon cumin",
+            "1 dl olive oil (Quanto basta)",
+            "1 pinch of cayenne pepper",
+            "Salt, pepper"
+          ]
+        }
+      ],
+      "steps": [
+        {
+          "text": "Peel the carrots, cut them into 3, 4 or 5 pieces depending on their length, then into thick sticks."
+        },
+        {
+          "text": "Peel and very thinly slice the green pepper. In a saucepan, heat the oil, sweat the pepper, then add the white wine, tomato purée, salt and pepper, paprika, cumin and cayenne."
+        },
+        {
+          "text": "Cook the carrots in salted water for 20 to 25 minutes, drain, add them to the saucepan, stir well and cook over low heat for a quarter of an hour."
+        },
+        {
+          "text": "Leave to cool and keep in the refrigerator."
+        }
+      ]
+    },
+    "it": {
+      "title": "Carote al cumino",
+      "description": "Bastoncini di carote cotti a fuoco lento in una salsa di vino bianco, pomodoro, peperone, paprica e cumino, serviti freddi come antipasto.",
+      "tags": [
+        "carote",
+        "verdure",
+        "antipasto",
+        "francese",
+        "nostalgico",
+        "ricetta-di-famiglia",
+        "vegetariano",
+        "stufato",
+        "freddo",
+        "speziato",
+        "facile",
+        "da-preparare-in-anticipo"
+      ],
+      "ingredients": [
+        {
+          "items": [
+            "500 g di carote",
+            "1 peperone verde",
+            "2 dl di vino bianco",
+            "2 dl di passata di pomodoro",
+            "1 cucchiaio da dessert di paprica",
+            "1 cucchiaio da dessert di cumino",
+            "1 dl di olio d'oliva (Quanto basta)",
+            "1 punta di pepe di Cayenna",
+            "Sale, pepe"
+          ]
+        }
+      ],
+      "steps": [
+        {
+          "text": "Pelare le carote, tagliarle in 3, 4 o 5 pezzi a seconda della lunghezza, poi in grossi bastoncini."
+        },
+        {
+          "text": "Pelare il peperone e affettarlo molto sottilmente. In una casseruola, scaldare l'olio, far sudare il peperone, poi aggiungere il vino bianco, la passata di pomodoro, sale e pepe, paprica, cumino e pepe di Cayenna."
+        },
+        {
+          "text": "Cuocere le carote in acqua salata per 20-25 minuti, scolarle, versarle nella casseruola, mescolare bene e cuocere a fuoco basso per un quarto d'ora."
+        },
+        {
+          "text": "Lasciare raffreddare e conservare in frigorifero."
+        }
+      ]
+    }
+  }
+}

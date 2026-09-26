@@ -1,0 +1,175 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <defs>
+    <!-- Background gradient -->
+    <radialGradient id="rrjm-bg" cx="50%" cy="50%" r="70%">
+      <stop offset="0%" stop-color="#3a2510"/>
+      <stop offset="60%" stop-color="#221508"/>
+      <stop offset="100%" stop-color="#110a04"/>
+    </radialGradient>
+    <!-- Bowl shadow -->
+    <radialGradient id="rrjm-bowl-shadow" cx="50%" cy="85%" r="45%">
+      <stop offset="0%" stop-color="#000000" stop-opacity="0.6"/>
+      <stop offset="100%" stop-color="#000000" stop-opacity="0"/>
+    </radialGradient>
+    <!-- Risotto surface gradient -->
+    <radialGradient id="rrjm-risotto" cx="45%" cy="42%" r="55%">
+      <stop offset="0%" stop-color="#f0e0a0"/>
+      <stop offset="40%" stop-color="#e8d898"/>
+      <stop offset="75%" stop-color="#d4c080"/>
+      <stop offset="100%" stop-color="#c0aa60"/>
+    </radialGradient>
+    <!-- Bowl rim gradient -->
+    <linearGradient id="rrjm-bowl-rim" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#f5f0e8"/>
+      <stop offset="30%" stop-color="#e8e0d0"/>
+      <stop offset="100%" stop-color="#c8c0b0"/>
+    </linearGradient>
+    <!-- Bowl interior shadow -->
+    <radialGradient id="rrjm-bowl-inner" cx="50%" cy="30%" r="70%">
+      <stop offset="0%" stop-color="#000000" stop-opacity="0"/>
+      <stop offset="70%" stop-color="#000000" stop-opacity="0.15"/>
+      <stop offset="100%" stop-color="#000000" stop-opacity="0.35"/>
+    </radialGradient>
+    <!-- Ham gradient -->
+    <linearGradient id="rrjm-ham1" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#f0b8a8"/>
+      <stop offset="50%" stop-color="#e0a090"/>
+      <stop offset="100%" stop-color="#c88070"/>
+    </linearGradient>
+    <linearGradient id="rrjm-ham2" x1="100%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#eebaaa"/>
+      <stop offset="50%" stop-color="#da9888"/>
+      <stop offset="100%" stop-color="#c07868"/>
+    </linearGradient>
+    <linearGradient id="rrjm-ham3" x1="0%" y1="100%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#e8a898"/>
+      <stop offset="60%" stop-color="#d89080"/>
+      <stop offset="100%" stop-color="#c88070"/>
+    </linearGradient>
+    <!-- Parmesan highlight -->
+    <radialGradient id="rrjm-parm" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#fffff0" stop-opacity="0.9"/>
+      <stop offset="100%" stop-color="#f0e8c0" stop-opacity="0.4"/>
+    </radialGradient>
+    <!-- Warm light from top -->
+    <radialGradient id="rrjm-light" cx="40%" cy="20%" r="60%">
+      <stop offset="0%" stop-color="#ffd080" stop-opacity="0.25"/>
+      <stop offset="100%" stop-color="#ffd080" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+
+  <!-- Background -->
+  <rect width="800" height="600" fill="url(#rrjm-bg)"/>
+  <!-- Warm top light -->
+  <ellipse cx="320" cy="120" rx="380" ry="280" fill="url(#rrjm-light)"/>
+
+  <!-- Bowl shadow on table -->
+  <ellipse cx="400" cy="540" rx="280" ry="40" fill="url(#rrjm-bowl-shadow)"/>
+
+  <!-- Bowl outer shape - wide shallow bowl -->
+  <ellipse cx="400" cy="430" rx="270" ry="38" fill="#d0c8b8"/>
+  <path d="M130 395 Q150 520 400 530 Q650 520 670 395 Q600 460 400 465 Q200 460 130 395 Z" fill="url(#rrjm-bowl-rim)"/>
+  <path d="M130 395 Q200 415 400 420 Q600 415 670 395" fill="none" stroke="#e8e0d0" stroke-width="3" opacity="0.7"/>
+
+  <!-- Bowl interior / risotto surface -->
+  <ellipse cx="400" cy="400" rx="248" ry="100" fill="url(#rrjm-risotto)"/>
+
+  <!-- Risotto texture - small rice grain hints -->
+  <ellipse cx="320" cy="390" rx="12" ry="4" fill="#f4ebb0" opacity="0.5" transform="rotate(-15 320 390)"/>
+  <ellipse cx="355" cy="375" rx="10" ry="3" fill="#f4ebb0" opacity="0.4" transform="rotate(10 355 375)"/>
+  <ellipse cx="440" cy="380" rx="11" ry="4" fill="#f4ebb0" opacity="0.45" transform="rotate(-5 440 380)"/>
+  <ellipse cx="470" cy="395" rx="9" ry="3" fill="#f4ebb0" opacity="0.4" transform="rotate(20 470 395)"/>
+  <ellipse cx="390" cy="408" rx="13" ry="4" fill="#f4ebb0" opacity="0.35" transform="rotate(-8 390 408)"/>
+  <ellipse cx="340" cy="412" rx="10" ry="3" fill="#e8d898" opacity="0.5" transform="rotate(12 340 412)"/>
+  <ellipse cx="290" cy="400" rx="8" ry="3" fill="#f0e0a0" opacity="0.4" transform="rotate(-20 290 400)"/>
+  <ellipse cx="490" cy="410" rx="9" ry="3" fill="#f0e0a0" opacity="0.35" transform="rotate(15 490 410)"/>
+  <ellipse cx="420" cy="362" rx="11" ry="3.5" fill="#f4ebb0" opacity="0.35" transform="rotate(-10 420 362)"/>
+  <ellipse cx="370" cy="355" rx="9" ry="3" fill="#f0e0a0" opacity="0.3" transform="rotate(8 370 355)"/>
+
+  <!-- Parmesan dusting -->
+  <ellipse cx="380" cy="378" rx="6" ry="2.5" fill="url(#rrjm-parm)" opacity="0.8"/>
+  <ellipse cx="410" cy="370" rx="5" ry="2" fill="url(#rrjm-parm)" opacity="0.7"/>
+  <ellipse cx="450" cy="385" rx="4" ry="1.8" fill="url(#rrjm-parm)" opacity="0.75"/>
+  <ellipse cx="340" cy="385" rx="5" ry="2" fill="url(#rrjm-parm)" opacity="0.65"/>
+  <ellipse cx="305" cy="395" rx="4" ry="1.5" fill="url(#rrjm-parm)" opacity="0.6"/>
+  <ellipse cx="475" cy="375" rx="4.5" ry="1.8" fill="url(#rrjm-parm)" opacity="0.65"/>
+  <ellipse cx="395" cy="395" rx="3.5" ry="1.5" fill="url(#rrjm-parm)" opacity="0.7"/>
+  <ellipse cx="430" cy="400" rx="4" ry="1.6" fill="url(#rrjm-parm)" opacity="0.55"/>
+
+  <!-- Ham slice 1 - draped left-center, flowing organically -->
+  <path d="M270 365 Q290 345 340 348 Q380 350 390 368 Q375 385 340 388 Q295 388 270 375 Z" fill="url(#rrjm-ham1)" opacity="0.92"/>
+  <path d="M270 375 Q285 380 320 380 Q355 380 375 370" fill="none" stroke="#c07060" stroke-width="1" opacity="0.4"/>
+  <!-- Ham vein detail -->
+  <path d="M285 360 Q310 355 340 358 Q365 360 380 368" fill="none" stroke="#f8c8b8" stroke-width="1.5" opacity="0.35"/>
+
+  <!-- Ham slice 2 - draped right-center -->
+  <path d="M420 355 Q450 338 495 342 Q530 345 545 360 Q535 380 500 385 Q460 388 435 375 Q420 368 420 355 Z" fill="url(#rrjm-ham2)" opacity="0.9"/>
+  <path d="M425 368 Q455 372 490 370 Q515 368 530 360" fill="none" stroke="#b86858" stroke-width="1" opacity="0.35"/>
+  <path d="M435 350 Q465 344 500 348 Q522 352 535 362" fill="none" stroke="#f8c0b0" stroke-width="1.5" opacity="0.3"/>
+
+  <!-- Ham slice 3 - small one at back -->
+  <path d="M355 340 Q375 330 405 332 Q430 334 440 345 Q425 358 400 360 Q372 358 355 348 Z" fill="url(#rrjm-ham3)" opacity="0.85"/>
+
+  <!-- Arugula leaves - bright green scattered on top -->
+  <!-- Leaf 1 -->
+  <g transform="translate(300, 345) rotate(-30)">
+    <path d="M0 0 Q-8 -12 -4 -22 Q0 -28 4 -22 Q8 -12 0 0 Z" fill="#4a8020"/>
+    <path d="M0 0 Q-12 -8 -16 -2 Q-14 6 -6 4 Q0 0 0 0 Z" fill="#5a9828"/>
+    <path d="M0 0 Q12 -8 14 -2 Q12 6 5 4 Q0 0 0 0 Z" fill="#5a9828"/>
+    <line x1="0" y1="0" x2="0" y2="-22" stroke="#3a6818" stroke-width="0.8" opacity="0.6"/>
+  </g>
+  <!-- Leaf 2 -->
+  <g transform="translate(370, 330) rotate(15)">
+    <path d="M0 0 Q-7 -10 -3 -20 Q0 -25 3 -20 Q7 -10 0 0 Z" fill="#6aaa30"/>
+    <path d="M0 0 Q-11 -7 -14 -2 Q-12 5 -5 3 Q0 0 0 0 Z" fill="#7abb38"/>
+    <path d="M0 0 Q11 -7 13 -2 Q11 5 4 3 Q0 0 0 0 Z" fill="#7abb38"/>
+    <line x1="0" y1="0" x2="0" y2="-20" stroke="#4a8820" stroke-width="0.8" opacity="0.6"/>
+  </g>
+  <!-- Leaf 3 -->
+  <g transform="translate(440, 335) rotate(-20)">
+    <path d="M0 0 Q-9 -13 -5 -24 Q0 -30 5 -24 Q9 -13 0 0 Z" fill="#4a8020"/>
+    <path d="M0 0 Q-13 -9 -17 -3 Q-15 7 -7 5 Q0 0 0 0 Z" fill="#5a9828"/>
+    <path d="M0 0 Q13 -9 15 -3 Q13 7 6 5 Q0 0 0 0 Z" fill="#5a9828"/>
+    <line x1="0" y1="0" x2="0" y2="-24" stroke="#3a6818" stroke-width="0.8" opacity="0.6"/>
+  </g>
+  <!-- Leaf 4 smaller -->
+  <g transform="translate(500, 350) rotate(35)">
+    <path d="M0 0 Q-6 -9 -3 -17 Q0 -21 3 -17 Q6 -9 0 0 Z" fill="#6aaa30"/>
+    <path d="M0 0 Q-9 -6 -12 -2 Q-10 4 -4 3 Q0 0 0 0 Z" fill="#7abb38"/>
+    <path d="M0 0 Q9 -6 11 -2 Q9 4 3 3 Q0 0 0 0 Z" fill="#7abb38"/>
+    <line x1="0" y1="0" x2="0" y2="-17" stroke="#4a8820" stroke-width="0.7" opacity="0.6"/>
+  </g>
+  <!-- Leaf 5 -->
+  <g transform="translate(330, 360) rotate(50)">
+    <path d="M0 0 Q-7 -10 -3 -19 Q0 -24 3 -19 Q7 -10 0 0 Z" fill="#5a9020"/>
+    <path d="M0 0 Q-10 -7 -13 -2 Q-11 5 -5 3 Q0 0 0 0 Z" fill="#6aa028"/>
+    <path d="M0 0 Q10 -7 12 -2 Q10 5 4 3 Q0 0 0 0 Z" fill="#6aa028"/>
+    <line x1="0" y1="0" x2="0" y2="-19" stroke="#3a7018" stroke-width="0.8" opacity="0.6"/>
+  </g>
+  <!-- Leaf 6 -->
+  <g transform="translate(470, 340) rotate(-45)">
+    <path d="M0 0 Q-6 -8 -3 -16 Q0 -20 3 -16 Q6 -8 0 0 Z" fill="#6aaa30"/>
+    <path d="M0 0 Q-9 -6 -11 -1 Q-9 4 -4 3 Q0 0 0 0 Z" fill="#80bb40"/>
+    <path d="M0 0 Q9 -6 10 -1 Q8 4 3 3 Q0 0 0 0 Z" fill="#80bb40"/>
+    <line x1="0" y1="0" x2="0" y2="-16" stroke="#4a8820" stroke-width="0.7" opacity="0.55"/>
+  </g>
+  <!-- Leaf 7 tiny -->
+  <g transform="translate(395, 342) rotate(-10)">
+    <path d="M0 0 Q-5 -7 -2 -14 Q0 -18 2 -14 Q5 -7 0 0 Z" fill="#5a9828"/>
+    <path d="M0 0 Q-8 -5 -10 -1 Q-8 3 -3 2 Q0 0 0 0 Z" fill="#70aa30"/>
+    <path d="M0 0 Q8 -5 9 -1 Q7 3 2 2 Q0 0 0 0 Z" fill="#70aa30"/>
+    <line x1="0" y1="0" x2="0" y2="-14" stroke="#3a7818" stroke-width="0.6" opacity="0.55"/>
+  </g>
+
+  <!-- Bowl inner shadow overlay for depth -->
+  <ellipse cx="400" cy="400" rx="248" ry="100" fill="url(#rrjm-bowl-inner)"/>
+
+  <!-- Steam wisps -->
+  <path d="M340 300 Q332 278 342 258 Q352 238 344 218" fill="none" stroke="#ffffff" stroke-width="2.5" stroke-linecap="round" opacity="0.12"/>
+  <path d="M400 290 Q390 268 400 248 Q410 228 402 208" fill="none" stroke="#ffffff" stroke-width="2" stroke-linecap="round" opacity="0.1"/>
+  <path d="M460 298 Q468 276 458 256 Q448 236 456 216" fill="none" stroke="#ffffff" stroke-width="2.5" stroke-linecap="round" opacity="0.11"/>
+
+  <!-- Subtle table surface hint -->
+  <rect x="0" y="490" width="800" height="110" fill="#1a0e06" opacity="0.6"/>
+  <line x1="0" y1="490" x2="800" y2="490" stroke="#3a2510" stroke-width="1.5" opacity="0.5"/>
+</svg>
