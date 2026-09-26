@@ -99,6 +99,8 @@ export const PANTRY_ITEMS: PantryItem[] = [
   item("blackcurrant", "fruit", "Cassis", "Blackcurrants", "Ribes nero", ["blackcurrant"]),
   item("rhubarb", "fruit", "Rhubarbe", "Rhubarb", "Rabarbaro", ["rhubarb", "rhubarb stalk"]),
   item("quince", "fruit", "Coings", "Quinces", "Mele cotogne", ["quince"]),
+  item("citrus", "fruit", "Agrumes", "Citrus fruits", "Agrumi", ["citrus fruit", "citrus"]),
+  item("fruit-puree", "fruit", "Purée de fruits", "Fruit purée", "Purea di frutta", ["fruit puree", "fruit pulp", "red berry pulp", "red berry"]),
   item("prunes", "fruit", "Pruneaux", "Prunes", "Prugne secche", ["prune"]),
 
   // Herbs and aromatics
@@ -181,7 +183,7 @@ export const PANTRY_ITEMS: PantryItem[] = [
   item("biscuits", "starches", "Spéculoos", "Speculoos biscuits", "Biscotti speculoos", ["speculoos", "biscuit"]),
 
   // Pantry
-  item("sugar", "pantry", "Sucre", "Sugar", "Zucchero", ["sugar", "icing sugar", "powdered sugar", "palm sugar", "sugar cube"]),
+  item("sugar", "pantry", "Sucre", "Sugar", "Zucchero", ["sugar", "icing sugar", "powdered sugar", "palm sugar", "sugar cube", "syrup", "glucose"]),
   item("vanilla", "pantry", "Vanille", "Vanilla", "Vaniglia", ["vanilla", "vanilla pod", "vanilla extract", "vanilla sugar"]),
   item("honey", "pantry", "Miel", "Honey", "Miele", ["honey"]),
   item("maple-syrup", "pantry", "Sirop d'érable", "Maple syrup", "Sciroppo d'acero", ["maple syrup"]),
