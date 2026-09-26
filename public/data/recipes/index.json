@@ -14782,5 +14782,1605 @@
     },
     "stepCount": 10,
     "ingredientCount": 18
+  },
+  {
+    "slug": "blancs-de-volaille-au-curry",
+    "title": "Blancs de volaille au curry",
+    "description": "Aiguillettes de volaille dorées au beurre, mijotées dans une sauce au curry, tomate, pomme et crème à l'amande.",
+    "images": {
+      "cover": "images/recipes/blancs-de-volaille-au-curry/cover.svg",
+      "web": "images/recipes/blancs-de-volaille-au-curry/cover.svg"
+    },
+    "prepTime": 25,
+    "cookTime": 25,
+    "servings": 6,
+    "difficulty": "Facile",
+    "category": "Secondi",
+    "tags": [
+      "poulet",
+      "curry",
+      "mijoté",
+      "facile",
+      "onctueux",
+      "réconfortant",
+      "chaud",
+      "plat-principal",
+      "français",
+      "nostalgique",
+      "recette-de-famille"
+    ],
+    "origin": "amelie-grandpa",
+    "translations": {
+      "en": {
+        "title": "Curried chicken breasts",
+        "description": "Strips of chicken browned in butter, then simmered in a curry, tomato, apple and almond cream sauce.",
+        "tags": [
+          "chicken",
+          "curry",
+          "simmered",
+          "easy",
+          "creamy",
+          "comforting",
+          "hot",
+          "main-course",
+          "french",
+          "nostalgic",
+          "family-recipe"
+        ]
+      },
+      "it": {
+        "title": "Petti di pollo al curry",
+        "description": "Straccetti di pollo dorati nel burro, poi stufati in una salsa al curry, pomodoro, mela e crema di mandorle.",
+        "tags": [
+          "pollo",
+          "curry",
+          "stufato",
+          "facile",
+          "cremoso",
+          "confortante",
+          "caldo",
+          "secondo-piatto",
+          "francese",
+          "nostalgico",
+          "ricetta-di-famiglia"
+        ]
+      }
+    },
+    "stepCount": 9,
+    "ingredientCount": 13
+  },
+  {
+    "slug": "canard-farci-braise-aux-navets",
+    "title": "Canard farci braisé aux navets",
+    "description": "Un canard farci de chair à saucisse, raisins de Malaga et olives, braisé au vin blanc et servi avec des navets glacés.",
+    "images": {
+      "cover": "images/recipes/canard-farci-braise-aux-navets/cover.svg",
+      "web": "images/recipes/canard-farci-braise-aux-navets/cover.svg"
+    },
+    "prepTime": 30,
+    "cookTime": 85,
+    "servings": 4,
+    "difficulty": "Medio",
+    "category": "Secondi",
+    "tags": [
+      "canard",
+      "légumes",
+      "plat-principal",
+      "français",
+      "mijoté",
+      "automne",
+      "hiver",
+      "sucré-salé",
+      "festif",
+      "réconfortant",
+      "chaud",
+      "nostalgique",
+      "recette-de-famille"
+    ],
+    "origin": "amelie-grandpa",
+    "translations": {
+      "en": {
+        "title": "Stuffed Braised Duck with Turnips",
+        "description": "A duck stuffed with sausage meat, Malaga raisins and olives, braised in white wine and served with glazed turnips.",
+        "tags": [
+          "duck",
+          "vegetables",
+          "main-course",
+          "french",
+          "slow-cooked",
+          "autumn",
+          "winter",
+          "sweet-and-savory",
+          "festive",
+          "comforting",
+          "hot",
+          "nostalgic",
+          "family-recipe"
+        ]
+      },
+      "it": {
+        "title": "Anatra ripiena brasata con rape",
+        "description": "Un'anatra ripiena di pasta di salsiccia, uvetta di Malaga e olive, brasata al vino bianco e servita con rape glassate.",
+        "tags": [
+          "anatra",
+          "verdure",
+          "piatto-principale",
+          "francese",
+          "stufato",
+          "autunno",
+          "inverno",
+          "agrodolce",
+          "festivo",
+          "confortante",
+          "caldo",
+          "nostalgico",
+          "ricetta-di-famiglia"
+        ]
+      }
+    },
+    "stepCount": 8,
+    "ingredientCount": 15
+  },
+  {
+    "slug": "canard-ou-caneton-a-l-orange",
+    "title": "Canard ou caneton à l'orange",
+    "description": "Le grand classique : canards poêlés, sauce gastrique à l'orange liée et relevée de liqueur, julienne de zestes confits et quartiers d'oranges.",
+    "images": {
+      "cover": "images/recipes/canard-ou-caneton-a-l-orange/cover.webp",
+      "web": "images/recipes/canard-ou-caneton-a-l-orange/web.webp"
+    },
+    "imageCredit": {
+      "author": "Shy_Photographer",
+      "url": "https://pixabay.com/users/shy_photographer-7642743/"
+    },
+    "prepTime": 60,
+    "cookTime": 70,
+    "servings": 12,
+    "difficulty": "Difficile",
+    "category": "Secondi",
+    "tags": [
+      "canard",
+      "orange",
+      "agrumes",
+      "poêle",
+      "plat-principal",
+      "festif",
+      "sucré-salé",
+      "chaud",
+      "français",
+      "nostalgique",
+      "recette-de-famille"
+    ],
+    "origin": "amelie-grandpa",
+    "translations": {
+      "en": {
+        "title": "Duck à l'orange",
+        "description": "The great classic: pan-roasted ducks, an orange gastrique sauce thickened and lifted with liqueur, a julienne of candied zest and orange segments.",
+        "tags": [
+          "duck",
+          "orange",
+          "citrus",
+          "pan-roasted",
+          "main-course",
+          "festive",
+          "sweet-and-savoury",
+          "hot",
+          "french",
+          "nostalgic",
+          "family-recipe"
+        ]
+      },
+      "it": {
+        "title": "Anatra all'arancia",
+        "description": "Il grande classico: anatre cotte in padella, salsa gastrique all'arancia legata e profumata al liquore, julienne di scorze candite e spicchi d'arancia.",
+        "tags": [
+          "anatra",
+          "arancia",
+          "agrumi",
+          "padella",
+          "piatto-principale",
+          "festivo",
+          "agrodolce",
+          "caldo",
+          "francese",
+          "nostalgico",
+          "ricetta-di-famiglia"
+        ]
+      }
+    },
+    "stepCount": 17,
+    "ingredientCount": 12
+  },
+  {
+    "slug": "chicken-curry",
+    "title": "Chicken curry",
+    "description": "Poulet doré au beurre et au curry, mijoté avec tomate, pomme, oignon et ail mixés, puis lié à la crème.",
+    "images": {
+      "cover": "images/recipes/chicken-curry/cover.webp",
+      "web": "images/recipes/chicken-curry/web.webp"
+    },
+    "imageCredit": {
+      "author": "Kirtip",
+      "url": "https://pixabay.com/users/kirtip-11113501/"
+    },
+    "prepTime": 25,
+    "cookTime": 55,
+    "servings": 4,
+    "difficulty": "Medio",
+    "category": "Secondi",
+    "tags": [
+      "poulet",
+      "curry",
+      "plat-principal",
+      "mijoté",
+      "chaud",
+      "onctueux",
+      "réconfortant",
+      "toute-la-famille",
+      "français",
+      "nostalgique",
+      "recette-de-famille"
+    ],
+    "origin": "amelie-grandpa",
+    "translations": {
+      "en": {
+        "title": "Chicken curry",
+        "description": "Chicken browned in butter with curry powder, simmered with tomato and a blended apple, onion and garlic mixture, then finished with cream.",
+        "tags": [
+          "chicken",
+          "curry",
+          "main-course",
+          "simmered",
+          "hot",
+          "creamy",
+          "comforting",
+          "whole-family",
+          "french",
+          "nostalgic",
+          "family-recipe"
+        ]
+      },
+      "it": {
+        "title": "Pollo al curry",
+        "description": "Pollo rosolato nel burro con il curry, stufato con pomodoro, mela, cipolla e aglio frullati, poi legato con la panna.",
+        "tags": [
+          "pollo",
+          "curry",
+          "piatto-principale",
+          "stufato",
+          "caldo",
+          "cremoso",
+          "confortante",
+          "tutta-la-famiglia",
+          "francese",
+          "nostalgico",
+          "ricetta-di-famiglia"
+        ]
+      }
+    },
+    "stepCount": 9,
+    "ingredientCount": 13
+  },
+  {
+    "slug": "cuisses-de-poulet-grillees-au-citron",
+    "title": "Cuisses de poulet grillées au citron",
+    "description": "Cuisses de poulet désossées, marinées au zeste et au jus de citron avec l'huile d'olive, grillées en quadrillage et servies avec une petite sauce relevée.",
+    "images": {
+      "cover": "images/recipes/cuisses-de-poulet-grillees-au-citron/cover.webp",
+      "web": "images/recipes/cuisses-de-poulet-grillees-au-citron/web.webp"
+    },
+    "imageCredit": {
+      "author": "RitaE",
+      "url": "https://pixabay.com/users/ritae-19628/"
+    },
+    "prepTime": 30,
+    "cookTime": 40,
+    "servings": 8,
+    "difficulty": "Medio",
+    "category": "Secondi",
+    "tags": [
+      "poulet",
+      "citron",
+      "grillé",
+      "barbecue",
+      "plat-principal",
+      "français",
+      "nostalgique",
+      "recette-de-famille",
+      "acidulé",
+      "préparation-à-lavance",
+      "été",
+      "convivial",
+      "chaud"
+    ],
+    "origin": "amelie-grandpa",
+    "translations": {
+      "en": {
+        "title": "Grilled Lemon Chicken Legs",
+        "description": "Boned chicken legs marinated in lemon zest, lemon juice and olive oil, grilled with a crisscross pattern and served with a little spicy sauce.",
+        "tags": [
+          "chicken",
+          "lemon",
+          "grilled",
+          "bbq",
+          "main-course",
+          "french",
+          "nostalgic",
+          "family-recipe",
+          "tangy",
+          "make-ahead",
+          "summer",
+          "convivial",
+          "hot"
+        ]
+      },
+      "it": {
+        "title": "Cosce di pollo grigliate al limone",
+        "description": "Cosce di pollo disossate, marinate con scorza e succo di limone e olio d'oliva, grigliate a quadretti e servite con una salsina piccante.",
+        "tags": [
+          "pollo",
+          "limone",
+          "grigliato",
+          "barbecue",
+          "piatto-principale",
+          "francese",
+          "nostalgico",
+          "ricetta-di-famiglia",
+          "acidulo",
+          "da-preparare-in-anticipo",
+          "estate",
+          "conviviale",
+          "caldo"
+        ]
+      }
+    },
+    "stepCount": 11,
+    "ingredientCount": 12
+  },
+  {
+    "slug": "escalopes-de-canard-au-gingembre",
+    "title": "Escalopes de canard au gingembre",
+    "description": "Escalopes de canard parfumées au gingembre, dorées au beurre et nappées d'une sauce au vin blanc et à la crème, avec une garniture au choix.",
+    "images": {
+      "cover": "images/recipes/escalopes-de-canard-au-gingembre/cover.svg",
+      "web": "images/recipes/escalopes-de-canard-au-gingembre/cover.svg"
+    },
+    "prepTime": 140,
+    "cookTime": 25,
+    "servings": 8,
+    "difficulty": "Medio",
+    "category": "Secondi",
+    "tags": [
+      "canard",
+      "gingembre",
+      "français",
+      "nostalgique",
+      "recette-de-famille",
+      "plat-principal",
+      "poêle",
+      "chaud",
+      "festif",
+      "gourmand",
+      "onctueux"
+    ],
+    "origin": "amelie-grandpa",
+    "translations": {
+      "en": {
+        "title": "Duck escalopes with ginger",
+        "description": "Duck escalopes flavoured with ginger, browned in butter and coated with a white wine and cream sauce, served with a garnish of your choice.",
+        "tags": [
+          "duck",
+          "ginger",
+          "french",
+          "nostalgic",
+          "family-recipe",
+          "main-course",
+          "pan-fried",
+          "hot",
+          "festive",
+          "indulgent",
+          "creamy"
+        ]
+      },
+      "it": {
+        "title": "Scaloppine di anatra allo zenzero",
+        "description": "Scaloppine di anatra profumate allo zenzero, dorate nel burro e nappate con una salsa al vino bianco e alla panna, con un contorno a scelta.",
+        "tags": [
+          "anatra",
+          "zenzero",
+          "francese",
+          "nostalgico",
+          "ricetta-di-famiglia",
+          "piatto-principale",
+          "padella",
+          "caldo",
+          "festivo",
+          "goloso",
+          "cremoso"
+        ]
+      }
+    },
+    "stepCount": 9,
+    "ingredientCount": 11
+  },
+  {
+    "slug": "faisan-au-chou",
+    "title": "Faisan au chou",
+    "description": "Un faisan doré au beurre puis cuit au vin blanc, servi sur un chou vert mijoté avec des lardons et le jus de cuisson.",
+    "images": {
+      "cover": "images/recipes/faisan-au-chou/cover.svg",
+      "web": "images/recipes/faisan-au-chou/cover.svg"
+    },
+    "prepTime": 30,
+    "cookTime": 75,
+    "servings": 8,
+    "difficulty": "Medio",
+    "category": "Secondi",
+    "tags": [
+      "gibier",
+      "volaille",
+      "porc",
+      "mijoté",
+      "plat-principal",
+      "français",
+      "nostalgique",
+      "recette-de-famille",
+      "automne",
+      "hiver",
+      "réconfortant",
+      "festif",
+      "chaud"
+    ],
+    "origin": "amelie-grandpa",
+    "translations": {
+      "en": {
+        "title": "Pheasant with cabbage",
+        "description": "A pheasant browned in butter then cooked in white wine, served on a green cabbage simmered with lardons and the cooking juices.",
+        "tags": [
+          "game",
+          "poultry",
+          "pork",
+          "simmered",
+          "main-course",
+          "french",
+          "nostalgic",
+          "family-recipe",
+          "autumn",
+          "winter",
+          "comforting",
+          "festive",
+          "hot"
+        ]
+      },
+      "it": {
+        "title": "Fagiano con cavolo",
+        "description": "Un fagiano rosolato nel burro e poi cotto nel vino bianco, servito su un cavolo verde stufato con la pancetta a dadini e il fondo di cottura.",
+        "tags": [
+          "selvaggina",
+          "pollame",
+          "maiale",
+          "stufato",
+          "piatto-principale",
+          "francese",
+          "nostalgico",
+          "ricetta-di-famiglia",
+          "autunno",
+          "inverno",
+          "confortante",
+          "festivo",
+          "caldo"
+        ]
+      }
+    },
+    "stepCount": 7,
+    "ingredientCount": 9
+  },
+  {
+    "slug": "faisan-braise-sur-choucroute",
+    "title": "Faisan braisé sur choucroute",
+    "description": "Un faisan doré au beurre puis braisé au vin blanc, découpé et mijoté entre deux couches de choucroute avec son jus de cuisson.",
+    "images": {
+      "cover": "images/recipes/faisan-braise-sur-choucroute/cover.svg",
+      "web": "images/recipes/faisan-braise-sur-choucroute/cover.svg"
+    },
+    "prepTime": 15,
+    "cookTime": 70,
+    "servings": 8,
+    "difficulty": "Facile",
+    "category": "Secondi",
+    "tags": [
+      "plat-principal",
+      "gibier",
+      "volaille",
+      "mijoté",
+      "automne",
+      "hiver",
+      "réconfortant",
+      "festif",
+      "facile",
+      "chaud",
+      "français",
+      "nostalgique",
+      "recette-de-famille"
+    ],
+    "origin": "amelie-grandpa",
+    "translations": {
+      "en": {
+        "title": "Braised pheasant on sauerkraut",
+        "description": "A pheasant browned in butter then braised in white wine, carved and simmered between two layers of sauerkraut with its cooking juices.",
+        "tags": [
+          "main-course",
+          "game",
+          "poultry",
+          "slow-cooked",
+          "autumn",
+          "winter",
+          "comforting",
+          "festive",
+          "easy",
+          "hot",
+          "french",
+          "nostalgic",
+          "family-recipe"
+        ]
+      },
+      "it": {
+        "title": "Fagiano brasato sui crauti",
+        "description": "Un fagiano rosolato nel burro e poi brasato al vino bianco, tagliato a pezzi e fatto sobbollire tra due strati di crauti con il suo fondo di cottura.",
+        "tags": [
+          "piatto-principale",
+          "selvaggina",
+          "pollame",
+          "stufato",
+          "autunno",
+          "inverno",
+          "confortante",
+          "festivo",
+          "facile",
+          "caldo",
+          "francese",
+          "nostalgico",
+          "ricetta-di-famiglia"
+        ]
+      }
+    },
+    "stepCount": 4,
+    "ingredientCount": 8
+  },
+  {
+    "slug": "flan-de-foie-de-volaille",
+    "title": "Flan de foie de volaille",
+    "description": "Des foies de volaille marinés au Cognac, mixés avec l'ail et les herbes, puis pochés en ramequins au bain-marie. À servir chaud avec une sauce.",
+    "images": {
+      "cover": "images/recipes/flan-de-foie-de-volaille/cover.svg",
+      "web": "images/recipes/flan-de-foie-de-volaille/cover.svg"
+    },
+    "prepTime": 25,
+    "cookTime": 30,
+    "servings": 8,
+    "difficulty": "Facile",
+    "category": "Secondi",
+    "tags": [
+      "foie-de-volaille",
+      "volaille",
+      "plat-principal",
+      "français",
+      "nostalgique",
+      "recette-de-famille",
+      "bain-marie",
+      "four",
+      "fondant",
+      "chaud",
+      "préparation-à-lavance",
+      "convivial"
+    ],
+    "origin": "amelie-grandpa",
+    "translations": {
+      "en": {
+        "title": "Chicken liver flan",
+        "description": "Chicken livers marinated in Cognac, blended with garlic and herbs, then poached in ramekins in a water bath. Serve hot with a sauce.",
+        "tags": [
+          "chicken-livers",
+          "poultry",
+          "main-course",
+          "french",
+          "nostalgic",
+          "family-recipe",
+          "water-bath",
+          "oven",
+          "melting",
+          "hot",
+          "make-ahead",
+          "convivial"
+        ]
+      },
+      "it": {
+        "title": "Flan di fegatini di pollo",
+        "description": "Fegatini di pollo marinati nel Cognac, frullati con aglio ed erbe aromatiche, poi cotti in camicia negli stampini a bagnomaria. Da servire caldi con una salsa.",
+        "tags": [
+          "fegatini-di-pollo",
+          "pollame",
+          "piatto-principale",
+          "francese",
+          "nostalgico",
+          "ricetta-di-famiglia",
+          "bagnomaria",
+          "forno",
+          "fondente",
+          "caldo",
+          "da-preparare-in-anticipo",
+          "conviviale"
+        ]
+      }
+    },
+    "stepCount": 5,
+    "ingredientCount": 9
+  },
+  {
+    "slug": "flan-de-foie-de-volaille-et-sa-mousse-de-tomates",
+    "title": "Flan de foie de volaille et sa mousse de tomates",
+    "description": "Petits flans de foies de dinde et de volaille au Cognac, pochés au bain-marie, servis avec une mousse de tomates relevée à l'harissa.",
+    "images": {
+      "cover": "images/recipes/flan-de-foie-de-volaille-et-sa-mousse-de-tomates/cover.svg",
+      "web": "images/recipes/flan-de-foie-de-volaille-et-sa-mousse-de-tomates/cover.svg"
+    },
+    "prepTime": 45,
+    "cookTime": 40,
+    "servings": 8,
+    "difficulty": "Medio",
+    "category": "Secondi",
+    "tags": [
+      "foie-de-volaille",
+      "volaille",
+      "abats",
+      "plat-principal",
+      "français",
+      "nostalgique",
+      "recette-de-famille",
+      "bain-marie",
+      "tomates",
+      "fondant",
+      "épicé",
+      "festif",
+      "chaud"
+    ],
+    "origin": "amelie-grandpa",
+    "translations": {
+      "en": {
+        "title": "Chicken liver flan with tomato mousse",
+        "description": "Small turkey and chicken liver flans with Cognac, poached in a bain-marie and served with a tomato mousse spiced with harissa.",
+        "tags": [
+          "chicken-liver",
+          "poultry",
+          "offal",
+          "main-course",
+          "french",
+          "nostalgic",
+          "family-recipe",
+          "bain-marie",
+          "tomatoes",
+          "melting",
+          "spicy",
+          "festive",
+          "hot"
+        ]
+      },
+      "it": {
+        "title": "Flan di fegatini di pollo con mousse di pomodoro",
+        "description": "Piccoli flan di fegato di tacchino e fegatini di pollo al Cognac, cotti a bagnomaria, serviti con una mousse di pomodoro insaporita con harissa.",
+        "tags": [
+          "fegatini-di-pollo",
+          "pollame",
+          "frattaglie",
+          "piatto-principale",
+          "francese",
+          "nostalgico",
+          "ricetta-di-famiglia",
+          "bagnomaria",
+          "pomodori",
+          "fondente",
+          "piccante",
+          "festivo",
+          "caldo"
+        ]
+      }
+    },
+    "stepCount": 14,
+    "ingredientCount": 17
+  },
+  {
+    "slug": "foie-gras-de-canard-cuit-a-la-mode-vigneronne",
+    "title": "Foie gras de canard cuit à la mode vigneronne",
+    "description": "Un foie gras de canard mariné à l'Armagnac, cuit par une marinade bouillante au vin blanc, pressé puis servi en fines tranches avec des noix confites.",
+    "images": {
+      "cover": "images/recipes/foie-gras-de-canard-cuit-a-la-mode-vigneronne/cover.webp",
+      "web": "images/recipes/foie-gras-de-canard-cuit-a-la-mode-vigneronne/web.webp"
+    },
+    "imageCredit": {
+      "author": "takedahrs",
+      "url": "https://pixabay.com/users/takedahrs-12657/"
+    },
+    "prepTime": 30,
+    "cookTime": 30,
+    "servings": 4,
+    "difficulty": "Medio",
+    "category": "Secondi",
+    "tags": [
+      "foie-gras",
+      "canard",
+      "plat-principal",
+      "froid",
+      "festif",
+      "noël",
+      "gourmand",
+      "préparation-à-lavance",
+      "français",
+      "nostalgique",
+      "recette-de-famille"
+    ],
+    "origin": "amelie-grandpa",
+    "translations": {
+      "en": {
+        "title": "Winemaker-style cooked duck foie gras",
+        "description": "Duck foie gras marinated in Armagnac, cooked by pouring a boiling white wine marinade over it, pressed, then served in thin slices with candied walnuts.",
+        "tags": [
+          "foie-gras",
+          "duck",
+          "main-course",
+          "cold",
+          "festive",
+          "christmas",
+          "indulgent",
+          "make-ahead",
+          "french",
+          "nostalgic",
+          "family-recipe"
+        ]
+      },
+      "it": {
+        "title": "Foie gras d'anatra cotto alla vignaiola",
+        "description": "Un foie gras d'anatra marinato all'Armagnac, cotto versandoci sopra una marinata bollente al vino bianco, pressato e poi servito a fette sottili con noci candite.",
+        "tags": [
+          "foie-gras",
+          "anatra",
+          "secondo-piatto",
+          "freddo",
+          "festivo",
+          "natale",
+          "goloso",
+          "preparazione-anticipata",
+          "francese",
+          "nostalgico",
+          "ricetta-di-famiglia"
+        ]
+      }
+    },
+    "stepCount": 9,
+    "ingredientCount": 10
+  },
+  {
+    "slug": "fondant-de-foie-de-volaille",
+    "title": "Fondant de foie de volaille",
+    "description": "Un fondant de foies de volaille au Porto et au Cognac, cuit la veille au bain-marie, servi avec des raisins au miel et une salade.",
+    "images": {
+      "cover": "images/recipes/fondant-de-foie-de-volaille/cover.svg",
+      "web": "images/recipes/fondant-de-foie-de-volaille/cover.svg"
+    },
+    "prepTime": 40,
+    "cookTime": 60,
+    "servings": 8,
+    "difficulty": "Medio",
+    "category": "Secondi",
+    "tags": [
+      "plat-principal",
+      "volaille",
+      "foie-de-volaille",
+      "bain-marie",
+      "fondant",
+      "préparation-à-lavance",
+      "festif",
+      "froid",
+      "français",
+      "nostalgique",
+      "recette-de-famille"
+    ],
+    "origin": "amelie-grandpa",
+    "translations": {
+      "en": {
+        "title": "Chicken liver fondant",
+        "description": "A chicken liver fondant with Port and Cognac, cooked the day before in a bain-marie, served with honeyed grapes and a salad.",
+        "tags": [
+          "main-course",
+          "poultry",
+          "chicken-liver",
+          "bain-marie",
+          "melting",
+          "make-ahead",
+          "festive",
+          "cold",
+          "french",
+          "nostalgic",
+          "family-recipe"
+        ]
+      },
+      "it": {
+        "title": "Fondant di fegatini di pollo",
+        "description": "Un fondant di fegatini di pollo al Porto e al Cognac, cotto il giorno prima a bagnomaria, servito con uva al miele e un'insalata.",
+        "tags": [
+          "secondo-piatto",
+          "pollame",
+          "fegatini-di-pollo",
+          "bagnomaria",
+          "fondente",
+          "preparazione-anticipata",
+          "festivo",
+          "freddo",
+          "francese",
+          "nostalgico",
+          "ricetta-di-famiglia"
+        ]
+      }
+    },
+    "stepCount": 5,
+    "ingredientCount": 16
+  },
+  {
+    "slug": "jambonnettes-de-volaille",
+    "title": "Jambonnettes de volaille",
+    "description": "Cuisses de poulet désossées, farcies de blanc de volaille au Cognac, roulées dans la crépine et braisées dans leur fond.",
+    "images": {
+      "cover": "images/recipes/jambonnettes-de-volaille/cover.webp",
+      "web": "images/recipes/jambonnettes-de-volaille/web.webp"
+    },
+    "imageCredit": {
+      "author": "kalhh",
+      "url": "https://pixabay.com/users/kalhh-86169/"
+    },
+    "prepTime": 45,
+    "cookTime": 80,
+    "servings": 8,
+    "difficulty": "Difficile",
+    "category": "Secondi",
+    "tags": [
+      "poulet",
+      "plat-principal",
+      "mijoté",
+      "chaud",
+      "automne",
+      "festif",
+      "gourmand",
+      "français",
+      "nostalgique",
+      "recette-de-famille"
+    ],
+    "origin": "amelie-grandpa",
+    "translations": {
+      "en": {
+        "title": "Stuffed chicken legs (jambonnettes)",
+        "description": "Boned chicken legs stuffed with Cognac-flavoured chicken breast, wrapped in caul fat and braised in their own stock.",
+        "tags": [
+          "chicken",
+          "main-course",
+          "slow-cooked",
+          "hot",
+          "autumn",
+          "festive",
+          "indulgent",
+          "french",
+          "nostalgic",
+          "family-recipe"
+        ]
+      },
+      "it": {
+        "title": "Cosce di pollo ripiene (jambonnettes)",
+        "description": "Cosce di pollo disossate, farcite di petto di pollo al Cognac, avvolte nella rete di maiale e brasate nel loro fondo.",
+        "tags": [
+          "pollo",
+          "piatto-principale",
+          "stufato",
+          "caldo",
+          "autunno",
+          "festivo",
+          "goloso",
+          "francese",
+          "nostalgico",
+          "ricetta-di-famiglia"
+        ]
+      }
+    },
+    "stepCount": 9,
+    "ingredientCount": 14
+  },
+  {
+    "slug": "lapin-aux-pruneaux",
+    "title": "Lapin aux pruneaux",
+    "description": "Lapin doré puis mijoté au vin blanc et à la tomate, servi avec pruneaux, lardons et petits oignons glacés.",
+    "images": {
+      "cover": "images/recipes/lapin-aux-pruneaux/cover.svg",
+      "web": "images/recipes/lapin-aux-pruneaux/cover.svg"
+    },
+    "prepTime": 40,
+    "cookTime": 85,
+    "servings": 10,
+    "difficulty": "Medio",
+    "category": "Secondi",
+    "tags": [
+      "lapin",
+      "français",
+      "plat-principal",
+      "mijoté",
+      "sucré-salé",
+      "automne",
+      "hiver",
+      "réconfortant",
+      "convivial",
+      "chaud",
+      "nostalgique",
+      "recette-de-famille"
+    ],
+    "origin": "amelie-grandpa",
+    "translations": {
+      "en": {
+        "title": "Rabbit with prunes",
+        "description": "Rabbit browned then simmered in white wine and tomato, served with prunes, lardons and glazed pearl onions.",
+        "tags": [
+          "rabbit",
+          "french",
+          "main-course",
+          "slow-cooked",
+          "sweet-and-savory",
+          "autumn",
+          "winter",
+          "comforting",
+          "convivial",
+          "hot",
+          "nostalgic",
+          "family-recipe"
+        ]
+      },
+      "it": {
+        "title": "Coniglio alle prugne",
+        "description": "Coniglio rosolato e poi stufato nel vino bianco e pomodoro, servito con prugne, lardoni e cipolline glassate.",
+        "tags": [
+          "coniglio",
+          "francese",
+          "secondo-piatto",
+          "stufato",
+          "agrodolce",
+          "autunno",
+          "inverno",
+          "confortante",
+          "conviviale",
+          "caldo",
+          "nostalgico",
+          "ricetta-di-famiglia"
+        ]
+      }
+    },
+    "stepCount": 9,
+    "ingredientCount": 16
+  },
+  {
+    "slug": "magret-de-canard-au-gingembre",
+    "title": "Magret de canard au gingembre",
+    "description": "Magrets dorés en cocotte avec échalote et vin blanc, servis en filets nappés d'une sauce au fond de veau parfumée au gingembre.",
+    "images": {
+      "cover": "images/recipes/magret-de-canard-au-gingembre/cover.webp",
+      "web": "images/recipes/magret-de-canard-au-gingembre/web.webp"
+    },
+    "imageCredit": {
+      "author": "RitaE",
+      "url": "https://pixabay.com/users/ritae-19628/"
+    },
+    "prepTime": 15,
+    "cookTime": 25,
+    "servings": 5,
+    "difficulty": "Facile",
+    "category": "Secondi",
+    "tags": [
+      "canard",
+      "plat-principal",
+      "chaud",
+      "facile",
+      "épicé",
+      "festif",
+      "gourmand",
+      "français",
+      "nostalgique",
+      "recette-de-famille"
+    ],
+    "origin": "amelie-grandpa",
+    "translations": {
+      "en": {
+        "title": "Duck breast with ginger",
+        "description": "Duck breasts browned in a casserole with shallot and white wine, served sliced and coated with a ginger-scented veal stock sauce.",
+        "tags": [
+          "duck",
+          "main-course",
+          "hot",
+          "easy",
+          "spicy",
+          "festive",
+          "indulgent",
+          "french",
+          "nostalgic",
+          "family-recipe"
+        ]
+      },
+      "it": {
+        "title": "Petto d'anatra allo zenzero",
+        "description": "Petti d'anatra rosolati in casseruola con scalogno e vino bianco, serviti a fette e nappati con una salsa al fondo di vitello profumata allo zenzero.",
+        "tags": [
+          "anatra",
+          "secondo-piatto",
+          "caldo",
+          "facile",
+          "speziato",
+          "festivo",
+          "goloso",
+          "francese",
+          "nostalgico",
+          "ricetta-di-famiglia"
+        ]
+      }
+    },
+    "stepCount": 6,
+    "ingredientCount": 7
+  },
+  {
+    "slug": "pate-en-croute-de-foie-de-volaille-ou-terrine",
+    "title": "Pâté en croûte de foie de volaille ou terrine",
+    "description": "Farce de foies de volaille, échine et lard marinés au Cognac et au Porto, cuite en croûte dorée ou en terrine, puis garnie de gelée.",
+    "images": {
+      "cover": "images/recipes/pate-en-croute-de-foie-de-volaille-ou-terrine/cover.webp",
+      "web": "images/recipes/pate-en-croute-de-foie-de-volaille-ou-terrine/web.webp"
+    },
+    "imageCredit": {
+      "author": "Hans",
+      "url": "https://pixabay.com/users/hans-2/"
+    },
+    "prepTime": 90,
+    "cookTime": 90,
+    "servings": 8,
+    "difficulty": "Difficile",
+    "category": "Secondi",
+    "tags": [
+      "volaille",
+      "porc",
+      "four",
+      "français",
+      "nostalgique",
+      "recette-de-famille",
+      "plat-principal",
+      "préparation-à-lavance",
+      "festif",
+      "buffet",
+      "froid",
+      "à-partager"
+    ],
+    "origin": "amelie-grandpa",
+    "translations": {
+      "en": {
+        "title": "Chicken liver pâté en croûte or terrine",
+        "description": "A forcemeat of chicken livers, pork shoulder and pork fat marinated in Cognac and Port, baked in a golden crust or in a terrine, then filled with aspic.",
+        "tags": [
+          "poultry",
+          "pork",
+          "oven",
+          "french",
+          "nostalgic",
+          "family-recipe",
+          "main-course",
+          "make-ahead",
+          "festive",
+          "buffet",
+          "cold",
+          "to-share"
+        ]
+      },
+      "it": {
+        "title": "Pâté en croûte di fegatini di pollo o terrina",
+        "description": "Un ripieno di fegatini di pollo, coppa e lardo marinati nel Cognac e nel Porto, cotto in una crosta dorata o in terrina, poi completato con gelatina.",
+        "tags": [
+          "pollame",
+          "maiale",
+          "forno",
+          "francese",
+          "nostalgico",
+          "ricetta-di-famiglia",
+          "piatto-principale",
+          "da-preparare-in-anticipo",
+          "festivo",
+          "buffet",
+          "freddo",
+          "da-condividere"
+        ]
+      }
+    },
+    "stepCount": 13,
+    "ingredientCount": 15
+  },
+  {
+    "slug": "pintadeau-au-paprika",
+    "title": "Pintadeau au paprika",
+    "description": "Pintade dorée puis cuite au four au vin blanc et au paprika, nappée d'une sauce au maïs et servie avec des crêpes au maïs.",
+    "images": {
+      "cover": "images/recipes/pintadeau-au-paprika/cover.svg",
+      "web": "images/recipes/pintadeau-au-paprika/cover.svg"
+    },
+    "prepTime": 30,
+    "cookTime": 60,
+    "servings": 5,
+    "difficulty": "Medio",
+    "category": "Secondi",
+    "tags": [
+      "pintade",
+      "volaille",
+      "plat-principal",
+      "four",
+      "français",
+      "nostalgique",
+      "recette-de-famille",
+      "épicé",
+      "crêpes",
+      "festif",
+      "convivial",
+      "chaud"
+    ],
+    "origin": "amelie-grandpa",
+    "translations": {
+      "en": {
+        "title": "Young Guinea Fowl with Paprika",
+        "description": "Guinea fowl browned then oven-cooked with white wine and paprika, coated with a sweetcorn sauce and served with sweetcorn crêpes.",
+        "tags": [
+          "guinea-fowl",
+          "poultry",
+          "main-course",
+          "oven",
+          "french",
+          "nostalgic",
+          "family-recipe",
+          "spiced",
+          "crepes",
+          "festive",
+          "convivial",
+          "hot"
+        ]
+      },
+      "it": {
+        "title": "Faraonetta alla paprika",
+        "description": "Faraona rosolata e poi cotta in forno con vino bianco e paprika, nappata con una salsa al mais e servita con crêpe al mais.",
+        "tags": [
+          "faraona",
+          "pollame",
+          "piatto-principale",
+          "forno",
+          "francese",
+          "nostalgico",
+          "ricetta-di-famiglia",
+          "speziato",
+          "crepes",
+          "festivo",
+          "conviviale",
+          "caldo"
+        ]
+      }
+    },
+    "stepCount": 9,
+    "ingredientCount": 14
+  },
+  {
+    "slug": "poularde-en-pot-au-feu",
+    "title": "Poularde en pot au feu",
+    "description": "Une grosse poularde pochée avec ses légumes, découpée et servie avec une sauce crémée au roux blond et un riz pilaf.",
+    "images": {
+      "cover": "images/recipes/poularde-en-pot-au-feu/cover.svg",
+      "web": "images/recipes/poularde-en-pot-au-feu/cover.svg"
+    },
+    "prepTime": 30,
+    "cookTime": 85,
+    "servings": 8,
+    "difficulty": "Medio",
+    "category": "Secondi",
+    "tags": [
+      "poulet",
+      "légumes",
+      "mijoté",
+      "plat-principal",
+      "français",
+      "hiver",
+      "réconfortant",
+      "convivial",
+      "toute-la-famille",
+      "chaud",
+      "nostalgique",
+      "recette-de-famille"
+    ],
+    "origin": "amelie-grandpa",
+    "translations": {
+      "en": {
+        "title": "Poularde pot-au-feu",
+        "description": "A large poularde poached with its vegetables, carved and served with a creamy blond roux sauce and rice pilaf.",
+        "tags": [
+          "chicken",
+          "vegetables",
+          "slow-cooked",
+          "main-course",
+          "french",
+          "winter",
+          "comforting",
+          "convivial",
+          "whole-family",
+          "hot",
+          "nostalgic",
+          "family-recipe"
+        ]
+      },
+      "it": {
+        "title": "Pollastra lessa con verdure",
+        "description": "Una grossa pollastra cotta in camicia con le sue verdure, tagliata e servita con una salsa cremosa al roux biondo e un riso pilaf.",
+        "tags": [
+          "pollo",
+          "verdure",
+          "stufato",
+          "piatto-principale",
+          "francese",
+          "inverno",
+          "confortante",
+          "conviviale",
+          "tutta-la-famiglia",
+          "caldo",
+          "nostalgico",
+          "ricetta-di-famiglia"
+        ]
+      }
+    },
+    "stepCount": 8,
+    "ingredientCount": 14
+  },
+  {
+    "slug": "poulet-au-miel-et-aux-epices",
+    "title": "Poulet au miel et aux épices",
+    "description": "Poulet mariné au citron, au miel et aux épices, rôti au four, servi avec des oignons confits, des figues blondies et une semoule ou un riz au safran.",
+    "images": {
+      "cover": "images/recipes/poulet-au-miel-et-aux-epices/cover.svg",
+      "web": "images/recipes/poulet-au-miel-et-aux-epices/cover.svg"
+    },
+    "prepTime": 30,
+    "cookTime": 50,
+    "servings": 10,
+    "difficulty": "Facile",
+    "category": "Secondi",
+    "tags": [
+      "poulet",
+      "plat-principal",
+      "four",
+      "sucré-salé",
+      "épicé",
+      "fruits",
+      "festif",
+      "chaud",
+      "facile",
+      "français",
+      "nostalgique",
+      "recette-de-famille"
+    ],
+    "origin": "amelie-grandpa",
+    "translations": {
+      "en": {
+        "title": "Honey and Spice Chicken",
+        "description": "Chicken marinated in lemon, honey and spices, roasted in the oven, served with confit onions, golden figs and saffron couscous or rice.",
+        "tags": [
+          "chicken",
+          "main-course",
+          "oven",
+          "sweet-and-savory",
+          "spicy",
+          "fruit",
+          "festive",
+          "hot",
+          "easy",
+          "french",
+          "nostalgic",
+          "family-recipe"
+        ]
+      },
+      "it": {
+        "title": "Pollo al miele e spezie",
+        "description": "Pollo marinato al limone, al miele e alle spezie, arrostito al forno, servito con cipolle confit, fichi dorati e cuscus o riso allo zafferano.",
+        "tags": [
+          "pollo",
+          "piatto-principale",
+          "forno",
+          "agrodolce",
+          "speziato",
+          "frutta",
+          "festivo",
+          "caldo",
+          "facile",
+          "francese",
+          "nostalgico",
+          "ricetta-di-famiglia"
+        ]
+      }
+    },
+    "stepCount": 8,
+    "ingredientCount": 10
+  },
+  {
+    "slug": "rable-et-cuisses-de-lapin",
+    "title": "Râble et cuisses de lapin",
+    "description": "Râble et cuisses de lapin mijotés au cidre, nappés d'une sauce à la crème avec petits oignons glacés et pommes sautées au beurre.",
+    "images": {
+      "cover": "images/recipes/rable-et-cuisses-de-lapin/cover.svg",
+      "web": "images/recipes/rable-et-cuisses-de-lapin/cover.svg"
+    },
+    "prepTime": 25,
+    "cookTime": 50,
+    "servings": 5,
+    "difficulty": "Medio",
+    "category": "Secondi",
+    "tags": [
+      "lapin",
+      "plat-principal",
+      "français",
+      "nostalgique",
+      "recette-de-famille",
+      "mijoté",
+      "automne",
+      "sucré-salé",
+      "réconfortant",
+      "gourmand",
+      "chaud",
+      "convivial"
+    ],
+    "origin": "amelie-grandpa",
+    "translations": {
+      "en": {
+        "title": "Saddle and legs of rabbit",
+        "description": "Saddle and legs of rabbit simmered in cider, coated with a cream sauce with glazed pearl onions and apples sautéed in butter.",
+        "tags": [
+          "rabbit",
+          "main-course",
+          "french",
+          "nostalgic",
+          "family-recipe",
+          "simmered",
+          "autumn",
+          "sweet-and-savoury",
+          "comforting",
+          "indulgent",
+          "hot",
+          "convivial"
+        ]
+      },
+      "it": {
+        "title": "Lombo e cosce di coniglio",
+        "description": "Lombo e cosce di coniglio cotti a fuoco lento nel sidro, nappati con una salsa alla panna con cipolline glassate e mele saltate nel burro.",
+        "tags": [
+          "coniglio",
+          "piatto-principale",
+          "francese",
+          "nostalgico",
+          "ricetta-di-famiglia",
+          "cotto-a-fuoco-lento",
+          "autunno",
+          "agrodolce",
+          "confortante",
+          "goloso",
+          "caldo",
+          "conviviale"
+        ]
+      }
+    },
+    "stepCount": 7,
+    "ingredientCount": 12
+  },
+  {
+    "slug": "rillettes-de-lapin",
+    "title": "Rillettes de lapin",
+    "description": "Des rillettes maison de porc et de lapin, mijotées au saindoux avec un bouquet garni puis écrasées à la fourchette, à garder en pots ou en terrine.",
+    "images": {
+      "cover": "images/recipes/rillettes-de-lapin/cover.svg",
+      "web": "images/recipes/rillettes-de-lapin/cover.svg"
+    },
+    "prepTime": 30,
+    "cookTime": 60,
+    "servings": 8,
+    "difficulty": "Facile",
+    "category": "Secondi",
+    "tags": [
+      "lapin",
+      "porc",
+      "charcuterie",
+      "mijoté",
+      "froid",
+      "apéro",
+      "préparation-à-lavance",
+      "à-partager",
+      "plat-principal",
+      "français",
+      "nostalgique",
+      "recette-de-famille"
+    ],
+    "origin": "amelie-grandpa",
+    "translations": {
+      "en": {
+        "title": "Rabbit rillettes",
+        "description": "Homemade pork and rabbit rillettes, simmered in lard with a bouquet garni then mashed with a fork, to keep in jars or in a terrine.",
+        "tags": [
+          "rabbit",
+          "pork",
+          "charcuterie",
+          "simmered",
+          "cold",
+          "aperitif",
+          "make-ahead",
+          "shareable",
+          "main-course",
+          "french",
+          "nostalgic",
+          "family-recipe"
+        ]
+      },
+      "it": {
+        "title": "Rillettes di coniglio",
+        "description": "Rillettes fatte in casa di maiale e coniglio, cotte a fuoco lento nello strutto con un mazzetto aromatico e poi schiacciate con la forchetta, da conservare in vasetti o in terrina.",
+        "tags": [
+          "coniglio",
+          "maiale",
+          "salumi",
+          "stufato",
+          "freddo",
+          "aperitivo",
+          "preparazione-anticipata",
+          "da-condividere",
+          "piatto-principale",
+          "francese",
+          "nostalgico",
+          "ricetta-di-famiglia"
+        ]
+      }
+    },
+    "stepCount": 6,
+    "ingredientCount": 7
+  },
+  {
+    "slug": "terrine-de-canard",
+    "title": "Terrine de canard",
+    "description": "Une terrine de canard désossé, aiguillettes marinées au Porto et au Cognac, farce aux pistaches, cuite au bain-marie.",
+    "images": {
+      "cover": "images/recipes/terrine-de-canard/cover.svg",
+      "web": "images/recipes/terrine-de-canard/cover.svg"
+    },
+    "prepTime": 90,
+    "cookTime": 90,
+    "servings": 1,
+    "difficulty": "Difficile",
+    "category": "Secondi",
+    "tags": [
+      "canard",
+      "français",
+      "nostalgique",
+      "recette-de-famille",
+      "plat-principal",
+      "bain-marie",
+      "four",
+      "préparation-à-lavance",
+      "festif",
+      "noël",
+      "à-partager",
+      "froid"
+    ],
+    "origin": "amelie-grandpa",
+    "translations": {
+      "en": {
+        "title": "Duck terrine",
+        "description": "A boned duck terrine with strips marinated in port and Cognac and a pistachio forcemeat, cooked in a bain-marie.",
+        "tags": [
+          "duck",
+          "french",
+          "nostalgic",
+          "family-recipe",
+          "main-course",
+          "bain-marie",
+          "oven",
+          "make-ahead",
+          "festive",
+          "christmas",
+          "to-share",
+          "cold"
+        ]
+      },
+      "it": {
+        "title": "Terrina d'anatra",
+        "description": "Una terrina d'anatra disossata, con listarelle marinate nel Porto e nel Cognac e una farcia ai pistacchi, cotta a bagnomaria.",
+        "tags": [
+          "anatra",
+          "francese",
+          "nostalgico",
+          "ricetta-di-famiglia",
+          "piatto-principale",
+          "bagnomaria",
+          "forno",
+          "da-preparare-in-anticipo",
+          "festivo",
+          "natale",
+          "da-condividere",
+          "freddo"
+        ]
+      }
+    },
+    "stepCount": 14,
+    "ingredientCount": 15
+  },
+  {
+    "slug": "terrine-de-lapin-aux-noisettes-et-genievre",
+    "title": "Terrine de lapin aux noisettes et genièvre",
+    "description": "Une terrine de lapin et d'échine de porc marinés au vin blanc, relevée de genièvre et de noisettes, avec les filets de lapin au cœur.",
+    "images": {
+      "cover": "images/recipes/terrine-de-lapin-aux-noisettes-et-genievre/cover.svg",
+      "web": "images/recipes/terrine-de-lapin-aux-noisettes-et-genievre/cover.svg"
+    },
+    "prepTime": 60,
+    "cookTime": 105,
+    "servings": 10,
+    "difficulty": "Medio",
+    "category": "Secondi",
+    "tags": [
+      "lapin",
+      "porc",
+      "français",
+      "nostalgique",
+      "recette-de-famille",
+      "plat-principal",
+      "bain-marie",
+      "four",
+      "froid",
+      "préparation-à-lavance",
+      "fête",
+      "buffet"
+    ],
+    "origin": "amelie-grandpa",
+    "translations": {
+      "en": {
+        "title": "Rabbit terrine with hazelnuts and juniper",
+        "description": "A terrine of rabbit and pork shoulder marinated in white wine, seasoned with juniper and hazelnuts, with the rabbit fillets at its heart.",
+        "tags": [
+          "rabbit",
+          "pork",
+          "french",
+          "nostalgic",
+          "family-recipe",
+          "main-course",
+          "bain-marie",
+          "oven",
+          "cold",
+          "make-ahead",
+          "party",
+          "buffet"
+        ]
+      },
+      "it": {
+        "title": "Terrina di coniglio alle nocciole e ginepro",
+        "description": "Una terrina di coniglio e coppa di maiale marinati nel vino bianco, insaporita con ginepro e nocciole, con i filetti di coniglio al centro.",
+        "tags": [
+          "coniglio",
+          "maiale",
+          "francese",
+          "nostalgico",
+          "ricetta-di-famiglia",
+          "piatto-principale",
+          "bagnomaria",
+          "forno",
+          "freddo",
+          "preparazione-in-anticipo",
+          "festa",
+          "buffet"
+        ]
+      }
+    },
+    "stepCount": 9,
+    "ingredientCount": 13
   }
 ]

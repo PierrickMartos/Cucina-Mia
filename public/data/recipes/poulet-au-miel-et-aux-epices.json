@@ -1,0 +1,206 @@
+{
+  "slug": "poulet-au-miel-et-aux-epices",
+  "title": "Poulet au miel et aux épices",
+  "description": "Poulet mariné au citron, au miel et aux épices, rôti au four, servi avec des oignons confits, des figues blondies et une semoule ou un riz au safran.",
+  "images": {
+    "cover": "images/recipes/poulet-au-miel-et-aux-epices/cover.svg",
+    "web": "images/recipes/poulet-au-miel-et-aux-epices/cover.svg"
+  },
+  "prepTime": 30,
+  "cookTime": 50,
+  "servings": 10,
+  "difficulty": "Facile",
+  "category": "Secondi",
+  "origin": "amelie-grandpa",
+  "tags": [
+    "poulet",
+    "plat-principal",
+    "four",
+    "sucré-salé",
+    "épicé",
+    "fruits",
+    "festif",
+    "chaud",
+    "facile",
+    "français",
+    "nostalgique",
+    "recette-de-famille"
+  ],
+  "ingredients": [
+    {
+      "items": [
+        "2 poulets de 1,5 kg",
+        "500 à 600 g d'oignons rouges et doux",
+        "500 à 600 g de figues fraîches",
+        "4 citrons",
+        "4 bonnes cuillères de miel d'acacia",
+        "Quatre-épices ou gingembre",
+        "Sel, poivre",
+        "Safran (stigmates)",
+        "600 g de couscous moyen ou 400 g de riz",
+        "Beurre"
+      ]
+    }
+  ],
+  "steps": [
+    {
+      "text": "Prélever les cuisses et les ailes des poulets, saler et poivrer."
+    },
+    {
+      "text": "Presser puis mélanger le jus de citron avec 2 cuillerées de miel, quatre-épices ou gingembre."
+    },
+    {
+      "text": "Passer chaque morceau de poulet dans ce mélange, placer sur une plaque et cuire au four 50 minutes environ en retournant deux à trois fois.",
+      "timers": [50]
+    },
+    {
+      "text": "Pendant la cuisson, préparer les garnitures : peler et couper les oignons en deux, mettre dans une sauteuse avec le beurre et le miel, couvrir et cuire doucement jusqu'à ce que les oignons soient confits, réserver."
+    },
+    {
+      "text": "Couper les figues en deux, les faire blondir dans une sauteuse avec du beurre et un peu de miel, cuire quelques minutes puis réserver."
+    },
+    {
+      "text": "Garniture : cuire la semoule à la vapeur pendant 15 minutes, égrener avec quelques noix de beurre, ajouter le safran, sel et poivre.",
+      "timers": [15]
+    },
+    {
+      "text": "Ou cuire un riz pilaf avec une petite fondue d'oignons, du safran, sel et poivre ; mouiller si possible d'un fond de volaille."
+    },
+    {
+      "text": "Servir à l'assiette : 1 morceau de poulet, ½ oignon, ½ figue, napper le poulet avec une cuillerée de cuisson. Servir la semoule ou le riz à part."
+    }
+  ],
+  "source": "Les recettes de Maurice Houdré, tome 2, Volailles, lapins, foie gras",
+  "originalSource": {
+    "type": "text",
+    "data": "Poulet au miel et aux épices\n\nIngrédients : pour 10 personnes\n\n. 2 poulets de 1,5 kg\n. 500 à 600 g d’oignons rouges et doux\n. 500 à 600 g de figues fraîches\n. 4 citrons\n. 4 bonnes cuillères de miel d’acacia\n. quatre-épices ou gingembre\n. sel, poivre\n. safran (stigmates)\n. 600 g de couscous moyen ou 400 g de riz\n\nPrélever les cuisses et les ailes des poulets, saler et poivrer.\n\nPresser puis mélanger le jus de citron avec 2 cuillérées de miel, quatre-épices ou gingembre. \nPasser chaque morceau de poulet dans ce mélange, placer sur une plaque et cuire au four 50 minutes environ en retournant deux à trois fois.\n\nPendant la cuisson préparer les garnitures :\nPeler et couper les oignons en deux, mettre dans une sauteuse avec le beurre et le miel, couvrir et cuire doucement jusqu’à ce que les oignons soient confits, réserver.\nCouper les figues en deux, les faire blondir dans une sauteuse avec du beurre et un peu de miel, cuire quelques minutes puis réserver.\n\nGarniture :\nCuire la semoule à la vapeur pendant 15 minutes, égrener avec quelques noix de beurre, ajouter le safran, sel et poivre.\nOu\nCuire un riz Pilaf avec une petite fondue d’oignons, du safran, sel et poivre ; mouiller si possible d’un fond de volaille.\n\nServir à l’assiette :\n1 morceau de poulet, ½ oignon, ½ figue, napper le poulet avec une cuillérée de cuisson.\nServir la semoule ou le riz à part.\n"
+  },
+  "related": [
+    "couscous-d-agneau-et-de-poulet",
+    "jambonnettes-de-volaille",
+    "poulet-au-curry",
+    "biryani-agneau"
+  ],
+  "translations": {
+    "en": {
+      "title": "Honey and Spice Chicken",
+      "description": "Chicken marinated in lemon, honey and spices, roasted in the oven, served with confit onions, golden figs and saffron couscous or rice.",
+      "tags": [
+        "chicken",
+        "main-course",
+        "oven",
+        "sweet-and-savory",
+        "spicy",
+        "fruit",
+        "festive",
+        "hot",
+        "easy",
+        "french",
+        "nostalgic",
+        "family-recipe"
+      ],
+      "ingredients": [
+        {
+          "items": [
+            "2 chickens of 1.5 kg each",
+            "500 to 600 g of sweet red onions",
+            "500 to 600 g of fresh figs",
+            "4 lemons",
+            "4 heaped spoons of acacia honey",
+            "Allspice or ginger",
+            "Salt, pepper",
+            "Saffron (threads)",
+            "600 g of medium couscous or 400 g of rice",
+            "Butter"
+          ]
+        }
+      ],
+      "steps": [
+        {
+          "text": "Remove the legs and wings from the chickens, season with salt and pepper."
+        },
+        {
+          "text": "Squeeze the lemons, then mix the juice with 2 spoonfuls of honey and the allspice or ginger."
+        },
+        {
+          "text": "Dip each piece of chicken in this mixture, place on a baking tray and roast in the oven for about 50 minutes, turning two or three times."
+        },
+        {
+          "text": "Meanwhile, prepare the garnish: peel the onions and cut them in half, put them in a sauté pan with the butter and honey, cover and cook gently until the onions are confit, set aside."
+        },
+        {
+          "text": "Cut the figs in half, brown them lightly in a sauté pan with butter and a little honey, cook for a few minutes, then set aside."
+        },
+        {
+          "text": "Garnish: steam the couscous for 15 minutes, fluff it up with a few knobs of butter, add the saffron, salt and pepper."
+        },
+        {
+          "text": "Or cook a rice pilaf with a little softened onion, saffron, salt and pepper; add liquid, ideally a chicken stock."
+        },
+        {
+          "text": "Plate individually: 1 piece of chicken, ½ onion, ½ fig, coat the chicken with a spoonful of cooking juices. Serve the couscous or rice on the side."
+        }
+      ]
+    },
+    "it": {
+      "title": "Pollo al miele e spezie",
+      "description": "Pollo marinato al limone, al miele e alle spezie, arrostito al forno, servito con cipolle confit, fichi dorati e cuscus o riso allo zafferano.",
+      "tags": [
+        "pollo",
+        "piatto-principale",
+        "forno",
+        "agrodolce",
+        "speziato",
+        "frutta",
+        "festivo",
+        "caldo",
+        "facile",
+        "francese",
+        "nostalgico",
+        "ricetta-di-famiglia"
+      ],
+      "ingredients": [
+        {
+          "items": [
+            "2 polli da 1,5 kg",
+            "500 - 600 g di cipolle rosse dolci",
+            "500 - 600 g di fichi freschi",
+            "4 limoni",
+            "4 cucchiai abbondanti di miele di acacia",
+            "Quattro spezie o zenzero",
+            "Sale, pepe",
+            "Zafferano (pistilli)",
+            "600 g di cuscus medio o 400 g di riso",
+            "Burro"
+          ]
+        }
+      ],
+      "steps": [
+        {
+          "text": "Staccare le cosce e le ali dei polli, salare e pepare."
+        },
+        {
+          "text": "Spremere i limoni, poi mescolare il succo con 2 cucchiaiate di miele e le quattro spezie o lo zenzero."
+        },
+        {
+          "text": "Passare ogni pezzo di pollo in questo composto, disporlo su una teglia e cuocere in forno per circa 50 minuti, girandolo due o tre volte."
+        },
+        {
+          "text": "Durante la cottura, preparare la guarnizione: sbucciare le cipolle e tagliarle a metà, metterle in una sauteuse con il burro e il miele, coprire e cuocere dolcemente finché le cipolle sono confit, tenere da parte."
+        },
+        {
+          "text": "Tagliare i fichi a metà, farli dorare leggermente in una sauteuse con burro e un po' di miele, cuocere qualche minuto, poi tenere da parte."
+        },
+        {
+          "text": "Guarnizione: cuocere il cuscus al vapore per 15 minuti, sgranarlo con qualche noce di burro, aggiungere lo zafferano, sale e pepe."
+        },
+        {
+          "text": "Oppure cuocere un riso pilaf con un po' di cipolla stufata, zafferano, sale e pepe; bagnare, se possibile, con un fondo di pollame."
+        },
+        {
+          "text": "Servire nel piatto: 1 pezzo di pollo, ½ cipolla, ½ fico, nappare il pollo con una cucchiaiata del fondo di cottura. Servire il cuscus o il riso a parte."
+        }
+      ]
+    }
+  }
+}

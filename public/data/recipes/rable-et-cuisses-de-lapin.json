@@ -1,0 +1,203 @@
+{
+  "slug": "rable-et-cuisses-de-lapin",
+  "title": "Râble et cuisses de lapin",
+  "description": "Râble et cuisses de lapin mijotés au cidre, nappés d'une sauce à la crème avec petits oignons glacés et pommes sautées au beurre.",
+  "images": {
+    "cover": "images/recipes/rable-et-cuisses-de-lapin/cover.svg",
+    "web": "images/recipes/rable-et-cuisses-de-lapin/cover.svg"
+  },
+  "prepTime": 25,
+  "cookTime": 50,
+  "servings": 5,
+  "difficulty": "Medio",
+  "category": "Secondi",
+  "origin": "amelie-grandpa",
+  "tags": [
+    "lapin",
+    "plat-principal",
+    "français",
+    "nostalgique",
+    "recette-de-famille",
+    "mijoté",
+    "automne",
+    "sucré-salé",
+    "réconfortant",
+    "gourmand",
+    "chaud",
+    "convivial"
+  ],
+  "ingredients": [
+    {
+      "items": [
+        "1 râble et 2 cuisses de lapin",
+        "200 g d'oignons blancs",
+        "500 g de pommes Reinette ou Golden",
+        "3 dl de cidre",
+        "1 dl de crème",
+        "150 g de beurre",
+        "1 oignon",
+        "1 carotte",
+        "1 bouquet garni",
+        "50 g de farine",
+        "1 cuillerée à dessert de sucre",
+        "Sel, poivre"
+      ]
+    }
+  ],
+  "steps": [
+    {
+      "text": "Passer le râble et les cuisses dans la farine."
+    },
+    {
+      "text": "Dans une cocotte, faire chauffer 50 g de beurre, faire dorer le râble et les cuisses, ajouter l'oignon et la carotte émincés, faire suer 5 à 6 minutes, saler, poivrer, ajouter le bouquet garni et le cidre, couvrir, faire cuire 30 à 40 minutes selon la grosseur du lapin.",
+      "timers": [5, 30]
+    },
+    {
+      "text": "Éplucher les petits oignons, cuire avec de l'eau juste à hauteur, ajouter 50 g de beurre, sel, poivre et sucre, couvrir avec un papier sulfurisé beurré. À la fin de la cuisson, l'eau doit être évaporée et les petits oignons « glacés »."
+    },
+    {
+      "text": "Éplucher les pommes, couper en quartiers et faire sauter avec 50 g de beurre."
+    },
+    {
+      "text": "Au terme de la cuisson, retirer le lapin, réserver au chaud."
+    },
+    {
+      "text": "Passer le jus de cuisson à la passoire fine, faire réduire si nécessaire, ajouter la crème, faire bouillir 2 à 3 minutes, mettre dans cette sauce les petits oignons glacés et les pommes, faire mijoter 2 à 3 minutes.",
+      "timers": [2, 2]
+    },
+    {
+      "text": "Couper le râble et les cuisses en morceaux, disposer dans un plat rond creux, verser la garniture et la sauce dessus."
+    }
+  ],
+  "source": "Les recettes de Maurice Houdré, tome 2, Volailles, lapins, foie gras",
+  "originalSource": {
+    "type": "text",
+    "data": "Râble et cuisses de lapin\n\nIngrédients : pour 5/6 personnes\n\n. 1 râble et 2 cuisses de lapin\n. 200 g d’oignons blancs\n. 500 g de pommes Reinette ou Golden\n. 3 dl de cidre\n. 1 dl de crème\n. 150 g de beurre\n. 1 oignon\n. 1 carotte\n. 1 bouquet garni\n. 50 g de farine\n. 1 cuillérée à dessert de sucre\n. sel, poivre\n\nPasser le râble et les cuisses dans la farine.\n\nDans une cocotte, faire chauffer 50 g de beurre, faire dorer le râble et les cuisses, ajouter l’oignon et la carotte émincés, faire suer 5 à 6 minutes, saler, poivrer, ajouter le bouquet garni et le cidre, couvrir, faire cuire 30 à 40 minutes selon la grosseur du lapin.\nEplucher les petits oignons, cuire avec de l’eau juste à hauteur, ajouter 50 g de beurre, sel, poivre et sucre, couvrir avec un papier sulfurisé beurré. A la fin de la cuisson, l’eau doit être évaporée et les petits oignons « glacés ».\nEplucher les pommes, couper en quartiers et faire sauter avec 50 g de beurre.\nAu terme de la cuisson, retirer le lapin, réserver au chaud.\nPasser le jus de cuisson à la passoire fine, faire réduire si nécessaire, ajouter la crème, faire bouillir 2 à 3 minutes, mettre dans cette sauce les petits oignons glacés et les pommes, faire mijoter 2 à 3 minutes.\nCouper le râble et les cuisses en morceaux, disposer dans un plat rond creux, verser la garniture et la sauce dessus.\n"
+  },
+  "related": [
+    "lapin-aux-pruneaux",
+    "canard-farci-braise-aux-navets",
+    "fricassee-de-veau-aux-aubergines-et-pruneaux",
+    "jambonnettes-de-volaille"
+  ],
+  "translations": {
+    "en": {
+      "title": "Saddle and legs of rabbit",
+      "description": "Saddle and legs of rabbit simmered in cider, coated with a cream sauce with glazed pearl onions and apples sautéed in butter.",
+      "tags": [
+        "rabbit",
+        "main-course",
+        "french",
+        "nostalgic",
+        "family-recipe",
+        "simmered",
+        "autumn",
+        "sweet-and-savoury",
+        "comforting",
+        "indulgent",
+        "hot",
+        "convivial"
+      ],
+      "ingredients": [
+        {
+          "items": [
+            "1 saddle and 2 legs of rabbit",
+            "200 g of pearl onions",
+            "500 g of Reinette or Golden apples",
+            "3 dl of cider",
+            "1 dl of cream",
+            "150 g of butter",
+            "1 onion",
+            "1 carrot",
+            "1 bouquet garni",
+            "50 g of flour",
+            "1 dessertspoon of sugar",
+            "Salt, pepper"
+          ]
+        }
+      ],
+      "steps": [
+        {
+          "text": "Dust the saddle and legs with flour."
+        },
+        {
+          "text": "In a casserole dish, heat 50 g of butter, brown the saddle and legs, add the thinly sliced onion and carrot, sweat for 5 to 6 minutes, season with salt and pepper, add the bouquet garni and the cider, cover and cook for 30 to 40 minutes depending on the size of the rabbit."
+        },
+        {
+          "text": "Peel the pearl onions, cook them with water just to cover, add 50 g of butter, salt, pepper and sugar, and cover with a buttered sheet of baking paper. By the end of cooking, the water should have evaporated and the pearl onions should be \"glazed\"."
+        },
+        {
+          "text": "Peel the apples, cut them into quarters and sauté them in 50 g of butter."
+        },
+        {
+          "text": "When the cooking is done, remove the rabbit and keep it warm."
+        },
+        {
+          "text": "Strain the cooking juices through a fine sieve, reduce if needed, add the cream, boil for 2 to 3 minutes, add the glazed pearl onions and the apples to this sauce and simmer for 2 to 3 minutes."
+        },
+        {
+          "text": "Cut the saddle and legs into pieces, arrange them in a deep round dish and pour the garnish and the sauce over them."
+        }
+      ]
+    },
+    "it": {
+      "title": "Lombo e cosce di coniglio",
+      "description": "Lombo e cosce di coniglio cotti a fuoco lento nel sidro, nappati con una salsa alla panna con cipolline glassate e mele saltate nel burro.",
+      "tags": [
+        "coniglio",
+        "piatto-principale",
+        "francese",
+        "nostalgico",
+        "ricetta-di-famiglia",
+        "cotto-a-fuoco-lento",
+        "autunno",
+        "agrodolce",
+        "confortante",
+        "goloso",
+        "caldo",
+        "conviviale"
+      ],
+      "ingredients": [
+        {
+          "items": [
+            "1 lombo e 2 cosce di coniglio",
+            "200 g di cipolline bianche",
+            "500 g di mele Renetta o Golden",
+            "3 dl di sidro",
+            "1 dl di panna",
+            "150 g di burro",
+            "1 cipolla",
+            "1 carota",
+            "1 mazzetto aromatico",
+            "50 g di farina",
+            "1 cucchiaino da dessert di zucchero",
+            "Sale, pepe"
+          ]
+        }
+      ],
+      "steps": [
+        {
+          "text": "Spolverare di farina il lombo e le cosce."
+        },
+        {
+          "text": "In una casseruola, scaldare 50 g di burro, rosolare il lombo e le cosce, aggiungere la cipolla e la carota affettate sottilmente, far sudare per 5-6 minuti, salare, pepare, aggiungere il mazzetto aromatico e il sidro, coprire e cuocere per 30-40 minuti a seconda della grandezza del coniglio."
+        },
+        {
+          "text": "Sbucciare le cipolline, cuocerle con acqua appena a filo, aggiungere 50 g di burro, sale, pepe e zucchero, coprire con un foglio di carta forno imburrato. A fine cottura l'acqua deve essere evaporata e le cipolline «glassate»."
+        },
+        {
+          "text": "Sbucciare le mele, tagliarle a spicchi e saltarle con 50 g di burro."
+        },
+        {
+          "text": "A fine cottura, togliere il coniglio e tenerlo in caldo."
+        },
+        {
+          "text": "Filtrare il fondo di cottura con un colino fine, far ridurre se necessario, aggiungere la panna, far bollire per 2-3 minuti, unire a questa salsa le cipolline glassate e le mele e lasciar sobbollire per 2-3 minuti."
+        },
+        {
+          "text": "Tagliare il lombo e le cosce a pezzi, disporli in un piatto rotondo fondo e versarvi sopra la guarnizione e la salsa."
+        }
+      ]
+    }
+  }
+}

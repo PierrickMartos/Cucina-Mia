@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <defs>
+    <radialGradient id="cfnbg" cx="50%" cy="45%" r="70%"><stop offset="0%" stop-color="#2e2822"/><stop offset="100%" stop-color="#1a1510"/></radialGradient>
+    <radialGradient id="cfndish" cx="45%" cy="40%" r="65%"><stop offset="0%" stop-color="#eee6d8"/><stop offset="100%" stop-color="#a89c88"/></radialGradient>
+    <radialGradient id="cfnsauce" cx="45%" cy="40%" r="60%"><stop offset="0%" stop-color="#6e3a1a"/><stop offset="100%" stop-color="#3a1c0a"/></radialGradient>
+    <linearGradient id="cfnduck" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#d08a4c"/><stop offset="100%" stop-color="#945026"/></linearGradient>
+    <radialGradient id="cfnturnip" cx="35%" cy="30%" r="70%"><stop offset="0%" stop-color="#fbf0d4"/><stop offset="100%" stop-color="#d4a45a"/></radialGradient>
+    <linearGradient id="cfnfarce" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#d4a080"/><stop offset="100%" stop-color="#a8704e"/></linearGradient>
+  </defs>
+  <rect width="800" height="600" fill="url(#cfnbg)"/>
+  <g opacity="0.1" fill="#b09070"><ellipse cx="100" cy="130" rx="40" ry="14"/><ellipse cx="700" cy="490" rx="44" ry="16"/></g>
+  <ellipse cx="400" cy="475" rx="320" ry="55" fill="#000" opacity="0.35"/>
+  <ellipse cx="400" cy="320" rx="310" ry="170" fill="url(#cfndish)"/>
+  <ellipse cx="400" cy="325" rx="262" ry="138" fill="#7a6a58" opacity="0.4"/>
+  <ellipse cx="400" cy="328" rx="250" ry="128" fill="url(#cfnsauce)"/>
+  <g fill="url(#cfnduck)">
+    <path d="M260,250 C300,225 350,240 350,280 C350,315 310,325 280,315 L230,330 C215,334 210,318 222,312 L255,295 C240,280 240,262 260,250Z"/>
+    <path d="M420,230 C460,210 510,225 505,262 C500,295 460,300 435,290 L400,305 C388,310 380,296 392,288 L415,272 C405,258 405,240 420,230Z"/>
+    <path d="M300,340 C330,320 380,330 385,360 C388,385 350,398 320,390 C295,382 285,355 300,340Z"/>
+    <path d="M430,330 C455,315 495,322 500,350 C504,375 470,385 445,378 C422,370 415,345 430,330Z"/>
+  </g>
+  <g fill="#e8b070" opacity="0.3"><ellipse cx="300" cy="262" rx="30" ry="10"/><ellipse cx="460" cy="240" rx="28" ry="9"/><ellipse cx="335" cy="348" rx="24" ry="7"/></g>
+  <g fill="url(#cfnturnip)">
+    <ellipse cx="380" cy="300" rx="22" ry="17"/><ellipse cx="240" cy="360" rx="21" ry="16"/><ellipse cx="400" cy="400" rx="22" ry="16"/>
+    <ellipse cx="520" cy="300" rx="20" ry="15"/><ellipse cx="350" cy="225" rx="19" ry="14"/><ellipse cx="270" cy="400" rx="18" ry="13"/>
+    <ellipse cx="505" cy="400" rx="19" ry="14"/><ellipse cx="455" cy="410" rx="17" ry="12"/>
+  </g>
+  <g fill="#fff" opacity="0.45"><ellipse cx="373" cy="294" rx="6" ry="3"/><ellipse cx="233" cy="354" rx="6" ry="3"/><ellipse cx="393" cy="394" rx="6" ry="3"/><ellipse cx="514" cy="295" rx="5" ry="3"/><ellipse cx="344" cy="220" rx="5" ry="2"/></g>
+  <g>
+    <rect x="555" y="270" width="72" height="34" rx="8" fill="url(#cfnfarce)" transform="rotate(-8 591 287)"/>
+    <rect x="560" y="310" width="72" height="34" rx="8" fill="url(#cfnfarce)" transform="rotate(-4 596 327)"/>
+    <rect x="555" y="350" width="70" height="34" rx="8" fill="url(#cfnfarce)" transform="rotate(4 590 367)"/>
+    <g fill="#4a1e24"><circle cx="575" cy="285" r="4"/><circle cx="605" cy="280" r="3.5"/><circle cx="585" cy="328" r="4"/><circle cx="615" cy="322" r="3.5"/><circle cx="580" cy="368" r="4"/><circle cx="608" cy="372" r="3.5"/></g>
+    <g fill="#8a9a30"><circle cx="592" cy="292" r="4"/><circle cx="600" cy="334" r="4"/><circle cx="594" cy="362" r="4"/></g>
+    <g fill="#d8e070" opacity="0.8"><circle cx="592" cy="292" r="1.5"/><circle cx="600" cy="334" r="1.5"/><circle cx="594" cy="362" r="1.5"/></g>
+  </g>
+  <g fill="#3c8a34"><circle cx="330" cy="310" r="3"/><circle cx="470" cy="280" r="3"/><circle cx="420" cy="360" r="2.5"/></g>
+</svg>

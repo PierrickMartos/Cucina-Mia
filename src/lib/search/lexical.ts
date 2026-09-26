@@ -15,6 +15,8 @@ export interface LexicalHit {
   matched: number
   /** Every query term matched exactly (not only through a prefix or a typo). */
   exact: boolean
+  /** The query is one of the recipe titles, word for word. */
+  title: boolean
 }
 
 export interface LexicalResult {
@@ -51,6 +53,8 @@ export class LexicalIndex {
   private postings: Map<number, number>[] = []
   /** termId -> docs having the term outside the description (used for exclusions) */
   private strong: Set<number>[] = []
+  /** docIndex -> the words of each title (one set per language) */
+  private titles: Set<string>[][] = []
 
   /** stem -> stems meaning the same thing in another language (see buildTagAliases) */
   private aliases: Map<string, string[]>
@@ -59,6 +63,7 @@ export class LexicalIndex {
     this.aliases = aliases
     documents.forEach((doc, docIndex) => {
       this.slugs.push(doc.slug)
+      this.titles.push((doc.fields.title ?? []).map((title) => new Set(tokenize(title))))
       const weights = new Map<string, number>()
       const strong = new Set<string>()
       for (const field of Object.keys(FIELD_WEIGHTS) as SearchField[]) {
@@ -136,13 +141,23 @@ export class LexicalIndex {
     // both, while a word that matches nothing at all ("recette végétarienne") does not empty the result list.
     const hits: LexicalHit[] = []
     const related = new Set<string>()
+    const queryWords = new Set(query.terms.map((term) => term.stems[0]))
+    const isTitle = (docIndex: number) =>
+      this.titles[docIndex].some((words) => words.size === queryWords.size && [...queryWords].every((w) => words.has(w)))
     for (const [docIndex, { score, matched, exact }] of docScores) {
       const slug = this.slugs[docIndex]
       if (matched > 0 && !excluded.has(slug)) related.add(slug)
       if (matched < requiredCount || excluded.has(slug)) continue
-      hits.push({ slug, score, matched, exact: exact === query.terms.length })
+      hits.push({ slug, score, matched, exact: exact === query.terms.length, title: isTitle(docIndex) })
     }
-    hits.sort((a, b) => Number(b.exact) - Number(a.exact) || b.score - a.score || a.slug.localeCompare(b.slug))
+    // Typing a recipe's full title must find that recipe first, even when others use the same words more.
+    hits.sort(
+      (a, b) =>
+        Number(b.title) - Number(a.title) ||
+        Number(b.exact) - Number(a.exact) ||
+        b.score - a.score ||
+        a.slug.localeCompare(b.slug)
+    )
     return { hits, termCount: query.terms.length, excluded, related }
   }
 

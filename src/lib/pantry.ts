@@ -90,6 +90,7 @@ export const PANTRY_ITEMS: PantryItem[] = [
   item("lemon", "fruit", "Citrons", "Lemons", "Limoni", ["lemon", "lemon juice"]),
   item("lime", "fruit", "Citrons verts", "Limes", "Lime", ["lime"]),
   item("orange", "fruit", "Oranges", "Oranges", "Arance", ["orange", "orange juice"]),
+  item("fig", "fruit", "Figues", "Figs", "Fichi", ["fig", "fresh fig"]),
   item("grapes", "fruit", "Raisin", "Grapes", "Uva", ["grape", "muscat grape"]),
   item("grapefruit", "fruit", "Pamplemousse", "Grapefruit", "Pompelmo", ["grapefruit"]),
   item("avocado", "fruit", "Avocats", "Avocados", "Avocado", ["avocado"]),
@@ -161,7 +162,11 @@ export const PANTRY_ITEMS: PantryItem[] = [
   item("provola", "dairy", "Provola", "Provola", "Provola", ["provola"]),
 
   // Meat
-  item("chicken", "meat", "Poulet", "Chicken", "Pollo", ["chicken", "chicken breast"]),
+  item("chicken", "meat", "Poulet", "Chicken", "Pollo", ["chicken", "chicken breast", "poularde"]),
+  item("poultry-liver", "meat", "Foies de volaille", "Poultry livers", "Fegatini", ["chicken liver", "turkey liver", "poultry liver"]),
+  item("game-bird", "meat", "Faisan ou pintade", "Pheasant or guinea fowl", "Fagiano o faraona", ["pheasant", "guinea fowl"]),
+  item("rabbit", "meat", "Lapin", "Rabbit", "Coniglio", ["rabbit"]),
+  item("pork-fat", "meat", "Lard gras", "Pork fat", "Lardo", ["lard", "pork fat", "back fat"]),
   item("pork", "meat", "Porc", "Pork", "Maiale", ["pork", "pork tenderloin", "pork shoulder"]),
   item("sausage", "meat", "Saucisses", "Sausages", "Salsicce", ["sausage", "sausage meat"]),
   item("minced-meat", "meat", "Viande hachée", "Minced meat", "Carne macinata", ["minced meat", "ground beef"]),
@@ -254,7 +259,9 @@ export const PANTRY_ITEMS: PantryItem[] = [
   item("beer", "pantry", "Bière", "Beer", "Birra", ["beer", "lager"]),
   item("rum", "pantry", "Rhum", "Rum", "Rum", ["rum"]),
   item("grenadine", "pantry", "Sirop de grenadine", "Grenadine", "Granatina", ["grenadine"]),
-  item("cognac", "pantry", "Cognac", "Cognac", "Cognac", ["cognac"]),
+  item("cognac", "pantry", "Cognac ou armagnac", "Cognac or Armagnac", "Cognac o Armagnac", ["cognac", "armagnac"]),
+  item("orange-liqueur", "pantry", "Liqueur d'orange", "Orange liqueur", "Liquore all'arancia", ["cointreau", "grand marnier", "curacao", "orange liqueur"]),
+  item("cider", "pantry", "Cidre", "Cider", "Sidro", ["cider"]),
   item("port", "pantry", "Porto", "Port", "Porto", ["port", "port wine"]),
   item("vermouth", "pantry", "Vermouth (Noilly)", "Vermouth (Noilly)", "Vermut (Noilly)", ["vermouth", "noilly", "white noilly"]),
   item("pastis", "pantry", "Pastis", "Pastis", "Pastis", ["pastis", "ricard"]),
@@ -270,6 +277,7 @@ export const PANTRY_ITEMS: PantryItem[] = [
   item("sunflower-seeds", "pantry", "Graines de tournesol", "Sunflower seeds", "Semi di girasole", ["sunflower seed"]),
 
   // Spices
+  item("juniper", "spices", "Baies de genièvre", "Juniper berries", "Bacche di ginepro", ["juniper", "juniper berry"]),
   item("cumin", "spices", "Cumin", "Cumin", "Cumino", ["cumin"]),
   item("paprika", "spices", "Paprika", "Paprika", "Paprika", ["paprika"]),
   item("turmeric", "spices", "Curcuma", "Turmeric", "Curcuma", ["turmeric"]),
