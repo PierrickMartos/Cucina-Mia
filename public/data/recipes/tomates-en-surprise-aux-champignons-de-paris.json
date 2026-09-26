@@ -1,0 +1,198 @@
+{
+  "slug": "tomates-en-surprise-aux-champignons-de-paris",
+  "title": "Tomates en surprise aux champignons de Paris",
+  "description": "Des tomates évidées, garnies de champignons citronnés, maïs et petits pois à la mayonnaise, coiffées de crevettes et de persil, servies sur une feuille de laitue.",
+  "images": {
+    "cover": "images/recipes/tomates-en-surprise-aux-champignons-de-paris/cover.svg",
+    "web": "images/recipes/tomates-en-surprise-aux-champignons-de-paris/cover.svg"
+  },
+  "prepTime": 30,
+  "cookTime": 0,
+  "servings": 10,
+  "difficulty": "Facile",
+  "category": "Antipasti",
+  "origin": "amelie-grandpa",
+  "tags": [
+    "tomate",
+    "champignons",
+    "légumes",
+    "fruits-de-mer",
+    "entrée",
+    "no-cuisson",
+    "froid",
+    "été",
+    "buffet",
+    "facile",
+    "français",
+    "nostalgique",
+    "recette-de-famille"
+  ],
+  "ingredients": [
+    {
+      "items": [
+        "300 g de champignons de Paris frais",
+        "½ boîte de maïs doux en grains",
+        "½ boîte de petits pois",
+        "10 tomates",
+        "½ laitue",
+        "60 g de crevettes décortiquées",
+        "2 dl de mayonnaise",
+        "20 g de persil",
+        "1 citron",
+        "Sel, poivre"
+      ]
+    }
+  ],
+  "steps": [
+    {
+      "text": "Couper les champignons en dés et les mélanger avec le jus des 2 citrons."
+    },
+    {
+      "text": "Égoutter le maïs."
+    },
+    {
+      "text": "Égoutter les petits pois."
+    },
+    {
+      "text": "Préparer les tomates : enlever le pédoncule ; sur l'autre face, couper le dessus pour faire le couvercle. Évider soigneusement les tomates, saler l'intérieur, retourner et laisser égoutter."
+    },
+    {
+      "text": "Préparer la garniture : mélanger les champignons, le maïs, les petits pois et la mayonnaise très ferme."
+    },
+    {
+      "text": "Garnir les tomates, disposer sur chacune quelques crevettes et du persil haché, poser le couvercle."
+    },
+    {
+      "text": "Placer chaque tomate sur une feuille de laitue."
+    }
+  ],
+  "source": "Les recettes de Maurice Houdré, tome 1, Les entrées en assiette froide et salades composées",
+  "originalSource": {
+    "type": "text",
+    "data": "Tomates en surprise aux champignons de Paris \n\nIngrédients : pour 10 personnes\n\n. 300 g de champignons de Paris frais\t\t\tPréparation : ½ heure\n. ½ boîte de maïs doux en grains\n. ½ boîte de petits pois\n. 10 tomates\n. ½ laitue\n. 60 g de crevettes décortiquées\n. 2 dl de mayonnaise\n. 20 g de persil\n. 1 citron\n. sel, poivre\n\nPréparation :\n\nCouper les champignons en dés et mélanger les avec le jus des 2 citrons.\n\nEgoutter le maïs.\nEgoutter les petits pois.\nPréparer les tomates : enlever le pédoncule ; sur l’autre face, couper le dessus pour faire le couvercle. Evider soigneusement les tomates, saler l’intérieur, retourner et laisser égoutter.\nPréparer la garniture : Mélanger les champignons, maïs, petits pois, mayonnaise très ferme.\nGarnir les tomates, disposer sur chacune quelques crevettes et du persil haché, poser le couvercle.\nPlacer chaque tomate sur une feuille de laitue.\n"
+  },
+  "related": [
+    "taboule-aux-fruits-de-mer",
+    "assiette-bagatelle-aux-champignons-de-paris",
+    "salade-de-riz-aux-fruits-de-mer",
+    "salade-chinoise-aux-champignons-de-paris"
+  ],
+  "translations": {
+    "en": {
+      "title": "Surprise Tomatoes with Button Mushrooms",
+      "description": "Hollowed-out tomatoes filled with lemony mushrooms, sweetcorn and peas in mayonnaise, topped with prawns and parsley, served on a lettuce leaf.",
+      "tags": [
+        "tomato",
+        "mushrooms",
+        "vegetables",
+        "seafood",
+        "starter",
+        "no-cook",
+        "cold",
+        "summer",
+        "buffet",
+        "easy",
+        "french",
+        "nostalgic",
+        "family-recipe"
+      ],
+      "ingredients": [
+        {
+          "items": [
+            "300 g fresh button mushrooms",
+            "½ can of sweetcorn kernels",
+            "½ can of peas",
+            "10 tomatoes",
+            "½ lettuce",
+            "60 g peeled prawns",
+            "2 dl mayonnaise",
+            "20 g parsley",
+            "1 lemon",
+            "Salt, pepper"
+          ]
+        }
+      ],
+      "steps": [
+        {
+          "text": "Dice the mushrooms and mix them with the juice of the 2 lemons."
+        },
+        {
+          "text": "Drain the sweetcorn."
+        },
+        {
+          "text": "Drain the peas."
+        },
+        {
+          "text": "Prepare the tomatoes: remove the stalk; on the other side, cut off the top to make the lid. Carefully hollow out the tomatoes, salt the inside, turn them upside down and leave to drain."
+        },
+        {
+          "text": "Prepare the filling: mix the mushrooms, sweetcorn, peas and the very firm mayonnaise."
+        },
+        {
+          "text": "Fill the tomatoes, place a few prawns and some chopped parsley on each one, and put the lid on."
+        },
+        {
+          "text": "Set each tomato on a lettuce leaf."
+        }
+      ]
+    },
+    "it": {
+      "title": "Pomodori a sorpresa con funghi champignon",
+      "description": "Pomodori svuotati, farciti con funghi al limone, mais e piselli alla maionese, completati con gamberetti e prezzemolo, serviti su una foglia di lattuga.",
+      "tags": [
+        "pomodoro",
+        "funghi",
+        "verdure",
+        "frutti-di-mare",
+        "antipasto",
+        "senza-cottura",
+        "freddo",
+        "estate",
+        "buffet",
+        "facile",
+        "francese",
+        "nostalgico",
+        "ricetta-di-famiglia"
+      ],
+      "ingredients": [
+        {
+          "items": [
+            "300 g di funghi champignon freschi",
+            "½ scatola di mais dolce in chicchi",
+            "½ scatola di piselli",
+            "10 pomodori",
+            "½ cespo di lattuga",
+            "60 g di gamberetti sgusciati",
+            "2 dl di maionese",
+            "20 g di prezzemolo",
+            "1 limone",
+            "Sale, pepe"
+          ]
+        }
+      ],
+      "steps": [
+        {
+          "text": "Tagliare i funghi a dadini e mescolarli con il succo dei 2 limoni."
+        },
+        {
+          "text": "Scolare il mais."
+        },
+        {
+          "text": "Scolare i piselli."
+        },
+        {
+          "text": "Preparare i pomodori: togliere il picciolo; dall'altro lato, tagliare la parte superiore per ricavare il coperchio. Svuotare con cura i pomodori, salare l'interno, capovolgerli e lasciarli sgocciolare."
+        },
+        {
+          "text": "Preparare la farcia: mescolare i funghi, il mais, i piselli e la maionese molto soda."
+        },
+        {
+          "text": "Farcire i pomodori, disporre su ciascuno qualche gamberetto e del prezzemolo tritato, rimettere il coperchio."
+        },
+        {
+          "text": "Sistemare ogni pomodoro su una foglia di lattuga."
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,165 @@
+{
+  "slug": "assiette-neptune",
+  "title": "Assiette Neptune",
+  "description": "Une assiette froide de la mer : terrine de poissons, tomate garnie de mousse d'avocat et croustade de moules et coques à la mayonnaise au Ketchup.",
+  "images": {
+    "cover": "images/recipes/assiette-neptune/cover.svg",
+    "web": "images/recipes/assiette-neptune/cover.svg"
+  },
+  "prepTime": 15,
+  "cookTime": 0,
+  "servings": 1,
+  "difficulty": "Facile",
+  "category": "Antipasti",
+  "origin": "amelie-grandpa",
+  "tags": [
+    "fruits-de-mer",
+    "poisson",
+    "avocat",
+    "entrée",
+    "froid",
+    "no-cuisson",
+    "facile",
+    "rapide",
+    "festif",
+    "français",
+    "nostalgique",
+    "recette-de-famille"
+  ],
+  "ingredients": [
+    {
+      "items": [
+        "1 tranche de terrine de poissons",
+        "1 petite tomate",
+        "1 avocat",
+        "1 cuillère à soupe de moules cuites",
+        "1 cuillère à soupe de coques cuites",
+        "1 cuillère à soupe de mayonnaise au Ketchup",
+        "2 grosses crevettes",
+        "Sel, poivre",
+        "1 petite croustade ou 1 petit feuilleté rond"
+      ]
+    }
+  ],
+  "steps": [
+    {
+      "text": "Faire la présentation suivante pour chaque assiette : mettre 1 tranche de terrine de poissons, 1 petite tomate garnie de mousse d'avocat."
+    },
+    {
+      "text": "Prendre des moules et des coques cuites, décortiquées et assaisonnées de mayonnaise au Ketchup, puis disposer la préparation dans des petites croustades ou petits feuilletés ronds."
+    },
+    {
+      "text": "Mettre 1 croustade ou feuilleté rond dans chaque assiette et décorer avec 2 bouquets."
+    }
+  ],
+  "tips": [
+    "Accompagnement : sauce Ketchup."
+  ],
+  "source": "Les recettes de Maurice Houdré, tome 1, Les entrées en assiette froide et salades composées",
+  "originalSource": {
+    "type": "text",
+    "data": "Assiette Neptune\n\nIngrédients : pour 1 assiette\n\n. 1 tranche de terrine de poissons\n. 1 petite tomate\n. 1 avocat\n. 1 cuillère à soupe de moules cuites\n. 1 cuillère à soupe de coques cuites\n. 1 cuillère à soupe de mayonnaise au Ketchup\n. 2 grosses crevettes\n. sel, poivre\n\nPréparation :\n\nFaire la présentation suivante pour chaque assiette :\n\nMettre 1 tranche de terrine de poissons, 1 petite tomate garnie de mousse d’avocat. Prendre des moules et des coques cuites, décortiquées et assaisonnées de mayonnaise au Ketchup puis disposer la préparation dans des petites croustades ou petits feuilletés ronds. Mettre 1 croustade ou feuilleté rond dans chaque assiette et décorer avec 2 bouquets.\n\nAccompagnement : sauce Ketchup.\n"
+  },
+  "related": [
+    "avocat-farci-aux-crevettes",
+    "tomates-en-surprise-aux-champignons-de-paris",
+    "salade-de-riz-aux-fruits-de-mer",
+    "assiette-solognote"
+  ],
+  "translations": {
+    "en": {
+      "title": "Neptune Plate",
+      "description": "A cold seafood plate: fish terrine, tomato filled with avocado mousse and a croustade of mussels and cockles in Ketchup mayonnaise.",
+      "tags": [
+        "seafood",
+        "fish",
+        "avocado",
+        "starter",
+        "cold",
+        "no-cook",
+        "easy",
+        "quick",
+        "festive",
+        "french",
+        "nostalgic",
+        "family-recipe"
+      ],
+      "ingredients": [
+        {
+          "items": [
+            "1 slice of fish terrine",
+            "1 small tomato",
+            "1 avocado",
+            "1 tablespoon of cooked mussels",
+            "1 tablespoon of cooked cockles",
+            "1 tablespoon of Ketchup mayonnaise",
+            "2 large prawns",
+            "Salt, pepper",
+            "1 small croustade or 1 small round puff pastry case"
+          ]
+        }
+      ],
+      "steps": [
+        {
+          "text": "Arrange each plate as follows: place 1 slice of fish terrine and 1 small tomato filled with avocado mousse."
+        },
+        {
+          "text": "Take cooked mussels and cockles, shelled and dressed with Ketchup mayonnaise, then spoon the mixture into small croustades or small round puff pastry cases."
+        },
+        {
+          "text": "Place 1 croustade or round puff pastry case on each plate and garnish with 2 bouquets."
+        }
+      ],
+      "tips": [
+        "Serve with: Ketchup sauce."
+      ]
+    },
+    "it": {
+      "title": "Piatto Nettuno",
+      "description": "Un piatto freddo di mare: terrina di pesce, pomodoro farcito con mousse di avocado e croustade di cozze e vongole con maionese al Ketchup.",
+      "tags": [
+        "frutti-di-mare",
+        "pesce",
+        "avocado",
+        "antipasto",
+        "freddo",
+        "senza-cottura",
+        "facile",
+        "veloce",
+        "festivo",
+        "francese",
+        "nostalgico",
+        "ricetta-di-famiglia"
+      ],
+      "ingredients": [
+        {
+          "items": [
+            "1 fetta di terrina di pesce",
+            "1 pomodoro piccolo",
+            "1 avocado",
+            "1 cucchiaio di cozze cotte",
+            "1 cucchiaio di vongole cotte",
+            "1 cucchiaio di maionese al Ketchup",
+            "2 gamberoni",
+            "Sale, pepe",
+            "1 piccola croustade o 1 piccolo cestino di sfoglia rotondo"
+          ]
+        }
+      ],
+      "steps": [
+        {
+          "text": "Comporre ogni piatto così: disporre 1 fetta di terrina di pesce e 1 pomodoro piccolo farcito con mousse di avocado."
+        },
+        {
+          "text": "Prendere cozze e vongole cotte, sgusciate e condite con maionese al Ketchup, poi disporre il composto in piccole croustade o piccoli cestini di sfoglia rotondi."
+        },
+        {
+          "text": "Mettere 1 croustade o cestino di sfoglia rotondo in ogni piatto e decorare con 2 bouquet."
+        }
+      ],
+      "tips": [
+        "Accompagnamento: salsa Ketchup."
+      ]
+    }
+  }
+}
