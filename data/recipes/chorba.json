@@ -1,0 +1,207 @@
+{
+  "slug": "chorba",
+  "title": "Chorba",
+  "description": "Soupe épicée à l'agneau, aux courgettes, pois chiches et petites pâtes, parfumée à la menthe, au paprika et à la coriandre fraîche.",
+  "images": {
+    "cover": "images/recipes/chorba/cover.svg",
+    "web": "images/recipes/chorba/cover.svg"
+  },
+  "prepTime": 30,
+  "cookTime": 65,
+  "servings": 8,
+  "difficulty": "Facile",
+  "category": "Zuppe",
+  "origin": "amelie-grandpa",
+  "tags": [
+    "français",
+    "nostalgique",
+    "recette-de-famille",
+    "entrée",
+    "agneau",
+    "légumes",
+    "mijoté",
+    "épicé",
+    "herbacé",
+    "réconfortant",
+    "hiver",
+    "chaud"
+  ],
+  "ingredients": [
+    {
+      "items": [
+        "800 g d'épaule d'agneau désossée",
+        "2 oignons",
+        "2 ou 3 petites courgettes",
+        "½ boîte de petits pois",
+        "½ boîte de pois chiches",
+        "1/4 boîte de concentré de tomate",
+        "125 g de langues d'oiseaux ou petites coquillettes",
+        "4 ou 5 gousses d'ail",
+        "8 à 10 feuilles de menthe",
+        "8 à 10 feuilles de coriandre fraîche",
+        "Sel fin",
+        "Poivre moulu",
+        "Poivre de Cayenne",
+        "1 cuillère à soupe de paprika",
+        "½ dl d'huile d'olive (Quanto basta)",
+        "2,5 à 3 litres d'eau"
+      ]
+    }
+  ],
+  "steps": [
+    {
+      "text": "Dégraisser, dénerver la viande."
+    },
+    {
+      "text": "Couper la viande en petits dés. Faire revenir dans l'huile chaude, ajouter l'oignon ciselé finement, faire rissoler quelques instants, mettre l'ail haché, les feuilles de menthe hachées, sel, poivre, paprika, Cayenne."
+    },
+    {
+      "text": "Mouiller avec 2,5 à 3 litres d'eau. Cuire 30 minutes à feu doux.",
+      "timers": [30]
+    },
+    {
+      "text": "Ajouter les courgettes coupées en dés, le concentré de tomate, cuire 20 minutes.",
+      "timers": [20]
+    },
+    {
+      "text": "Ajouter les pois chiches épluchés, les petits pois égouttés et les pâtes. Cuire l'ensemble 10 minutes.",
+      "timers": [10]
+    },
+    {
+      "text": "Au dernier moment, ajouter les feuilles de coriandre hachées. Rectifier l'assaisonnement si nécessaire."
+    }
+  ],
+  "source": "Les recettes de Maurice Houdré, tome 1, Potages et consommés",
+  "originalSource": {
+    "type": "text",
+    "data": "Chorba\n\nIngrédients : pour 8 à 10 personnes\n\n. 800 g d’épaule d’agneau désossée\n. 2 oignons\n. 2 ou 3 petites courgettes\n. ½ boîte de petits pois\n. ½ boîte de pois chiches\n. 1/4 boîte de concentré de tomate\n. 125 g de langues d’oiseaux ou petites coquillettes\n. 4 ou 5 gousses d’ail, 8 à 10 feuilles de menthe\n. 8 à 10 feuilles de coriandre fraîche\n. sel fin\n. poivre moulu\n. poivre de Cayenne\n. 1 cuillère à soupe de paprika \n. ½ dl d’huile d’olive\n\nPréparation :\n\nDégraisser, dénerver la viande. \n\nCouper la viande en petits dés. Faire revenir dans l’huile chaude, ajouter l’oignon ciselé finement, faire rissoler quelques instants, mettre l’ail haché, les feuilles de menthe hachées, sel, poivre, paprika, Cayenne. \nMouiller avec 2,5 à 3 litres d’eau. Cuire 30 minutes à feu doux. \nAjouter les courgettes coupées en dés, le concentré de tomate, cuire 20 minutes. \nAjouter les pois chiches épluchés, les petits pois égouttés et les pâtes. \nCuire l’ensemble 10 minutes. Au dernier moment, ajouter les feuilles de coriandre hachées. Rectifier l’assaisonnement si nécessaire.\nLes recettes de Maurice HOUDRÉ\n_________________________________________________________________________________________________\n\n_________________________________________________________________________\n\nE \n\nD\n\nH\n\nE \n\nL\n"
+  },
+  "related": [
+    "couscous-d-agneau-et-de-poulet",
+    "saute-d-agneau-aux-primeurs-ou-navarin-printanier",
+    "curry-d-agneau",
+    "biryani-agneau"
+  ],
+  "translations": {
+    "en": {
+      "title": "Chorba",
+      "description": "Spicy lamb soup with zucchini, chickpeas and small pasta, flavoured with mint, paprika and fresh coriander.",
+      "tags": [
+        "french",
+        "nostalgic",
+        "family-recipe",
+        "starter",
+        "lamb",
+        "vegetables",
+        "simmered",
+        "spicy",
+        "herby",
+        "comforting",
+        "winter",
+        "hot"
+      ],
+      "ingredients": [
+        {
+          "items": [
+            "800 g boneless lamb shoulder",
+            "2 onions",
+            "2 or 3 small zucchini",
+            "½ can of garden peas",
+            "½ can of chickpeas",
+            "1/4 can of tomato paste",
+            "125 g langues d'oiseaux (bird's tongue pasta) or small elbow pasta",
+            "4 or 5 garlic cloves",
+            "8 to 10 mint leaves",
+            "8 to 10 fresh coriander leaves",
+            "Fine salt",
+            "Ground pepper",
+            "Cayenne pepper",
+            "1 tablespoon paprika",
+            "½ dl olive oil (Quanto basta)",
+            "2.5 to 3 litres water"
+          ]
+        }
+      ],
+      "steps": [
+        {
+          "text": "Trim the fat and sinews from the meat."
+        },
+        {
+          "text": "Cut the meat into small cubes. Brown it in the hot oil, add the finely chopped onion, brown for a few moments, then add the chopped garlic, the chopped mint leaves, salt, pepper, paprika and Cayenne."
+        },
+        {
+          "text": "Add liquid: pour in 2.5 to 3 litres of water. Cook for 30 minutes over low heat."
+        },
+        {
+          "text": "Add the diced zucchini and the tomato paste, cook for 20 minutes."
+        },
+        {
+          "text": "Add the peeled chickpeas, the drained peas and the pasta. Cook everything for 10 minutes."
+        },
+        {
+          "text": "At the last moment, add the chopped coriander leaves. Adjust the seasoning if needed."
+        }
+      ]
+    },
+    "it": {
+      "title": "Chorba",
+      "description": "Zuppa speziata di agnello con zucchine, ceci e pastina, profumata alla menta, alla paprica e al coriandolo fresco.",
+      "tags": [
+        "francese",
+        "nostalgico",
+        "ricetta-di-famiglia",
+        "antipasto",
+        "agnello",
+        "verdure",
+        "cotto-a-fuoco-lento",
+        "speziato",
+        "erbaceo",
+        "confortante",
+        "inverno",
+        "caldo"
+      ],
+      "ingredients": [
+        {
+          "items": [
+            "800 g di spalla d'agnello disossata",
+            "2 cipolle",
+            "2 o 3 zucchine piccole",
+            "½ scatola di piselli",
+            "½ scatola di ceci",
+            "1/4 scatola di concentrato di pomodoro",
+            "125 g di lingue di passero o pipette piccole",
+            "4 o 5 spicchi d'aglio",
+            "8 - 10 foglie di menta",
+            "8 - 10 foglie di coriandolo fresco",
+            "Sale fino",
+            "Pepe macinato",
+            "Pepe di Caienna",
+            "1 cucchiaio di paprica",
+            "½ dl di olio d'oliva (Quanto basta)",
+            "2,5 - 3 litri d'acqua"
+          ]
+        }
+      ],
+      "steps": [
+        {
+          "text": "Sgrassare la carne ed eliminare i nervi."
+        },
+        {
+          "text": "Tagliare la carne a dadini. Rosolarla nell'olio caldo, aggiungere la cipolla tritata finemente, rosolare per qualche istante, poi unire l'aglio tritato, le foglie di menta tritate, sale, pepe, paprica e Caienna."
+        },
+        {
+          "text": "Bagnare con 2,5 - 3 litri d'acqua. Cuocere 30 minuti a fuoco basso."
+        },
+        {
+          "text": "Aggiungere le zucchine tagliate a dadini e il concentrato di pomodoro, cuocere 20 minuti."
+        },
+        {
+          "text": "Aggiungere i ceci sbucciati, i piselli scolati e la pasta. Cuocere il tutto 10 minuti."
+        },
+        {
+          "text": "All'ultimo momento, aggiungere le foglie di coriandolo tritate. Aggiustare di sale e pepe se necessario."
+        }
+      ]
+    }
+  }
+}

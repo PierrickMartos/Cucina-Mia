@@ -9023,5 +9023,368 @@
     },
     "stepCount": 8,
     "ingredientCount": 7
+  },
+  {
+    "slug": "creme-de-potiron",
+    "title": "Crème de potiron",
+    "description": "Un potage velouté de potiron, poireau et pommes de terre cuits au lait, mixé puis enrichi de crème allégée.",
+    "images": {
+      "cover": "images/recipes/creme-de-potiron/cover.webp",
+      "web": "images/recipes/creme-de-potiron/web.webp"
+    },
+    "imageCredit": {
+      "author": "RitaE",
+      "url": "https://pixabay.com/users/ritae-19628/"
+    },
+    "prepTime": 20,
+    "cookTime": 60,
+    "servings": 8,
+    "difficulty": "Facile",
+    "category": "Zuppe",
+    "tags": [
+      "français",
+      "nostalgique",
+      "recette-de-famille",
+      "entrée",
+      "potiron",
+      "légumes",
+      "végétarien",
+      "automne",
+      "hiver",
+      "onctueux",
+      "réconfortant",
+      "chaud"
+    ],
+    "origin": "amelie-grandpa",
+    "translations": {
+      "en": {
+        "title": "Cream of Pumpkin Soup",
+        "description": "A velvety soup of pumpkin, leek and potatoes cooked in milk, blended and then enriched with light cream.",
+        "tags": [
+          "french",
+          "nostalgic",
+          "family-recipe",
+          "starter",
+          "pumpkin",
+          "vegetables",
+          "vegetarian",
+          "autumn",
+          "winter",
+          "creamy",
+          "comforting",
+          "hot"
+        ]
+      },
+      "it": {
+        "title": "Crema di zucca",
+        "description": "Una vellutata di zucca, porro e patate cotti nel latte, frullata e poi arricchita con panna leggera.",
+        "tags": [
+          "francese",
+          "nostalgico",
+          "ricetta-di-famiglia",
+          "antipasto",
+          "zucca",
+          "verdure",
+          "vegetariano",
+          "autunno",
+          "inverno",
+          "cremoso",
+          "confortante",
+          "caldo"
+        ]
+      }
+    },
+    "stepCount": 6,
+    "ingredientCount": 9
+  },
+  {
+    "slug": "potage-a-l-oseille",
+    "title": "Potage à l'oseille",
+    "description": "Un potage de poireau et de pommes de terre relevé par l'acidité de l'oseille, mixé bien velouté et fini à la crème.",
+    "images": {
+      "cover": "images/recipes/potage-a-l-oseille/cover.webp",
+      "web": "images/recipes/potage-a-l-oseille/web.webp"
+    },
+    "imageCredit": {
+      "author": "Einladung_zum_Essen",
+      "url": "https://pixabay.com/users/einladung_zum_essen-3625323/"
+    },
+    "prepTime": 15,
+    "cookTime": 55,
+    "servings": 8,
+    "difficulty": "Facile",
+    "category": "Zuppe",
+    "tags": [
+      "oseille",
+      "légumes",
+      "entrée",
+      "français",
+      "nostalgique",
+      "recette-de-famille",
+      "végétarien",
+      "facile",
+      "onctueux",
+      "acidulé",
+      "réconfortant",
+      "chaud",
+      "printemps"
+    ],
+    "origin": "amelie-grandpa",
+    "translations": {
+      "en": {
+        "title": "Sorrel Soup",
+        "description": "A leek and potato soup lifted by the tartness of sorrel, blended until velvety smooth and finished with cream.",
+        "tags": [
+          "sorrel",
+          "vegetables",
+          "starter",
+          "french",
+          "nostalgic",
+          "family-recipe",
+          "vegetarian",
+          "easy",
+          "creamy",
+          "tangy",
+          "comforting",
+          "hot",
+          "spring"
+        ]
+      },
+      "it": {
+        "title": "Zuppa di acetosa",
+        "description": "Una zuppa di porro e patate ravvivata dall'acidità dell'acetosa, frullata fino a renderla vellutata e completata con la panna.",
+        "tags": [
+          "acetosa",
+          "verdure",
+          "antipasto",
+          "francese",
+          "nostalgico",
+          "ricetta-di-famiglia",
+          "vegetariano",
+          "facile",
+          "cremoso",
+          "acidulo",
+          "confortante",
+          "caldo",
+          "primavera"
+        ]
+      }
+    },
+    "stepCount": 4,
+    "ingredientCount": 6
+  },
+  {
+    "slug": "potage-bonne-femme",
+    "title": "Potage bonne femme",
+    "description": "Un potage simple de poireaux et pommes de terre, mixé puis garni de vermicelle et adouci d'un peu de crème.",
+    "images": {
+      "cover": "images/recipes/potage-bonne-femme/cover.webp",
+      "web": "images/recipes/potage-bonne-femme/web.webp"
+    },
+    "imageCredit": {
+      "author": "RitaE",
+      "url": "https://pixabay.com/users/ritae-19628/"
+    },
+    "prepTime": 15,
+    "cookTime": 55,
+    "servings": 8,
+    "difficulty": "Facile",
+    "category": "Zuppe",
+    "tags": [
+      "poireaux",
+      "pommes-de-terre",
+      "légumes",
+      "végétarien",
+      "entrée",
+      "hiver",
+      "réconfortant",
+      "chaud",
+      "facile",
+      "économique",
+      "français",
+      "nostalgique",
+      "recette-de-famille"
+    ],
+    "origin": "amelie-grandpa",
+    "translations": {
+      "en": {
+        "title": "Potage bonne femme",
+        "description": "A simple leek and potato soup, blended, then finished with vermicelli and softened with a little cream.",
+        "tags": [
+          "leeks",
+          "potatoes",
+          "vegetables",
+          "vegetarian",
+          "starter",
+          "winter",
+          "comforting",
+          "hot",
+          "easy",
+          "budget-friendly",
+          "french",
+          "nostalgic",
+          "family-recipe"
+        ]
+      },
+      "it": {
+        "title": "Zuppa di porri e patate",
+        "description": "Una zuppa semplice di porri e patate, frullata, poi arricchita con vermicelli e addolcita con un po' di panna.",
+        "tags": [
+          "porri",
+          "patate",
+          "verdure",
+          "vegetariano",
+          "antipasto",
+          "inverno",
+          "confortante",
+          "caldo",
+          "facile",
+          "economico",
+          "francese",
+          "nostalgico",
+          "ricetta-di-famiglia"
+        ]
+      }
+    },
+    "stepCount": 6,
+    "ingredientCount": 6
+  },
+  {
+    "slug": "soupe-a-l-ail",
+    "title": "Soupe à l'ail",
+    "description": "Une soupe à l'ail au bouillon de poule et au vin blanc, liée d'un roux, garnie de vermicelle et enrichie d'œufs.",
+    "images": {
+      "cover": "images/recipes/soupe-a-l-ail/cover.svg",
+      "web": "images/recipes/soupe-a-l-ail/cover.svg"
+    },
+    "prepTime": 10,
+    "cookTime": 30,
+    "servings": 4,
+    "difficulty": "Facile",
+    "category": "Zuppe",
+    "tags": [
+      "ail",
+      "œufs",
+      "entrée",
+      "chaud",
+      "réconfortant",
+      "hiver",
+      "facile",
+      "économique",
+      "à-la-cuillère",
+      "français",
+      "nostalgique",
+      "recette-de-famille"
+    ],
+    "origin": "amelie-grandpa",
+    "translations": {
+      "en": {
+        "title": "Garlic Soup",
+        "description": "A garlic soup made with chicken stock and white wine, thickened with a roux, garnished with vermicelli and enriched with eggs.",
+        "tags": [
+          "garlic",
+          "eggs",
+          "starter",
+          "hot",
+          "comforting",
+          "winter",
+          "easy",
+          "budget-friendly",
+          "spoonable",
+          "french",
+          "nostalgic",
+          "family-recipe"
+        ]
+      },
+      "it": {
+        "title": "Zuppa all'aglio",
+        "description": "Una zuppa all'aglio con brodo di gallina e vino bianco, legata con un roux, guarnita con vermicelli e arricchita con uova.",
+        "tags": [
+          "aglio",
+          "uova",
+          "antipasto",
+          "caldo",
+          "confortante",
+          "inverno",
+          "facile",
+          "economico",
+          "al-cucchiaio",
+          "francese",
+          "nostalgico",
+          "ricetta-di-famiglia"
+        ]
+      }
+    },
+    "stepCount": 6,
+    "ingredientCount": 9
+  },
+  {
+    "slug": "chorba",
+    "title": "Chorba",
+    "description": "Soupe épicée à l'agneau, aux courgettes, pois chiches et petites pâtes, parfumée à la menthe, au paprika et à la coriandre fraîche.",
+    "images": {
+      "cover": "images/recipes/chorba/cover.svg",
+      "web": "images/recipes/chorba/cover.svg"
+    },
+    "prepTime": 30,
+    "cookTime": 65,
+    "servings": 8,
+    "difficulty": "Facile",
+    "category": "Zuppe",
+    "tags": [
+      "français",
+      "nostalgique",
+      "recette-de-famille",
+      "entrée",
+      "agneau",
+      "légumes",
+      "mijoté",
+      "épicé",
+      "herbacé",
+      "réconfortant",
+      "hiver",
+      "chaud"
+    ],
+    "origin": "amelie-grandpa",
+    "translations": {
+      "en": {
+        "title": "Chorba",
+        "description": "Spicy lamb soup with zucchini, chickpeas and small pasta, flavoured with mint, paprika and fresh coriander.",
+        "tags": [
+          "french",
+          "nostalgic",
+          "family-recipe",
+          "starter",
+          "lamb",
+          "vegetables",
+          "simmered",
+          "spicy",
+          "herby",
+          "comforting",
+          "winter",
+          "hot"
+        ]
+      },
+      "it": {
+        "title": "Chorba",
+        "description": "Zuppa speziata di agnello con zucchine, ceci e pastina, profumata alla menta, alla paprica e al coriandolo fresco.",
+        "tags": [
+          "francese",
+          "nostalgico",
+          "ricetta-di-famiglia",
+          "antipasto",
+          "agnello",
+          "verdure",
+          "cotto-a-fuoco-lento",
+          "speziato",
+          "erbaceo",
+          "confortante",
+          "inverno",
+          "caldo"
+        ]
+      }
+    },
+    "stepCount": 6,
+    "ingredientCount": 16
   }
 ]
