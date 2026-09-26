@@ -1,0 +1,171 @@
+{
+  "slug": "charlotte-au-marron",
+  "title": "Charlotte au marron",
+  "description": "Une charlotte de biscuits cuillères imbibés de sirop au rhum, garnie de couches de marquise au chocolat et de crème de marron au beurre.",
+  "images": {
+    "cover": "images/recipes/charlotte-au-marron/cover.svg",
+    "web": "images/recipes/charlotte-au-marron/cover.svg"
+  },
+  "prepTime": 40,
+  "cookTime": 0,
+  "servings": 10,
+  "difficulty": "Medio",
+  "category": "Dolci",
+  "origin": "amelie-grandpa",
+  "tags": [
+    "dessert",
+    "marron",
+    "chocolat",
+    "français",
+    "nostalgique",
+    "recette-de-famille",
+    "no-cuisson",
+    "festif",
+    "gourmand",
+    "hiver",
+    "préparation-à-lavance"
+  ],
+  "ingredients": [
+    {
+      "items": [
+        "1 recette de marquise au chocolat",
+        "30 à 32 biscuits cuillères",
+        "½ boîte de crème de marron",
+        "125 g de beurre",
+        "1 dl de crème légère",
+        "1 dl de sirop au rhum"
+      ]
+    }
+  ],
+  "steps": [
+    {
+      "text": "Beurrer le moule à charlotte (18 à 20 cm de diamètre et 10 cm de hauteur), chemiser en disposant les biscuits le bout arrondi au bord du moule. Les biscuits sont taillés et disposés en rosace, légèrement imbibés de sirop au rhum."
+    },
+    {
+      "text": "Couper le bout arrondi des biscuits imbibés et les placer autour du moule en les serrant bien."
+    },
+    {
+      "text": "Ramollir le beurre et le mélanger avec la crème de marron."
+    },
+    {
+      "text": "Garnir alternativement : une couche de marquise au chocolat, une couche de crème de marron. Les parures et biscuits peuvent être parsemés entre les couches."
+    },
+    {
+      "text": "Mettre au frais."
+    },
+    {
+      "text": "Démouler sur un plat rond et servir avec une crème anglaise."
+    }
+  ],
+  "source": "Les recettes de Maurice Houdré, tome 3, Les entremets",
+  "originalSource": {
+    "type": "text",
+    "data": "Charlotte au marron\n\nIngrédients : pour 10 à 12 personnes\n\n1 moule à charlotte de 18 à 20 cm de Ø et sur 10 cm de hauteur\n\n. 1 recette de marquise au chocolat\n. 30 à 32 biscuits cuillères\n. ½ boîte de crème de marron\n. 125 g de beurre\n. 1 dl de crème légère\n. 1 dl de sirop au rhum\n\nBeurrer le moule à charlotte, chemiser en disposant les biscuits le bout arrondi au bord du moule. Biscuits taillés et disposés en rosace, légèrement imbibés de sirop au rhum.\nCouper le bout arrondi des biscuits imbibés et placer les autour du moule en les serrant bien.\nRamollir le beurre et le mélanger avec la crème de marron.\nGarnir alternativement : une couche de marquise au chocolat, une couche de crème de marron. Les parures et biscuits peuvent être parsemés entre les couches.\nMettre au frais.\nDémouler sur un plat rond et servir avec une crème anglaise.\n"
+  },
+  "related": [
+    "biscuit-aux-poires-et-chocolat-noir",
+    "truffes-au-marron-et-chocolat",
+    "charlotte-au-chocolat",
+    "buche-aux-marrons-de-germaine-houdre"
+  ],
+  "translations": {
+    "en": {
+      "title": "Chestnut Charlotte",
+      "description": "A charlotte of ladyfingers soaked in rum syrup, filled with layers of chocolate marquise and chestnut cream whipped with butter.",
+      "tags": [
+        "dessert",
+        "chestnut",
+        "chocolate",
+        "french",
+        "nostalgic",
+        "family-recipe",
+        "no-cook",
+        "festive",
+        "indulgent",
+        "winter",
+        "make-ahead"
+      ],
+      "ingredients": [
+        {
+          "items": [
+            "1 batch of chocolate marquise",
+            "30 to 32 ladyfingers",
+            "½ can of chestnut cream",
+            "125 g of butter",
+            "1 dl of light cream",
+            "1 dl of rum syrup"
+          ]
+        }
+      ],
+      "steps": [
+        {
+          "text": "Butter the charlotte mould (18 to 20 cm in diameter and 10 cm high), then line it with the ladyfingers, rounded end against the edge of the mould. The ladyfingers are trimmed and arranged in a rosette, lightly soaked in rum syrup."
+        },
+        {
+          "text": "Cut off the rounded end of the soaked ladyfingers and place them around the mould, packing them tightly."
+        },
+        {
+          "text": "Soften the butter and mix it with the chestnut cream."
+        },
+        {
+          "text": "Fill with alternating layers: a layer of chocolate marquise, then a layer of chestnut cream. The trimmings and leftover ladyfingers can be scattered between the layers."
+        },
+        {
+          "text": "Chill in the fridge."
+        },
+        {
+          "text": "Turn out onto a round dish and serve with a crème anglaise."
+        }
+      ]
+    },
+    "it": {
+      "title": "Charlotte alle castagne",
+      "description": "Una charlotte di savoiardi bagnati nello sciroppo al rum, farcita con strati di marquise al cioccolato e crema di marroni montata con il burro.",
+      "tags": [
+        "dessert",
+        "castagne",
+        "cioccolato",
+        "francese",
+        "nostalgico",
+        "ricetta-di-famiglia",
+        "senza-cottura",
+        "festivo",
+        "goloso",
+        "inverno",
+        "da-preparare-in-anticipo"
+      ],
+      "ingredients": [
+        {
+          "items": [
+            "1 dose di marquise al cioccolato",
+            "30 - 32 savoiardi",
+            "½ scatola di crema di marroni",
+            "125 g di burro",
+            "1 dl di panna leggera",
+            "1 dl di sciroppo al rum"
+          ]
+        }
+      ],
+      "steps": [
+        {
+          "text": "Imburrare lo stampo da charlotte (18 - 20 cm di diametro e 10 cm di altezza), poi foderarlo disponendo i savoiardi con l'estremità arrotondata contro il bordo dello stampo. I savoiardi vanno rifilati e disposti a rosone, leggermente bagnati nello sciroppo al rum."
+        },
+        {
+          "text": "Tagliare l'estremità arrotondata dei savoiardi bagnati e sistemarli intorno allo stampo, stringendoli bene."
+        },
+        {
+          "text": "Ammorbidire il burro e mescolarlo con la crema di marroni."
+        },
+        {
+          "text": "Farcire alternando gli strati: uno strato di marquise al cioccolato, uno strato di crema di marroni. I ritagli e i savoiardi avanzati possono essere sparsi tra gli strati."
+        },
+        {
+          "text": "Mettere in frigorifero."
+        },
+        {
+          "text": "Sformare su un piatto rotondo e servire con una crema inglese."
+        }
+      ]
+    }
+  }
+}

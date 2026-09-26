@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <defs>
+    <radialGradient id="oegbg" cx="50%" cy="45%" r="70%"><stop offset="0%" stop-color="#2e2822"/><stop offset="100%" stop-color="#1a1510"/></radialGradient>
+    <radialGradient id="oegplate" cx="45%" cy="40%" r="65%"><stop offset="0%" stop-color="#f2ede4"/><stop offset="100%" stop-color="#b6ae9f"/></radialGradient>
+    <linearGradient id="oegjel" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#e8a848" stop-opacity="0.55"/><stop offset="100%" stop-color="#9a5a18" stop-opacity="0.75"/></linearGradient>
+    <radialGradient id="oegyolk" cx="40%" cy="35%" r="65%"><stop offset="0%" stop-color="#ffd040"/><stop offset="100%" stop-color="#e08a10"/></radialGradient>
+    <linearGradient id="oegram" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="#d8d0c2"/><stop offset="50%" stop-color="#faf6ee"/><stop offset="100%" stop-color="#c8c0b2"/></linearGradient>
+  </defs>
+  <rect width="800" height="600" fill="url(#oegbg)"/>
+  <ellipse cx="400" cy="480" rx="300" ry="55" fill="#000" opacity="0.35"/>
+  <g opacity="0.5">
+    <path d="M110,230 L118,300 Q160,312 202,300 L210,230Z" fill="url(#oegram)"/>
+    <ellipse cx="160" cy="230" rx="50" ry="14" fill="#faf6ee"/><ellipse cx="160" cy="232" rx="42" ry="10" fill="#c88a38"/>
+    <path d="M590,230 L598,300 Q640,312 682,300 L690,230Z" fill="url(#oegram)"/>
+    <ellipse cx="640" cy="230" rx="50" ry="14" fill="#faf6ee"/><ellipse cx="640" cy="232" rx="42" ry="10" fill="#c88a38"/>
+  </g>
+  <ellipse cx="400" cy="340" rx="260" ry="140" fill="url(#oegplate)"/>
+  <ellipse cx="400" cy="336" rx="200" ry="100" fill="#ebe4d6"/>
+  <ellipse cx="400" cy="378" rx="120" ry="30" fill="#000" opacity="0.15"/>
+  <ellipse cx="400" cy="372" rx="92" ry="22" fill="#e8909a"/>
+  <ellipse cx="400" cy="368" rx="92" ry="20" fill="#f4b0b4"/>
+  <path d="M400,170 Q300,172 292,300 L290,365 Q400,395 510,365 L508,300 Q500,172 400,170Z" fill="url(#oegjel)"/>
+  <ellipse cx="400" cy="300" rx="68" ry="54" fill="#fbf8f0" opacity="0.9"/>
+  <path d="M340,300 Q350,260 400,256 Q455,262 462,306 Q450,330 400,336 Q350,332 340,300Z" fill="#fff"/>
+  <circle cx="402" cy="298" r="26" fill="url(#oegyolk)"/>
+  <ellipse cx="394" cy="290" rx="8" ry="5" fill="#fff" opacity="0.4"/>
+  <g fill="#3c8a34" opacity="0.8"><path d="M372,236 Q380,222 392,232 Q382,242 372,236Z"/><path d="M408,232 Q420,220 428,234 Q416,240 408,232Z"/></g>
+  <path d="M320,210 Q330,190 360,184" stroke="#fff" stroke-width="7" fill="none" stroke-linecap="round" opacity="0.35"/>
+  <path d="M310,260 Q308,290 312,330" stroke="#fff" stroke-width="4" fill="none" stroke-linecap="round" opacity="0.25"/>
+  <path d="M292,300 L290,365 Q400,395 510,365 L508,300 Q400,330 292,300Z" fill="#8a4a10" opacity="0.2"/>
+  <g fill="#f0c070" opacity="0.5"><path d="M250,400 l14,-6 4,12z"/><path d="M540,405 l14,-6 4,12z"/><path d="M270,300 l12,-5 3,10z"/></g>
+</svg>

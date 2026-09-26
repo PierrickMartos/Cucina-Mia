@@ -1,0 +1,252 @@
+{
+  "slug": "gnocchis-a-la-parisienne",
+  "title": "Gnocchis à la parisienne",
+  "description": "Des gnocchis de pâte à chou au fromage, pochés puis gratinés au four sous une sauce Mornay ou béchamel.",
+  "images": {
+    "cover": "images/recipes/gnocchis-a-la-parisienne/cover.svg",
+    "web": "images/recipes/gnocchis-a-la-parisienne/cover.svg"
+  },
+  "prepTime": 30,
+  "cookTime": 45,
+  "servings": 10,
+  "difficulty": "Medio",
+  "category": "Antipasti",
+  "origin": "amelie-grandpa",
+  "tags": [
+    "français",
+    "nostalgique",
+    "recette-de-famille",
+    "entrée",
+    "fromage",
+    "œufs",
+    "végétarien",
+    "four",
+    "gratiné",
+    "gourmand",
+    "réconfortant",
+    "chaud"
+  ],
+  "ingredients": [
+    {
+      "items": [
+        "250 g de farine",
+        "125 g de beurre + 50 g pour fondre",
+        "½ l d'eau",
+        "8 œufs",
+        "100 g de gruyère ou parmesan râpé (Quanto basta)",
+        "1 pointe de muscade",
+        "Sel fin, poivre"
+      ]
+    },
+    {
+      "group": "Béchamel",
+      "items": [
+        "40 g de beurre",
+        "30 g de farine",
+        "½ l de lait",
+        "Sel, poivre"
+      ]
+    }
+  ],
+  "steps": [
+    {
+      "text": "Préparer 1 ½ l de pâte à chou."
+    },
+    {
+      "text": "Mettre dans une casserole l'eau, le sel et le poivre, une pointe de muscade et le beurre coupé en morceaux."
+    },
+    {
+      "text": "Porter à ébullition. Quand le beurre est fondu, hors du feu, ajouter la farine tamisée et mélanger à la spatule afin d'obtenir une pâte épaisse et compacte. Remettre la casserole sur le feu et tourner cette pâte en remuant quelques instants, jusqu'à ce qu'elle ne colle plus à la spatule."
+    },
+    {
+      "text": "Hors du feu, ajouter les œufs un par un en remuant bien à chaque fois. Laisser refroidir 10 minutes, ajouter le gruyère ou le parmesan et bien mélanger : la pâte doit être lisse et molle.",
+      "timers": [10]
+    },
+    {
+      "text": "Dans un sautoir ou un récipient plat, remplir d'eau salée et porter à ébullition."
+    },
+    {
+      "text": "Mettre les gnocchis en petites boules avec une cuillère à café, ou mettre la pâte dans une poche à douille ronde et unie, appuyer sur la poche de façon à faire tomber la pâte en petits bâtonnets de 3 à 4 cm et les couper avec la lame d'un couteau."
+    },
+    {
+      "text": "Faire pocher sans bouillir, jusqu'à ce que les gnocchis remontent à la surface, environ 8 à 10 minutes. Les égoutter et les poser sur un linge.",
+      "timers": [8]
+    },
+    {
+      "text": "Mettre les gnocchis dans un plat à gratin garni au fond de sauce Mornay ou de sauce béchamel au gruyère râpé ou au parmesan. Napper avec la même sauce, saupoudrer de fromage râpé puis arroser de beurre fondu."
+    },
+    {
+      "text": "Faire gratiner et souffler à four moyen pendant 10 à 15 minutes.",
+      "timers": [10]
+    },
+    {
+      "text": "Servir aussitôt."
+    },
+    {
+      "text": "Béchamel : faire un roux blanc sans coloration avec 40 g de beurre et 30 g de farine, laisser cuire quelques instants. Mouiller progressivement avec ½ l de lait, tourner avec un fouet jusqu'à ébullition, assaisonner avec sel, poivre et cuire doucement quelques minutes."
+    }
+  ],
+  "source": "Les recettes de Maurice Houdré, tome 1, Les entrées chaudes",
+  "originalSource": {
+    "type": "text",
+    "data": "Gnocchis à la parisienne \n\nIngrédients : pour 10 personnes\n\n. 250 g de farine\n. 125 g de beurre + 50 g pour fondre\n. ½ l d’eau\n. 8 oeufs\n. 100 g de gruyère ou parmesan râpé\n. sel fin, poivre, 1 pointe de muscade\n\nPréparation :\n\nPréparer 1 ½ l de pâte à chou.\n\nMettre dans une casserole, l’eau, le sel et poivre, une pointe de muscade et le beurre coupé en morceaux.\nPorter à ébullition, quand le beurre est fondu et hors du feu, ajouter la farine tamisée, mélanger à la spatule afin d’obtenir une pâte épaisse et compacte, remettre la casserole sur le feu, tourner cette pâte en remuant quelques instants jusqu’à ce qu’elle ne colle plus à la spatule.\nHors du feu, ajouter les œufs un par un en remuant bien à chaque fois. Laisser refroidir 10 minutes, ajouter le gruyère ou le Parmesan et bien mélanger : la pâte doit être lisse et molle.\nDans un sautoir ou un récipient plat : remplir d’eau salée et porter à ébullition.\nMettre les gnocchis en petites boules avec une cuillère à café, ou mettre la pâte dans une poche à douille ronde et unie, appuyer sur la poche de façon à faire tomber la pâte en petits bâtonnets de 3 à 4 cm et couper les avec la lame d’un couteau.\nFaire pocher sans bouillir, jusqu’à ce que les gnocchis remontent à la surface, environ 8 à 10 minutes, les égoutter et les poser sur un linge.\nMettre dans un plat à gratin garni au fond de sauce Mornay ou sauce Béchamel au gruyère râpé ou parmesan. Napper avec la même sauce, saupoudrer de fromage râpé puis arroser de beurre fondu.\nFaire gratiner et souffler à four moyen pendant 10 à 15 minutes.\nServir aussitôt.\n\nBéchamel :\nFaire un roux blanc sans coloration, avec 40 g de beurre et 30 g de farine, laisser cuire quelques instants, mouiller progressivement avec ½ l de lait, tourner avec un fouet jusqu’à ébullition, assaisonner avec sel, poivre et cuire doucement quelques minutes.\n"
+  },
+  "related": [
+    "gnocchis-a-la-romaine",
+    "souffle-au-fromage-du-papi",
+    "dartois-savoyard",
+    "gnocchi-alla-sorrentina"
+  ],
+  "translations": {
+    "en": {
+      "title": "Gnocchi à la parisienne",
+      "description": "Cheese choux pastry gnocchi, poached then browned in the oven under a Mornay or béchamel sauce.",
+      "tags": [
+        "french",
+        "nostalgic",
+        "family-recipe",
+        "starter",
+        "cheese",
+        "eggs",
+        "vegetarian",
+        "oven",
+        "au-gratin",
+        "indulgent",
+        "comforting",
+        "hot"
+      ],
+      "ingredients": [
+        {
+          "items": [
+            "250 g flour",
+            "125 g butter + 50 g for melting",
+            "½ l water",
+            "8 eggs",
+            "100 g grated gruyère or parmesan (Quanto basta)",
+            "1 pinch of nutmeg",
+            "Fine salt, pepper"
+          ]
+        },
+        {
+          "group": "Béchamel",
+          "items": [
+            "40 g butter",
+            "30 g flour",
+            "½ l milk",
+            "Salt, pepper"
+          ]
+        }
+      ],
+      "steps": [
+        {
+          "text": "Prepare 1 ½ l of choux pastry."
+        },
+        {
+          "text": "Put the water, salt and pepper, a pinch of nutmeg and the butter cut into pieces in a saucepan."
+        },
+        {
+          "text": "Bring to the boil. When the butter has melted, off the heat, add the sifted flour and mix with a spatula to get a thick, compact dough. Put the saucepan back on the heat and work the dough, stirring for a few moments, until it no longer sticks to the spatula."
+        },
+        {
+          "text": "Off the heat, add the eggs one at a time, mixing well after each one. Leave to cool for 10 minutes, add the gruyère or parmesan and mix well: the dough must be smooth and soft."
+        },
+        {
+          "text": "Fill a sauté pan or a shallow dish with salted water and bring to the boil."
+        },
+        {
+          "text": "Shape the gnocchi into small balls with a teaspoon, or put the dough in a piping bag with a plain round nozzle, press the bag so the dough drops in small sticks of 3 to 4 cm and cut them with the blade of a knife."
+        },
+        {
+          "text": "Poach without boiling until the gnocchi rise to the surface, about 8 to 10 minutes. Drain them and lay them on a cloth."
+        },
+        {
+          "text": "Put the gnocchi in a gratin dish with a layer of Mornay sauce or béchamel sauce with grated gruyère or parmesan on the bottom. Coat with the same sauce, sprinkle with grated cheese, then drizzle with melted butter."
+        },
+        {
+          "text": "Brown and puff up in a moderate oven for 10 to 15 minutes."
+        },
+        {
+          "text": "Serve immediately."
+        },
+        {
+          "text": "Béchamel: make a white roux without colouring with 40 g of butter and 30 g of flour, and let it cook for a few moments. Add the ½ l of milk gradually, stirring with a whisk until it boils, season with salt and pepper and cook gently for a few minutes."
+        }
+      ]
+    },
+    "it": {
+      "title": "Gnocchi alla parigina",
+      "description": "Gnocchi di pasta choux al formaggio, cotti in camicia e poi gratinati in forno sotto una salsa Mornay o besciamella.",
+      "tags": [
+        "francese",
+        "nostalgico",
+        "ricetta-di-famiglia",
+        "antipasto",
+        "formaggio",
+        "uova",
+        "vegetariano",
+        "forno",
+        "gratinato",
+        "goloso",
+        "confortante",
+        "caldo"
+      ],
+      "ingredients": [
+        {
+          "items": [
+            "250 g di farina",
+            "125 g di burro + 50 g da fondere",
+            "½ l di acqua",
+            "8 uova",
+            "100 g di gruviera o parmigiano grattugiato (Quanto basta)",
+            "1 pizzico di noce moscata",
+            "Sale fino, pepe"
+          ]
+        },
+        {
+          "group": "Besciamella",
+          "items": [
+            "40 g di burro",
+            "30 g di farina",
+            "½ l di latte",
+            "Sale, pepe"
+          ]
+        }
+      ],
+      "steps": [
+        {
+          "text": "Preparare 1 ½ l di pasta choux."
+        },
+        {
+          "text": "Mettere in una casseruola l'acqua, il sale e il pepe, un pizzico di noce moscata e il burro tagliato a pezzi."
+        },
+        {
+          "text": "Portare a ebollizione. Quando il burro è fuso, fuori dal fuoco, aggiungere la farina setacciata e mescolare con la spatola fino a ottenere un impasto denso e compatto. Rimettere la casseruola sul fuoco e lavorare l'impasto mescolando per qualche istante, finché non si attacca più alla spatola."
+        },
+        {
+          "text": "Fuori dal fuoco, aggiungere le uova una alla volta mescolando bene ogni volta. Lasciare raffreddare 10 minuti, aggiungere la gruviera o il parmigiano e mescolare bene: l'impasto deve essere liscio e morbido."
+        },
+        {
+          "text": "Riempire una sauteuse o un recipiente basso di acqua salata e portare a ebollizione."
+        },
+        {
+          "text": "Formare i gnocchi a palline con un cucchiaino, oppure mettere l'impasto in una tasca da pasticciere con bocchetta tonda e liscia, premere la tasca in modo da far cadere l'impasto a bastoncini di 3-4 cm e tagliarli con la lama di un coltello."
+        },
+        {
+          "text": "Cuocere in camicia senza far bollire, finché i gnocchi non risalgono in superficie, circa 8-10 minuti. Scolarli e adagiarli su un canovaccio."
+        },
+        {
+          "text": "Mettere i gnocchi in una pirofila con il fondo coperto di salsa Mornay o di besciamella con gruviera grattugiata o parmigiano. Nappare con la stessa salsa, spolverare di formaggio grattugiato e irrorare di burro fuso."
+        },
+        {
+          "text": "Far gratinare e gonfiare in forno medio per 10-15 minuti."
+        },
+        {
+          "text": "Servire subito."
+        },
+        {
+          "text": "Besciamella: preparare un roux bianco senza colorazione con 40 g di burro e 30 g di farina, lasciare cuocere per qualche istante. Bagnare gradualmente con ½ l di latte, mescolando con una frusta fino a ebollizione, condire con sale e pepe e cuocere dolcemente per qualche minuto."
+        }
+      ]
+    }
+  }
+}

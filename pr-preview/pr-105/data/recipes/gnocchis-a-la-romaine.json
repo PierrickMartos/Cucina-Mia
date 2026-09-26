@@ -1,0 +1,192 @@
+{
+  "slug": "gnocchis-a-la-romaine",
+  "title": "Gnocchis à la romaine",
+  "description": "Une galette de semoule au lait, aux œufs et au gruyère, découpée puis gratinée au beurre fondu.",
+  "images": {
+    "cover": "images/recipes/gnocchis-a-la-romaine/cover.svg",
+    "web": "images/recipes/gnocchis-a-la-romaine/cover.svg"
+  },
+  "prepTime": 20,
+  "cookTime": 20,
+  "servings": 4,
+  "difficulty": "Facile",
+  "category": "Antipasti",
+  "origin": "amelie-grandpa",
+  "tags": [
+    "semoule",
+    "fromage",
+    "œufs",
+    "entrée",
+    "français",
+    "four",
+    "végétarien",
+    "économique",
+    "réconfortant",
+    "chaud",
+    "nostalgique",
+    "recette-de-famille"
+  ],
+  "ingredients": [
+    {
+      "items": [
+        "100 g de semoule fine de blé",
+        "½ l de lait",
+        "100 g de beurre",
+        "3 œufs",
+        "100 g de gruyère râpé",
+        "Sel, poivre, une pointe de muscade"
+      ]
+    }
+  ],
+  "steps": [
+    {
+      "text": "Faire chauffer le lait avec le sel, le poivre et 50 g de beurre."
+    },
+    {
+      "text": "Porter à ébullition, ajouter la semoule en remuant constamment pour éviter les grumeaux."
+    },
+    {
+      "text": "Quand la semoule est cuite, ajouter hors du feu les œufs battus, mélanger avec le gruyère râpé."
+    },
+    {
+      "text": "Verser dans un plat carré ou rectangulaire de préférence, ou sur une plaque. Étaler en une galette épaisse de 2 cm environ et laisser refroidir."
+    },
+    {
+      "text": "Découper à l'emporte-pièce, ou en forme carrée ou rectangulaire, ranger dans un plat à gratin beurré."
+    },
+    {
+      "text": "Parsemer de gruyère râpé."
+    },
+    {
+      "text": "Arroser de beurre fondu et faire gratiner à feu vif."
+    }
+  ],
+  "tips": [
+    "Pour améliorer la composition, on peut ajouter à la pâte et après la cuisson, 10 à 125 g de jambon blanc haché."
+  ],
+  "source": "Les recettes de Maurice Houdré, tome 1, Les entrées chaudes",
+  "originalSource": {
+    "type": "text",
+    "data": "Gnocchis à la romaine \n\nIngrédients : pour 4 personnes\n\n. 100 g de semoule fine de blé\n. ½ l de lait\n. 100 g de beurre\n. 3 oeufs\n. 100 g de gruyère râpé\n. sel, poivre, pointe de muscade\n\nPréparation :\n\nFaire chauffer le lait avec le sel, le poivre et 50 g de beurre.\nPorter à ébullition, ajouter la semoule en remuant constamment pour éviter les grumeaux. \nQuand la semoule est cuite, ajouter hors du feu les œufs battus, mélanger avec le gruyère râpé.\nVerser dans un plat carré ou rectangulaire de préférence, ou sur une plaque. Etaler en une galette épaisse de 2 cm environ et laisser refroidir.\nDécouper à l’emporte pièce, ou en forme carrée ou rectangulaire, ranger dans un plat à gratin beurré.\nParsemer de gruyère râpé.\nArroser de beurre fondu et faire gratiner à feu vif.\n\nConseil :\nPour améliorer la composition, on peut ajouter à la pâte et après la cuisson, 10 à 125 g de jambon blanc haché.\n"
+  },
+  "related": [
+    "gnocchis-a-la-parisienne",
+    "souffle-au-fromage-du-papi",
+    "dartois-savoyard",
+    "crepes-savoyardes-aux-morilles"
+  ],
+  "translations": {
+    "en": {
+      "title": "Gnocchi alla romana",
+      "description": "A semolina cake made with milk, eggs and Gruyère, cut into pieces and then browned under melted butter.",
+      "tags": [
+        "semolina",
+        "cheese",
+        "eggs",
+        "starter",
+        "french",
+        "oven",
+        "vegetarian",
+        "budget-friendly",
+        "comforting",
+        "hot",
+        "nostalgic",
+        "family-recipe"
+      ],
+      "ingredients": [
+        {
+          "items": [
+            "100 g of fine wheat semolina",
+            "½ l of milk",
+            "100 g of butter",
+            "3 eggs",
+            "100 g of grated Gruyère",
+            "Salt, pepper, a pinch of nutmeg"
+          ]
+        }
+      ],
+      "steps": [
+        {
+          "text": "Heat the milk with the salt, the pepper and 50 g of butter."
+        },
+        {
+          "text": "Bring to the boil, then add the semolina, stirring constantly to avoid lumps."
+        },
+        {
+          "text": "When the semolina is cooked, take it off the heat, add the beaten eggs and mix in the grated Gruyère."
+        },
+        {
+          "text": "Pour preferably into a square or rectangular dish, or onto a baking tray. Spread into a thick cake about 2 cm high and leave to cool."
+        },
+        {
+          "text": "Cut out with a pastry cutter, or into squares or rectangles, and arrange in a buttered gratin dish."
+        },
+        {
+          "text": "Sprinkle with grated Gruyère."
+        },
+        {
+          "text": "Drizzle with melted butter and brown under a high heat."
+        }
+      ],
+      "tips": [
+        "To enrich the mixture, you can add 10 to 125 g of chopped cooked ham to the dough after cooking."
+      ]
+    },
+    "it": {
+      "title": "Gnocchi alla romana",
+      "description": "Una sfoglia di semolino con latte, uova e groviera, tagliata e poi gratinata con burro fuso.",
+      "tags": [
+        "semolino",
+        "formaggio",
+        "uova",
+        "antipasto",
+        "francese",
+        "forno",
+        "vegetariano",
+        "economico",
+        "confortante",
+        "caldo",
+        "nostalgico",
+        "ricetta-di-famiglia"
+      ],
+      "ingredients": [
+        {
+          "items": [
+            "100 g di semolino fine di grano",
+            "½ l di latte",
+            "100 g di burro",
+            "3 uova",
+            "100 g di groviera grattugiato",
+            "Sale, pepe, un pizzico di noce moscata"
+          ]
+        }
+      ],
+      "steps": [
+        {
+          "text": "Scaldare il latte con il sale, il pepe e 50 g di burro."
+        },
+        {
+          "text": "Portare a ebollizione, aggiungere il semolino mescolando continuamente per evitare i grumi."
+        },
+        {
+          "text": "Quando il semolino è cotto, aggiungere fuori dal fuoco le uova sbattute e mescolare con il groviera grattugiato."
+        },
+        {
+          "text": "Versare preferibilmente in una pirofila quadrata o rettangolare, oppure su una teglia. Stendere in uno strato spesso circa 2 cm e lasciare raffreddare."
+        },
+        {
+          "text": "Ritagliare con un coppapasta, oppure a quadrati o rettangoli, e disporre in una pirofila da gratin imburrata."
+        },
+        {
+          "text": "Cospargere di groviera grattugiato."
+        },
+        {
+          "text": "Irrorare di burro fuso e far gratinare a fuoco vivo."
+        }
+      ],
+      "tips": [
+        "Per arricchire il composto, si possono aggiungere all'impasto, dopo la cottura, 10-125 g di prosciutto cotto tritato."
+      ]
+    }
+  }
+}

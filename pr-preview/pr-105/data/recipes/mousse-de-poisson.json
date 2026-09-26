@@ -1,0 +1,206 @@
+{
+  "slug": "mousse-de-poisson",
+  "title": "Mousse de poisson",
+  "description": "Une mousse de merlan à l'aneth, garnie de crevettes et de coques, cuite au bain-marie en terrine chemisée de saumon ou en ramequins.",
+  "images": {
+    "cover": "images/recipes/mousse-de-poisson/cover.svg",
+    "web": "images/recipes/mousse-de-poisson/cover.svg"
+  },
+  "prepTime": 40,
+  "cookTime": 45,
+  "servings": 8,
+  "difficulty": "Medio",
+  "category": "Secondi",
+  "origin": "amelie-grandpa",
+  "tags": [
+    "poisson",
+    "fruits-de-mer",
+    "bain-marie",
+    "français",
+    "plat-principal",
+    "froid",
+    "chaud",
+    "festif",
+    "buffet",
+    "nostalgique",
+    "recette-de-famille"
+  ],
+  "ingredients": [
+    {
+      "items": [
+        "600 à 700 g de filets de merlan ou autre poisson gélatineux",
+        "125 g de queues de crevettes décortiquées",
+        "1 l de coques",
+        "6 tranches de saumon frais ou truite de mer",
+        "4 œufs",
+        "4 dl de crème",
+        "Sel, poivre moulu et poivre de Cayenne",
+        "1 cuillère à potage d'aneth haché"
+      ]
+    }
+  ],
+  "steps": [
+    {
+      "text": "Hacher finement au mixer les filets de poisson, les mettre dans une terrine, ajouter le sel, le poivre, le poivre de Cayenne et l'aneth haché. Mélanger et incorporer un par un les œufs entiers, puis la crème."
+    },
+    {
+      "text": "Laver et faire ouvrir les coques dans une casserole avec un peu d'eau, retirer les coques des coquilles."
+    },
+    {
+      "text": "Mousse de poisson en terrine : chemiser un moule à cake ou à terrine (assez long) avec de fines tranches de saumon frais ou de truite de mer."
+    },
+    {
+      "text": "Ajouter à la farce de poisson les parures du saumon coupées en dés, les queues de crevettes décortiquées et les coques."
+    },
+    {
+      "text": "Mélanger et verser dans la terrine. Couvrir d'un papier d'aluminium, cuire au bain-marie à chaleur douce 40 à 50 minutes.",
+      "timers": [40]
+    },
+    {
+      "text": "Mousse de poisson en cassolettes ou ramequins : beurrer les ramequins, les chemiser avec une fine tranche de saumon ou de truite, garnir de mousse de poisson."
+    },
+    {
+      "text": "Cuire au bain-marie à chaleur douce 20 à 25 minutes.",
+      "timers": [20]
+    },
+    {
+      "text": "1. Servir froid avec une sauce mayonnaise, une sauce verte ou du ketchup à l'assiette, garni de concombres coupés en bâtonnets et blanchis, assaisonnés avec de la crème, de l'aneth haché, etc."
+    },
+    {
+      "text": "2. Servir chaud avec un beurre blanc ou une sauce Nantua, garni de concombres coupés en bâtonnets et blanchis, assaisonnés avec de la crème et de l'aneth haché (chaud), et de deux grosses crevettes avec la queue décortiquée."
+    }
+  ],
+  "source": "Les recettes de Maurice Houdré, tome 2, Les poissons et crustacés",
+  "originalSource": {
+    "type": "text",
+    "data": "Mousse de poisson\n\nIngrédients : pour 8 à 10  personnes\n\n. 600 à 700 g de filets de merlan ou autre poisson gélatineux\n. 125 g de queues de crevettes décortiquées\n. 1 l de coques\n. 6 tranches de saumon frais ou truite de mer\n. 4 oeufs\n. 4 dl de crème\n. sel, poivre moulu et poivre de Cayenne\n. 1 cuillère à potage d’aneth haché\n\nHacher finement au mixer les filets de poisson, mettre dans une terrine, ajouter le sel, poivre,  poivre de Cayenne, l’aneth haché, mélanger et incorporer 1 par 1 les œufs entiers puis la crème.\nLaver et faire ouvrir les coques dans une casserole avec un peu d’eau, retirer les coques des coquilles.\n\nMousse de poisson en terrine :\nChemiser un moule à cake ou à terrine (assez long) avec de fines tranches de saumon frais, ou truite de mer.\nAjouter à la farce de poisson les parures du saumon coupées en dés, les queues de crevettes décortiquées et les coques. \nMélanger et verser dans la terrine. Couvrir d’un papier d’aluminium, cuire au bain-marie à chaleur douce 40 à 50 minutes.\n\nMousse de poisson en cassolettes ou ramequins :\nBeurrer les ramequins, chemiser avec une fine tranche de saumon ou de truite, garnir de mousse de poisson.\nCuisson au bain-marie à chaleur douce 20 à 25 minutes.\n\n- 1 Servir froid avec une sauce mayonnaise, verte ou ketchup à l’assiette et garnie de concombres coupés en bâtonnets et blanchis, assaisonnés avec de la crème, aneth haché, etc…\n - 2 Servir chaud avec un beurre blanc ou sauce Nantua garnie de concombres coupés en bâtonnets et blanchis, assaisonnés avec de la crème, aneth haché (chaud) et deux grosses crevettes avec la queue décortiquée.\n"
+  },
+  "related": [
+    "terrines-et-mousse-de-poisson",
+    "paupiette-de-sole-farcie-aux-crevettes",
+    "couscous-de-poissons-et-fruits-de-mer",
+    "filets-de-sole-a-la-norvegienne"
+  ],
+  "translations": {
+    "en": {
+      "title": "Fish mousse",
+      "description": "A whiting mousse with dill, filled with prawns and cockles, cooked in a bain-marie in a salmon-lined terrine or in ramekins.",
+      "tags": [
+        "fish",
+        "seafood",
+        "bain-marie",
+        "french",
+        "main-course",
+        "cold",
+        "hot",
+        "festive",
+        "buffet",
+        "nostalgic",
+        "family-recipe"
+      ],
+      "ingredients": [
+        {
+          "items": [
+            "600 to 700 g of whiting fillets or other gelatinous fish",
+            "125 g of peeled prawn tails",
+            "1 l of cockles",
+            "6 slices of fresh salmon or sea trout",
+            "4 eggs",
+            "4 dl of cream",
+            "Salt, ground pepper and cayenne pepper",
+            "1 tablespoon of chopped dill"
+          ]
+        }
+      ],
+      "steps": [
+        {
+          "text": "Finely chop the fish fillets in the mixer, put them in a bowl, add the salt, pepper, cayenne pepper and chopped dill. Mix and incorporate the whole eggs one at a time, then the cream."
+        },
+        {
+          "text": "Wash the cockles and open them in a saucepan with a little water, then remove the cockles from their shells."
+        },
+        {
+          "text": "Fish mousse in a terrine: line a loaf tin or terrine mould (quite long) with thin slices of fresh salmon or sea trout."
+        },
+        {
+          "text": "Add the salmon trimmings cut into dice, the peeled prawn tails and the cockles to the fish stuffing."
+        },
+        {
+          "text": "Mix and pour into the terrine. Cover with aluminium foil and cook in a bain-marie over gentle heat for 40 to 50 minutes."
+        },
+        {
+          "text": "Fish mousse in cassolettes or ramekins: butter the ramekins, line them with a thin slice of salmon or trout, and fill with fish mousse."
+        },
+        {
+          "text": "Cook in a bain-marie over gentle heat for 20 to 25 minutes."
+        },
+        {
+          "text": "1. Serve cold with mayonnaise, green sauce or ketchup on the plate, garnished with cucumbers cut into sticks and blanched, seasoned with cream, chopped dill, etc."
+        },
+        {
+          "text": "2. Serve hot with a beurre blanc or a Nantua sauce, garnished with cucumbers cut into sticks and blanched, seasoned with cream and chopped dill (hot), and two large prawns with peeled tails."
+        }
+      ]
+    },
+    "it": {
+      "title": "Mousse di pesce",
+      "description": "Una mousse di merlano all'aneto, arricchita con gamberi e cuori di mare, cotta a bagnomaria in una terrina foderata di salmone o in pirottini.",
+      "tags": [
+        "pesce",
+        "frutti-di-mare",
+        "bagnomaria",
+        "francese",
+        "piatto-principale",
+        "freddo",
+        "caldo",
+        "festivo",
+        "buffet",
+        "nostalgico",
+        "ricetta-di-famiglia"
+      ],
+      "ingredients": [
+        {
+          "items": [
+            "600-700 g di filetti di merlano o altro pesce gelatinoso",
+            "125 g di code di gamberi sgusciate",
+            "1 l di cuori di mare",
+            "6 fette di salmone fresco o trota di mare",
+            "4 uova",
+            "4 dl di panna",
+            "Sale, pepe macinato e pepe di Cayenna",
+            "1 cucchiaio di aneto tritato"
+          ]
+        }
+      ],
+      "steps": [
+        {
+          "text": "Tritare finemente al mixer i filetti di pesce, metterli in una terrina, aggiungere il sale, il pepe, il pepe di Cayenna e l'aneto tritato. Mescolare e incorporare le uova intere una alla volta, poi la panna."
+        },
+        {
+          "text": "Lavare i cuori di mare e farli aprire in una casseruola con un po' d'acqua, poi estrarli dai gusci."
+        },
+        {
+          "text": "Mousse di pesce in terrina: foderare uno stampo da plumcake o da terrina (abbastanza lungo) con sottili fette di salmone fresco o di trota di mare."
+        },
+        {
+          "text": "Aggiungere al ripieno di pesce i ritagli del salmone tagliati a dadini, le code di gamberi sgusciate e i cuori di mare."
+        },
+        {
+          "text": "Mescolare e versare nella terrina. Coprire con un foglio di alluminio e cuocere a bagnomaria a fuoco dolce per 40-50 minuti."
+        },
+        {
+          "text": "Mousse di pesce in cassolette o pirottini: imburrare i pirottini, foderarli con una sottile fetta di salmone o di trota e riempirli di mousse di pesce."
+        },
+        {
+          "text": "Cuocere a bagnomaria a fuoco dolce per 20-25 minuti."
+        },
+        {
+          "text": "1. Servire fredda con una salsa maionese, una salsa verde o del ketchup nel piatto, guarnita con cetrioli tagliati a bastoncini e sbollentati, conditi con panna, aneto tritato, ecc."
+        },
+        {
+          "text": "2. Servire calda con un beurre blanc o una salsa Nantua, guarnita con cetrioli tagliati a bastoncini e sbollentati, conditi con panna e aneto tritato (caldi), e due grossi gamberi con la coda sgusciata."
+        }
+      ]
+    }
+  }
+}

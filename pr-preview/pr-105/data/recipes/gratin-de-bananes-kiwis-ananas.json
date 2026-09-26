@@ -1,0 +1,187 @@
+{
+  "slug": "gratin-de-bananes-kiwis-ananas",
+  "title": "Gratin de bananes, kiwis, ananas",
+  "description": "Bananes, kiwis et ananas caramélisés et flambés au Cointreau, nappés d'une crème aux œufs et gratinés au four.",
+  "images": {
+    "cover": "images/recipes/gratin-de-bananes-kiwis-ananas/cover.svg",
+    "web": "images/recipes/gratin-de-bananes-kiwis-ananas/cover.svg"
+  },
+  "prepTime": 20,
+  "cookTime": 50,
+  "servings": 8,
+  "difficulty": "Facile",
+  "category": "Dolci",
+  "origin": "amelie-grandpa",
+  "tags": [
+    "français",
+    "nostalgique",
+    "recette-de-famille",
+    "dessert",
+    "fruits",
+    "four",
+    "poêle",
+    "végétarien",
+    "facile",
+    "gourmand",
+    "onctueux",
+    "chaud"
+  ],
+  "ingredients": [
+    {
+      "items": [
+        "2 à 3 bananes",
+        "5 à 6 kiwis",
+        "2 tranches d'ananas",
+        "50 à 60 g de beurre",
+        "50 g de sucre",
+        "3 à 4 dl de lait",
+        "1 dl de crème",
+        "4 œufs",
+        "1 cuillère à café de maïzena",
+        "1 dl de Cointreau ou Grand-Marnier"
+      ]
+    }
+  ],
+  "steps": [
+    {
+      "text": "Éplucher et couper en morceaux les bananes, les kiwis et l'ananas."
+    },
+    {
+      "text": "Faire sauter avec le beurre à feu doux. Quand les fruits commencent à dorer, les saupoudrer avec le sucre. Caraméliser et flamber au Cointreau ou au Grand-Marnier."
+    },
+    {
+      "text": "Mettre la préparation dans des moules individuels ou dans un plat à gratin, beurrés et sucrés."
+    },
+    {
+      "text": "Mélanger le lait, la crème, les œufs et la maïzena, bien mélanger le tout et passer à la passoire fine."
+    },
+    {
+      "text": "Verser un peu de cette préparation dans chaque moule individuel ou dans le plat à gratin."
+    },
+    {
+      "text": "Cuire à four moyen de 15 à 20 minutes pour les moules individuels ou 30 à 40 minutes pour le plat à gratin.",
+      "timers": [15, 30]
+    }
+  ],
+  "source": "Les recettes de Maurice Houdré, tome 3, Les entremets",
+  "originalSource": {
+    "type": "text",
+    "data": "Gratin de bananes, kiwis, ananas\n\nIngrédients : pour 8 personnes\n \n. 2 à 3 bananes\n. 5 à 6 kiwis\n. 2 tranches d’ananas\n. 50 à 60 g de beurre\n. 50 g de sucre\n. 3 à 4 dl de lait\n. 1 dl de crème\n. 4 œufs\n. 1 cuillère à café de maïzena\n. 1 dl de Cointreau ou Grand-Marnier \n\nEplucher et couper en morceaux les bananes, kiwis et ananas.  \n\nFaire sauter avec le beurre à feu doux. Quand les fruits commencent à dorer, saupoudrer les avec le sucre. Caraméliser et flamber au Cointreau ou au Grand-Marnier. \nMettre la préparation dans des moules individuels ou dans un plat à gratin, beurrer et sucrer. Mélanger le lait, la crème, les œufs, la maïzena, bien mélanger le tout et passer à la passoire fine.\nVerser un peu de cette préparation dans chaque moule individuel ou dans le plat à gratin. Cuire à four moyen de 15 à 20 minutes pour les moules individuels ou 30 à 40 minutes pour le moule à gratin.\n"
+  },
+  "related": [
+    "gratin-de-bananes-kiwis-ananas-mangues-litchis",
+    "gratin-de-fruits-exotiques-autre-preparation",
+    "biscuit-aux-fruits",
+    "charlottes-aux-peches"
+  ],
+  "translations": {
+    "en": {
+      "title": "Banana, kiwi and pineapple gratin",
+      "description": "Bananas, kiwis and pineapple caramelised and flambéed with Cointreau, coated with an egg custard and browned in the oven.",
+      "tags": [
+        "french",
+        "nostalgic",
+        "family-recipe",
+        "dessert",
+        "fruit",
+        "oven",
+        "pan",
+        "vegetarian",
+        "easy",
+        "indulgent",
+        "creamy",
+        "hot"
+      ],
+      "ingredients": [
+        {
+          "items": [
+            "2 to 3 bananas",
+            "5 to 6 kiwis",
+            "2 slices of pineapple",
+            "50 to 60 g of butter",
+            "50 g of sugar",
+            "3 to 4 dl of milk",
+            "1 dl of cream",
+            "4 eggs",
+            "1 teaspoon of cornflour",
+            "1 dl of Cointreau or Grand Marnier"
+          ]
+        }
+      ],
+      "steps": [
+        {
+          "text": "Peel the bananas, kiwis and pineapple and cut them into pieces."
+        },
+        {
+          "text": "Sauté them in the butter over a low heat. When the fruit starts to brown, sprinkle it with the sugar. Caramelise, then flambé with the Cointreau or Grand Marnier."
+        },
+        {
+          "text": "Put the mixture into individual moulds or a gratin dish, buttered and sugared."
+        },
+        {
+          "text": "Combine the milk, cream, eggs and cornflour, mix everything well and pass it through a fine sieve."
+        },
+        {
+          "text": "Pour a little of this mixture into each individual mould or into the gratin dish."
+        },
+        {
+          "text": "Bake in a moderate oven for 15 to 20 minutes for the individual moulds, or 30 to 40 minutes for the gratin dish."
+        }
+      ]
+    },
+    "it": {
+      "title": "Gratin di banane, kiwi e ananas",
+      "description": "Banane, kiwi e ananas caramellati e flambati al Cointreau, nappati con una crema alle uova e gratinati in forno.",
+      "tags": [
+        "francese",
+        "nostalgico",
+        "ricetta-di-famiglia",
+        "dessert",
+        "frutta",
+        "forno",
+        "padella",
+        "vegetariano",
+        "facile",
+        "goloso",
+        "cremoso",
+        "caldo"
+      ],
+      "ingredients": [
+        {
+          "items": [
+            "2-3 banane",
+            "5-6 kiwi",
+            "2 fette di ananas",
+            "50-60 g di burro",
+            "50 g di zucchero",
+            "3-4 dl di latte",
+            "1 dl di panna",
+            "4 uova",
+            "1 cucchiaino di amido di mais",
+            "1 dl di Cointreau o Grand Marnier"
+          ]
+        }
+      ],
+      "steps": [
+        {
+          "text": "Sbucciare le banane, i kiwi e l'ananas e tagliarli a pezzi."
+        },
+        {
+          "text": "Saltarli nel burro a fuoco dolce. Quando la frutta comincia a dorarsi, cospargerla con lo zucchero. Caramellare e flambare con il Cointreau o il Grand Marnier."
+        },
+        {
+          "text": "Mettere il composto in stampini individuali o in una pirofila da gratin, imburrati e zuccherati."
+        },
+        {
+          "text": "Unire il latte, la panna, le uova e l'amido di mais, mescolare bene il tutto e passare al colino fine."
+        },
+        {
+          "text": "Versare un po' di questo composto in ogni stampino individuale o nella pirofila da gratin."
+        },
+        {
+          "text": "Cuocere in forno moderato da 15 a 20 minuti per gli stampini individuali o da 30 a 40 minuti per la pirofila da gratin."
+        }
+      ]
+    }
+  }
+}

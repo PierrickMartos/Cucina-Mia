@@ -1,0 +1,181 @@
+{
+  "slug": "gratin-de-prunes",
+  "title": "Gratin de prunes",
+  "description": "Des prunes sautées au beurre, caramélisées et flambées à l'alcool de prune, nappées d'un appareil au lait, à la crème et aux œufs, puis gratinées au four.",
+  "images": {
+    "cover": "images/recipes/gratin-de-prunes/cover.svg",
+    "web": "images/recipes/gratin-de-prunes/cover.svg"
+  },
+  "prepTime": 20,
+  "cookTime": 40,
+  "servings": 6,
+  "difficulty": "Facile",
+  "category": "Dolci",
+  "origin": "amelie-grandpa",
+  "tags": [
+    "prunes",
+    "fruits",
+    "dessert",
+    "français",
+    "four",
+    "gratiné",
+    "flambé",
+    "gourmand",
+    "chaud",
+    "facile",
+    "nostalgique",
+    "recette-de-famille"
+  ],
+  "ingredients": [
+    {
+      "items": [
+        "15 à 20 belles prunes",
+        "50 à 60 g de beurre",
+        "50 g de sucre",
+        "3 à 4 dl de lait",
+        "1 dl de crème",
+        "4 œufs",
+        "1 cuillère à café de maïzena",
+        "1 dl d'alcool de prune"
+      ]
+    }
+  ],
+  "steps": [
+    {
+      "text": "Couper les prunes en deux."
+    },
+    {
+      "text": "Faire sauter les prunes avec le beurre à feu doux. Quand elles commencent à dorer, les saupoudrer avec le sucre. Caraméliser et flamber à l'alcool de prune."
+    },
+    {
+      "text": "Mettre les prunes dans des moules individuels ou dans un plat à gratin beurré et sucré."
+    },
+    {
+      "text": "Mélanger le lait, la crème, les œufs, la maïzena, bien mélanger le tout et passer à la passoire fine."
+    },
+    {
+      "text": "Verser un peu de cette préparation dans chaque moule individuel ou dans le plat à gratin."
+    },
+    {
+      "text": "Cuire à four moyen de 15 à 20 minutes pour les moules individuels ou 30 à 40 minutes pour le moule à gratin.",
+      "timers": [15, 30]
+    }
+  ],
+  "source": "Les recettes de Maurice Houdré, tome 3, Les entremets",
+  "originalSource": {
+    "type": "text",
+    "data": "Gratin de prunes\n\nIngrédients : \n\n. 15 à 20 belles prunes\n. 50 à 60 g de beurre\n. 50 g de sucre\n. 3 à 4 dl de lait\n. 1 dl de crème\n. 4 œufs\n. 1 cuillère à café de maïzena\n. 1 dl d’alcool de prune\n\nCouper les prunes en deux.\n\nFaire sauter avec le beurre à feu doux. Quand elles commencent à dorer, saupoudrer les avec le sucre. Caraméliser et flamber à l’alcool de prune.\nMettre les prunes dans des moules individuels ou dans un plat à gratin beurré et sucré.\nMélanger le lait, la crème, les œufs, la maïzena, bien mélanger le tout et passer à la passoire fine.\nVerser un peu de cette préparation dans chaque moule individuel ou dans le plat à gratin.\nCuire à four moyen de 15 à 20 minutes pour les moules individuels ou 30 à 40 minutes pour le moule à gratin.\n"
+  },
+  "related": [
+    "gratin-de-poires",
+    "gratin-de-pommes",
+    "gratin-de-bananes-kiwis-ananas-mangues-litchis",
+    "biscuit-aux-fruits"
+  ],
+  "translations": {
+    "en": {
+      "title": "Plum gratin",
+      "description": "Plums sautéed in butter, caramelised and flambéed with plum brandy, coated with a milk, cream and egg mixture, then browned in the oven.",
+      "tags": [
+        "plums",
+        "fruit",
+        "dessert",
+        "french",
+        "oven",
+        "gratin",
+        "flambeed",
+        "indulgent",
+        "hot",
+        "easy",
+        "nostalgic",
+        "family-recipe"
+      ],
+      "ingredients": [
+        {
+          "items": [
+            "15 to 20 fine plums",
+            "50 to 60 g of butter",
+            "50 g of sugar",
+            "3 to 4 dl of milk",
+            "1 dl of cream",
+            "4 eggs",
+            "1 teaspoon of cornflour",
+            "1 dl of plum brandy"
+          ]
+        }
+      ],
+      "steps": [
+        {
+          "text": "Cut the plums in half."
+        },
+        {
+          "text": "Sauté the plums in the butter over low heat. When they start to turn golden, sprinkle them with the sugar. Caramelise and flambé with the plum brandy."
+        },
+        {
+          "text": "Place the plums in individual moulds or in a buttered and sugared gratin dish."
+        },
+        {
+          "text": "Combine the milk, the cream, the eggs and the cornflour, mix everything well and pass through a fine sieve."
+        },
+        {
+          "text": "Pour a little of this mixture into each individual mould or into the gratin dish."
+        },
+        {
+          "text": "Bake in a moderate oven for 15 to 20 minutes for the individual moulds or 30 to 40 minutes for the gratin dish."
+        }
+      ]
+    },
+    "it": {
+      "title": "Gratin di prugne",
+      "description": "Prugne saltate nel burro, caramellate e flambate con acquavite di prugne, nappate con un composto di latte, panna e uova, poi gratinate in forno.",
+      "tags": [
+        "prugne",
+        "frutta",
+        "dessert",
+        "francese",
+        "forno",
+        "gratinato",
+        "flambato",
+        "goloso",
+        "caldo",
+        "facile",
+        "nostalgico",
+        "ricetta-di-famiglia"
+      ],
+      "ingredients": [
+        {
+          "items": [
+            "15 - 20 belle prugne",
+            "50 - 60 g di burro",
+            "50 g di zucchero",
+            "3 - 4 dl di latte",
+            "1 dl di panna",
+            "4 uova",
+            "1 cucchiaino di amido di mais",
+            "1 dl di acquavite di prugne"
+          ]
+        }
+      ],
+      "steps": [
+        {
+          "text": "Tagliare le prugne a metà."
+        },
+        {
+          "text": "Far saltare le prugne nel burro a fuoco dolce. Quando iniziano a dorarsi, spolverarle con lo zucchero. Caramellare e flambare con l'acquavite di prugne."
+        },
+        {
+          "text": "Mettere le prugne in stampini individuali o in una pirofila da gratin imburrata e zuccherata."
+        },
+        {
+          "text": "Unire il latte, la panna, le uova e l'amido di mais, mescolare bene il tutto e passare al colino fine."
+        },
+        {
+          "text": "Versare un po' di questo composto in ogni stampino individuale o nella pirofila da gratin."
+        },
+        {
+          "text": "Cuocere in forno moderato per 15 - 20 minuti per gli stampini individuali o 30 - 40 minuti per la pirofila da gratin."
+        }
+      ]
+    }
+  }
+}

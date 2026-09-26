@@ -1,0 +1,175 @@
+{
+  "slug": "flan-de-foie-de-volaille",
+  "title": "Flan de foie de volaille",
+  "description": "Des foies de volaille marinés au Cognac, mixés avec l'ail et les herbes, puis pochés en ramequins au bain-marie. À servir chaud avec une sauce.",
+  "images": {
+    "cover": "images/recipes/flan-de-foie-de-volaille/cover.svg",
+    "web": "images/recipes/flan-de-foie-de-volaille/cover.svg"
+  },
+  "prepTime": 25,
+  "cookTime": 30,
+  "servings": 8,
+  "difficulty": "Facile",
+  "category": "Secondi",
+  "origin": "amelie-grandpa",
+  "tags": [
+    "foie-de-volaille",
+    "volaille",
+    "plat-principal",
+    "français",
+    "nostalgique",
+    "recette-de-famille",
+    "bain-marie",
+    "four",
+    "fondant",
+    "chaud",
+    "préparation-à-lavance",
+    "convivial"
+  ],
+  "ingredients": [
+    {
+      "items": [
+        "500 g de foie de volaille",
+        "5 œufs",
+        "2 dl de crème",
+        "1 l de lait (entier et bouilli)",
+        "5 cl de Cognac",
+        "5 gousses d'ail",
+        "Persil, estragon",
+        "Sel et poivre",
+        "Pointe de Cayenne"
+      ]
+    }
+  ],
+  "steps": [
+    {
+      "text": "Laver, dénerver les foies, les faire mariner dans le Cognac pendant 24 heures.",
+      "timers": [1440]
+    },
+    {
+      "text": "Passer les foies au mixer avec l'ail, l'estragon et le persil."
+    },
+    {
+      "text": "Battre les œufs, ajouter aux foies : la crème, sel et poivre, la pointe de Cayenne et le lait refroidi. Bien mélanger."
+    },
+    {
+      "text": "Beurrer les ramequins puis verser la composition, faire pocher au bain-marie, four à 180/200 °C."
+    },
+    {
+      "text": "Servir chaud avec une sauce Nantua crémée ou Bercy avec de l'estragon haché ou une sauce diable."
+    }
+  ],
+  "source": "Les recettes de Maurice Houdré, tome 2, Volailles, lapins, foie gras",
+  "originalSource": {
+    "type": "text",
+    "data": "Flan de foie de volaille\n\nIngrédients : pour 8 personnes\n\n. 500 g de foie de volaille\n. 5 œufs\n. 2 dl de crème\n. 1 l de lait (entier et bouilli)\n. 5 cl de Cognac\n. 5 gousses d’ail\n. persil, estragon\n. sel et poivre\n. pointe de Cayenne\n\nLaver, dénerver les foies, les faire mariner dans du Cognac pendant 24 heures.\n\nPasser les foies au mixer avec l’ail, l’estragon et le persil.\nBattre les œufs, ajouter aux foies : la crème, sel et poivre, la pointe de Cayenne et le lait refroidi. Bien mélanger.\nBeurrer les ramequins puis verser la composition, faire pocher au bain-marie, four à 180/200 °C.\nServir chaud avec une sauce Nantua crémée ou Bercy avec de l’estragon haché ou une sauce diable.\n"
+  },
+  "related": [
+    "flan-de-foie-de-volaille-et-sa-mousse-de-tomates",
+    "fondant-de-foie-de-volaille",
+    "pate-en-croute-de-foie-de-volaille-ou-terrine",
+    "couscous-de-poissons-et-fruits-de-mer"
+  ],
+  "translations": {
+    "en": {
+      "title": "Chicken liver flan",
+      "description": "Chicken livers marinated in Cognac, blended with garlic and herbs, then poached in ramekins in a water bath. Serve hot with a sauce.",
+      "tags": [
+        "chicken-livers",
+        "poultry",
+        "main-course",
+        "french",
+        "nostalgic",
+        "family-recipe",
+        "water-bath",
+        "oven",
+        "melting",
+        "hot",
+        "make-ahead",
+        "convivial"
+      ],
+      "ingredients": [
+        {
+          "items": [
+            "500 g chicken livers",
+            "5 eggs",
+            "2 dl cream",
+            "1 l milk (whole and boiled)",
+            "5 cl Cognac",
+            "5 garlic cloves",
+            "Parsley, tarragon",
+            "Salt and pepper",
+            "A pinch of cayenne pepper"
+          ]
+        }
+      ],
+      "steps": [
+        {
+          "text": "Wash the livers, remove the veins and marinate them in the Cognac for 24 hours."
+        },
+        {
+          "text": "Blend the livers with the garlic, tarragon and parsley."
+        },
+        {
+          "text": "Beat the eggs, then add to the livers: the cream, salt and pepper, the pinch of cayenne and the cooled milk. Mix well."
+        },
+        {
+          "text": "Butter the ramekins, pour in the mixture and poach in a water bath in the oven at 180/200 °C."
+        },
+        {
+          "text": "Serve hot with a creamy Nantua sauce, or a Bercy sauce with chopped tarragon, or a devil sauce."
+        }
+      ]
+    },
+    "it": {
+      "title": "Flan di fegatini di pollo",
+      "description": "Fegatini di pollo marinati nel Cognac, frullati con aglio ed erbe aromatiche, poi cotti in camicia negli stampini a bagnomaria. Da servire caldi con una salsa.",
+      "tags": [
+        "fegatini-di-pollo",
+        "pollame",
+        "piatto-principale",
+        "francese",
+        "nostalgico",
+        "ricetta-di-famiglia",
+        "bagnomaria",
+        "forno",
+        "fondente",
+        "caldo",
+        "da-preparare-in-anticipo",
+        "conviviale"
+      ],
+      "ingredients": [
+        {
+          "items": [
+            "500 g di fegatini di pollo",
+            "5 uova",
+            "2 dl di panna",
+            "1 l di latte (intero e bollito)",
+            "5 cl di Cognac",
+            "5 spicchi d'aglio",
+            "Prezzemolo, dragoncello",
+            "Sale e pepe",
+            "Una punta di pepe di Cayenna"
+          ]
+        }
+      ],
+      "steps": [
+        {
+          "text": "Lavare i fegatini, eliminare i nervi e farli marinare nel Cognac per 24 ore."
+        },
+        {
+          "text": "Frullare i fegatini con l'aglio, il dragoncello e il prezzemolo."
+        },
+        {
+          "text": "Sbattere le uova, poi aggiungere ai fegatini: la panna, sale e pepe, la punta di pepe di Cayenna e il latte raffreddato. Mescolare bene."
+        },
+        {
+          "text": "Imburrare gli stampini, versarvi il composto e cuocere in camicia a bagnomaria, in forno a 180/200 °C."
+        },
+        {
+          "text": "Servire caldo con una salsa Nantua alla panna, oppure una salsa Bercy con dragoncello tritato, oppure una salsa alla diavola."
+        }
+      ]
+    }
+  }
+}

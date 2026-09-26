@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <defs>
+    <radialGradient id="pmbg" cx="50%" cy="45%" r="70%"><stop offset="0%" stop-color="#2e2822"/><stop offset="100%" stop-color="#1a1510"/></radialGradient>
+    <radialGradient id="pmplate" cx="45%" cy="40%" r="60%"><stop offset="0%" stop-color="#f2ebdc"/><stop offset="100%" stop-color="#b6ab96"/></radialGradient>
+    <linearGradient id="pmmeat" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#e0a040"/><stop offset="100%" stop-color="#8e4c14"/></linearGradient>
+    <radialGradient id="pmonion" cx="40%" cy="35%" r="70%"><stop offset="0%" stop-color="#c0506a"/><stop offset="100%" stop-color="#6a1a34"/></radialGradient>
+    <radialGradient id="pmfig" cx="50%" cy="50%" r="55%"><stop offset="0%" stop-color="#f0a080"/><stop offset="60%" stop-color="#c83a4a"/><stop offset="100%" stop-color="#4a1a3a"/></radialGradient>
+    <radialGradient id="pmsem" cx="45%" cy="35%" r="65%"><stop offset="0%" stop-color="#f8d060"/><stop offset="100%" stop-color="#d09a28"/></radialGradient>
+  </defs>
+  <rect width="800" height="600" fill="url(#pmbg)"/>
+  <g opacity="0.22">
+    <ellipse cx="680" cy="120" rx="90" ry="40" fill="#6a4a30"/>
+    <ellipse cx="680" cy="110" rx="76" ry="28" fill="url(#pmsem)"/>
+  </g>
+  <g opacity="0.16"><ellipse cx="100" cy="480" rx="34" ry="30" fill="#f0e060"/><path d="M80,470 L120,470" stroke="#c8a830" stroke-width="3"/></g>
+  <ellipse cx="400" cy="460" rx="290" ry="55" fill="#000" opacity="0.35"/>
+  <ellipse cx="400" cy="320" rx="290" ry="165" fill="url(#pmplate)"/>
+  <ellipse cx="400" cy="318" rx="230" ry="125" fill="#d6ccb6" opacity="0.6"/>
+  <path d="M290,330 Q330,300 420,315 Q470,330 440,360 Q370,380 300,360Z" fill="#b46a1c" opacity="0.55"/>
+  <path d="M300,320 Q300,265 360,258 Q420,256 440,290 Q448,322 410,338 Q360,350 322,342 Q300,336 300,320Z" fill="url(#pmmeat)"/>
+  <path d="M430,300 L480,280 Q492,276 494,286 L496,300 Q490,308 480,304 L438,318Z" fill="#c07830"/>
+  <circle cx="488" cy="282" r="8" fill="#f0e2c8"/><circle cx="492" cy="298" r="8" fill="#f0e2c8"/>
+  <g fill="#f8d080" opacity="0.5"><ellipse cx="350" cy="275" rx="36" ry="9"/><ellipse cx="400" cy="290" rx="20" ry="5"/></g>
+  <g fill="#6a3010" opacity="0.6">
+    <circle cx="330" cy="300" r="2"/><circle cx="370" cy="310" r="2"/><circle cx="410" cy="300" r="2"/><circle cx="350" cy="325" r="2"/><circle cx="390" cy="280" r="1.8"/><circle cx="420" cy="320" r="1.8"/>
+  </g>
+  <path d="M470,360 A50,40 0 0 1 570,360Z" fill="url(#pmonion)"/>
+  <g fill="none" stroke="#e890a8" stroke-width="3" opacity="0.7">
+    <path d="M482,360 A38,29 0 0 1 558,360"/><path d="M494,360 A26,19 0 0 1 546,360"/><path d="M506,360 A14,10 0 0 1 534,360"/>
+  </g>
+  <path d="M470,360 L570,360 Q560,372 520,372 Q480,372 470,360Z" fill="#8a2a44"/>
+  <path d="M232,380 Q230,330 262,305 Q282,298 290,320 Q300,352 285,382 Q258,398 232,380Z" fill="#4a1a3a"/>
+  <path d="M240,377 Q240,335 265,314 Q280,310 284,328 Q290,354 280,376 Q260,388 240,377Z" fill="url(#pmfig)"/>
+  <g fill="#f8e0b0" opacity="0.8"><circle cx="258" cy="345" r="2"/><circle cx="268" cy="360" r="2"/><circle cx="262" cy="330" r="1.8"/><circle cx="272" cy="342" r="1.8"/><circle cx="254" cy="362" r="1.8"/></g>
+  <path d="M262,305 Q266,292 272,286" stroke="#5a3a20" stroke-width="3" fill="none"/>
+  <g fill="#f0b030" opacity="0.5"><ellipse cx="330" cy="264" rx="10" ry="3"/><ellipse cx="520" cy="345" rx="12" ry="3"/><ellipse cx="262" cy="320" rx="6" ry="2"/></g>
+  <g fill="#e84a10"><path d="M440,250 l14,4" stroke="#e84a10" stroke-width="2"/><path d="M455,262 l12,-3" stroke="#e06010" stroke-width="2"/><path d="M340,380 l12,3" stroke="#e84a10" stroke-width="2"/></g>
+</svg>

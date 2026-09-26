@@ -1,0 +1,228 @@
+{
+  "slug": "souffle-aux-poires",
+  "title": "Soufflé aux poires",
+  "description": "Un soufflé léger monté sur une crème pâtissière à la vanille, parfumée à la purée de poires et à l'alcool de poire.",
+  "images": {
+    "cover": "images/recipes/souffle-aux-poires/cover.svg",
+    "web": "images/recipes/souffle-aux-poires/cover.svg"
+  },
+  "prepTime": 30,
+  "cookTime": 45,
+  "servings": 8,
+  "difficulty": "Medio",
+  "category": "Dolci",
+  "origin": "amelie-grandpa",
+  "tags": [
+    "poire",
+    "fruits",
+    "œufs",
+    "dessert",
+    "four",
+    "français",
+    "nostalgique",
+    "recette-de-famille",
+    "végétarien",
+    "aérien",
+    "festif",
+    "chaud",
+    "gourmand"
+  ],
+  "ingredients": [
+    {
+      "items": [
+        "150 g de sucre",
+        "8 œufs (réserver les blancs)",
+        "100 g de farine",
+        "½ l de lait",
+        "1 gousse de vanille",
+        "4 poires",
+        "1 dl d'alcool de poire"
+      ]
+    }
+  ],
+  "steps": [
+    {
+      "text": "Préparation de base de la crème pâtissière : faire la crème pâtissière, mélanger le sucre, 4 jaunes d'œufs, la farine, la vanille et ½ l de lait."
+    },
+    {
+      "text": "Verser progressivement le lait parfumé à la vanille dans l'appareil."
+    },
+    {
+      "text": "Cuire 2 à 3 minutes doucement et en remuant.",
+      "timers": [2]
+    },
+    {
+      "text": "Ajouter 4 jaunes d'œufs."
+    },
+    {
+      "text": "Prendre les 8 demi-poires cuites au sirop, bien les égoutter puis mixer."
+    },
+    {
+      "text": "Mélanger à la crème pâtissière : la purée de poires, l'alcool, 4 jaunes d'œufs."
+    },
+    {
+      "text": "Cuire 2 à 3 minutes doucement et en remuant.",
+      "timers": [2]
+    },
+    {
+      "text": "Monter les blancs battus en neige très ferme et mélanger à la préparation de base."
+    },
+    {
+      "text": "Soufflé aux poires : monter les blancs en neige très ferme, mélanger progressivement et délicatement à la préparation de base."
+    },
+    {
+      "text": "Verser dans des moules beurrés et farinés, selon le choix du récipient : 8 ramequins, ou 1 plat à soufflé pour 8 personnes, ou 2 plats à soufflé pour 4 personnes."
+    },
+    {
+      "text": "Mettre à four doux 30 à 40 minutes pour les plats à soufflé et 15 à 20 minutes pour les ramequins.",
+      "timers": [30, 15]
+    }
+  ],
+  "source": "Les recettes de Maurice Houdré, tome 3, Les soufflés",
+  "originalSource": {
+    "type": "text",
+    "data": "Soufflé aux poires\n\nIngrédients : pour 8 personnes\n\n. 150 g de sucre\n. 8 œufs (réserver les blancs)\n. 100 g de farine\n. ½ l de lait\n. 1 gousse de vanille\n. 4 poires\n. 1 dl d’alcool de poire\n\nPréparation de base de la crème pâtissière :\n\nFaire la crème pâtissière : mélanger le sucre, 4 jaunes d’œufs, la farine, la vanille et ½ l de lait.\nVerser progressivement le lait parfumé à la vanille dans l’appareil.\nCuire 2 à 3 minutes doucement et en remuant.\nAjouter 4 jaunes d’œufs.\nPrendre les 8 demi-poires cuites au sirop, bien les égoutter puis mixer.\nMélanger à la crème pâtissière : la purée de poires, l’alcool, 4 jaunes d’œufs.\nCuire 2 à 3 minutes doucement et en remuant.\n Monter les blancs battus en neige très ferme et mélanger à la préparation de base.\n\nSoufflé aux poires :\nMonter les blancs en neige très ferme, mélanger progressivement et délicatement à la préparation de base.\nVerser dans des moules beurrés et farinés, selon le choix du récipient :\n- 8 ramequins, ou\n- 1 plat à soufflé pour 8 personnes, ou\n- 2 plats à soufflé pour 4 personnes.\n\nMettre à four doux 30 à 40 minutes pour les plats à soufflé et 15 à 20 minutes pour les ramequins.\n"
+  },
+  "related": [
+    "fondant-aux-poires-caramelisees",
+    "gateau-fondant-aux-poires-caramelisees",
+    "gratin-de-poires",
+    "biscuit-aux-poires-et-chocolat-noir"
+  ],
+  "translations": {
+    "en": {
+      "title": "Pear soufflé",
+      "description": "A light soufflé built on a vanilla pastry cream, flavoured with pear purée and pear brandy.",
+      "tags": [
+        "pear",
+        "fruit",
+        "eggs",
+        "dessert",
+        "oven",
+        "french",
+        "nostalgic",
+        "family-recipe",
+        "vegetarian",
+        "airy",
+        "festive",
+        "hot",
+        "indulgent"
+      ],
+      "ingredients": [
+        {
+          "items": [
+            "150 g of sugar",
+            "8 eggs (keep the whites)",
+            "100 g of flour",
+            "½ l of milk",
+            "1 vanilla pod",
+            "4 pears",
+            "1 dl of pear brandy"
+          ]
+        }
+      ],
+      "steps": [
+        {
+          "text": "Base pastry cream preparation: make the pastry cream, mix the sugar, 4 egg yolks, the flour, the vanilla and ½ l of milk."
+        },
+        {
+          "text": "Gradually pour the vanilla-flavoured milk into the mixture."
+        },
+        {
+          "text": "Cook gently for 2 to 3 minutes, stirring."
+        },
+        {
+          "text": "Add 4 egg yolks."
+        },
+        {
+          "text": "Take the 8 pear halves poached in syrup, drain them well, then blend."
+        },
+        {
+          "text": "Mix into the pastry cream: the pear purée, the brandy, 4 egg yolks."
+        },
+        {
+          "text": "Cook gently for 2 to 3 minutes, stirring."
+        },
+        {
+          "text": "Whisk the whites to very stiff peaks and mix into the base preparation."
+        },
+        {
+          "text": "Pear soufflé: whisk the whites to very stiff peaks, then gradually and gently fold them into the base preparation."
+        },
+        {
+          "text": "Pour into buttered and floured moulds, depending on the dish chosen: 8 ramekins, or 1 soufflé dish for 8 people, or 2 soufflé dishes for 4 people."
+        },
+        {
+          "text": "Bake in a low oven for 30 to 40 minutes for the soufflé dishes and 15 to 20 minutes for the ramekins."
+        }
+      ]
+    },
+    "it": {
+      "title": "Soufflé alle pere",
+      "description": "Un soufflé leggero montato su una crema pasticcera alla vaniglia, profumata con purea di pere e acquavite di pere.",
+      "tags": [
+        "pera",
+        "frutta",
+        "uova",
+        "dessert",
+        "forno",
+        "francese",
+        "nostalgico",
+        "ricetta-di-famiglia",
+        "vegetariano",
+        "arioso",
+        "festoso",
+        "caldo",
+        "goloso"
+      ],
+      "ingredients": [
+        {
+          "items": [
+            "150 g di zucchero",
+            "8 uova (tenere da parte gli albumi)",
+            "100 g di farina",
+            "½ l di latte",
+            "1 baccello di vaniglia",
+            "4 pere",
+            "1 dl di acquavite di pere"
+          ]
+        }
+      ],
+      "steps": [
+        {
+          "text": "Preparazione di base della crema pasticcera: fare la crema pasticcera, mescolare lo zucchero, 4 tuorli, la farina, la vaniglia e ½ l di latte."
+        },
+        {
+          "text": "Versare gradualmente il latte profumato alla vaniglia nel composto."
+        },
+        {
+          "text": "Cuocere dolcemente per 2-3 minuti, mescolando."
+        },
+        {
+          "text": "Aggiungere 4 tuorli."
+        },
+        {
+          "text": "Prendere le 8 mezze pere cotte nello sciroppo, sgocciolarle bene, poi frullarle."
+        },
+        {
+          "text": "Mescolare alla crema pasticcera: la purea di pere, l'acquavite, 4 tuorli."
+        },
+        {
+          "text": "Cuocere dolcemente per 2-3 minuti, mescolando."
+        },
+        {
+          "text": "Montare gli albumi a neve ben ferma e mescolarli alla preparazione di base."
+        },
+        {
+          "text": "Soufflé alle pere: montare gli albumi a neve ben ferma, incorporarli gradualmente e delicatamente alla preparazione di base."
+        },
+        {
+          "text": "Versare in stampi imburrati e infarinati, secondo il recipiente scelto: 8 cocottine, oppure 1 stampo da soufflé per 8 persone, oppure 2 stampi da soufflé per 4 persone."
+        },
+        {
+          "text": "Cuocere in forno dolce per 30-40 minuti per gli stampi da soufflé e 15-20 minuti per le cocottine."
+        }
+      ]
+    }
+  }
+}

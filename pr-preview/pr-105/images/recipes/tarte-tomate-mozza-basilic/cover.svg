@@ -1,0 +1,283 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <defs>
+    <!-- Background gradient -->
+    <radialGradient id="ttmb-bg" cx="50%" cy="55%" r="70%">
+      <stop offset="0%" stop-color="#3d2010"/>
+      <stop offset="60%" stop-color="#1e0f07"/>
+      <stop offset="100%" stop-color="#0d0603"/>
+    </radialGradient>
+    <!-- Table surface -->
+    <radialGradient id="ttmb-table" cx="50%" cy="40%" r="60%">
+      <stop offset="0%" stop-color="#5a3820"/>
+      <stop offset="100%" stop-color="#2e1a0a"/>
+    </radialGradient>
+    <!-- Tin outer gradient -->
+    <radialGradient id="ttmb-tin-outer" cx="50%" cy="35%" r="55%">
+      <stop offset="0%" stop-color="#d4a830"/>
+      <stop offset="40%" stop-color="#c8a040"/>
+      <stop offset="80%" stop-color="#a07828"/>
+      <stop offset="100%" stop-color="#7a5a18"/>
+    </radialGradient>
+    <!-- Crust gradient -->
+    <radialGradient id="ttmb-crust" cx="50%" cy="40%" r="52%">
+      <stop offset="75%" stop-color="#c8982a"/>
+      <stop offset="88%" stop-color="#d4a830"/>
+      <stop offset="100%" stop-color="#b88020"/>
+    </radialGradient>
+    <!-- Tomato paste base -->
+    <radialGradient id="ttmb-base" cx="50%" cy="45%" r="48%">
+      <stop offset="0%" stop-color="#8b1a0a"/>
+      <stop offset="100%" stop-color="#6a1008"/>
+    </radialGradient>
+    <!-- Tomato slice gradients -->
+    <radialGradient id="ttmb-tom1" cx="45%" cy="40%" r="55%">
+      <stop offset="0%" stop-color="#e84030"/>
+      <stop offset="40%" stop-color="#c82010"/>
+      <stop offset="75%" stop-color="#a01808"/>
+      <stop offset="100%" stop-color="#7a1005"/>
+    </radialGradient>
+    <radialGradient id="ttmb-tom2" cx="55%" cy="45%" r="55%">
+      <stop offset="0%" stop-color="#e03525"/>
+      <stop offset="40%" stop-color="#c02010"/>
+      <stop offset="75%" stop-color="#981508"/>
+      <stop offset="100%" stop-color="#720e05"/>
+    </radialGradient>
+    <radialGradient id="ttmb-tom3" cx="50%" cy="50%" r="55%">
+      <stop offset="0%" stop-color="#d83020"/>
+      <stop offset="40%" stop-color="#b81a10"/>
+      <stop offset="75%" stop-color="#901208"/>
+      <stop offset="100%" stop-color="#6c0c05"/>
+    </radialGradient>
+    <!-- Highlight on tin -->
+    <linearGradient id="ttmb-tin-highlight" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#f0d060" stop-opacity="0.6"/>
+      <stop offset="50%" stop-color="#d4a830" stop-opacity="0.1"/>
+      <stop offset="100%" stop-color="#8a6010" stop-opacity="0.0"/>
+    </linearGradient>
+    <!-- Mozzarella gradient -->
+    <radialGradient id="ttmb-mozz" cx="40%" cy="35%" r="60%">
+      <stop offset="0%" stop-color="#ffffff"/>
+      <stop offset="60%" stop-color="#f0ece5"/>
+      <stop offset="100%" stop-color="#d8d0c5"/>
+    </radialGradient>
+    <!-- Drop shadow filter -->
+    <filter id="ttmb-shadow" x="-15%" y="-15%" width="130%" height="130%">
+      <feDropShadow dx="0" dy="8" stdDeviation="20" flood-color="#000000" flood-opacity="0.6"/>
+    </filter>
+    <!-- Soft glow for tomatoes -->
+    <filter id="ttmb-glow" x="-5%" y="-5%" width="110%" height="110%">
+      <feGaussianBlur stdDeviation="2" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+
+  <!-- Background -->
+  <rect width="800" height="600" fill="url(#ttmb-bg)"/>
+
+  <!-- Table surface subtle texture -->
+  <ellipse cx="400" cy="500" rx="500" ry="200" fill="url(#ttmb-table)" opacity="0.5"/>
+
+  <!-- Tart tin outer (fluted edge) - main circle -->
+  <circle cx="400" cy="295" r="240" fill="url(#ttmb-tin-outer)" filter="url(#ttmb-shadow)"/>
+
+  <!-- Fluted tin edge - decorative scallops -->
+  <g opacity="0.85">
+    <!-- Generate fluted effect with many small circles around perimeter -->
+    <circle cx="400" cy="57" r="14" fill="#c4982a"/>
+    <circle cx="430" cy="58" r="14" fill="#c4982a"/>
+    <circle cx="459" cy="62" r="14" fill="#c4982a"/>
+    <circle cx="487" cy="70" r="14" fill="#c4982a"/>
+    <circle cx="514" cy="82" r="14" fill="#c4982a"/>
+    <circle cx="538" cy="97" r="14" fill="#c4982a"/>
+    <circle cx="560" cy="116" r="14" fill="#c4982a"/>
+    <circle cx="578" cy="138" r="14" fill="#c4982a"/>
+    <circle cx="592" cy="162" r="14" fill="#c4982a"/>
+    <circle cx="602" cy="188" r="14" fill="#c4982a"/>
+    <circle cx="608" cy="215" r="14" fill="#c4982a"/>
+    <circle cx="610" cy="244" r="14" fill="#c4982a"/>
+    <circle cx="608" cy="272" r="14" fill="#c4982a"/>
+    <circle cx="602" cy="300" r="14" fill="#c4982a"/>
+    <circle cx="592" cy="327" r="14" fill="#c4982a"/>
+    <circle cx="578" cy="352" r="14" fill="#c4982a"/>
+    <circle cx="560" cy="374" r="14" fill="#c4982a"/>
+    <circle cx="539" cy="393" r="14" fill="#c4982a"/>
+    <circle cx="515" cy="408" r="14" fill="#c4982a"/>
+    <circle cx="488" cy="420" r="14" fill="#c4982a"/>
+    <circle cx="460" cy="427" r="14" fill="#c4982a"/>
+    <circle cx="431" cy="531" r="14" fill="#c4982a"/>
+    <circle cx="400" cy="533" r="14" fill="#c4982a"/>
+    <circle cx="369" cy="531" r="14" fill="#c4982a"/>
+    <circle cx="340" cy="427" r="14" fill="#c4982a"/>
+    <circle cx="312" cy="420" r="14" fill="#c4982a"/>
+    <circle cx="285" cy="408" r="14" fill="#c4982a"/>
+    <circle cx="261" cy="393" r="14" fill="#c4982a"/>
+    <circle cx="240" cy="374" r="14" fill="#c4982a"/>
+    <circle cx="222" cy="352" r="14" fill="#c4982a"/>
+    <circle cx="208" cy="327" r="14" fill="#c4982a"/>
+    <circle cx="198" cy="300" r="14" fill="#c4982a"/>
+    <circle cx="192" cy="272" r="14" fill="#c4982a"/>
+    <circle cx="190" cy="244" r="14" fill="#c4982a"/>
+    <circle cx="192" cy="215" r="14" fill="#c4982a"/>
+    <circle cx="198" cy="188" r="14" fill="#c4982a"/>
+    <circle cx="208" cy="162" r="14" fill="#c4982a"/>
+    <circle cx="222" cy="138" r="14" fill="#c4982a"/>
+    <circle cx="240" cy="116" r="14" fill="#c4982a"/>
+    <circle cx="262" cy="97" r="14" fill="#c4982a"/>
+    <circle cx="286" cy="82" r="14" fill="#c4982a"/>
+    <circle cx="313" cy="70" r="14" fill="#c4982a"/>
+    <circle cx="341" cy="62" r="14" fill="#c4982a"/>
+    <circle cx="370" cy="58" r="14" fill="#c4982a"/>
+  </g>
+
+  <!-- Crust ring -->
+  <circle cx="400" cy="295" r="225" fill="url(#ttmb-crust)"/>
+  <circle cx="400" cy="295" r="205" fill="url(#ttmb-base)"/>
+
+  <!-- Tomato paste layer glow -->
+  <circle cx="400" cy="295" r="200" fill="#7a1008" opacity="0.6"/>
+
+  <!-- === TOMATO SLICES - outer ring === -->
+  <!-- Tomato slice 1 - top -->
+  <ellipse cx="400" cy="140" rx="52" ry="50" fill="url(#ttmb-tom1)" transform="rotate(0, 400, 295)"/>
+  <ellipse cx="400" cy="140" rx="52" ry="50" fill="none" stroke="#7a1005" stroke-width="1.5" opacity="0.5"/>
+  <!-- Tomato interior lines -->
+  <line x1="400" y1="100" x2="400" y2="180" stroke="#8b1a0a" stroke-width="1" opacity="0.5"/>
+  <line x1="362" y1="120" x2="438" y2="160" stroke="#8b1a0a" stroke-width="1" opacity="0.5"/>
+  <line x1="362" y1="160" x2="438" y2="120" stroke="#8b1a0a" stroke-width="1" opacity="0.5"/>
+  <circle cx="400" cy="140" r="10" fill="#c02010" opacity="0.6"/>
+
+  <!-- Tomato slice 2 - top right -->
+  <ellipse cx="539" cy="181" rx="52" ry="50" fill="url(#ttmb-tom2)" transform="rotate(52, 539, 181)"/>
+  <ellipse cx="539" cy="181" rx="52" ry="50" fill="none" stroke="#7a1005" stroke-width="1.5" opacity="0.5" transform="rotate(52, 539, 181)"/>
+  <circle cx="539" cy="181" r="10" fill="#c02010" opacity="0.6"/>
+
+  <!-- Tomato slice 3 - right -->
+  <ellipse cx="590" cy="310" rx="52" ry="50" fill="url(#ttmb-tom1)" transform="rotate(90, 590, 310)"/>
+  <ellipse cx="590" cy="310" rx="52" ry="50" fill="none" stroke="#7a1005" stroke-width="1.5" opacity="0.5" transform="rotate(90, 590, 310)"/>
+  <circle cx="590" cy="310" r="10" fill="#c02010" opacity="0.6"/>
+
+  <!-- Tomato slice 4 - bottom right -->
+  <ellipse cx="529" cy="435" rx="52" ry="50" fill="url(#ttmb-tom3)" transform="rotate(128, 529, 435)"/>
+  <ellipse cx="529" cy="435" rx="52" ry="50" fill="none" stroke="#7a1005" stroke-width="1.5" opacity="0.5" transform="rotate(128, 529, 435)"/>
+  <circle cx="529" cy="435" r="10" fill="#c02010" opacity="0.6"/>
+
+  <!-- Tomato slice 5 - bottom left -->
+  <ellipse cx="271" cy="435" rx="52" ry="50" fill="url(#ttmb-tom2)" transform="rotate(-128, 271, 435)"/>
+  <ellipse cx="271" cy="435" rx="52" ry="50" fill="none" stroke="#7a1005" stroke-width="1.5" opacity="0.5" transform="rotate(-128, 271, 435)"/>
+  <circle cx="271" cy="435" r="10" fill="#c02010" opacity="0.6"/>
+
+  <!-- Tomato slice 6 - left -->
+  <ellipse cx="210" cy="310" rx="52" ry="50" fill="url(#ttmb-tom1)" transform="rotate(-90, 210, 310)"/>
+  <ellipse cx="210" cy="310" rx="52" ry="50" fill="none" stroke="#7a1005" stroke-width="1.5" opacity="0.5" transform="rotate(-90, 210, 310)"/>
+  <circle cx="210" cy="310" r="10" fill="#c02010" opacity="0.6"/>
+
+  <!-- Tomato slice 7 - top left -->
+  <ellipse cx="261" cy="181" rx="52" ry="50" fill="url(#ttmb-tom3)" transform="rotate(-52, 261, 181)"/>
+  <ellipse cx="261" cy="181" rx="52" ry="50" fill="none" stroke="#7a1005" stroke-width="1.5" opacity="0.5" transform="rotate(-52, 261, 181)"/>
+  <circle cx="261" cy="181" r="10" fill="#c02010" opacity="0.6"/>
+
+  <!-- === TOMATO SLICES - inner ring === -->
+  <!-- Inner ring - 6 slices -->
+  <ellipse cx="400" cy="190" rx="44" ry="42" fill="url(#ttmb-tom2)" transform="rotate(0, 400, 295)"/>
+  <circle cx="400" cy="190" r="8" fill="#c02010" opacity="0.5"/>
+
+  <ellipse cx="497" cy="222" rx="44" ry="42" fill="url(#ttmb-tom1)" transform="rotate(51, 497, 222)"/>
+  <circle cx="497" cy="222" r="8" fill="#c02010" opacity="0.5"/>
+
+  <ellipse cx="535" cy="320" rx="44" ry="42" fill="url(#ttmb-tom3)" transform="rotate(90, 535, 320)"/>
+  <circle cx="535" cy="320" r="8" fill="#c02010" opacity="0.5"/>
+
+  <ellipse cx="480" cy="405" rx="44" ry="42" fill="url(#ttmb-tom2)" transform="rotate(130, 480, 405)"/>
+  <circle cx="480" cy="405" r="8" fill="#c02010" opacity="0.5"/>
+
+  <ellipse cx="320" cy="405" rx="44" ry="42" fill="url(#ttmb-tom1)" transform="rotate(-130, 320, 405)"/>
+  <circle cx="320" cy="405" r="8" fill="#c02010" opacity="0.5"/>
+
+  <ellipse cx="265" cy="320" rx="44" ry="42" fill="url(#ttmb-tom3)" transform="rotate(-90, 265, 320)"/>
+  <circle cx="265" cy="320" r="8" fill="#c02010" opacity="0.5"/>
+
+  <ellipse cx="303" cy="222" rx="44" ry="42" fill="url(#ttmb-tom2)" transform="rotate(-51, 303, 222)"/>
+  <circle cx="303" cy="222" r="8" fill="#c02010" opacity="0.5"/>
+
+  <!-- === CENTER tomato cluster === -->
+  <ellipse cx="400" cy="255" rx="40" ry="38" fill="url(#ttmb-tom1)"/>
+  <circle cx="400" cy="255" r="7" fill="#c02010" opacity="0.5"/>
+
+  <ellipse cx="445" cy="285" rx="38" ry="36" fill="url(#ttmb-tom2)"/>
+  <circle cx="445" cy="285" r="7" fill="#c02010" opacity="0.5"/>
+
+  <ellipse cx="420" cy="330" rx="38" ry="36" fill="url(#ttmb-tom3)"/>
+  <circle cx="420" cy="330" r="7" fill="#c02010" opacity="0.5"/>
+
+  <ellipse cx="370" cy="330" rx="38" ry="36" fill="url(#ttmb-tom1)"/>
+  <circle cx="370" cy="330" r="7" fill="#c02010" opacity="0.5"/>
+
+  <ellipse cx="350" cy="285" rx="38" ry="36" fill="url(#ttmb-tom2)"/>
+  <circle cx="350" cy="285" r="7" fill="#c02010" opacity="0.5"/>
+
+  <!-- === MOZZARELLA pieces scattered === -->
+  <!-- Large piece 1 -->
+  <path d="M480 155 Q495 148 505 158 Q512 168 506 180 Q498 190 485 186 Q472 180 472 168 Q473 158 480 155Z" fill="url(#ttmb-mozz)" opacity="0.92"/>
+
+  <!-- Large piece 2 -->
+  <path d="M295 168 Q308 158 320 165 Q330 175 326 188 Q318 200 305 197 Q292 190 290 178 Q289 170 295 168Z" fill="url(#ttmb-mozz)" opacity="0.90"/>
+
+  <!-- Piece 3 - right side -->
+  <path d="M600 260 Q612 252 620 262 Q626 272 620 282 Q612 290 601 286 Q591 278 592 268 Q594 260 600 260Z" fill="url(#ttmb-mozz)" opacity="0.88"/>
+
+  <!-- Piece 4 - bottom right -->
+  <path d="M530 380 Q542 372 552 380 Q560 390 554 400 Q546 410 534 406 Q522 398 523 388 Q524 380 530 380Z" fill="url(#ttmb-mozz)" opacity="0.92"/>
+
+  <!-- Piece 5 - bottom center -->
+  <path d="M395 450 Q410 442 420 452 Q428 462 420 472 Q410 480 398 476 Q386 468 387 456 Q389 446 395 450Z" fill="url(#ttmb-mozz)" opacity="0.85"/>
+
+  <!-- Piece 6 - bottom left -->
+  <path d="M250 375 Q262 367 272 375 Q280 384 275 395 Q267 405 255 401 Q244 394 244 383 Q245 374 250 375Z" fill="url(#ttmb-mozz)" opacity="0.90"/>
+
+  <!-- Piece 7 - small center -->
+  <path d="M450 320 Q458 314 464 320 Q470 327 466 334 Q459 341 451 337 Q444 331 444 324 Q445 318 450 320Z" fill="url(#ttmb-mozz)" opacity="0.88"/>
+
+  <!-- Small piece 8 -->
+  <path d="M335 250 Q342 244 348 250 Q354 257 350 264 Q343 271 336 267 Q330 261 330 254 Q331 248 335 250Z" fill="url(#ttmb-mozz)" opacity="0.82"/>
+
+  <!-- === BASIL LEAVES === -->
+  <!-- Leaf 1 - top left area -->
+  <path d="M310 148 Q320 128 338 132 Q352 138 348 155 Q340 168 325 165 Q312 160 310 148Z" fill="#2d6e20" opacity="0.95"/>
+  <line x1="329" y1="133" x2="325" y2="163" stroke="#1a4512" stroke-width="1.2" opacity="0.7"/>
+  <line x1="329" y1="140" x2="320" y2="148" stroke="#1a4512" stroke-width="0.8" opacity="0.6"/>
+  <line x1="329" y1="148" x2="338" y2="155" stroke="#1a4512" stroke-width="0.8" opacity="0.6"/>
+
+  <!-- Leaf 2 - top right area -->
+  <path d="M460 132 Q472 112 490 116 Q504 122 500 139 Q492 152 477 149 Q464 144 460 132Z" fill="#338025" opacity="0.92"/>
+  <line x1="480" y1="117" x2="476" y2="147" stroke="#1a4512" stroke-width="1.2" opacity="0.7"/>
+
+  <!-- Leaf 3 - right side -->
+  <path d="M584 226 Q600 212 614 220 Q624 230 618 244 Q608 254 595 248 Q584 240 584 226Z" fill="#2d6e20" opacity="0.90"/>
+  <line x1="599" y1="221" x2="596" y2="247" stroke="#1a4512" stroke-width="1.2" opacity="0.7"/>
+
+  <!-- Leaf 4 - right bottom -->
+  <path d="M570 360 Q586 346 600 354 Q610 364 604 378 Q594 388 581 382 Q570 374 570 360Z" fill="#3a8a2a" opacity="0.88"/>
+  <line x1="585" y1="355" x2="582" y2="381" stroke="#1a4512" stroke-width="1.2" opacity="0.7"/>
+
+  <!-- Leaf 5 - bottom -->
+  <path d="M358 460 Q370 440 388 444 Q402 450 398 467 Q390 480 375 477 Q362 470 358 460Z" fill="#2d6e20" opacity="0.92"/>
+  <line x1="378" y1="445" x2="375" y2="475" stroke="#1a4512" stroke-width="1.2" opacity="0.7"/>
+
+  <!-- Leaf 6 - left bottom -->
+  <path d="M210 358 Q224 342 238 350 Q248 360 242 374 Q232 384 219 378 Q208 370 210 358Z" fill="#338025" opacity="0.90"/>
+  <line x1="225" y1="351" x2="222" y2="377" stroke="#1a4512" stroke-width="1.2" opacity="0.7"/>
+
+  <!-- Leaf 7 - top center (small) -->
+  <path d="M376 125 Q384 108 398 112 Q408 118 404 132 Q398 142 386 140 Q376 134 376 125Z" fill="#2a6018" opacity="0.88"/>
+  <line x1="391" y1="113" x2="388" y2="139" stroke="#1a4512" stroke-width="1" opacity="0.7"/>
+
+  <!-- === TIN HIGHLIGHT === -->
+  <circle cx="400" cy="295" r="238" fill="url(#ttmb-tin-highlight)" opacity="0.4"/>
+
+  <!-- Warm light spot top-left -->
+  <ellipse cx="290" cy="175" rx="80" ry="60" fill="#ffcc60" opacity="0.06"/>
+
+  <!-- Subtle caramelized edge effect on tomatoes - darkening near crust -->
+  <circle cx="400" cy="295" r="200" fill="none" stroke="#5a0c04" stroke-width="8" opacity="0.3"/>
+  <circle cx="400" cy="295" r="192" fill="none" stroke="#8b1a0a" stroke-width="4" opacity="0.2"/>
+</svg>
