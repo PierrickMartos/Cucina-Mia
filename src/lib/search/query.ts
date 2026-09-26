@@ -134,6 +134,8 @@ const VEGETARIAN = { require: ["vegetarien", "vegetalien"] }
 const VEGAN = { require: ["vegetalien"] }
 // "Quatre-épices" in an ingredient line is not a spicy dish: only the tag counts.
 const SPICY = { require: ["epice"] }
+// "Cuillère à dessert" is a spoon size, not a course: only the tag counts.
+const DESSERT = { require: ["dessert"] }
 export const TAG_RULES: Record<string, { avoid?: string[]; require?: string[] }> = {
   hiver: WINTER, winter: WINTER, inverno: WINTER, hivernal: WINTER, invernale: WINTER,
   ete: SUMMER, summer: SUMMER, estate: SUMMER, estivo: SUMMER,
@@ -142,6 +144,7 @@ export const TAG_RULES: Record<string, { avoid?: string[]; require?: string[] }>
   vegetarien: VEGETARIAN, vegetarian: VEGETARIAN, vegetariano: VEGETARIAN, veggie: VEGETARIAN, vege: VEGETARIAN,
   veg: VEGETARIAN, vegetalien: VEGAN, vegan: VEGAN, vegane: VEGAN, vegano: VEGAN,
   piquant: SPICY, releve: SPICY, spicy: SPICY, piccante: SPICY,
+  dessert: DESSERT, desserts: DESSERT,
 }
 // "sans X" tags a result must carry.
 const WITHOUT_TAGS: Record<string, string[]> = {

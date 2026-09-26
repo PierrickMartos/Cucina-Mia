@@ -11875,5 +11875,1330 @@
     },
     "stepCount": 3,
     "ingredientCount": 9
+  },
+  {
+    "slug": "blinis",
+    "title": "Blinis",
+    "description": "Petites crêpes épaisses au sarrasin, levées au levain et allégées de blancs en neige, à servir chaudes avec le saumon fumé.",
+    "images": {
+      "cover": "images/recipes/blinis/cover.webp",
+      "web": "images/recipes/blinis/web.webp"
+    },
+    "imageCredit": {
+      "author": "photosforyou",
+      "url": "https://pixabay.com/users/photosforyou-124319/"
+    },
+    "prepTime": 180,
+    "cookTime": 30,
+    "servings": 8,
+    "difficulty": "Medio",
+    "category": "Antipasti",
+    "tags": [
+      "sarrasin",
+      "crêpes",
+      "œufs",
+      "poêle",
+      "entrée",
+      "apéro",
+      "fête",
+      "végétarien",
+      "moelleux",
+      "chaud",
+      "préparation-à-lavance",
+      "français",
+      "nostalgique",
+      "recette-de-famille"
+    ],
+    "origin": "amelie-grandpa",
+    "translations": {
+      "en": {
+        "title": "Blinis",
+        "description": "Small, thick buckwheat pancakes, raised with a yeast starter and lightened with beaten egg whites, served warm with smoked salmon.",
+        "tags": [
+          "buckwheat",
+          "pancakes",
+          "eggs",
+          "pan",
+          "starter",
+          "aperitif",
+          "celebration",
+          "vegetarian",
+          "fluffy",
+          "hot",
+          "make-ahead",
+          "french",
+          "nostalgic",
+          "family-recipe"
+        ]
+      },
+      "it": {
+        "title": "Blini",
+        "description": "Piccole crêpe spesse al grano saraceno, lievitate con un lievitino e alleggerite con albumi montati a neve, da servire calde con il salmone affumicato.",
+        "tags": [
+          "grano-saraceno",
+          "crêpe",
+          "uova",
+          "padella",
+          "antipasto",
+          "aperitivo",
+          "festa",
+          "vegetariano",
+          "soffice",
+          "caldo",
+          "preparazione-in-anticipo",
+          "francese",
+          "nostalgico",
+          "ricetta-di-famiglia"
+        ]
+      }
+    },
+    "stepCount": 5,
+    "ingredientCount": 9
+  },
+  {
+    "slug": "crepes-salees",
+    "title": "Crêpes salées",
+    "description": "Des crêpes au sarrasin et au froment relevées d'une pointe d'ail, à garnir de jambon, de chipolatas, d'œuf brouillé ou de saumon fumé.",
+    "images": {
+      "cover": "images/recipes/crepes-salees/cover.webp",
+      "web": "images/recipes/crepes-salees/web.webp"
+    },
+    "imageCredit": {
+      "author": "RitaE",
+      "url": "https://pixabay.com/users/ritae-19628/"
+    },
+    "prepTime": 75,
+    "cookTime": 30,
+    "servings": 8,
+    "difficulty": "Facile",
+    "category": "Antipasti",
+    "tags": [
+      "crêpes",
+      "sarrasin",
+      "poêle",
+      "entrée",
+      "français",
+      "facile",
+      "chaud",
+      "convivial",
+      "toute-la-famille",
+      "nostalgique",
+      "recette-de-famille"
+    ],
+    "origin": "amelie-grandpa",
+    "translations": {
+      "en": {
+        "title": "Savoury crêpes",
+        "description": "Buckwheat and wheat crêpes lifted with a hint of garlic, to fill with ham, chipolatas, scrambled egg or smoked salmon.",
+        "tags": [
+          "crepes",
+          "buckwheat",
+          "pan",
+          "starter",
+          "french",
+          "easy",
+          "hot",
+          "convivial",
+          "whole-family",
+          "nostalgic",
+          "family-recipe"
+        ]
+      },
+      "it": {
+        "title": "Crêpes salate",
+        "description": "Crêpes di grano saraceno e di frumento insaporite da una punta d'aglio, da farcire con prosciutto, chipolata, uova strapazzate o salmone affumicato.",
+        "tags": [
+          "crepes",
+          "grano-saraceno",
+          "padella",
+          "antipasto",
+          "francese",
+          "facile",
+          "caldo",
+          "conviviale",
+          "tutta-la-famiglia",
+          "nostalgico",
+          "ricetta-di-famiglia"
+        ]
+      }
+    },
+    "stepCount": 4,
+    "ingredientCount": 9
+  },
+  {
+    "slug": "crepes-savoyardes-aux-morilles",
+    "title": "Crêpes savoyardes aux morilles",
+    "description": "Crêpes de sarrasin garnies d'une béchamel à l'emmenthal, d'une tranche de jambon et de morilles à la crème, roulées puis chauffées doucement.",
+    "images": {
+      "cover": "images/recipes/crepes-savoyardes-aux-morilles/cover.svg",
+      "web": "images/recipes/crepes-savoyardes-aux-morilles/cover.svg"
+    },
+    "prepTime": 90,
+    "cookTime": 45,
+    "servings": 10,
+    "difficulty": "Medio",
+    "category": "Antipasti",
+    "tags": [
+      "champignons",
+      "fromage",
+      "porc",
+      "entrée",
+      "français",
+      "nostalgique",
+      "recette-de-famille",
+      "gourmand",
+      "festif",
+      "chaud",
+      "onctueux"
+    ],
+    "origin": "amelie-grandpa",
+    "translations": {
+      "en": {
+        "title": "Savoy-style crêpes with morels",
+        "description": "Buckwheat crêpes filled with an Emmental béchamel, a slice of ham and creamed morels, rolled up then gently heated.",
+        "tags": [
+          "mushrooms",
+          "cheese",
+          "pork",
+          "starter",
+          "french",
+          "nostalgic",
+          "family-recipe",
+          "indulgent",
+          "festive",
+          "hot",
+          "creamy"
+        ]
+      },
+      "it": {
+        "title": "Crêpes savoiarde ai funghi spugnole",
+        "description": "Crêpes di grano saraceno farcite con una besciamella all'emmental, una fetta di prosciutto e spugnole alla panna, arrotolate e poi scaldate dolcemente.",
+        "tags": [
+          "funghi",
+          "formaggio",
+          "maiale",
+          "antipasto",
+          "francese",
+          "nostalgico",
+          "ricetta-di-famiglia",
+          "goloso",
+          "festivo",
+          "caldo",
+          "cremoso"
+        ]
+      }
+    },
+    "stepCount": 12,
+    "ingredientCount": 15
+  },
+  {
+    "slug": "dartois-au-thon",
+    "title": "Dartois au thon",
+    "description": "Un appareil de thon, champignons, œufs durs et béchamel enfermé entre deux bandes de feuilletage dorées, à détailler en parts.",
+    "images": {
+      "cover": "images/recipes/dartois-au-thon/cover.svg",
+      "web": "images/recipes/dartois-au-thon/cover.svg"
+    },
+    "prepTime": 75,
+    "cookTime": 45,
+    "servings": 10,
+    "difficulty": "Medio",
+    "category": "Antipasti",
+    "tags": [
+      "français",
+      "nostalgique",
+      "recette-de-famille",
+      "entrée",
+      "thon",
+      "poisson",
+      "œufs",
+      "four",
+      "à-partager",
+      "buffet",
+      "croustillant",
+      "chaud"
+    ],
+    "origin": "amelie-grandpa",
+    "translations": {
+      "en": {
+        "title": "Tuna dartois",
+        "description": "A mixture of tuna, mushrooms, hard-boiled eggs and béchamel enclosed between two golden strips of puff pastry, cut into portions.",
+        "tags": [
+          "french",
+          "nostalgic",
+          "family-recipe",
+          "starter",
+          "tuna",
+          "fish",
+          "eggs",
+          "oven",
+          "sharing",
+          "buffet",
+          "crispy",
+          "hot"
+        ]
+      },
+      "it": {
+        "title": "Dartois al tonno",
+        "description": "Un composto di tonno, funghi, uova sode e besciamella racchiuso tra due strisce di pasta sfoglia dorate, da tagliare a porzioni.",
+        "tags": [
+          "francese",
+          "nostalgico",
+          "ricetta-di-famiglia",
+          "antipasto",
+          "tonno",
+          "pesce",
+          "uova",
+          "forno",
+          "da-condividere",
+          "buffet",
+          "croccante",
+          "caldo"
+        ]
+      }
+    },
+    "stepCount": 11,
+    "ingredientCount": 13
+  },
+  {
+    "slug": "dartois-savoyard",
+    "title": "Dartois savoyard",
+    "description": "Une béchamel au gruyère et des tranches de jambon enfermées entre deux abaisses de feuilletage, dorées au four puis détaillées en parts.",
+    "images": {
+      "cover": "images/recipes/dartois-savoyard/cover.svg",
+      "web": "images/recipes/dartois-savoyard/cover.svg"
+    },
+    "prepTime": 60,
+    "cookTime": 40,
+    "servings": 10,
+    "difficulty": "Medio",
+    "category": "Antipasti",
+    "tags": [
+      "français",
+      "nostalgique",
+      "recette-de-famille",
+      "entrée",
+      "porc",
+      "fromage",
+      "four",
+      "chaud",
+      "croustillant",
+      "à-partager",
+      "convivial"
+    ],
+    "origin": "amelie-grandpa",
+    "translations": {
+      "en": {
+        "title": "Savoyard dartois",
+        "description": "A Gruyère béchamel and slices of ham enclosed between two sheets of rolled-out puff pastry, baked until golden, then cut into portions.",
+        "tags": [
+          "french",
+          "nostalgic",
+          "family-recipe",
+          "starter",
+          "pork",
+          "cheese",
+          "oven",
+          "hot",
+          "crispy",
+          "sharing",
+          "convivial"
+        ]
+      },
+      "it": {
+        "title": "Dartois savoiardo",
+        "description": "Una besciamella al groviera e fette di prosciutto racchiuse tra due sfoglie di pasta sfoglia, dorate in forno e poi tagliate a porzioni.",
+        "tags": [
+          "francese",
+          "nostalgico",
+          "ricetta-di-famiglia",
+          "antipasto",
+          "maiale",
+          "formaggio",
+          "forno",
+          "caldo",
+          "croccante",
+          "da-condividere",
+          "conviviale"
+        ]
+      }
+    },
+    "stepCount": 8,
+    "ingredientCount": 8
+  },
+  {
+    "slug": "escargots-a-la-bordelaise",
+    "title": "Escargots à la bordelaise",
+    "description": "Escargots étuvés au vin blanc et aux échalotes, mêlés de cèpes sautés à l'ail, au persil et au beurre, servis en timbale ou en feuilleté.",
+    "images": {
+      "cover": "images/recipes/escargots-a-la-bordelaise/cover.webp",
+      "web": "images/recipes/escargots-a-la-bordelaise/web.webp"
+    },
+    "imageCredit": {
+      "author": "StockSnap",
+      "url": "https://pixabay.com/users/stocksnap-894430/"
+    },
+    "prepTime": 20,
+    "cookTime": 15,
+    "servings": 10,
+    "difficulty": "Facile",
+    "category": "Antipasti",
+    "tags": [
+      "escargots",
+      "champignons",
+      "français",
+      "entrée",
+      "poêle",
+      "chaud",
+      "festif",
+      "fête",
+      "noël",
+      "facile",
+      "herbacé",
+      "nostalgique",
+      "recette-de-famille"
+    ],
+    "origin": "amelie-grandpa",
+    "translations": {
+      "en": {
+        "title": "Bordelaise-style snails",
+        "description": "Snails cooked covered in white wine and shallots, mixed with porcini sautéed with garlic, parsley and butter, served in a timbale or a puff pastry case.",
+        "tags": [
+          "snails",
+          "mushrooms",
+          "french",
+          "starter",
+          "pan",
+          "hot",
+          "festive",
+          "party",
+          "christmas",
+          "easy",
+          "herby",
+          "nostalgic",
+          "family-recipe"
+        ]
+      },
+      "it": {
+        "title": "Lumache alla bordolese",
+        "description": "Lumache stufate al vino bianco e scalogno, unite a porcini saltati con aglio, prezzemolo e burro, servite in timballo o in sfoglia.",
+        "tags": [
+          "lumache",
+          "funghi",
+          "francese",
+          "antipasto",
+          "padella",
+          "caldo",
+          "festivo",
+          "festa",
+          "natale",
+          "facile",
+          "erbaceo",
+          "nostalgico",
+          "ricetta-di-famiglia"
+        ]
+      }
+    },
+    "stepCount": 7,
+    "ingredientCount": 9
+  },
+  {
+    "slug": "escargots-a-la-forestiere",
+    "title": "Escargots à la forestière",
+    "description": "Escargots étuvés au vin blanc et aux échalotes, mêlés de champignons de Paris sautés, d'ail, de persil et de beurre.",
+    "images": {
+      "cover": "images/recipes/escargots-a-la-forestiere/cover.svg",
+      "web": "images/recipes/escargots-a-la-forestiere/cover.svg"
+    },
+    "prepTime": 25,
+    "cookTime": 15,
+    "servings": 10,
+    "difficulty": "Facile",
+    "category": "Antipasti",
+    "tags": [
+      "escargots",
+      "champignons",
+      "entrée",
+      "poêle",
+      "facile",
+      "festif",
+      "chaud",
+      "français",
+      "nostalgique",
+      "recette-de-famille"
+    ],
+    "origin": "amelie-grandpa",
+    "translations": {
+      "en": {
+        "title": "Snails forestière style",
+        "description": "Snails cooked covered in white wine and shallots, mixed with sautéed button mushrooms, garlic, parsley and butter.",
+        "tags": [
+          "snails",
+          "mushrooms",
+          "starter",
+          "pan-fried",
+          "easy",
+          "festive",
+          "hot",
+          "french",
+          "nostalgic",
+          "family-recipe"
+        ]
+      },
+      "it": {
+        "title": "Lumache alla boscaiola",
+        "description": "Lumache stufate nel vino bianco con scalogni, unite a champignon saltati, aglio, prezzemolo e burro.",
+        "tags": [
+          "lumache",
+          "funghi",
+          "antipasto",
+          "padella",
+          "facile",
+          "festivo",
+          "caldo",
+          "francese",
+          "nostalgico",
+          "ricetta-di-famiglia"
+        ]
+      }
+    },
+    "stepCount": 7,
+    "ingredientCount": 10
+  },
+  {
+    "slug": "flamiche-ou-tarte-aux-poireaux",
+    "title": "Flamiche ou tarte aux poireaux",
+    "description": "Une tarte sur pâte brisée garnie de blancs de poireaux sués au beurre et nappés d'appareil à quiche, cuite à feu doux.",
+    "images": {
+      "cover": "images/recipes/flamiche-ou-tarte-aux-poireaux/cover.webp",
+      "web": "images/recipes/flamiche-ou-tarte-aux-poireaux/web.webp"
+    },
+    "imageCredit": {
+      "author": "RitaE",
+      "url": "https://pixabay.com/users/ritae-19628/"
+    },
+    "prepTime": 30,
+    "cookTime": 45,
+    "servings": 10,
+    "difficulty": "Medio",
+    "category": "Antipasti",
+    "tags": [
+      "poireaux",
+      "légumes",
+      "tarte",
+      "végétarien",
+      "entrée",
+      "hiver",
+      "réconfortant",
+      "chaud",
+      "préparation-à-lavance",
+      "à-partager",
+      "français",
+      "nostalgique",
+      "recette-de-famille"
+    ],
+    "origin": "amelie-grandpa",
+    "translations": {
+      "en": {
+        "title": "Flamiche (Leek Tart)",
+        "description": "A shortcrust tart filled with leek whites sweated in butter and coated with quiche mixture, baked over gentle heat.",
+        "tags": [
+          "leeks",
+          "vegetables",
+          "tart",
+          "vegetarian",
+          "starter",
+          "winter",
+          "comforting",
+          "hot",
+          "make-ahead",
+          "to-share",
+          "french",
+          "nostalgic",
+          "family-recipe"
+        ]
+      },
+      "it": {
+        "title": "Flamiche (torta salata ai porri)",
+        "description": "Una torta salata di pasta brisée farcita con la parte bianca dei porri fatta sudare nel burro e nappata con il composto per quiche, cotta a fuoco dolce.",
+        "tags": [
+          "porri",
+          "verdure",
+          "torta-salata",
+          "vegetariano",
+          "antipasto",
+          "inverno",
+          "confortante",
+          "caldo",
+          "preparazione-in-anticipo",
+          "da-condividere",
+          "francese",
+          "nostalgico",
+          "ricetta-di-famiglia"
+        ]
+      }
+    },
+    "stepCount": 6,
+    "ingredientCount": 5
+  },
+  {
+    "slug": "gnocchis-a-la-parisienne",
+    "title": "Gnocchis à la parisienne",
+    "description": "Des gnocchis de pâte à chou au fromage, pochés puis gratinés au four sous une sauce Mornay ou béchamel.",
+    "images": {
+      "cover": "images/recipes/gnocchis-a-la-parisienne/cover.svg",
+      "web": "images/recipes/gnocchis-a-la-parisienne/cover.svg"
+    },
+    "prepTime": 30,
+    "cookTime": 45,
+    "servings": 10,
+    "difficulty": "Medio",
+    "category": "Antipasti",
+    "tags": [
+      "français",
+      "nostalgique",
+      "recette-de-famille",
+      "entrée",
+      "fromage",
+      "œufs",
+      "végétarien",
+      "four",
+      "gratiné",
+      "gourmand",
+      "réconfortant",
+      "chaud"
+    ],
+    "origin": "amelie-grandpa",
+    "translations": {
+      "en": {
+        "title": "Gnocchi à la parisienne",
+        "description": "Cheese choux pastry gnocchi, poached then browned in the oven under a Mornay or béchamel sauce.",
+        "tags": [
+          "french",
+          "nostalgic",
+          "family-recipe",
+          "starter",
+          "cheese",
+          "eggs",
+          "vegetarian",
+          "oven",
+          "au-gratin",
+          "indulgent",
+          "comforting",
+          "hot"
+        ]
+      },
+      "it": {
+        "title": "Gnocchi alla parigina",
+        "description": "Gnocchi di pasta choux al formaggio, cotti in camicia e poi gratinati in forno sotto una salsa Mornay o besciamella.",
+        "tags": [
+          "francese",
+          "nostalgico",
+          "ricetta-di-famiglia",
+          "antipasto",
+          "formaggio",
+          "uova",
+          "vegetariano",
+          "forno",
+          "gratinato",
+          "goloso",
+          "confortante",
+          "caldo"
+        ]
+      }
+    },
+    "stepCount": 11,
+    "ingredientCount": 11
+  },
+  {
+    "slug": "gnocchis-a-la-romaine",
+    "title": "Gnocchis à la romaine",
+    "description": "Une galette de semoule au lait, aux œufs et au gruyère, découpée puis gratinée au beurre fondu.",
+    "images": {
+      "cover": "images/recipes/gnocchis-a-la-romaine/cover.svg",
+      "web": "images/recipes/gnocchis-a-la-romaine/cover.svg"
+    },
+    "prepTime": 20,
+    "cookTime": 20,
+    "servings": 4,
+    "difficulty": "Facile",
+    "category": "Antipasti",
+    "tags": [
+      "semoule",
+      "fromage",
+      "œufs",
+      "entrée",
+      "français",
+      "four",
+      "végétarien",
+      "économique",
+      "réconfortant",
+      "chaud",
+      "nostalgique",
+      "recette-de-famille"
+    ],
+    "origin": "amelie-grandpa",
+    "translations": {
+      "en": {
+        "title": "Gnocchi alla romana",
+        "description": "A semolina cake made with milk, eggs and Gruyère, cut into pieces and then browned under melted butter.",
+        "tags": [
+          "semolina",
+          "cheese",
+          "eggs",
+          "starter",
+          "french",
+          "oven",
+          "vegetarian",
+          "budget-friendly",
+          "comforting",
+          "hot",
+          "nostalgic",
+          "family-recipe"
+        ]
+      },
+      "it": {
+        "title": "Gnocchi alla romana",
+        "description": "Una sfoglia di semolino con latte, uova e groviera, tagliata e poi gratinata con burro fuso.",
+        "tags": [
+          "semolino",
+          "formaggio",
+          "uova",
+          "antipasto",
+          "francese",
+          "forno",
+          "vegetariano",
+          "economico",
+          "confortante",
+          "caldo",
+          "nostalgico",
+          "ricetta-di-famiglia"
+        ]
+      }
+    },
+    "stepCount": 7,
+    "ingredientCount": 6
+  },
+  {
+    "slug": "quenelles-du-papi",
+    "title": "Les quenelles",
+    "description": "Quenelles de poisson, de volaille ou de viande, liées d'une panade, de blancs d'œufs et de crème, puis pochées.",
+    "images": {
+      "cover": "images/recipes/quenelles-du-papi/cover.svg",
+      "web": "images/recipes/quenelles-du-papi/cover.svg"
+    },
+    "prepTime": 40,
+    "cookTime": 20,
+    "servings": 10,
+    "difficulty": "Medio",
+    "category": "Antipasti",
+    "tags": [
+      "entrée",
+      "poisson",
+      "volaille",
+      "poché",
+      "moelleux",
+      "chaud",
+      "festif",
+      "préparation-à-lavance",
+      "français",
+      "nostalgique",
+      "recette-de-famille"
+    ],
+    "origin": "amelie-grandpa",
+    "translations": {
+      "en": {
+        "title": "Quenelles",
+        "description": "Fish, poultry or meat quenelles, bound with a panada, egg whites and cream, then poached.",
+        "tags": [
+          "starter",
+          "fish",
+          "poultry",
+          "poached",
+          "soft",
+          "hot",
+          "festive",
+          "make-ahead",
+          "french",
+          "nostalgic",
+          "family-recipe"
+        ]
+      },
+      "it": {
+        "title": "Quenelle",
+        "description": "Quenelle di pesce, di pollame o di carne, legate con una panata, albumi e panna, poi cotte in camicia.",
+        "tags": [
+          "antipasto",
+          "pesce",
+          "pollame",
+          "in-camicia",
+          "morbido",
+          "caldo",
+          "festivo",
+          "preparazione-anticipata",
+          "francese",
+          "nostalgico",
+          "ricetta-di-famiglia"
+        ]
+      }
+    },
+    "stepCount": 6,
+    "ingredientCount": 8
+  },
+  {
+    "slug": "oeufs-cocotte-au-curry",
+    "title": "Œufs cocotte au curry",
+    "description": "Des œufs cuits au four au bain-marie en ramequins, nappés d'une crème bouillante parfumée au curry.",
+    "images": {
+      "cover": "images/recipes/oeufs-cocotte-au-curry/cover.svg",
+      "web": "images/recipes/oeufs-cocotte-au-curry/cover.svg"
+    },
+    "prepTime": 5,
+    "cookTime": 6,
+    "servings": 4,
+    "difficulty": "Facile",
+    "category": "Antipasti",
+    "tags": [
+      "œufs",
+      "entrée",
+      "français",
+      "nostalgique",
+      "recette-de-famille",
+      "four",
+      "bain-marie",
+      "végétarien",
+      "rapide",
+      "facile",
+      "onctueux",
+      "chaud"
+    ],
+    "origin": "amelie-grandpa",
+    "translations": {
+      "en": {
+        "title": "Curried Baked Eggs",
+        "description": "Eggs baked in ramekins in a bain-marie in the oven, coated with boiling curry-scented cream.",
+        "tags": [
+          "eggs",
+          "starter",
+          "french",
+          "nostalgic",
+          "family-recipe",
+          "oven",
+          "bain-marie",
+          "vegetarian",
+          "quick",
+          "easy",
+          "creamy",
+          "hot"
+        ]
+      },
+      "it": {
+        "title": "Uova in cocotte al curry",
+        "description": "Uova cotte in forno a bagnomaria in cocottine, nappate con una panna bollente profumata al curry.",
+        "tags": [
+          "uova",
+          "antipasto",
+          "francese",
+          "nostalgico",
+          "ricetta-di-famiglia",
+          "forno",
+          "bagnomaria",
+          "vegetariano",
+          "veloce",
+          "facile",
+          "cremoso",
+          "caldo"
+        ]
+      }
+    },
+    "stepCount": 3,
+    "ingredientCount": 5
+  },
+  {
+    "slug": "oeufs-cocotte-au-saumon",
+    "title": "Œufs cocotte au saumon",
+    "description": "Des œufs cuits au bain-marie entre deux rondelles de saumon fumé, nappés d'une crème réduite à l'aneth.",
+    "images": {
+      "cover": "images/recipes/oeufs-cocotte-au-saumon/cover.svg",
+      "web": "images/recipes/oeufs-cocotte-au-saumon/cover.svg"
+    },
+    "prepTime": 15,
+    "cookTime": 15,
+    "servings": 10,
+    "difficulty": "Facile",
+    "category": "Antipasti",
+    "tags": [
+      "œufs",
+      "poisson",
+      "entrée",
+      "français",
+      "bain-marie",
+      "four",
+      "chaud",
+      "facile",
+      "festif",
+      "fondant",
+      "nostalgique",
+      "recette-de-famille"
+    ],
+    "origin": "amelie-grandpa",
+    "translations": {
+      "en": {
+        "title": "Baked eggs with salmon",
+        "description": "Eggs cooked in a bain-marie between two rounds of smoked salmon, coated with a cream reduced with dill.",
+        "tags": [
+          "eggs",
+          "fish",
+          "starter",
+          "french",
+          "bain-marie",
+          "oven",
+          "hot",
+          "easy",
+          "festive",
+          "melting",
+          "nostalgic",
+          "family-recipe"
+        ]
+      },
+      "it": {
+        "title": "Uova in cocotte al salmone",
+        "description": "Uova cotte a bagnomaria tra due dischi di salmone affumicato, nappate con una panna ridotta all'aneto.",
+        "tags": [
+          "uova",
+          "pesce",
+          "antipasto",
+          "francese",
+          "bagnomaria",
+          "forno",
+          "caldo",
+          "facile",
+          "festivo",
+          "fondente",
+          "nostalgico",
+          "ricetta-di-famiglia"
+        ]
+      }
+    },
+    "stepCount": 6,
+    "ingredientCount": 6
+  },
+  {
+    "slug": "oeufs-poches-en-matelote",
+    "title": "Œufs pochés en matelote",
+    "description": "Des œufs pochés dans une matelote au vin rouge, servis sur du pain de mie grillé avec de la poitrine fumée et nappés de sauce.",
+    "images": {
+      "cover": "images/recipes/oeufs-poches-en-matelote/cover.svg",
+      "web": "images/recipes/oeufs-poches-en-matelote/cover.svg"
+    },
+    "prepTime": 15,
+    "cookTime": 35,
+    "servings": 8,
+    "difficulty": "Medio",
+    "category": "Antipasti",
+    "tags": [
+      "français",
+      "nostalgique",
+      "recette-de-famille",
+      "entrée",
+      "œufs",
+      "porc",
+      "vin-rouge",
+      "mijoté",
+      "réconfortant",
+      "convivial",
+      "hiver",
+      "chaud"
+    ],
+    "origin": "amelie-grandpa",
+    "translations": {
+      "en": {
+        "title": "Poached eggs in matelote sauce",
+        "description": "Eggs poached in a red wine matelote, served on toasted white sandwich bread with smoked pork belly and coated with the sauce.",
+        "tags": [
+          "french",
+          "nostalgic",
+          "family-recipe",
+          "starter",
+          "eggs",
+          "pork",
+          "red-wine",
+          "simmered",
+          "comforting",
+          "convivial",
+          "winter",
+          "hot"
+        ]
+      },
+      "it": {
+        "title": "Uova in camicia alla matelote",
+        "description": "Uova in camicia cotte in una matelote al vino rosso, servite su pane in cassetta tostato con pancetta affumicata e nappate di salsa.",
+        "tags": [
+          "francese",
+          "nostalgico",
+          "ricetta-di-famiglia",
+          "antipasto",
+          "uova",
+          "maiale",
+          "vino-rosso",
+          "cotto-a-fuoco-lento",
+          "confortante",
+          "conviviale",
+          "inverno",
+          "caldo"
+        ]
+      }
+    },
+    "stepCount": 8,
+    "ingredientCount": 10
+  },
+  {
+    "slug": "pain-d-oeufs-a-la-basquaise",
+    "title": "Pain d'œufs à la basquaise",
+    "description": "Un pain d'œufs moelleux garni d'une basquaise d'oignons, tomates et poivron et d'œufs durs, cuit au bain-marie dans un moule à cake.",
+    "images": {
+      "cover": "images/recipes/pain-d-oeufs-a-la-basquaise/cover.svg",
+      "web": "images/recipes/pain-d-oeufs-a-la-basquaise/cover.svg"
+    },
+    "prepTime": 30,
+    "cookTime": 65,
+    "servings": 10,
+    "difficulty": "Facile",
+    "category": "Antipasti",
+    "tags": [
+      "œufs",
+      "entrée",
+      "français",
+      "nostalgique",
+      "recette-de-famille",
+      "bain-marie",
+      "four",
+      "végétarien",
+      "moelleux",
+      "froid",
+      "buffet",
+      "préparation-à-lavance",
+      "facile"
+    ],
+    "origin": "amelie-grandpa",
+    "translations": {
+      "en": {
+        "title": "Basque-style egg loaf",
+        "description": "A soft egg loaf filled with a Basque-style mix of onions, tomatoes and pepper and with hard-boiled eggs, cooked in a bain-marie in a loaf tin.",
+        "tags": [
+          "eggs",
+          "starter",
+          "french",
+          "nostalgic",
+          "family-recipe",
+          "bain-marie",
+          "oven",
+          "vegetarian",
+          "soft",
+          "cold",
+          "buffet",
+          "make-ahead",
+          "easy"
+        ]
+      },
+      "it": {
+        "title": "Pane di uova alla basca",
+        "description": "Un morbido pane di uova farcito con una basquaise di cipolle, pomodori e peperone e con uova sode, cotto a bagnomaria in uno stampo da plumcake.",
+        "tags": [
+          "uova",
+          "antipasto",
+          "francese",
+          "nostalgico",
+          "ricetta-di-famiglia",
+          "bagnomaria",
+          "forno",
+          "vegetariano",
+          "morbido",
+          "freddo",
+          "buffet",
+          "da-preparare-in-anticipo",
+          "facile"
+        ]
+      }
+    },
+    "stepCount": 8,
+    "ingredientCount": 11
+  },
+  {
+    "slug": "quiche-aux-moules-et-champignons",
+    "title": "Quiche aux moules et champignons",
+    "description": "Une quiche généreuse où les moules au vin blanc et les champignons étuvés sont nappés d'un appareil crémeux au jus de cuisson des moules.",
+    "images": {
+      "cover": "images/recipes/quiche-aux-moules-et-champignons/cover.svg",
+      "web": "images/recipes/quiche-aux-moules-et-champignons/cover.svg"
+    },
+    "prepTime": 40,
+    "cookTime": 35,
+    "servings": 8,
+    "difficulty": "Medio",
+    "category": "Antipasti",
+    "tags": [
+      "fruits-de-mer",
+      "moules",
+      "champignons",
+      "entrée",
+      "français",
+      "four",
+      "chaud",
+      "onctueux",
+      "à-partager",
+      "nostalgique",
+      "recette-de-famille"
+    ],
+    "origin": "amelie-grandpa",
+    "translations": {
+      "en": {
+        "title": "Mussel and mushroom quiche",
+        "description": "A generous quiche where mussels cooked in white wine and sweated mushrooms are coated with a creamy mixture made with the mussel cooking liquor.",
+        "tags": [
+          "seafood",
+          "mussels",
+          "mushrooms",
+          "starter",
+          "french",
+          "oven",
+          "hot",
+          "creamy",
+          "sharing",
+          "nostalgic",
+          "family-recipe"
+        ]
+      },
+      "it": {
+        "title": "Quiche di cozze e funghi",
+        "description": "Una quiche generosa in cui le cozze al vino bianco e i funghi stufati sono nappati con un composto cremoso preparato con il liquido di cottura delle cozze.",
+        "tags": [
+          "frutti-di-mare",
+          "cozze",
+          "funghi",
+          "antipasto",
+          "francese",
+          "forno",
+          "caldo",
+          "cremoso",
+          "da-condividere",
+          "nostalgico",
+          "ricetta-di-famiglia"
+        ]
+      }
+    },
+    "stepCount": 9,
+    "ingredientCount": 12
+  },
+  {
+    "slug": "tarte-a-l-oignon",
+    "title": "Tarte à l'oignon",
+    "description": "Une tarte sur pâte brisée garnie d'oignons émincés doucement suants à l'huile, nappés d'appareil à quiche.",
+    "images": {
+      "cover": "images/recipes/tarte-a-l-oignon/cover.webp",
+      "web": "images/recipes/tarte-a-l-oignon/web.webp"
+    },
+    "imageCredit": {
+      "author": "RitaE",
+      "url": "https://pixabay.com/users/ritae-19628/"
+    },
+    "prepTime": 30,
+    "cookTime": 40,
+    "servings": 10,
+    "difficulty": "Medio",
+    "category": "Antipasti",
+    "tags": [
+      "oignon",
+      "tarte",
+      "légumes",
+      "four",
+      "entrée",
+      "français",
+      "nostalgique",
+      "recette-de-famille",
+      "chaud",
+      "économique",
+      "réconfortant",
+      "à-partager"
+    ],
+    "origin": "amelie-grandpa",
+    "translations": {
+      "en": {
+        "title": "Onion tart",
+        "description": "A shortcrust tart filled with thinly sliced onions gently sweated in oil, coated with quiche mixture.",
+        "tags": [
+          "onion",
+          "tart",
+          "vegetables",
+          "oven",
+          "starter",
+          "french",
+          "nostalgic",
+          "family-recipe",
+          "hot",
+          "budget-friendly",
+          "comforting",
+          "to-share"
+        ]
+      },
+      "it": {
+        "title": "Torta salata alle cipolle",
+        "description": "Una torta di pasta brisée farcita di cipolle affettate sottilmente fatte sudare dolcemente nell'olio, nappate di composto da quiche.",
+        "tags": [
+          "cipolla",
+          "torta-salata",
+          "verdure",
+          "forno",
+          "antipasto",
+          "francese",
+          "nostalgico",
+          "ricetta-di-famiglia",
+          "caldo",
+          "economico",
+          "confortante",
+          "da-condividere"
+        ]
+      }
+    },
+    "stepCount": 6,
+    "ingredientCount": 5
+  },
+  {
+    "slug": "tarte-a-la-nicoise",
+    "title": "Tarte à la niçoise",
+    "description": "Une tarte sur pâte brisée garnie d'oignons compotés, de tomates concassées à l'ail et au romarin et d'olives noires, nappée d'appareil à quiche.",
+    "images": {
+      "cover": "images/recipes/tarte-a-la-nicoise/cover.svg",
+      "web": "images/recipes/tarte-a-la-nicoise/cover.svg"
+    },
+    "prepTime": 30,
+    "cookTime": 45,
+    "servings": 8,
+    "difficulty": "Medio",
+    "category": "Antipasti",
+    "tags": [
+      "français",
+      "nostalgique",
+      "recette-de-famille",
+      "entrée",
+      "tomates",
+      "oignons",
+      "olives",
+      "tarte",
+      "four",
+      "méditerranéen",
+      "chaud",
+      "à-partager"
+    ],
+    "origin": "amelie-grandpa",
+    "translations": {
+      "en": {
+        "title": "Niçoise tart",
+        "description": "A shortcrust tart filled with slowly stewed onions, roughly chopped tomatoes with garlic and rosemary, and black olives, coated with quiche mixture.",
+        "tags": [
+          "french",
+          "nostalgic",
+          "family-recipe",
+          "starter",
+          "tomatoes",
+          "onions",
+          "olives",
+          "tart",
+          "oven",
+          "mediterranean",
+          "hot",
+          "to-share"
+        ]
+      },
+      "it": {
+        "title": "Torta salata alla nizzarda",
+        "description": "Una torta di pasta brisée farcita con cipolle stufate, pomodori tritati grossolanamente con aglio e rosmarino e olive nere, ricoperta di composto per quiche.",
+        "tags": [
+          "francese",
+          "nostalgico",
+          "ricetta-di-famiglia",
+          "antipasto",
+          "pomodori",
+          "cipolle",
+          "olive",
+          "torta-salata",
+          "forno",
+          "mediterraneo",
+          "caldo",
+          "da-condividere"
+        ]
+      }
+    },
+    "stepCount": 7,
+    "ingredientCount": 8
+  },
+  {
+    "slug": "tarte-au-thon-a-la-catalane",
+    "title": "Tarte au thon à la catalane",
+    "description": "Une tarte sur pâte brisée garnie d'oignons, poivrons et tomates compotés à l'huile d'olive, relevée d'harissa et parsemée de thon.",
+    "images": {
+      "cover": "images/recipes/tarte-au-thon-a-la-catalane/cover.svg",
+      "web": "images/recipes/tarte-au-thon-a-la-catalane/cover.svg"
+    },
+    "prepTime": 30,
+    "cookTime": 40,
+    "servings": 8,
+    "difficulty": "Medio",
+    "category": "Antipasti",
+    "tags": [
+      "thon",
+      "poisson",
+      "légumes",
+      "entrée",
+      "four",
+      "chaud",
+      "épicé",
+      "méditerranéen",
+      "préparation-à-lavance",
+      "français",
+      "nostalgique",
+      "recette-de-famille"
+    ],
+    "origin": "amelie-grandpa",
+    "translations": {
+      "en": {
+        "title": "Catalan-style tuna tart",
+        "description": "A shortcrust tart filled with onions, peppers and tomatoes slowly stewed in olive oil, spiced up with harissa and scattered with tuna.",
+        "tags": [
+          "tuna",
+          "fish",
+          "vegetables",
+          "starter",
+          "oven",
+          "hot",
+          "spicy",
+          "mediterranean",
+          "make-ahead",
+          "french",
+          "nostalgic",
+          "family-recipe"
+        ]
+      },
+      "it": {
+        "title": "Torta salata al tonno alla catalana",
+        "description": "Una torta di pasta brisée farcita con cipolle, peperoni e pomodori stufati nell'olio d'oliva, insaporita con harissa e cosparsa di tonno.",
+        "tags": [
+          "tonno",
+          "pesce",
+          "verdure",
+          "antipasto",
+          "forno",
+          "caldo",
+          "piccante",
+          "mediterraneo",
+          "preparazione-anticipata",
+          "francese",
+          "nostalgico",
+          "ricetta-di-famiglia"
+        ]
+      }
+    },
+    "stepCount": 5,
+    "ingredientCount": 7
   }
 ]
