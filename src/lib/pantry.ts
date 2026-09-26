@@ -115,6 +115,7 @@ export const PANTRY_ITEMS: PantryItem[] = [
   item("tarragon", "herbs", "Estragon", "Tarragon", "Dragoncello", ["tarragon"]),
   item("sage", "herbs", "Sauge", "Sage", "Salvia", ["sage", "sage leaf", "sage leave"]),
   item("chervil", "herbs", "Cerfeuil", "Chervil", "Cerfoglio", ["chervil"]),
+  item("sorrel", "herbs", "Oseille", "Sorrel", "Acetosa", ["sorrel"]),
   item("bouquet-garni", "herbs", "Bouquet garni", "Bouquet garni", "Mazzetto aromatico", ["bouquet garni"]),
   item("ginger", "herbs", "Gingembre", "Ginger", "Zenzero", ["ginger"]),
   item("chili", "herbs", "Piment", "Chili", "Peperoncino", [
@@ -165,7 +166,7 @@ export const PANTRY_ITEMS: PantryItem[] = [
   // Starches
   item("pasta", "starches", "Pâtes", "Pasta", "Pasta", [
     "pasta", "spaghetti", "penne", "rigatoni", "bucatini", "macaroni", "orzo", "tuffoli", "fusilloni", "coquillette",
-    "mafaldina", "tagliatelle", "shell pasta", "lentil pasta",
+    "mafaldina", "tagliatelle", "shell pasta", "lentil pasta", "vermicelli",
   ]),
   item("pasta-sheets", "starches", "Ravioles", "Ravioles", "Raviole", ["raviole", "ravioles", "raviole pasta sheet"]),
   item("gnocchi", "starches", "Gnocchis", "Gnocchi", "Gnocchi", ["gnocchi", "potato gnocchi"]),
