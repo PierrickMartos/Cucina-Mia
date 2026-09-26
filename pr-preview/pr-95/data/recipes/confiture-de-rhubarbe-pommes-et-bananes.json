@@ -1,0 +1,173 @@
+{
+  "slug": "confiture-de-rhubarbe-pommes-et-bananes",
+  "title": "Confiture de rhubarbe, pommes et bananes",
+  "description": "Une confiture de rhubarbe macérée au sucre, cuite ensuite avec des pommes Golden et des bananes citronnées, puis prise au confisucre.",
+  "images": {
+    "cover": "images/recipes/confiture-de-rhubarbe-pommes-et-bananes/cover.webp",
+    "web": "images/recipes/confiture-de-rhubarbe-pommes-et-bananes/web.webp"
+  },
+  "imageCredit": {
+    "author": "congerdesign",
+    "url": "https://pixabay.com/users/congerdesign-509903/"
+  },
+  "prepTime": 330,
+  "cookTime": 60,
+  "servings": 14,
+  "difficulty": "Facile",
+  "category": "Conserve",
+  "origin": "amelie-grandpa",
+  "tags": [
+    "rhubarbe",
+    "fruits",
+    "printemps",
+    "petit-déjeuner",
+    "goûter",
+    "acidulé",
+    "végétarien",
+    "facile",
+    "préparation-à-lavance",
+    "français",
+    "nostalgique",
+    "recette-de-famille"
+  ],
+  "ingredients": [
+    {
+      "items": [
+        "1,2 kg de tiges de rhubarbe",
+        "1,2 kg de pommes type Golden",
+        "8 bananes moyennes (800 g épluchées)",
+        "3 citrons",
+        "2 kg de sucre cristallisé",
+        "1 kg de confisucre"
+      ]
+    }
+  ],
+  "steps": [
+    {
+      "text": "Retirer la fine pellicule qui recouvre les tiges de rhubarbe, couper-les en tronçons de 4 à 5 cm, mettre dans une terrine par couches alternées avec le sucre cristallisé et le jus d'un citron. Laisser macérer 5 à 6 heures en remuant souvent.",
+      "timers": [300]
+    },
+    {
+      "text": "Pendant ce temps, éplucher les pommes, couper-les en tranches après avoir retiré les pépins, peler et couper les bananes, mélanger-les dans une terrine avec le jus de 2 citrons. Réserver au frais."
+    },
+    {
+      "text": "Cuisson : verser la rhubarbe macérée dans une bassine à confiture, porter à ébullition, cuire 30 minutes.",
+      "timers": [30]
+    },
+    {
+      "text": "Ajouter le mélange pommes bananes par petites quantités en remuant doucement, cuire 20 minutes.",
+      "timers": [20]
+    },
+    {
+      "text": "Ajouter le confisucre, bien mélanger et cuire l'ensemble 4 à 5 minutes environ, remuer délicatement, contrôler la cuisson et vérifier la consistance. Laisser refroidir puis mettre en pots.",
+      "timers": [4]
+    }
+  ],
+  "source": "Les recettes de Maurice Houdré, tome 3, Confiture, gelée, marmelade",
+  "originalSource": {
+    "type": "text",
+    "data": "Confiture de rhubarbe, pommes et bananes\n\nIngrédients :\n\n. 1,2 kg de tiges de rhubarbe\n. 1,2 kg de pommes type Golden\n. 8 bananes moyennes (800 g épluchées)\n. 3 citrons\n. 2 kg de sucre cristallisé + 1 kg de confisucre\n\nPréparation :\n\nRetirer la fine pellicule qui recouvre les tiges de rhubarbe, couper les en tronçons de 4 à 5 cm, mettre dans une terrine par couches alternées avec le sucre cristallisé et le jus d’un citron. Laisser macérer 5 à 6 heures en remuant souvent.\nPendant ce temps, éplucher les pommes, couper les en tranches après avoir retiré les pépins, peler et couper les bananes, mélanger les dans une terrine avec le jus de 2 citrons. Réserver au frais.\n\nCuisson :\nVerser la rhubarbe macérée dans une bassine à confiture, porter à ébullition, cuire 30 minutes. \nAjouter le mélange pommes bananes par petites quantités en remuant doucement, cuire 20 minutes.\nAjouter le confisucre, bien mélanger et cuire l’ensemble 4 à 5 minutes environ, remuer délicatement, contrôler la cuisson et vérifier la consistance. Laisser refroidir puis mettre en pots.\n"
+  },
+  "related": [
+    "confiture-de-fruits-d-hiver",
+    "gelee-et-confit-de-coings-et-pommes",
+    "gelee-d-agrumes-aux-zestes-confits",
+    "confiture-d-oranges"
+  ],
+  "translations": {
+    "en": {
+      "title": "Rhubarb, apple and banana jam",
+      "description": "A jam of rhubarb macerated in sugar, then cooked with Golden apples and lemony bananas, and set with jam sugar.",
+      "tags": [
+        "rhubarb",
+        "fruit",
+        "spring",
+        "breakfast",
+        "afternoon-snack",
+        "tangy",
+        "vegetarian",
+        "easy",
+        "make-ahead",
+        "french",
+        "nostalgic",
+        "family-recipe"
+      ],
+      "ingredients": [
+        {
+          "items": [
+            "1.2 kg of rhubarb stalks",
+            "1.2 kg of Golden apples",
+            "8 medium bananas (800 g peeled)",
+            "3 lemons",
+            "2 kg of granulated sugar",
+            "1 kg of jam sugar (with pectin)"
+          ]
+        }
+      ],
+      "steps": [
+        {
+          "text": "Remove the thin skin covering the rhubarb stalks, cut them into 4 to 5 cm pieces, and place them in an earthenware bowl in alternating layers with the granulated sugar and the juice of one lemon. Leave to macerate for 5 to 6 hours, stirring often."
+        },
+        {
+          "text": "Meanwhile, peel the apples, remove the seeds and cut them into slices, peel and cut the bananas, and mix them in a bowl with the juice of 2 lemons. Keep in the fridge."
+        },
+        {
+          "text": "Cooking: pour the macerated rhubarb into a jam pan, bring to the boil and cook for 30 minutes."
+        },
+        {
+          "text": "Add the apple and banana mixture a little at a time, stirring gently, and cook for 20 minutes."
+        },
+        {
+          "text": "Add the jam sugar, mix well and cook everything for about 4 to 5 minutes, stirring gently. Check the cooking and the consistency. Leave to cool, then pour into jars."
+        }
+      ]
+    },
+    "it": {
+      "title": "Confettura di rabarbaro, mele e banane",
+      "description": "Una confettura di rabarbaro macerato nello zucchero, poi cotto con mele Golden e banane al limone, e addensata con lo zucchero gelificante.",
+      "tags": [
+        "rabarbaro",
+        "frutta",
+        "primavera",
+        "colazione",
+        "merenda",
+        "asprigno",
+        "vegetariano",
+        "facile",
+        "da-preparare-in-anticipo",
+        "francese",
+        "nostalgico",
+        "ricetta-di-famiglia"
+      ],
+      "ingredients": [
+        {
+          "items": [
+            "1,2 kg di gambi di rabarbaro",
+            "1,2 kg di mele tipo Golden",
+            "8 banane medie (800 g sbucciate)",
+            "3 limoni",
+            "2 kg di zucchero semolato",
+            "1 kg di zucchero gelificante"
+          ]
+        }
+      ],
+      "steps": [
+        {
+          "text": "Togliere la pellicina sottile che ricopre i gambi di rabarbaro, tagliarli a tronchetti di 4-5 cm e metterli in una terrina a strati alternati con lo zucchero semolato e il succo di un limone. Lasciare macerare per 5-6 ore, mescolando spesso."
+        },
+        {
+          "text": "Nel frattempo, sbucciare le mele, eliminare i semi e tagliarle a fette, sbucciare e tagliare le banane, poi mescolarle in una terrina con il succo di 2 limoni. Conservare in frigorifero."
+        },
+        {
+          "text": "Cottura: versare il rabarbaro macerato in una pentola per confetture, portare a ebollizione e cuocere per 30 minuti."
+        },
+        {
+          "text": "Aggiungere il composto di mele e banane poco alla volta, mescolando delicatamente, e cuocere per 20 minuti."
+        },
+        {
+          "text": "Aggiungere lo zucchero gelificante, mescolare bene e cuocere il tutto per circa 4-5 minuti, mescolando delicatamente. Controllare la cottura e la consistenza. Lasciare raffreddare, poi invasare."
+        }
+      ]
+    }
+  }
+}

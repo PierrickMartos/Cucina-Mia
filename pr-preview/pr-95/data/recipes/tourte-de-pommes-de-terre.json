@@ -1,0 +1,255 @@
+{
+  "slug": "tourte-de-pommes-de-terre",
+  "title": "Tourte de pommes de terre",
+  "description": "Une tourte en pâte brisée garnie de pommes de terre sautées, de lardons, d'ail et de persil, arrosée de crème au cerfeuil en fin de cuisson.",
+  "images": {
+    "cover": "images/recipes/tourte-de-pommes-de-terre/cover.svg",
+    "web": "images/recipes/tourte-de-pommes-de-terre/cover.svg"
+  },
+  "prepTime": 90,
+  "cookTime": 60,
+  "servings": 8,
+  "difficulty": "Medio",
+  "category": "Contorni",
+  "origin": "amelie-grandpa",
+  "tags": [
+    "pommes-de-terre",
+    "légumes",
+    "porc",
+    "four",
+    "accompagnement",
+    "à-partager",
+    "hiver",
+    "réconfortant",
+    "chaud",
+    "français",
+    "nostalgique",
+    "recette-de-famille"
+  ],
+  "ingredients": [
+    {
+      "items": [
+        "1 kg de pommes de terre",
+        "150 g de lardons",
+        "3 gousses d'ail",
+        "1 œuf",
+        "Persil",
+        "Sel, poivre",
+        "1 cuillère de cerfeuil haché",
+        "8 cuillerées à potage de crème allégée"
+      ]
+    },
+    {
+      "group": "Pâte brisée",
+      "items": [
+        "350 g de farine",
+        "175 g de beurre",
+        "1 pincée de sel",
+        "½ ou ¾ de dl d'eau"
+      ]
+    }
+  ],
+  "steps": [
+    {
+      "text": "Mélanger délicatement la farine, le beurre, le sel et l'eau sans trop travailler le tout. Laisser reposer une heure environ.",
+      "timers": [60]
+    },
+    {
+      "text": "Éplucher, laver et couper les pommes de terre en rondelles."
+    },
+    {
+      "text": "Faire rissoler légèrement les lardons dans une poêle. Hacher les gousses d'ail et les branches de persil."
+    },
+    {
+      "text": "Garnir un moule à tarte avec les 2/3 de la pâte et la faire déborder du plat sur 3 cm environ."
+    },
+    {
+      "text": "Faire sauter légèrement les pommes de terre dans une poêle, ajouter les lardons, l'ail, le persil, le sel et le poivre puis laisser refroidir 5 minutes.",
+      "timers": [5]
+    },
+    {
+      "text": "Répartir la préparation sur la pâte. Faire une abaisse en forme ronde avec le reste de la pâte brisée (ou une abaisse de feuilletage). Rabattre la pâte qui débordait du moule vers l'intérieur, mouiller légèrement au pinceau avec un peu d'eau."
+    },
+    {
+      "text": "Disposer le rond de pâte (l'abaisse), appuyer légèrement pour bien la souder, couper ce qui déborde, faire une cheminée (un petit trou) au milieu de la pâte pour laisser évaporer la chaleur."
+    },
+    {
+      "text": "Badigeonner le dessus avec un peu d'œuf battu."
+    },
+    {
+      "text": "Cuire à four chaud 10 à 15 minutes et ensuite 30 à 40 minutes à four moyen.",
+      "timers": [10, 30]
+    },
+    {
+      "text": "Après la cuisson, porter à ébullition 8 cuillerées à potage de crème allégée, ajouter une cuillère de cerfeuil haché et verser doucement dans le trou central de la tourte."
+    }
+  ],
+  "tips": [
+    "Le reste de la pâte brisée peut être remplacé par une abaisse de feuilletage pour le couvercle."
+  ],
+  "source": "Les recettes de Maurice Houdré, tome 2, Préparations à base de légumes",
+  "originalSource": {
+    "type": "text",
+    "data": "Tourte de pommes de terre\n\nIngrédients : pour 8 personnes\n\n. 1 kg de pommes de terre\n. 150 g de lardons\n. 3 gousses d’ail\n. 1 oeuf\n. persil\n. sel, poivre\n. cerfeuil\n. crème allégée\nPâte brisée :\n. 350 g de farine\n. 175 g de beurre\n. 1 pincée de sel\n. ½ ou ¾ de dl d’eau\n\nPréparation\n\nMélanger délicatement la farine, le beurre, le sel et l’eau sans trop travailler le tout.\nLaisser reposer une heure environ.\n\nEplucher, laver et couper les pommes de terre en rondelles.\nFaire rissoler légèrement les lardons dans une poêle. Hacher les gousses d’ail et les branches de persil.\nGarnir un moule à tarte avec les 2/3 de la pâte et la faire déborder du plat sur 3 cm environ.\nFaire sauter légèrement les pommes de terre dans une poêle, ajouter les lardons, l’ail, le persil, le sel et le poivre puis laisser refroidir 5 minutes.\nRépartir la préparation sur la pâte. Faire une abaisse en forme ronde avec le reste de la pâte brisée (ou une abaisse de feuilletage). Rabattre la pâte qui débordait du moule vers l’intérieur, mouiller légèrement au pinceau avec un peu d’eau.\nDisposer le rond de pâte (l’abaisse), appuyer légèrement pour bien la souder, couper ce qui déborde, faire une cheminée (un petit trou) au milieu de la pâte pour laisser évaporer la chaleur.\nBadigeonner le dessus avec un peu d’œuf battu.\nCuire à four chaud 10 à 15 minutes et ensuite 30 à 40 minutes à four moyen.\nAprès la cuisson, porter à ébullition 8 cuillérées à potage de crème allégée, ajouter une cuillère de cerfeuil haché et verser doucement dans le trou central de la tourte.\nLes recettes de Maurice HOUDRÉ\n_________________________________________________________________________________________________\n\n_________________________________________________________________________\n\nF\n\nE\n\nP\n\nD\n\nE\n\nP\n\nP\n\nL\n\nF\n\nM\n"
+  },
+  "related": [
+    "tourte-de-viande-aux-pommes-de-terre",
+    "concombres-farcis",
+    "pommes-amandines",
+    "roti-de-porc-farci-en-croute"
+  ],
+  "translations": {
+    "en": {
+      "title": "Potato pie",
+      "description": "A shortcrust pie filled with sautéed potatoes, bacon lardons, garlic and parsley, finished with chervil cream poured in after baking.",
+      "tags": [
+        "potatoes",
+        "vegetables",
+        "pork",
+        "oven",
+        "side-dish",
+        "to-share",
+        "winter",
+        "comforting",
+        "hot",
+        "french",
+        "nostalgic",
+        "family-recipe"
+      ],
+      "ingredients": [
+        {
+          "items": [
+            "1 kg potatoes",
+            "150 g bacon lardons",
+            "3 garlic cloves",
+            "1 egg",
+            "Parsley",
+            "Salt, pepper",
+            "1 spoonful chopped chervil",
+            "8 tablespoons light cream"
+          ]
+        },
+        {
+          "group": "Shortcrust pastry",
+          "items": [
+            "350 g flour",
+            "175 g butter",
+            "1 pinch of salt",
+            "½ or ¾ dl water"
+          ]
+        }
+      ],
+      "steps": [
+        {
+          "text": "Gently mix the flour, butter, salt and water without overworking the dough. Leave to rest for about one hour."
+        },
+        {
+          "text": "Peel, wash and slice the potatoes into rounds."
+        },
+        {
+          "text": "Lightly brown the lardons in a frying pan. Chop the garlic cloves and the parsley sprigs."
+        },
+        {
+          "text": "Line a tart tin with 2/3 of the dough, letting it hang over the edge of the tin by about 3 cm."
+        },
+        {
+          "text": "Lightly sauté the potatoes in a frying pan, add the lardons, garlic, parsley, salt and pepper, then leave to cool for 5 minutes."
+        },
+        {
+          "text": "Spread the filling over the dough. Roll out the rest of the shortcrust into a round of rolled-out dough (or use a round of rolled-out puff pastry). Fold the overhanging dough inwards and brush it lightly with a little water."
+        },
+        {
+          "text": "Lay the round of dough (the rolled-out dough) on top, press lightly to seal it well, trim the excess and cut a chimney (a small hole) in the middle of the lid to let the steam escape."
+        },
+        {
+          "text": "Brush the top with a little beaten egg."
+        },
+        {
+          "text": "Bake in a hot oven for 10 to 15 minutes, then for 30 to 40 minutes in a moderate oven."
+        },
+        {
+          "text": "After baking, bring 8 tablespoons of light cream to a boil, add a spoonful of chopped chervil and pour it slowly into the central hole of the pie."
+        }
+      ],
+      "tips": [
+        "The rest of the shortcrust can be replaced with a round of rolled-out puff pastry for the lid."
+      ]
+    },
+    "it": {
+      "title": "Torta salata di patate",
+      "description": "Una torta salata di pasta brisée ripiena di patate saltate, lardoni, aglio e prezzemolo, completata a fine cottura con panna al cerfoglio.",
+      "tags": [
+        "patate",
+        "verdure",
+        "maiale",
+        "forno",
+        "contorno",
+        "da-condividere",
+        "inverno",
+        "confortante",
+        "caldo",
+        "francese",
+        "nostalgico",
+        "ricetta-di-famiglia"
+      ],
+      "ingredients": [
+        {
+          "items": [
+            "1 kg di patate",
+            "150 g di lardoni",
+            "3 spicchi d'aglio",
+            "1 uovo",
+            "Prezzemolo",
+            "Sale, pepe",
+            "1 cucchiaio di cerfoglio tritato",
+            "8 cucchiai di panna leggera"
+          ]
+        },
+        {
+          "group": "Pasta brisée",
+          "items": [
+            "350 g di farina",
+            "175 g di burro",
+            "1 pizzico di sale",
+            "½ o ¾ di dl d'acqua"
+          ]
+        }
+      ],
+      "steps": [
+        {
+          "text": "Mescolare delicatamente la farina, il burro, il sale e l'acqua senza lavorare troppo l'impasto. Lasciare riposare per circa un'ora."
+        },
+        {
+          "text": "Sbucciare, lavare e tagliare le patate a rondelle."
+        },
+        {
+          "text": "Rosolare leggermente i lardoni in una padella. Tritare gli spicchi d'aglio e i rametti di prezzemolo."
+        },
+        {
+          "text": "Foderare uno stampo da crostata con i 2/3 della pasta, lasciandola sporgere dal bordo per circa 3 cm."
+        },
+        {
+          "text": "Saltare leggermente le patate in una padella, aggiungere i lardoni, l'aglio, il prezzemolo, il sale e il pepe, poi lasciare raffreddare per 5 minuti."
+        },
+        {
+          "text": "Distribuire il composto sulla pasta. Stendere il resto della pasta brisée in una sfoglia rotonda (oppure usare una sfoglia di pasta sfoglia). Ripiegare verso l'interno la pasta che sporge dallo stampo e bagnarla leggermente con un po' d'acqua usando un pennello."
+        },
+        {
+          "text": "Adagiare il disco di pasta (la sfoglia), premere leggermente per sigillarlo bene, tagliare la parte in eccesso e praticare un camino (un piccolo foro) al centro della pasta per far uscire il vapore."
+        },
+        {
+          "text": "Spennellare la superficie con un po' di uovo sbattuto."
+        },
+        {
+          "text": "Cuocere in forno caldo per 10-15 minuti e poi per 30-40 minuti in forno moderato."
+        },
+        {
+          "text": "Dopo la cottura, portare a ebollizione 8 cucchiai di panna leggera, aggiungere un cucchiaio di cerfoglio tritato e versare lentamente nel foro centrale della torta."
+        }
+      ],
+      "tips": [
+        "Il resto della pasta brisée può essere sostituito da una sfoglia di pasta sfoglia per il coperchio."
+      ]
+    }
+  }
+}

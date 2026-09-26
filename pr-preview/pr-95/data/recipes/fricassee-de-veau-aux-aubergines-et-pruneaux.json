@@ -1,0 +1,243 @@
+{
+  "slug": "fricassee-de-veau-aux-aubergines-et-pruneaux",
+  "title": "Fricassée de veau aux aubergines et pruneaux",
+  "description": "Une fricassée d'épaule de veau mijotée au vin blanc, garnie d'aubergines dorées et de pruneaux cuits au vin.",
+  "images": {
+    "cover": "images/recipes/fricassee-de-veau-aux-aubergines-et-pruneaux/cover.svg",
+    "web": "images/recipes/fricassee-de-veau-aux-aubergines-et-pruneaux/cover.svg"
+  },
+  "prepTime": 40,
+  "cookTime": 90,
+  "servings": 8,
+  "difficulty": "Medio",
+  "category": "Secondi",
+  "origin": "amelie-grandpa",
+  "tags": [
+    "veau",
+    "plat-principal",
+    "mijoté",
+    "français",
+    "nostalgique",
+    "recette-de-famille",
+    "sucré-salé",
+    "réconfortant",
+    "convivial",
+    "automne",
+    "hiver",
+    "chaud"
+  ],
+  "ingredients": [
+    {
+      "items": [
+        "1,2 à 1,5 kg d'épaule de veau",
+        "1 kg d'aubergines",
+        "400 g de pruneaux",
+        "2 carottes",
+        "2 gros oignons",
+        "1 bouteille de vin blanc sec",
+        "60 à 80 g de fond de veau concentré en boîte",
+        "Ail",
+        "100 g de farine",
+        "100 g de beurre",
+        "2 dl d'huile",
+        "100 g de concentré de tomate",
+        "1 bouquet garni",
+        "Sel, poivre",
+        "1 l d'eau",
+        "Persil haché"
+      ]
+    }
+  ],
+  "steps": [
+    {
+      "text": "Parer la viande, la couper en 24 morceaux d'environ 50 g, soit 3 morceaux par personne, passer à la farine."
+    },
+    {
+      "text": "Dans une poêle, chauffer l'huile et le beurre, faire revenir et dorer les morceaux de veau, les disposer dans une cocotte."
+    },
+    {
+      "text": "Dans la matière grasse, faire « suer » les oignons et carottes taillés en mirepoix, égoutter et mettre sur les morceaux de viande."
+    },
+    {
+      "text": "Préparer le fond avec 1 l d'eau et le fond de veau, ajouter le concentré de tomate, les 2/3 de vin blanc, l'ail écrasé, sel, poivre, bouquet garni, cuire 15 minutes, verser sur la viande et mettre en cuisson « couvert » à feu doux pendant 45 à 50 minutes.",
+      "timers": [15, 45]
+    },
+    {
+      "text": "Laver les pruneaux, dénoyauter, mouiller avec le reste de vin blanc, cuire 15 minutes.",
+      "timers": [15]
+    },
+    {
+      "text": "Éplucher les aubergines, les couper en grosses tranches de 5 cm, couper chaque tranche en 4 ou 6 morceaux, les faire revenir et dorer rapidement dans l'huile très chaude, égoutter et réserver."
+    },
+    {
+      "text": "Au terme de la cuisson, retirer les morceaux de viande, disposer dans un autre récipient, égoutter et ajouter les pruneaux, mettre le jus des pruneaux dans la sauce, ajouter les aubergines."
+    },
+    {
+      "text": "Faire réduire la cuisson si nécessaire, rectifier l'assaisonnement et passer sur les morceaux de veau."
+    },
+    {
+      "text": "Faire mijoter à feu doux 15 minutes environ.",
+      "timers": [15]
+    },
+    {
+      "text": "Dresser dans un plat creux ou à l'assiette. Parsemer du persil haché."
+    }
+  ],
+  "source": "Les recettes de Maurice Houdré, tome 2, Les viandes",
+  "originalSource": {
+    "type": "text",
+    "data": "Fricassée de veau aux aubergines et pruneaux\n\nIngrédients : pour 8 personnes\n\n. 1,2 kg à 1,5 kg d’épaule de veau\t\t\t. 100 g de farine\n. 1 kg d’aubergines\t\t\t\t\t. 100 g de beurre\n. 400 g de pruneaux\t\t\t\t\t. 2 dl d’huile\n. 2 carottes\t\t\t\t\t\t. 100 g de concentré de tomate\n. 2 gros oignons\t\t\t\t\t. 1 bouquet garni\n. 1 bouteille de vin blanc sec\t\t\t. sel, poivre\n. 60 à 80 g de fond de veau concentré en boîte\n. ail \n\nPréparation\n\nParer la viande, la couper en 24 morceaux d’environ 50 g, soit 3 morceaux par personne, passer à la farine. \nDans une poêle, chauffer l’huile et le beurre, faire revenir et dorer les morceaux de veau, les disposer dans une cocotte.\nDans la matière grasse, faire « suer » les oignons et carottes taillés en mirepoix, égoutter et mettre sur les morceaux de viande.\nPréparer le fond avec 1 l d’eau et le fond de veau, ajouter le concentré de tomate, les 2/3 de vin blanc, l’ail écrasé, sel, poivre, bouquet garni, cuire 15 minutes, verser sur la viande et mettre en cuisson « couvert » à feu doux pendant 45 à 50 minutes.\nLaver les pruneaux, dénoyauter, mouiller avec le reste de vin blanc, cuire 15 minutes.\nEplucher les aubergines, les couper en grosses tranches de 5 cm, couper chaque tranche en 4 ou 6 morceaux, les faire revenir et dorer rapidement dans l’huile très chaude, égoutter et réserver.\nAu terme de la cuisson, retirer les morceaux de viande, disposer dans un autre récipient, égoutter et ajouter les pruneaux, mettre le jus des pruneaux dans la sauce, ajouter les aubergines.\nFaire réduire la cuisson si nécessaire, rectifier l’assaisonnement et passer sur les morceaux de veau.\nFaire mijoter à feu doux 15 minutes environ. \nDresser dans un plat creux ou à l’assiette. Parsemer du persil haché.\n"
+  },
+  "related": [
+    "boeuf-mode-a-l-ancienne",
+    "saute-d-agneau-aux-primeurs-ou-navarin-printanier",
+    "couscous-d-agneau-et-de-poulet",
+    "piccata-de-veau-au-porto"
+  ],
+  "translations": {
+    "en": {
+      "title": "Veal fricassee with aubergines and prunes",
+      "description": "A fricassee of veal shoulder simmered in white wine, garnished with golden aubergines and prunes cooked in wine.",
+      "tags": [
+        "veal",
+        "main-course",
+        "slow-cooked",
+        "french",
+        "nostalgic",
+        "family-recipe",
+        "sweet-and-savoury",
+        "comforting",
+        "convivial",
+        "autumn",
+        "winter",
+        "hot"
+      ],
+      "ingredients": [
+        {
+          "items": [
+            "1.2 to 1.5 kg veal shoulder",
+            "1 kg aubergines",
+            "400 g prunes",
+            "2 carrots",
+            "2 large onions",
+            "1 bottle dry white wine",
+            "60 to 80 g canned concentrated veal stock",
+            "Garlic",
+            "100 g flour",
+            "100 g butter",
+            "2 dl oil",
+            "100 g tomato paste",
+            "1 bouquet garni",
+            "Salt, pepper",
+            "1 l water",
+            "Chopped parsley"
+          ]
+        }
+      ],
+      "steps": [
+        {
+          "text": "Trim the meat, cut it into 24 pieces of about 50 g, i.e. 3 pieces per person, and dust with flour."
+        },
+        {
+          "text": "In a frying pan, heat the oil and butter, brown the pieces of veal well, then place them in a casserole dish."
+        },
+        {
+          "text": "In the fat, \"sweat\" the onions and carrots cut into mirepoix, drain and place them on the pieces of meat."
+        },
+        {
+          "text": "Prepare the stock with 1 l of water and the veal stock, add the tomato paste, 2/3 of the white wine, the crushed garlic, salt, pepper and the bouquet garni, cook for 15 minutes, pour over the meat and cook \"covered\" over low heat for 45 to 50 minutes."
+        },
+        {
+          "text": "Wash the prunes, pit them, add the rest of the white wine and cook for 15 minutes."
+        },
+        {
+          "text": "Peel the aubergines, cut them into thick 5 cm slices, cut each slice into 4 or 6 pieces, brown them quickly in very hot oil, drain and set aside."
+        },
+        {
+          "text": "At the end of cooking, remove the pieces of meat and place them in another dish, drain and add the prunes, pour the prune juice into the sauce and add the aubergines."
+        },
+        {
+          "text": "Reduce the cooking liquid if needed, adjust the seasoning and strain it over the pieces of veal."
+        },
+        {
+          "text": "Simmer over low heat for about 15 minutes."
+        },
+        {
+          "text": "Serve in a deep dish or on plates. Sprinkle with chopped parsley."
+        }
+      ]
+    },
+    "it": {
+      "title": "Fricassea di vitello con melanzane e prugne",
+      "description": "Una fricassea di spalla di vitello stufata nel vino bianco, guarnita con melanzane dorate e prugne cotte nel vino.",
+      "tags": [
+        "vitello",
+        "secondo-piatto",
+        "stufato",
+        "francese",
+        "nostalgico",
+        "ricetta-di-famiglia",
+        "agrodolce",
+        "confortante",
+        "conviviale",
+        "autunno",
+        "inverno",
+        "caldo"
+      ],
+      "ingredients": [
+        {
+          "items": [
+            "1,2 - 1,5 kg di spalla di vitello",
+            "1 kg di melanzane",
+            "400 g di prugne secche",
+            "2 carote",
+            "2 cipolle grosse",
+            "1 bottiglia di vino bianco secco",
+            "60 - 80 g di fondo di vitello concentrato in scatola",
+            "Aglio",
+            "100 g di farina",
+            "100 g di burro",
+            "2 dl di olio",
+            "100 g di concentrato di pomodoro",
+            "1 mazzetto aromatico",
+            "Sale, pepe",
+            "1 l di acqua",
+            "Prezzemolo tritato"
+          ]
+        }
+      ],
+      "steps": [
+        {
+          "text": "Mondare la carne, tagliarla in 24 pezzi di circa 50 g, cioè 3 pezzi a persona, e infarinarli."
+        },
+        {
+          "text": "In una padella, scaldare l'olio e il burro, rosolare bene i pezzi di vitello, poi disporli in una casseruola."
+        },
+        {
+          "text": "Nel grasso, \"far sudare\" le cipolle e le carote tagliate a mirepoix, scolarle e metterle sui pezzi di carne."
+        },
+        {
+          "text": "Preparare il fondo con 1 l di acqua e il fondo di vitello, aggiungere il concentrato di pomodoro, i 2/3 del vino bianco, l'aglio schiacciato, sale, pepe e il mazzetto aromatico, cuocere 15 minuti, versare sulla carne e cuocere \"coperto\" a fuoco basso per 45-50 minuti."
+        },
+        {
+          "text": "Lavare le prugne, snocciolarle, bagnarle con il resto del vino bianco e cuocere 15 minuti."
+        },
+        {
+          "text": "Sbucciare le melanzane, tagliarle a fette spesse di 5 cm, tagliare ogni fetta in 4 o 6 pezzi, rosolarle rapidamente nell'olio bollente, scolarle e tenerle da parte."
+        },
+        {
+          "text": "A fine cottura, togliere i pezzi di carne e disporli in un altro recipiente, scolare e aggiungere le prugne, versare il succo delle prugne nella salsa e aggiungere le melanzane."
+        },
+        {
+          "text": "Far ridurre il fondo di cottura se necessario, regolare di sale e pepe e filtrarlo sui pezzi di vitello."
+        },
+        {
+          "text": "Far sobbollire a fuoco basso per circa 15 minuti."
+        },
+        {
+          "text": "Impiattare in un piatto fondo o direttamente nei piatti. Cospargere di prezzemolo tritato."
+        }
+      ]
+    }
+  }
+}
