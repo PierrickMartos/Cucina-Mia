@@ -98,7 +98,7 @@ describe("recipe cross-checks", () => {
     recipe.steps.forEach((step, i) => {
       if (!step.timers) return
       expect(step.text, `step ${i + 1} has timers but no duration in its text`).toMatch(
-        /\b(\d+|une?|quinzaine|dizaine|vingtaine|demi)[- ]?(h|heures?|min|minutes?|mn|s|secondes?)\b|minutes/i
+        /\b(\d+|une?|quinzaine|dizaine|vingtaine|demi)[- ]?(h|heures?|min|minutes?|mn|s|secondes?)\b|minutes|([¼½¾]|quarts?) ?d['’]heure/i
       )
     })
   })
