@@ -13,14 +13,18 @@ export function sortDifficulties(difficulties: string[]): string[] {
 
 export const CATEGORY_ORDER = [
   "Antipasti",
+  "Zuppe",
   "Pasta",
   "Gnocchi",
   "Risotto",
   "Insalate",
   "Secondi",
+  "Contorni",
   "Pizze",
   "Pane",
   "Dolci",
+  "Gelati",
+  "Conserve",
   "Bambini",
   "Breakfast",
   "Brunch",
