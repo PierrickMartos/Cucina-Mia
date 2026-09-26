@@ -3810,7 +3810,7 @@
       }
     },
     "stepCount": 5,
-    "ingredientCount": 8
+    "ingredientCount": 7
   },
   {
     "slug": "caprese-di-tuffoli",
@@ -3908,7 +3908,7 @@
       "toute-la-famille"
     ],
     "origin": "pierrick-grandma",
-    "ingredientCount": 8,
+    "ingredientCount": 9,
     "stepCount": 7,
     "translations": {
       "en": {
@@ -3977,7 +3977,7 @@
       "été",
       "économique"
     ],
-    "ingredientCount": 8,
+    "ingredientCount": 9,
     "stepCount": 5,
     "translations": {
       "en": {
@@ -4052,7 +4052,7 @@
       "convivial",
       "hiver"
     ],
-    "ingredientCount": 18,
+    "ingredientCount": 19,
     "stepCount": 10,
     "translations": {
       "en": {
@@ -6458,5 +6458,858 @@
         ]
       }
     }
+  },
+  {
+    "slug": "boeuf-mode-a-l-ancienne",
+    "title": "Bœuf mode à l'ancienne",
+    "description": "Bœuf braisé au vin blanc avec pied de veau et couennes, servi avec des carottes et des petits oignons glacés.",
+    "images": {
+      "cover": "images/recipes/boeuf-mode-a-l-ancienne/cover.webp",
+      "web": "images/recipes/boeuf-mode-a-l-ancienne/web.webp"
+    },
+    "imageCredit": {
+      "author": "Holly Spangler",
+      "url": "https://unsplash.com/@h_spangler"
+    },
+    "prepTime": 30,
+    "cookTime": 120,
+    "servings": 8,
+    "difficulty": "Medio",
+    "category": "Secondi",
+    "tags": [
+      "bœuf",
+      "mijoté",
+      "plat-principal",
+      "français",
+      "nostalgique",
+      "recette-de-famille",
+      "réconfortant",
+      "hiver",
+      "chaud",
+      "toute-la-famille",
+      "à-partager",
+      "restes-bienvenus"
+    ],
+    "origin": "amelie-grandpa",
+    "translations": {
+      "en": {
+        "title": "Old-fashioned Bœuf mode",
+        "description": "Beef braised in white wine with calf's foot and pork rinds, served with carrots and glazed baby onions.",
+        "tags": [
+          "beef",
+          "simmered",
+          "main-course",
+          "french",
+          "nostalgic",
+          "family-recipe",
+          "comforting",
+          "winter",
+          "hot",
+          "family-friendly",
+          "to-share",
+          "leftovers-friendly"
+        ]
+      },
+      "it": {
+        "title": "Bœuf mode all'antica",
+        "description": "Manzo brasato al vino bianco con piede di vitello e cotenne, servito con carote e cipolline glassate.",
+        "tags": [
+          "manzo",
+          "stufato",
+          "piatto-principale",
+          "francese",
+          "nostalgico",
+          "ricetta-di-famiglia",
+          "confortante",
+          "inverno",
+          "caldo",
+          "tutta-la-famiglia",
+          "da-condividere",
+          "avanzi-benvenuti"
+        ]
+      }
+    },
+    "stepCount": 8,
+    "ingredientCount": 15
+  },
+  {
+    "slug": "chausson-de-viande-a-l-orientale",
+    "title": "Chausson de viande à l'orientale",
+    "description": "Chaussons feuilletés garnis d'une farce de bœuf haché, poivrons, oignons et tomates, dorés et quadrillés avant cuisson.",
+    "images": {
+      "cover": "images/recipes/chausson-de-viande-a-l-orientale/cover.webp",
+      "web": "images/recipes/chausson-de-viande-a-l-orientale/web.webp"
+    },
+    "imageCredit": {
+      "author": "Mahmoud Fawzy",
+      "url": "https://unsplash.com/@mahmoud_fawzy100"
+    },
+    "prepTime": 75,
+    "cookTime": 50,
+    "servings": 10,
+    "difficulty": "Medio",
+    "category": "Secondi",
+    "tags": [
+      "bœuf",
+      "plat-principal",
+      "français",
+      "nostalgique",
+      "recette-de-famille",
+      "four",
+      "croustillant",
+      "chaud",
+      "préparation-à-lavance",
+      "à-partager",
+      "convivial"
+    ],
+    "origin": "amelie-grandpa",
+    "translations": {
+      "en": {
+        "title": "Oriental-style meat turnovers",
+        "description": "Puff pastry turnovers filled with minced beef, peppers, onions and tomatoes, egg-washed and scored in a crosshatch before baking.",
+        "tags": [
+          "beef",
+          "main-course",
+          "french",
+          "nostalgic",
+          "family-recipe",
+          "oven",
+          "crispy",
+          "hot",
+          "make-ahead",
+          "to-share",
+          "convivial"
+        ]
+      },
+      "it": {
+        "title": "Fagottini di carne all'orientale",
+        "description": "Fagottini di pasta sfoglia ripieni di manzo macinato, peperoni, cipolle e pomodori, spennellati con tuorlo e incisi a quadretti prima della cottura.",
+        "tags": [
+          "manzo",
+          "piatto-principale",
+          "francese",
+          "nostalgico",
+          "ricetta-di-famiglia",
+          "forno",
+          "croccante",
+          "caldo",
+          "preparazione-anticipata",
+          "da-condividere",
+          "conviviale"
+        ]
+      }
+    },
+    "stepCount": 8,
+    "ingredientCount": 8
+  },
+  {
+    "slug": "couscous-d-agneau-et-de-poulet",
+    "title": "Couscous d'agneau et de poulet",
+    "description": "Un couscous généreux où l'agneau et le poulet mijotent avec les légumes, servi avec une semoule au beurre, des merguez grillées et un jus relevé à la harissa.",
+    "images": {
+      "cover": "images/recipes/couscous-d-agneau-et-de-poulet/cover.webp",
+      "web": "images/recipes/couscous-d-agneau-et-de-poulet/web.webp"
+    },
+    "imageCredit": {
+      "author": "Louis Hansel",
+      "url": "https://unsplash.com/@louishansel"
+    },
+    "prepTime": 30,
+    "cookTime": 80,
+    "servings": 10,
+    "difficulty": "Medio",
+    "category": "Secondi",
+    "tags": [
+      "agneau",
+      "poulet",
+      "mijoté",
+      "plat-principal",
+      "français",
+      "nostalgique",
+      "recette-de-famille",
+      "épicé",
+      "convivial",
+      "réconfortant",
+      "à-partager",
+      "chaud"
+    ],
+    "origin": "amelie-grandpa",
+    "translations": {
+      "en": {
+        "title": "Lamb and chicken couscous",
+        "description": "A generous couscous where lamb and chicken simmer with vegetables, served with buttered semolina, grilled merguez and a harissa-spiked broth.",
+        "tags": [
+          "lamb",
+          "chicken",
+          "slow-cooked",
+          "main-course",
+          "french",
+          "nostalgic",
+          "family-recipe",
+          "spicy",
+          "convivial",
+          "comforting",
+          "to-share",
+          "hot"
+        ]
+      },
+      "it": {
+        "title": "Cuscus di agnello e pollo",
+        "description": "Un cuscus generoso in cui agnello e pollo sobbollono con le verdure, servito con semola al burro, merguez grigliate e un brodo insaporito con harissa.",
+        "tags": [
+          "agnello",
+          "pollo",
+          "stufato",
+          "piatto-principale",
+          "francese",
+          "nostalgico",
+          "ricetta-di-famiglia",
+          "piccante",
+          "conviviale",
+          "confortante",
+          "da-condividere",
+          "caldo"
+        ]
+      }
+    },
+    "stepCount": 9,
+    "ingredientCount": 23
+  },
+  {
+    "slug": "curry-d-agneau",
+    "title": "Curry d'agneau",
+    "description": "Épaule d'agneau mijotée au curry, relevée d'une sauce pomme, oignon, ail et tomates, adoucie à la crème.",
+    "images": {
+      "cover": "images/recipes/curry-d-agneau/cover.webp",
+      "web": "images/recipes/curry-d-agneau/web.webp"
+    },
+    "imageCredit": {
+      "author": "LOLA AZIZADA",
+      "url": "https://unsplash.com/@kalpa_mahagamage"
+    },
+    "prepTime": 30,
+    "cookTime": 75,
+    "servings": 10,
+    "difficulty": "Medio",
+    "category": "Secondi",
+    "tags": [
+      "agneau",
+      "plat-principal",
+      "français",
+      "mijoté",
+      "épicé",
+      "onctueux",
+      "chaud",
+      "hiver",
+      "réconfortant",
+      "convivial",
+      "nostalgique",
+      "recette-de-famille"
+    ],
+    "origin": "amelie-grandpa",
+    "translations": {
+      "en": {
+        "title": "Lamb Curry",
+        "description": "Lamb shoulder simmered in curry, lifted by an apple, onion, garlic and tomato sauce, softened with cream.",
+        "tags": [
+          "lamb",
+          "main-course",
+          "french",
+          "slow-cooked",
+          "spicy",
+          "creamy",
+          "hot",
+          "winter",
+          "comforting",
+          "convivial",
+          "nostalgic",
+          "family-recipe"
+        ]
+      },
+      "it": {
+        "title": "Curry di agnello",
+        "description": "Spalla d'agnello stufata al curry, ravvivata da una salsa di mela, cipolla, aglio e pomodori, addolcita con la panna.",
+        "tags": [
+          "agnello",
+          "piatto-principale",
+          "francese",
+          "stufato",
+          "speziato",
+          "cremoso",
+          "caldo",
+          "inverno",
+          "confortante",
+          "conviviale",
+          "nostalgico",
+          "ricetta-di-famiglia"
+        ]
+      }
+    },
+    "stepCount": 6,
+    "ingredientCount": 12
+  },
+  {
+    "slug": "estouffade-de-boeuf-a-la-bourguignonne",
+    "title": "Estouffade de bœuf à la bourguignonne",
+    "description": "Bœuf braisé au vin rouge, mijoté deux heures avec lardons, champignons de Paris, concentré de tomate et bouquet garni.",
+    "images": {
+      "cover": "images/recipes/estouffade-de-boeuf-a-la-bourguignonne/cover.webp",
+      "web": "images/recipes/estouffade-de-boeuf-a-la-bourguignonne/web.webp"
+    },
+    "imageCredit": {
+      "author": "Apex 360",
+      "url": "https://unsplash.com/@apex360_"
+    },
+    "prepTime": 30,
+    "cookTime": 145,
+    "servings": 8,
+    "difficulty": "Medio",
+    "category": "Secondi",
+    "tags": [
+      "français",
+      "nostalgique",
+      "recette-de-famille",
+      "plat-principal",
+      "bœuf",
+      "mijoté",
+      "hiver",
+      "réconfortant",
+      "chaud",
+      "convivial",
+      "toute-la-famille",
+      "restes-bienvenus"
+    ],
+    "origin": "amelie-grandpa",
+    "translations": {
+      "en": {
+        "title": "Beef estouffade bourguignonne",
+        "description": "Beef braised in red wine, simmered for two hours with lardons, button mushrooms, tomato paste and a bouquet garni.",
+        "tags": [
+          "french",
+          "nostalgic",
+          "family-recipe",
+          "main-course",
+          "beef",
+          "slow-cooked",
+          "winter",
+          "comforting",
+          "hot",
+          "convivial",
+          "whole-family",
+          "great-leftovers"
+        ]
+      },
+      "it": {
+        "title": "Stufato di manzo alla borgognona",
+        "description": "Manzo brasato al vino rosso, cotto a fuoco lento per due ore con pancetta, champignon, concentrato di pomodoro e mazzetto aromatico.",
+        "tags": [
+          "francese",
+          "nostalgico",
+          "ricetta-di-famiglia",
+          "piatto-principale",
+          "manzo",
+          "stufato",
+          "inverno",
+          "confortante",
+          "caldo",
+          "conviviale",
+          "tutta-la-famiglia",
+          "avanzi-benvenuti"
+        ]
+      }
+    },
+    "stepCount": 6,
+    "ingredientCount": 12
+  },
+  {
+    "slug": "filet-mignon-de-porc-a-la-sauge",
+    "title": "Filet mignon de porc à la sauge",
+    "description": "Un filet mignon doré au beurre, mijoté avec une mirepoix, des tomates concassées, du vin blanc et de la sauge, puis nappé de son jus.",
+    "images": {
+      "cover": "images/recipes/filet-mignon-de-porc-a-la-sauge/cover.webp",
+      "web": "images/recipes/filet-mignon-de-porc-a-la-sauge/web.webp"
+    },
+    "imageCredit": {
+      "author": "Fatema Enayath",
+      "url": "https://unsplash.com/@f_en_h"
+    },
+    "prepTime": 20,
+    "cookTime": 45,
+    "servings": 4,
+    "difficulty": "Facile",
+    "category": "Secondi",
+    "tags": [
+      "porc",
+      "plat-principal",
+      "mijoté",
+      "français",
+      "nostalgique",
+      "recette-de-famille",
+      "réconfortant",
+      "herbacé",
+      "facile",
+      "chaud",
+      "automne"
+    ],
+    "origin": "amelie-grandpa",
+    "translations": {
+      "en": {
+        "title": "Pork Tenderloin with Sage",
+        "description": "A pork tenderloin browned in butter, simmered with a mirepoix, roughly chopped tomatoes, white wine and sage, then coated with its own juices.",
+        "tags": [
+          "pork",
+          "main-course",
+          "slow-cooked",
+          "french",
+          "nostalgic",
+          "family-recipe",
+          "comforting",
+          "herby",
+          "easy",
+          "hot",
+          "autumn"
+        ]
+      },
+      "it": {
+        "title": "Filetto di maiale alla salvia",
+        "description": "Un filetto di maiale rosolato nel burro, stufato con un soffritto di verdure, pomodori tritati grossolanamente, vino bianco e salvia, poi nappato con il suo sugo.",
+        "tags": [
+          "maiale",
+          "secondo-piatto",
+          "stufato",
+          "francese",
+          "nostalgico",
+          "ricetta-di-famiglia",
+          "confortante",
+          "erbaceo",
+          "facile",
+          "caldo",
+          "autunno"
+        ]
+      }
+    },
+    "stepCount": 4,
+    "ingredientCount": 9
+  },
+  {
+    "slug": "fricassee-de-veau-aux-aubergines-et-pruneaux",
+    "title": "Fricassée de veau aux aubergines et pruneaux",
+    "description": "Une fricassée d'épaule de veau mijotée au vin blanc, garnie d'aubergines dorées et de pruneaux cuits au vin.",
+    "images": {
+      "cover": "images/recipes/fricassee-de-veau-aux-aubergines-et-pruneaux/cover.svg",
+      "web": "images/recipes/fricassee-de-veau-aux-aubergines-et-pruneaux/cover.svg"
+    },
+    "prepTime": 40,
+    "cookTime": 90,
+    "servings": 8,
+    "difficulty": "Medio",
+    "category": "Secondi",
+    "tags": [
+      "veau",
+      "plat-principal",
+      "mijoté",
+      "français",
+      "nostalgique",
+      "recette-de-famille",
+      "sucré-salé",
+      "réconfortant",
+      "convivial",
+      "automne",
+      "hiver",
+      "chaud"
+    ],
+    "origin": "amelie-grandpa",
+    "translations": {
+      "en": {
+        "title": "Veal fricassee with aubergines and prunes",
+        "description": "A fricassee of veal shoulder simmered in white wine, garnished with golden aubergines and prunes cooked in wine.",
+        "tags": [
+          "veal",
+          "main-course",
+          "slow-cooked",
+          "french",
+          "nostalgic",
+          "family-recipe",
+          "sweet-and-savoury",
+          "comforting",
+          "convivial",
+          "autumn",
+          "winter",
+          "hot"
+        ]
+      },
+      "it": {
+        "title": "Fricassea di vitello con melanzane e prugne",
+        "description": "Una fricassea di spalla di vitello stufata nel vino bianco, guarnita con melanzane dorate e prugne cotte nel vino.",
+        "tags": [
+          "vitello",
+          "secondo-piatto",
+          "stufato",
+          "francese",
+          "nostalgico",
+          "ricetta-di-famiglia",
+          "agrodolce",
+          "confortante",
+          "conviviale",
+          "autunno",
+          "inverno",
+          "caldo"
+        ]
+      }
+    },
+    "stepCount": 10,
+    "ingredientCount": 16
+  },
+  {
+    "slug": "piccata-de-veau-au-porto",
+    "title": "Piccata de veau au Porto",
+    "description": "Petites escalopes de veau dorées au beurre, nappées d'une julienne de champignons, jambon et langue écarlate au Porto et au fond de veau.",
+    "images": {
+      "cover": "images/recipes/piccata-de-veau-au-porto/cover.svg",
+      "web": "images/recipes/piccata-de-veau-au-porto/cover.svg"
+    },
+    "prepTime": 20,
+    "cookTime": 15,
+    "servings": 8,
+    "difficulty": "Facile",
+    "category": "Secondi",
+    "tags": [
+      "veau",
+      "poêle",
+      "plat-principal",
+      "français",
+      "nostalgique",
+      "recette-de-famille",
+      "festif",
+      "gourmand",
+      "facile",
+      "chaud"
+    ],
+    "origin": "amelie-grandpa",
+    "translations": {
+      "en": {
+        "title": "Veal piccata with Port",
+        "description": "Small veal escalopes browned in butter, coated with a julienne of mushrooms, ham and pickled ox tongue in Port and veal stock.",
+        "tags": [
+          "veal",
+          "pan-fried",
+          "main-course",
+          "french",
+          "nostalgic",
+          "family-recipe",
+          "festive",
+          "indulgent",
+          "easy",
+          "hot"
+        ]
+      },
+      "it": {
+        "title": "Piccata di vitello al Porto",
+        "description": "Piccole scaloppine di vitello dorate nel burro, nappate con una julienne di funghi, prosciutto e lingua salmistrata al Porto e fondo di vitello.",
+        "tags": [
+          "vitello",
+          "padella",
+          "piatto-principale",
+          "francese",
+          "nostalgico",
+          "ricetta-di-famiglia",
+          "festivo",
+          "goloso",
+          "facile",
+          "caldo"
+        ]
+      }
+    },
+    "stepCount": 7,
+    "ingredientCount": 9
+  },
+  {
+    "slug": "roti-de-porc-farci-en-croute",
+    "title": "Rôti de porc farci en croûte",
+    "description": "Filet de porc braisé, tranché et farci de champignons à la béchamel, puis cuit en croûte feuilletée et servi avec une apple sauce aux raisins.",
+    "images": {
+      "cover": "images/recipes/roti-de-porc-farci-en-croute/cover.webp",
+      "web": "images/recipes/roti-de-porc-farci-en-croute/web.webp"
+    },
+    "imageCredit": {
+      "author": "Matt Seymour",
+      "url": "https://unsplash.com/@mattseymour"
+    },
+    "prepTime": 45,
+    "cookTime": 105,
+    "servings": 10,
+    "difficulty": "Difficile",
+    "category": "Secondi",
+    "tags": [
+      "porc",
+      "plat-principal",
+      "français",
+      "four",
+      "mijoté",
+      "fête",
+      "hiver",
+      "festif",
+      "à-partager",
+      "chaud",
+      "nostalgique",
+      "recette-de-famille"
+    ],
+    "origin": "amelie-grandpa",
+    "translations": {
+      "en": {
+        "title": "Stuffed pork roast in puff pastry",
+        "description": "Braised pork loin, sliced and stuffed with mushrooms in béchamel, then baked in a puff pastry crust and served with an apple sauce with raisins.",
+        "tags": [
+          "pork",
+          "main-course",
+          "french",
+          "oven",
+          "slow-cooked",
+          "celebration",
+          "winter",
+          "festive",
+          "for-sharing",
+          "hot",
+          "nostalgic",
+          "family-recipe"
+        ]
+      },
+      "it": {
+        "title": "Arrosto di maiale ripieno in crosta",
+        "description": "Lonza di maiale brasata, affettata e farcita con funghi alla besciamella, poi cotta in crosta di pasta sfoglia e servita con una salsa di mele all'uvetta.",
+        "tags": [
+          "maiale",
+          "secondo-piatto",
+          "francese",
+          "forno",
+          "stufato",
+          "festa",
+          "inverno",
+          "festivo",
+          "da-condividere",
+          "caldo",
+          "nostalgico",
+          "ricetta-di-famiglia"
+        ]
+      }
+    },
+    "stepCount": 12,
+    "ingredientCount": 17
+  },
+  {
+    "slug": "saute-d-agneau-aux-primeurs-ou-navarin-printanier",
+    "title": "Sauté d'agneau aux primeurs (ou navarin printanier)",
+    "description": "Épaule d'agneau mijotée à la tomate avec carottes, navets, petits pois, haricots verts et pommes de terre tournées.",
+    "images": {
+      "cover": "images/recipes/saute-d-agneau-aux-primeurs-ou-navarin-printanier/cover.webp",
+      "web": "images/recipes/saute-d-agneau-aux-primeurs-ou-navarin-printanier/web.webp"
+    },
+    "imageCredit": {
+      "author": "ERIC ZHU",
+      "url": "https://unsplash.com/@guoyong"
+    },
+    "prepTime": 45,
+    "cookTime": 90,
+    "servings": 8,
+    "difficulty": "Medio",
+    "category": "Secondi",
+    "tags": [
+      "agneau",
+      "légumes",
+      "mijoté",
+      "printemps",
+      "plat-principal",
+      "français",
+      "traditionnel",
+      "nostalgique",
+      "recette-de-famille",
+      "réconfortant",
+      "toute-la-famille",
+      "chaud"
+    ],
+    "origin": "amelie-grandpa",
+    "translations": {
+      "en": {
+        "title": "Lamb stew with spring vegetables (navarin printanier)",
+        "description": "Lamb shoulder simmered in tomato with carrots, turnips, peas, green beans and turned potatoes.",
+        "tags": [
+          "lamb",
+          "vegetables",
+          "simmered",
+          "spring",
+          "main-course",
+          "french",
+          "traditional",
+          "nostalgic",
+          "family-recipe",
+          "comforting",
+          "family-friendly",
+          "hot"
+        ]
+      },
+      "it": {
+        "title": "Spezzatino d'agnello con verdure primaverili (navarin printanier)",
+        "description": "Spalla d'agnello stufata al pomodoro con carote, rape, piselli, fagiolini e patate tornite.",
+        "tags": [
+          "agnello",
+          "verdure",
+          "stufato",
+          "primavera",
+          "piatto-principale",
+          "francese",
+          "tradizionale",
+          "nostalgico",
+          "ricetta-di-famiglia",
+          "confortante",
+          "tutta-la-famiglia",
+          "caldo"
+        ]
+      }
+    },
+    "stepCount": 7,
+    "ingredientCount": 13
+  },
+  {
+    "slug": "selle-d-agneau-en-mosaiques",
+    "title": "Selle d'agneau en mosaïques",
+    "description": "Selle d'agneau désossée, farcie d'une mousse de volaille aux petits légumes en macédoine, roulée dans la crépine et braisée au vin blanc.",
+    "images": {
+      "cover": "images/recipes/selle-d-agneau-en-mosaiques/cover.webp",
+      "web": "images/recipes/selle-d-agneau-en-mosaiques/web.webp"
+    },
+    "imageCredit": {
+      "author": "Sebastian Coman Photography",
+      "url": "https://unsplash.com/@sebastiancoman"
+    },
+    "prepTime": 60,
+    "cookTime": 80,
+    "servings": 10,
+    "difficulty": "Difficile",
+    "category": "Secondi",
+    "tags": [
+      "agneau",
+      "plat-principal",
+      "français",
+      "nostalgique",
+      "recette-de-famille",
+      "mijoté",
+      "légumes",
+      "fête",
+      "festif",
+      "à-partager",
+      "chaud"
+    ],
+    "origin": "amelie-grandpa",
+    "translations": {
+      "en": {
+        "title": "Mosaic saddle of lamb",
+        "description": "Boned saddle of lamb stuffed with a chicken mousse studded with diced vegetables (macédoine), rolled in caul fat and braised in white wine.",
+        "tags": [
+          "lamb",
+          "main-course",
+          "french",
+          "nostalgic",
+          "family-recipe",
+          "braised",
+          "vegetables",
+          "celebration",
+          "festive",
+          "sharing",
+          "hot"
+        ]
+      },
+      "it": {
+        "title": "Sella d'agnello a mosaico",
+        "description": "Sella d'agnello disossata, farcita con una mousse di pollo e verdurine a dadini (macédoine), avvolta nella rete di maiale e brasata al vino bianco.",
+        "tags": [
+          "agnello",
+          "piatto-principale",
+          "francese",
+          "nostalgico",
+          "ricetta-di-famiglia",
+          "brasato",
+          "verdure",
+          "festa",
+          "festivo",
+          "da-condividere",
+          "caldo"
+        ]
+      }
+    },
+    "stepCount": 9,
+    "ingredientCount": 16
+  },
+  {
+    "slug": "tourte-de-viande-aux-pommes-de-terre",
+    "title": "Tourte de viande aux pommes de terre",
+    "description": "Une tourte généreuse en pâte brisée et feuilletée, garnie de farce porc et bœuf entre deux couches de pommes de terre, arrosée de crème au cerfeuil.",
+    "images": {
+      "cover": "images/recipes/tourte-de-viande-aux-pommes-de-terre/cover.webp",
+      "web": "images/recipes/tourte-de-viande-aux-pommes-de-terre/web.webp"
+    },
+    "imageCredit": {
+      "author": "David Foodphototasty",
+      "url": "https://unsplash.com/@phototastyfood"
+    },
+    "prepTime": 75,
+    "cookTime": 60,
+    "servings": 10,
+    "difficulty": "Medio",
+    "category": "Secondi",
+    "tags": [
+      "plat-principal",
+      "bœuf",
+      "porc",
+      "four",
+      "français",
+      "hiver",
+      "réconfortant",
+      "convivial",
+      "à-partager",
+      "chaud",
+      "nostalgique",
+      "recette-de-famille"
+    ],
+    "origin": "amelie-grandpa",
+    "translations": {
+      "en": {
+        "title": "Meat and potato pie",
+        "description": "A generous pie of shortcrust and puff pastry, filled with a pork and beef stuffing between two layers of potatoes, finished with chervil cream.",
+        "tags": [
+          "main-course",
+          "beef",
+          "pork",
+          "oven",
+          "french",
+          "winter",
+          "comforting",
+          "convivial",
+          "to-share",
+          "hot",
+          "nostalgic",
+          "family-recipe"
+        ]
+      },
+      "it": {
+        "title": "Torta salata di carne e patate",
+        "description": "Una torta generosa di pasta brisée e pasta sfoglia, farcita con un ripieno di maiale e manzo tra due strati di patate, completata con panna al cerfoglio.",
+        "tags": [
+          "piatto-principale",
+          "manzo",
+          "maiale",
+          "forno",
+          "francese",
+          "inverno",
+          "confortante",
+          "conviviale",
+          "da-condividere",
+          "caldo",
+          "nostalgico",
+          "ricetta-di-famiglia"
+        ]
+      }
+    },
+    "stepCount": 8,
+    "ingredientCount": 13
   }
 ]
