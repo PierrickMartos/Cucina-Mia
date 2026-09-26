@@ -71,7 +71,7 @@ Parse the issue body. Each field appears as `### Field Name` followed by the val
 | Recipe Title | `title` | As-is |
 | Slug | `slug` | Validate: lowercase, hyphens only |
 | Description | `description` | 1-2 sentences |
-| Category | `category` | One of: Antipasti, Pasta, Gnocchi, Risotto, Secondi, Dolci, Pizze, Pane, Bambini, Breakfast, Brunch. **Rules**: Pasta = only pasta/noodles/ravioli dishes. Gnocchi = gnocchi-based dishes only. Risotto = rice risotto and "façon risotto" dishes. Secondi = all other mains (meat, fish, poultry, eggs). |
+| Category | `category` | One of: Antipasti, Zuppe, Pasta, Gnocchi, Risotto, Insalate, Secondi, Contorni, Pizze, Pane, Dolci, Gelati, Conserve, Bambini, Breakfast, Brunch. **Rules**: Pasta = only pasta/noodles/ravioli dishes. Gnocchi = gnocchi-based dishes only. Risotto = rice risotto and "façon risotto" dishes. Secondi = all other mains (meat, fish, poultry, eggs). Zuppe = soups, potages and consommés. Contorni = vegetable side dishes. Gelati = ice creams, sorbets and frozen desserts. Conserve = jams, jellies and marmalades. |
 | Difficulty | `difficulty` | One of: Facile, Medio, Difficile |
 | Prep Time (minutes) | `prepTime` | Integer |
 | Cook Time (minutes) | `cookTime` | Integer |

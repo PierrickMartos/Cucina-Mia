@@ -19,14 +19,18 @@ const BASE = import.meta.env.BASE_URL
 // (when wider than 960) so small screens don't download the full-size photo.
 const CATEGORY_IMAGES: Record<string, { name: string; width: number }> = {
   Antipasti: { name: "antipasti", width: 1280 },
+  Zuppe: { name: "zuppe", width: 1280 },
   Pasta: { name: "pasta", width: 1280 },
   Gnocchi: { name: "gnocchi", width: 1280 },
   Risotto: { name: "risotto", width: 1280 },
   Insalate: { name: "insalate", width: 960 },
   Secondi: { name: "secondi", width: 1280 },
+  Contorni: { name: "contorni", width: 1280 },
   Pizze: { name: "pizza", width: 1280 },
   Pane: { name: "focacia", width: 1280 },
   Dolci: { name: "dolci", width: 1086 },
+  Gelati: { name: "gelati", width: 1280 },
+  Conserve: { name: "conserve", width: 1280 },
   Bambini: { name: "bambini", width: 1280 },
   Breakfast: { name: "breakfast", width: 1280 },
   Brunch: { name: "brunch", width: 1024 },

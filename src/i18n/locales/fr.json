@@ -165,6 +165,7 @@
   },
   "categories": {
     "Antipasti": "Entrées",
+    "Zuppe": "Soupes",
     "Pasta": "Pâtes",
     "Gnocchi": "Gnocchi",
     "Risotto": "Risotto",
@@ -172,6 +173,8 @@
     "Secondi": "Plats principaux",
     "Contorni": "Accompagnements",
     "Dolci": "Desserts",
+    "Gelati": "Glaces",
+    "Conserve": "Confitures",
     "Pizze": "Pizzas",
     "Pane": "Pains",
     "Breakfast": "Petit-déj",
