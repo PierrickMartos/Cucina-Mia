@@ -1,0 +1,223 @@
+{
+  "slug": "crepes-a-la-peche-et-glace",
+  "title": "Crêpes à la pêche et glace",
+  "description": "Des crêpes passées dans un sirop alcoolisé, garnies d'une demi-pêche pochée et d'une boule de glace, avec leur variante des pannequets au Kirsch.",
+  "images": {
+    "cover": "images/recipes/crepes-a-la-peche-et-glace/cover.svg",
+    "web": "images/recipes/crepes-a-la-peche-et-glace/cover.svg"
+  },
+  "prepTime": 30,
+  "cookTime": 35,
+  "servings": 8,
+  "difficulty": "Facile",
+  "category": "Dolci",
+  "origin": "amelie-grandpa",
+  "tags": [
+    "crêpes",
+    "pêche",
+    "fruits",
+    "poêle",
+    "four",
+    "dessert",
+    "français",
+    "facile",
+    "gourmand",
+    "festif",
+    "nostalgique",
+    "recette-de-famille"
+  ],
+  "ingredients": [
+    {
+      "group": "Pâte à crêpes",
+      "items": [
+        "400 g de farine de froment",
+        "1 l de lait",
+        "6 œufs",
+        "100 g de beurre",
+        "2 cuillerées d'huile",
+        "60 g de sucre semoule",
+        "1 pincée de sel",
+        "1 gousse de vanille"
+      ]
+    },
+    {
+      "group": "Garniture",
+      "items": [
+        "1 dl de sirop alcoolisé",
+        "Pêches pochées au sirop (½ pêche par crêpe)",
+        "Glace vanille ou aux fruits au choix (1 boule par crêpe)"
+      ]
+    },
+    {
+      "group": "Pannequets",
+      "items": [
+        "Crème pâtissière (1 bonne cuillerée par crêpe)",
+        "Fruits confits pochés",
+        "Kirsch"
+      ]
+    }
+  ],
+  "steps": [
+    {
+      "text": "Préparation de base : préparer les crêpes (voir les crêpes sucrées)."
+    },
+    {
+      "text": "Mettre dans une poêle 1 dl de sirop alcoolisé, passer chaque crêpe dans le sirop et les disposer dans chaque assiette."
+    },
+    {
+      "text": "Mettre au milieu une demi-pêche pochée dans un sirop, une boule de glace vanille ou aux fruits au choix, rabattre la crêpe sur la glace et servir de suite."
+    },
+    {
+      "text": "Les pannequets (même pâte de base mais parfum au Kirsch) : étaler sur chaque crêpe 1 bonne cuillerée de crème pâtissière additionnée de fruits confits pochés et parfumée au Kirsch."
+    },
+    {
+      "text": "Rouler les crêpes, les dresser sur un plat et faire cuire au four 2 à 3 minutes.",
+      "timers": [2]
+    }
+  ],
+  "source": "Les recettes de Maurice Houdré, tome 3, Les entremets",
+  "originalSource": {
+    "type": "text",
+    "data": "Crêpes à la pêche et glace\n\nIngrédients : pour 8 personnes\n\n. 400 g de farine de froment\n. 1 l de lait\n. 6 œufs\n. 100 g de beurre\n. 2 cuillérées d’huile\n. 60 g de sucre semoule\n. 1 pincée de sel\n. 1 gousse de vanille\n\nPréparation de base :\nVoir recette « Crêpes sucrées ».\n\nMettre dans une poêle, 1 dl de sirop alcoolisé, passer chaque crêpe dans le sirop et les disposer dans chaque assiette, mettre au milieu une demi pêche pochée dans un sirop, une boule de glace vanille ou fruit au choix, rabattre la crêpe sur la glace et servir de suite.\n\nLES PANNEQUETS  (même pâte de base mais parfum au Kirsch) :\nEtaler sur chaque crêpe, 1 bonne cuillérée de crème pâtissière additionnée de fruits confits pochés et parfumée au Kirsch.\nRouler les crêpes, dresser les sur un plat et faire cuire au four 2 à 3 minutes.\n"
+  },
+  "related": [
+    "charlottes-aux-peches",
+    "pudding-aux-fruits",
+    "pudding-de-fruits",
+    "crepes-sucrees"
+  ],
+  "translations": {
+    "en": {
+      "title": "Peach and Ice Cream Crêpes",
+      "description": "Crêpes dipped in a boozy syrup, filled with half a poached peach and a scoop of ice cream, plus their variation, Kirsch pannequets.",
+      "tags": [
+        "crepes",
+        "peach",
+        "fruit",
+        "pan",
+        "oven",
+        "dessert",
+        "french",
+        "easy",
+        "indulgent",
+        "festive",
+        "nostalgic",
+        "family-recipe"
+      ],
+      "ingredients": [
+        {
+          "group": "Crêpe batter",
+          "items": [
+            "400 g wheat flour",
+            "1 l milk",
+            "6 eggs",
+            "100 g butter",
+            "2 spoonfuls of oil",
+            "60 g caster sugar",
+            "1 pinch of salt",
+            "1 vanilla pod"
+          ]
+        },
+        {
+          "group": "Filling",
+          "items": [
+            "1 dl boozy syrup",
+            "Peaches poached in syrup (½ peach per crêpe)",
+            "Vanilla or fruit ice cream of your choice (1 scoop per crêpe)"
+          ]
+        },
+        {
+          "group": "Pannequets",
+          "items": [
+            "Pastry cream (1 generous spoonful per crêpe)",
+            "Poached candied fruit",
+            "Kirsch"
+          ]
+        }
+      ],
+      "steps": [
+        {
+          "text": "Base preparation: make the crêpes (see the sweet crêpes)."
+        },
+        {
+          "text": "Put 1 dl of boozy syrup in a pan, dip each crêpe in the syrup and lay one on each plate."
+        },
+        {
+          "text": "Place half a peach poached in syrup in the middle with a scoop of vanilla or fruit ice cream of your choice, fold the crêpe over the ice cream and serve straight away."
+        },
+        {
+          "text": "The pannequets (same base batter but flavoured with Kirsch): spread each crêpe with 1 generous spoonful of pastry cream mixed with poached candied fruit and flavoured with Kirsch."
+        },
+        {
+          "text": "Roll up the crêpes, arrange them on a dish and bake in the oven for 2 to 3 minutes."
+        }
+      ]
+    },
+    "it": {
+      "title": "Crêpes alla pesca e gelato",
+      "description": "Crêpes passate in uno sciroppo alcolico, farcite con mezza pesca cotta in camicia e una pallina di gelato, con la loro variante, i pannequets al Kirsch.",
+      "tags": [
+        "crepes",
+        "pesca",
+        "frutta",
+        "padella",
+        "forno",
+        "dolce",
+        "francese",
+        "facile",
+        "goloso",
+        "festivo",
+        "nostalgico",
+        "ricetta-di-famiglia"
+      ],
+      "ingredients": [
+        {
+          "group": "Pastella per crêpes",
+          "items": [
+            "400 g di farina di frumento",
+            "1 l di latte",
+            "6 uova",
+            "100 g di burro",
+            "2 cucchiai di olio",
+            "60 g di zucchero semolato",
+            "1 pizzico di sale",
+            "1 baccello di vaniglia"
+          ]
+        },
+        {
+          "group": "Farcitura",
+          "items": [
+            "1 dl di sciroppo alcolico",
+            "Pesche cotte in camicia nello sciroppo (½ pesca per crêpe)",
+            "Gelato alla vaniglia o alla frutta a scelta (1 pallina per crêpe)"
+          ]
+        },
+        {
+          "group": "Pannequets",
+          "items": [
+            "Crema pasticcera (1 cucchiaio abbondante per crêpe)",
+            "Canditi cotti in camicia",
+            "Kirsch"
+          ]
+        }
+      ],
+      "steps": [
+        {
+          "text": "Preparazione di base: preparare le crêpes (vedere le crêpes dolci)."
+        },
+        {
+          "text": "Mettere in una padella 1 dl di sciroppo alcolico, passare ogni crêpe nello sciroppo e disporle una per piatto."
+        },
+        {
+          "text": "Mettere al centro mezza pesca cotta in camicia nello sciroppo e una pallina di gelato alla vaniglia o alla frutta a scelta, ripiegare la crêpe sul gelato e servire subito."
+        },
+        {
+          "text": "I pannequets (stessa pastella di base ma profumata al Kirsch): spalmare su ogni crêpe 1 cucchiaio abbondante di crema pasticcera arricchita con canditi cotti in camicia e profumata al Kirsch."
+        },
+        {
+          "text": "Arrotolare le crêpes, disporle su un piatto e cuocerle in forno per 2-3 minuti."
+        }
+      ]
+    }
+  }
+}

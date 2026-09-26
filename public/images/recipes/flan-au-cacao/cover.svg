@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <defs>
+    <radialGradient id="fcbg" cx="50%" cy="45%" r="70%"><stop offset="0%" stop-color="#2e2822"/><stop offset="100%" stop-color="#1a1510"/></radialGradient>
+    <radialGradient id="fcplate" cx="45%" cy="40%" r="60%"><stop offset="0%" stop-color="#f4efe6"/><stop offset="100%" stop-color="#c8c0b2"/></radialGradient>
+    <linearGradient id="fcflan" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="#3a1e12"/><stop offset="45%" stop-color="#6a3a22"/><stop offset="100%" stop-color="#2a140a"/></linearGradient>
+    <radialGradient id="fctop" cx="45%" cy="40%" r="60%"><stop offset="0%" stop-color="#7a4628"/><stop offset="100%" stop-color="#4a2614"/></radialGradient>
+    <linearGradient id="fccar" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#e0a048"/><stop offset="100%" stop-color="#b86e22"/></linearGradient>
+    <linearGradient id="fcjug" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="#d8d2c6"/><stop offset="50%" stop-color="#f2ede4"/><stop offset="100%" stop-color="#b8b0a2"/></linearGradient>
+  </defs>
+  <rect width="800" height="600" fill="url(#fcbg)"/>
+  <g opacity="0.18">
+    <ellipse cx="130" cy="250" rx="55" ry="18" fill="#e8e0d0"/>
+    <rect x="75" y="250" width="110" height="60" fill="#e8e0d0"/>
+    <ellipse cx="130" cy="310" rx="55" ry="18" fill="#e8e0d0"/>
+    <ellipse cx="130" cy="250" rx="45" ry="13" fill="#4a2614"/>
+  </g>
+  <ellipse cx="400" cy="440" rx="290" ry="70" fill="#000" opacity="0.35"/>
+  <ellipse cx="400" cy="400" rx="280" ry="95" fill="url(#fcplate)"/>
+  <ellipse cx="400" cy="396" rx="210" ry="66" fill="#e6dfd2"/>
+  <path d="M290,400 Q300,440 400,446 Q500,440 520,405 Q470,428 400,428 Q330,428 290,400Z" fill="#f2e6c8" opacity="0.9"/>
+  <path d="M300,398 Q340,420 400,422 Q460,420 505,402" fill="none" stroke="#c88a3a" stroke-width="4" opacity="0.6"/>
+  <ellipse cx="400" cy="398" rx="115" ry="30" fill="#000" opacity="0.25"/>
+  <path d="M290,395 L318,275 Q400,258 482,275 L510,395 Q400,420 290,395Z" fill="url(#fcflan)"/>
+  <ellipse cx="400" cy="275" rx="82" ry="22" fill="url(#fctop)"/>
+  <path d="M322,272 Q400,250 478,272 Q480,290 470,300 Q466,318 460,300 Q450,285 430,292 Q424,318 418,294 Q400,288 380,292 Q372,322 366,295 Q348,288 338,296 Q332,312 328,294 Q320,286 322,272Z" fill="url(#fccar)" opacity="0.92"/>
+  <ellipse cx="385" cy="268" rx="40" ry="8" fill="#fff" opacity="0.25"/>
+  <path d="M340,300 Q344,340 338,380" stroke="#8a4a26" stroke-width="3" fill="none" opacity="0.4"/>
+  <g transform="translate(400,262)">
+    <path d="M0,0 Q-26,-8 -30,-26 Q-10,-24 0,0Z" fill="#3c8a34"/>
+    <path d="M0,0 Q20,-16 36,-14 Q28,4 0,0Z" fill="#48a03c"/>
+    <path d="M0,0 Q-15,-12 -26,-22" stroke="#2a6624" stroke-width="1.5" fill="none"/>
+  </g>
+  <path d="M170,405 Q185,395 200,408 Q190,420 170,405Z" fill="#3c8a34" opacity="0.8"/>
+  <g transform="translate(640,300)">
+    <ellipse cx="0" cy="115" rx="60" ry="14" fill="#000" opacity="0.3"/>
+    <path d="M-48,10 Q-58,70 -46,110 Q0,124 46,110 Q58,70 48,10Z" fill="url(#fcjug)"/>
+    <path d="M48,30 Q82,40 76,70 Q70,92 46,90" fill="none" stroke="#d0c8ba" stroke-width="9"/>
+    <ellipse cx="0" cy="10" rx="48" ry="12" fill="#e6dfd2"/>
+    <ellipse cx="0" cy="12" rx="40" ry="9" fill="#f6ecd4"/>
+    <path d="M-48,8 L-66,0 L-44,4Z" fill="#e6dfd2"/>
+    <path d="M-20,12 Q0,6 22,12" stroke="#d09a48" stroke-width="3" fill="none" opacity="0.7"/>
+  </g>
+  <g fill="#6a3a22" opacity="0.5">
+    <circle cx="230" cy="380" r="2"/><circle cx="560" cy="372" r="2.5"/><circle cx="250" cy="415" r="1.8"/><circle cx="545" cy="420" r="2"/>
+  </g>
+</svg>

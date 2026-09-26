@@ -113,6 +113,12 @@ export const PANTRY_ITEMS: PantryItem[] = [
   item("quince", "fruit", "Coings", "Quinces", "Mele cotogne", ["quince"]),
   item("citrus", "fruit", "Agrumes", "Citrus fruits", "Agrumi", ["citrus fruit", "citrus"]),
   item("fruit-puree", "fruit", "Purée de fruits", "Fruit purée", "Purea di frutta", ["fruit puree", "fruit pulp", "red berry pulp", "red berry"]),
+  item("apricot", "fruit", "Abricots", "Apricots", "Albicocche", ["apricot"]),
+  item("kiwi", "fruit", "Kiwis", "Kiwis", "Kiwi", ["kiwi"]),
+  item("plum", "fruit", "Prunes", "Plums", "Susine", ["plum"]),
+  item("lychee", "fruit", "Litchis", "Lychees", "Litchi", ["lychee"]),
+  item("coconut", "fruit", "Noix de coco râpée", "Desiccated coconut", "Cocco rapé", ["coconut", "desiccated coconut"]),
+  item("candied-fruit", "fruit", "Fruits confits", "Candied fruit", "Canditi", ["candied fruit", "mixed candied fruit", "poached candied fruit"]),
   item("prunes", "fruit", "Pruneaux", "Prunes", "Prugne secche", ["prune"]),
 
   // Herbs and aromatics
@@ -218,6 +224,8 @@ export const PANTRY_ITEMS: PantryItem[] = [
   item("pastry", "starches", "Pâte brisée", "Shortcrust pastry", "Pasta brisée", ["shortcrust pastry"]),
   item("puff-pastry", "starches", "Pâte feuilletée", "Puff pastry", "Pasta sfoglia", ["puff pastry"]),
   item("biscuits", "starches", "Spéculoos", "Speculoos biscuits", "Biscotti speculoos", ["speculoos", "biscuit"]),
+  item("ladyfingers", "starches", "Biscuits à la cuillère", "Ladyfingers", "Savoiardi", ["ladyfinger"]),
+  item("crepes", "starches", "Crêpes", "Crêpes", "Crêpes", ["crepe", "basic sweet crepe"]),
 
   // Pantry
   item("sugar", "pantry", "Sucre", "Sugar", "Zucchero", ["sugar", "icing sugar", "powdered sugar", "palm sugar", "sugar cube", "syrup", "glucose"]),
@@ -225,6 +233,10 @@ export const PANTRY_ITEMS: PantryItem[] = [
   item("honey", "pantry", "Miel", "Honey", "Miele", ["honey"]),
   item("maple-syrup", "pantry", "Sirop d'érable", "Maple syrup", "Sciroppo d'acero", ["maple syrup"]),
   item("chocolate", "pantry", "Chocolat noir", "Dark chocolate", "Cioccolato fondente", ["chocolate", "dark chocolate"]),
+  item("cocoa", "pantry", "Cacao en poudre", "Cocoa powder", "Cacao in polvere", ["cocoa", "unsweetened dark cocoa powder", "cocoa powder"]),
+  item("coffee", "pantry", "Café", "Coffee", "Caffè", ["coffee", "instant coffee", "coffee extract"]),
+  item("caramel", "pantry", "Caramel", "Caramel", "Caramello", ["caramel", "light caramel"]),
+  item("custard", "pantry", "Crème anglaise", "Custard", "Crema inglese", ["creme anglaise", "custard"]),
   item("baking-powder", "pantry", "Levure chimique", "Baking powder", "Lievito per dolci", ["baking powder", "baking soda"]),
   item("yeast", "pantry", "Levure de boulanger", "Baker's yeast", "Lievito di birra", ["yeast", "baker s yeast"]),
   item("gelatin", "pantry", "Gélatine", "Gelatin", "Gelatina", ["gelatin", "gelatine", "aspic", "aspic powder"]),
@@ -258,6 +270,7 @@ export const PANTRY_ITEMS: PantryItem[] = [
   item("champagne", "pantry", "Champagne", "Champagne", "Champagne", ["champagne"]),
   item("beer", "pantry", "Bière", "Beer", "Birra", ["beer", "lager"]),
   item("rum", "pantry", "Rhum", "Rum", "Rum", ["rum"]),
+  item("brandy", "pantry", "Eau-de-vie ou liqueur", "Brandy or liqueur", "Acquavite o liquore", ["kirsch", "calvados", "plum brandy", "spirit", "liqueur"]),
   item("grenadine", "pantry", "Sirop de grenadine", "Grenadine", "Granatina", ["grenadine"]),
   item("cognac", "pantry", "Cognac ou armagnac", "Cognac or Armagnac", "Cognac o Armagnac", ["cognac", "armagnac"]),
   item("orange-liqueur", "pantry", "Liqueur d'orange", "Orange liqueur", "Liquore all'arancia", ["cointreau", "grand marnier", "curacao", "orange liqueur"]),

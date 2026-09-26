@@ -16382,5 +16382,2098 @@
     },
     "stepCount": 9,
     "ingredientCount": 13
+  },
+  {
+    "slug": "bavarois-a-la-banane",
+    "title": "Bavarois à la banane",
+    "description": "Une purée de bananes au citron vert, liée à une crème anglaise gélifiée et parfumée au rhum ou au cointreau, servie en ramequins.",
+    "images": {
+      "cover": "images/recipes/bavarois-a-la-banane/cover.svg",
+      "web": "images/recipes/bavarois-a-la-banane/cover.svg"
+    },
+    "prepTime": 30,
+    "cookTime": 15,
+    "servings": 8,
+    "difficulty": "Medio",
+    "category": "Dolci",
+    "tags": [
+      "dessert",
+      "banane",
+      "fruits",
+      "froid",
+      "à-la-cuillère",
+      "préparation-à-lavance",
+      "gourmand",
+      "festif",
+      "français",
+      "nostalgique",
+      "recette-de-famille"
+    ],
+    "origin": "amelie-grandpa",
+    "translations": {
+      "en": {
+        "title": "Banana Bavarois",
+        "description": "A lime-scented banana purée bound with a set custard and flavoured with rum or Cointreau, served in ramekins.",
+        "tags": [
+          "dessert",
+          "banana",
+          "fruit",
+          "cold",
+          "spoon-dessert",
+          "make-ahead",
+          "indulgent",
+          "festive",
+          "french",
+          "nostalgic",
+          "family-recipe"
+        ]
+      },
+      "it": {
+        "title": "Bavarese alla banana",
+        "description": "Una purea di banane al lime, legata con una crema inglese gelificata e profumata al rum o al Cointreau, servita in cocotte.",
+        "tags": [
+          "dessert",
+          "banana",
+          "frutta",
+          "freddo",
+          "al-cucchiaio",
+          "da-preparare-in-anticipo",
+          "goloso",
+          "festivo",
+          "francese",
+          "nostalgico",
+          "ricetta-di-famiglia"
+        ]
+      }
+    },
+    "stepCount": 11,
+    "ingredientCount": 9
+  },
+  {
+    "slug": "charlotte-au-chocolat",
+    "title": "Charlotte au chocolat",
+    "description": "Une charlotte de biscuits cuillères imbibés au rhum, garnie d'une marquise au chocolat et servie avec un sabayon tiède au café.",
+    "images": {
+      "cover": "images/recipes/charlotte-au-chocolat/cover.svg",
+      "web": "images/recipes/charlotte-au-chocolat/cover.svg"
+    },
+    "prepTime": 60,
+    "cookTime": 15,
+    "servings": 8,
+    "difficulty": "Medio",
+    "category": "Dolci",
+    "tags": [
+      "dessert",
+      "chocolat",
+      "œufs",
+      "français",
+      "nostalgique",
+      "recette-de-famille",
+      "festif",
+      "gourmand",
+      "préparation-à-lavance",
+      "bain-marie",
+      "froid",
+      "adultes"
+    ],
+    "origin": "amelie-grandpa",
+    "translations": {
+      "en": {
+        "title": "Chocolate charlotte",
+        "description": "A charlotte of rum-soaked ladyfingers, filled with a chocolate marquise and served with a warm coffee sabayon.",
+        "tags": [
+          "dessert",
+          "chocolate",
+          "eggs",
+          "french",
+          "nostalgic",
+          "family-recipe",
+          "festive",
+          "indulgent",
+          "make-ahead",
+          "bain-marie",
+          "cold",
+          "adults"
+        ]
+      },
+      "it": {
+        "title": "Charlotte al cioccolato",
+        "description": "Una charlotte di savoiardi imbevuti di rum, farcita con una marquise al cioccolato e servita con uno zabaione tiepido al caffè.",
+        "tags": [
+          "dessert",
+          "cioccolato",
+          "uova",
+          "francese",
+          "nostalgico",
+          "ricetta-di-famiglia",
+          "festivo",
+          "goloso",
+          "da-preparare-in-anticipo",
+          "bagnomaria",
+          "freddo",
+          "adulti"
+        ]
+      }
+    },
+    "stepCount": 11,
+    "ingredientCount": 14
+  },
+  {
+    "slug": "charlotte-au-marron",
+    "title": "Charlotte au marron",
+    "description": "Une charlotte de biscuits cuillères imbibés de sirop au rhum, garnie de couches de marquise au chocolat et de crème de marron au beurre.",
+    "images": {
+      "cover": "images/recipes/charlotte-au-marron/cover.svg",
+      "web": "images/recipes/charlotte-au-marron/cover.svg"
+    },
+    "prepTime": 40,
+    "cookTime": 0,
+    "servings": 10,
+    "difficulty": "Medio",
+    "category": "Dolci",
+    "tags": [
+      "dessert",
+      "marron",
+      "chocolat",
+      "français",
+      "nostalgique",
+      "recette-de-famille",
+      "no-cuisson",
+      "festif",
+      "gourmand",
+      "hiver",
+      "préparation-à-lavance"
+    ],
+    "origin": "amelie-grandpa",
+    "translations": {
+      "en": {
+        "title": "Chestnut Charlotte",
+        "description": "A charlotte of ladyfingers soaked in rum syrup, filled with layers of chocolate marquise and chestnut cream whipped with butter.",
+        "tags": [
+          "dessert",
+          "chestnut",
+          "chocolate",
+          "french",
+          "nostalgic",
+          "family-recipe",
+          "no-cook",
+          "festive",
+          "indulgent",
+          "winter",
+          "make-ahead"
+        ]
+      },
+      "it": {
+        "title": "Charlotte alle castagne",
+        "description": "Una charlotte di savoiardi bagnati nello sciroppo al rum, farcita con strati di marquise al cioccolato e crema di marroni montata con il burro.",
+        "tags": [
+          "dessert",
+          "castagne",
+          "cioccolato",
+          "francese",
+          "nostalgico",
+          "ricetta-di-famiglia",
+          "senza-cottura",
+          "festivo",
+          "goloso",
+          "inverno",
+          "da-preparare-in-anticipo"
+        ]
+      }
+    },
+    "stepCount": 6,
+    "ingredientCount": 6
+  },
+  {
+    "slug": "charlottes-aux-fraises-ou-framboises",
+    "title": "Charlottes aux fraises ou framboises",
+    "description": "Une charlotte de biscuits cuillères garnie de couches de bavarois à la vanille et de fraises ou de framboises, servie avec un coulis.",
+    "images": {
+      "cover": "images/recipes/charlottes-aux-fraises-ou-framboises/cover.svg",
+      "web": "images/recipes/charlottes-aux-fraises-ou-framboises/cover.svg"
+    },
+    "prepTime": 45,
+    "cookTime": 15,
+    "servings": 8,
+    "difficulty": "Medio",
+    "category": "Dolci",
+    "tags": [
+      "dessert",
+      "fruits",
+      "français",
+      "froid",
+      "été",
+      "festif",
+      "gourmand",
+      "préparation-à-lavance",
+      "à-partager",
+      "nostalgique",
+      "recette-de-famille"
+    ],
+    "origin": "amelie-grandpa",
+    "translations": {
+      "en": {
+        "title": "Strawberry or Raspberry Charlotte",
+        "description": "A ladyfinger charlotte filled with layers of vanilla bavarois and strawberries or raspberries, served with a coulis.",
+        "tags": [
+          "dessert",
+          "fruit",
+          "french",
+          "cold",
+          "summer",
+          "festive",
+          "indulgent",
+          "make-ahead",
+          "to-share",
+          "nostalgic",
+          "family-recipe"
+        ]
+      },
+      "it": {
+        "title": "Charlotte alle fragole o ai lamponi",
+        "description": "Una charlotte di savoiardi farcita a strati di bavarese alla vaniglia e fragole o lamponi, servita con un coulis.",
+        "tags": [
+          "dessert",
+          "frutta",
+          "francese",
+          "freddo",
+          "estate",
+          "festivo",
+          "goloso",
+          "da-preparare-in-anticipo",
+          "da-condividere",
+          "nostalgico",
+          "ricetta-di-famiglia"
+        ]
+      }
+    },
+    "stepCount": 11,
+    "ingredientCount": 9
+  },
+  {
+    "slug": "charlottes-aux-peches",
+    "title": "Charlottes aux pêches",
+    "description": "Une charlotte de biscuits cuillères imbibés, garnie d'un bavarois à la liqueur et de quartiers de pêches, décorée de Chantilly et de fruits confits.",
+    "images": {
+      "cover": "images/recipes/charlottes-aux-peches/cover.svg",
+      "web": "images/recipes/charlottes-aux-peches/cover.svg"
+    },
+    "prepTime": 60,
+    "cookTime": 15,
+    "servings": 10,
+    "difficulty": "Medio",
+    "category": "Dolci",
+    "tags": [
+      "dessert",
+      "pêches",
+      "fruits",
+      "français",
+      "froid",
+      "festif",
+      "gourmand",
+      "onctueux",
+      "préparation-à-lavance",
+      "à-partager",
+      "nostalgique",
+      "recette-de-famille"
+    ],
+    "origin": "amelie-grandpa",
+    "translations": {
+      "en": {
+        "title": "Peach charlottes",
+        "description": "A charlotte of soaked ladyfingers, filled with a liqueur bavarois and peach quarters, decorated with Chantilly cream and candied fruit.",
+        "tags": [
+          "dessert",
+          "peaches",
+          "fruit",
+          "french",
+          "cold",
+          "festive",
+          "indulgent",
+          "creamy",
+          "make-ahead",
+          "to-share",
+          "nostalgic",
+          "family-recipe"
+        ]
+      },
+      "it": {
+        "title": "Charlotte alle pesche",
+        "description": "Una charlotte di savoiardi bagnati, farcita con una bavarese al liquore e spicchi di pesca, decorata con panna Chantilly e frutta candita.",
+        "tags": [
+          "dessert",
+          "pesche",
+          "frutta",
+          "francese",
+          "freddo",
+          "festivo",
+          "goloso",
+          "cremoso",
+          "da-preparare-in-anticipo",
+          "da-condividere",
+          "nostalgico",
+          "ricetta-di-famiglia"
+        ]
+      }
+    },
+    "stepCount": 21,
+    "ingredientCount": 11
+  },
+  {
+    "slug": "clafoutis-aux-fruits",
+    "title": "Clafoutis aux fruits",
+    "description": "Le clafoutis aux cerises noires du papi, une pâte fondante au Kirsch cuite à four doux sur les fruits dénoyautés.",
+    "images": {
+      "cover": "images/recipes/clafoutis-aux-fruits/cover.webp",
+      "web": "images/recipes/clafoutis-aux-fruits/web.webp"
+    },
+    "imageCredit": {
+      "author": "eatde",
+      "url": "https://pixabay.com/users/eatde-31315809/"
+    },
+    "prepTime": 20,
+    "cookTime": 40,
+    "servings": 8,
+    "difficulty": "Facile",
+    "category": "Dolci",
+    "tags": [
+      "cerises",
+      "fruits",
+      "dessert",
+      "four",
+      "été",
+      "facile",
+      "fondant",
+      "tiède",
+      "végétarien",
+      "gourmand",
+      "français",
+      "nostalgique",
+      "recette-de-famille"
+    ],
+    "origin": "amelie-grandpa",
+    "translations": {
+      "en": {
+        "title": "Fruit clafoutis",
+        "description": "Grandpa's black cherry clafoutis, a melting Kirsch batter baked in a low oven over pitted fruit.",
+        "tags": [
+          "cherries",
+          "fruit",
+          "dessert",
+          "oven",
+          "summer",
+          "easy",
+          "melting",
+          "warm",
+          "vegetarian",
+          "indulgent",
+          "french",
+          "nostalgic",
+          "family-recipe"
+        ]
+      },
+      "it": {
+        "title": "Clafoutis alla frutta",
+        "description": "Il clafoutis di ciliegie nere del nonno, una pastella fondente al Kirsch cotta a forno dolce sulla frutta snocciolata.",
+        "tags": [
+          "ciliegie",
+          "frutta",
+          "dessert",
+          "forno",
+          "estate",
+          "facile",
+          "fondente",
+          "tiepido",
+          "vegetariano",
+          "goloso",
+          "francese",
+          "nostalgico",
+          "ricetta-di-famiglia"
+        ]
+      }
+    },
+    "stepCount": 3,
+    "ingredientCount": 8
+  },
+  {
+    "slug": "cremes-en-petits-pots-ou-grand-moule",
+    "title": "Crèmes en petits pots ou grand moule",
+    "description": "Un appareil de base au lait, aux œufs et au sucre, cuit au bain-marie en ramequins ou en moule, parfumé vanille, café, chocolat ou caramel.",
+    "images": {
+      "cover": "images/recipes/cremes-en-petits-pots-ou-grand-moule/cover.webp",
+      "web": "images/recipes/cremes-en-petits-pots-ou-grand-moule/web.webp"
+    },
+    "imageCredit": {
+      "author": "Msobaidi",
+      "url": "https://pixabay.com/users/msobaidi-15887962/"
+    },
+    "prepTime": 20,
+    "cookTime": 40,
+    "servings": 8,
+    "difficulty": "Facile",
+    "category": "Dolci",
+    "tags": [
+      "dessert",
+      "œufs",
+      "français",
+      "bain-marie",
+      "four",
+      "facile",
+      "économique",
+      "onctueux",
+      "froid",
+      "à-la-cuillère",
+      "toute-la-famille",
+      "nostalgique",
+      "recette-de-famille"
+    ],
+    "origin": "amelie-grandpa",
+    "translations": {
+      "en": {
+        "title": "Custard Pots or Large Baked Custard",
+        "description": "A basic mixture of milk, eggs and sugar, cooked in a bain-marie in ramekins or a mould, flavoured with vanilla, coffee, chocolate or caramel.",
+        "tags": [
+          "dessert",
+          "eggs",
+          "french",
+          "bain-marie",
+          "oven",
+          "easy",
+          "budget",
+          "creamy",
+          "cold",
+          "spoonable",
+          "whole-family",
+          "nostalgic",
+          "family-recipe"
+        ]
+      },
+      "it": {
+        "title": "Creme in cocottine o in stampo grande",
+        "description": "Un composto base di latte, uova e zucchero, cotto a bagnomaria in cocottine o in stampo, aromatizzato alla vaniglia, al caffè, al cioccolato o al caramello.",
+        "tags": [
+          "dessert",
+          "uova",
+          "francese",
+          "bagnomaria",
+          "forno",
+          "facile",
+          "economico",
+          "cremoso",
+          "freddo",
+          "al-cucchiaio",
+          "tutta-la-famiglia",
+          "nostalgico",
+          "ricetta-di-famiglia"
+        ]
+      }
+    },
+    "stepCount": 10,
+    "ingredientCount": 8
+  },
+  {
+    "slug": "crepes-sucrees",
+    "title": "Crêpes sucrées",
+    "description": "La pâte à crêpes sucrée du papi, au beurre fondu et reposée une heure, à servir nature au sucre ou fourrée de confiture ou de miel.",
+    "images": {
+      "cover": "images/recipes/crepes-sucrees/cover.webp",
+      "web": "images/recipes/crepes-sucrees/web.webp"
+    },
+    "imageCredit": {
+      "author": "RitaE",
+      "url": "https://pixabay.com/users/ritae-19628/"
+    },
+    "prepTime": 75,
+    "cookTime": 30,
+    "servings": 8,
+    "difficulty": "Facile",
+    "category": "Dolci",
+    "tags": [
+      "crêpes",
+      "dessert",
+      "goûter",
+      "poêle",
+      "français",
+      "végétarien",
+      "facile",
+      "économique",
+      "toute-la-famille",
+      "chaud",
+      "nostalgique",
+      "recette-de-famille"
+    ],
+    "origin": "amelie-grandpa",
+    "translations": {
+      "en": {
+        "title": "Sweet crêpes",
+        "description": "Grandpa's sweet crêpe batter, made with melted butter and rested for an hour, served plain with sugar or filled with jam or honey.",
+        "tags": [
+          "crepes",
+          "dessert",
+          "snack",
+          "pan",
+          "french",
+          "vegetarian",
+          "easy",
+          "budget-friendly",
+          "family-friendly",
+          "hot",
+          "nostalgic",
+          "family-recipe"
+        ]
+      },
+      "it": {
+        "title": "Crêpes dolci",
+        "description": "La pastella dolce per crêpes del nonno, con burro fuso e lasciata riposare un'ora, da servire semplice con lo zucchero o farcita con marmellata o miele.",
+        "tags": [
+          "crepes",
+          "dolce",
+          "merenda",
+          "padella",
+          "francese",
+          "vegetariano",
+          "facile",
+          "economico",
+          "tutta-la-famiglia",
+          "caldo",
+          "nostalgico",
+          "ricetta-di-famiglia"
+        ]
+      }
+    },
+    "stepCount": 3,
+    "ingredientCount": 8
+  },
+  {
+    "slug": "crepes-a-la-peche-et-glace",
+    "title": "Crêpes à la pêche et glace",
+    "description": "Des crêpes passées dans un sirop alcoolisé, garnies d'une demi-pêche pochée et d'une boule de glace, avec leur variante des pannequets au Kirsch.",
+    "images": {
+      "cover": "images/recipes/crepes-a-la-peche-et-glace/cover.svg",
+      "web": "images/recipes/crepes-a-la-peche-et-glace/cover.svg"
+    },
+    "prepTime": 30,
+    "cookTime": 35,
+    "servings": 8,
+    "difficulty": "Facile",
+    "category": "Dolci",
+    "tags": [
+      "crêpes",
+      "pêche",
+      "fruits",
+      "poêle",
+      "four",
+      "dessert",
+      "français",
+      "facile",
+      "gourmand",
+      "festif",
+      "nostalgique",
+      "recette-de-famille"
+    ],
+    "origin": "amelie-grandpa",
+    "translations": {
+      "en": {
+        "title": "Peach and Ice Cream Crêpes",
+        "description": "Crêpes dipped in a boozy syrup, filled with half a poached peach and a scoop of ice cream, plus their variation, Kirsch pannequets.",
+        "tags": [
+          "crepes",
+          "peach",
+          "fruit",
+          "pan",
+          "oven",
+          "dessert",
+          "french",
+          "easy",
+          "indulgent",
+          "festive",
+          "nostalgic",
+          "family-recipe"
+        ]
+      },
+      "it": {
+        "title": "Crêpes alla pesca e gelato",
+        "description": "Crêpes passate in uno sciroppo alcolico, farcite con mezza pesca cotta in camicia e una pallina di gelato, con la loro variante, i pannequets al Kirsch.",
+        "tags": [
+          "crepes",
+          "pesca",
+          "frutta",
+          "padella",
+          "forno",
+          "dolce",
+          "francese",
+          "facile",
+          "goloso",
+          "festivo",
+          "nostalgico",
+          "ricetta-di-famiglia"
+        ]
+      }
+    },
+    "stepCount": 5,
+    "ingredientCount": 14
+  },
+  {
+    "slug": "crepes-flambees",
+    "title": "Crêpes flambées",
+    "description": "Des crêpes sucrées pliées en quatre, nappées d'un beurre sucré à l'alcool bien chaud et flambées, avec une variante crêpe Suzette à l'orange.",
+    "images": {
+      "cover": "images/recipes/crepes-flambees/cover.webp",
+      "web": "images/recipes/crepes-flambees/web.webp"
+    },
+    "imageCredit": {
+      "author": "RitaE",
+      "url": "https://pixabay.com/users/ritae-19628/"
+    },
+    "prepTime": 10,
+    "cookTime": 5,
+    "servings": 8,
+    "difficulty": "Facile",
+    "category": "Dolci",
+    "tags": [
+      "crêpes",
+      "dessert",
+      "flambé",
+      "four",
+      "poêle",
+      "français",
+      "festif",
+      "gourmand",
+      "chaud",
+      "facile",
+      "nostalgique",
+      "recette-de-famille"
+    ],
+    "origin": "amelie-grandpa",
+    "translations": {
+      "en": {
+        "title": "Crêpes flambées",
+        "description": "Sweet crêpes folded into quarters, coated with piping-hot sugared butter and spirit, then flambéed, with an orange crêpe Suzette variation.",
+        "tags": [
+          "crepes",
+          "dessert",
+          "flambeed",
+          "oven",
+          "pan",
+          "french",
+          "festive",
+          "indulgent",
+          "hot",
+          "easy",
+          "nostalgic",
+          "family-recipe"
+        ]
+      },
+      "it": {
+        "title": "Crêpes flambé",
+        "description": "Crêpes dolci piegate in quattro, nappate con burro zuccherato e liquore ben caldo e poi flambate, con una variante crêpe Suzette all'arancia.",
+        "tags": [
+          "crepes",
+          "dessert",
+          "flambato",
+          "forno",
+          "padella",
+          "francese",
+          "festivo",
+          "goloso",
+          "caldo",
+          "facile",
+          "nostalgico",
+          "ricetta-di-famiglia"
+        ]
+      }
+    },
+    "stepCount": 6,
+    "ingredientCount": 9
+  },
+  {
+    "slug": "crepes-normandes",
+    "title": "Crêpes normandes",
+    "description": "Des crêpes sucrées garnies de pommes Reinette caramélisées au beurre et flambées au Calvados, roulées et servies chaudes.",
+    "images": {
+      "cover": "images/recipes/crepes-normandes/cover.svg",
+      "web": "images/recipes/crepes-normandes/cover.svg"
+    },
+    "prepTime": 20,
+    "cookTime": 20,
+    "servings": 8,
+    "difficulty": "Facile",
+    "category": "Dolci",
+    "tags": [
+      "crêpes",
+      "pommes",
+      "dessert",
+      "poêle",
+      "flambé",
+      "automne",
+      "gourmand",
+      "réconfortant",
+      "chaud",
+      "facile",
+      "français",
+      "nostalgique",
+      "recette-de-famille"
+    ],
+    "origin": "amelie-grandpa",
+    "translations": {
+      "en": {
+        "title": "Normandy crêpes",
+        "description": "Sweet crêpes filled with Reinette apples caramelised in butter and flambéed with Calvados, rolled up and served hot.",
+        "tags": [
+          "crepes",
+          "apples",
+          "dessert",
+          "pan",
+          "flambeed",
+          "autumn",
+          "indulgent",
+          "comforting",
+          "hot",
+          "easy",
+          "french",
+          "nostalgic",
+          "family-recipe"
+        ]
+      },
+      "it": {
+        "title": "Crêpes alla normanna",
+        "description": "Crêpes dolci farcite con mele Reinette caramellate nel burro e flambate al Calvados, arrotolate e servite calde.",
+        "tags": [
+          "crêpes",
+          "mele",
+          "dessert",
+          "padella",
+          "flambé",
+          "autunno",
+          "goloso",
+          "confortante",
+          "caldo",
+          "facile",
+          "francese",
+          "nostalgico",
+          "ricetta-di-famiglia"
+        ]
+      }
+    },
+    "stepCount": 5,
+    "ingredientCount": 5
+  },
+  {
+    "slug": "crepes-soufflees",
+    "title": "Crêpes soufflées",
+    "description": "Des crêpes sucrées garnies de crème pâtissière allégée aux blancs en neige et parfumée à la liqueur, soufflées au four.",
+    "images": {
+      "cover": "images/recipes/crepes-soufflees/cover.svg",
+      "web": "images/recipes/crepes-soufflees/cover.svg"
+    },
+    "prepTime": 20,
+    "cookTime": 15,
+    "servings": 8,
+    "difficulty": "Medio",
+    "category": "Dolci",
+    "tags": [
+      "crêpes",
+      "dessert",
+      "four",
+      "français",
+      "nostalgique",
+      "recette-de-famille",
+      "œufs",
+      "végétarien",
+      "gourmand",
+      "festif",
+      "adultes",
+      "chaud"
+    ],
+    "origin": "amelie-grandpa",
+    "translations": {
+      "en": {
+        "title": "Soufflé crêpes",
+        "description": "Sweet crêpes filled with pastry cream lightened with whisked egg whites and flavoured with liqueur, then puffed up in the oven.",
+        "tags": [
+          "crepes",
+          "dessert",
+          "oven",
+          "french",
+          "nostalgic",
+          "family-recipe",
+          "eggs",
+          "vegetarian",
+          "indulgent",
+          "festive",
+          "adults",
+          "hot"
+        ]
+      },
+      "it": {
+        "title": "Crêpes soufflé",
+        "description": "Crêpes dolci farcite con crema pasticcera alleggerita con albumi montati a neve e profumata al liquore, poi gonfiate in forno.",
+        "tags": [
+          "crepes",
+          "dolce",
+          "forno",
+          "francese",
+          "nostalgico",
+          "ricetta-di-famiglia",
+          "uova",
+          "vegetariano",
+          "goloso",
+          "festivo",
+          "adulti",
+          "caldo"
+        ]
+      }
+    },
+    "stepCount": 4,
+    "ingredientCount": 4
+  },
+  {
+    "slug": "flan-a-la-noix-de-coco",
+    "title": "Flan à la noix de coco",
+    "description": "Un flan au lait concentré et à la noix de coco râpée, parfumé au rhum, cuit au bain-marie et servi avec crème anglaise et ananas.",
+    "images": {
+      "cover": "images/recipes/flan-a-la-noix-de-coco/cover.webp",
+      "web": "images/recipes/flan-a-la-noix-de-coco/web.webp"
+    },
+    "imageCredit": {
+      "author": "RitaE",
+      "url": "https://pixabay.com/users/ritae-19628/"
+    },
+    "prepTime": 20,
+    "cookTime": 50,
+    "servings": 6,
+    "difficulty": "Facile",
+    "category": "Dolci",
+    "tags": [
+      "dessert",
+      "noix-de-coco",
+      "œufs",
+      "bain-marie",
+      "four",
+      "onctueux",
+      "froid",
+      "facile",
+      "préparation-à-lavance",
+      "français",
+      "nostalgique",
+      "recette-de-famille"
+    ],
+    "origin": "amelie-grandpa",
+    "translations": {
+      "en": {
+        "title": "Coconut flan",
+        "description": "A flan made with condensed milk and desiccated coconut, flavoured with rum, baked in a bain-marie and served with crème anglaise and pineapple.",
+        "tags": [
+          "dessert",
+          "coconut",
+          "eggs",
+          "bain-marie",
+          "oven",
+          "creamy",
+          "cold",
+          "easy",
+          "make-ahead",
+          "french",
+          "nostalgic",
+          "family-recipe"
+        ]
+      },
+      "it": {
+        "title": "Flan al cocco",
+        "description": "Un flan al latte condensato e cocco rapè, profumato al rum, cotto a bagnomaria e servito con crema inglese e ananas.",
+        "tags": [
+          "dessert",
+          "cocco",
+          "uova",
+          "bagnomaria",
+          "forno",
+          "cremoso",
+          "freddo",
+          "facile",
+          "da-preparare-in-anticipo",
+          "francese",
+          "nostalgico",
+          "ricetta-di-famiglia"
+        ]
+      }
+    },
+    "stepCount": 6,
+    "ingredientCount": 8
+  },
+  {
+    "slug": "flan-au-cacao",
+    "title": "Flan au cacao",
+    "description": "Petits flans au cacao noir cuits au bain-marie dans des ramequins, servis avec une sauce au chocolat blanc et au caramel blond.",
+    "images": {
+      "cover": "images/recipes/flan-au-cacao/cover.svg",
+      "web": "images/recipes/flan-au-cacao/cover.svg"
+    },
+    "prepTime": 20,
+    "cookTime": 20,
+    "servings": 8,
+    "difficulty": "Facile",
+    "category": "Dolci",
+    "tags": [
+      "dessert",
+      "chocolat",
+      "bain-marie",
+      "français",
+      "facile",
+      "à-la-cuillère",
+      "gourmand",
+      "nostalgique",
+      "recette-de-famille",
+      "préparation-à-lavance"
+    ],
+    "origin": "amelie-grandpa",
+    "translations": {
+      "en": {
+        "title": "Cocoa Custard Flan",
+        "description": "Small dark cocoa custards cooked in a bain-marie in ramekins, served with a white chocolate and light caramel sauce.",
+        "tags": [
+          "dessert",
+          "chocolate",
+          "bain-marie",
+          "french",
+          "easy",
+          "spoon-dessert",
+          "indulgent",
+          "nostalgic",
+          "family-recipe",
+          "make-ahead"
+        ]
+      },
+      "it": {
+        "title": "Budino al cacao",
+        "description": "Piccoli budini al cacao amaro cotti a bagnomaria negli stampini, serviti con una salsa al cioccolato bianco e caramello biondo.",
+        "tags": [
+          "dessert",
+          "cioccolato",
+          "bagnomaria",
+          "francese",
+          "facile",
+          "al-cucchiaio",
+          "goloso",
+          "nostalgico",
+          "ricetta-di-famiglia",
+          "da-preparare-in-anticipo"
+        ]
+      }
+    },
+    "stepCount": 5,
+    "ingredientCount": 9
+  },
+  {
+    "slug": "fondant-a-l-orange",
+    "title": "Fondant à l'orange",
+    "description": "Un fondant moelleux à l'amande et à la purée d'orange, cuit au bain-marie dans un moule caramélisé, servi avec crème anglaise et zestes confits.",
+    "images": {
+      "cover": "images/recipes/fondant-a-l-orange/cover.webp",
+      "web": "images/recipes/fondant-a-l-orange/web.webp"
+    },
+    "imageCredit": {
+      "author": "JESHOOTS-com",
+      "url": "https://pixabay.com/users/jeshoots-com-264599/"
+    },
+    "prepTime": 30,
+    "cookTime": 60,
+    "servings": 8,
+    "difficulty": "Medio",
+    "category": "Dolci",
+    "tags": [
+      "orange",
+      "agrumes",
+      "amandes",
+      "dessert",
+      "français",
+      "nostalgique",
+      "recette-de-famille",
+      "bain-marie",
+      "fondant",
+      "moelleux",
+      "festif",
+      "végétarien",
+      "sans-gluten"
+    ],
+    "origin": "amelie-grandpa",
+    "translations": {
+      "en": {
+        "title": "Orange fondant",
+        "description": "A soft almond and orange purée fondant, cooked in a bain-marie in a caramel-lined mould, served with crème anglaise and candied zest.",
+        "tags": [
+          "orange",
+          "citrus",
+          "almonds",
+          "dessert",
+          "french",
+          "nostalgic",
+          "family-recipe",
+          "bain-marie",
+          "melting",
+          "soft",
+          "festive",
+          "vegetarian",
+          "gluten-free"
+        ]
+      },
+      "it": {
+        "title": "Tortino fondente all'arancia",
+        "description": "Un tortino fondente e morbido alle mandorle e alla purea d'arancia, cotto a bagnomaria in uno stampo caramellato, servito con crema inglese e scorze candite.",
+        "tags": [
+          "arancia",
+          "agrumi",
+          "mandorle",
+          "dessert",
+          "francese",
+          "nostalgico",
+          "ricetta-di-famiglia",
+          "bagnomaria",
+          "fondente",
+          "morbido",
+          "festivo",
+          "vegetariano",
+          "senza-glutine"
+        ]
+      }
+    },
+    "stepCount": 9,
+    "ingredientCount": 10
+  },
+  {
+    "slug": "fondant-aux-abricots",
+    "title": "Fondant aux abricots",
+    "description": "Un fondant moelleux aux abricots pochés et à la poudre d'amande, cuit au bain-marie dans un moule caramélisé, servi avec une crème anglaise.",
+    "images": {
+      "cover": "images/recipes/fondant-aux-abricots/cover.svg",
+      "web": "images/recipes/fondant-aux-abricots/cover.svg"
+    },
+    "prepTime": 30,
+    "cookTime": 60,
+    "servings": 8,
+    "difficulty": "Medio",
+    "category": "Dolci",
+    "tags": [
+      "abricots",
+      "fruits",
+      "amandes",
+      "dessert",
+      "bain-marie",
+      "moelleux",
+      "fondant",
+      "été",
+      "gourmand",
+      "français",
+      "nostalgique",
+      "recette-de-famille"
+    ],
+    "origin": "amelie-grandpa",
+    "translations": {
+      "en": {
+        "title": "Apricot fondant",
+        "description": "A soft apricot fondant made with poached apricots and ground almonds, cooked in a bain-marie in a caramel-lined mould and served with crème anglaise.",
+        "tags": [
+          "apricots",
+          "fruit",
+          "almonds",
+          "dessert",
+          "bain-marie",
+          "soft",
+          "melting",
+          "summer",
+          "indulgent",
+          "french",
+          "nostalgic",
+          "family-recipe"
+        ]
+      },
+      "it": {
+        "title": "Fondant all'albicocca",
+        "description": "Un fondant morbido con albicocche sobbollite e farina di mandorle, cotto a bagnomaria in uno stampo caramellato, servito con crema inglese.",
+        "tags": [
+          "albicocche",
+          "frutta",
+          "mandorle",
+          "dessert",
+          "bagnomaria",
+          "morbido",
+          "fondente",
+          "estate",
+          "goloso",
+          "francese",
+          "nostalgico",
+          "ricetta-di-famiglia"
+        ]
+      }
+    },
+    "stepCount": 6,
+    "ingredientCount": 8
+  },
+  {
+    "slug": "fondant-aux-poires-caramelisees",
+    "title": "Fondant aux poires caramélisées",
+    "description": "Des quartiers de poire en rosace sur un moule caramélisé, recouverts d'une pâte fondante parfumée à l'alcool de poire, servis avec une crème anglaise.",
+    "images": {
+      "cover": "images/recipes/fondant-aux-poires-caramelisees/cover.svg",
+      "web": "images/recipes/fondant-aux-poires-caramelisees/cover.svg"
+    },
+    "prepTime": 30,
+    "cookTime": 50,
+    "servings": 8,
+    "difficulty": "Medio",
+    "category": "Dolci",
+    "tags": [
+      "dessert",
+      "poire",
+      "fruits",
+      "caramel",
+      "fondant",
+      "gourmand",
+      "automne",
+      "végétarien",
+      "toute-la-famille",
+      "français",
+      "nostalgique",
+      "recette-de-famille"
+    ],
+    "origin": "amelie-grandpa",
+    "translations": {
+      "en": {
+        "title": "Caramelised Pear Fondant Cake",
+        "description": "Pear quarters arranged in a rosette over a caramel-lined tin, covered with a melt-in-the-mouth batter flavoured with pear brandy, served with crème anglaise.",
+        "tags": [
+          "dessert",
+          "pear",
+          "fruit",
+          "caramel",
+          "melt-in-the-mouth",
+          "indulgent",
+          "autumn",
+          "vegetarian",
+          "whole-family",
+          "french",
+          "nostalgic",
+          "family-recipe"
+        ]
+      },
+      "it": {
+        "title": "Tortino fondente alle pere caramellate",
+        "description": "Spicchi di pera disposti a rosone in uno stampo caramellato, ricoperti da un impasto fondente profumato all'acquavite di pere, serviti con crema inglese.",
+        "tags": [
+          "dessert",
+          "pera",
+          "frutta",
+          "caramello",
+          "fondente",
+          "goloso",
+          "autunno",
+          "vegetariano",
+          "tutta-la-famiglia",
+          "francese",
+          "nostalgico",
+          "ricetta-di-famiglia"
+        ]
+      }
+    },
+    "stepCount": 8,
+    "ingredientCount": 16
+  },
+  {
+    "slug": "gratin-de-bananes-kiwis-ananas",
+    "title": "Gratin de bananes, kiwis, ananas",
+    "description": "Bananes, kiwis et ananas caramélisés et flambés au Cointreau, nappés d'une crème aux œufs et gratinés au four.",
+    "images": {
+      "cover": "images/recipes/gratin-de-bananes-kiwis-ananas/cover.svg",
+      "web": "images/recipes/gratin-de-bananes-kiwis-ananas/cover.svg"
+    },
+    "prepTime": 20,
+    "cookTime": 50,
+    "servings": 8,
+    "difficulty": "Facile",
+    "category": "Dolci",
+    "tags": [
+      "français",
+      "nostalgique",
+      "recette-de-famille",
+      "dessert",
+      "fruits",
+      "four",
+      "poêle",
+      "végétarien",
+      "facile",
+      "gourmand",
+      "onctueux",
+      "chaud"
+    ],
+    "origin": "amelie-grandpa",
+    "translations": {
+      "en": {
+        "title": "Banana, kiwi and pineapple gratin",
+        "description": "Bananas, kiwis and pineapple caramelised and flambéed with Cointreau, coated with an egg custard and browned in the oven.",
+        "tags": [
+          "french",
+          "nostalgic",
+          "family-recipe",
+          "dessert",
+          "fruit",
+          "oven",
+          "pan",
+          "vegetarian",
+          "easy",
+          "indulgent",
+          "creamy",
+          "hot"
+        ]
+      },
+      "it": {
+        "title": "Gratin di banane, kiwi e ananas",
+        "description": "Banane, kiwi e ananas caramellati e flambati al Cointreau, nappati con una crema alle uova e gratinati in forno.",
+        "tags": [
+          "francese",
+          "nostalgico",
+          "ricetta-di-famiglia",
+          "dessert",
+          "frutta",
+          "forno",
+          "padella",
+          "vegetariano",
+          "facile",
+          "goloso",
+          "cremoso",
+          "caldo"
+        ]
+      }
+    },
+    "stepCount": 6,
+    "ingredientCount": 10
+  },
+  {
+    "slug": "gratin-de-bananes-kiwis-ananas-mangues-litchis",
+    "title": "Gratin de bananes, kiwis, ananas, mangues, litchis",
+    "description": "Fruits exotiques sautés au beurre, caramélisés et flambés au Cointreau, puis gratinés au four sous une crème aux œufs.",
+    "images": {
+      "cover": "images/recipes/gratin-de-bananes-kiwis-ananas-mangues-litchis/cover.svg",
+      "web": "images/recipes/gratin-de-bananes-kiwis-ananas-mangues-litchis/cover.svg"
+    },
+    "prepTime": 20,
+    "cookTime": 45,
+    "servings": 8,
+    "difficulty": "Facile",
+    "category": "Dolci",
+    "tags": [
+      "fruits",
+      "dessert",
+      "français",
+      "exotique",
+      "gratiné",
+      "four",
+      "chaud",
+      "festif",
+      "gourmand",
+      "végétarien",
+      "nostalgique",
+      "recette-de-famille"
+    ],
+    "origin": "amelie-grandpa",
+    "translations": {
+      "en": {
+        "title": "Banana, kiwi, pineapple, mango and lychee gratin",
+        "description": "Exotic fruits sautéed in butter, caramelised and flambéed with Cointreau, then browned in the oven under an egg custard.",
+        "tags": [
+          "fruit",
+          "dessert",
+          "french",
+          "exotic",
+          "gratin",
+          "oven",
+          "hot",
+          "festive",
+          "indulgent",
+          "vegetarian",
+          "nostalgic",
+          "family-recipe"
+        ]
+      },
+      "it": {
+        "title": "Gratin di banane, kiwi, ananas, mango e litchi",
+        "description": "Frutta esotica saltata nel burro, caramellata e flambata al Cointreau, poi gratinata in forno sotto una crema all'uovo.",
+        "tags": [
+          "frutta",
+          "dessert",
+          "francese",
+          "esotico",
+          "gratinato",
+          "forno",
+          "caldo",
+          "festivo",
+          "goloso",
+          "vegetariano",
+          "nostalgico",
+          "ricetta-di-famiglia"
+        ]
+      }
+    },
+    "stepCount": 5,
+    "ingredientCount": 12
+  },
+  {
+    "slug": "gratin-de-fruits-exotiques-autre-preparation",
+    "title": "Gratin de fruits exotiques (autre préparation)",
+    "description": "Ananas, mangues, kiwis et litchis macérés au Cointreau, nappés d'un sabayon au sirop et gratinés sous la salamandre.",
+    "images": {
+      "cover": "images/recipes/gratin-de-fruits-exotiques-autre-preparation/cover.svg",
+      "web": "images/recipes/gratin-de-fruits-exotiques-autre-preparation/cover.svg"
+    },
+    "prepTime": 90,
+    "cookTime": 25,
+    "servings": 8,
+    "difficulty": "Medio",
+    "category": "Dolci",
+    "tags": [
+      "fruits",
+      "dessert",
+      "français",
+      "nostalgique",
+      "recette-de-famille",
+      "festif",
+      "fête",
+      "gourmand",
+      "acidulé",
+      "tiède"
+    ],
+    "origin": "amelie-grandpa",
+    "translations": {
+      "en": {
+        "title": "Exotic Fruit Gratin (Alternative Method)",
+        "description": "Pineapple, mangoes, kiwis and lychees macerated in Cointreau, coated with a syrup sabayon and browned under the salamander.",
+        "tags": [
+          "fruit",
+          "dessert",
+          "french",
+          "nostalgic",
+          "family-recipe",
+          "festive",
+          "party",
+          "indulgent",
+          "tangy",
+          "warm"
+        ]
+      },
+      "it": {
+        "title": "Gratin di frutta esotica (altra preparazione)",
+        "description": "Ananas, mango, kiwi e litchi macerati nel Cointreau, nappati con uno zabaione allo sciroppo e gratinati sotto la salamandra.",
+        "tags": [
+          "frutta",
+          "dessert",
+          "francese",
+          "nostalgico",
+          "ricetta-di-famiglia",
+          "festivo",
+          "festa",
+          "goloso",
+          "acidulo",
+          "tiepido"
+        ]
+      }
+    },
+    "stepCount": 9,
+    "ingredientCount": 12
+  },
+  {
+    "slug": "gratin-de-poires",
+    "title": "Gratin de poires",
+    "description": "Des poires sautées au beurre, caramélisées et flambées à l'alcool de poire, puis gratinées au four sous une crème aux œufs.",
+    "images": {
+      "cover": "images/recipes/gratin-de-poires/cover.svg",
+      "web": "images/recipes/gratin-de-poires/cover.svg"
+    },
+    "prepTime": 25,
+    "cookTime": 50,
+    "servings": 8,
+    "difficulty": "Facile",
+    "category": "Dolci",
+    "tags": [
+      "dessert",
+      "poire",
+      "fruits",
+      "français",
+      "four",
+      "gratiné",
+      "flambé",
+      "chaud",
+      "végétarien",
+      "facile",
+      "nostalgique",
+      "recette-de-famille"
+    ],
+    "origin": "amelie-grandpa",
+    "translations": {
+      "en": {
+        "title": "Pear gratin",
+        "description": "Pears sautéed in butter, caramelised and flambéed with pear brandy, then baked au gratin under an egg custard.",
+        "tags": [
+          "dessert",
+          "pear",
+          "fruit",
+          "french",
+          "oven",
+          "gratin",
+          "flambeed",
+          "hot",
+          "vegetarian",
+          "easy",
+          "nostalgic",
+          "family-recipe"
+        ]
+      },
+      "it": {
+        "title": "Gratin di pere",
+        "description": "Pere saltate nel burro, caramellate e flambate con acquavite di pere, poi gratinate in forno sotto una crema all'uovo.",
+        "tags": [
+          "dessert",
+          "pera",
+          "frutta",
+          "francese",
+          "forno",
+          "gratinato",
+          "flambato",
+          "caldo",
+          "vegetariano",
+          "facile",
+          "nostalgico",
+          "ricetta-di-famiglia"
+        ]
+      }
+    },
+    "stepCount": 6,
+    "ingredientCount": 8
+  },
+  {
+    "slug": "gratin-de-pommes",
+    "title": "Gratin de pommes",
+    "description": "Des pommes sautées au beurre, caramélisées et flambées au Calvados, puis nappées d'une crème aux œufs et gratinées au four.",
+    "images": {
+      "cover": "images/recipes/gratin-de-pommes/cover.svg",
+      "web": "images/recipes/gratin-de-pommes/cover.svg"
+    },
+    "prepTime": 25,
+    "cookTime": 50,
+    "servings": 8,
+    "difficulty": "Facile",
+    "category": "Dolci",
+    "tags": [
+      "dessert",
+      "pommes",
+      "fruits",
+      "four",
+      "flambé",
+      "français",
+      "nostalgique",
+      "recette-de-famille",
+      "réconfortant",
+      "automne",
+      "chaud",
+      "facile"
+    ],
+    "origin": "amelie-grandpa",
+    "translations": {
+      "en": {
+        "title": "Apple gratin",
+        "description": "Apples sautéed in butter, caramelised and flambéed with Calvados, then coated with an egg custard and browned in the oven.",
+        "tags": [
+          "dessert",
+          "apples",
+          "fruit",
+          "oven",
+          "flambéed",
+          "french",
+          "nostalgic",
+          "family-recipe",
+          "comforting",
+          "autumn",
+          "hot",
+          "easy"
+        ]
+      },
+      "it": {
+        "title": "Gratin di mele",
+        "description": "Mele saltate nel burro, caramellate e flambate al Calvados, poi nappate con una crema alle uova e gratinate in forno.",
+        "tags": [
+          "dessert",
+          "mele",
+          "frutta",
+          "forno",
+          "flambé",
+          "francese",
+          "nostalgico",
+          "ricetta-di-famiglia",
+          "confortante",
+          "autunno",
+          "caldo",
+          "facile"
+        ]
+      }
+    },
+    "stepCount": 6,
+    "ingredientCount": 8
+  },
+  {
+    "slug": "gratin-de-prunes",
+    "title": "Gratin de prunes",
+    "description": "Des prunes sautées au beurre, caramélisées et flambées à l'alcool de prune, nappées d'un appareil au lait, à la crème et aux œufs, puis gratinées au four.",
+    "images": {
+      "cover": "images/recipes/gratin-de-prunes/cover.svg",
+      "web": "images/recipes/gratin-de-prunes/cover.svg"
+    },
+    "prepTime": 20,
+    "cookTime": 40,
+    "servings": 6,
+    "difficulty": "Facile",
+    "category": "Dolci",
+    "tags": [
+      "prunes",
+      "fruits",
+      "dessert",
+      "français",
+      "four",
+      "gratiné",
+      "flambé",
+      "gourmand",
+      "chaud",
+      "facile",
+      "nostalgique",
+      "recette-de-famille"
+    ],
+    "origin": "amelie-grandpa",
+    "translations": {
+      "en": {
+        "title": "Plum gratin",
+        "description": "Plums sautéed in butter, caramelised and flambéed with plum brandy, coated with a milk, cream and egg mixture, then browned in the oven.",
+        "tags": [
+          "plums",
+          "fruit",
+          "dessert",
+          "french",
+          "oven",
+          "gratin",
+          "flambeed",
+          "indulgent",
+          "hot",
+          "easy",
+          "nostalgic",
+          "family-recipe"
+        ]
+      },
+      "it": {
+        "title": "Gratin di prugne",
+        "description": "Prugne saltate nel burro, caramellate e flambate con acquavite di prugne, nappate con un composto di latte, panna e uova, poi gratinate in forno.",
+        "tags": [
+          "prugne",
+          "frutta",
+          "dessert",
+          "francese",
+          "forno",
+          "gratinato",
+          "flambato",
+          "goloso",
+          "caldo",
+          "facile",
+          "nostalgico",
+          "ricetta-di-famiglia"
+        ]
+      }
+    },
+    "stepCount": 6,
+    "ingredientCount": 8
+  },
+  {
+    "slug": "marquise-au-chocolat",
+    "title": "Marquise au chocolat",
+    "description": "Une marquise au chocolat noir, beurre et blancs en neige, prise au froid, pour garnir des biscuits ou des petits fours.",
+    "images": {
+      "cover": "images/recipes/marquise-au-chocolat/cover.webp",
+      "web": "images/recipes/marquise-au-chocolat/web.webp"
+    },
+    "imageCredit": {
+      "author": "Pexels",
+      "url": "https://pixabay.com/users/pexels-2286921/"
+    },
+    "prepTime": 25,
+    "cookTime": 10,
+    "servings": 8,
+    "difficulty": "Facile",
+    "category": "Dolci",
+    "tags": [
+      "dessert",
+      "chocolat",
+      "français",
+      "nostalgique",
+      "recette-de-famille",
+      "bain-marie",
+      "froid",
+      "fondant",
+      "gourmand",
+      "préparation-à-lavance",
+      "festif"
+    ],
+    "origin": "amelie-grandpa",
+    "translations": {
+      "en": {
+        "title": "Chocolate marquise",
+        "description": "A dark chocolate marquise with butter and stiffly beaten egg whites, set in the cold, to fill biscuits or petits fours.",
+        "tags": [
+          "dessert",
+          "chocolate",
+          "french",
+          "nostalgic",
+          "family-recipe",
+          "bain-marie",
+          "cold",
+          "melting",
+          "indulgent",
+          "make-ahead",
+          "festive"
+        ]
+      },
+      "it": {
+        "title": "Marquise al cioccolato",
+        "description": "Una marquise al cioccolato fondente, burro e albumi montati a neve, rassodata al freddo, per farcire biscotti o pasticcini.",
+        "tags": [
+          "dessert",
+          "cioccolato",
+          "francese",
+          "nostalgico",
+          "ricetta-di-famiglia",
+          "bagnomaria",
+          "freddo",
+          "fondente",
+          "goloso",
+          "da-preparare-in-anticipo",
+          "festivo"
+        ]
+      }
+    },
+    "stepCount": 5,
+    "ingredientCount": 5
+  },
+  {
+    "slug": "mousse-au-chocolat-blanc",
+    "title": "Mousse au chocolat blanc",
+    "description": "Une mousse légère au chocolat blanc, liée à la crème anglaise et à la crème fouettée, parfumée au Cointreau.",
+    "images": {
+      "cover": "images/recipes/mousse-au-chocolat-blanc/cover.svg",
+      "web": "images/recipes/mousse-au-chocolat-blanc/cover.svg"
+    },
+    "prepTime": 30,
+    "cookTime": 15,
+    "servings": 8,
+    "difficulty": "Medio",
+    "category": "Dolci",
+    "tags": [
+      "dessert",
+      "chocolat",
+      "français",
+      "nostalgique",
+      "recette-de-famille",
+      "bain-marie",
+      "onctueux",
+      "froid",
+      "à-la-cuillère",
+      "festif",
+      "préparation-à-lavance",
+      "gourmand",
+      "végétarien"
+    ],
+    "origin": "amelie-grandpa",
+    "translations": {
+      "en": {
+        "title": "White chocolate mousse",
+        "description": "A light white chocolate mousse, bound with crème anglaise and whipped cream, flavoured with Cointreau.",
+        "tags": [
+          "dessert",
+          "chocolate",
+          "french",
+          "nostalgic",
+          "family-recipe",
+          "bain-marie",
+          "creamy",
+          "cold",
+          "spoonable",
+          "festive",
+          "make-ahead",
+          "indulgent",
+          "vegetarian"
+        ]
+      },
+      "it": {
+        "title": "Mousse al cioccolato bianco",
+        "description": "Una mousse leggera al cioccolato bianco, legata con crema inglese e panna montata, profumata al Cointreau.",
+        "tags": [
+          "dessert",
+          "cioccolato",
+          "francese",
+          "nostalgico",
+          "ricetta-di-famiglia",
+          "bagnomaria",
+          "cremoso",
+          "freddo",
+          "al-cucchiaio",
+          "festivo",
+          "da-preparare-in-anticipo",
+          "goloso",
+          "vegetariano"
+        ]
+      }
+    },
+    "stepCount": 5,
+    "ingredientCount": 7
+  },
+  {
+    "slug": "mousse-au-chocolat-noir",
+    "title": "Mousse au chocolat noir",
+    "description": "Une mousse au chocolat noir toute simple, montée aux blancs en neige, à parfumer au rhum ou aux écorces d'oranges confites.",
+    "images": {
+      "cover": "images/recipes/mousse-au-chocolat-noir/cover.webp",
+      "web": "images/recipes/mousse-au-chocolat-noir/web.webp"
+    },
+    "imageCredit": {
+      "author": "DanielaElenaTentis",
+      "url": "https://pixabay.com/users/danielaelenatentis-2743349/"
+    },
+    "prepTime": 20,
+    "cookTime": 5,
+    "servings": 8,
+    "difficulty": "Facile",
+    "category": "Dolci",
+    "tags": [
+      "chocolat",
+      "œufs",
+      "dessert",
+      "français",
+      "nostalgique",
+      "recette-de-famille",
+      "bain-marie",
+      "facile",
+      "gourmand",
+      "à-la-cuillère",
+      "froid",
+      "végétarien"
+    ],
+    "origin": "amelie-grandpa",
+    "translations": {
+      "en": {
+        "title": "Dark chocolate mousse",
+        "description": "A very simple dark chocolate mousse, lightened with stiffly beaten egg whites, to flavour with rum or candied orange peel.",
+        "tags": [
+          "chocolate",
+          "eggs",
+          "dessert",
+          "french",
+          "nostalgic",
+          "family-recipe",
+          "bain-marie",
+          "easy",
+          "indulgent",
+          "spoonable",
+          "cold",
+          "vegetarian"
+        ]
+      },
+      "it": {
+        "title": "Mousse al cioccolato fondente",
+        "description": "Una mousse al cioccolato fondente semplicissima, alleggerita con albumi montati a neve, da profumare al rum o con scorze d'arancia candite.",
+        "tags": [
+          "cioccolato",
+          "uova",
+          "dessert",
+          "francese",
+          "nostalgico",
+          "ricetta-di-famiglia",
+          "bagnomaria",
+          "facile",
+          "goloso",
+          "al-cucchiaio",
+          "freddo",
+          "vegetariano"
+        ]
+      }
+    },
+    "stepCount": 3,
+    "ingredientCount": 3
+  },
+  {
+    "slug": "pudding-aux-fruits",
+    "title": "Pudding aux fruits",
+    "description": "Un pudding de biscuits cuillère, raisins et fruits confits macérés au rhum ou au kirsch, cuit au bain-marie et servi froid avec une crème anglaise.",
+    "images": {
+      "cover": "images/recipes/pudding-aux-fruits/cover.svg",
+      "web": "images/recipes/pudding-aux-fruits/cover.svg"
+    },
+    "prepTime": 30,
+    "cookTime": 35,
+    "servings": 8,
+    "difficulty": "Facile",
+    "category": "Dolci",
+    "tags": [
+      "dessert",
+      "fruits",
+      "bain-marie",
+      "four",
+      "froid",
+      "facile",
+      "préparation-à-lavance",
+      "gourmand",
+      "français",
+      "nostalgique",
+      "recette-de-famille"
+    ],
+    "origin": "amelie-grandpa",
+    "translations": {
+      "en": {
+        "title": "Fruit pudding",
+        "description": "A pudding of ladyfingers, raisins and candied fruit soaked in rum or kirsch, baked in a bain-marie and served cold with crème anglaise.",
+        "tags": [
+          "dessert",
+          "fruit",
+          "bain-marie",
+          "oven",
+          "cold",
+          "easy",
+          "make-ahead",
+          "indulgent",
+          "french",
+          "nostalgic",
+          "family-recipe"
+        ]
+      },
+      "it": {
+        "title": "Budino alla frutta",
+        "description": "Un budino di savoiardi, uvetta e canditi macerati nel rum o nel kirsch, cotto a bagnomaria e servito freddo con crema inglese.",
+        "tags": [
+          "dolce",
+          "frutta",
+          "bagnomaria",
+          "forno",
+          "freddo",
+          "facile",
+          "preparazione-anticipata",
+          "goloso",
+          "francese",
+          "nostalgico",
+          "ricetta-di-famiglia"
+        ]
+      }
+    },
+    "stepCount": 8,
+    "ingredientCount": 17
+  },
+  {
+    "slug": "pudding-de-fruits",
+    "title": "Pudding de fruits",
+    "description": "Un pudding d'autrefois aux biscuits cuillère, raisins de Smyrne et fruits confits macérés au rhum, cuit au bain-marie et servi avec une crème anglaise.",
+    "images": {
+      "cover": "images/recipes/pudding-de-fruits/cover.svg",
+      "web": "images/recipes/pudding-de-fruits/cover.svg"
+    },
+    "prepTime": 30,
+    "cookTime": 45,
+    "servings": 8,
+    "difficulty": "Facile",
+    "category": "Dolci",
+    "tags": [
+      "fruits",
+      "dessert",
+      "bain-marie",
+      "four",
+      "facile",
+      "froid",
+      "gourmand",
+      "préparation-à-lavance",
+      "français",
+      "nostalgique",
+      "recette-de-famille"
+    ],
+    "origin": "amelie-grandpa",
+    "translations": {
+      "en": {
+        "title": "Fruit pudding",
+        "description": "An old-fashioned pudding with ladyfingers, Smyrna raisins and candied fruit soaked in rum, cooked in a bain-marie and served with crème anglaise.",
+        "tags": [
+          "fruit",
+          "dessert",
+          "bain-marie",
+          "oven",
+          "easy",
+          "cold",
+          "indulgent",
+          "make-ahead",
+          "french",
+          "nostalgic",
+          "family-recipe"
+        ]
+      },
+      "it": {
+        "title": "Budino di frutta",
+        "description": "Un budino di una volta con savoiardi, uvetta di Smirne e frutta candita macerate nel rum, cotto a bagnomaria e servito con crema inglese.",
+        "tags": [
+          "frutta",
+          "dolce",
+          "bagnomaria",
+          "forno",
+          "facile",
+          "freddo",
+          "goloso",
+          "preparazione-in-anticipo",
+          "francese",
+          "nostalgico",
+          "ricetta-di-famiglia"
+        ]
+      }
+    },
+    "stepCount": 6,
+    "ingredientCount": 8
+  },
+  {
+    "slug": "soupe-de-peches-a-la-menthe-et-chocolat-noir",
+    "title": "Soupe de pêches à la menthe et chocolat noir",
+    "description": "Des pêches blanches au jus de citron, baignées d'un sirop vanillé à la menthe fraîche et parsemées de copeaux de chocolat noir.",
+    "images": {
+      "cover": "images/recipes/soupe-de-peches-a-la-menthe-et-chocolat-noir/cover.svg",
+      "web": "images/recipes/soupe-de-peches-a-la-menthe-et-chocolat-noir/cover.svg"
+    },
+    "prepTime": 35,
+    "cookTime": 5,
+    "servings": 6,
+    "difficulty": "Facile",
+    "category": "Dolci",
+    "tags": [
+      "dessert",
+      "pêches",
+      "fruits",
+      "chocolat",
+      "été",
+      "froid",
+      "facile",
+      "herbacé",
+      "à-la-cuillère",
+      "français",
+      "nostalgique",
+      "recette-de-famille"
+    ],
+    "origin": "amelie-grandpa",
+    "translations": {
+      "en": {
+        "title": "Peach soup with mint and dark chocolate",
+        "description": "White peaches in lemon juice, bathed in a vanilla syrup with fresh mint and sprinkled with dark chocolate shavings.",
+        "tags": [
+          "dessert",
+          "peaches",
+          "fruit",
+          "chocolate",
+          "summer",
+          "cold",
+          "easy",
+          "herby",
+          "spoonable",
+          "french",
+          "nostalgic",
+          "family-recipe"
+        ]
+      },
+      "it": {
+        "title": "Zuppa di pesche alla menta e cioccolato fondente",
+        "description": "Pesche bianche al succo di limone, immerse in uno sciroppo alla vaniglia con menta fresca e cosparse di scaglie di cioccolato fondente.",
+        "tags": [
+          "dessert",
+          "pesche",
+          "frutta",
+          "cioccolato",
+          "estate",
+          "freddo",
+          "facile",
+          "erbaceo",
+          "al-cucchiaio",
+          "francese",
+          "nostalgico",
+          "ricetta-di-famiglia"
+        ]
+      }
+    },
+    "stepCount": 5,
+    "ingredientCount": 7
+  },
+  {
+    "slug": "soupe-de-peches-aux-agrumes",
+    "title": "Soupe de pêches aux agrumes",
+    "description": "Des pêches blanches baignées dans un sirop vanillé aux jus d'orange et de citron, avec une fine julienne de zestes confits. Servie bien fraîche.",
+    "images": {
+      "cover": "images/recipes/soupe-de-peches-aux-agrumes/cover.svg",
+      "web": "images/recipes/soupe-de-peches-aux-agrumes/cover.svg"
+    },
+    "prepTime": 25,
+    "cookTime": 15,
+    "servings": 6,
+    "difficulty": "Facile",
+    "category": "Dolci",
+    "tags": [
+      "pêches",
+      "fruits",
+      "agrumes",
+      "dessert",
+      "été",
+      "froid",
+      "à-la-cuillère",
+      "léger",
+      "facile",
+      "préparation-à-lavance",
+      "acidulé",
+      "français",
+      "nostalgique",
+      "recette-de-famille"
+    ],
+    "origin": "amelie-grandpa",
+    "translations": {
+      "en": {
+        "title": "Peach soup with citrus",
+        "description": "White peaches bathed in a vanilla syrup with orange and lemon juice, with a fine julienne of candied zest. Served well chilled.",
+        "tags": [
+          "peaches",
+          "fruit",
+          "citrus",
+          "dessert",
+          "summer",
+          "cold",
+          "spoonable",
+          "light",
+          "easy",
+          "make-ahead",
+          "tangy",
+          "french",
+          "nostalgic",
+          "family-recipe"
+        ]
+      },
+      "it": {
+        "title": "Zuppa di pesche agli agrumi",
+        "description": "Pesche bianche immerse in uno sciroppo alla vaniglia con succo d'arancia e di limone, con una sottile julienne di scorze candite. Servita ben fredda.",
+        "tags": [
+          "pesche",
+          "frutta",
+          "agrumi",
+          "dessert",
+          "estate",
+          "freddo",
+          "al-cucchiaio",
+          "leggero",
+          "facile",
+          "da-preparare-in-anticipo",
+          "acidulo",
+          "francese",
+          "nostalgico",
+          "ricetta-di-famiglia"
+        ]
+      }
+    },
+    "stepCount": 7,
+    "ingredientCount": 5
   }
 ]

@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <defs>
+    <radialGradient id="ckbg" cx="50%" cy="45%" r="70%"><stop offset="0%" stop-color="#2e2822"/><stop offset="100%" stop-color="#1a1510"/></radialGradient>
+    <radialGradient id="ckplate" cx="45%" cy="40%" r="65%"><stop offset="0%" stop-color="#f2ece2"/><stop offset="100%" stop-color="#aea696"/></radialGradient>
+    <radialGradient id="ckcrepe" cx="45%" cy="40%" r="65%"><stop offset="0%" stop-color="#f0c878"/><stop offset="100%" stop-color="#c88a3a"/></radialGradient>
+    <radialGradient id="ckice" cx="40%" cy="35%" r="65%"><stop offset="0%" stop-color="#fffaf0"/><stop offset="100%" stop-color="#eadcbc"/></radialGradient>
+    <radialGradient id="ckpch" cx="40%" cy="35%" r="70%"><stop offset="0%" stop-color="#ffc868"/><stop offset="100%" stop-color="#e0762a"/></radialGradient>
+  </defs>
+  <rect width="800" height="600" fill="url(#ckbg)"/>
+  <g opacity="0.2">
+    <circle cx="110" cy="160" r="38" fill="#f0a040"/><circle cx="690" cy="430" r="32" fill="#f0a040"/>
+    <path d="M660,140 L720,140 L712,200 L668,200Z" fill="#c8b8a0"/>
+  </g>
+  <ellipse cx="400" cy="470" rx="320" ry="62" fill="#000" opacity="0.35"/>
+  <ellipse cx="400" cy="400" rx="310" ry="125" fill="url(#ckplate)"/>
+  <ellipse cx="400" cy="398" rx="250" ry="96" fill="#e9e3d8"/>
+  <ellipse cx="410" cy="410" rx="200" ry="66" fill="#c07a28" opacity="0.35"/>
+  <path d="M190,380 Q200,300 330,285 Q470,275 560,300 Q630,330 600,400 Q520,450 380,448 Q230,440 190,380Z" fill="url(#ckcrepe)"/>
+  <g fill="#9a5a1e" opacity="0.35">
+    <circle cx="260" cy="360" r="9"/><circle cx="330" cy="410" r="11"/><circle cx="480" cy="420" r="10"/><circle cx="560" cy="360" r="8"/><circle cx="300" cy="320" r="7"/>
+    <circle cx="420" cy="430" r="6"/><circle cx="540" cy="400" r="6"/>
+  </g>
+  <path d="M300,330 Q340,262 430,258 Q510,262 540,320 Q500,300 430,300 Q350,300 300,330Z" fill="#fff8ec"/>
+  <ellipse cx="420" cy="298" rx="100" ry="42" fill="url(#ckice)"/>
+  <g fill="#fffaf0"><circle cx="360" cy="296" r="16"/><circle cx="470" cy="290" r="18"/><circle cx="420" cy="276" r="22"/></g>
+  <g fill="#3a2410" opacity="0.6"><circle cx="400" cy="280" r="1.6"/><circle cx="440" cy="290" r="1.6"/><circle cx="380" cy="300" r="1.4"/><circle cx="460" cy="276" r="1.4"/></g>
+  <path d="M240,380 Q260,330 350,325 Q440,320 480,360 Q430,340 350,345 Q280,350 240,380Z" fill="#d89a48"/>
+  <path d="M235,382 Q300,360 400,362 Q500,365 590,390 Q520,440 380,442 Q260,430 235,382Z" fill="url(#ckcrepe)"/>
+  <path d="M250,386 Q380,368 575,392" stroke="#fff0c0" stroke-width="3" fill="none" opacity="0.4"/>
+  <g transform="translate(540 330) rotate(18)">
+    <ellipse rx="52" ry="34" fill="url(#ckpch)"/>
+    <ellipse cx="4" cy="2" rx="18" ry="13" fill="#b8582a"/>
+    <ellipse cx="-20" cy="-14" rx="16" ry="6" fill="#fff4d0" opacity="0.5"/>
+  </g>
+  <g fill="#fff" opacity="0.35"><ellipse cx="330" cy="400" rx="30" ry="5"/><ellipse cx="480" cy="410" rx="20" ry="4"/></g>
+  <path d="M600,400 Q630,420 610,440" stroke="#d08a30" stroke-width="5" fill="none" opacity="0.6" stroke-linecap="round"/>
+</svg>
