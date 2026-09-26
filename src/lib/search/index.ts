@@ -125,7 +125,8 @@ export function applyConstraints(
     // "facile" also matches "Framboisier facile" or a recipe tagged "facile" rated a bit harder.
     if (query.difficulty && recipe.difficulty !== query.difficulty && !mentions(recipe, query.difficultyWord)) return false
     const tags = recipe.tags.map(normalize)
-    if (query.avoidTags.some((tag) => tags.includes(tag))) return false
+    const kept = query.keepTags.some((tag) => tags.includes(tag))
+    if (!kept && query.avoidTags.some((tag) => tags.includes(tag))) return false
     if (query.requireTags.some((group) => !group.some((tag) => tags.includes(tag)))) return false
     return true
   })
