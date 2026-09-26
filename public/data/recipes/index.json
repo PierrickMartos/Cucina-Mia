@@ -18475,5 +18475,1291 @@
     },
     "stepCount": 7,
     "ingredientCount": 5
+  },
+  {
+    "slug": "biscuit-aux-amandes",
+    "title": "Biscuit aux amandes",
+    "description": "Un biscuit moelleux à la poudre d'amande, allégé par des blancs montés en neige et saupoudré de sucre glace.",
+    "images": {
+      "cover": "images/recipes/biscuit-aux-amandes/cover.webp",
+      "web": "images/recipes/biscuit-aux-amandes/web.webp"
+    },
+    "imageCredit": {
+      "author": "nils9three",
+      "url": "https://pixabay.com/users/nils9three-10462208/"
+    },
+    "prepTime": 20,
+    "cookTime": 40,
+    "servings": 6,
+    "difficulty": "Facile",
+    "category": "Dolci",
+    "tags": [
+      "amandes",
+      "gâteau",
+      "dessert",
+      "goûter",
+      "four",
+      "moelleux",
+      "végétarien",
+      "facile",
+      "toute-la-famille",
+      "français",
+      "nostalgique",
+      "recette-de-famille"
+    ],
+    "origin": "amelie-grandpa",
+    "translations": {
+      "en": {
+        "title": "Almond sponge cake",
+        "description": "A soft ground almond sponge cake, lightened with stiffly beaten egg whites and dusted with icing sugar.",
+        "tags": [
+          "almonds",
+          "cake",
+          "dessert",
+          "afternoon-snack",
+          "oven",
+          "soft",
+          "vegetarian",
+          "easy",
+          "whole-family",
+          "french",
+          "nostalgic",
+          "family-recipe"
+        ]
+      },
+      "it": {
+        "title": "Torta di mandorle",
+        "description": "Una torta soffice alla farina di mandorle, alleggerita dagli albumi montati a neve e spolverata di zucchero a velo.",
+        "tags": [
+          "mandorle",
+          "torta",
+          "dolce",
+          "merenda",
+          "forno",
+          "soffice",
+          "vegetariano",
+          "facile",
+          "tutta-la-famiglia",
+          "francese",
+          "nostalgico",
+          "ricetta-di-famiglia"
+        ]
+      }
+    },
+    "stepCount": 5,
+    "ingredientCount": 8
+  },
+  {
+    "slug": "biscuit-aux-fruits",
+    "title": "Biscuit aux fruits",
+    "description": "Un biscuit moelleux cuit sur un lit de fruits de saison, parfumé à l'alcool assorti : Calvados, Kirsch, Cointreau ou rhum.",
+    "images": {
+      "cover": "images/recipes/biscuit-aux-fruits/cover.webp",
+      "web": "images/recipes/biscuit-aux-fruits/web.webp"
+    },
+    "imageCredit": {
+      "author": "NoName_13",
+      "url": "https://pixabay.com/users/noname_13-2364555/"
+    },
+    "prepTime": 25,
+    "cookTime": 55,
+    "servings": 8,
+    "difficulty": "Facile",
+    "category": "Dolci",
+    "tags": [
+      "fruits",
+      "dessert",
+      "goûter",
+      "four",
+      "moelleux",
+      "facile",
+      "toute-la-famille",
+      "convivial",
+      "été",
+      "automne",
+      "français",
+      "nostalgique",
+      "recette-de-famille"
+    ],
+    "origin": "amelie-grandpa",
+    "translations": {
+      "en": {
+        "title": "Fruit sponge cake",
+        "description": "A soft sponge cake baked on a bed of seasonal fruit, flavoured with a matching spirit: Calvados, Kirsch, Cointreau or rum.",
+        "tags": [
+          "fruit",
+          "dessert",
+          "afternoon-snack",
+          "oven",
+          "soft",
+          "easy",
+          "whole-family",
+          "convivial",
+          "summer",
+          "autumn",
+          "french",
+          "nostalgic",
+          "family-recipe"
+        ]
+      },
+      "it": {
+        "title": "Torta soffice alla frutta",
+        "description": "Una torta soffice cotta su un letto di frutta di stagione, profumata con il liquore abbinato: Calvados, Kirsch, Cointreau o rum.",
+        "tags": [
+          "frutta",
+          "dessert",
+          "merenda",
+          "forno",
+          "soffice",
+          "facile",
+          "tutta-la-famiglia",
+          "conviviale",
+          "estate",
+          "autunno",
+          "francese",
+          "nostalgico",
+          "ricetta-di-famiglia"
+        ]
+      }
+    },
+    "stepCount": 11,
+    "ingredientCount": 9
+  },
+  {
+    "slug": "biscuit-aux-poires-et-chocolat-noir",
+    "title": "Biscuit aux poires et chocolat noir",
+    "description": "Une charlotte de fête : biscuits à la cuillère, génoise au chocolat, marquise au chocolat et mousse de poires, décorée de poires en éventail.",
+    "images": {
+      "cover": "images/recipes/biscuit-aux-poires-et-chocolat-noir/cover.svg",
+      "web": "images/recipes/biscuit-aux-poires-et-chocolat-noir/cover.svg"
+    },
+    "prepTime": 90,
+    "cookTime": 45,
+    "servings": 12,
+    "difficulty": "Difficile",
+    "category": "Dolci",
+    "tags": [
+      "poire",
+      "chocolat",
+      "fruits",
+      "dessert",
+      "français",
+      "nostalgique",
+      "recette-de-famille",
+      "fête",
+      "festif",
+      "préparation-à-lavance",
+      "froid",
+      "gourmand"
+    ],
+    "origin": "amelie-grandpa",
+    "translations": {
+      "en": {
+        "title": "Pear and dark chocolate charlotte",
+        "description": "A celebration charlotte: ladyfingers, chocolate sponge, chocolate marquise and pear mousse, decorated with fanned pears.",
+        "tags": [
+          "pear",
+          "chocolate",
+          "fruit",
+          "dessert",
+          "french",
+          "nostalgic",
+          "family-recipe",
+          "party",
+          "festive",
+          "make-ahead",
+          "cold",
+          "indulgent"
+        ]
+      },
+      "it": {
+        "title": "Charlotte di pere e cioccolato fondente",
+        "description": "Una charlotte per le feste: savoiardi, pan di Spagna al cioccolato, marquise al cioccolato e mousse di pere, decorata con pere a ventaglio.",
+        "tags": [
+          "pera",
+          "cioccolato",
+          "frutta",
+          "dessert",
+          "francese",
+          "nostalgico",
+          "ricetta-di-famiglia",
+          "festa",
+          "festivo",
+          "preparazione-in-anticipo",
+          "freddo",
+          "goloso"
+        ]
+      }
+    },
+    "stepCount": 11,
+    "ingredientCount": 12
+  },
+  {
+    "slug": "biscuit-aux-pruneaux",
+    "title": "Biscuit aux pruneaux",
+    "description": "Un biscuit moelleux garni de pruneaux macérés dans l'alcool de prune, cuit dans un moule à génoise.",
+    "images": {
+      "cover": "images/recipes/biscuit-aux-pruneaux/cover.svg",
+      "web": "images/recipes/biscuit-aux-pruneaux/cover.svg"
+    },
+    "prepTime": 25,
+    "cookTime": 45,
+    "servings": 8,
+    "difficulty": "Facile",
+    "category": "Dolci",
+    "tags": [
+      "dessert",
+      "pruneaux",
+      "fruits",
+      "four",
+      "moelleux",
+      "goûter",
+      "réconfortant",
+      "facile",
+      "gourmand",
+      "français",
+      "nostalgique",
+      "recette-de-famille"
+    ],
+    "origin": "amelie-grandpa",
+    "translations": {
+      "en": {
+        "title": "Prune sponge cake",
+        "description": "A soft sponge cake filled with prunes soaked in plum brandy, baked in a sponge cake tin.",
+        "tags": [
+          "dessert",
+          "prunes",
+          "fruit",
+          "oven",
+          "soft",
+          "snack",
+          "comforting",
+          "easy",
+          "indulgent",
+          "french",
+          "nostalgic",
+          "family-recipe"
+        ]
+      },
+      "it": {
+        "title": "Torta soffice alle prugne secche",
+        "description": "Una torta soffice farcita di prugne secche macerate nell'acquavite di prugne, cotta in uno stampo da pan di Spagna.",
+        "tags": [
+          "dessert",
+          "prugne-secche",
+          "frutta",
+          "forno",
+          "morbido",
+          "merenda",
+          "confortante",
+          "facile",
+          "goloso",
+          "francese",
+          "nostalgico",
+          "ricetta-di-famiglia"
+        ]
+      }
+    },
+    "stepCount": 4,
+    "ingredientCount": 8
+  },
+  {
+    "slug": "cake-aux-fruits",
+    "title": "Cake aux fruits",
+    "description": "Un cake moelleux garni de fruits confits et de raisins de Smyrne macérés dans le rhum, cuit d'abord à four chaud puis à four doux.",
+    "images": {
+      "cover": "images/recipes/cake-aux-fruits/cover.webp",
+      "web": "images/recipes/cake-aux-fruits/web.webp"
+    },
+    "imageCredit": {
+      "author": "congerdesign",
+      "url": "https://pixabay.com/users/congerdesign-509903/"
+    },
+    "prepTime": 140,
+    "cookTime": 35,
+    "servings": 8,
+    "difficulty": "Facile",
+    "category": "Dolci",
+    "tags": [
+      "dessert",
+      "fruits",
+      "four",
+      "moelleux",
+      "goûter",
+      "facile",
+      "noël",
+      "gourmand",
+      "français",
+      "nostalgique",
+      "recette-de-famille",
+      "festif"
+    ],
+    "origin": "amelie-grandpa",
+    "translations": {
+      "en": {
+        "title": "Fruit cake",
+        "description": "A soft loaf cake studded with candied fruit and sultanas soaked in rum, baked first in a hot oven and then in a gentle oven.",
+        "tags": [
+          "dessert",
+          "fruit",
+          "oven",
+          "soft",
+          "afternoon-snack",
+          "easy",
+          "christmas",
+          "indulgent",
+          "french",
+          "nostalgic",
+          "family-recipe",
+          "festive"
+        ]
+      },
+      "it": {
+        "title": "Plumcake alla frutta",
+        "description": "Un plumcake soffice con canditi e uvetta sultanina macerati nel rum, cotto prima in forno caldo e poi in forno dolce.",
+        "tags": [
+          "dessert",
+          "frutta",
+          "forno",
+          "soffice",
+          "merenda",
+          "facile",
+          "natale",
+          "goloso",
+          "francese",
+          "nostalgico",
+          "ricetta-di-famiglia",
+          "festivo"
+        ]
+      }
+    },
+    "stepCount": 5,
+    "ingredientCount": 9
+  },
+  {
+    "slug": "gateau-au-chocolat",
+    "title": "Gâteau au chocolat",
+    "description": "Un gâteau au chocolat fondant et léger, aux blancs montés en neige, cuit doucement au four dans un moule à manquer.",
+    "images": {
+      "cover": "images/recipes/gateau-au-chocolat/cover.svg",
+      "web": "images/recipes/gateau-au-chocolat/cover.svg"
+    },
+    "prepTime": 20,
+    "cookTime": 60,
+    "servings": 8,
+    "difficulty": "Facile",
+    "category": "Dolci",
+    "tags": [
+      "chocolat",
+      "dessert",
+      "four",
+      "fondant",
+      "gourmand",
+      "goûter",
+      "facile",
+      "végétarien",
+      "toute-la-famille",
+      "français",
+      "nostalgique",
+      "recette-de-famille"
+    ],
+    "origin": "amelie-grandpa",
+    "translations": {
+      "en": {
+        "title": "Chocolate cake",
+        "description": "A light, melt-in-the-mouth chocolate cake made with stiffly beaten egg whites, gently baked in the oven in a round cake tin.",
+        "tags": [
+          "chocolate",
+          "dessert",
+          "oven",
+          "melt-in-the-mouth",
+          "indulgent",
+          "snack",
+          "easy",
+          "vegetarian",
+          "whole-family",
+          "french",
+          "nostalgic",
+          "family-recipe"
+        ]
+      },
+      "it": {
+        "title": "Torta al cioccolato",
+        "description": "Una torta al cioccolato fondente e leggera, con albumi montati a neve, cotta dolcemente in forno in uno stampo rotondo.",
+        "tags": [
+          "cioccolato",
+          "dessert",
+          "forno",
+          "fondente",
+          "goloso",
+          "merenda",
+          "facile",
+          "vegetariano",
+          "tutta-la-famiglia",
+          "francese",
+          "nostalgico",
+          "ricetta-di-famiglia"
+        ]
+      }
+    },
+    "stepCount": 7,
+    "ingredientCount": 6
+  },
+  {
+    "slug": "gateau-au-fromage-blanc",
+    "title": "Gâteau au fromage blanc",
+    "description": "Un gâteau au fromage blanc et à la crème sur une pâte sablée, cuit au four, démoulé à l'envers et saupoudré de sucre glace et de cannelle.",
+    "images": {
+      "cover": "images/recipes/gateau-au-fromage-blanc/cover.webp",
+      "web": "images/recipes/gateau-au-fromage-blanc/web.webp"
+    },
+    "imageCredit": {
+      "author": "Pexels",
+      "url": "https://pixabay.com/users/pexels-2286921/"
+    },
+    "prepTime": 150,
+    "cookTime": 55,
+    "servings": 8,
+    "difficulty": "Medio",
+    "category": "Dolci",
+    "tags": [
+      "dessert",
+      "fromage",
+      "four",
+      "goûter",
+      "moelleux",
+      "gourmand",
+      "toute-la-famille",
+      "végétarien",
+      "français",
+      "nostalgique",
+      "recette-de-famille"
+    ],
+    "origin": "amelie-grandpa",
+    "translations": {
+      "en": {
+        "title": "Fromage blanc cheesecake",
+        "description": "A fromage blanc and cream cake on a shortcrust base, baked in the oven, turned out upside down and dusted with icing sugar and cinnamon.",
+        "tags": [
+          "dessert",
+          "cheese",
+          "oven",
+          "afternoon-snack",
+          "soft",
+          "indulgent",
+          "family-friendly",
+          "vegetarian",
+          "french",
+          "nostalgic",
+          "family-recipe"
+        ]
+      },
+      "it": {
+        "title": "Torta al formaggio fresco",
+        "description": "Una torta al fromage blanc e panna su una base di pasta frolla, cotta in forno, sformata capovolta e spolverata di zucchero a velo e cannella.",
+        "tags": [
+          "dessert",
+          "formaggio",
+          "forno",
+          "merenda",
+          "morbido",
+          "goloso",
+          "tutta-la-famiglia",
+          "vegetariano",
+          "francese",
+          "nostalgico",
+          "ricetta-di-famiglia"
+        ]
+      }
+    },
+    "stepCount": 10,
+    "ingredientCount": 13
+  },
+  {
+    "slug": "gateau-aux-carottes",
+    "title": "Gâteau aux carottes",
+    "description": "Un gâteau moelleux aux carottes râpées et aux amandes, parfumé au citron et au Kirsch, allégé par des blancs en neige.",
+    "images": {
+      "cover": "images/recipes/gateau-aux-carottes/cover.webp",
+      "web": "images/recipes/gateau-aux-carottes/web.webp"
+    },
+    "imageCredit": {
+      "author": "Alexas_Fotos",
+      "url": "https://pixabay.com/users/alexas_fotos-686414/"
+    },
+    "prepTime": 30,
+    "cookTime": 50,
+    "servings": 8,
+    "difficulty": "Facile",
+    "category": "Dolci",
+    "tags": [
+      "carottes",
+      "amandes",
+      "dessert",
+      "goûter",
+      "four",
+      "moelleux",
+      "végétarien",
+      "facile",
+      "français",
+      "nostalgique",
+      "recette-de-famille"
+    ],
+    "origin": "amelie-grandpa",
+    "translations": {
+      "en": {
+        "title": "Carrot cake",
+        "description": "A soft cake made with grated carrots and ground almonds, flavoured with lemon and Kirsch, lightened with stiffly beaten egg whites.",
+        "tags": [
+          "carrots",
+          "almonds",
+          "dessert",
+          "afternoon-snack",
+          "oven",
+          "soft",
+          "vegetarian",
+          "easy",
+          "french",
+          "nostalgic",
+          "family-recipe"
+        ]
+      },
+      "it": {
+        "title": "Torta di carote",
+        "description": "Una torta soffice di carote grattugiate e mandorle, profumata al limone e al Kirsch, alleggerita dagli albumi montati a neve.",
+        "tags": [
+          "carote",
+          "mandorle",
+          "dolce",
+          "merenda",
+          "forno",
+          "morbido",
+          "vegetariano",
+          "facile",
+          "francese",
+          "nostalgico",
+          "ricetta-di-famiglia"
+        ]
+      }
+    },
+    "stepCount": 5,
+    "ingredientCount": 10
+  },
+  {
+    "slug": "gateau-aux-marrons-l-ardechois",
+    "title": "Gâteau aux marrons l'ardéchois",
+    "description": "Un gâteau moelleux à la crème de marron ou aux brisures de marrons glacés, parfumé à la vanille, servi avec une crème anglaise ou une sauce au chocolat.",
+    "images": {
+      "cover": "images/recipes/gateau-aux-marrons-l-ardechois/cover.svg",
+      "web": "images/recipes/gateau-aux-marrons-l-ardechois/cover.svg"
+    },
+    "prepTime": 20,
+    "cookTime": 40,
+    "servings": 8,
+    "difficulty": "Facile",
+    "category": "Dolci",
+    "tags": [
+      "marrons",
+      "dessert",
+      "four",
+      "moelleux",
+      "automne",
+      "hiver",
+      "goûter",
+      "vanille",
+      "facile",
+      "réconfortant",
+      "français",
+      "nostalgique",
+      "recette-de-famille"
+    ],
+    "origin": "amelie-grandpa",
+    "translations": {
+      "en": {
+        "title": "Ardèche Chestnut Cake",
+        "description": "A soft cake made with chestnut cream or candied chestnut pieces, flavoured with vanilla, served with custard or a chocolate sauce.",
+        "tags": [
+          "chestnuts",
+          "dessert",
+          "oven",
+          "soft",
+          "autumn",
+          "winter",
+          "snack",
+          "vanilla",
+          "easy",
+          "comforting",
+          "french",
+          "nostalgic",
+          "family-recipe"
+        ]
+      },
+      "it": {
+        "title": "Torta di castagne dell'Ardèche",
+        "description": "Una torta morbida alla crema di marroni o ai pezzetti di marron glacé, profumata alla vaniglia, servita con crema inglese o salsa al cioccolato.",
+        "tags": [
+          "castagne",
+          "dessert",
+          "forno",
+          "morbido",
+          "autunno",
+          "inverno",
+          "merenda",
+          "vaniglia",
+          "facile",
+          "confortante",
+          "francese",
+          "nostalgico",
+          "ricetta-di-famiglia"
+        ]
+      }
+    },
+    "stepCount": 5,
+    "ingredientCount": 8
+  },
+  {
+    "slug": "gateau-aux-noix",
+    "title": "Gâteau aux noix",
+    "description": "Un gâteau moelleux aux cerneaux de noix mixés, parfumé à l'huile de noix et au vin blanc sec, décoré de noix et de sucre glace.",
+    "images": {
+      "cover": "images/recipes/gateau-aux-noix/cover.webp",
+      "web": "images/recipes/gateau-aux-noix/web.webp"
+    },
+    "imageCredit": {
+      "author": "4175959",
+      "url": "https://pixabay.com/users/4175959-4175959/"
+    },
+    "prepTime": 20,
+    "cookTime": 50,
+    "servings": 8,
+    "difficulty": "Facile",
+    "category": "Dolci",
+    "tags": [
+      "noix",
+      "dessert",
+      "goûter",
+      "four",
+      "moelleux",
+      "facile",
+      "automne",
+      "toute-la-famille",
+      "gourmand",
+      "français",
+      "nostalgique",
+      "recette-de-famille"
+    ],
+    "origin": "amelie-grandpa",
+    "translations": {
+      "en": {
+        "title": "Walnut Cake",
+        "description": "A soft cake made with blended walnut halves, flavoured with walnut oil and dry white wine, decorated with walnuts and icing sugar.",
+        "tags": [
+          "walnuts",
+          "dessert",
+          "snack-time",
+          "oven",
+          "soft",
+          "easy",
+          "autumn",
+          "whole-family",
+          "indulgent",
+          "french",
+          "nostalgic",
+          "family-recipe"
+        ]
+      },
+      "it": {
+        "title": "Torta di noci",
+        "description": "Una torta soffice con gherigli di noce frullati, profumata all'olio di noci e al vino bianco secco, decorata con noci e zucchero a velo.",
+        "tags": [
+          "noci",
+          "dessert",
+          "merenda",
+          "forno",
+          "soffice",
+          "facile",
+          "autunno",
+          "tutta-la-famiglia",
+          "goloso",
+          "francese",
+          "nostalgico",
+          "ricetta-di-famiglia"
+        ]
+      }
+    },
+    "stepCount": 8,
+    "ingredientCount": 10
+  },
+  {
+    "slug": "gateau-de-pommes-confites",
+    "title": "Gâteau de pommes confites",
+    "description": "Des tranches de pommes confites longuement dans un sirop vanillé, moulées puis démoulées et servies avec une crème anglaise maison.",
+    "images": {
+      "cover": "images/recipes/gateau-de-pommes-confites/cover.webp",
+      "web": "images/recipes/gateau-de-pommes-confites/web.webp"
+    },
+    "imageCredit": {
+      "author": "manfredrichter",
+      "url": "https://pixabay.com/users/manfredrichter-4055600/"
+    },
+    "prepTime": 30,
+    "cookTime": 75,
+    "servings": 8,
+    "difficulty": "Medio",
+    "category": "Dolci",
+    "tags": [
+      "pommes",
+      "fruits",
+      "dessert",
+      "fondant",
+      "gourmand",
+      "toute-la-famille",
+      "préparation-à-lavance",
+      "automne",
+      "français",
+      "nostalgique",
+      "recette-de-famille"
+    ],
+    "origin": "amelie-grandpa",
+    "translations": {
+      "en": {
+        "title": "Candied apple cake",
+        "description": "Apple slices slowly candied in a vanilla syrup, set in a mould, turned out and served with a homemade crème anglaise.",
+        "tags": [
+          "apples",
+          "fruit",
+          "dessert",
+          "melting",
+          "indulgent",
+          "whole-family",
+          "make-ahead",
+          "autumn",
+          "french",
+          "nostalgic",
+          "family-recipe"
+        ]
+      },
+      "it": {
+        "title": "Torta di mele candite",
+        "description": "Fette di mele candite a lungo in uno sciroppo alla vaniglia, messe in uno stampo, sformate e servite con una crema inglese fatta in casa.",
+        "tags": [
+          "mele",
+          "frutta",
+          "dessert",
+          "fondente",
+          "goloso",
+          "tutta-la-famiglia",
+          "da-preparare-in-anticipo",
+          "autunno",
+          "francese",
+          "nostalgico",
+          "ricetta-di-famiglia"
+        ]
+      }
+    },
+    "stepCount": 9,
+    "ingredientCount": 11
+  },
+  {
+    "slug": "gateau-fondant-aux-poires-caramelisees",
+    "title": "Gâteau fondant aux poires caramélisées",
+    "description": "Des poires en rosace sur un moule caramélisé, recouvertes d'une pâte au beurre parfumée à l'alcool de poire, servies avec une crème anglaise.",
+    "images": {
+      "cover": "images/recipes/gateau-fondant-aux-poires-caramelisees/cover.svg",
+      "web": "images/recipes/gateau-fondant-aux-poires-caramelisees/cover.svg"
+    },
+    "prepTime": 30,
+    "cookTime": 50,
+    "servings": 8,
+    "difficulty": "Medio",
+    "category": "Dolci",
+    "tags": [
+      "dessert",
+      "poire",
+      "fruits",
+      "caramel",
+      "fondant",
+      "moelleux",
+      "automne",
+      "gourmand",
+      "toute-la-famille",
+      "français",
+      "nostalgique",
+      "recette-de-famille"
+    ],
+    "origin": "amelie-grandpa",
+    "translations": {
+      "en": {
+        "title": "Caramelised pear fondant cake",
+        "description": "Pears arranged in a rosette over a caramelised tin, covered with a buttery batter flavoured with pear brandy, served with crème anglaise.",
+        "tags": [
+          "dessert",
+          "pear",
+          "fruit",
+          "caramel",
+          "melting",
+          "soft",
+          "autumn",
+          "indulgent",
+          "whole-family",
+          "french",
+          "nostalgic",
+          "family-recipe"
+        ]
+      },
+      "it": {
+        "title": "Torta morbida alle pere caramellate",
+        "description": "Pere disposte a rosa in uno stampo caramellato, ricoperte da un impasto al burro profumato all'acquavite di pere, servite con crema inglese.",
+        "tags": [
+          "dessert",
+          "pera",
+          "frutta",
+          "caramello",
+          "fondente",
+          "morbido",
+          "autunno",
+          "goloso",
+          "tutta-la-famiglia",
+          "francese",
+          "nostalgico",
+          "ricetta-di-famiglia"
+        ]
+      }
+    },
+    "stepCount": 8,
+    "ingredientCount": 16
+  },
+  {
+    "slug": "gateau-suedois-en-pate-levee-a-la-cannelle",
+    "title": "Gâteau suédois en pâte levée à la cannelle",
+    "description": "Petits gâteaux suédois en pâte levée parfumée à la cardamome, roulés au beurre, au sucre et à la cannelle, puis dorés au four.",
+    "images": {
+      "cover": "images/recipes/gateau-suedois-en-pate-levee-a-la-cannelle/cover.webp",
+      "web": "images/recipes/gateau-suedois-en-pate-levee-a-la-cannelle/web.webp"
+    },
+    "imageCredit": {
+      "author": "summerstock",
+      "url": "https://pixabay.com/users/summerstock-79075/"
+    },
+    "prepTime": 120,
+    "cookTime": 10,
+    "servings": 10,
+    "difficulty": "Medio",
+    "category": "Dolci",
+    "tags": [
+      "dessert",
+      "goûter",
+      "four",
+      "cannelle",
+      "brioche",
+      "moelleux",
+      "végétarien",
+      "gourmand",
+      "convivial",
+      "français",
+      "nostalgique",
+      "recette-de-famille"
+    ],
+    "origin": "amelie-grandpa",
+    "translations": {
+      "en": {
+        "title": "Swedish cinnamon buns",
+        "description": "Small Swedish yeast-dough buns flavoured with cardamom, rolled up with butter, sugar and cinnamon, then baked until golden.",
+        "tags": [
+          "dessert",
+          "afternoon-snack",
+          "oven",
+          "cinnamon",
+          "brioche",
+          "soft",
+          "vegetarian",
+          "indulgent",
+          "convivial",
+          "french",
+          "nostalgic",
+          "family-recipe"
+        ]
+      },
+      "it": {
+        "title": "Dolcetti svedesi lievitati alla cannella",
+        "description": "Piccoli dolci svedesi di pasta lievitata profumata al cardamomo, arrotolati con burro, zucchero e cannella, poi dorati in forno.",
+        "tags": [
+          "dessert",
+          "merenda",
+          "forno",
+          "cannella",
+          "brioche",
+          "soffice",
+          "vegetariano",
+          "goloso",
+          "conviviale",
+          "francese",
+          "nostalgico",
+          "ricetta-di-famiglia"
+        ]
+      }
+    },
+    "stepCount": 8,
+    "ingredientCount": 8
+  },
+  {
+    "slug": "buche-aux-marrons-de-germaine-houdre",
+    "title": "La bûche aux marrons de Germaine Houdré",
+    "description": "Une bûche de marrons cuits au lait vanillé, passés au moulin avec beurre, cacao et sucre, puis nappée de chocolat noir.",
+    "images": {
+      "cover": "images/recipes/buche-aux-marrons-de-germaine-houdre/cover.webp",
+      "web": "images/recipes/buche-aux-marrons-de-germaine-houdre/web.webp"
+    },
+    "imageCredit": {
+      "author": "LAWJR",
+      "url": "https://pixabay.com/users/lawjr-4448871/"
+    },
+    "prepTime": 40,
+    "cookTime": 60,
+    "servings": 10,
+    "difficulty": "Medio",
+    "category": "Dolci",
+    "tags": [
+      "dessert",
+      "marrons",
+      "chocolat",
+      "français",
+      "nostalgique",
+      "recette-de-famille",
+      "noël",
+      "hiver",
+      "festif",
+      "fondant",
+      "préparation-à-lavance"
+    ],
+    "origin": "amelie-grandpa",
+    "translations": {
+      "en": {
+        "title": "Germaine Houdré's Chestnut Log",
+        "description": "A log of chestnuts cooked in vanilla milk, passed through a food mill with butter, cocoa and sugar, then coated with dark chocolate.",
+        "tags": [
+          "dessert",
+          "chestnuts",
+          "chocolate",
+          "french",
+          "nostalgic",
+          "family-recipe",
+          "christmas",
+          "winter",
+          "festive",
+          "melting",
+          "make-ahead"
+        ]
+      },
+      "it": {
+        "title": "Tronchetto di castagne di Germaine Houdré",
+        "description": "Un tronchetto di castagne cotte nel latte alla vaniglia, passate al passaverdure con burro, cacao e zucchero, poi ricoperto di cioccolato fondente.",
+        "tags": [
+          "dolce",
+          "castagne",
+          "cioccolato",
+          "francese",
+          "nostalgico",
+          "ricetta-di-famiglia",
+          "natale",
+          "inverno",
+          "festivo",
+          "fondente",
+          "preparazione-in-anticipo"
+        ]
+      }
+    },
+    "stepCount": 6,
+    "ingredientCount": 7
+  },
+  {
+    "slug": "petits-biscuits-au-chocolat",
+    "title": "Petits biscuits au chocolat",
+    "description": "Petits moelleux au chocolat noir amer, garnis de deux carrés de chocolat au cœur, servis tièdes avec une crème anglaise.",
+    "images": {
+      "cover": "images/recipes/petits-biscuits-au-chocolat/cover.svg",
+      "web": "images/recipes/petits-biscuits-au-chocolat/cover.svg"
+    },
+    "prepTime": 20,
+    "cookTime": 15,
+    "servings": 6,
+    "difficulty": "Facile",
+    "category": "Dolci",
+    "tags": [
+      "chocolat",
+      "dessert",
+      "goûter",
+      "four",
+      "moelleux",
+      "fondant",
+      "tiède",
+      "gourmand",
+      "facile",
+      "français",
+      "nostalgique",
+      "recette-de-famille"
+    ],
+    "origin": "amelie-grandpa",
+    "translations": {
+      "en": {
+        "title": "Little chocolate cakes",
+        "description": "Little soft cakes made with bitter dark chocolate, with two squares of chocolate hidden in the centre, served warm with custard.",
+        "tags": [
+          "chocolate",
+          "dessert",
+          "afternoon-snack",
+          "oven",
+          "soft",
+          "molten",
+          "warm",
+          "indulgent",
+          "easy",
+          "french",
+          "nostalgic",
+          "family-recipe"
+        ]
+      },
+      "it": {
+        "title": "Tortine al cioccolato",
+        "description": "Piccole tortine morbide al cioccolato fondente amaro, con due quadratini di cioccolato nel cuore, servite tiepide con crema inglese.",
+        "tags": [
+          "cioccolato",
+          "dessert",
+          "merenda",
+          "forno",
+          "morbido",
+          "fondente",
+          "tiepido",
+          "goloso",
+          "facile",
+          "francese",
+          "nostalgico",
+          "ricetta-di-famiglia"
+        ]
+      }
+    },
+    "stepCount": 6,
+    "ingredientCount": 8
+  },
+  {
+    "slug": "tarte-a-la-rhubarbe-et-aux-pommes",
+    "title": "Tarte à la rhubarbe et aux pommes",
+    "description": "Une tarte maison où la rhubarbe acidulée et les pommes dorées au beurre cuisent sous une crème onctueuse.",
+    "images": {
+      "cover": "images/recipes/tarte-a-la-rhubarbe-et-aux-pommes/cover.svg",
+      "web": "images/recipes/tarte-a-la-rhubarbe-et-aux-pommes/cover.svg"
+    },
+    "prepTime": 30,
+    "cookTime": 40,
+    "servings": 8,
+    "difficulty": "Facile",
+    "category": "Dolci",
+    "tags": [
+      "rhubarbe",
+      "pommes",
+      "fruits",
+      "tarte",
+      "dessert",
+      "goûter",
+      "four",
+      "printemps",
+      "acidulé",
+      "facile",
+      "toute-la-famille",
+      "français",
+      "nostalgique",
+      "recette-de-famille"
+    ],
+    "origin": "amelie-grandpa",
+    "translations": {
+      "en": {
+        "title": "Rhubarb and Apple Tart",
+        "description": "A homemade tart where tangy rhubarb and apples browned in butter bake under a smooth custard.",
+        "tags": [
+          "rhubarb",
+          "apples",
+          "fruit",
+          "tart",
+          "dessert",
+          "afternoon-snack",
+          "oven",
+          "spring",
+          "tangy",
+          "easy",
+          "whole-family",
+          "french",
+          "nostalgic",
+          "family-recipe"
+        ]
+      },
+      "it": {
+        "title": "Crostata di rabarbaro e mele",
+        "description": "Una crostata fatta in casa in cui il rabarbaro acidulo e le mele dorate nel burro cuociono sotto una crema vellutata.",
+        "tags": [
+          "rabarbaro",
+          "mele",
+          "frutta",
+          "crostata",
+          "dessert",
+          "merenda",
+          "forno",
+          "primavera",
+          "acidulo",
+          "facile",
+          "tutta-la-famiglia",
+          "francese",
+          "nostalgico",
+          "ricetta-di-famiglia"
+        ]
+      }
+    },
+    "stepCount": 6,
+    "ingredientCount": 13
+  },
+  {
+    "slug": "tarte-au-potiron",
+    "title": "Tarte au potiron",
+    "description": "Une tarte à la crème de potiron, amande et Rhum, posée sur une couche de confiture de coings et pommes, puis saupoudrée de sucre glace.",
+    "images": {
+      "cover": "images/recipes/tarte-au-potiron/cover.webp",
+      "web": "images/recipes/tarte-au-potiron/web.webp"
+    },
+    "imageCredit": {
+      "author": "Daria-Yakovleva",
+      "url": "https://pixabay.com/users/daria-yakovleva-3938704/"
+    },
+    "prepTime": 20,
+    "cookTime": 60,
+    "servings": 8,
+    "difficulty": "Facile",
+    "category": "Dolci",
+    "tags": [
+      "tarte",
+      "potiron",
+      "dessert",
+      "four",
+      "automne",
+      "végétarien",
+      "facile",
+      "gourmand",
+      "toute-la-famille",
+      "français",
+      "nostalgique",
+      "recette-de-famille"
+    ],
+    "origin": "amelie-grandpa",
+    "translations": {
+      "en": {
+        "title": "Pumpkin Tart",
+        "description": "A pumpkin, almond and Rum cream tart set on a layer of quince and apple jam, then dusted with icing sugar.",
+        "tags": [
+          "tart",
+          "pumpkin",
+          "dessert",
+          "oven",
+          "autumn",
+          "vegetarian",
+          "easy",
+          "indulgent",
+          "whole-family",
+          "french",
+          "nostalgic",
+          "family-recipe"
+        ]
+      },
+      "it": {
+        "title": "Crostata di zucca",
+        "description": "Una crostata con crema di zucca, mandorle e Rum, adagiata su uno strato di confettura di mele cotogne e mele, poi spolverata di zucchero a velo.",
+        "tags": [
+          "crostata",
+          "zucca",
+          "dessert",
+          "forno",
+          "autunno",
+          "vegetariano",
+          "facile",
+          "goloso",
+          "tutta-la-famiglia",
+          "francese",
+          "nostalgico",
+          "ricetta-di-famiglia"
+        ]
+      }
+    },
+    "stepCount": 6,
+    "ingredientCount": 11
+  },
+  {
+    "slug": "tarte-bonne-femme",
+    "title": "Tarte bonne femme",
+    "description": "Une tarte aux pommes sautées et flambées au Calvados, nappée d'une crème pâtissière légère et caramélisée au sucre roux sous le gril.",
+    "images": {
+      "cover": "images/recipes/tarte-bonne-femme/cover.webp",
+      "web": "images/recipes/tarte-bonne-femme/web.webp"
+    },
+    "imageCredit": {
+      "author": "Roses_Street",
+      "url": "https://pixabay.com/users/roses_street-6652425/"
+    },
+    "prepTime": 40,
+    "cookTime": 20,
+    "servings": 8,
+    "difficulty": "Medio",
+    "category": "Dolci",
+    "tags": [
+      "tarte",
+      "pommes",
+      "fruits",
+      "dessert",
+      "four",
+      "flambé",
+      "automne",
+      "gourmand",
+      "tiède",
+      "français",
+      "nostalgique",
+      "recette-de-famille"
+    ],
+    "origin": "amelie-grandpa",
+    "translations": {
+      "en": {
+        "title": "Tarte bonne femme",
+        "description": "An apple tart with sautéed apples flambéed in Calvados, coated with a light pastry cream and caramelised with brown sugar under the grill.",
+        "tags": [
+          "tart",
+          "apples",
+          "fruit",
+          "dessert",
+          "oven",
+          "flambéed",
+          "autumn",
+          "indulgent",
+          "warm",
+          "french",
+          "nostalgic",
+          "family-recipe"
+        ]
+      },
+      "it": {
+        "title": "Crostata alla contadina",
+        "description": "Una crostata di mele saltate e flambate al Calvados, nappata con una crema pasticcera leggera e caramellata allo zucchero di canna sotto il grill.",
+        "tags": [
+          "crostata",
+          "mele",
+          "frutta",
+          "dessert",
+          "forno",
+          "flambé",
+          "autunno",
+          "goloso",
+          "tiepido",
+          "francese",
+          "nostalgico",
+          "ricetta-di-famiglia"
+        ]
+      }
+    },
+    "stepCount": 8,
+    "ingredientCount": 16
   }
 ]

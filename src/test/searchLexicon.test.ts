@@ -54,6 +54,7 @@ describe("search lexicon audit", () => {
     expect([...swallowed]).toEqual([])
   })
 
+  // This test runs one search for each tag of each recipe. The full suite runs it past the 5 s default.
   it("finds every recipe by each of its tags, in every language", () => {
     const missed: string[] = []
     for (const recipe of recipes) {
@@ -65,7 +66,7 @@ describe("search lexicon audit", () => {
       }
     }
     expect(missed).toEqual([])
-  })
+  }, 20_000)
 
   it("finds every recipe by its title", () => {
     const missed = recipes.flatMap((recipe) => {

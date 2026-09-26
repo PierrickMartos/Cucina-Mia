@@ -119,6 +119,7 @@ export const PANTRY_ITEMS: PantryItem[] = [
   item("lychee", "fruit", "Litchis", "Lychees", "Litchi", ["lychee"]),
   item("coconut", "fruit", "Noix de coco râpée", "Desiccated coconut", "Cocco rapé", ["coconut", "desiccated coconut"]),
   item("candied-fruit", "fruit", "Fruits confits", "Candied fruit", "Canditi", ["candied fruit", "mixed candied fruit", "poached candied fruit"]),
+  item("chestnut", "fruit", "Marrons", "Chestnuts", "Castagne", ["chestnut"]),
   item("prunes", "fruit", "Pruneaux", "Prunes", "Prugne secche", ["prune"]),
 
   // Herbs and aromatics
@@ -162,7 +163,7 @@ export const PANTRY_ITEMS: PantryItem[] = [
   item("mascarpone", "dairy", "Mascarpone", "Mascarpone", "Mascarpone", ["mascarpone"]),
   item("feta", "dairy", "Feta", "Feta", "Feta", ["feta"]),
   item("goat-cheese", "dairy", "Fromage de chèvre", "Goat cheese", "Formaggio di capra", ["goat cheese", "chilli goat cheese"]),
-  item("cream-cheese", "dairy", "Fromage frais", "Cream cheese", "Formaggio spalmabile", ["cream cheese", "laughing cow"]),
+  item("cream-cheese", "dairy", "Fromage frais", "Cream cheese", "Formaggio spalmabile", ["cream cheese", "laughing cow", "fromage blanc"]),
   item("comte", "dairy", "Comté ou gruyère", "Comté or Gruyère", "Comté o groviera", ["comte", "gruyere", "grated cheese", "cheese", "emmental", "emmental cheese"]),
   item("cheddar", "dairy", "Cheddar", "Cheddar", "Cheddar", ["cheddar"]),
   item("provola", "dairy", "Provola", "Provola", "Provola", ["provola"]),
@@ -221,7 +222,7 @@ export const PANTRY_ITEMS: PantryItem[] = [
   item("oats", "starches", "Flocons d'avoine", "Oat flakes", "Fiocchi d'avena", ["oat flake", "oat"]),
   item("bread", "starches", "Pain", "Bread", "Pane", ["bread", "sandwich bread", "country bread", "pita", "pita bread", "toast", "baguette", "baguette slice"]),
   item("breadcrumbs", "starches", "Chapelure", "Breadcrumbs", "Pangrattato", ["breadcrumb", "panko"]),
-  item("pastry", "starches", "Pâte brisée", "Shortcrust pastry", "Pasta brisée", ["shortcrust pastry"]),
+  item("pastry", "starches", "Pâte brisée", "Shortcrust pastry", "Pasta brisée", ["shortcrust pastry", "shortcrust", "sweet pastry"]),
   item("puff-pastry", "starches", "Pâte feuilletée", "Puff pastry", "Pasta sfoglia", ["puff pastry"]),
   item("biscuits", "starches", "Spéculoos", "Speculoos biscuits", "Biscotti speculoos", ["speculoos", "biscuit"]),
   item("ladyfingers", "starches", "Biscuits à la cuillère", "Ladyfingers", "Savoiardi", ["ladyfinger"]),
@@ -294,6 +295,7 @@ export const PANTRY_ITEMS: PantryItem[] = [
   item("cumin", "spices", "Cumin", "Cumin", "Cumino", ["cumin"]),
   item("paprika", "spices", "Paprika", "Paprika", "Paprika", ["paprika"]),
   item("turmeric", "spices", "Curcuma", "Turmeric", "Curcuma", ["turmeric"]),
+  item("cardamom", "spices", "Cardamome", "Cardamom", "Cardamomo", ["cardamom", "ground cardamom"]),
   item("cinnamon", "spices", "Cannelle", "Cinnamon", "Cannella", ["cinnamon"]),
   item("nutmeg", "spices", "Noix de muscade", "Nutmeg", "Noce moscata", ["nutmeg"]),
   item("cloves", "spices", "Clous de girofle", "Cloves", "Chiodi di garofano", ["clove"]),
