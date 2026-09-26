@@ -7311,5 +7311,706 @@
     },
     "stepCount": 8,
     "ingredientCount": 13
+  },
+  {
+    "slug": "beignets-d-aubergines",
+    "title": "Beignets d'aubergines",
+    "description": "Des rondelles d'aubergines dégorgées au citron, enrobées d'une pâte à beignet légère et dorées à la friture, servies avec une sauce tomate.",
+    "images": {
+      "cover": "images/recipes/beignets-d-aubergines/cover.svg",
+      "web": "images/recipes/beignets-d-aubergines/cover.svg"
+    },
+    "prepTime": 45,
+    "cookTime": 20,
+    "servings": 8,
+    "difficulty": "Facile",
+    "category": "Contorni",
+    "tags": [
+      "aubergine",
+      "légumes",
+      "friture",
+      "croustillant",
+      "accompagnement",
+      "végétarien",
+      "facile",
+      "chaud",
+      "français",
+      "nostalgique",
+      "recette-de-famille"
+    ],
+    "origin": "amelie-grandpa",
+    "translations": {
+      "en": {
+        "title": "Eggplant Fritters",
+        "description": "Eggplant rounds salted with lemon to draw out their water, coated in a light fritter batter and deep-fried until golden, served with a tomato sauce.",
+        "tags": [
+          "eggplant",
+          "vegetables",
+          "fried",
+          "crispy",
+          "side-dish",
+          "vegetarian",
+          "easy",
+          "hot",
+          "french",
+          "nostalgic",
+          "family-recipe"
+        ]
+      },
+      "it": {
+        "title": "Frittelle di melanzane",
+        "description": "Rondelle di melanzane spurgate con il limone, avvolte in una pastella leggera e fritte fino a doratura, servite con una salsa di pomodoro.",
+        "tags": [
+          "melanzana",
+          "verdure",
+          "fritto",
+          "croccante",
+          "contorno",
+          "vegetariano",
+          "facile",
+          "caldo",
+          "francese",
+          "nostalgico",
+          "ricetta-di-famiglia"
+        ]
+      }
+    },
+    "stepCount": 3,
+    "ingredientCount": 9
+  },
+  {
+    "slug": "concombres-farcis",
+    "title": "Concombres farcis",
+    "description": "Des morceaux de concombre garnis d'une farce de purée, de chair à saucisse et d'œufs, gratinés au gruyère au four.",
+    "images": {
+      "cover": "images/recipes/concombres-farcis/cover.svg",
+      "web": "images/recipes/concombres-farcis/cover.svg"
+    },
+    "prepTime": 25,
+    "cookTime": 45,
+    "servings": 8,
+    "difficulty": "Facile",
+    "category": "Contorni",
+    "tags": [
+      "concombre",
+      "légumes",
+      "accompagnement",
+      "français",
+      "nostalgique",
+      "recette-de-famille",
+      "four",
+      "porc",
+      "fromage",
+      "réconfortant",
+      "chaud",
+      "toute-la-famille",
+      "à-partager"
+    ],
+    "origin": "amelie-grandpa",
+    "translations": {
+      "en": {
+        "title": "Stuffed cucumbers",
+        "description": "Pieces of cucumber filled with a stuffing of mashed potatoes, sausage meat and eggs, topped with Gruyère and baked in the oven.",
+        "tags": [
+          "cucumber",
+          "vegetables",
+          "side-dish",
+          "french",
+          "nostalgic",
+          "family-recipe",
+          "oven",
+          "pork",
+          "cheese",
+          "comforting",
+          "hot",
+          "family-friendly",
+          "to-share"
+        ]
+      },
+      "it": {
+        "title": "Cetrioli ripieni",
+        "description": "Pezzi di cetriolo farciti con un ripieno di purè, pasta di salsiccia e uova, gratinati al forno con il groviera.",
+        "tags": [
+          "cetriolo",
+          "verdure",
+          "contorno",
+          "francese",
+          "nostalgico",
+          "ricetta-di-famiglia",
+          "forno",
+          "maiale",
+          "formaggio",
+          "confortante",
+          "caldo",
+          "tutta-la-famiglia",
+          "da-condividere"
+        ]
+      }
+    },
+    "stepCount": 6,
+    "ingredientCount": 8
+  },
+  {
+    "slug": "flan-de-courgettes-gratinees",
+    "title": "Flan de courgettes gratinées",
+    "description": "Des cercles de pâte brisée garnis de rondelles de courgettes sautées, de gruyère râpé et d'appareil à quiche, cuits à four doux.",
+    "images": {
+      "cover": "images/recipes/flan-de-courgettes-gratinees/cover.webp",
+      "web": "images/recipes/flan-de-courgettes-gratinees/web.webp"
+    },
+    "imageCredit": {
+      "author": "Eleonorenfalke",
+      "url": "https://pixabay.com/users/eleonorenfalke-6500899/"
+    },
+    "prepTime": 30,
+    "cookTime": 40,
+    "servings": 10,
+    "difficulty": "Medio",
+    "category": "Contorni",
+    "tags": [
+      "courgettes",
+      "légumes",
+      "fromage",
+      "four",
+      "végétarien",
+      "été",
+      "chaud",
+      "français",
+      "nostalgique",
+      "recette-de-famille",
+      "accompagnement",
+      "préparation-à-lavance"
+    ],
+    "origin": "amelie-grandpa",
+    "translations": {
+      "en": {
+        "title": "Gratinéed Zucchini Flan",
+        "description": "Shortcrust pastry rings filled with sautéed zucchini rounds, grated Gruyère and quiche mixture, baked in a low oven.",
+        "tags": [
+          "zucchini",
+          "vegetables",
+          "cheese",
+          "oven",
+          "vegetarian",
+          "summer",
+          "hot",
+          "french",
+          "nostalgic",
+          "family-recipe",
+          "side-dish",
+          "make-ahead"
+        ]
+      },
+      "it": {
+        "title": "Flan di zucchine gratinato",
+        "description": "Anelli di pasta brisée farciti con rondelle di zucchine saltate, groviera grattugiato e composto per quiche, cotti in forno dolce.",
+        "tags": [
+          "zucchine",
+          "verdure",
+          "formaggio",
+          "forno",
+          "vegetariano",
+          "estate",
+          "caldo",
+          "francese",
+          "nostalgico",
+          "ricetta-di-famiglia",
+          "contorno",
+          "preparazione-anticipata"
+        ]
+      }
+    },
+    "stepCount": 7,
+    "ingredientCount": 6
+  },
+  {
+    "slug": "flan-de-pointes-d-asperges",
+    "title": "Flan de pointes d'asperges",
+    "description": "Des barquettes de pâte brisée garnies de pointes d'asperges étuvées au beurre et d'un appareil au lait, à la crème et aux œufs.",
+    "images": {
+      "cover": "images/recipes/flan-de-pointes-d-asperges/cover.svg",
+      "web": "images/recipes/flan-de-pointes-d-asperges/cover.svg"
+    },
+    "prepTime": 30,
+    "cookTime": 30,
+    "servings": 10,
+    "difficulty": "Facile",
+    "category": "Contorni",
+    "tags": [
+      "asperges",
+      "légumes",
+      "accompagnement",
+      "français",
+      "nostalgique",
+      "recette-de-famille",
+      "four",
+      "printemps",
+      "végétarien",
+      "facile",
+      "fondant",
+      "chaud"
+    ],
+    "origin": "amelie-grandpa",
+    "translations": {
+      "en": {
+        "title": "Asparagus tip flan",
+        "description": "Shortcrust pastry barquettes filled with asparagus tips sweated in butter and a mixture of milk, cream and eggs.",
+        "tags": [
+          "asparagus",
+          "vegetables",
+          "side-dish",
+          "french",
+          "nostalgic",
+          "family-recipe",
+          "oven",
+          "spring",
+          "vegetarian",
+          "easy",
+          "melting",
+          "hot"
+        ]
+      },
+      "it": {
+        "title": "Flan di punte di asparagi",
+        "description": "Barchette di pasta brisée farcite con punte di asparagi stufate nel burro e un composto di latte, panna e uova.",
+        "tags": [
+          "asparagi",
+          "verdure",
+          "contorno",
+          "francese",
+          "nostalgico",
+          "ricetta-di-famiglia",
+          "forno",
+          "primavera",
+          "vegetariano",
+          "facile",
+          "fondente",
+          "caldo"
+        ]
+      }
+    },
+    "stepCount": 4,
+    "ingredientCount": 6
+  },
+  {
+    "slug": "gratin-de-bettes",
+    "title": "Gratin de bettes",
+    "description": "Les feuilles de bettes hachées dans la béchamel, les côtes cuites dans un blanc puis sautées au beurre, le tout gratiné au gruyère.",
+    "images": {
+      "cover": "images/recipes/gratin-de-bettes/cover.webp",
+      "web": "images/recipes/gratin-de-bettes/web.webp"
+    },
+    "imageCredit": {
+      "author": "RitaE",
+      "url": "https://pixabay.com/users/ritae-19628/"
+    },
+    "prepTime": 30,
+    "cookTime": 90,
+    "servings": 8,
+    "difficulty": "Facile",
+    "category": "Contorni",
+    "tags": [
+      "bettes",
+      "légumes",
+      "fromage",
+      "four",
+      "végétarien",
+      "accompagnement",
+      "français",
+      "réconfortant",
+      "nostalgique",
+      "recette-de-famille",
+      "chaud",
+      "automne"
+    ],
+    "origin": "amelie-grandpa",
+    "translations": {
+      "en": {
+        "title": "Swiss chard gratin",
+        "description": "Chopped chard leaves folded into béchamel, the stalks cooked in a blanc then sautéed in butter, all browned under grated Gruyère.",
+        "tags": [
+          "chard",
+          "vegetables",
+          "cheese",
+          "oven",
+          "vegetarian",
+          "side-dish",
+          "french",
+          "comforting",
+          "nostalgic",
+          "family-recipe",
+          "hot",
+          "autumn"
+        ]
+      },
+      "it": {
+        "title": "Gratin di bietole",
+        "description": "Le foglie di bietola tritate nella besciamella, le coste cotte in un bianco e poi saltate nel burro, il tutto gratinato con il groviera.",
+        "tags": [
+          "bietole",
+          "verdure",
+          "formaggio",
+          "forno",
+          "vegetariano",
+          "contorno",
+          "francese",
+          "confortante",
+          "nostalgico",
+          "ricetta-di-famiglia",
+          "caldo",
+          "autunno"
+        ]
+      }
+    },
+    "stepCount": 7,
+    "ingredientCount": 7
+  },
+  {
+    "slug": "pommes-amandines",
+    "title": "Pommes amandines",
+    "description": "Des boules de pommes Duchesse mêlées de pâte à choux, panées aux amandes effilées puis frites, croustillantes dehors et fondantes dedans.",
+    "images": {
+      "cover": "images/recipes/pommes-amandines/cover.svg",
+      "web": "images/recipes/pommes-amandines/cover.svg"
+    },
+    "prepTime": 45,
+    "cookTime": 40,
+    "servings": 10,
+    "difficulty": "Difficile",
+    "category": "Contorni",
+    "tags": [
+      "français",
+      "nostalgique",
+      "recette-de-famille",
+      "accompagnement",
+      "pommes-de-terre",
+      "amandes",
+      "friture",
+      "croustillant",
+      "fondant",
+      "végétarien",
+      "gourmand",
+      "chaud"
+    ],
+    "origin": "amelie-grandpa",
+    "translations": {
+      "en": {
+        "title": "Almond Potato Croquettes",
+        "description": "Balls of Duchess potatoes mixed with choux pastry, coated in flaked almonds then deep-fried, crisp outside and meltingly soft inside.",
+        "tags": [
+          "french",
+          "nostalgic",
+          "family-recipe",
+          "side-dish",
+          "potatoes",
+          "almonds",
+          "deep-fried",
+          "crispy",
+          "melting",
+          "vegetarian",
+          "indulgent",
+          "hot"
+        ]
+      },
+      "it": {
+        "title": "Crocchette di patate alle mandorle",
+        "description": "Palline di patate duchessa mescolate con pasta choux, impanate nelle mandorle a lamelle e poi fritte, croccanti fuori e morbide dentro.",
+        "tags": [
+          "francese",
+          "nostalgico",
+          "ricetta-di-famiglia",
+          "contorno",
+          "patate",
+          "mandorle",
+          "fritto",
+          "croccante",
+          "fondente",
+          "vegetariano",
+          "goloso",
+          "caldo"
+        ]
+      }
+    },
+    "stepCount": 13,
+    "ingredientCount": 12
+  },
+  {
+    "slug": "terrine-de-courgettes-au-basilic",
+    "title": "Terrine de courgettes au basilic",
+    "description": "Une terrine moelleuse de courgettes en bâtonnets et de basilic, liée aux œufs et à la crème, cuite au bain-marie et servie tiède ou froide.",
+    "images": {
+      "cover": "images/recipes/terrine-de-courgettes-au-basilic/cover.svg",
+      "web": "images/recipes/terrine-de-courgettes-au-basilic/cover.svg"
+    },
+    "prepTime": 20,
+    "cookTime": 45,
+    "servings": 20,
+    "difficulty": "Facile",
+    "category": "Contorni",
+    "tags": [
+      "français",
+      "nostalgique",
+      "recette-de-famille",
+      "accompagnement",
+      "courgettes",
+      "légumes",
+      "végétarien",
+      "bain-marie",
+      "four",
+      "moelleux",
+      "tiède",
+      "froid",
+      "été"
+    ],
+    "origin": "amelie-grandpa",
+    "translations": {
+      "en": {
+        "title": "Courgette and basil terrine",
+        "description": "A soft terrine of courgette sticks and basil, bound with eggs and cream, cooked in a bain-marie and served warm or cold.",
+        "tags": [
+          "french",
+          "nostalgic",
+          "family-recipe",
+          "side-dish",
+          "courgettes",
+          "vegetables",
+          "vegetarian",
+          "bain-marie",
+          "oven",
+          "soft",
+          "warm",
+          "cold",
+          "summer"
+        ]
+      },
+      "it": {
+        "title": "Terrina di zucchine al basilico",
+        "description": "Una terrina morbida di bastoncini di zucchine e basilico, legata con uova e panna, cotta a bagnomaria e servita tiepida o fredda.",
+        "tags": [
+          "francese",
+          "nostalgico",
+          "ricetta-di-famiglia",
+          "contorno",
+          "zucchine",
+          "verdure",
+          "vegetariano",
+          "bagnomaria",
+          "forno",
+          "morbido",
+          "tiepido",
+          "freddo",
+          "estate"
+        ]
+      }
+    },
+    "stepCount": 5,
+    "ingredientCount": 7
+  },
+  {
+    "slug": "timbale-d-epinards",
+    "title": "Timbale d'épinards",
+    "description": "Des épinards hachés et desséchés au beurre, liés à la crème et aux œufs, puis cuits au bain-marie dans un moule beurré.",
+    "images": {
+      "cover": "images/recipes/timbale-d-epinards/cover.svg",
+      "web": "images/recipes/timbale-d-epinards/cover.svg"
+    },
+    "prepTime": 20,
+    "cookTime": 40,
+    "servings": 8,
+    "difficulty": "Facile",
+    "category": "Contorni",
+    "tags": [
+      "épinards",
+      "légumes",
+      "œufs",
+      "bain-marie",
+      "four",
+      "végétarien",
+      "accompagnement",
+      "fondant",
+      "chaud",
+      "français",
+      "nostalgique",
+      "recette-de-famille"
+    ],
+    "origin": "amelie-grandpa",
+    "translations": {
+      "en": {
+        "title": "Spinach timbale",
+        "description": "Chopped spinach dried out in butter, bound with cream and eggs, then cooked in a bain-marie in a buttered mould.",
+        "tags": [
+          "spinach",
+          "vegetables",
+          "eggs",
+          "bain-marie",
+          "oven",
+          "vegetarian",
+          "side-dish",
+          "melting",
+          "hot",
+          "french",
+          "nostalgic",
+          "family-recipe"
+        ]
+      },
+      "it": {
+        "title": "Timballo di spinaci",
+        "description": "Spinaci tritati e asciugati nel burro, legati con panna e uova, poi cotti a bagnomaria in uno stampo imburrato.",
+        "tags": [
+          "spinaci",
+          "verdure",
+          "uova",
+          "bagnomaria",
+          "forno",
+          "vegetariano",
+          "contorno",
+          "fondente",
+          "caldo",
+          "francese",
+          "nostalgico",
+          "ricetta-di-famiglia"
+        ]
+      }
+    },
+    "stepCount": 6,
+    "ingredientCount": 5
+  },
+  {
+    "slug": "tomates-soufflees",
+    "title": "Tomates soufflées",
+    "description": "De belles tomates évidées, précuites au four puis garnies d'un soufflé au gruyère, à servir aussitôt.",
+    "images": {
+      "cover": "images/recipes/tomates-soufflees/cover.svg",
+      "web": "images/recipes/tomates-soufflees/cover.svg"
+    },
+    "prepTime": 20,
+    "cookTime": 25,
+    "servings": 8,
+    "difficulty": "Medio",
+    "category": "Contorni",
+    "tags": [
+      "tomate",
+      "légumes",
+      "fromage",
+      "four",
+      "accompagnement",
+      "français",
+      "nostalgique",
+      "recette-de-famille",
+      "végétarien",
+      "moelleux",
+      "chaud",
+      "été"
+    ],
+    "origin": "amelie-grandpa",
+    "translations": {
+      "en": {
+        "title": "Tomato soufflés",
+        "description": "Fine hollowed-out tomatoes, part-baked in the oven then filled with a gruyère soufflé, to serve at once.",
+        "tags": [
+          "tomato",
+          "vegetables",
+          "cheese",
+          "oven",
+          "side-dish",
+          "french",
+          "nostalgic",
+          "family-recipe",
+          "vegetarian",
+          "soft",
+          "hot",
+          "summer"
+        ]
+      },
+      "it": {
+        "title": "Pomodori soufflé",
+        "description": "Bei pomodori svuotati, precotti in forno e poi farciti con un soufflé al groviera, da servire subito.",
+        "tags": [
+          "pomodoro",
+          "verdure",
+          "formaggio",
+          "forno",
+          "contorno",
+          "francese",
+          "nostalgico",
+          "ricetta-di-famiglia",
+          "vegetariano",
+          "morbido",
+          "caldo",
+          "estate"
+        ]
+      }
+    },
+    "stepCount": 5,
+    "ingredientCount": 7
+  },
+  {
+    "slug": "tourte-de-pommes-de-terre",
+    "title": "Tourte de pommes de terre",
+    "description": "Une tourte en pâte brisée garnie de pommes de terre sautées, de lardons, d'ail et de persil, arrosée de crème au cerfeuil en fin de cuisson.",
+    "images": {
+      "cover": "images/recipes/tourte-de-pommes-de-terre/cover.svg",
+      "web": "images/recipes/tourte-de-pommes-de-terre/cover.svg"
+    },
+    "prepTime": 90,
+    "cookTime": 60,
+    "servings": 8,
+    "difficulty": "Medio",
+    "category": "Contorni",
+    "tags": [
+      "pommes-de-terre",
+      "légumes",
+      "porc",
+      "four",
+      "accompagnement",
+      "à-partager",
+      "hiver",
+      "réconfortant",
+      "chaud",
+      "français",
+      "nostalgique",
+      "recette-de-famille"
+    ],
+    "origin": "amelie-grandpa",
+    "translations": {
+      "en": {
+        "title": "Potato pie",
+        "description": "A shortcrust pie filled with sautéed potatoes, bacon lardons, garlic and parsley, finished with chervil cream poured in after baking.",
+        "tags": [
+          "potatoes",
+          "vegetables",
+          "pork",
+          "oven",
+          "side-dish",
+          "to-share",
+          "winter",
+          "comforting",
+          "hot",
+          "french",
+          "nostalgic",
+          "family-recipe"
+        ]
+      },
+      "it": {
+        "title": "Torta salata di patate",
+        "description": "Una torta salata di pasta brisée ripiena di patate saltate, lardoni, aglio e prezzemolo, completata a fine cottura con panna al cerfoglio.",
+        "tags": [
+          "patate",
+          "verdure",
+          "maiale",
+          "forno",
+          "contorno",
+          "da-condividere",
+          "inverno",
+          "confortante",
+          "caldo",
+          "francese",
+          "nostalgico",
+          "ricetta-di-famiglia"
+        ]
+      }
+    },
+    "stepCount": 10,
+    "ingredientCount": 12
   }
 ]
