@@ -54,6 +54,11 @@ describe("search on the real recipes", () => {
     for (const slug of search("senza glutine")) expect(byslug.get(slug)!.tags, slug).toContain("sans-gluten")
   })
 
+  it("finds the Papi d'Amélie classics by their usual names", () => {
+    expect(search("bœuf bourguignon")).toContain("estouffade-de-boeuf-a-la-bourguignonne")
+    expect(search("navarin d'agneau")).toContain("saute-d-agneau-aux-primeurs-ou-navarin-printanier")
+  })
+
   it("keeps a difficulty word that is part of a title", () => {
     expect(search("framboisier facile")).toContain("framboisier-facile-moelleux")
   })
