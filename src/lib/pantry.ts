@@ -57,7 +57,7 @@ export const PANTRY_ITEMS: PantryItem[] = [
   item("potato", "produce", "Pommes de terre", "Potatoes", "Patate", ["potato"]),
   item("sweet-potato", "produce", "Patates douces", "Sweet potatoes", "Patate dolci", ["sweet potato"]),
   item("squash", "produce", "Courge butternut", "Butternut squash", "Zucca", ["butternut squash", "squash", "pumpkin"]),
-  item("mushroom", "produce", "Champignons", "Mushrooms", "Funghi", ["mushroom", "porcini"]),
+  item("mushroom", "produce", "Champignons", "Mushrooms", "Funghi", ["mushroom", "porcini", "morel", "dried morel"]),
   item("spinach", "produce", "Épinards", "Spinach", "Spinaci", ["spinach"]),
   item("chard", "produce", "Blettes", "Swiss chard", "Bietole", ["swiss chard", "chard"]),
   item("asparagus", "produce", "Asperges", "Asparagus", "Asparagi", ["asparagus", "asparagus tip"]),
@@ -135,7 +135,7 @@ export const PANTRY_ITEMS: PantryItem[] = [
   item("kaffir-lime", "herbs", "Feuilles de combava", "Kaffir lime leaves", "Foglie di lime kaffir", ["kaffir lime leaf", "kaffir lime leave"]),
   item("dill", "herbs", "Aneth", "Dill", "Aneto", ["dill"]),
   item("bay-leaf", "herbs", "Laurier", "Bay leaves", "Alloro", ["bay leaf", "bay leave"]),
-  item("fresh-herbs", "herbs", "Fines herbes", "Fresh herbs", "Erbe aromatiche", ["fresh herb"]),
+  item("fresh-herbs", "herbs", "Fines herbes", "Fresh herbs", "Erbe aromatiche", ["fresh herb", "fines herbe", "fine herb"]),
 
   // Dairy and eggs
   item("eggs", "dairy", "Œufs", "Eggs", "Uova", ["egg", "egg yolk", "egg white", "yolk", "quiche mixture"]),
@@ -174,6 +174,7 @@ export const PANTRY_ITEMS: PantryItem[] = [
   item("guanciale", "meat", "Guanciale", "Guanciale", "Guanciale", ["guanciale"]),
   item("chorizo", "meat", "Chorizo", "Chorizo", "Chorizo", ["chorizo"]),
   item("falafel", "meat", "Falafels", "Falafels", "Falafel", ["falafel"]),
+  item("snails", "meat", "Escargots", "Snails", "Lumache", ["snail", "dozen snail"]),
   item("pate", "meat", "Pâté ou terrine", "Pâté or terrine", "Paté o terrina", ["pate", "country pate", "terrine", "liver mousse"]),
   item("salmon", "fish", "Saumon", "Salmon", "Salmone", ["salmon", "fresh salmon", "smoked salmon"]),
   item("tuna", "fish", "Thon", "Tuna", "Tonno", ["tuna"]),

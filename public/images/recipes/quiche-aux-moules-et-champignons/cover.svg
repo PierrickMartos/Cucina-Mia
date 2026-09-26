@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <defs>
+    <radialGradient id="qmbg" cx="50%" cy="45%" r="70%"><stop offset="0%" stop-color="#2e2822"/><stop offset="100%" stop-color="#1a1510"/></radialGradient>
+    <linearGradient id="qmcrust" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#e0aa58"/><stop offset="100%" stop-color="#a86c2a"/></linearGradient>
+    <radialGradient id="qmfill" cx="45%" cy="40%" r="65%"><stop offset="0%" stop-color="#fbe2a0"/><stop offset="100%" stop-color="#dcae5c"/></radialGradient>
+    <radialGradient id="qmmus" cx="40%" cy="35%" r="65%"><stop offset="0%" stop-color="#ffa860"/><stop offset="100%" stop-color="#d8702c"/></radialGradient>
+  </defs>
+  <rect width="800" height="600" fill="url(#qmbg)"/>
+  <ellipse cx="400" cy="440" rx="320" ry="60" fill="#000" opacity="0.35"/>
+  <g opacity="0.22">
+    <path d="M90,420 Q130,380 180,405 Q150,440 90,420 Z" fill="#2a2a3a"/><path d="M100,418 Q135,396 170,407" stroke="#8a8aa8" stroke-width="2" fill="none"/>
+    <path d="M650,400 Q690,375 730,395 Q705,425 650,400 Z" fill="#e8d860"/><circle cx="690" cy="397" r="10" fill="#fff4a0"/>
+  </g>
+  <ellipse cx="400" cy="325" rx="290" ry="135" fill="#8a5820"/>
+  <ellipse cx="400" cy="310" rx="290" ry="135" fill="url(#qmcrust)"/>
+  <g fill="#c88a40" opacity="0.6">
+    <path d="M120,310 q10,-12 20,0 q10,-12 20,0" /><path d="M640,310 q10,-12 20,0 q10,-12 20,0"/>
+  </g>
+  <ellipse cx="400" cy="312" rx="258" ry="112" fill="url(#qmfill)"/>
+  <ellipse cx="360" cy="280" rx="140" ry="40" fill="#fff4c8" opacity="0.35"/>
+  <g fill="#d09040" opacity="0.45">
+    <ellipse cx="260" cy="350" rx="30" ry="12"/><ellipse cx="520" cy="360" rx="36" ry="12"/><ellipse cx="430" cy="250" rx="28" ry="10"/>
+  </g>
+  <g>
+    <path d="M0,0 Q-14,-20 0,-26 Q14,-20 0,0 Z" transform="translate(260,280) rotate(-70) scale(1.9)" fill="#e8dcc0"/>
+    <path d="M0,0 Q-14,-20 0,-26 Q14,-20 0,0 Z" transform="translate(470,300) rotate(80) scale(1.9)" fill="#e8dcc0"/>
+    <path d="M0,0 Q-14,-20 0,-26 Q14,-20 0,0 Z" transform="translate(360,360) rotate(10) scale(1.9)" fill="#e8dcc0"/>
+    <path d="M0,0 Q-14,-20 0,-26 Q14,-20 0,0 Z" transform="translate(560,270) rotate(-20) scale(1.7)" fill="#e8dcc0"/>
+    <path d="M0,0 Q-14,-20 0,-26 Q14,-20 0,0 Z" transform="translate(310,240) rotate(40) scale(1.7)" fill="#e8dcc0"/>
+    <path d="M0,0 Q-14,-20 0,-26 Q14,-20 0,0 Z" transform="translate(600,340) rotate(60) scale(1.7)" fill="#e8dcc0"/>
+  </g>
+  <g fill="#9a6a3a" opacity="0.7">
+    <rect x="-3" y="-20" width="6" height="16" rx="2" transform="translate(260,280) rotate(-70) scale(1.9)"/>
+    <rect x="-3" y="-20" width="6" height="16" rx="2" transform="translate(470,300) rotate(80) scale(1.9)"/>
+    <rect x="-3" y="-20" width="6" height="16" rx="2" transform="translate(360,360) rotate(10) scale(1.9)"/>
+  </g>
+  <g fill="url(#qmmus)">
+    <ellipse cx="330" cy="300" rx="20" ry="11" transform="rotate(-20 330 300)"/>
+    <ellipse cx="410" cy="290" rx="21" ry="11" transform="rotate(15 410 290)"/>
+    <ellipse cx="500" cy="250" rx="19" ry="10" transform="rotate(-10 500 250)"/>
+    <ellipse cx="440" cy="350" rx="20" ry="11" transform="rotate(25 440 350)"/>
+    <ellipse cx="220" cy="320" rx="18" ry="10" transform="rotate(10 220 320)"/>
+    <ellipse cx="540" cy="320" rx="20" ry="11" transform="rotate(-25 540 320)"/>
+    <ellipse cx="370" cy="240" rx="18" ry="10" transform="rotate(5 370 240)"/>
+    <ellipse cx="300" cy="370" rx="18" ry="10" transform="rotate(-15 300 370)"/>
+  </g>
+  <g fill="#1e1a26">
+    <path d="M190,300 Q200,270 232,262 Q226,292 190,300 Z"/><path d="M578,352 Q606,336 628,348 Q604,370 578,352 Z"/>
+  </g>
+  <g fill="#fff" opacity="0.35">
+    <ellipse cx="325" cy="296" rx="6" ry="3"/><ellipse cx="405" cy="286" rx="6" ry="3"/><ellipse cx="496" cy="246" rx="5" ry="3"/><ellipse cx="535" cy="316" rx="6" ry="3"/>
+  </g>
+  <g fill="#3c8a34">
+    <circle cx="280" cy="320" r="3"/><circle cx="460" cy="270" r="3"/><circle cx="390" cy="330" r="3"/><circle cx="520" cy="290" r="2.5"/>
+    <circle cx="250" cy="250" r="2.5"/><circle cx="580" cy="300" r="2.5"/><circle cx="340" cy="260" r="2.5"/>
+  </g>
+</svg>
