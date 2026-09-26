@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <defs>
+    <radialGradient id="pcbg2" cx="50%" cy="40%" r="70%"><stop offset="0%" stop-color="#2a2520"/><stop offset="100%" stop-color="#151210"/></radialGradient>
+    <radialGradient id="pcpudding" cx="45%" cy="35%" r="50%"><stop offset="0%" stop-color="#faf6f0"/><stop offset="100%" stop-color="#e8ddd0"/></radialGradient>
+  </defs>
+  <rect width="800" height="600" fill="url(#pcbg2)"/>
+  <!-- Plate shadow -->
+  <ellipse cx="405" cy="380" rx="180" ry="55" fill="#0d0a07" opacity="0.4"/>
+  <!-- Plate -->
+  <ellipse cx="400" cy="365" rx="175" ry="50" fill="#e8e0d4"/>
+  <ellipse cx="400" cy="365" rx="155" ry="43" fill="#f5f0e8"/>
+  <!-- Berry sauce pool -->
+  <ellipse cx="400" cy="365" rx="140" ry="38" fill="#f5f0e8"/>
+  <ellipse cx="420" cy="370" rx="60" ry="18" fill="#8a1030" opacity="0.7"/>
+  <ellipse cx="360" cy="368" rx="40" ry="12" fill="#a01838" opacity="0.5"/>
+  <!-- Panna cotta dome -->
+  <ellipse cx="390" cy="340" rx="65" ry="28" fill="url(#pcpudding)"/>
+  <ellipse cx="390" cy="310" rx="55" ry="38" fill="url(#pcpudding)"/>
+  <!-- Sheen -->
+  <ellipse cx="378" cy="298" rx="20" ry="12" fill="white" opacity="0.15"/>
+  <!-- Vanilla specks -->
+  <g fill="#2a2015" opacity="0.2">
+    <circle cx="382" cy="310" r="0.8"/><circle cx="395" cy="305" r="0.6"/>
+    <circle cx="388" cy="318" r="0.7"/><circle cx="400" cy="312" r="0.5"/>
+    <circle cx="378" cy="322" r="0.6"/>
+  </g>
+  <!-- Berry sauce drip -->
+  <path d="M420,338 Q425,345 428,355 Q430,362 425,368" fill="#8a1030" opacity="0.6" stroke="none"/>
+  <!-- Berries on plate -->
+  <g>
+    <circle cx="445" cy="358" r="7" fill="#c01040"/><circle cx="445" cy="358" r="7" fill="white" opacity="0.1"/>
+    <circle cx="460" cy="365" r="6" fill="#2020a0" opacity="0.8"/>
+    <circle cx="435" cy="370" r="5" fill="#c01040"/>
+    <circle cx="470" cy="360" r="5.5" fill="#2020a0" opacity="0.7"/>
+    <circle cx="452" cy="375" r="4.5" fill="#c81848"/>
+    <circle cx="345" cy="362" r="6" fill="#c01040"/>
+    <circle cx="355" cy="370" r="5" fill="#2020a0" opacity="0.8"/>
+    <circle cx="335" cy="372" r="4" fill="#c81848"/>
+  </g>
+  <!-- Raspberry texture -->
+  <g fill="white" opacity="0.12">
+    <circle cx="444" cy="356" r="1.5"/><circle cx="447" cy="360" r="1.2"/>
+    <circle cx="344" cy="360" r="1.5"/><circle cx="436" cy="368" r="1.2"/>
+  </g>
+  <!-- Mint leaf -->
+  <g transform="translate(390, 295) rotate(-20)">
+    <path d="M0,0 Q-8,-14 0,-22 Q8,-14 0,0Z" fill="#2d7a2d"/>
+    <line x1="0" y1="0" x2="0" y2="-19" stroke="#1e5a1e" stroke-width="0.6" opacity="0.5"/>
+  </g>
+</svg>
