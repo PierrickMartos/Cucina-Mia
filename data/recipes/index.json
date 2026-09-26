@@ -8731,5 +8731,297 @@
     },
     "stepCount": 8,
     "ingredientCount": 4
+  },
+  {
+    "slug": "glace-a-la-creme-anglaise",
+    "title": "Glace à la crème anglaise",
+    "description": "L'appareil de base du papi pour les glaces : une crème anglaise à la vanille, pochée sans bouillir puis prise à la sorbetière.",
+    "images": {
+      "cover": "images/recipes/glace-a-la-creme-anglaise/cover.webp",
+      "web": "images/recipes/glace-a-la-creme-anglaise/web.webp"
+    },
+    "imageCredit": {
+      "author": "stevepb",
+      "url": "https://pixabay.com/users/stevepb-282134/"
+    },
+    "prepTime": 20,
+    "cookTime": 15,
+    "servings": 10,
+    "difficulty": "Medio",
+    "category": "Gelati",
+    "tags": [
+      "dessert",
+      "œufs",
+      "vanille",
+      "glacé",
+      "onctueux",
+      "sorbetière",
+      "se-congèle",
+      "préparation-à-lavance",
+      "été",
+      "français",
+      "nostalgique",
+      "recette-de-famille"
+    ],
+    "origin": "amelie-grandpa",
+    "translations": {
+      "en": {
+        "title": "Custard ice cream",
+        "description": "Grandpa's base mixture for ice creams: a vanilla crème anglaise, poached without boiling, then churned in an ice cream maker.",
+        "tags": [
+          "dessert",
+          "eggs",
+          "vanilla",
+          "frozen",
+          "creamy",
+          "ice-cream-maker",
+          "freezes-well",
+          "make-ahead",
+          "summer",
+          "french",
+          "nostalgic",
+          "family-recipe"
+        ]
+      },
+      "it": {
+        "title": "Gelato alla crema inglese",
+        "description": "Il composto base del nonno per i gelati: una crema inglese alla vaniglia, cotta senza bollire e poi mantecata in gelatiera.",
+        "tags": [
+          "dessert",
+          "uova",
+          "vaniglia",
+          "ghiacciato",
+          "cremoso",
+          "gelatiera",
+          "si-congela",
+          "da-preparare-in-anticipo",
+          "estate",
+          "francese",
+          "nostalgico",
+          "ricetta-di-famiglia"
+        ]
+      }
+    },
+    "stepCount": 7,
+    "ingredientCount": 5
+  },
+  {
+    "slug": "glaces-ou-sorbets-aux-fruits",
+    "title": "Glaces ou sorbets aux fruits",
+    "description": "Une glace aux fruits toute simple : purée de fruits, citron, sirop et crème fouettée pris en sorbetière, avec une variante au lait concentré sucré.",
+    "images": {
+      "cover": "images/recipes/glaces-ou-sorbets-aux-fruits/cover.webp",
+      "web": "images/recipes/glaces-ou-sorbets-aux-fruits/web.webp"
+    },
+    "imageCredit": {
+      "author": "stux",
+      "url": "https://pixabay.com/users/stux-12364/"
+    },
+    "prepTime": 15,
+    "cookTime": 10,
+    "servings": 10,
+    "difficulty": "Facile",
+    "category": "Gelati",
+    "tags": [
+      "dessert",
+      "fruits",
+      "français",
+      "nostalgique",
+      "recette-de-famille",
+      "glacé",
+      "été",
+      "facile",
+      "sans-gluten",
+      "toute-la-famille",
+      "se-congèle"
+    ],
+    "origin": "amelie-grandpa",
+    "translations": {
+      "en": {
+        "title": "Fruit ice creams or sorbets",
+        "description": "A very simple fruit ice cream: fruit purée, lemon, syrup and whipped cream churned in an ice cream maker, with a sweetened condensed milk variation.",
+        "tags": [
+          "dessert",
+          "fruit",
+          "french",
+          "nostalgic",
+          "family-recipe",
+          "frozen",
+          "summer",
+          "easy",
+          "gluten-free",
+          "whole-family",
+          "freezer-friendly"
+        ]
+      },
+      "it": {
+        "title": "Gelati o sorbetti alla frutta",
+        "description": "Un gelato alla frutta semplicissimo: purea di frutta, limone, sciroppo e panna montata mantecati in gelatiera, con una variante al latte condensato zuccherato.",
+        "tags": [
+          "dessert",
+          "frutta",
+          "francese",
+          "nostalgico",
+          "ricetta-di-famiglia",
+          "ghiacciato",
+          "estate",
+          "facile",
+          "senza-glutine",
+          "tutta-la-famiglia",
+          "si-congela"
+        ]
+      }
+    },
+    "stepCount": 3,
+    "ingredientCount": 10
+  },
+  {
+    "slug": "sorbets",
+    "title": "Sorbets",
+    "description": "Trois sorbets du papi à base de sirop cuit : agrumes, ananas et fruits rouges, pour 2 litres de glace environ.",
+    "images": {
+      "cover": "images/recipes/sorbets/cover.webp",
+      "web": "images/recipes/sorbets/web.webp"
+    },
+    "imageCredit": {
+      "author": "VIVIANE6276",
+      "url": "https://pixabay.com/users/viviane6276-8115285/"
+    },
+    "prepTime": 20,
+    "cookTime": 10,
+    "servings": 16,
+    "difficulty": "Facile",
+    "category": "Gelati",
+    "tags": [
+      "dessert",
+      "fruits",
+      "agrumes",
+      "glacé",
+      "été",
+      "végétarien",
+      "sans-lactose",
+      "facile",
+      "préparation-à-lavance",
+      "français",
+      "nostalgique",
+      "recette-de-famille"
+    ],
+    "origin": "amelie-grandpa",
+    "translations": {
+      "en": {
+        "title": "Sorbets",
+        "description": "Grandpa's three sorbets made with a cooked syrup: citrus, pineapple and red berries, for about 2 litres of ice each.",
+        "tags": [
+          "dessert",
+          "fruit",
+          "citrus",
+          "frozen",
+          "summer",
+          "vegetarian",
+          "dairy-free",
+          "easy",
+          "make-ahead",
+          "french",
+          "nostalgic",
+          "family-recipe"
+        ]
+      },
+      "it": {
+        "title": "Sorbetti",
+        "description": "I tre sorbetti del nonno a base di sciroppo cotto: agrumi, ananas e frutti rossi, per circa 2 litri di gelato ciascuno.",
+        "tags": [
+          "dessert",
+          "frutta",
+          "agrumi",
+          "ghiacciato",
+          "estate",
+          "vegetariano",
+          "senza-lattosio",
+          "facile",
+          "da-preparare-in-anticipo",
+          "francese",
+          "nostalgico",
+          "ricetta-di-famiglia"
+        ]
+      }
+    },
+    "stepCount": 9,
+    "ingredientCount": 14
+  },
+  {
+    "slug": "glace-au-yaourt-et-citron-orange",
+    "title": "Glace au yaourt et citron-orange",
+    "description": "Une glace fraîche au yaourt et à la crème, parfumée au jus et aux zestes de citrons et d'oranges.",
+    "images": {
+      "cover": "images/recipes/glace-au-yaourt-et-citron-orange/cover.webp",
+      "web": "images/recipes/glace-au-yaourt-et-citron-orange/web.webp"
+    },
+    "imageCredit": {
+      "author": "silviarita",
+      "url": "https://pixabay.com/users/silviarita-3142410/"
+    },
+    "prepTime": 30,
+    "cookTime": 0,
+    "servings": 10,
+    "difficulty": "Facile",
+    "category": "Gelati",
+    "tags": [
+      "dessert",
+      "yaourt",
+      "citron",
+      "agrumes",
+      "français",
+      "glacé",
+      "été",
+      "no-cuisson",
+      "facile",
+      "se-congèle",
+      "acidulé",
+      "nostalgique",
+      "recette-de-famille"
+    ],
+    "origin": "amelie-grandpa",
+    "translations": {
+      "en": {
+        "title": "Yogurt and lemon-orange ice cream",
+        "description": "A fresh ice cream made with yogurt and cream, flavoured with the juice and zest of lemons and oranges.",
+        "tags": [
+          "dessert",
+          "yogurt",
+          "lemon",
+          "citrus",
+          "french",
+          "frozen",
+          "summer",
+          "no-cook",
+          "easy",
+          "freezer-friendly",
+          "tangy",
+          "nostalgic",
+          "family-recipe"
+        ]
+      },
+      "it": {
+        "title": "Gelato allo yogurt, limone e arancia",
+        "description": "Un gelato fresco allo yogurt e alla panna, profumato con il succo e la scorza di limoni e arance.",
+        "tags": [
+          "dessert",
+          "yogurt",
+          "limone",
+          "agrumi",
+          "francese",
+          "ghiacciato",
+          "estate",
+          "senza-cottura",
+          "facile",
+          "si-congela",
+          "acidulo",
+          "nostalgico",
+          "ricetta-di-famiglia"
+        ]
+      }
+    },
+    "stepCount": 8,
+    "ingredientCount": 7
   }
 ]
