@@ -68,6 +68,11 @@ export const PANTRY_ITEMS: PantryItem[] = [
   item("bamboo-shoot", "produce", "Pousses de bambou", "Bamboo shoots", "Germogli di bambù", ["bamboo shoot"]),
   item("ratatouille", "produce", "Ratatouille", "Ratatouille", "Ratatouille", ["ratatouille"]),
   item("lentils", "produce", "Lentilles", "Lentils", "Lenticchie", ["lentil"]),
+  item("chickpeas", "produce", "Pois chiches", "Chickpeas", "Ceci", ["chickpea"]),
+  item("peas", "produce", "Petits pois", "Peas", "Piselli", ["pea"]),
+  item("green-beans", "produce", "Haricots verts", "Green beans", "Fagiolini", ["green bean"]),
+  item("turnip", "produce", "Navets", "Turnips", "Rape", ["turnip"]),
+  item("celery", "produce", "Céleri", "Celery", "Sedano", ["celery", "celery stalk"]),
 
   // Fruit
   item("lemon", "fruit", "Citrons", "Lemons", "Limoni", ["lemon", "lemon juice"]),
@@ -84,6 +89,7 @@ export const PANTRY_ITEMS: PantryItem[] = [
   item("melon", "fruit", "Melon", "Melon", "Melone", ["melon"]),
   item("raspberry", "fruit", "Framboises", "Raspberries", "Lamponi", ["raspberry", "raspberries", "raspberry coulis"]),
   item("raisins", "fruit", "Raisins secs", "Raisins", "Uvetta", ["raisin"]),
+  item("prunes", "fruit", "Pruneaux", "Prunes", "Prugne secche", ["prune"]),
 
   // Herbs and aromatics
   item("basil", "herbs", "Basilic", "Basil", "Basilico", ["basil", "thai basil"]),
@@ -95,6 +101,9 @@ export const PANTRY_ITEMS: PantryItem[] = [
   item("rosemary", "herbs", "Romarin", "Rosemary", "Rosmarino", ["rosemary"]),
   item("oregano", "herbs", "Origan", "Oregano", "Origano", ["oregano"]),
   item("tarragon", "herbs", "Estragon", "Tarragon", "Dragoncello", ["tarragon"]),
+  item("sage", "herbs", "Sauge", "Sage", "Salvia", ["sage", "sage leaf", "sage leave"]),
+  item("chervil", "herbs", "Cerfeuil", "Chervil", "Cerfoglio", ["chervil"]),
+  item("bouquet-garni", "herbs", "Bouquet garni", "Bouquet garni", "Mazzetto aromatico", ["bouquet garni"]),
   item("ginger", "herbs", "Gingembre", "Ginger", "Zenzero", ["ginger"]),
   item("chili", "herbs", "Piment", "Chili", "Peperoncino", [
     "chili", "chilli", "chili pepper", "chili flake", "espelette pepper", "espelette chili pepper", "cayenne",
@@ -129,8 +138,9 @@ export const PANTRY_ITEMS: PantryItem[] = [
   item("pork", "meat", "Porc", "Pork", "Maiale", ["pork", "pork tenderloin", "pork shoulder"]),
   item("sausage", "meat", "Saucisses", "Sausages", "Salsicce", ["sausage", "sausage meat"]),
   item("minced-meat", "meat", "Viande hachée", "Minced meat", "Carne macinata", ["minced meat", "ground beef"]),
-  item("beef", "meat", "Bœuf", "Beef", "Manzo", ["beef", "marrow bone"]),
+  item("beef", "meat", "Bœuf", "Beef", "Manzo", ["beef", "marrow bone", "ox tongue"]),
   item("lamb", "meat", "Agneau", "Lamb", "Agnello", ["lamb"]),
+  item("veal", "meat", "Veau", "Veal", "Vitello", ["veal", "calf s foot"]),
   item("duck", "meat", "Canard", "Duck", "Anatra", ["duck", "duck breast"]),
   item("foie-gras", "meat", "Foie gras", "Foie gras", "Foie gras", ["foie gras"]),
   item("ham", "meat", "Jambon", "Ham", "Prosciutto cotto", ["ham", "cooked ham", "prosciutto cotto"]),
@@ -157,6 +167,7 @@ export const PANTRY_ITEMS: PantryItem[] = [
   item("bread", "starches", "Pain", "Bread", "Pane", ["bread", "sandwich bread", "country bread", "pita", "pita bread"]),
   item("breadcrumbs", "starches", "Chapelure", "Breadcrumbs", "Pangrattato", ["breadcrumb", "panko"]),
   item("pastry", "starches", "Pâte brisée", "Shortcrust pastry", "Pasta brisée", ["shortcrust pastry"]),
+  item("puff-pastry", "starches", "Pâte feuilletée", "Puff pastry", "Pasta sfoglia", ["puff pastry"]),
   item("biscuits", "starches", "Spéculoos", "Speculoos biscuits", "Biscotti speculoos", ["speculoos", "biscuit"]),
 
   // Pantry
@@ -188,12 +199,15 @@ export const PANTRY_ITEMS: PantryItem[] = [
   item("tamarind", "pantry", "Tamarin", "Tamarind", "Tamarindo", ["tamarind", "tamarind jam", "tamarind concentrate"]),
   item("curry-paste", "pantry", "Pâte de curry", "Curry paste", "Pasta di curry", ["curry paste", "green curry", "green curry paste", "paneng curry paste"]),
   item("capers", "pantry", "Câpres", "Capers", "Capperi", ["caper"]),
+  item("harissa", "pantry", "Harissa", "Harissa", "Harissa", ["harissa"]),
   item("dashi", "pantry", "Dashi", "Dashi", "Dashi", ["dashi powder"]),
   item("white-wine", "pantry", "Vin blanc", "White wine", "Vino bianco", ["white wine", "sweet white wine", "dry white wine"]),
   item("red-wine", "pantry", "Vin rouge", "Red wine", "Vino rosso", ["red wine"]),
   item("champagne", "pantry", "Champagne", "Champagne", "Champagne", ["champagne"]),
   item("beer", "pantry", "Bière", "Beer", "Birra", ["beer", "lager"]),
   item("rum", "pantry", "Rhum", "Rum", "Rum", ["rum"]),
+  item("cognac", "pantry", "Cognac", "Cognac", "Cognac", ["cognac"]),
+  item("port", "pantry", "Porto", "Port", "Porto", ["port", "port wine"]),
   item("almonds", "pantry", "Amandes", "Almonds", "Mandorle", ["almond", "almond flour"]),
   item("hazelnuts", "pantry", "Noisettes", "Hazelnuts", "Nocciole", ["hazelnut"]),
   item("walnuts", "pantry", "Noix", "Walnuts", "Noci", ["walnut"]),
@@ -213,6 +227,7 @@ export const PANTRY_ITEMS: PantryItem[] = [
   item("saffron", "spices", "Safran", "Saffron", "Zafferano", ["saffron"]),
   item("curry-powder", "spices", "Curry en poudre", "Curry powder", "Curry in polvere", ["curry powder"]),
   item("masala", "spices", "Garam masala", "Garam masala", "Garam masala", ["garam masala", "biryani masala", "tandoori powder"]),
+  item("couscous-spices", "spices", "Épices à couscous", "Couscous spice mix", "Spezie per couscous", ["couscous spice mix", "ras el hanout"]),
   item("ground-coriander", "spices", "Coriandre en poudre", "Ground coriander", "Coriandolo in polvere", ["ground coriander"]),
   item("fennel-seeds", "spices", "Fenouil en poudre", "Ground fennel", "Finocchio in polvere", ["ground fennel"]),
 ]
