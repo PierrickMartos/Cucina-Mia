@@ -1,0 +1,191 @@
+{
+  "slug": "souffle-a-la-bisque-de-homard",
+  "title": "Soufflé à la bisque de homard",
+  "description": "Un soufflé salé monté sur une béchamel parfumée à la bisque de homard et relevée d'une pointe de Cayenne, à servir dès la sortie du four.",
+  "images": {
+    "cover": "images/recipes/souffle-a-la-bisque-de-homard/cover.svg",
+    "web": "images/recipes/souffle-a-la-bisque-de-homard/cover.svg"
+  },
+  "prepTime": 20,
+  "cookTime": 40,
+  "servings": 8,
+  "difficulty": "Medio",
+  "category": "Antipasti",
+  "origin": "amelie-grandpa",
+  "tags": [
+    "fruits-de-mer",
+    "homard",
+    "œufs",
+    "four",
+    "entrée",
+    "français",
+    "traditionnel",
+    "festif",
+    "chaud",
+    "nostalgique",
+    "recette-de-famille"
+  ],
+  "ingredients": [
+    {
+      "items": [
+        "1 boîte de bisque de homard",
+        "100 g de beurre",
+        "100 g de farine",
+        "½ l de lait",
+        "6 œufs",
+        "Sel, poivre, pointe de Cayenne"
+      ]
+    }
+  ],
+  "steps": [
+    {
+      "text": "Préparation de base de la béchamel, le roux blanc : faire fondre le beurre sans coloration, ajouter la farine, bien mélanger et cuire doucement 3 à 4 minutes.",
+      "timers": [3]
+    },
+    {
+      "text": "Ajouter progressivement et doucement le lait tiède tout en remuant pour éviter les grumeaux, porter à ébullition, ajouter le sel, le poivre, 1 pointe de Cayenne, cuire à feu doux 2 à 3 minutes.",
+      "timers": [2]
+    },
+    {
+      "text": "À la fin de la cuisson, ajouter la bisque de homard, mélanger et porter l'ensemble à ébullition puis retirer."
+    },
+    {
+      "text": "Hors du feu, ajouter les 6 jaunes d'œufs un par un, mélanger et rectifier l'assaisonnement si nécessaire."
+    },
+    {
+      "text": "Dans un récipient, monter les blancs en neige assez ferme et les mélanger progressivement et délicatement à la préparation de base."
+    },
+    {
+      "text": "Prendre un moule à soufflé, beurrer toute la surface, saupoudrer le fond et les parois de farine, retourner le moule pour enlever l'excédent de farine."
+    },
+    {
+      "text": "Verser la préparation dans le moule, lisser le dessus et faire cuire à chaleur moyenne."
+    },
+    {
+      "text": "Servir dès la sortie du four."
+    }
+  ],
+  "source": "Les recettes de Maurice Houdré, tome 3, Les soufflés",
+  "originalSource": {
+    "type": "text",
+    "data": "Soufflé à la bisque de homard \n\nIngrédients : pour 8 personnes\n\n. 1 boîte de bisque de homard\n. 100 g de beurre\n. 100 g de farine\n. ½ l de lait\n. 6 œufs\n. sel, poivre, pointe de Cayenne\n\nPréparation de base de la Béchamel :\n\ne roux blanc : Faire fondre le beurre sans coloration, ajouter la farine, bien mélanger et cuire doucement 3 à 4 minutes.\nAjouter progressivement et doucement le lait tiède tout en remuant pour éviter les grumeaux, porter à ébullition, ajouter le sel, le poivre, 1 pointe de Cayenne, cuire à feu doux 2 à 3 minutes.\nA la fin de la cuisson, ajouter la bisque de homard, mélanger et porter l’ensemble à ébullition puis retirer.\nHors du feu, ajouter 6 jaunes d’œufs un par un, mélanger et rectifier l’assaisonnement si nécessaire.\nDans un récipient, monter les blancs en neige assez ferme et les mélanger progressivement et délicatement à la préparation de base.\nPrendre un moule à soufflé, beurrer toute la surface, saupoudrer le fond et les parois de farine, retourner le moule pour enlever l’excédent de farine.\nVerser la préparation dans le moule, lisser le dessus et faire cuire à chaleur moyenne.\nServir dès la sortie du four.\n"
+  },
+  "related": [
+    "homard-a-l-americaine",
+    "dartois-au-thon",
+    "souffle-aux-crevettes",
+    "souffle-aux-moules"
+  ],
+  "translations": {
+    "en": {
+      "title": "Lobster bisque soufflé",
+      "description": "A savoury soufflé built on a béchamel flavoured with lobster bisque and lifted with a pinch of cayenne, to be served straight from the oven.",
+      "tags": [
+        "seafood",
+        "lobster",
+        "eggs",
+        "oven",
+        "starter",
+        "french",
+        "traditional",
+        "festive",
+        "hot",
+        "nostalgic",
+        "family-recipe"
+      ],
+      "ingredients": [
+        {
+          "items": [
+            "1 can of lobster bisque",
+            "100 g of butter",
+            "100 g of flour",
+            "½ l of milk",
+            "6 eggs",
+            "Salt, pepper, a pinch of cayenne"
+          ]
+        }
+      ],
+      "steps": [
+        {
+          "text": "Base for the béchamel, the white roux: melt the butter without colouring, add the flour, mix well and cook gently for 3 to 4 minutes."
+        },
+        {
+          "text": "Gradually and slowly add the warm milk while stirring to avoid lumps, bring to the boil, add the salt, the pepper and 1 pinch of cayenne, then cook over low heat for 2 to 3 minutes."
+        },
+        {
+          "text": "At the end of cooking, add the lobster bisque, mix, bring everything to the boil, then take off the heat."
+        },
+        {
+          "text": "Off the heat, add the 6 egg yolks one at a time, mix and adjust the seasoning if needed."
+        },
+        {
+          "text": "In a bowl, whisk the egg whites to fairly stiff peaks and fold them gradually and gently into the base mixture."
+        },
+        {
+          "text": "Take a soufflé dish, butter the whole surface, dust the bottom and sides with flour, then turn the dish upside down to remove the excess flour."
+        },
+        {
+          "text": "Pour the mixture into the dish, smooth the top and bake in a moderate oven."
+        },
+        {
+          "text": "Serve straight from the oven."
+        }
+      ]
+    },
+    "it": {
+      "title": "Soufflé alla bisque di astice",
+      "description": "Un soufflé salato preparato su una besciamella profumata alla bisque di astice e ravvivata da un pizzico di pepe di Caienna, da servire appena sfornato.",
+      "tags": [
+        "frutti-di-mare",
+        "astice",
+        "uova",
+        "forno",
+        "antipasto",
+        "francese",
+        "tradizionale",
+        "festivo",
+        "caldo",
+        "nostalgico",
+        "ricetta-di-famiglia"
+      ],
+      "ingredients": [
+        {
+          "items": [
+            "1 scatola di bisque di astice",
+            "100 g di burro",
+            "100 g di farina",
+            "½ l di latte",
+            "6 uova",
+            "Sale, pepe, un pizzico di pepe di Caienna"
+          ]
+        }
+      ],
+      "steps": [
+        {
+          "text": "Base per la besciamella, il roux bianco: far fondere il burro senza farlo colorire, aggiungere la farina, mescolare bene e cuocere dolcemente per 3-4 minuti."
+        },
+        {
+          "text": "Aggiungere gradualmente e lentamente il latte tiepido mescolando per evitare i grumi, portare a ebollizione, aggiungere il sale, il pepe e 1 pizzico di pepe di Caienna, poi cuocere a fuoco basso per 2-3 minuti."
+        },
+        {
+          "text": "A fine cottura, aggiungere la bisque di astice, mescolare, portare il tutto a ebollizione e poi togliere dal fuoco."
+        },
+        {
+          "text": "Fuori dal fuoco, aggiungere i 6 tuorli uno alla volta, mescolare e regolare di condimento se necessario."
+        },
+        {
+          "text": "In una ciotola, montare gli albumi a neve abbastanza ferma e incorporarli gradualmente e delicatamente al composto di base."
+        },
+        {
+          "text": "Prendere uno stampo da soufflé, imburrare tutta la superficie, spolverare di farina il fondo e le pareti, poi capovolgere lo stampo per eliminare la farina in eccesso."
+        },
+        {
+          "text": "Versare il composto nello stampo, livellare la superficie e cuocere in forno a calore moderato."
+        },
+        {
+          "text": "Servire appena sfornato."
+        }
+      ]
+    }
+  }
+}

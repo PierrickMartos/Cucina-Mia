@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <defs>
+    <radialGradient id="bprbg" cx="50%" cy="45%" r="70%"><stop offset="0%" stop-color="#2e2822"/><stop offset="100%" stop-color="#1a1510"/></radialGradient>
+    <radialGradient id="bprplate" cx="50%" cy="40%" r="60%"><stop offset="0%" stop-color="#efe6d6"/><stop offset="100%" stop-color="#b0a490"/></radialGradient>
+    <radialGradient id="bprtop" cx="45%" cy="35%" r="65%"><stop offset="0%" stop-color="#e8b060"/><stop offset="100%" stop-color="#a86828"/></radialGradient>
+    <linearGradient id="bprside" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#b8782e"/><stop offset="100%" stop-color="#7a4818"/></linearGradient>
+    <radialGradient id="bprprune" cx="35%" cy="30%" r="70%"><stop offset="0%" stop-color="#6a3a4a"/><stop offset="100%" stop-color="#22101a"/></radialGradient>
+  </defs>
+  <rect width="800" height="600" fill="url(#bprbg)"/>
+  <g fill="url(#bprprune)" opacity="0.18"><ellipse cx="80" cy="470" rx="22" ry="16"/><ellipse cx="118" cy="486" rx="20" ry="14"/><ellipse cx="700" cy="150" rx="20" ry="15"/></g>
+  <ellipse cx="400" cy="460" rx="300" ry="64" fill="#000" opacity="0.35"/>
+  <ellipse cx="400" cy="420" rx="290" ry="84" fill="url(#bprplate)"/>
+  <ellipse cx="400" cy="416" rx="240" ry="64" fill="#e4dac8"/>
+  <path d="M190,300 L190,380 A210,56 0 0 0 610,380 L610,300Z" fill="url(#bprside)"/>
+  <ellipse cx="400" cy="300" rx="210" ry="56" fill="url(#bprtop)"/>
+  <path d="M400,300 L470,352 L470,420 L560,398 L560,330Z" fill="#e4dac8"/>
+  <path d="M400,300 L560,330 L560,398 L400,368Z" fill="#f2d494"/>
+  <path d="M400,300 L470,352 L470,420 L400,368Z" fill="#dcb46a"/>
+  <g fill="url(#bprprune)">
+    <ellipse cx="500" cy="352" rx="10" ry="7"/><ellipse cx="535" cy="368" rx="9" ry="6"/><ellipse cx="490" cy="380" rx="8" ry="6"/><ellipse cx="435" cy="354" rx="9" ry="7"/><ellipse cx="450" cy="390" rx="9" ry="7"/>
+  </g>
+  <g fill="#fff" opacity="0.18"><ellipse cx="330" cy="285" rx="70" ry="14"/></g>
+  <g fill="url(#bprprune)">
+    <ellipse cx="290" cy="298" rx="18" ry="11" transform="rotate(-10 290 298)"/><ellipse cx="350" cy="276" rx="17" ry="10"/>
+    <ellipse cx="420" cy="284" rx="18" ry="11" transform="rotate(12 420 284)"/><ellipse cx="330" cy="320" rx="17" ry="10"/>
+    <ellipse cx="250" cy="318" rx="15" ry="9"/><ellipse cx="380" cy="326" rx="16" ry="10" transform="rotate(-8 380 326)"/>
+    <ellipse cx="470" cy="276" rx="15" ry="9"/>
+  </g>
+  <g fill="#fff" opacity="0.35">
+    <ellipse cx="285" cy="294" rx="5" ry="2"/><ellipse cx="345" cy="272" rx="5" ry="2"/><ellipse cx="415" cy="280" rx="5" ry="2"/>
+    <ellipse cx="325" cy="316" rx="5" ry="2"/><ellipse cx="375" cy="322" rx="4" ry="2"/>
+  </g>
+  <g fill="#f8f0e0" opacity="0.5"><circle cx="270" cy="290" r="1.5"/><circle cx="310" cy="300" r="1.5"/><circle cx="360" cy="296" r="1.5"/><circle cx="400" cy="310" r="1.5"/><circle cx="440" cy="296" r="1.5"/><circle cx="300" cy="280" r="1.5"/></g>
+</svg>

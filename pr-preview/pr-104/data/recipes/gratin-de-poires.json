@@ -1,0 +1,181 @@
+{
+  "slug": "gratin-de-poires",
+  "title": "Gratin de poires",
+  "description": "Des poires sautées au beurre, caramélisées et flambées à l'alcool de poire, puis gratinées au four sous une crème aux œufs.",
+  "images": {
+    "cover": "images/recipes/gratin-de-poires/cover.svg",
+    "web": "images/recipes/gratin-de-poires/cover.svg"
+  },
+  "prepTime": 25,
+  "cookTime": 50,
+  "servings": 8,
+  "difficulty": "Facile",
+  "category": "Dolci",
+  "origin": "amelie-grandpa",
+  "tags": [
+    "dessert",
+    "poire",
+    "fruits",
+    "français",
+    "four",
+    "gratiné",
+    "flambé",
+    "chaud",
+    "végétarien",
+    "facile",
+    "nostalgique",
+    "recette-de-famille"
+  ],
+  "ingredients": [
+    {
+      "items": [
+        "8 à 10 belles poires",
+        "50 à 60 g de beurre",
+        "50 g de sucre",
+        "3 à 4 dl de lait",
+        "1 dl de crème",
+        "4 œufs",
+        "1 cuillère à café de maïzena",
+        "1 dl d'alcool de poire"
+      ]
+    }
+  ],
+  "steps": [
+    {
+      "text": "Éplucher les poires, les couper en tranches épaisses."
+    },
+    {
+      "text": "Faire sauter avec le beurre à feu doux. Quand elles commencent à dorer, les saupoudrer avec le sucre. Caraméliser et flamber à l'alcool de poire."
+    },
+    {
+      "text": "Mettre les poires dans des moules individuels ou dans un plat à gratin beurré et sucré."
+    },
+    {
+      "text": "Mélanger le lait, la crème, les œufs, la maïzena, bien mélanger le tout et passer à la passoire fine."
+    },
+    {
+      "text": "Verser un peu de cette préparation dans chaque moule individuel ou dans le plat à gratin."
+    },
+    {
+      "text": "Cuire à four moyen de 15 à 20 minutes pour les moules individuels ou 30 à 40 minutes pour le moule à gratin.",
+      "timers": [15, 30]
+    }
+  ],
+  "source": "Les recettes de Maurice Houdré, tome 3, Les entremets",
+  "originalSource": {
+    "type": "text",
+    "data": "Gratin de poires\n\nIngrédients : pour 8 à 10 personnes\n\n. 8 à 10 belles poires\n. 50 à 60 g de beurre\n. 50 g de sucre\n. 3 à 4 dl de lait\n. 1 dl de crème\n. 4 œufs\n. 1 cuillère à café de maïzena\n. 1 dl d’alcool de poire\n\nEplucher les poires, les couper en tranches épaisses.\n\nFaire sauter avec le beurre à feu doux. Quand elles commencent à dorer, saupoudrer les avec le sucre. Caraméliser et flamber à l’alcool de poire. \nMettre les poires dans des moules individuels ou dans un plat à gratin beurré et sucré.\nMélanger le lait, la crème, les œufs, la maïzena, bien mélanger le tout et passer à la passoire fine.\nVerser un peu de cette préparation dans chaque moule individuel ou dans le plat à gratin.\nCuire à four moyen de 15 à 20 minutes pour les moules individuels ou 30 à 40 minutes pour le moule à gratin.\n"
+  },
+  "related": [
+    "gratin-de-prunes",
+    "gratin-de-pommes",
+    "fondant-aux-poires-caramelisees",
+    "gratin-de-bananes-kiwis-ananas-mangues-litchis"
+  ],
+  "translations": {
+    "en": {
+      "title": "Pear gratin",
+      "description": "Pears sautéed in butter, caramelised and flambéed with pear brandy, then baked au gratin under an egg custard.",
+      "tags": [
+        "dessert",
+        "pear",
+        "fruit",
+        "french",
+        "oven",
+        "gratin",
+        "flambeed",
+        "hot",
+        "vegetarian",
+        "easy",
+        "nostalgic",
+        "family-recipe"
+      ],
+      "ingredients": [
+        {
+          "items": [
+            "8 to 10 nice pears",
+            "50 to 60 g butter",
+            "50 g sugar",
+            "3 to 4 dl milk",
+            "1 dl cream",
+            "4 eggs",
+            "1 teaspoon cornflour",
+            "1 dl pear brandy"
+          ]
+        }
+      ],
+      "steps": [
+        {
+          "text": "Peel the pears and cut them into thick slices."
+        },
+        {
+          "text": "Sauté them in the butter over low heat. When they start to brown, sprinkle them with the sugar. Caramelise and flambé with the pear brandy."
+        },
+        {
+          "text": "Put the pears into individual moulds or into a buttered and sugared gratin dish."
+        },
+        {
+          "text": "Combine the milk, cream, eggs and cornflour, mix everything well and pass through a fine sieve."
+        },
+        {
+          "text": "Pour a little of this mixture into each individual mould or into the gratin dish."
+        },
+        {
+          "text": "Bake in a moderate oven for 15 to 20 minutes for the individual moulds or 30 to 40 minutes for the gratin dish."
+        }
+      ]
+    },
+    "it": {
+      "title": "Gratin di pere",
+      "description": "Pere saltate nel burro, caramellate e flambate con acquavite di pere, poi gratinate in forno sotto una crema all'uovo.",
+      "tags": [
+        "dessert",
+        "pera",
+        "frutta",
+        "francese",
+        "forno",
+        "gratinato",
+        "flambato",
+        "caldo",
+        "vegetariano",
+        "facile",
+        "nostalgico",
+        "ricetta-di-famiglia"
+      ],
+      "ingredients": [
+        {
+          "items": [
+            "8 - 10 belle pere",
+            "50 - 60 g di burro",
+            "50 g di zucchero",
+            "3 - 4 dl di latte",
+            "1 dl di panna",
+            "4 uova",
+            "1 cucchiaino di amido di mais",
+            "1 dl di acquavite di pere"
+          ]
+        }
+      ],
+      "steps": [
+        {
+          "text": "Sbucciare le pere e tagliarle a fette spesse."
+        },
+        {
+          "text": "Farle saltare nel burro a fuoco dolce. Quando iniziano a dorarsi, spolverizzarle con lo zucchero. Caramellare e flambare con l'acquavite di pere."
+        },
+        {
+          "text": "Mettere le pere in stampini individuali o in una pirofila da gratin imburrata e zuccherata."
+        },
+        {
+          "text": "Unire il latte, la panna, le uova e l'amido di mais, mescolare bene il tutto e passare al colino fine."
+        },
+        {
+          "text": "Versare un po' di questo composto in ogni stampino individuale o nella pirofila da gratin."
+        },
+        {
+          "text": "Cuocere in forno moderato da 15 a 20 minuti per gli stampini individuali o da 30 a 40 minuti per la pirofila da gratin."
+        }
+      ]
+    }
+  }
+}

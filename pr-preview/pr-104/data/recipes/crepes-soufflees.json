@@ -1,0 +1,151 @@
+{
+  "slug": "crepes-soufflees",
+  "title": "Crêpes soufflées",
+  "description": "Des crêpes sucrées garnies de crème pâtissière allégée aux blancs en neige et parfumée à la liqueur, soufflées au four.",
+  "images": {
+    "cover": "images/recipes/crepes-soufflees/cover.svg",
+    "web": "images/recipes/crepes-soufflees/cover.svg"
+  },
+  "prepTime": 20,
+  "cookTime": 15,
+  "servings": 8,
+  "difficulty": "Medio",
+  "category": "Dolci",
+  "origin": "amelie-grandpa",
+  "tags": [
+    "crêpes",
+    "dessert",
+    "four",
+    "français",
+    "nostalgique",
+    "recette-de-famille",
+    "œufs",
+    "végétarien",
+    "gourmand",
+    "festif",
+    "adultes",
+    "chaud"
+  ],
+  "ingredients": [
+    {
+      "items": [
+        "1 recette de base de crêpes sucrées",
+        "¼ de l de crème pâtissière",
+        "3 œufs",
+        "1 dl d'alcool ou de liqueur (Cognac, Calvados, Cointreau, Grand-Marnier, etc.)"
+      ]
+    }
+  ],
+  "steps": [
+    {
+      "text": "Préparation de base : préparer les crêpes (voir la recette des crêpes sucrées)."
+    },
+    {
+      "text": "Dans la crème pâtissière, ajouter les blancs d'œufs battus en neige, mélanger délicatement, parfumer avec une liqueur de votre choix."
+    },
+    {
+      "text": "Garnir les crêpes sur une moitié, refermer l'autre moitié, mettre au four à chaleur douce 12 à 15 minutes.",
+      "timers": [12]
+    },
+    {
+      "text": "Servir de suite."
+    }
+  ],
+  "source": "Les recettes de Maurice Houdré, tome 3, Les entremets",
+  "originalSource": {
+    "type": "text",
+    "data": "Crêpes soufflées\n\nIngrédients : pour 8 personnes\n\n. 1 recette de base de crêpes sucrées\n. ¼ de l de crème pâtissière\n. 3 oeufs\n. 1 dl d’alcool ou de liqueur (Cognac, Calvados, Cointreau, Grand-Marnier, etc...)\n\nPréparation de base :\nVoir recette « Crêpes sucrées ».\n\nDans la crème pâtissière, ajouter les blancs d’œufs battus en neige, mélanger délicatement, parfumer avec une liqueur de votre choix.\nGarnir les crêpes sur une moitié, refermer l’autre moitié, mettre au four à chaleur douce 12 à 15 minutes.\nServir de suite.\n"
+  },
+  "related": [
+    "crepes-flambees",
+    "crepes-normandes",
+    "crepes-a-la-peche-et-glace",
+    "charlotte-au-chocolat"
+  ],
+  "translations": {
+    "en": {
+      "title": "Soufflé crêpes",
+      "description": "Sweet crêpes filled with pastry cream lightened with whisked egg whites and flavoured with liqueur, then puffed up in the oven.",
+      "tags": [
+        "crepes",
+        "dessert",
+        "oven",
+        "french",
+        "nostalgic",
+        "family-recipe",
+        "eggs",
+        "vegetarian",
+        "indulgent",
+        "festive",
+        "adults",
+        "hot"
+      ],
+      "ingredients": [
+        {
+          "items": [
+            "1 batch of basic sweet crêpes",
+            "¼ l of pastry cream",
+            "3 eggs",
+            "1 dl of spirit or liqueur (Cognac, Calvados, Cointreau, Grand Marnier, etc.)"
+          ]
+        }
+      ],
+      "steps": [
+        {
+          "text": "Basic preparation: make the crêpes (see the sweet crêpes recipe)."
+        },
+        {
+          "text": "Fold the stiffly whisked egg whites gently into the pastry cream, then flavour with a liqueur of your choice."
+        },
+        {
+          "text": "Spread the filling over one half of each crêpe, fold the other half over, and bake in a low oven for 12 to 15 minutes."
+        },
+        {
+          "text": "Serve straight away."
+        }
+      ]
+    },
+    "it": {
+      "title": "Crêpes soufflé",
+      "description": "Crêpes dolci farcite con crema pasticcera alleggerita con albumi montati a neve e profumata al liquore, poi gonfiate in forno.",
+      "tags": [
+        "crepes",
+        "dolce",
+        "forno",
+        "francese",
+        "nostalgico",
+        "ricetta-di-famiglia",
+        "uova",
+        "vegetariano",
+        "goloso",
+        "festivo",
+        "adulti",
+        "caldo"
+      ],
+      "ingredients": [
+        {
+          "items": [
+            "1 dose base di crêpes dolci",
+            "¼ di l di crema pasticcera",
+            "3 uova",
+            "1 dl di distillato o liquore (Cognac, Calvados, Cointreau, Grand Marnier, ecc.)"
+          ]
+        }
+      ],
+      "steps": [
+        {
+          "text": "Preparazione di base: preparare le crêpes (vedi la ricetta delle crêpes dolci)."
+        },
+        {
+          "text": "Incorporare delicatamente alla crema pasticcera gli albumi montati a neve, poi profumare con un liquore a scelta."
+        },
+        {
+          "text": "Farcire metà di ogni crêpe, richiudere con l'altra metà e infornare a calore dolce per 12-15 minuti."
+        },
+        {
+          "text": "Servire subito."
+        }
+      ]
+    }
+  }
+}

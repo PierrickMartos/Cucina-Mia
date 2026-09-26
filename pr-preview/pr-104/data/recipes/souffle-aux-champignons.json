@@ -1,0 +1,183 @@
+{
+  "slug": "souffle-aux-champignons",
+  "title": "Soufflé aux champignons",
+  "description": "Un soufflé léger sur une base de béchamel aux jaunes d'œufs, garni de champignons hachés, cuit en ramequins ou en plat.",
+  "images": {
+    "cover": "images/recipes/souffle-aux-champignons/cover.svg",
+    "web": "images/recipes/souffle-aux-champignons/cover.svg"
+  },
+  "prepTime": 25,
+  "cookTime": 45,
+  "servings": 8,
+  "difficulty": "Medio",
+  "category": "Antipasti",
+  "origin": "amelie-grandpa",
+  "tags": [
+    "four",
+    "champignons",
+    "œufs",
+    "végétarien",
+    "français",
+    "classique",
+    "aérien",
+    "entrée",
+    "chaud",
+    "nostalgique",
+    "recette-de-famille"
+  ],
+  "ingredients": [
+    {
+      "items": [
+        "50 g de beurre",
+        "50 g de farine",
+        "½ l de lait",
+        "6 œufs",
+        "150 g de champignons",
+        "Sel, poivre, muscade râpée"
+      ]
+    }
+  ],
+  "steps": [
+    {
+      "text": "Préparation de base de la béchamel : le roux blanc. Faire fondre le beurre, ajouter la farine, mélanger et cuire doucement 1 à 2 minutes sans coloration et en remuant sans cesse.",
+      "timers": [1]
+    },
+    {
+      "text": "Ajouter progressivement le lait tiède, cuire 2 à 3 minutes, ajouter le sel, le poivre, la muscade râpée, bien mélanger.",
+      "timers": [2]
+    },
+    {
+      "text": "Ajouter les 6 jaunes d'œufs et réserver les blancs, bien mélanger."
+    },
+    {
+      "text": "Soufflé aux champignons : ajouter dans la préparation de base les 150 g de champignons cuits, bien égouttés et hachés finement. Mélanger."
+    },
+    {
+      "text": "Monter les 6 blancs en neige très ferme et les mélanger progressivement et délicatement à la préparation de base."
+    },
+    {
+      "text": "Verser dans des moules beurrés et farinés, selon le choix du récipient : 8 ramequins, ou 1 plat à soufflé pour 8 personnes, ou 2 plats à soufflé pour 4 personnes."
+    },
+    {
+      "text": "Mettre à four doux 30 à 40 minutes pour les plats à soufflé et 15 à 20 minutes pour les ramequins.",
+      "timers": [30, 15]
+    }
+  ],
+  "source": "Les recettes de Maurice Houdré, tome 3, Les soufflés",
+  "originalSource": {
+    "type": "text",
+    "data": "Soufflé aux champignons \n\nIngrédients : pour 8 personnes\n\n. 50 g de beurre\n. 50 g de farine\n. ½ l de lait\n. 6 œufs\n. 150 g de champignons\n. sel, poivre, muscade râpée\n\nPréparation de base de la Béchamel :\n\nLe roux blanc : Faire fondre le beurre, ajouter la farine, mélanger et cuire doucement 1 à 2 minutes sans coloration et en remuant sans cesse.\nAjouter progressivement le lait tiède, cuire 2 à 3 minutes, ajouter le sel, le poivre, la muscade râpée, bien mélanger. Ajouter 6 jaunes d’œufs et réserver les blancs, bien mélanger.\n\nSoufflé aux champignons :\nAjouter dans la préparation de base, 150 g de champignons cuits bien égouttés et hachés finement. Mélanger.\nMonter les 6 blancs en neige très ferme et les mélanger progressivement et délicatement à la préparation de base.\n\nVerser dans des moules beurrés et farinés, selon le choix du récipient :\n- 8 ramequins, ou\n- 1 plat à soufflé pour 8 personnes, ou\n- 2 plats à soufflé pour 4 personnes.\n\nMettre à four doux 30 à 40 minutes pour les plats à soufflé et 15 à 20 minutes pour les ramequins.\n"
+  },
+  "related": [
+    "souffle-aux-crevettes",
+    "souffle-a-la-tomate",
+    "souffle-au-fromage",
+    "gnocchis-a-la-parisienne"
+  ],
+  "translations": {
+    "en": {
+      "title": "Mushroom soufflé",
+      "description": "A light soufflé on a béchamel base enriched with egg yolks, filled with chopped mushrooms, baked in ramekins or in a dish.",
+      "tags": [
+        "oven",
+        "mushrooms",
+        "eggs",
+        "vegetarian",
+        "french",
+        "classic",
+        "airy",
+        "starter",
+        "hot",
+        "nostalgic",
+        "family-recipe"
+      ],
+      "ingredients": [
+        {
+          "items": [
+            "50 g butter",
+            "50 g flour",
+            "½ l milk",
+            "6 eggs",
+            "150 g mushrooms",
+            "Salt, pepper, grated nutmeg"
+          ]
+        }
+      ],
+      "steps": [
+        {
+          "text": "Base preparation for the béchamel: the white roux. Melt the butter, add the flour, mix and cook gently for 1 to 2 minutes without colouring, stirring constantly."
+        },
+        {
+          "text": "Gradually add the warm milk, cook for 2 to 3 minutes, add the salt, pepper and grated nutmeg, and mix well."
+        },
+        {
+          "text": "Add the 6 egg yolks, setting the whites aside, and mix well."
+        },
+        {
+          "text": "Mushroom soufflé: add the 150 g of cooked mushrooms, well drained and finely chopped, to the base preparation. Mix."
+        },
+        {
+          "text": "Whisk the 6 egg whites into very stiff peaks and fold them gradually and gently into the base preparation."
+        },
+        {
+          "text": "Pour into buttered and floured moulds, depending on the dish you choose: 8 ramekins, or 1 soufflé dish for 8 people, or 2 soufflé dishes for 4 people."
+        },
+        {
+          "text": "Bake in a low oven for 30 to 40 minutes for the soufflé dishes and 15 to 20 minutes for the ramekins."
+        }
+      ]
+    },
+    "it": {
+      "title": "Soufflé ai funghi",
+      "description": "Un soufflé leggero su una base di besciamella ai tuorli, farcito con funghi tritati, cotto in stampini o in una pirofila.",
+      "tags": [
+        "forno",
+        "funghi",
+        "uova",
+        "vegetariano",
+        "francese",
+        "classico",
+        "arioso",
+        "antipasto",
+        "caldo",
+        "nostalgico",
+        "ricetta-di-famiglia"
+      ],
+      "ingredients": [
+        {
+          "items": [
+            "50 g di burro",
+            "50 g di farina",
+            "½ l di latte",
+            "6 uova",
+            "150 g di funghi",
+            "Sale, pepe, noce moscata grattugiata"
+          ]
+        }
+      ],
+      "steps": [
+        {
+          "text": "Preparazione di base della besciamella: il roux bianco. Sciogliere il burro, aggiungere la farina, mescolare e cuocere dolcemente per 1-2 minuti senza farlo colorire, mescolando senza sosta."
+        },
+        {
+          "text": "Aggiungere gradualmente il latte tiepido, cuocere per 2-3 minuti, aggiungere il sale, il pepe e la noce moscata grattugiata, mescolare bene."
+        },
+        {
+          "text": "Aggiungere i 6 tuorli e tenere da parte gli albumi, mescolare bene."
+        },
+        {
+          "text": "Soufflé ai funghi: aggiungere alla preparazione di base i 150 g di funghi cotti, ben scolati e tritati finemente. Mescolare."
+        },
+        {
+          "text": "Montare i 6 albumi a neve fermissima e incorporarli gradualmente e delicatamente alla preparazione di base."
+        },
+        {
+          "text": "Versare negli stampi imburrati e infarinati, a seconda del recipiente scelto: 8 stampini, oppure 1 stampo da soufflé per 8 persone, oppure 2 stampi da soufflé per 4 persone."
+        },
+        {
+          "text": "Cuocere in forno dolce per 30-40 minuti per gli stampi da soufflé e 15-20 minuti per gli stampini."
+        }
+      ]
+    }
+  }
+}

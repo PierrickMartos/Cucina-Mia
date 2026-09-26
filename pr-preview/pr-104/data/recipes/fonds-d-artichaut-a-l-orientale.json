@@ -1,0 +1,191 @@
+{
+  "slug": "fonds-d-artichaut-a-l-orientale",
+  "title": "Fonds d'artichaut à l'orientale",
+  "description": "Des fonds d'artichauts mijotés à l'huile d'olive avec oignons, vin blanc, tomate, safran et une pointe de Cayenne, servis froids.",
+  "images": {
+    "cover": "images/recipes/fonds-d-artichaut-a-l-orientale/cover.svg",
+    "web": "images/recipes/fonds-d-artichaut-a-l-orientale/cover.svg"
+  },
+  "prepTime": 20,
+  "cookTime": 50,
+  "servings": 8,
+  "difficulty": "Facile",
+  "category": "Antipasti",
+  "origin": "amelie-grandpa",
+  "tags": [
+    "français",
+    "nostalgique",
+    "recette-de-famille",
+    "entrée",
+    "artichaut",
+    "légumes",
+    "mijoté",
+    "froid",
+    "méditerranéen",
+    "facile",
+    "préparation-à-lavance",
+    "été"
+  ],
+  "ingredients": [
+    {
+      "items": [
+        "1 kg de fonds d'artichauts",
+        "2 oignons",
+        "2 cubes de bouillon de poule",
+        "1 citron",
+        "½ dl d'huile d'olive (Quanto basta)",
+        "1 dl de vin blanc sec",
+        "2 dl de purée de tomate",
+        "Sel, poivre, pointe de Cayenne, pointe de safran en poudre ou stigmates"
+      ]
+    }
+  ],
+  "steps": [
+    {
+      "text": "Prendre des petits artichauts, les cuire 15 à 20 minutes, enlever les feuilles, retirer le foin et les couper en 4 ou 5 morceaux selon la grosseur (ou prendre des fonds d'artichauts surgelés).",
+      "timers": [15]
+    },
+    {
+      "text": "Chauffer l'huile d'olive."
+    },
+    {
+      "text": "Ajouter et faire revenir les oignons finement émincés sans coloration, puis ajouter les fonds d'artichauts coupés en quartiers."
+    },
+    {
+      "text": "Ajouter le jus de citron, le vin blanc et la purée de tomate. Mouiller la préparation à hauteur avec de l'eau et les cubes de bouillon de poule fondus."
+    },
+    {
+      "text": "Assaisonner avec le sel, le poivre, la pointe de Cayenne et le safran."
+    },
+    {
+      "text": "Cuire à feu doux 30 minutes environ.",
+      "timers": [30]
+    },
+    {
+      "text": "Laisser refroidir."
+    }
+  ],
+  "source": "Les recettes de Maurice Houdré, tome 1, Les entrées en assiette froide et salades composées",
+  "originalSource": {
+    "type": "text",
+    "data": "Fonds d’artichaut à l’orientale\n\nIngrédients : pour 8 personnes\n\n. 1 kg de fonds d’artichauts\n. 2 oignons\n. 2 cubes de bouillon de poule\n. 1 citron\n. ½ dl d’huile d’olive\n. 1 dl de vin blanc sec\n. 2 dl de purée de tomate\n. sel, poivre, pointe de Cayenne, pointe de safran en poudre ou stigmates\n\nPréparation :\n\nPrendre des petits artichauts, les cuire 15 à 20 minutes, enlever les feuilles, retirer le foin et les couper en 4 ou 5 morceaux selon la grosseur (ou prendre des fonds d’artichauts surgelés).\n\nChauffer l’huile d’olive.\nAjouter et faire revenir les oignons finement émincés sans coloration, ajouter les fonds d’artichauts coupés en quartiers.\nAjouter le jus de citron, le vin blanc, la purée de tomate, mouiller à hauteur avec la préparation, de l’eau et cubes de bouillon de poule fondus.\nAssaisonner avec le sel, poivre, pointe de Cayenne et safran.\nCuire à feu doux 30 minutes environ.\nLaisser refroidir.\n"
+  },
+  "related": [
+    "courgettes-a-la-grecque",
+    "carottes-au-cumin",
+    "champignons-a-la-grecque",
+    "filets-de-merlan-ou-de-maquereau-facon-rollmops"
+  ],
+  "translations": {
+    "en": {
+      "title": "Oriental-style artichoke hearts",
+      "description": "Artichoke hearts simmered in olive oil with onions, white wine, tomato, saffron and a hint of cayenne, served cold.",
+      "tags": [
+        "french",
+        "nostalgic",
+        "family-recipe",
+        "starter",
+        "artichoke",
+        "vegetables",
+        "simmered",
+        "cold",
+        "mediterranean",
+        "easy",
+        "make-ahead",
+        "summer"
+      ],
+      "ingredients": [
+        {
+          "items": [
+            "1 kg of artichoke hearts",
+            "2 onions",
+            "2 chicken stock cubes",
+            "1 lemon",
+            "½ dl of olive oil (Quanto basta)",
+            "1 dl of dry white wine",
+            "2 dl of tomato purée",
+            "Salt, pepper, a pinch of cayenne, a pinch of powdered saffron or saffron threads"
+          ]
+        }
+      ],
+      "steps": [
+        {
+          "text": "Take small artichokes, cook them for 15 to 20 minutes, remove the leaves, scrape out the choke and cut them into 4 or 5 pieces depending on their size (or use frozen artichoke hearts)."
+        },
+        {
+          "text": "Heat the olive oil."
+        },
+        {
+          "text": "Add the thinly sliced onions and sweat them without colouring, then add the artichoke hearts cut into quarters."
+        },
+        {
+          "text": "Add the lemon juice, the white wine and the tomato purée. Add liquid to just cover the mixture, using water and the dissolved chicken stock cubes."
+        },
+        {
+          "text": "Season with salt, pepper, the pinch of cayenne and the saffron."
+        },
+        {
+          "text": "Cook over low heat for about 30 minutes."
+        },
+        {
+          "text": "Leave to cool."
+        }
+      ]
+    },
+    "it": {
+      "title": "Fondi di carciofo all'orientale",
+      "description": "Fondi di carciofo stufati nell'olio d'oliva con cipolle, vino bianco, pomodoro, zafferano e una punta di pepe di Caienna, serviti freddi.",
+      "tags": [
+        "francese",
+        "nostalgico",
+        "ricetta-di-famiglia",
+        "antipasto",
+        "carciofo",
+        "verdure",
+        "stufato",
+        "freddo",
+        "mediterraneo",
+        "facile",
+        "da-preparare-in-anticipo",
+        "estate"
+      ],
+      "ingredients": [
+        {
+          "items": [
+            "1 kg di fondi di carciofo",
+            "2 cipolle",
+            "2 dadi di brodo di pollo",
+            "1 limone",
+            "½ dl di olio d'oliva (Quanto basta)",
+            "1 dl di vino bianco secco",
+            "2 dl di passata di pomodoro",
+            "Sale, pepe, una punta di pepe di Caienna, una punta di zafferano in polvere o in pistilli"
+          ]
+        }
+      ],
+      "steps": [
+        {
+          "text": "Prendere dei carciofi piccoli, cuocerli per 15-20 minuti, eliminare le foglie, togliere la barba e tagliarli in 4 o 5 pezzi a seconda della grandezza (oppure usare fondi di carciofo surgelati)."
+        },
+        {
+          "text": "Scaldare l'olio d'oliva."
+        },
+        {
+          "text": "Aggiungere le cipolle affettate sottilmente e farle sudare senza colorirle, poi aggiungere i fondi di carciofo tagliati in quarti."
+        },
+        {
+          "text": "Aggiungere il succo di limone, il vino bianco e la passata di pomodoro. Bagnare il composto a filo con acqua e i dadi di brodo di pollo sciolti."
+        },
+        {
+          "text": "Condire con sale, pepe, la punta di pepe di Caienna e lo zafferano."
+        },
+        {
+          "text": "Cuocere a fuoco dolce per circa 30 minuti."
+        },
+        {
+          "text": "Lasciare raffreddare."
+        }
+      ]
+    }
+  }
+}

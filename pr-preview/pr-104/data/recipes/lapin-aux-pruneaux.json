@@ -1,0 +1,235 @@
+{
+  "slug": "lapin-aux-pruneaux",
+  "title": "Lapin aux pruneaux",
+  "description": "Lapin doré puis mijoté au vin blanc et à la tomate, servi avec pruneaux, lardons et petits oignons glacés.",
+  "images": {
+    "cover": "images/recipes/lapin-aux-pruneaux/cover.svg",
+    "web": "images/recipes/lapin-aux-pruneaux/cover.svg"
+  },
+  "prepTime": 40,
+  "cookTime": 85,
+  "servings": 10,
+  "difficulty": "Medio",
+  "category": "Secondi",
+  "origin": "amelie-grandpa",
+  "tags": [
+    "lapin",
+    "français",
+    "plat-principal",
+    "mijoté",
+    "sucré-salé",
+    "automne",
+    "hiver",
+    "réconfortant",
+    "convivial",
+    "chaud",
+    "nostalgique",
+    "recette-de-famille"
+  ],
+  "ingredients": [
+    {
+      "items": [
+        "2 lapins de 1,5 kg environ",
+        "500 à 600 g de pruneaux",
+        "300 g de poitrine ½ sel",
+        "400 g de petits oignons blancs",
+        "1 bouteille de vin blanc sec",
+        "½ l de fond blanc ou 2 à 3 tablettes de bouillon de poule",
+        "4 à 5 échalotes",
+        "4 à 5 gousses d'ail",
+        "1 dl de concentré de tomate",
+        "100 g de farine",
+        "1 dl d'huile",
+        "100 g de beurre",
+        "1 cuillère de sucre",
+        "1 bouquet garni",
+        "1 citron",
+        "Sel, poivre"
+      ]
+    }
+  ],
+  "steps": [
+    {
+      "text": "Laver les pruneaux, les faire tremper dans un peu de vin blanc puis les dénoyauter."
+    },
+    {
+      "text": "Découper chaque lapin en 8 morceaux : les cuisses en 2, le râble en 4, retirer les 2 épaules et couper le coffre. Passer dans la farine, faire dorer dans l'huile chaude, réserver dans un plat."
+    },
+    {
+      "text": "Ciseler finement les échalotes, les faire doucement revenir à petit feu, ajouter l'ail écrasé, le bouquet garni, le reste de vin blanc, le concentré de tomate, le fond blanc ou bouillon de poule, porter à ébullition, saler et poivrer."
+    },
+    {
+      "text": "Cuire 15 minutes et verser cette préparation sur les morceaux de lapin, faire cuire 50 minutes environ.",
+      "timers": [15, 50]
+    },
+    {
+      "text": "Pendant la cuisson des lapins : cuire les pruneaux 15 minutes environ.",
+      "timers": [15]
+    },
+    {
+      "text": "Détailler la poitrine en petits lardons, blanchir 2 à 4 minutes, égoutter, faire rissoler dans un peu d'huile 2 à 3 minutes.",
+      "timers": [2, 2]
+    },
+    {
+      "text": "Éplucher les petits oignons, mettre à cuire dans un plat à sauter, mouiller à hauteur avec de l'eau, mettre le beurre, 1 pincée de sel, cuire à couvert. Après évaporation de la sauce, faire « glacer », donner une légère coloration en mélangeant un peu de beurre et un peu de sucre."
+    },
+    {
+      "text": "Après la cuisson du lapin, retirer les morceaux et les disposer dans un récipient, ajouter les pruneaux, petits oignons, lardons, lier légèrement la cuisson, rectifier l'assaisonnement et passer sur le lapin. Cuire doucement pendant 10 minutes.",
+      "timers": [10]
+    },
+    {
+      "text": "Servir avec des pâtes fraîches."
+    }
+  ],
+  "source": "Les recettes de Maurice Houdré, tome 2, Volailles, lapins, foie gras",
+  "originalSource": {
+    "type": "text",
+    "data": "Lapin aux pruneaux\n\nIngrédients : pour 10 à 12 personnes\n\n. 2 lapins de 1,5 kg environ\n. 500 à 600 g de pruneaux\n. 300 g de poitrine ½ sel\n. 400 g de petits oignons blancs\n. 1 bouteille de vin blanc sec\n. ½ l de fond blanc ou 2 à 3 tablettes de bouillon de poule\n. 4 à 5 échalotes\n. 4 à 5 gousses d’ail\n. 1 dl de concentré de tomate\n. 100 g de farine\n. 1 dl d’huile\n. 100 g de beurre + 1 cuillère de sucre\n. 1 bouquet garni\n. 1 citron\n. sel, poivre\n\nLaver les pruneaux, les faire tremper dans un peu de vin blanc puis dénoyauter les.\n\nDécouper chaque lapin en 8 morceaux : les cuisses en 2, le râble en 4, retirer les 2 épaules et couper le coffre. Passer dans la farine, faire dorer dans l’huile chaude, réserver dans un plat.\nCiseler finement les échalotes, les faire doucement revenir à petit feu, ajouter l’ail écrasé, le bouquet garni, le reste de vin blanc, le concentré de tomate, le fond blanc ou bouillon de poule, porter à ébullition, saler et poivrer. \nCuire 15 minutes et verser cette préparation sur les morceaux de lapin, faire cuire 50 minutes environ.\n\nPendant la cuisson des lapins :\nCuire les pruneaux 15 minutes environ.\nDétailler la poitrine en petits lardons, blanchir 2 à 4 minutes, égoutter, faire rissoler dans un peu d’huile 2 à 3 minutes.\nEplucher les petits oignons, mettre à cuire dans un plat à sauter, mouiller à hauteur avec de l’eau, mettre le beurre, 1 pincée de sel, cuire à couvert. Après évaporation de la sauce, faire « glacer », donner une légère coloration en mélangeant un peu de beurre et un peu de sucre.\nAprès la cuisson du lapin, retirer les morceaux et disposer les dans un récipient, ajouter les pruneaux, petits oignons, lardons, lier légèrement la cuisson, rectifier l’assaisonnement et passer sur le lapin. Cuire doucement pendant 10 minutes.\nServir avec des pâtes fraîches.\n"
+  },
+  "related": [
+    "fricassee-de-veau-aux-aubergines-et-pruneaux",
+    "rable-et-cuisses-de-lapin",
+    "estouffade-de-boeuf-a-la-bourguignonne",
+    "canard-farci-braise-aux-navets"
+  ],
+  "translations": {
+    "en": {
+      "title": "Rabbit with prunes",
+      "description": "Rabbit browned then simmered in white wine and tomato, served with prunes, lardons and glazed pearl onions.",
+      "tags": [
+        "rabbit",
+        "french",
+        "main-course",
+        "slow-cooked",
+        "sweet-and-savory",
+        "autumn",
+        "winter",
+        "comforting",
+        "convivial",
+        "hot",
+        "nostalgic",
+        "family-recipe"
+      ],
+      "ingredients": [
+        {
+          "items": [
+            "2 rabbits of about 1.5 kg each",
+            "500 to 600 g prunes",
+            "300 g lightly salted pork belly",
+            "400 g small white onions",
+            "1 bottle dry white wine",
+            "½ l white stock or 2 to 3 chicken stock cubes",
+            "4 to 5 shallots",
+            "4 to 5 garlic cloves",
+            "1 dl tomato paste",
+            "100 g flour",
+            "1 dl oil",
+            "100 g butter",
+            "1 spoonful sugar",
+            "1 bouquet garni",
+            "1 lemon",
+            "Salt, pepper"
+          ]
+        }
+      ],
+      "steps": [
+        {
+          "text": "Wash the prunes, soak them in a little white wine, then pit them."
+        },
+        {
+          "text": "Cut each rabbit into 8 pieces: the legs in 2, the saddle in 4, remove the 2 shoulders and cut up the rib cage. Dredge in the flour, brown in the hot oil and set aside in a dish."
+        },
+        {
+          "text": "Finely chop the shallots and brown them gently over low heat, add the crushed garlic, the bouquet garni, the rest of the white wine, the tomato paste and the white stock or chicken stock, bring to the boil, season with salt and pepper."
+        },
+        {
+          "text": "Cook 15 minutes and pour this mixture over the rabbit pieces, cook for about 50 minutes."
+        },
+        {
+          "text": "While the rabbits cook: cook the prunes for about 15 minutes."
+        },
+        {
+          "text": "Cut the pork belly into small lardons, blanch 2 to 4 minutes, drain, brown in a little oil 2 to 3 minutes."
+        },
+        {
+          "text": "Peel the small onions, put them to cook in a sauté pan, add water to just cover, add the butter and 1 pinch of salt, cook covered. Once the liquid has evaporated, \"glaze\" them, giving them a light colour by mixing in a little butter and a little sugar."
+        },
+        {
+          "text": "Once the rabbit is cooked, take out the pieces and arrange them in a dish, add the prunes, small onions and lardons, lightly thicken the cooking liquid, adjust the seasoning and strain it over the rabbit. Cook gently for 10 minutes."
+        },
+        {
+          "text": "Serve with fresh pasta."
+        }
+      ]
+    },
+    "it": {
+      "title": "Coniglio alle prugne",
+      "description": "Coniglio rosolato e poi stufato nel vino bianco e pomodoro, servito con prugne, lardoni e cipolline glassate.",
+      "tags": [
+        "coniglio",
+        "francese",
+        "secondo-piatto",
+        "stufato",
+        "agrodolce",
+        "autunno",
+        "inverno",
+        "confortante",
+        "conviviale",
+        "caldo",
+        "nostalgico",
+        "ricetta-di-famiglia"
+      ],
+      "ingredients": [
+        {
+          "items": [
+            "2 conigli da circa 1,5 kg",
+            "500-600 g di prugne secche",
+            "300 g di pancetta semisalata",
+            "400 g di cipolline bianche",
+            "1 bottiglia di vino bianco secco",
+            "½ l di fondo bianco o 2-3 dadi di brodo di pollo",
+            "4-5 scalogni",
+            "4-5 spicchi d'aglio",
+            "1 dl di concentrato di pomodoro",
+            "100 g di farina",
+            "1 dl di olio",
+            "100 g di burro",
+            "1 cucchiaio di zucchero",
+            "1 mazzetto aromatico",
+            "1 limone",
+            "Sale, pepe"
+          ]
+        }
+      ],
+      "steps": [
+        {
+          "text": "Lavare le prugne, metterle a bagno in un po' di vino bianco, poi snocciolarle."
+        },
+        {
+          "text": "Tagliare ogni coniglio in 8 pezzi: le cosce in 2, la sella in 4, staccare le 2 spalle e tagliare la gabbia toracica. Passare nella farina, rosolare nell'olio caldo e tenere da parte in un piatto."
+        },
+        {
+          "text": "Tritare finemente gli scalogni, rosolarli dolcemente a fuoco basso, aggiungere l'aglio schiacciato, il mazzetto aromatico, il resto del vino bianco, il concentrato di pomodoro, il fondo bianco o il brodo di pollo, portare a ebollizione, salare e pepare."
+        },
+        {
+          "text": "Cuocere 15 minuti e versare questa preparazione sui pezzi di coniglio, cuocere per circa 50 minuti."
+        },
+        {
+          "text": "Durante la cottura dei conigli: cuocere le prugne per circa 15 minuti."
+        },
+        {
+          "text": "Tagliare la pancetta a piccoli lardoni, sbollentare 2-4 minuti, scolare, rosolare in un po' di olio 2-3 minuti."
+        },
+        {
+          "text": "Pelare le cipolline, metterle a cuocere in una sauteuse, bagnare a filo con acqua, aggiungere il burro e 1 pizzico di sale, cuocere coperto. Quando il liquido è evaporato, \"glassarle\" dando una leggera doratura con un po' di burro e un po' di zucchero."
+        },
+        {
+          "text": "A fine cottura del coniglio, togliere i pezzi e disporli in un recipiente, aggiungere le prugne, le cipolline e i lardoni, legare leggermente il fondo di cottura, regolare di sale e pepe e passarlo sul coniglio. Cuocere dolcemente per 10 minuti."
+        },
+        {
+          "text": "Servire con pasta fresca."
+        }
+      ]
+    }
+  }
+}

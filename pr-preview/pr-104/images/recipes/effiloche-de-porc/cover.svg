@@ -1,0 +1,181 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <defs>
+    <!-- Background gradient -->
+    <radialGradient id="ep-bg" cx="50%" cy="50%" r="70%">
+      <stop offset="0%" stop-color="#2a1208"/>
+      <stop offset="100%" stop-color="#0e0604"/>
+    </radialGradient>
+    <!-- Plate gradient -->
+    <radialGradient id="ep-plate" cx="50%" cy="40%" r="55%">
+      <stop offset="0%" stop-color="#f0ebe0"/>
+      <stop offset="70%" stop-color="#ddd5c0"/>
+      <stop offset="100%" stop-color="#c8bfa8"/>
+    </radialGradient>
+    <!-- Plate shadow -->
+    <radialGradient id="ep-plate-shadow" cx="50%" cy="50%" r="50%">
+      <stop offset="70%" stop-color="#000000" stop-opacity="0"/>
+      <stop offset="100%" stop-color="#000000" stop-opacity="0.5"/>
+    </radialGradient>
+    <!-- BBQ sauce gradient -->
+    <radialGradient id="ep-sauce" cx="45%" cy="45%" r="60%">
+      <stop offset="0%" stop-color="#c03020"/>
+      <stop offset="50%" stop-color="#8a2010"/>
+      <stop offset="100%" stop-color="#5a1208"/>
+    </radialGradient>
+    <!-- Pork strand gradients -->
+    <linearGradient id="ep-strand1" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#d48040"/>
+      <stop offset="50%" stop-color="#c87030"/>
+      <stop offset="100%" stop-color="#a05020"/>
+    </linearGradient>
+    <linearGradient id="ep-strand2" x1="100%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#c87030"/>
+      <stop offset="50%" stop-color="#b06028"/>
+      <stop offset="100%" stop-color="#904818"/>
+    </linearGradient>
+    <linearGradient id="ep-strand3" x1="0%" y1="100%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#e09050"/>
+      <stop offset="50%" stop-color="#c87830"/>
+      <stop offset="100%" stop-color="#a05820"/>
+    </linearGradient>
+    <!-- Caramelized edge gradient -->
+    <linearGradient id="ep-caramel" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#7a1808"/>
+      <stop offset="100%" stop-color="#4a0e04"/>
+    </linearGradient>
+    <!-- Warm light spot -->
+    <radialGradient id="ep-light" cx="40%" cy="30%" r="50%">
+      <stop offset="0%" stop-color="#ff8040" stop-opacity="0.15"/>
+      <stop offset="100%" stop-color="#ff8040" stop-opacity="0"/>
+    </radialGradient>
+    <!-- Plate rim highlight -->
+    <linearGradient id="ep-rim" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#ffffff" stop-opacity="0.5"/>
+      <stop offset="100%" stop-color="#ffffff" stop-opacity="0"/>
+    </linearGradient>
+    <filter id="ep-blur-sm">
+      <feGaussianBlur stdDeviation="2"/>
+    </filter>
+    <filter id="ep-blur-md">
+      <feGaussianBlur stdDeviation="5"/>
+    </filter>
+    <filter id="ep-shadow">
+      <feDropShadow dx="0" dy="8" stdDeviation="20" flood-color="#000000" flood-opacity="0.6"/>
+    </filter>
+    <filter id="ep-glow">
+      <feGaussianBlur stdDeviation="8" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+
+  <!-- Background -->
+  <rect width="800" height="600" fill="url(#ep-bg)"/>
+
+  <!-- Ambient warm light from top-left -->
+  <ellipse cx="200" cy="150" rx="350" ry="280" fill="url(#ep-light)"/>
+
+  <!-- Plate shadow on table -->
+  <ellipse cx="400" cy="530" rx="240" ry="40" fill="#000000" opacity="0.5" filter="url(#ep-blur-md)"/>
+
+  <!-- Plate base -->
+  <ellipse cx="400" cy="340" rx="230" ry="210" fill="url(#ep-plate)" filter="url(#ep-shadow)"/>
+
+  <!-- Plate rim inner shadow -->
+  <ellipse cx="400" cy="340" rx="230" ry="210" fill="url(#ep-plate-shadow)"/>
+
+  <!-- Plate inner area -->
+  <ellipse cx="400" cy="340" rx="195" ry="178" fill="#f5f0e4"/>
+
+  <!-- BBQ sauce pool -->
+  <ellipse cx="400" cy="345" rx="155" ry="140" fill="url(#ep-sauce)" opacity="0.9"/>
+
+  <!-- Sauce surface sheen -->
+  <ellipse cx="370" cy="310" rx="80" ry="50" fill="#d84030" opacity="0.3" filter="url(#ep-blur-sm)"/>
+
+  <!-- Caramelized meat base mass -->
+  <ellipse cx="400" cy="345" rx="138" ry="122" fill="#6a1a08" opacity="0.8"/>
+
+  <!-- Pulled pork strands - bottom layer -->
+  <!-- Long strands going various directions -->
+  <path d="M290 360 Q340 330 390 345 Q440 358 480 340" stroke="#904818" stroke-width="8" fill="none" stroke-linecap="round" opacity="0.9"/>
+  <path d="M295 380 Q350 355 405 368 Q455 380 490 360" stroke="#a05020" stroke-width="7" fill="none" stroke-linecap="round" opacity="0.85"/>
+  <path d="M300 340 Q355 318 400 328 Q445 340 485 322" stroke="#8a4010" stroke-width="9" fill="none" stroke-linecap="round" opacity="0.9"/>
+  <path d="M310 400 Q360 375 410 388 Q460 398 492 378" stroke="#954818" stroke-width="6" fill="none" stroke-linecap="round" opacity="0.8"/>
+  <path d="M285 318 Q340 298 395 310 Q448 322 488 305" stroke="#7a3808" stroke-width="7" fill="none" stroke-linecap="round" opacity="0.8"/>
+
+  <!-- Middle layer strands -->
+  <path d="M305 355 Q358 338 405 350 Q452 362 488 348" stroke="url(#ep-strand1)" stroke-width="10" fill="none" stroke-linecap="round" opacity="0.95"/>
+  <path d="M298 375 Q348 352 400 365 Q450 377 492 360" stroke="url(#ep-strand2)" stroke-width="9" fill="none" stroke-linecap="round" opacity="0.9"/>
+  <path d="M308 335 Q358 315 405 328 Q452 340 488 325" stroke="url(#ep-strand3)" stroke-width="8" fill="none" stroke-linecap="round" opacity="0.9"/>
+  <path d="M312 395 Q362 372 412 385 Q460 396 490 375" stroke="url(#ep-strand1)" stroke-width="7" fill="none" stroke-linecap="round" opacity="0.85"/>
+  <path d="M295 315 Q348 295 400 308 Q452 320 490 304" stroke="url(#ep-strand2)" stroke-width="8" fill="none" stroke-linecap="round" opacity="0.8"/>
+
+  <!-- Short crossing strands -->
+  <path d="M345 290 Q355 320 362 350 Q368 378 360 408" stroke="#c87030" stroke-width="7" fill="none" stroke-linecap="round" opacity="0.85"/>
+  <path d="M380 282 Q388 315 392 348 Q396 380 388 412" stroke="#d48040" stroke-width="6" fill="none" stroke-linecap="round" opacity="0.8"/>
+  <path d="M415 285 Q420 318 422 352 Q424 382 418 412" stroke="#b86820" stroke-width="7" fill="none" stroke-linecap="round" opacity="0.85"/>
+  <path d="M448 292 Q450 325 448 358 Q446 388 440 415" stroke="#c87030" stroke-width="6" fill="none" stroke-linecap="round" opacity="0.8"/>
+  <path d="M325 295 Q332 328 336 362 Q340 392 332 418" stroke="#a05020" stroke-width="5" fill="none" stroke-linecap="round" opacity="0.75"/>
+
+  <!-- Top layer prominent strands -->
+  <path d="M302 348 Q355 325 408 340 Q458 353 496 336" stroke="#e09050" stroke-width="11" fill="none" stroke-linecap="round" opacity="0.85"/>
+  <path d="M308 370 Q360 348 412 362 Q462 374 498 355" stroke="#d48040" stroke-width="10" fill="none" stroke-linecap="round" opacity="0.8"/>
+  <path d="M295 328 Q350 308 405 320 Q458 332 495 315" stroke="#c87838" stroke-width="9" fill="none" stroke-linecap="round" opacity="0.75"/>
+
+  <!-- Caramelized crispy bits - dark edges -->
+  <circle cx="318" cy="302" r="12" fill="#5a1208" opacity="0.8"/>
+  <circle cx="478" cy="298" r="10" fill="#4a0e04" opacity="0.8"/>
+  <circle cx="300" cy="390" r="9" fill="#5a1208" opacity="0.75"/>
+  <circle cx="490" cy="388" r="11" fill="#4a0e04" opacity="0.75"/>
+  <circle cx="348" cy="278" r="8" fill="#6a1a08" opacity="0.7"/>
+  <circle cx="455" cy="275" r="9" fill="#5a1208" opacity="0.7"/>
+  <ellipse cx="385" cy="420" rx="20" ry="10" fill="#5a1208" opacity="0.8"/>
+  <ellipse cx="420" cy="282" rx="18" ry="9" fill="#4a0e04" opacity="0.75"/>
+
+  <!-- BBQ sauce drips/pools between strands -->
+  <ellipse cx="355" cy="342" rx="18" ry="10" fill="#c03020" opacity="0.7"/>
+  <ellipse cx="440" cy="358" rx="16" ry="9" fill="#a82818" opacity="0.65"/>
+  <ellipse cx="395" cy="392" rx="20" ry="11" fill="#b83020" opacity="0.6"/>
+  <ellipse cx="370" cy="308" rx="15" ry="8" fill="#c83828" opacity="0.55"/>
+
+  <!-- Sauce gloss highlights -->
+  <ellipse cx="358" cy="335" rx="8" ry="4" fill="#ff6040" opacity="0.4" transform="rotate(-20 358 335)"/>
+  <ellipse cx="432" cy="348" rx="6" ry="3" fill="#ff5030" opacity="0.35" transform="rotate(15 432 348)"/>
+  <ellipse cx="395" cy="300" rx="10" ry="4" fill="#ff7050" opacity="0.3" transform="rotate(-10 395 300)"/>
+
+  <!-- Fresh herb garnish (parsley/scallion) -->
+  <!-- Parsley cluster -->
+  <g opacity="0.9">
+    <!-- Stems -->
+    <path d="M400 290 Q398 308 396 325" stroke="#2d6e2d" stroke-width="2" fill="none" stroke-linecap="round"/>
+    <path d="M400 290 Q404 305 406 322" stroke="#2d6e2d" stroke-width="2" fill="none" stroke-linecap="round"/>
+    <path d="M400 290 Q395 302 390 315" stroke="#3a7a3a" stroke-width="1.5" fill="none" stroke-linecap="round"/>
+    <!-- Leaves -->
+    <ellipse cx="396" cy="283" rx="8" ry="6" fill="#4a9a4a" transform="rotate(-20 396 283)"/>
+    <ellipse cx="405" cy="281" rx="7" ry="5" fill="#3a8a3a" transform="rotate(15 405 281)"/>
+    <ellipse cx="388" cy="285" rx="6" ry="5" fill="#4a9a4a" transform="rotate(-35 388 285)"/>
+    <ellipse cx="412" cy="283" rx="6" ry="5" fill="#5aaa5a" transform="rotate(25 412 283)"/>
+    <ellipse cx="400" cy="278" rx="7" ry="5" fill="#3a8a3a" transform="rotate(5 400 278)"/>
+    <!-- Leaf veins -->
+    <path d="M396 287 Q398 283 397 279" stroke="#2d6e2d" stroke-width="0.8" fill="none" opacity="0.6"/>
+    <path d="M405 285 Q406 281 405 277" stroke="#2d6e2d" stroke-width="0.8" fill="none" opacity="0.6"/>
+    <!-- Small second parsley cluster offset -->
+    <ellipse cx="430" cy="295" rx="7" ry="5" fill="#4a9a4a" transform="rotate(-15 430 295)"/>
+    <ellipse cx="438" cy="292" rx="6" ry="5" fill="#3a8a3a" transform="rotate(20 438 292)"/>
+    <ellipse cx="424" cy="296" rx="5" ry="4" fill="#5aaa5a" transform="rotate(-30 424 296)"/>
+    <path d="M432 302 Q430 298 432 293" stroke="#2d6e2d" stroke-width="1.5" fill="none" stroke-linecap="round"/>
+  </g>
+
+  <!-- Plate rim highlight (top-left reflection) -->
+  <path d="M200 240 Q290 175 400 160 Q510 148 590 200" stroke="url(#ep-rim)" stroke-width="3" fill="none" opacity="0.6"/>
+
+  <!-- Table surface hint -->
+  <rect x="0" y="490" width="800" height="110" fill="#1a0a04" opacity="0.6"/>
+  <line x1="0" y1="490" x2="800" y2="490" stroke="#3a1a08" stroke-width="1" opacity="0.4"/>
+
+  <!-- Ambient glow under plate -->
+  <ellipse cx="400" cy="490" rx="200" ry="25" fill="#8a2010" opacity="0.08" filter="url(#ep-blur-md)"/>
+</svg>

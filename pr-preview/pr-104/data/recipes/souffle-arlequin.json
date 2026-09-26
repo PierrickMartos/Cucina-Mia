@@ -1,0 +1,197 @@
+{
+  "slug": "souffle-arlequin",
+  "title": "Soufflé Arlequin",
+  "description": "Un soufflé à la crème pâtissière parfumée au Cointreau, monté en couches alternées vanille et chocolat.",
+  "images": {
+    "cover": "images/recipes/souffle-arlequin/cover.svg",
+    "web": "images/recipes/souffle-arlequin/cover.svg"
+  },
+  "prepTime": 30,
+  "cookTime": 45,
+  "servings": 8,
+  "difficulty": "Medio",
+  "category": "Dolci",
+  "origin": "amelie-grandpa",
+  "tags": [
+    "dessert",
+    "chocolat",
+    "œufs",
+    "français",
+    "nostalgique",
+    "recette-de-famille",
+    "four",
+    "végétarien",
+    "festif",
+    "gourmand",
+    "chaud",
+    "adultes"
+  ],
+  "ingredients": [
+    {
+      "items": [
+        "150 g de sucre semoule",
+        "8 œufs (réserver les blancs)",
+        "100 g de farine",
+        "½ l de lait",
+        "1 gousse de vanille",
+        "100 g de cacao noir en poudre",
+        "1 dl de Cointreau ou Grand-Marnier"
+      ]
+    }
+  ],
+  "steps": [
+    {
+      "text": "Préparation de base de la crème pâtissière : mélanger le sucre, 2 œufs entiers plus 2 jaunes, ajouter 75 g de farine."
+    },
+    {
+      "text": "Verser progressivement le lait parfumé à la vanille dans l'appareil."
+    },
+    {
+      "text": "Cuire 2 à 3 minutes doucement et en remuant.",
+      "timers": [2]
+    },
+    {
+      "text": "Ajouter 4 jaunes d'œufs, le Cointreau ou Grand-Marnier."
+    },
+    {
+      "text": "Soufflé Arlequin : monter les blancs en neige très ferme, mélanger progressivement et délicatement à la préparation de base."
+    },
+    {
+      "text": "Prendre la moitié de l'appareil et le mélanger avec le cacao, réserver l'autre moitié avec l'appareil vanillé."
+    },
+    {
+      "text": "Verser dans des moules beurrés et farinés, 1 couche vanillée puis 1 couche chocolatée, selon le choix du récipient : 8 ramequins, ou 1 plat à soufflé pour 8 personnes, ou 2 plats à soufflé pour 4 personnes."
+    },
+    {
+      "text": "Mettre à four doux 30 à 40 minutes pour les plats à soufflé et 15 à 20 minutes pour les ramequins.",
+      "timers": [30, 15]
+    }
+  ],
+  "source": "Les recettes de Maurice Houdré, tome 3, Les soufflés",
+  "originalSource": {
+    "type": "text",
+    "data": "Soufflé Arlequin\n\nIngrédients : pour 8 personnes\n\n. 150 g de sucre semoule\n. 8 œufs (réserver les blancs)\n. 100 g de farine\n. ½ l de lait\n. 1 gousse de vanille\n. 100 de cacao noir en poudre\n. 1 dl de Cointreau ou Grand-Marnier\n\nPréparation de base de la crème pâtissière :\n\nMélanger le sucre, 2 œufs entiers plus 2 jaunes, ajouter 75 g de farine.\nVerser progressivement le lait parfumé à la vanille dans l’appareil.\nCuire 2 à 3 minutes doucement et en remuant.\nAjouter 4 jaunes d’œufs, le Cointreau ou Grand-Marnier.\n\nSoufflé Arlequin :\nMonter les blancs en neige très ferme, mélanger progressivement et délicatement à la préparation de base.\nPrendre la moitié de l’appareil et le mélanger avec le cacao, réserver l’autre moitié avec l’appareil vanillé.\nVerser dans des moules beurrés et farinés, 1 couche vanillée puis 1 couche chocolatée, selon le choix du récipient :\n- 8 ramequins, ou\n- 1 plat à soufflé pour 8 personnes, ou\n- 2 plats à soufflé pour 4 personnes.\n\nMettre à four doux 30 à 40 minutes pour les plats à soufflé et 15 à 20 minutes pour les ramequins.\n"
+  },
+  "related": [
+    "souffle-antillais",
+    "gratin-de-bananes-kiwis-ananas-mangues-litchis",
+    "biscuit-aux-poires-et-chocolat-noir",
+    "buche-aux-marrons-de-germaine-houdre"
+  ],
+  "translations": {
+    "en": {
+      "title": "Harlequin Soufflé",
+      "description": "A soufflé made with Cointreau-scented pastry cream, built up in alternating vanilla and chocolate layers.",
+      "tags": [
+        "dessert",
+        "chocolate",
+        "eggs",
+        "french",
+        "nostalgic",
+        "family-recipe",
+        "oven",
+        "vegetarian",
+        "festive",
+        "indulgent",
+        "hot",
+        "adults"
+      ],
+      "ingredients": [
+        {
+          "items": [
+            "150 g of caster sugar",
+            "8 eggs (keep the whites)",
+            "100 g of flour",
+            "½ l of milk",
+            "1 vanilla pod",
+            "100 g of dark cocoa powder",
+            "1 dl of Cointreau or Grand Marnier"
+          ]
+        }
+      ],
+      "steps": [
+        {
+          "text": "Base pastry cream: mix the sugar with 2 whole eggs plus 2 yolks, then add 75 g of flour."
+        },
+        {
+          "text": "Gradually pour the vanilla-infused milk into the mixture."
+        },
+        {
+          "text": "Cook gently for 2 to 3 minutes, stirring."
+        },
+        {
+          "text": "Add 4 egg yolks and the Cointreau or Grand Marnier."
+        },
+        {
+          "text": "Harlequin soufflé: whisk the egg whites to very stiff peaks, then gradually and gently fold them into the base mixture."
+        },
+        {
+          "text": "Take half of the mixture and mix it with the cocoa; set aside the other half as the vanilla mixture."
+        },
+        {
+          "text": "Pour into buttered and floured moulds, 1 vanilla layer then 1 chocolate layer, depending on the dish chosen: 8 ramekins, or 1 soufflé dish for 8 people, or 2 soufflé dishes for 4 people."
+        },
+        {
+          "text": "Bake in a low oven for 30 to 40 minutes for the soufflé dishes and 15 to 20 minutes for the ramekins."
+        }
+      ]
+    },
+    "it": {
+      "title": "Soufflé Arlecchino",
+      "description": "Un soufflé a base di crema pasticcera profumata al Cointreau, composto a strati alternati di vaniglia e cioccolato.",
+      "tags": [
+        "dessert",
+        "cioccolato",
+        "uova",
+        "francese",
+        "nostalgico",
+        "ricetta-di-famiglia",
+        "forno",
+        "vegetariano",
+        "festivo",
+        "goloso",
+        "caldo",
+        "adulti"
+      ],
+      "ingredients": [
+        {
+          "items": [
+            "150 g di zucchero semolato",
+            "8 uova (tenere da parte gli albumi)",
+            "100 g di farina",
+            "½ l di latte",
+            "1 baccello di vaniglia",
+            "100 g di cacao amaro in polvere",
+            "1 dl di Cointreau o Grand Marnier"
+          ]
+        }
+      ],
+      "steps": [
+        {
+          "text": "Base di crema pasticcera: mescolare lo zucchero con 2 uova intere più 2 tuorli, poi aggiungere 75 g di farina."
+        },
+        {
+          "text": "Versare gradualmente nel composto il latte profumato alla vaniglia."
+        },
+        {
+          "text": "Cuocere dolcemente per 2-3 minuti, mescolando."
+        },
+        {
+          "text": "Aggiungere 4 tuorli e il Cointreau o Grand Marnier."
+        },
+        {
+          "text": "Soufflé Arlecchino: montare gli albumi a neve ben ferma, poi incorporarli gradualmente e delicatamente al composto di base."
+        },
+        {
+          "text": "Prendere metà del composto e mescolarla con il cacao; tenere da parte l'altra metà come composto alla vaniglia."
+        },
+        {
+          "text": "Versare in stampi imburrati e infarinati, 1 strato alla vaniglia poi 1 strato al cioccolato, secondo il recipiente scelto: 8 cocottine, oppure 1 stampo da soufflé per 8 persone, oppure 2 stampi da soufflé per 4 persone."
+        },
+        {
+          "text": "Cuocere in forno dolce per 30-40 minuti per gli stampi da soufflé e 15-20 minuti per le cocottine."
+        }
+      ]
+    }
+  }
+}
