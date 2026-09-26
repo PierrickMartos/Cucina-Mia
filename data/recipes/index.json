@@ -8012,5 +8012,724 @@
     },
     "stepCount": 10,
     "ingredientCount": 12
+  },
+  {
+    "slug": "confiture-de-fruits-d-hiver",
+    "title": "Confiture de fruits d'hiver",
+    "description": "Une confiture d'hiver aux poires, potiron et agrumes, relevée de raisins de Smyrne macérés dans le rhum.",
+    "images": {
+      "cover": "images/recipes/confiture-de-fruits-d-hiver/cover.webp",
+      "web": "images/recipes/confiture-de-fruits-d-hiver/web.webp"
+    },
+    "imageCredit": {
+      "author": "jarmoluk",
+      "url": "https://pixabay.com/users/jarmoluk-143740/"
+    },
+    "prepTime": 30,
+    "cookTime": 45,
+    "servings": 13,
+    "difficulty": "Facile",
+    "category": "Conserve",
+    "tags": [
+      "fruits",
+      "hiver",
+      "mijoté",
+      "végétarien",
+      "facile",
+      "préparation-à-lavance",
+      "petit-déjeuner",
+      "goûter",
+      "acidulé",
+      "français",
+      "nostalgique",
+      "recette-de-famille"
+    ],
+    "origin": "amelie-grandpa",
+    "translations": {
+      "en": {
+        "title": "Winter Fruit Jam",
+        "description": "A winter jam of pears, pumpkin and citrus fruit, lifted with sultanas soaked in rum.",
+        "tags": [
+          "fruit",
+          "winter",
+          "slow-cooked",
+          "vegetarian",
+          "easy",
+          "make-ahead",
+          "breakfast",
+          "afternoon-snack",
+          "tangy",
+          "french",
+          "nostalgic",
+          "family-recipe"
+        ]
+      },
+      "it": {
+        "title": "Confettura di frutta invernale",
+        "description": "Una confettura invernale di pere, zucca e agrumi, arricchita con uvetta sultanina macerata nel rum.",
+        "tags": [
+          "frutta",
+          "inverno",
+          "cottura-lenta",
+          "vegetariano",
+          "facile",
+          "da-preparare-in-anticipo",
+          "colazione",
+          "merenda",
+          "acidulo",
+          "francese",
+          "nostalgico",
+          "ricetta-di-famiglia"
+        ]
+      }
+    },
+    "stepCount": 6,
+    "ingredientCount": 9
+  },
+  {
+    "slug": "confiture-de-fruits-rouges",
+    "title": "Confiture de fruits rouges",
+    "description": "Une confiture généreuse de fraises, cerises, framboises, groseilles et cassis, ajoutés un à un dans un sirop de sucre.",
+    "images": {
+      "cover": "images/recipes/confiture-de-fruits-rouges/cover.webp",
+      "web": "images/recipes/confiture-de-fruits-rouges/web.webp"
+    },
+    "imageCredit": {
+      "author": "congerdesign",
+      "url": "https://pixabay.com/users/congerdesign-509903/"
+    },
+    "prepTime": 30,
+    "cookTime": 60,
+    "servings": 13,
+    "difficulty": "Facile",
+    "category": "Conserve",
+    "tags": [
+      "fruits",
+      "été",
+      "mijoté",
+      "petit-déjeuner",
+      "goûter",
+      "français",
+      "nostalgique",
+      "recette-de-famille",
+      "préparation-à-lavance",
+      "toute-la-famille",
+      "végétarien",
+      "sans-gluten"
+    ],
+    "origin": "amelie-grandpa",
+    "translations": {
+      "en": {
+        "title": "Red Berry Jam",
+        "description": "A generous jam of strawberries, cherries, raspberries, redcurrants and blackcurrants, added one by one to a sugar syrup.",
+        "tags": [
+          "fruit",
+          "summer",
+          "simmered",
+          "breakfast",
+          "afternoon-snack",
+          "french",
+          "nostalgic",
+          "family-recipe",
+          "make-ahead",
+          "whole-family",
+          "vegetarian",
+          "gluten-free"
+        ]
+      },
+      "it": {
+        "title": "Confettura di frutti rossi",
+        "description": "Una confettura generosa di fragole, ciliegie, lamponi, ribes rosso e ribes nero, aggiunti uno alla volta in uno sciroppo di zucchero.",
+        "tags": [
+          "frutta",
+          "estate",
+          "cotto-a-fuoco-lento",
+          "colazione",
+          "merenda",
+          "francese",
+          "nostalgico",
+          "ricetta-di-famiglia",
+          "da-preparare-in-anticipo",
+          "tutta-la-famiglia",
+          "vegetariano",
+          "senza-glutine"
+        ]
+      }
+    },
+    "stepCount": 6,
+    "ingredientCount": 9
+  },
+  {
+    "slug": "confiture-de-peches",
+    "title": "Confiture de pêches",
+    "description": "Des quartiers de pêches macérés une nuit au sucre et au citron, puis cuits doucement, avec deux variantes : aux agrumes et à la menthe.",
+    "images": {
+      "cover": "images/recipes/confiture-de-peches/cover.webp",
+      "web": "images/recipes/confiture-de-peches/web.webp"
+    },
+    "imageCredit": {
+      "author": "cokolatetnica",
+      "url": "https://pixabay.com/users/cokolatetnica-6262510/"
+    },
+    "prepTime": 40,
+    "cookTime": 65,
+    "servings": 13,
+    "difficulty": "Facile",
+    "category": "Conserve",
+    "tags": [
+      "pêches",
+      "fruits",
+      "confiture",
+      "été",
+      "petit-déjeuner",
+      "goûter",
+      "sucré",
+      "facile",
+      "préparation-à-lavance",
+      "végétarien",
+      "français",
+      "nostalgique",
+      "recette-de-famille"
+    ],
+    "origin": "amelie-grandpa",
+    "translations": {
+      "en": {
+        "title": "Peach jam",
+        "description": "Peach quarters macerated overnight with sugar and lemon, then gently cooked, with two variations: with citrus fruit and with mint.",
+        "tags": [
+          "peaches",
+          "fruit",
+          "jam",
+          "summer",
+          "breakfast",
+          "afternoon-snack",
+          "sweet",
+          "easy",
+          "make-ahead",
+          "vegetarian",
+          "french",
+          "nostalgic",
+          "family-recipe"
+        ]
+      },
+      "it": {
+        "title": "Confettura di pesche",
+        "description": "Spicchi di pesca macerati una notte con zucchero e limone, poi cotti dolcemente, con due varianti: agli agrumi e alla menta.",
+        "tags": [
+          "pesche",
+          "frutta",
+          "confettura",
+          "estate",
+          "colazione",
+          "merenda",
+          "dolce",
+          "facile",
+          "da-preparare-in-anticipo",
+          "vegetariano",
+          "francese",
+          "nostalgico",
+          "ricetta-di-famiglia"
+        ]
+      }
+    },
+    "stepCount": 8,
+    "ingredientCount": 8
+  },
+  {
+    "slug": "confiture-de-poires-aux-agrumes",
+    "title": "Confiture de poires aux agrumes",
+    "description": "Une confiture de poires, oranges, pamplemousses et citrons macérés une nuit, relevée de raisins de Smyrne et de noix concassées.",
+    "images": {
+      "cover": "images/recipes/confiture-de-poires-aux-agrumes/cover.svg",
+      "web": "images/recipes/confiture-de-poires-aux-agrumes/cover.svg"
+    },
+    "prepTime": 45,
+    "cookTime": 65,
+    "servings": 14,
+    "difficulty": "Facile",
+    "category": "Conserve",
+    "tags": [
+      "confiture",
+      "poire",
+      "fruits",
+      "agrumes",
+      "petit-déjeuner",
+      "goûter",
+      "automne",
+      "facile",
+      "préparation-à-lavance",
+      "français",
+      "nostalgique",
+      "recette-de-famille"
+    ],
+    "origin": "amelie-grandpa",
+    "translations": {
+      "en": {
+        "title": "Pear and citrus jam",
+        "description": "A jam of pears, oranges, grapefruits and lemons macerated overnight, lifted with Smyrna raisins and crushed walnuts.",
+        "tags": [
+          "jam",
+          "pear",
+          "fruit",
+          "citrus",
+          "breakfast",
+          "afternoon-snack",
+          "autumn",
+          "easy",
+          "make-ahead",
+          "french",
+          "nostalgic",
+          "family-recipe"
+        ]
+      },
+      "it": {
+        "title": "Confettura di pere e agrumi",
+        "description": "Una confettura di pere, arance, pompelmi e limoni lasciati macerare una notte, arricchita con uvetta di Smirne e noci tritate grossolanamente.",
+        "tags": [
+          "confettura",
+          "pera",
+          "frutta",
+          "agrumi",
+          "colazione",
+          "merenda",
+          "autunno",
+          "facile",
+          "da-preparare-in-anticipo",
+          "francese",
+          "nostalgico",
+          "ricetta-di-famiglia"
+        ]
+      }
+    },
+    "stepCount": 5,
+    "ingredientCount": 8
+  },
+  {
+    "slug": "confiture-de-rhubarbe-pommes-et-bananes",
+    "title": "Confiture de rhubarbe, pommes et bananes",
+    "description": "Une confiture de rhubarbe macérée au sucre, cuite ensuite avec des pommes Golden et des bananes citronnées, puis prise au confisucre.",
+    "images": {
+      "cover": "images/recipes/confiture-de-rhubarbe-pommes-et-bananes/cover.webp",
+      "web": "images/recipes/confiture-de-rhubarbe-pommes-et-bananes/web.webp"
+    },
+    "imageCredit": {
+      "author": "congerdesign",
+      "url": "https://pixabay.com/users/congerdesign-509903/"
+    },
+    "prepTime": 330,
+    "cookTime": 60,
+    "servings": 14,
+    "difficulty": "Facile",
+    "category": "Conserve",
+    "tags": [
+      "rhubarbe",
+      "fruits",
+      "printemps",
+      "petit-déjeuner",
+      "goûter",
+      "acidulé",
+      "végétarien",
+      "facile",
+      "préparation-à-lavance",
+      "français",
+      "nostalgique",
+      "recette-de-famille"
+    ],
+    "origin": "amelie-grandpa",
+    "translations": {
+      "en": {
+        "title": "Rhubarb, apple and banana jam",
+        "description": "A jam of rhubarb macerated in sugar, then cooked with Golden apples and lemony bananas, and set with jam sugar.",
+        "tags": [
+          "rhubarb",
+          "fruit",
+          "spring",
+          "breakfast",
+          "afternoon-snack",
+          "tangy",
+          "vegetarian",
+          "easy",
+          "make-ahead",
+          "french",
+          "nostalgic",
+          "family-recipe"
+        ]
+      },
+      "it": {
+        "title": "Confettura di rabarbaro, mele e banane",
+        "description": "Una confettura di rabarbaro macerato nello zucchero, poi cotto con mele Golden e banane al limone, e addensata con lo zucchero gelificante.",
+        "tags": [
+          "rabarbaro",
+          "frutta",
+          "primavera",
+          "colazione",
+          "merenda",
+          "asprigno",
+          "vegetariano",
+          "facile",
+          "da-preparare-in-anticipo",
+          "francese",
+          "nostalgico",
+          "ricetta-di-famiglia"
+        ]
+      }
+    },
+    "stepCount": 5,
+    "ingredientCount": 6
+  },
+  {
+    "slug": "confiture-d-oignons-et-de-raisins",
+    "title": "Confiture d'oignons et de raisins",
+    "description": "Une confiture d'oignons au sucre roux, aux raisins, au miel et à la grenadine, parfaite avec pâtés, terrines, rôtis et gibiers.",
+    "images": {
+      "cover": "images/recipes/confiture-d-oignons-et-de-raisins/cover.svg",
+      "web": "images/recipes/confiture-d-oignons-et-de-raisins/cover.svg"
+    },
+    "prepTime": 30,
+    "cookTime": 70,
+    "servings": 4,
+    "difficulty": "Facile",
+    "category": "Conserve",
+    "tags": [
+      "français",
+      "nostalgique",
+      "recette-de-famille",
+      "petit-déjeuner",
+      "oignons",
+      "sucré-salé",
+      "mijoté",
+      "facile",
+      "préparation-à-lavance",
+      "buffet",
+      "apéro",
+      "froid"
+    ],
+    "origin": "amelie-grandpa",
+    "translations": {
+      "en": {
+        "title": "Onion and Raisin Jam",
+        "description": "An onion jam with brown sugar, raisins, honey and grenadine, perfect with pâtés, terrines, roasts and game.",
+        "tags": [
+          "french",
+          "nostalgic",
+          "family-recipe",
+          "breakfast",
+          "onions",
+          "sweet-and-savory",
+          "simmered",
+          "easy",
+          "make-ahead",
+          "buffet",
+          "appetizer",
+          "cold"
+        ]
+      },
+      "it": {
+        "title": "Confettura di cipolle e uvetta",
+        "description": "Una confettura di cipolle con zucchero di canna, uvetta, miele e granatina, perfetta con pâté, terrine, arrosti e selvaggina.",
+        "tags": [
+          "francese",
+          "nostalgico",
+          "ricetta-di-famiglia",
+          "colazione",
+          "cipolle",
+          "agrodolce",
+          "cotto-lentamente",
+          "facile",
+          "da-preparare-in-anticipo",
+          "buffet",
+          "aperitivo",
+          "freddo"
+        ]
+      }
+    },
+    "stepCount": 6,
+    "ingredientCount": 12
+  },
+  {
+    "slug": "confiture-d-oranges",
+    "title": "Confiture d'oranges",
+    "description": "Une confiture d'oranges Maltaise en tranches minces, marinées 24 heures puis cuites lentement dans leur jus avec du sucre.",
+    "images": {
+      "cover": "images/recipes/confiture-d-oranges/cover.webp",
+      "web": "images/recipes/confiture-d-oranges/web.webp"
+    },
+    "imageCredit": {
+      "author": "silviarita",
+      "url": "https://pixabay.com/users/silviarita-3142410/"
+    },
+    "prepTime": 1460,
+    "cookTime": 170,
+    "servings": 12,
+    "difficulty": "Facile",
+    "category": "Conserve",
+    "tags": [
+      "confiture",
+      "orange",
+      "agrumes",
+      "fruits",
+      "petit-déjeuner",
+      "goûter",
+      "hiver",
+      "mijoté",
+      "facile",
+      "préparation-à-lavance",
+      "végétarien",
+      "français",
+      "nostalgique",
+      "recette-de-famille"
+    ],
+    "origin": "amelie-grandpa",
+    "translations": {
+      "en": {
+        "title": "Orange Marmalade",
+        "description": "A Maltese orange marmalade made with thin slices, soaked for 24 hours then slowly cooked in their own juice with sugar.",
+        "tags": [
+          "jam",
+          "orange",
+          "citrus",
+          "fruit",
+          "breakfast",
+          "afternoon-snack",
+          "winter",
+          "simmered",
+          "easy",
+          "make-ahead",
+          "vegetarian",
+          "french",
+          "nostalgic",
+          "family-recipe"
+        ]
+      },
+      "it": {
+        "title": "Marmellata di arance",
+        "description": "Una marmellata di arance maltesi a fettine sottili, lasciate macerare 24 ore e poi cotte lentamente nel loro succo con lo zucchero.",
+        "tags": [
+          "marmellata",
+          "arancia",
+          "agrumi",
+          "frutta",
+          "colazione",
+          "merenda",
+          "inverno",
+          "cotto-a-fuoco-lento",
+          "facile",
+          "da-preparare-in-anticipo",
+          "vegetariano",
+          "francese",
+          "nostalgico",
+          "ricetta-di-famiglia"
+        ]
+      }
+    },
+    "stepCount": 6,
+    "ingredientCount": 5
+  },
+  {
+    "slug": "gelee-d-agrumes-aux-zestes-confits",
+    "title": "Gelée d'agrumes aux zestes confits",
+    "description": "Une gelée de pamplemousses roses, citrons et oranges Maltaise, parsemée de zestes hachés et confits dans le sucre.",
+    "images": {
+      "cover": "images/recipes/gelee-d-agrumes-aux-zestes-confits/cover.svg",
+      "web": "images/recipes/gelee-d-agrumes-aux-zestes-confits/cover.svg"
+    },
+    "prepTime": 90,
+    "cookTime": 115,
+    "servings": 12,
+    "difficulty": "Medio",
+    "category": "Conserve",
+    "tags": [
+      "agrumes",
+      "fruits",
+      "petit-déjeuner",
+      "goûter",
+      "français",
+      "nostalgique",
+      "recette-de-famille",
+      "hiver",
+      "acidulé",
+      "sucré",
+      "préparation-à-lavance",
+      "végétarien",
+      "sans-gluten"
+    ],
+    "origin": "amelie-grandpa",
+    "translations": {
+      "en": {
+        "title": "Citrus jelly with candied zest",
+        "description": "A jelly of pink grapefruits, lemons and Maltaise oranges, studded with chopped zest candied in sugar.",
+        "tags": [
+          "citrus",
+          "fruit",
+          "breakfast",
+          "snack",
+          "french",
+          "nostalgic",
+          "family-recipe",
+          "winter",
+          "tangy",
+          "sweet",
+          "make-ahead",
+          "vegetarian",
+          "gluten-free"
+        ]
+      },
+      "it": {
+        "title": "Gelatina di agrumi con scorze candite",
+        "description": "Una gelatina di pompelmi rosa, limoni e arance Maltaise, punteggiata di scorze tritate e candite nello zucchero.",
+        "tags": [
+          "agrumi",
+          "frutta",
+          "colazione",
+          "merenda",
+          "francese",
+          "nostalgico",
+          "ricetta-di-famiglia",
+          "inverno",
+          "acidulo",
+          "dolce",
+          "preparazione-anticipata",
+          "vegetariano",
+          "senza-glutine"
+        ]
+      }
+    },
+    "stepCount": 10,
+    "ingredientCount": 6
+  },
+  {
+    "slug": "gelee-et-confit-de-coings-et-pommes",
+    "title": "Gelée et confit de coings et pommes",
+    "description": "Une seule cuisson de coings et de pommes pour deux douceurs : une gelée limpide avec le jus, un confit avec les quartiers.",
+    "images": {
+      "cover": "images/recipes/gelee-et-confit-de-coings-et-pommes/cover.svg",
+      "web": "images/recipes/gelee-et-confit-de-coings-et-pommes/cover.svg"
+    },
+    "prepTime": 45,
+    "cookTime": 215,
+    "servings": 12,
+    "difficulty": "Medio",
+    "category": "Conserve",
+    "tags": [
+      "coings",
+      "pommes",
+      "fruits",
+      "français",
+      "nostalgique",
+      "recette-de-famille",
+      "petit-déjeuner",
+      "goûter",
+      "automne",
+      "sucré",
+      "préparation-à-lavance",
+      "se-conserve"
+    ],
+    "origin": "amelie-grandpa",
+    "translations": {
+      "en": {
+        "title": "Quince and Apple Jelly and Confit",
+        "description": "A single cooking of quinces and apples for two treats: a clear jelly from the juice, and a confit from the quarters.",
+        "tags": [
+          "quince",
+          "apples",
+          "fruit",
+          "french",
+          "nostalgic",
+          "family-recipe",
+          "breakfast",
+          "afternoon-snack",
+          "autumn",
+          "sweet",
+          "make-ahead",
+          "keeps-well"
+        ]
+      },
+      "it": {
+        "title": "Gelatina e confit di mele cotogne e mele",
+        "description": "Un'unica cottura di mele cotogne e mele per due dolcezze: una gelatina limpida con il succo, un confit con gli spicchi.",
+        "tags": [
+          "mele-cotogne",
+          "mele",
+          "frutta",
+          "francese",
+          "nostalgico",
+          "ricetta-di-famiglia",
+          "colazione",
+          "merenda",
+          "autunno",
+          "dolce",
+          "da-preparare-in-anticipo",
+          "si-conserva"
+        ]
+      }
+    },
+    "stepCount": 12,
+    "ingredientCount": 4
+  },
+  {
+    "slug": "marmelade-de-citrouille",
+    "title": "Marmelade de citrouille",
+    "description": "Une marmelade douce de citrouille parfumée aux zestes et au jus d'oranges et de citron, cuite lentement puis réduite en purée.",
+    "images": {
+      "cover": "images/recipes/marmelade-de-citrouille/cover.svg",
+      "web": "images/recipes/marmelade-de-citrouille/cover.svg"
+    },
+    "prepTime": 20,
+    "cookTime": 75,
+    "servings": 4,
+    "difficulty": "Facile",
+    "category": "Conserve",
+    "tags": [
+      "citrouille",
+      "agrumes",
+      "français",
+      "nostalgique",
+      "recette-de-famille",
+      "petit-déjeuner",
+      "goûter",
+      "automne",
+      "doux",
+      "facile",
+      "économique"
+    ],
+    "origin": "amelie-grandpa",
+    "translations": {
+      "en": {
+        "title": "Pumpkin marmalade",
+        "description": "A sweet pumpkin marmalade scented with orange and lemon zest and juice, slowly cooked and then mashed into a purée.",
+        "tags": [
+          "pumpkin",
+          "citrus",
+          "french",
+          "nostalgic",
+          "family-recipe",
+          "breakfast",
+          "snack",
+          "autumn",
+          "mild",
+          "easy",
+          "economical"
+        ]
+      },
+      "it": {
+        "title": "Marmellata di zucca",
+        "description": "Una marmellata dolce di zucca profumata con la scorza e il succo di arance e limone, cotta lentamente e poi ridotta in purea.",
+        "tags": [
+          "zucca",
+          "agrumi",
+          "francese",
+          "nostalgico",
+          "ricetta-di-famiglia",
+          "colazione",
+          "merenda",
+          "autunno",
+          "delicato",
+          "facile",
+          "economico"
+        ]
+      }
+    },
+    "stepCount": 8,
+    "ingredientCount": 4
   }
 ]
