@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <defs>
+    <radialGradient id="cgrbg" cx="50%" cy="45%" r="70%"><stop offset="0%" stop-color="#2e2822"/><stop offset="100%" stop-color="#1a1510"/></radialGradient>
+    <radialGradient id="cgrbowl" cx="45%" cy="35%" r="70%"><stop offset="0%" stop-color="#d88a4a"/><stop offset="100%" stop-color="#7a3a18"/></radialGradient>
+    <radialGradient id="cgrjus" cx="45%" cy="40%" r="60%"><stop offset="0%" stop-color="#d8a848"/><stop offset="100%" stop-color="#8a6020"/></radialGradient>
+    <linearGradient id="cgrcap" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#e8d2a8"/><stop offset="100%" stop-color="#b8905a"/></linearGradient>
+    <radialGradient id="cgronion" cx="40%" cy="35%" r="70%"><stop offset="0%" stop-color="#fbf6e8"/><stop offset="100%" stop-color="#d8ccaa"/></radialGradient>
+    <g id="cgrmush">
+      <path d="M-30,0 Q-30,-32 0,-34 Q30,-32 30,0Z" fill="url(#cgrcap)"/>
+      <path d="M-30,0 Q0,8 30,0 Q0,-6 -30,0Z" fill="#f0e2c4"/>
+      <path d="M-9,2 L-8,22 Q0,26 8,22 L9,2Z" fill="#f2e6cc"/>
+      <path d="M-20,-4 L-18,-18 M-8,-4 L-7,-22 M8,-4 L7,-22 M20,-4 L18,-18" stroke="#8a6a44" stroke-width="1.2" opacity="0.5"/>
+    </g>
+  </defs>
+  <rect width="800" height="600" fill="url(#cgrbg)"/>
+  <g opacity="0.12"><circle cx="90" cy="130" r="40" fill="#e8d040"/><circle cx="90" cy="130" r="32" fill="#f4e890"/><path d="M700,100 L720,300" stroke="#8ab050" stroke-width="4"/></g>
+  <ellipse cx="400" cy="470" rx="290" ry="55" fill="#000" opacity="0.35"/>
+  <path d="M130,300 Q140,470 400,478 Q660,470 670,300Z" fill="#6a3014"/>
+  <ellipse cx="400" cy="300" rx="270" ry="130" fill="url(#cgrbowl)"/>
+  <ellipse cx="400" cy="300" rx="245" ry="112" fill="url(#cgrjus)"/>
+  <use href="#cgrmush" transform="translate(300 270) rotate(-10)"/>
+  <use href="#cgrmush" transform="translate(400 250) rotate(6)"/>
+  <use href="#cgrmush" transform="translate(500 275) rotate(14)"/>
+  <use href="#cgrmush" transform="translate(350 330) rotate(-4) scale(0.9)"/>
+  <use href="#cgrmush" transform="translate(460 335) rotate(8) scale(0.95)"/>
+  <use href="#cgrmush" transform="translate(240 320) rotate(-18) scale(0.8)"/>
+  <use href="#cgrmush" transform="translate(565 320) rotate(20) scale(0.8)"/>
+  <g fill="url(#cgronion)">
+    <circle cx="350" cy="285" r="15"/><circle cx="455" cy="295" r="16"/><circle cx="410" cy="360" r="14"/>
+    <circle cx="290" cy="365" r="13"/><circle cx="530" cy="365" r="14"/><circle cx="250" cy="270" r="13"/><circle cx="555" cy="250" r="12"/>
+  </g>
+  <g fill="#fff" opacity="0.4"><circle cx="345" cy="280" r="4"/><circle cx="450" cy="289" r="4"/><circle cx="405" cy="355" r="3.5"/></g>
+  <g fill="#6a4418">
+    <circle cx="320" cy="305" r="3"/><circle cx="380" cy="300" r="3"/><circle cx="430" cy="320" r="3"/><circle cx="480" cy="310" r="3"/>
+    <circle cx="270" cy="300" r="2.8"/><circle cx="520" cy="300" r="2.8"/><circle cx="370" cy="380" r="2.8"/><circle cx="450" cy="380" r="2.8"/>
+  </g>
+  <g transform="translate(575 215) rotate(20)"><circle r="26" fill="#e8c020"/><circle r="21" fill="#f6e688"/><g stroke="#e8c020" stroke-width="2"><path d="M0,-21 V21 M-21,0 H21 M-15,-15 L15,15 M-15,15 L15,-15"/></g></g>
+  <g stroke="#6a9a34" stroke-width="2" fill="none"><path d="M220,240 Q240,225 250,205 M235,230 Q220,215 212,200 M242,220 Q258,212 268,200"/></g>
+  <g fill="#fff" opacity="0.15"><ellipse cx="330" cy="215" rx="60" ry="10"/></g>
+</svg>
