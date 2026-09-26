@@ -1,0 +1,228 @@
+{
+  "slug": "calderade-de-poisson",
+  "title": "La calderade de poisson",
+  "description": "Un gratin de poisson en couches : pommes de terre sautées, oignons, poivrons et tomates relevés au cumin et à la harissa, mouillé au fumet puis gratiné.",
+  "images": {
+    "cover": "images/recipes/calderade-de-poisson/cover.svg",
+    "web": "images/recipes/calderade-de-poisson/cover.svg"
+  },
+  "prepTime": 40,
+  "cookTime": 45,
+  "servings": 10,
+  "difficulty": "Medio",
+  "category": "Secondi",
+  "origin": "amelie-grandpa",
+  "tags": [
+    "poisson",
+    "plat-principal",
+    "français",
+    "méditerranéen",
+    "four",
+    "épicé",
+    "chaud",
+    "convivial",
+    "à-partager",
+    "toute-la-famille",
+    "nostalgique",
+    "recette-de-famille"
+  ],
+  "ingredients": [
+    {
+      "items": [
+        "1,5 kg de poissons",
+        "1,5 kg de pommes de terre (type BF15)",
+        "800 g de tomates",
+        "250 g d'oignons",
+        "250 g de poivrons",
+        "2 dl d'huile d'olive (Quanto basta)",
+        "100 g de beurre",
+        "20 g de persil en branche",
+        "6 gousses d'ail",
+        "Sel, poivre, harissa, cumin",
+        "Gruyère ou parmesan râpé (Quanto basta)"
+      ]
+    },
+    {
+      "group": "Fumet de poisson",
+      "items": [
+        "Fumet de poisson (voir la fricassée de lotte)"
+      ]
+    }
+  ],
+  "steps": [
+    {
+      "text": "Faire un fumet de poisson (voir la recette de base)."
+    },
+    {
+      "text": "Émincer les oignons et les poivrons."
+    },
+    {
+      "text": "Dans une sauteuse, faire suer dans 1 dl d'huile d'olive les oignons et les poivrons pendant quelques minutes, ajouter la tomate concassée, le sel, le poivre, la harissa, le cumin, puis laisser cuire 10 minutes environ.",
+      "timers": [10]
+    },
+    {
+      "text": "Éplucher les pommes de terre, les laver, les éponger et les couper en rondelles de 2 à 3 mm. Les faire sauter à l'huile 3 à 4 minutes dans une poêle, les mettre dans une terrine, ajouter le persil et l'ail hachés, sel, poivre, puis mélanger.",
+      "timers": [3]
+    },
+    {
+      "text": "Escaloper les filets de poissons, assaisonner de sel, poivre et cumin."
+    },
+    {
+      "text": "Dans un plat à rôtir (ou plat à gratin) bien beurré, disposer en alternant : 1 couche de pommes de terre, 1 couche de garniture d'oignons, de poivrons et de tomates, 1 couche d'escalopes de poisson, 1 couche de garniture, 1 couche de pommes de terre."
+    },
+    {
+      "text": "Mouiller avec le fumet de poisson à hauteur."
+    },
+    {
+      "text": "Couvrir d'un papier sulfurisé beurré. Cuire au four 25 à 30 minutes environ. Aux deux tiers de la cuisson, retirer le papier, parsemer de gruyère ou de parmesan râpé et faire gratiner en terminant la cuisson.",
+      "timers": [25]
+    }
+  ],
+  "source": "Les recettes de Maurice Houdré, tome 2, Les poissons et crustacés",
+  "originalSource": {
+    "type": "text",
+    "data": "La calderade de poisson\n\nIngrédients : pour 10 à 12 personnes\n\n. 1,5 kg de poissons\t\t\t\t\tFumet de poisson :\n. 1,5 kg de pommes de terre (type BF15)\t\tVoir recette « fricassée de lotte »\n. 800  g de tomates\n. 250 g d’oignons\n. 250 g de poivrons\n. 2 dl d’huile d’olive\n. 100 g de beurre\n. 20 g de persil en branche\n. 6 gousses d’ail\n. sel, poivre, harissa, cumin\n\naire un fumet de poisson (voir recette de base).\n\nEmincer les oignons et les poivrons.\nDans une sauteuse, faire suer dans 1 dl d’huile d’olive, les oignons et les poivrons pendant quelques minutes, ajouter la tomate concassée, le sel, poivre, harissa, cumin,  puis laisser cuire 10 minutes environ.\nEplucher les pommes de terre, laver, éponger, et couper en rondelles de 2 à 3 mm, les faire sauter à l’huile 3 à 4 minutes dans une poêle, mettre dans une terrine, ajouter le persil et l’ail hachés, sel, poivre, puis mélanger.\nEscaloper les filets de poissons, assaisonner de sel, poivre et cumin.\nDans un plat à rôtir (ou plat à gratin) bien beurré, disposer en alternant : 1 couche de pommes de terre, 1 couche de garniture d’oignons, de poivrons et de tomates, 1 couche d’escalope de poisson, une couche de garniture, 1 couche de pommes de terre.\nMouiller avec le fumet de poisson à hauteur.\nCouvrir d’un papier sulfurisé et beurré. Cuire au four 25 à 30 minutes environ. Au deux tiers de la cuisson, retirer le papier, parsemer de gruyère ou parmesan râpé, faire gratiner en terminant la cuisson.\n"
+  },
+  "related": [
+    "bouillabaisse",
+    "marmite-du-pecheur",
+    "couscous-d-agneau-et-de-poulet",
+    "couscous-de-poissons-et-fruits-de-mer"
+  ],
+  "translations": {
+    "en": {
+      "title": "Fish calderade",
+      "description": "A layered fish gratin: sautéed potatoes, onions, peppers and tomatoes spiced with cumin and harissa, moistened with fish stock, then browned under a cheese crust.",
+      "tags": [
+        "fish",
+        "main-course",
+        "french",
+        "mediterranean",
+        "oven",
+        "spicy",
+        "hot",
+        "convivial",
+        "sharing",
+        "whole-family",
+        "nostalgic",
+        "family-recipe"
+      ],
+      "ingredients": [
+        {
+          "items": [
+            "1.5 kg of fish",
+            "1.5 kg of potatoes (BF15 type)",
+            "800 g of tomatoes",
+            "250 g of onions",
+            "250 g of peppers",
+            "2 dl of olive oil (Quanto basta)",
+            "100 g of butter",
+            "20 g of flat-leaf parsley",
+            "6 garlic cloves",
+            "Salt, pepper, harissa, cumin",
+            "Grated Gruyère or parmesan (Quanto basta)"
+          ]
+        },
+        {
+          "group": "Fish stock",
+          "items": [
+            "Fish stock (see the monkfish fricassée)"
+          ]
+        }
+      ],
+      "steps": [
+        {
+          "text": "Make a fish stock (see the base recipe)."
+        },
+        {
+          "text": "Thinly slice the onions and peppers."
+        },
+        {
+          "text": "In a sauté pan, sweat the onions and peppers in 1 dl of olive oil for a few minutes, add the roughly chopped tomato, salt, pepper, harissa and cumin, then cook for about 10 minutes."
+        },
+        {
+          "text": "Peel the potatoes, wash them, pat them dry and cut them into 2 to 3 mm slices. Sauté them in oil in a frying pan for 3 to 4 minutes, transfer them to a large bowl, add the chopped parsley and garlic, salt and pepper, then mix."
+        },
+        {
+          "text": "Cut the fish fillets into escalopes and season with salt, pepper and cumin."
+        },
+        {
+          "text": "In a well-buttered roasting dish (or gratin dish), arrange in alternating layers: 1 layer of potatoes, 1 layer of the onion, pepper and tomato garnish, 1 layer of fish escalopes, 1 layer of garnish, 1 layer of potatoes."
+        },
+        {
+          "text": "Add fish stock until it comes level with the top layer."
+        },
+        {
+          "text": "Cover with buttered baking paper. Bake in the oven for about 25 to 30 minutes. Two thirds of the way through cooking, remove the paper, sprinkle with grated Gruyère or parmesan and let it brown while the cooking finishes."
+        }
+      ]
+    },
+    "it": {
+      "title": "Calderade di pesce",
+      "description": "Un gratin di pesce a strati: patate saltate, cipolle, peperoni e pomodori insaporiti con cumino e harissa, bagnato con il fumetto e poi gratinato.",
+      "tags": [
+        "pesce",
+        "secondo-piatto",
+        "francese",
+        "mediterraneo",
+        "forno",
+        "speziato",
+        "caldo",
+        "conviviale",
+        "da-condividere",
+        "tutta-la-famiglia",
+        "nostalgico",
+        "ricetta-di-famiglia"
+      ],
+      "ingredients": [
+        {
+          "items": [
+            "1,5 kg di pesce",
+            "1,5 kg di patate (tipo BF15)",
+            "800 g di pomodori",
+            "250 g di cipolle",
+            "250 g di peperoni",
+            "2 dl di olio d'oliva (Quanto basta)",
+            "100 g di burro",
+            "20 g di prezzemolo a foglia piatta",
+            "6 spicchi d'aglio",
+            "Sale, pepe, harissa, cumino",
+            "Groviera o parmigiano grattugiato (Quanto basta)"
+          ]
+        },
+        {
+          "group": "Fumetto di pesce",
+          "items": [
+            "Fumetto di pesce (vedi la fricassea di rana pescatrice)"
+          ]
+        }
+      ],
+      "steps": [
+        {
+          "text": "Preparare un fumetto di pesce (vedi la ricetta di base)."
+        },
+        {
+          "text": "Affettare sottilmente le cipolle e i peperoni."
+        },
+        {
+          "text": "In una sauteuse, far sudare le cipolle e i peperoni in 1 dl di olio d'oliva per qualche minuto, aggiungere il pomodoro tritato grossolanamente, il sale, il pepe, l'harissa e il cumino, poi lasciar cuocere per circa 10 minuti."
+        },
+        {
+          "text": "Sbucciare le patate, lavarle, asciugarle e tagliarle a rondelle di 2-3 mm. Farle saltare nell'olio in una padella per 3-4 minuti, metterle in una terrina, aggiungere il prezzemolo e l'aglio tritati, sale e pepe, poi mescolare."
+        },
+        {
+          "text": "Tagliare a scaloppine i filetti di pesce, condire con sale, pepe e cumino."
+        },
+        {
+          "text": "In una teglia da forno (o pirofila da gratin) ben imburrata, disporre alternando: 1 strato di patate, 1 strato di guarnizione di cipolle, peperoni e pomodori, 1 strato di scaloppine di pesce, 1 strato di guarnizione, 1 strato di patate."
+        },
+        {
+          "text": "Bagnare con il fumetto di pesce fino a coprire a filo."
+        },
+        {
+          "text": "Coprire con carta da forno imburrata. Cuocere in forno per circa 25-30 minuti. A due terzi della cottura, togliere la carta, cospargere di groviera o parmigiano grattugiato e far gratinare terminando la cottura."
+        }
+      ]
+    }
+  }
+}

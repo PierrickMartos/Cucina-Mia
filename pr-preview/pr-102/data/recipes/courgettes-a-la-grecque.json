@@ -1,0 +1,191 @@
+{
+  "slug": "courgettes-a-la-grecque",
+  "title": "Courgettes à la grecque",
+  "description": "Courgettes mijotées au vin blanc, citron, coriandre et raisins de Smyrne, servies froides en entrée.",
+  "images": {
+    "cover": "images/recipes/courgettes-a-la-grecque/cover.webp",
+    "web": "images/recipes/courgettes-a-la-grecque/web.webp"
+  },
+  "imageCredit": {
+    "author": "jefersonurias",
+    "url": "https://pixabay.com/users/jefersonurias-6627200/"
+  },
+  "prepTime": 20,
+  "cookTime": 40,
+  "servings": 8,
+  "difficulty": "Facile",
+  "category": "Antipasti",
+  "origin": "amelie-grandpa",
+  "tags": [
+    "français",
+    "nostalgique",
+    "recette-de-famille",
+    "entrée",
+    "courgettes",
+    "légumes",
+    "mijoté",
+    "froid",
+    "été",
+    "facile",
+    "préparation-à-lavance",
+    "acidulé"
+  ],
+  "ingredients": [
+    {
+      "items": [
+        "5 petites courgettes",
+        "2 oignons moyens",
+        "100 g de raisins de Smyrne",
+        "½ dl d'huile d'olive (Quanto basta)",
+        "1 citron",
+        "2 dl de vin blanc sec",
+        "2 cuillères à potage de graines de coriandre",
+        "Sel, poivre",
+        "2 petits cubes de bouillon de poule",
+        "1 bouquet garni"
+      ]
+    }
+  ],
+  "steps": [
+    {
+      "text": "Laver et essuyer les courgettes, couper les extrémités."
+    },
+    {
+      "text": "Couper en tronçons de 4 à 5 cm environ, puis chaque tronçon en 4 morceaux."
+    },
+    {
+      "text": "Faire chauffer l'huile d'olive, ajouter les oignons émincés finement, faire suer doucement sans coloration quelques minutes, ajouter les courgettes, le jus de citron, le vin blanc, mouiller à hauteur avec de l'eau, ajouter les petits cubes de bouillon de poule, les raisins bien lavés, le sel et poivre, la coriandre et le bouquet garni."
+    },
+    {
+      "text": "Cuire 30 à 40 minutes à feu doux.",
+      "timers": [30]
+    },
+    {
+      "text": "Laisser refroidir et réserver au frais."
+    }
+  ],
+  "tips": [
+    "Ce plat peut se préparer la veille."
+  ],
+  "source": "Les recettes de Maurice Houdré, tome 1, Les entrées en assiette froide et salades composées",
+  "originalSource": {
+    "type": "text",
+    "data": "Courgettes à la grecque\n\nIngrédients : pour 8 personnes\n\n. 5 petites courgettes\n. 2 oignons moyens\n. 100 g de raisins de Smyrne\n. 1/2 dl d’huile d’olive\n. 1 citron\n. 2 dl de vin blanc sec\n. 2 cuillères à potage de graines de coriandre\n. sel, poivre\n. 2 petits cubes de bouillon de poule\n. 1 bouquet garni\n\nPréparation :\n\nLaver et essuyer les courgettes, couper les extrémités.\n\nCouper en tronçons de 4 à 5 cm environ, puis chaque tronçon en 4 morceaux.\nFaire chauffer l’huile d’olive, ajouter les oignons émincés finement, faire suer doucement sans coloration quelques minutes, ajouter les courgettes, le jus de citron, le vin blanc, mouiller à hauteur avec de l’eau, ajouter les petits cubes de bouillon de poule, les raisins bien lavés, le sel et poivre, la coriandre et le bouquet garni.\nCuire 30 à 40 minutes à feu doux.\nLaisser refroidir et réserver au frais.\n\nConseil :\nCe plat peut se préparer la veille.\n"
+  },
+  "related": [
+    "champignons-a-la-grecque",
+    "fonds-d-artichaut-a-l-orientale",
+    "petits-maquereaux-marines-aux-aromates",
+    "salade-de-riz-aux-fruits-de-mer"
+  ],
+  "translations": {
+    "en": {
+      "title": "Courgettes à la grecque",
+      "description": "Courgettes simmered in white wine with lemon, coriander and sultanas, served cold as a starter.",
+      "tags": [
+        "french",
+        "nostalgic",
+        "family-recipe",
+        "starter",
+        "courgettes",
+        "vegetables",
+        "simmered",
+        "cold",
+        "summer",
+        "easy",
+        "make-ahead",
+        "tangy"
+      ],
+      "ingredients": [
+        {
+          "items": [
+            "5 small courgettes",
+            "2 medium onions",
+            "100 g of sultanas",
+            "½ dl of olive oil (Quanto basta)",
+            "1 lemon",
+            "2 dl of dry white wine",
+            "2 tablespoons of coriander seeds",
+            "Salt, pepper",
+            "2 small chicken stock cubes",
+            "1 bouquet garni"
+          ]
+        }
+      ],
+      "steps": [
+        {
+          "text": "Wash and dry the courgettes, trim the ends."
+        },
+        {
+          "text": "Cut into pieces of about 4 to 5 cm, then cut each piece into 4."
+        },
+        {
+          "text": "Heat the olive oil, add the thinly sliced onions and sweat them gently without colouring for a few minutes. Add the courgettes, the lemon juice and the white wine, add water just to cover, then add the small chicken stock cubes, the well-washed sultanas, salt and pepper, the coriander and the bouquet garni."
+        },
+        {
+          "text": "Cook for 30 to 40 minutes over low heat."
+        },
+        {
+          "text": "Leave to cool and keep in the fridge."
+        }
+      ],
+      "tips": [
+        "This dish can be made the day before."
+      ]
+    },
+    "it": {
+      "title": "Zucchine alla greca",
+      "description": "Zucchine stufate al vino bianco, limone, coriandolo e uvetta sultanina, servite fredde come antipasto.",
+      "tags": [
+        "francese",
+        "nostalgico",
+        "ricetta-di-famiglia",
+        "antipasto",
+        "zucchine",
+        "verdure",
+        "stufato",
+        "freddo",
+        "estate",
+        "facile",
+        "da-preparare-in-anticipo",
+        "acidulo"
+      ],
+      "ingredients": [
+        {
+          "items": [
+            "5 zucchine piccole",
+            "2 cipolle medie",
+            "100 g di uvetta sultanina",
+            "½ dl di olio d'oliva (Quanto basta)",
+            "1 limone",
+            "2 dl di vino bianco secco",
+            "2 cucchiai di semi di coriandolo",
+            "Sale, pepe",
+            "2 dadi piccoli di brodo di pollo",
+            "1 mazzetto aromatico"
+          ]
+        }
+      ],
+      "steps": [
+        {
+          "text": "Lavare e asciugare le zucchine, eliminare le estremità."
+        },
+        {
+          "text": "Tagliarle a tronchetti di circa 4-5 cm, poi tagliare ogni tronchetto in 4 pezzi."
+        },
+        {
+          "text": "Scaldare l'olio d'oliva, aggiungere le cipolle affettate sottilmente e farle sudare dolcemente senza colorire per qualche minuto. Aggiungere le zucchine, il succo di limone e il vino bianco, bagnare con acqua a filo, poi aggiungere i dadi di brodo di pollo, l'uvetta ben lavata, sale e pepe, il coriandolo e il mazzetto aromatico."
+        },
+        {
+          "text": "Cuocere per 30-40 minuti a fuoco basso."
+        },
+        {
+          "text": "Lasciare raffreddare e conservare in frigorifero."
+        }
+      ],
+      "tips": [
+        "Questo piatto si può preparare il giorno prima."
+      ]
+    }
+  }
+}

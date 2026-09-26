@@ -1,0 +1,113 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <defs>
+    <radialGradient id="gb-bg" cx="50%" cy="50%" r="60%">
+      <stop offset="0%" stop-color="#2e2822"/>
+      <stop offset="100%" stop-color="#1a1510"/>
+    </radialGradient>
+    <radialGradient id="gb-dish" cx="50%" cy="40%" r="55%">
+      <stop offset="0%" stop-color="#3a2e28"/>
+      <stop offset="100%" stop-color="#221a14"/>
+    </radialGradient>
+    <radialGradient id="gb-crust" cx="50%" cy="45%" r="55%">
+      <stop offset="0%" stop-color="#d4a832"/>
+      <stop offset="60%" stop-color="#b8862f"/>
+      <stop offset="100%" stop-color="#8b5e1a"/>
+    </radialGradient>
+    <radialGradient id="gb-squash1" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#e8921e"/>
+      <stop offset="100%" stop-color="#d4720a"/>
+    </radialGradient>
+    <radialGradient id="gb-squash2" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#f0a030"/>
+      <stop offset="100%" stop-color="#d4720a"/>
+    </radialGradient>
+    <radialGradient id="gb-steam" cx="50%" cy="100%" r="80%">
+      <stop offset="0%" stop-color="#ffffff" stop-opacity="0.15"/>
+      <stop offset="100%" stop-color="#ffffff" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="gb-blur">
+      <feGaussianBlur stdDeviation="3"/>
+    </filter>
+    <filter id="gb-softshadow">
+      <feGaussianBlur stdDeviation="8" result="blur"/>
+      <feOffset dx="0" dy="6" result="offset"/>
+      <feComposite in="SourceGraphic" in2="offset"/>
+    </filter>
+  </defs>
+
+  <!-- Background -->
+  <rect width="800" height="600" fill="url(#gb-bg)"/>
+
+  <!-- Ambient warm glow on table surface -->
+  <ellipse cx="400" cy="480" rx="280" ry="60" fill="#c8700a" opacity="0.08"/>
+
+  <!-- Cast iron gratin dish - outer rim -->
+  <ellipse cx="400" cy="370" rx="260" ry="100" fill="#2a1f18"/>
+  <ellipse cx="400" cy="365" rx="255" ry="95" fill="#221810"/>
+
+  <!-- Dish interior - dark bottom visible at edges -->
+  <ellipse cx="400" cy="360" rx="240" ry="85" fill="url(#gb-dish)"/>
+
+  <!-- Butternut squash slices showing at sides under crust -->
+  <ellipse cx="230" cy="370" rx="35" ry="18" fill="url(#gb-squash1)" opacity="0.9"/>
+  <ellipse cx="265" cy="360" rx="30" ry="16" fill="url(#gb-squash2)" opacity="0.85"/>
+  <ellipse cx="555" cy="365" rx="32" ry="17" fill="url(#gb-squash1)" opacity="0.9"/>
+  <ellipse cx="520" cy="375" rx="28" ry="15" fill="url(#gb-squash2)" opacity="0.85"/>
+
+  <!-- A few visible squash slice edges at the front -->
+  <ellipse cx="340" cy="425" rx="28" ry="12" fill="#e8921e" opacity="0.7"/>
+  <ellipse cx="390" cy="428" rx="25" ry="11" fill="#d4720a" opacity="0.65"/>
+  <ellipse cx="445" cy="424" rx="27" ry="12" fill="#e8921e" opacity="0.7"/>
+
+  <!-- Main breadcrumb crust surface -->
+  <ellipse cx="400" cy="355" rx="235" ry="80" fill="url(#gb-crust)"/>
+
+  <!-- Crust texture - darker patches -->
+  <ellipse cx="320" cy="345" rx="45" ry="18" fill="#8b5e1a" opacity="0.5"/>
+  <ellipse cx="480" cy="350" rx="40" ry="16" fill="#9a6820" opacity="0.45"/>
+  <ellipse cx="400" cy="335" rx="50" ry="15" fill="#a07225" opacity="0.4"/>
+  <ellipse cx="360" cy="370" rx="30" ry="12" fill="#7a4e10" opacity="0.5"/>
+  <ellipse cx="450" cy="368" rx="35" ry="13" fill="#855515" opacity="0.45"/>
+
+  <!-- Crust texture - golden highlights -->
+  <ellipse cx="380" cy="340" rx="25" ry="10" fill="#e8c060" opacity="0.6"/>
+  <ellipse cx="430" cy="345" rx="20" ry="8" fill="#f0d070" opacity="0.55"/>
+  <ellipse cx="350" cy="358" rx="18" ry="7" fill="#ddb845" opacity="0.5"/>
+  <ellipse cx="460" cy="355" rx="22" ry="9" fill="#e8c055" opacity="0.5"/>
+
+  <!-- Melted cheese bubbles -->
+  <circle cx="370" cy="340" r="8" fill="#f5e090" opacity="0.8"/>
+  <circle cx="420" cy="332" r="6" fill="#f0d878" opacity="0.75"/>
+  <circle cx="340" cy="352" r="5" fill="#f5e090" opacity="0.7"/>
+  <circle cx="460" cy="344" r="7" fill="#f0d070" opacity="0.75"/>
+  <circle cx="400" cy="325" r="5" fill="#ffe8a0" opacity="0.8"/>
+  <circle cx="480" cy="358" r="6" fill="#f5e090" opacity="0.7"/>
+
+  <!-- Cheese drips at dish edges -->
+  <ellipse cx="310" cy="410" rx="12" ry="5" fill="#d4a832" opacity="0.6"/>
+  <ellipse cx="490" cy="408" rx="10" ry="4" fill="#c8a030" opacity="0.55"/>
+
+  <!-- Steam wisps -->
+  <path d="M370 300 Q365 275 372 255 Q378 235 373 215" stroke="white" stroke-width="1.5" fill="none" opacity="0.12" stroke-linecap="round"/>
+  <path d="M400 295 Q396 268 403 248 Q409 228 404 205" stroke="white" stroke-width="1.5" fill="none" opacity="0.1" stroke-linecap="round"/>
+  <path d="M430 302 Q435 274 428 254 Q422 234 427 212" stroke="white" stroke-width="1.5" fill="none" opacity="0.12" stroke-linecap="round"/>
+  <path d="M385 298 Q380 272 387 252" stroke="white" stroke-width="1" fill="none" opacity="0.08" stroke-linecap="round"/>
+  <path d="M415 296 Q420 270 413 250" stroke="white" stroke-width="1" fill="none" opacity="0.08" stroke-linecap="round"/>
+
+  <!-- Dish handles -->
+  <rect x="130" y="350" width="48" height="22" rx="11" fill="#2a1f18"/>
+  <rect x="132" y="352" width="44" height="18" rx="9" fill="#1e1610"/>
+  <rect x="622" y="350" width="48" height="22" rx="11" fill="#2a1f18"/>
+  <rect x="624" y="352" width="44" height="18" rx="9" fill="#1e1610"/>
+
+  <!-- Chive sprinkles on top -->
+  <line x1="355" y1="330" x2="368" y2="335" stroke="#6a9a40" stroke-width="1.5" stroke-linecap="round" opacity="0.9"/>
+  <line x1="410" y1="325" x2="422" y2="320" stroke="#5a8a30" stroke-width="1.5" stroke-linecap="round" opacity="0.85"/>
+  <line x1="385" y1="350" x2="395" y2="344" stroke="#6aaa40" stroke-width="1.5" stroke-linecap="round" opacity="0.9"/>
+  <line x1="440" y1="338" x2="450" y2="345" stroke="#5a9030" stroke-width="1.5" stroke-linecap="round" opacity="0.85"/>
+  <line x1="365" y1="345" x2="372" y2="352" stroke="#6a9a40" stroke-width="1" stroke-linecap="round" opacity="0.8"/>
+  <line x1="425" y1="330" x2="432" y2="324" stroke="#5a8a30" stroke-width="1" stroke-linecap="round" opacity="0.8"/>
+
+  <!-- Warm glow reflection on dish rim -->
+  <ellipse cx="400" cy="445" rx="220" ry="15" fill="#c8700a" opacity="0.15"/>
+</svg>

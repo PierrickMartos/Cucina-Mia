@@ -1,0 +1,176 @@
+{
+  "slug": "filet-mignon-de-porc-a-la-sauge",
+  "title": "Filet mignon de porc à la sauge",
+  "description": "Un filet mignon doré au beurre, mijoté avec une mirepoix, des tomates concassées, du vin blanc et de la sauge, puis nappé de son jus.",
+  "images": {
+    "cover": "images/recipes/filet-mignon-de-porc-a-la-sauge/cover.webp",
+    "web": "images/recipes/filet-mignon-de-porc-a-la-sauge/web.webp"
+  },
+  "imageCredit": {
+    "author": "Fatema Enayath",
+    "url": "https://unsplash.com/@f_en_h"
+  },
+  "prepTime": 20,
+  "cookTime": 45,
+  "servings": 4,
+  "difficulty": "Facile",
+  "category": "Secondi",
+  "origin": "amelie-grandpa",
+  "tags": [
+    "porc",
+    "plat-principal",
+    "mijoté",
+    "français",
+    "nostalgique",
+    "recette-de-famille",
+    "réconfortant",
+    "herbacé",
+    "facile",
+    "chaud",
+    "automne"
+  ],
+  "ingredients": [
+    {
+      "items": [
+        "1 filet de porc",
+        "1 gros oignon",
+        "1 carotte",
+        "1 bouquet garni",
+        "50 g de beurre",
+        "1 dl de vin blanc sec",
+        "2 tomates",
+        "Quelques feuilles de sauge",
+        "Sel et poivre"
+      ]
+    }
+  ],
+  "steps": [
+    {
+      "text": "Dans une casserole ou une petite cocotte, faire fondre le beurre et faire dorer le filet de porc sur toutes ses faces, le retirer et le réserver."
+    },
+    {
+      "text": "Éplucher l'oignon et la carotte, les couper en petits dés (mirepoix). Émonder les tomates, retirer l'eau et les pépins, les couper en dés (tomates concassées)."
+    },
+    {
+      "text": "Dans la casserole, faire suer la mirepoix dans le beurre chaud pendant 2 à 3 minutes. Verser le vin blanc, les tomates concassées, les feuilles de sauge émincées, le bouquet garni, sel et poivre. Remettre le filet mignon et faire cuire à feu doux pendant 30 minutes environ.",
+      "timers": [2, 30]
+    },
+    {
+      "text": "Retirer le filet, verser les légumes et le jus de cuisson dans une passoire, presser avec le dos d'une cuillère pour extraire le maximum de jus. Couper le filet en tranches, le mettre dans un plat et le napper avec le jus."
+    }
+  ],
+  "tips": [
+    "Garniture : pommes mousseline, pommes rissolées, brocolis, chou-fleur, petits pois paysans, haricots verts, gratin de courgettes, etc."
+  ],
+  "source": "Les recettes de Maurice Houdré, tome 2, Les viandes",
+  "originalSource": {
+    "type": "text",
+    "data": "Filet mignon de porc à la sauge\n\nIngrédients : pour 4 personnes\n\n. 1 filet de porc\n. 1 gros oignon\n. 1 carotte\n. 1 bouquet garni\n. 50 de beurre\n. 1 dl de vin blanc sec\n. 2 tomates\n. quelques feuilles de sauge\n. sel et poivre\n\nPréparation\n\n Dans une casserole ou une petite cocotte, faire fondre le beurre et faire dorer le filet de porc sur toutes ses faces, retirer et réserver.\nEplucher l’oignon et la carotte, couper les en petits dés (mirepoix), émonder les tomates, retirer l’eau et les pépins, couper les en dés (tomates concassées).\nDans la casserole, faire suer dans le beurres chaud, la mirepoix pendant 2 à 3 minutes, verser le vin blanc, les tomates concassées, les feuilles de sauge émincées, le bouquet garni, sel et poivre, remettre le filet mignon et faire cuire à feu doux pendant 30 minutes environ.\nRetirer le filet, verser les légumes et le jus de cuisson dans une passoire, presser avec le dos d’une cuillère pour extraire le maximum de jus, couper le filet en tranches, mettre dans un plat et napper avec le jus.\n\nGarniture : \nPommes mousseline, pommes rissolées, brocolis, chou-fleur, petits pois paysans, haricots verts, gratin de courgettes, etc…\n"
+  },
+  "related": [
+    "filet-mignon-creme-moutarde",
+    "roti-de-porc-farci-en-croute",
+    "piccata-de-veau-au-porto",
+    "selle-d-agneau-en-mosaiques"
+  ],
+  "translations": {
+    "en": {
+      "title": "Pork Tenderloin with Sage",
+      "description": "A pork tenderloin browned in butter, simmered with a mirepoix, roughly chopped tomatoes, white wine and sage, then coated with its own juices.",
+      "tags": [
+        "pork",
+        "main-course",
+        "slow-cooked",
+        "french",
+        "nostalgic",
+        "family-recipe",
+        "comforting",
+        "herby",
+        "easy",
+        "hot",
+        "autumn"
+      ],
+      "ingredients": [
+        {
+          "items": [
+            "1 pork tenderloin",
+            "1 large onion",
+            "1 carrot",
+            "1 bouquet garni",
+            "50 g butter",
+            "1 dl dry white wine",
+            "2 tomatoes",
+            "A few sage leaves",
+            "Salt and pepper"
+          ]
+        }
+      ],
+      "steps": [
+        {
+          "text": "In a saucepan or a small casserole dish, melt the butter and brown the pork tenderloin on all sides, then remove it and set aside."
+        },
+        {
+          "text": "Peel the onion and the carrot and cut them into small dice (mirepoix). Blanch and peel the tomatoes, remove the water and the seeds, then cut them into dice (roughly chopped tomatoes)."
+        },
+        {
+          "text": "In the saucepan, sweat the mirepoix in the hot butter for 2 to 3 minutes. Pour in the white wine, the roughly chopped tomatoes, the thinly sliced sage leaves, the bouquet garni, salt and pepper. Return the tenderloin to the pan and cook over low heat for about 30 minutes."
+        },
+        {
+          "text": "Remove the tenderloin, pour the vegetables and the cooking juices into a sieve and press with the back of a spoon to extract as much juice as possible. Slice the tenderloin, place it in a dish and coat it with the juice."
+        }
+      ],
+      "tips": [
+        "Garnish: mashed potatoes (pommes mousseline), sautéed potatoes, broccoli, cauliflower, country-style peas, green beans, courgette gratin, etc."
+      ]
+    },
+    "it": {
+      "title": "Filetto di maiale alla salvia",
+      "description": "Un filetto di maiale rosolato nel burro, stufato con un soffritto di verdure, pomodori tritati grossolanamente, vino bianco e salvia, poi nappato con il suo sugo.",
+      "tags": [
+        "maiale",
+        "secondo-piatto",
+        "stufato",
+        "francese",
+        "nostalgico",
+        "ricetta-di-famiglia",
+        "confortante",
+        "erbaceo",
+        "facile",
+        "caldo",
+        "autunno"
+      ],
+      "ingredients": [
+        {
+          "items": [
+            "1 filetto di maiale",
+            "1 cipolla grande",
+            "1 carota",
+            "1 mazzetto aromatico",
+            "50 g di burro",
+            "1 dl di vino bianco secco",
+            "2 pomodori",
+            "Qualche foglia di salvia",
+            "Sale e pepe"
+          ]
+        }
+      ],
+      "steps": [
+        {
+          "text": "In una casseruola o in una piccola cocotte, far sciogliere il burro e rosolare il filetto di maiale su tutti i lati, poi toglierlo e tenerlo da parte."
+        },
+        {
+          "text": "Sbucciare la cipolla e la carota e tagliarle a dadini (mirepoix). Pelare i pomodori, eliminare l'acqua e i semi, poi tagliarli a dadini (pomodori tritati grossolanamente)."
+        },
+        {
+          "text": "Nella casseruola, far sudare la mirepoix nel burro caldo per 2-3 minuti. Versare il vino bianco, i pomodori tritati grossolanamente, le foglie di salvia affettate sottilmente, il mazzetto aromatico, sale e pepe. Rimettere il filetto e cuocere a fuoco basso per circa 30 minuti."
+        },
+        {
+          "text": "Togliere il filetto, versare le verdure e il sugo di cottura in un colino e premere con il dorso di un cucchiaio per estrarre più sugo possibile. Tagliare il filetto a fette, disporlo in un piatto e napparlo con il sugo."
+        }
+      ],
+      "tips": [
+        "Contorno: purè di patate (pommes mousseline), patate rosolate, broccoli, cavolfiore, piselli alla contadina, fagiolini, gratin di zucchine, ecc."
+      ]
+    }
+  }
+}

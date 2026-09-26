@@ -1,0 +1,172 @@
+{
+  "slug": "terrine-de-courgettes-au-basilic",
+  "title": "Terrine de courgettes au basilic",
+  "description": "Une terrine moelleuse de courgettes en bâtonnets et de basilic, liée aux œufs et à la crème, cuite au bain-marie et servie tiède ou froide.",
+  "images": {
+    "cover": "images/recipes/terrine-de-courgettes-au-basilic/cover.svg",
+    "web": "images/recipes/terrine-de-courgettes-au-basilic/cover.svg"
+  },
+  "prepTime": 20,
+  "cookTime": 45,
+  "servings": 20,
+  "difficulty": "Facile",
+  "category": "Contorni",
+  "origin": "amelie-grandpa",
+  "tags": [
+    "français",
+    "nostalgique",
+    "recette-de-famille",
+    "accompagnement",
+    "courgettes",
+    "légumes",
+    "végétarien",
+    "bain-marie",
+    "four",
+    "moelleux",
+    "tiède",
+    "froid",
+    "été"
+  ],
+  "ingredients": [
+    {
+      "items": [
+        "4 petites courgettes",
+        "5 œufs",
+        "2 dl de crème",
+        "1 cuillère de maïzena",
+        "½ dl d'huile d'olive (Quanto basta)",
+        "6 feuilles de basilic",
+        "Sel, poivre blanc, pointe de Cayenne"
+      ]
+    }
+  ],
+  "steps": [
+    {
+      "text": "Laver et essuyer les courgettes, couper les extrémités (ne pas les éplucher)."
+    },
+    {
+      "text": "Détailler en bâtonnets de 5 à 6 cm, les faire sauter légèrement à l'huile, ajouter les feuilles de basilic hachées, laisser refroidir."
+    },
+    {
+      "text": "Battre les œufs, la crème, ajouter la maïzena, les courgettes, le sel, le poivre blanc, le poivre de Cayenne, mélanger et verser dans un moule à cake beurré et fariné."
+    },
+    {
+      "text": "Faire cuire au bain-marie 30 à 40 minutes environ à four doux.",
+      "timers": [30]
+    },
+    {
+      "text": "Laisser refroidir si le plat est servi froid."
+    }
+  ],
+  "source": "Les recettes de Maurice Houdré, tome 2, Préparations à base de légumes",
+  "originalSource": {
+    "type": "text",
+    "data": "Terrine de courgettes au basilic\n\nIngrédients : pour 20 personnes\n\n. 4 petites courgettes\n. 5 oeufs\n. 2 dl de crème\n. 1 cuillère de maïzena\n. ½ dl d’huile d’olive\n. 6 feuilles de basilic\n. sel, poivre blanc, pointe de Cayenne\n\nPréparation\n\nLaver et essuyer les courgettes, couper les extrémités (ne pas les éplucher).\n\nDétailler en bâtonnets de 5 à 6 cm, les faire sauter légèrement à l’huile, ajouter les feuilles de basilic hachées, laisser refroidir. \nBattre les œufs, la crème, ajouter la maïzena, les courgettes, le sel, le poivre blanc, le poivre de Cayenne, mélanger et verser dans un moule à cake beurré et fariné.\nFaire cuire au bain-marie 30 à 40 minutes environ à four doux.\nLaisser refroidir si le plat est servi froid.\n"
+  },
+  "related": [
+    "flan-de-courgettes-gratinees",
+    "flan-de-pointes-d-asperges",
+    "timbale-d-epinards",
+    "tomates-soufflees"
+  ],
+  "translations": {
+    "en": {
+      "title": "Courgette and basil terrine",
+      "description": "A soft terrine of courgette sticks and basil, bound with eggs and cream, cooked in a bain-marie and served warm or cold.",
+      "tags": [
+        "french",
+        "nostalgic",
+        "family-recipe",
+        "side-dish",
+        "courgettes",
+        "vegetables",
+        "vegetarian",
+        "bain-marie",
+        "oven",
+        "soft",
+        "warm",
+        "cold",
+        "summer"
+      ],
+      "ingredients": [
+        {
+          "items": [
+            "4 small courgettes",
+            "5 eggs",
+            "2 dl of cream",
+            "1 spoonful of cornflour",
+            "½ dl of olive oil (Quanto basta)",
+            "6 basil leaves",
+            "Salt, white pepper, a pinch of cayenne"
+          ]
+        }
+      ],
+      "steps": [
+        {
+          "text": "Wash and dry the courgettes, trim the ends (do not peel them)."
+        },
+        {
+          "text": "Cut into sticks 5 to 6 cm long, sauté them lightly in the oil, add the chopped basil leaves and leave to cool."
+        },
+        {
+          "text": "Beat the eggs and the cream, add the cornflour, the courgettes, the salt, the white pepper and the cayenne pepper, mix and pour into a buttered and floured loaf tin."
+        },
+        {
+          "text": "Cook in a bain-marie for about 30 to 40 minutes in a low oven."
+        },
+        {
+          "text": "Leave to cool if the dish is served cold."
+        }
+      ]
+    },
+    "it": {
+      "title": "Terrina di zucchine al basilico",
+      "description": "Una terrina morbida di bastoncini di zucchine e basilico, legata con uova e panna, cotta a bagnomaria e servita tiepida o fredda.",
+      "tags": [
+        "francese",
+        "nostalgico",
+        "ricetta-di-famiglia",
+        "contorno",
+        "zucchine",
+        "verdure",
+        "vegetariano",
+        "bagnomaria",
+        "forno",
+        "morbido",
+        "tiepido",
+        "freddo",
+        "estate"
+      ],
+      "ingredients": [
+        {
+          "items": [
+            "4 zucchine piccole",
+            "5 uova",
+            "2 dl di panna",
+            "1 cucchiaio di maizena",
+            "½ dl di olio d'oliva (Quanto basta)",
+            "6 foglie di basilico",
+            "Sale, pepe bianco, una punta di pepe di Caienna"
+          ]
+        }
+      ],
+      "steps": [
+        {
+          "text": "Lavare e asciugare le zucchine, eliminare le estremità (non sbucciarle)."
+        },
+        {
+          "text": "Tagliare a bastoncini di 5-6 cm, saltarli leggermente nell'olio, aggiungere le foglie di basilico tritate e lasciare raffreddare."
+        },
+        {
+          "text": "Sbattere le uova con la panna, aggiungere la maizena, le zucchine, il sale, il pepe bianco e il pepe di Caienna, mescolare e versare in uno stampo da plumcake imburrato e infarinato."
+        },
+        {
+          "text": "Cuocere a bagnomaria per circa 30-40 minuti in forno dolce."
+        },
+        {
+          "text": "Lasciare raffreddare se il piatto viene servito freddo."
+        }
+      ]
+    }
+  }
+}

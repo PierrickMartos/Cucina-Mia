@@ -1,0 +1,270 @@
+{
+  "slug": "dartois-au-thon",
+  "title": "Dartois au thon",
+  "description": "Un appareil de thon, champignons, œufs durs et béchamel enfermé entre deux bandes de feuilletage dorées, à détailler en parts.",
+  "images": {
+    "cover": "images/recipes/dartois-au-thon/cover.svg",
+    "web": "images/recipes/dartois-au-thon/cover.svg"
+  },
+  "prepTime": 75,
+  "cookTime": 45,
+  "servings": 10,
+  "difficulty": "Medio",
+  "category": "Antipasti",
+  "origin": "amelie-grandpa",
+  "tags": [
+    "français",
+    "nostalgique",
+    "recette-de-famille",
+    "entrée",
+    "thon",
+    "poisson",
+    "œufs",
+    "four",
+    "à-partager",
+    "buffet",
+    "croustillant",
+    "chaud"
+  ],
+  "ingredients": [
+    {
+      "items": [
+        "1 pâton de feuilletage",
+        "½ boîte de thon au naturel de 400/500 g",
+        "6 œufs + 1 pour la dorure",
+        "250 g de champignons de Paris",
+        "1 citron",
+        "100 g de beurre",
+        "50 g de persil haché",
+        "Sel, poivre"
+      ]
+    },
+    {
+      "group": "Béchamel",
+      "items": [
+        "50 g de beurre",
+        "50 g de farine",
+        "½ l de lait",
+        "Sel",
+        "1 pointe de Cayenne"
+      ]
+    }
+  ],
+  "steps": [
+    {
+      "text": "Préparer le feuilletage à l'avance ou acheter une pâte toute faite."
+    },
+    {
+      "text": "Préparer l'appareil : faire durcir les œufs 9 à 10 minutes.",
+      "timers": [9]
+    },
+    {
+      "text": "Laver puis escaloper les champignons, les faire sauter avec le beurre, ajouter le jus de citron, sel, poivre et persil haché."
+    },
+    {
+      "text": "Émietter le thon."
+    },
+    {
+      "text": "Faire une sauce béchamel avec le beurre, la farine, le lait, le sel et 1 pointe de Cayenne."
+    },
+    {
+      "text": "Ajouter les champignons, le thon, les œufs durs concassés, mélanger délicatement l'appareil et laisser refroidir."
+    },
+    {
+      "text": "Préparer le dartois : abaisser le feuilletage pour obtenir 1 bande de 40 à 50 cm de long sur 13 cm de large (abaisse du dessous) et 1 bande de 40 à 50 cm de long sur 15 cm de large (abaisse du dessus)."
+    },
+    {
+      "text": "Disposer l'abaisse du dessous sur une plaque à pâtisserie mouillée, garnir le centre et toute la longueur avec l'appareil, bien répartir, passer les bords à la dorure, recouvrir avec l'abaisse du dessus (plus large) et souder par pression des doigts sur tout le pourtour, passer le dessus à la dorure, rayer par incision légère avec la pointe d'un couteau."
+    },
+    {
+      "text": "Laisser reposer 30 minutes au frais.",
+      "timers": [30]
+    },
+    {
+      "text": "Cuire à four chaud 30 minutes environ.",
+      "timers": [30]
+    },
+    {
+      "text": "Détailler au moment du dressage."
+    }
+  ],
+  "tips": [
+    "Définition : un dartois est un appareil enfermé dans deux abaisses de feuilletage rectangulaires.",
+    "Il est possible de faire 2 dartois de 25 à 30 cm de longueur, plus faciles à cuire au four."
+  ],
+  "source": "Les recettes de Maurice Houdré, tome 1, Les entrées chaudes",
+  "originalSource": {
+    "type": "text",
+    "data": "Dartois au thon \n\nIngrédients : pour 10 personnes\n\n. 1 pâton de feuilletage\n. ½ boite de thon au naturel de 400/500 g\n. 6 oeufs + 1 pour la dorure\n. 250 g de champignons de Paris\n. 1 citron\n. 100 g de beurre\n. 50 g de persil haché\n. sel, poivre\nBéchamel :\n. 50 g de beurre\n. 50 g de farine\n. ½ l de lait\n. sel, 1 pointe de Cayenne\n\nPréparation :\n\nDéfinition : Dartois ; appareil enfermé dans deux abaisses de feuilletage rectangulaires.\nPréparer le feuilletage à l’avance ou acheter une pâte toute faite.\nPréparer l’appareil : \nFaire durcir les œufs 9 à 10 minutes.\nLaver puis escaloper les champignons, les faire sauter avec le beurre, ajouter le jus de citron, sel, poivre et persil haché.\nEmietter le thon.\nFaire une sauce Béchamel avec : le beurre, la farine, le lait, le sel et 1 pointe de Cayenne.\nAjouter les champignons, le thon, les œufs durs concassés, mélanger délicatement l’appareil et laisser refroidir.\nPréparer le Dartois :\nAbaisser le feuilletage pour obtenir ; 1 bande de 40 à 50 cm de long sur 13 cm de large (abaisse du dessous), 1 bande de 40 à 50 cm de long sur 15 cm de large (abaisse du dessus). \nDisposer l’abaisse du dessous sur une plaque à pâtisserie mouillée, garnir le centre et sur toute la longueur avec l’appareil, bien répartir, passer les bords à la dorure, recouvrir avec l’abaisse du dessus (plus large) et souder par pression des doigts sur tout le pourtour, passer le dessus à la dorure, rayer par incision légère avec la pointe d’un couteau.\nLaisser reposer 30 minutes au frais. \nCuire à four chaud 30 minutes environ.\nDétailler au moment du service.\nPS : Il est possible de faire 2 Dartois de 25 à 30 cm de longueur, plus facile à cuire au four.\n"
+  },
+  "related": [
+    "dartois-savoyard",
+    "oeufs-farcis-au-thon",
+    "tarte-au-thon-a-la-catalane",
+    "roti-de-porc-farci-en-croute"
+  ],
+  "translations": {
+    "en": {
+      "title": "Tuna dartois",
+      "description": "A mixture of tuna, mushrooms, hard-boiled eggs and béchamel enclosed between two golden strips of puff pastry, cut into portions.",
+      "tags": [
+        "french",
+        "nostalgic",
+        "family-recipe",
+        "starter",
+        "tuna",
+        "fish",
+        "eggs",
+        "oven",
+        "sharing",
+        "buffet",
+        "crispy",
+        "hot"
+      ],
+      "ingredients": [
+        {
+          "items": [
+            "1 block of puff pastry",
+            "½ can of tuna in brine (400/500 g can)",
+            "6 eggs + 1 for the egg wash",
+            "250 g button mushrooms",
+            "1 lemon",
+            "100 g butter",
+            "50 g chopped parsley",
+            "Salt, pepper"
+          ]
+        },
+        {
+          "group": "Béchamel",
+          "items": [
+            "50 g butter",
+            "50 g flour",
+            "½ l milk",
+            "Salt",
+            "1 pinch of cayenne pepper"
+          ]
+        }
+      ],
+      "steps": [
+        {
+          "text": "Make the puff pastry in advance or buy ready-made pastry."
+        },
+        {
+          "text": "Prepare the mixture: hard-boil the eggs for 9 to 10 minutes."
+        },
+        {
+          "text": "Wash then slice the mushrooms on the bias, sauté them in the butter, add the lemon juice, salt, pepper and chopped parsley."
+        },
+        {
+          "text": "Flake the tuna."
+        },
+        {
+          "text": "Make a béchamel sauce with the butter, flour, milk, salt and 1 pinch of cayenne pepper."
+        },
+        {
+          "text": "Add the mushrooms, the tuna and the roughly chopped hard-boiled eggs, gently mix the mixture and leave to cool."
+        },
+        {
+          "text": "Prepare the dartois: roll out the puff pastry to get 1 strip 40 to 50 cm long and 13 cm wide (bottom rolled-out dough) and 1 strip 40 to 50 cm long and 15 cm wide (top rolled-out dough)."
+        },
+        {
+          "text": "Place the bottom rolled-out dough on a wet baking sheet, fill the centre along its whole length with the mixture, spread it evenly, egg-wash the edges, cover with the top rolled-out dough (the wider one) and seal by pressing with your fingers all around, egg-wash the top, score it lightly with the tip of a knife."
+        },
+        {
+          "text": "Leave to rest in a cool place for 30 minutes."
+        },
+        {
+          "text": "Bake in a hot oven for about 30 minutes."
+        },
+        {
+          "text": "Cut into portions at the time of plating."
+        }
+      ],
+      "tips": [
+        "Definition: a dartois is a mixture enclosed between two rectangular sheets of rolled-out puff pastry.",
+        "You can make 2 dartois 25 to 30 cm long, which are easier to bake in the oven."
+      ]
+    },
+    "it": {
+      "title": "Dartois al tonno",
+      "description": "Un composto di tonno, funghi, uova sode e besciamella racchiuso tra due strisce di pasta sfoglia dorate, da tagliare a porzioni.",
+      "tags": [
+        "francese",
+        "nostalgico",
+        "ricetta-di-famiglia",
+        "antipasto",
+        "tonno",
+        "pesce",
+        "uova",
+        "forno",
+        "da-condividere",
+        "buffet",
+        "croccante",
+        "caldo"
+      ],
+      "ingredients": [
+        {
+          "items": [
+            "1 panetto di pasta sfoglia",
+            "½ scatola di tonno al naturale da 400/500 g",
+            "6 uova + 1 per spennellare",
+            "250 g di funghi champignon",
+            "1 limone",
+            "100 g di burro",
+            "50 g di prezzemolo tritato",
+            "Sale, pepe"
+          ]
+        },
+        {
+          "group": "Besciamella",
+          "items": [
+            "50 g di burro",
+            "50 g di farina",
+            "½ l di latte",
+            "Sale",
+            "1 punta di pepe di Cayenna"
+          ]
+        }
+      ],
+      "steps": [
+        {
+          "text": "Preparare la pasta sfoglia in anticipo o acquistarne una già pronta."
+        },
+        {
+          "text": "Preparare il composto: rassodare le uova per 9-10 minuti."
+        },
+        {
+          "text": "Lavare e tagliare i funghi a fettine oblique, saltarli nel burro, aggiungere il succo di limone, sale, pepe e prezzemolo tritato."
+        },
+        {
+          "text": "Sbriciolare il tonno."
+        },
+        {
+          "text": "Preparare una besciamella con il burro, la farina, il latte, il sale e 1 punta di pepe di Cayenna."
+        },
+        {
+          "text": "Aggiungere i funghi, il tonno e le uova sode tritate grossolanamente, mescolare delicatamente il composto e lasciar raffreddare."
+        },
+        {
+          "text": "Preparare il dartois: stendere la pasta sfoglia per ottenere 1 striscia lunga 40-50 cm e larga 13 cm (sfoglia inferiore) e 1 striscia lunga 40-50 cm e larga 15 cm (sfoglia superiore)."
+        },
+        {
+          "text": "Disporre la sfoglia inferiore su una teglia da pasticceria bagnata, farcire il centro per tutta la lunghezza con il composto, distribuirlo bene, spennellare i bordi con tuorlo, coprire con la sfoglia superiore (più larga) e sigillare premendo con le dita tutto intorno, spennellare la superficie con tuorlo, rigarla incidendo leggermente con la punta di un coltello."
+        },
+        {
+          "text": "Lasciar riposare 30 minuti in frigorifero."
+        },
+        {
+          "text": "Cuocere in forno caldo per circa 30 minuti."
+        },
+        {
+          "text": "Tagliare a porzioni al momento dell'impiattamento."
+        }
+      ],
+      "tips": [
+        "Definizione: il dartois è un composto racchiuso tra due sfoglie rettangolari di pasta sfoglia.",
+        "Si possono preparare 2 dartois lunghi 25-30 cm, più facili da cuocere in forno."
+      ]
+    }
+  }
+}

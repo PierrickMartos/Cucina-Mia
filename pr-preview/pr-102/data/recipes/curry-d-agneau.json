@@ -1,0 +1,223 @@
+{
+  "slug": "curry-d-agneau",
+  "title": "Curry d'agneau",
+  "description": "Épaule d'agneau mijotée au curry, relevée d'une sauce pomme, oignon, ail et tomates, adoucie à la crème.",
+  "images": {
+    "cover": "images/recipes/curry-d-agneau/cover.webp",
+    "web": "images/recipes/curry-d-agneau/web.webp"
+  },
+  "imageCredit": {
+    "author": "LOLA AZIZADA",
+    "url": "https://unsplash.com/@kalpa_mahagamage"
+  },
+  "prepTime": 30,
+  "cookTime": 75,
+  "servings": 10,
+  "difficulty": "Medio",
+  "category": "Secondi",
+  "origin": "amelie-grandpa",
+  "tags": [
+    "agneau",
+    "plat-principal",
+    "français",
+    "mijoté",
+    "épicé",
+    "onctueux",
+    "chaud",
+    "hiver",
+    "réconfortant",
+    "convivial",
+    "nostalgique",
+    "recette-de-famille"
+  ],
+  "ingredients": [
+    {
+      "items": [
+        "1,5 kg d'épaule d'agneau désossée et coupée en 10 morceaux",
+        "2 oignons",
+        "3 gousses d'ail",
+        "1 bouquet garni",
+        "100 g de beurre",
+        "50 g de farine",
+        "1 dl de crème",
+        "Sel, poivre, curry en poudre"
+      ]
+    },
+    {
+      "group": "Sauce",
+      "items": [
+        "1 pomme",
+        "1 oignon",
+        "3 gousses d'ail",
+        "2 tomates"
+      ]
+    }
+  ],
+  "steps": [
+    {
+      "text": "Faire revenir les morceaux de viande dans 2/3 du beurre, ajouter les oignons émincés, saupoudrer de farine, bien mélanger et faire dorer la farine. Ajouter l'ail écrasé, une cuillère à potage de curry, sel et poivre, mouiller à hauteur avec de l'eau, couvrir et laisser cuire 50 minutes environ.",
+      "timers": [50]
+    },
+    {
+      "text": "Pendant ce temps, éplucher l'oignon, l'ail et la pomme, les passer au mixer."
+    },
+    {
+      "text": "Émonder les tomates, enlever l'eau et les pépins, les couper en dés."
+    },
+    {
+      "text": "Dans une casserole, faire fondre le reste du beurre, faire suer à feu doux le mélange pomme, oignon et ail, bien remuer. Ajouter les tomates, sel et poivre et une cuillère à dessert de curry."
+    },
+    {
+      "text": "Décanter les morceaux de viande dans une casserole, passer le jus de cuisson et faire réduire 10 minutes.",
+      "timers": [10]
+    },
+    {
+      "text": "Verser sur les morceaux de viande avec la garniture, laisser mijoter l'ensemble à feu doux 10 à 15 minutes, ajouter la crème.",
+      "timers": [10]
+    }
+  ],
+  "tips": [
+    "Garniture : riz ou pâtes fraîches."
+  ],
+  "source": "Les recettes de Maurice Houdré, tome 2, Les viandes",
+  "originalSource": {
+    "type": "text",
+    "data": "Curry d’agneau\n\nIngrédients : pour 10 personnes\n\n. 1,5 kg d’épaule d’agneau désossée et coupée en 10 morceaux\n. 2 oignons\n. 3 gousses d’ail\n. 1 bouquet garni\n. 100 g de beurre\n. 50 g de farine\n. 1 dl de crème\n. sel, poivre, curry en poudre\nSauce :\n. 1 pomme\n. 1 oignon\n. 3 gousses d’ail\n. 2 tomates\n\nPréparation\n\nFaire revenir les morceaux de viande dans 2/3 de beurre, ajouter les oignons émincés, saupoudrer de farine, bien mélanger et faire dorer la farine, ajouter l’ail écrasé, une cuillère à potage de curry, sel et poivre, mouiller à hauteur avec de l’eau, couvrir et laisser cuire 50 minutes environ.\nPendant ce temps, éplucher l’oignon, l’ail et la pomme, passer les au mixer.\nEmonder les tomates, enlever l’eau et les pépins, couper les en dés.\nDans une casserole, faire fondre le reste de beurre, faire suer à feu doux le mélange : pomme, oignon et ail, bien remuer, ajouter les tomates, sel et poivre et une cuillère à dessert de curry.\nDécanter les morceaux de viande dans une casserole, passer le jus de cuisson et faire réduire 10 minutes. Verser sur les morceaux de viande avec la garniture, laisser mijoter l’ensemble à feu doux 10 à 15 minutes, ajouter la crème.\n\nGarniture :\nRiz ou pâtes fraîches.\n"
+  },
+  "related": [
+    "biryani-agneau",
+    "poulet-au-curry",
+    "couscous-d-agneau-et-de-poulet",
+    "saute-d-agneau-aux-primeurs-ou-navarin-printanier"
+  ],
+  "translations": {
+    "en": {
+      "title": "Lamb Curry",
+      "description": "Lamb shoulder simmered in curry, lifted by an apple, onion, garlic and tomato sauce, softened with cream.",
+      "tags": [
+        "lamb",
+        "main-course",
+        "french",
+        "slow-cooked",
+        "spicy",
+        "creamy",
+        "hot",
+        "winter",
+        "comforting",
+        "convivial",
+        "nostalgic",
+        "family-recipe"
+      ],
+      "ingredients": [
+        {
+          "items": [
+            "1.5 kg of boned lamb shoulder, cut into 10 pieces",
+            "2 onions",
+            "3 garlic cloves",
+            "1 bouquet garni",
+            "100 g of butter",
+            "50 g of flour",
+            "1 dl of cream",
+            "Salt, pepper, curry powder"
+          ]
+        },
+        {
+          "group": "Sauce",
+          "items": [
+            "1 apple",
+            "1 onion",
+            "3 garlic cloves",
+            "2 tomatoes"
+          ]
+        }
+      ],
+      "steps": [
+        {
+          "text": "Brown the pieces of meat in 2/3 of the butter, add the thinly sliced onions, dust with flour, mix well and let the flour brown. Add the crushed garlic, one tablespoon of curry, salt and pepper, add water to just cover, cover and cook for about 50 minutes."
+        },
+        {
+          "text": "Meanwhile, peel the onion, garlic and apple, then blitz them in the blender."
+        },
+        {
+          "text": "Blanch and peel the tomatoes, remove the water and seeds, then dice them."
+        },
+        {
+          "text": "In a saucepan, melt the rest of the butter, sweat the apple, onion and garlic mixture over low heat, stirring well. Add the tomatoes, salt and pepper and one dessertspoon of curry."
+        },
+        {
+          "text": "Transfer the pieces of meat to a saucepan, strain the cooking juices and reduce them for 10 minutes."
+        },
+        {
+          "text": "Pour over the pieces of meat with the sauce mixture, let everything simmer over low heat for 10 to 15 minutes, then add the cream."
+        }
+      ],
+      "tips": [
+        "To serve with: rice or fresh pasta."
+      ]
+    },
+    "it": {
+      "title": "Curry di agnello",
+      "description": "Spalla d'agnello stufata al curry, ravvivata da una salsa di mela, cipolla, aglio e pomodori, addolcita con la panna.",
+      "tags": [
+        "agnello",
+        "piatto-principale",
+        "francese",
+        "stufato",
+        "speziato",
+        "cremoso",
+        "caldo",
+        "inverno",
+        "confortante",
+        "conviviale",
+        "nostalgico",
+        "ricetta-di-famiglia"
+      ],
+      "ingredients": [
+        {
+          "items": [
+            "1,5 kg di spalla d'agnello disossata e tagliata in 10 pezzi",
+            "2 cipolle",
+            "3 spicchi d'aglio",
+            "1 mazzetto aromatico",
+            "100 g di burro",
+            "50 g di farina",
+            "1 dl di panna",
+            "Sale, pepe, curry in polvere"
+          ]
+        },
+        {
+          "group": "Salsa",
+          "items": [
+            "1 mela",
+            "1 cipolla",
+            "3 spicchi d'aglio",
+            "2 pomodori"
+          ]
+        }
+      ],
+      "steps": [
+        {
+          "text": "Rosolare i pezzi di carne in 2/3 del burro, aggiungere le cipolle affettate sottilmente, spolverare di farina, mescolare bene e far dorare la farina. Aggiungere l'aglio schiacciato, un cucchiaio di curry, sale e pepe, bagnare a filo con acqua, coprire e lasciar cuocere per circa 50 minuti."
+        },
+        {
+          "text": "Nel frattempo, sbucciare la cipolla, l'aglio e la mela, poi frullarli nel mixer."
+        },
+        {
+          "text": "Pelare i pomodori, eliminare l'acqua e i semi, poi tagliarli a dadini."
+        },
+        {
+          "text": "In una casseruola, far fondere il resto del burro, far sudare a fuoco dolce il composto di mela, cipolla e aglio, mescolando bene. Aggiungere i pomodori, sale e pepe e un cucchiaino da dessert di curry."
+        },
+        {
+          "text": "Trasferire i pezzi di carne in una casseruola, filtrare il fondo di cottura e farlo ridurre per 10 minuti."
+        },
+        {
+          "text": "Versare sui pezzi di carne insieme al composto della salsa, lasciar sobbollire il tutto a fuoco dolce per 10-15 minuti, poi aggiungere la panna."
+        }
+      ],
+      "tips": [
+        "Contorno: riso o pasta fresca."
+      ]
+    }
+  }
+}

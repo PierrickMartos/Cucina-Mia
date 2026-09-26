@@ -1,0 +1,364 @@
+{
+  "slug": "homard-a-l-americaine",
+  "title": "Homard à l'américaine",
+  "description": "Homards vivants découpés, flambés au Cognac et mijotés au vin blanc, fumet et tomate, servis dans leur sauce avec un riz pilaf ou créole.",
+  "images": {
+    "cover": "images/recipes/homard-a-l-americaine/cover.webp",
+    "web": "images/recipes/homard-a-l-americaine/web.webp"
+  },
+  "imageCredit": {
+    "author": "NadineDoerle",
+    "url": "https://pixabay.com/users/nadinedoerle-1421566/"
+  },
+  "prepTime": 45,
+  "cookTime": 35,
+  "servings": 8,
+  "difficulty": "Difficile",
+  "category": "Secondi",
+  "origin": "amelie-grandpa",
+  "tags": [
+    "homard",
+    "fruits-de-mer",
+    "plat-principal",
+    "français",
+    "mijoté",
+    "flambé",
+    "festif",
+    "gourmand",
+    "chaud",
+    "nostalgique",
+    "recette-de-famille"
+  ],
+  "ingredients": [
+    {
+      "items": [
+        "2 homards vivants si possible, de 1 à 1,2 kg",
+        "2 oignons",
+        "2 carottes (mirepoix)",
+        "4 échalotes",
+        "5 gousses d'ail",
+        "1 dl de Cognac",
+        "½ l de vin blanc",
+        "1 l de fumet de poisson",
+        "1 dl d'huile d'olive (Quanto basta)",
+        "1 bouquet garni",
+        "4 tomates",
+        "1 cuillerée d'estragon et de cerfeuil hachés",
+        "Sel fin, poivre du moulin et poivre de Cayenne",
+        "Beurre",
+        "Farine",
+        "Persil haché"
+      ]
+    },
+    {
+      "group": "Sauce américaine",
+      "items": [
+        "Huile",
+        "Oignons et carottes (mirepoix)",
+        "Échalote",
+        "Arêtes de poissons ou, de préférence, carapaces de homards ou de langoustines",
+        "Cognac",
+        "Vin blanc",
+        "Fumet de poisson (facultatif)",
+        "4 tomates fraîches ou 1 cuillerée à soupe rase d'extrait de tomate, pour 1 l de liquide",
+        "Sel",
+        "1 pincée de poivre de Cayenne",
+        "1 bouquet garni",
+        "2 ou 3 gousses d'ail",
+        "Estragon",
+        "Beurre et farine (facultatif)"
+      ]
+    }
+  ],
+  "steps": [
+    {
+      "text": "Préparation à cru : découper la queue des homards en 5 à 6 tronçons, fendre le coffre en deux dans le sens de la longueur, retirer les parties crémeuses et les réserver, enlever la poche à sable."
+    },
+    {
+      "text": "Dans un sautoir, mettre l'huile à chauffer, faire revenir les tronçons et ½ coffre de homard, les retirer et les disposer dans une cocotte. Ajouter la mirepoix (oignons et carottes coupés en dés), les échalotes ciselées, l'ail haché et faire flamber au Cognac."
+    },
+    {
+      "text": "Mouiller avec le vin blanc et le fumet de poisson, ajouter le bouquet garni, l'estragon, le cerfeuil, la tomate concassée, le sel, le poivre et la pointe de Cayenne."
+    },
+    {
+      "text": "Faire cuire 20 minutes environ.",
+      "timers": [20]
+    },
+    {
+      "text": "Après cuisson : décanter les morceaux, extraire la chair des tronçons et des pattes. Tenir au chaud."
+    },
+    {
+      "text": "Faire réduire la cuisson. Avec le beurre, la farine et les parties crémeuses, faire un beurre manié, bien mélanger, ajouter dans la cuisson et cuire 3 à 4 minutes.",
+      "timers": [3]
+    },
+    {
+      "text": "Rectifier l'assaisonnement et passer la sauce au chinois ou à la passoire fine sur les morceaux de homard."
+    },
+    {
+      "text": "Dresser en légumier. Saupoudrer de persil et d'estragon hachés."
+    },
+    {
+      "text": "Servir chaud, accompagné d'un riz pilaf ou créole."
+    },
+    {
+      "text": "Sauce américaine : faire revenir à l'huile une mirepoix (oignons et carottes coupés en dés) et de l'échalote concassée. Ajouter des arêtes de poissons ou, de préférence, des carapaces de homards ou de langoustines."
+    },
+    {
+      "text": "Flamber au Cognac."
+    },
+    {
+      "text": "Mouiller au vin blanc et à la moitié de fumet de poisson, ou tout au vin blanc."
+    },
+    {
+      "text": "Pour 1 l de liquide, ajouter 4 tomates fraîches ou 1 cuillerée à soupe (rase) d'extrait de tomate."
+    },
+    {
+      "text": "Assaisonner de sel et d'1 pincée de poivre de Cayenne."
+    },
+    {
+      "text": "Ajouter un bouquet garni, 2 ou 3 gousses d'ail écrasées et un peu d'estragon concassé."
+    },
+    {
+      "text": "Laisser cuire pendant 30 à 45 minutes.",
+      "timers": [30]
+    },
+    {
+      "text": "Passer au chinois, lier si nécessaire cette sauce avec un peu de beurre et de farine."
+    }
+  ],
+  "source": "Les recettes de Maurice Houdré, tome 2, Les poissons et crustacés",
+  "originalSource": {
+    "type": "text",
+    "data": "Homard à l’américaine\n\nIngrédients : pour 8 à 10 personnes\n\n. 2 homards vivants si possible de 1 kg à 1,2 kg\n. 2 oignons\n. 2 carottes (mirepoix)\n. 4 échalotes\n. 5 gousses d’ail\n. 1 dl de Cognac\n. ½ l de vin blanc\n. 1 l de fumet de poisson\n. 1 dl d’huile d’olive\n. 1 bouquet garni\n. 4 tomates\n. 1 cuillérée d’estragon et de cerfeuil hachés\n. sel fin, poivre du moulin et poivre de Cayenne\n\nPréparation à crue :\nDécouper la queue des homards en 5 à 6 tronçons, fendre le coffre en deux dans le sens de la longueur, retirer les parties crémeuses et les réserver, enlever la poche à sable.\nDans un sautoir, mettre l’huile à chauffer, faire revenir les tronçons et ½ coffre de homard, les retirer et disposer dans une cocotte, ajouter la mirepoix (oignons et carottes coupés en dés), les échalotes ciselées, l’ail haché et faire flamber au Cognac.\nMouiller avec le vin blanc et le fumet de poisson, ajouter le bouquet garni, l’estragon, le cerfeuil, la tomate concassée, le sel, poivre et la pointe de Cayenne.\nFaire cuire 20 minutes environ.\n\nAprès cuisson :\nDécanter les morceaux, extraire la chaire des tronçons et des pattes. Tenir au chaud.\nFaire réduire la cuisson. Avec le beurre et la farine et les parties crémeuses faire un beurre manié, bien mélanger, ajouter dans la cuisson et cuire 3 à 4 minutes. Rectifier l’assaisonnement et passer la sauce au chinois ou à la passoire fine sur les morceaux de homard.\nDresser en légumier. Saupoudrer de persil et estragon hachés.\nServir chaud, accompagné d’un riz Pilaf ou créole.\n\nSauce américaine :\nFaire revenir à l’huile, une mirepoix (oignons et carottes coupés en dés) et de l’échalote concassée. Ajouter des arêtes de poissons ou de préférence des carapaces de homards ou de langoustines.\nFlamber au Cognac.\nMouiller au vin blanc et la moitié de fumet de poissons ou tout au vin blanc.\nPour 1 l de liquide, ajouter 4 tomates fraîches ou 1 cuillérée à soupe (rase) d’extrait de tomate.\nAssaisonner de sel, 1 pincée de poivre de Cayenne.\nAjouter un bouquet garni, 2 ou 3 gousses d’ail écrasé et un peu d’estragon concassé.\nLaisser cuire pendant 30 à 45 minutes.\nPasser au chinois, lier si nécessaire cette sauce avec un peu de beurre et de farine.\n"
+  },
+  "related": [
+    "couscous-de-poissons-et-fruits-de-mer",
+    "paupiette-de-sole-farcie-aux-crevettes",
+    "bouillabaisse",
+    "marmite-du-pecheur"
+  ],
+  "translations": {
+    "en": {
+      "title": "Lobster à l'américaine",
+      "description": "Live lobsters cut into pieces, flambéed with Cognac and simmered in white wine, fish stock and tomato, served in their sauce with pilaf or Creole rice.",
+      "tags": [
+        "lobster",
+        "seafood",
+        "main-course",
+        "french",
+        "simmered",
+        "flambeed",
+        "festive",
+        "indulgent",
+        "hot",
+        "nostalgic",
+        "family-recipe"
+      ],
+      "ingredients": [
+        {
+          "items": [
+            "2 live lobsters if possible, 1 to 1.2 kg",
+            "2 onions",
+            "2 carrots (mirepoix)",
+            "4 shallots",
+            "5 garlic cloves",
+            "1 dl of Cognac",
+            "½ l of white wine",
+            "1 l of fish stock",
+            "1 dl of olive oil (Quanto basta)",
+            "1 bouquet garni",
+            "4 tomatoes",
+            "1 spoonful of chopped tarragon and chervil",
+            "Fine salt, freshly ground pepper and cayenne pepper",
+            "Butter",
+            "Flour",
+            "Chopped parsley"
+          ]
+        },
+        {
+          "group": "Américaine sauce",
+          "items": [
+            "Oil",
+            "Onions and carrots (mirepoix)",
+            "Shallot",
+            "Fish bones or, preferably, lobster or langoustine shells",
+            "Cognac",
+            "White wine",
+            "Fish stock (optional)",
+            "4 fresh tomatoes or 1 level tablespoon of tomato extract, per 1 l of liquid",
+            "Salt",
+            "1 pinch of cayenne pepper",
+            "1 bouquet garni",
+            "2 or 3 garlic cloves",
+            "Tarragon",
+            "Butter and flour (optional)"
+          ]
+        }
+      ],
+      "steps": [
+        {
+          "text": "Raw preparation: cut the lobster tails into 5 to 6 pieces, split the heads in half lengthwise, remove the creamy parts and set them aside, and remove the sand sac."
+        },
+        {
+          "text": "In a sauté pan, heat the oil, brown the tail pieces and ½ lobster head, remove them and place them in a casserole. Add the mirepoix (onions and carrots cut into dice), the finely chopped shallots and the chopped garlic, and flambé with the Cognac."
+        },
+        {
+          "text": "Add the white wine and the fish stock, then the bouquet garni, tarragon, chervil, roughly chopped tomato, salt, pepper and the pinch of cayenne."
+        },
+        {
+          "text": "Cook for about 20 minutes."
+        },
+        {
+          "text": "After cooking: lift out the pieces and extract the meat from the tail pieces and the legs. Keep warm."
+        },
+        {
+          "text": "Reduce the cooking liquid. Make a beurre manié with the butter, flour and creamy parts, mix well, add it to the cooking liquid and cook for 3 to 4 minutes."
+        },
+        {
+          "text": "Adjust the seasoning and strain the sauce through a chinois or a fine sieve over the lobster pieces."
+        },
+        {
+          "text": "Plate in a vegetable dish. Sprinkle with chopped parsley and tarragon."
+        },
+        {
+          "text": "Serve hot, with pilaf or Creole rice."
+        },
+        {
+          "text": "Américaine sauce: brown a mirepoix (onions and carrots cut into dice) and roughly chopped shallot in oil. Add fish bones or, preferably, lobster or langoustine shells."
+        },
+        {
+          "text": "Flambé with the Cognac."
+        },
+        {
+          "text": "Add liquid: white wine and half fish stock, or white wine only."
+        },
+        {
+          "text": "For 1 l of liquid, add 4 fresh tomatoes or 1 (level) tablespoon of tomato extract."
+        },
+        {
+          "text": "Season with salt and 1 pinch of cayenne pepper."
+        },
+        {
+          "text": "Add a bouquet garni, 2 or 3 crushed garlic cloves and a little roughly chopped tarragon."
+        },
+        {
+          "text": "Leave to cook for 30 to 45 minutes."
+        },
+        {
+          "text": "Strain through a chinois and, if needed, thicken this sauce with a little butter and flour."
+        }
+      ]
+    },
+    "it": {
+      "title": "Astice all'americana",
+      "description": "Astici vivi tagliati a pezzi, flambati al Cognac e cotti a fuoco lento con vino bianco, fumetto e pomodoro, serviti nella loro salsa con riso pilaf o alla creola.",
+      "tags": [
+        "astice",
+        "frutti-di-mare",
+        "piatto-principale",
+        "francese",
+        "stufato",
+        "flambato",
+        "festivo",
+        "goloso",
+        "caldo",
+        "nostalgico",
+        "ricetta-di-famiglia"
+      ],
+      "ingredients": [
+        {
+          "items": [
+            "2 astici vivi se possibile, di 1-1,2 kg",
+            "2 cipolle",
+            "2 carote (mirepoix)",
+            "4 scalogni",
+            "5 spicchi d'aglio",
+            "1 dl di Cognac",
+            "½ l di vino bianco",
+            "1 l di fumetto di pesce",
+            "1 dl di olio d'oliva (Quanto basta)",
+            "1 mazzetto aromatico",
+            "4 pomodori",
+            "1 cucchiaio di dragoncello e cerfoglio tritati",
+            "Sale fino, pepe macinato al momento e pepe di Caienna",
+            "Burro",
+            "Farina",
+            "Prezzemolo tritato"
+          ]
+        },
+        {
+          "group": "Salsa americana",
+          "items": [
+            "Olio",
+            "Cipolle e carote (mirepoix)",
+            "Scalogno",
+            "Lische di pesce o, preferibilmente, carapaci di astice o di scampi",
+            "Cognac",
+            "Vino bianco",
+            "Fumetto di pesce (facoltativo)",
+            "4 pomodori freschi o 1 cucchiaio raso di estratto di pomodoro, per 1 l di liquido",
+            "Sale",
+            "1 pizzico di pepe di Caienna",
+            "1 mazzetto aromatico",
+            "2 o 3 spicchi d'aglio",
+            "Dragoncello",
+            "Burro e farina (facoltativi)"
+          ]
+        }
+      ],
+      "steps": [
+        {
+          "text": "Preparazione a crudo: tagliare la coda degli astici in 5-6 tranci, dividere il carapace a metà per il lungo, togliere le parti cremose e tenerle da parte, eliminare la sacca della sabbia."
+        },
+        {
+          "text": "In una sauteuse scaldare l'olio, rosolare i tranci e ½ carapace di astice, toglierli e disporli in una casseruola. Aggiungere la mirepoix (cipolle e carote tagliate a dadini), gli scalogni tritati finemente, l'aglio tritato e flambare al Cognac."
+        },
+        {
+          "text": "Bagnare con il vino bianco e il fumetto di pesce, aggiungere il mazzetto aromatico, il dragoncello, il cerfoglio, il pomodoro tritato grossolanamente, il sale, il pepe e la punta di Caienna."
+        },
+        {
+          "text": "Cuocere per circa 20 minuti."
+        },
+        {
+          "text": "Dopo la cottura: scolare i pezzi, estrarre la polpa dai tranci e dalle zampe. Tenere in caldo."
+        },
+        {
+          "text": "Far ridurre il liquido di cottura. Con il burro, la farina e le parti cremose preparare un beurre manié, mescolare bene, aggiungerlo al liquido di cottura e cuocere 3-4 minuti."
+        },
+        {
+          "text": "Aggiustare di sale e pepe e passare la salsa al colino cinese o a un colino fine sui pezzi di astice."
+        },
+        {
+          "text": "Impiattare in una legumiera. Cospargere di prezzemolo e dragoncello tritati."
+        },
+        {
+          "text": "Servire caldo, accompagnato da riso pilaf o alla creola."
+        },
+        {
+          "text": "Salsa americana: rosolare nell'olio una mirepoix (cipolle e carote tagliate a dadini) e dello scalogno tritato grossolanamente. Aggiungere lische di pesce o, preferibilmente, carapaci di astice o di scampi."
+        },
+        {
+          "text": "Flambare al Cognac."
+        },
+        {
+          "text": "Bagnare con vino bianco e metà fumetto di pesce, oppure solo con vino bianco."
+        },
+        {
+          "text": "Per 1 l di liquido, aggiungere 4 pomodori freschi o 1 cucchiaio (raso) di estratto di pomodoro."
+        },
+        {
+          "text": "Condire con sale e 1 pizzico di pepe di Caienna."
+        },
+        {
+          "text": "Aggiungere un mazzetto aromatico, 2 o 3 spicchi d'aglio schiacciati e un po' di dragoncello tritato grossolanamente."
+        },
+        {
+          "text": "Lasciar cuocere per 30-45 minuti."
+        },
+        {
+          "text": "Passare al colino cinese e, se necessario, legare questa salsa con un po' di burro e di farina."
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,189 @@
+{
+  "slug": "escargots-a-la-forestiere",
+  "title": "Escargots à la forestière",
+  "description": "Escargots étuvés au vin blanc et aux échalotes, mêlés de champignons de Paris sautés, d'ail, de persil et de beurre.",
+  "images": {
+    "cover": "images/recipes/escargots-a-la-forestiere/cover.svg",
+    "web": "images/recipes/escargots-a-la-forestiere/cover.svg"
+  },
+  "prepTime": 25,
+  "cookTime": 15,
+  "servings": 10,
+  "difficulty": "Facile",
+  "category": "Antipasti",
+  "origin": "amelie-grandpa",
+  "tags": [
+    "escargots",
+    "champignons",
+    "entrée",
+    "poêle",
+    "facile",
+    "festif",
+    "chaud",
+    "français",
+    "nostalgique",
+    "recette-de-famille"
+  ],
+  "ingredients": [
+    {
+      "items": [
+        "10 douzaines d'escargots",
+        "400 g de tomates",
+        "400 g de champignons de Paris",
+        "100 g de beurre",
+        "1 dl de vin blanc sec",
+        "½ dl d'huile",
+        "50 g d'échalotes",
+        "4 gousses d'ail",
+        "50 g de persil",
+        "Sel, poivre"
+      ]
+    }
+  ],
+  "steps": [
+    {
+      "text": "Égoutter les escargots."
+    },
+    {
+      "text": "Éplucher et ciseler finement les échalotes, les faire suer doucement avec 50 g de beurre, ajouter 1 dl de vin blanc, faire réduire de moitié, adjoindre les escargots et faire étuver doucement quelques minutes."
+    },
+    {
+      "text": "Préparation des champignons de Paris : gratter le bout des champignons et les passer sous l'eau."
+    },
+    {
+      "text": "Les escaloper finement et les faire sauter à l'huile, saler et poivrer puis égoutter."
+    },
+    {
+      "text": "Ajouter l'ail et le persil haché et 50 g de beurre."
+    },
+    {
+      "text": "Adjoindre aux escargots, mélanger et réserver au chaud puis servir."
+    },
+    {
+      "text": "Dressage : en timbale ou légumier, dans un ramequin, une croustade ou dans un feuilleté."
+    }
+  ],
+  "source": "Les recettes de Maurice Houdré, tome 1, Les entrées chaudes",
+  "originalSource": {
+    "type": "text",
+    "data": "Escargots à la forestière \n\nIngrédients : pour 10 personnes\n\n. 10 douzaines d’escargots\n. 400 g de tomates\n. 400 g de champignons de Paris\n. 100 g de beurre\n. 1 dl de vin blanc sec\n. ½ dl d’huile\n. 50 g d’échalotes\n. 4 gousses d’ail\n. 50 g de persil\n. sel, poivre\n\nPréparation :\n\nEgoutter les escargots. \nEplucher et ciseler finement les échalotes, les faire suer doucement avec 50 g de beurre, ajouter 1 dl de vin blanc, faire réduire de moitié, adjoindre les escargots et faire étuver doucement quelques minutes.\n\nPréparation des champignons de Paris :\nGratter le bout des champignons et passer les sous l’eau.\nLes escaloper finement et les faire sauter à l’huile, saler et poivrer puis égoutter.\nAjouter l’ail et le persil haché et 50 g de beurre.\nAdjoindre aux escargots, mélanger et réserver au chaud puis servir.\n\nService :\nEn timbale ou légumier, dans un ramequin, une croustade ou dans un feuilleté.\n"
+  },
+  "related": [
+    "escargots-a-la-bordelaise",
+    "salade-percheronne-aux-champignons-de-paris",
+    "champignons-a-la-grecque",
+    "quiche-aux-moules-et-champignons"
+  ],
+  "translations": {
+    "en": {
+      "title": "Snails forestière style",
+      "description": "Snails cooked covered in white wine and shallots, mixed with sautéed button mushrooms, garlic, parsley and butter.",
+      "tags": [
+        "snails",
+        "mushrooms",
+        "starter",
+        "pan-fried",
+        "easy",
+        "festive",
+        "hot",
+        "french",
+        "nostalgic",
+        "family-recipe"
+      ],
+      "ingredients": [
+        {
+          "items": [
+            "10 dozen snails",
+            "400 g of tomatoes",
+            "400 g of button mushrooms",
+            "100 g of butter",
+            "1 dl of dry white wine",
+            "½ dl of oil",
+            "50 g of shallots",
+            "4 cloves of garlic",
+            "50 g of parsley",
+            "Salt, pepper"
+          ]
+        }
+      ],
+      "steps": [
+        {
+          "text": "Drain the snails."
+        },
+        {
+          "text": "Peel and finely chop the shallots, sweat them gently in 50 g of butter, add 1 dl of white wine, reduce by half, add the snails and cook covered over low heat for a few minutes."
+        },
+        {
+          "text": "Preparing the button mushrooms: scrape the stem ends of the mushrooms and rinse them under water."
+        },
+        {
+          "text": "Slice them thinly and sauté them in oil, season with salt and pepper, then drain."
+        },
+        {
+          "text": "Add the garlic, the chopped parsley and 50 g of butter."
+        },
+        {
+          "text": "Add to the snails, mix, keep warm, then serve."
+        },
+        {
+          "text": "Plating: in a timbale or vegetable dish, in a ramekin, a croustade or a puff pastry case."
+        }
+      ]
+    },
+    "it": {
+      "title": "Lumache alla boscaiola",
+      "description": "Lumache stufate nel vino bianco con scalogni, unite a champignon saltati, aglio, prezzemolo e burro.",
+      "tags": [
+        "lumache",
+        "funghi",
+        "antipasto",
+        "padella",
+        "facile",
+        "festivo",
+        "caldo",
+        "francese",
+        "nostalgico",
+        "ricetta-di-famiglia"
+      ],
+      "ingredients": [
+        {
+          "items": [
+            "10 dozzine di lumache",
+            "400 g di pomodori",
+            "400 g di funghi champignon",
+            "100 g di burro",
+            "1 dl di vino bianco secco",
+            "½ dl di olio",
+            "50 g di scalogni",
+            "4 spicchi d'aglio",
+            "50 g di prezzemolo",
+            "Sale, pepe"
+          ]
+        }
+      ],
+      "steps": [
+        {
+          "text": "Scolare le lumache."
+        },
+        {
+          "text": "Sbucciare e tritare finemente gli scalogni, farli sudare dolcemente con 50 g di burro, aggiungere 1 dl di vino bianco, far ridurre della metà, unire le lumache e stufare dolcemente per qualche minuto."
+        },
+        {
+          "text": "Preparazione dei funghi champignon: raschiare la base dei gambi e passarli sotto l'acqua."
+        },
+        {
+          "text": "Affettarli sottilmente e saltarli nell'olio, salare e pepare, poi scolarli."
+        },
+        {
+          "text": "Aggiungere l'aglio, il prezzemolo tritato e 50 g di burro."
+        },
+        {
+          "text": "Unire alle lumache, mescolare, tenere in caldo e poi servire."
+        },
+        {
+          "text": "Impiattamento: in un timballo o in una legumiera, in un ramequin, in una croustade o in un guscio di pasta sfoglia."
+        }
+      ]
+    }
+  }
+}

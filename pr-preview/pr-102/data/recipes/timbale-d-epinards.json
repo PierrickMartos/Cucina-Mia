@@ -1,0 +1,171 @@
+{
+  "slug": "timbale-d-epinards",
+  "title": "Timbale d'épinards",
+  "description": "Des épinards hachés et desséchés au beurre, liés à la crème et aux œufs, puis cuits au bain-marie dans un moule beurré.",
+  "images": {
+    "cover": "images/recipes/timbale-d-epinards/cover.svg",
+    "web": "images/recipes/timbale-d-epinards/cover.svg"
+  },
+  "prepTime": 20,
+  "cookTime": 40,
+  "servings": 8,
+  "difficulty": "Facile",
+  "category": "Contorni",
+  "origin": "amelie-grandpa",
+  "tags": [
+    "épinards",
+    "légumes",
+    "œufs",
+    "bain-marie",
+    "four",
+    "végétarien",
+    "accompagnement",
+    "fondant",
+    "chaud",
+    "français",
+    "nostalgique",
+    "recette-de-famille"
+  ],
+  "ingredients": [
+    {
+      "items": [
+        "1 kg d'épinards en branches",
+        "50 g de beurre",
+        "4 œufs (2 entiers et 2 jaunes)",
+        "1 dl de crème fraîche",
+        "Sel, poivre, muscade"
+      ]
+    }
+  ],
+  "steps": [
+    {
+      "text": "Faire cuire les épinards, les rafraîchir, bien égoutter, presser puis les hacher."
+    },
+    {
+      "text": "Dessécher au beurre pour évaporation de l'eau."
+    },
+    {
+      "text": "Assaisonner."
+    },
+    {
+      "text": "Mélanger la crème fraîche, les œufs entiers et les jaunes."
+    },
+    {
+      "text": "Garnir dans un moule beurré."
+    },
+    {
+      "text": "Cuire au bain-marie à four doux."
+    }
+  ],
+  "source": "Les recettes de Maurice Houdré, tome 2, Préparations à base de légumes",
+  "originalSource": {
+    "type": "text",
+    "data": "Timbale d’épinards\n\nIngrédients : pour 8  personnes\n\n. 1 kg d’épinards en branches\n. 50 g de beurre\n. 4 œufs (2 entiers et 2 jaunes)\n. 1 dl de crème fraîche\n. sel, poivre, muscade\n\nPréparation\n\nFaire cuire les épinards, les rafraîchir, bien égoutter, presser puis hacher les.\n\nDessécher au beurre pour évaporation de l’eau.\nAssaisonner.\nMélanger la crème fraîche, les œufs entiers et les jaunes.\nGarnir dans un moule beurré.\nCuire au bain-marie à four doux.\n"
+  },
+  "related": [
+    "terrine-de-courgettes-au-basilic",
+    "flan-de-pointes-d-asperges",
+    "pommes-amandines",
+    "flan-de-courgettes-gratinees"
+  ],
+  "translations": {
+    "en": {
+      "title": "Spinach timbale",
+      "description": "Chopped spinach dried out in butter, bound with cream and eggs, then cooked in a bain-marie in a buttered mould.",
+      "tags": [
+        "spinach",
+        "vegetables",
+        "eggs",
+        "bain-marie",
+        "oven",
+        "vegetarian",
+        "side-dish",
+        "melting",
+        "hot",
+        "french",
+        "nostalgic",
+        "family-recipe"
+      ],
+      "ingredients": [
+        {
+          "items": [
+            "1 kg leaf spinach",
+            "50 g butter",
+            "4 eggs (2 whole and 2 yolks)",
+            "1 dl crème fraîche",
+            "Salt, pepper, nutmeg"
+          ]
+        }
+      ],
+      "steps": [
+        {
+          "text": "Cook the spinach, refresh it, drain well, squeeze, then chop it."
+        },
+        {
+          "text": "Dry out in butter to evaporate the water."
+        },
+        {
+          "text": "Season."
+        },
+        {
+          "text": "Mix the crème fraîche, the whole eggs and the yolks."
+        },
+        {
+          "text": "Fill a buttered mould."
+        },
+        {
+          "text": "Cook in a bain-marie in a low oven."
+        }
+      ]
+    },
+    "it": {
+      "title": "Timballo di spinaci",
+      "description": "Spinaci tritati e asciugati nel burro, legati con panna e uova, poi cotti a bagnomaria in uno stampo imburrato.",
+      "tags": [
+        "spinaci",
+        "verdure",
+        "uova",
+        "bagnomaria",
+        "forno",
+        "vegetariano",
+        "contorno",
+        "fondente",
+        "caldo",
+        "francese",
+        "nostalgico",
+        "ricetta-di-famiglia"
+      ],
+      "ingredients": [
+        {
+          "items": [
+            "1 kg di spinaci in foglia",
+            "50 g di burro",
+            "4 uova (2 intere e 2 tuorli)",
+            "1 dl di crème fraîche",
+            "Sale, pepe, noce moscata"
+          ]
+        }
+      ],
+      "steps": [
+        {
+          "text": "Cuocere gli spinaci, raffreddarli, scolarli bene, strizzarli e poi tritarli."
+        },
+        {
+          "text": "Asciugare nel burro per far evaporare l'acqua."
+        },
+        {
+          "text": "Condire."
+        },
+        {
+          "text": "Mescolare la crème fraîche, le uova intere e i tuorli."
+        },
+        {
+          "text": "Riempire uno stampo imburrato."
+        },
+        {
+          "text": "Cuocere a bagnomaria in forno a calore dolce."
+        }
+      ]
+    }
+  }
+}

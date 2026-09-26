@@ -1,0 +1,196 @@
+{
+  "slug": "soupe-a-l-ail",
+  "title": "Soupe à l'ail",
+  "description": "Une soupe à l'ail au bouillon de poule et au vin blanc, liée d'un roux, garnie de vermicelle et enrichie d'œufs.",
+  "images": {
+    "cover": "images/recipes/soupe-a-l-ail/cover.svg",
+    "web": "images/recipes/soupe-a-l-ail/cover.svg"
+  },
+  "prepTime": 10,
+  "cookTime": 30,
+  "servings": 4,
+  "difficulty": "Facile",
+  "category": "Zuppe",
+  "origin": "amelie-grandpa",
+  "tags": [
+    "ail",
+    "œufs",
+    "entrée",
+    "chaud",
+    "réconfortant",
+    "hiver",
+    "facile",
+    "économique",
+    "à-la-cuillère",
+    "français",
+    "nostalgique",
+    "recette-de-famille"
+  ],
+  "ingredients": [
+    {
+      "items": [
+        "1 litre de bouillon de poule",
+        "0,5 dl de vin blanc",
+        "2 têtes d'ail",
+        "2 œufs",
+        "50 g de vermicelle",
+        "Un peu de beurre",
+        "½ cuillère à soupe de farine",
+        "1 cuillère de vinaigre de cidre",
+        "Sel et poivre"
+      ]
+    }
+  ],
+  "steps": [
+    {
+      "text": "Hacher les 2 têtes d'ail au couteau et les faire fondre doucement dans un peu de beurre. Ajouter ½ cuillère à soupe de farine en remuant bien avec une cuillère en bois. Le roux ne doit pas colorer."
+    },
+    {
+      "text": "Ajouter le vin blanc et le bouillon chaud. Porter à ébullition en remuant bien pour éviter que le roux n'attache."
+    },
+    {
+      "text": "Laisser cuire 20 minutes. Ajouter le vermicelle et laisser cuire encore 3 minutes.",
+      "timers": [20, 3]
+    },
+    {
+      "text": "Enlever la casserole du feu, séparer les jaunes des blancs, mélanger les jaunes avec un peu de bouillon chaud et une cuillère de vinaigre de cidre avant de verser le tout dans la soupière."
+    },
+    {
+      "text": "Rajouter les blancs d'œufs en remuant avec un fouet à main."
+    },
+    {
+      "text": "Servir aussitôt."
+    }
+  ],
+  "tips": [
+    "Pour tous les potages ou soupes, il faut ¼ de litre par personne.",
+    "Dans le sud-ouest, on met des tranches de pain au fond de la soupière avant de verser la soupe."
+  ],
+  "source": "Les recettes de Maurice Houdré, tome 1, Potages et consommés",
+  "originalSource": {
+    "type": "text",
+    "data": "Soupe à l’ail\n\nIngrédients : pour 4 personnes (pour tous potages ou soupes, il faut ¼ de litre / pers.\n\n. 1 litre de bouillon de poule\n. 0,5 dl de vin blanc\n. 2 têtes d’ail\n. 2 œufs\n. 50 g de vermicelle\n. un peu de beurre\n. ½ cuillère à soupe de farine\n. sel et poivre\n\nPréparation :\n\nHacher les 2 têtes d’ail au couteau et faites les fondre doucement dans un peu de beurre. Ajouter ½ cuillère à soupe de farine en remuant bien avec une cuillère en bois. Le roux ne doit pas colorer. \nAjouter le vin blanc et le bouillon chaud. Porter à ébullition en remuant bien pour éviter que le roux n’attache. \nLaisser cuire 20 minutes. Ajouter le vermicelle et laisser cuire encore 3 minutes.\nEnlever la casserole du feu, séparer les jaunes des blancs, mélanger les jaunes avec un peu de bouillon chaud et une cuillère de vinaigre de cidre avant de verser le tout dans la soupière.\nDans le sud-ouest, on met des tranches de pain au fond de la soupière avant de verser la soupe.\nRajouter les blancs d’œufs en remuant avec un fouet à main. \nServir aussitôt.\n"
+  },
+  "related": [
+    "potage-bonne-femme",
+    "chorba",
+    "creme-de-potiron",
+    "boeuf-mode-a-l-ancienne"
+  ],
+  "translations": {
+    "en": {
+      "title": "Garlic Soup",
+      "description": "A garlic soup made with chicken stock and white wine, thickened with a roux, garnished with vermicelli and enriched with eggs.",
+      "tags": [
+        "garlic",
+        "eggs",
+        "starter",
+        "hot",
+        "comforting",
+        "winter",
+        "easy",
+        "budget-friendly",
+        "spoonable",
+        "french",
+        "nostalgic",
+        "family-recipe"
+      ],
+      "ingredients": [
+        {
+          "items": [
+            "1 litre of chicken stock",
+            "0.5 dl of white wine",
+            "2 heads of garlic",
+            "2 eggs",
+            "50 g of vermicelli",
+            "A little butter",
+            "½ tablespoon of flour",
+            "1 spoonful of cider vinegar",
+            "Salt and pepper"
+          ]
+        }
+      ],
+      "steps": [
+        {
+          "text": "Chop the 2 heads of garlic with a knife and soften them gently in a little butter. Add ½ tablespoon of flour, stirring well with a wooden spoon. The roux must not colour."
+        },
+        {
+          "text": "Add the white wine and the hot stock. Bring to the boil, stirring well so the roux does not stick."
+        },
+        {
+          "text": "Leave to cook for 20 minutes. Add the vermicelli and cook for another 3 minutes."
+        },
+        {
+          "text": "Take the pan off the heat, separate the yolks from the whites, mix the yolks with a little hot stock and a spoonful of cider vinegar, then pour everything into the soup tureen."
+        },
+        {
+          "text": "Add the egg whites, stirring with a hand whisk."
+        },
+        {
+          "text": "Serve immediately."
+        }
+      ],
+      "tips": [
+        "For all soups, allow ¼ litre per person.",
+        "In the south-west of France, slices of bread are placed at the bottom of the soup tureen before the soup is poured in."
+      ]
+    },
+    "it": {
+      "title": "Zuppa all'aglio",
+      "description": "Una zuppa all'aglio con brodo di gallina e vino bianco, legata con un roux, guarnita con vermicelli e arricchita con uova.",
+      "tags": [
+        "aglio",
+        "uova",
+        "antipasto",
+        "caldo",
+        "confortante",
+        "inverno",
+        "facile",
+        "economico",
+        "al-cucchiaio",
+        "francese",
+        "nostalgico",
+        "ricetta-di-famiglia"
+      ],
+      "ingredients": [
+        {
+          "items": [
+            "1 litro di brodo di gallina",
+            "0,5 dl di vino bianco",
+            "2 teste d'aglio",
+            "2 uova",
+            "50 g di vermicelli",
+            "Un po' di burro",
+            "½ cucchiaio di farina",
+            "1 cucchiaio di aceto di mele",
+            "Sale e pepe"
+          ]
+        }
+      ],
+      "steps": [
+        {
+          "text": "Tritare le 2 teste d'aglio con il coltello e farle appassire dolcemente in un po' di burro. Aggiungere ½ cucchiaio di farina mescolando bene con un cucchiaio di legno. Il roux non deve colorirsi."
+        },
+        {
+          "text": "Aggiungere il vino bianco e il brodo caldo. Portare a ebollizione mescolando bene per evitare che il roux si attacchi."
+        },
+        {
+          "text": "Lasciare cuocere 20 minuti. Aggiungere i vermicelli e lasciare cuocere ancora 3 minuti."
+        },
+        {
+          "text": "Togliere la casseruola dal fuoco, separare i tuorli dagli albumi, mescolare i tuorli con un po' di brodo caldo e un cucchiaio di aceto di mele prima di versare il tutto nella zuppiera."
+        },
+        {
+          "text": "Aggiungere gli albumi mescolando con una frusta a mano."
+        },
+        {
+          "text": "Servire subito."
+        }
+      ],
+      "tips": [
+        "Per tutte le zuppe e le minestre, bisogna calcolare ¼ di litro a persona.",
+        "Nel sud-ovest della Francia, si mettono delle fette di pane sul fondo della zuppiera prima di versare la zuppa."
+      ]
+    }
+  }
+}
