@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <defs>
+    <radialGradient id="tsbg" cx="50%" cy="45%" r="70%"><stop offset="0%" stop-color="#2e2822"/><stop offset="100%" stop-color="#1a1510"/></radialGradient>
+    <linearGradient id="tsdish" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#e8dcc6"/><stop offset="100%" stop-color="#a89478"/></linearGradient>
+    <radialGradient id="tstom" cx="38%" cy="35%" r="70%"><stop offset="0%" stop-color="#f05a3a"/><stop offset="70%" stop-color="#c42818"/><stop offset="100%" stop-color="#7a1208"/></radialGradient>
+    <radialGradient id="tssouf" cx="42%" cy="30%" r="70%"><stop offset="0%" stop-color="#fbe6a8"/><stop offset="55%" stop-color="#e4b458"/><stop offset="100%" stop-color="#a86a24"/></radialGradient>
+  </defs>
+  <rect width="800" height="600" fill="url(#tsbg)"/>
+  <g fill="#c42818" opacity="0.1"><circle cx="90" cy="120" r="34"/><circle cx="720" cy="490" r="30"/></g>
+  <ellipse cx="400" cy="480" rx="320" ry="45" fill="#000" opacity="0.35"/>
+  <rect x="80" y="220" width="640" height="250" rx="40" fill="url(#tsdish)"/>
+  <rect x="104" y="240" width="592" height="212" rx="30" fill="#4a2a18"/>
+  <rect x="104" y="240" width="592" height="212" rx="30" fill="#8a3a1c" opacity="0.35"/>
+  <defs>
+    <g id="tst">
+      <ellipse cx="0" cy="20" rx="62" ry="50" fill="url(#tstom)"/>
+      <ellipse cx="0" cy="-6" rx="50" ry="16" fill="#8a1a0c"/>
+      <path d="M-50,-6 Q-54,-60 -10,-66 Q10,-80 30,-62 Q58,-54 50,-6 Q0,8 -50,-6Z" fill="url(#tssouf)"/>
+      <path d="M-30,-40 Q-10,-58 14,-54" stroke="#fff4d0" stroke-width="5" fill="none" opacity="0.5" stroke-linecap="round"/>
+      <g fill="#8a5018" opacity="0.5"><circle cx="18" cy="-40" r="3"/><circle cx="-18" cy="-24" r="2.5"/><circle cx="34" cy="-22" r="2.5"/></g>
+      <ellipse cx="-30" cy="26" rx="10" ry="16" fill="#fff" opacity="0.18"/>
+    </g>
+  </defs>
+  <use href="#tst" x="200" y="360"/><use href="#tst" x="333" y="380"/><use href="#tst" x="466" y="360"/><use href="#tst" x="600" y="380"/>
+  <g fill="#e4b458" opacity="0.5"><ellipse cx="266" cy="420" rx="14" ry="4"/><ellipse cx="530" cy="422" rx="12" ry="4"/></g>
+  <g opacity="0.8">
+    <ellipse cx="690" cy="170" rx="56" ry="26" fill="#5a4a3a"/>
+    <ellipse cx="690" cy="164" rx="46" ry="19" fill="#e8c878"/>
+    <g fill="#f8e4a0"><rect x="664" y="158" width="14" height="3" rx="1.5" transform="rotate(20 671 159)"/><rect x="684" y="152" width="14" height="3" rx="1.5" transform="rotate(-15 691 153)"/><rect x="700" y="162" width="14" height="3" rx="1.5" transform="rotate(35 707 163)"/><rect x="676" y="168" width="14" height="3" rx="1.5"/></g>
+  </g>
+  <g fill="#2e7a2e"><path d="M130,190 q14,-30 40,-26 q-12,28 -40,26Z"/><path d="M150,200 q30,-12 48,8 q-28,10 -48,-8Z" fill="#3c8a34"/></g>
+  <g fill="#3c8a34"><circle cx="266" cy="310" r="2.5"/><circle cx="400" cy="330" r="2.5"/><circle cx="532" cy="310" r="2.5"/><circle cx="660" cy="330" r="2.5"/><circle cx="140" cy="330" r="2.5"/></g>
+</svg>

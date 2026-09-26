@@ -1,0 +1,171 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <defs>
+    <radialGradient id="gcaf-bg" cx="50%" cy="50%" r="70%">
+      <stop offset="0%" stop-color="#2e2822"/>
+      <stop offset="100%" stop-color="#1a1510"/>
+    </radialGradient>
+    <radialGradient id="gcaf-tray" cx="50%" cy="30%" r="60%">
+      <stop offset="0%" stop-color="#6a6a6a"/>
+      <stop offset="100%" stop-color="#3a3a3a"/>
+    </radialGradient>
+    <radialGradient id="gcaf-gnocchi1" cx="40%" cy="35%" r="55%">
+      <stop offset="0%" stop-color="#e8c85a"/>
+      <stop offset="100%" stop-color="#c89838"/>
+    </radialGradient>
+    <radialGradient id="gcaf-gnocchi2" cx="40%" cy="35%" r="55%">
+      <stop offset="0%" stop-color="#ddb848"/>
+      <stop offset="100%" stop-color="#b88428"/>
+    </radialGradient>
+    <radialGradient id="gcaf-mushroom" cx="50%" cy="30%" r="60%">
+      <stop offset="0%" stop-color="#9a6030"/>
+      <stop offset="100%" stop-color="#6a3a18"/>
+    </radialGradient>
+    <radialGradient id="gcaf-cream" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#f8f0dc"/>
+      <stop offset="70%" stop-color="#e8dcc0"/>
+      <stop offset="100%" stop-color="#d4c8a0"/>
+    </radialGradient>
+    <radialGradient id="gcaf-garlic" cx="40%" cy="35%" r="55%">
+      <stop offset="0%" stop-color="#f0e8c0"/>
+      <stop offset="100%" stop-color="#c8b878"/>
+    </radialGradient>
+    <filter id="gcaf-shadow" x="-10%" y="-10%" width="120%" height="130%">
+      <feDropShadow dx="0" dy="4" stdDeviation="8" flood-color="#000000" flood-opacity="0.5"/>
+    </filter>
+    <filter id="gcaf-steam" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="3"/>
+    </filter>
+  </defs>
+
+  <!-- Background -->
+  <rect width="800" height="600" fill="url(#gcaf-bg)"/>
+
+  <!-- Baking tray shadow -->
+  <ellipse cx="400" cy="490" rx="290" ry="22" fill="#000000" opacity="0.4"/>
+
+  <!-- Baking tray body -->
+  <rect x="115" y="190" width="570" height="280" rx="14" ry="14" fill="url(#gcaf-tray)" filter="url(#gcaf-shadow)"/>
+
+  <!-- Tray inner rim -->
+  <rect x="128" y="203" width="544" height="254" rx="10" ry="10" fill="#2a2a2a"/>
+
+  <!-- Cream sauce pool -->
+  <ellipse cx="400" cy="325" rx="240" ry="108" fill="url(#gcaf-cream)" opacity="0.55"/>
+
+  <!-- Mushroom slices - back row -->
+  <ellipse cx="195" cy="285" rx="34" ry="14" fill="url(#gcaf-mushroom)" transform="rotate(-18,195,285)"/>
+  <ellipse cx="195" cy="285" rx="28" ry="9" fill="#5a3010" transform="rotate(-18,195,285)"/>
+
+  <ellipse cx="268" cy="262" rx="38" ry="15" fill="url(#gcaf-mushroom)" transform="rotate(8,268,262)"/>
+  <ellipse cx="268" cy="262" rx="30" ry="10" fill="#5a3010" transform="rotate(8,268,262)"/>
+
+  <ellipse cx="355" cy="255" rx="36" ry="13" fill="url(#gcaf-mushroom)" transform="rotate(-5,355,255)"/>
+  <ellipse cx="355" cy="255" rx="28" ry="8" fill="#5a3010" transform="rotate(-5,355,255)"/>
+
+  <ellipse cx="445" cy="258" rx="40" ry="14" fill="url(#gcaf-mushroom)" transform="rotate(12,445,258)"/>
+  <ellipse cx="445" cy="258" rx="32" ry="9" fill="#5a3010" transform="rotate(12,445,258)"/>
+
+  <ellipse cx="535" cy="265" rx="35" ry="13" fill="url(#gcaf-mushroom)" transform="rotate(-10,535,265)"/>
+  <ellipse cx="535" cy="265" rx="27" ry="8" fill="#5a3010" transform="rotate(-10,535,265)"/>
+
+  <ellipse cx="610" cy="280" rx="32" ry="13" fill="url(#gcaf-mushroom)" transform="rotate(15,610,280)"/>
+  <ellipse cx="610" cy="280" rx="25" ry="8" fill="#5a3010" transform="rotate(15,610,280)"/>
+
+  <!-- Gnocchi ovals - back row -->
+  <ellipse cx="230" cy="278" rx="22" ry="13" fill="url(#gcaf-gnocchi1)"/>
+  <ellipse cx="230" cy="273" rx="18" ry="7" fill="#e8d070" opacity="0.5"/>
+
+  <ellipse cx="310" cy="268" rx="24" ry="13" fill="url(#gcaf-gnocchi2)"/>
+  <ellipse cx="310" cy="263" rx="19" ry="7" fill="#e8d070" opacity="0.4"/>
+
+  <ellipse cx="395" cy="262" rx="23" ry="12" fill="url(#gcaf-gnocchi1)"/>
+  <ellipse cx="395" cy="257" rx="18" ry="6" fill="#e8d070" opacity="0.5"/>
+
+  <ellipse cx="480" cy="265" rx="25" ry="13" fill="url(#gcaf-gnocchi2)"/>
+  <ellipse cx="480" cy="260" rx="20" ry="7" fill="#e8d070" opacity="0.4"/>
+
+  <ellipse cx="565" cy="270" rx="22" ry="12" fill="url(#gcaf-gnocchi1)"/>
+  <ellipse cx="565" cy="265" rx="17" ry="6" fill="#e8d070" opacity="0.5"/>
+
+  <!-- Garlic cloves - back -->
+  <ellipse cx="160" cy="295" rx="14" ry="10" fill="url(#gcaf-garlic)" transform="rotate(-20,160,295)"/>
+  <ellipse cx="638" cy="292" rx="13" ry="9" fill="url(#gcaf-garlic)" transform="rotate(25,638,292)"/>
+
+  <!-- Mushroom slices - front row -->
+  <ellipse cx="175" cy="360" rx="36" ry="15" fill="url(#gcaf-mushroom)" transform="rotate(15,175,360)"/>
+  <ellipse cx="175" cy="360" rx="28" ry="10" fill="#5a3010" transform="rotate(15,175,360)"/>
+
+  <ellipse cx="255" cy="375" rx="40" ry="16" fill="url(#gcaf-mushroom)" transform="rotate(-8,255,375)"/>
+  <ellipse cx="255" cy="375" rx="32" ry="10" fill="#5a3010" transform="rotate(-8,255,375)"/>
+
+  <ellipse cx="348" cy="382" rx="38" ry="15" fill="url(#gcaf-mushroom)" transform="rotate(5,348,382)"/>
+  <ellipse cx="348" cy="382" rx="30" ry="10" fill="#5a3010" transform="rotate(5,348,382)"/>
+
+  <ellipse cx="445" cy="378" rx="42" ry="16" fill="url(#gcaf-mushroom)" transform="rotate(-12,445,378)"/>
+  <ellipse cx="445" cy="378" rx="34" ry="10" fill="#5a3010" transform="rotate(-12,445,378)"/>
+
+  <ellipse cx="540" cy="368" rx="37" ry="15" fill="url(#gcaf-mushroom)" transform="rotate(10,540,368)"/>
+  <ellipse cx="540" cy="368" rx="30" ry="10" fill="#5a3010" transform="rotate(10,540,368)"/>
+
+  <ellipse cx="625" cy="352" rx="33" ry="14" fill="url(#gcaf-mushroom)" transform="rotate(-8,625,352)"/>
+  <ellipse cx="625" cy="352" rx="26" ry="9" fill="#5a3010" transform="rotate(-8,625,352)"/>
+
+  <!-- Gnocchi ovals - middle row -->
+  <ellipse cx="208" cy="340" rx="24" ry="14" fill="url(#gcaf-gnocchi1)"/>
+  <ellipse cx="208" cy="334" rx="19" ry="7" fill="#e8d070" opacity="0.5"/>
+
+  <ellipse cx="300" cy="338" rx="26" ry="14" fill="url(#gcaf-gnocchi2)"/>
+  <ellipse cx="300" cy="332" rx="21" ry="8" fill="#e8d070" opacity="0.4"/>
+
+  <ellipse cx="395" cy="332" rx="25" ry="14" fill="url(#gcaf-gnocchi1)"/>
+  <ellipse cx="395" cy="326" rx="20" ry="7" fill="#e8d070" opacity="0.5"/>
+
+  <ellipse cx="492" cy="336" rx="26" ry="14" fill="url(#gcaf-gnocchi2)"/>
+  <ellipse cx="492" cy="330" rx="21" ry="8" fill="#e8d070" opacity="0.4"/>
+
+  <ellipse cx="585" cy="338" rx="23" ry="13" fill="url(#gcaf-gnocchi1)"/>
+  <ellipse cx="585" cy="332" rx="18" ry="7" fill="#e8d070" opacity="0.5"/>
+
+  <!-- Gnocchi ovals - front row -->
+  <ellipse cx="220" cy="410" rx="25" ry="14" fill="url(#gcaf-gnocchi2)"/>
+  <ellipse cx="220" cy="404" rx="20" ry="8" fill="#e8d070" opacity="0.4"/>
+
+  <ellipse cx="318" cy="418" rx="27" ry="15" fill="url(#gcaf-gnocchi1)"/>
+  <ellipse cx="318" cy="412" rx="22" ry="8" fill="#e8d070" opacity="0.5"/>
+
+  <ellipse cx="420" cy="420" rx="26" ry="14" fill="url(#gcaf-gnocchi2)"/>
+  <ellipse cx="420" cy="414" rx="21" ry="8" fill="#e8d070" opacity="0.4"/>
+
+  <ellipse cx="520" cy="412" rx="24" ry="13" fill="url(#gcaf-gnocchi1)"/>
+  <ellipse cx="520" cy="406" rx="19" ry="7" fill="#e8d070" opacity="0.5"/>
+
+  <!-- Garlic cloves - front -->
+  <ellipse cx="168" cy="398" rx="15" ry="11" fill="url(#gcaf-garlic)" transform="rotate(10,168,398)"/>
+  <ellipse cx="165" cy="395" rx="8" ry="5" fill="#e0d4a0" opacity="0.6"/>
+
+  <ellipse cx="370" cy="435" rx="16" ry="11" fill="url(#gcaf-garlic)" transform="rotate(-15,370,435)"/>
+  <ellipse cx="367" cy="432" rx="9" ry="5" fill="#e0d4a0" opacity="0.6"/>
+
+  <ellipse cx="606" cy="390" rx="14" ry="10" fill="url(#gcaf-garlic)" transform="rotate(20,606,390)"/>
+  <ellipse cx="603" cy="387" rx="8" ry="5" fill="#e0d4a0" opacity="0.6"/>
+
+  <!-- Cream drizzle highlights -->
+  <path d="M200 390 Q280 370 360 395 Q440 420 520 388 Q580 368 630 385" stroke="#f0ece0" stroke-width="3" fill="none" opacity="0.45"/>
+  <path d="M170 330 Q260 310 350 325 Q450 340 540 318 Q590 308 640 322" stroke="#f0ece0" stroke-width="2.5" fill="none" opacity="0.35"/>
+
+  <!-- Steam wisps -->
+  <path d="M280 200 Q275 180 282 162 Q289 144 284 128" stroke="#ffffff" stroke-width="2.5" fill="none" opacity="0.18" filter="url(#gcaf-steam)"/>
+  <path d="M400 192 Q393 170 400 150 Q407 130 401 112" stroke="#ffffff" stroke-width="2" fill="none" opacity="0.15" filter="url(#gcaf-steam)"/>
+  <path d="M520 198 Q527 178 520 158 Q513 138 519 120" stroke="#ffffff" stroke-width="2.5" fill="none" opacity="0.18" filter="url(#gcaf-steam)"/>
+
+  <!-- Tray handle left -->
+  <rect x="72" y="300" width="48" height="22" rx="11" ry="11" fill="#4a4a4a"/>
+  <rect x="76" y="304" width="40" height="14" rx="7" ry="7" fill="#5a5a5a"/>
+
+  <!-- Tray handle right -->
+  <rect x="680" y="300" width="48" height="22" rx="11" ry="11" fill="#4a4a4a"/>
+  <rect x="684" y="304" width="40" height="14" rx="7" ry="7" fill="#5a5a5a"/>
+
+  <!-- Subtle ambient glow over the dish -->
+  <ellipse cx="400" cy="335" rx="230" ry="110" fill="#d4a030" opacity="0.06"/>
+</svg>

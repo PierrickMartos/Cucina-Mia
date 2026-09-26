@@ -1,0 +1,223 @@
+{
+  "slug": "salade-americaine-aux-champignons-de-paris",
+  "title": "Salade américaine aux champignons de Paris",
+  "description": "Une grande salade composée de pommes de terre, tomates et champignons crus au citron, garnie de céleri, poivrons et œufs durs, nappée de vinaigrette.",
+  "images": {
+    "cover": "images/recipes/salade-americaine-aux-champignons-de-paris/cover.webp",
+    "web": "images/recipes/salade-americaine-aux-champignons-de-paris/web.webp"
+  },
+  "imageCredit": {
+    "author": "RitaE",
+    "url": "https://pixabay.com/users/ritae-19628/"
+  },
+  "prepTime": 60,
+  "cookTime": 20,
+  "servings": 10,
+  "difficulty": "Facile",
+  "category": "Insalate",
+  "origin": "amelie-grandpa",
+  "tags": [
+    "champignons",
+    "légumes",
+    "salade",
+    "entrée",
+    "français",
+    "nostalgique",
+    "recette-de-famille",
+    "végétarien",
+    "cru",
+    "froid",
+    "été",
+    "buffet",
+    "à-partager"
+  ],
+  "ingredients": [
+    {
+      "items": [
+        "300 g de champignons de Paris frais",
+        "1 branche de céleri",
+        "1 kg de pommes de terre BF15",
+        "3 ou 4 tomates",
+        "200 g de poivrons verts",
+        "5 œufs",
+        "1 citron",
+        "1 oignon",
+        "10 g de cerfeuil",
+        "20 g de persil",
+        "2 gousses d'ail",
+        "2 dl d'huile",
+        "½ dl de vinaigre",
+        "Sel, poivre"
+      ]
+    }
+  ],
+  "steps": [
+    {
+      "text": "Détailler les pommes de terre cuites à l'eau avec leur peau, en minces rondelles."
+    },
+    {
+      "text": "Émincer le céleri en branches et les poivrons."
+    },
+    {
+      "text": "Durcir les œufs, les écaler."
+    },
+    {
+      "text": "Couper finement les oignons, hacher le persil."
+    },
+    {
+      "text": "Émonder les tomates et les couper en tranches."
+    },
+    {
+      "text": "Émincer les champignons, mélanger avec le jus de citron."
+    },
+    {
+      "text": "Dressage : sur de grands raviers ou plats de service, disposer les pommes de terre, tomates et champignons."
+    },
+    {
+      "text": "Répartir dessus le céleri, les poivrons, les oignons et les quartiers d'œufs durs. Napper de sauce vinaigrette."
+    }
+  ],
+  "source": "Les recettes de Maurice Houdré, tome 1, Les entrées en assiette froide et salades composées",
+  "originalSource": {
+    "type": "text",
+    "data": "Salade américaine aux champignons de Paris\n\nIngrédients : pour 10 personnes\n\n. 300 g de champignons de Paris frais\t\tPréparation : 1 h\n. 1 branche de céleri\t\t\t\t\tCuisson : 20 minutes\n. 1 kg de pommes de terre BF15\n. 3 ou 4 tomates\n. 200 g de poivrons verts\n. 5 œufs\n. 1 citron\n. 1 oignon\n. 10 g de cerfeuil\n. 20 g de persil\n. 2 gousses d’ail\n. 2 dl d’huile\n. 1/2 dl de vinaigre\n. sel, poivre \n\nPréparation :\n\nDétailler les pommes de terre cuites à l’eau avec leur peau, en minces rondelles.\nEmincer le céleri en branches et les poivrons.\nDurcir les œufs, les écaler.\nCouper finement les oignons, hacher le persil.\nEmonder les tomates et couper les en tranches.\nEmincer les champignons, mélanger avec le jus de citron.\n\nDressage : \nSur de grands raviers ou plats de service, disposer les pommes de terre, tomates et champignons.\nRépartir dessus le céleri, les poivrons, les oignons et les quartiers d’œufs durs. Napper de sauce vinaigrette.\n"
+  },
+  "related": [
+    "salade-de-boeuf-et-champignons-a-la-parisienne",
+    "salade-flamande-aux-champignons-de-paris",
+    "salade-percheronne-aux-champignons-de-paris",
+    "salade-chinoise-aux-champignons-de-paris"
+  ],
+  "translations": {
+    "en": {
+      "title": "American-style salad with button mushrooms",
+      "description": "A large composed salad of potatoes, tomatoes and raw mushrooms in lemon juice, topped with celery, peppers and hard-boiled eggs, coated with vinaigrette.",
+      "tags": [
+        "mushrooms",
+        "vegetables",
+        "salad",
+        "starter",
+        "french",
+        "nostalgic",
+        "family-recipe",
+        "vegetarian",
+        "raw",
+        "cold",
+        "summer",
+        "buffet",
+        "to-share"
+      ],
+      "ingredients": [
+        {
+          "items": [
+            "300 g of fresh button mushrooms",
+            "1 stalk of celery",
+            "1 kg of BF15 potatoes",
+            "3 or 4 tomatoes",
+            "200 g of green peppers",
+            "5 eggs",
+            "1 lemon",
+            "1 onion",
+            "10 g of chervil",
+            "20 g of parsley",
+            "2 cloves of garlic",
+            "2 dl of oil",
+            "½ dl of vinegar",
+            "Salt, pepper"
+          ]
+        }
+      ],
+      "steps": [
+        {
+          "text": "Cut the potatoes, boiled in their skins, into thin rounds."
+        },
+        {
+          "text": "Thinly slice the celery stalks and the peppers."
+        },
+        {
+          "text": "Hard-boil the eggs and peel them."
+        },
+        {
+          "text": "Finely chop the onions and chop the parsley."
+        },
+        {
+          "text": "Blanch and peel the tomatoes, then cut them into slices."
+        },
+        {
+          "text": "Thinly slice the mushrooms and mix them with the lemon juice."
+        },
+        {
+          "text": "Plating: on large hors d'oeuvre dishes or serving platters, arrange the potatoes, tomatoes and mushrooms."
+        },
+        {
+          "text": "Scatter the celery, peppers, onions and hard-boiled egg quarters on top. Coat with vinaigrette."
+        }
+      ]
+    },
+    "it": {
+      "title": "Insalata americana ai funghi champignon",
+      "description": "Una grande insalata composta di patate, pomodori e funghi crudi al limone, guarnita con sedano, peperoni e uova sode, nappata di vinaigrette.",
+      "tags": [
+        "funghi",
+        "verdure",
+        "insalata",
+        "antipasto",
+        "francese",
+        "nostalgico",
+        "ricetta-di-famiglia",
+        "vegetariano",
+        "crudo",
+        "freddo",
+        "estate",
+        "buffet",
+        "da-condividere"
+      ],
+      "ingredients": [
+        {
+          "items": [
+            "300 g di funghi champignon freschi",
+            "1 costa di sedano",
+            "1 kg di patate BF15",
+            "3 o 4 pomodori",
+            "200 g di peperoni verdi",
+            "5 uova",
+            "1 limone",
+            "1 cipolla",
+            "10 g di cerfoglio",
+            "20 g di prezzemolo",
+            "2 spicchi d'aglio",
+            "2 dl di olio",
+            "½ dl di aceto",
+            "Sale, pepe"
+          ]
+        }
+      ],
+      "steps": [
+        {
+          "text": "Tagliare le patate, lessate con la buccia, a rondelle sottili."
+        },
+        {
+          "text": "Affettare sottilmente le coste di sedano e i peperoni."
+        },
+        {
+          "text": "Rassodare le uova e sgusciarle."
+        },
+        {
+          "text": "Tritare finemente le cipolle e tritare il prezzemolo."
+        },
+        {
+          "text": "Pelare i pomodori e tagliarli a fette."
+        },
+        {
+          "text": "Affettare sottilmente i funghi e mescolarli con il succo di limone."
+        },
+        {
+          "text": "Impiattamento: su grandi piatti da antipasto o piatti da portata, disporre le patate, i pomodori e i funghi."
+        },
+        {
+          "text": "Distribuire sopra il sedano, i peperoni, le cipolle e gli spicchi di uova sode. Nappare con la salsa vinaigrette."
+        }
+      ]
+    }
+  }
+}

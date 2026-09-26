@@ -1,0 +1,222 @@
+{
+  "slug": "haddock-a-l-alsacienne",
+  "title": "Haddock à l'alsacienne",
+  "description": "Des morceaux de haddock pochés au lait, posés sur une choucroute cuite au vin blanc et nappés d'une sauce au beurre et à la crème.",
+  "images": {
+    "cover": "images/recipes/haddock-a-l-alsacienne/cover.svg",
+    "web": "images/recipes/haddock-a-l-alsacienne/cover.svg"
+  },
+  "prepTime": 30,
+  "cookTime": 70,
+  "servings": 8,
+  "difficulty": "Medio",
+  "category": "Secondi",
+  "origin": "amelie-grandpa",
+  "tags": [
+    "poisson",
+    "haddock",
+    "choucroute",
+    "plat-principal",
+    "français",
+    "nostalgique",
+    "recette-de-famille",
+    "mijoté",
+    "hiver",
+    "réconfortant",
+    "chaud",
+    "sans-gluten"
+  ],
+  "ingredients": [
+    {
+      "items": [
+        "1,2 kg de haddock",
+        "1,5 kg de choucroute crue",
+        "2 carottes",
+        "2 oignons",
+        "1 bouquet garni",
+        "½ l de lait",
+        "½ l d'eau",
+        "1 citron",
+        "2 dl de vin blanc sec"
+      ]
+    },
+    {
+      "group": "Sauce",
+      "items": [
+        "120 g de beurre",
+        "3 échalotes",
+        "1 dl de vin blanc sec",
+        "2 dl de crème"
+      ]
+    }
+  ],
+  "steps": [
+    {
+      "text": "Laver et égoutter la choucroute, la mettre dans un récipient, ajouter les carottes, les oignons épluchés, le bouquet garni, mouiller à hauteur avec le vin blanc et de l'eau."
+    },
+    {
+      "text": "Cuire à petit feu pendant 1 heure.",
+      "timers": [60]
+    },
+    {
+      "text": "Pendant ce temps, couper le haddock en 8 morceaux, mettre dans une casserole avec moitié lait et moitié eau, le citron coupé en rondelles, faire pocher à feu doux pendant 8 à 10 minutes, laisser refroidir.",
+      "timers": [8]
+    },
+    {
+      "text": "Égoutter le haddock, retirer la peau."
+    },
+    {
+      "text": "Éplucher et ciseler finement les échalotes, les mettre à suer avec un morceau de beurre, mouiller avec le vin blanc, faire réduire 3 à 4 minutes, ajouter la crème, porter à ébullition et faire cuire doucement 5 à 6 minutes.",
+      "timers": [3, 5]
+    },
+    {
+      "text": "Hors du feu, ajouter le beurre en petits morceaux et remuer avec un fouet."
+    },
+    {
+      "text": "Dressage : dans un plat de service, mettre la choucroute bien égouttée, disposer dessus les morceaux de haddock et napper de sauce. Servir très chaud."
+    }
+  ],
+  "source": "Les recettes de Maurice Houdré, tome 2, Les poissons et crustacés",
+  "originalSource": {
+    "type": "text",
+    "data": "Haddock à l’alsacienne\n\nIngrédients : pour 8 personnes\n\n. 1,2 kg de haddock\t\t\t\t\tSauce :  \n. 1,5 kg de choucroute crue\t\t\t\t. 120 g de beurre\n. 2 carottes\t\t\t\t\t\t. 3 échalotes\n. 2 oignons\t\t\t\t\t\t. 1 dl de vin blanc sec\n. 1 bouquet garni\t\t\t\t\t. 2 dl de crème\n. ½ l de lait\n. ½ l d’eau\n. 1 citron\n. 2 dl de vin blanc sec\n\nLaver et égoutter la choucroute, la mettre dans un récipient, ajouter les carottes, les oignons épluchés, le bouquet garni, mouiller à hauteur avec le vin blanc et de l’eau.\nCuire à petit feu pendant 1 heure.\nPendant ce temps, couper le haddock en 8 morceaux, mettre dans une casserole avec moitié  lait et moitié eau, le citron coupé en rondelles, faire pocher à feu doux pendant 8 à 10 minutes, laisser refroidir.\nEgoutter le haddock, retirer la peau.\nEplucher et ciseler finement les échalotes, les mettre à suer avec un morceau de beurre, mouiller avec le vin blanc, faire réduire 3 à 4 minutes, ajouter la crème, porter à ébullition et faire cuire doucement 5 à 6 minutes.\nHors du feu, ajouter le beurre en petits morceaux et remuer avec un fouet.\n\nDressage :\nDans un plat de service, mettre la choucroute bien égouttée, disposer dessus les morceaux de haddock et napper de sauce.\nServir très chaud.\n"
+  },
+  "related": [
+    "fricassee-de-lotte-aux-pates-fraiches",
+    "couscous-de-poissons-et-fruits-de-mer",
+    "fricassee-de-veau-aux-aubergines-et-pruneaux",
+    "bar-loup-de-mer-sauce-regence-farci-d-une-mosaique-de-legumes"
+  ],
+  "translations": {
+    "en": {
+      "title": "Alsatian-style haddock",
+      "description": "Pieces of haddock poached in milk, laid on sauerkraut cooked in white wine and coated with a butter and cream sauce.",
+      "tags": [
+        "fish",
+        "haddock",
+        "sauerkraut",
+        "main-course",
+        "french",
+        "nostalgic",
+        "family-recipe",
+        "slow-cooked",
+        "winter",
+        "comforting",
+        "hot",
+        "gluten-free"
+      ],
+      "ingredients": [
+        {
+          "items": [
+            "1.2 kg of haddock",
+            "1.5 kg of raw sauerkraut",
+            "2 carrots",
+            "2 onions",
+            "1 bouquet garni",
+            "½ l of milk",
+            "½ l of water",
+            "1 lemon",
+            "2 dl of dry white wine"
+          ]
+        },
+        {
+          "group": "Sauce",
+          "items": [
+            "120 g of butter",
+            "3 shallots",
+            "1 dl of dry white wine",
+            "2 dl of cream"
+          ]
+        }
+      ],
+      "steps": [
+        {
+          "text": "Wash and drain the sauerkraut, put it in a pot, add the carrots, the peeled onions and the bouquet garni, then add liquid to cover with the white wine and some water."
+        },
+        {
+          "text": "Cook over low heat for 1 hour."
+        },
+        {
+          "text": "Meanwhile, cut the haddock into 8 pieces and put them in a saucepan with half milk and half water and the lemon cut into slices. Poach over low heat for 8 to 10 minutes, then leave to cool."
+        },
+        {
+          "text": "Drain the haddock and remove the skin."
+        },
+        {
+          "text": "Peel and finely chop the shallots, sweat them with a knob of butter, add the white wine and reduce for 3 to 4 minutes. Add the cream, bring to the boil and simmer gently for 5 to 6 minutes."
+        },
+        {
+          "text": "Off the heat, add the butter in small pieces and stir with a whisk."
+        },
+        {
+          "text": "Presentation: put the well-drained sauerkraut in a serving dish, lay the haddock pieces on top and coat with the sauce. Serve piping hot."
+        }
+      ]
+    },
+    "it": {
+      "title": "Eglefino affumicato all'alsaziana",
+      "description": "Pezzi di eglefino affumicato cotti in camicia nel latte, adagiati su crauti cotti nel vino bianco e nappati con una salsa al burro e alla panna.",
+      "tags": [
+        "pesce",
+        "eglefino",
+        "crauti",
+        "piatto-principale",
+        "francese",
+        "nostalgico",
+        "ricetta-di-famiglia",
+        "stufato",
+        "inverno",
+        "confortante",
+        "caldo",
+        "senza-glutine"
+      ],
+      "ingredients": [
+        {
+          "items": [
+            "1,2 kg di eglefino affumicato (haddock)",
+            "1,5 kg di crauti crudi",
+            "2 carote",
+            "2 cipolle",
+            "1 mazzetto aromatico",
+            "½ l di latte",
+            "½ l di acqua",
+            "1 limone",
+            "2 dl di vino bianco secco"
+          ]
+        },
+        {
+          "group": "Salsa",
+          "items": [
+            "120 g di burro",
+            "3 scalogni",
+            "1 dl di vino bianco secco",
+            "2 dl di panna"
+          ]
+        }
+      ],
+      "steps": [
+        {
+          "text": "Lavare e scolare i crauti, metterli in un recipiente, aggiungere le carote, le cipolle sbucciate e il mazzetto aromatico, poi bagnare a filo con il vino bianco e un po' d'acqua."
+        },
+        {
+          "text": "Cuocere a fuoco basso per 1 ora."
+        },
+        {
+          "text": "Nel frattempo, tagliare l'eglefino in 8 pezzi e metterli in una casseruola con metà latte e metà acqua e il limone tagliato a rondelle. Cuocere in camicia a fuoco dolce per 8-10 minuti, poi lasciar raffreddare."
+        },
+        {
+          "text": "Scolare l'eglefino e togliere la pelle."
+        },
+        {
+          "text": "Sbucciare e tritare finemente gli scalogni, farli sudare con una noce di burro, bagnare con il vino bianco e far ridurre per 3-4 minuti. Aggiungere la panna, portare a ebollizione e cuocere dolcemente per 5-6 minuti."
+        },
+        {
+          "text": "Fuori dal fuoco, aggiungere il burro a pezzetti e mescolare con una frusta."
+        },
+        {
+          "text": "Impiattamento: in un piatto da portata, mettere i crauti ben scolati, disporvi sopra i pezzi di eglefino e nappare con la salsa. Servire ben caldo."
+        }
+      ]
+    }
+  }
+}

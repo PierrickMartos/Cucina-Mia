@@ -1,0 +1,191 @@
+{
+  "slug": "cake-aux-olives-et-au-jambon",
+  "title": "Cake aux olives et au jambon",
+  "description": "Un cake salé moelleux garni de dés de jambon, d'olives vertes et de fromage, à couper en triangles pour le buffet ou l'apéritif.",
+  "images": {
+    "cover": "images/recipes/cake-aux-olives-et-au-jambon/cover.webp",
+    "web": "images/recipes/cake-aux-olives-et-au-jambon/web.webp"
+  },
+  "imageCredit": {
+    "author": "RitaE",
+    "url": "https://pixabay.com/users/ritae-19628/"
+  },
+  "prepTime": 15,
+  "cookTime": 45,
+  "servings": 8,
+  "difficulty": "Facile",
+  "category": "Antipasti",
+  "origin": "amelie-grandpa",
+  "tags": [
+    "français",
+    "nostalgique",
+    "recette-de-famille",
+    "apéro",
+    "jambon",
+    "olives",
+    "fromage",
+    "four",
+    "buffet",
+    "moelleux",
+    "facile",
+    "préparation-à-lavance",
+    "à-partager"
+  ],
+  "ingredients": [
+    {
+      "items": [
+        "150 g de farine",
+        "4 œufs",
+        "1 dl d'huile",
+        "1 dl ½ de lait",
+        "1 sachet de levure",
+        "Sel fin, poivre"
+      ]
+    },
+    {
+      "group": "Garniture",
+      "items": [
+        "250 g de jambon en tranches épaisses, coupées en dés",
+        "150 g d'olives vertes dénoyautées",
+        "150 g de fromage coupé en dés (comté ou gruyère)"
+      ]
+    }
+  ],
+  "steps": [
+    {
+      "text": "Mélanger la farine, la levure, les œufs battus, le lait, le sel, le poivre et l'huile."
+    },
+    {
+      "text": "Incorporer dans la pâte les olives, les dés de jambon et le fromage."
+    },
+    {
+      "text": "Verser dans un moule à cake beurré et fariné. Cuire à four chaud pendant 10 minutes, puis 30 à 35 minutes à four moyen.",
+      "timers": [10, 30]
+    }
+  ],
+  "tips": [
+    "À faire de préférence la veille.",
+    "Couper les tranches de cake en diagonales pour obtenir 4 morceaux en forme de triangle."
+  ],
+  "source": "Les recettes de Maurice Houdré, tome 1, Préparations diverses pour buffet, apéritif, cocktail",
+  "originalSource": {
+    "type": "text",
+    "data": "Cake aux olives et au jambon\n\nIngrédients : pour 8 à10 personnes\n\n. 150 g de farine\t\t\t\t\tGarniture :\n. 4 œufs\t\t\t\t\t\t. 250 g de jambon tranches épaisses\n. 1 dl d’huile\t\t\t\t\t\t  coupées en dés\n. 1 dl ½ de lait\t\t\t\t\t. 150 g d’olives vertes dénoyautées\t\n. 1 sachet de levure\t\t\t\t\t. 150 g de fromage coupé en dés\n. sel fin, poivre\t\t\t\t\t  (Comté ou gruyère)\n\nPréparation :\n\nMélanger la farine, la levure, les œufs battus, le lait, sel, poivre et huile.\n\nIncorporer dans la pâte : les olives, les dés de jambon et le fromage.\nVerser dans un moule à cake beurré et fariné, cuire à four chaud pendant 10 minutes, puis 30 à 35 minutes à four moyen.\n\nRemarque :\nA faire de préférence la veille. \n\nCouper les tranches de cake en diagonales pour obtenir 4 morceaux en forme de triangle.\n\nExemple :\n"
+  },
+  "related": [
+    "cookies-sales-au-comte",
+    "pate-en-croute-de-veau-et-jambon-aux-pistaches",
+    "oeufs-en-gelee",
+    "rillettes-de-saumon"
+  ],
+  "translations": {
+    "en": {
+      "title": "Olive and ham savoury cake",
+      "description": "A soft savoury loaf cake filled with diced ham, green olives and cheese, cut into triangles for a buffet or aperitif.",
+      "tags": [
+        "french",
+        "nostalgic",
+        "family-recipe",
+        "aperitif",
+        "ham",
+        "olives",
+        "cheese",
+        "oven",
+        "buffet",
+        "soft",
+        "easy",
+        "make-ahead",
+        "to-share"
+      ],
+      "ingredients": [
+        {
+          "items": [
+            "150 g flour",
+            "4 eggs",
+            "1 dl oil",
+            "1 dl ½ milk",
+            "1 sachet of baking powder",
+            "Fine salt, pepper"
+          ]
+        },
+        {
+          "group": "Filling",
+          "items": [
+            "250 g ham in thick slices, diced",
+            "150 g pitted green olives",
+            "150 g cheese, diced (comté or gruyère)"
+          ]
+        }
+      ],
+      "steps": [
+        {
+          "text": "Mix the flour, baking powder, beaten eggs, milk, salt, pepper and oil."
+        },
+        {
+          "text": "Fold the olives, diced ham and cheese into the batter."
+        },
+        {
+          "text": "Pour into a buttered and floured loaf tin. Bake in a hot oven for 10 minutes, then 30 to 35 minutes in a moderate oven."
+        }
+      ],
+      "tips": [
+        "Preferably make it the day before.",
+        "Cut the cake slices along both diagonals to get 4 triangle-shaped pieces."
+      ]
+    },
+    "it": {
+      "title": "Plumcake salato con olive e prosciutto",
+      "description": "Un plumcake salato soffice con dadini di prosciutto, olive verdi e formaggio, da tagliare a triangoli per il buffet o l'aperitivo.",
+      "tags": [
+        "francese",
+        "nostalgico",
+        "ricetta-di-famiglia",
+        "aperitivo",
+        "prosciutto",
+        "olive",
+        "formaggio",
+        "forno",
+        "buffet",
+        "soffice",
+        "facile",
+        "da-preparare-in-anticipo",
+        "da-condividere"
+      ],
+      "ingredients": [
+        {
+          "items": [
+            "150 g di farina",
+            "4 uova",
+            "1 dl di olio",
+            "1 dl ½ di latte",
+            "1 bustina di lievito",
+            "Sale fino, pepe"
+          ]
+        },
+        {
+          "group": "Guarnizione",
+          "items": [
+            "250 g di prosciutto cotto in fette spesse, tagliato a dadini",
+            "150 g di olive verdi denocciolate",
+            "150 g di formaggio tagliato a dadini (comté o groviera)"
+          ]
+        }
+      ],
+      "steps": [
+        {
+          "text": "Mescolare la farina, il lievito, le uova sbattute, il latte, il sale, il pepe e l'olio."
+        },
+        {
+          "text": "Incorporare all'impasto le olive, i dadini di prosciutto e il formaggio."
+        },
+        {
+          "text": "Versare in uno stampo da plumcake imburrato e infarinato. Cuocere in forno caldo per 10 minuti, poi 30-35 minuti in forno medio."
+        }
+      ],
+      "tips": [
+        "Da preparare preferibilmente il giorno prima.",
+        "Tagliare le fette di plumcake lungo le diagonali per ottenere 4 pezzi a forma di triangolo."
+      ]
+    }
+  }
+}
