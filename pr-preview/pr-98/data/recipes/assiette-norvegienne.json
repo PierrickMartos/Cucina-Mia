@@ -1,0 +1,133 @@
+{
+  "slug": "assiette-norvegienne",
+  "title": "Assiette norvégienne",
+  "description": "Une assiette froide de poissons fumés, saumon, truite et flétan ou anguille, avec un émincé de concombre à la crème, du citron et de l'aneth.",
+  "images": {
+    "cover": "images/recipes/assiette-norvegienne/cover.webp",
+    "web": "images/recipes/assiette-norvegienne/web.webp"
+  },
+  "imageCredit": {
+    "author": "LUM3N",
+    "url": "https://pixabay.com/users/lum3n-1066559/"
+  },
+  "prepTime": 10,
+  "cookTime": 0,
+  "servings": 1,
+  "difficulty": "Facile",
+  "category": "Antipasti",
+  "origin": "amelie-grandpa",
+  "tags": [
+    "poisson",
+    "entrée",
+    "français",
+    "nostalgique",
+    "recette-de-famille",
+    "no-cuisson",
+    "froid",
+    "rapide",
+    "facile",
+    "festif",
+    "buffet"
+  ],
+  "ingredients": [
+    {
+      "items": [
+        "1 tranche de saumon fumé",
+        "1 tranche de truite fumée",
+        "3 tranches de flétan ou d'anguille fumée",
+        "1 cuillère à soupe d'émincé de concombre à la crème",
+        "1 branche d'aneth haché",
+        "1 filet de citron",
+        "Sel, poivre"
+      ]
+    }
+  ],
+  "steps": [
+    {
+      "text": "Faire la présentation suivante pour chaque assiette : mettre 1 tranche de saumon fumé, 1 filet de truite fumée, 2 à 3 petites tranches de flétan ou d'anguille fumée, 1 cuillère à soupe d'émincé de concombre à la crème, 1 filet de citron, de l'aneth haché, du sel fin et du poivre du moulin."
+    }
+  ],
+  "source": "Les recettes de Maurice Houdré, tome 1, Les entrées en assiette froide et salades composées",
+  "originalSource": {
+    "type": "text",
+    "data": "Assiette norvégienne\n\nIngrédients : pour 1 assiette\n\n. 1 tranche de saumon fumé\n. 1 tranche de truite fumée\n. 3 tranches de flétan ou d’anguille fumée\n. 1 cuillère à soupe d’émincé de concombre à la crème\n. 1 branche d’aneth haché\n. 1 filet de citron\n. sel, poivre\n\nPréparation :\n\nFaire la présentation suivante pour chaque assiette :\n\nMettre 1 tranche de saumon fumé, 1 filet de truite fumée, 2 à 3 petites tranches de flétan, ou d’anguille fumée, 1 cuillère à soupe d’émincé de concombre à la crème, 1 filet de citron, de l’aneth haché, du sel fin et du poivre du moulin.\n"
+  },
+  "related": [
+    "assiette-neptune",
+    "rillettes-de-saumon",
+    "assiette-landaise",
+    "assiette-bagatelle-aux-champignons-de-paris"
+  ],
+  "translations": {
+    "en": {
+      "title": "Norwegian Plate",
+      "description": "A cold plate of smoked fish, salmon, trout and halibut or eel, with thinly sliced cucumber in cream, lemon and dill.",
+      "tags": [
+        "fish",
+        "starter",
+        "french",
+        "nostalgic",
+        "family-recipe",
+        "no-cook",
+        "cold",
+        "quick",
+        "easy",
+        "festive",
+        "buffet"
+      ],
+      "ingredients": [
+        {
+          "items": [
+            "1 slice of smoked salmon",
+            "1 slice of smoked trout",
+            "3 slices of smoked halibut or eel",
+            "1 tablespoon of thinly sliced cucumber in cream",
+            "1 sprig of chopped dill",
+            "1 squeeze of lemon",
+            "Salt, pepper"
+          ]
+        }
+      ],
+      "steps": [
+        {
+          "text": "Arrange each plate as follows: place 1 slice of smoked salmon, 1 fillet of smoked trout, 2 to 3 small slices of smoked halibut or eel, 1 tablespoon of thinly sliced cucumber in cream, 1 squeeze of lemon, chopped dill, fine salt and freshly ground pepper."
+        }
+      ]
+    },
+    "it": {
+      "title": "Piatto norvegese",
+      "description": "Un piatto freddo di pesce affumicato, salmone, trota e halibut o anguilla, con cetriolo affettato sottilmente alla panna, limone e aneto.",
+      "tags": [
+        "pesce",
+        "antipasto",
+        "francese",
+        "nostalgico",
+        "ricetta-di-famiglia",
+        "senza-cottura",
+        "freddo",
+        "veloce",
+        "facile",
+        "festivo",
+        "buffet"
+      ],
+      "ingredients": [
+        {
+          "items": [
+            "1 fetta di salmone affumicato",
+            "1 fetta di trota affumicata",
+            "3 fette di halibut o anguilla affumicata",
+            "1 cucchiaio di cetriolo affettato sottilmente alla panna",
+            "1 rametto di aneto tritato",
+            "1 goccio di limone",
+            "Sale, pepe"
+          ]
+        }
+      ],
+      "steps": [
+        {
+          "text": "Comporre ogni piatto come segue: disporre 1 fetta di salmone affumicato, 1 filetto di trota affumicata, 2-3 fettine di halibut o anguilla affumicata, 1 cucchiaio di cetriolo affettato sottilmente alla panna, 1 goccio di limone, aneto tritato, sale fino e pepe macinato al momento."
+        }
+      ]
+    }
+  }
+}

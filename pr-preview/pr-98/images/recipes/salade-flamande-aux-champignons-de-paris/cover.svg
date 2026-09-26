@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <defs>
+    <radialGradient id="sflbg" cx="50%" cy="45%" r="70%"><stop offset="0%" stop-color="#2e2822"/><stop offset="100%" stop-color="#1a1510"/></radialGradient>
+    <radialGradient id="sfldish" cx="45%" cy="40%" r="65%"><stop offset="0%" stop-color="#f2eee6"/><stop offset="100%" stop-color="#bdb4a2"/></radialGradient>
+    <radialGradient id="sflsal" cx="45%" cy="40%" r="65%"><stop offset="0%" stop-color="#eee0a8"/><stop offset="100%" stop-color="#c8b474"/></radialGradient>
+    <linearGradient id="sflher" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#c8a47a"/><stop offset="100%" stop-color="#8a6440"/></linearGradient>
+  </defs>
+  <rect width="800" height="600" fill="url(#sflbg)"/>
+  <g opacity="0.12" fill="#e8e0b8"><path d="M80,190 q20,-80 40,0z"/><path d="M110,190 q20,-70 40,0z"/><ellipse cx="700" cy="140" rx="36" ry="28"/></g>
+  <ellipse cx="400" cy="460" rx="330" ry="55" fill="#000" opacity="0.35"/>
+  <ellipse cx="400" cy="320" rx="330" ry="170" fill="url(#sfldish)"/>
+  <ellipse cx="400" cy="315" rx="290" ry="140" fill="#e6e0d4"/>
+  <ellipse cx="400" cy="315" rx="250" ry="115" fill="url(#sflsal)"/>
+  <g stroke-width="10" stroke-linecap="round" stroke="#e8c468">
+    <path d="M220,300 l40,-8"/><path d="M300,360 l44,4"/><path d="M470,380 l40,-10"/><path d="M560,290 l36,10"/><path d="M380,230 l40,-4"/><path d="M250,350 l30,-12"/><path d="M530,350 l34,-6"/>
+  </g>
+  <g fill="none" stroke-width="7" stroke-linecap="round" stroke="#d8e8a0"><path d="M200,330 q20,-12 40,-4"/><path d="M560,330 q20,-10 40,0"/><path d="M330,215 q20,-8 40,2"/><path d="M430,395 q20,-8 40,0"/><path d="M270,260 q18,-8 36,0"/></g>
+  <g fill="#f4ead6" stroke="#b8a07a" stroke-width="1.5">
+    <rect x="240" y="275" width="16" height="14" rx="4"/><rect x="590" y="310" width="16" height="14" rx="4"/><rect x="340" y="380" width="16" height="14" rx="4"/>
+    <rect x="500" y="230" width="16" height="14" rx="4"/><rect x="280" y="330" width="15" height="13" rx="4"/><rect x="520" y="370" width="15" height="13" rx="4"/>
+  </g>
+  <g fill="url(#sflher)" stroke="#5e4028" stroke-width="1">
+    <rect x="260" y="250" width="280" height="14" rx="6" transform="rotate(24 400 257)"/>
+    <rect x="260" y="310" width="280" height="14" rx="6" transform="rotate(24 400 317)"/>
+    <rect x="200" y="280" width="220" height="14" rx="6" transform="rotate(24 310 287)"/>
+    <rect x="380" y="280" width="220" height="14" rx="6" transform="rotate(24 490 287)"/>
+    <rect x="260" y="250" width="280" height="14" rx="6" transform="rotate(-24 400 257)"/>
+    <rect x="260" y="310" width="280" height="14" rx="6" transform="rotate(-24 400 317)"/>
+    <rect x="200" y="290" width="220" height="14" rx="6" transform="rotate(-24 310 297)"/>
+    <rect x="380" y="275" width="220" height="14" rx="6" transform="rotate(-24 490 282)"/>
+  </g>
+  <g fill="#dce4e8" opacity="0.35"><rect x="300" y="262" width="200" height="3" rx="1.5" transform="rotate(24 400 263)"/><rect x="300" y="262" width="200" height="3" rx="1.5" transform="rotate(-24 400 263)"/></g>
+  <g fill="#f0eadc" opacity="0.9"><circle cx="330" cy="300" r="4"/><circle cx="470" cy="300" r="4"/><circle cx="400" cy="350" r="4"/><circle cx="400" cy="250" r="4"/></g>
+  <g fill="#3c8a34">
+    <circle cx="350" cy="280" r="3"/><circle cx="450" cy="330" r="3"/><circle cx="400" cy="300" r="3"/><circle cx="300" cy="320" r="2.5"/>
+    <circle cx="500" cy="285" r="3"/><circle cx="380" cy="360" r="2.5"/><circle cx="430" cy="240" r="2.5"/><circle cx="250" cy="300" r="2.5"/><circle cx="560" cy="320" r="2.5"/>
+  </g>
+</svg>

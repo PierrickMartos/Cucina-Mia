@@ -1,0 +1,214 @@
+{
+  "slug": "salade-de-lentilles-et-boeuf-pot-au-feu",
+  "title": "Salade de lentilles et bœuf « pot au feu »",
+  "description": "Une salade de lentilles du Puy et de dés de bœuf de pot au feu, avec germes de soja, oignons, échalotes et vinaigrette à la moutarde.",
+  "images": {
+    "cover": "images/recipes/salade-de-lentilles-et-boeuf-pot-au-feu/cover.svg",
+    "web": "images/recipes/salade-de-lentilles-et-boeuf-pot-au-feu/cover.svg"
+  },
+  "prepTime": 20,
+  "cookTime": 30,
+  "servings": 8,
+  "difficulty": "Facile",
+  "category": "Insalate",
+  "origin": "amelie-grandpa",
+  "tags": [
+    "entrée",
+    "salade",
+    "bœuf",
+    "lentilles",
+    "français",
+    "nostalgique",
+    "recette-de-famille",
+    "froid",
+    "restes-bienvenus",
+    "économique",
+    "facile",
+    "à-partager"
+  ],
+  "ingredients": [
+    {
+      "items": [
+        "300 g de lentilles vertes du Puy (ou blondes)",
+        "400 g de viande de bœuf cuit (reste de pot au feu)",
+        "2 boîtes de germes de soja",
+        "3 oignons",
+        "3 gousses d'ail",
+        "2 échalotes"
+      ]
+    },
+    {
+      "group": "Sauce",
+      "items": [
+        "1 dl d'huile",
+        "1 cuillerée de moutarde blanche",
+        "2 cuillerées de vinaigre",
+        "1 bouquet garni",
+        "Sel, poivre"
+      ]
+    }
+  ],
+  "steps": [
+    {
+      "text": "Cuire les lentilles 30 minutes environ avec 1 oignon, le bouquet garni et du sel. Après la cuisson, rafraîchir et égoutter.",
+      "timers": [30]
+    },
+    {
+      "text": "Couper la viande de bœuf en petits dés."
+    },
+    {
+      "text": "Égoutter le soja."
+    },
+    {
+      "text": "Ciseler finement 2 oignons et les échalotes, hacher l'ail."
+    },
+    {
+      "text": "Préparer la sauce vinaigrette."
+    },
+    {
+      "text": "Mélanger les lentilles, la viande de bœuf, le soja et la sauce vinaigrette."
+    },
+    {
+      "text": "Servir en saladier."
+    }
+  ],
+  "source": "Les recettes de Maurice Houdré, tome 1, Les entrées en assiette froide et salades composées",
+  "originalSource": {
+    "type": "text",
+    "data": "Salade de lentilles et bœuf « pot au feu » \n\nIngrédients : pour 8 personnes\n\n. 300 g de lentilles vertes du Puy (ou blondes)\n. 400 g de viande de bœuf cuit (reste de pot au feu)\n. 2 boîtes de germes de soja\n. 3 oignons\n. 3 gousses d’ail\n. 2 échalotes\nSauce :\n. 1 dl d’huile\n. 1 cuillérée de moutarde blanche\n. 2 cuillérées de vinaigre\n. 1 bouquet garni\n. sel, poivre\n\nPréparation :\n\nCuire les lentilles 30 minutes environ avec 1 oignon, le bouquet garni et du sel. Après la cuisson, rafraîchir et égoutter.\nCouper la viande de bœuf en petits dés.\nEgoutter le soja.\nCiseler finement 2 oignons et les échalotes, hacher l’ail.\nPréparer la sauce vinaigrette.\nMélanger les lentilles, la viande de bœuf, le soja et la sauce vinaigrette.\nServir en saladier.\n"
+  },
+  "related": [
+    "salade-de-boeuf-et-champignons-a-la-parisienne",
+    "boeuf-mode-a-l-ancienne",
+    "estouffade-de-boeuf-a-la-bourguignonne",
+    "salade-percheronne-aux-champignons-de-paris"
+  ],
+  "translations": {
+    "en": {
+      "title": "Lentil and pot-au-feu beef salad",
+      "description": "A salad of Puy lentils and diced pot-au-feu beef, with bean sprouts, onions, shallots and a mustard vinaigrette.",
+      "tags": [
+        "starter",
+        "salad",
+        "beef",
+        "lentils",
+        "french",
+        "nostalgic",
+        "family-recipe",
+        "cold",
+        "leftovers-friendly",
+        "budget",
+        "easy",
+        "to-share"
+      ],
+      "ingredients": [
+        {
+          "items": [
+            "300 g of green Puy lentils (or blond lentils)",
+            "400 g of cooked beef (leftover pot-au-feu)",
+            "2 cans of bean sprouts",
+            "3 onions",
+            "3 garlic cloves",
+            "2 shallots"
+          ]
+        },
+        {
+          "group": "Sauce",
+          "items": [
+            "1 dl of oil",
+            "1 spoonful of white mustard",
+            "2 spoonfuls of vinegar",
+            "1 bouquet garni",
+            "Salt, pepper"
+          ]
+        }
+      ],
+      "steps": [
+        {
+          "text": "Cook the lentils for about 30 minutes with 1 onion, the bouquet garni and some salt. Once cooked, refresh and drain."
+        },
+        {
+          "text": "Cut the beef into small dice."
+        },
+        {
+          "text": "Drain the bean sprouts."
+        },
+        {
+          "text": "Finely chop 2 onions and the shallots, and mince the garlic."
+        },
+        {
+          "text": "Make the vinaigrette."
+        },
+        {
+          "text": "Mix the lentils, the beef, the bean sprouts and the vinaigrette."
+        },
+        {
+          "text": "Serve in a salad bowl."
+        }
+      ]
+    },
+    "it": {
+      "title": "Insalata di lenticchie e manzo bollito",
+      "description": "Un'insalata di lenticchie di Puy e dadini di manzo del pot-au-feu, con germogli di soia, cipolle, scalogni e vinaigrette alla senape.",
+      "tags": [
+        "antipasto",
+        "insalata",
+        "manzo",
+        "lenticchie",
+        "francese",
+        "nostalgico",
+        "ricetta-di-famiglia",
+        "freddo",
+        "avanzi-benvenuti",
+        "economico",
+        "facile",
+        "da-condividere"
+      ],
+      "ingredients": [
+        {
+          "items": [
+            "300 g di lenticchie verdi di Puy (o bionde)",
+            "400 g di carne di manzo cotta (avanzo di pot-au-feu)",
+            "2 scatole di germogli di soia",
+            "3 cipolle",
+            "3 spicchi d'aglio",
+            "2 scalogni"
+          ]
+        },
+        {
+          "group": "Salsa",
+          "items": [
+            "1 dl di olio",
+            "1 cucchiaio di senape bianca",
+            "2 cucchiai di aceto",
+            "1 mazzetto aromatico",
+            "Sale, pepe"
+          ]
+        }
+      ],
+      "steps": [
+        {
+          "text": "Cuocere le lenticchie per circa 30 minuti con 1 cipolla, il mazzetto aromatico e un po' di sale. Dopo la cottura, raffreddare e scolare."
+        },
+        {
+          "text": "Tagliare la carne di manzo a dadini."
+        },
+        {
+          "text": "Scolare la soia."
+        },
+        {
+          "text": "Tritare finemente 2 cipolle e gli scalogni, tritare l'aglio."
+        },
+        {
+          "text": "Preparare la vinaigrette."
+        },
+        {
+          "text": "Mescolare le lenticchie, la carne di manzo, la soia e la vinaigrette."
+        },
+        {
+          "text": "Servire in un'insalatiera."
+        }
+      ]
+    }
+  }
+}

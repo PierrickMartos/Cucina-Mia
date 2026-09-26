@@ -1,0 +1,253 @@
+{
+  "slug": "salade-de-boeuf-et-champignons-a-la-parisienne",
+  "title": "Salade de bœuf et champignons à la parisienne",
+  "description": "Une salade composée de bœuf cuit émincé, champignons de Paris au citron et pommes de terre au vin blanc, dressée sur laitue avec tomates et œufs durs.",
+  "images": {
+    "cover": "images/recipes/salade-de-boeuf-et-champignons-a-la-parisienne/cover.svg",
+    "web": "images/recipes/salade-de-boeuf-et-champignons-a-la-parisienne/cover.svg"
+  },
+  "prepTime": 60,
+  "cookTime": 25,
+  "servings": 10,
+  "difficulty": "Facile",
+  "category": "Insalate",
+  "origin": "amelie-grandpa",
+  "tags": [
+    "bœuf",
+    "légumes",
+    "œufs",
+    "entrée",
+    "froid",
+    "buffet",
+    "à-partager",
+    "convivial",
+    "économique",
+    "français",
+    "nostalgique",
+    "recette-de-famille"
+  ],
+  "ingredients": [
+    {
+      "items": [
+        "800 g de champignons de Paris frais",
+        "1 kg de bœuf cuit (3e catégorie)",
+        "1 kg de pommes de terre BF15",
+        "800 g de tomates",
+        "4 œufs",
+        "1 laitue",
+        "1 dl de vin blanc sec",
+        "100 g d'oignons",
+        "50 g de cornichons",
+        "10 g de cerfeuil",
+        "20 g de persil",
+        "2 gousses d'ail",
+        "½ l d'huile",
+        "1 dl de vinaigre",
+        "½ cuillerée à potage de moutarde",
+        "1 citron",
+        "Sel, poivre"
+      ]
+    }
+  ],
+  "steps": [
+    {
+      "text": "Cuire les pommes de terre avec leur peau, laisser refroidir et émincer."
+    },
+    {
+      "text": "Faire durcir les œufs 10 minutes, les écaler.",
+      "timers": [10]
+    },
+    {
+      "text": "Émincer le bœuf cuit."
+    },
+    {
+      "text": "Émonder les tomates. Émincer les champignons, ajouter et mélanger le jus de citron."
+    },
+    {
+      "text": "Préparer la laitue, cœur et feuilles séparés. Hacher le persil, le cerfeuil et l'ail."
+    },
+    {
+      "text": "Ciseler les oignons. Émincer les cornichons."
+    },
+    {
+      "text": "Préparer la sauce vinaigrette."
+    },
+    {
+      "text": "Mélanger le bœuf, la moitié des oignons, les cornichons, l'ail, le persil et la vinaigrette."
+    },
+    {
+      "text": "Assaisonner les champignons avec la vinaigrette et le cerfeuil."
+    },
+    {
+      "text": "Mélanger les pommes de terre avec le vin blanc, les oignons ciselés, le persil puis la vinaigrette."
+    },
+    {
+      "text": "Dressage : sur de grands raviers ou plats de service, disposer les ingrédients autour des feuilles de laitue, répartir équitablement le bœuf, les champignons, les pommes de terre. Garnir dessus et tout autour avec des quartiers de tomates et œufs durs, parsemer de persil haché."
+    }
+  ],
+  "source": "Les recettes de Maurice Houdré, tome 1, Les entrées en assiette froide et salades composées",
+  "originalSource": {
+    "type": "text",
+    "data": "Salade de bœuf et champignons à la parisienne \n\nIngrédients : pour 10 personnes\n\n. 800 g de champignons de Paris frais\t\t\tPréparation : 1 h\n. 1 kg de bœuf cuit (3ème catégorie)\t\t\t\tCuisson : 25 minutes\n. 1 kg de pommes de terre BF15\n. 800 g de tomates\n. 4 œufs\n. 1 laitue\n. 1 dl de vin blanc sec\n. 100 g d’oignons\n. 50 g de cornichons\n. 10 g de cerfeuil\n. 20 g de persil\n. 2 gousses d’ail\n. ½  l d’huile\n. 1 dl de vinaigre\n. ½  cuillérée à potage de moutarde\n. 1 citron\n. sel, poivre \n\nPréparation :\n\nCuire les pommes de terre avec leur peau, laisser refroidir et émincer.\nFaire durcir les œufs 10 minutes, les écaler.\nEmincer le bœuf cuit. \nEmonder les tomates. Emincer les champignons, ajouter et mélanger le jus de citron.\nPréparer la laitue, cœur et feuilles séparées. Hacher le persil, le cerfeuil et l’ail.\nCiseler les oignons. Emincer les cornichons.\nPréparer la sauce vinaigrette.\nMélanger le bœuf, la moitié des oignons, les cornichons, l’ail, le persil et la vinaigrette.\nAssaisonner les champignons avec la vinaigrette et le cerfeuil.\nMélanger les pommes de terre avec le vin blanc, les oignons ciselés, le persil puis la vinaigrette.\n\nDressage\nSur de grands raviers ou plats de service, disposer les ingrédients autour des feuilles de laitue, répartir équitablement le bœuf, les champignons, les pommes de terre. Garnir dessus et tout autour avec des quartiers de tomates et œufs durs, parsemer de persil haché.\n"
+  },
+  "related": [
+    "salade-percheronne-aux-champignons-de-paris",
+    "salade-americaine-aux-champignons-de-paris",
+    "salade-flamande-aux-champignons-de-paris",
+    "salade-de-lentilles-et-boeuf-pot-au-feu"
+  ],
+  "translations": {
+    "en": {
+      "title": "Parisian-style beef and mushroom salad",
+      "description": "A composed salad of thinly sliced cooked beef, button mushrooms with lemon and potatoes in white wine, arranged on lettuce with tomatoes and hard-boiled eggs.",
+      "tags": [
+        "beef",
+        "vegetables",
+        "eggs",
+        "starter",
+        "cold",
+        "buffet",
+        "to-share",
+        "convivial",
+        "budget-friendly",
+        "french",
+        "nostalgic",
+        "family-recipe"
+      ],
+      "ingredients": [
+        {
+          "items": [
+            "800 g of fresh button mushrooms",
+            "1 kg of cooked beef (3rd-grade cut)",
+            "1 kg of BF15 potatoes",
+            "800 g of tomatoes",
+            "4 eggs",
+            "1 lettuce",
+            "1 dl of dry white wine",
+            "100 g of onions",
+            "50 g of gherkins",
+            "10 g of chervil",
+            "20 g of parsley",
+            "2 garlic cloves",
+            "½ l of oil",
+            "1 dl of vinegar",
+            "½ tablespoon of mustard",
+            "1 lemon",
+            "Salt, pepper"
+          ]
+        }
+      ],
+      "steps": [
+        {
+          "text": "Cook the potatoes in their skins, leave to cool and thinly slice."
+        },
+        {
+          "text": "Hard-boil the eggs for 10 minutes, then peel them."
+        },
+        {
+          "text": "Thinly slice the cooked beef."
+        },
+        {
+          "text": "Blanch and peel the tomatoes. Thinly slice the mushrooms, add the lemon juice and mix."
+        },
+        {
+          "text": "Prepare the lettuce, keeping the heart and leaves separate. Chop the parsley, chervil and garlic."
+        },
+        {
+          "text": "Finely chop the onions. Thinly slice the gherkins."
+        },
+        {
+          "text": "Prepare the vinaigrette."
+        },
+        {
+          "text": "Mix the beef with half the onions, the gherkins, garlic, parsley and vinaigrette."
+        },
+        {
+          "text": "Season the mushrooms with the vinaigrette and chervil."
+        },
+        {
+          "text": "Mix the potatoes with the white wine, the finely chopped onions, the parsley, then the vinaigrette."
+        },
+        {
+          "text": "Plating: on large hors d'oeuvre dishes or serving platters, arrange the ingredients around the lettuce leaves, sharing out the beef, mushrooms and potatoes evenly. Garnish on top and all around with tomato wedges and hard-boiled eggs, and sprinkle with chopped parsley."
+        }
+      ]
+    },
+    "it": {
+      "title": "Insalata di manzo e funghi alla parigina",
+      "description": "Un'insalata composta di manzo cotto affettato, funghi champignon al limone e patate al vino bianco, disposta su lattuga con pomodori e uova sode.",
+      "tags": [
+        "manzo",
+        "verdure",
+        "uova",
+        "antipasto",
+        "freddo",
+        "buffet",
+        "da-condividere",
+        "conviviale",
+        "economico",
+        "francese",
+        "nostalgico",
+        "ricetta-di-famiglia"
+      ],
+      "ingredients": [
+        {
+          "items": [
+            "800 g di funghi champignon freschi",
+            "1 kg di manzo cotto (taglio di terza categoria)",
+            "1 kg di patate BF15",
+            "800 g di pomodori",
+            "4 uova",
+            "1 cespo di lattuga",
+            "1 dl di vino bianco secco",
+            "100 g di cipolle",
+            "50 g di cetriolini sottaceto",
+            "10 g di cerfoglio",
+            "20 g di prezzemolo",
+            "2 spicchi d'aglio",
+            "½ l di olio",
+            "1 dl di aceto",
+            "½ cucchiaio di senape",
+            "1 limone",
+            "Sale, pepe"
+          ]
+        }
+      ],
+      "steps": [
+        {
+          "text": "Cuocere le patate con la buccia, lasciarle raffreddare e affettarle sottilmente."
+        },
+        {
+          "text": "Rassodare le uova per 10 minuti, poi sgusciarle."
+        },
+        {
+          "text": "Affettare sottilmente il manzo cotto."
+        },
+        {
+          "text": "Pelare i pomodori. Affettare sottilmente i funghi, aggiungere il succo di limone e mescolare."
+        },
+        {
+          "text": "Preparare la lattuga, tenendo separati il cuore e le foglie. Tritare il prezzemolo, il cerfoglio e l'aglio."
+        },
+        {
+          "text": "Tritare finemente le cipolle. Affettare sottilmente i cetriolini."
+        },
+        {
+          "text": "Preparare la vinaigrette."
+        },
+        {
+          "text": "Mescolare il manzo con metà delle cipolle, i cetriolini, l'aglio, il prezzemolo e la vinaigrette."
+        },
+        {
+          "text": "Condire i funghi con la vinaigrette e il cerfoglio."
+        },
+        {
+          "text": "Mescolare le patate con il vino bianco, le cipolle tritate finemente, il prezzemolo e poi la vinaigrette."
+        },
+        {
+          "text": "Impiattamento: su grandi piatti da antipasto o piatti da portata, disporre gli ingredienti attorno alle foglie di lattuga, distribuendo in parti uguali il manzo, i funghi e le patate. Guarnire sopra e tutto intorno con spicchi di pomodoro e uova sode, e cospargere di prezzemolo tritato."
+        }
+      ]
+    }
+  }
+}

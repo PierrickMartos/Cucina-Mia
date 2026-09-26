@@ -1,0 +1,198 @@
+{
+  "slug": "salade-percheronne-aux-champignons-de-paris",
+  "title": "Salade percheronne aux champignons de Paris",
+  "description": "Salade de pommes de terre au vin blanc, champignons de Paris crus au citron, cresson et œufs durs, liée à la vinaigrette à la moutarde.",
+  "images": {
+    "cover": "images/recipes/salade-percheronne-aux-champignons-de-paris/cover.svg",
+    "web": "images/recipes/salade-percheronne-aux-champignons-de-paris/cover.svg"
+  },
+  "prepTime": 80,
+  "cookTime": 20,
+  "servings": 10,
+  "difficulty": "Facile",
+  "category": "Insalate",
+  "origin": "amelie-grandpa",
+  "tags": [
+    "champignons",
+    "pommes-de-terre",
+    "œufs",
+    "entrée",
+    "français",
+    "nostalgique",
+    "recette-de-famille",
+    "végétarien",
+    "froid",
+    "facile",
+    "économique",
+    "buffet",
+    "acidulé"
+  ],
+  "ingredients": [
+    {
+      "items": [
+        "600 g de champignons de Paris frais",
+        "1 botte de cresson",
+        "1,5 kg de pommes de terre",
+        "5 œufs",
+        "100 g d'oignons",
+        "30 g d'échalotes",
+        "20 g de persil",
+        "1 dl de vin blanc sec",
+        "2 dl d'huile",
+        "½ dl de vinaigre",
+        "½ cuillerée à potage de moutarde",
+        "Sel, poivre",
+        "Jus de citron"
+      ]
+    }
+  ],
+  "steps": [
+    {
+      "text": "Émincer les pommes de terre cuites à l'eau et avec leur peau, ajouter le vin blanc."
+    },
+    {
+      "text": "Faire durcir les œufs et les écaler."
+    },
+    {
+      "text": "Escaloper les champignons, ajouter le jus de citron, assaisonner avec les échalotes ciselées, le persil haché et la vinaigrette à la moutarde."
+    },
+    {
+      "text": "Assaisonner les pommes de terre avec les oignons grossièrement ciselés et la vinaigrette."
+    },
+    {
+      "text": "Bien laver le cresson et l'effeuiller."
+    },
+    {
+      "text": "Mélanger l'ensemble : pommes de terre, champignons, cresson et les œufs durs émincés."
+    }
+  ],
+  "source": "Les recettes de Maurice Houdré, tome 1, Les entrées en assiette froide et salades composées",
+  "originalSource": {
+    "type": "text",
+    "data": "Salade percheronne aux champignons de Paris \n\nIngrédients : pour 10 personnes\n\n. 600 g de champignons de Paris frais\t\t\tPréparation : 1 heure\n. 1 botte de cresson\t\t\t\t\t\tCuisson : 20 minutes\n. 1,5 kg de pommes de terre\t\t\t\t\tDressage : 20 minutes\n. 5 oeufs\n. 100 g d’oignons\n. 30 g d’échalotes\n. 20 g de persil\n. 1 dl de vin blanc sec\n. 2 dl d’huile\n. ½ dl de vinaigre\n. ½ cuillérée à potage de moutarde\n. sel, poivre \n\nPréparation :\n\n  Emincer les pommes de terre cuites à l’eau et avec leur peau, ajouter le vin blanc.\nFaire durcir les œufs et les écaler.\nEscaloper les champignons, ajouter le jus de citron, assaisonner avec les échalotes ciselées, le persil haché et la vinaigrette à la moutarde.\nAssaisonner les pommes de terre avec les oignons grossièrement ciselées et la vinaigrette.\nBien laver le cresson et l’effeuiller.\nMélanger l’ensemble : pommes de terre, champignons, cresson et les œufs durs émincés.\n"
+  },
+  "related": [
+    "salade-de-boeuf-et-champignons-a-la-parisienne",
+    "salade-flamande-aux-champignons-de-paris",
+    "salade-americaine-aux-champignons-de-paris",
+    "filets-de-merlan-ou-de-maquereau-facon-rollmops"
+  ],
+  "translations": {
+    "en": {
+      "title": "Percheron-style salad with button mushrooms",
+      "description": "Potato salad with white wine, raw button mushrooms with lemon, watercress and hard-boiled eggs, dressed with a mustard vinaigrette.",
+      "tags": [
+        "mushrooms",
+        "potatoes",
+        "eggs",
+        "starter",
+        "french",
+        "nostalgic",
+        "family-recipe",
+        "vegetarian",
+        "cold",
+        "easy",
+        "budget-friendly",
+        "buffet",
+        "tangy"
+      ],
+      "ingredients": [
+        {
+          "items": [
+            "600 g of fresh button mushrooms",
+            "1 bunch of watercress",
+            "1.5 kg of potatoes",
+            "5 eggs",
+            "100 g of onions",
+            "30 g of shallots",
+            "20 g of parsley",
+            "1 dl of dry white wine",
+            "2 dl of oil",
+            "½ dl of vinegar",
+            "½ tablespoon of mustard",
+            "Salt, pepper",
+            "Lemon juice"
+          ]
+        }
+      ],
+      "steps": [
+        {
+          "text": "Thinly slice the potatoes, boiled in their skins, and add the white wine."
+        },
+        {
+          "text": "Hard-boil the eggs and peel them."
+        },
+        {
+          "text": "Slice the mushrooms on the bias, add the lemon juice, and season with the finely chopped shallots, the chopped parsley and the mustard vinaigrette."
+        },
+        {
+          "text": "Season the potatoes with the coarsely chopped onions and the vinaigrette."
+        },
+        {
+          "text": "Wash the watercress well and pick the leaves."
+        },
+        {
+          "text": "Mix everything together: potatoes, mushrooms, watercress and the thinly sliced hard-boiled eggs."
+        }
+      ]
+    },
+    "it": {
+      "title": "Insalata alla percheronne con champignon",
+      "description": "Insalata di patate al vino bianco, champignon crudi al limone, crescione e uova sode, condita con una vinaigrette alla senape.",
+      "tags": [
+        "funghi",
+        "patate",
+        "uova",
+        "antipasto",
+        "francese",
+        "nostalgico",
+        "ricetta-di-famiglia",
+        "vegetariano",
+        "freddo",
+        "facile",
+        "economico",
+        "buffet",
+        "acidulo"
+      ],
+      "ingredients": [
+        {
+          "items": [
+            "600 g di champignon freschi",
+            "1 mazzo di crescione",
+            "1,5 kg di patate",
+            "5 uova",
+            "100 g di cipolle",
+            "30 g di scalogni",
+            "20 g di prezzemolo",
+            "1 dl di vino bianco secco",
+            "2 dl di olio",
+            "½ dl di aceto",
+            "½ cucchiaio di senape",
+            "Sale, pepe",
+            "Succo di limone"
+          ]
+        }
+      ],
+      "steps": [
+        {
+          "text": "Affettare sottilmente le patate lessate con la buccia e aggiungere il vino bianco."
+        },
+        {
+          "text": "Rassodare le uova e sgusciarle."
+        },
+        {
+          "text": "Tagliare i funghi a fettine oblique, aggiungere il succo di limone e condire con gli scalogni tritati finemente, il prezzemolo tritato e la vinaigrette alla senape."
+        },
+        {
+          "text": "Condire le patate con le cipolle tritate grossolanamente e la vinaigrette."
+        },
+        {
+          "text": "Lavare bene il crescione e sfogliarlo."
+        },
+        {
+          "text": "Mescolare il tutto: patate, funghi, crescione e le uova sode affettate sottilmente."
+        }
+      ]
+    }
+  }
+}

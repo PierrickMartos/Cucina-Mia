@@ -1,0 +1,131 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <defs>
+    <radialGradient id="gbg" cx="50%" cy="40%" r="70%">
+      <stop offset="0%" stop-color="#3a3028"/>
+      <stop offset="100%" stop-color="#1a1510"/>
+    </radialGradient>
+    <radialGradient id="bowl" cx="45%" cy="35%" r="60%">
+      <stop offset="0%" stop-color="#f0e8dc"/>
+      <stop offset="100%" stop-color="#d0c4b0"/>
+    </radialGradient>
+    <radialGradient id="gsauce" cx="50%" cy="40%" r="55%">
+      <stop offset="0%" stop-color="#d84428"/>
+      <stop offset="100%" stop-color="#b03018"/>
+    </radialGradient>
+  </defs>
+  <rect width="800" height="600" fill="url(#gbg)"/>
+  <!-- Subtle pattern -->
+  <g opacity="0.04">
+    <circle cx="100" cy="100" r="40" fill="#c0392b"/>
+    <circle cx="300" cy="80" r="30" fill="#c0392b"/>
+    <circle cx="700" cy="120" r="35" fill="#c0392b"/>
+    <circle cx="150" cy="520" r="25" fill="#c0392b"/>
+    <circle cx="650" cy="500" r="30" fill="#c0392b"/>
+  </g>
+  <!-- Table shadow -->
+  <ellipse cx="400" cy="440" rx="240" ry="50" fill="#0a0808" opacity="0.3"/>
+  <!-- Bowl -->
+  <ellipse cx="400" cy="340" rx="200" ry="80" fill="#b0a090"/>
+  <ellipse cx="400" cy="310" rx="210" ry="140" fill="url(#bowl)"/>
+  <ellipse cx="400" cy="280" rx="195" ry="100" fill="#e8ddd0"/>
+  <!-- Bowl rim -->
+  <ellipse cx="400" cy="280" rx="195" ry="100" fill="none" stroke="#d4c8b4" stroke-width="6"/>
+  <ellipse cx="400" cy="278" rx="192" ry="97" fill="none" stroke="#e8e0d4" stroke-width="2"/>
+  <!-- Tomato sauce pool -->
+  <ellipse cx="400" cy="295" rx="170" ry="80" fill="url(#gsauce)"/>
+  <ellipse cx="400" cy="290" rx="165" ry="75" fill="#c83820" opacity="0.6"/>
+  <!-- Sauce texture -->
+  <g fill="#b03018" opacity="0.3">
+    <ellipse cx="340" cy="285" rx="30" ry="12"/>
+    <ellipse cx="440" cy="300" rx="35" ry="10"/>
+    <ellipse cx="380" cy="310" rx="25" ry="10"/>
+  </g>
+  <!-- Gnocchi pieces -->
+  <g>
+    <!-- Row 1 -->
+    <ellipse cx="340" cy="265" rx="18" ry="14" fill="#f0dca0"/>
+    <ellipse cx="340" cy="263" rx="16" ry="12" fill="#f5e4b0"/>
+    <g stroke="#dcc890" stroke-width="0.8" opacity="0.6">
+      <line x1="330" y1="260" x2="330" y2="268"/>
+      <line x1="334" y1="259" x2="334" y2="269"/>
+      <line x1="338" y1="258" x2="338" y2="270"/>
+      <line x1="342" y1="258" x2="342" y2="270"/>
+      <line x1="346" y1="259" x2="346" y2="269"/>
+      <line x1="350" y1="260" x2="350" y2="268"/>
+    </g>
+    <ellipse cx="380" cy="258" rx="18" ry="14" fill="#f0dca0"/>
+    <ellipse cx="380" cy="256" rx="16" ry="12" fill="#f5e4b0"/>
+    <g stroke="#dcc890" stroke-width="0.8" opacity="0.6">
+      <line x1="370" y1="253" x2="370" y2="261"/>
+      <line x1="374" y1="252" x2="374" y2="262"/>
+      <line x1="378" y1="251" x2="378" y2="263"/>
+      <line x1="382" y1="251" x2="382" y2="263"/>
+      <line x1="386" y1="252" x2="386" y2="262"/>
+      <line x1="390" y1="253" x2="390" y2="261"/>
+    </g>
+    <ellipse cx="420" cy="260" rx="18" ry="14" fill="#f0dca0"/>
+    <ellipse cx="420" cy="258" rx="16" ry="12" fill="#f5e4b0"/>
+    <g stroke="#dcc890" stroke-width="0.8" opacity="0.6">
+      <line x1="410" y1="255" x2="410" y2="263"/>
+      <line x1="414" y1="254" x2="414" y2="264"/>
+      <line x1="418" y1="253" x2="418" y2="265"/>
+      <line x1="422" y1="253" x2="422" y2="265"/>
+      <line x1="426" y1="254" x2="426" y2="264"/>
+      <line x1="430" y1="255" x2="430" y2="263"/>
+    </g>
+    <ellipse cx="460" cy="268" rx="18" ry="14" fill="#f0dca0"/>
+    <ellipse cx="460" cy="266" rx="16" ry="12" fill="#f5e4b0"/>
+    <g stroke="#dcc890" stroke-width="0.8" opacity="0.6">
+      <line x1="450" y1="263" x2="450" y2="271"/>
+      <line x1="454" y1="262" x2="454" y2="272"/>
+      <line x1="458" y1="261" x2="458" y2="273"/>
+      <line x1="462" y1="261" x2="462" y2="273"/>
+      <line x1="466" y1="262" x2="466" y2="272"/>
+      <line x1="470" y1="263" x2="470" y2="271"/>
+    </g>
+    <!-- Row 2 -->
+    <ellipse cx="310" cy="285" rx="17" ry="13" fill="#f0dca0"/>
+    <ellipse cx="310" cy="283" rx="15" ry="11" fill="#f5e4b0"/>
+    <ellipse cx="360" cy="290" rx="18" ry="14" fill="#f0dca0"/>
+    <ellipse cx="360" cy="288" rx="16" ry="12" fill="#f5e4b0"/>
+    <ellipse cx="400" cy="285" rx="17" ry="13" fill="#f0dca0"/>
+    <ellipse cx="400" cy="283" rx="15" ry="11" fill="#f5e4b0"/>
+    <ellipse cx="440" cy="292" rx="18" ry="14" fill="#f0dca0"/>
+    <ellipse cx="440" cy="290" rx="16" ry="12" fill="#f5e4b0"/>
+    <ellipse cx="485" cy="288" rx="17" ry="13" fill="#f0dca0"/>
+    <ellipse cx="485" cy="286" rx="15" ry="11" fill="#f5e4b0"/>
+    <!-- Row 3 -->
+    <ellipse cx="335" cy="312" rx="16" ry="12" fill="#f0dca0"/>
+    <ellipse cx="335" cy="310" rx="14" ry="10" fill="#f5e4b0"/>
+    <ellipse cx="380" cy="318" rx="17" ry="13" fill="#f0dca0"/>
+    <ellipse cx="380" cy="316" rx="15" ry="11" fill="#f5e4b0"/>
+    <ellipse cx="425" cy="315" rx="16" ry="12" fill="#f0dca0"/>
+    <ellipse cx="425" cy="313" rx="14" ry="10" fill="#f5e4b0"/>
+    <ellipse cx="470" cy="310" rx="17" ry="13" fill="#f0dca0"/>
+    <ellipse cx="470" cy="308" rx="15" ry="11" fill="#f5e4b0"/>
+  </g>
+  <!-- Parmesan shavings -->
+  <g fill="#faf4e0" opacity="0.7">
+    <ellipse cx="350" cy="275" rx="8" ry="3" transform="rotate(-20 350 275)"/>
+    <ellipse cx="410" cy="270" rx="7" ry="3" transform="rotate(15 410 270)"/>
+    <ellipse cx="450" cy="285" rx="9" ry="3" transform="rotate(-10 450 285)"/>
+    <ellipse cx="375" cy="305" rx="7" ry="2.5" transform="rotate(25 375 305)"/>
+    <ellipse cx="440" cy="305" rx="8" ry="3" transform="rotate(-30 440 305)"/>
+  </g>
+  <!-- Basil leaves on top -->
+  <g>
+    <ellipse cx="390" cy="272" rx="14" ry="8" fill="#2e8028" transform="rotate(-20 390 272)"/>
+    <ellipse cx="392" cy="274" rx="12" ry="6" fill="#3a9832" transform="rotate(-20 392 274)"/>
+    <line x1="384" y1="278" x2="398" y2="268" stroke="#268020" stroke-width="0.8"/>
+    <ellipse cx="418" cy="295" rx="12" ry="7" fill="#2e8028" transform="rotate(15 418 295)"/>
+    <ellipse cx="420" cy="297" rx="10" ry="5" fill="#3a9832" transform="rotate(15 420 297)"/>
+  </g>
+  <!-- Fork -->
+  <g transform="translate(580, 200) rotate(25)" opacity="0.25">
+    <rect x="-3" y="0" width="6" height="180" rx="3" fill="#c0b8a8"/>
+    <rect x="-12" y="-50" width="3" height="55" rx="1.5" fill="#c0b8a8"/>
+    <rect x="-4" y="-50" width="3" height="55" rx="1.5" fill="#c0b8a8"/>
+    <rect x="4" y="-50" width="3" height="55" rx="1.5" fill="#c0b8a8"/>
+    <rect x="12" y="-50" width="3" height="55" rx="1.5" fill="#c0b8a8"/>
+  </g>
+</svg>

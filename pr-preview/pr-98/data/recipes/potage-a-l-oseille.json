@@ -1,0 +1,174 @@
+{
+  "slug": "potage-a-l-oseille",
+  "title": "Potage à l'oseille",
+  "description": "Un potage de poireau et de pommes de terre relevé par l'acidité de l'oseille, mixé bien velouté et fini à la crème.",
+  "images": {
+    "cover": "images/recipes/potage-a-l-oseille/cover.webp",
+    "web": "images/recipes/potage-a-l-oseille/web.webp"
+  },
+  "imageCredit": {
+    "author": "Einladung_zum_Essen",
+    "url": "https://pixabay.com/users/einladung_zum_essen-3625323/"
+  },
+  "prepTime": 15,
+  "cookTime": 55,
+  "servings": 8,
+  "difficulty": "Facile",
+  "category": "Zuppe",
+  "origin": "amelie-grandpa",
+  "tags": [
+    "oseille",
+    "légumes",
+    "entrée",
+    "français",
+    "nostalgique",
+    "recette-de-famille",
+    "végétarien",
+    "facile",
+    "onctueux",
+    "acidulé",
+    "réconfortant",
+    "chaud",
+    "printemps"
+  ],
+  "ingredients": [
+    {
+      "items": [
+        "1 bonne poignée d'oseille",
+        "1 blanc de poireau",
+        "6 pommes de terre",
+        "50 g de beurre",
+        "1 dl de crème allégée",
+        "2 l d'eau"
+      ]
+    }
+  ],
+  "steps": [
+    {
+      "text": "Laver et émincer finement le poireau, le faire suer doucement avec le beurre, mouiller avec 2 l d'eau, faire cuire 20 minutes.",
+      "timers": [20]
+    },
+    {
+      "text": "Ajouter les pommes de terre coupées en morceaux, cuire 25 minutes et ajouter l'oseille lavée et ciselée, faire cuire 10 minutes.",
+      "timers": [25, 10]
+    },
+    {
+      "text": "Passer à la moulinette ou au mixer de préférence pour avoir un potage plus velouté."
+    },
+    {
+      "text": "Ajouter la crème et servir."
+    }
+  ],
+  "tips": [
+    "Passer au mixer de préférence à la moulinette pour avoir un potage plus velouté."
+  ],
+  "source": "Les recettes de Maurice Houdré, tome 1, Potages et consommés",
+  "originalSource": {
+    "type": "text",
+    "data": "Potage à l’oseille\n\nIngrédients : pour 8 à 10 personnes\n\n. 1 bonne poignée d’oseille\n. 1 blanc de poireau\n. 6 pommes de terre\n. 50 g de beurre\n. 1 dl de crème allégée\n\nPréparation : \n\nLaver et émincer finement le poireau, le faire suer doucement avec le beurre, mouiller avec 2 l d’eau, faire cuire 20 minutes.\nAjouter les pommes de terre coupées en morceaux, cuire 25 minutes et ajouter l’oseille lavée et ciselée, faire cuire 10 minutes.\nPasser à la moulinette ou au mixer de préférence pour avoir un potage plus velouté.\nAjouter la crème et servir.\n"
+  },
+  "related": [
+    "potage-bonne-femme",
+    "creme-de-potiron",
+    "tourte-de-pommes-de-terre",
+    "saute-d-agneau-aux-primeurs-ou-navarin-printanier"
+  ],
+  "translations": {
+    "en": {
+      "title": "Sorrel Soup",
+      "description": "A leek and potato soup lifted by the tartness of sorrel, blended until velvety smooth and finished with cream.",
+      "tags": [
+        "sorrel",
+        "vegetables",
+        "starter",
+        "french",
+        "nostalgic",
+        "family-recipe",
+        "vegetarian",
+        "easy",
+        "creamy",
+        "tangy",
+        "comforting",
+        "hot",
+        "spring"
+      ],
+      "ingredients": [
+        {
+          "items": [
+            "1 good handful of sorrel",
+            "1 leek (white part)",
+            "6 potatoes",
+            "50 g butter",
+            "1 dl light cream",
+            "2 l water"
+          ]
+        }
+      ],
+      "steps": [
+        {
+          "text": "Wash and thinly slice the leek, sweat it gently in the butter, add 2 l of water and cook for 20 minutes."
+        },
+        {
+          "text": "Add the potatoes cut into pieces, cook for 25 minutes, then add the washed and finely chopped sorrel and cook for 10 minutes."
+        },
+        {
+          "text": "Pass through a food mill or, preferably, a blender for a more velvety soup."
+        },
+        {
+          "text": "Add the cream and serve."
+        }
+      ],
+      "tips": [
+        "Use a blender rather than a food mill for a more velvety soup."
+      ]
+    },
+    "it": {
+      "title": "Zuppa di acetosa",
+      "description": "Una zuppa di porro e patate ravvivata dall'acidità dell'acetosa, frullata fino a renderla vellutata e completata con la panna.",
+      "tags": [
+        "acetosa",
+        "verdure",
+        "antipasto",
+        "francese",
+        "nostalgico",
+        "ricetta-di-famiglia",
+        "vegetariano",
+        "facile",
+        "cremoso",
+        "acidulo",
+        "confortante",
+        "caldo",
+        "primavera"
+      ],
+      "ingredients": [
+        {
+          "items": [
+            "1 bella manciata di acetosa",
+            "1 porro (parte bianca)",
+            "6 patate",
+            "50 g di burro",
+            "1 dl di panna leggera",
+            "2 l di acqua"
+          ]
+        }
+      ],
+      "steps": [
+        {
+          "text": "Lavare e affettare sottilmente il porro, farlo sudare dolcemente nel burro, bagnare con 2 l di acqua e cuocere per 20 minuti."
+        },
+        {
+          "text": "Aggiungere le patate tagliate a pezzi, cuocere per 25 minuti, poi aggiungere l'acetosa lavata e tritata finemente e cuocere per 10 minuti."
+        },
+        {
+          "text": "Passare al passaverdure o, meglio, al frullatore per ottenere una zuppa più vellutata."
+        },
+        {
+          "text": "Aggiungere la panna e servire."
+        }
+      ],
+      "tips": [
+        "Usare il frullatore piuttosto che il passaverdure per ottenere una zuppa più vellutata."
+      ]
+    }
+  }
+}
