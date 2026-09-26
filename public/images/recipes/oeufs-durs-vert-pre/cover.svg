@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <defs>
+    <radialGradient id="odvbg" cx="50%" cy="45%" r="70%"><stop offset="0%" stop-color="#2e2822"/><stop offset="100%" stop-color="#1a1510"/></radialGradient>
+    <radialGradient id="odvplate" cx="45%" cy="40%" r="65%"><stop offset="0%" stop-color="#f4efe6"/><stop offset="100%" stop-color="#bab2a4"/></radialGradient>
+    <linearGradient id="odvpot" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#f2d890"/><stop offset="100%" stop-color="#c8a050"/></linearGradient>
+    <radialGradient id="odvegg" cx="40%" cy="35%" r="70%"><stop offset="0%" stop-color="#ffffff"/><stop offset="100%" stop-color="#e2dccc"/></radialGradient>
+    <radialGradient id="odvsauce" cx="40%" cy="30%" r="70%"><stop offset="0%" stop-color="#cfe39a"/><stop offset="100%" stop-color="#8ab452"/></radialGradient>
+    <g id="odve">
+      <ellipse cx="0" cy="0" rx="46" ry="32" fill="url(#odvegg)"/>
+      <path d="M-40,-8 Q-20,-30 10,-26 Q40,-22 44,4 Q30,20 0,18 Q-30,16 -40,-8Z" fill="url(#odvsauce)"/>
+      <circle cx="-4" cy="-4" r="13" fill="#f4c030" opacity="0.5"/>
+      <g fill="#3e7a2a"><circle cx="-20" cy="-10" r="2"/><circle cx="10" cy="-14" r="2"/><circle cx="24" cy="2" r="2"/><circle cx="-6" cy="8" r="1.8"/></g>
+    </g>
+  </defs>
+  <rect width="800" height="600" fill="url(#odvbg)"/>
+  <g opacity="0.12" stroke="#8ab050" stroke-width="3" fill="none"><path d="M60,420 Q80,340 70,260 M70,330 Q95,300 110,290 M72,300 Q50,280 40,270"/><path d="M730,120 Q740,200 720,280"/></g>
+  <ellipse cx="400" cy="480" rx="300" ry="55" fill="#000" opacity="0.35"/>
+  <ellipse cx="400" cy="320" rx="300" ry="185" fill="url(#odvplate)"/>
+  <ellipse cx="400" cy="315" rx="232" ry="140" fill="#ece5d8"/>
+  <g fill="url(#odvpot)">
+    <rect x="190" y="290" width="40" height="34" rx="9" transform="rotate(-10 210 307)"/><rect x="230" y="340" width="42" height="34" rx="9" transform="rotate(12 251 357)"/>
+    <rect x="290" y="385" width="42" height="34" rx="9" transform="rotate(-6 311 402)"/><rect x="360" y="400" width="44" height="34" rx="9" transform="rotate(8 382 417)"/>
+    <rect x="430" y="398" width="42" height="34" rx="9" transform="rotate(-14 451 415)"/><rect x="500" y="380" width="42" height="34" rx="9" transform="rotate(10 521 397)"/>
+    <rect x="555" y="340" width="40" height="34" rx="9" transform="rotate(-8 575 357)"/><rect x="570" y="285" width="40" height="34" rx="9" transform="rotate(16 590 302)"/>
+    <rect x="530" y="225" width="40" height="32" rx="9" transform="rotate(-12 550 241)"/><rect x="215" y="235" width="40" height="32" rx="9" transform="rotate(14 235 251)"/>
+  </g>
+  <g fill="#fff" opacity="0.25"><rect x="196" y="294" width="16" height="6" rx="3"/><rect x="366" y="404" width="16" height="6" rx="3"/><rect x="506" y="384" width="16" height="6" rx="3"/></g>
+  <use href="#odve" transform="translate(330 270) rotate(-8)"/>
+  <use href="#odve" transform="translate(470 270) rotate(8)"/>
+  <use href="#odve" transform="translate(400 330)"/>
+  <use href="#odve" transform="translate(300 345) rotate(-15) scale(0.9)"/>
+  <use href="#odve" transform="translate(500 345) rotate(15) scale(0.9)"/>
+  <g fill="#b8708a">
+    <path d="M250,300 l6,-3 2,6z"/><path d="M540,300 l6,-3 2,6z"/><path d="M340,410 l6,-3 2,6z"/><path d="M470,410 l6,-3 2,6z"/><path d="M270,380 l6,-3 2,6z"/>
+  </g>
+  <g fill="#3c8a34"><circle cx="230" cy="330" r="2.5"/><circle cx="560" cy="330" r="2.5"/><circle cx="400" cy="395" r="2.5"/><circle cx="520" cy="240" r="2.5"/><circle cx="260" cy="250" r="2.5"/></g>
+</svg>

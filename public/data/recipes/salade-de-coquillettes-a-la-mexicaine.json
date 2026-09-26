@@ -1,0 +1,239 @@
+{
+  "slug": "salade-de-coquillettes-a-la-mexicaine",
+  "title": "Salade de coquillettes à la mexicaine",
+  "description": "Une salade de coquillettes au maïs, aux poivrons, aux tomates et aux raisins blancs, liée d'une mayonnaise relevée au curry.",
+  "images": {
+    "cover": "images/recipes/salade-de-coquillettes-a-la-mexicaine/cover.svg",
+    "web": "images/recipes/salade-de-coquillettes-a-la-mexicaine/cover.svg"
+  },
+  "prepTime": 30,
+  "cookTime": 10,
+  "servings": 8,
+  "difficulty": "Facile",
+  "category": "Insalate",
+  "origin": "amelie-grandpa",
+  "tags": [
+    "pâtes",
+    "légumes",
+    "entrée",
+    "froid",
+    "été",
+    "végétarien",
+    "buffet",
+    "sucré-salé",
+    "facile",
+    "français",
+    "nostalgique",
+    "recette-de-famille"
+  ],
+  "ingredients": [
+    {
+      "items": [
+        "500 g de coquillettes ou torsades",
+        "1 boîte de grains de maïs",
+        "1 poivron vert",
+        "1 poivron rouge",
+        "4 tomates",
+        "125 g de raisins blancs",
+        "2 citrons"
+      ]
+    },
+    {
+      "group": "Pour la mayonnaise",
+      "items": [
+        "2 dl d'huile",
+        "1 jaune d'œuf",
+        "1 cuillerée de moutarde",
+        "1 cuillerée de vinaigre",
+        "Sel, poivre",
+        "1 cuillerée de curry"
+      ]
+    }
+  ],
+  "steps": [
+    {
+      "text": "Cuire les coquillettes à l'eau bouillante salée quelques minutes."
+    },
+    {
+      "text": "Laver et essuyer les poivrons puis les couper en deux, retirer les graines, les émincer finement et les blanchir 2 minutes dans de l'eau bouillante, égoutter.",
+      "timers": [2]
+    },
+    {
+      "text": "Émonder et vider les tomates puis les couper en dés."
+    },
+    {
+      "text": "Égoutter le maïs."
+    },
+    {
+      "text": "Laver et faire gonfler les raisins 10 minutes et les égoutter.",
+      "timers": [10]
+    },
+    {
+      "text": "Faire le jus de citron et le verser sur les poivrons."
+    },
+    {
+      "text": "Lorsque les pâtes sont cuites, les rafraîchir et les égoutter."
+    },
+    {
+      "text": "Dans un récipient, mélanger les pâtes et le maïs puis les poivrons, les tomates, les raisins et la mayonnaise."
+    },
+    {
+      "text": "Mélanger délicatement, servir en saladier."
+    }
+  ],
+  "source": "Les recettes de Maurice Houdré, tome 1, Les entrées en assiette froide et salades composées",
+  "originalSource": {
+    "type": "text",
+    "data": "Salade de coquillettes à la mexicaine \n\nIngrédients : pour 8 personnes\n\n. 500 g de coquillettes ou torsades\n. 1 boîte de grains de maïs\n. 1 poivron vert\n. 1 poivron rouge\n. 4 tomates\n. 125 g de raisins blancs\n. 2 citrons\nPour la mayonnaise :\n. 2 dl d’huile\n. 1 jaune d’œuf\n. 1 cuillérée de moutarde\n. 1 cuillérée de vinaigre\n. sel, poivre\n. 1 cuillérée de curry\n\nPréparation :\n\nCuire les coquillettes à l’eau bouillante salée quelques minutes.\n\nLaver et essuyer les poivrons puis les couper en deux, retirer les graines, les émincer finement et les blanchir 2 minutes dans de l’eau bouillante, égoutter.\nEmonder et vider les tomates puis couper les en dés.\nEgoutter le maïs.\nLaver et faire gonfler les raisins 10 minutes et les égoutter.\nFaire le jus de citron et le verser sur les poivrons.\nLorsque les pâtes sont cuites, les rafraîchir et les égoutter.\nDans un récipient, mélanger les pâtes et le maïs puis les poivrons, les tomates, les raisins et la mayonnaise.\nMélanger délicatement, servir en saladier.\n"
+  },
+  "related": [
+    "salade-de-riz-aux-fruits-de-mer",
+    "salade-americaine-aux-champignons-de-paris",
+    "tomates-en-surprise-aux-champignons-de-paris",
+    "salade-de-boeuf-et-champignons-a-la-parisienne"
+  ],
+  "translations": {
+    "en": {
+      "title": "Mexican-style macaroni salad",
+      "description": "A macaroni salad with sweetcorn, peppers, tomatoes and golden raisins, bound with a curry-spiced mayonnaise.",
+      "tags": [
+        "pasta",
+        "vegetables",
+        "starter",
+        "cold",
+        "summer",
+        "vegetarian",
+        "buffet",
+        "sweet-and-savory",
+        "easy",
+        "french",
+        "nostalgic",
+        "family-recipe"
+      ],
+      "ingredients": [
+        {
+          "items": [
+            "500 g of macaroni (coquillettes) or fusilli",
+            "1 can of sweetcorn",
+            "1 green pepper",
+            "1 red pepper",
+            "4 tomatoes",
+            "125 g of golden raisins",
+            "2 lemons"
+          ]
+        },
+        {
+          "group": "For the mayonnaise",
+          "items": [
+            "2 dl of oil",
+            "1 egg yolk",
+            "1 spoonful of mustard",
+            "1 spoonful of vinegar",
+            "Salt, pepper",
+            "1 spoonful of curry powder"
+          ]
+        }
+      ],
+      "steps": [
+        {
+          "text": "Cook the macaroni in boiling salted water for a few minutes."
+        },
+        {
+          "text": "Wash and dry the peppers, then cut them in half, remove the seeds, thinly slice them and blanch them for 2 minutes in boiling water, then drain."
+        },
+        {
+          "text": "Blanch and peel the tomatoes, deseed them, then dice them."
+        },
+        {
+          "text": "Drain the sweetcorn."
+        },
+        {
+          "text": "Wash the raisins, soak them for 10 minutes to plump them up, then drain them."
+        },
+        {
+          "text": "Squeeze the lemons and pour the juice over the peppers."
+        },
+        {
+          "text": "When the pasta is cooked, refresh it and drain it."
+        },
+        {
+          "text": "In a bowl, mix the pasta and the sweetcorn, then the peppers, the tomatoes, the raisins and the mayonnaise."
+        },
+        {
+          "text": "Mix gently and serve in a salad bowl."
+        }
+      ]
+    },
+    "it": {
+      "title": "Insalata di pasta alla messicana",
+      "description": "Un'insalata di pasta corta con mais, peperoni, pomodori e uvetta sultanina, legata con una maionese profumata al curry.",
+      "tags": [
+        "pasta",
+        "verdure",
+        "antipasto",
+        "freddo",
+        "estate",
+        "vegetariano",
+        "buffet",
+        "agrodolce",
+        "facile",
+        "francese",
+        "nostalgico",
+        "ricetta-di-famiglia"
+      ],
+      "ingredients": [
+        {
+          "items": [
+            "500 g di pasta corta (coquillettes) o fusilli",
+            "1 scatola di mais in chicchi",
+            "1 peperone verde",
+            "1 peperone rosso",
+            "4 pomodori",
+            "125 g di uvetta sultanina",
+            "2 limoni"
+          ]
+        },
+        {
+          "group": "Per la maionese",
+          "items": [
+            "2 dl di olio",
+            "1 tuorlo d'uovo",
+            "1 cucchiaio di senape",
+            "1 cucchiaio di aceto",
+            "Sale, pepe",
+            "1 cucchiaio di curry"
+          ]
+        }
+      ],
+      "steps": [
+        {
+          "text": "Cuocere la pasta in acqua bollente salata per qualche minuto."
+        },
+        {
+          "text": "Lavare e asciugare i peperoni, poi tagliarli a metà, eliminare i semi, affettarli sottilmente e sbollentarli per 2 minuti in acqua bollente, scolare."
+        },
+        {
+          "text": "Pelare i pomodori, svuotarli dei semi, poi tagliarli a dadini."
+        },
+        {
+          "text": "Scolare il mais."
+        },
+        {
+          "text": "Lavare l'uvetta, farla rinvenire per 10 minuti e scolarla."
+        },
+        {
+          "text": "Spremere i limoni e versare il succo sui peperoni."
+        },
+        {
+          "text": "Quando la pasta è cotta, raffreddarla e scolarla."
+        },
+        {
+          "text": "In una ciotola, mescolare la pasta e il mais, poi i peperoni, i pomodori, l'uvetta e la maionese."
+        },
+        {
+          "text": "Mescolare delicatamente e servire in un'insalatiera."
+        }
+      ]
+    }
+  }
+}

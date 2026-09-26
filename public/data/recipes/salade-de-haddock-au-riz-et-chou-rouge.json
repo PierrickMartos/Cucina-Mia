@@ -1,0 +1,170 @@
+{
+  "slug": "salade-de-haddock-au-riz-et-chou-rouge",
+  "title": "Salade de haddock au riz et chou rouge",
+  "description": "Une salade composée de riz, de chou rouge émincé et blanchi, et de haddock poché émietté, liée d'une vinaigrette aux fines herbes.",
+  "images": {
+    "cover": "images/recipes/salade-de-haddock-au-riz-et-chou-rouge/cover.svg",
+    "web": "images/recipes/salade-de-haddock-au-riz-et-chou-rouge/cover.svg"
+  },
+  "prepTime": 25,
+  "cookTime": 25,
+  "servings": 8,
+  "difficulty": "Facile",
+  "category": "Insalate",
+  "origin": "amelie-grandpa",
+  "tags": [
+    "poisson",
+    "riz",
+    "entrée",
+    "français",
+    "froid",
+    "facile",
+    "léger",
+    "buffet",
+    "herbacé",
+    "nostalgique",
+    "recette-de-famille"
+  ],
+  "ingredients": [
+    {
+      "items": [
+        "1 filet de haddock de 500 g",
+        "200 g de riz",
+        "Quelques feuilles de chou rouge",
+        "2 citrons",
+        "1 dl d'huile",
+        "1 cuillerée de vinaigre",
+        "2 cuillerées de fines herbes",
+        "Sel, poivre"
+      ]
+    }
+  ],
+  "steps": [
+    {
+      "text": "Cuire le riz à l'eau salée nature, 17 à 18 minutes, le rafraîchir et l'égoutter.",
+      "timers": [17]
+    },
+    {
+      "text": "Pocher le haddock quelques minutes et le faire refroidir."
+    },
+    {
+      "text": "Laver les feuilles de chou, retirer les côtes, émincer finement et blanchir 3 à 4 minutes dans de l'eau bouillante salée. Égoutter les feuilles, éponger et arroser avec le jus de citron.",
+      "timers": [3]
+    },
+    {
+      "text": "Dans un saladier, mélanger le riz et le chou, puis disposer dessus le haddock émietté."
+    },
+    {
+      "text": "Faire une vinaigrette, ajouter les fines herbes, verser sur la préparation et mélanger délicatement."
+    }
+  ],
+  "source": "Les recettes de Maurice Houdré, tome 1, Les entrées en assiette froide et salades composées",
+  "originalSource": {
+    "type": "text",
+    "data": "Salade de haddock au riz et chou rouge \n\nIngrédients : pour 8 personnes\n\n. 1 filet de haddock de 500 g\n. 200 g de riz\n. quelques feuilles de chou rouge\n. 2 citrons\n. 1 dl d’huile\n. 1 cuillérée de vinaigre\n. 2 cuillérées de fines herbes\n. sel, poivre\n\nPréparation :\n\nCuire le riz à l’eau salée nature, 17 à 18 minutes, le rafraîchir et l’égoutter.\n\nPocher le haddock quelques minutes et le faire refroidir.\nLaver les feuilles de chou, retirer les côtes, émincer finement et blanchir 3 à 4 minutes dans de l’eau bouillante salée, égoutter les feuilles, éponger et arroser avec le jus de citron.\nDans un saladier, mélanger : le riz, le chou puis disposer dessus le haddock émietté.\nFaire une vinaigrette, ajouter les fines herbes, verser sur la préparation et mélanger délicatement.\n"
+  },
+  "related": [
+    "salade-de-riz-aux-fruits-de-mer",
+    "taboule-aux-fruits-de-mer",
+    "salade-flamande-aux-champignons-de-paris",
+    "oeufs-durs-vert-pre"
+  ],
+  "translations": {
+    "en": {
+      "title": "Haddock salad with rice and red cabbage",
+      "description": "A composed salad of rice, thinly sliced blanched red cabbage and flaked poached haddock, dressed with a fresh herb vinaigrette.",
+      "tags": [
+        "fish",
+        "rice",
+        "starter",
+        "french",
+        "cold",
+        "easy",
+        "light",
+        "buffet",
+        "herby",
+        "nostalgic",
+        "family-recipe"
+      ],
+      "ingredients": [
+        {
+          "items": [
+            "1 haddock fillet of 500 g",
+            "200 g of rice",
+            "A few red cabbage leaves",
+            "2 lemons",
+            "1 dl of oil",
+            "1 spoonful of vinegar",
+            "2 spoonfuls of fresh herbs",
+            "Salt, pepper"
+          ]
+        }
+      ],
+      "steps": [
+        {
+          "text": "Cook the rice plain in salted water for 17 to 18 minutes, then refresh and drain it."
+        },
+        {
+          "text": "Poach the haddock for a few minutes and leave it to cool."
+        },
+        {
+          "text": "Wash the cabbage leaves, remove the ribs, thinly slice them and blanch for 3 to 4 minutes in salted boiling water. Drain the leaves, pat them dry and sprinkle with the lemon juice."
+        },
+        {
+          "text": "In a salad bowl, mix the rice and the cabbage, then arrange the flaked haddock on top."
+        },
+        {
+          "text": "Make a vinaigrette, add the fresh herbs, pour over the salad and mix gently."
+        }
+      ]
+    },
+    "it": {
+      "title": "Insalata di haddock con riso e cavolo rosso",
+      "description": "Un'insalata composta di riso, cavolo rosso affettato sottilmente e sbollentato, e haddock cotto in camicia sbriciolato, condita con una vinaigrette alle erbe aromatiche.",
+      "tags": [
+        "pesce",
+        "riso",
+        "antipasto",
+        "francese",
+        "freddo",
+        "facile",
+        "leggero",
+        "buffet",
+        "erbaceo",
+        "nostalgico",
+        "ricetta-di-famiglia"
+      ],
+      "ingredients": [
+        {
+          "items": [
+            "1 filetto di haddock da 500 g",
+            "200 g di riso",
+            "Qualche foglia di cavolo rosso",
+            "2 limoni",
+            "1 dl di olio",
+            "1 cucchiaio di aceto",
+            "2 cucchiai di erbe aromatiche",
+            "Sale, pepe"
+          ]
+        }
+      ],
+      "steps": [
+        {
+          "text": "Cuocere il riso in acqua salata, al naturale, per 17-18 minuti, poi raffreddarlo e scolarlo."
+        },
+        {
+          "text": "Cuocere in camicia l'haddock per qualche minuto e lasciarlo raffreddare."
+        },
+        {
+          "text": "Lavare le foglie di cavolo, togliere le coste, affettarle sottilmente e sbollentarle per 3-4 minuti in acqua bollente salata. Scolare le foglie, asciugarle e irrorarle con il succo di limone."
+        },
+        {
+          "text": "In un'insalatiera, mescolare il riso e il cavolo, poi disporvi sopra l'haddock sbriciolato."
+        },
+        {
+          "text": "Preparare una vinaigrette, aggiungere le erbe aromatiche, versarla sulla preparazione e mescolare delicatamente."
+        }
+      ]
+    }
+  }
+}

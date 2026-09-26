@@ -9386,5 +9386,2494 @@
     },
     "stepCount": 6,
     "ingredientCount": 16
+  },
+  {
+    "slug": "assiette-bagatelle-aux-champignons-de-paris",
+    "title": "Assiette Bagatelle aux champignons de Paris",
+    "description": "Une assiette froide de carottes en julienne, concombres et champignons de Paris à la crème, avec des pointes d'asperges sur une feuille de laitue.",
+    "images": {
+      "cover": "images/recipes/assiette-bagatelle-aux-champignons-de-paris/cover.webp",
+      "web": "images/recipes/assiette-bagatelle-aux-champignons-de-paris/web.webp"
+    },
+    "imageCredit": {
+      "author": "tohma",
+      "url": "https://pixabay.com/users/tohma-263912/"
+    },
+    "prepTime": 90,
+    "cookTime": 0,
+    "servings": 10,
+    "difficulty": "Facile",
+    "category": "Antipasti",
+    "tags": [
+      "champignons",
+      "légumes",
+      "entrée",
+      "froid",
+      "cru",
+      "no-cuisson",
+      "végétarien",
+      "facile",
+      "printemps",
+      "français",
+      "nostalgique",
+      "recette-de-famille"
+    ],
+    "origin": "amelie-grandpa",
+    "translations": {
+      "en": {
+        "title": "Bagatelle Plate with Button Mushrooms",
+        "description": "A cold plate of julienned carrots, cucumbers and button mushrooms in cream, with asparagus tips on a lettuce leaf.",
+        "tags": [
+          "mushrooms",
+          "vegetables",
+          "starter",
+          "cold",
+          "raw",
+          "no-cook",
+          "vegetarian",
+          "easy",
+          "spring",
+          "french",
+          "nostalgic",
+          "family-recipe"
+        ]
+      },
+      "it": {
+        "title": "Piatto Bagatelle ai funghi champignon",
+        "description": "Un piatto freddo di carote alla julienne, cetrioli e funghi champignon alla panna, con punte di asparagi su una foglia di lattuga.",
+        "tags": [
+          "funghi",
+          "verdure",
+          "antipasto",
+          "freddo",
+          "crudo",
+          "senza-cottura",
+          "vegetariano",
+          "facile",
+          "primavera",
+          "francese",
+          "nostalgico",
+          "ricetta-di-famiglia"
+        ]
+      }
+    },
+    "stepCount": 7,
+    "ingredientCount": 13
+  },
+  {
+    "slug": "assiette-de-crudites",
+    "title": "Assiette de crudités",
+    "description": "Une assiette fraîche de tomate, concombre, céleri rémoulade et betterave, dressée autour d'un quart d'avocat posé sur une feuille de salade.",
+    "images": {
+      "cover": "images/recipes/assiette-de-crudites/cover.svg",
+      "web": "images/recipes/assiette-de-crudites/cover.svg"
+    },
+    "prepTime": 10,
+    "cookTime": 0,
+    "servings": 1,
+    "difficulty": "Facile",
+    "category": "Antipasti",
+    "tags": [
+      "légumes",
+      "cru",
+      "no-cuisson",
+      "végétarien",
+      "léger",
+      "rapide",
+      "facile",
+      "été",
+      "froid",
+      "entrée",
+      "français",
+      "nostalgique",
+      "recette-de-famille"
+    ],
+    "origin": "amelie-grandpa",
+    "translations": {
+      "en": {
+        "title": "Crudités Plate",
+        "description": "A fresh plate of tomato, cucumber, celeriac remoulade and beetroot, arranged around a quarter of avocado set on a lettuce leaf.",
+        "tags": [
+          "vegetables",
+          "raw",
+          "no-cook",
+          "vegetarian",
+          "light",
+          "quick",
+          "easy",
+          "summer",
+          "cold",
+          "starter",
+          "french",
+          "nostalgic",
+          "family-recipe"
+        ]
+      },
+      "it": {
+        "title": "Piatto di verdure crude",
+        "description": "Un piatto fresco di pomodoro, cetriolo, sedano rapa in salsa rémoulade e barbabietola, disposti attorno a un quarto di avocado adagiato su una foglia di insalata.",
+        "tags": [
+          "verdure",
+          "crudo",
+          "senza-cottura",
+          "vegetariano",
+          "leggero",
+          "veloce",
+          "facile",
+          "estate",
+          "freddo",
+          "antipasto",
+          "francese",
+          "nostalgico",
+          "ricetta-di-famiglia"
+        ]
+      }
+    },
+    "stepCount": 1,
+    "ingredientCount": 7
+  },
+  {
+    "slug": "assiette-landaise",
+    "title": "Assiette landaise",
+    "description": "Une assiette froide du Sud-Ouest : aiguillettes de canard fumé, foie gras et gésiers confits sur un lit de chicorée.",
+    "images": {
+      "cover": "images/recipes/assiette-landaise/cover.webp",
+      "web": "images/recipes/assiette-landaise/web.webp"
+    },
+    "imageCredit": {
+      "author": "takedahrs",
+      "url": "https://pixabay.com/users/takedahrs-12657/"
+    },
+    "prepTime": 10,
+    "cookTime": 0,
+    "servings": 1,
+    "difficulty": "Facile",
+    "category": "Antipasti",
+    "tags": [
+      "canard",
+      "entrée",
+      "froid",
+      "no-cuisson",
+      "rapide",
+      "facile",
+      "festif",
+      "gourmand",
+      "français",
+      "nostalgique",
+      "recette-de-famille"
+    ],
+    "origin": "amelie-grandpa",
+    "translations": {
+      "en": {
+        "title": "Landes-style plate",
+        "description": "A cold plate from South-West France: smoked duck breast strips, foie gras and confit gizzards on a bed of chicory.",
+        "tags": [
+          "duck",
+          "starter",
+          "cold",
+          "no-cook",
+          "quick",
+          "easy",
+          "festive",
+          "indulgent",
+          "french",
+          "nostalgic",
+          "family-recipe"
+        ]
+      },
+      "it": {
+        "title": "Piatto landese",
+        "description": "Un piatto freddo del Sud-Ovest della Francia: filetti di anatra affumicata, foie gras e ventrigli confit su un letto di cicoria.",
+        "tags": [
+          "anatra",
+          "antipasto",
+          "freddo",
+          "senza-cottura",
+          "veloce",
+          "facile",
+          "festivo",
+          "goloso",
+          "francese",
+          "nostalgico",
+          "ricetta-di-famiglia"
+        ]
+      }
+    },
+    "stepCount": 1,
+    "ingredientCount": 5
+  },
+  {
+    "slug": "assiette-neptune",
+    "title": "Assiette Neptune",
+    "description": "Une assiette froide de la mer : terrine de poissons, tomate garnie de mousse d'avocat et croustade de moules et coques à la mayonnaise au Ketchup.",
+    "images": {
+      "cover": "images/recipes/assiette-neptune/cover.svg",
+      "web": "images/recipes/assiette-neptune/cover.svg"
+    },
+    "prepTime": 15,
+    "cookTime": 0,
+    "servings": 1,
+    "difficulty": "Facile",
+    "category": "Antipasti",
+    "tags": [
+      "fruits-de-mer",
+      "poisson",
+      "avocat",
+      "entrée",
+      "froid",
+      "no-cuisson",
+      "facile",
+      "rapide",
+      "festif",
+      "français",
+      "nostalgique",
+      "recette-de-famille"
+    ],
+    "origin": "amelie-grandpa",
+    "translations": {
+      "en": {
+        "title": "Neptune Plate",
+        "description": "A cold seafood plate: fish terrine, tomato filled with avocado mousse and a croustade of mussels and cockles in Ketchup mayonnaise.",
+        "tags": [
+          "seafood",
+          "fish",
+          "avocado",
+          "starter",
+          "cold",
+          "no-cook",
+          "easy",
+          "quick",
+          "festive",
+          "french",
+          "nostalgic",
+          "family-recipe"
+        ]
+      },
+      "it": {
+        "title": "Piatto Nettuno",
+        "description": "Un piatto freddo di mare: terrina di pesce, pomodoro farcito con mousse di avocado e croustade di cozze e vongole con maionese al Ketchup.",
+        "tags": [
+          "frutti-di-mare",
+          "pesce",
+          "avocado",
+          "antipasto",
+          "freddo",
+          "senza-cottura",
+          "facile",
+          "veloce",
+          "festivo",
+          "francese",
+          "nostalgico",
+          "ricetta-di-famiglia"
+        ]
+      }
+    },
+    "stepCount": 3,
+    "ingredientCount": 9
+  },
+  {
+    "slug": "assiette-norvegienne",
+    "title": "Assiette norvégienne",
+    "description": "Une assiette froide de poissons fumés, saumon, truite et flétan ou anguille, avec un émincé de concombre à la crème, du citron et de l'aneth.",
+    "images": {
+      "cover": "images/recipes/assiette-norvegienne/cover.webp",
+      "web": "images/recipes/assiette-norvegienne/web.webp"
+    },
+    "imageCredit": {
+      "author": "LUM3N",
+      "url": "https://pixabay.com/users/lum3n-1066559/"
+    },
+    "prepTime": 10,
+    "cookTime": 0,
+    "servings": 1,
+    "difficulty": "Facile",
+    "category": "Antipasti",
+    "tags": [
+      "poisson",
+      "entrée",
+      "français",
+      "nostalgique",
+      "recette-de-famille",
+      "no-cuisson",
+      "froid",
+      "rapide",
+      "facile",
+      "festif",
+      "buffet"
+    ],
+    "origin": "amelie-grandpa",
+    "translations": {
+      "en": {
+        "title": "Norwegian Plate",
+        "description": "A cold plate of smoked fish, salmon, trout and halibut or eel, with thinly sliced cucumber in cream, lemon and dill.",
+        "tags": [
+          "fish",
+          "starter",
+          "french",
+          "nostalgic",
+          "family-recipe",
+          "no-cook",
+          "cold",
+          "quick",
+          "easy",
+          "festive",
+          "buffet"
+        ]
+      },
+      "it": {
+        "title": "Piatto norvegese",
+        "description": "Un piatto freddo di pesce affumicato, salmone, trota e halibut o anguilla, con cetriolo affettato sottilmente alla panna, limone e aneto.",
+        "tags": [
+          "pesce",
+          "antipasto",
+          "francese",
+          "nostalgico",
+          "ricetta-di-famiglia",
+          "senza-cottura",
+          "freddo",
+          "veloce",
+          "facile",
+          "festivo",
+          "buffet"
+        ]
+      }
+    },
+    "stepCount": 1,
+    "ingredientCount": 7
+  },
+  {
+    "slug": "assiette-solognote",
+    "title": "Assiette solognote",
+    "description": "Une assiette froide de Sologne : salades de pissenlits et de chicorée, pâté de campagne, toast à la mousse de foie et œuf de caille.",
+    "images": {
+      "cover": "images/recipes/assiette-solognote/cover.webp",
+      "web": "images/recipes/assiette-solognote/web.webp"
+    },
+    "imageCredit": {
+      "author": "phuonghoangthuy",
+      "url": "https://pixabay.com/users/phuonghoangthuy-15430339/"
+    },
+    "prepTime": 10,
+    "cookTime": 0,
+    "servings": 1,
+    "difficulty": "Facile",
+    "category": "Antipasti",
+    "tags": [
+      "entrée",
+      "charcuterie",
+      "salade",
+      "œufs",
+      "froid",
+      "no-cuisson",
+      "facile",
+      "rapide",
+      "français",
+      "nostalgique",
+      "recette-de-famille"
+    ],
+    "origin": "amelie-grandpa",
+    "translations": {
+      "en": {
+        "title": "Sologne plate",
+        "description": "A cold plate from Sologne: dandelion and chicory salads, country pâté, a toast with liver mousse and a quail egg.",
+        "tags": [
+          "starter",
+          "charcuterie",
+          "salad",
+          "eggs",
+          "cold",
+          "no-cook",
+          "easy",
+          "quick",
+          "french",
+          "nostalgic",
+          "family-recipe"
+        ]
+      },
+      "it": {
+        "title": "Piatto della Sologne",
+        "description": "Un piatto freddo della Sologne: insalate di tarassaco e di cicoria, pâté di campagna, crostino con mousse di fegato e uovo di quaglia.",
+        "tags": [
+          "antipasto",
+          "salumi",
+          "insalata",
+          "uova",
+          "freddo",
+          "senza-cottura",
+          "facile",
+          "veloce",
+          "francese",
+          "nostalgico",
+          "ricetta-di-famiglia"
+        ]
+      }
+    },
+    "stepCount": 2,
+    "ingredientCount": 8
+  },
+  {
+    "slug": "avocat-farci-a-la-parisienne",
+    "title": "Avocat farci à la parisienne",
+    "description": "Des moitiés d'avocat garnies de dés d'avocat, de jambon blanc, de salade et d'œufs durs liés à la mayonnaise, servies bien fraîches.",
+    "images": {
+      "cover": "images/recipes/avocat-farci-a-la-parisienne/cover.webp",
+      "web": "images/recipes/avocat-farci-a-la-parisienne/web.webp"
+    },
+    "imageCredit": {
+      "author": "stevepb",
+      "url": "https://pixabay.com/users/stevepb-282134/"
+    },
+    "prepTime": 25,
+    "cookTime": 10,
+    "servings": 8,
+    "difficulty": "Facile",
+    "category": "Antipasti",
+    "tags": [
+      "avocat",
+      "œufs",
+      "porc",
+      "entrée",
+      "froid",
+      "facile",
+      "rapide",
+      "été",
+      "buffet",
+      "convivial",
+      "français",
+      "nostalgique",
+      "recette-de-famille"
+    ],
+    "origin": "amelie-grandpa",
+    "translations": {
+      "en": {
+        "title": "Parisian-style stuffed avocado",
+        "description": "Avocado halves filled with diced avocado, cooked ham, lettuce and hard-boiled eggs bound with mayonnaise, served well chilled.",
+        "tags": [
+          "avocado",
+          "eggs",
+          "pork",
+          "starter",
+          "cold",
+          "easy",
+          "quick",
+          "summer",
+          "buffet",
+          "convivial",
+          "french",
+          "nostalgic",
+          "family-recipe"
+        ]
+      },
+      "it": {
+        "title": "Avocado ripieno alla parigina",
+        "description": "Mezzi avocado farciti con dadini di avocado, prosciutto cotto, insalata e uova sode legati con la maionese, serviti ben freschi.",
+        "tags": [
+          "avocado",
+          "uova",
+          "maiale",
+          "antipasto",
+          "freddo",
+          "facile",
+          "veloce",
+          "estate",
+          "buffet",
+          "conviviale",
+          "francese",
+          "nostalgico",
+          "ricetta-di-famiglia"
+        ]
+      }
+    },
+    "stepCount": 9,
+    "ingredientCount": 6
+  },
+  {
+    "slug": "avocat-farci-aux-crevettes",
+    "title": "Avocat farci aux crevettes",
+    "description": "Des moitiés d'avocat garnies de dés d'avocat, crevettes, salade et œufs durs liés à la mayonnaise, servies bien fraîches.",
+    "images": {
+      "cover": "images/recipes/avocat-farci-aux-crevettes/cover.svg",
+      "web": "images/recipes/avocat-farci-aux-crevettes/cover.svg"
+    },
+    "prepTime": 30,
+    "cookTime": 10,
+    "servings": 8,
+    "difficulty": "Facile",
+    "category": "Antipasti",
+    "tags": [
+      "entrée",
+      "avocat",
+      "fruits-de-mer",
+      "œufs",
+      "froid",
+      "facile",
+      "préparation-à-lavance",
+      "buffet",
+      "français",
+      "nostalgique",
+      "recette-de-famille"
+    ],
+    "origin": "amelie-grandpa",
+    "translations": {
+      "en": {
+        "title": "Shrimp-stuffed avocado",
+        "description": "Avocado halves filled with diced avocado, shrimp, lettuce and hard-boiled eggs bound with mayonnaise, served well chilled.",
+        "tags": [
+          "starter",
+          "avocado",
+          "seafood",
+          "eggs",
+          "cold",
+          "easy",
+          "make-ahead",
+          "buffet",
+          "french",
+          "nostalgic",
+          "family-recipe"
+        ]
+      },
+      "it": {
+        "title": "Avocado ripieno di gamberetti",
+        "description": "Mezzi avocado farciti con dadini di avocado, gamberetti, insalata e uova sode legati con la maionese, serviti ben freschi.",
+        "tags": [
+          "antipasto",
+          "avocado",
+          "frutti-di-mare",
+          "uova",
+          "freddo",
+          "facile",
+          "da-preparare-in-anticipo",
+          "buffet",
+          "francese",
+          "nostalgico",
+          "ricetta-di-famiglia"
+        ]
+      }
+    },
+    "stepCount": 10,
+    "ingredientCount": 10
+  },
+  {
+    "slug": "carottes-au-cumin",
+    "title": "Carottes au cumin",
+    "description": "Des bâtonnets de carottes mijotés dans une sauce au vin blanc, tomate, poivron, paprika et cumin, servis froids en entrée.",
+    "images": {
+      "cover": "images/recipes/carottes-au-cumin/cover.webp",
+      "web": "images/recipes/carottes-au-cumin/web.webp"
+    },
+    "imageCredit": {
+      "author": "RitaE",
+      "url": "https://pixabay.com/users/ritae-19628/"
+    },
+    "prepTime": 20,
+    "cookTime": 45,
+    "servings": 8,
+    "difficulty": "Facile",
+    "category": "Antipasti",
+    "tags": [
+      "carottes",
+      "légumes",
+      "entrée",
+      "français",
+      "nostalgique",
+      "recette-de-famille",
+      "végétarien",
+      "mijoté",
+      "froid",
+      "épicé",
+      "facile",
+      "préparation-à-lavance"
+    ],
+    "origin": "amelie-grandpa",
+    "translations": {
+      "en": {
+        "title": "Cumin Carrots",
+        "description": "Carrot sticks simmered in a white wine, tomato, green pepper, paprika and cumin sauce, served cold as a starter.",
+        "tags": [
+          "carrots",
+          "vegetables",
+          "starter",
+          "french",
+          "nostalgic",
+          "family-recipe",
+          "vegetarian",
+          "simmered",
+          "cold",
+          "spicy",
+          "easy",
+          "make-ahead"
+        ]
+      },
+      "it": {
+        "title": "Carote al cumino",
+        "description": "Bastoncini di carote cotti a fuoco lento in una salsa di vino bianco, pomodoro, peperone, paprica e cumino, serviti freddi come antipasto.",
+        "tags": [
+          "carote",
+          "verdure",
+          "antipasto",
+          "francese",
+          "nostalgico",
+          "ricetta-di-famiglia",
+          "vegetariano",
+          "stufato",
+          "freddo",
+          "speziato",
+          "facile",
+          "da-preparare-in-anticipo"
+        ]
+      }
+    },
+    "stepCount": 4,
+    "ingredientCount": 9
+  },
+  {
+    "slug": "champignons-a-la-grecque",
+    "title": "Champignons à la grecque",
+    "description": "Petits champignons de Paris et petits oignons cuits au vin blanc, citron, huile d'olive et coriandre, servis froids.",
+    "images": {
+      "cover": "images/recipes/champignons-a-la-grecque/cover.svg",
+      "web": "images/recipes/champignons-a-la-grecque/cover.svg"
+    },
+    "prepTime": 20,
+    "cookTime": 20,
+    "servings": 8,
+    "difficulty": "Facile",
+    "category": "Antipasti",
+    "tags": [
+      "champignons",
+      "légumes",
+      "entrée",
+      "français",
+      "végétarien",
+      "sans-gluten",
+      "froid",
+      "facile",
+      "préparation-à-lavance",
+      "acidulé",
+      "nostalgique",
+      "recette-de-famille"
+    ],
+    "origin": "amelie-grandpa",
+    "translations": {
+      "en": {
+        "title": "Mushrooms à la Grecque",
+        "description": "Small button mushrooms and baby onions cooked in white wine, lemon, olive oil and coriander, served cold.",
+        "tags": [
+          "mushrooms",
+          "vegetables",
+          "starter",
+          "french",
+          "vegetarian",
+          "gluten-free",
+          "cold",
+          "easy",
+          "make-ahead",
+          "tangy",
+          "nostalgic",
+          "family-recipe"
+        ]
+      },
+      "it": {
+        "title": "Funghi alla greca",
+        "description": "Piccoli funghi champignon e cipolline cotti nel vino bianco, limone, olio d'oliva e coriandolo, serviti freddi.",
+        "tags": [
+          "funghi",
+          "verdure",
+          "antipasto",
+          "francese",
+          "vegetariano",
+          "senza-glutine",
+          "freddo",
+          "facile",
+          "preparazione-in-anticipo",
+          "acidulo",
+          "nostalgico",
+          "ricetta-di-famiglia"
+        ]
+      }
+    },
+    "stepCount": 3,
+    "ingredientCount": 9
+  },
+  {
+    "slug": "courgettes-a-la-grecque",
+    "title": "Courgettes à la grecque",
+    "description": "Courgettes mijotées au vin blanc, citron, coriandre et raisins de Smyrne, servies froides en entrée.",
+    "images": {
+      "cover": "images/recipes/courgettes-a-la-grecque/cover.webp",
+      "web": "images/recipes/courgettes-a-la-grecque/web.webp"
+    },
+    "imageCredit": {
+      "author": "jefersonurias",
+      "url": "https://pixabay.com/users/jefersonurias-6627200/"
+    },
+    "prepTime": 20,
+    "cookTime": 40,
+    "servings": 8,
+    "difficulty": "Facile",
+    "category": "Antipasti",
+    "tags": [
+      "français",
+      "nostalgique",
+      "recette-de-famille",
+      "entrée",
+      "courgettes",
+      "légumes",
+      "mijoté",
+      "froid",
+      "été",
+      "facile",
+      "préparation-à-lavance",
+      "acidulé"
+    ],
+    "origin": "amelie-grandpa",
+    "translations": {
+      "en": {
+        "title": "Courgettes à la grecque",
+        "description": "Courgettes simmered in white wine with lemon, coriander and sultanas, served cold as a starter.",
+        "tags": [
+          "french",
+          "nostalgic",
+          "family-recipe",
+          "starter",
+          "courgettes",
+          "vegetables",
+          "simmered",
+          "cold",
+          "summer",
+          "easy",
+          "make-ahead",
+          "tangy"
+        ]
+      },
+      "it": {
+        "title": "Zucchine alla greca",
+        "description": "Zucchine stufate al vino bianco, limone, coriandolo e uvetta sultanina, servite fredde come antipasto.",
+        "tags": [
+          "francese",
+          "nostalgico",
+          "ricetta-di-famiglia",
+          "antipasto",
+          "zucchine",
+          "verdure",
+          "stufato",
+          "freddo",
+          "estate",
+          "facile",
+          "da-preparare-in-anticipo",
+          "acidulo"
+        ]
+      }
+    },
+    "stepCount": 5,
+    "ingredientCount": 10
+  },
+  {
+    "slug": "filets-de-merlan-ou-de-maquereau-facon-rollmops",
+    "title": "Filets de merlan ou de maquereau façon rollmops",
+    "description": "Filets de merlan ou de maquereau roulés sur moutarde et oignons, marinés 6 à 7 jours dans un court-bouillon au vin blanc et au vinaigre.",
+    "images": {
+      "cover": "images/recipes/filets-de-merlan-ou-de-maquereau-facon-rollmops/cover.webp",
+      "web": "images/recipes/filets-de-merlan-ou-de-maquereau-facon-rollmops/web.webp"
+    },
+    "imageCredit": {
+      "author": "mp1746",
+      "url": "https://pixabay.com/users/mp1746-3022388/"
+    },
+    "prepTime": 45,
+    "cookTime": 20,
+    "servings": 8,
+    "difficulty": "Medio",
+    "category": "Antipasti",
+    "tags": [
+      "poisson",
+      "entrée",
+      "français",
+      "nostalgique",
+      "recette-de-famille",
+      "froid",
+      "mariné",
+      "acidulé",
+      "préparation-à-lavance",
+      "buffet"
+    ],
+    "origin": "amelie-grandpa",
+    "translations": {
+      "en": {
+        "title": "Rollmop-style whiting or mackerel fillets",
+        "description": "Whiting or mackerel fillets rolled up with mustard and onions, marinated for 6 to 7 days in a white wine and vinegar court-bouillon.",
+        "tags": [
+          "fish",
+          "starter",
+          "french",
+          "nostalgic",
+          "family-recipe",
+          "cold",
+          "marinated",
+          "tangy",
+          "make-ahead",
+          "buffet"
+        ]
+      },
+      "it": {
+        "title": "Filetti di merlano o di sgombro alla rollmops",
+        "description": "Filetti di merlano o di sgombro arrotolati con senape e cipolle, marinati per 6-7 giorni in un court-bouillon al vino bianco e aceto.",
+        "tags": [
+          "pesce",
+          "antipasto",
+          "francese",
+          "nostalgico",
+          "ricetta-di-famiglia",
+          "freddo",
+          "marinato",
+          "acidulo",
+          "preparazione-in-anticipo",
+          "buffet"
+        ]
+      }
+    },
+    "stepCount": 8,
+    "ingredientCount": 14
+  },
+  {
+    "slug": "fonds-d-artichaut-a-l-orientale",
+    "title": "Fonds d'artichaut à l'orientale",
+    "description": "Des fonds d'artichauts mijotés à l'huile d'olive avec oignons, vin blanc, tomate, safran et une pointe de Cayenne, servis froids.",
+    "images": {
+      "cover": "images/recipes/fonds-d-artichaut-a-l-orientale/cover.svg",
+      "web": "images/recipes/fonds-d-artichaut-a-l-orientale/cover.svg"
+    },
+    "prepTime": 20,
+    "cookTime": 50,
+    "servings": 8,
+    "difficulty": "Facile",
+    "category": "Antipasti",
+    "tags": [
+      "français",
+      "nostalgique",
+      "recette-de-famille",
+      "entrée",
+      "artichaut",
+      "légumes",
+      "mijoté",
+      "froid",
+      "méditerranéen",
+      "facile",
+      "préparation-à-lavance",
+      "été"
+    ],
+    "origin": "amelie-grandpa",
+    "translations": {
+      "en": {
+        "title": "Oriental-style artichoke hearts",
+        "description": "Artichoke hearts simmered in olive oil with onions, white wine, tomato, saffron and a hint of cayenne, served cold.",
+        "tags": [
+          "french",
+          "nostalgic",
+          "family-recipe",
+          "starter",
+          "artichoke",
+          "vegetables",
+          "simmered",
+          "cold",
+          "mediterranean",
+          "easy",
+          "make-ahead",
+          "summer"
+        ]
+      },
+      "it": {
+        "title": "Fondi di carciofo all'orientale",
+        "description": "Fondi di carciofo stufati nell'olio d'oliva con cipolle, vino bianco, pomodoro, zafferano e una punta di pepe di Caienna, serviti freddi.",
+        "tags": [
+          "francese",
+          "nostalgico",
+          "ricetta-di-famiglia",
+          "antipasto",
+          "carciofo",
+          "verdure",
+          "stufato",
+          "freddo",
+          "mediterraneo",
+          "facile",
+          "da-preparare-in-anticipo",
+          "estate"
+        ]
+      }
+    },
+    "stepCount": 7,
+    "ingredientCount": 8
+  },
+  {
+    "slug": "oeufs-a-la-russe",
+    "title": "Œufs à la russe",
+    "description": "Des œufs durs posés sur une macédoine de légumes frais liée à la mayonnaise, nappés de mayonnaise et décorés de tomates.",
+    "images": {
+      "cover": "images/recipes/oeufs-a-la-russe/cover.webp",
+      "web": "images/recipes/oeufs-a-la-russe/web.webp"
+    },
+    "imageCredit": {
+      "author": "GamerChef6",
+      "url": "https://pixabay.com/users/gamerchef6-3307833/"
+    },
+    "prepTime": 40,
+    "cookTime": 25,
+    "servings": 8,
+    "difficulty": "Facile",
+    "category": "Antipasti",
+    "tags": [
+      "œufs",
+      "légumes",
+      "entrée",
+      "froid",
+      "végétarien",
+      "facile",
+      "économique",
+      "buffet",
+      "printemps",
+      "français",
+      "nostalgique",
+      "recette-de-famille"
+    ],
+    "origin": "amelie-grandpa",
+    "translations": {
+      "en": {
+        "title": "Russian-Style Eggs",
+        "description": "Hard-boiled eggs set on a fresh vegetable macédoine bound with mayonnaise, coated with mayonnaise and garnished with tomatoes.",
+        "tags": [
+          "eggs",
+          "vegetables",
+          "starter",
+          "cold",
+          "vegetarian",
+          "easy",
+          "budget-friendly",
+          "buffet",
+          "spring",
+          "french",
+          "nostalgic",
+          "family-recipe"
+        ]
+      },
+      "it": {
+        "title": "Uova alla russa",
+        "description": "Uova sode adagiate su una macedonia di verdure fresche legata con maionese, nappate di maionese e decorate con pomodori.",
+        "tags": [
+          "uova",
+          "verdure",
+          "antipasto",
+          "freddo",
+          "vegetariano",
+          "facile",
+          "economico",
+          "buffet",
+          "primavera",
+          "francese",
+          "nostalgico",
+          "ricetta-di-famiglia"
+        ]
+      }
+    },
+    "stepCount": 6,
+    "ingredientCount": 10
+  },
+  {
+    "slug": "oeufs-durs-vert-pre",
+    "title": "Œufs durs vert pré",
+    "description": "Des œufs durs posés sur une salade de pommes de terre aux échalotes et fines herbes, nappés de sauce « vert pré ».",
+    "images": {
+      "cover": "images/recipes/oeufs-durs-vert-pre/cover.svg",
+      "web": "images/recipes/oeufs-durs-vert-pre/cover.svg"
+    },
+    "prepTime": 20,
+    "cookTime": 25,
+    "servings": 8,
+    "difficulty": "Facile",
+    "category": "Antipasti",
+    "tags": [
+      "œufs",
+      "pommes-de-terre",
+      "entrée",
+      "froid",
+      "végétarien",
+      "facile",
+      "économique",
+      "buffet",
+      "printemps",
+      "herbacé",
+      "français",
+      "nostalgique",
+      "recette-de-famille"
+    ],
+    "origin": "amelie-grandpa",
+    "translations": {
+      "en": {
+        "title": "Hard-boiled eggs vert pré",
+        "description": "Hard-boiled eggs set on a potato salad with shallots and fresh herbs, coated with a green \"vert pré\" herb sauce.",
+        "tags": [
+          "eggs",
+          "potatoes",
+          "starter",
+          "cold",
+          "vegetarian",
+          "easy",
+          "budget-friendly",
+          "buffet",
+          "spring",
+          "herby",
+          "french",
+          "nostalgic",
+          "family-recipe"
+        ]
+      },
+      "it": {
+        "title": "Uova sode vert pré",
+        "description": "Uova sode adagiate su un'insalata di patate con scalogni ed erbe aromatiche, nappate con salsa verde « vert pré ».",
+        "tags": [
+          "uova",
+          "patate",
+          "antipasto",
+          "freddo",
+          "vegetariano",
+          "facile",
+          "economico",
+          "buffet",
+          "primavera",
+          "erbaceo",
+          "francese",
+          "nostalgico",
+          "ricetta-di-famiglia"
+        ]
+      }
+    },
+    "stepCount": 2,
+    "ingredientCount": 5
+  },
+  {
+    "slug": "oeufs-en-gelee",
+    "title": "Œufs en gelée",
+    "description": "Des œufs pochés posés sur un petit rond de jambon et pris dans la gelée en ramequins, une entrée froide classique à servir bien fraîche.",
+    "images": {
+      "cover": "images/recipes/oeufs-en-gelee/cover.svg",
+      "web": "images/recipes/oeufs-en-gelee/cover.svg"
+    },
+    "prepTime": 20,
+    "cookTime": 5,
+    "servings": 8,
+    "difficulty": "Facile",
+    "category": "Antipasti",
+    "tags": [
+      "entrée",
+      "œufs",
+      "porc",
+      "froid",
+      "français",
+      "nostalgique",
+      "recette-de-famille",
+      "préparation-à-lavance",
+      "facile",
+      "buffet",
+      "fête"
+    ],
+    "origin": "amelie-grandpa",
+    "translations": {
+      "en": {
+        "title": "Eggs in Aspic",
+        "description": "Poached eggs set on a small round of ham and encased in aspic in ramekins, a classic cold starter to serve well chilled.",
+        "tags": [
+          "starter",
+          "eggs",
+          "pork",
+          "cold",
+          "french",
+          "nostalgic",
+          "family-recipe",
+          "make-ahead",
+          "easy",
+          "buffet",
+          "party"
+        ]
+      },
+      "it": {
+        "title": "Uova in gelatina",
+        "description": "Uova in camicia adagiate su un piccolo disco di prosciutto e racchiuse nella gelatina in cocotte, un classico antipasto freddo da servire ben fresco.",
+        "tags": [
+          "antipasto",
+          "uova",
+          "maiale",
+          "freddo",
+          "francese",
+          "nostalgico",
+          "ricetta-di-famiglia",
+          "da-preparare-in-anticipo",
+          "facile",
+          "buffet",
+          "festa"
+        ]
+      }
+    },
+    "stepCount": 5,
+    "ingredientCount": 4
+  },
+  {
+    "slug": "oeufs-farcis-au-thon",
+    "title": "Œufs farcis au thon",
+    "description": "Des œufs durs garnis d'une farce au thon, à la mayonnaise et aux jaunes, servis sur un lit de salade ciselée.",
+    "images": {
+      "cover": "images/recipes/oeufs-farcis-au-thon/cover.webp",
+      "web": "images/recipes/oeufs-farcis-au-thon/web.webp"
+    },
+    "imageCredit": {
+      "author": "s-ms_1989",
+      "url": "https://pixabay.com/users/s-ms_1989-5632430/"
+    },
+    "prepTime": 25,
+    "cookTime": 10,
+    "servings": 8,
+    "difficulty": "Facile",
+    "category": "Antipasti",
+    "tags": [
+      "œufs",
+      "thon",
+      "poisson",
+      "entrée",
+      "froid",
+      "facile",
+      "buffet",
+      "préparation-à-lavance",
+      "toute-la-famille",
+      "français",
+      "nostalgique",
+      "recette-de-famille"
+    ],
+    "origin": "amelie-grandpa",
+    "translations": {
+      "en": {
+        "title": "Tuna Stuffed Eggs",
+        "description": "Hard-boiled eggs filled with a tuna, mayonnaise and yolk stuffing, served on a bed of finely chopped lettuce.",
+        "tags": [
+          "eggs",
+          "tuna",
+          "fish",
+          "starter",
+          "cold",
+          "easy",
+          "buffet",
+          "make-ahead",
+          "whole-family",
+          "french",
+          "nostalgic",
+          "family-recipe"
+        ]
+      },
+      "it": {
+        "title": "Uova ripiene al tonno",
+        "description": "Uova sode farcite con un ripieno di tonno, maionese e tuorli, servite su un letto di insalata tritata finemente.",
+        "tags": [
+          "uova",
+          "tonno",
+          "pesce",
+          "antipasto",
+          "freddo",
+          "facile",
+          "buffet",
+          "preparazione-anticipata",
+          "tutta-la-famiglia",
+          "francese",
+          "nostalgico",
+          "ricetta-di-famiglia"
+        ]
+      }
+    },
+    "stepCount": 7,
+    "ingredientCount": 4
+  },
+  {
+    "slug": "pate-en-croute-de-veau-et-jambon-aux-pistaches",
+    "title": "Pâté en croûte de veau et jambon aux pistaches",
+    "description": "Un grand pâté en croûte de fête : farce de porc aux pistaches, aiguillettes de veau, jambon et lard marinées au Cognac et au Madère, et gelée.",
+    "images": {
+      "cover": "images/recipes/pate-en-croute-de-veau-et-jambon-aux-pistaches/cover.svg",
+      "web": "images/recipes/pate-en-croute-de-veau-et-jambon-aux-pistaches/cover.svg"
+    },
+    "prepTime": 120,
+    "cookTime": 120,
+    "servings": 12,
+    "difficulty": "Difficile",
+    "category": "Antipasti",
+    "tags": [
+      "veau",
+      "porc",
+      "entrée",
+      "four",
+      "français",
+      "nostalgique",
+      "recette-de-famille",
+      "festif",
+      "fête",
+      "buffet",
+      "froid",
+      "à-partager",
+      "préparation-à-lavance"
+    ],
+    "origin": "amelie-grandpa",
+    "translations": {
+      "en": {
+        "title": "Veal and Ham Pâté en Croûte with Pistachios",
+        "description": "A large festive pâté en croûte: pork forcemeat with pistachios, strips of veal, ham and pork fat marinated in Cognac and Madeira, and aspic.",
+        "tags": [
+          "veal",
+          "pork",
+          "starter",
+          "oven",
+          "french",
+          "nostalgic",
+          "family-recipe",
+          "festive",
+          "celebration",
+          "buffet",
+          "cold",
+          "to-share",
+          "make-ahead"
+        ]
+      },
+      "it": {
+        "title": "Pâté en croûte di vitello e prosciutto ai pistacchi",
+        "description": "Un grande pâté en croûte delle feste: farcia di maiale ai pistacchi, listarelle di vitello, prosciutto e lardo marinate al Cognac e al Madera, e gelatina.",
+        "tags": [
+          "vitello",
+          "maiale",
+          "antipasto",
+          "forno",
+          "francese",
+          "nostalgico",
+          "ricetta-di-famiglia",
+          "festivo",
+          "festa",
+          "buffet",
+          "freddo",
+          "da-condividere",
+          "preparazione-in-anticipo"
+        ]
+      }
+    },
+    "stepCount": 13,
+    "ingredientCount": 20
+  },
+  {
+    "slug": "petits-maquereaux-marines-aux-aromates",
+    "title": "Petits maquereaux marinés aux aromates",
+    "description": "De petits maquereaux entiers pochés dans une marinade bouillante au vin blanc, vinaigre et légumes, servis bien frais.",
+    "images": {
+      "cover": "images/recipes/petits-maquereaux-marines-aux-aromates/cover.webp",
+      "web": "images/recipes/petits-maquereaux-marines-aux-aromates/web.webp"
+    },
+    "imageCredit": {
+      "author": "StephanieAlbert",
+      "url": "https://pixabay.com/users/stephaniealbert-8562402/"
+    },
+    "prepTime": 30,
+    "cookTime": 30,
+    "servings": 10,
+    "difficulty": "Facile",
+    "category": "Antipasti",
+    "tags": [
+      "poisson",
+      "maquereau",
+      "entrée",
+      "français",
+      "nostalgique",
+      "recette-de-famille",
+      "froid",
+      "préparation-à-lavance",
+      "facile",
+      "été",
+      "acidulé",
+      "économique",
+      "buffet"
+    ],
+    "origin": "amelie-grandpa",
+    "translations": {
+      "en": {
+        "title": "Marinated small mackerel with aromatics",
+        "description": "Small whole mackerel poached in a boiling marinade of white wine, vinegar and vegetables, served well chilled.",
+        "tags": [
+          "fish",
+          "mackerel",
+          "starter",
+          "french",
+          "nostalgic",
+          "family-recipe",
+          "cold",
+          "make-ahead",
+          "easy",
+          "summer",
+          "tangy",
+          "budget-friendly",
+          "buffet"
+        ]
+      },
+      "it": {
+        "title": "Sgombretti marinati agli aromi",
+        "description": "Piccoli sgombri interi cotti in una marinata bollente di vino bianco, aceto e verdure, serviti ben freddi.",
+        "tags": [
+          "pesce",
+          "sgombro",
+          "antipasto",
+          "francese",
+          "nostalgico",
+          "ricetta-di-famiglia",
+          "freddo",
+          "da-preparare-in-anticipo",
+          "facile",
+          "estate",
+          "acidulo",
+          "economico",
+          "buffet"
+        ]
+      }
+    },
+    "stepCount": 5,
+    "ingredientCount": 10
+  },
+  {
+    "slug": "rillettes-de-saumon",
+    "title": "Rillettes de saumon",
+    "description": "Des rillettes de saumon frais poché et de saumon fumé, liées au beurre, à l'huile d'olive et aux jaunes d'œufs, à servir avec des toasts.",
+    "images": {
+      "cover": "images/recipes/rillettes-de-saumon/cover.webp",
+      "web": "images/recipes/rillettes-de-saumon/web.webp"
+    },
+    "imageCredit": {
+      "author": "PublicDomainPictures",
+      "url": "https://pixabay.com/users/publicdomainpictures-14/"
+    },
+    "prepTime": 20,
+    "cookTime": 10,
+    "servings": 8,
+    "difficulty": "Facile",
+    "category": "Antipasti",
+    "tags": [
+      "poisson",
+      "entrée",
+      "apéro",
+      "froid",
+      "onctueux",
+      "à-partager",
+      "facile",
+      "préparation-à-lavance",
+      "fête",
+      "français",
+      "nostalgique",
+      "recette-de-famille"
+    ],
+    "origin": "amelie-grandpa",
+    "translations": {
+      "en": {
+        "title": "Salmon rillettes",
+        "description": "Rillettes of poached fresh salmon and smoked salmon, bound with butter, olive oil and egg yolks, to serve with toast.",
+        "tags": [
+          "fish",
+          "starter",
+          "appetizer",
+          "cold",
+          "creamy",
+          "to-share",
+          "easy",
+          "make-ahead",
+          "celebration",
+          "french",
+          "nostalgic",
+          "family-recipe"
+        ]
+      },
+      "it": {
+        "title": "Rillettes di salmone",
+        "description": "Rillettes di salmone fresco in camicia e salmone affumicato, legate con burro, olio d'oliva e tuorli d'uovo, da servire con crostini.",
+        "tags": [
+          "pesce",
+          "antipasto",
+          "aperitivo",
+          "freddo",
+          "cremoso",
+          "da-condividere",
+          "facile",
+          "preparazione-in-anticipo",
+          "festa",
+          "francese",
+          "nostalgico",
+          "ricetta-di-famiglia"
+        ]
+      }
+    },
+    "stepCount": 5,
+    "ingredientCount": 6
+  },
+  {
+    "slug": "salade-americaine-aux-champignons-de-paris",
+    "title": "Salade américaine aux champignons de Paris",
+    "description": "Une grande salade composée de pommes de terre, tomates et champignons crus au citron, garnie de céleri, poivrons et œufs durs, nappée de vinaigrette.",
+    "images": {
+      "cover": "images/recipes/salade-americaine-aux-champignons-de-paris/cover.webp",
+      "web": "images/recipes/salade-americaine-aux-champignons-de-paris/web.webp"
+    },
+    "imageCredit": {
+      "author": "RitaE",
+      "url": "https://pixabay.com/users/ritae-19628/"
+    },
+    "prepTime": 60,
+    "cookTime": 20,
+    "servings": 10,
+    "difficulty": "Facile",
+    "category": "Insalate",
+    "tags": [
+      "champignons",
+      "légumes",
+      "salade",
+      "entrée",
+      "français",
+      "nostalgique",
+      "recette-de-famille",
+      "végétarien",
+      "cru",
+      "froid",
+      "été",
+      "buffet",
+      "à-partager"
+    ],
+    "origin": "amelie-grandpa",
+    "translations": {
+      "en": {
+        "title": "American-style salad with button mushrooms",
+        "description": "A large composed salad of potatoes, tomatoes and raw mushrooms in lemon juice, topped with celery, peppers and hard-boiled eggs, coated with vinaigrette.",
+        "tags": [
+          "mushrooms",
+          "vegetables",
+          "salad",
+          "starter",
+          "french",
+          "nostalgic",
+          "family-recipe",
+          "vegetarian",
+          "raw",
+          "cold",
+          "summer",
+          "buffet",
+          "to-share"
+        ]
+      },
+      "it": {
+        "title": "Insalata americana ai funghi champignon",
+        "description": "Una grande insalata composta di patate, pomodori e funghi crudi al limone, guarnita con sedano, peperoni e uova sode, nappata di vinaigrette.",
+        "tags": [
+          "funghi",
+          "verdure",
+          "insalata",
+          "antipasto",
+          "francese",
+          "nostalgico",
+          "ricetta-di-famiglia",
+          "vegetariano",
+          "crudo",
+          "freddo",
+          "estate",
+          "buffet",
+          "da-condividere"
+        ]
+      }
+    },
+    "stepCount": 8,
+    "ingredientCount": 14
+  },
+  {
+    "slug": "salade-chinoise-aux-champignons-de-paris",
+    "title": "Salade chinoise aux champignons de Paris",
+    "description": "Salade de riz, courgettes, tomates, champignons, jambon et crabe, avec des omelettes aux herbes roulées et ciselées, servie fraîche.",
+    "images": {
+      "cover": "images/recipes/salade-chinoise-aux-champignons-de-paris/cover.svg",
+      "web": "images/recipes/salade-chinoise-aux-champignons-de-paris/cover.svg"
+    },
+    "prepTime": 60,
+    "cookTime": 30,
+    "servings": 10,
+    "difficulty": "Medio",
+    "category": "Insalate",
+    "tags": [
+      "entrée",
+      "champignons",
+      "riz",
+      "légumes",
+      "fruits-de-mer",
+      "froid",
+      "été",
+      "buffet",
+      "français",
+      "nostalgique",
+      "recette-de-famille"
+    ],
+    "origin": "amelie-grandpa",
+    "translations": {
+      "en": {
+        "title": "Chinese-style salad with button mushrooms",
+        "description": "A salad of rice, courgettes, tomatoes, mushrooms, ham and crab, with rolled and finely chopped herb omelettes, served chilled.",
+        "tags": [
+          "starter",
+          "mushrooms",
+          "rice",
+          "vegetables",
+          "seafood",
+          "cold",
+          "summer",
+          "buffet",
+          "french",
+          "nostalgic",
+          "family-recipe"
+        ]
+      },
+      "it": {
+        "title": "Insalata cinese con champignon",
+        "description": "Insalata di riso, zucchine, pomodori, funghi, prosciutto cotto e granchio, con frittatine alle erbe arrotolate e tritate finemente, servita fresca.",
+        "tags": [
+          "antipasto",
+          "funghi",
+          "riso",
+          "verdure",
+          "frutti-di-mare",
+          "freddo",
+          "estate",
+          "buffet",
+          "francese",
+          "nostalgico",
+          "ricetta-di-famiglia"
+        ]
+      }
+    },
+    "stepCount": 9,
+    "ingredientCount": 13
+  },
+  {
+    "slug": "salade-de-boeuf-et-champignons-a-la-parisienne",
+    "title": "Salade de bœuf et champignons à la parisienne",
+    "description": "Une salade composée de bœuf cuit émincé, champignons de Paris au citron et pommes de terre au vin blanc, dressée sur laitue avec tomates et œufs durs.",
+    "images": {
+      "cover": "images/recipes/salade-de-boeuf-et-champignons-a-la-parisienne/cover.svg",
+      "web": "images/recipes/salade-de-boeuf-et-champignons-a-la-parisienne/cover.svg"
+    },
+    "prepTime": 60,
+    "cookTime": 25,
+    "servings": 10,
+    "difficulty": "Facile",
+    "category": "Insalate",
+    "tags": [
+      "bœuf",
+      "légumes",
+      "œufs",
+      "entrée",
+      "froid",
+      "buffet",
+      "à-partager",
+      "convivial",
+      "économique",
+      "français",
+      "nostalgique",
+      "recette-de-famille"
+    ],
+    "origin": "amelie-grandpa",
+    "translations": {
+      "en": {
+        "title": "Parisian-style beef and mushroom salad",
+        "description": "A composed salad of thinly sliced cooked beef, button mushrooms with lemon and potatoes in white wine, arranged on lettuce with tomatoes and hard-boiled eggs.",
+        "tags": [
+          "beef",
+          "vegetables",
+          "eggs",
+          "starter",
+          "cold",
+          "buffet",
+          "to-share",
+          "convivial",
+          "budget-friendly",
+          "french",
+          "nostalgic",
+          "family-recipe"
+        ]
+      },
+      "it": {
+        "title": "Insalata di manzo e funghi alla parigina",
+        "description": "Un'insalata composta di manzo cotto affettato, funghi champignon al limone e patate al vino bianco, disposta su lattuga con pomodori e uova sode.",
+        "tags": [
+          "manzo",
+          "verdure",
+          "uova",
+          "antipasto",
+          "freddo",
+          "buffet",
+          "da-condividere",
+          "conviviale",
+          "economico",
+          "francese",
+          "nostalgico",
+          "ricetta-di-famiglia"
+        ]
+      }
+    },
+    "stepCount": 11,
+    "ingredientCount": 17
+  },
+  {
+    "slug": "salade-de-coquillettes-a-la-mexicaine",
+    "title": "Salade de coquillettes à la mexicaine",
+    "description": "Une salade de coquillettes au maïs, aux poivrons, aux tomates et aux raisins blancs, liée d'une mayonnaise relevée au curry.",
+    "images": {
+      "cover": "images/recipes/salade-de-coquillettes-a-la-mexicaine/cover.svg",
+      "web": "images/recipes/salade-de-coquillettes-a-la-mexicaine/cover.svg"
+    },
+    "prepTime": 30,
+    "cookTime": 10,
+    "servings": 8,
+    "difficulty": "Facile",
+    "category": "Insalate",
+    "tags": [
+      "pâtes",
+      "légumes",
+      "entrée",
+      "froid",
+      "été",
+      "végétarien",
+      "buffet",
+      "sucré-salé",
+      "facile",
+      "français",
+      "nostalgique",
+      "recette-de-famille"
+    ],
+    "origin": "amelie-grandpa",
+    "translations": {
+      "en": {
+        "title": "Mexican-style macaroni salad",
+        "description": "A macaroni salad with sweetcorn, peppers, tomatoes and golden raisins, bound with a curry-spiced mayonnaise.",
+        "tags": [
+          "pasta",
+          "vegetables",
+          "starter",
+          "cold",
+          "summer",
+          "vegetarian",
+          "buffet",
+          "sweet-and-savory",
+          "easy",
+          "french",
+          "nostalgic",
+          "family-recipe"
+        ]
+      },
+      "it": {
+        "title": "Insalata di pasta alla messicana",
+        "description": "Un'insalata di pasta corta con mais, peperoni, pomodori e uvetta sultanina, legata con una maionese profumata al curry.",
+        "tags": [
+          "pasta",
+          "verdure",
+          "antipasto",
+          "freddo",
+          "estate",
+          "vegetariano",
+          "buffet",
+          "agrodolce",
+          "facile",
+          "francese",
+          "nostalgico",
+          "ricetta-di-famiglia"
+        ]
+      }
+    },
+    "stepCount": 9,
+    "ingredientCount": 13
+  },
+  {
+    "slug": "salade-de-coquillettes-aux-champignons-de-paris",
+    "title": "Salade de coquillettes aux champignons de Paris",
+    "description": "Des coquillettes, des champignons de Paris citronnés, du jambon et du gruyère en julienne, liés d'une mayonnaise relevée au ketchup, paprika et Cayenne.",
+    "images": {
+      "cover": "images/recipes/salade-de-coquillettes-aux-champignons-de-paris/cover.svg",
+      "web": "images/recipes/salade-de-coquillettes-aux-champignons-de-paris/cover.svg"
+    },
+    "prepTime": 50,
+    "cookTime": 10,
+    "servings": 10,
+    "difficulty": "Facile",
+    "category": "Insalate",
+    "tags": [
+      "français",
+      "nostalgique",
+      "recette-de-famille",
+      "entrée",
+      "pâtes",
+      "champignons",
+      "porc",
+      "fromage",
+      "froid",
+      "buffet",
+      "préparation-à-lavance",
+      "à-partager",
+      "facile"
+    ],
+    "origin": "amelie-grandpa",
+    "translations": {
+      "en": {
+        "title": "Coquillette pasta salad with button mushrooms",
+        "description": "Coquillettes, lemony button mushrooms, ham and cheese cut into julienne strips, bound with a mayonnaise spiced up with ketchup, paprika and cayenne.",
+        "tags": [
+          "french",
+          "nostalgic",
+          "family-recipe",
+          "starter",
+          "pasta",
+          "mushrooms",
+          "pork",
+          "cheese",
+          "cold",
+          "buffet",
+          "make-ahead",
+          "sharing",
+          "easy"
+        ]
+      },
+      "it": {
+        "title": "Insalata di coquillettes ai funghi champignon",
+        "description": "Coquillettes, funghi champignon al limone, prosciutto e formaggio a julienne, legati da una maionese insaporita con ketchup, paprika e pepe di Cayenna.",
+        "tags": [
+          "francese",
+          "nostalgico",
+          "ricetta-di-famiglia",
+          "antipasto",
+          "pasta",
+          "funghi",
+          "maiale",
+          "formaggio",
+          "freddo",
+          "buffet",
+          "preparazione-in-anticipo",
+          "da-condividere",
+          "facile"
+        ]
+      }
+    },
+    "stepCount": 8,
+    "ingredientCount": 12
+  },
+  {
+    "slug": "salade-de-haddock-au-riz-et-chou-rouge",
+    "title": "Salade de haddock au riz et chou rouge",
+    "description": "Une salade composée de riz, de chou rouge émincé et blanchi, et de haddock poché émietté, liée d'une vinaigrette aux fines herbes.",
+    "images": {
+      "cover": "images/recipes/salade-de-haddock-au-riz-et-chou-rouge/cover.svg",
+      "web": "images/recipes/salade-de-haddock-au-riz-et-chou-rouge/cover.svg"
+    },
+    "prepTime": 25,
+    "cookTime": 25,
+    "servings": 8,
+    "difficulty": "Facile",
+    "category": "Insalate",
+    "tags": [
+      "poisson",
+      "riz",
+      "entrée",
+      "français",
+      "froid",
+      "facile",
+      "léger",
+      "buffet",
+      "herbacé",
+      "nostalgique",
+      "recette-de-famille"
+    ],
+    "origin": "amelie-grandpa",
+    "translations": {
+      "en": {
+        "title": "Haddock salad with rice and red cabbage",
+        "description": "A composed salad of rice, thinly sliced blanched red cabbage and flaked poached haddock, dressed with a fresh herb vinaigrette.",
+        "tags": [
+          "fish",
+          "rice",
+          "starter",
+          "french",
+          "cold",
+          "easy",
+          "light",
+          "buffet",
+          "herby",
+          "nostalgic",
+          "family-recipe"
+        ]
+      },
+      "it": {
+        "title": "Insalata di haddock con riso e cavolo rosso",
+        "description": "Un'insalata composta di riso, cavolo rosso affettato sottilmente e sbollentato, e haddock cotto in camicia sbriciolato, condita con una vinaigrette alle erbe aromatiche.",
+        "tags": [
+          "pesce",
+          "riso",
+          "antipasto",
+          "francese",
+          "freddo",
+          "facile",
+          "leggero",
+          "buffet",
+          "erbaceo",
+          "nostalgico",
+          "ricetta-di-famiglia"
+        ]
+      }
+    },
+    "stepCount": 5,
+    "ingredientCount": 8
+  },
+  {
+    "slug": "salade-de-lentilles-et-boeuf-pot-au-feu",
+    "title": "Salade de lentilles et bœuf « pot au feu »",
+    "description": "Une salade de lentilles du Puy et de dés de bœuf de pot au feu, avec germes de soja, oignons, échalotes et vinaigrette à la moutarde.",
+    "images": {
+      "cover": "images/recipes/salade-de-lentilles-et-boeuf-pot-au-feu/cover.svg",
+      "web": "images/recipes/salade-de-lentilles-et-boeuf-pot-au-feu/cover.svg"
+    },
+    "prepTime": 20,
+    "cookTime": 30,
+    "servings": 8,
+    "difficulty": "Facile",
+    "category": "Insalate",
+    "tags": [
+      "entrée",
+      "salade",
+      "bœuf",
+      "lentilles",
+      "français",
+      "nostalgique",
+      "recette-de-famille",
+      "froid",
+      "restes-bienvenus",
+      "économique",
+      "facile",
+      "à-partager"
+    ],
+    "origin": "amelie-grandpa",
+    "translations": {
+      "en": {
+        "title": "Lentil and pot-au-feu beef salad",
+        "description": "A salad of Puy lentils and diced pot-au-feu beef, with bean sprouts, onions, shallots and a mustard vinaigrette.",
+        "tags": [
+          "starter",
+          "salad",
+          "beef",
+          "lentils",
+          "french",
+          "nostalgic",
+          "family-recipe",
+          "cold",
+          "leftovers-friendly",
+          "budget",
+          "easy",
+          "to-share"
+        ]
+      },
+      "it": {
+        "title": "Insalata di lenticchie e manzo bollito",
+        "description": "Un'insalata di lenticchie di Puy e dadini di manzo del pot-au-feu, con germogli di soia, cipolle, scalogni e vinaigrette alla senape.",
+        "tags": [
+          "antipasto",
+          "insalata",
+          "manzo",
+          "lenticchie",
+          "francese",
+          "nostalgico",
+          "ricetta-di-famiglia",
+          "freddo",
+          "avanzi-benvenuti",
+          "economico",
+          "facile",
+          "da-condividere"
+        ]
+      }
+    },
+    "stepCount": 7,
+    "ingredientCount": 11
+  },
+  {
+    "slug": "salade-de-papillons-au-blanc-de-volaille",
+    "title": "Salade de papillons au blanc de volaille",
+    "description": "Une salade de pâtes papillon au poulet doré, tomates et courgettes, liée d'une mayonnaise au citron, à l'ail et aux herbes.",
+    "images": {
+      "cover": "images/recipes/salade-de-papillons-au-blanc-de-volaille/cover.webp",
+      "web": "images/recipes/salade-de-papillons-au-blanc-de-volaille/web.webp"
+    },
+    "imageCredit": {
+      "author": "Pexels",
+      "url": "https://pixabay.com/users/pexels-2286921/"
+    },
+    "prepTime": 30,
+    "cookTime": 30,
+    "servings": 8,
+    "difficulty": "Facile",
+    "category": "Insalate",
+    "tags": [
+      "pâtes",
+      "poulet",
+      "entrée",
+      "français",
+      "froid",
+      "été",
+      "buffet",
+      "pique-nique",
+      "facile",
+      "convivial",
+      "nostalgique",
+      "recette-de-famille"
+    ],
+    "origin": "amelie-grandpa",
+    "translations": {
+      "en": {
+        "title": "Farfalle Salad with Chicken Breast",
+        "description": "A farfalle pasta salad with golden chicken, tomatoes and courgettes, bound with a lemon, garlic and herb mayonnaise.",
+        "tags": [
+          "pasta",
+          "chicken",
+          "starter",
+          "french",
+          "cold",
+          "summer",
+          "buffet",
+          "picnic",
+          "easy",
+          "convivial",
+          "nostalgic",
+          "family-recipe"
+        ]
+      },
+      "it": {
+        "title": "Insalata di farfalle con petto di pollo",
+        "description": "Un'insalata di pasta a farfalle con pollo dorato, pomodori e zucchine, legata con una maionese al limone, aglio ed erbe.",
+        "tags": [
+          "pasta",
+          "pollo",
+          "antipasto",
+          "francese",
+          "freddo",
+          "estate",
+          "buffet",
+          "picnic",
+          "facile",
+          "conviviale",
+          "nostalgico",
+          "ricetta-di-famiglia"
+        ]
+      }
+    },
+    "stepCount": 7,
+    "ingredientCount": 12
+  },
+  {
+    "slug": "salade-de-riz-aux-fruits-de-mer",
+    "title": "Salade de riz aux fruits de mer",
+    "description": "Une salade de riz fraîche aux moules, coques, crabe et crevettes, avec poivrons, tomates et laitue, relevée d'une vinaigrette citronnée.",
+    "images": {
+      "cover": "images/recipes/salade-de-riz-aux-fruits-de-mer/cover.svg",
+      "web": "images/recipes/salade-de-riz-aux-fruits-de-mer/cover.svg"
+    },
+    "prepTime": 40,
+    "cookTime": 25,
+    "servings": 8,
+    "difficulty": "Facile",
+    "category": "Insalate",
+    "tags": [
+      "riz",
+      "fruits-de-mer",
+      "entrée",
+      "froid",
+      "été",
+      "buffet",
+      "facile",
+      "préparation-à-lavance",
+      "acidulé",
+      "français",
+      "nostalgique",
+      "recette-de-famille"
+    ],
+    "origin": "amelie-grandpa",
+    "translations": {
+      "en": {
+        "title": "Seafood rice salad",
+        "description": "A fresh rice salad with mussels, cockles, crab and prawns, with peppers, tomatoes and lettuce, lifted by a lemony vinaigrette.",
+        "tags": [
+          "rice",
+          "seafood",
+          "starter",
+          "cold",
+          "summer",
+          "buffet",
+          "easy",
+          "make-ahead",
+          "tangy",
+          "french",
+          "nostalgic",
+          "family-recipe"
+        ]
+      },
+      "it": {
+        "title": "Insalata di riso ai frutti di mare",
+        "description": "Un'insalata di riso fresca con cozze, vongole, granchio e gamberi, peperoni, pomodori e lattuga, ravvivata da una vinaigrette al limone.",
+        "tags": [
+          "riso",
+          "frutti-di-mare",
+          "antipasto",
+          "freddo",
+          "estate",
+          "buffet",
+          "facile",
+          "preparazione-in-anticipo",
+          "acidulo",
+          "francese",
+          "nostalgico",
+          "ricetta-di-famiglia"
+        ]
+      }
+    },
+    "stepCount": 12,
+    "ingredientCount": 15
+  },
+  {
+    "slug": "salade-flamande-aux-champignons-de-paris",
+    "title": "Salade flamande aux champignons de Paris",
+    "description": "Salade de pommes de terre, endives et champignons de Paris crus à la vinaigrette, décorée d'un quadrillage de filets de hareng.",
+    "images": {
+      "cover": "images/recipes/salade-flamande-aux-champignons-de-paris/cover.svg",
+      "web": "images/recipes/salade-flamande-aux-champignons-de-paris/cover.svg"
+    },
+    "prepTime": 80,
+    "cookTime": 20,
+    "servings": 10,
+    "difficulty": "Facile",
+    "category": "Insalate",
+    "tags": [
+      "champignons",
+      "pommes-de-terre",
+      "poisson",
+      "entrée",
+      "français",
+      "nostalgique",
+      "recette-de-famille",
+      "froid",
+      "buffet",
+      "acidulé",
+      "à-partager",
+      "économique"
+    ],
+    "origin": "amelie-grandpa",
+    "translations": {
+      "en": {
+        "title": "Flemish salad with button mushrooms",
+        "description": "Potato, chicory and raw button mushroom salad in vinaigrette, topped with a lattice of herring fillets.",
+        "tags": [
+          "mushrooms",
+          "potatoes",
+          "fish",
+          "starter",
+          "french",
+          "nostalgic",
+          "family-recipe",
+          "cold",
+          "buffet",
+          "tangy",
+          "to-share",
+          "budget-friendly"
+        ]
+      },
+      "it": {
+        "title": "Insalata fiamminga con champignon",
+        "description": "Insalata di patate, indivia belga e champignon crudi alla vinaigrette, decorata con una griglia di filetti di aringa.",
+        "tags": [
+          "funghi",
+          "patate",
+          "pesce",
+          "antipasto",
+          "francese",
+          "nostalgico",
+          "ricetta-di-famiglia",
+          "freddo",
+          "buffet",
+          "acidulo",
+          "da-condividere",
+          "economico"
+        ]
+      }
+    },
+    "stepCount": 9,
+    "ingredientCount": 11
+  },
+  {
+    "slug": "salade-percheronne-aux-champignons-de-paris",
+    "title": "Salade percheronne aux champignons de Paris",
+    "description": "Salade de pommes de terre au vin blanc, champignons de Paris crus au citron, cresson et œufs durs, liée à la vinaigrette à la moutarde.",
+    "images": {
+      "cover": "images/recipes/salade-percheronne-aux-champignons-de-paris/cover.svg",
+      "web": "images/recipes/salade-percheronne-aux-champignons-de-paris/cover.svg"
+    },
+    "prepTime": 80,
+    "cookTime": 20,
+    "servings": 10,
+    "difficulty": "Facile",
+    "category": "Insalate",
+    "tags": [
+      "champignons",
+      "pommes-de-terre",
+      "œufs",
+      "entrée",
+      "français",
+      "nostalgique",
+      "recette-de-famille",
+      "végétarien",
+      "froid",
+      "facile",
+      "économique",
+      "buffet",
+      "acidulé"
+    ],
+    "origin": "amelie-grandpa",
+    "translations": {
+      "en": {
+        "title": "Percheron-style salad with button mushrooms",
+        "description": "Potato salad with white wine, raw button mushrooms with lemon, watercress and hard-boiled eggs, dressed with a mustard vinaigrette.",
+        "tags": [
+          "mushrooms",
+          "potatoes",
+          "eggs",
+          "starter",
+          "french",
+          "nostalgic",
+          "family-recipe",
+          "vegetarian",
+          "cold",
+          "easy",
+          "budget-friendly",
+          "buffet",
+          "tangy"
+        ]
+      },
+      "it": {
+        "title": "Insalata alla percheronne con champignon",
+        "description": "Insalata di patate al vino bianco, champignon crudi al limone, crescione e uova sode, condita con una vinaigrette alla senape.",
+        "tags": [
+          "funghi",
+          "patate",
+          "uova",
+          "antipasto",
+          "francese",
+          "nostalgico",
+          "ricetta-di-famiglia",
+          "vegetariano",
+          "freddo",
+          "facile",
+          "economico",
+          "buffet",
+          "acidulo"
+        ]
+      }
+    },
+    "stepCount": 6,
+    "ingredientCount": 13
+  },
+  {
+    "slug": "taboule",
+    "title": "Taboulé",
+    "description": "Un taboulé frais de semoule crue gonflée au jus de citron, de tomates et de concombre, parfumé au persil et à la menthe.",
+    "images": {
+      "cover": "images/recipes/taboule/cover.webp",
+      "web": "images/recipes/taboule/web.webp"
+    },
+    "imageCredit": {
+      "author": "AhmedAlMaslamani",
+      "url": "https://pixabay.com/users/ahmedalmaslamani-13030624/"
+    },
+    "prepTime": 30,
+    "cookTime": 0,
+    "servings": 8,
+    "difficulty": "Facile",
+    "category": "Insalate",
+    "tags": [
+      "semoule",
+      "entrée",
+      "no-cuisson",
+      "végétarien",
+      "été",
+      "froid",
+      "herbacé",
+      "acidulé",
+      "buffet",
+      "préparation-à-lavance",
+      "français",
+      "nostalgique",
+      "recette-de-famille"
+    ],
+    "origin": "amelie-grandpa",
+    "translations": {
+      "en": {
+        "title": "Tabbouleh",
+        "description": "A fresh tabbouleh of raw semolina swelled in lemon juice, with tomatoes and cucumber, flavoured with parsley and mint.",
+        "tags": [
+          "semolina",
+          "starter",
+          "no-cook",
+          "vegetarian",
+          "summer",
+          "cold",
+          "herby",
+          "tangy",
+          "buffet",
+          "make-ahead",
+          "french",
+          "nostalgic",
+          "family-recipe"
+        ]
+      },
+      "it": {
+        "title": "Tabbouleh",
+        "description": "Un tabbouleh fresco di semola cruda fatta gonfiare nel succo di limone, con pomodori e cetriolo, profumato al prezzemolo e alla menta.",
+        "tags": [
+          "semola",
+          "antipasto",
+          "senza-cottura",
+          "vegetariano",
+          "estate",
+          "freddo",
+          "erbaceo",
+          "acidulo",
+          "buffet",
+          "preparazione-in-anticipo",
+          "francese",
+          "nostalgico",
+          "ricetta-di-famiglia"
+        ]
+      }
+    },
+    "stepCount": 7,
+    "ingredientCount": 9
+  },
+  {
+    "slug": "taboule-aux-fruits-de-mer",
+    "title": "Taboulé aux fruits de mer",
+    "description": "Un taboulé frais à la semoule, relevé de citron, de menthe et de Cayenne, garni de lotte ou de calmars, de moules, de crevettes et de crabe.",
+    "images": {
+      "cover": "images/recipes/taboule-aux-fruits-de-mer/cover.webp",
+      "web": "images/recipes/taboule-aux-fruits-de-mer/web.webp"
+    },
+    "imageCredit": {
+      "author": "LAWJR",
+      "url": "https://pixabay.com/users/lawjr-4448871/"
+    },
+    "prepTime": 40,
+    "cookTime": 25,
+    "servings": 8,
+    "difficulty": "Medio",
+    "category": "Insalate",
+    "tags": [
+      "fruits-de-mer",
+      "semoule",
+      "entrée",
+      "froid",
+      "été",
+      "acidulé",
+      "herbacé",
+      "buffet",
+      "préparation-à-lavance",
+      "français",
+      "nostalgique",
+      "recette-de-famille"
+    ],
+    "origin": "amelie-grandpa",
+    "translations": {
+      "en": {
+        "title": "Seafood Tabbouleh",
+        "description": "A fresh semolina tabbouleh brightened with lemon, mint and cayenne, topped with monkfish or squid, mussels, prawns and crab.",
+        "tags": [
+          "seafood",
+          "semolina",
+          "starter",
+          "cold",
+          "summer",
+          "tangy",
+          "herby",
+          "buffet",
+          "make-ahead",
+          "french",
+          "nostalgic",
+          "family-recipe"
+        ]
+      },
+      "it": {
+        "title": "Tabulè ai frutti di mare",
+        "description": "Un tabulè fresco di semola, ravvivato da limone, menta e peperoncino di Cayenna, guarnito con rana pescatrice o calamari, cozze, gamberetti e granchio.",
+        "tags": [
+          "frutti-di-mare",
+          "semola",
+          "antipasto",
+          "freddo",
+          "estate",
+          "acidulo",
+          "erbaceo",
+          "buffet",
+          "da-preparare-in-anticipo",
+          "francese",
+          "nostalgico",
+          "ricetta-di-famiglia"
+        ]
+      }
+    },
+    "stepCount": 9,
+    "ingredientCount": 13
+  },
+  {
+    "slug": "tomates-en-surprise-aux-champignons-de-paris",
+    "title": "Tomates en surprise aux champignons de Paris",
+    "description": "Des tomates évidées, garnies de champignons citronnés, maïs et petits pois à la mayonnaise, coiffées de crevettes et de persil, servies sur une feuille de laitue.",
+    "images": {
+      "cover": "images/recipes/tomates-en-surprise-aux-champignons-de-paris/cover.svg",
+      "web": "images/recipes/tomates-en-surprise-aux-champignons-de-paris/cover.svg"
+    },
+    "prepTime": 30,
+    "cookTime": 0,
+    "servings": 10,
+    "difficulty": "Facile",
+    "category": "Antipasti",
+    "tags": [
+      "tomate",
+      "champignons",
+      "légumes",
+      "fruits-de-mer",
+      "entrée",
+      "no-cuisson",
+      "froid",
+      "été",
+      "buffet",
+      "facile",
+      "français",
+      "nostalgique",
+      "recette-de-famille"
+    ],
+    "origin": "amelie-grandpa",
+    "translations": {
+      "en": {
+        "title": "Surprise Tomatoes with Button Mushrooms",
+        "description": "Hollowed-out tomatoes filled with lemony mushrooms, sweetcorn and peas in mayonnaise, topped with prawns and parsley, served on a lettuce leaf.",
+        "tags": [
+          "tomato",
+          "mushrooms",
+          "vegetables",
+          "seafood",
+          "starter",
+          "no-cook",
+          "cold",
+          "summer",
+          "buffet",
+          "easy",
+          "french",
+          "nostalgic",
+          "family-recipe"
+        ]
+      },
+      "it": {
+        "title": "Pomodori a sorpresa con funghi champignon",
+        "description": "Pomodori svuotati, farciti con funghi al limone, mais e piselli alla maionese, completati con gamberetti e prezzemolo, serviti su una foglia di lattuga.",
+        "tags": [
+          "pomodoro",
+          "funghi",
+          "verdure",
+          "frutti-di-mare",
+          "antipasto",
+          "senza-cottura",
+          "freddo",
+          "estate",
+          "buffet",
+          "facile",
+          "francese",
+          "nostalgico",
+          "ricetta-di-famiglia"
+        ]
+      }
+    },
+    "stepCount": 7,
+    "ingredientCount": 10
+  },
+  {
+    "slug": "cake-aux-olives-et-au-jambon",
+    "title": "Cake aux olives et au jambon",
+    "description": "Un cake salé moelleux garni de dés de jambon, d'olives vertes et de fromage, à couper en triangles pour le buffet ou l'apéritif.",
+    "images": {
+      "cover": "images/recipes/cake-aux-olives-et-au-jambon/cover.webp",
+      "web": "images/recipes/cake-aux-olives-et-au-jambon/web.webp"
+    },
+    "imageCredit": {
+      "author": "RitaE",
+      "url": "https://pixabay.com/users/ritae-19628/"
+    },
+    "prepTime": 15,
+    "cookTime": 45,
+    "servings": 8,
+    "difficulty": "Facile",
+    "category": "Antipasti",
+    "tags": [
+      "français",
+      "nostalgique",
+      "recette-de-famille",
+      "apéro",
+      "jambon",
+      "olives",
+      "fromage",
+      "four",
+      "buffet",
+      "moelleux",
+      "facile",
+      "préparation-à-lavance",
+      "à-partager"
+    ],
+    "origin": "amelie-grandpa",
+    "translations": {
+      "en": {
+        "title": "Olive and ham savoury cake",
+        "description": "A soft savoury loaf cake filled with diced ham, green olives and cheese, cut into triangles for a buffet or aperitif.",
+        "tags": [
+          "french",
+          "nostalgic",
+          "family-recipe",
+          "aperitif",
+          "ham",
+          "olives",
+          "cheese",
+          "oven",
+          "buffet",
+          "soft",
+          "easy",
+          "make-ahead",
+          "to-share"
+        ]
+      },
+      "it": {
+        "title": "Plumcake salato con olive e prosciutto",
+        "description": "Un plumcake salato soffice con dadini di prosciutto, olive verdi e formaggio, da tagliare a triangoli per il buffet o l'aperitivo.",
+        "tags": [
+          "francese",
+          "nostalgico",
+          "ricetta-di-famiglia",
+          "aperitivo",
+          "prosciutto",
+          "olive",
+          "formaggio",
+          "forno",
+          "buffet",
+          "soffice",
+          "facile",
+          "da-preparare-in-anticipo",
+          "da-condividere"
+        ]
+      }
+    },
+    "stepCount": 3,
+    "ingredientCount": 9
   }
 ]

@@ -1,0 +1,339 @@
+{
+  "slug": "pate-en-croute-de-veau-et-jambon-aux-pistaches",
+  "title": "Pâté en croûte de veau et jambon aux pistaches",
+  "description": "Un grand pâté en croûte de fête : farce de porc aux pistaches, aiguillettes de veau, jambon et lard marinées au Cognac et au Madère, et gelée.",
+  "images": {
+    "cover": "images/recipes/pate-en-croute-de-veau-et-jambon-aux-pistaches/cover.svg",
+    "web": "images/recipes/pate-en-croute-de-veau-et-jambon-aux-pistaches/cover.svg"
+  },
+  "prepTime": 120,
+  "cookTime": 120,
+  "servings": 12,
+  "difficulty": "Difficile",
+  "category": "Antipasti",
+  "origin": "amelie-grandpa",
+  "tags": [
+    "veau",
+    "porc",
+    "entrée",
+    "four",
+    "français",
+    "nostalgique",
+    "recette-de-famille",
+    "festif",
+    "fête",
+    "buffet",
+    "froid",
+    "à-partager",
+    "préparation-à-lavance"
+  ],
+  "ingredients": [
+    {
+      "items": [
+        "1 kg de chair fine de porc",
+        "750 g de jambon",
+        "750 g de veau",
+        "750 g de lard",
+        "1 kg de fines bardes de lard"
+      ]
+    },
+    {
+      "group": "Pâte à pâté",
+      "items": [
+        "1 kg de farine",
+        "400 g de beurre",
+        "4 œufs entiers",
+        "15 g de sel",
+        "3 dl d'eau"
+      ]
+    },
+    {
+      "group": "Assaisonnement",
+      "items": [
+        "6 œufs",
+        "2 dl de Cognac",
+        "2 dl de Madère",
+        "125 g de pistaches émondées",
+        "20 g de sel",
+        "2 g de poivre",
+        "2 g de quatre-épices"
+      ]
+    },
+    {
+      "group": "Marinade avec les aiguillettes",
+      "items": [
+        "2 échalotes",
+        "2 feuilles de laurier",
+        "Thym"
+      ]
+    }
+  ],
+  "steps": [
+    {
+      "text": "Tailler 10 à 12 aiguillettes de 1 cm de côté dans le jambon, le veau et le lard, et les mettre à mariner dans le Cognac, le Madère, les échalotes, le thym, le laurier, le sel, le poivre et le quatre-épices pendant 24 heures. Réserver le reste des viandes. Recouvrir de papier sulfurisé et réserver au frais.",
+      "timers": [1440]
+    },
+    {
+      "text": "Préparer la pâte à pâté et laisser reposer."
+    },
+    {
+      "text": "Prendre la chair de porc, ajouter les restes de jambon, de veau et de lard, et hacher le tout finement. Ajouter le Madère et le Cognac (marinade) et les pistaches, et bien mélanger le tout."
+    },
+    {
+      "text": "Habillage du moule : beurrer le moule à charnières de forme rectangulaire. Prendre une partie de la pâte (500 g environ), l'abaisser en un rectangle de 3 mm d'épaisseur, rabattre les côtés vers le milieu, donner un quart de tour. Répéter la même opération."
+    },
+    {
+      "text": "Prendre la pâte par les bords, la rabattre et la glisser dans le moule."
+    },
+    {
+      "text": "Déplier la pâte en l'écartant sur les bords, la faire descendre au fond du moule, et garnir les côtés en la laissant déborder de 3 à 4 cm."
+    },
+    {
+      "text": "Garnir la pâte : chemiser le moule de bardes de lard (par-dessus la pâte). Garnir par couches alternées : farce (1 à 2 cm) et aiguillettes, ces dernières elles-mêmes alternées (aiguillettes de veau, de lard, de jambon). Terminer par une couche de farce."
+    },
+    {
+      "text": "Rabattre les bardes et la pâte sur le pâté pour le refermer."
+    },
+    {
+      "text": "Dorer la surface, puis poser dessus une abaisse de pâte à pâté ou de rognures de feuilletage recouvrant la surface jusqu'au bord du moule. Dorer à nouveau et décorer avec des motifs de pâte (au goût de l'exécutant) : feuilles, coquilles, etc. Souder avec la pince à tarte."
+    },
+    {
+      "text": "Faire sur le dessus du pâté deux petits trous de 1 cm de diamètre et y mettre deux cheminées en papier sulfurisé."
+    },
+    {
+      "text": "Laisser reposer le pâté 1 heure au minimum.",
+      "timers": [60]
+    },
+    {
+      "text": "Cuire au four à 220 °C pendant 30 minutes, ensuite poser le pâté sur une grille et doubler les plaques. Continuer la cuisson à 170/180 °C pendant 1 h 30 environ, le dessus du pâté protégé par un papier sulfurisé.",
+      "timers": [30, 90]
+    },
+    {
+      "text": "Après la cuisson et un complet refroidissement (ne pas démouler), couler de la gelée par les cheminées (la gelée doit être huileuse). Laisser prendre la gelée et conserver au frais."
+    }
+  ],
+  "tips": [
+    "Les pâtés en croûte peuvent être faits avec du canard, du faisan, de la volaille, du foie de volaille, etc."
+  ],
+  "source": "Les recettes de Maurice Houdré, tome 1, Les entrées en assiette froide et salades composées",
+  "originalSource": {
+    "type": "text",
+    "data": "Pâté en croûte de veau et jambon aux pistaches\n\nIngrédients : pour 12 personnes et plus\n\n. 1 kg de chair fine de porc\t\t\t\t\tPâte à pâté :\n. 750 g de jambon\t\t\t\t\t\t. 1 kg de farine\n. 750 g de veau\t\t\t\t\t\t. 400 g de beurre\n. 750 g de lard\t\t\t\t\t\t. 4 œufs entiers\n. 1 kg de fines bardes de lard\t\t\t\t. 15 g de sel\n\t\t\t\t\t\t\t\t. 3 dl d’eau\nAssaisonnement :\n. 6 œufs, 2 dl de Cognac, 2 dl de Madère, 125 g de pistaches émondées, 20 g de sel, \n  2 g de poivre, 2 g de quatre-épices\nMarinade avec les aiguillettes :\n2 échalotes, 2 feuilles de lauriers, du thym\n\nPréparation\nT ailler 10 à 12 aiguillettes de 1 cm de côté, dans le jambon, le veau, le lard et mettre à mariner dans le Cognac, Madère, échalotes, thym, laurier, sel, poivre et quatre-épices pendant 24 heures, réserver le reste.\nRecouvrir de papier sulfurisé et réserver au frais.\n\nPréparer la pâte à pâté et laisser reposer.\n\nPrendre la chair de porc, ajouter les restes de jambon, veau, lard et hacher le tout finement. Ajouter le Madère et le Cognac (marinade) et les pistaches, bien mélanger le tout.\n\nHabillage du moule :\nBeurrer le moule à charnières de forme rectangulaire. Prendre une partie de la pâte (500 g environ), l’abaisser en un rectangle de 3 mm d’épaisseur, rabattre les côtés vers le milieu, donner un quart de tour. Répéter la même opération.\n\nPrendre la pâte par les bords, rabattre et la glisser dans le moule.\n\nDéplier en écartant la pâte sur les bords, faire descendre au fond du moule, garnir les côtés en laissant déborder de 3 à 4 cm.\n\nGarnir la pâte :\nChemiser le moule de bardes de lard (par-dessus la pâte).\nGarnir par couches alternées ; farce (1 à 2 cm) et aiguillettes, ces dernières elles mêmes alternées d’aiguillettes de veau, lard, jambon. Terminer par une couche de farce.\n\nRabattre les bardes et la pâte sur le pâté pour le refermer.\n\nDorer la surface puis poser dessus une abaisse de pâte à pâté ou rognure de feuilletage recouvrant la surface jusqu’au bord du moule. Dorer à nouveau et décorer avec des motifs de pâte (au goût de l’exécutant) feuilles, coquilles, etc…, souder avec la pince à tarte.\n\nFaire sur le dessus du pâté, deux petits trous de 1 cm de diamètre et y mettre deux cheminées en papier sulfurisé.\n\nLaisser reposer le pâté 1 heure au minimum.\n\nCuire au four à 220 °C pendant 30 minutes, ensuite poser le pâté sur grille et doubler les plaques. Continuer la cuisson à 170/180 °C pendant 1 h 30 environ. Le dessus du pâté étant protégé par un papier sulfurisé.\n\nAprès la cuisson et complet refroidissement (ne pas démouler), couler de la gelée par les cheminées (la gelée doit être huileuse). Laisser prendre la gelée et conserver au frais.\n\nRemarque\nLes pâtés en croûte peuvent être fait avec du canard, faisan, volaille, foie de volaille, etc…\n"
+  },
+  "related": [
+    "oeufs-en-gelee",
+    "filets-de-merlan-ou-de-maquereau-facon-rollmops",
+    "petits-maquereaux-marines-aux-aromates",
+    "roti-de-porc-farci-en-croute"
+  ],
+  "translations": {
+    "en": {
+      "title": "Veal and Ham Pâté en Croûte with Pistachios",
+      "description": "A large festive pâté en croûte: pork forcemeat with pistachios, strips of veal, ham and pork fat marinated in Cognac and Madeira, and aspic.",
+      "tags": [
+        "veal",
+        "pork",
+        "starter",
+        "oven",
+        "french",
+        "nostalgic",
+        "family-recipe",
+        "festive",
+        "celebration",
+        "buffet",
+        "cold",
+        "to-share",
+        "make-ahead"
+      ],
+      "ingredients": [
+        {
+          "items": [
+            "1 kg of fine pork sausage meat",
+            "750 g of ham",
+            "750 g of veal",
+            "750 g of pork fat",
+            "1 kg of thin sheets of pork back fat (barding fat)"
+          ]
+        },
+        {
+          "group": "Pâté pastry",
+          "items": [
+            "1 kg of flour",
+            "400 g of butter",
+            "4 whole eggs",
+            "15 g of salt",
+            "3 dl of water"
+          ]
+        },
+        {
+          "group": "Seasoning",
+          "items": [
+            "6 eggs",
+            "2 dl of Cognac",
+            "2 dl of Madeira",
+            "125 g of blanched and peeled pistachios",
+            "20 g of salt",
+            "2 g of pepper",
+            "2 g of four-spice mix (quatre-épices)"
+          ]
+        },
+        {
+          "group": "Marinade for the strips",
+          "items": [
+            "2 shallots",
+            "2 bay leaves",
+            "Thyme"
+          ]
+        }
+      ],
+      "steps": [
+        {
+          "text": "Cut 10 to 12 strips, 1 cm square, from the ham, the veal and the pork fat, and marinate them in the Cognac, the Madeira, the shallots, the thyme, the bay leaves, the salt, the pepper and the four-spice mix for 24 hours. Set aside the rest of the meat. Cover with baking parchment and keep in the fridge."
+        },
+        {
+          "text": "Make the pâté pastry and leave it to rest."
+        },
+        {
+          "text": "Take the pork sausage meat, add the rest of the ham, veal and pork fat, and mince everything finely. Add the Madeira and the Cognac (marinade) and the pistachios, and mix everything well."
+        },
+        {
+          "text": "Lining the tin: butter the rectangular hinged mould. Take part of the pastry (about 500 g), roll it out into a rectangle 3 mm thick, fold the sides towards the middle and give it a quarter turn. Repeat the same operation."
+        },
+        {
+          "text": "Take the pastry by the edges, fold it over and slide it into the tin."
+        },
+        {
+          "text": "Unfold the pastry by spreading it out at the edges, push it down to the bottom of the tin, and line the sides, leaving it to overhang by 3 to 4 cm."
+        },
+        {
+          "text": "Filling the pastry: line the tin with the sheets of barding fat (over the pastry). Fill with alternating layers: forcemeat (1 to 2 cm) and strips, the strips themselves alternated (veal, pork fat, ham). Finish with a layer of forcemeat."
+        },
+        {
+          "text": "Fold the barding fat and the pastry over the pâté to close it."
+        },
+        {
+          "text": "Egg-wash the surface, then lay on top a rolled-out sheet of pâté pastry or puff pastry trimmings covering the surface up to the edge of the tin. Egg-wash again and decorate with pastry shapes (to the cook's taste): leaves, shells, etc. Seal with the pastry crimper."
+        },
+        {
+          "text": "Make two small holes 1 cm in diameter in the top of the pâté and insert two baking parchment chimneys."
+        },
+        {
+          "text": "Leave the pâté to rest for at least 1 hour."
+        },
+        {
+          "text": "Bake in the oven at 220 °C for 30 minutes, then place the pâté on a rack and double the baking trays. Continue baking at 170/180 °C for about 1 h 30, with the top of the pâté protected by baking parchment."
+        },
+        {
+          "text": "Once baked and completely cooled (do not unmould), pour aspic in through the chimneys (the aspic should be oily). Leave the aspic to set and keep in the fridge."
+        }
+      ],
+      "tips": [
+        "Pâtés en croûte can be made with duck, pheasant, poultry, chicken liver, etc."
+      ]
+    },
+    "it": {
+      "title": "Pâté en croûte di vitello e prosciutto ai pistacchi",
+      "description": "Un grande pâté en croûte delle feste: farcia di maiale ai pistacchi, listarelle di vitello, prosciutto e lardo marinate al Cognac e al Madera, e gelatina.",
+      "tags": [
+        "vitello",
+        "maiale",
+        "antipasto",
+        "forno",
+        "francese",
+        "nostalgico",
+        "ricetta-di-famiglia",
+        "festivo",
+        "festa",
+        "buffet",
+        "freddo",
+        "da-condividere",
+        "preparazione-in-anticipo"
+      ],
+      "ingredients": [
+        {
+          "items": [
+            "1 kg di carne di maiale macinata fine",
+            "750 g di prosciutto",
+            "750 g di vitello",
+            "750 g di lardo",
+            "1 kg di fettine sottili di lardo per bardare"
+          ]
+        },
+        {
+          "group": "Pasta per pâté",
+          "items": [
+            "1 kg di farina",
+            "400 g di burro",
+            "4 uova intere",
+            "15 g di sale",
+            "3 dl di acqua"
+          ]
+        },
+        {
+          "group": "Condimento",
+          "items": [
+            "6 uova",
+            "2 dl di Cognac",
+            "2 dl di Madera",
+            "125 g di pistacchi pelati",
+            "20 g di sale",
+            "2 g di pepe",
+            "2 g di quattro spezie (quatre-épices)"
+          ]
+        },
+        {
+          "group": "Marinata per le listarelle",
+          "items": [
+            "2 scalogni",
+            "2 foglie di alloro",
+            "Timo"
+          ]
+        }
+      ],
+      "steps": [
+        {
+          "text": "Tagliare 10-12 listarelle di 1 cm di lato dal prosciutto, dal vitello e dal lardo, e metterle a marinare nel Cognac, nel Madera, con gli scalogni, il timo, l'alloro, il sale, il pepe e le quattro spezie per 24 ore. Tenere da parte il resto delle carni. Coprire con carta da forno e conservare in frigorifero."
+        },
+        {
+          "text": "Preparare la pasta per pâté e lasciarla riposare."
+        },
+        {
+          "text": "Prendere la carne di maiale, aggiungere il resto del prosciutto, del vitello e del lardo, e tritare il tutto finemente. Aggiungere il Madera e il Cognac (marinata) e i pistacchi, e mescolare bene il tutto."
+        },
+        {
+          "text": "Rivestimento dello stampo: imburrare lo stampo apribile rettangolare. Prendere una parte della pasta (circa 500 g), stenderla in un rettangolo di 3 mm di spessore, ripiegare i lati verso il centro e dare un quarto di giro. Ripetere la stessa operazione."
+        },
+        {
+          "text": "Prendere la pasta dai bordi, ripiegarla e farla scivolare nello stampo."
+        },
+        {
+          "text": "Aprire la pasta allargandola sui bordi, farla scendere sul fondo dello stampo e foderare i lati lasciandola sporgere di 3-4 cm."
+        },
+        {
+          "text": "Farcitura: foderare lo stampo con le fettine di lardo (sopra la pasta). Riempire a strati alterni: farcia (1-2 cm) e listarelle, a loro volta alternate (listarelle di vitello, di lardo, di prosciutto). Terminare con uno strato di farcia."
+        },
+        {
+          "text": "Ripiegare il lardo e la pasta sul pâté per chiuderlo."
+        },
+        {
+          "text": "Spennellare la superficie con tuorlo, poi appoggiarvi sopra una sfoglia di pasta per pâté o di ritagli di pasta sfoglia che copra la superficie fino al bordo dello stampo. Spennellare di nuovo con tuorlo e decorare con motivi di pasta (a gusto di chi cucina): foglie, conchiglie, ecc. Sigillare con la pinza per crostate."
+        },
+        {
+          "text": "Praticare sulla superficie del pâté due piccoli fori di 1 cm di diametro e inserirvi due camini di carta da forno."
+        },
+        {
+          "text": "Lasciare riposare il pâté almeno 1 ora."
+        },
+        {
+          "text": "Cuocere in forno a 220 °C per 30 minuti, poi mettere il pâté su una griglia e raddoppiare le teglie. Continuare la cottura a 170/180 °C per circa 1 h 30, con la superficie del pâté protetta da carta da forno."
+        },
+        {
+          "text": "Dopo la cottura e il completo raffreddamento (non sformare), versare la gelatina attraverso i camini (la gelatina deve essere oleosa). Lasciare rapprendere la gelatina e conservare in frigorifero."
+        }
+      ],
+      "tips": [
+        "I pâté en croûte si possono fare con anatra, fagiano, pollame, fegatini di pollo, ecc."
+      ]
+    }
+  }
+}
