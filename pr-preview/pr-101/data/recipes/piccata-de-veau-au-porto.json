@@ -1,0 +1,189 @@
+{
+  "slug": "piccata-de-veau-au-porto",
+  "title": "Piccata de veau au Porto",
+  "description": "Petites escalopes de veau dorées au beurre, nappées d'une julienne de champignons, jambon et langue écarlate au Porto et au fond de veau.",
+  "images": {
+    "cover": "images/recipes/piccata-de-veau-au-porto/cover.svg",
+    "web": "images/recipes/piccata-de-veau-au-porto/cover.svg"
+  },
+  "prepTime": 20,
+  "cookTime": 15,
+  "servings": 8,
+  "difficulty": "Facile",
+  "category": "Secondi",
+  "origin": "amelie-grandpa",
+  "tags": [
+    "veau",
+    "poêle",
+    "plat-principal",
+    "français",
+    "nostalgique",
+    "recette-de-famille",
+    "festif",
+    "gourmand",
+    "facile",
+    "chaud"
+  ],
+  "ingredients": [
+    {
+      "items": [
+        "8 escalopes de veau",
+        "2 tranches de jambon blanc",
+        "4 fines tranches de langue écarlate",
+        "5 beaux champignons de Paris",
+        "120 g de beurre",
+        "1 dl de Porto",
+        "50 g de farine",
+        "2 dl de fond de veau lié",
+        "Sel, poivre"
+      ]
+    }
+  ],
+  "steps": [
+    {
+      "text": "Couper les escalopes en 2 ou 3 tranches minces et les passer à la farine."
+    },
+    {
+      "text": "Faire chauffer 60 g de beurre et dorer les petites escalopes, cuire doucement 4 à 5 minutes puis réserver.",
+      "timers": [4]
+    },
+    {
+      "text": "Laver les champignons, les essuyer, prendre les têtes et les tailler en fine julienne."
+    },
+    {
+      "text": "Tailler le jambon et la langue en fine julienne."
+    },
+    {
+      "text": "Dans une casserole, faire fondre le reste de beurre, mettre la julienne de champignons, bien faire rissoler, ajouter la julienne de jambon et de langue, laisser suer à feu doux 2 à 3 minutes, ajouter le Porto et laisser mijoter l'ensemble quelques instants.",
+      "timers": [2]
+    },
+    {
+      "text": "Verser le fond de veau lié, faire bouillir 2 à 3 minutes, rectifier l'assaisonnement si nécessaire.",
+      "timers": [2]
+    },
+    {
+      "text": "Mettre les petites escalopes (piccata) dans un plat, verser la garniture et le fond de veau dessus."
+    }
+  ],
+  "source": "Les recettes de Maurice Houdré, tome 2, Les viandes",
+  "originalSource": {
+    "type": "text",
+    "data": "Picatta de veau au Porto\n\nIngrédients : pour 8 personnes\n\n. 8 escalopes de veau\n. 2 tranches de jambon blanc\n. 4 fines tranches de langue « écarlates »\n. 5 beaux champignons de Paris\n. 120 g de beurre\n. 1 dl de Porto\n. 50 g de farine\n. 2 dl de fond de veau lié\n. sel, poivre\n\nPréparation\n\nCouper les escalopes en 2 ou 3 tranches minces et passer les à la farine.\n\nFaire chauffer 60 g de beurre et dorer les petites escalopes, cuire doucement 4 à 5 minutes puis réserver.\nLaver les champignons, essuyer les, prendre les têtes et les tailler en fine Julienne.\nTailler le jambon et la langue en fine Julienne.\nDans une casserole, faire fondre le reste de beurre, mettre la Julienne de champignons, bien faire rissoler, ajouter la Julienne de jambon et de langue, laisser suer à feu doux 2 à 3 minutes, ajouter le Porto et laisser mijoter l’ensemble quelques instants.\nVerser le fond de veau lié, faire bouillir 2 à 3 minutes, rectifier l’assaisonnement si nécessaire.\nMettre les petites escalopes (Piccata) dans un plat, verser la garniture et le fond de veau dessus.\n"
+  },
+  "related": [
+    "fricassee-de-veau-aux-aubergines-et-pruneaux",
+    "poulet-sauce-moutarde",
+    "filet-mignon-de-porc-a-la-sauge",
+    "selle-d-agneau-en-mosaiques"
+  ],
+  "translations": {
+    "en": {
+      "title": "Veal piccata with Port",
+      "description": "Small veal escalopes browned in butter, coated with a julienne of mushrooms, ham and pickled ox tongue in Port and veal stock.",
+      "tags": [
+        "veal",
+        "pan-fried",
+        "main-course",
+        "french",
+        "nostalgic",
+        "family-recipe",
+        "festive",
+        "indulgent",
+        "easy",
+        "hot"
+      ],
+      "ingredients": [
+        {
+          "items": [
+            "8 veal escalopes",
+            "2 slices of cooked ham",
+            "4 thin slices of pickled ox tongue (langue écarlate)",
+            "5 large button mushrooms",
+            "120 g of butter",
+            "1 dl of Port",
+            "50 g of flour",
+            "2 dl of thickened veal stock",
+            "Salt, pepper"
+          ]
+        }
+      ],
+      "steps": [
+        {
+          "text": "Cut the escalopes into 2 or 3 thin slices and dust them with flour."
+        },
+        {
+          "text": "Heat 60 g of butter and brown the small escalopes, cook gently for 4 to 5 minutes, then set aside."
+        },
+        {
+          "text": "Wash the mushrooms, wipe them dry, take the caps and cut them into a fine julienne."
+        },
+        {
+          "text": "Cut the ham and the tongue into a fine julienne."
+        },
+        {
+          "text": "In a saucepan, melt the rest of the butter, add the mushroom julienne, brown it well, add the ham and tongue julienne, let it sweat over low heat for 2 to 3 minutes, add the Port and let everything simmer for a few moments."
+        },
+        {
+          "text": "Pour in the thickened veal stock, boil for 2 to 3 minutes, adjust the seasoning if needed."
+        },
+        {
+          "text": "Place the small escalopes (piccata) in a dish, pour the garnish and the veal stock over them."
+        }
+      ]
+    },
+    "it": {
+      "title": "Piccata di vitello al Porto",
+      "description": "Piccole scaloppine di vitello dorate nel burro, nappate con una julienne di funghi, prosciutto e lingua salmistrata al Porto e fondo di vitello.",
+      "tags": [
+        "vitello",
+        "padella",
+        "piatto-principale",
+        "francese",
+        "nostalgico",
+        "ricetta-di-famiglia",
+        "festivo",
+        "goloso",
+        "facile",
+        "caldo"
+      ],
+      "ingredients": [
+        {
+          "items": [
+            "8 scaloppine di vitello",
+            "2 fette di prosciutto cotto",
+            "4 fette sottili di lingua salmistrata (langue écarlate)",
+            "5 funghi champignon grandi",
+            "120 g di burro",
+            "1 dl di Porto",
+            "50 g di farina",
+            "2 dl di fondo di vitello legato",
+            "Sale, pepe"
+          ]
+        }
+      ],
+      "steps": [
+        {
+          "text": "Tagliare le scaloppine in 2 o 3 fette sottili e infarinarle."
+        },
+        {
+          "text": "Scaldare 60 g di burro e dorare le piccole scaloppine, cuocere dolcemente per 4-5 minuti, poi tenere da parte."
+        },
+        {
+          "text": "Lavare i funghi, asciugarli, prendere le teste e tagliarle a julienne sottile."
+        },
+        {
+          "text": "Tagliare il prosciutto e la lingua a julienne sottile."
+        },
+        {
+          "text": "In una casseruola, far fondere il resto del burro, aggiungere la julienne di funghi, farla rosolare bene, aggiungere la julienne di prosciutto e di lingua, far sudare a fuoco dolce per 2-3 minuti, aggiungere il Porto e lasciar sobbollire il tutto per qualche istante."
+        },
+        {
+          "text": "Versare il fondo di vitello legato, far bollire per 2-3 minuti, aggiustare di condimento se necessario."
+        },
+        {
+          "text": "Disporre le piccole scaloppine (piccata) in un piatto, versarvi sopra la guarnizione e il fondo di vitello."
+        }
+      ]
+    }
+  }
+}

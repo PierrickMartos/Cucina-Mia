@@ -1,0 +1,184 @@
+{
+  "slug": "flan-au-crabe",
+  "title": "Flan au crabe",
+  "description": "Un flan de crabe et de champignons à la crème, parfumé au cerfeuil et relevé de Cayenne, cuit sur un fond de pâte brisée.",
+  "images": {
+    "cover": "images/recipes/flan-au-crabe/cover.svg",
+    "web": "images/recipes/flan-au-crabe/cover.svg"
+  },
+  "prepTime": 25,
+  "cookTime": 30,
+  "servings": 10,
+  "difficulty": "Facile",
+  "category": "Secondi",
+  "origin": "amelie-grandpa",
+  "tags": [
+    "fruits-de-mer",
+    "crabe",
+    "champignons",
+    "œufs",
+    "four",
+    "plat-principal",
+    "français",
+    "nostalgique",
+    "recette-de-famille",
+    "onctueux",
+    "chaud",
+    "facile"
+  ],
+  "ingredients": [
+    {
+      "items": [
+        "¼ l de lait",
+        "2 dl de crème",
+        "2 œufs entiers",
+        "2 jaunes",
+        "250 g de champignons de Paris",
+        "50 g de beurre",
+        "2 boîtes de chair de crabe",
+        "1 cuillère de cerfeuil haché",
+        "Sel, poivre de Cayenne"
+      ]
+    }
+  ],
+  "steps": [
+    {
+      "text": "Foncer un moule à tarte ou des moules individuels (10 à 12 barquettes) en pâte brisée."
+    },
+    {
+      "text": "Émincer les champignons et les faire suer au beurre."
+    },
+    {
+      "text": "Émietter le crabe."
+    },
+    {
+      "text": "Garnir le moule à tarte ou les moules individuels avec le mélange crabe et champignons."
+    },
+    {
+      "text": "Préparer l'appareil avec le lait, la crème, les œufs entiers et les jaunes, puis le sel, le poivre et le cerfeuil."
+    },
+    {
+      "text": "Verser sur le(s) fond(s) de tarte. Cuisson à four moyen pendant 25 à 30 minutes.",
+      "timers": [25]
+    }
+  ],
+  "source": "Les recettes de Maurice Houdré, tome 2, Les poissons et crustacés",
+  "originalSource": {
+    "type": "text",
+    "data": "Flan au crabe\n\nIngrédients : pour 10 à 12 barquettes\n\n. ¼ l de lait\n. 2 dl de crème\n. 2 œufs entiers\n. 2 jaunes\n. 250 g de champignons de Paris\n. 50 g de beurre\n. 2 boîtes de chair de crabe\n. 1 cuillère de cerfeuil haché\n. sel, poivre de Cayenne\n\nFoncer un moule à tarte ou des moules individuels en pâte brisée.\n\nEmincer les champignons et faire suer au beurre.\nEmietter le crabe.\nGarnir le moule à tarte ou les moules individuels avec le mélange crabe et champignons.\nPréparer l’appareil avec le lait, la crème, les œufs entiers et les jaunes puis le sel, poivre et cerfeuil.\nVerser sur le(s) fond(s) de tarte, cuisson à four moyen pendant 25 à 30 minutes.\n"
+  },
+  "related": [
+    "tourte-cherbourgeoise",
+    "salade-chinoise-aux-champignons-de-paris",
+    "paupiette-de-sole-farcie-aux-crevettes",
+    "quiche-aux-moules-et-champignons"
+  ],
+  "translations": {
+    "en": {
+      "title": "Crab flan",
+      "description": "A creamy crab and mushroom flan, scented with chervil and spiced with Cayenne, baked on a shortcrust pastry base.",
+      "tags": [
+        "seafood",
+        "crab",
+        "mushrooms",
+        "eggs",
+        "oven",
+        "main-course",
+        "french",
+        "nostalgic",
+        "family-recipe",
+        "creamy",
+        "hot",
+        "easy"
+      ],
+      "ingredients": [
+        {
+          "items": [
+            "¼ l of milk",
+            "2 dl of cream",
+            "2 whole eggs",
+            "2 egg yolks",
+            "250 g of button mushrooms",
+            "50 g of butter",
+            "2 cans of crab meat",
+            "1 spoonful of chopped chervil",
+            "Salt, Cayenne pepper"
+          ]
+        }
+      ],
+      "steps": [
+        {
+          "text": "Line a tart tin or individual moulds (10 to 12 barquettes) with shortcrust pastry."
+        },
+        {
+          "text": "Thinly slice the mushrooms and sweat them in butter."
+        },
+        {
+          "text": "Flake the crab."
+        },
+        {
+          "text": "Fill the tart tin or the individual moulds with the crab and mushroom mixture."
+        },
+        {
+          "text": "Prepare the mixture with the milk, the cream, the whole eggs and the yolks, then the salt, the pepper and the chervil."
+        },
+        {
+          "text": "Pour over the pastry base(s). Bake in a moderate oven for 25 to 30 minutes."
+        }
+      ]
+    },
+    "it": {
+      "title": "Sformato di granchio",
+      "description": "Uno sformato cremoso di granchio e funghi, profumato al cerfoglio e insaporito con pepe di Cayenna, cotto su una base di pasta brisée.",
+      "tags": [
+        "frutti-di-mare",
+        "granchio",
+        "funghi",
+        "uova",
+        "forno",
+        "piatto-principale",
+        "francese",
+        "nostalgico",
+        "ricetta-di-famiglia",
+        "cremoso",
+        "caldo",
+        "facile"
+      ],
+      "ingredients": [
+        {
+          "items": [
+            "¼ l di latte",
+            "2 dl di panna",
+            "2 uova intere",
+            "2 tuorli",
+            "250 g di funghi champignon",
+            "50 g di burro",
+            "2 scatole di polpa di granchio",
+            "1 cucchiaio di cerfoglio tritato",
+            "Sale, pepe di Cayenna"
+          ]
+        }
+      ],
+      "steps": [
+        {
+          "text": "Foderare uno stampo da crostata o degli stampini individuali (10-12 barchette) con pasta brisée."
+        },
+        {
+          "text": "Affettare sottilmente i funghi e farli sudare nel burro."
+        },
+        {
+          "text": "Sbriciolare il granchio."
+        },
+        {
+          "text": "Riempire lo stampo da crostata o gli stampini individuali con il composto di granchio e funghi."
+        },
+        {
+          "text": "Preparare il composto con il latte, la panna, le uova intere e i tuorli, poi il sale, il pepe e il cerfoglio."
+        },
+        {
+          "text": "Versare sulla base o sulle basi di pasta. Cuocere in forno moderato per 25-30 minuti."
+        }
+      ]
+    }
+  }
+}

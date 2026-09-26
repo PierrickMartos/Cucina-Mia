@@ -1,0 +1,234 @@
+{
+  "slug": "terrine-de-lapin-aux-noisettes-et-genievre",
+  "title": "Terrine de lapin aux noisettes et genièvre",
+  "description": "Une terrine de lapin et d'échine de porc marinés au vin blanc, relevée de genièvre et de noisettes, avec les filets de lapin au cœur.",
+  "images": {
+    "cover": "images/recipes/terrine-de-lapin-aux-noisettes-et-genievre/cover.svg",
+    "web": "images/recipes/terrine-de-lapin-aux-noisettes-et-genievre/cover.svg"
+  },
+  "prepTime": 60,
+  "cookTime": 105,
+  "servings": 10,
+  "difficulty": "Medio",
+  "category": "Secondi",
+  "origin": "amelie-grandpa",
+  "tags": [
+    "lapin",
+    "porc",
+    "français",
+    "nostalgique",
+    "recette-de-famille",
+    "plat-principal",
+    "bain-marie",
+    "four",
+    "froid",
+    "préparation-à-lavance",
+    "fête",
+    "buffet"
+  ],
+  "ingredients": [
+    {
+      "items": [
+        "1 lapin de 1,5 à 2 kg",
+        "600 g de lard gras",
+        "2 belles bardes fines",
+        "600 g d'échine de porc",
+        "4 œufs entiers",
+        "2 échalotes",
+        "3 gousses d'ail",
+        "1 bouquet garni",
+        "Sel et poivre",
+        "Quatre-épices",
+        "Vin blanc sec",
+        "150 g de noisettes émondées",
+        "1 cuillère à potage de baies de genièvre"
+      ]
+    }
+  ],
+  "steps": [
+    {
+      "text": "Marinade : prélever les 2 filets sur le râble du lapin."
+    },
+    {
+      "text": "Mettre à mariner pendant 24 à 48 heures : le lard gras, l'échine de porc coupée en cubes, la chair du lapin (sauf le râble), le bouquet garni, sel, poivre, quatre-épices et le vin blanc.",
+      "timers": [1440]
+    },
+    {
+      "text": "Faire un fond avec les os et les parures, réduire et réserver."
+    },
+    {
+      "text": "Passer les chairs à la machine à hacher (grosse grille), ajouter les œufs et la marinade, le genièvre et les noisettes, mélanger et rectifier l'assaisonnement si nécessaire."
+    },
+    {
+      "text": "Chemiser 1 ou 2 terrines avec les bardes, faire raidir les deux filets de lapin. Garnir la moitié de la terrine avec la farce, mettre les filets au milieu, remplir avec le reste de la farce, recouvrir de bardes."
+    },
+    {
+      "text": "Laisser reposer 24 heures.",
+      "timers": [1440]
+    },
+    {
+      "text": "Cuire au bain-marie à four doux à 220 °C pendant ½ heure, puis 1 h à 1 h 15 à 180 °C.",
+      "timers": [30, 60]
+    },
+    {
+      "text": "Après la cuisson, mettre sous presse pour bien tasser la terrine."
+    },
+    {
+      "text": "Nettoyer le bord de la terrine et réserver au froid."
+    }
+  ],
+  "tips": [
+    "Assaisonnement au kg : 20 g de sel, 2 g de poivre, 2 g de quatre-épices, 2 dl de vin blanc, 1 dl ½ de genièvre."
+  ],
+  "source": "Les recettes de Maurice Houdré, tome 2, Volailles, lapins, foie gras",
+  "originalSource": {
+    "type": "text",
+    "data": "Terrine de lapin aux noisettes et genièvre\n\nIngrédients : pour 10 à 12 personnes\n\n. 1 lapin de 1,5 à 2 kg\n. 600 g de lard gras + 2 belles bardes fines\n. 600 g d’échine de porc\n. 4 œufs entiers\n. 2 échalotes\n. 3 gousses d’ail\n. 1 bouquet garni\n. sel et poivre\n. quatre-épices\n. vin blanc sec\n. 150 g de noisettes émondées\n. 1 cuillère à potage de baies de genièvre\n\nAu kg : 20 g de sel, 2 g de poivre, 2 g de quatre-épices, 2 dl de vin blanc, 1 dl ½ de genièvre\n\narinade : Prélever les 2 filets sur le râble du lapin.\nMettre à mariner pendant 24 à 48 heures : le lard gras, l’échine de porc coupée en cubes, la chair du lapin (sauf le râble), le bouquet garni, sel, poivre, quatre épices et le vin blanc.\n\nFaire un fond avec les os et les parures, réduire et réserver.\nPasser les chairs à la machine à hacher (grosse grille), ajouter les œufs et la marinade, le genièvre et les noisettes, mélanger et rectifier l’assaisonnement si nécessaire. \nChemiser l ou 2 terrines avec les bardes, faire raidir les deux filets de lapin. Garnir la moitié de la terrine avec la farce, mettre les filets au milieu, remplir avec le reste de la farce, recouvrir de bardes.\nLaisser reposer 24 heures.\n\nCuire au bain-marie à four doux à 220 °C pendant ½ heure, puis 1 h à 1 h 15 à 180 ° C.\nAprès la cuisson, mettre sous presse pour bien tasser la terrine.\nNettoyer le bord de la terrine et réserver au froid.\n"
+  },
+  "related": [
+    "pate-en-croute-de-foie-de-volaille-ou-terrine",
+    "terrine-de-canard",
+    "pate-en-croute-de-veau-et-jambon-aux-pistaches",
+    "rillettes-de-lapin"
+  ],
+  "translations": {
+    "en": {
+      "title": "Rabbit terrine with hazelnuts and juniper",
+      "description": "A terrine of rabbit and pork shoulder marinated in white wine, seasoned with juniper and hazelnuts, with the rabbit fillets at its heart.",
+      "tags": [
+        "rabbit",
+        "pork",
+        "french",
+        "nostalgic",
+        "family-recipe",
+        "main-course",
+        "bain-marie",
+        "oven",
+        "cold",
+        "make-ahead",
+        "party",
+        "buffet"
+      ],
+      "ingredients": [
+        {
+          "items": [
+            "1 rabbit of 1.5 to 2 kg",
+            "600 g of pork back fat",
+            "2 nice thin sheets of barding fat",
+            "600 g of pork shoulder",
+            "4 whole eggs",
+            "2 shallots",
+            "3 garlic cloves",
+            "1 bouquet garni",
+            "Salt and pepper",
+            "Four-spice mix (quatre-épices)",
+            "Dry white wine",
+            "150 g of blanched and peeled hazelnuts",
+            "1 tablespoon of juniper berries"
+          ]
+        }
+      ],
+      "steps": [
+        {
+          "text": "Marinade: remove the 2 fillets from the saddle of the rabbit."
+        },
+        {
+          "text": "Leave to marinate for 24 to 48 hours: the pork back fat, the pork shoulder cut into cubes, the rabbit meat (except the saddle), the bouquet garni, salt, pepper, four-spice mix and the white wine."
+        },
+        {
+          "text": "Make a stock with the bones and trimmings, reduce it and set aside."
+        },
+        {
+          "text": "Put the meat through the mincer (coarse plate), add the eggs and the marinade, the juniper and the hazelnuts, mix and adjust the seasoning if needed."
+        },
+        {
+          "text": "Line 1 or 2 terrines with the barding fat, stiffen the two rabbit fillets without colouring. Fill half of the terrine with the stuffing, place the fillets in the middle, fill with the rest of the stuffing and cover with barding fat."
+        },
+        {
+          "text": "Leave to rest for 24 hours."
+        },
+        {
+          "text": "Cook in a bain-marie in a gentle oven at 220 °C for ½ hour, then 1 h to 1 h 15 at 180 °C."
+        },
+        {
+          "text": "After cooking, put the terrine under a press to pack it down well."
+        },
+        {
+          "text": "Clean the rim of the terrine and keep it chilled."
+        }
+      ],
+      "tips": [
+        "Seasoning per kg: 20 g of salt, 2 g of pepper, 2 g of four-spice mix, 2 dl of white wine, 1 ½ dl of juniper."
+      ]
+    },
+    "it": {
+      "title": "Terrina di coniglio alle nocciole e ginepro",
+      "description": "Una terrina di coniglio e coppa di maiale marinati nel vino bianco, insaporita con ginepro e nocciole, con i filetti di coniglio al centro.",
+      "tags": [
+        "coniglio",
+        "maiale",
+        "francese",
+        "nostalgico",
+        "ricetta-di-famiglia",
+        "piatto-principale",
+        "bagnomaria",
+        "forno",
+        "freddo",
+        "preparazione-in-anticipo",
+        "festa",
+        "buffet"
+      ],
+      "ingredients": [
+        {
+          "items": [
+            "1 coniglio da 1,5 - 2 kg",
+            "600 g di lardo",
+            "2 belle fette sottili di lardo per bardare",
+            "600 g di coppa di maiale",
+            "4 uova intere",
+            "2 scalogni",
+            "3 spicchi d'aglio",
+            "1 mazzetto aromatico",
+            "Sale e pepe",
+            "Quattro spezie (quatre-épices)",
+            "Vino bianco secco",
+            "150 g di nocciole pelate",
+            "1 cucchiaio di bacche di ginepro"
+          ]
+        }
+      ],
+      "steps": [
+        {
+          "text": "Marinata: prelevare i 2 filetti dalla sella del coniglio."
+        },
+        {
+          "text": "Mettere a marinare per 24-48 ore: il lardo, la coppa di maiale tagliata a cubetti, la carne del coniglio (tranne la sella), il mazzetto aromatico, sale, pepe, quattro spezie e il vino bianco."
+        },
+        {
+          "text": "Preparare un fondo con le ossa e i ritagli, ridurlo e tenerlo da parte."
+        },
+        {
+          "text": "Passare le carni al tritacarne (disco a fori grossi), aggiungere le uova e la marinata, il ginepro e le nocciole, mescolare e aggiustare di sale e pepe se necessario."
+        },
+        {
+          "text": "Foderare 1 o 2 terrine con le fette di lardo, rassodare i due filetti di coniglio. Riempire metà della terrina con la farcia, mettere i filetti al centro, completare con il resto della farcia e coprire con le fette di lardo."
+        },
+        {
+          "text": "Lasciare riposare 24 ore."
+        },
+        {
+          "text": "Cuocere a bagnomaria in forno dolce a 220 °C per ½ ora, poi da 1 h a 1 h 15 a 180 °C."
+        },
+        {
+          "text": "Dopo la cottura, mettere sotto pressa per compattare bene la terrina."
+        },
+        {
+          "text": "Pulire il bordo della terrina e conservare al fresco."
+        }
+      ],
+      "tips": [
+        "Condimento per kg: 20 g di sale, 2 g di pepe, 2 g di quattro spezie, 2 dl di vino bianco, 1 dl ½ di ginepro."
+      ]
+    }
+  }
+}

@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <defs>
+    <radialGradient id="ccpbg" cx="50%" cy="45%" r="70%"><stop offset="0%" stop-color="#2e2822"/><stop offset="100%" stop-color="#1a1510"/></radialGradient>
+    <linearGradient id="ccpjel" x1="0" y1="0" x2="1" y2="1"><stop offset="0%" stop-color="#e87a50"/><stop offset="100%" stop-color="#8a2a20"/></linearGradient>
+    <linearGradient id="ccplid" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#e0b860"/><stop offset="100%" stop-color="#8a6a28"/></linearGradient>
+    <radialGradient id="ccpqu" cx="40%" cy="35%" r="65%"><stop offset="0%" stop-color="#f4dc60"/><stop offset="100%" stop-color="#b89020"/></radialGradient>
+    <radialGradient id="ccpap" cx="40%" cy="35%" r="65%"><stop offset="0%" stop-color="#eee080"/><stop offset="100%" stop-color="#a8a030"/></radialGradient>
+  </defs>
+  <rect width="800" height="600" fill="url(#ccpbg)"/>
+  <rect x="0" y="440" width="800" height="160" fill="#4a3018" opacity="0.35"/>
+  <ellipse cx="400" cy="462" rx="300" ry="26" fill="#000" opacity="0.35"/>
+  <rect x="300" y="200" width="200" height="258" rx="34" fill="#fff" opacity="0.1"/>
+  <rect x="312" y="226" width="176" height="222" rx="28" fill="url(#ccpjel)" opacity="0.94"/>
+  <ellipse cx="420" cy="310" rx="34" ry="70" fill="#ffb080" opacity="0.12"/>
+  <rect x="322" y="236" width="18" height="190" rx="9" fill="#fff" opacity="0.22"/>
+  <rect x="296" y="168" width="208" height="40" rx="8" fill="url(#ccplid)"/>
+  <g stroke="#6a4a18" stroke-width="2" opacity="0.5"><line x1="300" y1="180" x2="500" y2="180"/><line x1="300" y1="196" x2="500" y2="196"/></g>
+  <g transform="translate(620 370)">
+    <path d="M0,-78 C-30,-80 -40,-50 -50,-30 C-78,-10 -76,50 -40,68 C-14,80 14,80 40,68 C76,50 78,-10 50,-30 C40,-50 30,-80 0,-78Z" fill="url(#ccpqu)"/>
+    <path d="M-20,-60 C-30,-20 -30,40 -14,70 M20,-60 C30,-20 30,40 14,70" stroke="#a88018" stroke-width="2" fill="none" opacity="0.4"/>
+    <path d="M0,-78 L-2,-96" stroke="#5a3a1a" stroke-width="5" stroke-linecap="round"/>
+    <path d="M0,-92 q-30,-16 -40,4 q22,10 40,-4z" fill="#5a7a30"/>
+    <ellipse cx="-26" cy="0" rx="12" ry="28" fill="#fff" opacity="0.14"/>
+  </g>
+  <g transform="translate(180 400)">
+    <path d="M0,-50 C-30,-66 -66,-44 -64,-2 C-62,40 -34,64 -10,58 C-4,56 4,56 10,58 C34,64 62,40 64,-2 C66,-44 30,-66 0,-50Z" fill="url(#ccpap)"/>
+    <path d="M0,-50 L4,-74" stroke="#5a3a1a" stroke-width="5" stroke-linecap="round"/>
+    <ellipse cx="-24" cy="-10" rx="10" ry="20" fill="#fff" opacity="0.15"/>
+    <circle cx="30" cy="10" r="10" fill="#d89040" opacity="0.25"/>
+  </g>
+  <g transform="translate(270 478)">
+    <path d="M-34,0 A34,34 0 0 1 34,0 Z" fill="#f4ecc0"/>
+    <path d="M-34,0 A34,34 0 0 1 34,0" stroke="#c8b840" stroke-width="4" fill="none"/>
+    <path d="M-10,-6 q10,-14 20,0" fill="none" stroke="#b8a060" stroke-width="2"/>
+    <ellipse cx="0" cy="-10" rx="3" ry="5" fill="#5a3a1a"/>
+  </g>
+  <g transform="translate(535 480)">
+    <path d="M-30,0 A30,30 0 0 1 30,0 Z" fill="#f0d8a0"/>
+    <path d="M-30,0 A30,30 0 0 1 30,0" stroke="#c89820" stroke-width="4" fill="none"/>
+  </g>
+</svg>

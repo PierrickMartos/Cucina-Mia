@@ -1,0 +1,213 @@
+{
+  "slug": "salade-de-coquillettes-aux-champignons-de-paris",
+  "title": "Salade de coquillettes aux champignons de Paris",
+  "description": "Des coquillettes, des champignons de Paris citronnés, du jambon et du gruyère en julienne, liés d'une mayonnaise relevée au ketchup, paprika et Cayenne.",
+  "images": {
+    "cover": "images/recipes/salade-de-coquillettes-aux-champignons-de-paris/cover.svg",
+    "web": "images/recipes/salade-de-coquillettes-aux-champignons-de-paris/cover.svg"
+  },
+  "prepTime": 50,
+  "cookTime": 10,
+  "servings": 10,
+  "difficulty": "Facile",
+  "category": "Insalate",
+  "origin": "amelie-grandpa",
+  "tags": [
+    "français",
+    "nostalgique",
+    "recette-de-famille",
+    "entrée",
+    "pâtes",
+    "champignons",
+    "porc",
+    "fromage",
+    "froid",
+    "buffet",
+    "préparation-à-lavance",
+    "à-partager",
+    "facile"
+  ],
+  "ingredients": [
+    {
+      "items": [
+        "500 g de champignons de Paris frais",
+        "200 g de jambon de Paris",
+        "200 g de gruyère emmenthal",
+        "1 citron",
+        "500 g de coquillettes",
+        "30 g de cerfeuil",
+        "30 g de persil",
+        "1 dl de ketchup",
+        "1 l de mayonnaise",
+        "½ cuillerée à café de paprika",
+        "1 pointe de Cayenne",
+        "Sel, poivre"
+      ]
+    }
+  ],
+  "steps": [
+    {
+      "text": "Cuire les coquillettes, rafraîchir et égoutter."
+    },
+    {
+      "text": "Couper les champignons en dés, ajouter le jus de citron et mélanger."
+    },
+    {
+      "text": "Tailler en julienne le jambon et le gruyère."
+    },
+    {
+      "text": "Hacher le cerfeuil et le persil."
+    },
+    {
+      "text": "Faire 1 l de sauce mayonnaise, ajouter le paprika et la pointe de Cayenne, le ketchup, le cerfeuil et le persil hachés."
+    },
+    {
+      "text": "Mélanger délicatement l'ensemble : mayonnaise, champignons, jambon, gruyère et les coquillettes."
+    },
+    {
+      "text": "Rectifier l'assaisonnement si nécessaire."
+    },
+    {
+      "text": "Servir en raviers ou en saladier."
+    }
+  ],
+  "source": "Les recettes de Maurice Houdré, tome 1, Les entrées en assiette froide et salades composées",
+  "originalSource": {
+    "type": "text",
+    "data": "Salade de coquillettes aux champignons de Paris \n\nIngrédients : pour 10 personnes\n\n. 500 g de champignons de Paris frais\t\t\tPréparation : 50 minutes\n. 200 g de jambon de Paris\t\t\t\t\tCuisson : 10 minutes\n. 200 g de gruyère emmenthal\n. 1 citron\n. 500 g de coquillettes\n. 30 g de cerfeuil\n. 30 g de persil\n. 1 dl de ketchup\n. 1 l de mayonnaise\n. ½  cuillérée à café de paprika et 1 pointe de Cayenne\n. sel, poivre \n\nPréparation :\n\nCuire les coquillettes, rafraîchir et égoutter.\n\nCouper les champignons en dés, ajouter le jus de citron et mélanger.\nTailler en Julienne le jambon et le gruyère.\nHacher le cerfeuil et le persil. \nFaire 1 l de sauce mayonnaise, ajouter le paprika et la pointe de Cayenne, le ketchup, le cerfeuil et persil hachés.\nMélanger délicatement l’ensemble, mayonnaise, champignons, jambon, gruyère et les coquillettes.\nRectifier l’assaisonnement si nécessaire.\nServir en raviers ou en saladier.\n"
+  },
+  "related": [
+    "salade-de-papillons-au-blanc-de-volaille",
+    "salade-americaine-aux-champignons-de-paris",
+    "salade-flamande-aux-champignons-de-paris",
+    "salade-de-boeuf-et-champignons-a-la-parisienne"
+  ],
+  "translations": {
+    "en": {
+      "title": "Coquillette pasta salad with button mushrooms",
+      "description": "Coquillettes, lemony button mushrooms, ham and cheese cut into julienne strips, bound with a mayonnaise spiced up with ketchup, paprika and cayenne.",
+      "tags": [
+        "french",
+        "nostalgic",
+        "family-recipe",
+        "starter",
+        "pasta",
+        "mushrooms",
+        "pork",
+        "cheese",
+        "cold",
+        "buffet",
+        "make-ahead",
+        "sharing",
+        "easy"
+      ],
+      "ingredients": [
+        {
+          "items": [
+            "500 g of fresh button mushrooms",
+            "200 g of cooked ham (jambon de Paris)",
+            "200 g of Emmental cheese",
+            "1 lemon",
+            "500 g of coquillettes (small elbow macaroni)",
+            "30 g of chervil",
+            "30 g of parsley",
+            "1 dl of ketchup",
+            "1 l of mayonnaise",
+            "½ teaspoon of paprika",
+            "1 pinch of cayenne pepper",
+            "Salt, pepper"
+          ]
+        }
+      ],
+      "steps": [
+        {
+          "text": "Cook the coquillettes, refresh and drain."
+        },
+        {
+          "text": "Dice the mushrooms, add the lemon juice and mix."
+        },
+        {
+          "text": "Cut the ham and the cheese into julienne strips."
+        },
+        {
+          "text": "Chop the chervil and the parsley."
+        },
+        {
+          "text": "Make 1 l of mayonnaise, add the paprika and the pinch of cayenne, the ketchup, and the chopped chervil and parsley."
+        },
+        {
+          "text": "Gently mix everything together: mayonnaise, mushrooms, ham, cheese and the coquillettes."
+        },
+        {
+          "text": "Adjust the seasoning if needed."
+        },
+        {
+          "text": "Serve in small hors d'oeuvre dishes or in a salad bowl."
+        }
+      ]
+    },
+    "it": {
+      "title": "Insalata di coquillettes ai funghi champignon",
+      "description": "Coquillettes, funghi champignon al limone, prosciutto e formaggio a julienne, legati da una maionese insaporita con ketchup, paprika e pepe di Cayenna.",
+      "tags": [
+        "francese",
+        "nostalgico",
+        "ricetta-di-famiglia",
+        "antipasto",
+        "pasta",
+        "funghi",
+        "maiale",
+        "formaggio",
+        "freddo",
+        "buffet",
+        "preparazione-in-anticipo",
+        "da-condividere",
+        "facile"
+      ],
+      "ingredients": [
+        {
+          "items": [
+            "500 g di champignon freschi",
+            "200 g di prosciutto cotto (jambon de Paris)",
+            "200 g di groviera emmental",
+            "1 limone",
+            "500 g di coquillettes (gomiti piccoli)",
+            "30 g di cerfoglio",
+            "30 g di prezzemolo",
+            "1 dl di ketchup",
+            "1 l di maionese",
+            "½ cucchiaino di paprika",
+            "1 punta di pepe di Cayenna",
+            "Sale, pepe"
+          ]
+        }
+      ],
+      "steps": [
+        {
+          "text": "Cuocere le coquillettes, raffreddare e scolare."
+        },
+        {
+          "text": "Tagliare i funghi a dadini, aggiungere il succo di limone e mescolare."
+        },
+        {
+          "text": "Tagliare a julienne il prosciutto e il formaggio."
+        },
+        {
+          "text": "Tritare il cerfoglio e il prezzemolo."
+        },
+        {
+          "text": "Preparare 1 l di salsa maionese, aggiungere la paprika e la punta di Cayenna, il ketchup, il cerfoglio e il prezzemolo tritati."
+        },
+        {
+          "text": "Mescolare delicatamente il tutto: maionese, funghi, prosciutto, formaggio e le coquillettes."
+        },
+        {
+          "text": "Aggiustare di sale e pepe se necessario."
+        },
+        {
+          "text": "Servire in piccole ciotole da antipasto o in un'insalatiera."
+        }
+      ]
+    }
+  }
+}
