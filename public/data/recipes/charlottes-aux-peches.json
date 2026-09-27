@@ -3,8 +3,8 @@
   "title": "Charlottes aux pêches",
   "description": "Une charlotte de biscuits cuillères imbibés, garnie d'un bavarois à la liqueur et de quartiers de pêches, décorée de Chantilly et de fruits confits.",
   "images": {
-    "cover": "images/recipes/charlottes-aux-peches/cover.svg",
-    "web": "images/recipes/charlottes-aux-peches/cover.svg"
+    "cover": "images/recipes/charlottes-aux-peches/cover.webp",
+    "web": "images/recipes/charlottes-aux-peches/web.webp"
   },
   "prepTime": 60,
   "cookTime": 15,

@@ -3,8 +3,8 @@
   "title": "Gratin de pommes",
   "description": "Des pommes sautées au beurre, caramélisées et flambées au Calvados, puis nappées d'une crème aux œufs et gratinées au four.",
   "images": {
-    "cover": "images/recipes/gratin-de-pommes/cover.svg",
-    "web": "images/recipes/gratin-de-pommes/cover.svg"
+    "cover": "images/recipes/gratin-de-pommes/cover.webp",
+    "web": "images/recipes/gratin-de-pommes/web.webp"
   },
   "prepTime": 25,
   "cookTime": 50,

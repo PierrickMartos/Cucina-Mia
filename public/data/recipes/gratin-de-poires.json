@@ -3,8 +3,8 @@
   "title": "Gratin de poires",
   "description": "Des poires sautées au beurre, caramélisées et flambées à l'alcool de poire, puis gratinées au four sous une crème aux œufs.",
   "images": {
-    "cover": "images/recipes/gratin-de-poires/cover.svg",
-    "web": "images/recipes/gratin-de-poires/cover.svg"
+    "cover": "images/recipes/gratin-de-poires/cover.webp",
+    "web": "images/recipes/gratin-de-poires/web.webp"
   },
   "prepTime": 25,
   "cookTime": 50,

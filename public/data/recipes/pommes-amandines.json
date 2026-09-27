@@ -3,8 +3,8 @@
   "title": "Pommes amandines",
   "description": "Des boules de pommes Duchesse mêlées de pâte à choux, panées aux amandes effilées puis frites, croustillantes dehors et fondantes dedans.",
   "images": {
-    "cover": "images/recipes/pommes-amandines/cover.svg",
-    "web": "images/recipes/pommes-amandines/cover.svg"
+    "cover": "images/recipes/pommes-amandines/cover.webp",
+    "web": "images/recipes/pommes-amandines/web.webp"
   },
   "prepTime": 45,
   "cookTime": 40,

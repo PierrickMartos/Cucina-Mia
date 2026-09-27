@@ -3,8 +3,8 @@
   "title": "Marmelade de citrouille",
   "description": "Une marmelade douce de citrouille parfumée aux zestes et au jus d'oranges et de citron, cuite lentement puis réduite en purée.",
   "images": {
-    "cover": "images/recipes/marmelade-de-citrouille/cover.svg",
-    "web": "images/recipes/marmelade-de-citrouille/cover.svg"
+    "cover": "images/recipes/marmelade-de-citrouille/cover.webp",
+    "web": "images/recipes/marmelade-de-citrouille/web.webp"
   },
   "prepTime": 20,
   "cookTime": 75,

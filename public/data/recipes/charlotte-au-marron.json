@@ -3,8 +3,8 @@
   "title": "Charlotte au marron",
   "description": "Une charlotte de biscuits cuillères imbibés de sirop au rhum, garnie de couches de marquise au chocolat et de crème de marron au beurre.",
   "images": {
-    "cover": "images/recipes/charlotte-au-marron/cover.svg",
-    "web": "images/recipes/charlotte-au-marron/cover.svg"
+    "cover": "images/recipes/charlotte-au-marron/cover.webp",
+    "web": "images/recipes/charlotte-au-marron/web.webp"
   },
   "prepTime": 40,
   "cookTime": 0,

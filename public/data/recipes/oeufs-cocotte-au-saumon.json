@@ -3,8 +3,8 @@
   "title": "Œufs cocotte au saumon",
   "description": "Des œufs cuits au bain-marie entre deux rondelles de saumon fumé, nappés d'une crème réduite à l'aneth.",
   "images": {
-    "cover": "images/recipes/oeufs-cocotte-au-saumon/cover.svg",
-    "web": "images/recipes/oeufs-cocotte-au-saumon/cover.svg"
+    "cover": "images/recipes/oeufs-cocotte-au-saumon/cover.webp",
+    "web": "images/recipes/oeufs-cocotte-au-saumon/web.webp"
   },
   "prepTime": 15,
   "cookTime": 15,

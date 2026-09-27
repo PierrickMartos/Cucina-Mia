@@ -119,6 +119,202 @@
       "sourceImage": "https://www.lesfoodies.com/_recipeimage/279628/avocats-aux-crevettes-5.jpg",
       "match": "Avocado halves with shrimp, mayonnaise, chopped boiled egg and parsley; photo by Juste un oeuf.",
       "prompt": "Preserve food, ingredients, vessel and plating; moody dark rustic wood, upper-left warm natural light, soft shadows, shallow depth of field, landscape crop; no added ingredients, text or hands."
+    },
+    {
+      "slug": "souffle-crecy",
+      "sourcePage": "https://www.panelinha.com.br/receita/Sufle-de-cenoura",
+      "sourceImage": "https://cdn.panelinha.com.br/receita/1556563618868-IMG_6800.jpg",
+      "match": "Carrot soufflé with airy orange-gold interior in ramekin.",
+      "prompt": "Preserve food, ingredients, vessel and plating; moody dark rustic wood, upper-left warm natural light, soft shadows, shallow depth of field, landscape crop; no added ingredients, text or hands."
+    },
+    {
+      "slug": "souffle-aux-champignons",
+      "sourcePage": "https://www.750g.com/souffles-aux-champignons-r206368.htm",
+      "sourceImage": "https://static.750g.com/images/1200-630/9056b5b01ac843f1aee5de93d7f749e0/souffle1.jpg",
+      "match": "Golden risen mushroom soufflé with visible mushroom flecks in pale sides.",
+      "prompt": "Preserve food, ingredients, vessel and plating; moody dark rustic wood, upper-left warm natural light, soft shadows, shallow depth of field, landscape crop; no added ingredients, text or hands."
+    },
+    {
+      "slug": "souffle-florentin",
+      "sourcePage": "https://tn.com.ar/cocina/2024/02/14/como-hacer-souffle-de-espinacas-rapido-y-facil-receta-paso-a-paso/",
+      "sourceImage": "https://cloudfront-us-east-1.images.arcpublishing.com/artear/H3IWPPKO4NDQHNTZWFGJVJ5244.png",
+      "match": "Spinach soufflé with green spinach distributed through the pale airy base.",
+      "prompt": "Preserve food, ingredients, vessel and plating; moody dark rustic wood, upper-left warm natural light, soft shadows, shallow depth of field, landscape crop; no added ingredients, text or hands."
+    },
+    {
+      "slug": "souffle-a-la-tomate",
+      "sourcePage": "https://www.gotvetesmen.com/recepta/sufle-ot-domati-i-sirene",
+      "sourceImage": "https://p.gotvetesmen.com/s/u/sufle-domati-sirene-12666-1140x0.jpg",
+      "match": "Tomato souffle in ramekins; source also includes cheese and basil garnish.",
+      "prompt": "Preserve food, ingredients, vessel and plating; moody dark rustic wood, upper-left warm natural light, soft shadows, shallow depth of field, landscape crop; no added ingredients, text or hands."
+    },
+    {
+      "slug": "souffle-aux-crevettes",
+      "sourcePage": "https://www.salepepe.it/ricette/torte-salate-souffle/souffle/gamberi-timo/",
+      "sourceImage": "https://www.salepepe.it/files/2014/04/di-gamberi-al-timo-ricetta-1140x636.jpg",
+      "match": "Shrimp bechamel souffle; source thyme garnish instead of parsley.",
+      "prompt": "Preserve food, ingredients, vessel and plating; moody dark rustic wood, upper-left warm natural light, soft shadows, shallow depth of field, landscape crop; no added ingredients, text or hands."
+    },
+    {
+      "slug": "souffle-a-la-bisque-de-homard",
+      "sourcePage": "https://chefsimon.com/gourmets/la-perle-des-dieux/recettes/souffle-a-la-bisque-de-homard",
+      "sourceImage": "https://s3-eu-west-1.amazonaws.com/images-ca-1-0-1-eu/recipe_photos/original/238450/SouffleBisque_2021_HD-1-1984x1368-76110237a17c.webp",
+      "match": "Lobster bisque souffle in white ramekin; branded bottle removed from surroundings.",
+      "prompt": "Preserve food, ingredients, vessel and plating; moody dark rustic wood, upper-left warm natural light, soft shadows, shallow depth of field, landscape crop; no added ingredients, text or hands."
+    },
+    {
+      "slug": "souffle-aux-poires",
+      "sourcePage": "https://www.academiedugout.fr/recettes/souffle-chaud-a-la-poire_16541_2",
+      "sourceImage": "https://www.academiedugout.fr/images/77533/970-580/58-souffle-poire03.jpg?poix=50&poiy=50",
+      "match": "Pear souffle, airy pale sides and golden cap; person removed from surroundings.",
+      "prompt": "Preserve food, ingredients, vessel and plating; moody dark rustic wood, upper-left warm natural light, soft shadows, shallow depth of field, landscape crop; no added ingredients, text or hands."
+    },
+    {
+      "slug": "souffle-aux-moules",
+      "sourcePage": "https://www.kogebog.dk/527/souffl%C3%A9-med-muslinger",
+      "sourceImage": "https://www.kogebog.dk/images/show_images/34/2021/9/souffl%C3%A9-med-muslinger_1632734052429.png",
+      "match": "Mussel bechamel souffle; separate dip, eggs and endive props omitted.",
+      "prompt": "Preserve food, ingredients, vessel and plating; moody dark rustic wood, upper-left warm natural light, soft shadows, shallow depth of field, landscape crop; no added ingredients, text or hands."
+    },
+    {
+      "slug": "charlottes-aux-fraises-ou-framboises",
+      "sourcePage": "https://experiencesgourmandess.blogspot.com/2013/05/charlotte-aux-fraises.html",
+      "sourceImage": "https://4.bp.blogspot.com/-OctuLCOxEtU/UZzqXjcy9SI/AAAAAAAADuU/oDRq7FEnHg4/s1600/107.JPG",
+      "match": "Strawberry variant with vanilla bavarois and ladyfingers; existing mint garnish and ribbon retained.",
+      "prompt": "Preserve food, ingredients, vessel and plating; moody dark rustic wood, upper-left warm natural light, soft shadows, shallow depth of field, landscape crop; no added ingredients, text or hands."
+    },
+    {
+      "slug": "charlotte-au-marron",
+      "sourcePage": "https://www.mymarket.gr/recipes/sarlot-me-krema-kastanou-kai-sokolata",
+      "sourceImage": "https://cdn.mymarket.gr/images/styles/recipe_image/Untitled-20.jpg",
+      "match": "Chestnut chocolate charlotte with ladyfingers; source mixes filling rather than alternating layers and adds piped cream/cocoa decoration.",
+      "prompt": "Preserve food, ingredients, vessel and plating; moody dark rustic wood, upper-left warm natural light, soft shadows, shallow depth of field, landscape crop; no added ingredients, text or hands."
+    },
+    {
+      "slug": "charlottes-aux-peches",
+      "sourcePage": "https://cuisine.journaldesfemmes.fr/recette/304427-charlotte-aux-peches",
+      "sourceImage": "https://img-3.journaldesfemmes.fr/sEEEqfUI5yR1Ck9OdWaDSDU74ZA%3D/750x/smart/f277ff4e52684a32ae0565c0773adaff/recipe-jdf/300987.jpg",
+      "match": "Peach bavarois charlotte with ladyfingers and chantilly; peach fans instead of candied fruit decoration.",
+      "prompt": "Preserve food, ingredients, vessel and plating; moody dark rustic wood, upper-left warm natural light, soft shadows, shallow depth of field, landscape crop; no added ingredients, text or hands."
+    },
+    {
+      "slug": "crepes-soufflees",
+      "sourcePage": "https://cookpad.com/eng/recipes/16783622",
+      "sourceImage": "https://img-global.cpcdn.com/recipes/d3b87cad70363c85/680x781cq80/grand-marnier-souffle-crepe-recipe-main-photo.jpg",
+      "match": "Folded crepe with souffle pastry cream and Grand Marnier, powdered sugar.",
+      "prompt": "Preserve food, ingredients, vessel and plating; moody dark rustic wood, upper-left warm natural light, soft shadows, shallow depth of field, landscape crop; no added ingredients, text or hands."
+    },
+    {
+      "slug": "crepes-normandes",
+      "sourcePage": "https://www.federationdesdiabetiques.org/diabete/recettes/crepes-normandes",
+      "sourceImage": "https://www.federationdesdiabetiques.org/public/content/1/img/crepes-normandes.jpg",
+      "match": "Rolled crepes filled with cooked apple slices, Calvados preparation; source also includes cinnamon.",
+      "prompt": "Preserve food, ingredients, vessel and plating; moody dark rustic wood, upper-left warm natural light, soft shadows, shallow depth of field, landscape crop; no added ingredients, text or hands."
+    },
+    {
+      "slug": "chorba",
+      "sourcePage": "https://www.weightwatchers.com/fr/recette/chorba/58cf9a825a6e3a755e108937",
+      "sourceImage": "https://v.cdn.ww.com/media/system/wine/58cf9a771fdedb9b1a157a35/98ee5b34-912a-40e2-a193-36503742121a/sflpiajyimypnr1pcmxt.jpg",
+      "match": "Lamb tomato broth with orzo, chickpeas, zucchini and mint; source does not include green peas.",
+      "prompt": "Preserve food, ingredients, vessel and plating; moody dark rustic wood, upper-left warm natural light, soft shadows, shallow depth of field, landscape crop; no added ingredients, text or hands."
+    },
+    {
+      "slug": "faisan-au-chou",
+      "sourcePage": "https://gbourcier.canalblog.com/archive/2021-12/",
+      "sourceImage": "https://recettes.de/images/blogs/petites-gourmandises/cocotte-de-faisan-au-chou-et-lard-1879.640x480.jpg",
+      "match": "Braised pheasant pieces with cabbage and bacon; source without carrots.",
+      "prompt": "Preserve food, ingredients, vessel and plating; moody dark rustic wood, upper-left warm natural light, soft shadows, shallow depth of field, landscape crop; no added ingredients, text or hands."
+    },
+    {
+      "slug": "oeufs-cocotte-au-saumon",
+      "sourcePage": "https://www.mavieencouleurs.fr/cuisine/oeufs/entree/oeuf-cocotte-au-saumon",
+      "sourceImage": "https://www.mavieencouleurs.fr/sites/default/files/styles/recipe_banner/public/photos/mvc_recipe/100662.jpg.webp?itok=XYE8-LVY",
+      "match": "Egg with smoked salmon, cream and dill; dill sprigs instead of chopped, salmon slices around egg rather than rounds.",
+      "prompt": "Preserve food, ingredients, vessel and plating; moody dark rustic wood, upper-left warm natural light, soft shadows, shallow depth of field, landscape crop; no added ingredients, text or hands."
+    },
+    {
+      "slug": "truffes-au-marron-et-chocolat",
+      "sourcePage": "https://www.lacucinaitaliana.com/italian-food/how-to-cook/chestnuts-chocolate-truffles",
+      "sourceImage": "https://media.lacucinaitaliana.com/photos/5fd10b9e182d9bbfa47377cb/4%3A5/h_800%2Cc_limit/Chocolate%20and%20Chestnut%20Truffles%205.jpg",
+      "match": "Chestnut chocolate truffles in cocoa, paper cases nearby; source uses rum rather than Cognac.",
+      "prompt": "Preserve food, ingredients, vessel and plating; moody dark rustic wood, upper-left warm natural light, soft shadows, shallow depth of field, landscape crop; no added ingredients, text or hands."
+    },
+    {
+      "slug": "gateau-aux-marrons-l-ardechois",
+      "sourcePage": "https://www.pardonyourfrench.com/chestnut-cream-cake-gateau-ardechois/",
+      "sourceImage": "https://i0.wp.com/www.pardonyourfrench.com/wp-content/uploads/2019/12/Chestnut-Cream-Cake-Gateau-Ardechois-6.jpg?fit=1200%2C1798&ssl=1",
+      "match": "Ardechois chestnut cream butter sponge cake, shown plain with powdered sugar.",
+      "prompt": "Preserve food, ingredients, vessel and plating; moody dark rustic wood, upper-left warm natural light, soft shadows, shallow depth of field, landscape crop; no added ingredients, text or hands."
+    },
+    {
+      "slug": "gateau-fondant-aux-poires-caramelisees",
+      "sourcePage": "https://chefsimon.com/gourmets/domi-t/recettes/gateau-renverse-aux-poires",
+      "sourceImage": "https://s3-eu-west-1.amazonaws.com/images-ca-1-0-1-eu/recipe_photos/original/181328/artimage_830202_8225956_201905225852315.jpg",
+      "match": "Round upside down caramelized pear cake with fruit rosette and sponge base.",
+      "prompt": "Preserve food, ingredients, vessel and plating; moody dark rustic wood, upper-left warm natural light, soft shadows, shallow depth of field, landscape crop; no added ingredients, text or hands."
+    },
+    {
+      "slug": "gratin-de-poires",
+      "sourcePage": "https://www.marmiton.org/recettes/recette_clafoutis-cremeux-aux-poires_22339.aspx",
+      "sourceImage": "https://assets.afcdn.com/recipe/20141116/48958_w1024h1024c1cx1125cy1500.jpg",
+      "match": "Sliced pears baked in egg milk cream custard, no pastry or almond topping.",
+      "prompt": "Preserve food, ingredients, vessel and plating; moody dark rustic wood, upper-left warm natural light, soft shadows, shallow depth of field, landscape crop; no added ingredients, text or hands."
+    },
+    {
+      "slug": "pommes-amandines",
+      "sourcePage": "https://www.meilleurduchef.com/fr/recette/pomme-amandine.html",
+      "sourceImage": "https://files.meilleurduchef.com/mdc/photo/recette/pomme-amandine/pomme-amandine-640.jpg",
+      "match": "Fried potato balls with sliced almond coating; source duchess potato base without choux.",
+      "prompt": "Preserve food, ingredients, vessel and plating; moody dark rustic wood, upper-left warm natural light, soft shadows, shallow depth of field, landscape crop; no added ingredients, text or hands."
+    },
+    {
+      "slug": "gratin-de-pommes",
+      "sourcePage": "https://dairyfarmersofcanada.ca/en/canadian-goodness/recipes/apple-clafouti",
+      "sourceImage": "https://dairyfarmersofcanada.ca/sites/default/files/image_file_browser/conso_recipe/apple-clafouti.jpg",
+      "match": "Apple wedges baked in milk egg custard, browned top; source clafouti uses flour rather than cornstarch.",
+      "prompt": "Preserve food, ingredients, vessel and plating; moody dark rustic wood, upper-left warm natural light, soft shadows, shallow depth of field, landscape crop; no added ingredients, text or hands."
+    },
+    {
+      "slug": "gratin-de-prunes",
+      "sourcePage": "https://cuisine.journaldesfemmes.fr/recette/3116831-clafoutis-aux-prunes",
+      "sourceImage": "https://img-3.journaldesfemmes.fr/AOI9NQNS8j1UR4EWs9ao4nG5siE%3D/800x600/421defb0a27847b1a99f6966299bb75a/ccmcms-jdf/39703648.jpg",
+      "match": "Fresh plum wedges in baked egg milk custard; source uses quarters and flour rather than halves and cornstarch.",
+      "prompt": "Preserve food, ingredients, vessel and plating; moody dark rustic wood, upper-left warm natural light, soft shadows, shallow depth of field, landscape crop; no added ingredients, text or hands."
+    },
+    {
+      "slug": "marmelade-de-citrouille",
+      "sourcePage": "https://cuisine.journaldesfemmes.fr/recette/322009-confiture-de-potiron-aux-agrumes",
+      "sourceImage": "https://img-3.journaldesfemmes.fr/Q3Hjmk84gm7WlMQJVh_u1k9NK0c%3D/800x600/bd7df6af012146a285016c8412e5532e/ccmcms-jdf/39915688.jpg",
+      "match": "Pumpkin preserve with orange and lemon, pulpy spreadable texture.",
+      "prompt": "Preserve food, ingredients, vessel and plating; moody dark rustic wood, upper-left warm natural light, soft shadows, shallow depth of field, landscape crop; no added ingredients, text or hands."
+    },
+    {
+      "slug": "souffle-liqueur",
+      "sourcePage": "https://www.levivier-lomener.com/album-8-Les_desserts.html",
+      "sourceImage": "https://www.levivier-lomener.com/albums/8/8_201102Wed102502_SOUFFLEMARNIERLEVIVIERIMG0644.jpg",
+      "match": "Grand Marnier souffle, one of the recipe liqueur options; powdered sugar finish.",
+      "prompt": "Preserve food, ingredients, vessel and plating; moody dark rustic wood, upper-left warm natural light, soft shadows, shallow depth of field, landscape crop; no added ingredients, text or hands."
+    },
+    {
+      "slug": "souffle-glace-a-l-orange",
+      "sourcePage": "https://cookidoo.com.cn/recipes/recipe/en-CN/r48798",
+      "sourceImage": "https://assets.tmecosys.cn/image/upload/t_web_rdp_recipe_584x480_1_5x/img/recipe/ras/Assets/E9050362-92FD-4331-8F78-4DAB0CBFDACF/Derivates/C779A255-BE05-444F-86E9-BACC04E35457.jpg",
+      "match": "Frozen orange souffle in raised ramekin, cocoa and orange zest; source uses Grand Marnier and omits chopped almond topping.",
+      "prompt": "Preserve food, ingredients, vessel and plating; moody dark rustic wood, upper-left warm natural light, soft shadows, shallow depth of field, landscape crop; no added ingredients, text or hands."
+    },
+    {
+      "slug": "tomates-soufflees",
+      "sourcePage": "https://www.gutekueche.ch/souffle-tomaten-rezept-8920",
+      "sourceImage": "https://cdn.gutekueche.ch/media/recipe/20044/souffle-tomaten.jpg",
+      "match": "Hollow tomato filled with cheese bechamel souffle; existing basil garnish retained, separate bread removed.",
+      "prompt": "Preserve food, ingredients, vessel and plating; moody dark rustic wood, upper-left warm natural light, soft shadows, shallow depth of field, landscape crop; no added ingredients, text or hands."
+    },
+    {
+      "slug": "tarte-au-thon-a-la-catalane",
+      "sourcePage": "https://www.marmiton.org/recettes/recette_tarte-au-thon-tomates-et-poivrons_336710.aspx",
+      "sourceImage": "https://assets.afcdn.com/recipe/20150426/60553_w1024h768c1cx708cy559.jpg",
+      "match": "Tuna tomato pepper quiche; source puff pastry rather than shortcrust, includes sheep cheese, turmeric and basil.",
+      "prompt": "Preserve food, ingredients, vessel and plating; moody dark rustic wood, upper-left warm natural light, soft shadows, shallow depth of field, landscape crop; no added ingredients, text or hands."
     }
   ],
   "pending": [
@@ -131,24 +327,17 @@
     "blancs-de-volaille-au-curry",
     "calderade-de-poisson",
     "canard-farci-braise-aux-navets",
-    "charlotte-au-marron",
-    "charlottes-aux-fraises-ou-framboises",
-    "charlottes-aux-peches",
     "chausson-ou-feuillete-aux-fruits-de-mer",
-    "chorba",
     "concombres-farcis",
     "confiture-d-oignons-et-de-raisins",
     "confiture-de-poires-aux-agrumes",
     "couscous-de-poissons-et-fruits-de-mer",
     "crepes-a-la-peche-et-glace",
-    "crepes-normandes",
     "crepes-savoyardes-aux-morilles",
-    "crepes-soufflees",
     "dartois-au-thon",
     "dartois-savoyard",
     "escalopes-de-canard-au-gingembre",
     "escargots-a-la-forestiere",
-    "faisan-au-chou",
     "faisan-braise-sur-choucroute",
     "filets-de-sole-a-la-norvegienne",
     "flan-au-cacao",
@@ -163,21 +352,14 @@
     "fricassee-de-lotte-aux-pates-fraiches",
     "fricassee-de-veau-aux-aubergines-et-pruneaux",
     "fruits-deguises",
-    "gateau-aux-marrons-l-ardechois",
-    "gateau-fondant-aux-poires-caramelisees",
     "gelee-d-agrumes-aux-zestes-confits",
     "gelee-et-confit-de-coings-et-pommes",
     "gratin-de-bananes-kiwis-ananas",
     "gratin-de-bananes-kiwis-ananas-mangues-litchis",
     "gratin-de-fruits-exotiques-autre-preparation",
-    "gratin-de-poires",
-    "gratin-de-pommes",
-    "gratin-de-prunes",
     "haddock-a-l-alsacienne",
-    "marmelade-de-citrouille",
     "marmite-du-pecheur",
     "mousse-de-poisson",
-    "oeufs-cocotte-au-saumon",
     "oeufs-durs-vert-pre",
     "oeufs-en-gelee",
     "oeufs-poches-en-matelote",
@@ -187,7 +369,6 @@
     "petits-biscuits-au-chocolat",
     "piccata-de-veau-au-porto",
     "pintadeau-au-paprika",
-    "pommes-amandines",
     "poularde-en-pot-au-feu",
     "poulet-au-miel-et-aux-epices",
     "pudding-aux-fruits",
@@ -204,24 +385,13 @@
     "salade-de-riz-aux-fruits-de-mer",
     "salade-flamande-aux-champignons-de-paris",
     "salade-percheronne-aux-champignons-de-paris",
-    "souffle-a-la-bisque-de-homard",
-    "souffle-a-la-tomate",
     "souffle-antillais",
     "souffle-arlequin",
-    "souffle-aux-champignons",
-    "souffle-aux-crevettes",
-    "souffle-aux-moules",
-    "souffle-aux-poires",
-    "souffle-crecy",
-    "souffle-florentin",
-    "souffle-glace-a-l-orange",
-    "souffle-liqueur",
     "souffle-martiniquais",
     "soupe-de-peches-a-la-menthe-et-chocolat-noir",
     "soupe-de-peches-aux-agrumes",
     "tagliatelles-aux-moules",
     "tarte-a-la-nicoise",
-    "tarte-au-thon-a-la-catalane",
     "terrine-aux-crevettes-et-poivrons-verts",
     "terrine-de-courgettes-au-basilic",
     "terrine-de-lapin-aux-noisettes-et-genievre",
@@ -229,8 +399,6 @@
     "timbale-d-epinards",
     "timbale-de-fruits-de-mer",
     "tomates-en-surprise-aux-champignons-de-paris",
-    "tomates-soufflees",
-    "tourte-cherbourgeoise",
-    "truffes-au-marron-et-chocolat"
+    "tourte-cherbourgeoise"
   ]
 }

@@ -3,8 +3,8 @@
   "title": "Soufflé Crécy",
   "description": "Un soufflé léger à la purée de carottes, monté sur une béchamel aux jaunes d'œufs, cuit à four doux en ramequins ou en plat.",
   "images": {
-    "cover": "images/recipes/souffle-crecy/cover.svg",
-    "web": "images/recipes/souffle-crecy/cover.svg"
+    "cover": "images/recipes/souffle-crecy/cover.webp",
+    "web": "images/recipes/souffle-crecy/web.webp"
   },
   "prepTime": 20,
   "cookTime": 40,

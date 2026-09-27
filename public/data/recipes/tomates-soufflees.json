@@ -3,8 +3,8 @@
   "title": "Tomates soufflées",
   "description": "De belles tomates évidées, précuites au four puis garnies d'un soufflé au gruyère, à servir aussitôt.",
   "images": {
-    "cover": "images/recipes/tomates-soufflees/cover.svg",
-    "web": "images/recipes/tomates-soufflees/cover.svg"
+    "cover": "images/recipes/tomates-soufflees/cover.webp",
+    "web": "images/recipes/tomates-soufflees/web.webp"
   },
   "prepTime": 20,
   "cookTime": 25,

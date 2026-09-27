@@ -3,8 +3,8 @@
   "title": "Faisan au chou",
   "description": "Un faisan doré au beurre puis cuit au vin blanc, servi sur un chou vert mijoté avec des lardons et le jus de cuisson.",
   "images": {
-    "cover": "images/recipes/faisan-au-chou/cover.svg",
-    "web": "images/recipes/faisan-au-chou/cover.svg"
+    "cover": "images/recipes/faisan-au-chou/cover.webp",
+    "web": "images/recipes/faisan-au-chou/web.webp"
   },
   "prepTime": 30,
   "cookTime": 75,

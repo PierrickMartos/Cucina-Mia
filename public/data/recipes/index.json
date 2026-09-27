@@ -7670,8 +7670,8 @@
     "title": "Pommes amandines",
     "description": "Des boules de pommes Duchesse mêlées de pâte à choux, panées aux amandes effilées puis frites, croustillantes dehors et fondantes dedans.",
     "images": {
-      "cover": "images/recipes/pommes-amandines/cover.svg",
-      "web": "images/recipes/pommes-amandines/cover.svg"
+      "cover": "images/recipes/pommes-amandines/cover.webp",
+      "web": "images/recipes/pommes-amandines/web.webp"
     },
     "prepTime": 45,
     "cookTime": 40,
@@ -7880,8 +7880,8 @@
     "title": "Tomates soufflées",
     "description": "De belles tomates évidées, précuites au four puis garnies d'un soufflé au gruyère, à servir aussitôt.",
     "images": {
-      "cover": "images/recipes/tomates-soufflees/cover.svg",
-      "web": "images/recipes/tomates-soufflees/cover.svg"
+      "cover": "images/recipes/tomates-soufflees/cover.webp",
+      "web": "images/recipes/tomates-soufflees/web.webp"
     },
     "prepTime": 20,
     "cookTime": 25,
@@ -8671,8 +8671,8 @@
     "title": "Marmelade de citrouille",
     "description": "Une marmelade douce de citrouille parfumée aux zestes et au jus d'oranges et de citron, cuite lentement puis réduite en purée.",
     "images": {
-      "cover": "images/recipes/marmelade-de-citrouille/cover.svg",
-      "web": "images/recipes/marmelade-de-citrouille/cover.svg"
+      "cover": "images/recipes/marmelade-de-citrouille/cover.webp",
+      "web": "images/recipes/marmelade-de-citrouille/web.webp"
     },
     "prepTime": 20,
     "cookTime": 75,
@@ -9323,8 +9323,8 @@
     "title": "Chorba",
     "description": "Soupe épicée à l'agneau, aux courgettes, pois chiches et petites pâtes, parfumée à la menthe, au paprika et à la coriandre fraîche.",
     "images": {
-      "cover": "images/recipes/chorba/cover.svg",
-      "web": "images/recipes/chorba/cover.svg"
+      "cover": "images/recipes/chorba/cover.webp",
+      "web": "images/recipes/chorba/web.webp"
     },
     "prepTime": 30,
     "cookTime": 65,
@@ -12719,8 +12719,8 @@
     "title": "Œufs cocotte au saumon",
     "description": "Des œufs cuits au bain-marie entre deux rondelles de saumon fumé, nappés d'une crème réduite à l'aneth.",
     "images": {
-      "cover": "images/recipes/oeufs-cocotte-au-saumon/cover.svg",
-      "web": "images/recipes/oeufs-cocotte-au-saumon/cover.svg"
+      "cover": "images/recipes/oeufs-cocotte-au-saumon/cover.webp",
+      "web": "images/recipes/oeufs-cocotte-au-saumon/web.webp"
     },
     "prepTime": 15,
     "cookTime": 15,
@@ -13137,8 +13137,8 @@
     "title": "Tarte au thon à la catalane",
     "description": "Une tarte sur pâte brisée garnie d'oignons, poivrons et tomates compotés à l'huile d'olive, relevée d'harissa et parsemée de thon.",
     "images": {
-      "cover": "images/recipes/tarte-au-thon-a-la-catalane/cover.svg",
-      "web": "images/recipes/tarte-au-thon-a-la-catalane/cover.svg"
+      "cover": "images/recipes/tarte-au-thon-a-la-catalane/cover.webp",
+      "web": "images/recipes/tarte-au-thon-a-la-catalane/web.webp"
     },
     "prepTime": 30,
     "cookTime": 40,
@@ -15208,8 +15208,8 @@
     "title": "Faisan au chou",
     "description": "Un faisan doré au beurre puis cuit au vin blanc, servi sur un chou vert mijoté avec des lardons et le jus de cuisson.",
     "images": {
-      "cover": "images/recipes/faisan-au-chou/cover.svg",
-      "web": "images/recipes/faisan-au-chou/cover.svg"
+      "cover": "images/recipes/faisan-au-chou/cover.webp",
+      "web": "images/recipes/faisan-au-chou/web.webp"
     },
     "prepTime": 30,
     "cookTime": 75,
@@ -16523,8 +16523,8 @@
     "title": "Charlotte au marron",
     "description": "Une charlotte de biscuits cuillères imbibés de sirop au rhum, garnie de couches de marquise au chocolat et de crème de marron au beurre.",
     "images": {
-      "cover": "images/recipes/charlotte-au-marron/cover.svg",
-      "web": "images/recipes/charlotte-au-marron/cover.svg"
+      "cover": "images/recipes/charlotte-au-marron/cover.webp",
+      "web": "images/recipes/charlotte-au-marron/web.webp"
     },
     "prepTime": 40,
     "cookTime": 0,
@@ -16589,8 +16589,8 @@
     "title": "Charlottes aux fraises ou framboises",
     "description": "Une charlotte de biscuits cuillères garnie de couches de bavarois à la vanille et de fraises ou de framboises, servie avec un coulis.",
     "images": {
-      "cover": "images/recipes/charlottes-aux-fraises-ou-framboises/cover.svg",
-      "web": "images/recipes/charlottes-aux-fraises-ou-framboises/cover.svg"
+      "cover": "images/recipes/charlottes-aux-fraises-ou-framboises/cover.webp",
+      "web": "images/recipes/charlottes-aux-fraises-ou-framboises/web.webp"
     },
     "prepTime": 45,
     "cookTime": 15,
@@ -16655,8 +16655,8 @@
     "title": "Charlottes aux pêches",
     "description": "Une charlotte de biscuits cuillères imbibés, garnie d'un bavarois à la liqueur et de quartiers de pêches, décorée de Chantilly et de fruits confits.",
     "images": {
-      "cover": "images/recipes/charlottes-aux-peches/cover.svg",
-      "web": "images/recipes/charlottes-aux-peches/cover.svg"
+      "cover": "images/recipes/charlottes-aux-peches/cover.webp",
+      "web": "images/recipes/charlottes-aux-peches/web.webp"
     },
     "prepTime": 60,
     "cookTime": 15,
@@ -17091,8 +17091,8 @@
     "title": "Crêpes normandes",
     "description": "Des crêpes sucrées garnies de pommes Reinette caramélisées au beurre et flambées au Calvados, roulées et servies chaudes.",
     "images": {
-      "cover": "images/recipes/crepes-normandes/cover.svg",
-      "web": "images/recipes/crepes-normandes/cover.svg"
+      "cover": "images/recipes/crepes-normandes/cover.webp",
+      "web": "images/recipes/crepes-normandes/web.webp"
     },
     "prepTime": 20,
     "cookTime": 20,
@@ -17163,8 +17163,8 @@
     "title": "Crêpes soufflées",
     "description": "Des crêpes sucrées garnies de crème pâtissière allégée aux blancs en neige et parfumée à la liqueur, soufflées au four.",
     "images": {
-      "cover": "images/recipes/crepes-soufflees/cover.svg",
-      "web": "images/recipes/crepes-soufflees/cover.svg"
+      "cover": "images/recipes/crepes-soufflees/cover.webp",
+      "web": "images/recipes/crepes-soufflees/web.webp"
     },
     "prepTime": 20,
     "cookTime": 15,
@@ -17783,8 +17783,8 @@
     "title": "Gratin de poires",
     "description": "Des poires sautées au beurre, caramélisées et flambées à l'alcool de poire, puis gratinées au four sous une crème aux œufs.",
     "images": {
-      "cover": "images/recipes/gratin-de-poires/cover.svg",
-      "web": "images/recipes/gratin-de-poires/cover.svg"
+      "cover": "images/recipes/gratin-de-poires/cover.webp",
+      "web": "images/recipes/gratin-de-poires/web.webp"
     },
     "prepTime": 25,
     "cookTime": 50,
@@ -17852,8 +17852,8 @@
     "title": "Gratin de pommes",
     "description": "Des pommes sautées au beurre, caramélisées et flambées au Calvados, puis nappées d'une crème aux œufs et gratinées au four.",
     "images": {
-      "cover": "images/recipes/gratin-de-pommes/cover.svg",
-      "web": "images/recipes/gratin-de-pommes/cover.svg"
+      "cover": "images/recipes/gratin-de-pommes/cover.webp",
+      "web": "images/recipes/gratin-de-pommes/web.webp"
     },
     "prepTime": 25,
     "cookTime": 50,
@@ -17921,8 +17921,8 @@
     "title": "Gratin de prunes",
     "description": "Des prunes sautées au beurre, caramélisées et flambées à l'alcool de prune, nappées d'un appareil au lait, à la crème et aux œufs, puis gratinées au four.",
     "images": {
-      "cover": "images/recipes/gratin-de-prunes/cover.svg",
-      "web": "images/recipes/gratin-de-prunes/cover.svg"
+      "cover": "images/recipes/gratin-de-prunes/cover.webp",
+      "web": "images/recipes/gratin-de-prunes/web.webp"
     },
     "prepTime": 20,
     "cookTime": 40,
@@ -19050,8 +19050,8 @@
     "title": "Gâteau aux marrons l'ardéchois",
     "description": "Un gâteau moelleux à la crème de marron ou aux brisures de marrons glacés, parfumé à la vanille, servi avec une crème anglaise ou une sauce au chocolat.",
     "images": {
-      "cover": "images/recipes/gateau-aux-marrons-l-ardechois/cover.svg",
-      "web": "images/recipes/gateau-aux-marrons-l-ardechois/cover.svg"
+      "cover": "images/recipes/gateau-aux-marrons-l-ardechois/cover.webp",
+      "web": "images/recipes/gateau-aux-marrons-l-ardechois/web.webp"
     },
     "prepTime": 20,
     "cookTime": 40,
@@ -19265,8 +19265,8 @@
     "title": "Gâteau fondant aux poires caramélisées",
     "description": "Des poires en rosace sur un moule caramélisé, recouvertes d'une pâte au beurre parfumée à l'alcool de poire, servies avec une crème anglaise.",
     "images": {
-      "cover": "images/recipes/gateau-fondant-aux-poires-caramelisees/cover.svg",
-      "web": "images/recipes/gateau-fondant-aux-poires-caramelisees/cover.svg"
+      "cover": "images/recipes/gateau-fondant-aux-poires-caramelisees/cover.webp",
+      "web": "images/recipes/gateau-fondant-aux-poires-caramelisees/web.webp"
     },
     "prepTime": 30,
     "cookTime": 50,
@@ -19767,8 +19767,8 @@
     "title": "Soufflé à la bisque de homard",
     "description": "Un soufflé salé monté sur une béchamel parfumée à la bisque de homard et relevée d'une pointe de Cayenne, à servir dès la sortie du four.",
     "images": {
-      "cover": "images/recipes/souffle-a-la-bisque-de-homard/cover.svg",
-      "web": "images/recipes/souffle-a-la-bisque-de-homard/cover.svg"
+      "cover": "images/recipes/souffle-a-la-bisque-de-homard/cover.webp",
+      "web": "images/recipes/souffle-a-la-bisque-de-homard/web.webp"
     },
     "prepTime": 20,
     "cookTime": 40,
@@ -19833,8 +19833,8 @@
     "title": "Soufflé à la tomate",
     "description": "Un soufflé léger sur une base de béchamel aux jaunes d'œufs, relevée de tomates concassées et de muscade, cuit en ramequins ou en plat.",
     "images": {
-      "cover": "images/recipes/souffle-a-la-tomate/cover.svg",
-      "web": "images/recipes/souffle-a-la-tomate/cover.svg"
+      "cover": "images/recipes/souffle-a-la-tomate/cover.webp",
+      "web": "images/recipes/souffle-a-la-tomate/web.webp"
     },
     "prepTime": 20,
     "cookTime": 45,
@@ -19965,8 +19965,8 @@
     "title": "Soufflé aux champignons",
     "description": "Un soufflé léger sur une base de béchamel aux jaunes d'œufs, garni de champignons hachés, cuit en ramequins ou en plat.",
     "images": {
-      "cover": "images/recipes/souffle-aux-champignons/cover.svg",
-      "web": "images/recipes/souffle-aux-champignons/cover.svg"
+      "cover": "images/recipes/souffle-aux-champignons/cover.webp",
+      "web": "images/recipes/souffle-aux-champignons/web.webp"
     },
     "prepTime": 25,
     "cookTime": 45,
@@ -20031,8 +20031,8 @@
     "title": "Soufflé aux crevettes",
     "description": "Un soufflé léger sur une béchamel aux jaunes d'œufs, garni de crevettes roses sautées au beurre et persillées, en ramequins ou en grand plat.",
     "images": {
-      "cover": "images/recipes/souffle-aux-crevettes/cover.svg",
-      "web": "images/recipes/souffle-aux-crevettes/cover.svg"
+      "cover": "images/recipes/souffle-aux-crevettes/cover.webp",
+      "web": "images/recipes/souffle-aux-crevettes/web.webp"
     },
     "prepTime": 25,
     "cookTime": 45,
@@ -20100,8 +20100,8 @@
     "title": "Soufflé aux moules",
     "description": "Un soufflé léger sur une base de béchamel, garni de moules sautées au beurre et persillées, cuit à four doux.",
     "images": {
-      "cover": "images/recipes/souffle-aux-moules/cover.svg",
-      "web": "images/recipes/souffle-aux-moules/cover.svg"
+      "cover": "images/recipes/souffle-aux-moules/cover.webp",
+      "web": "images/recipes/souffle-aux-moules/web.webp"
     },
     "prepTime": 20,
     "cookTime": 40,
@@ -20163,8 +20163,8 @@
     "title": "Soufflé Crécy",
     "description": "Un soufflé léger à la purée de carottes, monté sur une béchamel aux jaunes d'œufs, cuit à four doux en ramequins ou en plat.",
     "images": {
-      "cover": "images/recipes/souffle-crecy/cover.svg",
-      "web": "images/recipes/souffle-crecy/cover.svg"
+      "cover": "images/recipes/souffle-crecy/cover.webp",
+      "web": "images/recipes/souffle-crecy/web.webp"
     },
     "prepTime": 20,
     "cookTime": 40,
@@ -20232,8 +20232,8 @@
     "title": "Soufflé florentin",
     "description": "Un soufflé léger à base de béchamel et d'épinards hachés, cuit à four doux en ramequins ou en plat.",
     "images": {
-      "cover": "images/recipes/souffle-florentin/cover.svg",
-      "web": "images/recipes/souffle-florentin/cover.svg"
+      "cover": "images/recipes/souffle-florentin/cover.webp",
+      "web": "images/recipes/souffle-florentin/web.webp"
     },
     "prepTime": 20,
     "cookTime": 45,
@@ -20436,8 +20436,8 @@
     "title": "Soufflé aux poires",
     "description": "Un soufflé léger monté sur une crème pâtissière à la vanille, parfumée à la purée de poires et à l'alcool de poire.",
     "images": {
-      "cover": "images/recipes/souffle-aux-poires/cover.svg",
-      "web": "images/recipes/souffle-aux-poires/cover.svg"
+      "cover": "images/recipes/souffle-aux-poires/cover.webp",
+      "web": "images/recipes/souffle-aux-poires/web.webp"
     },
     "prepTime": 30,
     "cookTime": 45,
@@ -20508,8 +20508,8 @@
     "title": "Soufflé glacé à l'orange",
     "description": "Un soufflé glacé en ramequins rehaussés de papier, parfumé aux zestes d'oranges confits et à la fleur d'oranger, parsemé d'amandes grillées et de cacao.",
     "images": {
-      "cover": "images/recipes/souffle-glace-a-l-orange/cover.svg",
-      "web": "images/recipes/souffle-glace-a-l-orange/cover.svg"
+      "cover": "images/recipes/souffle-glace-a-l-orange/cover.webp",
+      "web": "images/recipes/souffle-glace-a-l-orange/web.webp"
     },
     "prepTime": 45,
     "cookTime": 20,
@@ -20580,8 +20580,8 @@
     "title": "Soufflé liqueur",
     "description": "Un soufflé sucré sur une base de crème pâtissière parfumée à la liqueur de votre choix : Cointreau, Grand-Marnier, Noyau de Poissy, Bénédictine…",
     "images": {
-      "cover": "images/recipes/souffle-liqueur/cover.svg",
-      "web": "images/recipes/souffle-liqueur/cover.svg"
+      "cover": "images/recipes/souffle-liqueur/cover.webp",
+      "web": "images/recipes/souffle-liqueur/web.webp"
     },
     "prepTime": 30,
     "cookTime": 40,
@@ -20850,8 +20850,8 @@
     "title": "Truffes au marron et chocolat",
     "description": "Des truffes fondantes au chocolat noir et à la purée de marron, parfumées au Cognac et roulées dans le cacao ou le vermicelle.",
     "images": {
-      "cover": "images/recipes/truffes-au-marron-et-chocolat/cover.svg",
-      "web": "images/recipes/truffes-au-marron-et-chocolat/cover.svg"
+      "cover": "images/recipes/truffes-au-marron-et-chocolat/cover.webp",
+      "web": "images/recipes/truffes-au-marron-et-chocolat/web.webp"
     },
     "prepTime": 40,
     "cookTime": 10,

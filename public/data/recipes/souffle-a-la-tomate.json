@@ -3,8 +3,8 @@
   "title": "Soufflé à la tomate",
   "description": "Un soufflé léger sur une base de béchamel aux jaunes d'œufs, relevée de tomates concassées et de muscade, cuit en ramequins ou en plat.",
   "images": {
-    "cover": "images/recipes/souffle-a-la-tomate/cover.svg",
-    "web": "images/recipes/souffle-a-la-tomate/cover.svg"
+    "cover": "images/recipes/souffle-a-la-tomate/cover.webp",
+    "web": "images/recipes/souffle-a-la-tomate/web.webp"
   },
   "prepTime": 20,
   "cookTime": 45,

@@ -3,8 +3,8 @@
   "title": "Soufflé glacé à l'orange",
   "description": "Un soufflé glacé en ramequins rehaussés de papier, parfumé aux zestes d'oranges confits et à la fleur d'oranger, parsemé d'amandes grillées et de cacao.",
   "images": {
-    "cover": "images/recipes/souffle-glace-a-l-orange/cover.svg",
-    "web": "images/recipes/souffle-glace-a-l-orange/cover.svg"
+    "cover": "images/recipes/souffle-glace-a-l-orange/cover.webp",
+    "web": "images/recipes/souffle-glace-a-l-orange/web.webp"
   },
   "prepTime": 45,
   "cookTime": 20,
