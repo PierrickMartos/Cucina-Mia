@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <defs>
+    <radialGradient id="tlbg" cx="50%" cy="45%" r="70%"><stop offset="0%" stop-color="#2e2822"/><stop offset="100%" stop-color="#1a1510"/></radialGradient>
+    <linearGradient id="tlpot" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#e8dcc4"/><stop offset="100%" stop-color="#a89878"/></linearGradient>
+    <linearGradient id="tlfarce" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#d4a88a"/><stop offset="100%" stop-color="#a0745a"/></linearGradient>
+    <radialGradient id="tlfilet" cx="45%" cy="40%" r="60%"><stop offset="0%" stop-color="#f4e0cc"/><stop offset="100%" stop-color="#d4b49a"/></radialGradient>
+    <radialGradient id="tlnut" cx="35%" cy="30%" r="70%"><stop offset="0%" stop-color="#e8c08a"/><stop offset="100%" stop-color="#9a6a34"/></radialGradient>
+    <radialGradient id="tljun" cx="35%" cy="30%" r="70%"><stop offset="0%" stop-color="#6a7098"/><stop offset="100%" stop-color="#1e2034"/></radialGradient>
+  </defs>
+  <rect width="800" height="600" fill="url(#tlbg)"/>
+  <g opacity="0.16">
+    <path d="M660,60 L700,60 L702,100 Q720,120 716,170 L644,170 Q640,120 658,100Z" fill="#d8d8a0"/>
+    <g fill="url(#tljun)"><circle cx="90" cy="100" r="8"/><circle cx="108" cy="92" r="7"/><circle cx="100" cy="112" r="7"/></g>
+  </g>
+  <rect x="90" y="360" width="620" height="150" rx="16" fill="#4e3220"/>
+  <g stroke="#2a1808" stroke-width="1" opacity="0.4"><line x1="100" y1="400" x2="700" y2="400"/><line x1="100" y1="445" x2="700" y2="445"/><line x1="100" y1="485" x2="700" y2="485"/></g>
+  <ellipse cx="300" cy="400" rx="190" ry="20" fill="#000" opacity="0.35"/>
+  <path d="M130,210 L470,210 L460,395 L140,395Z" fill="url(#tlpot)"/>
+  <rect x="118" y="196" width="364" height="26" rx="8" fill="#f0e6d2"/>
+  <rect x="140" y="200" width="320" height="16" rx="4" fill="#f6ecdc"/>
+  <path d="M146,208 Q200,202 250,208 Q300,214 350,206 Q400,200 454,208" stroke="#dcc8a8" stroke-width="3" fill="none"/>
+  <g fill="url(#tljun)">
+    <circle cx="210" cy="203" r="8"/><circle cx="226" cy="198" r="7"/><circle cx="330" cy="204" r="8"/><circle cx="345" cy="198" r="7"/><circle cx="420" cy="203" r="7"/>
+  </g>
+  <g fill="#fff" opacity="0.4"><circle cx="207" cy="200" r="2"/><circle cx="327" cy="201" r="2"/><circle cx="417" cy="200" r="2"/></g>
+  <path d="M260,196 Q290,172 326,190 Q296,204 260,196Z" fill="#4a6a2a"/>
+  <g stroke="#6a5030" stroke-width="2" opacity="0.3"><line x1="160" y1="240" x2="162" y2="380"/><line x1="440" y1="240" x2="438" y2="380"/></g>
+  <ellipse cx="560" cy="440" rx="120" ry="16" fill="#000" opacity="0.3"/>
+  <rect x="470" y="300" width="190" height="140" rx="10" fill="#f4e8d4"/>
+  <rect x="478" y="308" width="174" height="124" rx="6" fill="url(#tlfarce)"/>
+  <g fill="#8a5a44" opacity="0.5">
+    <circle cx="495" cy="330" r="3"/><circle cx="530" cy="322" r="2.5"/><circle cx="620" cy="330" r="3"/><circle cx="640" cy="410" r="2.5"/>
+    <circle cx="505" cy="412" r="3"/><circle cx="600" cy="418" r="2.5"/><circle cx="560" cy="325" r="2.5"/>
+  </g>
+  <ellipse cx="565" cy="370" rx="40" ry="26" fill="url(#tlfilet)"/>
+  <ellipse cx="565" cy="370" rx="40" ry="26" fill="none" stroke="#c09878" stroke-width="2"/>
+  <path d="M540,365 Q565,358 590,366" stroke="#e0c4a8" stroke-width="2" fill="none"/>
+  <g fill="url(#tlnut)">
+    <ellipse cx="500" cy="355" rx="9" ry="8"/><ellipse cx="630" cy="360" rx="9" ry="8"/><ellipse cx="520" cy="400" rx="9" ry="8"/>
+    <ellipse cx="615" cy="400" rx="9" ry="8"/><ellipse cx="590" cy="330" rx="8" ry="7"/><ellipse cx="545" cy="415" rx="8" ry="7"/>
+  </g>
+  <g fill="url(#tljun)"><circle cx="512" cy="330" r="4"/><circle cx="640" cy="385" r="4"/><circle cx="580" cy="412" r="4"/><circle cx="530" cy="375" r="3.5"/></g>
+  <rect x="478" y="308" width="174" height="10" rx="4" fill="#f6ecdc" opacity="0.8"/>
+  <g fill="url(#tlnut)" opacity="0.9">
+    <ellipse cx="220" cy="440" rx="11" ry="10"/><ellipse cx="245" cy="450" rx="11" ry="10"/><ellipse cx="232" cy="465" rx="10" ry="9"/>
+  </g>
+  <path d="M300,430 L420,470" stroke="#cfcfcf" stroke-width="6" stroke-linecap="round" opacity="0.45"/>
+</svg>
