@@ -1,0 +1,181 @@
+{
+  "slug": "petits-biscuits-au-chocolat",
+  "title": "Petits biscuits au chocolat",
+  "description": "Petits moelleux au chocolat noir amer, garnis de deux carrés de chocolat au cœur, servis tièdes avec une crème anglaise.",
+  "images": {
+    "cover": "images/recipes/petits-biscuits-au-chocolat/cover.svg",
+    "web": "images/recipes/petits-biscuits-au-chocolat/cover.svg"
+  },
+  "prepTime": 20,
+  "cookTime": 15,
+  "servings": 6,
+  "difficulty": "Facile",
+  "category": "Dolci",
+  "origin": "amelie-grandpa",
+  "tags": [
+    "chocolat",
+    "dessert",
+    "goûter",
+    "four",
+    "moelleux",
+    "fondant",
+    "tiède",
+    "gourmand",
+    "facile",
+    "français",
+    "nostalgique",
+    "recette-de-famille"
+  ],
+  "ingredients": [
+    {
+      "items": [
+        "100 g de chocolat noir amer",
+        "12 ou 16 carrés de chocolat noir amer (2 par moule)",
+        "3 œufs",
+        "50 g de farine",
+        "1 noix de beurre",
+        "1 bonne cuillerée à soupe de farine ou maïzena",
+        "80 g de sucre glace",
+        "1 cuillerée de crème allégée"
+      ]
+    }
+  ],
+  "steps": [
+    {
+      "text": "Chauffer le four à 240 °C."
+    },
+    {
+      "text": "Faire fondre le chocolat cassé en morceaux avec la crème, bien remuer, ajouter le beurre coupé en morceaux, bien mélanger."
+    },
+    {
+      "text": "Battre les œufs, le sucre, mélanger au chocolat fondu puis incorporer la farine, remuer pour obtenir une pâte lisse."
+    },
+    {
+      "text": "Beurrer et fariner six petits moules ou huit selon la grandeur, remplir chaque moule à demi, déposer deux carrés de chocolat, verser le restant de l'appareil dans chaque moule, mettre au four et cuire 10 à 15 minutes.",
+      "timers": [10]
+    },
+    {
+      "text": "Après cuisson, laisser refroidir à moitié (tiède) avant de démouler."
+    },
+    {
+      "text": "Servir avec une crème anglaise."
+    }
+  ],
+  "source": "Les recettes de Maurice Houdré, tome 3, Les pâtisseries",
+  "originalSource": {
+    "type": "text",
+    "data": "Petits biscuits au chocolat\n\nIngrédients : pour 6 à 8 personnes\n\n. 100 g de chocolat noir amer + 12 ou 16 carrés (2 par moule)\n. 3 oeufs\n. 50 g de farine + 1 noix de beurre\n. 1 bonne cuillérée à soupe de farine ou maïzena\n. 80 g de sucre glace\n. 1 cuillérée de crème allégée\n\nPréparation :\n\nChauffer le four à 240 °C.\n\nFaire fondre le chocolat cassé en morceaux avec la crème, bien remuer, ajouter le beurre coupé en morceaux, bien mélanger.\nBattre les œufs, le sucre, mélanger au chocolat fondu puis incorporer la farine, remuer pour obtenir une pâte lisse.\nBeurrer et fariner six petits moules ou huit selon la grandeur, remplir chaque moule à demi, déposer deux carrés de chocolat, verser le restant de l’appareil dans chaque moule, mettre au four et cuire 10 à 15 minutes.\nAprès cuisson, laisser refroidir à moitié (tiède) avant de démouler.\nServir avec une crème anglaise.\n"
+  },
+  "related": [
+    "gateau-au-chocolat",
+    "truffes-au-chocolat",
+    "marquise-au-chocolat",
+    "truffes-au-marron-et-chocolat"
+  ],
+  "translations": {
+    "en": {
+      "title": "Little chocolate cakes",
+      "description": "Little soft cakes made with bitter dark chocolate, with two squares of chocolate hidden in the centre, served warm with custard.",
+      "tags": [
+        "chocolate",
+        "dessert",
+        "afternoon-snack",
+        "oven",
+        "soft",
+        "molten",
+        "warm",
+        "indulgent",
+        "easy",
+        "french",
+        "nostalgic",
+        "family-recipe"
+      ],
+      "ingredients": [
+        {
+          "items": [
+            "100 g of bitter dark chocolate",
+            "12 to 16 squares of bitter dark chocolate (2 per mould)",
+            "3 eggs",
+            "50 g of flour",
+            "1 knob of butter",
+            "1 heaped tablespoon of flour or cornflour",
+            "80 g of icing sugar",
+            "1 spoonful of light cream"
+          ]
+        }
+      ],
+      "steps": [
+        {
+          "text": "Preheat the oven to 240 °C."
+        },
+        {
+          "text": "Melt the chocolate, broken into pieces, with the cream, stir well, add the butter cut into pieces and mix well."
+        },
+        {
+          "text": "Beat the eggs with the sugar, mix into the melted chocolate, then fold in the flour and stir to obtain a smooth batter."
+        },
+        {
+          "text": "Butter and flour six small moulds, or eight depending on their size, half-fill each mould, place two squares of chocolate in each, pour the rest of the mixture into each mould, put in the oven and bake for 10 to 15 minutes."
+        },
+        {
+          "text": "After baking, leave to cool halfway (warm) before turning out."
+        },
+        {
+          "text": "Serve with custard (crème anglaise)."
+        }
+      ]
+    },
+    "it": {
+      "title": "Tortine al cioccolato",
+      "description": "Piccole tortine morbide al cioccolato fondente amaro, con due quadratini di cioccolato nel cuore, servite tiepide con crema inglese.",
+      "tags": [
+        "cioccolato",
+        "dessert",
+        "merenda",
+        "forno",
+        "morbido",
+        "fondente",
+        "tiepido",
+        "goloso",
+        "facile",
+        "francese",
+        "nostalgico",
+        "ricetta-di-famiglia"
+      ],
+      "ingredients": [
+        {
+          "items": [
+            "100 g di cioccolato fondente amaro",
+            "12-16 quadratini di cioccolato fondente amaro (2 per stampino)",
+            "3 uova",
+            "50 g di farina",
+            "1 noce di burro",
+            "1 cucchiaio abbondante di farina o maizena",
+            "80 g di zucchero a velo",
+            "1 cucchiaio di panna leggera"
+          ]
+        }
+      ],
+      "steps": [
+        {
+          "text": "Scaldare il forno a 240 °C."
+        },
+        {
+          "text": "Far fondere il cioccolato spezzettato con la panna, mescolare bene, aggiungere il burro a pezzetti e mescolare bene."
+        },
+        {
+          "text": "Sbattere le uova con lo zucchero, unire al cioccolato fuso, poi incorporare la farina e mescolare fino a ottenere un impasto liscio."
+        },
+        {
+          "text": "Imburrare e infarinare sei stampini piccoli, oppure otto a seconda della grandezza, riempire ogni stampino a metà, adagiare due quadratini di cioccolato, versare il resto del composto in ogni stampino, infornare e cuocere per 10-15 minuti."
+        },
+        {
+          "text": "Dopo la cottura, lasciar raffreddare a metà (tiepido) prima di sformare."
+        },
+        {
+          "text": "Servire con crema inglese."
+        }
+      ]
+    }
+  }
+}

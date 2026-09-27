@@ -1,0 +1,195 @@
+{
+  "slug": "tarte-au-potiron",
+  "title": "Tarte au potiron",
+  "description": "Une tarte à la crème de potiron, amande et Rhum, posée sur une couche de confiture de coings et pommes, puis saupoudrée de sucre glace.",
+  "images": {
+    "cover": "images/recipes/tarte-au-potiron/cover.webp",
+    "web": "images/recipes/tarte-au-potiron/web.webp"
+  },
+  "imageCredit": {
+    "author": "Daria-Yakovleva",
+    "url": "https://pixabay.com/users/daria-yakovleva-3938704/"
+  },
+  "prepTime": 20,
+  "cookTime": 60,
+  "servings": 8,
+  "difficulty": "Facile",
+  "category": "Dolci",
+  "origin": "amelie-grandpa",
+  "tags": [
+    "tarte",
+    "potiron",
+    "dessert",
+    "four",
+    "automne",
+    "végétarien",
+    "facile",
+    "gourmand",
+    "toute-la-famille",
+    "français",
+    "nostalgique",
+    "recette-de-famille"
+  ],
+  "ingredients": [
+    {
+      "items": [
+        "1 pâte brisée ou sucrée",
+        "1 potiron (800 g épluché)",
+        "½ l de lait",
+        "5 œufs",
+        "125 g de sucre semoule",
+        "100 g de poudre d'amande",
+        "1 cuillère à soupe de maïzena",
+        "2 dl de crème",
+        "1 dl de Rhum",
+        "Confiture de coings et pommes, à défaut confiture d'abricots ou marmelade d'oranges",
+        "Sucre glace"
+      ]
+    }
+  ],
+  "steps": [
+    {
+      "text": "Foncer un moule à tarte avec une pâte brisée ou sucrée."
+    },
+    {
+      "text": "Crème de potiron : faire cuire le potiron épluché et coupé en morceaux dans une casserole, mouiller à hauteur avec moitié lait et moitié eau, laisser cuire 5 à 10 minutes, tenir ferme puis égoutter.",
+      "timers": [5]
+    },
+    {
+      "text": "Passer au mixer, ajouter les œufs, le sucre, la poudre d'amande, la maïzena, la crème et le Rhum."
+    },
+    {
+      "text": "Passer le fond de tarte quelques instants au four chaud, puis ajouter au fond une bonne couche de confiture de coings et pommes ou, à défaut, de confiture d'abricots ou de marmelade d'oranges."
+    },
+    {
+      "text": "Verser la crème de potiron dessus et mettre au four à 250 °C pendant 5 à 6 minutes, puis au four à 200 °C pendant 30 à 40 minutes.",
+      "timers": [5, 30]
+    },
+    {
+      "text": "Avant de servir, saupoudrer de sucre glace."
+    }
+  ],
+  "source": "Les recettes de Maurice Houdré, tome 3, Les pâtisseries",
+  "originalSource": {
+    "type": "text",
+    "data": "Tarte au potiron\n\nIngrédients : Pour 8 personnes\n\n. 1 pâte brisée ou sucrée\n. 1 potiron (800 g épluché)\n. ½ l de lait\n. 5 oeufs\n. 125 g de sucre semoule\n. 100 g de poudre d’amande\n. 1 cuillère à soupe de maïzena\n. 2 dl de crème\n. 1 dl de Rhum\n. confiture de coings et pommes à défaut confiture d’abricots ou marmelade d’oranges\n\nPréparation :\n\n \n\nFoncer un moule à tarte avec une pâte brisée ou sucrée.\n\nCrème de potiron :\nFaire cuire le potiron épluché et coupé en morceaux dans une casserole, mouiller à hauteur avec moitié lait et moitié eau, laisser cuire 5 à 10 minutes, tenir ferme puis égoutter.\nPasser au mixer, ajouter les œufs, le sucre, la poudre d’amande, la maïzena, la crème et le Rhum.\nPasser le fond de tarte quelques instants au four chaud, puis ajouter au fond une bonne couche de confiture de coings et pommes ou à défaut confiture d’abricots ou marmelade d’oranges.\nVerser la crème de potiron dessus et mettre au four à 250 °C pendant 5 à 6 minutes, puis à four à 200 ° C pendant 30 à 40 minutes.\nAvant de servir, saupoudrer de sucre glace.\n"
+  },
+  "related": [
+    "biscuit-aux-fruits",
+    "tarte-bonne-femme",
+    "fondant-aux-abricots",
+    "tarte-a-la-rhubarbe-et-aux-pommes"
+  ],
+  "translations": {
+    "en": {
+      "title": "Pumpkin Tart",
+      "description": "A pumpkin, almond and Rum cream tart set on a layer of quince and apple jam, then dusted with icing sugar.",
+      "tags": [
+        "tart",
+        "pumpkin",
+        "dessert",
+        "oven",
+        "autumn",
+        "vegetarian",
+        "easy",
+        "indulgent",
+        "whole-family",
+        "french",
+        "nostalgic",
+        "family-recipe"
+      ],
+      "ingredients": [
+        {
+          "items": [
+            "1 shortcrust or sweet pastry",
+            "1 pumpkin (800 g peeled)",
+            "½ l of milk",
+            "5 eggs",
+            "125 g of caster sugar",
+            "100 g of ground almonds",
+            "1 tablespoon of cornflour",
+            "2 dl of cream",
+            "1 dl of Rum",
+            "Quince and apple jam, or failing that apricot jam or orange marmalade",
+            "Icing sugar"
+          ]
+        }
+      ],
+      "steps": [
+        {
+          "text": "Line a tart tin with shortcrust or sweet pastry."
+        },
+        {
+          "text": "Pumpkin cream: cook the peeled pumpkin, cut into pieces, in a saucepan; add liquid to cover with half milk and half water, cook for 5 to 10 minutes, keeping it firm, then drain."
+        },
+        {
+          "text": "Blend in the mixer, then add the eggs, sugar, ground almonds, cornflour, cream and Rum."
+        },
+        {
+          "text": "Put the tart base in a hot oven for a few moments, then spread a generous layer of quince and apple jam over the bottom or, failing that, apricot jam or orange marmalade."
+        },
+        {
+          "text": "Pour the pumpkin cream over it and bake at 250 °C for 5 to 6 minutes, then at 200 °C for 30 to 40 minutes."
+        },
+        {
+          "text": "Dust with icing sugar before serving."
+        }
+      ]
+    },
+    "it": {
+      "title": "Crostata di zucca",
+      "description": "Una crostata con crema di zucca, mandorle e Rum, adagiata su uno strato di confettura di mele cotogne e mele, poi spolverata di zucchero a velo.",
+      "tags": [
+        "crostata",
+        "zucca",
+        "dessert",
+        "forno",
+        "autunno",
+        "vegetariano",
+        "facile",
+        "goloso",
+        "tutta-la-famiglia",
+        "francese",
+        "nostalgico",
+        "ricetta-di-famiglia"
+      ],
+      "ingredients": [
+        {
+          "items": [
+            "1 pasta brisée o pasta frolla",
+            "1 zucca (800 g sbucciata)",
+            "½ l di latte",
+            "5 uova",
+            "125 g di zucchero semolato",
+            "100 g di farina di mandorle",
+            "1 cucchiaio di amido di mais",
+            "2 dl di panna",
+            "1 dl di Rum",
+            "Confettura di mele cotogne e mele, in mancanza confettura di albicocche o marmellata di arance",
+            "Zucchero a velo"
+          ]
+        }
+      ],
+      "steps": [
+        {
+          "text": "Foderare uno stampo da crostata con pasta brisée o pasta frolla."
+        },
+        {
+          "text": "Crema di zucca: cuocere la zucca sbucciata e tagliata a pezzi in una casseruola, bagnare a filo con metà latte e metà acqua, lasciar cuocere 5-10 minuti, mantenendola soda, poi scolare."
+        },
+        {
+          "text": "Frullare nel mixer, poi aggiungere le uova, lo zucchero, la farina di mandorle, l'amido di mais, la panna e il Rum."
+        },
+        {
+          "text": "Passare la base della crostata qualche istante in forno caldo, poi stendere sul fondo un buono strato di confettura di mele cotogne e mele o, in mancanza, di confettura di albicocche o di marmellata di arance."
+        },
+        {
+          "text": "Versarvi sopra la crema di zucca e infornare a 250 °C per 5-6 minuti, poi a 200 °C per 30-40 minuti."
+        },
+        {
+          "text": "Prima di servire, spolverare di zucchero a velo."
+        }
+      ]
+    }
+  }
+}

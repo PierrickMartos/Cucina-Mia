@@ -18475,5 +18475,2443 @@
     },
     "stepCount": 7,
     "ingredientCount": 5
+  },
+  {
+    "slug": "biscuit-aux-amandes",
+    "title": "Biscuit aux amandes",
+    "description": "Un biscuit moelleux à la poudre d'amande, allégé par des blancs montés en neige et saupoudré de sucre glace.",
+    "images": {
+      "cover": "images/recipes/biscuit-aux-amandes/cover.webp",
+      "web": "images/recipes/biscuit-aux-amandes/web.webp"
+    },
+    "imageCredit": {
+      "author": "nils9three",
+      "url": "https://pixabay.com/users/nils9three-10462208/"
+    },
+    "prepTime": 20,
+    "cookTime": 40,
+    "servings": 6,
+    "difficulty": "Facile",
+    "category": "Dolci",
+    "tags": [
+      "amandes",
+      "gâteau",
+      "dessert",
+      "goûter",
+      "four",
+      "moelleux",
+      "végétarien",
+      "facile",
+      "toute-la-famille",
+      "français",
+      "nostalgique",
+      "recette-de-famille"
+    ],
+    "origin": "amelie-grandpa",
+    "translations": {
+      "en": {
+        "title": "Almond sponge cake",
+        "description": "A soft ground almond sponge cake, lightened with stiffly beaten egg whites and dusted with icing sugar.",
+        "tags": [
+          "almonds",
+          "cake",
+          "dessert",
+          "afternoon-snack",
+          "oven",
+          "soft",
+          "vegetarian",
+          "easy",
+          "whole-family",
+          "french",
+          "nostalgic",
+          "family-recipe"
+        ]
+      },
+      "it": {
+        "title": "Torta di mandorle",
+        "description": "Una torta soffice alla farina di mandorle, alleggerita dagli albumi montati a neve e spolverata di zucchero a velo.",
+        "tags": [
+          "mandorle",
+          "torta",
+          "dolce",
+          "merenda",
+          "forno",
+          "soffice",
+          "vegetariano",
+          "facile",
+          "tutta-la-famiglia",
+          "francese",
+          "nostalgico",
+          "ricetta-di-famiglia"
+        ]
+      }
+    },
+    "stepCount": 5,
+    "ingredientCount": 8
+  },
+  {
+    "slug": "biscuit-aux-fruits",
+    "title": "Biscuit aux fruits",
+    "description": "Un biscuit moelleux cuit sur un lit de fruits de saison, parfumé à l'alcool assorti : Calvados, Kirsch, Cointreau ou rhum.",
+    "images": {
+      "cover": "images/recipes/biscuit-aux-fruits/cover.webp",
+      "web": "images/recipes/biscuit-aux-fruits/web.webp"
+    },
+    "imageCredit": {
+      "author": "NoName_13",
+      "url": "https://pixabay.com/users/noname_13-2364555/"
+    },
+    "prepTime": 25,
+    "cookTime": 55,
+    "servings": 8,
+    "difficulty": "Facile",
+    "category": "Dolci",
+    "tags": [
+      "fruits",
+      "dessert",
+      "goûter",
+      "four",
+      "moelleux",
+      "facile",
+      "toute-la-famille",
+      "convivial",
+      "été",
+      "automne",
+      "français",
+      "nostalgique",
+      "recette-de-famille"
+    ],
+    "origin": "amelie-grandpa",
+    "translations": {
+      "en": {
+        "title": "Fruit sponge cake",
+        "description": "A soft sponge cake baked on a bed of seasonal fruit, flavoured with a matching spirit: Calvados, Kirsch, Cointreau or rum.",
+        "tags": [
+          "fruit",
+          "dessert",
+          "afternoon-snack",
+          "oven",
+          "soft",
+          "easy",
+          "whole-family",
+          "convivial",
+          "summer",
+          "autumn",
+          "french",
+          "nostalgic",
+          "family-recipe"
+        ]
+      },
+      "it": {
+        "title": "Torta soffice alla frutta",
+        "description": "Una torta soffice cotta su un letto di frutta di stagione, profumata con il liquore abbinato: Calvados, Kirsch, Cointreau o rum.",
+        "tags": [
+          "frutta",
+          "dessert",
+          "merenda",
+          "forno",
+          "soffice",
+          "facile",
+          "tutta-la-famiglia",
+          "conviviale",
+          "estate",
+          "autunno",
+          "francese",
+          "nostalgico",
+          "ricetta-di-famiglia"
+        ]
+      }
+    },
+    "stepCount": 11,
+    "ingredientCount": 9
+  },
+  {
+    "slug": "biscuit-aux-poires-et-chocolat-noir",
+    "title": "Biscuit aux poires et chocolat noir",
+    "description": "Une charlotte de fête : biscuits à la cuillère, génoise au chocolat, marquise au chocolat et mousse de poires, décorée de poires en éventail.",
+    "images": {
+      "cover": "images/recipes/biscuit-aux-poires-et-chocolat-noir/cover.svg",
+      "web": "images/recipes/biscuit-aux-poires-et-chocolat-noir/cover.svg"
+    },
+    "prepTime": 90,
+    "cookTime": 45,
+    "servings": 12,
+    "difficulty": "Difficile",
+    "category": "Dolci",
+    "tags": [
+      "poire",
+      "chocolat",
+      "fruits",
+      "dessert",
+      "français",
+      "nostalgique",
+      "recette-de-famille",
+      "fête",
+      "festif",
+      "préparation-à-lavance",
+      "froid",
+      "gourmand"
+    ],
+    "origin": "amelie-grandpa",
+    "translations": {
+      "en": {
+        "title": "Pear and dark chocolate charlotte",
+        "description": "A celebration charlotte: ladyfingers, chocolate sponge, chocolate marquise and pear mousse, decorated with fanned pears.",
+        "tags": [
+          "pear",
+          "chocolate",
+          "fruit",
+          "dessert",
+          "french",
+          "nostalgic",
+          "family-recipe",
+          "party",
+          "festive",
+          "make-ahead",
+          "cold",
+          "indulgent"
+        ]
+      },
+      "it": {
+        "title": "Charlotte di pere e cioccolato fondente",
+        "description": "Una charlotte per le feste: savoiardi, pan di Spagna al cioccolato, marquise al cioccolato e mousse di pere, decorata con pere a ventaglio.",
+        "tags": [
+          "pera",
+          "cioccolato",
+          "frutta",
+          "dessert",
+          "francese",
+          "nostalgico",
+          "ricetta-di-famiglia",
+          "festa",
+          "festivo",
+          "preparazione-in-anticipo",
+          "freddo",
+          "goloso"
+        ]
+      }
+    },
+    "stepCount": 11,
+    "ingredientCount": 12
+  },
+  {
+    "slug": "biscuit-aux-pruneaux",
+    "title": "Biscuit aux pruneaux",
+    "description": "Un biscuit moelleux garni de pruneaux macérés dans l'alcool de prune, cuit dans un moule à génoise.",
+    "images": {
+      "cover": "images/recipes/biscuit-aux-pruneaux/cover.svg",
+      "web": "images/recipes/biscuit-aux-pruneaux/cover.svg"
+    },
+    "prepTime": 25,
+    "cookTime": 45,
+    "servings": 8,
+    "difficulty": "Facile",
+    "category": "Dolci",
+    "tags": [
+      "dessert",
+      "pruneaux",
+      "fruits",
+      "four",
+      "moelleux",
+      "goûter",
+      "réconfortant",
+      "facile",
+      "gourmand",
+      "français",
+      "nostalgique",
+      "recette-de-famille"
+    ],
+    "origin": "amelie-grandpa",
+    "translations": {
+      "en": {
+        "title": "Prune sponge cake",
+        "description": "A soft sponge cake filled with prunes soaked in plum brandy, baked in a sponge cake tin.",
+        "tags": [
+          "dessert",
+          "prunes",
+          "fruit",
+          "oven",
+          "soft",
+          "snack",
+          "comforting",
+          "easy",
+          "indulgent",
+          "french",
+          "nostalgic",
+          "family-recipe"
+        ]
+      },
+      "it": {
+        "title": "Torta soffice alle prugne secche",
+        "description": "Una torta soffice farcita di prugne secche macerate nell'acquavite di prugne, cotta in uno stampo da pan di Spagna.",
+        "tags": [
+          "dessert",
+          "prugne-secche",
+          "frutta",
+          "forno",
+          "morbido",
+          "merenda",
+          "confortante",
+          "facile",
+          "goloso",
+          "francese",
+          "nostalgico",
+          "ricetta-di-famiglia"
+        ]
+      }
+    },
+    "stepCount": 4,
+    "ingredientCount": 8
+  },
+  {
+    "slug": "cake-aux-fruits",
+    "title": "Cake aux fruits",
+    "description": "Un cake moelleux garni de fruits confits et de raisins de Smyrne macérés dans le rhum, cuit d'abord à four chaud puis à four doux.",
+    "images": {
+      "cover": "images/recipes/cake-aux-fruits/cover.webp",
+      "web": "images/recipes/cake-aux-fruits/web.webp"
+    },
+    "imageCredit": {
+      "author": "congerdesign",
+      "url": "https://pixabay.com/users/congerdesign-509903/"
+    },
+    "prepTime": 140,
+    "cookTime": 35,
+    "servings": 8,
+    "difficulty": "Facile",
+    "category": "Dolci",
+    "tags": [
+      "dessert",
+      "fruits",
+      "four",
+      "moelleux",
+      "goûter",
+      "facile",
+      "noël",
+      "gourmand",
+      "français",
+      "nostalgique",
+      "recette-de-famille",
+      "festif"
+    ],
+    "origin": "amelie-grandpa",
+    "translations": {
+      "en": {
+        "title": "Fruit cake",
+        "description": "A soft loaf cake studded with candied fruit and sultanas soaked in rum, baked first in a hot oven and then in a gentle oven.",
+        "tags": [
+          "dessert",
+          "fruit",
+          "oven",
+          "soft",
+          "afternoon-snack",
+          "easy",
+          "christmas",
+          "indulgent",
+          "french",
+          "nostalgic",
+          "family-recipe",
+          "festive"
+        ]
+      },
+      "it": {
+        "title": "Plumcake alla frutta",
+        "description": "Un plumcake soffice con canditi e uvetta sultanina macerati nel rum, cotto prima in forno caldo e poi in forno dolce.",
+        "tags": [
+          "dessert",
+          "frutta",
+          "forno",
+          "soffice",
+          "merenda",
+          "facile",
+          "natale",
+          "goloso",
+          "francese",
+          "nostalgico",
+          "ricetta-di-famiglia",
+          "festivo"
+        ]
+      }
+    },
+    "stepCount": 5,
+    "ingredientCount": 9
+  },
+  {
+    "slug": "gateau-au-chocolat",
+    "title": "Gâteau au chocolat",
+    "description": "Un gâteau au chocolat fondant et léger, aux blancs montés en neige, cuit doucement au four dans un moule à manquer.",
+    "images": {
+      "cover": "images/recipes/gateau-au-chocolat/cover.svg",
+      "web": "images/recipes/gateau-au-chocolat/cover.svg"
+    },
+    "prepTime": 20,
+    "cookTime": 60,
+    "servings": 8,
+    "difficulty": "Facile",
+    "category": "Dolci",
+    "tags": [
+      "chocolat",
+      "dessert",
+      "four",
+      "fondant",
+      "gourmand",
+      "goûter",
+      "facile",
+      "végétarien",
+      "toute-la-famille",
+      "français",
+      "nostalgique",
+      "recette-de-famille"
+    ],
+    "origin": "amelie-grandpa",
+    "translations": {
+      "en": {
+        "title": "Chocolate cake",
+        "description": "A light, melt-in-the-mouth chocolate cake made with stiffly beaten egg whites, gently baked in the oven in a round cake tin.",
+        "tags": [
+          "chocolate",
+          "dessert",
+          "oven",
+          "melt-in-the-mouth",
+          "indulgent",
+          "snack",
+          "easy",
+          "vegetarian",
+          "whole-family",
+          "french",
+          "nostalgic",
+          "family-recipe"
+        ]
+      },
+      "it": {
+        "title": "Torta al cioccolato",
+        "description": "Una torta al cioccolato fondente e leggera, con albumi montati a neve, cotta dolcemente in forno in uno stampo rotondo.",
+        "tags": [
+          "cioccolato",
+          "dessert",
+          "forno",
+          "fondente",
+          "goloso",
+          "merenda",
+          "facile",
+          "vegetariano",
+          "tutta-la-famiglia",
+          "francese",
+          "nostalgico",
+          "ricetta-di-famiglia"
+        ]
+      }
+    },
+    "stepCount": 7,
+    "ingredientCount": 6
+  },
+  {
+    "slug": "gateau-au-fromage-blanc",
+    "title": "Gâteau au fromage blanc",
+    "description": "Un gâteau au fromage blanc et à la crème sur une pâte sablée, cuit au four, démoulé à l'envers et saupoudré de sucre glace et de cannelle.",
+    "images": {
+      "cover": "images/recipes/gateau-au-fromage-blanc/cover.webp",
+      "web": "images/recipes/gateau-au-fromage-blanc/web.webp"
+    },
+    "imageCredit": {
+      "author": "Pexels",
+      "url": "https://pixabay.com/users/pexels-2286921/"
+    },
+    "prepTime": 150,
+    "cookTime": 55,
+    "servings": 8,
+    "difficulty": "Medio",
+    "category": "Dolci",
+    "tags": [
+      "dessert",
+      "fromage",
+      "four",
+      "goûter",
+      "moelleux",
+      "gourmand",
+      "toute-la-famille",
+      "végétarien",
+      "français",
+      "nostalgique",
+      "recette-de-famille"
+    ],
+    "origin": "amelie-grandpa",
+    "translations": {
+      "en": {
+        "title": "Fromage blanc cheesecake",
+        "description": "A fromage blanc and cream cake on a shortcrust base, baked in the oven, turned out upside down and dusted with icing sugar and cinnamon.",
+        "tags": [
+          "dessert",
+          "cheese",
+          "oven",
+          "afternoon-snack",
+          "soft",
+          "indulgent",
+          "family-friendly",
+          "vegetarian",
+          "french",
+          "nostalgic",
+          "family-recipe"
+        ]
+      },
+      "it": {
+        "title": "Torta al formaggio fresco",
+        "description": "Una torta al fromage blanc e panna su una base di pasta frolla, cotta in forno, sformata capovolta e spolverata di zucchero a velo e cannella.",
+        "tags": [
+          "dessert",
+          "formaggio",
+          "forno",
+          "merenda",
+          "morbido",
+          "goloso",
+          "tutta-la-famiglia",
+          "vegetariano",
+          "francese",
+          "nostalgico",
+          "ricetta-di-famiglia"
+        ]
+      }
+    },
+    "stepCount": 10,
+    "ingredientCount": 13
+  },
+  {
+    "slug": "gateau-aux-carottes",
+    "title": "Gâteau aux carottes",
+    "description": "Un gâteau moelleux aux carottes râpées et aux amandes, parfumé au citron et au Kirsch, allégé par des blancs en neige.",
+    "images": {
+      "cover": "images/recipes/gateau-aux-carottes/cover.webp",
+      "web": "images/recipes/gateau-aux-carottes/web.webp"
+    },
+    "imageCredit": {
+      "author": "Alexas_Fotos",
+      "url": "https://pixabay.com/users/alexas_fotos-686414/"
+    },
+    "prepTime": 30,
+    "cookTime": 50,
+    "servings": 8,
+    "difficulty": "Facile",
+    "category": "Dolci",
+    "tags": [
+      "carottes",
+      "amandes",
+      "dessert",
+      "goûter",
+      "four",
+      "moelleux",
+      "végétarien",
+      "facile",
+      "français",
+      "nostalgique",
+      "recette-de-famille"
+    ],
+    "origin": "amelie-grandpa",
+    "translations": {
+      "en": {
+        "title": "Carrot cake",
+        "description": "A soft cake made with grated carrots and ground almonds, flavoured with lemon and Kirsch, lightened with stiffly beaten egg whites.",
+        "tags": [
+          "carrots",
+          "almonds",
+          "dessert",
+          "afternoon-snack",
+          "oven",
+          "soft",
+          "vegetarian",
+          "easy",
+          "french",
+          "nostalgic",
+          "family-recipe"
+        ]
+      },
+      "it": {
+        "title": "Torta di carote",
+        "description": "Una torta soffice di carote grattugiate e mandorle, profumata al limone e al Kirsch, alleggerita dagli albumi montati a neve.",
+        "tags": [
+          "carote",
+          "mandorle",
+          "dolce",
+          "merenda",
+          "forno",
+          "morbido",
+          "vegetariano",
+          "facile",
+          "francese",
+          "nostalgico",
+          "ricetta-di-famiglia"
+        ]
+      }
+    },
+    "stepCount": 5,
+    "ingredientCount": 10
+  },
+  {
+    "slug": "gateau-aux-marrons-l-ardechois",
+    "title": "Gâteau aux marrons l'ardéchois",
+    "description": "Un gâteau moelleux à la crème de marron ou aux brisures de marrons glacés, parfumé à la vanille, servi avec une crème anglaise ou une sauce au chocolat.",
+    "images": {
+      "cover": "images/recipes/gateau-aux-marrons-l-ardechois/cover.svg",
+      "web": "images/recipes/gateau-aux-marrons-l-ardechois/cover.svg"
+    },
+    "prepTime": 20,
+    "cookTime": 40,
+    "servings": 8,
+    "difficulty": "Facile",
+    "category": "Dolci",
+    "tags": [
+      "marrons",
+      "dessert",
+      "four",
+      "moelleux",
+      "automne",
+      "hiver",
+      "goûter",
+      "vanille",
+      "facile",
+      "réconfortant",
+      "français",
+      "nostalgique",
+      "recette-de-famille"
+    ],
+    "origin": "amelie-grandpa",
+    "translations": {
+      "en": {
+        "title": "Ardèche Chestnut Cake",
+        "description": "A soft cake made with chestnut cream or candied chestnut pieces, flavoured with vanilla, served with custard or a chocolate sauce.",
+        "tags": [
+          "chestnuts",
+          "dessert",
+          "oven",
+          "soft",
+          "autumn",
+          "winter",
+          "snack",
+          "vanilla",
+          "easy",
+          "comforting",
+          "french",
+          "nostalgic",
+          "family-recipe"
+        ]
+      },
+      "it": {
+        "title": "Torta di castagne dell'Ardèche",
+        "description": "Una torta morbida alla crema di marroni o ai pezzetti di marron glacé, profumata alla vaniglia, servita con crema inglese o salsa al cioccolato.",
+        "tags": [
+          "castagne",
+          "dessert",
+          "forno",
+          "morbido",
+          "autunno",
+          "inverno",
+          "merenda",
+          "vaniglia",
+          "facile",
+          "confortante",
+          "francese",
+          "nostalgico",
+          "ricetta-di-famiglia"
+        ]
+      }
+    },
+    "stepCount": 5,
+    "ingredientCount": 8
+  },
+  {
+    "slug": "gateau-aux-noix",
+    "title": "Gâteau aux noix",
+    "description": "Un gâteau moelleux aux cerneaux de noix mixés, parfumé à l'huile de noix et au vin blanc sec, décoré de noix et de sucre glace.",
+    "images": {
+      "cover": "images/recipes/gateau-aux-noix/cover.webp",
+      "web": "images/recipes/gateau-aux-noix/web.webp"
+    },
+    "imageCredit": {
+      "author": "4175959",
+      "url": "https://pixabay.com/users/4175959-4175959/"
+    },
+    "prepTime": 20,
+    "cookTime": 50,
+    "servings": 8,
+    "difficulty": "Facile",
+    "category": "Dolci",
+    "tags": [
+      "noix",
+      "dessert",
+      "goûter",
+      "four",
+      "moelleux",
+      "facile",
+      "automne",
+      "toute-la-famille",
+      "gourmand",
+      "français",
+      "nostalgique",
+      "recette-de-famille"
+    ],
+    "origin": "amelie-grandpa",
+    "translations": {
+      "en": {
+        "title": "Walnut Cake",
+        "description": "A soft cake made with blended walnut halves, flavoured with walnut oil and dry white wine, decorated with walnuts and icing sugar.",
+        "tags": [
+          "walnuts",
+          "dessert",
+          "snack-time",
+          "oven",
+          "soft",
+          "easy",
+          "autumn",
+          "whole-family",
+          "indulgent",
+          "french",
+          "nostalgic",
+          "family-recipe"
+        ]
+      },
+      "it": {
+        "title": "Torta di noci",
+        "description": "Una torta soffice con gherigli di noce frullati, profumata all'olio di noci e al vino bianco secco, decorata con noci e zucchero a velo.",
+        "tags": [
+          "noci",
+          "dessert",
+          "merenda",
+          "forno",
+          "soffice",
+          "facile",
+          "autunno",
+          "tutta-la-famiglia",
+          "goloso",
+          "francese",
+          "nostalgico",
+          "ricetta-di-famiglia"
+        ]
+      }
+    },
+    "stepCount": 8,
+    "ingredientCount": 10
+  },
+  {
+    "slug": "gateau-de-pommes-confites",
+    "title": "Gâteau de pommes confites",
+    "description": "Des tranches de pommes confites longuement dans un sirop vanillé, moulées puis démoulées et servies avec une crème anglaise maison.",
+    "images": {
+      "cover": "images/recipes/gateau-de-pommes-confites/cover.webp",
+      "web": "images/recipes/gateau-de-pommes-confites/web.webp"
+    },
+    "imageCredit": {
+      "author": "manfredrichter",
+      "url": "https://pixabay.com/users/manfredrichter-4055600/"
+    },
+    "prepTime": 30,
+    "cookTime": 75,
+    "servings": 8,
+    "difficulty": "Medio",
+    "category": "Dolci",
+    "tags": [
+      "pommes",
+      "fruits",
+      "dessert",
+      "fondant",
+      "gourmand",
+      "toute-la-famille",
+      "préparation-à-lavance",
+      "automne",
+      "français",
+      "nostalgique",
+      "recette-de-famille"
+    ],
+    "origin": "amelie-grandpa",
+    "translations": {
+      "en": {
+        "title": "Candied apple cake",
+        "description": "Apple slices slowly candied in a vanilla syrup, set in a mould, turned out and served with a homemade crème anglaise.",
+        "tags": [
+          "apples",
+          "fruit",
+          "dessert",
+          "melting",
+          "indulgent",
+          "whole-family",
+          "make-ahead",
+          "autumn",
+          "french",
+          "nostalgic",
+          "family-recipe"
+        ]
+      },
+      "it": {
+        "title": "Torta di mele candite",
+        "description": "Fette di mele candite a lungo in uno sciroppo alla vaniglia, messe in uno stampo, sformate e servite con una crema inglese fatta in casa.",
+        "tags": [
+          "mele",
+          "frutta",
+          "dessert",
+          "fondente",
+          "goloso",
+          "tutta-la-famiglia",
+          "da-preparare-in-anticipo",
+          "autunno",
+          "francese",
+          "nostalgico",
+          "ricetta-di-famiglia"
+        ]
+      }
+    },
+    "stepCount": 9,
+    "ingredientCount": 11
+  },
+  {
+    "slug": "gateau-fondant-aux-poires-caramelisees",
+    "title": "Gâteau fondant aux poires caramélisées",
+    "description": "Des poires en rosace sur un moule caramélisé, recouvertes d'une pâte au beurre parfumée à l'alcool de poire, servies avec une crème anglaise.",
+    "images": {
+      "cover": "images/recipes/gateau-fondant-aux-poires-caramelisees/cover.svg",
+      "web": "images/recipes/gateau-fondant-aux-poires-caramelisees/cover.svg"
+    },
+    "prepTime": 30,
+    "cookTime": 50,
+    "servings": 8,
+    "difficulty": "Medio",
+    "category": "Dolci",
+    "tags": [
+      "dessert",
+      "poire",
+      "fruits",
+      "caramel",
+      "fondant",
+      "moelleux",
+      "automne",
+      "gourmand",
+      "toute-la-famille",
+      "français",
+      "nostalgique",
+      "recette-de-famille"
+    ],
+    "origin": "amelie-grandpa",
+    "translations": {
+      "en": {
+        "title": "Caramelised pear fondant cake",
+        "description": "Pears arranged in a rosette over a caramelised tin, covered with a buttery batter flavoured with pear brandy, served with crème anglaise.",
+        "tags": [
+          "dessert",
+          "pear",
+          "fruit",
+          "caramel",
+          "melting",
+          "soft",
+          "autumn",
+          "indulgent",
+          "whole-family",
+          "french",
+          "nostalgic",
+          "family-recipe"
+        ]
+      },
+      "it": {
+        "title": "Torta morbida alle pere caramellate",
+        "description": "Pere disposte a rosa in uno stampo caramellato, ricoperte da un impasto al burro profumato all'acquavite di pere, servite con crema inglese.",
+        "tags": [
+          "dessert",
+          "pera",
+          "frutta",
+          "caramello",
+          "fondente",
+          "morbido",
+          "autunno",
+          "goloso",
+          "tutta-la-famiglia",
+          "francese",
+          "nostalgico",
+          "ricetta-di-famiglia"
+        ]
+      }
+    },
+    "stepCount": 8,
+    "ingredientCount": 16
+  },
+  {
+    "slug": "gateau-suedois-en-pate-levee-a-la-cannelle",
+    "title": "Gâteau suédois en pâte levée à la cannelle",
+    "description": "Petits gâteaux suédois en pâte levée parfumée à la cardamome, roulés au beurre, au sucre et à la cannelle, puis dorés au four.",
+    "images": {
+      "cover": "images/recipes/gateau-suedois-en-pate-levee-a-la-cannelle/cover.webp",
+      "web": "images/recipes/gateau-suedois-en-pate-levee-a-la-cannelle/web.webp"
+    },
+    "imageCredit": {
+      "author": "summerstock",
+      "url": "https://pixabay.com/users/summerstock-79075/"
+    },
+    "prepTime": 120,
+    "cookTime": 10,
+    "servings": 10,
+    "difficulty": "Medio",
+    "category": "Dolci",
+    "tags": [
+      "dessert",
+      "goûter",
+      "four",
+      "cannelle",
+      "brioche",
+      "moelleux",
+      "végétarien",
+      "gourmand",
+      "convivial",
+      "français",
+      "nostalgique",
+      "recette-de-famille"
+    ],
+    "origin": "amelie-grandpa",
+    "translations": {
+      "en": {
+        "title": "Swedish cinnamon buns",
+        "description": "Small Swedish yeast-dough buns flavoured with cardamom, rolled up with butter, sugar and cinnamon, then baked until golden.",
+        "tags": [
+          "dessert",
+          "afternoon-snack",
+          "oven",
+          "cinnamon",
+          "brioche",
+          "soft",
+          "vegetarian",
+          "indulgent",
+          "convivial",
+          "french",
+          "nostalgic",
+          "family-recipe"
+        ]
+      },
+      "it": {
+        "title": "Dolcetti svedesi lievitati alla cannella",
+        "description": "Piccoli dolci svedesi di pasta lievitata profumata al cardamomo, arrotolati con burro, zucchero e cannella, poi dorati in forno.",
+        "tags": [
+          "dessert",
+          "merenda",
+          "forno",
+          "cannella",
+          "brioche",
+          "soffice",
+          "vegetariano",
+          "goloso",
+          "conviviale",
+          "francese",
+          "nostalgico",
+          "ricetta-di-famiglia"
+        ]
+      }
+    },
+    "stepCount": 8,
+    "ingredientCount": 8
+  },
+  {
+    "slug": "buche-aux-marrons-de-germaine-houdre",
+    "title": "La bûche aux marrons de Germaine Houdré",
+    "description": "Une bûche de marrons cuits au lait vanillé, passés au moulin avec beurre, cacao et sucre, puis nappée de chocolat noir.",
+    "images": {
+      "cover": "images/recipes/buche-aux-marrons-de-germaine-houdre/cover.webp",
+      "web": "images/recipes/buche-aux-marrons-de-germaine-houdre/web.webp"
+    },
+    "imageCredit": {
+      "author": "LAWJR",
+      "url": "https://pixabay.com/users/lawjr-4448871/"
+    },
+    "prepTime": 40,
+    "cookTime": 60,
+    "servings": 10,
+    "difficulty": "Medio",
+    "category": "Dolci",
+    "tags": [
+      "dessert",
+      "marrons",
+      "chocolat",
+      "français",
+      "nostalgique",
+      "recette-de-famille",
+      "noël",
+      "hiver",
+      "festif",
+      "fondant",
+      "préparation-à-lavance"
+    ],
+    "origin": "amelie-grandpa",
+    "translations": {
+      "en": {
+        "title": "Germaine Houdré's Chestnut Log",
+        "description": "A log of chestnuts cooked in vanilla milk, passed through a food mill with butter, cocoa and sugar, then coated with dark chocolate.",
+        "tags": [
+          "dessert",
+          "chestnuts",
+          "chocolate",
+          "french",
+          "nostalgic",
+          "family-recipe",
+          "christmas",
+          "winter",
+          "festive",
+          "melting",
+          "make-ahead"
+        ]
+      },
+      "it": {
+        "title": "Tronchetto di castagne di Germaine Houdré",
+        "description": "Un tronchetto di castagne cotte nel latte alla vaniglia, passate al passaverdure con burro, cacao e zucchero, poi ricoperto di cioccolato fondente.",
+        "tags": [
+          "dolce",
+          "castagne",
+          "cioccolato",
+          "francese",
+          "nostalgico",
+          "ricetta-di-famiglia",
+          "natale",
+          "inverno",
+          "festivo",
+          "fondente",
+          "preparazione-in-anticipo"
+        ]
+      }
+    },
+    "stepCount": 6,
+    "ingredientCount": 7
+  },
+  {
+    "slug": "petits-biscuits-au-chocolat",
+    "title": "Petits biscuits au chocolat",
+    "description": "Petits moelleux au chocolat noir amer, garnis de deux carrés de chocolat au cœur, servis tièdes avec une crème anglaise.",
+    "images": {
+      "cover": "images/recipes/petits-biscuits-au-chocolat/cover.svg",
+      "web": "images/recipes/petits-biscuits-au-chocolat/cover.svg"
+    },
+    "prepTime": 20,
+    "cookTime": 15,
+    "servings": 6,
+    "difficulty": "Facile",
+    "category": "Dolci",
+    "tags": [
+      "chocolat",
+      "dessert",
+      "goûter",
+      "four",
+      "moelleux",
+      "fondant",
+      "tiède",
+      "gourmand",
+      "facile",
+      "français",
+      "nostalgique",
+      "recette-de-famille"
+    ],
+    "origin": "amelie-grandpa",
+    "translations": {
+      "en": {
+        "title": "Little chocolate cakes",
+        "description": "Little soft cakes made with bitter dark chocolate, with two squares of chocolate hidden in the centre, served warm with custard.",
+        "tags": [
+          "chocolate",
+          "dessert",
+          "afternoon-snack",
+          "oven",
+          "soft",
+          "molten",
+          "warm",
+          "indulgent",
+          "easy",
+          "french",
+          "nostalgic",
+          "family-recipe"
+        ]
+      },
+      "it": {
+        "title": "Tortine al cioccolato",
+        "description": "Piccole tortine morbide al cioccolato fondente amaro, con due quadratini di cioccolato nel cuore, servite tiepide con crema inglese.",
+        "tags": [
+          "cioccolato",
+          "dessert",
+          "merenda",
+          "forno",
+          "morbido",
+          "fondente",
+          "tiepido",
+          "goloso",
+          "facile",
+          "francese",
+          "nostalgico",
+          "ricetta-di-famiglia"
+        ]
+      }
+    },
+    "stepCount": 6,
+    "ingredientCount": 8
+  },
+  {
+    "slug": "tarte-a-la-rhubarbe-et-aux-pommes",
+    "title": "Tarte à la rhubarbe et aux pommes",
+    "description": "Une tarte maison où la rhubarbe acidulée et les pommes dorées au beurre cuisent sous une crème onctueuse.",
+    "images": {
+      "cover": "images/recipes/tarte-a-la-rhubarbe-et-aux-pommes/cover.svg",
+      "web": "images/recipes/tarte-a-la-rhubarbe-et-aux-pommes/cover.svg"
+    },
+    "prepTime": 30,
+    "cookTime": 40,
+    "servings": 8,
+    "difficulty": "Facile",
+    "category": "Dolci",
+    "tags": [
+      "rhubarbe",
+      "pommes",
+      "fruits",
+      "tarte",
+      "dessert",
+      "goûter",
+      "four",
+      "printemps",
+      "acidulé",
+      "facile",
+      "toute-la-famille",
+      "français",
+      "nostalgique",
+      "recette-de-famille"
+    ],
+    "origin": "amelie-grandpa",
+    "translations": {
+      "en": {
+        "title": "Rhubarb and Apple Tart",
+        "description": "A homemade tart where tangy rhubarb and apples browned in butter bake under a smooth custard.",
+        "tags": [
+          "rhubarb",
+          "apples",
+          "fruit",
+          "tart",
+          "dessert",
+          "afternoon-snack",
+          "oven",
+          "spring",
+          "tangy",
+          "easy",
+          "whole-family",
+          "french",
+          "nostalgic",
+          "family-recipe"
+        ]
+      },
+      "it": {
+        "title": "Crostata di rabarbaro e mele",
+        "description": "Una crostata fatta in casa in cui il rabarbaro acidulo e le mele dorate nel burro cuociono sotto una crema vellutata.",
+        "tags": [
+          "rabarbaro",
+          "mele",
+          "frutta",
+          "crostata",
+          "dessert",
+          "merenda",
+          "forno",
+          "primavera",
+          "acidulo",
+          "facile",
+          "tutta-la-famiglia",
+          "francese",
+          "nostalgico",
+          "ricetta-di-famiglia"
+        ]
+      }
+    },
+    "stepCount": 6,
+    "ingredientCount": 13
+  },
+  {
+    "slug": "tarte-au-potiron",
+    "title": "Tarte au potiron",
+    "description": "Une tarte à la crème de potiron, amande et Rhum, posée sur une couche de confiture de coings et pommes, puis saupoudrée de sucre glace.",
+    "images": {
+      "cover": "images/recipes/tarte-au-potiron/cover.webp",
+      "web": "images/recipes/tarte-au-potiron/web.webp"
+    },
+    "imageCredit": {
+      "author": "Daria-Yakovleva",
+      "url": "https://pixabay.com/users/daria-yakovleva-3938704/"
+    },
+    "prepTime": 20,
+    "cookTime": 60,
+    "servings": 8,
+    "difficulty": "Facile",
+    "category": "Dolci",
+    "tags": [
+      "tarte",
+      "potiron",
+      "dessert",
+      "four",
+      "automne",
+      "végétarien",
+      "facile",
+      "gourmand",
+      "toute-la-famille",
+      "français",
+      "nostalgique",
+      "recette-de-famille"
+    ],
+    "origin": "amelie-grandpa",
+    "translations": {
+      "en": {
+        "title": "Pumpkin Tart",
+        "description": "A pumpkin, almond and Rum cream tart set on a layer of quince and apple jam, then dusted with icing sugar.",
+        "tags": [
+          "tart",
+          "pumpkin",
+          "dessert",
+          "oven",
+          "autumn",
+          "vegetarian",
+          "easy",
+          "indulgent",
+          "whole-family",
+          "french",
+          "nostalgic",
+          "family-recipe"
+        ]
+      },
+      "it": {
+        "title": "Crostata di zucca",
+        "description": "Una crostata con crema di zucca, mandorle e Rum, adagiata su uno strato di confettura di mele cotogne e mele, poi spolverata di zucchero a velo.",
+        "tags": [
+          "crostata",
+          "zucca",
+          "dessert",
+          "forno",
+          "autunno",
+          "vegetariano",
+          "facile",
+          "goloso",
+          "tutta-la-famiglia",
+          "francese",
+          "nostalgico",
+          "ricetta-di-famiglia"
+        ]
+      }
+    },
+    "stepCount": 6,
+    "ingredientCount": 11
+  },
+  {
+    "slug": "tarte-bonne-femme",
+    "title": "Tarte bonne femme",
+    "description": "Une tarte aux pommes sautées et flambées au Calvados, nappée d'une crème pâtissière légère et caramélisée au sucre roux sous le gril.",
+    "images": {
+      "cover": "images/recipes/tarte-bonne-femme/cover.webp",
+      "web": "images/recipes/tarte-bonne-femme/web.webp"
+    },
+    "imageCredit": {
+      "author": "Roses_Street",
+      "url": "https://pixabay.com/users/roses_street-6652425/"
+    },
+    "prepTime": 40,
+    "cookTime": 20,
+    "servings": 8,
+    "difficulty": "Medio",
+    "category": "Dolci",
+    "tags": [
+      "tarte",
+      "pommes",
+      "fruits",
+      "dessert",
+      "four",
+      "flambé",
+      "automne",
+      "gourmand",
+      "tiède",
+      "français",
+      "nostalgique",
+      "recette-de-famille"
+    ],
+    "origin": "amelie-grandpa",
+    "translations": {
+      "en": {
+        "title": "Tarte bonne femme",
+        "description": "An apple tart with sautéed apples flambéed in Calvados, coated with a light pastry cream and caramelised with brown sugar under the grill.",
+        "tags": [
+          "tart",
+          "apples",
+          "fruit",
+          "dessert",
+          "oven",
+          "flambéed",
+          "autumn",
+          "indulgent",
+          "warm",
+          "french",
+          "nostalgic",
+          "family-recipe"
+        ]
+      },
+      "it": {
+        "title": "Crostata alla contadina",
+        "description": "Una crostata di mele saltate e flambate al Calvados, nappata con una crema pasticcera leggera e caramellata allo zucchero di canna sotto il grill.",
+        "tags": [
+          "crostata",
+          "mele",
+          "frutta",
+          "dessert",
+          "forno",
+          "flambé",
+          "autunno",
+          "goloso",
+          "tiepido",
+          "francese",
+          "nostalgico",
+          "ricetta-di-famiglia"
+        ]
+      }
+    },
+    "stepCount": 8,
+    "ingredientCount": 16
+  },
+  {
+    "slug": "souffle-a-la-bisque-de-homard",
+    "title": "Soufflé à la bisque de homard",
+    "description": "Un soufflé salé monté sur une béchamel parfumée à la bisque de homard et relevée d'une pointe de Cayenne, à servir dès la sortie du four.",
+    "images": {
+      "cover": "images/recipes/souffle-a-la-bisque-de-homard/cover.svg",
+      "web": "images/recipes/souffle-a-la-bisque-de-homard/cover.svg"
+    },
+    "prepTime": 20,
+    "cookTime": 40,
+    "servings": 8,
+    "difficulty": "Medio",
+    "category": "Antipasti",
+    "tags": [
+      "fruits-de-mer",
+      "homard",
+      "œufs",
+      "four",
+      "entrée",
+      "français",
+      "traditionnel",
+      "festif",
+      "chaud",
+      "nostalgique",
+      "recette-de-famille"
+    ],
+    "origin": "amelie-grandpa",
+    "translations": {
+      "en": {
+        "title": "Lobster bisque soufflé",
+        "description": "A savoury soufflé built on a béchamel flavoured with lobster bisque and lifted with a pinch of cayenne, to be served straight from the oven.",
+        "tags": [
+          "seafood",
+          "lobster",
+          "eggs",
+          "oven",
+          "starter",
+          "french",
+          "traditional",
+          "festive",
+          "hot",
+          "nostalgic",
+          "family-recipe"
+        ]
+      },
+      "it": {
+        "title": "Soufflé alla bisque di astice",
+        "description": "Un soufflé salato preparato su una besciamella profumata alla bisque di astice e ravvivata da un pizzico di pepe di Caienna, da servire appena sfornato.",
+        "tags": [
+          "frutti-di-mare",
+          "astice",
+          "uova",
+          "forno",
+          "antipasto",
+          "francese",
+          "tradizionale",
+          "festivo",
+          "caldo",
+          "nostalgico",
+          "ricetta-di-famiglia"
+        ]
+      }
+    },
+    "stepCount": 8,
+    "ingredientCount": 6
+  },
+  {
+    "slug": "souffle-a-la-tomate",
+    "title": "Soufflé à la tomate",
+    "description": "Un soufflé léger sur une base de béchamel aux jaunes d'œufs, relevée de tomates concassées et de muscade, cuit en ramequins ou en plat.",
+    "images": {
+      "cover": "images/recipes/souffle-a-la-tomate/cover.svg",
+      "web": "images/recipes/souffle-a-la-tomate/cover.svg"
+    },
+    "prepTime": 20,
+    "cookTime": 45,
+    "servings": 8,
+    "difficulty": "Medio",
+    "category": "Antipasti",
+    "tags": [
+      "four",
+      "tomate",
+      "œufs",
+      "végétarien",
+      "français",
+      "nostalgique",
+      "recette-de-famille",
+      "entrée",
+      "aérien",
+      "chaud",
+      "festif"
+    ],
+    "origin": "amelie-grandpa",
+    "translations": {
+      "en": {
+        "title": "Tomato Soufflé",
+        "description": "A light soufflé on a béchamel base enriched with egg yolks, lifted with roughly chopped tomatoes and nutmeg, baked in ramekins or in a dish.",
+        "tags": [
+          "oven",
+          "tomato",
+          "eggs",
+          "vegetarian",
+          "french",
+          "nostalgic",
+          "family-recipe",
+          "starter",
+          "airy",
+          "hot",
+          "festive"
+        ]
+      },
+      "it": {
+        "title": "Soufflé al pomodoro",
+        "description": "Un soufflé leggero su una base di besciamella ai tuorli, insaporita con pomodori tritati grossolanamente e noce moscata, cotto in stampini o in una pirofila.",
+        "tags": [
+          "forno",
+          "pomodoro",
+          "uova",
+          "vegetariano",
+          "francese",
+          "nostalgico",
+          "ricetta-di-famiglia",
+          "antipasto",
+          "arioso",
+          "caldo",
+          "festoso"
+        ]
+      }
+    },
+    "stepCount": 7,
+    "ingredientCount": 6
+  },
+  {
+    "slug": "souffle-au-fromage-du-papi",
+    "title": "Soufflé au fromage",
+    "description": "Le soufflé au fromage classique : une béchamel liée aux jaunes d'œufs, du gruyère râpé et des blancs montés en neige très ferme, cuit à four doux.",
+    "images": {
+      "cover": "images/recipes/souffle-au-fromage-du-papi/cover.svg",
+      "web": "images/recipes/souffle-au-fromage-du-papi/cover.svg"
+    },
+    "prepTime": 25,
+    "cookTime": 45,
+    "servings": 8,
+    "difficulty": "Medio",
+    "category": "Antipasti",
+    "tags": [
+      "fromage",
+      "œufs",
+      "four",
+      "végétarien",
+      "entrée",
+      "chaud",
+      "gourmand",
+      "réconfortant",
+      "français",
+      "nostalgique",
+      "recette-de-famille"
+    ],
+    "origin": "amelie-grandpa",
+    "translations": {
+      "en": {
+        "title": "Cheese soufflé",
+        "description": "The classic cheese soufflé: a béchamel bound with egg yolks, grated Gruyère and egg whites whisked to very stiff peaks, baked in a low oven.",
+        "tags": [
+          "cheese",
+          "eggs",
+          "oven",
+          "vegetarian",
+          "starter",
+          "hot",
+          "indulgent",
+          "comforting",
+          "french",
+          "nostalgic",
+          "family-recipe"
+        ]
+      },
+      "it": {
+        "title": "Soufflé al formaggio",
+        "description": "Il classico soufflé al formaggio: una besciamella legata con i tuorli, groviera grattugiato e albumi montati a neve fermissima, cotto in forno dolce.",
+        "tags": [
+          "formaggio",
+          "uova",
+          "forno",
+          "vegetariano",
+          "antipasto",
+          "caldo",
+          "goloso",
+          "confortante",
+          "francese",
+          "nostalgico",
+          "ricetta-di-famiglia"
+        ]
+      }
+    },
+    "stepCount": 6,
+    "ingredientCount": 6
+  },
+  {
+    "slug": "souffle-aux-champignons",
+    "title": "Soufflé aux champignons",
+    "description": "Un soufflé léger sur une base de béchamel aux jaunes d'œufs, garni de champignons hachés, cuit en ramequins ou en plat.",
+    "images": {
+      "cover": "images/recipes/souffle-aux-champignons/cover.svg",
+      "web": "images/recipes/souffle-aux-champignons/cover.svg"
+    },
+    "prepTime": 25,
+    "cookTime": 45,
+    "servings": 8,
+    "difficulty": "Medio",
+    "category": "Antipasti",
+    "tags": [
+      "four",
+      "champignons",
+      "œufs",
+      "végétarien",
+      "français",
+      "classique",
+      "aérien",
+      "entrée",
+      "chaud",
+      "nostalgique",
+      "recette-de-famille"
+    ],
+    "origin": "amelie-grandpa",
+    "translations": {
+      "en": {
+        "title": "Mushroom soufflé",
+        "description": "A light soufflé on a béchamel base enriched with egg yolks, filled with chopped mushrooms, baked in ramekins or in a dish.",
+        "tags": [
+          "oven",
+          "mushrooms",
+          "eggs",
+          "vegetarian",
+          "french",
+          "classic",
+          "airy",
+          "starter",
+          "hot",
+          "nostalgic",
+          "family-recipe"
+        ]
+      },
+      "it": {
+        "title": "Soufflé ai funghi",
+        "description": "Un soufflé leggero su una base di besciamella ai tuorli, farcito con funghi tritati, cotto in stampini o in una pirofila.",
+        "tags": [
+          "forno",
+          "funghi",
+          "uova",
+          "vegetariano",
+          "francese",
+          "classico",
+          "arioso",
+          "antipasto",
+          "caldo",
+          "nostalgico",
+          "ricetta-di-famiglia"
+        ]
+      }
+    },
+    "stepCount": 7,
+    "ingredientCount": 6
+  },
+  {
+    "slug": "souffle-aux-crevettes",
+    "title": "Soufflé aux crevettes",
+    "description": "Un soufflé léger sur une béchamel aux jaunes d'œufs, garni de crevettes roses sautées au beurre et persillées, en ramequins ou en grand plat.",
+    "images": {
+      "cover": "images/recipes/souffle-aux-crevettes/cover.svg",
+      "web": "images/recipes/souffle-aux-crevettes/cover.svg"
+    },
+    "prepTime": 25,
+    "cookTime": 45,
+    "servings": 8,
+    "difficulty": "Medio",
+    "category": "Antipasti",
+    "tags": [
+      "four",
+      "fruits-de-mer",
+      "crevettes",
+      "œufs",
+      "français",
+      "nostalgique",
+      "recette-de-famille",
+      "entrée",
+      "classique",
+      "aérien",
+      "festif",
+      "chaud"
+    ],
+    "origin": "amelie-grandpa",
+    "translations": {
+      "en": {
+        "title": "Shrimp Soufflé",
+        "description": "A light soufflé built on a béchamel enriched with egg yolks, filled with pink shrimp sautéed in butter with parsley, baked in ramekins or one large dish.",
+        "tags": [
+          "oven",
+          "seafood",
+          "shrimp",
+          "eggs",
+          "french",
+          "nostalgic",
+          "family-recipe",
+          "starter",
+          "classic",
+          "airy",
+          "festive",
+          "hot"
+        ]
+      },
+      "it": {
+        "title": "Soufflé di gamberetti",
+        "description": "Un soufflé leggero su una besciamella ai tuorli, arricchito con gamberetti rosa saltati nel burro con prezzemolo, in stampini o in una grande pirofila.",
+        "tags": [
+          "forno",
+          "frutti-di-mare",
+          "gamberetti",
+          "uova",
+          "francese",
+          "nostalgico",
+          "ricetta-di-famiglia",
+          "antipasto",
+          "classico",
+          "arioso",
+          "festoso",
+          "caldo"
+        ]
+      }
+    },
+    "stepCount": 7,
+    "ingredientCount": 6
+  },
+  {
+    "slug": "souffle-aux-moules",
+    "title": "Soufflé aux moules",
+    "description": "Un soufflé léger sur une base de béchamel, garni de moules sautées au beurre et persillées, cuit à four doux.",
+    "images": {
+      "cover": "images/recipes/souffle-aux-moules/cover.svg",
+      "web": "images/recipes/souffle-aux-moules/cover.svg"
+    },
+    "prepTime": 20,
+    "cookTime": 40,
+    "servings": 8,
+    "difficulty": "Medio",
+    "category": "Antipasti",
+    "tags": [
+      "fruits-de-mer",
+      "œufs",
+      "entrée",
+      "four",
+      "français",
+      "nostalgique",
+      "recette-de-famille",
+      "chaud",
+      "festif",
+      "léger"
+    ],
+    "origin": "amelie-grandpa",
+    "translations": {
+      "en": {
+        "title": "Mussel soufflé",
+        "description": "A light soufflé on a béchamel base, filled with mussels sautéed in butter with parsley, baked in a low oven.",
+        "tags": [
+          "seafood",
+          "eggs",
+          "starter",
+          "oven",
+          "french",
+          "nostalgic",
+          "family-recipe",
+          "hot",
+          "festive",
+          "light"
+        ]
+      },
+      "it": {
+        "title": "Soufflé alle cozze",
+        "description": "Un soufflé leggero su una base di besciamella, farcito con cozze saltate nel burro e prezzemolate, cotto in forno dolce.",
+        "tags": [
+          "frutti-di-mare",
+          "uova",
+          "antipasto",
+          "forno",
+          "francese",
+          "nostalgico",
+          "ricetta-di-famiglia",
+          "caldo",
+          "festivo",
+          "leggero"
+        ]
+      }
+    },
+    "stepCount": 7,
+    "ingredientCount": 6
+  },
+  {
+    "slug": "souffle-crecy",
+    "title": "Soufflé Crécy",
+    "description": "Un soufflé léger à la purée de carottes, monté sur une béchamel aux jaunes d'œufs, cuit à four doux en ramequins ou en plat.",
+    "images": {
+      "cover": "images/recipes/souffle-crecy/cover.svg",
+      "web": "images/recipes/souffle-crecy/cover.svg"
+    },
+    "prepTime": 20,
+    "cookTime": 40,
+    "servings": 8,
+    "difficulty": "Medio",
+    "category": "Antipasti",
+    "tags": [
+      "carottes",
+      "légumes",
+      "œufs",
+      "four",
+      "entrée",
+      "français",
+      "traditionnel",
+      "végétarien",
+      "léger",
+      "chaud",
+      "nostalgique",
+      "recette-de-famille"
+    ],
+    "origin": "amelie-grandpa",
+    "translations": {
+      "en": {
+        "title": "Soufflé Crécy",
+        "description": "A light soufflé made with carrot purée, built on a béchamel enriched with egg yolks and baked in a gentle oven in ramekins or a dish.",
+        "tags": [
+          "carrots",
+          "vegetables",
+          "eggs",
+          "oven",
+          "starter",
+          "french",
+          "traditional",
+          "vegetarian",
+          "light",
+          "hot",
+          "nostalgic",
+          "family-recipe"
+        ]
+      },
+      "it": {
+        "title": "Soufflé Crécy",
+        "description": "Un soufflé leggero alla purea di carote, preparato su una besciamella arricchita di tuorli e cotto in forno dolce in cocotte o in uno stampo.",
+        "tags": [
+          "carote",
+          "verdure",
+          "uova",
+          "forno",
+          "antipasto",
+          "francese",
+          "tradizionale",
+          "vegetariano",
+          "leggero",
+          "caldo",
+          "nostalgico",
+          "ricetta-di-famiglia"
+        ]
+      }
+    },
+    "stepCount": 7,
+    "ingredientCount": 6
+  },
+  {
+    "slug": "souffle-florentin",
+    "title": "Soufflé florentin",
+    "description": "Un soufflé léger à base de béchamel et d'épinards hachés, cuit à four doux en ramequins ou en plat.",
+    "images": {
+      "cover": "images/recipes/souffle-florentin/cover.svg",
+      "web": "images/recipes/souffle-florentin/cover.svg"
+    },
+    "prepTime": 20,
+    "cookTime": 45,
+    "servings": 8,
+    "difficulty": "Medio",
+    "category": "Antipasti",
+    "tags": [
+      "œufs",
+      "épinards",
+      "four",
+      "végétarien",
+      "entrée",
+      "français",
+      "chaud",
+      "léger",
+      "nostalgique",
+      "recette-de-famille"
+    ],
+    "origin": "amelie-grandpa",
+    "translations": {
+      "en": {
+        "title": "Florentine Soufflé",
+        "description": "A light soufflé made with béchamel and chopped spinach, baked in a low oven in ramekins or a dish.",
+        "tags": [
+          "eggs",
+          "spinach",
+          "oven",
+          "vegetarian",
+          "starter",
+          "french",
+          "hot",
+          "light",
+          "nostalgic",
+          "family-recipe"
+        ]
+      },
+      "it": {
+        "title": "Soufflé alla fiorentina",
+        "description": "Un soufflé leggero a base di besciamella e spinaci tritati, cotto a forno dolce in cocotte o in una pirofila.",
+        "tags": [
+          "uova",
+          "spinaci",
+          "forno",
+          "vegetariano",
+          "antipasto",
+          "francese",
+          "caldo",
+          "leggero",
+          "nostalgico",
+          "ricetta-di-famiglia"
+        ]
+      }
+    },
+    "stepCount": 7,
+    "ingredientCount": 6
+  },
+  {
+    "slug": "souffle-antillais",
+    "title": "Soufflé antillais",
+    "description": "Un soufflé dessert sur une base de crème pâtissière vanillée, relevé de raisins de Smyrne macérés et de rhum.",
+    "images": {
+      "cover": "images/recipes/souffle-antillais/cover.svg",
+      "web": "images/recipes/souffle-antillais/cover.svg"
+    },
+    "prepTime": 25,
+    "cookTime": 40,
+    "servings": 8,
+    "difficulty": "Medio",
+    "category": "Dolci",
+    "tags": [
+      "dessert",
+      "soufflé",
+      "œufs",
+      "rhum",
+      "raisins-secs",
+      "four",
+      "chaud",
+      "festif",
+      "gourmand",
+      "adultes",
+      "français",
+      "nostalgique",
+      "recette-de-famille"
+    ],
+    "origin": "amelie-grandpa",
+    "translations": {
+      "en": {
+        "title": "Caribbean Soufflé",
+        "description": "A dessert soufflé on a vanilla pastry cream base, lifted with soaked sultanas and rum.",
+        "tags": [
+          "dessert",
+          "souffle",
+          "eggs",
+          "rum",
+          "raisins",
+          "oven",
+          "hot",
+          "festive",
+          "indulgent",
+          "adults",
+          "french",
+          "nostalgic",
+          "family-recipe"
+        ]
+      },
+      "it": {
+        "title": "Soufflé antillano",
+        "description": "Un soufflé da dessert su una base di crema pasticcera alla vaniglia, arricchito con uvetta di Smirne macerata e rum.",
+        "tags": [
+          "dessert",
+          "soufflé",
+          "uova",
+          "rum",
+          "uvetta",
+          "forno",
+          "caldo",
+          "festivo",
+          "goloso",
+          "adulti",
+          "francese",
+          "nostalgico",
+          "ricetta-di-famiglia"
+        ]
+      }
+    },
+    "stepCount": 7,
+    "ingredientCount": 7
+  },
+  {
+    "slug": "souffle-arlequin",
+    "title": "Soufflé Arlequin",
+    "description": "Un soufflé à la crème pâtissière parfumée au Cointreau, monté en couches alternées vanille et chocolat.",
+    "images": {
+      "cover": "images/recipes/souffle-arlequin/cover.svg",
+      "web": "images/recipes/souffle-arlequin/cover.svg"
+    },
+    "prepTime": 30,
+    "cookTime": 45,
+    "servings": 8,
+    "difficulty": "Medio",
+    "category": "Dolci",
+    "tags": [
+      "dessert",
+      "chocolat",
+      "œufs",
+      "français",
+      "nostalgique",
+      "recette-de-famille",
+      "four",
+      "végétarien",
+      "festif",
+      "gourmand",
+      "chaud",
+      "adultes"
+    ],
+    "origin": "amelie-grandpa",
+    "translations": {
+      "en": {
+        "title": "Harlequin Soufflé",
+        "description": "A soufflé made with Cointreau-scented pastry cream, built up in alternating vanilla and chocolate layers.",
+        "tags": [
+          "dessert",
+          "chocolate",
+          "eggs",
+          "french",
+          "nostalgic",
+          "family-recipe",
+          "oven",
+          "vegetarian",
+          "festive",
+          "indulgent",
+          "hot",
+          "adults"
+        ]
+      },
+      "it": {
+        "title": "Soufflé Arlecchino",
+        "description": "Un soufflé a base di crema pasticcera profumata al Cointreau, composto a strati alternati di vaniglia e cioccolato.",
+        "tags": [
+          "dessert",
+          "cioccolato",
+          "uova",
+          "francese",
+          "nostalgico",
+          "ricetta-di-famiglia",
+          "forno",
+          "vegetariano",
+          "festivo",
+          "goloso",
+          "caldo",
+          "adulti"
+        ]
+      }
+    },
+    "stepCount": 8,
+    "ingredientCount": 7
+  },
+  {
+    "slug": "souffle-aux-poires",
+    "title": "Soufflé aux poires",
+    "description": "Un soufflé léger monté sur une crème pâtissière à la vanille, parfumée à la purée de poires et à l'alcool de poire.",
+    "images": {
+      "cover": "images/recipes/souffle-aux-poires/cover.svg",
+      "web": "images/recipes/souffle-aux-poires/cover.svg"
+    },
+    "prepTime": 30,
+    "cookTime": 45,
+    "servings": 8,
+    "difficulty": "Medio",
+    "category": "Dolci",
+    "tags": [
+      "poire",
+      "fruits",
+      "œufs",
+      "dessert",
+      "four",
+      "français",
+      "nostalgique",
+      "recette-de-famille",
+      "végétarien",
+      "aérien",
+      "festif",
+      "chaud",
+      "gourmand"
+    ],
+    "origin": "amelie-grandpa",
+    "translations": {
+      "en": {
+        "title": "Pear soufflé",
+        "description": "A light soufflé built on a vanilla pastry cream, flavoured with pear purée and pear brandy.",
+        "tags": [
+          "pear",
+          "fruit",
+          "eggs",
+          "dessert",
+          "oven",
+          "french",
+          "nostalgic",
+          "family-recipe",
+          "vegetarian",
+          "airy",
+          "festive",
+          "hot",
+          "indulgent"
+        ]
+      },
+      "it": {
+        "title": "Soufflé alle pere",
+        "description": "Un soufflé leggero montato su una crema pasticcera alla vaniglia, profumata con purea di pere e acquavite di pere.",
+        "tags": [
+          "pera",
+          "frutta",
+          "uova",
+          "dessert",
+          "forno",
+          "francese",
+          "nostalgico",
+          "ricetta-di-famiglia",
+          "vegetariano",
+          "arioso",
+          "festoso",
+          "caldo",
+          "goloso"
+        ]
+      }
+    },
+    "stepCount": 11,
+    "ingredientCount": 7
+  },
+  {
+    "slug": "souffle-glace-a-l-orange",
+    "title": "Soufflé glacé à l'orange",
+    "description": "Un soufflé glacé en ramequins rehaussés de papier, parfumé aux zestes d'oranges confits et à la fleur d'oranger, parsemé d'amandes grillées et de cacao.",
+    "images": {
+      "cover": "images/recipes/souffle-glace-a-l-orange/cover.svg",
+      "web": "images/recipes/souffle-glace-a-l-orange/cover.svg"
+    },
+    "prepTime": 45,
+    "cookTime": 20,
+    "servings": 10,
+    "difficulty": "Medio",
+    "category": "Gelati",
+    "tags": [
+      "dessert",
+      "soufflé",
+      "orange",
+      "agrumes",
+      "fruits",
+      "glacé",
+      "se-congèle",
+      "préparation-à-lavance",
+      "à-la-cuillère",
+      "festif",
+      "français",
+      "nostalgique",
+      "recette-de-famille"
+    ],
+    "origin": "amelie-grandpa",
+    "translations": {
+      "en": {
+        "title": "Frozen Orange Soufflé",
+        "description": "A frozen soufflé in paper-collared ramekins, flavoured with candied orange zest and orange blossom water, sprinkled with toasted almonds and cocoa.",
+        "tags": [
+          "dessert",
+          "souffle",
+          "orange",
+          "citrus",
+          "fruit",
+          "frozen",
+          "freezer-friendly",
+          "make-ahead",
+          "spoon-dessert",
+          "festive",
+          "french",
+          "nostalgic",
+          "family-recipe"
+        ]
+      },
+      "it": {
+        "title": "Soufflé gelato all'arancia",
+        "description": "Un soufflé gelato in cocotte rialzate con carta, profumato con scorze d'arancia candite e acqua di fiori d'arancio, cosparso di mandorle tostate e cacao.",
+        "tags": [
+          "dessert",
+          "soufflé",
+          "arancia",
+          "agrumi",
+          "frutta",
+          "ghiacciato",
+          "congelabile",
+          "preparazione-in-anticipo",
+          "al-cucchiaio",
+          "festivo",
+          "francese",
+          "nostalgico",
+          "ricetta-di-famiglia"
+        ]
+      }
+    },
+    "stepCount": 11,
+    "ingredientCount": 12
+  },
+  {
+    "slug": "souffle-liqueur",
+    "title": "Soufflé liqueur",
+    "description": "Un soufflé sucré sur une base de crème pâtissière parfumée à la liqueur de votre choix : Cointreau, Grand-Marnier, Noyau de Poissy, Bénédictine…",
+    "images": {
+      "cover": "images/recipes/souffle-liqueur/cover.svg",
+      "web": "images/recipes/souffle-liqueur/cover.svg"
+    },
+    "prepTime": 30,
+    "cookTime": 40,
+    "servings": 8,
+    "difficulty": "Medio",
+    "category": "Dolci",
+    "tags": [
+      "dessert",
+      "œufs",
+      "four",
+      "végétarien",
+      "français",
+      "aérien",
+      "festif",
+      "gourmand",
+      "chaud",
+      "nostalgique",
+      "recette-de-famille"
+    ],
+    "origin": "amelie-grandpa",
+    "translations": {
+      "en": {
+        "title": "Liqueur soufflé",
+        "description": "A sweet soufflé on a pastry cream base flavoured with the liqueur of your choice: Cointreau, Grand Marnier, Noyau de Poissy, Bénédictine…",
+        "tags": [
+          "dessert",
+          "eggs",
+          "oven",
+          "vegetarian",
+          "french",
+          "airy",
+          "festive",
+          "indulgent",
+          "hot",
+          "nostalgic",
+          "family-recipe"
+        ]
+      },
+      "it": {
+        "title": "Soufflé al liquore",
+        "description": "Un soufflé dolce su una base di crema pasticcera profumata al liquore che preferite: Cointreau, Grand Marnier, Noyau de Poissy, Bénédictine…",
+        "tags": [
+          "dessert",
+          "uova",
+          "forno",
+          "vegetariano",
+          "francese",
+          "arioso",
+          "festoso",
+          "goloso",
+          "caldo",
+          "nostalgico",
+          "ricetta-di-famiglia"
+        ]
+      }
+    },
+    "stepCount": 10,
+    "ingredientCount": 9
+  },
+  {
+    "slug": "souffle-martiniquais",
+    "title": "Soufflé martiniquais",
+    "description": "Un soufflé sucré sur une base de crème pâtissière à la vanille, relevée de raisins de Smyrne et de liqueur de café.",
+    "images": {
+      "cover": "images/recipes/souffle-martiniquais/cover.svg",
+      "web": "images/recipes/souffle-martiniquais/cover.svg"
+    },
+    "prepTime": 25,
+    "cookTime": 40,
+    "servings": 8,
+    "difficulty": "Medio",
+    "category": "Dolci",
+    "tags": [
+      "dessert",
+      "œufs",
+      "four",
+      "français",
+      "nostalgique",
+      "recette-de-famille",
+      "chaud",
+      "gourmand",
+      "festif",
+      "végétarien"
+    ],
+    "origin": "amelie-grandpa",
+    "translations": {
+      "en": {
+        "title": "Martinique soufflé",
+        "description": "A sweet soufflé on a vanilla pastry cream base, lifted with sultanas and coffee liqueur.",
+        "tags": [
+          "dessert",
+          "eggs",
+          "oven",
+          "french",
+          "nostalgic",
+          "family-recipe",
+          "hot",
+          "indulgent",
+          "festive",
+          "vegetarian"
+        ]
+      },
+      "it": {
+        "title": "Soufflé della Martinica",
+        "description": "Un soufflé dolce su una base di crema pasticcera alla vaniglia, arricchito con uvetta sultanina e liquore al caffè.",
+        "tags": [
+          "dessert",
+          "uova",
+          "forno",
+          "francese",
+          "nostalgico",
+          "ricetta-di-famiglia",
+          "caldo",
+          "goloso",
+          "festivo",
+          "vegetariano"
+        ]
+      }
+    },
+    "stepCount": 7,
+    "ingredientCount": 7
+  },
+  {
+    "slug": "fruits-deguises",
+    "title": "Fruits déguisés",
+    "description": "Noix, dattes et pruneaux garnis de pâte d'amandes colorée et parfumée, les noix trempées dans un caramel blond : des petits fours de fête.",
+    "images": {
+      "cover": "images/recipes/fruits-deguises/cover.svg",
+      "web": "images/recipes/fruits-deguises/cover.svg"
+    },
+    "prepTime": 60,
+    "cookTime": 10,
+    "servings": 24,
+    "difficulty": "Medio",
+    "category": "Dolci",
+    "tags": [
+      "dessert",
+      "fruits",
+      "fête",
+      "noël",
+      "festif",
+      "gourmand",
+      "finger-food",
+      "à-partager",
+      "froid",
+      "français",
+      "nostalgique",
+      "recette-de-famille"
+    ],
+    "origin": "amelie-grandpa",
+    "translations": {
+      "en": {
+        "title": "Marzipan-Stuffed Fruits",
+        "description": "Walnuts, dates and prunes filled with coloured, flavoured marzipan, the walnuts dipped in a light caramel: festive petits fours.",
+        "tags": [
+          "dessert",
+          "fruit",
+          "party",
+          "christmas",
+          "festive",
+          "indulgent",
+          "finger-food",
+          "sharing",
+          "cold",
+          "french",
+          "nostalgic",
+          "family-recipe"
+        ]
+      },
+      "it": {
+        "title": "Frutti ripieni di marzapane",
+        "description": "Noci, datteri e prugne farciti con marzapane colorato e aromatizzato, le noci immerse in un caramello biondo: pasticcini delle feste.",
+        "tags": [
+          "dessert",
+          "frutta",
+          "festa",
+          "natale",
+          "festivo",
+          "goloso",
+          "finger-food",
+          "da-condividere",
+          "freddo",
+          "francese",
+          "nostalgico",
+          "ricetta-di-famiglia"
+        ]
+      }
+    },
+    "stepCount": 6,
+    "ingredientCount": 9
+  },
+  {
+    "slug": "truffes-au-chocolat",
+    "title": "Truffes au chocolat",
+    "description": "Des truffes fondantes au chocolat noir, au beurre et au rhum, roulées dans le cacao amer et servies en caissettes.",
+    "images": {
+      "cover": "images/recipes/truffes-au-chocolat/cover.svg",
+      "web": "images/recipes/truffes-au-chocolat/cover.svg"
+    },
+    "prepTime": 30,
+    "cookTime": 10,
+    "servings": 30,
+    "difficulty": "Facile",
+    "category": "Dolci",
+    "tags": [
+      "chocolat",
+      "dessert",
+      "français",
+      "nostalgique",
+      "recette-de-famille",
+      "bain-marie",
+      "fondant",
+      "gourmand",
+      "festif",
+      "noël",
+      "finger-food",
+      "préparation-à-lavance",
+      "froid"
+    ],
+    "origin": "amelie-grandpa",
+    "translations": {
+      "en": {
+        "title": "Chocolate truffles",
+        "description": "Melt-in-the-mouth dark chocolate truffles with butter and rum, rolled in bitter cocoa and served in paper cases.",
+        "tags": [
+          "chocolate",
+          "dessert",
+          "french",
+          "nostalgic",
+          "family-recipe",
+          "bain-marie",
+          "melt-in-mouth",
+          "indulgent",
+          "festive",
+          "christmas",
+          "finger-food",
+          "make-ahead",
+          "cold"
+        ]
+      },
+      "it": {
+        "title": "Tartufi al cioccolato",
+        "description": "Tartufi morbidi al cioccolato fondente, burro e rum, passati nel cacao amaro e serviti in pirottini.",
+        "tags": [
+          "cioccolato",
+          "dessert",
+          "francese",
+          "nostalgico",
+          "ricetta-di-famiglia",
+          "bagnomaria",
+          "fondente",
+          "goloso",
+          "festivo",
+          "natale",
+          "finger-food",
+          "da-preparare-in-anticipo",
+          "freddo"
+        ]
+      }
+    },
+    "stepCount": 3,
+    "ingredientCount": 7
+  },
+  {
+    "slug": "truffes-au-marron-et-chocolat",
+    "title": "Truffes au marron et chocolat",
+    "description": "Des truffes fondantes au chocolat noir et à la purée de marron, parfumées au Cognac et roulées dans le cacao ou le vermicelle.",
+    "images": {
+      "cover": "images/recipes/truffes-au-marron-et-chocolat/cover.svg",
+      "web": "images/recipes/truffes-au-marron-et-chocolat/cover.svg"
+    },
+    "prepTime": 40,
+    "cookTime": 10,
+    "servings": 30,
+    "difficulty": "Facile",
+    "category": "Dolci",
+    "tags": [
+      "chocolat",
+      "marron",
+      "dessert",
+      "français",
+      "nostalgique",
+      "recette-de-famille",
+      "noël",
+      "fondant",
+      "gourmand",
+      "festif",
+      "préparation-à-lavance",
+      "finger-food"
+    ],
+    "origin": "amelie-grandpa",
+    "translations": {
+      "en": {
+        "title": "Chestnut and chocolate truffles",
+        "description": "Melt-in-the-mouth truffles made with dark chocolate and chestnut purée, flavoured with Cognac and rolled in cocoa or chocolate sprinkles.",
+        "tags": [
+          "chocolate",
+          "chestnut",
+          "dessert",
+          "french",
+          "nostalgic",
+          "family-recipe",
+          "christmas",
+          "melting",
+          "indulgent",
+          "festive",
+          "make-ahead",
+          "finger-food"
+        ]
+      },
+      "it": {
+        "title": "Tartufi di castagne e cioccolato",
+        "description": "Tartufi fondenti al cioccolato fondente e purea di castagne, profumati al Cognac e passati nel cacao o nei granelli di cioccolato.",
+        "tags": [
+          "cioccolato",
+          "castagne",
+          "dessert",
+          "francese",
+          "nostalgico",
+          "ricetta-di-famiglia",
+          "natale",
+          "fondente",
+          "goloso",
+          "festivo",
+          "da-preparare-in-anticipo",
+          "finger-food"
+        ]
+      }
+    },
+    "stepCount": 3,
+    "ingredientCount": 9
   }
 ]

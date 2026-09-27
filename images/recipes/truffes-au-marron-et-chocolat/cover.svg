@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 800 600">
+  <defs>
+    <radialGradient id="tmbg" cx="50%" cy="45%" r="70%"><stop offset="0%" stop-color="#2e2822"/><stop offset="100%" stop-color="#1a1510"/></radialGradient>
+    <radialGradient id="tmplate" cx="45%" cy="40%" r="65%"><stop offset="0%" stop-color="#3a3a3c"/><stop offset="100%" stop-color="#161618"/></radialGradient>
+    <radialGradient id="tmtruf" cx="38%" cy="32%" r="70%"><stop offset="0%" stop-color="#8a5a38"/><stop offset="60%" stop-color="#5a3620"/><stop offset="100%" stop-color="#2a180c"/></radialGradient>
+    <radialGradient id="tmnut" cx="35%" cy="30%" r="70%"><stop offset="0%" stop-color="#a0582a"/><stop offset="100%" stop-color="#4a220e"/></radialGradient>
+    <linearGradient id="tmcup" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#e8dcc6"/><stop offset="100%" stop-color="#b8a88e"/></linearGradient>
+    <g id="tmcase">
+      <ellipse cx="0" cy="32" rx="42" ry="9" fill="#000" opacity="0.3"/>
+      <path d="M-40,4 L-30,32 L30,32 L40,4Z" fill="url(#tmcup)"/>
+      <g stroke="#8a7a60" stroke-width="1.6" opacity="0.5"><line x1="-28" y1="6" x2="-22" y2="31"/><line x1="-14" y1="6" x2="-11" y2="32"/><line x1="0" y1="6" x2="0" y2="32"/><line x1="14" y1="6" x2="11" y2="32"/><line x1="28" y1="6" x2="22" y2="31"/></g>
+      <circle cx="0" cy="-4" r="32" fill="url(#tmtruf)"/>
+      <ellipse cx="-11" cy="-17" rx="9" ry="5" fill="#fff" opacity="0.08"/>
+    </g>
+    <g id="tmverm" stroke="#1e0e06" stroke-width="3" stroke-linecap="round">
+      <line x1="-18" y1="-22" x2="-12" y2="-24"/><line x1="4" y1="-30" x2="9" y2="-26"/><line x1="-6" y1="-12" x2="0" y2="-14"/><line x1="12" y1="-14" x2="16" y2="-9"/><line x1="-22" y1="-4" x2="-19" y2="2"/><line x1="4" y1="2" x2="10" y2="0"/><line x1="18" y1="-22" x2="22" y2="-18"/><line x1="-10" y1="8" x2="-4" y2="10"/><line x1="-2" y1="-24" x2="-6" y2="-19"/><line x1="22" y1="-4" x2="24" y2="2"/>
+    </g>
+    <g id="tmcoco" fill="#a06a42" opacity="0.55"><circle cx="-12" cy="-20" r="2"/><circle cx="6" cy="-25" r="1.6"/><circle cx="14" cy="-10" r="2"/><circle cx="-18" cy="0" r="1.5"/><circle cx="8" cy="4" r="1.6"/><circle cx="-4" cy="-10" r="1.4"/></g>
+  </defs>
+  <rect width="800" height="600" fill="url(#tmbg)"/>
+  <ellipse cx="400" cy="470" rx="320" ry="55" fill="#000" opacity="0.35"/>
+  <ellipse cx="400" cy="340" rx="300" ry="150" fill="url(#tmplate)"/>
+  <ellipse cx="400" cy="334" rx="262" ry="124" fill="#2a2a2c"/>
+  <ellipse cx="400" cy="334" rx="262" ry="124" fill="none" stroke="#4a4a4c" stroke-width="2" opacity="0.5"/>
+  <use xlink:href="#tmcase" x="310" y="275"/><use xlink:href="#tmverm" x="310" y="275"/>
+  <use xlink:href="#tmcase" x="410" y="262"/><use xlink:href="#tmcoco" x="410" y="262"/>
+  <use xlink:href="#tmcase" x="510" y="280"/><use xlink:href="#tmverm" x="510" y="280"/>
+  <use xlink:href="#tmcase" x="255" y="345"/><use xlink:href="#tmcoco" x="255" y="345"/>
+  <use xlink:href="#tmcase" x="360" y="350"/><use xlink:href="#tmverm" x="360" y="350"/>
+  <use xlink:href="#tmcase" x="465" y="352"/><use xlink:href="#tmcoco" x="465" y="352"/>
+  <use xlink:href="#tmcase" x="565" y="345"/><use xlink:href="#tmverm" x="565" y="345"/>
+  <g opacity="0.3">
+    <path d="M100,470 Q95,430 130,420 Q165,430 160,470 Q130,482 100,470Z" fill="url(#tmnut)"/>
+    <ellipse cx="130" cy="468" rx="28" ry="8" fill="#c8a070"/>
+    <path d="M670,160 Q665,122 698,114 Q730,122 726,160 Q698,170 670,160Z" fill="url(#tmnut)"/>
+    <ellipse cx="698" cy="158" rx="26" ry="7" fill="#c8a070"/>
+  </g>
+</svg>

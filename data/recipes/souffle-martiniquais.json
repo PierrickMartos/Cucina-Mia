@@ -1,0 +1,182 @@
+{
+  "slug": "souffle-martiniquais",
+  "title": "Soufflé martiniquais",
+  "description": "Un soufflé sucré sur une base de crème pâtissière à la vanille, relevée de raisins de Smyrne et de liqueur de café.",
+  "images": {
+    "cover": "images/recipes/souffle-martiniquais/cover.svg",
+    "web": "images/recipes/souffle-martiniquais/cover.svg"
+  },
+  "prepTime": 25,
+  "cookTime": 40,
+  "servings": 8,
+  "difficulty": "Medio",
+  "category": "Dolci",
+  "origin": "amelie-grandpa",
+  "tags": [
+    "dessert",
+    "œufs",
+    "four",
+    "français",
+    "nostalgique",
+    "recette-de-famille",
+    "chaud",
+    "gourmand",
+    "festif",
+    "végétarien"
+  ],
+  "ingredients": [
+    {
+      "items": [
+        "150 g de sucre",
+        "7 œufs (réserver les blancs)",
+        "100 g de farine",
+        "½ l de lait",
+        "1 gousse de vanille",
+        "60 g de raisins de Smyrne",
+        "1 dl de liqueur de café"
+      ]
+    }
+  ],
+  "steps": [
+    {
+      "text": "Préparation de base de la crème pâtissière : mélanger le sucre, 2 œufs entiers plus 2 jaunes, ajouter 75 g de farine."
+    },
+    {
+      "text": "Verser progressivement le lait parfumé à la vanille."
+    },
+    {
+      "text": "Cuire 2 à 3 minutes doucement et en remuant.",
+      "timers": [2]
+    },
+    {
+      "text": "Ajouter 3 jaunes d'œufs, les raisins et la liqueur de café."
+    },
+    {
+      "text": "Soufflé martiniquais : monter les blancs en neige très ferme, mélanger progressivement et délicatement à la préparation de base."
+    },
+    {
+      "text": "Verser dans des moules beurrés et farinés, selon le choix du récipient : 8 ramequins, ou 1 plat à soufflé pour 8 personnes, ou 2 plats à soufflé pour 4 personnes."
+    },
+    {
+      "text": "Mettre à four doux 30 à 40 minutes pour les plats à soufflé et 15 à 20 minutes pour les ramequins.",
+      "timers": [30, 15]
+    }
+  ],
+  "source": "Les recettes de Maurice Houdré, tome 3, Les soufflés",
+  "originalSource": {
+    "type": "text",
+    "data": "Soufflé martiniquais\n\nIngrédients : pour 8 personnes\n\n. 150 g de sucre\n. 7 œufs (réserver les blancs)\n. 100 g de farine\n. ½ l de lait\n. 1 gousse de vanille\n. 60 g de raisins de Smyrne\n. 1 dl de liqueur de café\n\nPréparation de base de la crème pâtissière :\n\nMélanger le sucre, 2 œufs entiers plus 2 jaunes, ajouter 75 g de farine.\nVerser progressivement le lait parfumé à la vanille.\nCuire 2 à 3 minutes doucement et en remuant.\nAjouter 3 jaunes d’œufs, les raisins et la liqueur de café.\n\nSoufflé martiniquais :\nMonter les blancs en neige très ferme, mélanger progressivement et délicatement à la préparation de base.\n\nVerser dans des moules beurrés et farinés, selon le choix du récipient :\n- 8 ramequins, ou\n- 1 plat à soufflé pour 8 personnes, ou\n- 2 plats à soufflé pour 4 personnes.\n\nMettre à four doux 30 à 40 minutes pour les plats à soufflé et 15 à 20 minutes pour les ramequins.\nLes recettes de Maurice HOUDRÉ\n_________________________________________________________________________________________________\n\n_________________________________________________________________________\n\nL\n\nM\n\nM\n\nM\n\nM\n\nP\n\nL\n"
+  },
+  "related": [
+    "souffle-antillais",
+    "souffle-liqueur",
+    "crepes-soufflees",
+    "souffle-arlequin"
+  ],
+  "translations": {
+    "en": {
+      "title": "Martinique soufflé",
+      "description": "A sweet soufflé on a vanilla pastry cream base, lifted with sultanas and coffee liqueur.",
+      "tags": [
+        "dessert",
+        "eggs",
+        "oven",
+        "french",
+        "nostalgic",
+        "family-recipe",
+        "hot",
+        "indulgent",
+        "festive",
+        "vegetarian"
+      ],
+      "ingredients": [
+        {
+          "items": [
+            "150 g of sugar",
+            "7 eggs (keep the whites aside)",
+            "100 g of flour",
+            "½ l of milk",
+            "1 vanilla pod",
+            "60 g of sultanas",
+            "1 dl of coffee liqueur"
+          ]
+        }
+      ],
+      "steps": [
+        {
+          "text": "Pastry cream base: mix the sugar with 2 whole eggs plus 2 yolks, then add 75 g of flour."
+        },
+        {
+          "text": "Gradually pour in the vanilla-infused milk."
+        },
+        {
+          "text": "Cook gently for 2 to 3 minutes, stirring."
+        },
+        {
+          "text": "Add 3 egg yolks, the sultanas and the coffee liqueur."
+        },
+        {
+          "text": "Martinique soufflé: whisk the whites to very stiff peaks, then gradually and gently fold them into the base mixture."
+        },
+        {
+          "text": "Pour into buttered and floured moulds, depending on the dish you choose: 8 ramekins, or 1 soufflé dish for 8 people, or 2 soufflé dishes for 4 people."
+        },
+        {
+          "text": "Bake in a low oven for 30 to 40 minutes for the soufflé dishes and 15 to 20 minutes for the ramekins."
+        }
+      ]
+    },
+    "it": {
+      "title": "Soufflé della Martinica",
+      "description": "Un soufflé dolce su una base di crema pasticcera alla vaniglia, arricchito con uvetta sultanina e liquore al caffè.",
+      "tags": [
+        "dessert",
+        "uova",
+        "forno",
+        "francese",
+        "nostalgico",
+        "ricetta-di-famiglia",
+        "caldo",
+        "goloso",
+        "festivo",
+        "vegetariano"
+      ],
+      "ingredients": [
+        {
+          "items": [
+            "150 g di zucchero",
+            "7 uova (tenere da parte gli albumi)",
+            "100 g di farina",
+            "½ l di latte",
+            "1 baccello di vaniglia",
+            "60 g di uvetta sultanina",
+            "1 dl di liquore al caffè"
+          ]
+        }
+      ],
+      "steps": [
+        {
+          "text": "Base di crema pasticcera: mescolare lo zucchero con 2 uova intere più 2 tuorli, poi aggiungere 75 g di farina."
+        },
+        {
+          "text": "Versare gradualmente il latte aromatizzato alla vaniglia."
+        },
+        {
+          "text": "Cuocere dolcemente per 2-3 minuti, mescolando."
+        },
+        {
+          "text": "Aggiungere 3 tuorli, l'uvetta e il liquore al caffè."
+        },
+        {
+          "text": "Soufflé della Martinica: montare gli albumi a neve ben ferma, poi incorporarli gradualmente e delicatamente al composto di base."
+        },
+        {
+          "text": "Versare in stampi imburrati e infarinati, a seconda del recipiente scelto: 8 cocotte, oppure 1 stampo da soufflé per 8 persone, oppure 2 stampi da soufflé per 4 persone."
+        },
+        {
+          "text": "Cuocere in forno dolce per 30-40 minuti per gli stampi da soufflé e 15-20 minuti per le cocotte."
+        }
+      ]
+    }
+  }
+}

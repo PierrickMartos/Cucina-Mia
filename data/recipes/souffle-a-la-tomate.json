@@ -1,0 +1,183 @@
+{
+  "slug": "souffle-a-la-tomate",
+  "title": "Soufflé à la tomate",
+  "description": "Un soufflé léger sur une base de béchamel aux jaunes d'œufs, relevée de tomates concassées et de muscade, cuit en ramequins ou en plat.",
+  "images": {
+    "cover": "images/recipes/souffle-a-la-tomate/cover.svg",
+    "web": "images/recipes/souffle-a-la-tomate/cover.svg"
+  },
+  "prepTime": 20,
+  "cookTime": 45,
+  "servings": 8,
+  "difficulty": "Medio",
+  "category": "Antipasti",
+  "origin": "amelie-grandpa",
+  "tags": [
+    "four",
+    "tomate",
+    "œufs",
+    "végétarien",
+    "français",
+    "nostalgique",
+    "recette-de-famille",
+    "entrée",
+    "aérien",
+    "chaud",
+    "festif"
+  ],
+  "ingredients": [
+    {
+      "items": [
+        "50 g de beurre",
+        "50 g de farine",
+        "½ l de lait",
+        "6 œufs",
+        "150 g de tomates",
+        "Sel, poivre, muscade râpée"
+      ]
+    }
+  ],
+  "steps": [
+    {
+      "text": "Préparation de base de la béchamel : le roux blanc. Faire fondre le beurre, ajouter la farine, mélanger et cuire doucement 1 à 2 minutes sans coloration et en remuant sans cesse.",
+      "timers": [1]
+    },
+    {
+      "text": "Ajouter progressivement le lait tiède, cuire 2 à 3 minutes, ajouter le sel, le poivre, la muscade râpée, bien mélanger.",
+      "timers": [2]
+    },
+    {
+      "text": "Ajouter 6 jaunes d'œufs et réserver les blancs, bien mélanger."
+    },
+    {
+      "text": "Soufflé à la tomate : ajouter dans la préparation de base 150 g de tomates concassées sans jus, mélanger."
+    },
+    {
+      "text": "Monter les 6 blancs en neige très ferme et les mélanger progressivement et délicatement à la préparation de base."
+    },
+    {
+      "text": "Verser dans des moules beurrés et farinés, selon le choix du récipient : 8 ramequins, ou 1 plat à soufflé pour 8 personnes, ou 2 plats à soufflé pour 4 personnes."
+    },
+    {
+      "text": "Mettre à four doux 30 à 40 minutes pour les plats à soufflé et 15 à 20 minutes pour les ramequins.",
+      "timers": [30, 15]
+    }
+  ],
+  "source": "Les recettes de Maurice Houdré, tome 3, Les soufflés",
+  "originalSource": {
+    "type": "text",
+    "data": "Soufflé à la tomate \n\nIngrédients : pour 8 personnes\n\n. 50 g de beurre\n. 50 g de farine\n. ½ l de lait\n. 6 œufs\n. 150 g de tomates\n. sel, poivre, muscade râpée\n\nPréparation de base de la Béchamel :\n\ne roux blanc : Faire fondre le beurre, ajouter la farine, mélanger et cuire doucement 1 à 2 minutes sans coloration et en remuant sans cesse.\nAjouter progressivement le lait tiède, cuire 2 à 3 minutes, ajouter le sel, le poivre, la muscade râpée, bien mélanger. Ajouter 6 jaunes d’œufs et réserver les blancs, bien mélanger.\n\nSoufflé à la tomate :\nAjouter dans la préparation de base, 150 g de tomates concassées sans jus, mélanger.\nMonter les 6 blancs en neige très ferme et les mélanger progressivement et délicatement à la préparation de base.\n\nVerser dans des moules beurrés et farinés, selon le choix du récipient :\n- 8 ramequins, ou\n- 1 plat à soufflé pour 8 personnes, ou\n- 2 plats à soufflé pour 4 personnes.\n\nMettre à four doux 30 à 40 minutes pour les plats à soufflé et 15 à 20 minutes pour les ramequins\n"
+  },
+  "related": [
+    "souffle-aux-crevettes",
+    "souffle-aux-champignons",
+    "souffle-aux-moules",
+    "souffle-au-fromage"
+  ],
+  "translations": {
+    "en": {
+      "title": "Tomato Soufflé",
+      "description": "A light soufflé on a béchamel base enriched with egg yolks, lifted with roughly chopped tomatoes and nutmeg, baked in ramekins or in a dish.",
+      "tags": [
+        "oven",
+        "tomato",
+        "eggs",
+        "vegetarian",
+        "french",
+        "nostalgic",
+        "family-recipe",
+        "starter",
+        "airy",
+        "hot",
+        "festive"
+      ],
+      "ingredients": [
+        {
+          "items": [
+            "50 g of butter",
+            "50 g of flour",
+            "½ l of milk",
+            "6 eggs",
+            "150 g of tomatoes",
+            "Salt, pepper, grated nutmeg"
+          ]
+        }
+      ],
+      "steps": [
+        {
+          "text": "Base preparation for the béchamel: the white roux. Melt the butter, add the flour, mix and cook gently for 1 to 2 minutes without colouring, stirring constantly."
+        },
+        {
+          "text": "Gradually add the lukewarm milk, cook for 2 to 3 minutes, add the salt, pepper and grated nutmeg, and mix well."
+        },
+        {
+          "text": "Add 6 egg yolks, setting the whites aside, and mix well."
+        },
+        {
+          "text": "Tomato soufflé: add 150 g of roughly chopped tomatoes, drained of their juice, to the base preparation and mix."
+        },
+        {
+          "text": "Whisk the 6 egg whites to very stiff peaks and fold them gradually and gently into the base preparation."
+        },
+        {
+          "text": "Pour into buttered and floured moulds, depending on your choice of dish: 8 ramekins, or 1 soufflé dish for 8 people, or 2 soufflé dishes for 4 people."
+        },
+        {
+          "text": "Bake in a low oven for 30 to 40 minutes for the soufflé dishes and 15 to 20 minutes for the ramekins."
+        }
+      ]
+    },
+    "it": {
+      "title": "Soufflé al pomodoro",
+      "description": "Un soufflé leggero su una base di besciamella ai tuorli, insaporita con pomodori tritati grossolanamente e noce moscata, cotto in stampini o in una pirofila.",
+      "tags": [
+        "forno",
+        "pomodoro",
+        "uova",
+        "vegetariano",
+        "francese",
+        "nostalgico",
+        "ricetta-di-famiglia",
+        "antipasto",
+        "arioso",
+        "caldo",
+        "festoso"
+      ],
+      "ingredients": [
+        {
+          "items": [
+            "50 g di burro",
+            "50 g di farina",
+            "½ l di latte",
+            "6 uova",
+            "150 g di pomodori",
+            "Sale, pepe, noce moscata grattugiata"
+          ]
+        }
+      ],
+      "steps": [
+        {
+          "text": "Preparazione di base della besciamella: il roux bianco. Sciogliere il burro, aggiungere la farina, mescolare e cuocere dolcemente per 1-2 minuti senza far colorire, mescolando senza sosta."
+        },
+        {
+          "text": "Aggiungere gradualmente il latte tiepido, cuocere per 2-3 minuti, aggiungere il sale, il pepe e la noce moscata grattugiata, mescolare bene."
+        },
+        {
+          "text": "Aggiungere 6 tuorli tenendo da parte gli albumi, mescolare bene."
+        },
+        {
+          "text": "Soufflé al pomodoro: aggiungere alla preparazione di base 150 g di pomodori tritati grossolanamente e privati del succo, mescolare."
+        },
+        {
+          "text": "Montare i 6 albumi a neve ben ferma e incorporarli gradualmente e delicatamente alla preparazione di base."
+        },
+        {
+          "text": "Versare in stampi imburrati e infarinati, a seconda del recipiente scelto: 8 stampini, oppure 1 stampo da soufflé per 8 persone, oppure 2 stampi da soufflé per 4 persone."
+        },
+        {
+          "text": "Cuocere in forno dolce per 30-40 minuti per gli stampi da soufflé e per 15-20 minuti per gli stampini."
+        }
+      ]
+    }
+  }
+}
