@@ -3,8 +3,8 @@
   "title": "Soufflé aux champignons",
   "description": "Un soufflé léger sur une base de béchamel aux jaunes d'œufs, garni de champignons hachés, cuit en ramequins ou en plat.",
   "images": {
-    "cover": "images/recipes/souffle-aux-champignons/cover.svg",
-    "web": "images/recipes/souffle-aux-champignons/cover.svg"
+    "cover": "images/recipes/souffle-aux-champignons/cover.webp",
+    "web": "images/recipes/souffle-aux-champignons/web.webp"
   },
   "prepTime": 25,
   "cookTime": 45,

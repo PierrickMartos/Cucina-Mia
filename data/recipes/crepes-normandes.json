@@ -3,8 +3,8 @@
   "title": "Crêpes normandes",
   "description": "Des crêpes sucrées garnies de pommes Reinette caramélisées au beurre et flambées au Calvados, roulées et servies chaudes.",
   "images": {
-    "cover": "images/recipes/crepes-normandes/cover.svg",
-    "web": "images/recipes/crepes-normandes/cover.svg"
+    "cover": "images/recipes/crepes-normandes/cover.webp",
+    "web": "images/recipes/crepes-normandes/web.webp"
   },
   "prepTime": 20,
   "cookTime": 20,

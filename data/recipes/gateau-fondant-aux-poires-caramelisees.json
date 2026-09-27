@@ -3,8 +3,8 @@
   "title": "Gâteau fondant aux poires caramélisées",
   "description": "Des poires en rosace sur un moule caramélisé, recouvertes d'une pâte au beurre parfumée à l'alcool de poire, servies avec une crème anglaise.",
   "images": {
-    "cover": "images/recipes/gateau-fondant-aux-poires-caramelisees/cover.svg",
-    "web": "images/recipes/gateau-fondant-aux-poires-caramelisees/cover.svg"
+    "cover": "images/recipes/gateau-fondant-aux-poires-caramelisees/cover.webp",
+    "web": "images/recipes/gateau-fondant-aux-poires-caramelisees/web.webp"
   },
   "prepTime": 30,
   "cookTime": 50,

@@ -3,8 +3,8 @@
   "title": "Soufflé florentin",
   "description": "Un soufflé léger à base de béchamel et d'épinards hachés, cuit à four doux en ramequins ou en plat.",
   "images": {
-    "cover": "images/recipes/souffle-florentin/cover.svg",
-    "web": "images/recipes/souffle-florentin/cover.svg"
+    "cover": "images/recipes/souffle-florentin/cover.webp",
+    "web": "images/recipes/souffle-florentin/web.webp"
   },
   "prepTime": 20,
   "cookTime": 45,

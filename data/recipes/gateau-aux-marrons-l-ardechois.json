@@ -3,8 +3,8 @@
   "title": "Gâteau aux marrons l'ardéchois",
   "description": "Un gâteau moelleux à la crème de marron ou aux brisures de marrons glacés, parfumé à la vanille, servi avec une crème anglaise ou une sauce au chocolat.",
   "images": {
-    "cover": "images/recipes/gateau-aux-marrons-l-ardechois/cover.svg",
-    "web": "images/recipes/gateau-aux-marrons-l-ardechois/cover.svg"
+    "cover": "images/recipes/gateau-aux-marrons-l-ardechois/cover.webp",
+    "web": "images/recipes/gateau-aux-marrons-l-ardechois/web.webp"
   },
   "prepTime": 20,
   "cookTime": 40,

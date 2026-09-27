@@ -3,8 +3,8 @@
   "title": "Soufflé à la bisque de homard",
   "description": "Un soufflé salé monté sur une béchamel parfumée à la bisque de homard et relevée d'une pointe de Cayenne, à servir dès la sortie du four.",
   "images": {
-    "cover": "images/recipes/souffle-a-la-bisque-de-homard/cover.svg",
-    "web": "images/recipes/souffle-a-la-bisque-de-homard/cover.svg"
+    "cover": "images/recipes/souffle-a-la-bisque-de-homard/cover.webp",
+    "web": "images/recipes/souffle-a-la-bisque-de-homard/web.webp"
   },
   "prepTime": 20,
   "cookTime": 40,

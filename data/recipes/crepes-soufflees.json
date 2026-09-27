@@ -3,8 +3,8 @@
   "title": "Crêpes soufflées",
   "description": "Des crêpes sucrées garnies de crème pâtissière allégée aux blancs en neige et parfumée à la liqueur, soufflées au four.",
   "images": {
-    "cover": "images/recipes/crepes-soufflees/cover.svg",
-    "web": "images/recipes/crepes-soufflees/cover.svg"
+    "cover": "images/recipes/crepes-soufflees/cover.webp",
+    "web": "images/recipes/crepes-soufflees/web.webp"
   },
   "prepTime": 20,
   "cookTime": 15,

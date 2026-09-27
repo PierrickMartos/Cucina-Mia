@@ -3,8 +3,8 @@
   "title": "Chorba",
   "description": "Soupe épicée à l'agneau, aux courgettes, pois chiches et petites pâtes, parfumée à la menthe, au paprika et à la coriandre fraîche.",
   "images": {
-    "cover": "images/recipes/chorba/cover.svg",
-    "web": "images/recipes/chorba/cover.svg"
+    "cover": "images/recipes/chorba/cover.webp",
+    "web": "images/recipes/chorba/web.webp"
   },
   "prepTime": 30,
   "cookTime": 65,

@@ -3,8 +3,8 @@
   "title": "Soufflé liqueur",
   "description": "Un soufflé sucré sur une base de crème pâtissière parfumée à la liqueur de votre choix : Cointreau, Grand-Marnier, Noyau de Poissy, Bénédictine…",
   "images": {
-    "cover": "images/recipes/souffle-liqueur/cover.svg",
-    "web": "images/recipes/souffle-liqueur/cover.svg"
+    "cover": "images/recipes/souffle-liqueur/cover.webp",
+    "web": "images/recipes/souffle-liqueur/web.webp"
   },
   "prepTime": 30,
   "cookTime": 40,

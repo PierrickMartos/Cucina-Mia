@@ -3,8 +3,8 @@
   "title": "Gratin de prunes",
   "description": "Des prunes sautées au beurre, caramélisées et flambées à l'alcool de prune, nappées d'un appareil au lait, à la crème et aux œufs, puis gratinées au four.",
   "images": {
-    "cover": "images/recipes/gratin-de-prunes/cover.svg",
-    "web": "images/recipes/gratin-de-prunes/cover.svg"
+    "cover": "images/recipes/gratin-de-prunes/cover.webp",
+    "web": "images/recipes/gratin-de-prunes/web.webp"
   },
   "prepTime": 20,
   "cookTime": 40,

@@ -3,8 +3,8 @@
   "title": "Soufflé aux crevettes",
   "description": "Un soufflé léger sur une béchamel aux jaunes d'œufs, garni de crevettes roses sautées au beurre et persillées, en ramequins ou en grand plat.",
   "images": {
-    "cover": "images/recipes/souffle-aux-crevettes/cover.svg",
-    "web": "images/recipes/souffle-aux-crevettes/cover.svg"
+    "cover": "images/recipes/souffle-aux-crevettes/cover.webp",
+    "web": "images/recipes/souffle-aux-crevettes/web.webp"
   },
   "prepTime": 25,
   "cookTime": 45,

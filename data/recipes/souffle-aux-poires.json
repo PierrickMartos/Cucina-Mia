@@ -3,8 +3,8 @@
   "title": "Soufflé aux poires",
   "description": "Un soufflé léger monté sur une crème pâtissière à la vanille, parfumée à la purée de poires et à l'alcool de poire.",
   "images": {
-    "cover": "images/recipes/souffle-aux-poires/cover.svg",
-    "web": "images/recipes/souffle-aux-poires/cover.svg"
+    "cover": "images/recipes/souffle-aux-poires/cover.webp",
+    "web": "images/recipes/souffle-aux-poires/web.webp"
   },
   "prepTime": 30,
   "cookTime": 45,

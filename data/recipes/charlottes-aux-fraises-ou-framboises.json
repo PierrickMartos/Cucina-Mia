@@ -3,8 +3,8 @@
   "title": "Charlottes aux fraises ou framboises",
   "description": "Une charlotte de biscuits cuillères garnie de couches de bavarois à la vanille et de fraises ou de framboises, servie avec un coulis.",
   "images": {
-    "cover": "images/recipes/charlottes-aux-fraises-ou-framboises/cover.svg",
-    "web": "images/recipes/charlottes-aux-fraises-ou-framboises/cover.svg"
+    "cover": "images/recipes/charlottes-aux-fraises-ou-framboises/cover.webp",
+    "web": "images/recipes/charlottes-aux-fraises-ou-framboises/web.webp"
   },
   "prepTime": 45,
   "cookTime": 15,

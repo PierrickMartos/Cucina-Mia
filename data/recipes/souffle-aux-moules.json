@@ -3,8 +3,8 @@
   "title": "Soufflé aux moules",
   "description": "Un soufflé léger sur une base de béchamel, garni de moules sautées au beurre et persillées, cuit à four doux.",
   "images": {
-    "cover": "images/recipes/souffle-aux-moules/cover.svg",
-    "web": "images/recipes/souffle-aux-moules/cover.svg"
+    "cover": "images/recipes/souffle-aux-moules/cover.webp",
+    "web": "images/recipes/souffle-aux-moules/web.webp"
   },
   "prepTime": 20,
   "cookTime": 40,

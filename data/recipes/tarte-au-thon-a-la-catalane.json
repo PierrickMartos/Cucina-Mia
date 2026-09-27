@@ -3,8 +3,8 @@
   "title": "Tarte au thon à la catalane",
   "description": "Une tarte sur pâte brisée garnie d'oignons, poivrons et tomates compotés à l'huile d'olive, relevée d'harissa et parsemée de thon.",
   "images": {
-    "cover": "images/recipes/tarte-au-thon-a-la-catalane/cover.svg",
-    "web": "images/recipes/tarte-au-thon-a-la-catalane/cover.svg"
+    "cover": "images/recipes/tarte-au-thon-a-la-catalane/cover.webp",
+    "web": "images/recipes/tarte-au-thon-a-la-catalane/web.webp"
   },
   "prepTime": 30,
   "cookTime": 40,

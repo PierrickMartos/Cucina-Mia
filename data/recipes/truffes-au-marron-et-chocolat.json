@@ -3,8 +3,8 @@
   "title": "Truffes au marron et chocolat",
   "description": "Des truffes fondantes au chocolat noir et à la purée de marron, parfumées au Cognac et roulées dans le cacao ou le vermicelle.",
   "images": {
-    "cover": "images/recipes/truffes-au-marron-et-chocolat/cover.svg",
-    "web": "images/recipes/truffes-au-marron-et-chocolat/cover.svg"
+    "cover": "images/recipes/truffes-au-marron-et-chocolat/cover.webp",
+    "web": "images/recipes/truffes-au-marron-et-chocolat/web.webp"
   },
   "prepTime": 40,
   "cookTime": 10,
