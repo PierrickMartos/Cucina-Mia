@@ -3,8 +3,8 @@
   "title": "Terrine de canard",
   "description": "Une terrine de canard désossé, aiguillettes marinées au Porto et au Cognac, farce aux pistaches, cuite au bain-marie.",
   "images": {
-    "cover": "images/recipes/terrine-de-canard/cover.svg",
-    "web": "images/recipes/terrine-de-canard/cover.svg"
+    "cover": "images/recipes/terrine-de-canard/cover.webp",
+    "web": "images/recipes/terrine-de-canard/web.webp"
   },
   "prepTime": 90,
   "cookTime": 90,

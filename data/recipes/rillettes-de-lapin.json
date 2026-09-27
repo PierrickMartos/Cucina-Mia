@@ -3,8 +3,8 @@
   "title": "Rillettes de lapin",
   "description": "Des rillettes maison de porc et de lapin, mijotées au saindoux avec un bouquet garni puis écrasées à la fourchette, à garder en pots ou en terrine.",
   "images": {
-    "cover": "images/recipes/rillettes-de-lapin/cover.svg",
-    "web": "images/recipes/rillettes-de-lapin/cover.svg"
+    "cover": "images/recipes/rillettes-de-lapin/cover.webp",
+    "web": "images/recipes/rillettes-de-lapin/web.webp"
   },
   "prepTime": 30,
   "cookTime": 60,

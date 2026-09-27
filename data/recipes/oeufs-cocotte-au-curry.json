@@ -3,8 +3,8 @@
   "title": "Œufs cocotte au curry",
   "description": "Des œufs cuits au four au bain-marie en ramequins, nappés d'une crème bouillante parfumée au curry.",
   "images": {
-    "cover": "images/recipes/oeufs-cocotte-au-curry/cover.svg",
-    "web": "images/recipes/oeufs-cocotte-au-curry/cover.svg"
+    "cover": "images/recipes/oeufs-cocotte-au-curry/cover.webp",
+    "web": "images/recipes/oeufs-cocotte-au-curry/web.webp"
   },
   "prepTime": 5,
   "cookTime": 6,

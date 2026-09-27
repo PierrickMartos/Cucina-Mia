@@ -7317,8 +7317,8 @@
     "title": "Beignets d'aubergines",
     "description": "Des rondelles d'aubergines dégorgées au citron, enrobées d'une pâte à beignet légère et dorées à la friture, servies avec une sauce tomate.",
     "images": {
-      "cover": "images/recipes/beignets-d-aubergines/cover.svg",
-      "web": "images/recipes/beignets-d-aubergines/cover.svg"
+      "cover": "images/recipes/beignets-d-aubergines/cover.webp",
+      "web": "images/recipes/beignets-d-aubergines/web.webp"
     },
     "prepTime": 45,
     "cookTime": 20,
@@ -7949,8 +7949,8 @@
     "title": "Tourte de pommes de terre",
     "description": "Une tourte en pâte brisée garnie de pommes de terre sautées, de lardons, d'ail et de persil, arrosée de crème au cerfeuil en fin de cuisson.",
     "images": {
-      "cover": "images/recipes/tourte-de-pommes-de-terre/cover.svg",
-      "web": "images/recipes/tourte-de-pommes-de-terre/cover.svg"
+      "cover": "images/recipes/tourte-de-pommes-de-terre/cover.webp",
+      "web": "images/recipes/tourte-de-pommes-de-terre/web.webp"
     },
     "prepTime": 90,
     "cookTime": 60,
@@ -9254,8 +9254,8 @@
     "title": "Soupe à l'ail",
     "description": "Une soupe à l'ail au bouillon de poule et au vin blanc, liée d'un roux, garnie de vermicelle et enrichie d'œufs.",
     "images": {
-      "cover": "images/recipes/soupe-a-l-ail/cover.svg",
-      "web": "images/recipes/soupe-a-l-ail/cover.svg"
+      "cover": "images/recipes/soupe-a-l-ail/cover.webp",
+      "web": "images/recipes/soupe-a-l-ail/web.webp"
     },
     "prepTime": 10,
     "cookTime": 30,
@@ -9892,8 +9892,8 @@
     "title": "Avocat farci aux crevettes",
     "description": "Des moitiés d'avocat garnies de dés d'avocat, crevettes, salade et œufs durs liés à la mayonnaise, servies bien fraîches.",
     "images": {
-      "cover": "images/recipes/avocat-farci-aux-crevettes/cover.svg",
-      "web": "images/recipes/avocat-farci-aux-crevettes/cover.svg"
+      "cover": "images/recipes/avocat-farci-aux-crevettes/cover.webp",
+      "web": "images/recipes/avocat-farci-aux-crevettes/web.webp"
     },
     "prepTime": 30,
     "cookTime": 10,
@@ -10031,8 +10031,8 @@
     "title": "Champignons à la grecque",
     "description": "Petits champignons de Paris et petits oignons cuits au vin blanc, citron, huile d'olive et coriandre, servis froids.",
     "images": {
-      "cover": "images/recipes/champignons-a-la-grecque/cover.svg",
-      "web": "images/recipes/champignons-a-la-grecque/cover.svg"
+      "cover": "images/recipes/champignons-a-la-grecque/cover.webp",
+      "web": "images/recipes/champignons-a-la-grecque/web.webp"
     },
     "prepTime": 20,
     "cookTime": 20,
@@ -12446,8 +12446,8 @@
     "title": "Gnocchis à la parisienne",
     "description": "Des gnocchis de pâte à chou au fromage, pochés puis gratinés au four sous une sauce Mornay ou béchamel.",
     "images": {
-      "cover": "images/recipes/gnocchis-a-la-parisienne/cover.svg",
-      "web": "images/recipes/gnocchis-a-la-parisienne/cover.svg"
+      "cover": "images/recipes/gnocchis-a-la-parisienne/cover.webp",
+      "web": "images/recipes/gnocchis-a-la-parisienne/web.webp"
     },
     "prepTime": 30,
     "cookTime": 45,
@@ -12515,8 +12515,8 @@
     "title": "Gnocchis à la romaine",
     "description": "Une galette de semoule au lait, aux œufs et au gruyère, découpée puis gratinée au beurre fondu.",
     "images": {
-      "cover": "images/recipes/gnocchis-a-la-romaine/cover.svg",
-      "web": "images/recipes/gnocchis-a-la-romaine/cover.svg"
+      "cover": "images/recipes/gnocchis-a-la-romaine/cover.webp",
+      "web": "images/recipes/gnocchis-a-la-romaine/web.webp"
     },
     "prepTime": 20,
     "cookTime": 20,
@@ -12650,8 +12650,8 @@
     "title": "Œufs cocotte au curry",
     "description": "Des œufs cuits au four au bain-marie en ramequins, nappés d'une crème bouillante parfumée au curry.",
     "images": {
-      "cover": "images/recipes/oeufs-cocotte-au-curry/cover.svg",
-      "web": "images/recipes/oeufs-cocotte-au-curry/cover.svg"
+      "cover": "images/recipes/oeufs-cocotte-au-curry/cover.webp",
+      "web": "images/recipes/oeufs-cocotte-au-curry/web.webp"
     },
     "prepTime": 5,
     "cookTime": 6,
@@ -15696,8 +15696,8 @@
     "title": "Lapin aux pruneaux",
     "description": "Lapin doré puis mijoté au vin blanc et à la tomate, servi avec pruneaux, lardons et petits oignons glacés.",
     "images": {
-      "cover": "images/recipes/lapin-aux-pruneaux/cover.svg",
-      "web": "images/recipes/lapin-aux-pruneaux/cover.svg"
+      "cover": "images/recipes/lapin-aux-pruneaux/cover.webp",
+      "web": "images/recipes/lapin-aux-pruneaux/web.webp"
     },
     "prepTime": 40,
     "cookTime": 85,
@@ -16181,8 +16181,8 @@
     "title": "Rillettes de lapin",
     "description": "Des rillettes maison de porc et de lapin, mijotées au saindoux avec un bouquet garni puis écrasées à la fourchette, à garder en pots ou en terrine.",
     "images": {
-      "cover": "images/recipes/rillettes-de-lapin/cover.svg",
-      "web": "images/recipes/rillettes-de-lapin/cover.svg"
+      "cover": "images/recipes/rillettes-de-lapin/cover.webp",
+      "web": "images/recipes/rillettes-de-lapin/web.webp"
     },
     "prepTime": 30,
     "cookTime": 60,
@@ -16250,8 +16250,8 @@
     "title": "Terrine de canard",
     "description": "Une terrine de canard désossé, aiguillettes marinées au Porto et au Cognac, farce aux pistaches, cuite au bain-marie.",
     "images": {
-      "cover": "images/recipes/terrine-de-canard/cover.svg",
-      "web": "images/recipes/terrine-de-canard/cover.svg"
+      "cover": "images/recipes/terrine-de-canard/cover.webp",
+      "web": "images/recipes/terrine-de-canard/web.webp"
     },
     "prepTime": 90,
     "cookTime": 90,
@@ -16454,8 +16454,8 @@
     "title": "Charlotte au chocolat",
     "description": "Une charlotte de biscuits cuillères imbibés au rhum, garnie d'une marquise au chocolat et servie avec un sabayon tiède au café.",
     "images": {
-      "cover": "images/recipes/charlotte-au-chocolat/cover.svg",
-      "web": "images/recipes/charlotte-au-chocolat/cover.svg"
+      "cover": "images/recipes/charlotte-au-chocolat/cover.webp",
+      "web": "images/recipes/charlotte-au-chocolat/web.webp"
     },
     "prepTime": 60,
     "cookTime": 15,
@@ -18060,8 +18060,8 @@
     "title": "Mousse au chocolat blanc",
     "description": "Une mousse légère au chocolat blanc, liée à la crème anglaise et à la crème fouettée, parfumée au Cointreau.",
     "images": {
-      "cover": "images/recipes/mousse-au-chocolat-blanc/cover.svg",
-      "web": "images/recipes/mousse-au-chocolat-blanc/cover.svg"
+      "cover": "images/recipes/mousse-au-chocolat-blanc/cover.webp",
+      "web": "images/recipes/mousse-au-chocolat-blanc/web.webp"
     },
     "prepTime": 30,
     "cookTime": 15,
@@ -18841,8 +18841,8 @@
     "title": "Gâteau au chocolat",
     "description": "Un gâteau au chocolat fondant et léger, aux blancs montés en neige, cuit doucement au four dans un moule à manquer.",
     "images": {
-      "cover": "images/recipes/gateau-au-chocolat/cover.svg",
-      "web": "images/recipes/gateau-au-chocolat/cover.svg"
+      "cover": "images/recipes/gateau-au-chocolat/cover.webp",
+      "web": "images/recipes/gateau-au-chocolat/web.webp"
     },
     "prepTime": 20,
     "cookTime": 60,
@@ -19546,8 +19546,8 @@
     "title": "Tarte à la rhubarbe et aux pommes",
     "description": "Une tarte maison où la rhubarbe acidulée et les pommes dorées au beurre cuisent sous une crème onctueuse.",
     "images": {
-      "cover": "images/recipes/tarte-a-la-rhubarbe-et-aux-pommes/cover.svg",
-      "web": "images/recipes/tarte-a-la-rhubarbe-et-aux-pommes/cover.svg"
+      "cover": "images/recipes/tarte-a-la-rhubarbe-et-aux-pommes/cover.webp",
+      "web": "images/recipes/tarte-a-la-rhubarbe-et-aux-pommes/web.webp"
     },
     "prepTime": 30,
     "cookTime": 40,
@@ -19899,8 +19899,8 @@
     "title": "Soufflé au fromage",
     "description": "Le soufflé au fromage classique : une béchamel liée aux jaunes d'œufs, du gruyère râpé et des blancs montés en neige très ferme, cuit à four doux.",
     "images": {
-      "cover": "images/recipes/souffle-au-fromage-du-papi/cover.svg",
-      "web": "images/recipes/souffle-au-fromage-du-papi/cover.svg"
+      "cover": "images/recipes/souffle-au-fromage-du-papi/cover.webp",
+      "web": "images/recipes/souffle-au-fromage-du-papi/web.webp"
     },
     "prepTime": 25,
     "cookTime": 45,
@@ -20778,8 +20778,8 @@
     "title": "Truffes au chocolat",
     "description": "Des truffes fondantes au chocolat noir, au beurre et au rhum, roulées dans le cacao amer et servies en caissettes.",
     "images": {
-      "cover": "images/recipes/truffes-au-chocolat/cover.svg",
-      "web": "images/recipes/truffes-au-chocolat/cover.svg"
+      "cover": "images/recipes/truffes-au-chocolat/cover.webp",
+      "web": "images/recipes/truffes-au-chocolat/web.webp"
     },
     "prepTime": 30,
     "cookTime": 10,

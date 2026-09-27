@@ -3,8 +3,8 @@
   "title": "Champignons à la grecque",
   "description": "Petits champignons de Paris et petits oignons cuits au vin blanc, citron, huile d'olive et coriandre, servis froids.",
   "images": {
-    "cover": "images/recipes/champignons-a-la-grecque/cover.svg",
-    "web": "images/recipes/champignons-a-la-grecque/cover.svg"
+    "cover": "images/recipes/champignons-a-la-grecque/cover.webp",
+    "web": "images/recipes/champignons-a-la-grecque/web.webp"
   },
   "prepTime": 20,
   "cookTime": 20,

@@ -3,8 +3,8 @@
   "title": "Gnocchis à la parisienne",
   "description": "Des gnocchis de pâte à chou au fromage, pochés puis gratinés au four sous une sauce Mornay ou béchamel.",
   "images": {
-    "cover": "images/recipes/gnocchis-a-la-parisienne/cover.svg",
-    "web": "images/recipes/gnocchis-a-la-parisienne/cover.svg"
+    "cover": "images/recipes/gnocchis-a-la-parisienne/cover.webp",
+    "web": "images/recipes/gnocchis-a-la-parisienne/web.webp"
   },
   "prepTime": 30,
   "cookTime": 45,

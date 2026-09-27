@@ -3,8 +3,8 @@
   "title": "Beignets d'aubergines",
   "description": "Des rondelles d'aubergines dégorgées au citron, enrobées d'une pâte à beignet légère et dorées à la friture, servies avec une sauce tomate.",
   "images": {
-    "cover": "images/recipes/beignets-d-aubergines/cover.svg",
-    "web": "images/recipes/beignets-d-aubergines/cover.svg"
+    "cover": "images/recipes/beignets-d-aubergines/cover.webp",
+    "web": "images/recipes/beignets-d-aubergines/web.webp"
   },
   "prepTime": 45,
   "cookTime": 20,

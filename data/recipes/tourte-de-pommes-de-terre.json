@@ -3,8 +3,8 @@
   "title": "Tourte de pommes de terre",
   "description": "Une tourte en pâte brisée garnie de pommes de terre sautées, de lardons, d'ail et de persil, arrosée de crème au cerfeuil en fin de cuisson.",
   "images": {
-    "cover": "images/recipes/tourte-de-pommes-de-terre/cover.svg",
-    "web": "images/recipes/tourte-de-pommes-de-terre/cover.svg"
+    "cover": "images/recipes/tourte-de-pommes-de-terre/cover.webp",
+    "web": "images/recipes/tourte-de-pommes-de-terre/web.webp"
   },
   "prepTime": 90,
   "cookTime": 60,

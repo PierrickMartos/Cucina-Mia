@@ -3,8 +3,8 @@
   "title": "Tarte à la rhubarbe et aux pommes",
   "description": "Une tarte maison où la rhubarbe acidulée et les pommes dorées au beurre cuisent sous une crème onctueuse.",
   "images": {
-    "cover": "images/recipes/tarte-a-la-rhubarbe-et-aux-pommes/cover.svg",
-    "web": "images/recipes/tarte-a-la-rhubarbe-et-aux-pommes/cover.svg"
+    "cover": "images/recipes/tarte-a-la-rhubarbe-et-aux-pommes/cover.webp",
+    "web": "images/recipes/tarte-a-la-rhubarbe-et-aux-pommes/web.webp"
   },
   "prepTime": 30,
   "cookTime": 40,

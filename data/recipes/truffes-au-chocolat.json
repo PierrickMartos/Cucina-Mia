@@ -3,8 +3,8 @@
   "title": "Truffes au chocolat",
   "description": "Des truffes fondantes au chocolat noir, au beurre et au rhum, roulées dans le cacao amer et servies en caissettes.",
   "images": {
-    "cover": "images/recipes/truffes-au-chocolat/cover.svg",
-    "web": "images/recipes/truffes-au-chocolat/cover.svg"
+    "cover": "images/recipes/truffes-au-chocolat/cover.webp",
+    "web": "images/recipes/truffes-au-chocolat/web.webp"
   },
   "prepTime": 30,
   "cookTime": 10,

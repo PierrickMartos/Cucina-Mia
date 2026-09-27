@@ -3,8 +3,8 @@
   "title": "Charlotte au chocolat",
   "description": "Une charlotte de biscuits cuillères imbibés au rhum, garnie d'une marquise au chocolat et servie avec un sabayon tiède au café.",
   "images": {
-    "cover": "images/recipes/charlotte-au-chocolat/cover.svg",
-    "web": "images/recipes/charlotte-au-chocolat/cover.svg"
+    "cover": "images/recipes/charlotte-au-chocolat/cover.webp",
+    "web": "images/recipes/charlotte-au-chocolat/web.webp"
   },
   "prepTime": 60,
   "cookTime": 15,

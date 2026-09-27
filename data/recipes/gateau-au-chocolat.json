@@ -3,8 +3,8 @@
   "title": "Gâteau au chocolat",
   "description": "Un gâteau au chocolat fondant et léger, aux blancs montés en neige, cuit doucement au four dans un moule à manquer.",
   "images": {
-    "cover": "images/recipes/gateau-au-chocolat/cover.svg",
-    "web": "images/recipes/gateau-au-chocolat/cover.svg"
+    "cover": "images/recipes/gateau-au-chocolat/cover.webp",
+    "web": "images/recipes/gateau-au-chocolat/web.webp"
   },
   "prepTime": 20,
   "cookTime": 60,

@@ -3,8 +3,8 @@
   "title": "Mousse au chocolat blanc",
   "description": "Une mousse légère au chocolat blanc, liée à la crème anglaise et à la crème fouettée, parfumée au Cointreau.",
   "images": {
-    "cover": "images/recipes/mousse-au-chocolat-blanc/cover.svg",
-    "web": "images/recipes/mousse-au-chocolat-blanc/cover.svg"
+    "cover": "images/recipes/mousse-au-chocolat-blanc/cover.webp",
+    "web": "images/recipes/mousse-au-chocolat-blanc/web.webp"
   },
   "prepTime": 30,
   "cookTime": 15,
