@@ -21,6 +21,8 @@ export interface ParsedQuery {
   difficultyWord?: string
   /** Normalised French tags a result must not have ("hiver" rules out "ete"). */
   avoidTags: string[]
+  /** Normalised French tags that cancel avoidTags: a terrine served "froide ou chaude" has both tags. */
+  keepTags: string[]
   /** Groups of normalised French tags; a result needs one tag of each group ("vegetarien"). */
   requireTags: string[][]
 }
@@ -128,15 +130,15 @@ export const CONCEPTS: Record<string, string[]> = {
 // happily suggest a cold summer gaspacho for "réconfortant pour l'hiver". Keys are query words.
 const WINTER = { avoid: ["ete", "froid"] }
 const SUMMER = { avoid: ["hiver"] }
-const COLD = { avoid: ["chaud"] }
-const HOT = { avoid: ["froid"] }
+const COLD = { avoid: ["chaud"], keep: ["froid"] }
+const HOT = { avoid: ["froid"], keep: ["chaud"] }
 const VEGETARIAN = { require: ["vegetarien", "vegetalien"] }
 const VEGAN = { require: ["vegetalien"] }
 // "Quatre-épices" in an ingredient line is not a spicy dish: only the tag counts.
 const SPICY = { require: ["epice"] }
 // "Cuillère à dessert" is a spoon size, not a course: only the tag counts.
 const DESSERT = { require: ["dessert"] }
-export const TAG_RULES: Record<string, { avoid?: string[]; require?: string[] }> = {
+export const TAG_RULES: Record<string, { avoid?: string[]; keep?: string[]; require?: string[] }> = {
   hiver: WINTER, winter: WINTER, inverno: WINTER, hivernal: WINTER, invernale: WINTER,
   ete: SUMMER, summer: SUMMER, estate: SUMMER, estivo: SUMMER,
   froid: COLD, cold: COLD, freddo: COLD,
@@ -194,7 +196,7 @@ function toTerm(word: string, typed: boolean): QueryTerm | null {
 }
 
 export function parseQuery(query: string): ParsedQuery {
-  const parsed: ParsedQuery = { terms: [], exclude: [], avoidTags: [], requireTags: [] }
+  const parsed: ParsedQuery = { terms: [], exclude: [], avoidTags: [], keepTags: [], requireTags: [] }
   let text = normalize(query)
   const typing = !/\s$/.test(query)
 
@@ -258,6 +260,7 @@ export function parseQuery(query: string): ParsedQuery {
   for (const term of parsed.terms) {
     const rule = TAG_RULE_STEMS.get(term.stems[0])
     if (rule?.avoid) parsed.avoidTags.push(...rule.avoid)
+    if (rule?.keep) parsed.keepTags.push(...rule.keep)
     if (rule?.require) parsed.requireTags.push(rule.require)
   }
 
