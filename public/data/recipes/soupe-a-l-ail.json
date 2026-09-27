@@ -3,8 +3,8 @@
   "title": "Soupe à l'ail",
   "description": "Une soupe à l'ail au bouillon de poule et au vin blanc, liée d'un roux, garnie de vermicelle et enrichie d'œufs.",
   "images": {
-    "cover": "images/recipes/soupe-a-l-ail/cover.svg",
-    "web": "images/recipes/soupe-a-l-ail/cover.svg"
+    "cover": "images/recipes/soupe-a-l-ail/cover.webp",
+    "web": "images/recipes/soupe-a-l-ail/web.webp"
   },
   "prepTime": 10,
   "cookTime": 30,

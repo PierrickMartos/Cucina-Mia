@@ -3,8 +3,8 @@
   "title": "Gnocchis à la romaine",
   "description": "Une galette de semoule au lait, aux œufs et au gruyère, découpée puis gratinée au beurre fondu.",
   "images": {
-    "cover": "images/recipes/gnocchis-a-la-romaine/cover.svg",
-    "web": "images/recipes/gnocchis-a-la-romaine/cover.svg"
+    "cover": "images/recipes/gnocchis-a-la-romaine/cover.webp",
+    "web": "images/recipes/gnocchis-a-la-romaine/web.webp"
   },
   "prepTime": 20,
   "cookTime": 20,

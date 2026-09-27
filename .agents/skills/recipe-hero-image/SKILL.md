@@ -19,6 +19,31 @@ Use this skill for image editing from a provided food photo. If the user has not
 4. Use the image generation or image editing tool available in the environment for raster image output.
 5. Return the generated image without extra explanation unless the user asks for details.
 
+## Running from Claude Code
+
+This section is for Claude Code only. Codex skips it and uses its built-in `image_gen` tool.
+
+Claude Code has no image tool. Delegate step 4 to the Codex CLI, which has built-in image generation through the ChatGPT login.
+
+1. Check that Codex can generate images: `codex features list | grep image_generation` must show `true`.
+2. Build the prompt from the Prompt Pattern below, customized to the source photo.
+3. Run Codex with an explicit output path in the scratchpad:
+
+   ```bash
+   OUT=<scratchpad>/hero.png
+   codex exec --skip-git-repo-check --sandbox workspace-write --add-dir "$(dirname "$OUT")" \
+     "Use \$recipe-hero-image. <prompt>. Save the final image as $OUT and print its absolute path on the last line." \
+     -i <source photo> </dev/null
+   ```
+
+   - Put the prompt before `-i`: `-i` takes every following argument as an image.
+   - Keep `</dev/null`: without it, `codex exec` waits for input on stdin.
+   - JPG, PNG and WebP sources all work.
+   - If Codex rejects the configured model ("not supported when using Codex with a ChatGPT account"), add `-m <model>` with a model that the account can use.
+4. Open `$OUT` with the Read tool and apply the Quality Checks. If a check fails, run Codex again with a corrected prompt.
+5. Show the image to the user. Do not replace the recipe photo before the user approves it.
+6. After approval, copy `$OUT` to `public/images/recipes/{slug}/cover.png` and `web.png`, then run `npm run images:webp -- public/images/recipes/{slug}`. The script writes the WebP files, deletes the PNG files and updates the JSON references.
+
 ## Editing Direction
 
 Use this visual direction unless the user overrides it:

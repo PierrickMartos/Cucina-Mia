@@ -3,8 +3,8 @@
   "title": "Avocat farci aux crevettes",
   "description": "Des moitiés d'avocat garnies de dés d'avocat, crevettes, salade et œufs durs liés à la mayonnaise, servies bien fraîches.",
   "images": {
-    "cover": "images/recipes/avocat-farci-aux-crevettes/cover.svg",
-    "web": "images/recipes/avocat-farci-aux-crevettes/cover.svg"
+    "cover": "images/recipes/avocat-farci-aux-crevettes/cover.webp",
+    "web": "images/recipes/avocat-farci-aux-crevettes/web.webp"
   },
   "prepTime": 30,
   "cookTime": 10,

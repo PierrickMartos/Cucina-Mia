@@ -3,8 +3,8 @@
   "title": "Soufflé au fromage",
   "description": "Le soufflé au fromage classique : une béchamel liée aux jaunes d'œufs, du gruyère râpé et des blancs montés en neige très ferme, cuit à four doux.",
   "images": {
-    "cover": "images/recipes/souffle-au-fromage-du-papi/cover.svg",
-    "web": "images/recipes/souffle-au-fromage-du-papi/cover.svg"
+    "cover": "images/recipes/souffle-au-fromage-du-papi/cover.webp",
+    "web": "images/recipes/souffle-au-fromage-du-papi/web.webp"
   },
   "prepTime": 25,
   "cookTime": 45,

@@ -3,8 +3,8 @@
   "title": "Lapin aux pruneaux",
   "description": "Lapin doré puis mijoté au vin blanc et à la tomate, servi avec pruneaux, lardons et petits oignons glacés.",
   "images": {
-    "cover": "images/recipes/lapin-aux-pruneaux/cover.svg",
-    "web": "images/recipes/lapin-aux-pruneaux/cover.svg"
+    "cover": "images/recipes/lapin-aux-pruneaux/cover.webp",
+    "web": "images/recipes/lapin-aux-pruneaux/web.webp"
   },
   "prepTime": 40,
   "cookTime": 85,
