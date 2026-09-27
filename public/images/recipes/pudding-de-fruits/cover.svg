@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <defs>
+    <radialGradient id="pdfbg" cx="50%" cy="45%" r="70%"><stop offset="0%" stop-color="#2e2822"/><stop offset="100%" stop-color="#1a1510"/></radialGradient>
+    <radialGradient id="pdfplate" cx="50%" cy="40%" r="60%"><stop offset="0%" stop-color="#f4efe6"/><stop offset="100%" stop-color="#b0a590"/></radialGradient>
+    <linearGradient id="pdfpud" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="#9a5a20"/><stop offset="40%" stop-color="#e0a650"/><stop offset="100%" stop-color="#8a4c18"/></linearGradient>
+    <radialGradient id="pdftop" cx="45%" cy="40%" r="60%"><stop offset="0%" stop-color="#f2c878"/><stop offset="100%" stop-color="#c0823a"/></radialGradient>
+    <linearGradient id="pdfjug" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="#d8d0c0"/><stop offset="50%" stop-color="#f6f2ea"/><stop offset="100%" stop-color="#b8ae9c"/></linearGradient>
+  </defs>
+  <rect width="800" height="600" fill="url(#pdfbg)"/>
+  <ellipse cx="380" cy="470" rx="300" ry="55" fill="#000" opacity="0.35"/>
+  <g opacity="0.18"><path d="M80,140 l40,-30 l10,12 l-40,30z" fill="#c8a870"/><circle cx="700" cy="130" r="30" fill="#6a3a18"/></g>
+  <ellipse cx="370" cy="390" rx="270" ry="85" fill="url(#pdfplate)"/>
+  <ellipse cx="370" cy="388" rx="215" ry="62" fill="#fff" opacity="0.25"/>
+  <path d="M230,380 v-170 q140,-40 280,0 v170 q-140,40 -280,0z" fill="url(#pdfpud)"/>
+  <ellipse cx="370" cy="210" rx="140" ry="34" fill="url(#pdftop)"/>
+  <g stroke="#7a4214" stroke-width="2" opacity="0.35" fill="none">
+    <path d="M232,265 q138,34 276,0"/><path d="M232,325 q138,34 276,0"/>
+  </g>
+  <g fill="#4a2012">
+    <circle cx="300" cy="205" r="7"/><circle cx="410" cy="200" r="7"/><circle cx="360" cy="222" r="6"/><circle cx="455" cy="218" r="6"/>
+    <circle cx="270" cy="290" r="7"/><circle cx="350" cy="300" r="6"/><circle cx="440" cy="280" r="7"/><circle cx="490" cy="340" r="6"/>
+    <circle cx="300" cy="360" r="6"/><circle cx="400" cy="355" r="7"/>
+  </g>
+  <g fill="#d83a30"><rect x="330" y="195" width="14" height="11" rx="3"/><rect x="310" y="245" width="14" height="11" rx="3"/><rect x="460" y="300" width="13" height="11" rx="3"/><rect x="250" y="340" width="13" height="10" rx="3"/></g>
+  <g fill="#5aa040"><rect x="430" y="222" width="13" height="10" rx="3"/><rect x="380" y="265" width="13" height="10" rx="3"/><rect x="340" y="335" width="13" height="10" rx="3"/></g>
+  <g fill="#f0a020"><rect x="275" y="222" width="12" height="10" rx="3"/><rect x="470" y="250" width="12" height="10" rx="3"/><rect x="410" y="320" width="12" height="10" rx="3"/></g>
+  <g fill="#f6dca4" opacity="0.55"><rect x="250" y="260" width="24" height="14" rx="4"/><rect x="410" y="240" width="24" height="14" rx="4"/><rect x="360" y="310" width="24" height="14" rx="4"/><rect x="455" y="360" width="22" height="12" rx="4"/></g>
+  <path d="M300,190 q70,-18 140,-4" stroke="#fff" stroke-width="5" fill="none" opacity="0.3"/>
+  <path d="M250,390 q120,36 250,4 q20,20 -10,34 q-120,20 -230,-4 q-30,-16 -10,-34z" fill="#f6e2a8" opacity="0.9"/>
+  <g transform="translate(620,300)">
+    <path d="M-40,120 v-110 q0,-20 10,-30 h60 q10,10 10,30 v110 q-40,14 -80,0z" fill="url(#pdfjug)"/>
+    <path d="M-30,-20 l-22,-14 l14,20z" fill="#e6ded0"/>
+    <path d="M40,10 q34,4 30,40 q-4,32 -30,34" stroke="#d0c6b4" stroke-width="10" fill="none"/>
+    <ellipse cx="0" cy="-20" rx="30" ry="8" fill="#f2d890"/>
+  </g>
+</svg>

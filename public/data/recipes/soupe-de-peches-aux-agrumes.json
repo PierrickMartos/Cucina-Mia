@@ -1,0 +1,187 @@
+{
+  "slug": "soupe-de-peches-aux-agrumes",
+  "title": "Soupe de pêches aux agrumes",
+  "description": "Des pêches blanches baignées dans un sirop vanillé aux jus d'orange et de citron, avec une fine julienne de zestes confits. Servie bien fraîche.",
+  "images": {
+    "cover": "images/recipes/soupe-de-peches-aux-agrumes/cover.svg",
+    "web": "images/recipes/soupe-de-peches-aux-agrumes/cover.svg"
+  },
+  "prepTime": 25,
+  "cookTime": 15,
+  "servings": 6,
+  "difficulty": "Facile",
+  "category": "Dolci",
+  "origin": "amelie-grandpa",
+  "tags": [
+    "pêches",
+    "fruits",
+    "agrumes",
+    "dessert",
+    "été",
+    "froid",
+    "à-la-cuillère",
+    "léger",
+    "facile",
+    "préparation-à-lavance",
+    "acidulé",
+    "français",
+    "nostalgique",
+    "recette-de-famille"
+  ],
+  "ingredients": [
+    {
+      "items": [
+        "1,5 kg de pêches blanches de préférence",
+        "2 oranges",
+        "4 citrons verts ou 2 citrons jaunes",
+        "250 g de sucre",
+        "1 gousse de vanille Bourbon"
+      ]
+    }
+  ],
+  "steps": [
+    {
+      "text": "Prélever les zestes des oranges et des citrons."
+    },
+    {
+      "text": "Les tailler en fine julienne, les blanchir, rafraîchir, égoutter et réserver."
+    },
+    {
+      "text": "Faire un sirop avec le sucre, les jus filtrés des citrons et des oranges."
+    },
+    {
+      "text": "Ajouter la gousse de vanille fendue en deux, porter à ébullition puis ajouter les zestes de citrons et d'oranges. Cuire doucement une dizaine de minutes puis laisser refroidir.",
+      "timers": [10]
+    },
+    {
+      "text": "Éplucher les pêches, les couper en deux et les mettre dans un saladier."
+    },
+    {
+      "text": "Verser le sirop et les zestes sur la préparation et mélanger le tout délicatement."
+    },
+    {
+      "text": "Mettre au frais."
+    }
+  ],
+  "source": "Les recettes de Maurice Houdré, tome 3, Les entremets",
+  "originalSource": {
+    "type": "text",
+    "data": "Soupe de pêches aux agrumes\n\nIngrédients : \n\n. 1,5 kg de pêches blanches de préférence\n. 2 oranges\n. 4 citrons verts ou 2 citrons jaunes\n. 250 g de sucre\n. 1 gousse de vanille Bourbon\n\nPrélever les zestes des oranges et des citrons. \n\nLes tailler en fine Julienne, les blanchir, rafraîchir, égoutter et réserver. \nFaire un sirop avec le sucre, les jus filtrés des citrons et des oranges.\nAjouter la gousse de vanille fendue en deux, porter à ébullition puis ajouter les zestes de citrons et d’oranges. Cuire doucement une dizaine de minutes puis laisser refroidir.\nEplucher les pêches, couper les en deux et les mettre dans un saladier.\nVerser le sirop et les zestes sur la préparation et mélanger le tout délicatement.\nMettre au frais.\n"
+  },
+  "related": [
+    "soupe-de-peches-a-la-menthe-et-chocolat-noir",
+    "gratin-de-fruits-exotiques-autre-preparation",
+    "charlottes-aux-peches",
+    "bavarois-a-la-banane"
+  ],
+  "translations": {
+    "en": {
+      "title": "Peach soup with citrus",
+      "description": "White peaches bathed in a vanilla syrup with orange and lemon juice, with a fine julienne of candied zest. Served well chilled.",
+      "tags": [
+        "peaches",
+        "fruit",
+        "citrus",
+        "dessert",
+        "summer",
+        "cold",
+        "spoonable",
+        "light",
+        "easy",
+        "make-ahead",
+        "tangy",
+        "french",
+        "nostalgic",
+        "family-recipe"
+      ],
+      "ingredients": [
+        {
+          "items": [
+            "1.5 kg of peaches, preferably white",
+            "2 oranges",
+            "4 limes or 2 lemons",
+            "250 g of sugar",
+            "1 Bourbon vanilla pod"
+          ]
+        }
+      ],
+      "steps": [
+        {
+          "text": "Remove the zest from the oranges and lemons."
+        },
+        {
+          "text": "Cut it into a fine julienne, blanch it, refresh, drain and set aside."
+        },
+        {
+          "text": "Make a syrup with the sugar and the strained lemon and orange juice."
+        },
+        {
+          "text": "Add the vanilla pod split in half, bring to the boil, then add the lemon and orange zest. Simmer gently for about ten minutes, then leave to cool."
+        },
+        {
+          "text": "Peel the peaches, cut them in half and put them in a bowl."
+        },
+        {
+          "text": "Pour the syrup and zest over the peaches and gently mix everything together."
+        },
+        {
+          "text": "Chill in the fridge."
+        }
+      ]
+    },
+    "it": {
+      "title": "Zuppa di pesche agli agrumi",
+      "description": "Pesche bianche immerse in uno sciroppo alla vaniglia con succo d'arancia e di limone, con una sottile julienne di scorze candite. Servita ben fredda.",
+      "tags": [
+        "pesche",
+        "frutta",
+        "agrumi",
+        "dessert",
+        "estate",
+        "freddo",
+        "al-cucchiaio",
+        "leggero",
+        "facile",
+        "da-preparare-in-anticipo",
+        "acidulo",
+        "francese",
+        "nostalgico",
+        "ricetta-di-famiglia"
+      ],
+      "ingredients": [
+        {
+          "items": [
+            "1,5 kg di pesche, preferibilmente bianche",
+            "2 arance",
+            "4 lime o 2 limoni",
+            "250 g di zucchero",
+            "1 baccello di vaniglia Bourbon"
+          ]
+        }
+      ],
+      "steps": [
+        {
+          "text": "Prelevare la scorza delle arance e dei limoni."
+        },
+        {
+          "text": "Tagliarla a julienne sottile, sbollentarla, raffreddarla, scolarla e metterla da parte."
+        },
+        {
+          "text": "Preparare uno sciroppo con lo zucchero e i succhi filtrati dei limoni e delle arance."
+        },
+        {
+          "text": "Aggiungere il baccello di vaniglia tagliato a metà, portare a ebollizione, poi aggiungere le scorze di limone e d'arancia. Cuocere dolcemente per una decina di minuti, poi lasciare raffreddare."
+        },
+        {
+          "text": "Sbucciare le pesche, tagliarle a metà e metterle in un'insalatiera."
+        },
+        {
+          "text": "Versare lo sciroppo e le scorze sulle pesche e mescolare il tutto delicatamente."
+        },
+        {
+          "text": "Mettere in frigorifero."
+        }
+      ]
+    }
+  }
+}

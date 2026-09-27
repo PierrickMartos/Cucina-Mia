@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <defs>
+    <radialGradient id="gbbg" cx="50%" cy="45%" r="70%"><stop offset="0%" stop-color="#2e2822"/><stop offset="100%" stop-color="#1a1510"/></radialGradient>
+    <linearGradient id="gbdish" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#f0ebe2"/><stop offset="100%" stop-color="#b8b0a2"/></linearGradient>
+    <radialGradient id="gbcream" cx="45%" cy="40%" r="60%"><stop offset="0%" stop-color="#f4d68a"/><stop offset="70%" stop-color="#dca850"/><stop offset="100%" stop-color="#a86a22"/></radialGradient>
+    <radialGradient id="gbkiwi" cx="50%" cy="50%" r="50%"><stop offset="0%" stop-color="#f2f0c0"/><stop offset="30%" stop-color="#9cc83a"/><stop offset="100%" stop-color="#5a8a1c"/></radialGradient>
+    <radialGradient id="gbban" cx="45%" cy="40%" r="60%"><stop offset="0%" stop-color="#fff0b8"/><stop offset="100%" stop-color="#e8c060"/></radialGradient>
+    <linearGradient id="gbpin" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#ffd84a"/><stop offset="100%" stop-color="#e0a020"/></linearGradient>
+  </defs>
+  <rect width="800" height="600" fill="url(#gbbg)"/>
+  <g opacity="0.18">
+    <path d="M90,200 Q130,150 190,170" stroke="#f0d060" stroke-width="16" fill="none" stroke-linecap="round"/>
+    <circle cx="680" cy="200" r="30" fill="#6a9a2a"/>
+  </g>
+  <ellipse cx="400" cy="440" rx="330" ry="70" fill="#000" opacity="0.35"/>
+  <rect x="45" y="300" width="60" height="26" rx="13" fill="#d8d0c2"/>
+  <rect x="695" y="300" width="60" height="26" rx="13" fill="#d8d0c2"/>
+  <ellipse cx="400" cy="325" rx="310" ry="150" fill="url(#gbdish)"/>
+  <ellipse cx="400" cy="318" rx="280" ry="128" fill="url(#gbcream)"/>
+  <g fill="#8a4a14" opacity="0.4">
+    <ellipse cx="250" cy="280" rx="30" ry="12"/><ellipse cx="560" cy="360" rx="34" ry="12"/><ellipse cx="420" cy="230" rx="26" ry="9"/><ellipse cx="330" cy="395" rx="28" ry="10"/>
+  </g>
+  <g>
+    <ellipse cx="300" cy="300" rx="30" ry="18" fill="url(#gbkiwi)"/>
+    <ellipse cx="470" cy="270" rx="30" ry="18" fill="url(#gbkiwi)"/>
+    <ellipse cx="530" cy="340" rx="28" ry="17" fill="url(#gbkiwi)"/>
+    <ellipse cx="360" cy="370" rx="28" ry="17" fill="url(#gbkiwi)"/>
+    <ellipse cx="220" cy="340" rx="26" ry="15" fill="url(#gbkiwi)"/>
+  </g>
+  <g fill="#1a1a10">
+    <circle cx="292" cy="296" r="1.6"/><circle cx="308" cy="296" r="1.6"/><circle cx="300" cy="308" r="1.6"/><circle cx="312" cy="304" r="1.4"/><circle cx="288" cy="305" r="1.4"/>
+    <circle cx="462" cy="266" r="1.6"/><circle cx="478" cy="266" r="1.6"/><circle cx="470" cy="278" r="1.6"/><circle cx="482" cy="274" r="1.4"/>
+    <circle cx="522" cy="336" r="1.6"/><circle cx="538" cy="336" r="1.6"/><circle cx="530" cy="348" r="1.6"/>
+    <circle cx="352" cy="366" r="1.6"/><circle cx="368" cy="366" r="1.6"/><circle cx="360" cy="378" r="1.6"/>
+    <circle cx="214" cy="336" r="1.4"/><circle cx="226" cy="336" r="1.4"/><circle cx="220" cy="346" r="1.4"/>
+  </g>
+  <g fill="url(#gbban)" stroke="#c89a40" stroke-width="1.5">
+    <ellipse cx="380" cy="260" rx="20" ry="12"/><ellipse cx="400" cy="320" rx="20" ry="12"/><ellipse cx="560" cy="290" rx="19" ry="11"/>
+    <ellipse cx="270" cy="380" rx="19" ry="11"/><ellipse cx="460" cy="385" rx="20" ry="12"/><ellipse cx="610" cy="330" rx="17" ry="10"/>
+  </g>
+  <g fill="#d8b050" opacity="0.7">
+    <circle cx="380" cy="260" r="3"/><circle cx="400" cy="320" r="3"/><circle cx="560" cy="290" r="3"/><circle cx="270" cy="380" r="3"/><circle cx="460" cy="385" r="3"/>
+  </g>
+  <g fill="url(#gbpin)">
+    <path d="M320,240 l34,-6 l8,20 l-34,8Z"/><path d="M440,335 l32,-4 l6,20 l-32,6Z"/><path d="M230,295 l30,-2 l4,18 l-30,4Z"/>
+    <path d="M500,225 l30,4 l-2,18 l-30,-2Z"/><path d="M590,380 l28,-6 l6,16 l-28,6Z"/>
+  </g>
+  <g fill="#8a3a0a" opacity="0.5">
+    <circle cx="340" cy="330" r="4"/><circle cx="500" cy="310" r="5"/><circle cx="420" cy="280" r="3"/><circle cx="280" cy="340" r="4"/><circle cx="580" cy="360" r="3"/>
+  </g>
+  <ellipse cx="360" cy="245" rx="120" ry="22" fill="#fff" opacity="0.1"/>
+</svg>
