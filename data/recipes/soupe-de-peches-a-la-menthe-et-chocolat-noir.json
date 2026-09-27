@@ -1,0 +1,169 @@
+{
+  "slug": "soupe-de-peches-a-la-menthe-et-chocolat-noir",
+  "title": "Soupe de pêches à la menthe et chocolat noir",
+  "description": "Des pêches blanches au jus de citron, baignées d'un sirop vanillé à la menthe fraîche et parsemées de copeaux de chocolat noir.",
+  "images": {
+    "cover": "images/recipes/soupe-de-peches-a-la-menthe-et-chocolat-noir/cover.svg",
+    "web": "images/recipes/soupe-de-peches-a-la-menthe-et-chocolat-noir/cover.svg"
+  },
+  "prepTime": 35,
+  "cookTime": 5,
+  "servings": 6,
+  "difficulty": "Facile",
+  "category": "Dolci",
+  "origin": "amelie-grandpa",
+  "tags": [
+    "dessert",
+    "pêches",
+    "fruits",
+    "chocolat",
+    "été",
+    "froid",
+    "facile",
+    "herbacé",
+    "à-la-cuillère",
+    "français",
+    "nostalgique",
+    "recette-de-famille"
+  ],
+  "ingredients": [
+    {
+      "items": [
+        "1,5 kg de pêches blanches de préférence",
+        "2 dl d'eau",
+        "250 g de sucre",
+        "12 feuilles de menthe fraîche",
+        "1 citron",
+        "1 gousse de vanille Bourbon",
+        "Chocolat noir et amer"
+      ]
+    }
+  ],
+  "steps": [
+    {
+      "text": "Faire un sirop avec le sucre, l'eau, la vanille et 4 feuilles de menthe."
+    },
+    {
+      "text": "Laisser infuser 15 minutes, laisser refroidir puis passer au chinois.",
+      "timers": [15]
+    },
+    {
+      "text": "Éplucher les pêches, les couper en deux et les mettre dans un saladier."
+    },
+    {
+      "text": "Verser le jus du citron, mélanger délicatement, verser le sirop avec les 8 feuilles de menthe finement hachées, remuer doucement puis mettre au frais."
+    },
+    {
+      "text": "Servir en saladier ou en coupes individuelles, parsemer de copeaux de chocolat noir et amer."
+    }
+  ],
+  "source": "Les recettes de Maurice Houdré, tome 3, Les entremets",
+  "originalSource": {
+    "type": "text",
+    "data": "Soupe de pêches à la menthe et chocolat noir\n\nIngrédients : \n\n. 1,5 kg de pêches blanches de préférence\n. 2 dl d’eau\n. 250 g de sucre\n. 12 feuilles de menthe fraîche\n. 1 citron\n. 1 gousse de vanille Bourbon\n. chocolat noir et amer\n\n \n\nFaire un sirop avec le sucre, l’eau, la vanille et 4 feuilles de menthe. \n\nLaisser infuser 15 minutes, laisser refroidir puis passer au chinois. \nEplucher les pêches, couper les en deux et les mettre dans un saladier. \nVerser le jus du citron, mélanger délicatement, verser le sirop avec les 8 feuilles de menthe finement hachées, remuer doucement puis mettre au frais.\n\nServir en saladier ou en coupes individuelles, parsemer de copeaux de chocolat noir et amer.\n"
+  },
+  "related": [
+    "soupe-de-peches-aux-agrumes",
+    "flan-au-cacao",
+    "mousse-au-chocolat-noir",
+    "mousse-au-chocolat-blanc"
+  ],
+  "translations": {
+    "en": {
+      "title": "Peach soup with mint and dark chocolate",
+      "description": "White peaches in lemon juice, bathed in a vanilla syrup with fresh mint and sprinkled with dark chocolate shavings.",
+      "tags": [
+        "dessert",
+        "peaches",
+        "fruit",
+        "chocolate",
+        "summer",
+        "cold",
+        "easy",
+        "herby",
+        "spoonable",
+        "french",
+        "nostalgic",
+        "family-recipe"
+      ],
+      "ingredients": [
+        {
+          "items": [
+            "1.5 kg of peaches, white ones preferably",
+            "2 dl of water",
+            "250 g of sugar",
+            "12 fresh mint leaves",
+            "1 lemon",
+            "1 Bourbon vanilla pod",
+            "Bitter dark chocolate"
+          ]
+        }
+      ],
+      "steps": [
+        {
+          "text": "Make a syrup with the sugar, water, vanilla and 4 mint leaves."
+        },
+        {
+          "text": "Leave to infuse for 15 minutes, let cool, then strain through a chinois."
+        },
+        {
+          "text": "Peel the peaches, cut them in half and place them in a salad bowl."
+        },
+        {
+          "text": "Pour over the lemon juice, mix gently, pour in the syrup with the 8 finely chopped mint leaves, stir gently, then chill."
+        },
+        {
+          "text": "Serve in the salad bowl or in individual coupes, sprinkled with bitter dark chocolate shavings."
+        }
+      ]
+    },
+    "it": {
+      "title": "Zuppa di pesche alla menta e cioccolato fondente",
+      "description": "Pesche bianche al succo di limone, immerse in uno sciroppo alla vaniglia con menta fresca e cosparse di scaglie di cioccolato fondente.",
+      "tags": [
+        "dessert",
+        "pesche",
+        "frutta",
+        "cioccolato",
+        "estate",
+        "freddo",
+        "facile",
+        "erbaceo",
+        "al-cucchiaio",
+        "francese",
+        "nostalgico",
+        "ricetta-di-famiglia"
+      ],
+      "ingredients": [
+        {
+          "items": [
+            "1,5 kg di pesche, preferibilmente bianche",
+            "2 dl di acqua",
+            "250 g di zucchero",
+            "12 foglie di menta fresca",
+            "1 limone",
+            "1 baccello di vaniglia Bourbon",
+            "Cioccolato fondente amaro"
+          ]
+        }
+      ],
+      "steps": [
+        {
+          "text": "Preparare uno sciroppo con lo zucchero, l'acqua, la vaniglia e 4 foglie di menta."
+        },
+        {
+          "text": "Lasciare in infusione 15 minuti, lasciare raffreddare, poi filtrare con un colino cinese."
+        },
+        {
+          "text": "Sbucciare le pesche, tagliarle a metà e metterle in un'insalatiera."
+        },
+        {
+          "text": "Versare il succo del limone, mescolare delicatamente, versare lo sciroppo con le 8 foglie di menta tritate finemente, mescolare dolcemente, poi mettere in frigorifero."
+        },
+        {
+          "text": "Servire nell'insalatiera o in coppette individuali, cospargendo di scaglie di cioccolato fondente amaro."
+        }
+      ]
+    }
+  }
+}

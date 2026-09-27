@@ -1,0 +1,255 @@
+{
+  "slug": "charlottes-aux-fraises-ou-framboises",
+  "title": "Charlottes aux fraises ou framboises",
+  "description": "Une charlotte de biscuits cuillères garnie de couches de bavarois à la vanille et de fraises ou de framboises, servie avec un coulis.",
+  "images": {
+    "cover": "images/recipes/charlottes-aux-fraises-ou-framboises/cover.svg",
+    "web": "images/recipes/charlottes-aux-fraises-ou-framboises/cover.svg"
+  },
+  "prepTime": 45,
+  "cookTime": 15,
+  "servings": 8,
+  "difficulty": "Medio",
+  "category": "Dolci",
+  "origin": "amelie-grandpa",
+  "tags": [
+    "dessert",
+    "fruits",
+    "français",
+    "froid",
+    "été",
+    "festif",
+    "gourmand",
+    "préparation-à-lavance",
+    "à-partager",
+    "nostalgique",
+    "recette-de-famille"
+  ],
+  "ingredients": [
+    {
+      "items": [
+        "30 à 32 biscuits cuillères",
+        "100 g de sucre pour le sirop",
+        "500 à 600 g de fraises ou de framboises (réserver quelques fruits pour le décor)"
+      ]
+    },
+    {
+      "group": "Bavarois",
+      "items": [
+        "4 dl de crème",
+        "8 feuilles de gélatine"
+      ]
+    },
+    {
+      "group": "Crème anglaise",
+      "items": [
+        "125 g de sucre",
+        "½ l de lait",
+        "5 jaunes d'œufs",
+        "1 gousse de vanille"
+      ]
+    }
+  ],
+  "steps": [
+    {
+      "text": "Beurrer le moule à charlotte de 18 à 20 cm de diamètre et de 10 cm de hauteur."
+    },
+    {
+      "text": "Mettre la gélatine à tremper dans de l'eau froide."
+    },
+    {
+      "text": "Chemiser le fond du moule avec les biscuits taillés et disposés en rosace."
+    },
+    {
+      "text": "Chemiser le tour du moule avec les biscuits parés (bouts arrondis au fond du moule et coupés sur le dessus) et serrés les uns à côté des autres."
+    },
+    {
+      "text": "Crème anglaise : mettre le lait à chauffer, mélanger au fouet les jaunes d'œufs et le sucre, ajouter progressivement le lait, la vanille et remettre sur le feu. Pocher très doucement (ne pas porter à ébullition), ajouter la gélatine bien égouttée, remuer quelques instants le temps qu'elle fonde et passer à la passoire fine."
+    },
+    {
+      "text": "Faire la crème fouettée puis l'incorporer délicatement à la crème anglaise encore tiède, faire refroidir."
+    },
+    {
+      "text": "Laver et égoutter les fruits, bien les sécher."
+    },
+    {
+      "text": "Garnir le moule en alternant une couche de crème, attendre qu'elle refroidisse, puis verser les fruits, et ainsi de suite."
+    },
+    {
+      "text": "Réserver au froid."
+    },
+    {
+      "text": "Démouler au dernier moment."
+    },
+    {
+      "text": "Servir avec un coulis de fraises ou de framboises."
+    }
+  ],
+  "source": "Les recettes de Maurice Houdré, tome 3, Les entremets",
+  "originalSource": {
+    "type": "text",
+    "data": "Charlottes aux fraises ou framboises\n\nIngrédients : pour 8 à 10 personnes            \n\n1 moule à charlotte de 18 à 20 cm de Ø et sur 10 cm de hauteur\n\n. 30 à 32 biscuits cuillères\n. 100 g de sucre pour le sirop\n. 500 à 600 g de fraises ou de framboises (réserver quelques fruits pour le décor)\nBavarois :\n. 4 dl de crème\n. 8 feuilles de gélatine\nCrème anglaise :\n. 125 g de sucre\n. ½ de lait\n. 5 jaunes d’œufs\n. 1 gousse de vanille\n\nBeurrer le moule à charlotte.\n\nMettre la gélatine à tremper dans de l’eau froide.\nChemiser le fond du moule avec les biscuits taillés et disposés en rosace\nChemiser le tour du moule avec les biscuits parés (bouts arrondis au fond du moule et coupés sur le dessus) et serrés les uns à côté des autres.\n\nCrème anglaise : \nMettre le lait à chauffer, mélanger au fouet les jaunes d’oeufs et le sucre, ajouter progressivement le lait, la vanille et remettre sur le feu. Pocher très doucement (ne pas porter à ébullition), ajouter la gélatine bien égouttée, remuer quelques instants le temps qu’elle fonde et passer à la passoire fine.\nFaire la crème fouettée puis l’incorporer délicatement à la crème anglaise encore tiède, faire refroidir.\nLaver et égoutter les fruits, bien les sécher.\nGarnir le moule en alternant une couche de crème, attendre qu’elle refroidisse, puis verser les fruits, etc…\nRéserver au froid.\nDémouler au dernier moment.\nServir avec un coulis de fraises ou de framboises.\n"
+  },
+  "related": [
+    "charlottes-aux-peches",
+    "framboisier-facile-moelleux",
+    "bavarois-a-la-banane",
+    "charlotte-au-chocolat"
+  ],
+  "translations": {
+    "en": {
+      "title": "Strawberry or Raspberry Charlotte",
+      "description": "A ladyfinger charlotte filled with layers of vanilla bavarois and strawberries or raspberries, served with a coulis.",
+      "tags": [
+        "dessert",
+        "fruit",
+        "french",
+        "cold",
+        "summer",
+        "festive",
+        "indulgent",
+        "make-ahead",
+        "to-share",
+        "nostalgic",
+        "family-recipe"
+      ],
+      "ingredients": [
+        {
+          "items": [
+            "30 to 32 ladyfingers",
+            "100 g of sugar for the syrup",
+            "500 to 600 g of strawberries or raspberries (keep a few fruits aside for the decoration)"
+          ]
+        },
+        {
+          "group": "Bavarois",
+          "items": [
+            "4 dl of cream",
+            "8 gelatine sheets"
+          ]
+        },
+        {
+          "group": "Custard (crème anglaise)",
+          "items": [
+            "125 g of sugar",
+            "½ l of milk",
+            "5 egg yolks",
+            "1 vanilla pod"
+          ]
+        }
+      ],
+      "steps": [
+        {
+          "text": "Butter the charlotte mould, 18 to 20 cm in diameter and 10 cm high."
+        },
+        {
+          "text": "Soak the gelatine in cold water."
+        },
+        {
+          "text": "Line the bottom of the mould with the trimmed ladyfingers arranged in a rosette."
+        },
+        {
+          "text": "Line the sides of the mould with the trimmed ladyfingers (rounded ends at the bottom of the mould, cut ends at the top), packed tightly side by side."
+        },
+        {
+          "text": "Custard: heat the milk, whisk the egg yolks with the sugar, gradually add the milk and the vanilla, then return to the heat. Poach very gently (do not let it boil), add the well-drained gelatine, stir for a few moments until it melts and pass through a fine sieve."
+        },
+        {
+          "text": "Whip the cream, then gently fold it into the still-warm custard and let it cool."
+        },
+        {
+          "text": "Wash and drain the fruit, then dry it well."
+        },
+        {
+          "text": "Fill the mould with alternating layers: a layer of cream, wait for it to cool, then add the fruit, and so on."
+        },
+        {
+          "text": "Keep in the refrigerator."
+        },
+        {
+          "text": "Unmould at the last moment."
+        },
+        {
+          "text": "Serve with a strawberry or raspberry coulis."
+        }
+      ]
+    },
+    "it": {
+      "title": "Charlotte alle fragole o ai lamponi",
+      "description": "Una charlotte di savoiardi farcita a strati di bavarese alla vaniglia e fragole o lamponi, servita con un coulis.",
+      "tags": [
+        "dessert",
+        "frutta",
+        "francese",
+        "freddo",
+        "estate",
+        "festivo",
+        "goloso",
+        "da-preparare-in-anticipo",
+        "da-condividere",
+        "nostalgico",
+        "ricetta-di-famiglia"
+      ],
+      "ingredients": [
+        {
+          "items": [
+            "30 - 32 savoiardi",
+            "100 g di zucchero per lo sciroppo",
+            "500 - 600 g di fragole o lamponi (tenere da parte qualche frutto per la decorazione)"
+          ]
+        },
+        {
+          "group": "Bavarese",
+          "items": [
+            "4 dl di panna",
+            "8 fogli di gelatina"
+          ]
+        },
+        {
+          "group": "Crema inglese",
+          "items": [
+            "125 g di zucchero",
+            "½ l di latte",
+            "5 tuorli d'uovo",
+            "1 baccello di vaniglia"
+          ]
+        }
+      ],
+      "steps": [
+        {
+          "text": "Imburrare lo stampo da charlotte di 18-20 cm di diametro e 10 cm di altezza."
+        },
+        {
+          "text": "Mettere la gelatina ad ammollare in acqua fredda."
+        },
+        {
+          "text": "Foderare il fondo dello stampo con i savoiardi tagliati e disposti a rosone."
+        },
+        {
+          "text": "Foderare il bordo dello stampo con i savoiardi rifilati (estremità arrotondate sul fondo dello stampo e tagliate in alto), ben accostati l'uno all'altro."
+        },
+        {
+          "text": "Crema inglese: scaldare il latte, sbattere con la frusta i tuorli e lo zucchero, aggiungere a poco a poco il latte e la vaniglia, poi rimettere sul fuoco. Cuocere a fuoco dolcissimo senza portare a ebollizione, aggiungere la gelatina ben strizzata, mescolare qualche istante finché si scioglie e passare al colino fine."
+        },
+        {
+          "text": "Montare la panna, poi incorporarla delicatamente alla crema inglese ancora tiepida e lasciare raffreddare."
+        },
+        {
+          "text": "Lavare e scolare la frutta, poi asciugarla bene."
+        },
+        {
+          "text": "Riempire lo stampo alternando uno strato di crema, attendere che si raffreddi, poi versare la frutta, e così via."
+        },
+        {
+          "text": "Tenere in frigorifero."
+        },
+        {
+          "text": "Sformare all'ultimo momento."
+        },
+        {
+          "text": "Servire con un coulis di fragole o di lamponi."
+        }
+      ]
+    }
+  }
+}

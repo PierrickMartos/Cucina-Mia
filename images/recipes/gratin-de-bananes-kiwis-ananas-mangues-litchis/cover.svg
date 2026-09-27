@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <defs>
+    <radialGradient id="gmbg" cx="50%" cy="45%" r="70%"><stop offset="0%" stop-color="#2e2822"/><stop offset="100%" stop-color="#1a1510"/></radialGradient>
+    <linearGradient id="gmdish" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#e0a060"/><stop offset="100%" stop-color="#8a4a22"/></linearGradient>
+    <radialGradient id="gmcream" cx="45%" cy="40%" r="65%"><stop offset="0%" stop-color="#f6da90"/><stop offset="70%" stop-color="#dca850"/><stop offset="100%" stop-color="#a86a22"/></radialGradient>
+    <radialGradient id="gmkiwi" cx="50%" cy="50%" r="50%"><stop offset="0%" stop-color="#f2f0c0"/><stop offset="30%" stop-color="#9cc83a"/><stop offset="100%" stop-color="#5a8a1c"/></radialGradient>
+    <radialGradient id="gmban" cx="45%" cy="40%" r="60%"><stop offset="0%" stop-color="#fff0b8"/><stop offset="100%" stop-color="#e8c060"/></radialGradient>
+    <linearGradient id="gmmango" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#ffb030"/><stop offset="100%" stop-color="#e07010"/></linearGradient>
+    <radialGradient id="gmlit" cx="40%" cy="35%" r="65%"><stop offset="0%" stop-color="#fffaf0"/><stop offset="100%" stop-color="#e0d6c0"/></radialGradient>
+  </defs>
+  <rect width="800" height="600" fill="url(#gmbg)"/>
+  <g opacity="0.16">
+    <circle cx="100" cy="190" r="22" fill="#c83a3a"/><circle cx="130" cy="210" r="20" fill="#c83a3a"/>
+    <ellipse cx="700" cy="200" rx="40" ry="26" fill="#f0a030"/>
+  </g>
+  <ellipse cx="400" cy="460" rx="340" ry="60" fill="#000" opacity="0.35"/>
+  <rect x="90" y="180" width="620" height="270" rx="40" fill="url(#gmdish)"/>
+  <rect x="115" y="200" width="570" height="225" rx="30" fill="url(#gmcream)"/>
+  <g fill="#8a4a14" opacity="0.4">
+    <ellipse cx="200" cy="250" rx="34" ry="12"/><ellipse cx="580" cy="390" rx="36" ry="12"/><ellipse cx="430" cy="230" rx="28" ry="9"/><ellipse cx="300" cy="400" rx="30" ry="10"/>
+  </g>
+  <g fill="url(#gmkiwi)">
+    <circle cx="210" cy="310" r="26"/><circle cx="470" cy="260" r="26"/><circle cx="600" cy="320" r="25"/><circle cx="380" cy="380" r="25"/>
+  </g>
+  <g fill="#1a1a10">
+    <circle cx="202" cy="305" r="1.6"/><circle cx="218" cy="305" r="1.6"/><circle cx="210" cy="320" r="1.6"/>
+    <circle cx="462" cy="255" r="1.6"/><circle cx="478" cy="255" r="1.6"/><circle cx="470" cy="270" r="1.6"/>
+    <circle cx="592" cy="315" r="1.6"/><circle cx="608" cy="315" r="1.6"/><circle cx="600" cy="330" r="1.6"/>
+    <circle cx="372" cy="375" r="1.6"/><circle cx="388" cy="375" r="1.6"/><circle cx="380" cy="390" r="1.6"/>
+  </g>
+  <g fill="url(#gmmango)">
+    <path d="M270,250 Q300,232 334,248 Q320,272 284,270Z"/><path d="M510,330 Q544,314 574,332 Q556,354 522,350Z"/>
+    <path d="M160,380 Q190,364 222,380 Q206,402 172,398Z"/><path d="M420,300 Q452,286 480,304 Q462,324 432,320Z"/>
+  </g>
+  <g fill="url(#gmlit)" stroke="#c8bca4" stroke-width="1">
+    <ellipse cx="340" cy="300" rx="17" ry="14"/><ellipse cx="560" cy="240" rx="17" ry="14"/><ellipse cx="250" cy="360" rx="16" ry="13"/><ellipse cx="500" cy="395" rx="17" ry="13"/><ellipse cx="640" cy="385" rx="15" ry="12"/>
+  </g>
+  <g fill="url(#gmban)" stroke="#c89a40" stroke-width="1.5">
+    <ellipse cx="390" cy="245" rx="19" ry="12"/><ellipse cx="160" cy="250" rx="18" ry="11"/><ellipse cx="450" cy="370" rx="18" ry="11"/><ellipse cx="620" cy="260" rx="17" ry="10"/>
+  </g>
+  <g fill="#ffd84a" stroke="#d09a20" stroke-width="1">
+    <path d="M300,330 l30,-4 l6,18 l-30,6Z"/><path d="M540,280 l28,2 l-2,18 l-28,-2Z"/><path d="M200,210 l28,0 l2,16 l-28,2Z"/>
+  </g>
+  <g fill="#8a3a0a" opacity="0.5">
+    <circle cx="330" cy="350" r="4"/><circle cx="520" cy="300" r="5"/><circle cx="410" cy="270" r="3"/><circle cx="260" cy="300" r="4"/>
+  </g>
+  <rect x="140" y="208" width="300" height="18" rx="9" fill="#fff" opacity="0.1"/>
+</svg>

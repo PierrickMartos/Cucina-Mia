@@ -1,0 +1,182 @@
+{
+  "slug": "fondant-aux-abricots",
+  "title": "Fondant aux abricots",
+  "description": "Un fondant moelleux aux abricots pochés et à la poudre d'amande, cuit au bain-marie dans un moule caramélisé, servi avec une crème anglaise.",
+  "images": {
+    "cover": "images/recipes/fondant-aux-abricots/cover.svg",
+    "web": "images/recipes/fondant-aux-abricots/cover.svg"
+  },
+  "prepTime": 30,
+  "cookTime": 60,
+  "servings": 8,
+  "difficulty": "Medio",
+  "category": "Dolci",
+  "origin": "amelie-grandpa",
+  "tags": [
+    "abricots",
+    "fruits",
+    "amandes",
+    "dessert",
+    "bain-marie",
+    "moelleux",
+    "fondant",
+    "été",
+    "gourmand",
+    "français",
+    "nostalgique",
+    "recette-de-famille"
+  ],
+  "ingredients": [
+    {
+      "items": [
+        "6 œufs",
+        "350 g de sucre semoule (100 g pour les abricots pochés, 100 g pour le caramel)",
+        "100 g de poudre d'amande",
+        "2 bonnes cuillères à soupe de maïzena",
+        "100 g de beurre",
+        "Crème anglaise ou coulis d'abricot ou sorbet à l'abricot",
+        "Cointreau ou noyau de Poissy",
+        "500 à 600 g d'abricots frais"
+      ]
+    }
+  ],
+  "steps": [
+    {
+      "text": "Laver les abricots, les faire pocher 15 à 20 minutes avec les 100 g de sucre et un peu d'eau.",
+      "timers": [15]
+    },
+    {
+      "text": "Laisser refroidir puis les passer au mixer."
+    },
+    {
+      "text": "Blanchir les 6 jaunes d'œufs avec les 150 g de sucre restants, ajouter le beurre fondu, la poudre d'amande, le parfum, la maïzena."
+    },
+    {
+      "text": "Bien mélanger et ajouter délicatement les blancs montés en neige."
+    },
+    {
+      "text": "Mettre dans un moule caramélisé puis faire cuire au bain-marie à feu doux 30 à 40 minutes.",
+      "timers": [30]
+    },
+    {
+      "text": "Servir avec de la crème anglaise."
+    }
+  ],
+  "source": "Les recettes de Maurice Houdré, tome 3, Les entremets",
+  "originalSource": {
+    "type": "text",
+    "data": "Fondant aux abricots\n\nIngrédients : pour 8 à 10 personnes\n\n. 6 œufs\n. 350 g de sucre semoule (100 g pour les abricots pochés, 100 g pour le caramel)\n. 100 g de poudre d’amande\n. 2 bonnes cuillères à soupe de maïzena\n. 100 g de beurre\n. crème anglaise ou coulis d’abricot ou sorbet à l’abricot\n. Cointreau ou noyau de Poissy\n. 500 à 600 g d’abricots frais\n\nLaver les abricots, les faire pocher 15 à 20 minutes avec les 100 g de sucre et un peu d’eau.\nLaisser refroidir puis les passer au mixer.\n\nBlanchir les 6 jaunes d’œufs avec 150 g de sucre restant, ajouter le beurre fondu, la poudre d’amande, le parfum, la maïzena.\nBien mélanger et ajouter délicatement les blancs montés en neige.\nMettre dans un moule caramélisé puis faire cuire au bain-marie à feu doux 30 à 40 minutes.\nServir avec de la crème anglaise.\n"
+  },
+  "related": [
+    "fondant-a-l-orange",
+    "framboisier-facile-moelleux",
+    "clafoutis-mangue-curcuma-caramel-citronelle",
+    "gateau-de-semoule"
+  ],
+  "translations": {
+    "en": {
+      "title": "Apricot fondant",
+      "description": "A soft apricot fondant made with poached apricots and ground almonds, cooked in a bain-marie in a caramel-lined mould and served with crème anglaise.",
+      "tags": [
+        "apricots",
+        "fruit",
+        "almonds",
+        "dessert",
+        "bain-marie",
+        "soft",
+        "melting",
+        "summer",
+        "indulgent",
+        "french",
+        "nostalgic",
+        "family-recipe"
+      ],
+      "ingredients": [
+        {
+          "items": [
+            "6 eggs",
+            "350 g caster sugar (100 g for the poached apricots, 100 g for the caramel)",
+            "100 g ground almonds",
+            "2 heaped tablespoons cornflour",
+            "100 g butter",
+            "Crème anglaise or apricot coulis or apricot sorbet",
+            "Cointreau or noyau de Poissy",
+            "500 to 600 g fresh apricots"
+          ]
+        }
+      ],
+      "steps": [
+        {
+          "text": "Wash the apricots and poach them for 15 to 20 minutes with the 100 g of sugar and a little water."
+        },
+        {
+          "text": "Leave to cool, then blend them in the mixer."
+        },
+        {
+          "text": "Whisk the 6 egg yolks with the remaining 150 g of sugar until pale, then add the melted butter, the ground almonds, the flavouring and the cornflour."
+        },
+        {
+          "text": "Mix well and gently fold in the stiffly beaten egg whites."
+        },
+        {
+          "text": "Pour into a caramel-lined mould, then cook in a bain-marie over low heat for 30 to 40 minutes."
+        },
+        {
+          "text": "Serve with crème anglaise."
+        }
+      ]
+    },
+    "it": {
+      "title": "Fondant all'albicocca",
+      "description": "Un fondant morbido con albicocche sobbollite e farina di mandorle, cotto a bagnomaria in uno stampo caramellato, servito con crema inglese.",
+      "tags": [
+        "albicocche",
+        "frutta",
+        "mandorle",
+        "dessert",
+        "bagnomaria",
+        "morbido",
+        "fondente",
+        "estate",
+        "goloso",
+        "francese",
+        "nostalgico",
+        "ricetta-di-famiglia"
+      ],
+      "ingredients": [
+        {
+          "items": [
+            "6 uova",
+            "350 g di zucchero semolato (100 g per le albicocche sobbollite, 100 g per il caramello)",
+            "100 g di farina di mandorle",
+            "2 cucchiai abbondanti di maizena",
+            "100 g di burro",
+            "Crema inglese o coulis di albicocca o sorbetto all'albicocca",
+            "Cointreau o noyau de Poissy",
+            "500-600 g di albicocche fresche"
+          ]
+        }
+      ],
+      "steps": [
+        {
+          "text": "Lavare le albicocche e farle sobbollire 15-20 minuti con i 100 g di zucchero e un po' d'acqua."
+        },
+        {
+          "text": "Lasciare raffreddare, poi frullarle nel mixer."
+        },
+        {
+          "text": "Montare i 6 tuorli con i 150 g di zucchero rimanenti fino a renderli chiari, poi aggiungere il burro fuso, la farina di mandorle, l'aroma e la maizena."
+        },
+        {
+          "text": "Mescolare bene e incorporare delicatamente gli albumi montati a neve."
+        },
+        {
+          "text": "Versare in uno stampo caramellato, poi cuocere a bagnomaria a fuoco dolce 30-40 minuti."
+        },
+        {
+          "text": "Servire con crema inglese."
+        }
+      ]
+    }
+  }
+}

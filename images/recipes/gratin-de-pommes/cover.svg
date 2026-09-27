@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <defs>
+    <radialGradient id="gpbg" cx="50%" cy="45%" r="70%"><stop offset="0%" stop-color="#2e2822"/><stop offset="100%" stop-color="#1a1510"/></radialGradient>
+    <linearGradient id="gpdish" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#f2ece2"/><stop offset="100%" stop-color="#b8ad9c"/></linearGradient>
+    <radialGradient id="gpcream" cx="45%" cy="40%" r="65%"><stop offset="0%" stop-color="#f2d690"/><stop offset="70%" stop-color="#d9a650"/><stop offset="100%" stop-color="#9a6424"/></radialGradient>
+    <linearGradient id="gpapple" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#e8b460"/><stop offset="100%" stop-color="#a86a24"/></linearGradient>
+  </defs>
+  <rect width="800" height="600" fill="url(#gpbg)"/>
+  <ellipse cx="400" cy="455" rx="320" ry="55" fill="#000" opacity="0.35"/>
+  <g opacity="0.18">
+    <circle cx="95" cy="150" r="42" fill="#b83a24"/><path d="M95,108 q6,-18 18,-22" stroke="#6a4020" stroke-width="4" fill="none"/>
+    <path d="M660,110 l60,-40 l8,10 l-58,42z" fill="#c8a060"/>
+  </g>
+  <rect x="100" y="215" width="600" height="230" rx="70" fill="url(#gpdish)"/>
+  <rect x="122" y="232" width="556" height="190" rx="58" fill="#8a5a2c"/>
+  <rect x="130" y="238" width="540" height="178" rx="54" fill="url(#gpcream)"/>
+  <g fill="url(#gpapple)" stroke="#7a4818" stroke-width="1.5">
+    <path d="M170,300 q35,-40 75,-8 q-38,10 -75,8z"/>
+    <path d="M250,275 q40,-38 80,-4 q-40,12 -80,4z"/>
+    <path d="M345,268 q40,-36 82,-2 q-42,12 -82,2z"/>
+    <path d="M440,272 q42,-38 84,-4 q-42,12 -84,4z"/>
+    <path d="M535,285 q38,-36 80,0 q-40,10 -80,0z"/>
+    <path d="M190,355 q38,-40 80,-6 q-40,12 -80,6z"/>
+    <path d="M285,335 q40,-38 82,-4 q-42,12 -82,4z"/>
+    <path d="M385,330 q42,-38 84,-2 q-42,12 -84,2z"/>
+    <path d="M480,338 q40,-38 82,-4 q-42,12 -82,4z"/>
+    <path d="M565,355 q34,-34 70,-2 q-36,10 -70,2z"/>
+    <path d="M240,395 q38,-34 78,-4 q-40,10 -78,4z"/>
+    <path d="M345,392 q40,-34 80,-2 q-40,10 -80,2z"/>
+    <path d="M450,395 q38,-34 78,-4 q-40,10 -78,4z"/>
+  </g>
+  <g fill="#6a3410" opacity="0.45">
+    <ellipse cx="215" cy="290" rx="22" ry="6"/><ellipse cx="385" cy="262" rx="20" ry="5"/><ellipse cx="480" cy="266" rx="22" ry="6"/>
+    <ellipse cx="330" cy="328" rx="22" ry="6"/><ellipse cx="520" cy="332" rx="20" ry="5"/><ellipse cx="385" cy="386" rx="20" ry="5"/>
+  </g>
+  <g fill="#fff4d0" opacity="0.35">
+    <ellipse cx="300" cy="300" rx="40" ry="8"/><ellipse cx="460" cy="305" rx="38" ry="7"/><ellipse cx="560" cy="390" rx="28" ry="6"/>
+  </g>
+  <g fill="#3a1c08" opacity="0.35">
+    <circle cx="160" cy="330" r="6"/><circle cx="640" cy="320" r="7"/><circle cx="420" cy="410" r="5"/><circle cx="600" cy="260" r="5"/>
+  </g>
+  <ellipse cx="260" cy="228" rx="120" ry="8" fill="#fff" opacity="0.35"/>
+</svg>
