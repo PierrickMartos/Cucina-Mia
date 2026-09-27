@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <defs>
+    <radialGradient id="fdbg" cx="50%" cy="45%" r="70%"><stop offset="0%" stop-color="#2e2822"/><stop offset="100%" stop-color="#1a1510"/></radialGradient>
+    <radialGradient id="fdtray" cx="45%" cy="40%" r="65%"><stop offset="0%" stop-color="#d8c498"/><stop offset="100%" stop-color="#8a7448"/></radialGradient>
+    <radialGradient id="fdcase" cx="50%" cy="40%" r="60%"><stop offset="0%" stop-color="#f6f0e4"/><stop offset="100%" stop-color="#c8bca4"/></radialGradient>
+    <radialGradient id="fdprune" cx="35%" cy="30%" r="70%"><stop offset="0%" stop-color="#5a3040"/><stop offset="100%" stop-color="#1e0e14"/></radialGradient>
+    <radialGradient id="fddate" cx="35%" cy="30%" r="70%"><stop offset="0%" stop-color="#a86030"/><stop offset="100%" stop-color="#4a2210"/></radialGradient>
+    <radialGradient id="fdcar" cx="40%" cy="30%" r="70%"><stop offset="0%" stop-color="#f4c060"/><stop offset="100%" stop-color="#b86a18"/></radialGradient>
+    <g id="fdc"><circle r="44" fill="url(#fdcase)"/><circle r="44" fill="none" stroke="#b0a488" stroke-width="3" stroke-dasharray="4 5"/><circle r="32" fill="#e8dcc4"/></g>
+  </defs>
+  <rect width="800" height="600" fill="url(#fdbg)"/>
+  <ellipse cx="400" cy="330" rx="345" ry="215" fill="#000" opacity="0.3"/>
+  <ellipse cx="400" cy="310" rx="330" ry="200" fill="url(#fdtray)"/>
+  <ellipse cx="400" cy="310" rx="306" ry="180" fill="none" stroke="#fff4d8" stroke-width="3" opacity="0.3"/>
+  <use href="#fdc" x="250" y="220"/><use href="#fdc" x="400" y="200"/><use href="#fdc" x="550" y="220"/>
+  <use href="#fdc" x="180" y="320"/><use href="#fdc" x="330" y="310"/><use href="#fdc" x="480" y="310"/><use href="#fdc" x="620" y="320"/>
+  <use href="#fdc" x="260" y="410"/><use href="#fdc" x="410" y="415"/><use href="#fdc" x="560" y="410"/>
+  <g fill="url(#fdprune)">
+    <ellipse cx="250" cy="220" rx="26" ry="20"/><ellipse cx="480" cy="310" rx="26" ry="20"/><ellipse cx="260" cy="410" rx="26" ry="20"/>
+  </g>
+  <g fill="url(#fddate)">
+    <ellipse cx="400" cy="200" rx="32" ry="15"/><ellipse cx="180" cy="320" rx="32" ry="15"/><ellipse cx="560" cy="410" rx="32" ry="15"/>
+  </g>
+  <g fill="#e888a0"><ellipse cx="250" cy="216" rx="16" ry="9"/><ellipse cx="180" cy="316" rx="20" ry="7"/></g>
+  <g fill="#8cc070"><ellipse cx="480" cy="306" rx="16" ry="9"/><ellipse cx="400" cy="196" rx="20" ry="7"/><ellipse cx="260" cy="406" rx="16" ry="9"/><ellipse cx="560" cy="406" rx="20" ry="7"/></g>
+  <g fill="#fff" opacity="0.85">
+    <circle cx="244" cy="213" r="1.6"/><circle cx="256" cy="218" r="1.4"/><circle cx="172" cy="315" r="1.5"/><circle cx="188" cy="318" r="1.4"/>
+    <circle cx="474" cy="304" r="1.6"/><circle cx="486" cy="308" r="1.4"/><circle cx="392" cy="195" r="1.5"/><circle cx="408" cy="197" r="1.4"/>
+    <circle cx="254" cy="404" r="1.6"/><circle cx="266" cy="408" r="1.4"/><circle cx="552" cy="405" r="1.5"/><circle cx="568" cy="407" r="1.4"/>
+  </g>
+  <g>
+    <ellipse cx="550" cy="220" rx="30" ry="22" fill="url(#fdcar)"/><ellipse cx="330" cy="310" rx="30" ry="22" fill="url(#fdcar)"/>
+    <ellipse cx="620" cy="320" rx="30" ry="22" fill="url(#fdcar)"/><ellipse cx="410" cy="415" rx="30" ry="22" fill="url(#fdcar)"/>
+  </g>
+  <g fill="#7a4a24">
+    <path d="M526,214 Q522,200 536,198 Q546,206 540,222 Z"/><path d="M574,214 Q578,200 564,198 Q554,206 560,222 Z"/>
+    <path d="M306,304 Q302,290 316,288 Q326,296 320,312 Z"/><path d="M354,304 Q358,290 344,288 Q334,296 340,312 Z"/>
+    <path d="M596,314 Q592,300 606,298 Q616,306 610,322 Z"/><path d="M644,314 Q648,300 634,298 Q624,306 630,322 Z"/>
+    <path d="M386,409 Q382,395 396,393 Q406,401 400,417 Z"/><path d="M434,409 Q438,395 424,393 Q414,401 420,417 Z"/>
+  </g>
+  <g fill="#6a3c1c"><rect x="542" y="204" width="16" height="30" rx="7"/><rect x="322" y="294" width="16" height="30" rx="7"/><rect x="612" y="304" width="16" height="30" rx="7"/><rect x="402" y="399" width="16" height="30" rx="7"/></g>
+  <g fill="#fff6d8" opacity="0.45">
+    <ellipse cx="540" cy="208" rx="10" ry="4"/><ellipse cx="320" cy="298" rx="10" ry="4"/><ellipse cx="610" cy="308" rx="10" ry="4"/><ellipse cx="400" cy="403" rx="10" ry="4"/>
+    <ellipse cx="242" cy="211" rx="6" ry="3"/><ellipse cx="472" cy="301" rx="6" ry="3"/><ellipse cx="252" cy="401" rx="6" ry="3"/>
+  </g>
+  <g fill="#f0c060" opacity="0.08"><circle cx="90" cy="120" r="30"/><circle cx="720" cy="520" r="24"/></g>
+</svg>

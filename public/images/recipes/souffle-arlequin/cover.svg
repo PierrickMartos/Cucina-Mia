@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <defs>
+    <radialGradient id="sabg" cx="50%" cy="45%" r="70%"><stop offset="0%" stop-color="#2e2822"/><stop offset="100%" stop-color="#1a1510"/></radialGradient>
+    <linearGradient id="sadish" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="#c8c2b6"/><stop offset="45%" stop-color="#f4f0e8"/><stop offset="100%" stop-color="#a8a296"/></linearGradient>
+    <radialGradient id="savan" cx="40%" cy="30%" r="70%"><stop offset="0%" stop-color="#f2cf84"/><stop offset="100%" stop-color="#c48c3c"/></radialGradient>
+    <radialGradient id="sacho" cx="40%" cy="30%" r="70%"><stop offset="0%" stop-color="#7a4a2a"/><stop offset="100%" stop-color="#3a1e10"/></radialGradient>
+  </defs>
+  <rect width="800" height="600" fill="url(#sabg)"/>
+  <ellipse cx="400" cy="492" rx="250" ry="34" fill="#000" opacity="0.4"/>
+  <g opacity="0.3">
+    <path d="M110,470 q60,-30 120,-8" stroke="#2a1a10" stroke-width="7" fill="none" stroke-linecap="round"/>
+    <ellipse cx="660" cy="478" rx="60" ry="12" fill="#5a3420"/>
+    <circle cx="630" cy="470" r="3" fill="#6a4028"/><circle cx="688" cy="474" r="2.5" fill="#6a4028"/>
+  </g>
+  <path d="M230,300 L570,300 L560,480 Q400,505 240,480 Z" fill="url(#sadish)"/>
+  <g stroke="#9a948a" stroke-width="2" opacity="0.45">
+    <line x1="262" y1="304" x2="264" y2="484"/><line x1="296" y1="304" x2="297" y2="489"/><line x1="330" y1="304" x2="331" y2="492"/>
+    <line x1="365" y1="304" x2="365" y2="494"/><line x1="400" y1="304" x2="400" y2="495"/><line x1="435" y1="304" x2="435" y2="494"/>
+    <line x1="470" y1="304" x2="469" y2="492"/><line x1="504" y1="304" x2="503" y2="489"/><line x1="538" y1="304" x2="536" y2="484"/>
+  </g>
+  <ellipse cx="400" cy="300" rx="170" ry="26" fill="#ece6da"/>
+  <path d="M248,300 L552,300 L550,262 Q400,250 250,262 Z" fill="url(#savan)"/>
+  <path d="M250,262 Q400,250 550,262 L548,226 Q400,212 252,226 Z" fill="url(#sacho)"/>
+  <path d="M252,226 Q400,212 548,226 L544,196 Q400,182 256,196 Z" fill="url(#savan)"/>
+  <path d="M256,196 Q400,182 544,196 Q540,150 400,138 Q260,150 256,196 Z" fill="url(#sacho)"/>
+  <path d="M300,168 Q360,140 420,150 Q470,158 500,178 Q440,165 400,168 Q340,172 300,168 Z" fill="#e0b068" opacity="0.8"/>
+  <path d="M330,152 Q400,132 470,152" stroke="#9a6a40" stroke-width="3" fill="none" opacity="0.6"/>
+  <g stroke="#1e0e06" stroke-width="1.5" opacity="0.35" fill="none">
+    <path d="M250,262 Q400,250 550,262"/><path d="M252,226 Q400,212 548,226"/><path d="M256,196 Q400,182 544,196"/>
+  </g>
+  <ellipse cx="330" cy="400" rx="16" ry="70" fill="#fff" opacity="0.25"/>
+  <ellipse cx="360" cy="160" rx="40" ry="8" fill="#fff" opacity="0.18"/>
+  <g fill="#f4eee0" opacity="0.5">
+    <circle cx="380" cy="146" r="1.8"/><circle cx="410" cy="150" r="1.5"/><circle cx="440" cy="158" r="1.8"/><circle cx="350" cy="160" r="1.4"/><circle cx="470" cy="170" r="1.5"/>
+  </g>
+</svg>
