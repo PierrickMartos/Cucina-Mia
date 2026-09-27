@@ -125,6 +125,22 @@ describe("lexical search", () => {
     expect(run("carbonara").hits[0].exact).toBe(true)
   })
 
+  it("puts the recipe whose title is the query first", () => {
+    const curries = [
+      recipe("poulet-au-curry", { title: "Poulet au curry", translations: { en: { title: "Chicken curry" } } }),
+      recipe("blancs-au-curry", {
+        title: "Blancs de volaille au curry",
+        tags: ["poulet", "curry"],
+        translations: { en: { title: "Curried chicken breasts", tags: ["chicken", "curry"] } },
+      }),
+    ]
+    const curryExtras = parseSearchExtras([
+      { slug: "blancs-au-curry", ingredients: { en: "4 chicken breasts · 1 tbsp curry powder" } },
+    ])
+    const curryIndex = new LexicalIndex(buildSearchDocuments(curries, curryExtras))
+    expect(curryIndex.search(parseQuery("Chicken curry ")).hits.map((hit) => hit.slug)[0]).toBe("poulet-au-curry")
+  })
+
   it("reports queries without meaningful terms", () => {
     expect(run("de la").termCount).toBe(0)
   })

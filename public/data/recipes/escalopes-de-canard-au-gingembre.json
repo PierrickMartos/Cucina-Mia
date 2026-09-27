@@ -1,0 +1,228 @@
+{
+  "slug": "escalopes-de-canard-au-gingembre",
+  "title": "Escalopes de canard au gingembre",
+  "description": "Escalopes de canard parfumées au gingembre, dorées au beurre et nappées d'une sauce au vin blanc et à la crème, avec une garniture au choix.",
+  "images": {
+    "cover": "images/recipes/escalopes-de-canard-au-gingembre/cover.svg",
+    "web": "images/recipes/escalopes-de-canard-au-gingembre/cover.svg"
+  },
+  "prepTime": 140,
+  "cookTime": 25,
+  "servings": 8,
+  "difficulty": "Medio",
+  "category": "Secondi",
+  "origin": "amelie-grandpa",
+  "tags": [
+    "canard",
+    "gingembre",
+    "français",
+    "nostalgique",
+    "recette-de-famille",
+    "plat-principal",
+    "poêle",
+    "chaud",
+    "festif",
+    "gourmand",
+    "onctueux"
+  ],
+  "ingredients": [
+    {
+      "items": [
+        "8 escalopes ou filets de canard",
+        "2 dl de fond de veau lié",
+        "1 dl de crème",
+        "100 g de beurre",
+        "2 cuillères d'huile",
+        "1 dl de vin blanc",
+        "Gingembre en poudre",
+        "Sel et poivre"
+      ]
+    },
+    {
+      "group": "Garniture",
+      "items": [
+        "50 g de beurre (navets)",
+        "1 pincée de sucre semoule",
+        "1 figue fraîche par personne"
+      ]
+    }
+  ],
+  "steps": [
+    {
+      "text": "Deux heures avant la cuisson, saupoudrer les escalopes de gingembre de chaque côté."
+    },
+    {
+      "text": "Faire chauffer l'huile et le beurre, faire dorer les escalopes de chaque côté, faire cuire à point (rosé), saler et poivrer, mettre dans un plat et réserver au chaud."
+    },
+    {
+      "text": "Déglacer le fond du récipient avec le vin blanc, laisser réduire quelques instants, ajouter la crème, cuire quelques instants, rectifier l'assaisonnement et réserver."
+    },
+    {
+      "text": "Dresser et servir les escalopes : soit sur un plat avec la sauce en saucière, soit à l'assiette avec la sauce au fond et l'escalope dessus."
+    },
+    {
+      "text": "Garniture : couper et tourner des navets, mouiller à hauteur avec de l'eau, ajouter 50 g de beurre, sel, poivre et une pincée de sucre semoule. Après la cuisson et l'évaporation de l'eau, laisser colorer et dorer les navets."
+    },
+    {
+      "text": "Garniture : prendre une figue fraîche par personne, la couper en deux, faire revenir et cuire doucement dans un mélange beurre et miel."
+    },
+    {
+      "text": "Garniture : faire un mélange de champignons des bois poêlés, sautés dans l'huile puis dans du beurre, ajouter sel et poivre, une pointe d'ail, de l'échalote ciselée et du persil haché."
+    },
+    {
+      "text": "Garniture : selon la saison, faire des petits pois frais, des petits oignons, une feuille de laitue concassée, beurre, sel et poivre (petits pois à la française)."
+    },
+    {
+      "text": "Garniture : faire la même garniture avec des carottes ou des navets coupés en bâtonnets."
+    }
+  ],
+  "source": "Les recettes de Maurice Houdré, tome 2, Volailles, lapins, foie gras",
+  "originalSource": {
+    "type": "text",
+    "data": "Escalopes de canard au gingembre\n\nIngrédients : pour 8 personnes\n\n. 8 escalopes ou filets de canard\n. 2 dl de fond de veau lié\n. 1 dl de crème\n. 100 g de beurre\n. 2 cuillères d’huile\n. 1 dl de vin blanc\n. gingembre en poudre\n. sel et poivre\n\nDeux heures avant la cuisson, saupoudrer les escalopes de gingembre de chaque côté.\n\nFaire chauffer l’huile et le beurre, faire dorer les escalopes de chaque côté, faire cuire à point (rosé), saler et poivrer, mettre dans un plat et réserver au chaud.\nDéglacer le fond du récipient avec le vin blanc, laisser réduire quelques instants, ajouter la crème, cuire quelques instants, rectifier l’assaisonnement et réserver.\n\nDresser et servir les escalopes : \nSur un plat et la sauce en saucière, soit à l’assiette avec la sauce au fond et l’escalope dessus.\n\nGarnitures :\n- Couper et tourner des navets, mouiller à hauteur avec de l’eau, ajouter 50 g de beurre, sel, poivre et une pincée de sucre semoule. Après la cuisson et l’évaporation de l’eau, laisser colorer et dorer les navets.\n- Prendre une figue fraîche par personne, couper la en deux, faire revenir et cuire doucement dans un mélange beurre et miel.\n- Faire un mélange de champignons des bois poêlés, sautés dans l’huile puis dans du beurre, ajouter sel et poivre, une pointe d’ail, de l’échalote ciselée et du persil haché.\n- Selon la saison, faire des petits pois frais, des petits oignons, une feuille de laitue concassée, beurre, sel et poivre (petits pois à la Française).\n- Faire la même garniture avec des carottes ou des navets coupés en bâtonnets.\n"
+  },
+  "related": [
+    "magret-de-canard-au-gingembre",
+    "piccata-de-veau-au-porto",
+    "fricassee-de-lotte-au-noilly",
+    "selle-d-agneau-en-mosaiques"
+  ],
+  "translations": {
+    "en": {
+      "title": "Duck escalopes with ginger",
+      "description": "Duck escalopes flavoured with ginger, browned in butter and coated with a white wine and cream sauce, served with a garnish of your choice.",
+      "tags": [
+        "duck",
+        "ginger",
+        "french",
+        "nostalgic",
+        "family-recipe",
+        "main-course",
+        "pan-fried",
+        "hot",
+        "festive",
+        "indulgent",
+        "creamy"
+      ],
+      "ingredients": [
+        {
+          "items": [
+            "8 duck escalopes or fillets",
+            "2 dl of thickened veal stock",
+            "1 dl of cream",
+            "100 g of butter",
+            "2 spoonfuls of oil",
+            "1 dl of white wine",
+            "Ground ginger",
+            "Salt and pepper"
+          ]
+        },
+        {
+          "group": "Garnish",
+          "items": [
+            "50 g of butter (turnips)",
+            "1 pinch of caster sugar",
+            "1 fresh fig per person"
+          ]
+        }
+      ],
+      "steps": [
+        {
+          "text": "Two hours before cooking, sprinkle the escalopes with ginger on each side."
+        },
+        {
+          "text": "Heat the oil and butter, brown the escalopes on each side, cook them medium (pink), season with salt and pepper, place them in a dish and keep warm."
+        },
+        {
+          "text": "Deglaze the bottom of the pan with the white wine, let it reduce for a few moments, add the cream, cook for a few moments, adjust the seasoning and set aside."
+        },
+        {
+          "text": "Plate and serve the escalopes: either on a platter with the sauce in a sauce boat, or on individual plates with the sauce underneath and the escalope on top."
+        },
+        {
+          "text": "Garnish: cut and turn the turnips, add water just to cover, add 50 g of butter, salt, pepper and a pinch of caster sugar. Once cooked and the water has evaporated, let the turnips colour and brown."
+        },
+        {
+          "text": "Garnish: take one fresh fig per person, cut it in half, brown it and cook it gently in a mixture of butter and honey."
+        },
+        {
+          "text": "Garnish: make a mixture of pan-fried wild mushrooms, sautéed in oil then in butter, add salt and pepper, a hint of garlic, finely chopped shallot and chopped parsley."
+        },
+        {
+          "text": "Garnish: depending on the season, cook fresh peas, small onions, a roughly chopped lettuce leaf, butter, salt and pepper (French-style peas)."
+        },
+        {
+          "text": "Garnish: make the same garnish with carrots or turnips cut into sticks."
+        }
+      ]
+    },
+    "it": {
+      "title": "Scaloppine di anatra allo zenzero",
+      "description": "Scaloppine di anatra profumate allo zenzero, dorate nel burro e nappate con una salsa al vino bianco e alla panna, con un contorno a scelta.",
+      "tags": [
+        "anatra",
+        "zenzero",
+        "francese",
+        "nostalgico",
+        "ricetta-di-famiglia",
+        "piatto-principale",
+        "padella",
+        "caldo",
+        "festivo",
+        "goloso",
+        "cremoso"
+      ],
+      "ingredients": [
+        {
+          "items": [
+            "8 scaloppine o filetti di anatra",
+            "2 dl di fondo di vitello legato",
+            "1 dl di panna",
+            "100 g di burro",
+            "2 cucchiai di olio",
+            "1 dl di vino bianco",
+            "Zenzero in polvere",
+            "Sale e pepe"
+          ]
+        },
+        {
+          "group": "Contorno",
+          "items": [
+            "50 g di burro (rape)",
+            "1 pizzico di zucchero semolato",
+            "1 fico fresco a persona"
+          ]
+        }
+      ],
+      "steps": [
+        {
+          "text": "Due ore prima della cottura, cospargere le scaloppine di zenzero su entrambi i lati."
+        },
+        {
+          "text": "Scaldare l'olio e il burro, far dorare le scaloppine su entrambi i lati, cuocerle al punto giusto (rosate), salare e pepare, metterle in un piatto e tenerle al caldo."
+        },
+        {
+          "text": "Deglassare il fondo del recipiente con il vino bianco, lasciar ridurre per qualche istante, aggiungere la panna, cuocere per qualche istante, regolare il condimento e tenere da parte."
+        },
+        {
+          "text": "Impiattare e servire le scaloppine: o su un piatto da portata con la salsa in salsiera, o nel piatto individuale con la salsa sul fondo e la scaloppina sopra."
+        },
+        {
+          "text": "Contorno: tagliare e tornire le rape, bagnare a filo con acqua, aggiungere 50 g di burro, sale, pepe e un pizzico di zucchero semolato. Dopo la cottura e l'evaporazione dell'acqua, lasciar colorire e dorare le rape."
+        },
+        {
+          "text": "Contorno: prendere un fico fresco a persona, tagliarlo a metà, rosolarlo e cuocerlo dolcemente in un misto di burro e miele."
+        },
+        {
+          "text": "Contorno: preparare un misto di funghi di bosco in padella, saltati nell'olio e poi nel burro, aggiungere sale e pepe, una punta d'aglio, scalogno tritato finemente e prezzemolo tritato."
+        },
+        {
+          "text": "Contorno: secondo la stagione, preparare piselli freschi, cipolline, una foglia di lattuga tritata grossolanamente, burro, sale e pepe (piselli alla francese)."
+        },
+        {
+          "text": "Contorno: preparare lo stesso contorno con carote o rape tagliate a bastoncini."
+        }
+      ]
+    }
+  }
+}

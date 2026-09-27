@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <defs>
+    <radialGradient id="ecgbg" cx="50%" cy="45%" r="70%"><stop offset="0%" stop-color="#2e2822"/><stop offset="100%" stop-color="#1a1510"/></radialGradient>
+    <radialGradient id="ecgplate" cx="45%" cy="40%" r="65%"><stop offset="0%" stop-color="#f2ece2"/><stop offset="100%" stop-color="#b4aa9a"/></radialGradient>
+    <radialGradient id="ecgsauce" cx="45%" cy="40%" r="60%"><stop offset="0%" stop-color="#e8c890"/><stop offset="100%" stop-color="#b88a50"/></radialGradient>
+    <linearGradient id="ecgskin" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#9a5226"/><stop offset="100%" stop-color="#5e2c12"/></linearGradient>
+    <linearGradient id="ecgpink" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#d87a78"/><stop offset="100%" stop-color="#a84a4a"/></linearGradient>
+    <radialGradient id="ecgfig" cx="50%" cy="50%" r="55%"><stop offset="0%" stop-color="#f4c0a0"/><stop offset="60%" stop-color="#c0404a"/><stop offset="100%" stop-color="#4a1e3a"/></radialGradient>
+    <radialGradient id="ecgturnip" cx="35%" cy="30%" r="70%"><stop offset="0%" stop-color="#fbf0d4"/><stop offset="100%" stop-color="#d0a050"/></radialGradient>
+  </defs>
+  <rect width="800" height="600" fill="url(#ecgbg)"/>
+  <g opacity="0.12" fill="#c8a070"><path d="M80,110 q20,-10 34,4 q-10,18 -34,-4Z"/><path d="M700,480 q24,-12 40,4 q-12,20 -40,-4Z"/></g>
+  <ellipse cx="400" cy="470" rx="320" ry="55" fill="#000" opacity="0.35"/>
+  <ellipse cx="400" cy="320" rx="310" ry="165" fill="url(#ecgplate)"/>
+  <ellipse cx="400" cy="318" rx="250" ry="128" fill="#e8e0d2"/>
+  <ellipse cx="380" cy="320" rx="175" ry="90" fill="url(#ecgsauce)"/>
+  <ellipse cx="350" cy="290" rx="90" ry="25" fill="#fbe8c0" opacity="0.35"/>
+  <g>
+    <path d="M250,300 C255,270 320,262 350,280 L345,330 C315,345 255,338 250,300Z" fill="url(#ecgpink)"/>
+    <path d="M250,300 C255,270 320,262 350,280 L352,288 C320,272 262,280 256,306Z" fill="url(#ecgskin)"/>
+    <path d="M330,295 C335,262 405,255 435,272 L430,325 C398,340 335,335 330,295Z" fill="url(#ecgpink)"/>
+    <path d="M330,295 C335,262 405,255 435,272 L437,280 C405,265 342,272 336,300Z" fill="url(#ecgskin)"/>
+    <path d="M410,305 C415,275 480,268 505,286 L500,335 C470,350 412,342 410,305Z" fill="url(#ecgpink)"/>
+    <path d="M410,305 C415,275 480,268 505,286 L507,294 C478,278 420,286 416,311Z" fill="url(#ecgskin)"/>
+  </g>
+  <g fill="#f2a8a0" opacity="0.4"><ellipse cx="300" cy="312" rx="30" ry="8"/><ellipse cx="385" cy="305" rx="32" ry="8"/><ellipse cx="458" cy="316" rx="30" ry="8"/></g>
+  <g fill="#c8902a" opacity="0.7"><circle cx="290" cy="283" r="1.8"/><circle cx="320" cy="280" r="1.5"/><circle cx="370" cy="272" r="1.8"/><circle cx="410" cy="270" r="1.5"/><circle cx="450" cy="284" r="1.8"/><circle cx="485" cy="286" r="1.5"/></g>
+  <g>
+    <ellipse cx="565" cy="250" rx="34" ry="26" fill="url(#ecgfig)" transform="rotate(-15 565 250)"/>
+    <ellipse cx="600" cy="290" rx="32" ry="25" fill="url(#ecgfig)" transform="rotate(20 600 290)"/>
+    <g fill="#fbe0c0" opacity="0.7"><circle cx="560" cy="248" r="1.5"/><circle cx="570" cy="254" r="1.5"/><circle cx="566" cy="242" r="1.3"/><circle cx="596" cy="288" r="1.5"/><circle cx="606" cy="294" r="1.5"/><circle cx="602" cy="283" r="1.3"/></g>
+    <path d="M565,250 m-32,0 a34,26 -15 0,0 4,12" stroke="#d8b040" stroke-width="3" fill="none" opacity="0.5"/>
+  </g>
+  <g fill="url(#ecgturnip)">
+    <ellipse cx="230" cy="380" rx="20" ry="15"/><ellipse cx="270" cy="400" rx="19" ry="14"/><ellipse cx="310" cy="410" rx="18" ry="13"/>
+    <ellipse cx="530" cy="380" rx="19" ry="14"/><ellipse cx="570" cy="360" rx="18" ry="13"/>
+  </g>
+  <g fill="#fff" opacity="0.45"><ellipse cx="224" cy="375" rx="5" ry="3"/><ellipse cx="264" cy="395" rx="5" ry="3"/><ellipse cx="524" cy="375" rx="5" ry="3"/></g>
+  <g fill="#3c8a34"><circle cx="300" cy="355" r="3"/><circle cx="440" cy="360" r="3"/><circle cx="520" cy="330" r="2.5"/></g>
+</svg>
