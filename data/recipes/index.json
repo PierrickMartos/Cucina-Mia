@@ -13200,5 +13200,1587 @@
     },
     "stepCount": 5,
     "ingredientCount": 7
+  },
+  {
+    "slug": "bar-loup-de-mer-sauce-regence-farci-d-une-mosaique-de-legumes",
+    "title": "Bar (loup de mer) sauce régence, farci d'une mosaïque de légumes",
+    "description": "Un bar entier farci d'une mousse de merlan aux petits légumes, cuit au fumet puis en croûte feuilletée, nappé d'une sauce régence aux truffes.",
+    "images": {
+      "cover": "images/recipes/bar-loup-de-mer-sauce-regence-farci-d-une-mosaique-de-legumes/cover.svg",
+      "web": "images/recipes/bar-loup-de-mer-sauce-regence-farci-d-une-mosaique-de-legumes/cover.svg"
+    },
+    "prepTime": 180,
+    "cookTime": 110,
+    "servings": 10,
+    "difficulty": "Difficile",
+    "category": "Secondi",
+    "tags": [
+      "poisson",
+      "légumes",
+      "four",
+      "plat-principal",
+      "français",
+      "festif",
+      "fête",
+      "chaud",
+      "gourmand",
+      "à-partager",
+      "nostalgique",
+      "recette-de-famille"
+    ],
+    "origin": "amelie-grandpa",
+    "translations": {
+      "en": {
+        "title": "Sea bass in Régence sauce, stuffed with a vegetable mosaic",
+        "description": "A whole sea bass stuffed with a whiting mousse and diced vegetables, cooked in fish stock then baked in a puff pastry crust, coated with a truffled Régence sauce.",
+        "tags": [
+          "fish",
+          "vegetables",
+          "oven",
+          "main-course",
+          "french",
+          "festive",
+          "celebration",
+          "hot",
+          "indulgent",
+          "to-share",
+          "nostalgic",
+          "family-recipe"
+        ]
+      },
+      "it": {
+        "title": "Spigola in salsa Régence, farcita con un mosaico di verdure",
+        "description": "Una spigola intera farcita con una mousse di nasello e verdurine, cotta nel fumetto e poi in crosta di pasta sfoglia, nappata con una salsa Régence al tartufo.",
+        "tags": [
+          "pesce",
+          "verdure",
+          "forno",
+          "piatto-principale",
+          "francese",
+          "festivo",
+          "festa",
+          "caldo",
+          "goloso",
+          "da-condividere",
+          "nostalgico",
+          "ricetta-di-famiglia"
+        ]
+      }
+    },
+    "stepCount": 25,
+    "ingredientCount": 23
+  },
+  {
+    "slug": "chausson-ou-feuillete-aux-fruits-de-mer",
+    "title": "Chausson ou feuilleté aux fruits de mer",
+    "description": "Chaussons de pâte feuilletée garnis d'une farce de moules, coques et crevettes roses, avec un riz aux poivrons relevé d'harissa.",
+    "images": {
+      "cover": "images/recipes/chausson-ou-feuillete-aux-fruits-de-mer/cover.svg",
+      "web": "images/recipes/chausson-ou-feuillete-aux-fruits-de-mer/cover.svg"
+    },
+    "prepTime": 90,
+    "cookTime": 60,
+    "servings": 10,
+    "difficulty": "Difficile",
+    "category": "Secondi",
+    "tags": [
+      "fruits-de-mer",
+      "plat-principal",
+      "français",
+      "nostalgique",
+      "recette-de-famille",
+      "four",
+      "riz",
+      "chaud",
+      "festif",
+      "épicé",
+      "préparation-à-lavance",
+      "buffet"
+    ],
+    "origin": "amelie-grandpa",
+    "translations": {
+      "en": {
+        "title": "Seafood puff pastry turnovers",
+        "description": "Puff pastry turnovers filled with mussels, cockles and pink shrimp, with a bell pepper rice spiced up with harissa.",
+        "tags": [
+          "seafood",
+          "main-course",
+          "french",
+          "nostalgic",
+          "family-recipe",
+          "oven",
+          "rice",
+          "hot",
+          "festive",
+          "spiced",
+          "make-ahead",
+          "buffet"
+        ]
+      },
+      "it": {
+        "title": "Fagottini di pasta sfoglia ai frutti di mare",
+        "description": "Fagottini di pasta sfoglia ripieni di cozze, cuori di mare e gamberi rosa, con un riso ai peperoni insaporito con harissa.",
+        "tags": [
+          "frutti-di-mare",
+          "piatto-principale",
+          "francese",
+          "nostalgico",
+          "ricetta-di-famiglia",
+          "forno",
+          "riso",
+          "caldo",
+          "festivo",
+          "speziato",
+          "da-preparare-in-anticipo",
+          "buffet"
+        ]
+      }
+    },
+    "stepCount": 12,
+    "ingredientCount": 15
+  },
+  {
+    "slug": "couscous-de-poissons-et-fruits-de-mer",
+    "title": "Couscous de poissons et fruits de mer",
+    "description": "Un couscous de la mer généreux : moules, coques, calamars, lotte, pétoncles et rascasse mijotés dans un fumet safrané, servis avec une semoule au beurre.",
+    "images": {
+      "cover": "images/recipes/couscous-de-poissons-et-fruits-de-mer/cover.svg",
+      "web": "images/recipes/couscous-de-poissons-et-fruits-de-mer/cover.svg"
+    },
+    "prepTime": 90,
+    "cookTime": 100,
+    "servings": 10,
+    "difficulty": "Difficile",
+    "category": "Secondi",
+    "tags": [
+      "poisson",
+      "fruits-de-mer",
+      "plat-principal",
+      "français",
+      "nostalgique",
+      "recette-de-famille",
+      "mijoté",
+      "festif",
+      "convivial",
+      "à-partager",
+      "chaud"
+    ],
+    "origin": "amelie-grandpa",
+    "translations": {
+      "en": {
+        "title": "Fish and Seafood Couscous",
+        "description": "A generous seafood couscous: mussels, cockles, squid, monkfish, scallops and scorpion fish simmered in a saffron fish stock, served with buttered semolina.",
+        "tags": [
+          "fish",
+          "seafood",
+          "main-course",
+          "french",
+          "nostalgic",
+          "family-recipe",
+          "slow-cooked",
+          "festive",
+          "convivial",
+          "to-share",
+          "hot"
+        ]
+      },
+      "it": {
+        "title": "Cuscus di pesce e frutti di mare",
+        "description": "Un generoso cuscus di mare: cozze, vongole, calamari, coda di rospo, capesante e scorfano stufati in un fumetto allo zafferano, serviti con semola al burro.",
+        "tags": [
+          "pesce",
+          "frutti-di-mare",
+          "piatto-principale",
+          "francese",
+          "nostalgico",
+          "ricetta-di-famiglia",
+          "stufato",
+          "festivo",
+          "conviviale",
+          "da-condividere",
+          "caldo"
+        ]
+      }
+    },
+    "stepCount": 28,
+    "ingredientCount": 30
+  },
+  {
+    "slug": "darne-de-saumon-a-l-oseille",
+    "title": "Darne de saumon à l'oseille",
+    "description": "Darnes de saumon cuites au four sur un fond d'échalote et de vin blanc, servies sur une fondue d'oseille au beurre.",
+    "images": {
+      "cover": "images/recipes/darne-de-saumon-a-l-oseille/cover.webp",
+      "web": "images/recipes/darne-de-saumon-a-l-oseille/web.webp"
+    },
+    "imageCredit": {
+      "author": "Wow_Pho",
+      "url": "https://pixabay.com/users/wow_pho-916237/"
+    },
+    "prepTime": 20,
+    "cookTime": 20,
+    "servings": 8,
+    "difficulty": "Facile",
+    "category": "Secondi",
+    "tags": [
+      "saumon",
+      "poisson",
+      "plat-principal",
+      "français",
+      "nostalgique",
+      "recette-de-famille",
+      "four",
+      "chaud",
+      "facile",
+      "acidulé",
+      "festif",
+      "sans-gluten"
+    ],
+    "origin": "amelie-grandpa",
+    "translations": {
+      "en": {
+        "title": "Salmon Steak with Sorrel",
+        "description": "Salmon steaks baked in the oven on a base of shallot and white wine, served on buttery melted sorrel.",
+        "tags": [
+          "salmon",
+          "fish",
+          "main-course",
+          "french",
+          "nostalgic",
+          "family-recipe",
+          "oven",
+          "hot",
+          "easy",
+          "tangy",
+          "festive",
+          "gluten-free"
+        ]
+      },
+      "it": {
+        "title": "Trancio di salmone all'acetosa",
+        "description": "Tranci di salmone cotti al forno su un fondo di scalogno e vino bianco, serviti su una fonduta di acetosa al burro.",
+        "tags": [
+          "salmone",
+          "pesce",
+          "piatto-principale",
+          "francese",
+          "nostalgico",
+          "ricetta-di-famiglia",
+          "forno",
+          "caldo",
+          "facile",
+          "acidulo",
+          "festivo",
+          "senza-glutine"
+        ]
+      }
+    },
+    "stepCount": 6,
+    "ingredientCount": 7
+  },
+  {
+    "slug": "filets-de-rouget-au-safran",
+    "title": "Filets de rouget au safran",
+    "description": "Des filets de rouget barbet dorés à la meunière, servis avec une fondue de tomates au safran et parsemés de persil.",
+    "images": {
+      "cover": "images/recipes/filets-de-rouget-au-safran/cover.webp",
+      "web": "images/recipes/filets-de-rouget-au-safran/web.webp"
+    },
+    "imageCredit": {
+      "author": "Marina_Kratko",
+      "url": "https://pixabay.com/users/marina_kratko-23099684/"
+    },
+    "prepTime": 20,
+    "cookTime": 15,
+    "servings": 8,
+    "difficulty": "Facile",
+    "category": "Secondi",
+    "tags": [
+      "poisson",
+      "plat-principal",
+      "français",
+      "nostalgique",
+      "recette-de-famille",
+      "poêle",
+      "méditerranéen",
+      "facile",
+      "rapide",
+      "chaud",
+      "festif"
+    ],
+    "origin": "amelie-grandpa",
+    "translations": {
+      "en": {
+        "title": "Red mullet fillets with saffron",
+        "description": "Red mullet fillets browned meunière-style, served with a saffron tomato fondue and sprinkled with parsley.",
+        "tags": [
+          "fish",
+          "main-course",
+          "french",
+          "nostalgic",
+          "family-recipe",
+          "pan-fried",
+          "mediterranean",
+          "easy",
+          "quick",
+          "hot",
+          "festive"
+        ]
+      },
+      "it": {
+        "title": "Filetti di triglia allo zafferano",
+        "description": "Filetti di triglia di scoglio dorati alla mugnaia, serviti con una fondue di pomodori allo zafferano e cosparsi di prezzemolo.",
+        "tags": [
+          "pesce",
+          "piatto-principale",
+          "francese",
+          "nostalgico",
+          "ricetta-di-famiglia",
+          "padella",
+          "mediterraneo",
+          "facile",
+          "veloce",
+          "caldo",
+          "festivo"
+        ]
+      }
+    },
+    "stepCount": 6,
+    "ingredientCount": 10
+  },
+  {
+    "slug": "filets-de-sole-a-la-norvegienne",
+    "title": "Filets de sole à la norvégienne",
+    "description": "Ballotins de filets de sole garnis d'une mousse de merlan à l'aneth et de saumon fumé, pochés puis servis froids en médaillons.",
+    "images": {
+      "cover": "images/recipes/filets-de-sole-a-la-norvegienne/cover.svg",
+      "web": "images/recipes/filets-de-sole-a-la-norvegienne/cover.svg"
+    },
+    "prepTime": 45,
+    "cookTime": 10,
+    "servings": 10,
+    "difficulty": "Medio",
+    "category": "Secondi",
+    "tags": [
+      "poisson",
+      "saumon",
+      "plat-principal",
+      "froid",
+      "festif",
+      "buffet",
+      "préparation-à-lavance",
+      "français",
+      "nostalgique",
+      "recette-de-famille"
+    ],
+    "origin": "amelie-grandpa",
+    "translations": {
+      "en": {
+        "title": "Norwegian-style sole fillets",
+        "description": "Sole fillet ballotines filled with a dill whiting mousse and smoked salmon, poached then served cold in medallions.",
+        "tags": [
+          "fish",
+          "salmon",
+          "main-course",
+          "cold",
+          "festive",
+          "buffet",
+          "make-ahead",
+          "french",
+          "nostalgic",
+          "family-recipe"
+        ]
+      },
+      "it": {
+        "title": "Filetti di sogliola alla norvegese",
+        "description": "Ballottine di filetti di sogliola farcite con una mousse di merlano all'aneto e salmone affumicato, cotte in camicia e servite fredde a medaglioni.",
+        "tags": [
+          "pesce",
+          "salmone",
+          "piatto-principale",
+          "freddo",
+          "festivo",
+          "buffet",
+          "preparazione-in-anticipo",
+          "francese",
+          "nostalgico",
+          "ricetta-di-famiglia"
+        ]
+      }
+    },
+    "stepCount": 11,
+    "ingredientCount": 10
+  },
+  {
+    "slug": "flan-au-crabe",
+    "title": "Flan au crabe",
+    "description": "Un flan de crabe et de champignons à la crème, parfumé au cerfeuil et relevé de Cayenne, cuit sur un fond de pâte brisée.",
+    "images": {
+      "cover": "images/recipes/flan-au-crabe/cover.svg",
+      "web": "images/recipes/flan-au-crabe/cover.svg"
+    },
+    "prepTime": 25,
+    "cookTime": 30,
+    "servings": 10,
+    "difficulty": "Facile",
+    "category": "Secondi",
+    "tags": [
+      "fruits-de-mer",
+      "crabe",
+      "champignons",
+      "œufs",
+      "four",
+      "plat-principal",
+      "français",
+      "nostalgique",
+      "recette-de-famille",
+      "onctueux",
+      "chaud",
+      "facile"
+    ],
+    "origin": "amelie-grandpa",
+    "translations": {
+      "en": {
+        "title": "Crab flan",
+        "description": "A creamy crab and mushroom flan, scented with chervil and spiced with Cayenne, baked on a shortcrust pastry base.",
+        "tags": [
+          "seafood",
+          "crab",
+          "mushrooms",
+          "eggs",
+          "oven",
+          "main-course",
+          "french",
+          "nostalgic",
+          "family-recipe",
+          "creamy",
+          "hot",
+          "easy"
+        ]
+      },
+      "it": {
+        "title": "Sformato di granchio",
+        "description": "Uno sformato cremoso di granchio e funghi, profumato al cerfoglio e insaporito con pepe di Cayenna, cotto su una base di pasta brisée.",
+        "tags": [
+          "frutti-di-mare",
+          "granchio",
+          "funghi",
+          "uova",
+          "forno",
+          "piatto-principale",
+          "francese",
+          "nostalgico",
+          "ricetta-di-famiglia",
+          "cremoso",
+          "caldo",
+          "facile"
+        ]
+      }
+    },
+    "stepCount": 6,
+    "ingredientCount": 9
+  },
+  {
+    "slug": "fricassee-de-lotte-au-noilly",
+    "title": "Fricassée de lotte au Noilly",
+    "description": "Médaillons de lotte dorés puis pochés au fumet, nappés d'une sauce au Noilly, avec petits oignons glacés, champignons et raisins Muscat.",
+    "images": {
+      "cover": "images/recipes/fricassee-de-lotte-au-noilly/cover.webp",
+      "web": "images/recipes/fricassee-de-lotte-au-noilly/web.webp"
+    },
+    "imageCredit": {
+      "author": "mp1746",
+      "url": "https://pixabay.com/users/mp1746-3022388/"
+    },
+    "prepTime": 40,
+    "cookTime": 45,
+    "servings": 8,
+    "difficulty": "Medio",
+    "category": "Secondi",
+    "tags": [
+      "poisson",
+      "lotte",
+      "plat-principal",
+      "poêle",
+      "festif",
+      "gourmand",
+      "onctueux",
+      "chaud",
+      "français",
+      "nostalgique",
+      "recette-de-famille"
+    ],
+    "origin": "amelie-grandpa",
+    "translations": {
+      "en": {
+        "title": "Monkfish fricassée with Noilly",
+        "description": "Monkfish medallions browned then poached in fish stock, coated with a Noilly sauce, with glazed baby onions, mushrooms and Muscat grapes.",
+        "tags": [
+          "fish",
+          "monkfish",
+          "main-course",
+          "pan-fried",
+          "festive",
+          "indulgent",
+          "creamy",
+          "hot",
+          "french",
+          "nostalgic",
+          "family-recipe"
+        ]
+      },
+      "it": {
+        "title": "Fricassea di rana pescatrice al Noilly",
+        "description": "Medaglioni di rana pescatrice rosolati e poi cotti nel fumetto, nappati con una salsa al Noilly, con cipolline glassate, funghi e uva moscato.",
+        "tags": [
+          "pesce",
+          "rana-pescatrice",
+          "piatto-principale",
+          "padella",
+          "festivo",
+          "goloso",
+          "cremoso",
+          "caldo",
+          "francese",
+          "nostalgico",
+          "ricetta-di-famiglia"
+        ]
+      }
+    },
+    "stepCount": 10,
+    "ingredientCount": 15
+  },
+  {
+    "slug": "fricassee-de-lotte-aux-pates-fraiches",
+    "title": "Fricassée de lotte aux pâtes fraîches",
+    "description": "Des cubes de lotte revenus puis mijotés sur une garniture de tomates, poivrons et basilic liée à la crème, servis avec des nouilles fraîches au beurre.",
+    "images": {
+      "cover": "images/recipes/fricassee-de-lotte-aux-pates-fraiches/cover.svg",
+      "web": "images/recipes/fricassee-de-lotte-aux-pates-fraiches/cover.svg"
+    },
+    "prepTime": 60,
+    "cookTime": 50,
+    "servings": 8,
+    "difficulty": "Medio",
+    "category": "Secondi",
+    "tags": [
+      "lotte",
+      "poisson",
+      "pâtes",
+      "plat-principal",
+      "français",
+      "mijoté",
+      "chaud",
+      "onctueux",
+      "convivial",
+      "préparation-à-lavance",
+      "nostalgique",
+      "recette-de-famille"
+    ],
+    "origin": "amelie-grandpa",
+    "translations": {
+      "en": {
+        "title": "Monkfish fricassée with fresh pasta",
+        "description": "Monkfish cubes browned then simmered on a tomato, pepper and basil garnish bound with cream, served with buttered fresh noodles.",
+        "tags": [
+          "monkfish",
+          "fish",
+          "pasta",
+          "main-course",
+          "french",
+          "simmered",
+          "hot",
+          "creamy",
+          "convivial",
+          "make-ahead",
+          "nostalgic",
+          "family-recipe"
+        ]
+      },
+      "it": {
+        "title": "Fricassea di rana pescatrice con pasta fresca",
+        "description": "Cubetti di rana pescatrice rosolati e poi stufati su una guarnizione di pomodori, peperoni e basilico legata con la panna, serviti con tagliatelle fresche al burro.",
+        "tags": [
+          "rana-pescatrice",
+          "pesce",
+          "pasta",
+          "secondo-piatto",
+          "francese",
+          "stufato",
+          "caldo",
+          "cremoso",
+          "conviviale",
+          "preparazione-anticipata",
+          "nostalgico",
+          "ricetta-di-famiglia"
+        ]
+      }
+    },
+    "stepCount": 11,
+    "ingredientCount": 20
+  },
+  {
+    "slug": "haddock-a-l-alsacienne",
+    "title": "Haddock à l'alsacienne",
+    "description": "Des morceaux de haddock pochés au lait, posés sur une choucroute cuite au vin blanc et nappés d'une sauce au beurre et à la crème.",
+    "images": {
+      "cover": "images/recipes/haddock-a-l-alsacienne/cover.svg",
+      "web": "images/recipes/haddock-a-l-alsacienne/cover.svg"
+    },
+    "prepTime": 30,
+    "cookTime": 70,
+    "servings": 8,
+    "difficulty": "Medio",
+    "category": "Secondi",
+    "tags": [
+      "poisson",
+      "haddock",
+      "choucroute",
+      "plat-principal",
+      "français",
+      "nostalgique",
+      "recette-de-famille",
+      "mijoté",
+      "hiver",
+      "réconfortant",
+      "chaud",
+      "sans-gluten"
+    ],
+    "origin": "amelie-grandpa",
+    "translations": {
+      "en": {
+        "title": "Alsatian-style haddock",
+        "description": "Pieces of haddock poached in milk, laid on sauerkraut cooked in white wine and coated with a butter and cream sauce.",
+        "tags": [
+          "fish",
+          "haddock",
+          "sauerkraut",
+          "main-course",
+          "french",
+          "nostalgic",
+          "family-recipe",
+          "slow-cooked",
+          "winter",
+          "comforting",
+          "hot",
+          "gluten-free"
+        ]
+      },
+      "it": {
+        "title": "Eglefino affumicato all'alsaziana",
+        "description": "Pezzi di eglefino affumicato cotti in camicia nel latte, adagiati su crauti cotti nel vino bianco e nappati con una salsa al burro e alla panna.",
+        "tags": [
+          "pesce",
+          "eglefino",
+          "crauti",
+          "piatto-principale",
+          "francese",
+          "nostalgico",
+          "ricetta-di-famiglia",
+          "stufato",
+          "inverno",
+          "confortante",
+          "caldo",
+          "senza-glutine"
+        ]
+      }
+    },
+    "stepCount": 7,
+    "ingredientCount": 13
+  },
+  {
+    "slug": "homard-a-l-americaine",
+    "title": "Homard à l'américaine",
+    "description": "Homards vivants découpés, flambés au Cognac et mijotés au vin blanc, fumet et tomate, servis dans leur sauce avec un riz pilaf ou créole.",
+    "images": {
+      "cover": "images/recipes/homard-a-l-americaine/cover.webp",
+      "web": "images/recipes/homard-a-l-americaine/web.webp"
+    },
+    "imageCredit": {
+      "author": "NadineDoerle",
+      "url": "https://pixabay.com/users/nadinedoerle-1421566/"
+    },
+    "prepTime": 45,
+    "cookTime": 35,
+    "servings": 8,
+    "difficulty": "Difficile",
+    "category": "Secondi",
+    "tags": [
+      "homard",
+      "fruits-de-mer",
+      "plat-principal",
+      "français",
+      "mijoté",
+      "flambé",
+      "festif",
+      "gourmand",
+      "chaud",
+      "nostalgique",
+      "recette-de-famille"
+    ],
+    "origin": "amelie-grandpa",
+    "translations": {
+      "en": {
+        "title": "Lobster à l'américaine",
+        "description": "Live lobsters cut into pieces, flambéed with Cognac and simmered in white wine, fish stock and tomato, served in their sauce with pilaf or Creole rice.",
+        "tags": [
+          "lobster",
+          "seafood",
+          "main-course",
+          "french",
+          "simmered",
+          "flambeed",
+          "festive",
+          "indulgent",
+          "hot",
+          "nostalgic",
+          "family-recipe"
+        ]
+      },
+      "it": {
+        "title": "Astice all'americana",
+        "description": "Astici vivi tagliati a pezzi, flambati al Cognac e cotti a fuoco lento con vino bianco, fumetto e pomodoro, serviti nella loro salsa con riso pilaf o alla creola.",
+        "tags": [
+          "astice",
+          "frutti-di-mare",
+          "piatto-principale",
+          "francese",
+          "stufato",
+          "flambato",
+          "festivo",
+          "goloso",
+          "caldo",
+          "nostalgico",
+          "ricetta-di-famiglia"
+        ]
+      }
+    },
+    "stepCount": 17,
+    "ingredientCount": 30
+  },
+  {
+    "slug": "bouillabaisse",
+    "title": "La bouillabaisse",
+    "description": "La grande soupe de poissons provençale : poissons de roche cuits dans un bouillon safrané, servie avec rouille, croûtons et fromage râpé.",
+    "images": {
+      "cover": "images/recipes/bouillabaisse/cover.webp",
+      "web": "images/recipes/bouillabaisse/web.webp"
+    },
+    "imageCredit": {
+      "author": "ivabalk",
+      "url": "https://pixabay.com/users/ivabalk-782511/"
+    },
+    "prepTime": 60,
+    "cookTime": 70,
+    "servings": 10,
+    "difficulty": "Difficile",
+    "category": "Secondi",
+    "tags": [
+      "poisson",
+      "fruits-de-mer",
+      "plat-principal",
+      "français",
+      "méditerranéen",
+      "mijoté",
+      "chaud",
+      "festif",
+      "convivial",
+      "à-partager",
+      "nostalgique",
+      "recette-de-famille"
+    ],
+    "origin": "amelie-grandpa",
+    "translations": {
+      "en": {
+        "title": "Bouillabaisse",
+        "description": "The great Provençal fish soup: rockfish cooked in a saffron broth, served with rouille, croutons and grated cheese.",
+        "tags": [
+          "fish",
+          "seafood",
+          "main-course",
+          "french",
+          "mediterranean",
+          "simmered",
+          "hot",
+          "festive",
+          "convivial",
+          "to-share",
+          "nostalgic",
+          "family-recipe"
+        ]
+      },
+      "it": {
+        "title": "Bouillabaisse",
+        "description": "La grande zuppa di pesce provenzale: pesci di scoglio cotti in un brodo allo zafferano, serviti con rouille, crostini e formaggio grattugiato.",
+        "tags": [
+          "pesce",
+          "frutti-di-mare",
+          "piatto-principale",
+          "francese",
+          "mediterraneo",
+          "cotto-a-fuoco-lento",
+          "caldo",
+          "festivo",
+          "conviviale",
+          "da-condividere",
+          "nostalgico",
+          "ricetta-di-famiglia"
+        ]
+      }
+    },
+    "stepCount": 16,
+    "ingredientCount": 30
+  },
+  {
+    "slug": "calderade-de-poisson",
+    "title": "La calderade de poisson",
+    "description": "Un gratin de poisson en couches : pommes de terre sautées, oignons, poivrons et tomates relevés au cumin et à la harissa, mouillé au fumet puis gratiné.",
+    "images": {
+      "cover": "images/recipes/calderade-de-poisson/cover.svg",
+      "web": "images/recipes/calderade-de-poisson/cover.svg"
+    },
+    "prepTime": 40,
+    "cookTime": 45,
+    "servings": 10,
+    "difficulty": "Medio",
+    "category": "Secondi",
+    "tags": [
+      "poisson",
+      "plat-principal",
+      "français",
+      "méditerranéen",
+      "four",
+      "épicé",
+      "chaud",
+      "convivial",
+      "à-partager",
+      "toute-la-famille",
+      "nostalgique",
+      "recette-de-famille"
+    ],
+    "origin": "amelie-grandpa",
+    "translations": {
+      "en": {
+        "title": "Fish calderade",
+        "description": "A layered fish gratin: sautéed potatoes, onions, peppers and tomatoes spiced with cumin and harissa, moistened with fish stock, then browned under a cheese crust.",
+        "tags": [
+          "fish",
+          "main-course",
+          "french",
+          "mediterranean",
+          "oven",
+          "spicy",
+          "hot",
+          "convivial",
+          "sharing",
+          "whole-family",
+          "nostalgic",
+          "family-recipe"
+        ]
+      },
+      "it": {
+        "title": "Calderade di pesce",
+        "description": "Un gratin di pesce a strati: patate saltate, cipolle, peperoni e pomodori insaporiti con cumino e harissa, bagnato con il fumetto e poi gratinato.",
+        "tags": [
+          "pesce",
+          "secondo-piatto",
+          "francese",
+          "mediterraneo",
+          "forno",
+          "speziato",
+          "caldo",
+          "conviviale",
+          "da-condividere",
+          "tutta-la-famiglia",
+          "nostalgico",
+          "ricetta-di-famiglia"
+        ]
+      }
+    },
+    "stepCount": 8,
+    "ingredientCount": 12
+  },
+  {
+    "slug": "marmite-du-pecheur",
+    "title": "La marmite du pêcheur",
+    "description": "Lotte, loup, mulet, rouget, moules et crevettes servis en petites terrines, nappés d'une garniture de poireaux, fenouil et tomates au fumet safrané.",
+    "images": {
+      "cover": "images/recipes/marmite-du-pecheur/cover.svg",
+      "web": "images/recipes/marmite-du-pecheur/cover.svg"
+    },
+    "prepTime": 60,
+    "cookTime": 60,
+    "servings": 8,
+    "difficulty": "Difficile",
+    "category": "Secondi",
+    "tags": [
+      "poisson",
+      "fruits-de-mer",
+      "plat-principal",
+      "français",
+      "nostalgique",
+      "recette-de-famille",
+      "mijoté",
+      "festif",
+      "convivial",
+      "chaud"
+    ],
+    "origin": "amelie-grandpa",
+    "translations": {
+      "en": {
+        "title": "Fisherman's Pot",
+        "description": "Monkfish, sea bass, grey mullet, red mullet, mussels and prawns served in small terrines, coated with a leek, fennel and tomato garnish in a saffron fish stock.",
+        "tags": [
+          "fish",
+          "seafood",
+          "main-course",
+          "french",
+          "nostalgic",
+          "family-recipe",
+          "slow-cooked",
+          "festive",
+          "convivial",
+          "hot"
+        ]
+      },
+      "it": {
+        "title": "Pentola del pescatore",
+        "description": "Rana pescatrice, spigola, cefalo, triglia, cozze e gamberi serviti in piccole terrine, nappati con una guarnizione di porri, finocchio e pomodori nel fumetto allo zafferano.",
+        "tags": [
+          "pesce",
+          "frutti-di-mare",
+          "piatto-principale",
+          "francese",
+          "nostalgico",
+          "ricetta-di-famiglia",
+          "stufato",
+          "festivo",
+          "conviviale",
+          "caldo"
+        ]
+      }
+    },
+    "stepCount": 6,
+    "ingredientCount": 17
+  },
+  {
+    "slug": "mariniere-de-saumon-aux-primeurs",
+    "title": "Marinière de saumon aux primeurs",
+    "description": "Dés de saumon cuits à la vapeur, moules et petits légumes nappés d'une sauce au jus de moules, à la crème et au beurre.",
+    "images": {
+      "cover": "images/recipes/mariniere-de-saumon-aux-primeurs/cover.webp",
+      "web": "images/recipes/mariniere-de-saumon-aux-primeurs/web.webp"
+    },
+    "imageCredit": {
+      "author": "YEES",
+      "url": "https://pixabay.com/users/yees-1505805/"
+    },
+    "prepTime": 45,
+    "cookTime": 30,
+    "servings": 8,
+    "difficulty": "Medio",
+    "category": "Secondi",
+    "tags": [
+      "saumon",
+      "poisson",
+      "moules",
+      "légumes",
+      "vapeur",
+      "plat-principal",
+      "printemps",
+      "chaud",
+      "onctueux",
+      "festif",
+      "préparation-à-lavance",
+      "français",
+      "nostalgique",
+      "recette-de-famille"
+    ],
+    "origin": "amelie-grandpa",
+    "translations": {
+      "en": {
+        "title": "Salmon marinière with spring vegetables",
+        "description": "Steamed diced salmon, mussels and baby vegetables coated in a sauce made with the mussel juice, cream and butter.",
+        "tags": [
+          "salmon",
+          "fish",
+          "mussels",
+          "vegetables",
+          "steamed",
+          "main-course",
+          "spring",
+          "hot",
+          "creamy",
+          "festive",
+          "make-ahead",
+          "french",
+          "nostalgic",
+          "family-recipe"
+        ]
+      },
+      "it": {
+        "title": "Marinière di salmone con verdure primaverili",
+        "description": "Dadini di salmone cotti al vapore, cozze e verdurine nappati con una salsa al sugo di cozze, panna e burro.",
+        "tags": [
+          "salmone",
+          "pesce",
+          "cozze",
+          "verdure",
+          "al-vapore",
+          "piatto-principale",
+          "primavera",
+          "caldo",
+          "cremoso",
+          "festivo",
+          "da-preparare-in-anticipo",
+          "francese",
+          "nostalgico",
+          "ricetta-di-famiglia"
+        ]
+      }
+    },
+    "stepCount": 10,
+    "ingredientCount": 12
+  },
+  {
+    "slug": "mousse-de-poisson",
+    "title": "Mousse de poisson",
+    "description": "Une mousse de merlan à l'aneth, garnie de crevettes et de coques, cuite au bain-marie en terrine chemisée de saumon ou en ramequins.",
+    "images": {
+      "cover": "images/recipes/mousse-de-poisson/cover.svg",
+      "web": "images/recipes/mousse-de-poisson/cover.svg"
+    },
+    "prepTime": 40,
+    "cookTime": 45,
+    "servings": 8,
+    "difficulty": "Medio",
+    "category": "Secondi",
+    "tags": [
+      "poisson",
+      "fruits-de-mer",
+      "bain-marie",
+      "français",
+      "plat-principal",
+      "froid",
+      "chaud",
+      "festif",
+      "buffet",
+      "nostalgique",
+      "recette-de-famille"
+    ],
+    "origin": "amelie-grandpa",
+    "translations": {
+      "en": {
+        "title": "Fish mousse",
+        "description": "A whiting mousse with dill, filled with prawns and cockles, cooked in a bain-marie in a salmon-lined terrine or in ramekins.",
+        "tags": [
+          "fish",
+          "seafood",
+          "bain-marie",
+          "french",
+          "main-course",
+          "cold",
+          "hot",
+          "festive",
+          "buffet",
+          "nostalgic",
+          "family-recipe"
+        ]
+      },
+      "it": {
+        "title": "Mousse di pesce",
+        "description": "Una mousse di merlano all'aneto, arricchita con gamberi e cuori di mare, cotta a bagnomaria in una terrina foderata di salmone o in pirottini.",
+        "tags": [
+          "pesce",
+          "frutti-di-mare",
+          "bagnomaria",
+          "francese",
+          "piatto-principale",
+          "freddo",
+          "caldo",
+          "festivo",
+          "buffet",
+          "nostalgico",
+          "ricetta-di-famiglia"
+        ]
+      }
+    },
+    "stepCount": 9,
+    "ingredientCount": 8
+  },
+  {
+    "slug": "paupiette-de-sole-farcie-aux-crevettes",
+    "title": "Paupiette de sole farcie aux crevettes",
+    "description": "Filets de sole roulés sur une farce de merlan aux crevettes, pochés dans un fumet corsé et nappés d'une sauce à la crème.",
+    "images": {
+      "cover": "images/recipes/paupiette-de-sole-farcie-aux-crevettes/cover.svg",
+      "web": "images/recipes/paupiette-de-sole-farcie-aux-crevettes/cover.svg"
+    },
+    "prepTime": 60,
+    "cookTime": 55,
+    "servings": 10,
+    "difficulty": "Difficile",
+    "category": "Secondi",
+    "tags": [
+      "poisson",
+      "fruits-de-mer",
+      "plat-principal",
+      "four",
+      "français",
+      "nostalgique",
+      "recette-de-famille",
+      "festif",
+      "gourmand",
+      "onctueux",
+      "chaud"
+    ],
+    "origin": "amelie-grandpa",
+    "translations": {
+      "en": {
+        "title": "Sole paupiettes stuffed with prawns",
+        "description": "Sole fillets rolled around a whiting and prawn stuffing, poached in a rich fish stock and coated with a cream sauce.",
+        "tags": [
+          "fish",
+          "seafood",
+          "main-course",
+          "oven",
+          "french",
+          "nostalgic",
+          "family-recipe",
+          "festive",
+          "indulgent",
+          "creamy",
+          "hot"
+        ]
+      },
+      "it": {
+        "title": "Involtini di sogliola ripieni di gamberi",
+        "description": "Filetti di sogliola arrotolati su un ripieno di merlano e gamberi, cotti in camicia in un fumetto corposo e nappati con una salsa alla panna.",
+        "tags": [
+          "pesce",
+          "frutti-di-mare",
+          "secondo-piatto",
+          "forno",
+          "francese",
+          "nostalgico",
+          "ricetta-di-famiglia",
+          "festivo",
+          "goloso",
+          "cremoso",
+          "caldo"
+        ]
+      }
+    },
+    "stepCount": 13,
+    "ingredientCount": 21
+  },
+  {
+    "slug": "saumon-marine",
+    "title": "Saumon mariné",
+    "description": "Fines tranches de saumon cru marinées 2 à 3 jours au citron, à l'aneth et à l'huile d'olive, servies sur toast grillé et beurré.",
+    "images": {
+      "cover": "images/recipes/saumon-marine/cover.webp",
+      "web": "images/recipes/saumon-marine/web.webp"
+    },
+    "imageCredit": {
+      "author": "eak_kkk",
+      "url": "https://pixabay.com/users/eak_kkk-907811/"
+    },
+    "prepTime": 30,
+    "cookTime": 0,
+    "servings": 8,
+    "difficulty": "Facile",
+    "category": "Secondi",
+    "tags": [
+      "saumon",
+      "poisson",
+      "plat-principal",
+      "cru",
+      "no-cuisson",
+      "froid",
+      "acidulé",
+      "herbacé",
+      "préparation-à-lavance",
+      "facile",
+      "français",
+      "nostalgique",
+      "recette-de-famille"
+    ],
+    "origin": "amelie-grandpa",
+    "translations": {
+      "en": {
+        "title": "Marinated salmon",
+        "description": "Thin slices of raw salmon marinated for 2 to 3 days in lemon, dill and olive oil, served on buttered toast.",
+        "tags": [
+          "salmon",
+          "fish",
+          "main-course",
+          "raw",
+          "no-cook",
+          "cold",
+          "tangy",
+          "herby",
+          "make-ahead",
+          "easy",
+          "french",
+          "nostalgic",
+          "family-recipe"
+        ]
+      },
+      "it": {
+        "title": "Salmone marinato",
+        "description": "Fettine sottili di salmone crudo marinate 2 o 3 giorni con limone, aneto e olio d'oliva, servite su pane tostato e imburrato.",
+        "tags": [
+          "salmone",
+          "pesce",
+          "piatto-principale",
+          "crudo",
+          "senza-cottura",
+          "freddo",
+          "acidulo",
+          "erbaceo",
+          "preparazione-anticipata",
+          "facile",
+          "francese",
+          "nostalgico",
+          "ricetta-di-famiglia"
+        ]
+      }
+    },
+    "stepCount": 6,
+    "ingredientCount": 4
+  },
+  {
+    "slug": "tagliatelles-aux-moules",
+    "title": "Tagliatelles aux moules",
+    "description": "Des tagliatelles fraîches au beurre, servies avec des moules nappées d'une sauce crémée au vin blanc, à l'échalote et à l'ail.",
+    "images": {
+      "cover": "images/recipes/tagliatelles-aux-moules/cover.svg",
+      "web": "images/recipes/tagliatelles-aux-moules/cover.svg"
+    },
+    "prepTime": 30,
+    "cookTime": 20,
+    "servings": 8,
+    "difficulty": "Medio",
+    "category": "Pasta",
+    "tags": [
+      "moules",
+      "fruits-de-mer",
+      "pâtes",
+      "plat-principal",
+      "français",
+      "chaud",
+      "onctueux",
+      "convivial",
+      "nostalgique",
+      "recette-de-famille"
+    ],
+    "origin": "amelie-grandpa",
+    "translations": {
+      "en": {
+        "title": "Tagliatelle with mussels",
+        "description": "Fresh buttered tagliatelle served with mussels coated in a creamy white wine, shallot and garlic sauce.",
+        "tags": [
+          "mussels",
+          "seafood",
+          "pasta",
+          "main-course",
+          "french",
+          "hot",
+          "creamy",
+          "convivial",
+          "nostalgic",
+          "family-recipe"
+        ]
+      },
+      "it": {
+        "title": "Tagliatelle alle cozze",
+        "description": "Tagliatelle fresche al burro, servite con cozze nappate da una salsa cremosa al vino bianco, scalogno e aglio.",
+        "tags": [
+          "cozze",
+          "frutti-di-mare",
+          "pasta",
+          "piatto-principale",
+          "francese",
+          "caldo",
+          "cremoso",
+          "conviviale",
+          "nostalgico",
+          "ricetta-di-famiglia"
+        ]
+      }
+    },
+    "stepCount": 9,
+    "ingredientCount": 11
+  },
+  {
+    "slug": "terrine-aux-crevettes-et-poivrons-verts",
+    "title": "Terrine aux crevettes et poivrons verts",
+    "description": "Une farce fine de merlan relevée à la harissa, garnie de crevettes et de poivrons verts, pochée au bain-marie et servie froide ou chaude.",
+    "images": {
+      "cover": "images/recipes/terrine-aux-crevettes-et-poivrons-verts/cover.svg",
+      "web": "images/recipes/terrine-aux-crevettes-et-poivrons-verts/cover.svg"
+    },
+    "prepTime": 45,
+    "cookTime": 60,
+    "servings": 8,
+    "difficulty": "Medio",
+    "category": "Secondi",
+    "tags": [
+      "poisson",
+      "fruits-de-mer",
+      "bain-marie",
+      "plat-principal",
+      "froid",
+      "chaud",
+      "épicé",
+      "festif",
+      "préparation-à-lavance",
+      "français",
+      "nostalgique",
+      "recette-de-famille"
+    ],
+    "origin": "amelie-grandpa",
+    "translations": {
+      "en": {
+        "title": "Prawn and Green Pepper Terrine",
+        "description": "A fine whiting forcemeat spiced with harissa, studded with prawns and green peppers, poached in a bain-marie and served cold or hot.",
+        "tags": [
+          "fish",
+          "seafood",
+          "bain-marie",
+          "main-course",
+          "cold",
+          "hot",
+          "spiced",
+          "festive",
+          "make-ahead",
+          "french",
+          "nostalgic",
+          "family-recipe"
+        ]
+      },
+      "it": {
+        "title": "Terrina di gamberi e peperoni verdi",
+        "description": "Una fine farcia di merlano insaporita con harissa, arricchita di gamberi e peperoni verdi, cotta a bagnomaria e servita fredda o calda.",
+        "tags": [
+          "pesce",
+          "frutti-di-mare",
+          "bagnomaria",
+          "piatto-principale",
+          "freddo",
+          "caldo",
+          "speziato",
+          "festivo",
+          "preparazione-anticipata",
+          "francese",
+          "nostalgico",
+          "ricetta-di-famiglia"
+        ]
+      }
+    },
+    "stepCount": 9,
+    "ingredientCount": 10
+  },
+  {
+    "slug": "terrines-et-mousse-de-poisson",
+    "title": "Terrines et mousse de poisson",
+    "description": "Une mousse de merlan garnie de Saint-Jacques, crevettes, coques et moules, montée en terrine avec des aiguillettes de saumon ou cuite en ramequins.",
+    "images": {
+      "cover": "images/recipes/terrines-et-mousse-de-poisson/cover.svg",
+      "web": "images/recipes/terrines-et-mousse-de-poisson/cover.svg"
+    },
+    "prepTime": 90,
+    "cookTime": 40,
+    "servings": 8,
+    "difficulty": "Medio",
+    "category": "Secondi",
+    "tags": [
+      "poisson",
+      "fruits-de-mer",
+      "bain-marie",
+      "entrée",
+      "plat-principal",
+      "festif",
+      "buffet",
+      "préparation-à-lavance",
+      "français",
+      "nostalgique",
+      "recette-de-famille"
+    ],
+    "origin": "amelie-grandpa",
+    "translations": {
+      "en": {
+        "title": "Fish terrines and mousse",
+        "description": "A whiting mousse filled with scallops, shrimp, cockles and mussels, layered in a terrine with strips of salmon or baked in ramekins.",
+        "tags": [
+          "fish",
+          "seafood",
+          "bain-marie",
+          "starter",
+          "main-course",
+          "festive",
+          "buffet",
+          "make-ahead",
+          "french",
+          "nostalgic",
+          "family-recipe"
+        ]
+      },
+      "it": {
+        "title": "Terrine e mousse di pesce",
+        "description": "Una mousse di merlano farcita con capesante, gamberetti, cuori eduli e cozze, montata in terrina con listarelle di salmone o cotta in pirottini.",
+        "tags": [
+          "pesce",
+          "frutti-di-mare",
+          "bagnomaria",
+          "antipasto",
+          "secondo-piatto",
+          "festivo",
+          "buffet",
+          "da-preparare-in-anticipo",
+          "francese",
+          "nostalgico",
+          "ricetta-di-famiglia"
+        ]
+      }
+    },
+    "stepCount": 10,
+    "ingredientCount": 11
+  },
+  {
+    "slug": "timbale-de-fruits-de-mer",
+    "title": "Timbale de fruits de mer",
+    "description": "Lotte, Saint-Jacques, moules, coques, crevettes et quenelles de brochet liées d'une sauce veloutée à la crème, servies en légumier ou en croûte feuilletée.",
+    "images": {
+      "cover": "images/recipes/timbale-de-fruits-de-mer/cover.svg",
+      "web": "images/recipes/timbale-de-fruits-de-mer/cover.svg"
+    },
+    "prepTime": 45,
+    "cookTime": 60,
+    "servings": 8,
+    "difficulty": "Medio",
+    "category": "Secondi",
+    "tags": [
+      "fruits-de-mer",
+      "poisson",
+      "plat-principal",
+      "français",
+      "chaud",
+      "festif",
+      "noël",
+      "onctueux",
+      "gourmand",
+      "nostalgique",
+      "recette-de-famille"
+    ],
+    "origin": "amelie-grandpa",
+    "translations": {
+      "en": {
+        "title": "Seafood timbale",
+        "description": "Monkfish, scallops, mussels, cockles, prawns and pike quenelles bound in a creamy velouté sauce, served in a vegetable dish or a puff pastry case.",
+        "tags": [
+          "seafood",
+          "fish",
+          "main-course",
+          "french",
+          "hot",
+          "festive",
+          "christmas",
+          "creamy",
+          "indulgent",
+          "nostalgic",
+          "family-recipe"
+        ]
+      },
+      "it": {
+        "title": "Timballo di frutti di mare",
+        "description": "Rana pescatrice, capesante, cozze, vongole, gamberetti e quenelle di luccio legati da una salsa vellutata alla panna, serviti in una legumiera o in un guscio di pasta sfoglia.",
+        "tags": [
+          "frutti-di-mare",
+          "pesce",
+          "piatto-principale",
+          "francese",
+          "caldo",
+          "festivo",
+          "natale",
+          "cremoso",
+          "goloso",
+          "nostalgico",
+          "ricetta-di-famiglia"
+        ]
+      }
+    },
+    "stepCount": 13,
+    "ingredientCount": 18
+  },
+  {
+    "slug": "tourte-cherbourgeoise",
+    "title": "Tourte cherbourgeoise",
+    "description": "Une tourte normande sur pâte brisée : coquilles Saint-Jacques flambées, champignons crus et crème au corail, parfumée au Cognac ou au Calvados.",
+    "images": {
+      "cover": "images/recipes/tourte-cherbourgeoise/cover.svg",
+      "web": "images/recipes/tourte-cherbourgeoise/cover.svg"
+    },
+    "prepTime": 40,
+    "cookTime": 35,
+    "servings": 8,
+    "difficulty": "Medio",
+    "category": "Secondi",
+    "tags": [
+      "fruits-de-mer",
+      "saint-jacques",
+      "tourte",
+      "français",
+      "nostalgique",
+      "recette-de-famille",
+      "plat-principal",
+      "four",
+      "chaud",
+      "festif",
+      "gourmand",
+      "onctueux"
+    ],
+    "origin": "amelie-grandpa",
+    "translations": {
+      "en": {
+        "title": "Cherbourg Scallop Pie",
+        "description": "A Normandy pie on shortcrust pastry: flambéed scallops, raw mushrooms and coral cream, flavoured with Cognac or Calvados.",
+        "tags": [
+          "seafood",
+          "scallops",
+          "pie",
+          "french",
+          "nostalgic",
+          "family-recipe",
+          "main-course",
+          "oven",
+          "hot",
+          "festive",
+          "indulgent",
+          "creamy"
+        ]
+      },
+      "it": {
+        "title": "Torta salata di capesante alla Cherbourg",
+        "description": "Una torta salata normanna su pasta brisée: capesante fiammeggiate, funghi crudi e crema al corallo, profumata al Cognac o al Calvados.",
+        "tags": [
+          "frutti-di-mare",
+          "capesante",
+          "torta-salata",
+          "francese",
+          "nostalgico",
+          "ricetta-di-famiglia",
+          "secondo-piatto",
+          "forno",
+          "caldo",
+          "festivo",
+          "goloso",
+          "cremoso"
+        ]
+      }
+    },
+    "stepCount": 10,
+    "ingredientCount": 18
   }
 ]

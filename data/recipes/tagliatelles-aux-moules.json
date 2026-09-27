@@ -1,0 +1,220 @@
+{
+  "slug": "tagliatelles-aux-moules",
+  "title": "Tagliatelles aux moules",
+  "description": "Des tagliatelles fraîches au beurre, servies avec des moules nappées d'une sauce crémée au vin blanc, à l'échalote et à l'ail.",
+  "images": {
+    "cover": "images/recipes/tagliatelles-aux-moules/cover.svg",
+    "web": "images/recipes/tagliatelles-aux-moules/cover.svg"
+  },
+  "prepTime": 30,
+  "cookTime": 20,
+  "servings": 8,
+  "difficulty": "Medio",
+  "category": "Pasta",
+  "origin": "amelie-grandpa",
+  "tags": [
+    "moules",
+    "fruits-de-mer",
+    "pâtes",
+    "plat-principal",
+    "français",
+    "chaud",
+    "onctueux",
+    "convivial",
+    "nostalgique",
+    "recette-de-famille"
+  ],
+  "ingredients": [
+    {
+      "items": [
+        "1,2 kg de moules",
+        "1 dl de vin blanc",
+        "1 dl de crème",
+        "3 x 50 g de beurre",
+        "1 cuillère à potage de Maïzena",
+        "3 échalotes",
+        "3 gousses d'ail",
+        "1 cuillère de persil haché",
+        "½ dl d'huile",
+        "Sel et poivre",
+        "600 g de pâtes fraîches « Tagliatelles »"
+      ]
+    }
+  ],
+  "steps": [
+    {
+      "text": "Ébarber, gratter et laver les moules."
+    },
+    {
+      "text": "Éplucher les échalotes et l'ail, laver, égoutter et hacher le persil."
+    },
+    {
+      "text": "Dans une casserole, mettre 50 g de beurre, faire fondre, ajouter l'échalote, l'ail, le persil et le vin blanc, faire cuire 2 à 3 minutes, mettre les moules et couvrir pour les faire ouvrir pendant quelques minutes.",
+      "timers": [2]
+    },
+    {
+      "text": "Après la cuisson, retirer les moules de leur coque, réserver les moules dans un récipient, passer le jus de cuisson à la passoire fine, laisser reposer quelques minutes et verser le jus doucement dans une casserole en évitant de mettre le fond plein de dépôt ou de sable."
+    },
+    {
+      "text": "Ajouter la crème et porter à ébullition, laisser réduire quelques minutes."
+    },
+    {
+      "text": "Mélanger à la fourchette 50 g de beurre et la Maïzena, ajouter à la cuisson en remuant avec un fouet, remettre les moules dans la sauce et tenir au chaud."
+    },
+    {
+      "text": "Dans un récipient, mettre de l'eau, un peu de gros sel et de l'huile, faire bouillir, verser les pâtes, les remuer pour éviter qu'elles collent, faire cuire quelques minutes."
+    },
+    {
+      "text": "Égoutter les pâtes, remettre dans la casserole, ajouter 50 g de beurre, remuer délicatement en les soulevant."
+    },
+    {
+      "text": "Dressage : servir les pâtes dans un plat et les moules à part."
+    }
+  ],
+  "tips": [
+    "Ajouter du gruyère râpé sur les pâtes si besoin."
+  ],
+  "source": "Les recettes de Maurice Houdré, tome 2, Les poissons et crustacés",
+  "originalSource": {
+    "type": "text",
+    "data": "Tagliatelles aux moules\n\nIngrédients : pour 8 personnes\n\n. 1,2 kg de moules\n. 1 dl de vin blanc\n. 1 dl de crème\n. 3 x 50 g de beurre\n. 1 cuillère à potage de Maïzena\n. 3 échalotes\n. 3 gousses d’ail\n. 1 cuillère de persil haché\n. ½ dl d’huile\n. sel et poivre\n. 600 g de pâtes fraîches « Tagliatelles »\n\nEbarder, gratter et laver les moules.\nEplucher les échalotes et l’ail, laver, égoutter et hacher le persil.\n\nDans une casserole, mettre 50 g de beurre, faire fondre, ajouter l’échalote, l’ail, le persil et le vin blanc, faire cuire 2 à 3 minutes, mettre les moules et couvrir pour les faire ouvrir pendant quelques minutes.\nAprès la cuisson, retirer les moules de leur coque, réserver les moules dans un récipient, passer le jus de cuisson à la passoire fine, laisser reposer quelques minutes et verser le jus doucement dans une casserole en évitant de mettre le fond plein de dépôt ou de sable.\nAjouter la crème et porter à ébullition, laisser réduire quelques minutes.\nMélanger à la fourchette, 50 g de beurre et la Maïzena, ajouter à la cuisson en remuant avec un fouet, remettre les moules dans la sauce et tenir au chaud.\nDans un récipient, mettre de l’eau, un peu de gros sel et de l’huile, faire bouillir, verser les pâtes, remuer les pour éviter qu’elles collent, faire cuire quelques minutes.\nEgoutter les pâtes, remettre dans la casserole, ajouter 50 g de beurre, remuer délicatement en les soulevant.\n\nDressage :\nServir les pâtes dans un plat et les moules à part. \nAjouter du gruyère râpé sur les pâtes si besoin.\n"
+  },
+  "related": [
+    "quiche-aux-moules-et-champignons",
+    "mariniere-de-saumon-aux-primeurs",
+    "fricassee-de-lotte-aux-pates-fraiches",
+    "couscous-de-poissons-et-fruits-de-mer"
+  ],
+  "translations": {
+    "en": {
+      "title": "Tagliatelle with mussels",
+      "description": "Fresh buttered tagliatelle served with mussels coated in a creamy white wine, shallot and garlic sauce.",
+      "tags": [
+        "mussels",
+        "seafood",
+        "pasta",
+        "main-course",
+        "french",
+        "hot",
+        "creamy",
+        "convivial",
+        "nostalgic",
+        "family-recipe"
+      ],
+      "ingredients": [
+        {
+          "items": [
+            "1.2 kg mussels",
+            "1 dl white wine",
+            "1 dl cream",
+            "3 x 50 g butter",
+            "1 tablespoon cornflour (Maïzena)",
+            "3 shallots",
+            "3 garlic cloves",
+            "1 spoonful chopped parsley",
+            "½ dl oil",
+            "Salt and pepper",
+            "600 g fresh tagliatelle pasta"
+          ]
+        }
+      ],
+      "steps": [
+        {
+          "text": "Debeard, scrape and wash the mussels."
+        },
+        {
+          "text": "Peel the shallots and garlic; wash, drain and chop the parsley."
+        },
+        {
+          "text": "In a saucepan, melt 50 g of butter, add the shallot, garlic, parsley and white wine, cook for 2 to 3 minutes, add the mussels and cover to let them open for a few minutes."
+        },
+        {
+          "text": "Once cooked, remove the mussels from their shells and set them aside in a bowl. Strain the cooking liquid through a fine sieve, let it rest for a few minutes, then pour it gently into a saucepan, leaving behind the bottom full of sediment or sand."
+        },
+        {
+          "text": "Add the cream, bring to the boil and let it reduce for a few minutes."
+        },
+        {
+          "text": "Mash 50 g of butter with the cornflour using a fork, add it to the sauce while stirring with a whisk, return the mussels to the sauce and keep warm."
+        },
+        {
+          "text": "Fill a pot with water, a little coarse salt and some oil, bring to the boil, add the pasta, stir so it does not stick, and cook for a few minutes."
+        },
+        {
+          "text": "Drain the pasta, return it to the pot, add 50 g of butter and toss gently, lifting the pasta."
+        },
+        {
+          "text": "Plating: serve the pasta in a dish and the mussels separately."
+        }
+      ],
+      "tips": [
+        "Add grated Gruyère on the pasta if desired."
+      ]
+    },
+    "it": {
+      "title": "Tagliatelle alle cozze",
+      "description": "Tagliatelle fresche al burro, servite con cozze nappate da una salsa cremosa al vino bianco, scalogno e aglio.",
+      "tags": [
+        "cozze",
+        "frutti-di-mare",
+        "pasta",
+        "piatto-principale",
+        "francese",
+        "caldo",
+        "cremoso",
+        "conviviale",
+        "nostalgico",
+        "ricetta-di-famiglia"
+      ],
+      "ingredients": [
+        {
+          "items": [
+            "1,2 kg di cozze",
+            "1 dl di vino bianco",
+            "1 dl di panna",
+            "3 x 50 g di burro",
+            "1 cucchiaio di amido di mais (Maïzena)",
+            "3 scalogni",
+            "3 spicchi d'aglio",
+            "1 cucchiaio di prezzemolo tritato",
+            "½ dl di olio",
+            "Sale e pepe",
+            "600 g di tagliatelle fresche"
+          ]
+        }
+      ],
+      "steps": [
+        {
+          "text": "Togliere il bisso, raschiare e lavare le cozze."
+        },
+        {
+          "text": "Sbucciare gli scalogni e l'aglio; lavare, sgocciolare e tritare il prezzemolo."
+        },
+        {
+          "text": "In una casseruola, far fondere 50 g di burro, aggiungere lo scalogno, l'aglio, il prezzemolo e il vino bianco, cuocere 2-3 minuti, unire le cozze e coprire per farle aprire per qualche minuto."
+        },
+        {
+          "text": "Dopo la cottura, sgusciare le cozze e tenerle da parte in un recipiente. Filtrare il liquido di cottura con un colino fine, lasciarlo riposare qualche minuto e versarlo delicatamente in una casseruola, evitando di versare il fondo pieno di residui o di sabbia."
+        },
+        {
+          "text": "Aggiungere la panna, portare a ebollizione e lasciar ridurre per qualche minuto."
+        },
+        {
+          "text": "Lavorare con una forchetta 50 g di burro con l'amido di mais, aggiungerlo alla salsa mescolando con una frusta, rimettere le cozze nella salsa e tenere in caldo."
+        },
+        {
+          "text": "In una pentola mettere acqua, un po' di sale grosso e un filo d'olio, portare a ebollizione, versare la pasta, mescolarla perché non si attacchi e cuocere qualche minuto."
+        },
+        {
+          "text": "Scolare la pasta, rimetterla nella pentola, aggiungere 50 g di burro e mescolare delicatamente sollevandola."
+        },
+        {
+          "text": "Impiattamento: servire la pasta in un piatto e le cozze a parte."
+        }
+      ],
+      "tips": [
+        "Aggiungere groviera grattugiata sulla pasta se si desidera."
+      ]
+    }
+  }
+}

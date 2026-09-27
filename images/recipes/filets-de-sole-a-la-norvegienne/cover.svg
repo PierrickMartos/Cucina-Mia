@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <defs>
+    <radialGradient id="snbg" cx="50%" cy="45%" r="70%"><stop offset="0%" stop-color="#2e2822"/><stop offset="100%" stop-color="#1a1510"/></radialGradient>
+    <radialGradient id="snplat" cx="50%" cy="40%" r="60%"><stop offset="0%" stop-color="#f4f0e8"/><stop offset="100%" stop-color="#b4aca0"/></radialGradient>
+    <radialGradient id="snmed" cx="50%" cy="45%" r="55%"><stop offset="0%" stop-color="#f6ecd8"/><stop offset="100%" stop-color="#e2d2b4"/></radialGradient>
+    <radialGradient id="sncuc" cx="50%" cy="40%" r="60%"><stop offset="0%" stop-color="#f2f0dc"/><stop offset="100%" stop-color="#d4d6b0"/></radialGradient>
+  </defs>
+  <rect width="800" height="600" fill="url(#snbg)"/>
+  <g opacity="0.12" fill="#8ab070"><path d="M70,480 q30,-40 60,0 q-30,-10 -60,0Z"/><path d="M690,110 q30,-40 60,0 q-30,-10 -60,0Z"/></g>
+  <ellipse cx="400" cy="440" rx="330" ry="60" fill="#000" opacity="0.35"/>
+  <ellipse cx="400" cy="320" rx="320" ry="150" fill="url(#snplat)"/>
+  <ellipse cx="400" cy="314" rx="290" ry="128" fill="#f2ede4"/>
+  <ellipse cx="400" cy="314" rx="120" ry="52" fill="url(#sncuc)"/>
+  <g fill="#9ab86a" opacity="0.9"><ellipse cx="360" cy="305" rx="16" ry="7"/><ellipse cx="400" cy="320" rx="16" ry="7"/><ellipse cx="440" cy="306" rx="16" ry="7"/><ellipse cx="380" cy="330" rx="15" ry="6"/><ellipse cx="425" cy="332" rx="15" ry="6"/></g>
+  <g fill="#e8ecd0"><ellipse cx="360" cy="305" rx="11" ry="4"/><ellipse cx="400" cy="320" rx="11" ry="4"/><ellipse cx="440" cy="306" rx="11" ry="4"/></g>
+  <g stroke="#3a7a2a" stroke-width="1.5" fill="none"><path d="M390,300 l-6,-8 m6,8 l6,-9 m-6,9 l0,-10"/><path d="M420,322 l-6,-8 m6,8 l6,-9"/></g>
+  <defs><g id="snm">
+    <ellipse cx="0" cy="4" rx="44" ry="24" fill="#b8a888"/>
+    <ellipse cx="0" cy="0" rx="44" ry="24" fill="url(#snmed)"/>
+    <path d="M0,0 m-4,0 a4,3 0 1,1 8,0 a10,7 0 1,1 -18,0 a16,11 0 1,1 30,0 a22,15 0 1,1 -42,0" fill="none" stroke="#f08a70" stroke-width="5"/>
+    <path d="M0,0 m-8,0 a14,9 0 1,1 26,0 a20,13 0 1,1 -38,0" fill="none" stroke="#f2e6cc" stroke-width="2.5" opacity="0.9"/>
+    <ellipse cx="-14" cy="-8" rx="10" ry="4" fill="#fff" opacity="0.4"/>
+  </g></defs>
+  <use href="#snm" x="400" y="210"/>
+  <use href="#snm" x="545" y="240"/>
+  <use href="#snm" x="620" y="320"/>
+  <use href="#snm" x="255" y="240"/>
+  <use href="#snm" x="180" y="320"/>
+  <use href="#snm" x="250" y="395"/>
+  <use href="#snm" x="400" y="420"/>
+  <use href="#snm" x="550" y="395"/>
+  <g transform="translate(680 470)">
+    <ellipse cx="0" cy="26" rx="60" ry="12" fill="#000" opacity="0.3"/>
+    <path d="M-52,0 Q-50,32 0,32 Q50,32 52,0Z" fill="#e8e2d8"/>
+    <ellipse cx="0" cy="0" rx="52" ry="14" fill="#e88a5a"/>
+    <ellipse cx="-10" cy="-3" rx="18" ry="4" fill="#f4b08a" opacity="0.6"/>
+  </g>
+  <g transform="translate(120 470)">
+    <ellipse cx="0" cy="26" rx="60" ry="12" fill="#000" opacity="0.3"/>
+    <path d="M-52,0 Q-50,32 0,32 Q50,32 52,0Z" fill="#e8e2d8"/>
+    <ellipse cx="0" cy="0" rx="52" ry="14" fill="#b8c880"/>
+    <g fill="#4a8a34"><circle cx="-14" cy="-2" r="2.5"/><circle cx="8" cy="2" r="2.5"/><circle cx="20" cy="-3" r="2"/></g>
+  </g>
+</svg>
