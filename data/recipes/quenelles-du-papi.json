@@ -3,8 +3,8 @@
   "title": "Les quenelles",
   "description": "Quenelles de poisson, de volaille ou de viande, liées d'une panade, de blancs d'œufs et de crème, puis pochées.",
   "images": {
-    "cover": "images/recipes/quenelles-du-papi/cover.svg",
-    "web": "images/recipes/quenelles-du-papi/cover.svg"
+    "cover": "images/recipes/quenelles-du-papi/cover.webp",
+    "web": "images/recipes/quenelles-du-papi/web.webp"
   },
   "prepTime": 40,
   "cookTime": 20,

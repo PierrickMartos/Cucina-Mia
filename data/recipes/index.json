@@ -7811,8 +7811,8 @@
     "title": "Timbale d'épinards",
     "description": "Des épinards hachés et desséchés au beurre, liés à la crème et aux œufs, puis cuits au bain-marie dans un moule beurré.",
     "images": {
-      "cover": "images/recipes/timbale-d-epinards/cover.svg",
-      "web": "images/recipes/timbale-d-epinards/cover.svg"
+      "cover": "images/recipes/timbale-d-epinards/cover.webp",
+      "web": "images/recipes/timbale-d-epinards/web.webp"
     },
     "prepTime": 20,
     "cookTime": 40,
@@ -8382,8 +8382,8 @@
     "title": "Confiture d'oignons et de raisins",
     "description": "Une confiture d'oignons au sucre roux, aux raisins, au miel et à la grenadine, parfaite avec pâtés, terrines, rôtis et gibiers.",
     "images": {
-      "cover": "images/recipes/confiture-d-oignons-et-de-raisins/cover.svg",
-      "web": "images/recipes/confiture-d-oignons-et-de-raisins/cover.svg"
+      "cover": "images/recipes/confiture-d-oignons-et-de-raisins/cover.webp",
+      "web": "images/recipes/confiture-d-oignons-et-de-raisins/web.webp"
     },
     "prepTime": 30,
     "cookTime": 70,
@@ -8530,8 +8530,8 @@
     "title": "Gelée d'agrumes aux zestes confits",
     "description": "Une gelée de pamplemousses roses, citrons et oranges Maltaise, parsemée de zestes hachés et confits dans le sucre.",
     "images": {
-      "cover": "images/recipes/gelee-d-agrumes-aux-zestes-confits/cover.svg",
-      "web": "images/recipes/gelee-d-agrumes-aux-zestes-confits/cover.svg"
+      "cover": "images/recipes/gelee-d-agrumes-aux-zestes-confits/cover.webp",
+      "web": "images/recipes/gelee-d-agrumes-aux-zestes-confits/web.webp"
     },
     "prepTime": 90,
     "cookTime": 115,
@@ -12165,8 +12165,8 @@
     "title": "Dartois savoyard",
     "description": "Une béchamel au gruyère et des tranches de jambon enfermées entre deux abaisses de feuilletage, dorées au four puis détaillées en parts.",
     "images": {
-      "cover": "images/recipes/dartois-savoyard/cover.svg",
-      "web": "images/recipes/dartois-savoyard/cover.svg"
+      "cover": "images/recipes/dartois-savoyard/cover.webp",
+      "web": "images/recipes/dartois-savoyard/web.webp"
     },
     "prepTime": 60,
     "cookTime": 40,
@@ -12584,8 +12584,8 @@
     "title": "Les quenelles",
     "description": "Quenelles de poisson, de volaille ou de viande, liées d'une panade, de blancs d'œufs et de crème, puis pochées.",
     "images": {
-      "cover": "images/recipes/quenelles-du-papi/cover.svg",
-      "web": "images/recipes/quenelles-du-papi/cover.svg"
+      "cover": "images/recipes/quenelles-du-papi/cover.webp",
+      "web": "images/recipes/quenelles-du-papi/web.webp"
     },
     "prepTime": 40,
     "cookTime": 20,
@@ -12788,8 +12788,8 @@
     "title": "Œufs pochés en matelote",
     "description": "Des œufs pochés dans une matelote au vin rouge, servis sur du pain de mie grillé avec de la poitrine fumée et nappés de sauce.",
     "images": {
-      "cover": "images/recipes/oeufs-poches-en-matelote/cover.svg",
-      "web": "images/recipes/oeufs-poches-en-matelote/cover.svg"
+      "cover": "images/recipes/oeufs-poches-en-matelote/cover.webp",
+      "web": "images/recipes/oeufs-poches-en-matelote/web.webp"
     },
     "prepTime": 15,
     "cookTime": 35,
@@ -15974,8 +15974,8 @@
     "title": "Poularde en pot au feu",
     "description": "Une grosse poularde pochée avec ses légumes, découpée et servie avec une sauce crémée au roux blond et un riz pilaf.",
     "images": {
-      "cover": "images/recipes/poularde-en-pot-au-feu/cover.svg",
-      "web": "images/recipes/poularde-en-pot-au-feu/cover.svg"
+      "cover": "images/recipes/poularde-en-pot-au-feu/cover.webp",
+      "web": "images/recipes/poularde-en-pot-au-feu/web.webp"
     },
     "prepTime": 30,
     "cookTime": 85,
@@ -16112,8 +16112,8 @@
     "title": "Râble et cuisses de lapin",
     "description": "Râble et cuisses de lapin mijotés au cidre, nappés d'une sauce à la crème avec petits oignons glacés et pommes sautées au beurre.",
     "images": {
-      "cover": "images/recipes/rable-et-cuisses-de-lapin/cover.svg",
-      "web": "images/recipes/rable-et-cuisses-de-lapin/cover.svg"
+      "cover": "images/recipes/rable-et-cuisses-de-lapin/cover.webp",
+      "web": "images/recipes/rable-et-cuisses-de-lapin/web.webp"
     },
     "prepTime": 25,
     "cookTime": 50,
@@ -16319,8 +16319,8 @@
     "title": "Terrine de lapin aux noisettes et genièvre",
     "description": "Une terrine de lapin et d'échine de porc marinés au vin blanc, relevée de genièvre et de noisettes, avec les filets de lapin au cœur.",
     "images": {
-      "cover": "images/recipes/terrine-de-lapin-aux-noisettes-et-genievre/cover.svg",
-      "web": "images/recipes/terrine-de-lapin-aux-noisettes-et-genievre/cover.svg"
+      "cover": "images/recipes/terrine-de-lapin-aux-noisettes-et-genievre/cover.webp",
+      "web": "images/recipes/terrine-de-lapin-aux-noisettes-et-genievre/web.webp"
     },
     "prepTime": 60,
     "cookTime": 105,
@@ -16388,8 +16388,8 @@
     "title": "Bavarois à la banane",
     "description": "Une purée de bananes au citron vert, liée à une crème anglaise gélifiée et parfumée au rhum ou au cointreau, servie en ramequins.",
     "images": {
-      "cover": "images/recipes/bavarois-a-la-banane/cover.svg",
-      "web": "images/recipes/bavarois-a-la-banane/cover.svg"
+      "cover": "images/recipes/bavarois-a-la-banane/cover.webp",
+      "web": "images/recipes/bavarois-a-la-banane/web.webp"
     },
     "prepTime": 30,
     "cookTime": 15,
@@ -16949,8 +16949,8 @@
     "title": "Crêpes à la pêche et glace",
     "description": "Des crêpes passées dans un sirop alcoolisé, garnies d'une demi-pêche pochée et d'une boule de glace, avec leur variante des pannequets au Kirsch.",
     "images": {
-      "cover": "images/recipes/crepes-a-la-peche-et-glace/cover.svg",
-      "web": "images/recipes/crepes-a-la-peche-et-glace/cover.svg"
+      "cover": "images/recipes/crepes-a-la-peche-et-glace/cover.webp",
+      "web": "images/recipes/crepes-a-la-peche-et-glace/web.webp"
     },
     "prepTime": 30,
     "cookTime": 35,
@@ -17305,8 +17305,8 @@
     "title": "Flan au cacao",
     "description": "Petits flans au cacao noir cuits au bain-marie dans des ramequins, servis avec une sauce au chocolat blanc et au caramel blond.",
     "images": {
-      "cover": "images/recipes/flan-au-cacao/cover.svg",
-      "web": "images/recipes/flan-au-cacao/cover.svg"
+      "cover": "images/recipes/flan-au-cacao/cover.webp",
+      "web": "images/recipes/flan-au-cacao/web.webp"
     },
     "prepTime": 20,
     "cookTime": 20,
@@ -18205,8 +18205,8 @@
     "title": "Pudding aux fruits",
     "description": "Un pudding de biscuits cuillère, raisins et fruits confits macérés au rhum ou au kirsch, cuit au bain-marie et servi froid avec une crème anglaise.",
     "images": {
-      "cover": "images/recipes/pudding-aux-fruits/cover.svg",
-      "web": "images/recipes/pudding-aux-fruits/cover.svg"
+      "cover": "images/recipes/pudding-aux-fruits/cover.webp",
+      "web": "images/recipes/pudding-aux-fruits/web.webp"
     },
     "prepTime": 30,
     "cookTime": 35,
@@ -18406,8 +18406,8 @@
     "title": "Soupe de pêches aux agrumes",
     "description": "Des pêches blanches baignées dans un sirop vanillé aux jus d'orange et de citron, avec une fine julienne de zestes confits. Servie bien fraîche.",
     "images": {
-      "cover": "images/recipes/soupe-de-peches-aux-agrumes/cover.svg",
-      "web": "images/recipes/soupe-de-peches-aux-agrumes/cover.svg"
+      "cover": "images/recipes/soupe-de-peches-aux-agrumes/cover.webp",
+      "web": "images/recipes/soupe-de-peches-aux-agrumes/web.webp"
     },
     "prepTime": 25,
     "cookTime": 15,
@@ -18699,8 +18699,8 @@
     "title": "Biscuit aux pruneaux",
     "description": "Un biscuit moelleux garni de pruneaux macérés dans l'alcool de prune, cuit dans un moule à génoise.",
     "images": {
-      "cover": "images/recipes/biscuit-aux-pruneaux/cover.svg",
-      "web": "images/recipes/biscuit-aux-pruneaux/cover.svg"
+      "cover": "images/recipes/biscuit-aux-pruneaux/cover.webp",
+      "web": "images/recipes/biscuit-aux-pruneaux/web.webp"
     },
     "prepTime": 25,
     "cookTime": 45,
@@ -19477,8 +19477,8 @@
     "title": "Petits biscuits au chocolat",
     "description": "Petits moelleux au chocolat noir amer, garnis de deux carrés de chocolat au cœur, servis tièdes avec une crème anglaise.",
     "images": {
-      "cover": "images/recipes/petits-biscuits-au-chocolat/cover.svg",
-      "web": "images/recipes/petits-biscuits-au-chocolat/cover.svg"
+      "cover": "images/recipes/petits-biscuits-au-chocolat/cover.webp",
+      "web": "images/recipes/petits-biscuits-au-chocolat/web.webp"
     },
     "prepTime": 20,
     "cookTime": 15,
@@ -20709,8 +20709,8 @@
     "title": "Fruits déguisés",
     "description": "Noix, dattes et pruneaux garnis de pâte d'amandes colorée et parfumée, les noix trempées dans un caramel blond : des petits fours de fête.",
     "images": {
-      "cover": "images/recipes/fruits-deguises/cover.svg",
-      "web": "images/recipes/fruits-deguises/cover.svg"
+      "cover": "images/recipes/fruits-deguises/cover.webp",
+      "web": "images/recipes/fruits-deguises/web.webp"
     },
     "prepTime": 60,
     "cookTime": 10,

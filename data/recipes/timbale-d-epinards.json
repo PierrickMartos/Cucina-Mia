@@ -3,8 +3,8 @@
   "title": "Timbale d'épinards",
   "description": "Des épinards hachés et desséchés au beurre, liés à la crème et aux œufs, puis cuits au bain-marie dans un moule beurré.",
   "images": {
-    "cover": "images/recipes/timbale-d-epinards/cover.svg",
-    "web": "images/recipes/timbale-d-epinards/cover.svg"
+    "cover": "images/recipes/timbale-d-epinards/cover.webp",
+    "web": "images/recipes/timbale-d-epinards/web.webp"
   },
   "prepTime": 20,
   "cookTime": 40,

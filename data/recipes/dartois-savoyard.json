@@ -3,8 +3,8 @@
   "title": "Dartois savoyard",
   "description": "Une béchamel au gruyère et des tranches de jambon enfermées entre deux abaisses de feuilletage, dorées au four puis détaillées en parts.",
   "images": {
-    "cover": "images/recipes/dartois-savoyard/cover.svg",
-    "web": "images/recipes/dartois-savoyard/cover.svg"
+    "cover": "images/recipes/dartois-savoyard/cover.webp",
+    "web": "images/recipes/dartois-savoyard/web.webp"
   },
   "prepTime": 60,
   "cookTime": 40,

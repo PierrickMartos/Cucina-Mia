@@ -3,8 +3,8 @@
   "title": "Flan au cacao",
   "description": "Petits flans au cacao noir cuits au bain-marie dans des ramequins, servis avec une sauce au chocolat blanc et au caramel blond.",
   "images": {
-    "cover": "images/recipes/flan-au-cacao/cover.svg",
-    "web": "images/recipes/flan-au-cacao/cover.svg"
+    "cover": "images/recipes/flan-au-cacao/cover.webp",
+    "web": "images/recipes/flan-au-cacao/web.webp"
   },
   "prepTime": 20,
   "cookTime": 20,

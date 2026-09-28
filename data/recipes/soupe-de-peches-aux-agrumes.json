@@ -3,8 +3,8 @@
   "title": "Soupe de pêches aux agrumes",
   "description": "Des pêches blanches baignées dans un sirop vanillé aux jus d'orange et de citron, avec une fine julienne de zestes confits. Servie bien fraîche.",
   "images": {
-    "cover": "images/recipes/soupe-de-peches-aux-agrumes/cover.svg",
-    "web": "images/recipes/soupe-de-peches-aux-agrumes/cover.svg"
+    "cover": "images/recipes/soupe-de-peches-aux-agrumes/cover.webp",
+    "web": "images/recipes/soupe-de-peches-aux-agrumes/web.webp"
   },
   "prepTime": 25,
   "cookTime": 15,

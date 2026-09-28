@@ -3,8 +3,8 @@
   "title": "Crêpes à la pêche et glace",
   "description": "Des crêpes passées dans un sirop alcoolisé, garnies d'une demi-pêche pochée et d'une boule de glace, avec leur variante des pannequets au Kirsch.",
   "images": {
-    "cover": "images/recipes/crepes-a-la-peche-et-glace/cover.svg",
-    "web": "images/recipes/crepes-a-la-peche-et-glace/cover.svg"
+    "cover": "images/recipes/crepes-a-la-peche-et-glace/cover.webp",
+    "web": "images/recipes/crepes-a-la-peche-et-glace/web.webp"
   },
   "prepTime": 30,
   "cookTime": 35,

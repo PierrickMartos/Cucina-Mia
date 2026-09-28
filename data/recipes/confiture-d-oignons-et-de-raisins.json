@@ -3,8 +3,8 @@
   "title": "Confiture d'oignons et de raisins",
   "description": "Une confiture d'oignons au sucre roux, aux raisins, au miel et à la grenadine, parfaite avec pâtés, terrines, rôtis et gibiers.",
   "images": {
-    "cover": "images/recipes/confiture-d-oignons-et-de-raisins/cover.svg",
-    "web": "images/recipes/confiture-d-oignons-et-de-raisins/cover.svg"
+    "cover": "images/recipes/confiture-d-oignons-et-de-raisins/cover.webp",
+    "web": "images/recipes/confiture-d-oignons-et-de-raisins/web.webp"
   },
   "prepTime": 30,
   "cookTime": 70,

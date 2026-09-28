@@ -3,8 +3,8 @@
   "title": "Fruits déguisés",
   "description": "Noix, dattes et pruneaux garnis de pâte d'amandes colorée et parfumée, les noix trempées dans un caramel blond : des petits fours de fête.",
   "images": {
-    "cover": "images/recipes/fruits-deguises/cover.svg",
-    "web": "images/recipes/fruits-deguises/cover.svg"
+    "cover": "images/recipes/fruits-deguises/cover.webp",
+    "web": "images/recipes/fruits-deguises/web.webp"
   },
   "prepTime": 60,
   "cookTime": 10,

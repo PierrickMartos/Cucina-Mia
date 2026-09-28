@@ -3,8 +3,8 @@
   "title": "Râble et cuisses de lapin",
   "description": "Râble et cuisses de lapin mijotés au cidre, nappés d'une sauce à la crème avec petits oignons glacés et pommes sautées au beurre.",
   "images": {
-    "cover": "images/recipes/rable-et-cuisses-de-lapin/cover.svg",
-    "web": "images/recipes/rable-et-cuisses-de-lapin/cover.svg"
+    "cover": "images/recipes/rable-et-cuisses-de-lapin/cover.webp",
+    "web": "images/recipes/rable-et-cuisses-de-lapin/web.webp"
   },
   "prepTime": 25,
   "cookTime": 50,

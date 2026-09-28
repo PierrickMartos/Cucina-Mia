@@ -3,8 +3,8 @@
   "title": "Terrine de lapin aux noisettes et genièvre",
   "description": "Une terrine de lapin et d'échine de porc marinés au vin blanc, relevée de genièvre et de noisettes, avec les filets de lapin au cœur.",
   "images": {
-    "cover": "images/recipes/terrine-de-lapin-aux-noisettes-et-genievre/cover.svg",
-    "web": "images/recipes/terrine-de-lapin-aux-noisettes-et-genievre/cover.svg"
+    "cover": "images/recipes/terrine-de-lapin-aux-noisettes-et-genievre/cover.webp",
+    "web": "images/recipes/terrine-de-lapin-aux-noisettes-et-genievre/web.webp"
   },
   "prepTime": 60,
   "cookTime": 105,
