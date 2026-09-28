@@ -3,8 +3,8 @@
   "title": "Escargots à la forestière",
   "description": "Escargots étuvés au vin blanc et aux échalotes, mêlés de champignons de Paris sautés, d'ail, de persil et de beurre.",
   "images": {
-    "cover": "images/recipes/escargots-a-la-forestiere/cover.svg",
-    "web": "images/recipes/escargots-a-la-forestiere/cover.svg"
+    "cover": "images/recipes/escargots-a-la-forestiere/cover.webp",
+    "web": "images/recipes/escargots-a-la-forestiere/web.webp"
   },
   "prepTime": 25,
   "cookTime": 15,

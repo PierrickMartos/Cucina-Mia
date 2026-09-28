@@ -10454,8 +10454,8 @@
     "title": "Œufs en gelée",
     "description": "Des œufs pochés posés sur un petit rond de jambon et pris dans la gelée en ramequins, une entrée froide classique à servir bien fraîche.",
     "images": {
-      "cover": "images/recipes/oeufs-en-gelee/cover.svg",
-      "web": "images/recipes/oeufs-en-gelee/cover.svg"
+      "cover": "images/recipes/oeufs-en-gelee/cover.webp",
+      "web": "images/recipes/oeufs-en-gelee/web.webp"
     },
     "prepTime": 20,
     "cookTime": 5,
@@ -10593,8 +10593,8 @@
     "title": "Pâté en croûte de veau et jambon aux pistaches",
     "description": "Un grand pâté en croûte de fête : farce de porc aux pistaches, aiguillettes de veau, jambon et lard marinées au Cognac et au Madère, et gelée.",
     "images": {
-      "cover": "images/recipes/pate-en-croute-de-veau-et-jambon-aux-pistaches/cover.svg",
-      "web": "images/recipes/pate-en-croute-de-veau-et-jambon-aux-pistaches/cover.svg"
+      "cover": "images/recipes/pate-en-croute-de-veau-et-jambon-aux-pistaches/cover.webp",
+      "web": "images/recipes/pate-en-croute-de-veau-et-jambon-aux-pistaches/web.webp"
     },
     "prepTime": 120,
     "cookTime": 120,
@@ -12307,8 +12307,8 @@
     "title": "Escargots à la forestière",
     "description": "Escargots étuvés au vin blanc et aux échalotes, mêlés de champignons de Paris sautés, d'ail, de persil et de beurre.",
     "images": {
-      "cover": "images/recipes/escargots-a-la-forestiere/cover.svg",
-      "web": "images/recipes/escargots-a-la-forestiere/cover.svg"
+      "cover": "images/recipes/escargots-a-la-forestiere/cover.webp",
+      "web": "images/recipes/escargots-a-la-forestiere/web.webp"
     },
     "prepTime": 25,
     "cookTime": 15,
@@ -14455,8 +14455,8 @@
     "title": "Tagliatelles aux moules",
     "description": "Des tagliatelles fraîches au beurre, servies avec des moules nappées d'une sauce crémée au vin blanc, à l'échalote et à l'ail.",
     "images": {
-      "cover": "images/recipes/tagliatelles-aux-moules/cover.svg",
-      "web": "images/recipes/tagliatelles-aux-moules/cover.svg"
+      "cover": "images/recipes/tagliatelles-aux-moules/cover.webp",
+      "web": "images/recipes/tagliatelles-aux-moules/web.webp"
     },
     "prepTime": 30,
     "cookTime": 20,
@@ -17513,8 +17513,8 @@
     "title": "Fondant aux poires caramélisées",
     "description": "Des quartiers de poire en rosace sur un moule caramélisé, recouverts d'une pâte fondante parfumée à l'alcool de poire, servis avec une crème anglaise.",
     "images": {
-      "cover": "images/recipes/fondant-aux-poires-caramelisees/cover.svg",
-      "web": "images/recipes/fondant-aux-poires-caramelisees/cover.svg"
+      "cover": "images/recipes/fondant-aux-poires-caramelisees/cover.webp",
+      "web": "images/recipes/fondant-aux-poires-caramelisees/web.webp"
     },
     "prepTime": 30,
     "cookTime": 50,

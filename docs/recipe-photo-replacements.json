@@ -434,6 +434,41 @@
       "sourceImage": "https://storage.canalblog.com/23/20/417812/81941478_o.jpg",
       "match": "Dattes et noix garnies de pâte d’amandes, glaçage brillant et caissettes individuelles. Assortiment photographié limité aux dattes et noix, sans pruneaux visibles ; glaçage au sirop plutôt que caramel pour les noix.",
       "prompt": "Preserve food, ingredients, vessel and plating; moody dark rustic wood, upper-left warm natural light, soft shadows, shallow depth of field, landscape crop; no added ingredients, text or hands."
+    },
+    {
+      "slug": "fondant-aux-poires-caramelisees",
+      "sourcePage": "https://chefsimon.com/gourmets/domi-t/recettes/gateau-renverse-aux-poires",
+      "sourceImage": "https://s3-eu-west-1.amazonaws.com/images-ca-1-0-1-eu/recipe_photos/original/181328/artimage_830202_8225956_201905225852315.jpg",
+      "match": "Gâteau renversé moelleux, poires pelées en rosace et caramel ; crème anglaise non servie sur la photo.",
+      "prompt": "Preserve food, ingredients, vessel and plating; moody dark rustic wood, upper-left warm natural light, soft shadows, shallow depth of field, landscape crop; no added ingredients, text or hands."
+    },
+    {
+      "slug": "escargots-a-la-forestiere",
+      "sourcePage": "https://www.veloutekc.com/inhome-french-plates2/appetizer-escargot",
+      "sourceImage": "https://images.squarespace-cdn.com/content/v1/584f459e3e00bee8f5443e89/1591482792977-7U5DQCHZYBQZ6V2ENVAO/IMG_3168.JPG?format=1000w",
+      "match": "Escargots décoquillés et champignons sautés au beurre, ail et persil, sans sauce crème.",
+      "prompt": "Preserve food, ingredients, vessel and plating; moody dark rustic wood, upper-left warm natural light, soft shadows, shallow depth of field, landscape crop; no added ingredients, text or hands."
+    },
+    {
+      "slug": "pate-en-croute-de-veau-et-jambon-aux-pistaches",
+      "sourcePage": "https://chefsimon.com/gourmets/croquant-fondant-gourmand/recettes/pate-en-croute-veau-et-jambon",
+      "sourceImage": "https://s3-eu-west-1.amazonaws.com/images-ca-1-0-1-eu/recipe_photos/original/233888/open-uri20230509-1724-1aeprbt",
+      "match": "Pâté en croûte de porc, veau, jambon, pistaches et gelée. Tranches dévoilant toutes les garnitures caractéristiques.",
+      "prompt": "Preserve food, ingredients, vessel and plating; moody dark rustic wood, upper-left warm natural light, soft shadows, shallow depth of field, landscape crop; no added ingredients, text or hands."
+    },
+    {
+      "slug": "oeufs-en-gelee",
+      "sourcePage": "https://www.bloc-notes-culinaire.com/2020/09/aspics-d-oeufs-au-jambon.html",
+      "sourceImage": "https://1.bp.blogspot.com/-GxWSMt0kCnI/X2OsP8WhiII/AAAAAAABYBY/J2VctEqVYEMIriXkK4wum36frjGfve7AACPcBGAsYHg/s1600/20200917_201239.jpg",
+      "match": "Œuf poché au jaune coulant en gelée au vin fortifié avec jambon. Variante avec jambon autour, décor de tomate et herbes, salade à côté.",
+      "prompt": "Preserve food, ingredients, vessel and plating; moody dark rustic wood, upper-left warm natural light, soft shadows, shallow depth of field, landscape crop; no added ingredients, text or hands."
+    },
+    {
+      "slug": "tagliatelles-aux-moules",
+      "sourcePage": "https://eda.rambler.ru/recepty/pasta-picca/midii-v-chesnochno-slivochnom-souse-40208",
+      "sourceImage": "https://s1.eda.ru/StaticContent/Photos/120213184513/131020133523/p_O.jpg",
+      "match": "Tagliatelles, moules décoquillées et sauce crémeuse à l’ail. Source sans vin blanc, aspect et dressage conformes.",
+      "prompt": "Preserve food, ingredients, vessel and plating; moody dark rustic wood, upper-left warm natural light, soft shadows, shallow depth of field, landscape crop; no added ingredients, text or hands."
     }
   ],
   "pending": [
@@ -451,7 +486,6 @@
     "crepes-savoyardes-aux-morilles",
     "dartois-au-thon",
     "escalopes-de-canard-au-gingembre",
-    "escargots-a-la-forestiere",
     "faisan-braise-sur-choucroute",
     "filets-de-sole-a-la-norvegienne",
     "flan-au-crabe",
@@ -459,7 +493,6 @@
     "flan-de-foie-de-volaille-et-sa-mousse-de-tomates",
     "flan-de-pointes-d-asperges",
     "fondant-aux-abricots",
-    "fondant-aux-poires-caramelisees",
     "fondant-de-foie-de-volaille",
     "fonds-d-artichaut-a-l-orientale",
     "fricassee-de-lotte-aux-pates-fraiches",
@@ -472,9 +505,7 @@
     "marmite-du-pecheur",
     "mousse-de-poisson",
     "oeufs-durs-vert-pre",
-    "oeufs-en-gelee",
     "pain-d-oeufs-a-la-basquaise",
-    "pate-en-croute-de-veau-et-jambon-aux-pistaches",
     "paupiette-de-sole-farcie-aux-crevettes",
     "piccata-de-veau-au-porto",
     "pintadeau-au-paprika",
@@ -494,7 +525,6 @@
     "souffle-arlequin",
     "souffle-martiniquais",
     "soupe-de-peches-a-la-menthe-et-chocolat-noir",
-    "tagliatelles-aux-moules",
     "tarte-a-la-nicoise",
     "terrine-aux-crevettes-et-poivrons-verts",
     "terrine-de-courgettes-au-basilic",

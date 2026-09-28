@@ -3,8 +3,8 @@
   "title": "Pâté en croûte de veau et jambon aux pistaches",
   "description": "Un grand pâté en croûte de fête : farce de porc aux pistaches, aiguillettes de veau, jambon et lard marinées au Cognac et au Madère, et gelée.",
   "images": {
-    "cover": "images/recipes/pate-en-croute-de-veau-et-jambon-aux-pistaches/cover.svg",
-    "web": "images/recipes/pate-en-croute-de-veau-et-jambon-aux-pistaches/cover.svg"
+    "cover": "images/recipes/pate-en-croute-de-veau-et-jambon-aux-pistaches/cover.webp",
+    "web": "images/recipes/pate-en-croute-de-veau-et-jambon-aux-pistaches/web.webp"
   },
   "prepTime": 120,
   "cookTime": 120,
