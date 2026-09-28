@@ -3,8 +3,8 @@
   "title": "Soufflé Arlequin",
   "description": "Un soufflé à la crème pâtissière parfumée au Cointreau, monté en couches alternées vanille et chocolat.",
   "images": {
-    "cover": "images/recipes/souffle-arlequin/cover.svg",
-    "web": "images/recipes/souffle-arlequin/cover.svg"
+    "cover": "images/recipes/souffle-arlequin/cover.webp",
+    "web": "images/recipes/souffle-arlequin/web.webp"
   },
   "prepTime": 30,
   "cookTime": 45,

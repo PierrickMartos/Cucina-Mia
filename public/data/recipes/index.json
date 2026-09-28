@@ -7528,8 +7528,8 @@
     "title": "Flan de pointes d'asperges",
     "description": "Des barquettes de pâte brisée garnies de pointes d'asperges étuvées au beurre et d'un appareil au lait, à la crème et aux œufs.",
     "images": {
-      "cover": "images/recipes/flan-de-pointes-d-asperges/cover.svg",
-      "web": "images/recipes/flan-de-pointes-d-asperges/cover.svg"
+      "cover": "images/recipes/flan-de-pointes-d-asperges/cover.webp",
+      "web": "images/recipes/flan-de-pointes-d-asperges/web.webp"
     },
     "prepTime": 30,
     "cookTime": 30,
@@ -8602,8 +8602,8 @@
     "title": "Gelée et confit de coings et pommes",
     "description": "Une seule cuisson de coings et de pommes pour deux douceurs : une gelée limpide avec le jus, un confit avec les quartiers.",
     "images": {
-      "cover": "images/recipes/gelee-et-confit-de-coings-et-pommes/cover.svg",
-      "web": "images/recipes/gelee-et-confit-de-coings-et-pommes/cover.svg"
+      "cover": "images/recipes/gelee-et-confit-de-coings-et-pommes/cover.webp",
+      "web": "images/recipes/gelee-et-confit-de-coings-et-pommes/web.webp"
     },
     "prepTime": 45,
     "cookTime": 215,
@@ -12929,8 +12929,8 @@
     "title": "Quiche aux moules et champignons",
     "description": "Une quiche généreuse où les moules au vin blanc et les champignons étuvés sont nappés d'un appareil crémeux au jus de cuisson des moules.",
     "images": {
-      "cover": "images/recipes/quiche-aux-moules-et-champignons/cover.svg",
-      "web": "images/recipes/quiche-aux-moules-et-champignons/cover.svg"
+      "cover": "images/recipes/quiche-aux-moules-et-champignons/cover.webp",
+      "web": "images/recipes/quiche-aux-moules-et-champignons/web.webp"
     },
     "prepTime": 40,
     "cookTime": 35,
@@ -13275,8 +13275,8 @@
     "title": "Chausson ou feuilleté aux fruits de mer",
     "description": "Chaussons de pâte feuilletée garnis d'une farce de moules, coques et crevettes roses, avec un riz aux poivrons relevé d'harissa.",
     "images": {
-      "cover": "images/recipes/chausson-ou-feuillete-aux-fruits-de-mer/cover.svg",
-      "web": "images/recipes/chausson-ou-feuillete-aux-fruits-de-mer/cover.svg"
+      "cover": "images/recipes/chausson-ou-feuillete-aux-fruits-de-mer/cover.webp",
+      "web": "images/recipes/chausson-ou-feuillete-aux-fruits-de-mer/web.webp"
     },
     "prepTime": 90,
     "cookTime": 60,
@@ -13616,8 +13616,8 @@
     "title": "Flan au crabe",
     "description": "Un flan de crabe et de champignons à la crème, parfumé au cerfeuil et relevé de Cayenne, cuit sur un fond de pâte brisée.",
     "images": {
-      "cover": "images/recipes/flan-au-crabe/cover.svg",
-      "web": "images/recipes/flan-au-crabe/cover.svg"
+      "cover": "images/recipes/flan-au-crabe/cover.webp",
+      "web": "images/recipes/flan-au-crabe/web.webp"
     },
     "prepTime": 25,
     "cookTime": 30,
@@ -15280,8 +15280,8 @@
     "title": "Faisan braisé sur choucroute",
     "description": "Un faisan doré au beurre puis braisé au vin blanc, découpé et mijoté entre deux couches de choucroute avec son jus de cuisson.",
     "images": {
-      "cover": "images/recipes/faisan-braise-sur-choucroute/cover.svg",
-      "web": "images/recipes/faisan-braise-sur-choucroute/cover.svg"
+      "cover": "images/recipes/faisan-braise-sur-choucroute/cover.webp",
+      "web": "images/recipes/faisan-braise-sur-choucroute/web.webp"
     },
     "prepTime": 15,
     "cookTime": 70,
@@ -15352,8 +15352,8 @@
     "title": "Flan de foie de volaille",
     "description": "Des foies de volaille marinés au Cognac, mixés avec l'ail et les herbes, puis pochés en ramequins au bain-marie. À servir chaud avec une sauce.",
     "images": {
-      "cover": "images/recipes/flan-de-foie-de-volaille/cover.svg",
-      "web": "images/recipes/flan-de-foie-de-volaille/cover.svg"
+      "cover": "images/recipes/flan-de-foie-de-volaille/cover.webp",
+      "web": "images/recipes/flan-de-foie-de-volaille/web.webp"
     },
     "prepTime": 25,
     "cookTime": 30,
@@ -15421,8 +15421,8 @@
     "title": "Flan de foie de volaille et sa mousse de tomates",
     "description": "Petits flans de foies de dinde et de volaille au Cognac, pochés au bain-marie, servis avec une mousse de tomates relevée à l'harissa.",
     "images": {
-      "cover": "images/recipes/flan-de-foie-de-volaille-et-sa-mousse-de-tomates/cover.svg",
-      "web": "images/recipes/flan-de-foie-de-volaille-et-sa-mousse-de-tomates/cover.svg"
+      "cover": "images/recipes/flan-de-foie-de-volaille-et-sa-mousse-de-tomates/cover.webp",
+      "web": "images/recipes/flan-de-foie-de-volaille-et-sa-mousse-de-tomates/web.webp"
     },
     "prepTime": 45,
     "cookTime": 40,
@@ -16043,8 +16043,8 @@
     "title": "Poulet au miel et aux épices",
     "description": "Poulet mariné au citron, au miel et aux épices, rôti au four, servi avec des oignons confits, des figues blondies et une semoule ou un riz au safran.",
     "images": {
-      "cover": "images/recipes/poulet-au-miel-et-aux-epices/cover.svg",
-      "web": "images/recipes/poulet-au-miel-et-aux-epices/cover.svg"
+      "cover": "images/recipes/poulet-au-miel-et-aux-epices/cover.webp",
+      "web": "images/recipes/poulet-au-miel-et-aux-epices/web.webp"
     },
     "prepTime": 30,
     "cookTime": 50,
@@ -18271,8 +18271,8 @@
     "title": "Pudding de fruits",
     "description": "Un pudding d'autrefois aux biscuits cuillère, raisins de Smyrne et fruits confits macérés au rhum, cuit au bain-marie et servi avec une crème anglaise.",
     "images": {
-      "cover": "images/recipes/pudding-de-fruits/cover.svg",
-      "web": "images/recipes/pudding-de-fruits/cover.svg"
+      "cover": "images/recipes/pudding-de-fruits/cover.webp",
+      "web": "images/recipes/pudding-de-fruits/web.webp"
     },
     "prepTime": 30,
     "cookTime": 45,
@@ -20295,8 +20295,8 @@
     "title": "Soufflé antillais",
     "description": "Un soufflé dessert sur une base de crème pâtissière vanillée, relevé de raisins de Smyrne macérés et de rhum.",
     "images": {
-      "cover": "images/recipes/souffle-antillais/cover.svg",
-      "web": "images/recipes/souffle-antillais/cover.svg"
+      "cover": "images/recipes/souffle-antillais/cover.webp",
+      "web": "images/recipes/souffle-antillais/web.webp"
     },
     "prepTime": 25,
     "cookTime": 40,
@@ -20367,8 +20367,8 @@
     "title": "Soufflé Arlequin",
     "description": "Un soufflé à la crème pâtissière parfumée au Cointreau, monté en couches alternées vanille et chocolat.",
     "images": {
-      "cover": "images/recipes/souffle-arlequin/cover.svg",
-      "web": "images/recipes/souffle-arlequin/cover.svg"
+      "cover": "images/recipes/souffle-arlequin/cover.webp",
+      "web": "images/recipes/souffle-arlequin/web.webp"
     },
     "prepTime": 30,
     "cookTime": 45,

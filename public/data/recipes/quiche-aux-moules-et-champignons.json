@@ -3,8 +3,8 @@
   "title": "Quiche aux moules et champignons",
   "description": "Une quiche généreuse où les moules au vin blanc et les champignons étuvés sont nappés d'un appareil crémeux au jus de cuisson des moules.",
   "images": {
-    "cover": "images/recipes/quiche-aux-moules-et-champignons/cover.svg",
-    "web": "images/recipes/quiche-aux-moules-et-champignons/cover.svg"
+    "cover": "images/recipes/quiche-aux-moules-et-champignons/cover.webp",
+    "web": "images/recipes/quiche-aux-moules-et-champignons/web.webp"
   },
   "prepTime": 40,
   "cookTime": 35,

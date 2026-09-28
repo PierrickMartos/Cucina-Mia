@@ -469,6 +469,90 @@
       "sourceImage": "https://s1.eda.ru/StaticContent/Photos/120213184513/131020133523/p_O.jpg",
       "match": "Tagliatelles, moules décoquillées et sauce crémeuse à l’ail. Source sans vin blanc, aspect et dressage conformes.",
       "prompt": "Preserve food, ingredients, vessel and plating; moody dark rustic wood, upper-left warm natural light, soft shadows, shallow depth of field, landscape crop; no added ingredients, text or hands."
+    },
+    {
+      "slug": "pudding-de-fruits",
+      "sourcePage": "https://www.marmiton.org/recettes/recette_diplomate-brioche_36264.aspx",
+      "sourceImage": "https://assets.afcdn.com/recipe/20130627/39418_w1944h1242c1cx1250cy1875.jpg",
+      "match": "Pudding diplomate cuit au bain-marie, fruits confits et raisins dans appareil aux oeufs. Variante avec brioche plutôt que biscuits cuillère. Même composition et proportions que pudding-aux-fruits ; réutilisation de la photo hero.",
+      "prompt": "Preserve food, ingredients, vessel and plating; moody dark rustic wood, upper-left warm natural light, soft shadows, shallow depth of field, landscape crop; no added ingredients, text or hands."
+    },
+    {
+      "slug": "gelee-et-confit-de-coings-et-pommes",
+      "sourcePage": "https://www.oetker.de/rezepte/r/fruchtiges-apfel-quitten-gelee",
+      "sourceImage": "https://www.oetker.de/assets/recipes/assets/395821864aa1470d8afbda66aa560a9c/1920x1153/fruchtiges-apfel-quitten-geleejpg.jpg",
+      "match": "Gelée limpide de pommes et coings en pots. La photo représente la gelée, pas le second produit (quartiers confits) ; source avec sucre gélifiant.",
+      "prompt": "Preserve food, ingredients, vessel and plating; moody dark rustic wood, upper-left warm natural light, soft shadows, shallow depth of field, landscape crop; no added ingredients, text or hands."
+    },
+    {
+      "slug": "flan-de-foie-de-volaille",
+      "sourcePage": "https://www.academiedugout.fr/recettes/gateau-de-foies-blonds-de-poularde-de-la-bresse-baigne-de-sauce-aux-queues-d-ecrevisse-a-la-lucien-tendret_6012_2",
+      "sourceImage": "https://www.academiedugout.fr/images/10462/1200-auto/633.jpg?poix=50&poiy=50",
+      "match": "Flan de foie de volaille avec sauce aux écrevisses, cohérente avec la sauce Nantua proposée. Variante de dressage : queues d’écrevisses et lamelles de truffe décoratives présentes sur la photo source.",
+      "prompt": "Preserve food, ingredients, vessel and plating; moody dark rustic wood, upper-left warm natural light, soft shadows, shallow depth of field, landscape crop; no added ingredients, text or hands."
+    },
+    {
+      "slug": "souffle-antillais",
+      "sourcePage": "https://www.750g.com/souffle-rhum-vanille-r97856.htm",
+      "sourceImage": "https://static.750g.com/images/1200-630/59886176be99b46dcbbe48fff3215f4c/souffle-rhum-vanille.jpg",
+      "match": "Soufflé rhum-vanille sur crème pâtissière, même préparation et présentation. La source propose les raisins macérés en option ; ils ne sont pas visibles sur la photo du soufflé entier.",
+      "prompt": "Preserve food, ingredients, vessel and plating; moody dark rustic wood, upper-left warm natural light, soft shadows, shallow depth of field, landscape crop; no added ingredients, text or hands."
+    },
+    {
+      "slug": "souffle-arlequin",
+      "sourcePage": "https://www.marthastewart.com/1525114/marbled-souffles",
+      "sourceImage": "https://i.pinimg.com/originals/7f/84/b7/7f84b75ce1df97ee4de5e97a2891eb8f.jpg",
+      "match": "Soufflé bicolore chocolat-vanille. Variante : marbrage plutôt que couches régulières, glace vanille en accompagnement.",
+      "prompt": "Preserve food, ingredients, vessel and plating; moody dark rustic wood, upper-left warm natural light, soft shadows, shallow depth of field, landscape crop; no added ingredients, text or hands."
+    },
+    {
+      "slug": "faisan-braise-sur-choucroute",
+      "sourcePage": "https://www.daskochrezept.de/rezepte/fasan-auf-sauerkraut-und-kartoffel-puereefaisan-sur-son-lit-de-choucroute-et-sa-puree-de",
+      "sourceImage": "https://www.daskochrezept.de/sites/daskochrezept.de/files/styles/full_width_tablet_4_3/public/rezepte/2013/1/Fasan-auf-Sauerkraut-und-Kartoffel-PuereeFaisan-sur-son-lit-de-choucroute-et-sa-pur%C3%A9e-de-pomme-de-terre-50f712a1b3525.jpg?h=4521fff0&itok=gVAxEGjw",
+      "match": "Faisan en morceaux sur choucroute au vin blanc. Variante de service : purée de pommes de terre en accompagnement et blancs poêlés, cuisse braisée.",
+      "prompt": "Preserve food, ingredients, vessel and plating; moody dark rustic wood, upper-left warm natural light, soft shadows, shallow depth of field, landscape crop; no added ingredients, text or hands."
+    },
+    {
+      "slug": "quiche-aux-moules-et-champignons",
+      "sourcePage": "https://www.750g.com/tarte-aux-moules-et-aux-champignons-r62517.htm",
+      "sourceImage": "https://static.750g.com/images/1200-675/47fb0a0f53d11b43fb24f34e915e6ec0/tarte-aux-moules-et-aux-champignons.png",
+      "match": "Tarte aux moules décortiquées et champignons, appareil œufs-crème. Variante source avec endive, oignon et fromage gratiné.",
+      "prompt": "Preserve food, ingredients, vessel and plating; moody dark rustic wood, upper-left warm natural light, soft shadows, shallow depth of field, landscape crop; no added ingredients, text or hands."
+    },
+    {
+      "slug": "flan-au-crabe",
+      "sourcePage": "https://shop.legalseafoods.com/blogs/recipes/crab-and-mushroom-quiche",
+      "sourceImage": "https://shop.legalseafoods.com/cdn/shop/articles/Crab_and_Mushroom_Quiche.jpg?v=1768575178&width=1920",
+      "match": "Flan en pâte brisée au crabe et champignons. Variante source utilisant du crabe préparé en crab cakes et du fromage dans l’appareil.",
+      "prompt": "Preserve food, ingredients, vessel and plating; moody dark rustic wood, upper-left warm natural light, soft shadows, shallow depth of field, landscape crop; no added ingredients, text or hands."
+    },
+    {
+      "slug": "poulet-au-miel-et-aux-epices",
+      "sourcePage": "https://sobors.hu/receptek/fugevel-sult-tepsis-csirkecomb-recept/",
+      "sourceImage": "https://kep.cdn.indexvas.hu/1/0/5799/57995/579957/57995725_a69576ef14fc5476c0cc97c0736c65f6_wm.jpg",
+      "match": "Poulet rôti au miel avec figues et oignons rouges. Variante source parfumée au romarin et vin blanc plutôt que citron, gingembre et quatre-épices.",
+      "prompt": "Preserve food, ingredients, vessel and plating; moody dark rustic wood, upper-left warm natural light, soft shadows, shallow depth of field, landscape crop; no added ingredients, text or hands."
+    },
+    {
+      "slug": "flan-de-foie-de-volaille-et-sa-mousse-de-tomates",
+      "sourcePage": "https://www.bobosse.fr/produit/gateau-de-foie-de-volaille",
+      "sourceImage": "https://www.bobosse.fr/wp-content/uploads/2022/08/Gateau_de_foie_de_volaille.jpg",
+      "match": "Flan individuel de foie de volaille avec coulis de tomate, alternative explicitement proposée à la mousse de tomate dans les étapes. Garniture source basilic et tomate séchée.",
+      "prompt": "Preserve food, ingredients, vessel and plating; moody dark rustic wood, upper-left warm natural light, soft shadows, shallow depth of field, landscape crop; no added ingredients, text or hands."
+    },
+    {
+      "slug": "flan-de-pointes-d-asperges",
+      "sourcePage": "https://www.parmalat.it/chef/ricette/flan-di-asparagi",
+      "sourceImage": "https://www.parmalat.it/origin0/app/uploads/2023/11/28164528/flan-di-asparagi-4.jpg",
+      "match": "Photo de tartelettes de flan aux pointes d’asperges : appareil crémeux cuit et pâte visibles. Moules ronds plutôt que barquettes. Le texte de la page source décrit une variante au pecorino et aux oignons, différente de sa photo illustrative.",
+      "prompt": "Preserve food, ingredients, vessel and plating; moody dark rustic wood, upper-left warm natural light, soft shadows, shallow depth of field, landscape crop; no added ingredients, text or hands."
+    },
+    {
+      "slug": "chausson-ou-feuillete-aux-fruits-de-mer",
+      "sourcePage": "https://chefsimon.com/gourmets/chef-simon/recettes/chaussons-aux-fruits-de-mer",
+      "sourceImage": "https://s3-eu-west-1.amazonaws.com/images-ca-1-0-1-eu/recipe_photos/original/89879/chaussons-aux-fruits-de-mer-00.jpg",
+      "match": "Chausson fermé en pâte feuilletée garni de fruits de mer au velouté, doré au four. Présentation sans le riz aux poivrons proposé en accompagnement.",
+      "prompt": "Preserve food, ingredients, vessel and plating; moody dark rustic wood, upper-left warm natural light, soft shadows, shallow depth of field, landscape crop; no added ingredients, text or hands."
     }
   ],
   "pending": [
@@ -479,25 +563,18 @@
     "blancs-de-volaille-au-curry",
     "calderade-de-poisson",
     "canard-farci-braise-aux-navets",
-    "chausson-ou-feuillete-aux-fruits-de-mer",
     "concombres-farcis",
     "confiture-de-poires-aux-agrumes",
     "couscous-de-poissons-et-fruits-de-mer",
     "crepes-savoyardes-aux-morilles",
     "dartois-au-thon",
     "escalopes-de-canard-au-gingembre",
-    "faisan-braise-sur-choucroute",
     "filets-de-sole-a-la-norvegienne",
-    "flan-au-crabe",
-    "flan-de-foie-de-volaille",
-    "flan-de-foie-de-volaille-et-sa-mousse-de-tomates",
-    "flan-de-pointes-d-asperges",
     "fondant-aux-abricots",
     "fondant-de-foie-de-volaille",
     "fonds-d-artichaut-a-l-orientale",
     "fricassee-de-lotte-aux-pates-fraiches",
     "fricassee-de-veau-aux-aubergines-et-pruneaux",
-    "gelee-et-confit-de-coings-et-pommes",
     "gratin-de-bananes-kiwis-ananas",
     "gratin-de-bananes-kiwis-ananas-mangues-litchis",
     "gratin-de-fruits-exotiques-autre-preparation",
@@ -509,9 +586,6 @@
     "paupiette-de-sole-farcie-aux-crevettes",
     "piccata-de-veau-au-porto",
     "pintadeau-au-paprika",
-    "poulet-au-miel-et-aux-epices",
-    "pudding-de-fruits",
-    "quiche-aux-moules-et-champignons",
     "salade-chinoise-aux-champignons-de-paris",
     "salade-de-boeuf-et-champignons-a-la-parisienne",
     "salade-de-coquillettes-a-la-mexicaine",
@@ -521,8 +595,6 @@
     "salade-de-riz-aux-fruits-de-mer",
     "salade-flamande-aux-champignons-de-paris",
     "salade-percheronne-aux-champignons-de-paris",
-    "souffle-antillais",
-    "souffle-arlequin",
     "souffle-martiniquais",
     "soupe-de-peches-a-la-menthe-et-chocolat-noir",
     "tarte-a-la-nicoise",

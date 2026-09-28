@@ -3,8 +3,8 @@
   "title": "Flan de pointes d'asperges",
   "description": "Des barquettes de pâte brisée garnies de pointes d'asperges étuvées au beurre et d'un appareil au lait, à la crème et aux œufs.",
   "images": {
-    "cover": "images/recipes/flan-de-pointes-d-asperges/cover.svg",
-    "web": "images/recipes/flan-de-pointes-d-asperges/cover.svg"
+    "cover": "images/recipes/flan-de-pointes-d-asperges/cover.webp",
+    "web": "images/recipes/flan-de-pointes-d-asperges/web.webp"
   },
   "prepTime": 30,
   "cookTime": 30,
