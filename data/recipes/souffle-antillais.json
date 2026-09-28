@@ -3,8 +3,8 @@
   "title": "Soufflé antillais",
   "description": "Un soufflé dessert sur une base de crème pâtissière vanillée, relevé de raisins de Smyrne macérés et de rhum.",
   "images": {
-    "cover": "images/recipes/souffle-antillais/cover.svg",
-    "web": "images/recipes/souffle-antillais/cover.svg"
+    "cover": "images/recipes/souffle-antillais/cover.webp",
+    "web": "images/recipes/souffle-antillais/web.webp"
   },
   "prepTime": 25,
   "cookTime": 40,

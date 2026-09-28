@@ -3,8 +3,8 @@
   "title": "Faisan braisé sur choucroute",
   "description": "Un faisan doré au beurre puis braisé au vin blanc, découpé et mijoté entre deux couches de choucroute avec son jus de cuisson.",
   "images": {
-    "cover": "images/recipes/faisan-braise-sur-choucroute/cover.svg",
-    "web": "images/recipes/faisan-braise-sur-choucroute/cover.svg"
+    "cover": "images/recipes/faisan-braise-sur-choucroute/cover.webp",
+    "web": "images/recipes/faisan-braise-sur-choucroute/web.webp"
   },
   "prepTime": 15,
   "cookTime": 70,

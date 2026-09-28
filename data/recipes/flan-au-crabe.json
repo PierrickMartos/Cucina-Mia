@@ -3,8 +3,8 @@
   "title": "Flan au crabe",
   "description": "Un flan de crabe et de champignons à la crème, parfumé au cerfeuil et relevé de Cayenne, cuit sur un fond de pâte brisée.",
   "images": {
-    "cover": "images/recipes/flan-au-crabe/cover.svg",
-    "web": "images/recipes/flan-au-crabe/cover.svg"
+    "cover": "images/recipes/flan-au-crabe/cover.webp",
+    "web": "images/recipes/flan-au-crabe/web.webp"
   },
   "prepTime": 25,
   "cookTime": 30,

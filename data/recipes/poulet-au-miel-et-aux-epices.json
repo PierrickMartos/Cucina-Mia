@@ -3,8 +3,8 @@
   "title": "Poulet au miel et aux épices",
   "description": "Poulet mariné au citron, au miel et aux épices, rôti au four, servi avec des oignons confits, des figues blondies et une semoule ou un riz au safran.",
   "images": {
-    "cover": "images/recipes/poulet-au-miel-et-aux-epices/cover.svg",
-    "web": "images/recipes/poulet-au-miel-et-aux-epices/cover.svg"
+    "cover": "images/recipes/poulet-au-miel-et-aux-epices/cover.webp",
+    "web": "images/recipes/poulet-au-miel-et-aux-epices/web.webp"
   },
   "prepTime": 30,
   "cookTime": 50,

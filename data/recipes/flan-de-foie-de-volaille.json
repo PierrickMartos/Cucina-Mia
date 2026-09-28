@@ -3,8 +3,8 @@
   "title": "Flan de foie de volaille",
   "description": "Des foies de volaille marinés au Cognac, mixés avec l'ail et les herbes, puis pochés en ramequins au bain-marie. À servir chaud avec une sauce.",
   "images": {
-    "cover": "images/recipes/flan-de-foie-de-volaille/cover.svg",
-    "web": "images/recipes/flan-de-foie-de-volaille/cover.svg"
+    "cover": "images/recipes/flan-de-foie-de-volaille/cover.webp",
+    "web": "images/recipes/flan-de-foie-de-volaille/web.webp"
   },
   "prepTime": 25,
   "cookTime": 30,

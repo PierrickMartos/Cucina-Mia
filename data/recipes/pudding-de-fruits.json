@@ -3,8 +3,8 @@
   "title": "Pudding de fruits",
   "description": "Un pudding d'autrefois aux biscuits cuillère, raisins de Smyrne et fruits confits macérés au rhum, cuit au bain-marie et servi avec une crème anglaise.",
   "images": {
-    "cover": "images/recipes/pudding-de-fruits/cover.svg",
-    "web": "images/recipes/pudding-de-fruits/cover.svg"
+    "cover": "images/recipes/pudding-de-fruits/cover.webp",
+    "web": "images/recipes/pudding-de-fruits/web.webp"
   },
   "prepTime": 30,
   "cookTime": 45,
