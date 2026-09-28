@@ -3,8 +3,8 @@
   "title": "Œufs en gelée",
   "description": "Des œufs pochés posés sur un petit rond de jambon et pris dans la gelée en ramequins, une entrée froide classique à servir bien fraîche.",
   "images": {
-    "cover": "images/recipes/oeufs-en-gelee/cover.svg",
-    "web": "images/recipes/oeufs-en-gelee/cover.svg"
+    "cover": "images/recipes/oeufs-en-gelee/cover.webp",
+    "web": "images/recipes/oeufs-en-gelee/web.webp"
   },
   "prepTime": 20,
   "cookTime": 5,

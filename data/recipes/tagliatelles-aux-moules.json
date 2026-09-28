@@ -3,8 +3,8 @@
   "title": "Tagliatelles aux moules",
   "description": "Des tagliatelles fraîches au beurre, servies avec des moules nappées d'une sauce crémée au vin blanc, à l'échalote et à l'ail.",
   "images": {
-    "cover": "images/recipes/tagliatelles-aux-moules/cover.svg",
-    "web": "images/recipes/tagliatelles-aux-moules/cover.svg"
+    "cover": "images/recipes/tagliatelles-aux-moules/cover.webp",
+    "web": "images/recipes/tagliatelles-aux-moules/web.webp"
   },
   "prepTime": 30,
   "cookTime": 20,
