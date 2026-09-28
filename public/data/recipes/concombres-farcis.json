@@ -3,8 +3,8 @@
   "title": "Concombres farcis",
   "description": "Des morceaux de concombre garnis d'une farce de purée, de chair à saucisse et d'œufs, gratinés au gruyère au four.",
   "images": {
-    "cover": "images/recipes/concombres-farcis/cover.svg",
-    "web": "images/recipes/concombres-farcis/cover.svg"
+    "cover": "images/recipes/concombres-farcis/cover.webp",
+    "web": "images/recipes/concombres-farcis/web.webp"
   },
   "prepTime": 25,
   "cookTime": 45,

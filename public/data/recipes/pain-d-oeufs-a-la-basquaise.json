@@ -3,8 +3,8 @@
   "title": "Pain d'œufs à la basquaise",
   "description": "Un pain d'œufs moelleux garni d'une basquaise d'oignons, tomates et poivron et d'œufs durs, cuit au bain-marie dans un moule à cake.",
   "images": {
-    "cover": "images/recipes/pain-d-oeufs-a-la-basquaise/cover.svg",
-    "web": "images/recipes/pain-d-oeufs-a-la-basquaise/cover.svg"
+    "cover": "images/recipes/pain-d-oeufs-a-la-basquaise/cover.webp",
+    "web": "images/recipes/pain-d-oeufs-a-la-basquaise/web.webp"
   },
   "prepTime": 30,
   "cookTime": 65,

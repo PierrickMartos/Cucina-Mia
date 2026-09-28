@@ -3,8 +3,8 @@
   "title": "Salade de coquillettes aux champignons de Paris",
   "description": "Des coquillettes, des champignons de Paris citronnés, du jambon et du gruyère en julienne, liés d'une mayonnaise relevée au ketchup, paprika et Cayenne.",
   "images": {
-    "cover": "images/recipes/salade-de-coquillettes-aux-champignons-de-paris/cover.svg",
-    "web": "images/recipes/salade-de-coquillettes-aux-champignons-de-paris/cover.svg"
+    "cover": "images/recipes/salade-de-coquillettes-aux-champignons-de-paris/cover.webp",
+    "web": "images/recipes/salade-de-coquillettes-aux-champignons-de-paris/web.webp"
   },
   "prepTime": 50,
   "cookTime": 10,

@@ -3,8 +3,8 @@
   "title": "Salade percheronne aux champignons de Paris",
   "description": "Salade de pommes de terre au vin blanc, champignons de Paris crus au citron, cresson et œufs durs, liée à la vinaigrette à la moutarde.",
   "images": {
-    "cover": "images/recipes/salade-percheronne-aux-champignons-de-paris/cover.svg",
-    "web": "images/recipes/salade-percheronne-aux-champignons-de-paris/cover.svg"
+    "cover": "images/recipes/salade-percheronne-aux-champignons-de-paris/cover.webp",
+    "web": "images/recipes/salade-percheronne-aux-champignons-de-paris/web.webp"
   },
   "prepTime": 80,
   "cookTime": 20,

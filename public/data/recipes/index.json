@@ -6896,8 +6896,8 @@
     "title": "Fricassée de veau aux aubergines et pruneaux",
     "description": "Une fricassée d'épaule de veau mijotée au vin blanc, garnie d'aubergines dorées et de pruneaux cuits au vin.",
     "images": {
-      "cover": "images/recipes/fricassee-de-veau-aux-aubergines-et-pruneaux/cover.svg",
-      "web": "images/recipes/fricassee-de-veau-aux-aubergines-et-pruneaux/cover.svg"
+      "cover": "images/recipes/fricassee-de-veau-aux-aubergines-et-pruneaux/cover.webp",
+      "web": "images/recipes/fricassee-de-veau-aux-aubergines-et-pruneaux/web.webp"
     },
     "prepTime": 40,
     "cookTime": 90,
@@ -6965,8 +6965,8 @@
     "title": "Piccata de veau au Porto",
     "description": "Petites escalopes de veau dorées au beurre, nappées d'une julienne de champignons, jambon et langue écarlate au Porto et au fond de veau.",
     "images": {
-      "cover": "images/recipes/piccata-de-veau-au-porto/cover.svg",
-      "web": "images/recipes/piccata-de-veau-au-porto/cover.svg"
+      "cover": "images/recipes/piccata-de-veau-au-porto/cover.webp",
+      "web": "images/recipes/piccata-de-veau-au-porto/web.webp"
     },
     "prepTime": 20,
     "cookTime": 15,
@@ -7383,8 +7383,8 @@
     "title": "Concombres farcis",
     "description": "Des morceaux de concombre garnis d'une farce de purée, de chair à saucisse et d'œufs, gratinés au gruyère au four.",
     "images": {
-      "cover": "images/recipes/concombres-farcis/cover.svg",
-      "web": "images/recipes/concombres-farcis/cover.svg"
+      "cover": "images/recipes/concombres-farcis/cover.webp",
+      "web": "images/recipes/concombres-farcis/web.webp"
     },
     "prepTime": 25,
     "cookTime": 45,
@@ -7739,8 +7739,8 @@
     "title": "Terrine de courgettes au basilic",
     "description": "Une terrine moelleuse de courgettes en bâtonnets et de basilic, liée aux œufs et à la crème, cuite au bain-marie et servie tiède ou froide.",
     "images": {
-      "cover": "images/recipes/terrine-de-courgettes-au-basilic/cover.svg",
-      "web": "images/recipes/terrine-de-courgettes-au-basilic/cover.svg"
+      "cover": "images/recipes/terrine-de-courgettes-au-basilic/cover.webp",
+      "web": "images/recipes/terrine-de-courgettes-au-basilic/web.webp"
     },
     "prepTime": 20,
     "cookTime": 45,
@@ -8240,8 +8240,8 @@
     "title": "Confiture de poires aux agrumes",
     "description": "Une confiture de poires, oranges, pamplemousses et citrons macérés une nuit, relevée de raisins de Smyrne et de noix concassées.",
     "images": {
-      "cover": "images/recipes/confiture-de-poires-aux-agrumes/cover.svg",
-      "web": "images/recipes/confiture-de-poires-aux-agrumes/cover.svg"
+      "cover": "images/recipes/confiture-de-poires-aux-agrumes/cover.webp",
+      "web": "images/recipes/confiture-de-poires-aux-agrumes/web.webp"
     },
     "prepTime": 45,
     "cookTime": 65,
@@ -9465,8 +9465,8 @@
     "title": "Assiette de crudités",
     "description": "Une assiette fraîche de tomate, concombre, céleri rémoulade et betterave, dressée autour d'un quart d'avocat posé sur une feuille de salade.",
     "images": {
-      "cover": "images/recipes/assiette-de-crudites/cover.svg",
-      "web": "images/recipes/assiette-de-crudites/cover.svg"
+      "cover": "images/recipes/assiette-de-crudites/cover.webp",
+      "web": "images/recipes/assiette-de-crudites/web.webp"
     },
     "prepTime": 10,
     "cookTime": 0,
@@ -9607,8 +9607,8 @@
     "title": "Assiette Neptune",
     "description": "Une assiette froide de la mer : terrine de poissons, tomate garnie de mousse d'avocat et croustade de moules et coques à la mayonnaise au Ketchup.",
     "images": {
-      "cover": "images/recipes/assiette-neptune/cover.svg",
-      "web": "images/recipes/assiette-neptune/cover.svg"
+      "cover": "images/recipes/assiette-neptune/cover.webp",
+      "web": "images/recipes/assiette-neptune/web.webp"
     },
     "prepTime": 15,
     "cookTime": 0,
@@ -10240,8 +10240,8 @@
     "title": "Fonds d'artichaut à l'orientale",
     "description": "Des fonds d'artichauts mijotés à l'huile d'olive avec oignons, vin blanc, tomate, safran et une pointe de Cayenne, servis froids.",
     "images": {
-      "cover": "images/recipes/fonds-d-artichaut-a-l-orientale/cover.svg",
-      "web": "images/recipes/fonds-d-artichaut-a-l-orientale/cover.svg"
+      "cover": "images/recipes/fonds-d-artichaut-a-l-orientale/cover.webp",
+      "web": "images/recipes/fonds-d-artichaut-a-l-orientale/web.webp"
     },
     "prepTime": 20,
     "cookTime": 50,
@@ -10382,8 +10382,8 @@
     "title": "Œufs durs vert pré",
     "description": "Des œufs durs posés sur une salade de pommes de terre aux échalotes et fines herbes, nappés de sauce « vert pré ».",
     "images": {
-      "cover": "images/recipes/oeufs-durs-vert-pre/cover.svg",
-      "web": "images/recipes/oeufs-durs-vert-pre/cover.svg"
+      "cover": "images/recipes/oeufs-durs-vert-pre/cover.webp",
+      "web": "images/recipes/oeufs-durs-vert-pre/web.webp"
     },
     "prepTime": 20,
     "cookTime": 25,
@@ -10890,8 +10890,8 @@
     "title": "Salade chinoise aux champignons de Paris",
     "description": "Salade de riz, courgettes, tomates, champignons, jambon et crabe, avec des omelettes aux herbes roulées et ciselées, servie fraîche.",
     "images": {
-      "cover": "images/recipes/salade-chinoise-aux-champignons-de-paris/cover.svg",
-      "web": "images/recipes/salade-chinoise-aux-champignons-de-paris/cover.svg"
+      "cover": "images/recipes/salade-chinoise-aux-champignons-de-paris/cover.webp",
+      "web": "images/recipes/salade-chinoise-aux-champignons-de-paris/web.webp"
     },
     "prepTime": 60,
     "cookTime": 30,
@@ -10956,8 +10956,8 @@
     "title": "Salade de bœuf et champignons à la parisienne",
     "description": "Une salade composée de bœuf cuit émincé, champignons de Paris au citron et pommes de terre au vin blanc, dressée sur laitue avec tomates et œufs durs.",
     "images": {
-      "cover": "images/recipes/salade-de-boeuf-et-champignons-a-la-parisienne/cover.svg",
-      "web": "images/recipes/salade-de-boeuf-et-champignons-a-la-parisienne/cover.svg"
+      "cover": "images/recipes/salade-de-boeuf-et-champignons-a-la-parisienne/cover.webp",
+      "web": "images/recipes/salade-de-boeuf-et-champignons-a-la-parisienne/web.webp"
     },
     "prepTime": 60,
     "cookTime": 25,
@@ -11025,8 +11025,8 @@
     "title": "Salade de coquillettes à la mexicaine",
     "description": "Une salade de coquillettes au maïs, aux poivrons, aux tomates et aux raisins blancs, liée d'une mayonnaise relevée au curry.",
     "images": {
-      "cover": "images/recipes/salade-de-coquillettes-a-la-mexicaine/cover.svg",
-      "web": "images/recipes/salade-de-coquillettes-a-la-mexicaine/cover.svg"
+      "cover": "images/recipes/salade-de-coquillettes-a-la-mexicaine/cover.webp",
+      "web": "images/recipes/salade-de-coquillettes-a-la-mexicaine/web.webp"
     },
     "prepTime": 30,
     "cookTime": 10,
@@ -11094,8 +11094,8 @@
     "title": "Salade de coquillettes aux champignons de Paris",
     "description": "Des coquillettes, des champignons de Paris citronnés, du jambon et du gruyère en julienne, liés d'une mayonnaise relevée au ketchup, paprika et Cayenne.",
     "images": {
-      "cover": "images/recipes/salade-de-coquillettes-aux-champignons-de-paris/cover.svg",
-      "web": "images/recipes/salade-de-coquillettes-aux-champignons-de-paris/cover.svg"
+      "cover": "images/recipes/salade-de-coquillettes-aux-champignons-de-paris/cover.webp",
+      "web": "images/recipes/salade-de-coquillettes-aux-champignons-de-paris/web.webp"
     },
     "prepTime": 50,
     "cookTime": 10,
@@ -11166,8 +11166,8 @@
     "title": "Salade de haddock au riz et chou rouge",
     "description": "Une salade composée de riz, de chou rouge émincé et blanchi, et de haddock poché émietté, liée d'une vinaigrette aux fines herbes.",
     "images": {
-      "cover": "images/recipes/salade-de-haddock-au-riz-et-chou-rouge/cover.svg",
-      "web": "images/recipes/salade-de-haddock-au-riz-et-chou-rouge/cover.svg"
+      "cover": "images/recipes/salade-de-haddock-au-riz-et-chou-rouge/cover.webp",
+      "web": "images/recipes/salade-de-haddock-au-riz-et-chou-rouge/web.webp"
     },
     "prepTime": 25,
     "cookTime": 25,
@@ -11232,8 +11232,8 @@
     "title": "Salade de lentilles et bœuf « pot au feu »",
     "description": "Une salade de lentilles du Puy et de dés de bœuf de pot au feu, avec germes de soja, oignons, échalotes et vinaigrette à la moutarde.",
     "images": {
-      "cover": "images/recipes/salade-de-lentilles-et-boeuf-pot-au-feu/cover.svg",
-      "web": "images/recipes/salade-de-lentilles-et-boeuf-pot-au-feu/cover.svg"
+      "cover": "images/recipes/salade-de-lentilles-et-boeuf-pot-au-feu/cover.webp",
+      "web": "images/recipes/salade-de-lentilles-et-boeuf-pot-au-feu/web.webp"
     },
     "prepTime": 20,
     "cookTime": 30,
@@ -11374,8 +11374,8 @@
     "title": "Salade de riz aux fruits de mer",
     "description": "Une salade de riz fraîche aux moules, coques, crabe et crevettes, avec poivrons, tomates et laitue, relevée d'une vinaigrette citronnée.",
     "images": {
-      "cover": "images/recipes/salade-de-riz-aux-fruits-de-mer/cover.svg",
-      "web": "images/recipes/salade-de-riz-aux-fruits-de-mer/cover.svg"
+      "cover": "images/recipes/salade-de-riz-aux-fruits-de-mer/cover.webp",
+      "web": "images/recipes/salade-de-riz-aux-fruits-de-mer/web.webp"
     },
     "prepTime": 40,
     "cookTime": 25,
@@ -11443,8 +11443,8 @@
     "title": "Salade flamande aux champignons de Paris",
     "description": "Salade de pommes de terre, endives et champignons de Paris crus à la vinaigrette, décorée d'un quadrillage de filets de hareng.",
     "images": {
-      "cover": "images/recipes/salade-flamande-aux-champignons-de-paris/cover.svg",
-      "web": "images/recipes/salade-flamande-aux-champignons-de-paris/cover.svg"
+      "cover": "images/recipes/salade-flamande-aux-champignons-de-paris/cover.webp",
+      "web": "images/recipes/salade-flamande-aux-champignons-de-paris/web.webp"
     },
     "prepTime": 80,
     "cookTime": 20,
@@ -11512,8 +11512,8 @@
     "title": "Salade percheronne aux champignons de Paris",
     "description": "Salade de pommes de terre au vin blanc, champignons de Paris crus au citron, cresson et œufs durs, liée à la vinaigrette à la moutarde.",
     "images": {
-      "cover": "images/recipes/salade-percheronne-aux-champignons-de-paris/cover.svg",
-      "web": "images/recipes/salade-percheronne-aux-champignons-de-paris/cover.svg"
+      "cover": "images/recipes/salade-percheronne-aux-champignons-de-paris/cover.webp",
+      "web": "images/recipes/salade-percheronne-aux-champignons-de-paris/web.webp"
     },
     "prepTime": 80,
     "cookTime": 20,
@@ -11733,8 +11733,8 @@
     "title": "Tomates en surprise aux champignons de Paris",
     "description": "Des tomates évidées, garnies de champignons citronnés, maïs et petits pois à la mayonnaise, coiffées de crevettes et de persil, servies sur une feuille de laitue.",
     "images": {
-      "cover": "images/recipes/tomates-en-surprise-aux-champignons-de-paris/cover.svg",
-      "web": "images/recipes/tomates-en-surprise-aux-champignons-de-paris/cover.svg"
+      "cover": "images/recipes/tomates-en-surprise-aux-champignons-de-paris/cover.webp",
+      "web": "images/recipes/tomates-en-surprise-aux-champignons-de-paris/web.webp"
     },
     "prepTime": 30,
     "cookTime": 0,
@@ -12030,8 +12030,8 @@
     "title": "Crêpes savoyardes aux morilles",
     "description": "Crêpes de sarrasin garnies d'une béchamel à l'emmenthal, d'une tranche de jambon et de morilles à la crème, roulées puis chauffées doucement.",
     "images": {
-      "cover": "images/recipes/crepes-savoyardes-aux-morilles/cover.svg",
-      "web": "images/recipes/crepes-savoyardes-aux-morilles/cover.svg"
+      "cover": "images/recipes/crepes-savoyardes-aux-morilles/cover.webp",
+      "web": "images/recipes/crepes-savoyardes-aux-morilles/web.webp"
     },
     "prepTime": 90,
     "cookTime": 45,
@@ -12096,8 +12096,8 @@
     "title": "Dartois au thon",
     "description": "Un appareil de thon, champignons, œufs durs et béchamel enfermé entre deux bandes de feuilletage dorées, à détailler en parts.",
     "images": {
-      "cover": "images/recipes/dartois-au-thon/cover.svg",
-      "web": "images/recipes/dartois-au-thon/cover.svg"
+      "cover": "images/recipes/dartois-au-thon/cover.webp",
+      "web": "images/recipes/dartois-au-thon/web.webp"
     },
     "prepTime": 75,
     "cookTime": 45,
@@ -12857,8 +12857,8 @@
     "title": "Pain d'œufs à la basquaise",
     "description": "Un pain d'œufs moelleux garni d'une basquaise d'oignons, tomates et poivron et d'œufs durs, cuit au bain-marie dans un moule à cake.",
     "images": {
-      "cover": "images/recipes/pain-d-oeufs-a-la-basquaise/cover.svg",
-      "web": "images/recipes/pain-d-oeufs-a-la-basquaise/cover.svg"
+      "cover": "images/recipes/pain-d-oeufs-a-la-basquaise/cover.webp",
+      "web": "images/recipes/pain-d-oeufs-a-la-basquaise/web.webp"
     },
     "prepTime": 30,
     "cookTime": 65,
@@ -13206,8 +13206,8 @@
     "title": "Bar (loup de mer) sauce régence, farci d'une mosaïque de légumes",
     "description": "Un bar entier farci d'une mousse de merlan aux petits légumes, cuit au fumet puis en croûte feuilletée, nappé d'une sauce régence aux truffes.",
     "images": {
-      "cover": "images/recipes/bar-loup-de-mer-sauce-regence-farci-d-une-mosaique-de-legumes/cover.svg",
-      "web": "images/recipes/bar-loup-de-mer-sauce-regence-farci-d-une-mosaique-de-legumes/cover.svg"
+      "cover": "images/recipes/bar-loup-de-mer-sauce-regence-farci-d-une-mosaique-de-legumes/cover.webp",
+      "web": "images/recipes/bar-loup-de-mer-sauce-regence-farci-d-une-mosaique-de-legumes/web.webp"
     },
     "prepTime": 180,
     "cookTime": 110,
@@ -14036,8 +14036,8 @@
     "title": "La calderade de poisson",
     "description": "Un gratin de poisson en couches : pommes de terre sautées, oignons, poivrons et tomates relevés au cumin et à la harissa, mouillé au fumet puis gratiné.",
     "images": {
-      "cover": "images/recipes/calderade-de-poisson/cover.svg",
-      "web": "images/recipes/calderade-de-poisson/cover.svg"
+      "cover": "images/recipes/calderade-de-poisson/cover.webp",
+      "web": "images/recipes/calderade-de-poisson/web.webp"
     },
     "prepTime": 40,
     "cookTime": 45,
@@ -14788,8 +14788,8 @@
     "title": "Blancs de volaille au curry",
     "description": "Aiguillettes de volaille dorées au beurre, mijotées dans une sauce au curry, tomate, pomme et crème à l'amande.",
     "images": {
-      "cover": "images/recipes/blancs-de-volaille-au-curry/cover.svg",
-      "web": "images/recipes/blancs-de-volaille-au-curry/cover.svg"
+      "cover": "images/recipes/blancs-de-volaille-au-curry/cover.webp",
+      "web": "images/recipes/blancs-de-volaille-au-curry/web.webp"
     },
     "prepTime": 25,
     "cookTime": 25,
@@ -18630,8 +18630,8 @@
     "title": "Biscuit aux poires et chocolat noir",
     "description": "Une charlotte de fête : biscuits à la cuillère, génoise au chocolat, marquise au chocolat et mousse de poires, décorée de poires en éventail.",
     "images": {
-      "cover": "images/recipes/biscuit-aux-poires-et-chocolat-noir/cover.svg",
-      "web": "images/recipes/biscuit-aux-poires-et-chocolat-noir/cover.svg"
+      "cover": "images/recipes/biscuit-aux-poires-et-chocolat-noir/cover.webp",
+      "web": "images/recipes/biscuit-aux-poires-et-chocolat-noir/web.webp"
     },
     "prepTime": 90,
     "cookTime": 45,

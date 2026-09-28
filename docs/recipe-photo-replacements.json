@@ -553,56 +553,212 @@
       "sourceImage": "https://s3-eu-west-1.amazonaws.com/images-ca-1-0-1-eu/recipe_photos/original/89879/chaussons-aux-fruits-de-mer-00.jpg",
       "match": "Chausson fermé en pâte feuilletée garni de fruits de mer au velouté, doré au four. Présentation sans le riz aux poivrons proposé en accompagnement.",
       "prompt": "Preserve food, ingredients, vessel and plating; moody dark rustic wood, upper-left warm natural light, soft shadows, shallow depth of field, landscape crop; no added ingredients, text or hands."
+    },
+    {
+      "slug": "assiette-de-crudites",
+      "sourcePage": "https://www.onthebeach.co.uk/hotels/united-arab-emirates/dubai/sheikh-zayed/hyde-hotel-dubai",
+      "sourceImage": "https://bynder.onthebeach.co.uk/cdn-cgi/image/width%3D1400%2Cquality%3D80%2Cfit%3Dcover%2Cformat%3Dauto/m/1b608ecfc16515e2/original/Hyde-Hotel-Dubai-Restaurant-38.jpg",
+      "match": "Photo web de crudités avec betterave, concombre, tomate, avocat et salade, utilisée comme référence photographique. La composition finale suit précisément la recette avec céleri rémoulade et sans garnitures étrangères.",
+      "prompt": "Exact recipe composition: tomato, cucumber, celeriac remoulade, diced beetroot, quarter avocado and lettuce; moody dark rustic wood, upper-left warm natural light, soft shadows, shallow depth of field, landscape crop; no extra ingredients, text or hands."
+    },
+    {
+      "slug": "assiette-neptune",
+      "sourcePage": "https://cuisine.journaldesfemmes.fr/recette/305187-terrine-de-lotte",
+      "sourceImage": "https://img-3.journaldesfemmes.fr/AJxQ3ZEhN7WO64D2Uyer5g0JYpc%3D/800x600/8dabe5d6a7e14cdb8123cbf7b6f1b334/ccmcms-jdf/39808741.jpg",
+      "match": "Photo web de terrine de poisson avec crevettes, avocat et tomate, utilisée comme référence. La composition finale reproduit l’assiette individuelle avec tomate à la mousse d’avocat, croustade aux moules et coques, et deux crevettes.",
+      "prompt": "Exact recipe composition: one fish terrine slice, one tomato filled with avocado mousse, one puff-pastry croustade with mussels and cockles in cocktail mayonnaise, and exactly two shrimp; moody dark rustic wood, upper-left warm natural light, soft shadows, shallow depth of field; no extra ingredients, text or hands."
+    },
+    {
+      "slug": "fricassee-de-veau-aux-aubergines-et-pruneaux",
+      "sourcePage": "https://www.leprogres.fr/magazine-cuisine-et-vins/2022/12/15/un-saute-de-veau-aux-pruneaux-ca-vous-dit-pour-les-fetes",
+      "sourceImage": "https://cdn-s-www.leprogres.fr/images/15E2854F-2266-4BFA-8CC2-F5E162F56F92/MF_contenu/un-saute-de-veau-aux-pruneaux-ca-vous-dit-pour-les-fetes-1670418760.jpg",
+      "match": "Photo réelle de sauté de veau aux pruneaux utilisée comme référence pour la viande braisée et les fruits. La composition finale ajoute les aubergines dorées prévues par la recette.",
+      "prompt": "Exact recipe composition: browned veal shoulder, golden eggplant chunks, prunes, carrot and onion in white-wine veal sauce; dark rustic hero styling; no extra sides."
+    },
+    {
+      "slug": "piccata-de-veau-au-porto",
+      "sourcePage": "https://www.5ingredients15minutes.com/fr/recettes/plats-principaux/boeuf/escalopes-de-veau-de-grain-champignons-et-sauce-au-porto/",
+      "sourceImage": "https://cdn.pratico-pratiques.com/app/uploads/sites/2/2019/01/15103433/escalopes-de-veau-de-grain-champignons-et-sauce-porto.jpg",
+      "match": "Photo réelle d’escalopes de veau au Porto et aux champignons. La composition finale suit la garniture ancienne en julienne de champignons, jambon et langue écarlate.",
+      "prompt": "Exact recipe composition: thin browned veal piccata topped with fine julienne of mushrooms, cooked ham and red cooked tongue in glossy Port veal jus; no side dishes."
+    },
+    {
+      "slug": "concombres-farcis",
+      "sourcePage": "https://www.einfachkochen.de/rezepte/gefuellte-gurken-mit-hackfleisch",
+      "sourceImage": "https://www.einfachkochen.de/sites/einfachkochen.de/files/styles/1946_1460/public/2021-07/gefuellte_gurken_mit_hackfleisch_1_0.jpg?h=4521fff0&itok=-7nGvZVH",
+      "match": "Photo réelle de concombres farcis à la viande et gratinés. La composition finale reproduit la farce de purée, chair à saucisse, œufs et persil de la recette.",
+      "prompt": "Exact recipe composition: peeled blanched cucumber portions filled with mashed potato, sausage meat, egg and parsley, topped with Gruyère and butter, baked golden."
+    },
+    {
+      "slug": "terrine-de-courgettes-au-basilic",
+      "sourcePage": "https://www.cucina-naturale.it/ricette/terrina-di-zucchine-e-fiori-al-basilico/",
+      "sourceImage": "https://static.tecnichenuove.it/cucinanaturale/2019/05/terrina-zucchine.jpg",
+      "match": "Photo réelle d’une terrine de courgettes au basilic utilisée pour la forme et la texture. La coupe finale montre les bâtonnets de courgette liés aux œufs et à la crème.",
+      "prompt": "Exact recipe composition: rectangular egg-and-cream terrine with clearly visible green-skinned zucchini batons and chopped basil; no cheese, sauce or extra ingredients."
+    },
+    {
+      "slug": "confiture-de-poires-aux-agrumes",
+      "sourcePage": "https://www.gzrecipes.com/nl/lappetitovienmangiando/peer-citroen-en-notenconfituur/",
+      "sourceImage": "https://www.gzrecipes.com/content/uploads/sites/7/2026/01/IMG_7253-7-69582336306787-23380798.jpg",
+      "match": "Photo réelle de confiture de poires, citron et noix. La composition finale ajoute orange, pamplemousse et raisins de Smyrne conformément à la recette.",
+      "prompt": "Exact recipe composition: amber pear jam with orange, grapefruit and lemon zest, golden sultanas and chopped walnuts; no labels or unrelated fruit."
+    },
+    {
+      "slug": "fonds-d-artichaut-a-l-orientale",
+      "sourcePage": "https://ricette.donnamoderna.com/fondi-di-carciofo-in-salsa",
+      "sourceImage": "https://www.donnamoderna.com/content/uploads/2010/12/fondi-di-carciofo-in-salsa-1200x630.jpg",
+      "match": "Photo réelle d’artichauts en sauce tomate au safran. La composition finale montre les fonds en quartiers, mijotés aux oignons, vin blanc et citron.",
+      "prompt": "Exact recipe composition: quartered artichoke bottoms, soft onions, tomato, white wine, lemon and saffron sauce, served cold; no stuffing or cheese."
+    },
+    {
+      "slug": "oeufs-durs-vert-pre",
+      "sourcePage": "https://frankfurt-on-foot.com/2024/01/12/frankfurt-grune-sosse-or-green-sauce/",
+      "sourceImage": "https://i0.wp.com/frankfurt-on-foot.com/wp-content/uploads/2019/07/06755-grunesosse.jpg?fit=1200%2C900&ssl=1",
+      "match": "Photo réelle d’œufs durs, pommes de terre et sauce verte. La composition finale place les œufs sur une salade de pommes de terre aux échalotes et fines herbes.",
+      "prompt": "Exact recipe composition: hard-boiled egg halves on vinaigrette potato salad with shallots and herbs, napped with green herb mayonnaise."
+    },
+    {
+      "slug": "salade-chinoise-aux-champignons-de-paris",
+      "sourcePage": "https://cookpad.com/mx/buscar/tamago",
+      "sourceImage": "https://img-global.cpcdn.com/recipes/7e2536af93888fa4/1200x630cq80/photo.jpg",
+      "match": "Photo réelle de riz aux champignons, crabe et lanières d’omelette. La composition finale suit la salade froide avec courgettes, tomates, jambon de Paris et vrai crabe.",
+      "prompt": "Exact recipe composition: cold rice salad with diced zucchini, tomato, raw button mushrooms, ham julienne, crab flakes and herb omelette ribbons."
+    },
+    {
+      "slug": "salade-de-boeuf-et-champignons-a-la-parisienne",
+      "sourcePage": "https://laurathegastronaut.com/julia-child/cold-beef-and-potato-salad.html",
+      "sourceImage": "https://laurathegastronaut.com/image/cold-beef-and-potato-salad/cold-beef-and-potato-salad.jpg",
+      "match": "Photo réelle de salade de bœuf à la parisienne avec pommes de terre, tomate et œuf. La composition finale ajoute les champignons crus citronnés et retire la betterave.",
+      "prompt": "Exact recipe composition: boiled beef, raw button mushrooms, white-wine potato salad, lettuce, tomato, hard-boiled eggs, onion and cornichons."
+    },
+    {
+      "slug": "salade-de-coquillettes-a-la-mexicaine",
+      "sourcePage": "https://www.energetiksblog.com.au/blog/2017/10/30/ballerina-bites-curried-pasta-salad",
+      "sourceImage": "https://images.squarespace-cdn.com/content/v1/5238dfcae4b0468ec26edfdb/1509430202086-J30BGB9VIE5XKCBM77SG/Scoop.JPG",
+      "match": "Photo réelle de salade de coquillettes au curry et poivrons. La composition finale ajoute maïs, tomates et raisins blancs, sans arachides.",
+      "prompt": "Exact recipe composition: elbow macaroni, corn, red and green peppers, tomatoes and white grapes in curry mayonnaise."
+    },
+    {
+      "slug": "salade-de-coquillettes-aux-champignons-de-paris",
+      "sourcePage": "https://recipe.rakuten.co.jp/recipe/1370016482/",
+      "sourceImage": "https://recipe.r10s.jp/recipe-space/d/strg/ctrl/3/1256bcc97d7615542c18304c905a873ccd2ebc57.61.2.3.2.jpg",
+      "match": "Photo réelle de salade crémeuse de coquillettes, champignons et jambon. La composition finale ajoute la julienne d’emmental et la mayonnaise rose épicée.",
+      "prompt": "Exact recipe composition: elbow macaroni, raw button mushrooms, ham and Emmental julienne in pink ketchup-paprika mayonnaise."
+    },
+    {
+      "slug": "salade-de-haddock-au-riz-et-chou-rouge",
+      "sourcePage": "https://www.quitoque.fr/recettes/poisson-blanc-selon-arrivage-sauce-cremeuse-au-chou-rouge-et-riz-noir",
+      "sourceImage": "https://image-repository-07c0d87b07ca0475fe83bb98.quitoque.fr/sylius_shop_product_cover/d7/9d/9f925cdbd096ba650d6c396837a6.webp",
+      "match": "Photo réelle associant haddock, chou rouge et riz. La composition finale devient une salade froide de riz blanc, chou rouge blanchi et haddock poché émietté.",
+      "prompt": "Exact recipe composition: cold white-rice salad with blanched shredded red cabbage, milk-poached haddock flakes and herb vinaigrette."
+    },
+    {
+      "slug": "salade-de-lentilles-et-boeuf-pot-au-feu",
+      "sourcePage": "https://www.la-viande.fr/cuisine-achat/tendances/preparer-restes-viande-salade",
+      "sourceImage": "https://www.la-viande.fr/sites/default/files/images/cuisine-achat/tendances/salade-de-boeuf-aux-lentilles.jpg",
+      "match": "Photo réelle de restes de bœuf aux lentilles. La composition finale emploie des dés de pot-au-feu, des germes de soja, oignons et échalotes.",
+      "prompt": "Exact recipe composition: Puy lentils, diced boiled pot-au-feu beef, bean sprouts, onion, shallot and mustard vinaigrette."
+    },
+    {
+      "slug": "salade-de-riz-aux-fruits-de-mer",
+      "sourcePage": "https://www.hogarmania.com/cocina/recetas/arroces-cereales/salpicon-arroz-16749.html",
+      "sourceImage": "https://static.bainet.es/clip/7734a685-4e9c-4c47-a1b8-b9d9cb3cda58_source-aspect-ratio_1600w_0.jpg",
+      "match": "Photo réelle de salade froide de riz, moules, crevettes et poivrons. La composition finale ajoute coques, crabe, tomate et laitue.",
+      "prompt": "Exact recipe composition: cold white rice with shelled mussels and cockles, crab, peeled shrimp, red and green peppers, tomato, onion and lettuce."
+    },
+    {
+      "slug": "salade-flamande-aux-champignons-de-paris",
+      "sourcePage": "https://recettes.de/hareng/pomme-de-terre/3",
+      "sourceImage": "https://recettes.de/images/blogs/la-cerise-sur-le-maillot/salade-de-pommes-de-terre-endives-et-hareng-965.640x480.jpg",
+      "match": "Photo réelle de salade de pommes de terre, endives et hareng. La composition finale ajoute les champignons crus et dispose le hareng en quadrillage.",
+      "prompt": "Exact recipe composition: potato, endive and raw mushroom vinaigrette salad topped with a clear lattice of smoked herring strips."
+    },
+    {
+      "slug": "salade-percheronne-aux-champignons-de-paris",
+      "sourcePage": "https://www.femmesdaujourdhui.be/cuisine/voir-la-recette/34128/salade-verte-aux-oeufs-1",
+      "sourceImage": "https://img.static-rmg.be/a/food/image/q75/w640/h400/1066254/salade-verte-aux-oeufs.jpg",
+      "match": "Photo réelle de salade de pommes de terre, cresson et œufs. La composition finale ajoute les champignons crus citronnés et une vinaigrette à la moutarde sans crème.",
+      "prompt": "Exact recipe composition: white-wine potato salad, raw lemoned button mushrooms, watercress, hard-boiled eggs, onion, shallot and mustard vinaigrette."
+    },
+    {
+      "slug": "tomates-en-surprise-aux-champignons-de-paris",
+      "sourcePage": "https://www.food.com/recipe/four-s-tomatoes-simple-shrimp-stuffed-salad-311627",
+      "sourceImage": "https://img.sndimg.com/food/image/upload/f_auto%2Cc_thumb%2Cq_55%2Cw_iw/v1/img/recipes/31/16/27/picfZvrBJ.jpg",
+      "match": "Photo réelle de tomates farcies aux crevettes et petits pois. La composition finale ajoute les champignons crus citronnés et le maïs conformément à la recette.",
+      "prompt": "Exact recipe composition: hollowed tomatoes filled with lemoned raw button mushrooms, corn, peas and mayonnaise, topped with shrimp and parsley on lettuce."
+    },
+    {
+      "slug": "crepes-savoyardes-aux-morilles",
+      "sourcePage": "https://en.creperie-hebken.fr/",
+      "sourceImage": "https://images.squarespace-cdn.com/content/v1/6228bfa5614b07343eab7674/1651050363554-2Y18EA18Y76CYQPKDTJY/CRE%CC%82PERIE-HEB-KEN---GALETTE-HEB-KEN-4.png",
+      "match": "Photo réelle d’une galette de sarrasin roulée au jambon, fromage et champignons. La composition finale emploie des morilles entières et une béchamel à l’emmental.",
+      "prompt": "Exact recipe composition: rolled buckwheat crêpes filled with thin ham, Emmental béchamel and whole morels in cream."
+    },
+    {
+      "slug": "dartois-au-thon",
+      "sourcePage": "https://www.750g.com/feuillete-au-thon-r89361.htm",
+      "sourceImage": "https://static.750g.com/images/1200-630/8b324c38e68514375ee5e12e1481530e/feuillete-au-thon-facile.jpeg",
+      "match": "Photo réelle d’un grand feuilleté rectangulaire au thon. La coupe finale révèle les champignons, œufs durs, béchamel et persil de la recette.",
+      "prompt": "Exact recipe composition: enclosed rectangular puff-pastry dartois filled with tuna, button mushrooms, hard-boiled egg, béchamel and parsley; no tomato or pepper."
+    },
+    {
+      "slug": "pain-d-oeufs-a-la-basquaise",
+      "sourcePage": "https://www.angers-web.com/Page/column/c16121210.aspx",
+      "sourceImage": "https://www.angers-web.com/Page/img_column/1612/c16121210_03.jpg",
+      "match": "Photo réelle d’un pain d’œufs aux poivrons. La composition finale ajoute tomate, oignon et morceaux d’œufs durs conformément à la recette basquaise.",
+      "prompt": "Exact recipe composition: baked egg loaf with onions, tomato, red and green peppers and visible pieces of hard-boiled egg."
+    },
+    {
+      "slug": "bar-loup-de-mer-sauce-regence-farci-d-une-mosaique-de-legumes",
+      "sourcePage": "https://www.recettesmania.com/recettes/chez-cathytutu-bar-feuillete-jardiniere-de-legumes-bagna-cauda-paul-bocuse",
+      "sourceImage": "https://www.recettesmania.com/images/recipe/chez-cathytutu/2022/12/chez-cathytutu-bar-feuillete-jardiniere-de-legumes-bagna-cauda-paul-bocuse.jpg",
+      "match": "Photo réelle de bar feuilleté en forme de poisson. La coupe finale révèle le bar, la mousse de merlan et la mosaïque de légumes, avec sauce Régence truffée.",
+      "prompt": "Exact recipe composition: whole sea bass in fish-shaped puff pastry, whiting mousse and diced vegetable mosaic, with truffled Régence sauce."
+    },
+    {
+      "slug": "biscuit-aux-poires-et-chocolat-noir",
+      "sourcePage": "https://liliebakery.fr/en/Chocolate-Pear-Charlotte/",
+      "sourceImage": "https://liliebakery.fr/wp-content/uploads/2022/10/Recette-charlotte-poire-chocolat-Lilie-Bakery-500x500.jpg",
+      "match": "Photo réelle de charlotte poire-chocolat aux biscuits à la cuillère. La coupe finale montre génoise chocolat, marquise et mousse de poires.",
+      "prompt": "Exact recipe composition: ladyfinger charlotte with chocolate génoise, dark chocolate marquise, pear mousse and fan of poached pear slices."
+    },
+    {
+      "slug": "blancs-de-volaille-au-curry",
+      "sourcePage": "https://migusto.migros.ch/it/ricette/curry-di-pollo",
+      "sourceImage": "https://recipeimages.migros.ch/crop/v-w-1200-h-630-a-center_center/303e6f47dc23ab5999334ca9561c968afb9c4ffa/curry-di-pollo-0-16-9.jpg",
+      "match": "Photo réelle de poulet au curry, pomme, amandes et riz. La composition finale suit la sauce française à la tomate, crème et poudre d’amande.",
+      "prompt": "Exact recipe composition: browned chicken strips in creamy curry sauce with apple, tomato and ground almond, served with pilaf rice."
+    },
+    {
+      "slug": "calderade-de-poisson",
+      "sourcePage": "https://www.lecker.de/fischfilet-aus-dem-ofen-45829.html",
+      "sourceImage": "https://images.lecker.de/fischfilet-aus-dem-ofen/1x1%2Cid%3Df311b1ae%2Cb%3Dlecker%2Cw%3D1600%2Ch%3D%2Cca%3D0%2C12.54%2C100%2C87.46%2Crm%3Dsk.jpeg",
+      "match": "Photo réelle de gratin de poisson, pommes de terre, tomate et poivrons. La composition finale montre les couches au cumin et harissa avec une légère croûte de parmesan.",
+      "prompt": "Exact recipe composition: layered potato, white fish, onion, peppers and tomato gratin with cumin, harissa, fish stock and Parmesan."
     }
   ],
   "pending": [
-    "assiette-de-crudites",
-    "assiette-neptune",
-    "bar-loup-de-mer-sauce-regence-farci-d-une-mosaique-de-legumes",
-    "biscuit-aux-poires-et-chocolat-noir",
-    "blancs-de-volaille-au-curry",
-    "calderade-de-poisson",
     "canard-farci-braise-aux-navets",
-    "concombres-farcis",
-    "confiture-de-poires-aux-agrumes",
     "couscous-de-poissons-et-fruits-de-mer",
-    "crepes-savoyardes-aux-morilles",
-    "dartois-au-thon",
     "escalopes-de-canard-au-gingembre",
     "filets-de-sole-a-la-norvegienne",
     "fondant-aux-abricots",
     "fondant-de-foie-de-volaille",
-    "fonds-d-artichaut-a-l-orientale",
     "fricassee-de-lotte-aux-pates-fraiches",
-    "fricassee-de-veau-aux-aubergines-et-pruneaux",
     "gratin-de-bananes-kiwis-ananas",
     "gratin-de-bananes-kiwis-ananas-mangues-litchis",
     "gratin-de-fruits-exotiques-autre-preparation",
     "haddock-a-l-alsacienne",
     "marmite-du-pecheur",
     "mousse-de-poisson",
-    "oeufs-durs-vert-pre",
-    "pain-d-oeufs-a-la-basquaise",
     "paupiette-de-sole-farcie-aux-crevettes",
-    "piccata-de-veau-au-porto",
     "pintadeau-au-paprika",
-    "salade-chinoise-aux-champignons-de-paris",
-    "salade-de-boeuf-et-champignons-a-la-parisienne",
-    "salade-de-coquillettes-a-la-mexicaine",
-    "salade-de-coquillettes-aux-champignons-de-paris",
-    "salade-de-haddock-au-riz-et-chou-rouge",
-    "salade-de-lentilles-et-boeuf-pot-au-feu",
-    "salade-de-riz-aux-fruits-de-mer",
-    "salade-flamande-aux-champignons-de-paris",
-    "salade-percheronne-aux-champignons-de-paris",
     "souffle-martiniquais",
     "soupe-de-peches-a-la-menthe-et-chocolat-noir",
     "tarte-a-la-nicoise",
     "terrine-aux-crevettes-et-poivrons-verts",
-    "terrine-de-courgettes-au-basilic",
     "terrines-et-mousse-de-poisson",
     "timbale-de-fruits-de-mer",
-    "tomates-en-surprise-aux-champignons-de-paris",
     "tourte-cherbourgeoise"
   ]
 }

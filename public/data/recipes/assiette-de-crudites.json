@@ -3,8 +3,8 @@
   "title": "Assiette de crudités",
   "description": "Une assiette fraîche de tomate, concombre, céleri rémoulade et betterave, dressée autour d'un quart d'avocat posé sur une feuille de salade.",
   "images": {
-    "cover": "images/recipes/assiette-de-crudites/cover.svg",
-    "web": "images/recipes/assiette-de-crudites/cover.svg"
+    "cover": "images/recipes/assiette-de-crudites/cover.webp",
+    "web": "images/recipes/assiette-de-crudites/web.webp"
   },
   "prepTime": 10,
   "cookTime": 0,

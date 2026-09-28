@@ -3,8 +3,8 @@
   "title": "Dartois au thon",
   "description": "Un appareil de thon, champignons, œufs durs et béchamel enfermé entre deux bandes de feuilletage dorées, à détailler en parts.",
   "images": {
-    "cover": "images/recipes/dartois-au-thon/cover.svg",
-    "web": "images/recipes/dartois-au-thon/cover.svg"
+    "cover": "images/recipes/dartois-au-thon/cover.webp",
+    "web": "images/recipes/dartois-au-thon/web.webp"
   },
   "prepTime": 75,
   "cookTime": 45,

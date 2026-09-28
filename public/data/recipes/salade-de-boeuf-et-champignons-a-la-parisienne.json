@@ -3,8 +3,8 @@
   "title": "Salade de bœuf et champignons à la parisienne",
   "description": "Une salade composée de bœuf cuit émincé, champignons de Paris au citron et pommes de terre au vin blanc, dressée sur laitue avec tomates et œufs durs.",
   "images": {
-    "cover": "images/recipes/salade-de-boeuf-et-champignons-a-la-parisienne/cover.svg",
-    "web": "images/recipes/salade-de-boeuf-et-champignons-a-la-parisienne/cover.svg"
+    "cover": "images/recipes/salade-de-boeuf-et-champignons-a-la-parisienne/cover.webp",
+    "web": "images/recipes/salade-de-boeuf-et-champignons-a-la-parisienne/web.webp"
   },
   "prepTime": 60,
   "cookTime": 25,

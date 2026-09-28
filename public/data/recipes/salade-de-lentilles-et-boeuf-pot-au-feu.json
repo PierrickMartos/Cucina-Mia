@@ -3,8 +3,8 @@
   "title": "Salade de lentilles et bœuf « pot au feu »",
   "description": "Une salade de lentilles du Puy et de dés de bœuf de pot au feu, avec germes de soja, oignons, échalotes et vinaigrette à la moutarde.",
   "images": {
-    "cover": "images/recipes/salade-de-lentilles-et-boeuf-pot-au-feu/cover.svg",
-    "web": "images/recipes/salade-de-lentilles-et-boeuf-pot-au-feu/cover.svg"
+    "cover": "images/recipes/salade-de-lentilles-et-boeuf-pot-au-feu/cover.webp",
+    "web": "images/recipes/salade-de-lentilles-et-boeuf-pot-au-feu/web.webp"
   },
   "prepTime": 20,
   "cookTime": 30,

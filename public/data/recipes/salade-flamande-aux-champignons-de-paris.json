@@ -3,8 +3,8 @@
   "title": "Salade flamande aux champignons de Paris",
   "description": "Salade de pommes de terre, endives et champignons de Paris crus à la vinaigrette, décorée d'un quadrillage de filets de hareng.",
   "images": {
-    "cover": "images/recipes/salade-flamande-aux-champignons-de-paris/cover.svg",
-    "web": "images/recipes/salade-flamande-aux-champignons-de-paris/cover.svg"
+    "cover": "images/recipes/salade-flamande-aux-champignons-de-paris/cover.webp",
+    "web": "images/recipes/salade-flamande-aux-champignons-de-paris/web.webp"
   },
   "prepTime": 80,
   "cookTime": 20,

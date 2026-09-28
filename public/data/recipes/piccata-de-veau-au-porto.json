@@ -3,8 +3,8 @@
   "title": "Piccata de veau au Porto",
   "description": "Petites escalopes de veau dorées au beurre, nappées d'une julienne de champignons, jambon et langue écarlate au Porto et au fond de veau.",
   "images": {
-    "cover": "images/recipes/piccata-de-veau-au-porto/cover.svg",
-    "web": "images/recipes/piccata-de-veau-au-porto/cover.svg"
+    "cover": "images/recipes/piccata-de-veau-au-porto/cover.webp",
+    "web": "images/recipes/piccata-de-veau-au-porto/web.webp"
   },
   "prepTime": 20,
   "cookTime": 15,

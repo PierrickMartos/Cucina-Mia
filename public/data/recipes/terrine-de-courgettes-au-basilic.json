@@ -3,8 +3,8 @@
   "title": "Terrine de courgettes au basilic",
   "description": "Une terrine moelleuse de courgettes en bâtonnets et de basilic, liée aux œufs et à la crème, cuite au bain-marie et servie tiède ou froide.",
   "images": {
-    "cover": "images/recipes/terrine-de-courgettes-au-basilic/cover.svg",
-    "web": "images/recipes/terrine-de-courgettes-au-basilic/cover.svg"
+    "cover": "images/recipes/terrine-de-courgettes-au-basilic/cover.webp",
+    "web": "images/recipes/terrine-de-courgettes-au-basilic/web.webp"
   },
   "prepTime": 20,
   "cookTime": 45,

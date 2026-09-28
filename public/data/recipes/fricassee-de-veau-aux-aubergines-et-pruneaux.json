@@ -3,8 +3,8 @@
   "title": "Fricassée de veau aux aubergines et pruneaux",
   "description": "Une fricassée d'épaule de veau mijotée au vin blanc, garnie d'aubergines dorées et de pruneaux cuits au vin.",
   "images": {
-    "cover": "images/recipes/fricassee-de-veau-aux-aubergines-et-pruneaux/cover.svg",
-    "web": "images/recipes/fricassee-de-veau-aux-aubergines-et-pruneaux/cover.svg"
+    "cover": "images/recipes/fricassee-de-veau-aux-aubergines-et-pruneaux/cover.webp",
+    "web": "images/recipes/fricassee-de-veau-aux-aubergines-et-pruneaux/web.webp"
   },
   "prepTime": 40,
   "cookTime": 90,

@@ -3,8 +3,8 @@
   "title": "Salade de haddock au riz et chou rouge",
   "description": "Une salade composée de riz, de chou rouge émincé et blanchi, et de haddock poché émietté, liée d'une vinaigrette aux fines herbes.",
   "images": {
-    "cover": "images/recipes/salade-de-haddock-au-riz-et-chou-rouge/cover.svg",
-    "web": "images/recipes/salade-de-haddock-au-riz-et-chou-rouge/cover.svg"
+    "cover": "images/recipes/salade-de-haddock-au-riz-et-chou-rouge/cover.webp",
+    "web": "images/recipes/salade-de-haddock-au-riz-et-chou-rouge/web.webp"
   },
   "prepTime": 25,
   "cookTime": 25,
