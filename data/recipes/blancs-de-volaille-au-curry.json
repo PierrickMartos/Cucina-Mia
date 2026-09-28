@@ -3,8 +3,8 @@
   "title": "Blancs de volaille au curry",
   "description": "Aiguillettes de volaille dorées au beurre, mijotées dans une sauce au curry, tomate, pomme et crème à l'amande.",
   "images": {
-    "cover": "images/recipes/blancs-de-volaille-au-curry/cover.svg",
-    "web": "images/recipes/blancs-de-volaille-au-curry/cover.svg"
+    "cover": "images/recipes/blancs-de-volaille-au-curry/cover.webp",
+    "web": "images/recipes/blancs-de-volaille-au-curry/web.webp"
   },
   "prepTime": 25,
   "cookTime": 25,

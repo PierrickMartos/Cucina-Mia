@@ -3,8 +3,8 @@
   "title": "Assiette Neptune",
   "description": "Une assiette froide de la mer : terrine de poissons, tomate garnie de mousse d'avocat et croustade de moules et coques à la mayonnaise au Ketchup.",
   "images": {
-    "cover": "images/recipes/assiette-neptune/cover.svg",
-    "web": "images/recipes/assiette-neptune/cover.svg"
+    "cover": "images/recipes/assiette-neptune/cover.webp",
+    "web": "images/recipes/assiette-neptune/web.webp"
   },
   "prepTime": 15,
   "cookTime": 0,

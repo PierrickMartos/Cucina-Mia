@@ -3,8 +3,8 @@
   "title": "Crêpes savoyardes aux morilles",
   "description": "Crêpes de sarrasin garnies d'une béchamel à l'emmenthal, d'une tranche de jambon et de morilles à la crème, roulées puis chauffées doucement.",
   "images": {
-    "cover": "images/recipes/crepes-savoyardes-aux-morilles/cover.svg",
-    "web": "images/recipes/crepes-savoyardes-aux-morilles/cover.svg"
+    "cover": "images/recipes/crepes-savoyardes-aux-morilles/cover.webp",
+    "web": "images/recipes/crepes-savoyardes-aux-morilles/web.webp"
   },
   "prepTime": 90,
   "cookTime": 45,

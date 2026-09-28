@@ -3,8 +3,8 @@
   "title": "Salade chinoise aux champignons de Paris",
   "description": "Salade de riz, courgettes, tomates, champignons, jambon et crabe, avec des omelettes aux herbes roulées et ciselées, servie fraîche.",
   "images": {
-    "cover": "images/recipes/salade-chinoise-aux-champignons-de-paris/cover.svg",
-    "web": "images/recipes/salade-chinoise-aux-champignons-de-paris/cover.svg"
+    "cover": "images/recipes/salade-chinoise-aux-champignons-de-paris/cover.webp",
+    "web": "images/recipes/salade-chinoise-aux-champignons-de-paris/web.webp"
   },
   "prepTime": 60,
   "cookTime": 30,

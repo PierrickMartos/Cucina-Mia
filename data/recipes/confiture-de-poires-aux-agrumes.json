@@ -3,8 +3,8 @@
   "title": "Confiture de poires aux agrumes",
   "description": "Une confiture de poires, oranges, pamplemousses et citrons macérés une nuit, relevée de raisins de Smyrne et de noix concassées.",
   "images": {
-    "cover": "images/recipes/confiture-de-poires-aux-agrumes/cover.svg",
-    "web": "images/recipes/confiture-de-poires-aux-agrumes/cover.svg"
+    "cover": "images/recipes/confiture-de-poires-aux-agrumes/cover.webp",
+    "web": "images/recipes/confiture-de-poires-aux-agrumes/web.webp"
   },
   "prepTime": 45,
   "cookTime": 65,

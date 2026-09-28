@@ -3,8 +3,8 @@
   "title": "Salade de riz aux fruits de mer",
   "description": "Une salade de riz fraîche aux moules, coques, crabe et crevettes, avec poivrons, tomates et laitue, relevée d'une vinaigrette citronnée.",
   "images": {
-    "cover": "images/recipes/salade-de-riz-aux-fruits-de-mer/cover.svg",
-    "web": "images/recipes/salade-de-riz-aux-fruits-de-mer/cover.svg"
+    "cover": "images/recipes/salade-de-riz-aux-fruits-de-mer/cover.webp",
+    "web": "images/recipes/salade-de-riz-aux-fruits-de-mer/web.webp"
   },
   "prepTime": 40,
   "cookTime": 25,

@@ -3,8 +3,8 @@
   "title": "Salade de coquillettes à la mexicaine",
   "description": "Une salade de coquillettes au maïs, aux poivrons, aux tomates et aux raisins blancs, liée d'une mayonnaise relevée au curry.",
   "images": {
-    "cover": "images/recipes/salade-de-coquillettes-a-la-mexicaine/cover.svg",
-    "web": "images/recipes/salade-de-coquillettes-a-la-mexicaine/cover.svg"
+    "cover": "images/recipes/salade-de-coquillettes-a-la-mexicaine/cover.webp",
+    "web": "images/recipes/salade-de-coquillettes-a-la-mexicaine/web.webp"
   },
   "prepTime": 30,
   "cookTime": 10,

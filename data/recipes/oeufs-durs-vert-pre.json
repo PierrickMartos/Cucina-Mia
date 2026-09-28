@@ -3,8 +3,8 @@
   "title": "Œufs durs vert pré",
   "description": "Des œufs durs posés sur une salade de pommes de terre aux échalotes et fines herbes, nappés de sauce « vert pré ».",
   "images": {
-    "cover": "images/recipes/oeufs-durs-vert-pre/cover.svg",
-    "web": "images/recipes/oeufs-durs-vert-pre/cover.svg"
+    "cover": "images/recipes/oeufs-durs-vert-pre/cover.webp",
+    "web": "images/recipes/oeufs-durs-vert-pre/web.webp"
   },
   "prepTime": 20,
   "cookTime": 25,

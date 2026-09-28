@@ -3,8 +3,8 @@
   "title": "Biscuit aux poires et chocolat noir",
   "description": "Une charlotte de fête : biscuits à la cuillère, génoise au chocolat, marquise au chocolat et mousse de poires, décorée de poires en éventail.",
   "images": {
-    "cover": "images/recipes/biscuit-aux-poires-et-chocolat-noir/cover.svg",
-    "web": "images/recipes/biscuit-aux-poires-et-chocolat-noir/cover.svg"
+    "cover": "images/recipes/biscuit-aux-poires-et-chocolat-noir/cover.webp",
+    "web": "images/recipes/biscuit-aux-poires-et-chocolat-noir/web.webp"
   },
   "prepTime": 90,
   "cookTime": 45,

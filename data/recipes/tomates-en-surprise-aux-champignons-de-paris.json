@@ -3,8 +3,8 @@
   "title": "Tomates en surprise aux champignons de Paris",
   "description": "Des tomates évidées, garnies de champignons citronnés, maïs et petits pois à la mayonnaise, coiffées de crevettes et de persil, servies sur une feuille de laitue.",
   "images": {
-    "cover": "images/recipes/tomates-en-surprise-aux-champignons-de-paris/cover.svg",
-    "web": "images/recipes/tomates-en-surprise-aux-champignons-de-paris/cover.svg"
+    "cover": "images/recipes/tomates-en-surprise-aux-champignons-de-paris/cover.webp",
+    "web": "images/recipes/tomates-en-surprise-aux-champignons-de-paris/web.webp"
   },
   "prepTime": 30,
   "cookTime": 0,

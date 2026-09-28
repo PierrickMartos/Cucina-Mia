@@ -3,8 +3,8 @@
   "title": "La calderade de poisson",
   "description": "Un gratin de poisson en couches : pommes de terre sautées, oignons, poivrons et tomates relevés au cumin et à la harissa, mouillé au fumet puis gratiné.",
   "images": {
-    "cover": "images/recipes/calderade-de-poisson/cover.svg",
-    "web": "images/recipes/calderade-de-poisson/cover.svg"
+    "cover": "images/recipes/calderade-de-poisson/cover.webp",
+    "web": "images/recipes/calderade-de-poisson/web.webp"
   },
   "prepTime": 40,
   "cookTime": 45,
