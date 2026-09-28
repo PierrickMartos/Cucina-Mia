@@ -3,8 +3,8 @@
   "title": "Pudding aux fruits",
   "description": "Un pudding de biscuits cuillère, raisins et fruits confits macérés au rhum ou au kirsch, cuit au bain-marie et servi froid avec une crème anglaise.",
   "images": {
-    "cover": "images/recipes/pudding-aux-fruits/cover.svg",
-    "web": "images/recipes/pudding-aux-fruits/cover.svg"
+    "cover": "images/recipes/pudding-aux-fruits/cover.webp",
+    "web": "images/recipes/pudding-aux-fruits/web.webp"
   },
   "prepTime": 30,
   "cookTime": 35,

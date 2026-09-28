@@ -315,32 +315,145 @@
       "sourceImage": "https://assets.afcdn.com/recipe/20150426/60553_w1024h768c1cx708cy559.jpg",
       "match": "Tuna tomato pepper quiche; source puff pastry rather than shortcrust, includes sheep cheese, turmeric and basil.",
       "prompt": "Preserve food, ingredients, vessel and plating; moody dark rustic wood, upper-left warm natural light, soft shadows, shallow depth of field, landscape crop; no added ingredients, text or hands."
+    },
+    {
+      "slug": "timbale-d-epinards",
+      "sourcePage": "https://chefsimon.com/gourmets/marlyzen/recettes/timbales-d-epinards",
+      "sourceImage": "https://s3-eu-west-1.amazonaws.com/images-ca-1-0-1-eu/recipe_photos/original/122850/P1140585.jpg",
+      "match": "Timbales cylindriques aux épinards hachés et appareil crémeux aux oeufs, sans sauce ni garniture.",
+      "prompt": "Preserve food, ingredients, vessel and plating; moody dark rustic wood, upper-left warm natural light, soft shadows, shallow depth of field, landscape crop; no added ingredients, text or hands."
+    },
+    {
+      "slug": "petits-biscuits-au-chocolat",
+      "sourcePage": "https://cuisine.journaldesfemmes.fr/recette/353050-fondant-au-chocolat-et-sa-creme-anglaise",
+      "sourceImage": "https://img-3.journaldesfemmes.fr/iCQUzZNxIzmhuQcG6YzfzJHsFt8%3D/750x500/smart/4003f6fe4a9849a2bd2acf3cc5b736bf/recipe-jdf/383476.jpg",
+      "match": "Moelleux individuel au chocolat noir, coeur fondant et crème anglaise. Source au coeur obtenu par cuisson courte plutôt que carrés insérés.",
+      "prompt": "Preserve food, ingredients, vessel and plating; moody dark rustic wood, upper-left warm natural light, soft shadows, shallow depth of field, landscape crop; no added ingredients, text or hands."
+    },
+    {
+      "slug": "poularde-en-pot-au-feu",
+      "sourcePage": "https://www.academiedugout.fr/recettes/poule-au-pot-riz-sauce-supreme_10011_2",
+      "sourceImage": "https://www.academiedugout.fr/media/50675/10011-poule-au-pot-riz-sauce-supreme-2.jpg?width=1200",
+      "match": "Volaille pochée avec légumes, riz et sauce ivoire. Présentation individuelle avec sauce déjà versée plutôt que servie à part.",
+      "prompt": "Preserve food, ingredients, vessel and plating; moody dark rustic wood, upper-left warm natural light, soft shadows, shallow depth of field, landscape crop; no added ingredients, text or hands."
+    },
+    {
+      "slug": "terrine-de-lapin-aux-noisettes-et-genievre",
+      "sourcePage": "https://www.marmiton.org/recettes/recette_terrine-de-lapin-aux-noisettes_13444.aspx",
+      "sourceImage": "https://assets.afcdn.com/recipe/20181216/84870_w1024h768c1cx2546cy1702cxt0cyt0cxb5093cyb3404.jpg",
+      "match": "Terrine de lapin aux noisettes entières, texture rustique. Variante source plus riche en gelée, sans filet central distinct.",
+      "prompt": "Preserve food, ingredients, vessel and plating; moody dark rustic wood, upper-left warm natural light, soft shadows, shallow depth of field, landscape crop; no added ingredients, text or hands."
+    },
+    {
+      "slug": "bavarois-a-la-banane",
+      "sourcePage": "https://cookpad.com/jp/recipes/24321252",
+      "sourceImage": "https://img-global-jp.cpcdn.com/recipes/6e81aaf6c42f963c/1200x630cq80/photo.jpg",
+      "match": "Bavarois individuel banane sur base de crème aux oeufs et gélatine. Variante source avec morceaux et rondelle de banane plutôt que purée intégrale.",
+      "prompt": "Preserve food, ingredients, vessel and plating; moody dark rustic wood, upper-left warm natural light, soft shadows, shallow depth of field, landscape crop; no added ingredients, text or hands."
+    },
+    {
+      "slug": "oeufs-poches-en-matelote",
+      "sourcePage": "https://www.denstoltehane.no/recipe/eggs-en-meurette/",
+      "sourceImage": "https://www.denstoltehane.no/app/uploads/sites/2/2021/03/21-024-3.jpg",
+      "match": "Oeufs pochés, pain grillé, poitrine et sauce au vin rouge sans champignons. Variante de dressage avec échalotes visibles et oeufs pochés à part.",
+      "prompt": "Preserve food, ingredients, vessel and plating; moody dark rustic wood, upper-left warm natural light, soft shadows, shallow depth of field, landscape crop; no added ingredients, text or hands."
+    },
+    {
+      "slug": "dartois-savoyard",
+      "sourcePage": "https://poupoucook.wordpress.com/2013/12/05/feuillete-maison-au-jambon/",
+      "sourceImage": "https://poupoucook.wordpress.com/wp-content/uploads/2013/12/image9.jpg",
+      "match": "Feuilleté fermé jambon, béchamel, fromage. Garniture conforme; présentation source plus large que la bande traditionnelle du dartois.",
+      "prompt": "Preserve food, ingredients, vessel and plating; moody dark rustic wood, upper-left warm natural light, soft shadows, shallow depth of field, landscape crop; no added ingredients, text or hands."
+    },
+    {
+      "slug": "pudding-aux-fruits",
+      "sourcePage": "https://www.marmiton.org/recettes/recette_diplomate-brioche_36264.aspx",
+      "sourceImage": "https://assets.afcdn.com/recipe/20130627/39418_w1944h1242c1cx1250cy1875.jpg",
+      "match": "Pudding diplomate cuit au bain-marie, fruits confits et raisins dans appareil aux oeufs. Variante avec brioche plutôt que biscuits cuillère.",
+      "prompt": "Preserve food, ingredients, vessel and plating; moody dark rustic wood, upper-left warm natural light, soft shadows, shallow depth of field, landscape crop; no added ingredients, text or hands."
+    },
+    {
+      "slug": "biscuit-aux-pruneaux",
+      "sourcePage": "https://www.saveurs-gourmandises.com/2016/11/gateau-aux-pruneaux-dagen.html",
+      "sourceImage": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhSjj12_fO6PBrQy-FfFN0cuC1sN2IT4mb58rfhk1_5uhyphenhyphene6sBKcDuDcHarCMqiZ67qqRaKyWY7hcBc86pCXA1U8dPmMAY37oh2DWx64tr4y34NuVDAfkGkOyXewb5CtjFU2SLMvn98NgFa/s16000/DSC_3418.JPG",
+      "match": "Biscuit moelleux aux pruneaux en morceaux, sans crème de garniture; variante source au lait plutôt que crème et alcool de prune.",
+      "prompt": "Preserve food, ingredients, vessel and plating; moody dark rustic wood, upper-left warm natural light, soft shadows, shallow depth of field, landscape crop; no added ingredients, text or hands."
+    },
+    {
+      "slug": "quenelles-du-papi",
+      "sourcePage": "https://www.aperitif.no/oppskrifter/oppskrift/quenelles-boller-av-ferskvannsfisk%2C2361352",
+      "sourceImage": "https://www.aperitif.no/storage/image/core_files/2024/3/24/1a4d7562c5098de4cc2d5621fd10fa43/jpg/aperitif/article_details_medium/iStock-1311047825.jpg",
+      "match": "Quenelles de poisson moulées à la cuillère et pochées dans un bouillon, sans gratin ni sauce ajoutée.",
+      "prompt": "Preserve food, ingredients, vessel and plating; moody dark rustic wood, upper-left warm natural light, soft shadows, shallow depth of field, landscape crop; no added ingredients, text or hands."
+    },
+    {
+      "slug": "flan-au-cacao",
+      "sourcePage": "https://aquisecocina.blogspot.com/2014/05/flan-de-chocolate.html",
+      "sourceImage": "https://2.bp.blogspot.com/-gBXZeEKYXN0/U4YxHlwkQNI/AAAAAAAAFzc/ziOOObTF9IM/s1600/Flan%2Bde%2Bchocolate.jpg",
+      "match": "Flan individuel aux oeufs et cacao, démoulé avec menthe. Variante source caramélisée; sauce au chocolat blanc de la recette non représentée.",
+      "prompt": "Preserve food, ingredients, vessel and plating; moody dark rustic wood, upper-left warm natural light, soft shadows, shallow depth of field, landscape crop; no added ingredients, text or hands."
+    },
+    {
+      "slug": "soupe-de-peches-aux-agrumes",
+      "sourcePage": "https://www.opinion.com.bo/articulo/tendencias/duraznos-con-citricos/20120807213000662610.html",
+      "sourceImage": "https://www.opinion.com.bo/media/opinion/images/2012/08/08/2012S3544.jpg",
+      "match": "Pêches pelées en demi-fruits dans sirop aux agrumes. Pêches jaunes plutôt que blanches, menthe de présentation et zestes peu visibles.",
+      "prompt": "Preserve food, ingredients, vessel and plating; moody dark rustic wood, upper-left warm natural light, soft shadows, shallow depth of field, landscape crop; no added ingredients, text or hands."
+    },
+    {
+      "slug": "gelee-d-agrumes-aux-zestes-confits",
+      "sourcePage": "https://freerecipehub.blogspot.com/2011/08/three-fruit-marmalade.html",
+      "sourceImage": "https://4.bp.blogspot.com/-2lo6mWTEYjI/TkucMg-w0LI/AAAAAAAACMU/6LOyxfQWF7o/s1600/82018.jpg",
+      "match": "Conserve translucide orange-pamplemousse-citron avec zestes. Variante marmelade à zestes plus longs que les zestes hachés de la recette.",
+      "prompt": "Preserve food, ingredients, vessel and plating; moody dark rustic wood, upper-left warm natural light, soft shadows, shallow depth of field, landscape crop; no added ingredients, text or hands."
+    },
+    {
+      "slug": "confiture-d-oignons-et-de-raisins",
+      "sourcePage": "https://unjardindansmacuisine.com/confit-oignons-miel-vinaigre-balsamique/",
+      "sourceImage": "https://unjardindansmacuisine.com/wp-content/uploads/2017/10/confit-oignons-miel-vinaigre-balsamique-un-jardin-dans-ma-cuisine-2.jpg",
+      "match": "Confit oignons et raisins au miel et vinaigre. Variante balsamique, oignons en lamelles plutôt que hachés très finement.",
+      "prompt": "Preserve food, ingredients, vessel and plating; moody dark rustic wood, upper-left warm natural light, soft shadows, shallow depth of field, landscape crop; no added ingredients, text or hands."
+    },
+    {
+      "slug": "rable-et-cuisses-de-lapin",
+      "sourcePage": "https://migusto.migros.ch/de/rezepte/kaninchenragout-mit-aepfeln-und-cidre",
+      "sourceImage": "https://recipeimages.migros.ch/crop/v-w-1200-h-630-a-center_center/57a09ebbd03c284da91e97b78fbe1bb1ca723494/kaninchenragout-mit-aepfeln-und-cidre-0-16-9.jpg",
+      "match": "Lapin braisé au cidre, pommes, oignons et sauce crémeuse. Variante photographiée avec pommes non pelées et aromates visibles.",
+      "prompt": "Preserve food, ingredients, vessel and plating; moody dark rustic wood, upper-left warm natural light, soft shadows, shallow depth of field, landscape crop; no added ingredients, text or hands."
+    },
+    {
+      "slug": "crepes-a-la-peche-et-glace",
+      "sourcePage": "https://www.gastronom.ru/recipe/27437/bliny-s-persikami",
+      "sourceImage": "https://images.gastronom.ru/hjQ1jffFyDJddke2dAu1xQJrGr-5PmE5BS92bmIfoU0/pr%3Arecipe-cover-image/g%3Ace/rs%3Aauto%3A0%3A0%3A0/L2Ntcy9hbGwtaW1hZ2VzLzJiNzZkNTY4LTUxYjItNDM3Zi1iMDM5LWUwNjlkMzZiZGY4Mi5qcGc.webp",
+      "match": "Crêpes fines pliées, pêches au sirop et glace vanille. Pêches en quartiers plutôt qu'en demi-fruits, glace servie dessus plutôt que dans le pli.",
+      "prompt": "Preserve food, ingredients, vessel and plating; moody dark rustic wood, upper-left warm natural light, soft shadows, shallow depth of field, landscape crop; no added ingredients, text or hands."
+    },
+    {
+      "slug": "fruits-deguises",
+      "sourcePage": "https://piroulie.canalblog.com/archives/2009/03/29/12916115.html",
+      "sourceImage": "https://storage.canalblog.com/23/20/417812/81941478_o.jpg",
+      "match": "Dattes et noix garnies de pâte d’amandes, glaçage brillant et caissettes individuelles. Assortiment photographié limité aux dattes et noix, sans pruneaux visibles ; glaçage au sirop plutôt que caramel pour les noix.",
+      "prompt": "Preserve food, ingredients, vessel and plating; moody dark rustic wood, upper-left warm natural light, soft shadows, shallow depth of field, landscape crop; no added ingredients, text or hands."
     }
   ],
   "pending": [
     "assiette-de-crudites",
     "assiette-neptune",
     "bar-loup-de-mer-sauce-regence-farci-d-une-mosaique-de-legumes",
-    "bavarois-a-la-banane",
     "biscuit-aux-poires-et-chocolat-noir",
-    "biscuit-aux-pruneaux",
     "blancs-de-volaille-au-curry",
     "calderade-de-poisson",
     "canard-farci-braise-aux-navets",
     "chausson-ou-feuillete-aux-fruits-de-mer",
     "concombres-farcis",
-    "confiture-d-oignons-et-de-raisins",
     "confiture-de-poires-aux-agrumes",
     "couscous-de-poissons-et-fruits-de-mer",
-    "crepes-a-la-peche-et-glace",
     "crepes-savoyardes-aux-morilles",
     "dartois-au-thon",
-    "dartois-savoyard",
     "escalopes-de-canard-au-gingembre",
     "escargots-a-la-forestiere",
     "faisan-braise-sur-choucroute",
     "filets-de-sole-a-la-norvegienne",
-    "flan-au-cacao",
     "flan-au-crabe",
     "flan-de-foie-de-volaille",
     "flan-de-foie-de-volaille-et-sa-mousse-de-tomates",
@@ -351,8 +464,6 @@
     "fonds-d-artichaut-a-l-orientale",
     "fricassee-de-lotte-aux-pates-fraiches",
     "fricassee-de-veau-aux-aubergines-et-pruneaux",
-    "fruits-deguises",
-    "gelee-d-agrumes-aux-zestes-confits",
     "gelee-et-confit-de-coings-et-pommes",
     "gratin-de-bananes-kiwis-ananas",
     "gratin-de-bananes-kiwis-ananas-mangues-litchis",
@@ -362,20 +473,14 @@
     "mousse-de-poisson",
     "oeufs-durs-vert-pre",
     "oeufs-en-gelee",
-    "oeufs-poches-en-matelote",
     "pain-d-oeufs-a-la-basquaise",
     "pate-en-croute-de-veau-et-jambon-aux-pistaches",
     "paupiette-de-sole-farcie-aux-crevettes",
-    "petits-biscuits-au-chocolat",
     "piccata-de-veau-au-porto",
     "pintadeau-au-paprika",
-    "poularde-en-pot-au-feu",
     "poulet-au-miel-et-aux-epices",
-    "pudding-aux-fruits",
     "pudding-de-fruits",
-    "quenelles-du-papi",
     "quiche-aux-moules-et-champignons",
-    "rable-et-cuisses-de-lapin",
     "salade-chinoise-aux-champignons-de-paris",
     "salade-de-boeuf-et-champignons-a-la-parisienne",
     "salade-de-coquillettes-a-la-mexicaine",
@@ -389,14 +494,11 @@
     "souffle-arlequin",
     "souffle-martiniquais",
     "soupe-de-peches-a-la-menthe-et-chocolat-noir",
-    "soupe-de-peches-aux-agrumes",
     "tagliatelles-aux-moules",
     "tarte-a-la-nicoise",
     "terrine-aux-crevettes-et-poivrons-verts",
     "terrine-de-courgettes-au-basilic",
-    "terrine-de-lapin-aux-noisettes-et-genievre",
     "terrines-et-mousse-de-poisson",
-    "timbale-d-epinards",
     "timbale-de-fruits-de-mer",
     "tomates-en-surprise-aux-champignons-de-paris",
     "tourte-cherbourgeoise"

@@ -3,8 +3,8 @@
   "title": "Biscuit aux pruneaux",
   "description": "Un biscuit moelleux garni de pruneaux macérés dans l'alcool de prune, cuit dans un moule à génoise.",
   "images": {
-    "cover": "images/recipes/biscuit-aux-pruneaux/cover.svg",
-    "web": "images/recipes/biscuit-aux-pruneaux/cover.svg"
+    "cover": "images/recipes/biscuit-aux-pruneaux/cover.webp",
+    "web": "images/recipes/biscuit-aux-pruneaux/web.webp"
   },
   "prepTime": 25,
   "cookTime": 45,

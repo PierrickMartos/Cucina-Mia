@@ -3,8 +3,8 @@
   "title": "Petits biscuits au chocolat",
   "description": "Petits moelleux au chocolat noir amer, garnis de deux carrés de chocolat au cœur, servis tièdes avec une crème anglaise.",
   "images": {
-    "cover": "images/recipes/petits-biscuits-au-chocolat/cover.svg",
-    "web": "images/recipes/petits-biscuits-au-chocolat/cover.svg"
+    "cover": "images/recipes/petits-biscuits-au-chocolat/cover.webp",
+    "web": "images/recipes/petits-biscuits-au-chocolat/web.webp"
   },
   "prepTime": 20,
   "cookTime": 15,

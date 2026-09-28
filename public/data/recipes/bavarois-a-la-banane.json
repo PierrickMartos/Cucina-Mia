@@ -3,8 +3,8 @@
   "title": "Bavarois à la banane",
   "description": "Une purée de bananes au citron vert, liée à une crème anglaise gélifiée et parfumée au rhum ou au cointreau, servie en ramequins.",
   "images": {
-    "cover": "images/recipes/bavarois-a-la-banane/cover.svg",
-    "web": "images/recipes/bavarois-a-la-banane/cover.svg"
+    "cover": "images/recipes/bavarois-a-la-banane/cover.webp",
+    "web": "images/recipes/bavarois-a-la-banane/web.webp"
   },
   "prepTime": 30,
   "cookTime": 15,

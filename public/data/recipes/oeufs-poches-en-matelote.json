@@ -3,8 +3,8 @@
   "title": "Œufs pochés en matelote",
   "description": "Des œufs pochés dans une matelote au vin rouge, servis sur du pain de mie grillé avec de la poitrine fumée et nappés de sauce.",
   "images": {
-    "cover": "images/recipes/oeufs-poches-en-matelote/cover.svg",
-    "web": "images/recipes/oeufs-poches-en-matelote/cover.svg"
+    "cover": "images/recipes/oeufs-poches-en-matelote/cover.webp",
+    "web": "images/recipes/oeufs-poches-en-matelote/web.webp"
   },
   "prepTime": 15,
   "cookTime": 35,

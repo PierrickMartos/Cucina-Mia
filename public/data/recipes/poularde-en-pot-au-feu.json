@@ -3,8 +3,8 @@
   "title": "Poularde en pot au feu",
   "description": "Une grosse poularde pochée avec ses légumes, découpée et servie avec une sauce crémée au roux blond et un riz pilaf.",
   "images": {
-    "cover": "images/recipes/poularde-en-pot-au-feu/cover.svg",
-    "web": "images/recipes/poularde-en-pot-au-feu/cover.svg"
+    "cover": "images/recipes/poularde-en-pot-au-feu/cover.webp",
+    "web": "images/recipes/poularde-en-pot-au-feu/web.webp"
   },
   "prepTime": 30,
   "cookTime": 85,
