@@ -3,8 +3,8 @@
   "title": "Terrines et mousse de poisson",
   "description": "Une mousse de merlan garnie de Saint-Jacques, crevettes, coques et moules, montée en terrine avec des aiguillettes de saumon ou cuite en ramequins.",
   "images": {
-    "cover": "images/recipes/terrines-et-mousse-de-poisson/cover.svg",
-    "web": "images/recipes/terrines-et-mousse-de-poisson/cover.svg"
+    "cover": "images/recipes/terrines-et-mousse-de-poisson/cover.webp",
+    "web": "images/recipes/terrines-et-mousse-de-poisson/web.webp"
   },
   "prepTime": 90,
   "cookTime": 40,

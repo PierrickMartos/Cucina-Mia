@@ -3,8 +3,8 @@
   "title": "Escalopes de canard au gingembre",
   "description": "Escalopes de canard parfumées au gingembre, dorées au beurre et nappées d'une sauce au vin blanc et à la crème, avec une garniture au choix.",
   "images": {
-    "cover": "images/recipes/escalopes-de-canard-au-gingembre/cover.svg",
-    "web": "images/recipes/escalopes-de-canard-au-gingembre/cover.svg"
+    "cover": "images/recipes/escalopes-de-canard-au-gingembre/cover.webp",
+    "web": "images/recipes/escalopes-de-canard-au-gingembre/web.webp"
   },
   "prepTime": 140,
   "cookTime": 25,

@@ -3,8 +3,8 @@
   "title": "Timbale de fruits de mer",
   "description": "Lotte, Saint-Jacques, moules, coques, crevettes et quenelles de brochet liées d'une sauce veloutée à la crème, servies en légumier ou en croûte feuilletée.",
   "images": {
-    "cover": "images/recipes/timbale-de-fruits-de-mer/cover.svg",
-    "web": "images/recipes/timbale-de-fruits-de-mer/cover.svg"
+    "cover": "images/recipes/timbale-de-fruits-de-mer/cover.webp",
+    "web": "images/recipes/timbale-de-fruits-de-mer/web.webp"
   },
   "prepTime": 45,
   "cookTime": 60,

@@ -3,8 +3,8 @@
   "title": "Gratin de bananes, kiwis, ananas",
   "description": "Bananes, kiwis et ananas caramélisés et flambés au Cointreau, nappés d'une crème aux œufs et gratinés au four.",
   "images": {
-    "cover": "images/recipes/gratin-de-bananes-kiwis-ananas/cover.svg",
-    "web": "images/recipes/gratin-de-bananes-kiwis-ananas/cover.svg"
+    "cover": "images/recipes/gratin-de-bananes-kiwis-ananas/cover.webp",
+    "web": "images/recipes/gratin-de-bananes-kiwis-ananas/web.webp"
   },
   "prepTime": 20,
   "cookTime": 50,

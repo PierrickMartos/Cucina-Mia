@@ -13068,8 +13068,8 @@
     "title": "Tarte à la niçoise",
     "description": "Une tarte sur pâte brisée garnie d'oignons compotés, de tomates concassées à l'ail et au romarin et d'olives noires, nappée d'appareil à quiche.",
     "images": {
-      "cover": "images/recipes/tarte-a-la-nicoise/cover.svg",
-      "web": "images/recipes/tarte-a-la-nicoise/cover.svg"
+      "cover": "images/recipes/tarte-a-la-nicoise/cover.webp",
+      "web": "images/recipes/tarte-a-la-nicoise/web.webp"
     },
     "prepTime": 30,
     "cookTime": 45,
@@ -13344,8 +13344,8 @@
     "title": "Couscous de poissons et fruits de mer",
     "description": "Un couscous de la mer généreux : moules, coques, calamars, lotte, pétoncles et rascasse mijotés dans un fumet safrané, servis avec une semoule au beurre.",
     "images": {
-      "cover": "images/recipes/couscous-de-poissons-et-fruits-de-mer/cover.svg",
-      "web": "images/recipes/couscous-de-poissons-et-fruits-de-mer/cover.svg"
+      "cover": "images/recipes/couscous-de-poissons-et-fruits-de-mer/cover.webp",
+      "web": "images/recipes/couscous-de-poissons-et-fruits-de-mer/web.webp"
     },
     "prepTime": 90,
     "cookTime": 100,
@@ -13553,8 +13553,8 @@
     "title": "Filets de sole à la norvégienne",
     "description": "Ballotins de filets de sole garnis d'une mousse de merlan à l'aneth et de saumon fumé, pochés puis servis froids en médaillons.",
     "images": {
-      "cover": "images/recipes/filets-de-sole-a-la-norvegienne/cover.svg",
-      "web": "images/recipes/filets-de-sole-a-la-norvegienne/cover.svg"
+      "cover": "images/recipes/filets-de-sole-a-la-norvegienne/cover.webp",
+      "web": "images/recipes/filets-de-sole-a-la-norvegienne/web.webp"
     },
     "prepTime": 45,
     "cookTime": 10,
@@ -13755,8 +13755,8 @@
     "title": "Fricassée de lotte aux pâtes fraîches",
     "description": "Des cubes de lotte revenus puis mijotés sur une garniture de tomates, poivrons et basilic liée à la crème, servis avec des nouilles fraîches au beurre.",
     "images": {
-      "cover": "images/recipes/fricassee-de-lotte-aux-pates-fraiches/cover.svg",
-      "web": "images/recipes/fricassee-de-lotte-aux-pates-fraiches/cover.svg"
+      "cover": "images/recipes/fricassee-de-lotte-aux-pates-fraiches/cover.webp",
+      "web": "images/recipes/fricassee-de-lotte-aux-pates-fraiches/web.webp"
     },
     "prepTime": 60,
     "cookTime": 50,
@@ -13824,8 +13824,8 @@
     "title": "Haddock à l'alsacienne",
     "description": "Des morceaux de haddock pochés au lait, posés sur une choucroute cuite au vin blanc et nappés d'une sauce au beurre et à la crème.",
     "images": {
-      "cover": "images/recipes/haddock-a-l-alsacienne/cover.svg",
-      "web": "images/recipes/haddock-a-l-alsacienne/cover.svg"
+      "cover": "images/recipes/haddock-a-l-alsacienne/cover.webp",
+      "web": "images/recipes/haddock-a-l-alsacienne/web.webp"
     },
     "prepTime": 30,
     "cookTime": 70,
@@ -14105,8 +14105,8 @@
     "title": "La marmite du pêcheur",
     "description": "Lotte, loup, mulet, rouget, moules et crevettes servis en petites terrines, nappés d'une garniture de poireaux, fenouil et tomates au fumet safrané.",
     "images": {
-      "cover": "images/recipes/marmite-du-pecheur/cover.svg",
-      "web": "images/recipes/marmite-du-pecheur/cover.svg"
+      "cover": "images/recipes/marmite-du-pecheur/cover.webp",
+      "web": "images/recipes/marmite-du-pecheur/web.webp"
     },
     "prepTime": 60,
     "cookTime": 60,
@@ -14247,8 +14247,8 @@
     "title": "Mousse de poisson",
     "description": "Une mousse de merlan à l'aneth, garnie de crevettes et de coques, cuite au bain-marie en terrine chemisée de saumon ou en ramequins.",
     "images": {
-      "cover": "images/recipes/mousse-de-poisson/cover.svg",
-      "web": "images/recipes/mousse-de-poisson/cover.svg"
+      "cover": "images/recipes/mousse-de-poisson/cover.webp",
+      "web": "images/recipes/mousse-de-poisson/web.webp"
     },
     "prepTime": 40,
     "cookTime": 45,
@@ -14313,8 +14313,8 @@
     "title": "Paupiette de sole farcie aux crevettes",
     "description": "Filets de sole roulés sur une farce de merlan aux crevettes, pochés dans un fumet corsé et nappés d'une sauce à la crème.",
     "images": {
-      "cover": "images/recipes/paupiette-de-sole-farcie-aux-crevettes/cover.svg",
-      "web": "images/recipes/paupiette-de-sole-farcie-aux-crevettes/cover.svg"
+      "cover": "images/recipes/paupiette-de-sole-farcie-aux-crevettes/cover.webp",
+      "web": "images/recipes/paupiette-de-sole-farcie-aux-crevettes/web.webp"
     },
     "prepTime": 60,
     "cookTime": 55,
@@ -14518,8 +14518,8 @@
     "title": "Terrine aux crevettes et poivrons verts",
     "description": "Une farce fine de merlan relevée à la harissa, garnie de crevettes et de poivrons verts, pochée au bain-marie et servie froide ou chaude.",
     "images": {
-      "cover": "images/recipes/terrine-aux-crevettes-et-poivrons-verts/cover.svg",
-      "web": "images/recipes/terrine-aux-crevettes-et-poivrons-verts/cover.svg"
+      "cover": "images/recipes/terrine-aux-crevettes-et-poivrons-verts/cover.webp",
+      "web": "images/recipes/terrine-aux-crevettes-et-poivrons-verts/web.webp"
     },
     "prepTime": 45,
     "cookTime": 60,
@@ -14587,8 +14587,8 @@
     "title": "Terrines et mousse de poisson",
     "description": "Une mousse de merlan garnie de Saint-Jacques, crevettes, coques et moules, montée en terrine avec des aiguillettes de saumon ou cuite en ramequins.",
     "images": {
-      "cover": "images/recipes/terrines-et-mousse-de-poisson/cover.svg",
-      "web": "images/recipes/terrines-et-mousse-de-poisson/cover.svg"
+      "cover": "images/recipes/terrines-et-mousse-de-poisson/cover.webp",
+      "web": "images/recipes/terrines-et-mousse-de-poisson/web.webp"
     },
     "prepTime": 90,
     "cookTime": 40,
@@ -14653,8 +14653,8 @@
     "title": "Timbale de fruits de mer",
     "description": "Lotte, Saint-Jacques, moules, coques, crevettes et quenelles de brochet liées d'une sauce veloutée à la crème, servies en légumier ou en croûte feuilletée.",
     "images": {
-      "cover": "images/recipes/timbale-de-fruits-de-mer/cover.svg",
-      "web": "images/recipes/timbale-de-fruits-de-mer/cover.svg"
+      "cover": "images/recipes/timbale-de-fruits-de-mer/cover.webp",
+      "web": "images/recipes/timbale-de-fruits-de-mer/web.webp"
     },
     "prepTime": 45,
     "cookTime": 60,
@@ -14719,8 +14719,8 @@
     "title": "Tourte cherbourgeoise",
     "description": "Une tourte normande sur pâte brisée : coquilles Saint-Jacques flambées, champignons crus et crème au corail, parfumée au Cognac ou au Calvados.",
     "images": {
-      "cover": "images/recipes/tourte-cherbourgeoise/cover.svg",
-      "web": "images/recipes/tourte-cherbourgeoise/cover.svg"
+      "cover": "images/recipes/tourte-cherbourgeoise/cover.webp",
+      "web": "images/recipes/tourte-cherbourgeoise/web.webp"
     },
     "prepTime": 40,
     "cookTime": 35,
@@ -14854,8 +14854,8 @@
     "title": "Canard farci braisé aux navets",
     "description": "Un canard farci de chair à saucisse, raisins de Malaga et olives, braisé au vin blanc et servi avec des navets glacés.",
     "images": {
-      "cover": "images/recipes/canard-farci-braise-aux-navets/cover.svg",
-      "web": "images/recipes/canard-farci-braise-aux-navets/cover.svg"
+      "cover": "images/recipes/canard-farci-braise-aux-navets/cover.webp",
+      "web": "images/recipes/canard-farci-braise-aux-navets/web.webp"
     },
     "prepTime": 30,
     "cookTime": 85,
@@ -15142,8 +15142,8 @@
     "title": "Escalopes de canard au gingembre",
     "description": "Escalopes de canard parfumées au gingembre, dorées au beurre et nappées d'une sauce au vin blanc et à la crème, avec une garniture au choix.",
     "images": {
-      "cover": "images/recipes/escalopes-de-canard-au-gingembre/cover.svg",
-      "web": "images/recipes/escalopes-de-canard-au-gingembre/cover.svg"
+      "cover": "images/recipes/escalopes-de-canard-au-gingembre/cover.webp",
+      "web": "images/recipes/escalopes-de-canard-au-gingembre/web.webp"
     },
     "prepTime": 140,
     "cookTime": 25,
@@ -15563,8 +15563,8 @@
     "title": "Fondant de foie de volaille",
     "description": "Un fondant de foies de volaille au Porto et au Cognac, cuit la veille au bain-marie, servi avec des raisins au miel et une salade.",
     "images": {
-      "cover": "images/recipes/fondant-de-foie-de-volaille/cover.svg",
-      "web": "images/recipes/fondant-de-foie-de-volaille/cover.svg"
+      "cover": "images/recipes/fondant-de-foie-de-volaille/cover.webp",
+      "web": "images/recipes/fondant-de-foie-de-volaille/web.webp"
     },
     "prepTime": 40,
     "cookTime": 60,
@@ -15905,8 +15905,8 @@
     "title": "Pintadeau au paprika",
     "description": "Pintade dorée puis cuite au four au vin blanc et au paprika, nappée d'une sauce au maïs et servie avec des crêpes au maïs.",
     "images": {
-      "cover": "images/recipes/pintadeau-au-paprika/cover.svg",
-      "web": "images/recipes/pintadeau-au-paprika/cover.svg"
+      "cover": "images/recipes/pintadeau-au-paprika/cover.webp",
+      "web": "images/recipes/pintadeau-au-paprika/web.webp"
     },
     "prepTime": 30,
     "cookTime": 60,
@@ -17444,8 +17444,8 @@
     "title": "Fondant aux abricots",
     "description": "Un fondant moelleux aux abricots pochés et à la poudre d'amande, cuit au bain-marie dans un moule caramélisé, servi avec une crème anglaise.",
     "images": {
-      "cover": "images/recipes/fondant-aux-abricots/cover.svg",
-      "web": "images/recipes/fondant-aux-abricots/cover.svg"
+      "cover": "images/recipes/fondant-aux-abricots/cover.webp",
+      "web": "images/recipes/fondant-aux-abricots/web.webp"
     },
     "prepTime": 30,
     "cookTime": 60,
@@ -17582,8 +17582,8 @@
     "title": "Gratin de bananes, kiwis, ananas",
     "description": "Bananes, kiwis et ananas caramélisés et flambés au Cointreau, nappés d'une crème aux œufs et gratinés au four.",
     "images": {
-      "cover": "images/recipes/gratin-de-bananes-kiwis-ananas/cover.svg",
-      "web": "images/recipes/gratin-de-bananes-kiwis-ananas/cover.svg"
+      "cover": "images/recipes/gratin-de-bananes-kiwis-ananas/cover.webp",
+      "web": "images/recipes/gratin-de-bananes-kiwis-ananas/web.webp"
     },
     "prepTime": 20,
     "cookTime": 50,
@@ -17651,8 +17651,8 @@
     "title": "Gratin de bananes, kiwis, ananas, mangues, litchis",
     "description": "Fruits exotiques sautés au beurre, caramélisés et flambés au Cointreau, puis gratinés au four sous une crème aux œufs.",
     "images": {
-      "cover": "images/recipes/gratin-de-bananes-kiwis-ananas-mangues-litchis/cover.svg",
-      "web": "images/recipes/gratin-de-bananes-kiwis-ananas-mangues-litchis/cover.svg"
+      "cover": "images/recipes/gratin-de-bananes-kiwis-ananas-mangues-litchis/cover.webp",
+      "web": "images/recipes/gratin-de-bananes-kiwis-ananas-mangues-litchis/web.webp"
     },
     "prepTime": 20,
     "cookTime": 45,
@@ -17720,8 +17720,8 @@
     "title": "Gratin de fruits exotiques (autre préparation)",
     "description": "Ananas, mangues, kiwis et litchis macérés au Cointreau, nappés d'un sabayon au sirop et gratinés sous la salamandre.",
     "images": {
-      "cover": "images/recipes/gratin-de-fruits-exotiques-autre-preparation/cover.svg",
-      "web": "images/recipes/gratin-de-fruits-exotiques-autre-preparation/cover.svg"
+      "cover": "images/recipes/gratin-de-fruits-exotiques-autre-preparation/cover.webp",
+      "web": "images/recipes/gratin-de-fruits-exotiques-autre-preparation/web.webp"
     },
     "prepTime": 90,
     "cookTime": 25,
@@ -18337,8 +18337,8 @@
     "title": "Soupe de pêches à la menthe et chocolat noir",
     "description": "Des pêches blanches au jus de citron, baignées d'un sirop vanillé à la menthe fraîche et parsemées de copeaux de chocolat noir.",
     "images": {
-      "cover": "images/recipes/soupe-de-peches-a-la-menthe-et-chocolat-noir/cover.svg",
-      "web": "images/recipes/soupe-de-peches-a-la-menthe-et-chocolat-noir/cover.svg"
+      "cover": "images/recipes/soupe-de-peches-a-la-menthe-et-chocolat-noir/cover.webp",
+      "web": "images/recipes/soupe-de-peches-a-la-menthe-et-chocolat-noir/web.webp"
     },
     "prepTime": 35,
     "cookTime": 5,
@@ -20646,8 +20646,8 @@
     "title": "Soufflé martiniquais",
     "description": "Un soufflé sucré sur une base de crème pâtissière à la vanille, relevée de raisins de Smyrne et de liqueur de café.",
     "images": {
-      "cover": "images/recipes/souffle-martiniquais/cover.svg",
-      "web": "images/recipes/souffle-martiniquais/cover.svg"
+      "cover": "images/recipes/souffle-martiniquais/cover.webp",
+      "web": "images/recipes/souffle-martiniquais/web.webp"
     },
     "prepTime": 25,
     "cookTime": 40,

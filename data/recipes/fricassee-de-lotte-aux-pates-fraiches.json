@@ -3,8 +3,8 @@
   "title": "Fricassée de lotte aux pâtes fraîches",
   "description": "Des cubes de lotte revenus puis mijotés sur une garniture de tomates, poivrons et basilic liée à la crème, servis avec des nouilles fraîches au beurre.",
   "images": {
-    "cover": "images/recipes/fricassee-de-lotte-aux-pates-fraiches/cover.svg",
-    "web": "images/recipes/fricassee-de-lotte-aux-pates-fraiches/cover.svg"
+    "cover": "images/recipes/fricassee-de-lotte-aux-pates-fraiches/cover.webp",
+    "web": "images/recipes/fricassee-de-lotte-aux-pates-fraiches/web.webp"
   },
   "prepTime": 60,
   "cookTime": 50,

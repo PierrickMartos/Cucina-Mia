@@ -3,8 +3,8 @@
   "title": "Tarte à la niçoise",
   "description": "Une tarte sur pâte brisée garnie d'oignons compotés, de tomates concassées à l'ail et au romarin et d'olives noires, nappée d'appareil à quiche.",
   "images": {
-    "cover": "images/recipes/tarte-a-la-nicoise/cover.svg",
-    "web": "images/recipes/tarte-a-la-nicoise/cover.svg"
+    "cover": "images/recipes/tarte-a-la-nicoise/cover.webp",
+    "web": "images/recipes/tarte-a-la-nicoise/web.webp"
   },
   "prepTime": 30,
   "cookTime": 45,

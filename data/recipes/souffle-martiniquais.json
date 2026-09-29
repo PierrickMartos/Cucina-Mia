@@ -3,8 +3,8 @@
   "title": "Soufflé martiniquais",
   "description": "Un soufflé sucré sur une base de crème pâtissière à la vanille, relevée de raisins de Smyrne et de liqueur de café.",
   "images": {
-    "cover": "images/recipes/souffle-martiniquais/cover.svg",
-    "web": "images/recipes/souffle-martiniquais/cover.svg"
+    "cover": "images/recipes/souffle-martiniquais/cover.webp",
+    "web": "images/recipes/souffle-martiniquais/web.webp"
   },
   "prepTime": 25,
   "cookTime": 40,

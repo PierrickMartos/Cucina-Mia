@@ -3,8 +3,8 @@
   "title": "Gratin de bananes, kiwis, ananas, mangues, litchis",
   "description": "Fruits exotiques sautés au beurre, caramélisés et flambés au Cointreau, puis gratinés au four sous une crème aux œufs.",
   "images": {
-    "cover": "images/recipes/gratin-de-bananes-kiwis-ananas-mangues-litchis/cover.svg",
-    "web": "images/recipes/gratin-de-bananes-kiwis-ananas-mangues-litchis/cover.svg"
+    "cover": "images/recipes/gratin-de-bananes-kiwis-ananas-mangues-litchis/cover.webp",
+    "web": "images/recipes/gratin-de-bananes-kiwis-ananas-mangues-litchis/web.webp"
   },
   "prepTime": 20,
   "cookTime": 45,
