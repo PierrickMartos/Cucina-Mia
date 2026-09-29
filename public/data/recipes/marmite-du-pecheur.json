@@ -3,8 +3,8 @@
   "title": "La marmite du pêcheur",
   "description": "Lotte, loup, mulet, rouget, moules et crevettes servis en petites terrines, nappés d'une garniture de poireaux, fenouil et tomates au fumet safrané.",
   "images": {
-    "cover": "images/recipes/marmite-du-pecheur/cover.svg",
-    "web": "images/recipes/marmite-du-pecheur/cover.svg"
+    "cover": "images/recipes/marmite-du-pecheur/cover.webp",
+    "web": "images/recipes/marmite-du-pecheur/web.webp"
   },
   "prepTime": 60,
   "cookTime": 60,

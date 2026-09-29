@@ -3,8 +3,8 @@
   "title": "Fondant de foie de volaille",
   "description": "Un fondant de foies de volaille au Porto et au Cognac, cuit la veille au bain-marie, servi avec des raisins au miel et une salade.",
   "images": {
-    "cover": "images/recipes/fondant-de-foie-de-volaille/cover.svg",
-    "web": "images/recipes/fondant-de-foie-de-volaille/cover.svg"
+    "cover": "images/recipes/fondant-de-foie-de-volaille/cover.webp",
+    "web": "images/recipes/fondant-de-foie-de-volaille/web.webp"
   },
   "prepTime": 40,
   "cookTime": 60,

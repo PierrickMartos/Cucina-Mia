@@ -3,8 +3,8 @@
   "title": "Fondant aux abricots",
   "description": "Un fondant moelleux aux abricots pochés et à la poudre d'amande, cuit au bain-marie dans un moule caramélisé, servi avec une crème anglaise.",
   "images": {
-    "cover": "images/recipes/fondant-aux-abricots/cover.svg",
-    "web": "images/recipes/fondant-aux-abricots/cover.svg"
+    "cover": "images/recipes/fondant-aux-abricots/cover.webp",
+    "web": "images/recipes/fondant-aux-abricots/web.webp"
   },
   "prepTime": 30,
   "cookTime": 60,

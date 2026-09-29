@@ -3,8 +3,8 @@
   "title": "Haddock à l'alsacienne",
   "description": "Des morceaux de haddock pochés au lait, posés sur une choucroute cuite au vin blanc et nappés d'une sauce au beurre et à la crème.",
   "images": {
-    "cover": "images/recipes/haddock-a-l-alsacienne/cover.svg",
-    "web": "images/recipes/haddock-a-l-alsacienne/cover.svg"
+    "cover": "images/recipes/haddock-a-l-alsacienne/cover.webp",
+    "web": "images/recipes/haddock-a-l-alsacienne/web.webp"
   },
   "prepTime": 30,
   "cookTime": 70,

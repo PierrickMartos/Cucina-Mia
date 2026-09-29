@@ -3,8 +3,8 @@
   "title": "Canard farci braisé aux navets",
   "description": "Un canard farci de chair à saucisse, raisins de Malaga et olives, braisé au vin blanc et servi avec des navets glacés.",
   "images": {
-    "cover": "images/recipes/canard-farci-braise-aux-navets/cover.svg",
-    "web": "images/recipes/canard-farci-braise-aux-navets/cover.svg"
+    "cover": "images/recipes/canard-farci-braise-aux-navets/cover.webp",
+    "web": "images/recipes/canard-farci-braise-aux-navets/web.webp"
   },
   "prepTime": 30,
   "cookTime": 85,

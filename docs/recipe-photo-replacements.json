@@ -735,30 +735,161 @@
       "sourceImage": "https://images.lecker.de/fischfilet-aus-dem-ofen/1x1%2Cid%3Df311b1ae%2Cb%3Dlecker%2Cw%3D1600%2Ch%3D%2Cca%3D0%2C12.54%2C100%2C87.46%2Crm%3Dsk.jpeg",
       "match": "Photo réelle de gratin de poisson, pommes de terre, tomate et poivrons. La composition finale montre les couches au cumin et harissa avec une légère croûte de parmesan.",
       "prompt": "Exact recipe composition: layered potato, white fish, onion, peppers and tomato gratin with cumin, harissa, fish stock and Parmesan."
+    },
+    {
+      "slug": "canard-farci-braise-aux-navets",
+      "sourcePage": "https://www.academiedugout.fr/recettes/canard-farci-aux-olives-a_4805_4",
+      "sourceImage": "https://www.academiedugout.fr/media/2827/canard-farcis.eps.jpg?width=1200",
+      "match": "Photo réelle de canard farci aux olives. La composition finale ajoute les raisins de Malaga et les navets glacés de la recette.",
+      "prompt": "Exact recipe composition: whole braised duck stuffed with sausage meat, Malaga raisins and green olives, served with glazed white turnips."
+    },
+    {
+      "slug": "couscous-de-poissons-et-fruits-de-mer",
+      "sourcePage": "https://www.gqitalia.it/lifestyle/article/cous-cous-alla-trapanese-ricetta",
+      "sourceImage": "https://media.gqitalia.it/photos/5fdcd405fd43ff50331839e3/1%3A1/w_2393%2Ch_2393%2Cc_limit/GettyImages-158312195.jpg",
+      "match": "Photo réelle de couscous de poisson sicilien. La composition finale réunit précisément moules, coques, calamars, lotte, pétoncles, rascasse et crevettes.",
+      "prompt": "Exact recipe composition: saffron seafood couscous with mussels, cockles, calamari, monkfish, scallops, redfish and shrimp."
+    },
+    {
+      "slug": "escalopes-de-canard-au-gingembre",
+      "sourcePage": "https://cuisine.journaldesfemmes.fr/recette/354758-magret-de-canard-a-la-mousse-d-orange",
+      "sourceImage": "https://img-3.journaldesfemmes.fr/u2_9vS2BprsHDeqGy0gBuMM6kgw%3D/750x500/e44e56eef55645068dc01e65f689e46f/ccmcms-jdf/39883847.jpg",
+      "match": "Photo réelle de canard avec figue et navets glacés. La composition finale remplace la sauce orange par la sauce crème, vin blanc et gingembre de la recette.",
+      "prompt": "Exact recipe composition: pan-seared duck escalopes with ginger cream and white-wine sauce, glazed turnip rounds and fresh fig."
+    },
+    {
+      "slug": "filets-de-sole-a-la-norvegienne",
+      "sourcePage": "https://www.colruyt.be/fr/recettes/medaillons-de-sole-a-la-mousse-de-saumon-et-poireaux",
+      "sourceImage": "https://fgdjrynm.filerobot.com/recipes/281c525714d280ae46412c330688ff6c59169e1e095cfa2eb26e3e4f4f5cbb70.jpg?h=800&q=60&vh=bda613&w=800",
+      "match": "Photo réelle de médaillons de sole farcis. La composition finale emploie une mousse de merlan à l’aneth et une bande de saumon fumé.",
+      "prompt": "Exact recipe composition: cold sole ballotine medallions with dill-flecked whiting mousse and visible smoked salmon ribbon."
+    },
+    {
+      "slug": "tarte-a-la-nicoise",
+      "sourcePage": "https://www.kuechengoetter.de/rezepte/provenzalischer-tomaten-zwiebel-kuchen-7461",
+      "sourceImage": "https://www.kuechengoetter.de/uploads/media/1800x1200/00/11120-provenzalischer-tomaten-zwiebel-kuchen.jpg?v=2-17",
+      "match": "Photo réelle de tarte provençale aux tomates, oignons et olives noires.",
+      "prompt": "Exact recipe composition: shortcrust tart with onion compote, garlic-rosemary crushed tomato, black olives and quiche custard."
+    },
+    {
+      "slug": "fricassee-de-lotte-aux-pates-fraiches",
+      "sourcePage": "https://cuisine.land/astuces-et-recettes/2697-recette-lotte-aux-trois-poivrons.html",
+      "sourceImage": "https://cuisine.land/upload/recettes/large/250_HCWMRWJHQAQY1NLQ.jpg",
+      "match": "Photo réelle de lotte aux poivrons, crème et pâtes fraîches.",
+      "prompt": "Exact recipe composition: browned monkfish cubes, tomato, peppers, basil cream and buttered fresh ribbon noodles."
+    },
+    {
+      "slug": "haddock-a-l-alsacienne",
+      "sourcePage": "https://www.essen-und-trinken.de/rezepte/60013-rzpt-rahmsauerkraut-mit-kabeljau",
+      "sourceImage": "https://image.essen-und-trinken.de/11831956/t/uR/v9/w1440/r1.7778/-/rahmsauerkraut-mit-kabeljau-57fccb921d793fb21fe0a29034ddc312-fjt2014110341-jpg--8574-.jpg",
+      "match": "Photo réelle de poisson sur choucroute crémeuse. Le poisson final est du haddock poché au lait.",
+      "prompt": "Exact recipe composition: milk-poached smoked haddock on white-wine sauerkraut with carrot, onion and shallot cream sauce."
+    },
+    {
+      "slug": "marmite-du-pecheur",
+      "sourcePage": "https://gastrona.app/bouillabaisse",
+      "sourceImage": "https://vinomat-cdn.tamoniv.net/images/variants/cf0d11f3d790824785ef0cc8a10ec64472d6de6492ea71ae295f83aa177529b1.webp",
+      "match": "Photo réelle de marmite de poissons et crustacés au safran, tomate et fenouil.",
+      "prompt": "Exact recipe composition: monkfish, sea bass, mullet, red mullet, mussels and shrimp with leek, fennel and tomato saffron broth."
+    },
+    {
+      "slug": "mousse-de-poisson",
+      "sourcePage": "https://okdiario.com/recetas/receta-pate-salmon-ahumado-gambas-4557274",
+      "sourceImage": "https://okdiario.com/img/2019/09/11/pate-de-salmon-ahumado-y-gambas-1.jpg",
+      "match": "Photo réelle de mousse de poisson au saumon, crevettes et aneth.",
+      "prompt": "Exact recipe composition: salmon-lined whiting mousse terrine with dill, whole shrimp and cockles."
+    },
+    {
+      "slug": "paupiette-de-sole-farcie-aux-crevettes",
+      "sourcePage": "https://latabledamelie.blogspot.com/2012/04/filets-de-soles-farcis-aux-crevettes.html",
+      "sourceImage": "https://4.bp.blogspot.com/-YHxEI6WNdmA/T4QuhdDVnHI/AAAAAAAAHU4/_0xWP2g3mf8/w1200-h630-p-k-no-nu/filet-sole-roules-2.JPG",
+      "match": "Photo réelle de filets de sole farcis aux crevettes et sauce crème.",
+      "prompt": "Exact recipe composition: sole paupiettes around whiting-shrimp mousse, poached and served with concentrated fish-fumet cream sauce."
+    },
+    {
+      "slug": "terrine-aux-crevettes-et-poivrons-verts",
+      "sourcePage": "https://cookidoo.ch/recipes/recipe/en/r761107",
+      "sourceImage": "https://assets.tmecosys.com/image/upload/t_web767x639/img/recipe/ras/Assets/4d4ec8783074314cfdfb5bbf3f4da67d/Derivates/8aa28507f0d3b914178875f49a13fe44aa599c35.jpg",
+      "match": "Photo réelle de terrine de poisson aux crevettes et poivrons.",
+      "prompt": "Exact recipe composition: harissa-seasoned whiting terrine with whole shrimp and green pepper only."
+    },
+    {
+      "slug": "terrines-et-mousse-de-poisson",
+      "sourcePage": "https://cuisine.journaldesfemmes.fr/recette/3147894-terrine-de-saumon-st-jacques-et-crevettes-roses",
+      "sourceImage": "https://img-3.journaldesfemmes.fr/35C_SKmUiQO8_n00rDWepl4dvok%3D/800x600/83c18ebf409047248affe04069defce7/ccmcms-jdf/39928622.jpg",
+      "match": "Photo réelle de terrine de poisson aux Saint-Jacques, saumon et crevettes.",
+      "prompt": "Exact recipe composition: whiting mousse terrine with scallops, shrimp, cockles, mussels and central salmon strips."
+    },
+    {
+      "slug": "timbale-de-fruits-de-mer",
+      "sourcePage": "https://www.vanityfair.it/vanityfood/ricette/2018/05/24/ricette-piatti-francesi-classici-cucina-vintage",
+      "sourceImage": "https://media-assets.vanityfair.it/photos/614c6f27ae99f0ed8fc78bea/1%3A1/w_906%2Ch_906%2Cc_limit/choc-P.jpg",
+      "match": "Photo réelle de timbale feuilletée aux fruits de mer et sauce veloutée.",
+      "prompt": "Exact recipe composition: puff-pastry timbale with monkfish, scallops, mussels, cockles, shrimp, pike quenelles and mushrooms."
+    },
+    {
+      "slug": "tourte-cherbourgeoise",
+      "sourcePage": "https://picardreunion.com/les-quiches-tartes-tourtes-feuilletes/1090-tourte-st-jac-colin-500g.html",
+      "sourceImage": "https://picardreunion.com/12559-large_default/tourte-st-jac-colin-500g.jpg",
+      "match": "Photo réelle de tourte aux Saint-Jacques, champignons et crème.",
+      "prompt": "Exact recipe composition: enclosed Norman seafood pie with scallops, mushrooms, mussels, langoustine tails, truffle and coral Cognac cream."
+    },
+    {
+      "slug": "fondant-de-foie-de-volaille",
+      "sourcePage": "https://www.lecker.de/wintersalat-mit-gebratener-gaenseleber-60596.html",
+      "sourceImage": "https://images.lecker.de/wintersalat-mit-gebratener-ganseleber%2Cid%3D85db9831%2Cb%3Dlecker%2Cw%3D1600%2Crm%3Dsk.jpeg",
+      "match": "Photo réelle de foie avec salade et raisins. La composition finale devient le fondant lisse de la recette.",
+      "prompt": "Exact recipe composition: Port-Cognac chicken-liver fondant with honeyed white grapes and walnut-oil oak-leaf salad."
+    },
+    {
+      "slug": "pintadeau-au-paprika",
+      "sourcePage": "https://www.academiedugout.fr/recettes/pintade-polenta-de-mais-frais-tomate-marinee_14506_2",
+      "sourceImage": "https://www.academiedugout.fr/images/71638/970-580/frenchie-recettes-pintade-mais.jpg?poix=50&poiy=50",
+      "match": "Photo réelle de pintade et garniture de maïs. La composition finale suit la sauce paprika-maïs et les crêpes au maïs.",
+      "prompt": "Exact recipe composition: roast guinea fowl with paprika sweet-corn sauce and folded savory corn crêpes."
+    },
+    {
+      "slug": "fondant-aux-abricots",
+      "sourcePage": "https://www.houseandgarden.co.uk/recipe/apricot-custard",
+      "sourceImage": "https://media.houseandgarden.co.uk/photos/618946bcf9cf3d171adad412/1%3A1/pass/undefined",
+      "match": "Photo réelle de dessert crémeux aux abricots et amandes.",
+      "prompt": "Exact recipe composition: caramelized apricot-almond fondant pudding with poached apricot halves and vanilla crème anglaise."
+    },
+    {
+      "slug": "gratin-de-bananes-kiwis-ananas",
+      "sourcePage": "https://www.elle.se/mat-och-vin/gino-med-ananas-banan-och-kiwi/9953508",
+      "sourceImage": "https://image.elle.se/image-9953521?compression=90&croph=100&cropw=100&format=webp&height=687&imageId=9953521&width=1320&x=0&y=0",
+      "match": "Photo réelle de gratin de bananes, kiwis et ananas.",
+      "prompt": "Exact recipe composition: caramelized banana, kiwi and pineapple under browned egg-and-cream custard."
+    },
+    {
+      "slug": "gratin-de-bananes-kiwis-ananas-mangues-litchis",
+      "sourcePage": "https://www.colruyt.fr/fr/recettes/tarte-exotique",
+      "sourceImage": "https://fgdjrynm.filerobot.com/recipes/05c617524e6d8d89b657eba9f3c6645ce93c6b21164b9bde3b32d23928da1440.jpg?h=800&q=60&vh=118301&w=800",
+      "match": "Photo réelle réunissant bananes, kiwis, ananas, mangues et litchis.",
+      "prompt": "Exact recipe composition: five-fruit caramelized gratin under browned egg-and-cream custard."
+    },
+    {
+      "slug": "gratin-de-fruits-exotiques-autre-preparation",
+      "sourcePage": "https://www.roede.com/oppskrifter/tropiske-frukter-med-kesamsabayonne",
+      "sourceImage": "https://media.roede.com/904ab1f6-811b-11e8-9b11-fa163ea6bab0.jpg",
+      "match": "Photo réelle de fruits tropicaux nappés de sabayon.",
+      "prompt": "Exact recipe composition: pineapple, mango, kiwi and lychees in Cointreau vanilla-lime syrup under browned sabayon."
+    },
+    {
+      "slug": "soupe-de-peches-a-la-menthe-et-chocolat-noir",
+      "sourcePage": "https://www.memo.com.ar/cultura/domingo-menu-mendocino-en-trivento-una-experiencia-accesible-donde-el-vino-toma-la-delantera/",
+      "sourceImage": "https://www.memo.com.ar/files/image/100/100616/69a1a7b7cfa48_715_820%21.webp?d=1772201913&oe=jpg&s=9e9288dbd1cf3a81c2c84849250f0e74",
+      "match": "Photo réelle de dessert de pêches avec chocolat noir et menthe.",
+      "prompt": "Exact recipe composition: sliced white peaches in clear vanilla-lemon mint syrup with bitter dark-chocolate curls."
+    },
+    {
+      "slug": "souffle-martiniquais",
+      "sourcePage": "https://www.lacucinaitaliana.it/ricetta/dolci-e-dessert/souffle-allo-zabaione/",
+      "sourceImage": "https://media-assets.lacucinaitaliana.it/photos/61fa9a7b28bbd1b96fb6645f/3%3A2/w_1347%2Ch_898%2Cc_limit/empty",
+      "match": "Photo réelle de soufflé sucré aux raisins.",
+      "prompt": "Exact recipe composition: vanilla pastry-cream soufflé with Smyrna raisins soaked in coffee liqueur."
     }
   ],
-  "pending": [
-    "canard-farci-braise-aux-navets",
-    "couscous-de-poissons-et-fruits-de-mer",
-    "escalopes-de-canard-au-gingembre",
-    "filets-de-sole-a-la-norvegienne",
-    "fondant-aux-abricots",
-    "fondant-de-foie-de-volaille",
-    "fricassee-de-lotte-aux-pates-fraiches",
-    "gratin-de-bananes-kiwis-ananas",
-    "gratin-de-bananes-kiwis-ananas-mangues-litchis",
-    "gratin-de-fruits-exotiques-autre-preparation",
-    "haddock-a-l-alsacienne",
-    "marmite-du-pecheur",
-    "mousse-de-poisson",
-    "paupiette-de-sole-farcie-aux-crevettes",
-    "pintadeau-au-paprika",
-    "souffle-martiniquais",
-    "soupe-de-peches-a-la-menthe-et-chocolat-noir",
-    "tarte-a-la-nicoise",
-    "terrine-aux-crevettes-et-poivrons-verts",
-    "terrines-et-mousse-de-poisson",
-    "timbale-de-fruits-de-mer",
-    "tourte-cherbourgeoise"
-  ]
+  "pending": []
 }

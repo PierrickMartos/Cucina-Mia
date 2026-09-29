@@ -3,8 +3,8 @@
   "title": "Tourte cherbourgeoise",
   "description": "Une tourte normande sur pâte brisée : coquilles Saint-Jacques flambées, champignons crus et crème au corail, parfumée au Cognac ou au Calvados.",
   "images": {
-    "cover": "images/recipes/tourte-cherbourgeoise/cover.svg",
-    "web": "images/recipes/tourte-cherbourgeoise/cover.svg"
+    "cover": "images/recipes/tourte-cherbourgeoise/cover.webp",
+    "web": "images/recipes/tourte-cherbourgeoise/web.webp"
   },
   "prepTime": 40,
   "cookTime": 35,

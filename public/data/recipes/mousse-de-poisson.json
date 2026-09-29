@@ -3,8 +3,8 @@
   "title": "Mousse de poisson",
   "description": "Une mousse de merlan à l'aneth, garnie de crevettes et de coques, cuite au bain-marie en terrine chemisée de saumon ou en ramequins.",
   "images": {
-    "cover": "images/recipes/mousse-de-poisson/cover.svg",
-    "web": "images/recipes/mousse-de-poisson/cover.svg"
+    "cover": "images/recipes/mousse-de-poisson/cover.webp",
+    "web": "images/recipes/mousse-de-poisson/web.webp"
   },
   "prepTime": 40,
   "cookTime": 45,

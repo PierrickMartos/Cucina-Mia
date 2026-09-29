@@ -3,8 +3,8 @@
   "title": "Couscous de poissons et fruits de mer",
   "description": "Un couscous de la mer généreux : moules, coques, calamars, lotte, pétoncles et rascasse mijotés dans un fumet safrané, servis avec une semoule au beurre.",
   "images": {
-    "cover": "images/recipes/couscous-de-poissons-et-fruits-de-mer/cover.svg",
-    "web": "images/recipes/couscous-de-poissons-et-fruits-de-mer/cover.svg"
+    "cover": "images/recipes/couscous-de-poissons-et-fruits-de-mer/cover.webp",
+    "web": "images/recipes/couscous-de-poissons-et-fruits-de-mer/web.webp"
   },
   "prepTime": 90,
   "cookTime": 100,

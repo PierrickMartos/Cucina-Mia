@@ -3,8 +3,8 @@
   "title": "Soupe de pêches à la menthe et chocolat noir",
   "description": "Des pêches blanches au jus de citron, baignées d'un sirop vanillé à la menthe fraîche et parsemées de copeaux de chocolat noir.",
   "images": {
-    "cover": "images/recipes/soupe-de-peches-a-la-menthe-et-chocolat-noir/cover.svg",
-    "web": "images/recipes/soupe-de-peches-a-la-menthe-et-chocolat-noir/cover.svg"
+    "cover": "images/recipes/soupe-de-peches-a-la-menthe-et-chocolat-noir/cover.webp",
+    "web": "images/recipes/soupe-de-peches-a-la-menthe-et-chocolat-noir/web.webp"
   },
   "prepTime": 35,
   "cookTime": 5,

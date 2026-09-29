@@ -3,8 +3,8 @@
   "title": "Pintadeau au paprika",
   "description": "Pintade dorée puis cuite au four au vin blanc et au paprika, nappée d'une sauce au maïs et servie avec des crêpes au maïs.",
   "images": {
-    "cover": "images/recipes/pintadeau-au-paprika/cover.svg",
-    "web": "images/recipes/pintadeau-au-paprika/cover.svg"
+    "cover": "images/recipes/pintadeau-au-paprika/cover.webp",
+    "web": "images/recipes/pintadeau-au-paprika/web.webp"
   },
   "prepTime": 30,
   "cookTime": 60,
