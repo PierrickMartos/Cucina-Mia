@@ -20913,5 +20913,82 @@
     },
     "stepCount": 3,
     "ingredientCount": 9
+  },
+  {
+    "slug": "aubergines-teriyaki",
+    "title": "Aubergines teriyaki",
+    "description": "Des aubergines cuites à la vapeur puis caramélisées à la poêle dans une sauce teriyaki maison au gingembre, au mirin et au saké. Fondantes à souhait.",
+    "images": {
+      "cover": "images/recipes/aubergines-teriyaki/cover.webp",
+      "web": "images/recipes/aubergines-teriyaki/web.webp"
+    },
+    "prepTime": 15,
+    "cookTime": 30,
+    "servings": 2,
+    "difficulty": "Medio",
+    "category": "Secondi",
+    "tags": [
+      "aubergines",
+      "légumes",
+      "japonais",
+      "asiatique",
+      "végétarien",
+      "végétalien",
+      "sans-lactose",
+      "vapeur",
+      "poêle",
+      "plat-principal",
+      "umami",
+      "sucré-salé",
+      "fondant",
+      "chaud",
+      "réconfortant"
+    ],
+    "translations": {
+      "en": {
+        "title": "Teriyaki aubergines",
+        "description": "Aubergines steamed, then caramelised in a pan with a homemade teriyaki sauce of ginger, mirin and sake. Wonderfully melt-in-the-mouth.",
+        "tags": [
+          "aubergine",
+          "vegetables",
+          "japanese",
+          "asian",
+          "vegetarian",
+          "vegan",
+          "dairy-free",
+          "steamed",
+          "pan-fried",
+          "main-course",
+          "umami",
+          "sweet-and-savory",
+          "melting",
+          "hot",
+          "comforting"
+        ]
+      },
+      "it": {
+        "title": "Melanzane teriyaki",
+        "description": "Melanzane cotte al vapore e poi caramellate in padella con una salsa teriyaki fatta in casa allo zenzero, mirin e sakè. Morbidissime.",
+        "tags": [
+          "melanzane",
+          "verdure",
+          "giapponese",
+          "asiatico",
+          "vegetariano",
+          "vegano",
+          "senza-lattosio",
+          "al-vapore",
+          "padella",
+          "piatto-principale",
+          "umami",
+          "agrodolce",
+          "fondente",
+          "caldo",
+          "confortante"
+        ]
+      }
+    },
+    "stepCount": 11,
+    "ingredientCount": 11
   }
 ]
