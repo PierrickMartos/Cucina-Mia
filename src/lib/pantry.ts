@@ -256,6 +256,7 @@ export const PANTRY_ITEMS: PantryItem[] = [
   item("mustard", "pantry", "Moutarde", "Mustard", "Senape", ["mustard"]),
   item("vinegar", "pantry", "Vinaigre", "Vinegar", "Aceto", ["vinegar", "balsamic", "balsamic glaze", "rice vinegar", "wine vinegar"]),
   item("mirin", "pantry", "Mirin", "Mirin", "Mirin", ["mirin"]),
+  item("sake", "pantry", "Saké", "Sake", "Sakè", ["sake"]),
   item("sesame-oil", "pantry", "Huile de sésame", "Sesame oil", "Olio di sesamo", ["sesame oil"]),
   item("truffle-oil", "pantry", "Huile de truffe", "Truffle oil", "Olio al tartufo", ["truffle oil"]),
   item("truffle", "pantry", "Truffe noire", "Black truffle", "Tartufo nero", ["truffle", "black truffle"]),
