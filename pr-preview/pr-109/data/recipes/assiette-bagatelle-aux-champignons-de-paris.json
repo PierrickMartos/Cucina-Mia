@@ -1,0 +1,208 @@
+{
+  "slug": "assiette-bagatelle-aux-champignons-de-paris",
+  "title": "Assiette Bagatelle aux champignons de Paris",
+  "description": "Une assiette froide de carottes en julienne, concombres et champignons de Paris à la crème, avec des pointes d'asperges sur une feuille de laitue.",
+  "images": {
+    "cover": "images/recipes/assiette-bagatelle-aux-champignons-de-paris/cover.webp",
+    "web": "images/recipes/assiette-bagatelle-aux-champignons-de-paris/web.webp"
+  },
+  "imageCredit": {
+    "author": "tohma",
+    "url": "https://pixabay.com/users/tohma-263912/"
+  },
+  "prepTime": 90,
+  "cookTime": 0,
+  "servings": 10,
+  "difficulty": "Facile",
+  "category": "Antipasti",
+  "origin": "amelie-grandpa",
+  "tags": [
+    "champignons",
+    "légumes",
+    "entrée",
+    "froid",
+    "cru",
+    "no-cuisson",
+    "végétarien",
+    "facile",
+    "printemps",
+    "français",
+    "nostalgique",
+    "recette-de-famille"
+  ],
+  "ingredients": [
+    {
+      "items": [
+        "1 kg de champignons de Paris frais",
+        "1 kg de carottes",
+        "2 concombres",
+        "1 boîte ½ de pointes d'asperges",
+        "1 laitue",
+        "2 citrons",
+        "1 dl de crème",
+        "1 bouquet de persil",
+        "1 bouquet de cerfeuil",
+        "Ail",
+        "Huile",
+        "Vinaigre",
+        "Gros sel, sel fin, poivre"
+      ]
+    }
+  ],
+  "steps": [
+    {
+      "text": "Émincer les concombres et les mettre à dégorger dans une poignée de gros sel."
+    },
+    {
+      "text": "Tailler les carottes en fine julienne, assaisonner avec le jus de 1 citron, de l'ail haché, du sel, du poivre et de l'huile."
+    },
+    {
+      "text": "Émincer finement les champignons, mélanger avec le jus de 1 citron, assaisonner avec le sel, le poivre, le cerfeuil haché et la crème."
+    },
+    {
+      "text": "Égoutter les pointes d'asperges."
+    },
+    {
+      "text": "Préparer les feuilles de laitue."
+    },
+    {
+      "text": "Égoutter et presser les concombres, assaisonner de poivre moulu, de vinaigre, d'huile, de cerfeuil et de persil hachés."
+    },
+    {
+      "text": "Répartir dans chaque assiette : carottes, concombres et champignons. Disposer au milieu les pointes d'asperges dans une feuille de laitue."
+    }
+  ],
+  "source": "Les recettes de Maurice Houdré, tome 1, Les entrées en assiette froide et salades composées",
+  "originalSource": {
+    "type": "text",
+    "data": "Assiette Bagatelle aux champignons de Paris\n\nIngrédients : pour 10 à 12 personnes\n\n. 1 kg de champignons de Paris frais\t\tPréparation : 1 heure\n. 1 kg de carottes\t\t\t\t\tDressage : 30 minutes\n. 2 concombres\n. 1 boîte ½ de pointes d’asperges\n. 1 laitue\n. 2 citrons\n. 1 dl de crème\n. 1 bouquet de persil\n. 1 bouquet de cerfeuil\n. ail\n. huile\n. vinaigre\n. gros sel, sel fin, poivre\n\nPréparation :\n\nEmincer les concombres et les mettre à dégorger dans une poignée de gros sel.\nTailler les carottes en fine Julienne, assaisonner avec le jus de 1 citron, ail haché, sel, poivre, huile.\nEmincer finement les champignons, mélanger avec le jus de 1 citron, assaisonner avec le sel, poivre, cerfeuil haché et de la crème.\nEgoutter les pointes d’asperges.\nPréparer les feuilles de laitues.\nEgoutter et presser les concombres, assaisonner de poivre moulu, vinaigre, huile, cerfeuil et persil hachés.\nRépartir dans chaque assiette : carottes, concombres et champignons. Disposer au milieu les pointes d’asperges dans une feuille de laitue.\n"
+  },
+  "related": [
+    "tomates-en-surprise-aux-champignons-de-paris",
+    "salade-americaine-aux-champignons-de-paris",
+    "salade-de-boeuf-et-champignons-a-la-parisienne",
+    "assiette-de-crudites"
+  ],
+  "translations": {
+    "en": {
+      "title": "Bagatelle Plate with Button Mushrooms",
+      "description": "A cold plate of julienned carrots, cucumbers and button mushrooms in cream, with asparagus tips on a lettuce leaf.",
+      "tags": [
+        "mushrooms",
+        "vegetables",
+        "starter",
+        "cold",
+        "raw",
+        "no-cook",
+        "vegetarian",
+        "easy",
+        "spring",
+        "french",
+        "nostalgic",
+        "family-recipe"
+      ],
+      "ingredients": [
+        {
+          "items": [
+            "1 kg fresh button mushrooms",
+            "1 kg carrots",
+            "2 cucumbers",
+            "1 can (1/2 size) of asparagus tips",
+            "1 lettuce",
+            "2 lemons",
+            "1 dl cream",
+            "1 bunch of parsley",
+            "1 bunch of chervil",
+            "Garlic",
+            "Oil",
+            "Vinegar",
+            "Coarse salt, fine salt, pepper"
+          ]
+        }
+      ],
+      "steps": [
+        {
+          "text": "Thinly slice the cucumbers and leave them to release their water in a handful of coarse salt."
+        },
+        {
+          "text": "Cut the carrots into a fine julienne and season with the juice of 1 lemon, chopped garlic, salt, pepper and oil."
+        },
+        {
+          "text": "Thinly slice the mushrooms, mix with the juice of 1 lemon and season with salt, pepper, chopped chervil and the cream."
+        },
+        {
+          "text": "Drain the asparagus tips."
+        },
+        {
+          "text": "Prepare the lettuce leaves."
+        },
+        {
+          "text": "Drain and squeeze the cucumbers, then season with ground pepper, vinegar, oil, and chopped chervil and parsley."
+        },
+        {
+          "text": "Divide the carrots, cucumbers and mushrooms among the plates. Place the asparagus tips in a lettuce leaf in the middle."
+        }
+      ]
+    },
+    "it": {
+      "title": "Piatto Bagatelle ai funghi champignon",
+      "description": "Un piatto freddo di carote alla julienne, cetrioli e funghi champignon alla panna, con punte di asparagi su una foglia di lattuga.",
+      "tags": [
+        "funghi",
+        "verdure",
+        "antipasto",
+        "freddo",
+        "crudo",
+        "senza-cottura",
+        "vegetariano",
+        "facile",
+        "primavera",
+        "francese",
+        "nostalgico",
+        "ricetta-di-famiglia"
+      ],
+      "ingredients": [
+        {
+          "items": [
+            "1 kg di funghi champignon freschi",
+            "1 kg di carote",
+            "2 cetrioli",
+            "1 scatola 1/2 di punte di asparagi",
+            "1 lattuga",
+            "2 limoni",
+            "1 dl di panna",
+            "1 mazzetto di prezzemolo",
+            "1 mazzetto di cerfoglio",
+            "Aglio",
+            "Olio",
+            "Aceto",
+            "Sale grosso, sale fino, pepe"
+          ]
+        }
+      ],
+      "steps": [
+        {
+          "text": "Affettare sottilmente i cetrioli e lasciarli spurgare in una manciata di sale grosso."
+        },
+        {
+          "text": "Tagliare le carote a julienne sottile e condirle con il succo di 1 limone, aglio tritato, sale, pepe e olio."
+        },
+        {
+          "text": "Affettare sottilmente i funghi, mescolarli con il succo di 1 limone e condirli con sale, pepe, cerfoglio tritato e la panna."
+        },
+        {
+          "text": "Scolare le punte di asparagi."
+        },
+        {
+          "text": "Preparare le foglie di lattuga."
+        },
+        {
+          "text": "Scolare e strizzare i cetrioli, poi condirli con pepe macinato, aceto, olio, cerfoglio e prezzemolo tritati."
+        },
+        {
+          "text": "Distribuire in ogni piatto carote, cetrioli e funghi. Disporre al centro le punte di asparagi in una foglia di lattuga."
+        }
+      ]
+    }
+  }
+}
