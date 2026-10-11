@@ -1,0 +1,203 @@
+{
+  "slug": "crepes-flambees",
+  "title": "Crêpes flambées",
+  "description": "Des crêpes sucrées pliées en quatre, nappées d'un beurre sucré à l'alcool bien chaud et flambées, avec une variante crêpe Suzette à l'orange.",
+  "images": {
+    "cover": "images/recipes/crepes-flambees/cover.webp",
+    "web": "images/recipes/crepes-flambees/web.webp"
+  },
+  "imageCredit": {
+    "author": "RitaE",
+    "url": "https://pixabay.com/users/ritae-19628/"
+  },
+  "prepTime": 10,
+  "cookTime": 5,
+  "servings": 8,
+  "difficulty": "Facile",
+  "category": "Dolci",
+  "origin": "amelie-grandpa",
+  "tags": [
+    "crêpes",
+    "dessert",
+    "flambé",
+    "four",
+    "poêle",
+    "français",
+    "festif",
+    "gourmand",
+    "chaud",
+    "facile",
+    "nostalgique",
+    "recette-de-famille"
+  ],
+  "ingredients": [
+    {
+      "items": [
+        "1 recette de base de crêpes sucrées",
+        "60 g de beurre",
+        "60 g de sucre",
+        "1 dl d'alcool ou de liqueur (Cognac, Calvados, Cointreau, Grand-Marnier, etc.)"
+      ]
+    },
+    {
+      "group": "Variante (crêpe Suzette)",
+      "items": [
+        "60 g de beurre",
+        "60 g de sucre",
+        "1 orange (zeste râpé)",
+        "1 citron (zeste râpé)",
+        "2 à 3 cuillerées de liqueur d'orange, de Cointreau ou de Grand-Marnier"
+      ]
+    }
+  ],
+  "steps": [
+    {
+      "text": "Préparation de base : préparer les crêpes (voir la recette des crêpes sucrées)."
+    },
+    {
+      "text": "Dans une poêle, faire fondre le beurre, ajouter le sucre, mélanger le tout puis verser l'alcool ou la liqueur."
+    },
+    {
+      "text": "Plier les crêpes en quatre, les dresser sur un plat et les passer au four 3 à 4 minutes.",
+      "timers": [3]
+    },
+    {
+      "text": "Verser le mélange bien chaud sur les crêpes et les flamber."
+    },
+    {
+      "text": "Variante (crêpe Suzette) : dans un saladier ou une petite terrine, travailler avec un fouet 60 g de beurre et 60 g de sucre pour faire un appareil crémeux. Ajouter les zestes râpés d'une orange et d'un citron, puis 2 à 3 cuillerées de liqueur d'orange, de Cointreau ou de Grand-Marnier."
+    },
+    {
+      "text": "Étaler un peu de mélange sur chaque crêpe, les plier en quatre et les faire cuire au four."
+    }
+  ],
+  "source": "Les recettes de Maurice Houdré, tome 3, Les entremets",
+  "originalSource": {
+    "type": "text",
+    "data": "Crêpes flambées\n\nIngrédients : pour 8 personnes\n\n. 1 recette de base, crêpes sucrées\n. 60 g de beurre + 60 g de sucre\n. 1 dl d’alcool ou de liqueur (Cognac, Calvados, Cointreau, Grand-Marnier, etc…)\n\nPréparation de base :\nVoir recette « Crêpes sucrées ».\n\nDans une poêle, faire fondre le beurre, ajouter le sucre, mélanger le tout puis verser l’alcool ou la liqueur. Plier les crêpes en quatre, les dresser sur un plat et les passer au four 3 à 4 minutes.\nVerser le mélange bien chaud sur les crêpes et les flamber.\n\nVariante  (crêpe Suzette) :\nDans un saladier ou une petite terrine, travailler avec un fouet 60 g de beurre et 60 g de sucre pour faire un appareil crémeux, ajouter les zestes râpés d’une orange et d’un citron, 2 à 3 cuillérées de liqueur d’orange ou de Cointreau ou Grand-Marnier. Etaler un peu de mélange sur chaque crêpe, plier les en quatre et faire cuire au four.\n"
+  },
+  "related": [
+    "crepes-soufflees",
+    "crepes-normandes",
+    "gratin-de-bananes-kiwis-ananas",
+    "gratin-de-fruits-exotiques-autre-preparation"
+  ],
+  "translations": {
+    "en": {
+      "title": "Crêpes flambées",
+      "description": "Sweet crêpes folded into quarters, coated with piping-hot sugared butter and spirit, then flambéed, with an orange crêpe Suzette variation.",
+      "tags": [
+        "crepes",
+        "dessert",
+        "flambeed",
+        "oven",
+        "pan",
+        "french",
+        "festive",
+        "indulgent",
+        "hot",
+        "easy",
+        "nostalgic",
+        "family-recipe"
+      ],
+      "ingredients": [
+        {
+          "items": [
+            "1 batch of basic sweet crêpes",
+            "60 g butter",
+            "60 g sugar",
+            "1 dl spirit or liqueur (Cognac, Calvados, Cointreau, Grand Marnier, etc.)"
+          ]
+        },
+        {
+          "group": "Variation (crêpe Suzette)",
+          "items": [
+            "60 g butter",
+            "60 g sugar",
+            "1 orange (grated zest)",
+            "1 lemon (grated zest)",
+            "2 to 3 spoonfuls of orange liqueur, Cointreau or Grand Marnier"
+          ]
+        }
+      ],
+      "steps": [
+        {
+          "text": "Basic preparation: make the crêpes (see the sweet crêpes recipe)."
+        },
+        {
+          "text": "In a frying pan, melt the butter, add the sugar, stir everything together, then pour in the spirit or liqueur."
+        },
+        {
+          "text": "Fold the crêpes into quarters, arrange them on a dish and put them in the oven for 3 to 4 minutes."
+        },
+        {
+          "text": "Pour the piping-hot mixture over the crêpes and flambé them."
+        },
+        {
+          "text": "Variation (crêpe Suzette): in a mixing bowl or a small terrine, work 60 g of butter and 60 g of sugar with a whisk into a creamy mixture. Add the grated zest of one orange and one lemon, then 2 to 3 spoonfuls of orange liqueur, Cointreau or Grand Marnier."
+        },
+        {
+          "text": "Spread a little of the mixture on each crêpe, fold them into quarters and bake them in the oven."
+        }
+      ]
+    },
+    "it": {
+      "title": "Crêpes flambé",
+      "description": "Crêpes dolci piegate in quattro, nappate con burro zuccherato e liquore ben caldo e poi flambate, con una variante crêpe Suzette all'arancia.",
+      "tags": [
+        "crepes",
+        "dessert",
+        "flambato",
+        "forno",
+        "padella",
+        "francese",
+        "festivo",
+        "goloso",
+        "caldo",
+        "facile",
+        "nostalgico",
+        "ricetta-di-famiglia"
+      ],
+      "ingredients": [
+        {
+          "items": [
+            "1 ricetta base di crêpes dolci",
+            "60 g di burro",
+            "60 g di zucchero",
+            "1 dl di distillato o liquore (Cognac, Calvados, Cointreau, Grand Marnier, ecc.)"
+          ]
+        },
+        {
+          "group": "Variante (crêpe Suzette)",
+          "items": [
+            "60 g di burro",
+            "60 g di zucchero",
+            "1 arancia (scorza grattugiata)",
+            "1 limone (scorza grattugiata)",
+            "2-3 cucchiai di liquore all'arancia, Cointreau o Grand Marnier"
+          ]
+        }
+      ],
+      "steps": [
+        {
+          "text": "Preparazione di base: preparare le crêpes (vedi la ricetta delle crêpes dolci)."
+        },
+        {
+          "text": "In una padella, far fondere il burro, aggiungere lo zucchero, mescolare il tutto e poi versare il distillato o il liquore."
+        },
+        {
+          "text": "Piegare le crêpes in quattro, disporle su un piatto e passarle in forno per 3-4 minuti."
+        },
+        {
+          "text": "Versare il composto ben caldo sulle crêpes e flambarle."
+        },
+        {
+          "text": "Variante (crêpe Suzette): in una ciotola o in una piccola terrina, lavorare con una frusta 60 g di burro e 60 g di zucchero fino a ottenere un composto cremoso. Aggiungere la scorza grattugiata di un'arancia e di un limone, poi 2-3 cucchiai di liquore all'arancia, Cointreau o Grand Marnier."
+        },
+        {
+          "text": "Spalmare un po' di composto su ogni crêpe, piegarle in quattro e cuocerle in forno."
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,177 @@
+{
+  "slug": "magret-de-canard-au-gingembre",
+  "title": "Magret de canard au gingembre",
+  "description": "Magrets dorés en cocotte avec échalote et vin blanc, servis en filets nappés d'une sauce au fond de veau parfumée au gingembre.",
+  "images": {
+    "cover": "images/recipes/magret-de-canard-au-gingembre/cover.webp",
+    "web": "images/recipes/magret-de-canard-au-gingembre/web.webp"
+  },
+  "imageCredit": {
+    "author": "RitaE",
+    "url": "https://pixabay.com/users/ritae-19628/"
+  },
+  "prepTime": 15,
+  "cookTime": 25,
+  "servings": 5,
+  "difficulty": "Facile",
+  "category": "Secondi",
+  "origin": "amelie-grandpa",
+  "tags": [
+    "canard",
+    "plat-principal",
+    "chaud",
+    "facile",
+    "épicé",
+    "festif",
+    "gourmand",
+    "français",
+    "nostalgique",
+    "recette-de-famille"
+  ],
+  "ingredients": [
+    {
+      "items": [
+        "2 magrets de canard",
+        "50 g de beurre",
+        "2 échalotes",
+        "1 dl de vin blanc sec",
+        "1 dl de fond de veau lié",
+        "Sel et poivre",
+        "Gingembre en poudre"
+      ]
+    }
+  ],
+  "steps": [
+    {
+      "text": "Ciseler légèrement la peau des magrets en losanges."
+    },
+    {
+      "text": "Dans une cocotte, faire chauffer le beurre et dorer les magrets du côté chair puis du côté peau, assaisonner de sel et de poivre puis du gingembre, ajouter les échalotes finement ciselées, faire suer 2 à 3 minutes, ajouter le vin blanc, couvrir et cuire 10 minutes.",
+      "timers": [2, 10]
+    },
+    {
+      "text": "Retirer les magrets, ajouter le fond lié, une cuillère à dessert de gingembre, porter à ébullition pendant 5 minutes, passer le fond et le dégraisser.",
+      "timers": [5]
+    },
+    {
+      "text": "Couper les magrets en filets au moment de les servir."
+    },
+    {
+      "text": "Dresser sur un plat et napper avec la sauce."
+    },
+    {
+      "text": "Garniture : haricots verts, petits pois nouveaux avec des petits oignons blancs, pommes rissolées, pommes cocotte."
+    }
+  ],
+  "source": "Les recettes de Maurice Houdré, tome 2, Volailles, lapins, foie gras",
+  "originalSource": {
+    "type": "text",
+    "data": "Magret de canard au gingembre\n\nIngrédients : pour 5 personnes\n\n. 2 magrets de canard\n. 50 g de beurre\n. 2 échalotes\n. 1 dl de vin blanc sec\n. 1 dl de fond de veau lié\n. sel et poivre\n. gingembre en poudre\n\nCiseler légèrement la peau des magrets en losanges.\n\nDans une cocotte, faire chauffer le beurre et dorer les magrets du côté chair puis du côté peau, assaisonner de sel et de poivre puis du gingembre, ajouter l’échalote finement ciselée, faire suer 2 à 3 minutes, ajouter le vin blanc, couvrir et cuire 10 minutes.\nRetirer les magrets, ajouter le fond lié, une cuillère à dessert de gingembre, porter à ébullition pendant 5 minutes, passer le fond et dégraisser le.\nCouper les magrets en filets et au moment de les servir. \nDresser sur un plat et napper avec la sauce.\n\nGarniture :\nHaricots verts, petits pois nouveaux avec des petits oignons blancs, pommes rissolées, pommes cocotte.\n"
+  },
+  "related": [
+    "escalopes-de-canard-au-gingembre",
+    "pintadeau-au-paprika",
+    "piccata-de-veau-au-porto",
+    "canard-farci-braise-aux-navets"
+  ],
+  "translations": {
+    "en": {
+      "title": "Duck breast with ginger",
+      "description": "Duck breasts browned in a casserole with shallot and white wine, served sliced and coated with a ginger-scented veal stock sauce.",
+      "tags": [
+        "duck",
+        "main-course",
+        "hot",
+        "easy",
+        "spicy",
+        "festive",
+        "indulgent",
+        "french",
+        "nostalgic",
+        "family-recipe"
+      ],
+      "ingredients": [
+        {
+          "items": [
+            "2 duck breasts",
+            "50 g butter",
+            "2 shallots",
+            "1 dl dry white wine",
+            "1 dl thickened veal stock",
+            "Salt and pepper",
+            "Ground ginger"
+          ]
+        }
+      ],
+      "steps": [
+        {
+          "text": "Lightly score the skin of the duck breasts in a diamond pattern."
+        },
+        {
+          "text": "In a casserole, heat the butter and brown the duck breasts on the flesh side, then on the skin side. Season with salt and pepper, then with the ginger, add the finely chopped shallots, sweat for 2 to 3 minutes, add the white wine, cover and cook for 10 minutes."
+        },
+        {
+          "text": "Remove the duck breasts, add the thickened stock and a dessert spoon of ginger, bring to the boil for 5 minutes, strain the stock and skim off the fat."
+        },
+        {
+          "text": "Cut the duck breasts into slices just before serving."
+        },
+        {
+          "text": "Arrange on a serving dish and coat with the sauce."
+        },
+        {
+          "text": "Garnish: green beans, new peas with small white onions, sautéed potatoes, pommes cocotte."
+        }
+      ]
+    },
+    "it": {
+      "title": "Petto d'anatra allo zenzero",
+      "description": "Petti d'anatra rosolati in casseruola con scalogno e vino bianco, serviti a fette e nappati con una salsa al fondo di vitello profumata allo zenzero.",
+      "tags": [
+        "anatra",
+        "secondo-piatto",
+        "caldo",
+        "facile",
+        "speziato",
+        "festivo",
+        "goloso",
+        "francese",
+        "nostalgico",
+        "ricetta-di-famiglia"
+      ],
+      "ingredients": [
+        {
+          "items": [
+            "2 petti d'anatra",
+            "50 g di burro",
+            "2 scalogni",
+            "1 dl di vino bianco secco",
+            "1 dl di fondo di vitello legato",
+            "Sale e pepe",
+            "Zenzero in polvere"
+          ]
+        }
+      ],
+      "steps": [
+        {
+          "text": "Incidere leggermente la pelle dei petti d'anatra a losanghe."
+        },
+        {
+          "text": "In una casseruola, scaldare il burro e rosolare i petti d'anatra dal lato della carne, poi dal lato della pelle. Condire con sale e pepe, poi con lo zenzero, aggiungere gli scalogni tritati finemente, far sudare 2-3 minuti, aggiungere il vino bianco, coprire e cuocere 10 minuti."
+        },
+        {
+          "text": "Togliere i petti d'anatra, aggiungere il fondo legato e un cucchiaio da dessert di zenzero, portare a ebollizione per 5 minuti, filtrare il fondo e sgrassarlo."
+        },
+        {
+          "text": "Tagliare i petti d'anatra a fette al momento di servirli."
+        },
+        {
+          "text": "Disporre su un piatto da portata e nappare con la salsa."
+        },
+        {
+          "text": "Contorno: fagiolini, piselli novelli con cipolline bianche, patate rosolate, patate in casseruola."
+        }
+      ]
+    }
+  }
+}

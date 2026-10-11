@@ -1,0 +1,383 @@
+{
+  "slug": "bouillabaisse",
+  "title": "La bouillabaisse",
+  "description": "La grande soupe de poissons provençale : poissons de roche cuits dans un bouillon safrané, servie avec rouille, croûtons et fromage râpé.",
+  "images": {
+    "cover": "images/recipes/bouillabaisse/cover.webp",
+    "web": "images/recipes/bouillabaisse/web.webp"
+  },
+  "imageCredit": {
+    "author": "ivabalk",
+    "url": "https://pixabay.com/users/ivabalk-782511/"
+  },
+  "prepTime": 60,
+  "cookTime": 70,
+  "servings": 10,
+  "difficulty": "Difficile",
+  "category": "Secondi",
+  "origin": "amelie-grandpa",
+  "tags": [
+    "poisson",
+    "fruits-de-mer",
+    "plat-principal",
+    "français",
+    "méditerranéen",
+    "mijoté",
+    "chaud",
+    "festif",
+    "convivial",
+    "à-partager",
+    "nostalgique",
+    "recette-de-famille"
+  ],
+  "ingredients": [
+    {
+      "items": [
+        "1 kg de rascasses",
+        "1 kg de congre",
+        "1 kg de rougets grondins",
+        "1 kg de Saint-Pierre",
+        "1 kg de lotte",
+        "1 kg de merlans",
+        "750 g de vives",
+        "1 kg de langoustines",
+        "150 g d'ail",
+        "Sel, poivre",
+        "1 pincée de safran",
+        "1 poireau",
+        "2 oignons",
+        "1 fenouil",
+        "50 g de persil",
+        "6 tomates",
+        "Thym, laurier",
+        "2 dl d'huile d'olive (Quanto basta)",
+        "Quelques gouttes de Ricard (facultatif)",
+        "3 g de safran",
+        "1 l de fumet de poisson",
+        "Concentré de tomate",
+        "Vin blanc"
+      ]
+    },
+    {
+      "group": "Rouille",
+      "items": [
+        "2 gousses d'ail",
+        "1 pomme de terre",
+        "1 jaune d'œuf",
+        "2 dl d'huile d'olive (Quanto basta)",
+        "Vinaigre, sel fin, poivre, safran"
+      ]
+    },
+    {
+      "group": "Garniture",
+      "items": [
+        "Tranches de baguette",
+        "Gruyère ou parmesan râpé (Quanto basta)"
+      ]
+    }
+  ],
+  "steps": [
+    {
+      "text": "Éplucher, peler et laver soigneusement les légumes."
+    },
+    {
+      "text": "Couper en fine julienne : oignons, poireau et fenouil."
+    },
+    {
+      "text": "Dans un grand sautoir ou une cocotte, chauffer l'huile et étuver la julienne de légumes."
+    },
+    {
+      "text": "Préparer les poissons : gratter, retirer les peaux, couper les têtes et les nageoires."
+    },
+    {
+      "text": "Mettre ces parures et ces têtes dans la julienne bien étuvée. Laisser suer le tout ensemble 4 à 5 minutes.",
+      "timers": [4]
+    },
+    {
+      "text": "Mouiller avec le vin blanc, le fumet de poisson et compléter avec de l'eau à hauteur."
+    },
+    {
+      "text": "Ajouter les tomates coupées en morceaux, l'ail écrasé, le bouquet garni, le safran, saler et poivrer."
+    },
+    {
+      "text": "Porter à ébullition et cuire 45 minutes environ.",
+      "timers": [45]
+    },
+    {
+      "text": "Pendant ce temps : laver les poissons et les découper en morceaux de 70 à 80 g environ."
+    },
+    {
+      "text": "Dans un deuxième récipient, disposer les poissons à chair ferme (congre, lotte, rougets) et verser dessus le liquide bouillant en le passant au chinois. Faire cuire 10 minutes environ.",
+      "timers": [10]
+    },
+    {
+      "text": "Ajouter délicatement les poissons à chair tendre (Saint-Pierre, rascasses, vives et merlans), ajouter le Ricard, faire cuire 10 minutes et rectifier l'assaisonnement si nécessaire.",
+      "timers": [10]
+    },
+    {
+      "text": "Après la cuisson : égoutter délicatement les morceaux de poissons et les disposer par catégories dans un grand plat creux."
+    },
+    {
+      "text": "Arroser avec le bouillon (soupe de poissons). Servir le reste en soupière, saupoudrer de persil haché."
+    },
+    {
+      "text": "Servir à part : les croûtons de baguette séchés au four (éventuellement frottés à l'ail) et le fromage râpé."
+    },
+    {
+      "text": "Préparation de la rouille : dans un mortier, piler et écraser l'ail, ajouter la pomme de terre cuite à l'eau salée (en robe des champs), pelée et écrasée."
+    },
+    {
+      "text": "Bien mélanger à l'ail, ajouter le jaune d'œuf et incorporer petit à petit l'huile d'olive. Assaisonner de sel, poivre et safran, ajouter un peu de vinaigre."
+    }
+  ],
+  "tips": [
+    "Il est possible d'ajouter une petite cuillerée de moutarde à la rouille pour corser le goût."
+  ],
+  "source": "Les recettes de Maurice Houdré, tome 2, Les poissons et crustacés",
+  "originalSource": {
+    "type": "text",
+    "data": "La bouillabaisse\n\nIngrédients : pour 10 à 12 personnes\n\n. 1 kg de rascasses\t\t\t\t. 1 poireau\n. 1 kg de congre\t\t\t\t. 2 oignons\n. 1 kg de rougets Grondins\t\t\t. 1 fenouil\n. 1 kg de Saint-Pierre\t\t\t. 50 g de persil\t\t\t\n. 1 kg de lotte\t\t\t\t\t. 6 tomates\n. 1 kg de merlans\t\t\t\t. thym, laurier\n. 750 g de vives\t\t\t\t. 2 dl d’huile d’olive\n. 1 kg de langoustines\t\t\t. quelques gouttes de Ricard (facultatif)\n. 150 g d’ail\t\t\t\t\t. 3 g de safran\n. sel, poivre, 1 pincée de safran\t\t. 1 l de fumet de poisson\n\t\t\t\t\t\t. concentré de tomate\n\nRouille :\t\t\t\t\tGarniture :\n. 2 gousses d’ail\t\t\t\t. tranches de baguette\n. 1 pomme de terre\t\t\t\t. gruyère ou parmesan râpé\n. 1 jaune d’œuf\n. 2 dl d’huile d’olive\n. vinaigre, sel fin, poivre, safran\t\t\n\nEplucher, peler et laver soigneusement les légumes.\n\nCouper en fine Julienne : oignons, poireau et fenouil.\nDans un grand sautoir ou cocotte, chauffer l’huile et étuver la Julienne de légumes.\nPréparer les poissons, gratter, retirer les peaux, couper les têtes et les nageoires.\nMettre ces parures et têtes dans la Julienne bien étuvée.\nLaisser suer le tout ensemble 4 à 5 minutes.\nMouiller avec le vin blanc, le fumet de poisson et compléter avec de l’eau à hauteur.\nAjouter les tomates coupées en morceaux, l’ail écrasé, le bouquet garni, le safran, saler et poivrer.\nPorter à ébullition et cuire 45 minutes environ.\n\nPendant ce temps :\nLaver les poissons et les découper en morceaux de 70 à 80 g environ.\nDans un deuxième récipient, disposer les poissons à chair ferme (congre, lotte, rougets) et verser dessus le liquide bouillant en le passant au chinois. Faire cuire10 minutes environ.\nAjouter délicatement les poissons à chair tendre (Saint-Pierre, rascasses, vives et merlans), ajouter le Ricard, faire cuire 10 minutes et rectifier l’assaisonnement si nécessaire.\n\nAprès la cuisson : \nEgoutter délicatement les morceaux de poissons et les disposer par catégories dans un grand plat creux.\nArroser avec le bouillon (soupe de poissons).\nServir le reste en soupière, saupoudrer de persil haché.\n\nServir à part : \nLes croûtons de baguette séchés au four (éventuellement frottés à l’ail) et le fromage râpé.\n\nPréparation de la rouille :\nDans un mortier, piler et écraser l’ail, ajouter la pomme de terre cuite à l’eau salée (robe des champs) pelée et écrasée. Bien mélanger à l’ail, ajouter le jaune d’œuf  et incorporer petit à petit l’huile d’olive. Assaisonner de sel, poivre et safran, ajouter un peu de vinaigre.\n\nIl est possible d’ajouter une petite cuillérée de moutarde pour corser le goût.\n"
+  },
+  "related": [
+    "marmite-du-pecheur",
+    "couscous-de-poissons-et-fruits-de-mer",
+    "calderade-de-poisson",
+    "homard-a-l-americaine"
+  ],
+  "translations": {
+    "en": {
+      "title": "Bouillabaisse",
+      "description": "The great Provençal fish soup: rockfish cooked in a saffron broth, served with rouille, croutons and grated cheese.",
+      "tags": [
+        "fish",
+        "seafood",
+        "main-course",
+        "french",
+        "mediterranean",
+        "simmered",
+        "hot",
+        "festive",
+        "convivial",
+        "to-share",
+        "nostalgic",
+        "family-recipe"
+      ],
+      "ingredients": [
+        {
+          "items": [
+            "1 kg of scorpionfish",
+            "1 kg of conger eel",
+            "1 kg of grey gurnard",
+            "1 kg of John Dory",
+            "1 kg of monkfish",
+            "1 kg of whiting",
+            "750 g of weever fish",
+            "1 kg of langoustines",
+            "150 g of garlic",
+            "Salt, pepper",
+            "1 pinch of saffron",
+            "1 leek",
+            "2 onions",
+            "1 fennel bulb",
+            "50 g of parsley",
+            "6 tomatoes",
+            "Thyme, bay leaf",
+            "2 dl of olive oil (Quanto basta)",
+            "A few drops of Ricard (optional)",
+            "3 g of saffron",
+            "1 l of fish stock",
+            "Tomato paste",
+            "White wine"
+          ]
+        },
+        {
+          "group": "Rouille",
+          "items": [
+            "2 garlic cloves",
+            "1 potato",
+            "1 egg yolk",
+            "2 dl of olive oil (Quanto basta)",
+            "Vinegar, fine salt, pepper, saffron"
+          ]
+        },
+        {
+          "group": "Garnish",
+          "items": [
+            "Baguette slices",
+            "Grated Gruyère or parmesan (Quanto basta)"
+          ]
+        }
+      ],
+      "steps": [
+        {
+          "text": "Peel, skin and carefully wash the vegetables."
+        },
+        {
+          "text": "Cut the onions, leek and fennel into a fine julienne."
+        },
+        {
+          "text": "In a large sauté pan or casserole, heat the oil and sweat the vegetable julienne, covered."
+        },
+        {
+          "text": "Prepare the fish: scale them, remove the skins, cut off the heads and fins."
+        },
+        {
+          "text": "Add these trimmings and heads to the well-sweated julienne. Let everything sweat together for 4 to 5 minutes."
+        },
+        {
+          "text": "Add liquid: the white wine, the fish stock, then top up with water to cover."
+        },
+        {
+          "text": "Add the tomatoes cut into pieces, the crushed garlic, the bouquet garni and the saffron, then season with salt and pepper."
+        },
+        {
+          "text": "Bring to the boil and cook for about 45 minutes."
+        },
+        {
+          "text": "Meanwhile, wash the fish and cut them into pieces of about 70 to 80 g."
+        },
+        {
+          "text": "In a second pot, place the firm-fleshed fish (conger eel, monkfish, gurnard) and pour the boiling liquid over them through a chinois. Cook for about 10 minutes."
+        },
+        {
+          "text": "Gently add the tender-fleshed fish (John Dory, scorpionfish, weever fish and whiting), add the Ricard, cook for 10 minutes and adjust the seasoning if needed."
+        },
+        {
+          "text": "Once cooked, gently drain the pieces of fish and arrange them by type in a large deep dish."
+        },
+        {
+          "text": "Pour the broth (fish soup) over them. Serve the rest in a soup tureen and sprinkle with chopped parsley."
+        },
+        {
+          "text": "Serve on the side: the oven-dried baguette croutons (rubbed with garlic, if you like) and the grated cheese."
+        },
+        {
+          "text": "Making the rouille: in a mortar, pound and crush the garlic, then add the potato boiled in its skin in salted water, peeled and mashed."
+        },
+        {
+          "text": "Mix well with the garlic, add the egg yolk and gradually incorporate the olive oil. Season with salt, pepper and saffron, then add a little vinegar."
+        }
+      ],
+      "tips": [
+        "You can add a small spoonful of mustard to the rouille for a bolder flavour."
+      ]
+    },
+    "it": {
+      "title": "Bouillabaisse",
+      "description": "La grande zuppa di pesce provenzale: pesci di scoglio cotti in un brodo allo zafferano, serviti con rouille, crostini e formaggio grattugiato.",
+      "tags": [
+        "pesce",
+        "frutti-di-mare",
+        "piatto-principale",
+        "francese",
+        "mediterraneo",
+        "cotto-a-fuoco-lento",
+        "caldo",
+        "festivo",
+        "conviviale",
+        "da-condividere",
+        "nostalgico",
+        "ricetta-di-famiglia"
+      ],
+      "ingredients": [
+        {
+          "items": [
+            "1 kg di scorfani",
+            "1 kg di grongo",
+            "1 kg di gallinelle",
+            "1 kg di pesce San Pietro",
+            "1 kg di rana pescatrice",
+            "1 kg di merlano",
+            "750 g di tracine",
+            "1 kg di scampi",
+            "150 g di aglio",
+            "Sale, pepe",
+            "1 pizzico di zafferano",
+            "1 porro",
+            "2 cipolle",
+            "1 finocchio",
+            "50 g di prezzemolo",
+            "6 pomodori",
+            "Timo, alloro",
+            "2 dl di olio d'oliva (Quanto basta)",
+            "Qualche goccia di Ricard (facoltativo)",
+            "3 g di zafferano",
+            "1 l di fumetto di pesce",
+            "Concentrato di pomodoro",
+            "Vino bianco"
+          ]
+        },
+        {
+          "group": "Rouille",
+          "items": [
+            "2 spicchi d'aglio",
+            "1 patata",
+            "1 tuorlo d'uovo",
+            "2 dl di olio d'oliva (Quanto basta)",
+            "Aceto, sale fino, pepe, zafferano"
+          ]
+        },
+        {
+          "group": "Guarnizione",
+          "items": [
+            "Fette di baguette",
+            "Groviera o parmigiano grattugiato (Quanto basta)"
+          ]
+        }
+      ],
+      "steps": [
+        {
+          "text": "Sbucciare, pelare e lavare accuratamente le verdure."
+        },
+        {
+          "text": "Tagliare a julienne sottile cipolle, porro e finocchio."
+        },
+        {
+          "text": "In una grande sauteuse o in una casseruola, scaldare l'olio e stufare la julienne di verdure."
+        },
+        {
+          "text": "Preparare i pesci: squamarli, togliere la pelle, tagliare le teste e le pinne."
+        },
+        {
+          "text": "Mettere questi scarti e le teste nella julienne ben stufata. Far sudare il tutto insieme per 4-5 minuti."
+        },
+        {
+          "text": "Bagnare con il vino bianco e il fumetto di pesce, poi aggiungere acqua fino a coprire."
+        },
+        {
+          "text": "Aggiungere i pomodori tagliati a pezzi, l'aglio schiacciato, il mazzetto aromatico e lo zafferano, poi salare e pepare."
+        },
+        {
+          "text": "Portare a ebollizione e cuocere per circa 45 minuti."
+        },
+        {
+          "text": "Nel frattempo, lavare i pesci e tagliarli a pezzi di circa 70-80 g."
+        },
+        {
+          "text": "In un secondo recipiente, disporre i pesci a carne soda (grongo, rana pescatrice, gallinelle) e versarvi sopra il liquido bollente filtrandolo con un colino cinese. Cuocere per circa 10 minuti."
+        },
+        {
+          "text": "Aggiungere delicatamente i pesci a carne tenera (San Pietro, scorfani, tracine e merlano), aggiungere il Ricard, cuocere per 10 minuti e regolare di sale e pepe se necessario."
+        },
+        {
+          "text": "A fine cottura, scolare delicatamente i pezzi di pesce e disporli per tipo in un grande piatto fondo."
+        },
+        {
+          "text": "Irrorare con il brodo (zuppa di pesce). Servire il resto in una zuppiera e cospargere di prezzemolo tritato."
+        },
+        {
+          "text": "Servire a parte i crostini di baguette seccati in forno (eventualmente strofinati con l'aglio) e il formaggio grattugiato."
+        },
+        {
+          "text": "Preparazione della rouille: in un mortaio, pestare e schiacciare l'aglio, poi aggiungere la patata lessata con la buccia in acqua salata, pelata e schiacciata."
+        },
+        {
+          "text": "Mescolare bene con l'aglio, aggiungere il tuorlo e incorporare poco a poco l'olio d'oliva. Condire con sale, pepe e zafferano, poi aggiungere un po' di aceto."
+        }
+      ],
+      "tips": [
+        "Si può aggiungere un cucchiaino di senape alla rouille per un gusto più deciso."
+      ]
+    }
+  }
+}

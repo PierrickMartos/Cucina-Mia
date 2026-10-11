@@ -1,0 +1,26 @@
+{
+  "name": "Cucina Mia",
+  "short_name": "Cucina Mia",
+  "description": "Le ricette italiane della nostra famiglia",
+  "start_url": "/Cucina-Mia/",
+  "display": "standalone",
+  "background_color": "#FAF9F6",
+  "theme_color": "#DC2626",
+  "icons": [
+    {
+      "src": "favicon-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "favicon-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "favicon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml"
+    }
+  ]
+}

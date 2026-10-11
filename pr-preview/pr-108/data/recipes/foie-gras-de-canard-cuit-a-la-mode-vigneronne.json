@@ -1,0 +1,239 @@
+{
+  "slug": "foie-gras-de-canard-cuit-a-la-mode-vigneronne",
+  "title": "Foie gras de canard cuit à la mode vigneronne",
+  "description": "Un foie gras de canard mariné à l'Armagnac, cuit par une marinade bouillante au vin blanc, pressé puis servi en fines tranches avec des noix confites.",
+  "images": {
+    "cover": "images/recipes/foie-gras-de-canard-cuit-a-la-mode-vigneronne/cover.webp",
+    "web": "images/recipes/foie-gras-de-canard-cuit-a-la-mode-vigneronne/web.webp"
+  },
+  "imageCredit": {
+    "author": "takedahrs",
+    "url": "https://pixabay.com/users/takedahrs-12657/"
+  },
+  "prepTime": 30,
+  "cookTime": 30,
+  "servings": 4,
+  "difficulty": "Medio",
+  "category": "Secondi",
+  "origin": "amelie-grandpa",
+  "tags": [
+    "foie-gras",
+    "canard",
+    "plat-principal",
+    "froid",
+    "festif",
+    "noël",
+    "gourmand",
+    "préparation-à-lavance",
+    "français",
+    "nostalgique",
+    "recette-de-famille"
+  ],
+  "ingredients": [
+    {
+      "items": [
+        "1 foie gras cru de canard de 400 g",
+        "1 cl d'Armagnac",
+        "Sel, poivre",
+        "2 noix fraîches confites",
+        "Pain de campagne"
+      ]
+    },
+    {
+      "group": "Marinade",
+      "items": [
+        "½ bouteille de vin blanc, de préférence Bordeaux",
+        "½ feuille de laurier",
+        "2 gousses d'ail écrasées",
+        "10 g de gros sel de Guérande",
+        "3 g de poivre concassé"
+      ]
+    }
+  ],
+  "steps": [
+    {
+      "text": "Préparation la veille : dénerver le foie gras et l'aplatir sur une épaisseur d'environ 3 cm."
+    },
+    {
+      "text": "Saler, poivrer puis mettre le foie dans un récipient de grandeur appropriée."
+    },
+    {
+      "text": "L'arroser à l'Armagnac, le couvrir avec un film plastique et le mettre une nuit au frais."
+    },
+    {
+      "text": "Le lendemain : mélanger tous les ingrédients de la marinade et faire cuire, à feu doux, pendant 30 minutes.",
+      "timers": [30]
+    },
+    {
+      "text": "Verser ensuite cette marinade bouillante sur le foie gras. Laisser ainsi jusqu'à refroidissement total."
+    },
+    {
+      "text": "Mettre au frais, sous presse, à l'aide d'un poids de 1 kg."
+    },
+    {
+      "text": "Pour le servir, escaloper le foie gras en fines tranches et les déposer sur les assiettes."
+    },
+    {
+      "text": "Répartir sur chaque escalope un peu de sel de Guérande et du poivre concassé. Agrémenter avec les noix fraîches confites."
+    },
+    {
+      "text": "Servir avec du pain légèrement grillé."
+    }
+  ],
+  "tips": [
+    "Laisser reposer le foie gras au moins 24 heures avant de le consommer."
+  ],
+  "source": "Les recettes de Maurice Houdré, tome 2, Volailles, lapins, foie gras",
+  "originalSource": {
+    "type": "text",
+    "data": "Foie gras de canard cuit à la mode vigneronne\n\nIngrédients : pour 4 personnes\n\n. 1 foie gras cru de canard de 400 g\n. 1 cl d’Armagnac\n. sel, poivre\n. 2 noix fraîches confites\n. pain de campagne\nMarinade : 1 nuit\n. ½ bouteille de vin blanc de préférence Bordeaux\n. ½ feuille de laurier\n. 2 gousses d’ail écrasé\n. 10 g de gros sel de Guérande\n. 3 g de poivre concassé\nPréparation : 30 minutes\t\t\t\t\tCuisson : 30 minutes\n\nPréparation : la veille\n\nDénerver le foie gras et l’aplatir sur une épaisseur d’environ 3 cm.\n\nSaler, poivrer puis mettre le foie dans un récipient de grandeur appropriée.\nL’arroser à l’Armagnac, le couvrir avec un film plastique et le mettre une nuit au frais.\n\nLe lendemain :\nMélanger tous les ingrédients de la marinade et faire cuire, à feu doux, pendant 30 minutes.\nVerser ensuite cette marinade bouillante sur le foie gras.\nLaisser ainsi jusqu’à refroidissement total.\nMettre au frais, sous presse, à l’aide d’un poids de 1 kg.\nPour le servir, escaloper le foie gras en fines tranches et les déposer sur les assiettes.\nRépartir sur chaque escalope un peu de sel de Guérande et du poivre concassé.\nAgrémenter avec les noix fraîches confites.\nServir avec du pain légèrement grillé.\n\nConseil :\nLaisser reposer le foie gras au moins 24 heures avant de le consommer.\n"
+  },
+  "related": [
+    "terrine-de-canard",
+    "assiette-landaise",
+    "risotto-champignons-foie-gras-noisettes",
+    "escalopes-de-canard-au-gingembre"
+  ],
+  "translations": {
+    "en": {
+      "title": "Winemaker-style cooked duck foie gras",
+      "description": "Duck foie gras marinated in Armagnac, cooked by pouring a boiling white wine marinade over it, pressed, then served in thin slices with candied walnuts.",
+      "tags": [
+        "foie-gras",
+        "duck",
+        "main-course",
+        "cold",
+        "festive",
+        "christmas",
+        "indulgent",
+        "make-ahead",
+        "french",
+        "nostalgic",
+        "family-recipe"
+      ],
+      "ingredients": [
+        {
+          "items": [
+            "1 raw duck foie gras of 400 g",
+            "1 cl of Armagnac",
+            "Salt, pepper",
+            "2 candied fresh walnuts",
+            "Country bread"
+          ]
+        },
+        {
+          "group": "Marinade",
+          "items": [
+            "½ bottle of white wine, preferably Bordeaux",
+            "½ bay leaf",
+            "2 crushed garlic cloves",
+            "10 g of Guérande coarse salt",
+            "3 g of crushed pepper"
+          ]
+        }
+      ],
+      "steps": [
+        {
+          "text": "The day before: devein the foie gras and flatten it to a thickness of about 3 cm."
+        },
+        {
+          "text": "Season with salt and pepper, then place the foie gras in a container of a suitable size."
+        },
+        {
+          "text": "Sprinkle it with the Armagnac, cover it with cling film and refrigerate it overnight."
+        },
+        {
+          "text": "The next day: mix all the marinade ingredients and cook over low heat for 30 minutes."
+        },
+        {
+          "text": "Then pour this boiling marinade over the foie gras. Leave it until completely cooled."
+        },
+        {
+          "text": "Refrigerate under a press, using a 1 kg weight."
+        },
+        {
+          "text": "To serve, cut the foie gras into thin slices and arrange them on the plates."
+        },
+        {
+          "text": "Sprinkle each slice with a little Guérande salt and crushed pepper. Garnish with the candied fresh walnuts."
+        },
+        {
+          "text": "Serve with lightly toasted bread."
+        }
+      ],
+      "tips": [
+        "Let the foie gras rest for at least 24 hours before eating it."
+      ]
+    },
+    "it": {
+      "title": "Foie gras d'anatra cotto alla vignaiola",
+      "description": "Un foie gras d'anatra marinato all'Armagnac, cotto versandoci sopra una marinata bollente al vino bianco, pressato e poi servito a fette sottili con noci candite.",
+      "tags": [
+        "foie-gras",
+        "anatra",
+        "secondo-piatto",
+        "freddo",
+        "festivo",
+        "natale",
+        "goloso",
+        "preparazione-anticipata",
+        "francese",
+        "nostalgico",
+        "ricetta-di-famiglia"
+      ],
+      "ingredients": [
+        {
+          "items": [
+            "1 foie gras crudo d'anatra da 400 g",
+            "1 cl di Armagnac",
+            "Sale, pepe",
+            "2 noci fresche candite",
+            "Pane casereccio"
+          ]
+        },
+        {
+          "group": "Marinata",
+          "items": [
+            "½ bottiglia di vino bianco, preferibilmente Bordeaux",
+            "½ foglia di alloro",
+            "2 spicchi d'aglio schiacciati",
+            "10 g di sale grosso di Guérande",
+            "3 g di pepe pestato"
+          ]
+        }
+      ],
+      "steps": [
+        {
+          "text": "Il giorno prima: togliere le venature al foie gras e appiattirlo fino a uno spessore di circa 3 cm."
+        },
+        {
+          "text": "Salare, pepare, poi mettere il foie gras in un recipiente di dimensioni adatte."
+        },
+        {
+          "text": "Irrorarlo con l'Armagnac, coprirlo con pellicola trasparente e metterlo in frigorifero per una notte."
+        },
+        {
+          "text": "Il giorno dopo: mescolare tutti gli ingredienti della marinata e cuocere a fuoco dolce per 30 minuti."
+        },
+        {
+          "text": "Versare poi questa marinata bollente sul foie gras. Lasciare così fino a completo raffreddamento."
+        },
+        {
+          "text": "Mettere in frigorifero sotto pressa, con un peso di 1 kg."
+        },
+        {
+          "text": "Per servirlo, tagliare il foie gras a fette sottili e disporle sui piatti."
+        },
+        {
+          "text": "Distribuire su ogni fetta un po' di sale di Guérande e pepe pestato. Guarnire con le noci fresche candite."
+        },
+        {
+          "text": "Servire con pane leggermente tostato."
+        }
+      ],
+      "tips": [
+        "Lasciare riposare il foie gras almeno 24 ore prima di consumarlo."
+      ]
+    }
+  }
+}
