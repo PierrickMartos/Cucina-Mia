@@ -7,8 +7,7 @@
     "web": "images/recipes/cremes-en-petits-pots-ou-grand-moule/web.webp"
   },
   "imageCredit": {
-    "author": "Msobaidi",
-    "url": "https://pixabay.com/users/msobaidi-15887962/"
+    "author": "Sylvie"
   },
   "prepTime": 20,
   "cookTime": 40,
@@ -35,7 +34,7 @@
     {
       "group": "Appareil de base",
       "items": [
-        "1 l de lait",
+        "1 l de lait entier",
         "8 œufs",
         "250 g de sucre semoule"
       ]
@@ -135,7 +134,7 @@
         {
           "group": "Basic mixture",
           "items": [
-            "1 l of milk",
+            "1 l of whole milk",
             "8 eggs",
             "250 g of caster sugar"
           ]
@@ -221,7 +220,7 @@
         {
           "group": "Composto base",
           "items": [
-            "1 l di latte",
+            "1 l di latte intero",
             "8 uova",
             "250 g di zucchero semolato"
           ]
