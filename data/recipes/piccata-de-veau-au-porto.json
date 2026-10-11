@@ -6,6 +6,9 @@
     "cover": "images/recipes/piccata-de-veau-au-porto/cover.webp",
     "web": "images/recipes/piccata-de-veau-au-porto/web.webp"
   },
+  "imageCredit": {
+    "author": "Sylvie"
+  },
   "prepTime": 20,
   "cookTime": 15,
   "servings": 8,
