@@ -74,10 +74,17 @@ describe("search on the real recipes", () => {
       ["cuisine belge", ["gaufre-liegeoise"]],
       ["piatto di Napoli", ["gnocchi-alla-sorrentina"]],
       ["cuisine japonaise", ["katsudon"]],
+      ["japanese eggplant", ["aubergines-teriyaki"]],
       ["dessert tropical", ["crumble-ananas-mangue", "tarte-tatin-mangue-espelette"]],
     ]
     for (const [query, expected] of cases) expect(search(query), query).toEqual(expect.arrayContaining(expected))
     for (const slug of search("cuisine française")) expect(byslug.get(slug)!.tags, slug).toContain("français")
+  })
+
+  it("keeps only vegan recipes for a vegan request", () => {
+    const results = search("plat végétalien à l'aubergine")
+    expect(results).toContain("aubergines-teriyaki")
+    for (const slug of results) expect(byslug.get(slug)!.tags, slug).toContain("végétalien")
   })
 
   it("matches compound 'sans' tags exactly", () => {
