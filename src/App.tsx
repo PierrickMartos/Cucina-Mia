@@ -5,6 +5,7 @@ import { HomePage } from "./pages/HomePage"
 // Kept in the main bundle: shared recipe links land here, a separate chunk would add a round trip
 import { RecipePage } from "./pages/RecipePage"
 import { runWhenIdle } from "./lib/utils"
+import { useShareableAddress } from "./lib/shareableAddress"
 
 // Secondary pages are split out of the main bundle so the first page renders sooner.
 const loadRecipesPage = () => import("./pages/RecipesPage")
@@ -39,6 +40,7 @@ function Page({ children }: { children: ReactNode }) {
 
 export default function App() {
   usePrefetchPages()
+  useShareableAddress()
   return (
     <>
       <ScrollToTop />
