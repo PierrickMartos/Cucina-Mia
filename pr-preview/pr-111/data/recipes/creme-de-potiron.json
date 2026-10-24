@@ -1,0 +1,188 @@
+{
+  "slug": "creme-de-potiron",
+  "title": "Crème de potiron",
+  "description": "Un potage velouté de potiron, poireau et pommes de terre cuits au lait, mixé puis enrichi de crème allégée.",
+  "images": {
+    "cover": "images/recipes/creme-de-potiron/cover.webp",
+    "web": "images/recipes/creme-de-potiron/web.webp"
+  },
+  "imageCredit": {
+    "author": "RitaE",
+    "url": "https://pixabay.com/users/ritae-19628/"
+  },
+  "prepTime": 20,
+  "cookTime": 60,
+  "servings": 8,
+  "difficulty": "Facile",
+  "category": "Zuppe",
+  "origin": "amelie-grandpa",
+  "tags": [
+    "français",
+    "nostalgique",
+    "recette-de-famille",
+    "entrée",
+    "potiron",
+    "légumes",
+    "végétarien",
+    "automne",
+    "hiver",
+    "onctueux",
+    "réconfortant",
+    "chaud"
+  ],
+  "ingredients": [
+    {
+      "items": [
+        "1 kg de potiron",
+        "1 blanc de poireau",
+        "2 oignons",
+        "3 gousses d'ail",
+        "4 pommes de terre",
+        "½ l de lait",
+        "50 g de beurre",
+        "2 dl de crème allégée",
+        "Sel, poivre"
+      ]
+    }
+  ],
+  "steps": [
+    {
+      "text": "Éplucher et laver les légumes."
+    },
+    {
+      "text": "Dans une casserole, faire fondre le beurre, ajouter le blanc de poireau finement ciselé et les oignons émincés."
+    },
+    {
+      "text": "Faire suer à chaleur douce, mettre le potiron coupé en morceaux ainsi que les pommes de terre et l'ail."
+    },
+    {
+      "text": "Mouiller à hauteur avec le lait et de l'eau, saler et poivrer légèrement. Cuire doucement 45 à 50 minutes.",
+      "timers": [45]
+    },
+    {
+      "text": "Passer à la moulinette ou au mixer, de préférence, pour avoir un potage plus velouté."
+    },
+    {
+      "text": "Remettre sur le feu, ajouter la crème, porter à ébullition et servir."
+    }
+  ],
+  "source": "Les recettes de Maurice Houdré, tome 1, Potages et consommés",
+  "originalSource": {
+    "type": "text",
+    "data": "Crème de potiron\n\nIngrédients : pour 8 à 10 personnes\n\n. 1 kg de potiron\n. 1 blanc de poireau\n. 2 oignons\n. 3 gousses d’ail\n. 4 pommes de terre\n. ½ l de lait\n. 50 g de beurre\n. 2 dl de crème allégée\n. sel, poivre\n\nPréparation : \n\n Eplucher et laver les légumes.\n\nDans une casserole, faire fondre le beurre, ajouter le blanc de poireau finement ciselé et les oignons émincés.\nFaire suer à chaleur douce, mettre le potiron coupé en morceaux ainsi que les pommes de terre et l’ail. Mouiller à hauteur avec le lait et de l’eau, saler et poivrer légèrement.\nCuire doucement 45 à 50 minutes. Passer à la moulinette ou au mixer de préférence pour avoir un potage plus velouté. Remettre sur le feu, ajouter la crème, porter à ébullition et servir.\n"
+  },
+  "related": [
+    "potage-bonne-femme",
+    "potage-a-l-oseille",
+    "tourte-de-pommes-de-terre",
+    "chorba"
+  ],
+  "translations": {
+    "en": {
+      "title": "Cream of Pumpkin Soup",
+      "description": "A velvety soup of pumpkin, leek and potatoes cooked in milk, blended and then enriched with light cream.",
+      "tags": [
+        "french",
+        "nostalgic",
+        "family-recipe",
+        "starter",
+        "pumpkin",
+        "vegetables",
+        "vegetarian",
+        "autumn",
+        "winter",
+        "creamy",
+        "comforting",
+        "hot"
+      ],
+      "ingredients": [
+        {
+          "items": [
+            "1 kg pumpkin",
+            "1 leek (white part)",
+            "2 onions",
+            "3 garlic cloves",
+            "4 potatoes",
+            "½ l milk",
+            "50 g butter",
+            "2 dl light cream",
+            "Salt, pepper"
+          ]
+        }
+      ],
+      "steps": [
+        {
+          "text": "Peel and wash the vegetables."
+        },
+        {
+          "text": "In a saucepan, melt the butter, then add the finely chopped leek white and the thinly sliced onions."
+        },
+        {
+          "text": "Sweat over gentle heat, then add the pumpkin cut into pieces, along with the potatoes and the garlic."
+        },
+        {
+          "text": "Add liquid to cover with the milk and some water, and season lightly with salt and pepper. Cook gently for 45 to 50 minutes."
+        },
+        {
+          "text": "Pass through a food mill or, preferably, a blender for a smoother, more velvety soup."
+        },
+        {
+          "text": "Return to the heat, add the cream, bring to a boil and serve."
+        }
+      ]
+    },
+    "it": {
+      "title": "Crema di zucca",
+      "description": "Una vellutata di zucca, porro e patate cotti nel latte, frullata e poi arricchita con panna leggera.",
+      "tags": [
+        "francese",
+        "nostalgico",
+        "ricetta-di-famiglia",
+        "antipasto",
+        "zucca",
+        "verdure",
+        "vegetariano",
+        "autunno",
+        "inverno",
+        "cremoso",
+        "confortante",
+        "caldo"
+      ],
+      "ingredients": [
+        {
+          "items": [
+            "1 kg di zucca",
+            "1 porro (parte bianca)",
+            "2 cipolle",
+            "3 spicchi d'aglio",
+            "4 patate",
+            "½ l di latte",
+            "50 g di burro",
+            "2 dl di panna leggera",
+            "Sale, pepe"
+          ]
+        }
+      ],
+      "steps": [
+        {
+          "text": "Sbucciare e lavare le verdure."
+        },
+        {
+          "text": "In una casseruola, sciogliere il burro, poi aggiungere la parte bianca del porro tritata finemente e le cipolle affettate sottilmente."
+        },
+        {
+          "text": "Far sudare a fuoco dolce, poi aggiungere la zucca tagliata a pezzi, le patate e l'aglio."
+        },
+        {
+          "text": "Bagnare a filo con il latte e un po' d'acqua, salare e pepare leggermente. Cuocere dolcemente per 45-50 minuti."
+        },
+        {
+          "text": "Passare al passaverdure o, preferibilmente, al frullatore per ottenere una vellutata più liscia."
+        },
+        {
+          "text": "Rimettere sul fuoco, aggiungere la panna, portare a ebollizione e servire."
+        }
+      ]
+    }
+  }
+}

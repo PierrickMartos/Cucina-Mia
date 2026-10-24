@@ -1,0 +1,247 @@
+{
+  "slug": "aubergines-teriyaki",
+  "title": "Aubergines teriyaki",
+  "description": "Des aubergines cuites à la vapeur puis caramélisées à la poêle dans une sauce teriyaki maison au gingembre, au mirin et au saké. Fondantes à souhait.",
+  "images": {
+    "cover": "images/recipes/aubergines-teriyaki/cover.webp",
+    "web": "images/recipes/aubergines-teriyaki/web.webp"
+  },
+  "prepTime": 15,
+  "cookTime": 30,
+  "servings": 2,
+  "difficulty": "Medio",
+  "category": "Secondi",
+  "tags": [
+    "aubergines",
+    "légumes",
+    "japonais",
+    "asiatique",
+    "végétarien",
+    "végétalien",
+    "sans-lactose",
+    "vapeur",
+    "poêle",
+    "plat-principal",
+    "umami",
+    "sucré-salé",
+    "fondant",
+    "chaud",
+    "réconfortant"
+  ],
+  "ingredients": [
+    {
+      "items": [
+        "2 aubergines",
+        "1 gousse d'ail",
+        "1 morceau de gingembre (1 cm)",
+        "4 c. à soupe de sauce soja",
+        "4 c. à soupe de mirin",
+        "4 c. à soupe de saké",
+        "1 c. à café de fécule de maïs",
+        "3 c. à soupe d'eau",
+        "1 c. à café de sésame blanc",
+        "1 c. à café de sésame noir",
+        "Huile neutre (tournesol ou pépins de raisin)"
+      ]
+    }
+  ],
+  "steps": [
+    {
+      "text": "Laver les aubergines et retirer leur pédoncule (la partie verte et la tige)."
+    },
+    {
+      "text": "Les faire cuire 20 minutes à la vapeur. Si vous n'avez pas de panier vapeur, vous pouvez les faire cuire au four à 180 °C pendant 30 minutes.",
+      "timers": [20, 30]
+    },
+    {
+      "text": "Pendant la cuisson des aubergines, commencer à préparer la sauce."
+    },
+    {
+      "text": "Râper le gingembre très finement à l'aide d'une râpe."
+    },
+    {
+      "text": "Dans une petite casserole, faire revenir l'ail et le gingembre râpés dans un filet d'huile neutre, en remuant bien pour éviter la coloration."
+    },
+    {
+      "text": "Ajouter la sauce soja, le mirin et le saké. Mélanger."
+    },
+    {
+      "text": "Dans un petit récipient, délayer la fécule de maïs et l'eau puis verser la préparation dans la casserole tout en mélangeant. La sauce va épaissir quasi instantanément. Une fois que la sauce a bien pris, la réserver."
+    },
+    {
+      "text": "Quand les aubergines sont cuites, les couper en deux sans aller jusqu'au bout afin de pouvoir les aplatir en les laissant entières."
+    },
+    {
+      "text": "Faire des petites entailles dans la chair pour les rendre bien plates."
+    },
+    {
+      "text": "Les faire caraméliser 5 à 10 minutes dans une poêle bien chaude avec un petit filet d'huile végétale. Ajouter ensuite toute la sauce et bien enrober les aubergines.",
+      "timers": [5]
+    },
+    {
+      "text": "Parsemer de sésame et servir bien chaud sur du riz blanc."
+    }
+  ],
+  "history": "Cette recette est devenue un incontournable. Des amis qui n'aiment pas les aubergines, nous en connaissons tous. Avec cette recette, vous les ferez changer d'avis. Succès garanti !",
+  "source": "Whoogy's, Manuel du cuisinier amateur, p. 128",
+  "originalSource": {
+    "type": "image",
+    "data": "images/recipes/aubergines-teriyaki/source.jpg"
+  },
+  "related": [
+    "aubergines-braisees-au-porc-et-riz",
+    "mayak-gyeran",
+    "katsudon",
+    "poke-bowl-falafel-mangue"
+  ],
+  "translations": {
+    "en": {
+      "title": "Teriyaki aubergines",
+      "description": "Aubergines steamed, then caramelised in a pan with a homemade teriyaki sauce of ginger, mirin and sake. Wonderfully melt-in-the-mouth.",
+      "tags": [
+        "aubergine",
+        "vegetables",
+        "japanese",
+        "asian",
+        "vegetarian",
+        "vegan",
+        "dairy-free",
+        "steamed",
+        "pan-fried",
+        "main-course",
+        "umami",
+        "sweet-and-savory",
+        "melting",
+        "hot",
+        "comforting"
+      ],
+      "ingredients": [
+        {
+          "items": [
+            "2 aubergines",
+            "1 garlic clove",
+            "1 piece of ginger (1 cm)",
+            "4 tbsp soy sauce",
+            "4 tbsp mirin",
+            "4 tbsp sake",
+            "1 tsp cornflour",
+            "3 tbsp water",
+            "1 tsp white sesame seeds",
+            "1 tsp black sesame seeds",
+            "Neutral oil (sunflower or grapeseed)"
+          ]
+        }
+      ],
+      "steps": [
+        {
+          "text": "Wash the aubergines and remove their stalk (the green part and the stem)."
+        },
+        {
+          "text": "Steam them for 20 minutes. If you don't have a steamer basket, you can bake them in the oven at 180 °C for 30 minutes."
+        },
+        {
+          "text": "While the aubergines are cooking, start making the sauce."
+        },
+        {
+          "text": "Grate the ginger very finely with a grater."
+        },
+        {
+          "text": "In a small saucepan, gently fry the grated garlic and ginger in a drizzle of neutral oil, stirring well so they don't colour."
+        },
+        {
+          "text": "Add the soy sauce, mirin and sake. Stir."
+        },
+        {
+          "text": "In a small bowl, mix the cornflour with the water, then pour it into the saucepan while stirring. The sauce thickens almost instantly. Once the sauce has set, put it aside."
+        },
+        {
+          "text": "When the aubergines are cooked, cut them in two without cutting all the way through, so you can flatten them while keeping them whole."
+        },
+        {
+          "text": "Make small cuts in the flesh to flatten them well."
+        },
+        {
+          "text": "Caramelise them for 5 to 10 minutes in a very hot frying pan with a small drizzle of vegetable oil. Then add all the sauce and coat the aubergines well."
+        },
+        {
+          "text": "Sprinkle with sesame seeds and serve piping hot on white rice."
+        }
+      ],
+      "history": "This recipe has become a must. We all know friends who don't like aubergines. With this recipe, you'll change their minds. Success guaranteed!"
+    },
+    "it": {
+      "title": "Melanzane teriyaki",
+      "description": "Melanzane cotte al vapore e poi caramellate in padella con una salsa teriyaki fatta in casa allo zenzero, mirin e sakè. Morbidissime.",
+      "tags": [
+        "melanzane",
+        "verdure",
+        "giapponese",
+        "asiatico",
+        "vegetariano",
+        "vegano",
+        "senza-lattosio",
+        "al-vapore",
+        "padella",
+        "piatto-principale",
+        "umami",
+        "agrodolce",
+        "fondente",
+        "caldo",
+        "confortante"
+      ],
+      "ingredients": [
+        {
+          "items": [
+            "2 melanzane",
+            "1 spicchio d'aglio",
+            "1 pezzo di zenzero (1 cm)",
+            "4 cucchiai di salsa di soia",
+            "4 cucchiai di mirin",
+            "4 cucchiai di sakè",
+            "1 cucchiaino di amido di mais",
+            "3 cucchiai d'acqua",
+            "1 cucchiaino di sesamo bianco",
+            "1 cucchiaino di sesamo nero",
+            "Olio neutro (di girasole o di vinaccioli)"
+          ]
+        }
+      ],
+      "steps": [
+        {
+          "text": "Lavare le melanzane ed eliminare il peduncolo (la parte verde e il gambo)."
+        },
+        {
+          "text": "Cuocerle al vapore per 20 minuti. Se non avete un cestello per il vapore, potete cuocerle in forno a 180 °C per 30 minuti."
+        },
+        {
+          "text": "Mentre le melanzane cuociono, iniziare a preparare la salsa."
+        },
+        {
+          "text": "Grattugiare lo zenzero molto finemente con una grattugia."
+        },
+        {
+          "text": "In un pentolino, far soffriggere l'aglio e lo zenzero grattugiati in un filo d'olio neutro, mescolando bene per evitare che prendano colore."
+        },
+        {
+          "text": "Aggiungere la salsa di soia, il mirin e il sakè. Mescolare."
+        },
+        {
+          "text": "In una ciotolina, stemperare l'amido di mais nell'acqua, poi versare il composto nel pentolino continuando a mescolare. La salsa si addensa quasi all'istante. Quando la salsa ha preso bene, metterla da parte."
+        },
+        {
+          "text": "Quando le melanzane sono cotte, tagliarle a metà senza arrivare fino in fondo, così da poterle appiattire lasciandole intere."
+        },
+        {
+          "text": "Praticare dei piccoli tagli nella polpa per renderle ben piatte."
+        },
+        {
+          "text": "Farle caramellare 5-10 minuti in una padella ben calda con un filo d'olio vegetale. Aggiungere poi tutta la salsa e ricoprire bene le melanzane."
+        },
+        {
+          "text": "Cospargere di sesamo e servire ben caldo su riso bianco."
+        }
+      ],
+      "history": "Questa ricetta è diventata un classico irrinunciabile. Tutti conosciamo amici a cui non piacciono le melanzane. Con questa ricetta, cambieranno idea. Successo garantito!"
+    }
+  }
+}
