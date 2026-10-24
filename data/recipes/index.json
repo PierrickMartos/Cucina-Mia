@@ -20989,5 +20989,77 @@
     },
     "stepCount": 11,
     "ingredientCount": 11
+  },
+  {
+    "slug": "creme-venitienne",
+    "title": "Crème vénitienne",
+    "description": "Une crème à la vanille toute simple, rendue légère et aérienne par des blancs montés en neige : le dessert d'Anne-Marie, la mémé d'Amélie.",
+    "images": {
+      "cover": "images/recipes/creme-venitienne/cover.webp",
+      "web": "images/recipes/creme-venitienne/web.webp"
+    },
+    "prepTime": 15,
+    "cookTime": 10,
+    "servings": 6,
+    "difficulty": "Facile",
+    "category": "Dolci",
+    "tags": [
+      "dessert",
+      "français",
+      "nostalgique",
+      "recette-de-famille",
+      "végétarien",
+      "vanille",
+      "œufs",
+      "aérien",
+      "onctueux",
+      "à-la-cuillère",
+      "économique",
+      "facile",
+      "toute-la-famille"
+    ],
+    "origin": "amelie-grandma",
+    "ingredientCount": 5,
+    "stepCount": 6,
+    "translations": {
+      "en": {
+        "title": "Venetian Cream",
+        "description": "A simple vanilla custard made light and airy with beaten egg whites: the dessert of Anne-Marie, Amélie's grandma.",
+        "tags": [
+          "dessert",
+          "french",
+          "nostalgic",
+          "family-recipe",
+          "vegetarian",
+          "vanilla",
+          "eggs",
+          "airy",
+          "creamy",
+          "spoonable",
+          "budget",
+          "easy",
+          "whole-family"
+        ]
+      },
+      "it": {
+        "title": "Crema veneziana",
+        "description": "Una semplice crema alla vaniglia, resa leggera e ariosa dagli albumi montati a neve: il dolce di Anne-Marie, la nonna di Amélie.",
+        "tags": [
+          "dessert",
+          "francese",
+          "nostalgico",
+          "ricetta-di-famiglia",
+          "vegetariano",
+          "vaniglia",
+          "uova",
+          "arioso",
+          "cremoso",
+          "al-cucchiaio",
+          "economico",
+          "facile",
+          "tutta-la-famiglia"
+        ]
+      }
+    }
   }
 ]

@@ -1,0 +1,180 @@
+{
+  "slug": "creme-venitienne",
+  "title": "Crème vénitienne",
+  "description": "Une crème à la vanille toute simple, rendue légère et aérienne par des blancs montés en neige : le dessert d'Anne-Marie, la mémé d'Amélie.",
+  "images": {
+    "cover": "images/recipes/creme-venitienne/cover.webp",
+    "web": "images/recipes/creme-venitienne/web.webp"
+  },
+  "imageCredit": {
+    "author": "Lee Milo",
+    "url": "https://unsplash.com/@miloleetw"
+  },
+  "prepTime": 15,
+  "cookTime": 10,
+  "servings": 6,
+  "difficulty": "Facile",
+  "category": "Dolci",
+  "tags": [
+    "dessert",
+    "français",
+    "nostalgique",
+    "recette-de-famille",
+    "végétarien",
+    "vanille",
+    "œufs",
+    "aérien",
+    "onctueux",
+    "à-la-cuillère",
+    "économique",
+    "facile",
+    "toute-la-famille"
+  ],
+  "ingredients": [
+    {
+      "items": [
+        "1/2 l de lait",
+        "100 g de sucre",
+        "40 g de farine",
+        "3 œufs",
+        "1 gousse de vanille"
+      ]
+    }
+  ],
+  "steps": [
+    {
+      "text": "Séparez les blancs des jaunes. Mélangez les jaunes, le sucre et la farine."
+    },
+    {
+      "text": "Faites bouillir le lait avec la gousse de vanille."
+    },
+    {
+      "text": "Versez le lait bouillant sur les jaunes sucrés en mélangeant."
+    },
+    {
+      "text": "Remettez sur feu doux en remuant continuellement."
+    },
+    {
+      "text": "Pendant ce temps, montez les blancs en neige ferme."
+    },
+    {
+      "text": "Retirez la crème du feu dès les premiers bouillons et versez-la petit à petit sur les blancs en neige, en battant. Bon appétit !"
+    }
+  ],
+  "history": "La recette d'Anne-Marie, la mémé d'Amélie, qui l'avait envoyée par e-mail.",
+  "origin": "amelie-grandma",
+  "originalSource": {
+    "type": "image",
+    "data": "images/recipes/creme-venitienne/source.jpg"
+  },
+  "related": [
+    "cremes-en-petits-pots-ou-grand-moule",
+    "mousse-au-chocolat-blanc",
+    "glace-a-la-creme-anglaise",
+    "gateau-de-semoule"
+  ],
+  "translations": {
+    "en": {
+      "title": "Venetian Cream",
+      "description": "A simple vanilla custard made light and airy with beaten egg whites: the dessert of Anne-Marie, Amélie's grandma.",
+      "tags": [
+        "dessert",
+        "french",
+        "nostalgic",
+        "family-recipe",
+        "vegetarian",
+        "vanilla",
+        "eggs",
+        "airy",
+        "creamy",
+        "spoonable",
+        "budget",
+        "easy",
+        "whole-family"
+      ],
+      "ingredients": [
+        {
+          "items": [
+            "1/2 l milk",
+            "100 g sugar",
+            "40 g flour",
+            "3 eggs",
+            "1 vanilla pod"
+          ]
+        }
+      ],
+      "steps": [
+        {
+          "text": "Separate the whites from the yolks. Mix the yolks, sugar and flour."
+        },
+        {
+          "text": "Bring the milk to the boil with the vanilla pod."
+        },
+        {
+          "text": "Pour the boiling milk over the sweetened yolks, stirring."
+        },
+        {
+          "text": "Return to low heat, stirring constantly."
+        },
+        {
+          "text": "Meanwhile, whisk the egg whites to stiff peaks."
+        },
+        {
+          "text": "Take the cream off the heat as soon as it starts to boil and pour it little by little over the beaten egg whites, whisking. Enjoy!"
+        }
+      ],
+      "history": "The recipe of Anne-Marie, Amélie's grandma, who sent it by email."
+    },
+    "it": {
+      "title": "Crema veneziana",
+      "description": "Una semplice crema alla vaniglia, resa leggera e ariosa dagli albumi montati a neve: il dolce di Anne-Marie, la nonna di Amélie.",
+      "tags": [
+        "dessert",
+        "francese",
+        "nostalgico",
+        "ricetta-di-famiglia",
+        "vegetariano",
+        "vaniglia",
+        "uova",
+        "arioso",
+        "cremoso",
+        "al-cucchiaio",
+        "economico",
+        "facile",
+        "tutta-la-famiglia"
+      ],
+      "ingredients": [
+        {
+          "items": [
+            "1/2 l di latte",
+            "100 g di zucchero",
+            "40 g di farina",
+            "3 uova",
+            "1 baccello di vaniglia"
+          ]
+        }
+      ],
+      "steps": [
+        {
+          "text": "Separate gli albumi dai tuorli. Mescolate i tuorli, lo zucchero e la farina."
+        },
+        {
+          "text": "Portate a ebollizione il latte con il baccello di vaniglia."
+        },
+        {
+          "text": "Versate il latte bollente sui tuorli zuccherati, mescolando."
+        },
+        {
+          "text": "Rimettete su fuoco basso mescolando continuamente."
+        },
+        {
+          "text": "Nel frattempo, montate gli albumi a neve ferma."
+        },
+        {
+          "text": "Togliete la crema dal fuoco al primo bollore e versatela poco alla volta sugli albumi montati, sbattendo. Buon appetito!"
+        }
+      ],
+      "history": "La ricetta di Anne-Marie, la nonna di Amélie, che l'aveva mandata per e-mail."
+    }
+  }
+}
