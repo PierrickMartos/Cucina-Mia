@@ -39,7 +39,7 @@ const TranslationSchema = z.object({
   history: z.string().optional(),
 })
 
-const RecipeOriginSchema = z.enum(["none", "pierrick", "amelie", "pierrick-grandma", "amelie-grandpa"])
+const RecipeOriginSchema = z.enum(["none", "pierrick", "amelie", "pierrick-grandma", "amelie-grandpa", "amelie-grandma"])
 
 export const RecipeSummarySchema = z.object({
   slug: SlugSchema,

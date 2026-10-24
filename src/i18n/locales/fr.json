@@ -125,7 +125,8 @@
     "pierrick": "Recette de Pierrick",
     "amelie": "Recette d'Amélie",
     "pierrick-grandma": "Mamie de Pierrick",
-    "amelie-grandpa": "Papi d'Amélie"
+    "amelie-grandpa": "Papi d'Amélie",
+    "amelie-grandma": "Mémé d'Amélie"
   },
   "stepsOptions": {
     "simple": "✌️ ≤ 4 étapes",

@@ -18,7 +18,7 @@ export type StepsBucket = (typeof STEPS_BUCKETS)[number]
 const INGREDIENTS_BUCKETS = ["few", "moderate", "many"] as const
 export type IngredientsBucket = (typeof INGREDIENTS_BUCKETS)[number]
 
-export const ORIGIN_VALUES = ["pierrick", "amelie", "pierrick-grandma", "amelie-grandpa"] as const
+export const ORIGIN_VALUES = ["pierrick", "amelie", "pierrick-grandma", "amelie-grandpa", "amelie-grandma"] as const
 
 export const DIET_TAGS = ["végétarien", "végétalien", "vegan", "sans-gluten", "sans-lactose", "léger"] as const
 export const SEASON_TAGS = ["printemps", "été", "automne", "hiver", "noël", "pâques", "apéro", "fête"] as const
