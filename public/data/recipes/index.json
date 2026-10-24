@@ -14254,7 +14254,7 @@
     "cookTime": 45,
     "servings": 8,
     "difficulty": "Medio",
-    "category": "Secondi",
+    "category": "Antipasti",
     "tags": [
       "poisson",
       "fruits-de-mer",
@@ -14525,7 +14525,7 @@
     "cookTime": 60,
     "servings": 8,
     "difficulty": "Medio",
-    "category": "Secondi",
+    "category": "Antipasti",
     "tags": [
       "poisson",
       "fruits-de-mer",
@@ -15359,7 +15359,7 @@
     "cookTime": 30,
     "servings": 8,
     "difficulty": "Facile",
-    "category": "Secondi",
+    "category": "Antipasti",
     "tags": [
       "foie-de-volaille",
       "volaille",
@@ -15428,7 +15428,7 @@
     "cookTime": 40,
     "servings": 8,
     "difficulty": "Medio",
-    "category": "Secondi",
+    "category": "Antipasti",
     "tags": [
       "foie-de-volaille",
       "volaille",
@@ -15504,7 +15504,7 @@
     "cookTime": 30,
     "servings": 4,
     "difficulty": "Medio",
-    "category": "Secondi",
+    "category": "Antipasti",
     "tags": [
       "foie-gras",
       "canard",
@@ -16188,7 +16188,7 @@
     "cookTime": 60,
     "servings": 8,
     "difficulty": "Facile",
-    "category": "Secondi",
+    "category": "Antipasti",
     "tags": [
       "lapin",
       "porc",
@@ -16257,7 +16257,7 @@
     "cookTime": 90,
     "servings": 1,
     "difficulty": "Difficile",
-    "category": "Secondi",
+    "category": "Antipasti",
     "tags": [
       "canard",
       "français",
@@ -16326,7 +16326,7 @@
     "cookTime": 105,
     "servings": 10,
     "difficulty": "Medio",
-    "category": "Secondi",
+    "category": "Antipasti",
     "tags": [
       "lapin",
       "porc",
