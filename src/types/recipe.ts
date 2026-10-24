@@ -25,7 +25,7 @@ export interface RecipeImages {
   web: string
 }
 
-export type RecipeOrigin = "none" | "pierrick" | "amelie" | "pierrick-grandma" | "amelie-grandpa"
+export type RecipeOrigin = "none" | "pierrick" | "amelie" | "pierrick-grandma" | "amelie-grandpa" | "amelie-grandma"
 
 export interface RecipeSummary {
   slug: string
