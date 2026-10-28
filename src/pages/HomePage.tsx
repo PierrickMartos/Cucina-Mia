@@ -36,8 +36,8 @@ const CATEGORY_IMAGES: Record<string, { name: string; width: number }> = {
   Brunch: { name: "brunch", width: 1024 },
 }
 
-// Matches the grid below: 1 column, then 2 from `sm`, then 3 from `lg`.
-const CATEGORY_IMAGE_SIZES = "(min-width: 1024px) 33vw, (min-width: 640px) 50vw, 100vw"
+// Matches the grid below: 2 columns, then 3 from `lg`.
+const CATEGORY_IMAGE_SIZES = "(min-width: 1024px) 33vw, 50vw"
 
 function categoryImage(category: string, fallback: string) {
   const image = CATEGORY_IMAGES[category]
@@ -96,9 +96,9 @@ export function HomePage() {
   const isSearching = search.trim().length > 0
 
   return (
-    <div className="flex flex-col px-6 space-y-6 pb-6 h-full">
+    <div className="flex flex-col px-6 space-y-6 pb-6">
       {/* Hero Header */}
-      <header className="space-y-5 shrink-0">
+      <header className="space-y-5">
         <div>
           <h1 className="font-headline text-3xl text-primary font-bold tracking-[-0.02em] leading-none">
             {t("home.title")}
@@ -145,7 +145,7 @@ export function HomePage() {
       </header>
 
       {/* Content: search results or category cards */}
-      <section className="flex-1 min-h-0 overflow-y-auto pb-2">
+      <section className="pb-2">
         {error ? (
           <div role="alert" className="flex flex-col items-center justify-center py-16 text-center gap-4">
             <p className="text-sm text-muted-foreground">{t("common.loadError")}</p>
@@ -160,9 +160,9 @@ export function HomePage() {
         ) : isSearching ? (
           searchResults.length === 0 ? <RecipesNotFound /> : <RecipeGrid recipes={searchResults} />
         ) : loading ? (
-          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
+          <div className="grid grid-cols-2 lg:grid-cols-3 gap-3 sm:gap-4">
             {[1, 2, 3].map((i) => (
-              <div key={i} className="h-48 lg:h-72">
+              <div key={i} className="h-36 sm:h-48 lg:h-72">
                 <Skeleton className="h-full w-full rounded-[1.5rem]" />
               </div>
             ))}
@@ -170,14 +170,14 @@ export function HomePage() {
         ) : (
           <>
           <RecentlyViewed recipes={recipes} />
-          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
+          <div className="grid grid-cols-2 lg:grid-cols-3 gap-3 sm:gap-4">
             {categories.map((cat, index) => (
               <AnimateInView key={cat.category} index={index}>
               <Link
                 to={`/recipes?category=${encodeURIComponent(cat.category)}`}
                 className="group cursor-pointer"
               >
-                <article className="relative h-48 lg:h-72 overflow-hidden rounded-[1.5rem] editorial-grain">
+                <article className="relative h-36 sm:h-48 lg:h-72 overflow-hidden rounded-[1.5rem] editorial-grain">
                   <img
                     {...cat.image}
                     alt=""
@@ -186,11 +186,11 @@ export function HomePage() {
                     loading={index < 3 ? "eager" : "lazy"}
                     decoding="async"
                   />
-                  <div className="vignette-overlay absolute inset-0 flex flex-col justify-end p-5">
+                  <div className="vignette-overlay absolute inset-0 flex flex-col justify-end p-3.5 sm:p-5">
                     <span className="text-white/80 font-body uppercase tracking-widest text-[10px] mb-1">
                       {cat.count} · {cat.category}
                     </span>
-                    <h3 className="font-headline text-3xl text-white font-bold tracking-[-0.02em] transition-transform duration-700 group-hover:-translate-y-2">
+                    <h3 className="font-headline text-lg leading-tight hyphens-auto sm:text-3xl sm:leading-normal text-white font-bold tracking-[-0.02em] transition-transform duration-700 group-hover:-translate-y-2">
                       {cat.label}
                     </h3>
                   </div>

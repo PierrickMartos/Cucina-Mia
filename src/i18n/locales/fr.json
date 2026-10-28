@@ -71,6 +71,7 @@
     "next": "Suiv.",
     "nextStep": "Étape suivante",
     "stepOf": "Étape {{current}} sur {{total}}",
+    "goToSteps": "Voir la préparation",
     "sections": "Sections de la recette",
     "read": "Lire",
     "readAloud": "Lire à voix haute",

@@ -46,7 +46,7 @@ export function RecipeCard({ recipe: rawRecipe, children }: { recipe: RecipeSumm
           />
         </div>
         <CardContent className="relative px-5 pb-5 pt-0">
-          <div className="flex items-center gap-2 mb-3">
+          <div className="flex flex-wrap items-center gap-2 mb-3">
             <Badge variant="secondary" className="text-[10px] uppercase tracking-wider">
               {t(`categories.${recipe.category}`, recipe.category)}
             </Badge>

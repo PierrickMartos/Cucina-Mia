@@ -100,6 +100,10 @@ export function Layout() {
     { to: "/favorites", icon: Heart, label: t("nav.favorites") },
     { to: "/about", icon: Info, label: t("nav.about") },
   ]
+  const isActive = (to: string) => (to === "/" ? pathname === "/" : pathname.startsWith(to))
+  const clearFilters = (to: string) =>
+    to === "/recipes" ? () => localStorage.removeItem("cucina-mia-filters") : undefined
+  const addRecipeUrl = "https://github.com/PierrickMartos/Cucina-Mia/issues"
 
   return (
     <div className="h-dvh flex flex-col bg-surface overflow-hidden">
@@ -114,9 +118,10 @@ export function Layout() {
         {t("common.skipToContent")}
       </a>
       {/* Top App Bar */}
-      <nav className="shrink-0 relative flex items-center px-6 h-14 bg-surface/70 backdrop-blur-md z-50 print:hidden">
-        <div id="header-left-slot" className="w-24 shrink-0" />
-        <Link to="/" onClick={sayMammaMia} className="absolute left-1/2 -translate-x-1/2">
+      <nav className="shrink-0 relative flex items-center gap-6 px-6 h-14 bg-surface/70 backdrop-blur-md z-50 print:hidden">
+        {/* Holds the recipe page's back button: left of the centred logo on small screens, after the logo on large ones */}
+        <div id="header-left-slot" className="w-24 shrink-0 lg:order-2 lg:w-auto" />
+        <Link to="/" onClick={sayMammaMia} className="absolute left-1/2 -translate-x-1/2 lg:static lg:translate-x-0 lg:order-1">
           <motion.h1
             key={pathname}
             className="text-3xl font-headline text-primary font-bold whitespace-nowrap"
@@ -127,7 +132,32 @@ export function Layout() {
             CUCINA MIA
           </motion.h1>
         </Link>
-        <div className="ml-auto w-24 flex justify-end shrink-0">
+        {/* Large screens: the navigation lives in the top bar instead of the bottom tab bar */}
+        <div className="hidden lg:flex lg:order-3 ml-auto items-center gap-1">
+          {navItems.map(({ to, label }) => (
+            <Link
+              key={to}
+              to={to}
+              onClick={clearFilters(to)}
+              aria-current={isActive(to) ? "page" : undefined}
+              className={`rounded-full px-4 py-1.5 text-sm font-medium transition-colors ${
+                isActive(to) ? "bg-primary/10 text-primary" : "text-muted-foreground hover:text-primary"
+              }`}
+            >
+              {label}
+            </Link>
+          ))}
+          <a
+            href={addRecipeUrl}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="ml-2 inline-flex items-center gap-1.5 rounded-full border border-border px-4 py-1.5 text-sm font-medium text-muted-foreground hover:text-primary hover:border-primary/40 transition-colors"
+          >
+            <PlusCircle className="h-4 w-4" />
+            {t("nav.add")}
+          </a>
+        </div>
+        <div className="ml-auto lg:ml-0 lg:order-4 w-24 lg:w-auto flex justify-end shrink-0">
           <LanguageSwitcher />
         </div>
       </nav>
@@ -147,31 +177,29 @@ export function Layout() {
       <TimerTray />
 
       {/* Bottom Nav Bar */}
-      <nav className="shrink-0 flex justify-around items-center px-1 sm:px-4 pb-1.5 pt-1.5 bg-surface/70 backdrop-blur-[20px] rounded-t-xl z-50 print:hidden">
+      <nav className="lg:hidden shrink-0 flex justify-around items-center px-1 sm:px-4 pb-1.5 pt-1.5 bg-surface/70 backdrop-blur-[20px] rounded-t-xl z-50 print:hidden">
         {navItems.map(({ to, icon: Icon, label }) => {
-          const isActive = to === "/"
-            ? pathname === "/"
-            : pathname.startsWith(to)
+          const active = isActive(to)
           return (
             <Link
               key={to}
               to={to}
-              onClick={to === "/recipes" ? () => localStorage.removeItem("cucina-mia-filters") : undefined}
-              aria-current={isActive ? "page" : undefined}
+              onClick={clearFilters(to)}
+              aria-current={active ? "page" : undefined}
               className={
-                isActive
-                  ? "relative flex flex-col items-center justify-center text-primary-foreground rounded-xl px-5 -mx-3 sm:mx-0 py-1 scale-95 transition-transform"
+                active
+                  ? "relative flex flex-col items-center justify-center text-primary-foreground rounded-xl px-4 py-1 scale-95 transition-transform"
                   : "relative flex flex-col items-center justify-center text-outline px-1 sm:px-5 py-1 hover:text-primary transition-colors"
               }
             >
-              {isActive && (
+              {active && (
                 <motion.span
                   layoutId="nav-indicator"
                   className="absolute inset-0 gradient-primary rounded-xl"
                   transition={{ type: "spring", stiffness: 400, damping: 30 }}
                 />
               )}
-              <Icon className="relative z-10 h-5 w-5" strokeWidth={isActive ? 2.5 : 2} />
+              <Icon className="relative z-10 h-5 w-5" strokeWidth={active ? 2.5 : 2} />
               <span className="relative z-10 text-[9px] uppercase tracking-widest whitespace-nowrap font-semibold mt-0.5">
                 {label}
               </span>
@@ -179,7 +207,7 @@ export function Layout() {
           )
         })}
         <a
-          href="https://github.com/PierrickMartos/Cucina-Mia/issues"
+          href={addRecipeUrl}
           target="_blank"
           rel="noopener noreferrer"
           aria-label={t("nav.add")}

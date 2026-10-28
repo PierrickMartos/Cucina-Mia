@@ -390,7 +390,7 @@ export function RecipePage() {
   if (loading) {
     return (
       <div>
-        <Skeleton className="aspect-[4/5] sm:aspect-[16/10] lg:aspect-auto lg:h-[60vh] w-full" />
+        <Skeleton className="aspect-[4/5] sm:aspect-[16/10] lg:aspect-auto lg:h-[50vh] w-full" />
         <div className="relative -mt-16 mx-4 bg-background rounded-[1.5rem] p-6 text-center">
           <Skeleton className="h-3 w-32 mx-auto mb-4 rounded-full" />
           <Skeleton className="h-8 w-48 mx-auto mb-6 rounded" />
@@ -492,18 +492,19 @@ export function RecipePage() {
       {headerSlot && createPortal(
         <button
           onClick={() => navigate(-1)}
-          className={`cursor-pointer inline-flex items-center text-sm text-muted-foreground hover:text-foreground transition-all duration-200 print:hidden ${
+          className={`cursor-pointer inline-flex items-center p-2 -m-2 text-sm text-muted-foreground hover:text-foreground transition-all duration-200 print:hidden ${
             headerBackVisible ? "opacity-100 translate-x-0" : "opacity-0 -translate-x-2 pointer-events-none"
           }`}
         >
-          <ArrowLeft className="h-4 w-4 mr-1" />
-          {t("recipe.back")}
+          <ArrowLeft className="h-4 w-4 sm:mr-1" aria-hidden="true" />
+          {/* Icon only on phones, where the label would run into the centred logo */}
+          <span className="sr-only sm:not-sr-only">{t("recipe.back")}</span>
         </button>,
         headerSlot
       )}
 
       {/* Full-width Hero Image */}
-      <div ref={heroRef} className="relative overflow-hidden aspect-[4/5] sm:aspect-[16/10] lg:aspect-auto lg:h-[60vh]">
+      <div ref={heroRef} className="relative overflow-hidden aspect-[4/5] sm:aspect-[16/10] lg:aspect-auto lg:h-[50vh]">
         {/* Back button overlaid on image */}
         <button
           onClick={() => navigate(-1)}
@@ -785,13 +786,12 @@ export function RecipePage() {
                       type="button"
                       onClick={() => speakingStep === i ? stopSpeaking() : speakText(step.text, i)}
                       aria-label={speakingStep === i ? t("recipe.stopReading", "Stop reading") : t("recipe.readAloud", "Read aloud")}
-                      className="mt-2 inline-flex items-center gap-1.5 text-xs text-muted-foreground hover:text-foreground transition-colors cursor-pointer print:hidden"
+                      title={speakingStep === i ? t("recipe.stopReading", "Stop reading") : t("recipe.readAloud", "Read aloud")}
+                      className={`mt-2 -ml-1.5 inline-flex h-8 w-8 items-center justify-center rounded-full hover:bg-surface-high transition-colors cursor-pointer print:hidden ${
+                        speakingStep === i ? "text-primary" : "text-muted-foreground hover:text-foreground"
+                      }`}
                     >
-                      {speakingStep === i ? (
-                        <><VolumeX className="h-3.5 w-3.5" />{t("recipe.stop", "Stop")}</>
-                      ) : (
-                        <><Volume2 className="h-3.5 w-3.5" />{t("recipe.read", "Read")}</>
-                      )}
+                      {speakingStep === i ? <VolumeX className="h-4 w-4" /> : <Volume2 className="h-4 w-4" />}
                     </button>
                     {step.timers && (
                       <StepTimerButtons slug={recipe.slug} recipeTitle={recipe.title} step={i} timers={step.timers} />
@@ -807,8 +807,8 @@ export function RecipePage() {
 
       {/* Two-column layout, large screens & landscape tablets */}
       <div className="hidden lg:grid print:grid grid-cols-[minmax(0,300px)_1fr] gap-12 mb-8 max-w-4xl mx-auto print:grid-cols-1 print:gap-6">
-        {/* Ingredients column */}
-        <section>
+        {/* Ingredients column, pinned while the steps scroll by */}
+        <section className="lg:sticky lg:top-6 lg:self-start lg:max-h-[calc(100dvh-7rem)] lg:overflow-y-auto print:static print:max-h-none print:overflow-visible">
           <div className="flex items-center justify-between mb-6">
             <h2 className="font-headline text-xl font-bold tracking-[-0.02em] text-primary">{t("recipe.ingredients")}</h2>
             {Object.values(checkedIngredients).some(Boolean) && (
@@ -849,13 +849,12 @@ export function RecipePage() {
                       type="button"
                       onClick={() => speakingStep === i ? stopSpeaking() : speakText(step.text, i)}
                       aria-label={speakingStep === i ? t("recipe.stopReading", "Stop reading") : t("recipe.readAloud", "Read aloud")}
-                      className="mt-2 inline-flex items-center gap-1.5 text-xs text-muted-foreground hover:text-foreground transition-colors cursor-pointer print:hidden"
+                      title={speakingStep === i ? t("recipe.stopReading", "Stop reading") : t("recipe.readAloud", "Read aloud")}
+                      className={`mt-2 -ml-1.5 inline-flex h-8 w-8 items-center justify-center rounded-full hover:bg-surface-high transition-colors cursor-pointer print:hidden ${
+                        speakingStep === i ? "text-primary" : "text-muted-foreground hover:text-foreground"
+                      }`}
                     >
-                      {speakingStep === i ? (
-                        <><VolumeX className="h-3.5 w-3.5" />{t("recipe.stop", "Stop")}</>
-                      ) : (
-                        <><Volume2 className="h-3.5 w-3.5" />{t("recipe.read", "Read")}</>
-                      )}
+                      {speakingStep === i ? <VolumeX className="h-4 w-4" /> : <Volume2 className="h-4 w-4" />}
                     </button>
                     {step.timers && (
                       <StepTimerButtons slug={recipe.slug} recipeTitle={recipe.title} step={i} timers={step.timers} />
@@ -915,6 +914,19 @@ export function RecipePage() {
               )}
             </motion.button>
           )}
+          {activeTab === "ingredients" ? (
+            <div className="flex items-center justify-end py-3 px-4 pb-4">
+              <button
+                type="button"
+                onClick={() => goToStep(currentStep)}
+                className="inline-flex items-center gap-1 text-sm font-semibold gradient-primary text-primary-foreground px-4 py-1.5 rounded-lg cursor-pointer"
+              >
+                {t("recipe.goToSteps")}
+                <ArrowLeft className="h-4 w-4 rotate-180" aria-hidden="true" />
+              </button>
+            </div>
+          ) : (
+          <>
           {/* Progress bar */}
           <div className="h-1 bg-border">
             <div
@@ -956,6 +968,8 @@ export function RecipePage() {
               <ArrowLeft className="h-4 w-4 rotate-180" />
             </button>
           </div>
+          </>
+          )}
         </div>,
         document.body
       )}

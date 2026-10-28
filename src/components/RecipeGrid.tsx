@@ -70,8 +70,8 @@ interface RecipeGridProps {
 export function RecipeGrid({ recipes, loading = false }: RecipeGridProps) {
   if (loading) {
     return (
-      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
-        {[1, 2, 3].map((i) => (
+      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6">
+        {[1, 2, 3, 4].map((i) => (
           <div key={i} className="space-y-3">
             <Skeleton className="aspect-[4/3] w-full rounded-[1.5rem]" />
             <Skeleton className="h-4 w-3/4" />
@@ -87,7 +87,7 @@ export function RecipeGrid({ recipes, loading = false }: RecipeGridProps) {
   }
 
   return (
-    <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+    <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6">
       {recipes.map((recipe, index) => (
         <AnimateInView key={recipe.slug} index={index}>
           <RecipeCard recipe={recipe} />

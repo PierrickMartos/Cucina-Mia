@@ -71,6 +71,7 @@
     "next": "Next",
     "nextStep": "Next step",
     "stepOf": "Step {{current}} of {{total}}",
+    "goToSteps": "Go to the method",
     "sections": "Recipe sections",
     "read": "Read",
     "readAloud": "Read aloud",
