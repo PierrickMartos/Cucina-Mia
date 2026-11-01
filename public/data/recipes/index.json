@@ -21061,5 +21061,70 @@
         ]
       }
     }
+  },
+  {
+    "slug": "flan-au-fromage-sauce-tomate",
+    "title": "Flan au fromage, sauce tomate",
+    "description": "Un flan au gruyère cuit au bain-marie, nappé d'une sauce tomate à la crème et servi très chaud.",
+    "images": {
+      "cover": "images/recipes/flan-au-fromage-sauce-tomate/cover.webp",
+      "web": "images/recipes/flan-au-fromage-sauce-tomate/web.webp"
+    },
+    "prepTime": 15,
+    "cookTime": 40,
+    "servings": 4,
+    "difficulty": "Facile",
+    "category": "Secondi",
+    "tags": [
+      "fromage",
+      "œufs",
+      "four",
+      "bain-marie",
+      "français",
+      "plat-principal",
+      "fondant",
+      "chaud",
+      "facile",
+      "économique",
+      "recette-de-famille"
+    ],
+    "translations": {
+      "en": {
+        "title": "Cheese flan with tomato sauce",
+        "description": "A Gruyère flan baked in a water bath, topped with a creamy tomato sauce and served piping hot.",
+        "tags": [
+          "cheese",
+          "eggs",
+          "oven",
+          "water-bath",
+          "french",
+          "main-course",
+          "melting",
+          "hot",
+          "easy",
+          "budget-friendly",
+          "family-recipe"
+        ]
+      },
+      "it": {
+        "title": "Sformato al formaggio con salsa di pomodoro",
+        "description": "Uno sformato al gruviera cotto a bagnomaria, ricoperto da una salsa di pomodoro alla crème fraîche e servito ben caldo.",
+        "tags": [
+          "formaggio",
+          "uova",
+          "forno",
+          "bagnomaria",
+          "francese",
+          "piatto-principale",
+          "fondente",
+          "caldo",
+          "facile",
+          "economico",
+          "ricetta-di-famiglia"
+        ]
+      }
+    },
+    "stepCount": 5,
+    "ingredientCount": 7
   }
 ]
