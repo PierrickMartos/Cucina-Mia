@@ -1,0 +1,151 @@
+{
+  "slug": "mousse-au-chocolat-noir",
+  "title": "Mousse au chocolat noir",
+  "description": "Une mousse au chocolat noir toute simple, montée aux blancs en neige, à parfumer au rhum ou aux écorces d'oranges confites.",
+  "images": {
+    "cover": "images/recipes/mousse-au-chocolat-noir/cover.webp",
+    "web": "images/recipes/mousse-au-chocolat-noir/web.webp"
+  },
+  "imageCredit": {
+    "author": "DanielaElenaTentis",
+    "url": "https://pixabay.com/users/danielaelenatentis-2743349/"
+  },
+  "prepTime": 20,
+  "cookTime": 5,
+  "servings": 8,
+  "difficulty": "Facile",
+  "category": "Dolci",
+  "origin": "amelie-grandpa",
+  "tags": [
+    "chocolat",
+    "œufs",
+    "dessert",
+    "français",
+    "nostalgique",
+    "recette-de-famille",
+    "bain-marie",
+    "facile",
+    "gourmand",
+    "à-la-cuillère",
+    "froid",
+    "végétarien"
+  ],
+  "ingredients": [
+    {
+      "items": [
+        "250 g de chocolat noir",
+        "6 œufs",
+        "½ dl de crème ou un peu de sirop"
+      ]
+    }
+  ],
+  "steps": [
+    {
+      "text": "Faire fondre au bain-marie le chocolat concassé avec la crème ou le sirop."
+    },
+    {
+      "text": "Lisser au fouet en ajoutant un par un les jaunes d'œufs."
+    },
+    {
+      "text": "Monter les blancs en neige très ferme, mélanger délicatement et dresser en saladier ou en coupes individuelles."
+    }
+  ],
+  "tips": [
+    "La mousse au chocolat noir peut être parfumée au rhum, ou avec un mélange d'écorces d'oranges confites hachées et parfumées au Cointreau ou au Grand-Marnier."
+  ],
+  "source": "Les recettes de Maurice Houdré, tome 3, Les entremets",
+  "originalSource": {
+    "type": "text",
+    "data": "Mousse au chocolat noir\n\nIngrédients : pour 8 personnes\n\n. 250 g de chocolat noir\n. 6 œufs\n. ½ dl de crème ou un peu de sirop\n\nFaire fondre au bain-marie le chocolat concassé avec la crème ou le sirop.\n\nLisser au fouet en ajoutant un par un les jaunes d’œufs.\nMonter les blancs en neige très ferme, mélanger délicatement et dresser en saladier ou en coupes individuelles.\nLa mousse au chocolat noir peut être parfumée au rhum, ou avec un mélange d’écorces d’oranges confites hachées et parfumées au Cointreau ou au Grand-Marnier.\n"
+  },
+  "related": [
+    "mousse-au-chocolat-blanc",
+    "flan-au-cacao",
+    "charlotte-au-chocolat",
+    "marquise-au-chocolat"
+  ],
+  "translations": {
+    "en": {
+      "title": "Dark chocolate mousse",
+      "description": "A very simple dark chocolate mousse, lightened with stiffly beaten egg whites, to flavour with rum or candied orange peel.",
+      "tags": [
+        "chocolate",
+        "eggs",
+        "dessert",
+        "french",
+        "nostalgic",
+        "family-recipe",
+        "bain-marie",
+        "easy",
+        "indulgent",
+        "spoonable",
+        "cold",
+        "vegetarian"
+      ],
+      "ingredients": [
+        {
+          "items": [
+            "250 g dark chocolate",
+            "6 eggs",
+            "½ dl cream or a little syrup"
+          ]
+        }
+      ],
+      "steps": [
+        {
+          "text": "Melt the roughly chopped chocolate with the cream or syrup in a bain-marie."
+        },
+        {
+          "text": "Whisk until smooth, adding the egg yolks one at a time."
+        },
+        {
+          "text": "Beat the egg whites to very stiff peaks, fold them in gently and serve in a bowl or in individual cups."
+        }
+      ],
+      "tips": [
+        "The dark chocolate mousse can be flavoured with rum, or with a mixture of chopped candied orange peel flavoured with Cointreau or Grand Marnier."
+      ]
+    },
+    "it": {
+      "title": "Mousse al cioccolato fondente",
+      "description": "Una mousse al cioccolato fondente semplicissima, alleggerita con albumi montati a neve, da profumare al rum o con scorze d'arancia candite.",
+      "tags": [
+        "cioccolato",
+        "uova",
+        "dessert",
+        "francese",
+        "nostalgico",
+        "ricetta-di-famiglia",
+        "bagnomaria",
+        "facile",
+        "goloso",
+        "al-cucchiaio",
+        "freddo",
+        "vegetariano"
+      ],
+      "ingredients": [
+        {
+          "items": [
+            "250 g di cioccolato fondente",
+            "6 uova",
+            "½ dl di panna o un po' di sciroppo"
+          ]
+        }
+      ],
+      "steps": [
+        {
+          "text": "Sciogliere a bagnomaria il cioccolato tritato grossolanamente con la panna o lo sciroppo."
+        },
+        {
+          "text": "Lavorare con la frusta fino a ottenere un composto liscio, aggiungendo i tuorli uno alla volta."
+        },
+        {
+          "text": "Montare gli albumi a neve ben ferma, incorporarli delicatamente e servire in un'insalatiera o in coppette individuali."
+        }
+      ],
+      "tips": [
+        "La mousse al cioccolato fondente si può profumare al rum, oppure con un misto di scorze d'arancia candite tritate e profumate al Cointreau o al Grand Marnier."
+      ]
+    }
+  }
+}

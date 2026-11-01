@@ -1,0 +1,190 @@
+{
+  "slug": "saumon-marine",
+  "title": "Saumon mariné",
+  "description": "Fines tranches de saumon cru marinées 2 à 3 jours au citron, à l'aneth et à l'huile d'olive, servies sur toast grillé et beurré.",
+  "images": {
+    "cover": "images/recipes/saumon-marine/cover.webp",
+    "web": "images/recipes/saumon-marine/web.webp"
+  },
+  "imageCredit": {
+    "author": "eak_kkk",
+    "url": "https://pixabay.com/users/eak_kkk-907811/"
+  },
+  "prepTime": 30,
+  "cookTime": 0,
+  "servings": 8,
+  "difficulty": "Facile",
+  "category": "Secondi",
+  "origin": "amelie-grandpa",
+  "tags": [
+    "saumon",
+    "poisson",
+    "plat-principal",
+    "cru",
+    "no-cuisson",
+    "froid",
+    "acidulé",
+    "herbacé",
+    "préparation-à-lavance",
+    "facile",
+    "français",
+    "nostalgique",
+    "recette-de-famille"
+  ],
+  "ingredients": [
+    {
+      "items": [
+        "½ saumon de 1,5 kg environ"
+      ]
+    },
+    {
+      "group": "Marinade",
+      "items": [
+        "2 citrons",
+        "1 cuillère d'aneth",
+        "1 dl d'huile d'olive (Quanto basta)"
+      ]
+    }
+  ],
+  "steps": [
+    {
+      "text": "Enlever le reste des arêtes avec un grand couteau à lame fine."
+    },
+    {
+      "text": "Couper des tranches de saumon assez minces, les poser sur un plat."
+    },
+    {
+      "text": "Préparation de la marinade : laver et essuyer les citrons, prélever les zestes, faire le jus puis hacher les zestes."
+    },
+    {
+      "text": "Verser les zestes dans un bol, ajouter le jus des citrons, une bonne cuillère à potage d'aneth haché, l'huile d'olive, mélanger le tout et verser sur les tranches de saumon."
+    },
+    {
+      "text": "Couvrir le plat d'un papier sulfurisé, laisser macérer 2 à 3 jours."
+    },
+    {
+      "text": "Dressage : sur toast grillé et beurré avec des pommes de terre en robe des champs ou des pommes de terre en salade ou des concombres à la crème."
+    }
+  ],
+  "source": "Les recettes de Maurice Houdré, tome 2, Les poissons et crustacés",
+  "originalSource": {
+    "type": "text",
+    "data": "Saumon mariné\n\nIngrédients : pour 8 personnes\n\n. ½ saumon  de 1,5 kg environ\nMarinade :\n. 2 citrons\n. 1 cuillère d’aneth\n. 1 dl d’huile d’olive\n\nEnlever le reste des arêtes avec un grand couteau à lame fine.\n\nCouper des tranches de saumon assez minces, poser les sur un plat.\n\nPréparation de la marinade :\nLaver et essuyer les citrons, prélever les zestes, faire le jus puis hacher les zestes.\nVerser les zestes dans un bol, ajouter le jus des citrons, une bonne cuillère à potage d’aneth hachée, l’huile d’olive, mélanger le tout et verser sur les tranches de saumon.\nCouvrir le plat d’un papier sulfurisé, laisser macérer 2 à 3 jours.\n\nService :\nSur toast grillé et beurré avec des pommes de terre en robe des champs ou des pommes de terre en salade ou des concombres à la crème.\n"
+  },
+  "related": [
+    "filets-de-sole-a-la-norvegienne",
+    "darne-de-saumon-a-l-oseille",
+    "mariniere-de-saumon-aux-primeurs",
+    "assiette-norvegienne"
+  ],
+  "translations": {
+    "en": {
+      "title": "Marinated salmon",
+      "description": "Thin slices of raw salmon marinated for 2 to 3 days in lemon, dill and olive oil, served on buttered toast.",
+      "tags": [
+        "salmon",
+        "fish",
+        "main-course",
+        "raw",
+        "no-cook",
+        "cold",
+        "tangy",
+        "herby",
+        "make-ahead",
+        "easy",
+        "french",
+        "nostalgic",
+        "family-recipe"
+      ],
+      "ingredients": [
+        {
+          "items": [
+            "½ salmon of about 1.5 kg"
+          ]
+        },
+        {
+          "group": "Marinade",
+          "items": [
+            "2 lemons",
+            "1 spoonful of dill",
+            "1 dl of olive oil (Quanto basta)"
+          ]
+        }
+      ],
+      "steps": [
+        {
+          "text": "Remove the remaining bones with a large, thin-bladed knife."
+        },
+        {
+          "text": "Cut the salmon into fairly thin slices and lay them on a dish."
+        },
+        {
+          "text": "Make the marinade: wash and dry the lemons, remove the zest, squeeze the juice, then chop the zest."
+        },
+        {
+          "text": "Put the zest in a bowl, add the lemon juice, a heaped tablespoon of chopped dill and the olive oil, mix everything together and pour over the salmon slices."
+        },
+        {
+          "text": "Cover the dish with baking paper and leave to marinate for 2 to 3 days."
+        },
+        {
+          "text": "To serve: on buttered toast, with jacket potatoes, potato salad or cucumbers in cream."
+        }
+      ]
+    },
+    "it": {
+      "title": "Salmone marinato",
+      "description": "Fettine sottili di salmone crudo marinate 2 o 3 giorni con limone, aneto e olio d'oliva, servite su pane tostato e imburrato.",
+      "tags": [
+        "salmone",
+        "pesce",
+        "piatto-principale",
+        "crudo",
+        "senza-cottura",
+        "freddo",
+        "acidulo",
+        "erbaceo",
+        "preparazione-anticipata",
+        "facile",
+        "francese",
+        "nostalgico",
+        "ricetta-di-famiglia"
+      ],
+      "ingredients": [
+        {
+          "items": [
+            "½ salmone di circa 1,5 kg"
+          ]
+        },
+        {
+          "group": "Marinata",
+          "items": [
+            "2 limoni",
+            "1 cucchiaio di aneto",
+            "1 dl di olio d'oliva (Quanto basta)"
+          ]
+        }
+      ],
+      "steps": [
+        {
+          "text": "Eliminare le lische rimaste con un grande coltello a lama sottile."
+        },
+        {
+          "text": "Tagliare il salmone a fette piuttosto sottili e disporle su un piatto."
+        },
+        {
+          "text": "Preparazione della marinata: lavare e asciugare i limoni, prelevare la scorza, spremere il succo, poi tritare la scorza."
+        },
+        {
+          "text": "Mettere la scorza in una ciotola, aggiungere il succo dei limoni, un cucchiaio abbondante di aneto tritato e l'olio d'oliva, mescolare il tutto e versare sulle fette di salmone."
+        },
+        {
+          "text": "Coprire il piatto con carta da forno e lasciare marinare 2 o 3 giorni."
+        },
+        {
+          "text": "Presentazione: su pane tostato e imburrato, con patate lesse con la buccia, insalata di patate o cetrioli alla panna."
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,239 @@
+{
+  "slug": "confiture-de-peches",
+  "title": "Confiture de pêches",
+  "description": "Des quartiers de pêches macérés une nuit au sucre et au citron, puis cuits doucement, avec deux variantes : aux agrumes et à la menthe.",
+  "images": {
+    "cover": "images/recipes/confiture-de-peches/cover.webp",
+    "web": "images/recipes/confiture-de-peches/web.webp"
+  },
+  "imageCredit": {
+    "author": "cokolatetnica",
+    "url": "https://pixabay.com/users/cokolatetnica-6262510/"
+  },
+  "prepTime": 40,
+  "cookTime": 65,
+  "servings": 13,
+  "difficulty": "Facile",
+  "category": "Conserve",
+  "origin": "amelie-grandpa",
+  "tags": [
+    "pêches",
+    "fruits",
+    "confiture",
+    "été",
+    "petit-déjeuner",
+    "goûter",
+    "sucré",
+    "facile",
+    "préparation-à-lavance",
+    "végétarien",
+    "français",
+    "nostalgique",
+    "recette-de-famille"
+  ],
+  "ingredients": [
+    {
+      "items": [
+        "3 kg de pêches (de vigne si possible)",
+        "1 citron",
+        "2 kg de sucre cristallisé",
+        "1 kg de confisucre"
+      ]
+    },
+    {
+      "group": "Variante aux agrumes",
+      "items": [
+        "1 pamplemousse",
+        "1 citron",
+        "2 oranges"
+      ]
+    },
+    {
+      "group": "Variante à la menthe",
+      "items": [
+        "1 bonne cuillerée à potage de feuilles de menthe hachées finement"
+      ]
+    }
+  ],
+  "steps": [
+    {
+      "text": "Mettre les quartiers de pêches épluchées dans la bassine à confiture, ajouter le jus de citron et le sucre cristallisé, bien mélanger puis laisser macérer une nuit."
+    },
+    {
+      "text": "Le lendemain, porter progressivement à ébullition en remuant délicatement. Cuire 1 heure environ.",
+      "timers": [60]
+    },
+    {
+      "text": "Ajouter le confisucre, mélanger doucement et laisser cuire 4 à 5 minutes.",
+      "timers": [4]
+    },
+    {
+      "text": "Contrôler la consistance, laisser refroidir 15 à 20 minutes puis mettre en pots.",
+      "timers": [15]
+    },
+    {
+      "text": "Confiture de pêches aux agrumes : laver les fruits (1 pamplemousse, 1 citron et 2 oranges), les essuyer, prélever les zestes et les hacher finement."
+    },
+    {
+      "text": "Mettre les agrumes et les quartiers de pêches dans la bassine à confiture, ajouter le jus de citron et le sucre cristallisé, bien mélanger puis laisser macérer une nuit."
+    },
+    {
+      "text": "Le lendemain, même opération que la confiture de pêches."
+    },
+    {
+      "text": "Confiture de pêches à la menthe : même préparation et cuisson que la confiture de pêches. En fin de cuisson, ajouter une bonne cuillerée à potage de feuilles de menthe hachées finement et cuire 5 minutes.",
+      "timers": [5]
+    }
+  ],
+  "source": "Les recettes de Maurice Houdré, tome 3, Confiture, gelée, marmelade",
+  "originalSource": {
+    "type": "text",
+    "data": "Confiture de pêches\n\nIngrédients :\n\n. 3 kg de pêches (de vigne si possible)\n. 1 citron\n. 2 kg de sucre cristallisé + 1 kg de confisucre\n\nPréparation de base : Confiture de pêches\n\nMettre les quartiers de pêches épluchées dans la bassine à confiture, ajouter le jus de citron et le sucre cristallisé, bien mélanger puis laisser macérer une nuit.\nLe lendemain, porter progressivement à ébullition en remuant délicatement. Cuire 1 heure environ. Ajouter le confisucre, mélanger doucement et laisser cuire 4 à 5 minutes. Contrôler la consistance, laisser refroidir 15 à 20 minutes puis mettre en pots.\n\nConfiture de pêches aux agrumes :\n1 pamplemousse, 1 citron et 2 oranges.\nLaver les fruits, essuyer les, prélever les zestes et les hacher finement.\nMettre les agrumes et les quartiers de pêches dans la bassine à confiture, ajouter le jus de citron et le sucre cristallisé, bien mélanger puis laisser macérer une nuit.\nLe lendemain, même opération que la confiture de pêches.\n\nConfiture de pêches à la menthe :\nMême préparation et cuisson que la confiture de pêches. En fin de cuisson, ajouter une bonne cuillérée à potage de feuilles de menthe hachées finement et cuire 5 minutes.\n"
+  },
+  "related": [
+    "confiture-de-poires-aux-agrumes",
+    "gelee-d-agrumes-aux-zestes-confits",
+    "confiture-d-oranges",
+    "confiture-de-fruits-d-hiver"
+  ],
+  "translations": {
+    "en": {
+      "title": "Peach jam",
+      "description": "Peach quarters macerated overnight with sugar and lemon, then gently cooked, with two variations: with citrus fruit and with mint.",
+      "tags": [
+        "peaches",
+        "fruit",
+        "jam",
+        "summer",
+        "breakfast",
+        "afternoon-snack",
+        "sweet",
+        "easy",
+        "make-ahead",
+        "vegetarian",
+        "french",
+        "nostalgic",
+        "family-recipe"
+      ],
+      "ingredients": [
+        {
+          "items": [
+            "3 kg peaches (vine peaches if possible)",
+            "1 lemon",
+            "2 kg granulated sugar",
+            "1 kg jam sugar (with pectin)"
+          ]
+        },
+        {
+          "group": "Citrus variation",
+          "items": [
+            "1 grapefruit",
+            "1 lemon",
+            "2 oranges"
+          ]
+        },
+        {
+          "group": "Mint variation",
+          "items": [
+            "1 heaped tablespoon finely chopped mint leaves"
+          ]
+        }
+      ],
+      "steps": [
+        {
+          "text": "Put the peeled peach quarters in the jam pan, add the lemon juice and the granulated sugar, mix well, then leave to macerate overnight."
+        },
+        {
+          "text": "The next day, gradually bring to a boil, stirring gently. Cook for about 1 hour."
+        },
+        {
+          "text": "Add the jam sugar, stir gently and cook for 4 to 5 minutes."
+        },
+        {
+          "text": "Check the consistency, leave to cool for 15 to 20 minutes, then pour into jars."
+        },
+        {
+          "text": "Peach jam with citrus fruit: wash the fruit (1 grapefruit, 1 lemon and 2 oranges), wipe them dry, remove the zest and chop it finely."
+        },
+        {
+          "text": "Put the citrus fruit and the peach quarters in the jam pan, add the lemon juice and the granulated sugar, mix well, then leave to macerate overnight."
+        },
+        {
+          "text": "The next day, proceed as for the peach jam."
+        },
+        {
+          "text": "Peach jam with mint: same preparation and cooking as the peach jam. At the end of cooking, add a heaped tablespoon of finely chopped mint leaves and cook for 5 minutes."
+        }
+      ]
+    },
+    "it": {
+      "title": "Confettura di pesche",
+      "description": "Spicchi di pesca macerati una notte con zucchero e limone, poi cotti dolcemente, con due varianti: agli agrumi e alla menta.",
+      "tags": [
+        "pesche",
+        "frutta",
+        "confettura",
+        "estate",
+        "colazione",
+        "merenda",
+        "dolce",
+        "facile",
+        "da-preparare-in-anticipo",
+        "vegetariano",
+        "francese",
+        "nostalgico",
+        "ricetta-di-famiglia"
+      ],
+      "ingredients": [
+        {
+          "items": [
+            "3 kg di pesche (pesche di vigna se possibile)",
+            "1 limone",
+            "2 kg di zucchero semolato",
+            "1 kg di zucchero per confetture (con pectina)"
+          ]
+        },
+        {
+          "group": "Variante agli agrumi",
+          "items": [
+            "1 pompelmo",
+            "1 limone",
+            "2 arance"
+          ]
+        },
+        {
+          "group": "Variante alla menta",
+          "items": [
+            "1 cucchiaio abbondante di foglie di menta tritate finemente"
+          ]
+        }
+      ],
+      "steps": [
+        {
+          "text": "Mettere gli spicchi di pesca sbucciati nella bacinella per confetture, aggiungere il succo di limone e lo zucchero semolato, mescolare bene e lasciare macerare una notte."
+        },
+        {
+          "text": "Il giorno dopo, portare gradualmente a ebollizione mescolando delicatamente. Cuocere circa 1 ora."
+        },
+        {
+          "text": "Aggiungere lo zucchero per confetture, mescolare dolcemente e lasciare cuocere 4-5 minuti."
+        },
+        {
+          "text": "Controllare la consistenza, lasciare raffreddare 15-20 minuti, poi versare nei vasetti."
+        },
+        {
+          "text": "Confettura di pesche agli agrumi: lavare la frutta (1 pompelmo, 1 limone e 2 arance), asciugarla, prelevare le scorze e tritarle finemente."
+        },
+        {
+          "text": "Mettere gli agrumi e gli spicchi di pesca nella bacinella per confetture, aggiungere il succo di limone e lo zucchero semolato, mescolare bene e lasciare macerare una notte."
+        },
+        {
+          "text": "Il giorno dopo, procedere come per la confettura di pesche."
+        },
+        {
+          "text": "Confettura di pesche alla menta: stessa preparazione e cottura della confettura di pesche. A fine cottura, aggiungere un cucchiaio abbondante di foglie di menta tritate finemente e cuocere 5 minuti."
+        }
+      ]
+    }
+  }
+}

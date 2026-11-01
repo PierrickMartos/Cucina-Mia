@@ -1,0 +1,182 @@
+{
+  "slug": "flan-au-fromage-sauce-tomate",
+  "title": "Flan au fromage, sauce tomate",
+  "description": "Un flan au gruyère cuit au bain-marie, nappé d'une sauce tomate à la crème et servi très chaud.",
+  "images": {
+    "cover": "images/recipes/flan-au-fromage-sauce-tomate/cover.webp",
+    "web": "images/recipes/flan-au-fromage-sauce-tomate/web.webp"
+  },
+  "prepTime": 15,
+  "cookTime": 40,
+  "servings": 4,
+  "difficulty": "Facile",
+  "category": "Secondi",
+  "tags": [
+    "fromage",
+    "œufs",
+    "four",
+    "bain-marie",
+    "français",
+    "plat-principal",
+    "fondant",
+    "chaud",
+    "facile",
+    "économique",
+    "recette-de-famille"
+  ],
+  "ingredients": [
+    {
+      "items": [
+        "4 œufs",
+        "1/2 l de lait",
+        "100 g de gruyère râpé",
+        "1 c. à soupe de crème fraîche",
+        "1 petite boîte de sauce tomate",
+        "Sel",
+        "Beurre pour le plat"
+      ]
+    }
+  ],
+  "steps": [
+    {
+      "text": "Préchauffer le four à 180 °C. Faire chauffer le lait en évitant l'ébullition."
+    },
+    {
+      "text": "Battre les œufs en omelette. Ajouter le gruyère râpé. Verser dessus le lait très chaud et mélanger soigneusement jusqu'à ce que le fromage soit fondu. Saler modérément."
+    },
+    {
+      "text": "Verser la préparation dans un plat à soufflé beurré. Faire cuire à four chaud et au bain-marie pendant 40 à 45 minutes, selon l'épaisseur du flan. La crème ne doit pas bouillir.",
+      "timers": [
+        40
+      ]
+    },
+    {
+      "text": "Ajouter la crème fraîche à la sauce tomate. Réchauffer très doucement."
+    },
+    {
+      "text": "Lorsque le flan est cuit, le démouler sur un plat creux, le napper de sauce et servir très chaud."
+    }
+  ],
+  "tips": [
+    "La recette originale est prévue pour 4 à 5 personnes ; les quantités affichées correspondent ici à 4 portions.",
+    "La source annonce 30 à 40 minutes de cuisson en en-tête, mais précise 40 à 45 minutes dans la méthode. Suivre cette dernière indication en tenant compte de l'épaisseur du flan."
+  ],
+  "history": "Recette de Germaine, l'arrière-grand-mère d'Amélie.",
+  "source": "Les conseils de Marianne, « Mangez mieux et moins cher »",
+  "originalSource": {
+    "type": "image",
+    "data": "images/recipes/flan-au-fromage-sauce-tomate/source.jpg"
+  },
+  "related": [
+    "souffle-au-fromage",
+    "flan-a-la-ratatouille",
+    "flan-de-pointes-d-asperges",
+    "flan-au-crabe"
+  ],
+  "translations": {
+    "en": {
+      "title": "Cheese flan with tomato sauce",
+      "description": "A Gruyère flan baked in a water bath, topped with a creamy tomato sauce and served piping hot.",
+      "tags": [
+        "cheese",
+        "eggs",
+        "oven",
+        "water-bath",
+        "french",
+        "main-course",
+        "melting",
+        "hot",
+        "easy",
+        "budget-friendly",
+        "family-recipe"
+      ],
+      "ingredients": [
+        {
+          "items": [
+            "4 eggs",
+            "1/2 l of milk",
+            "100 g of grated Gruyère",
+            "1 tbsp of crème fraîche",
+            "1 small can of tomato sauce",
+            "Salt",
+            "Butter for the dish"
+          ]
+        }
+      ],
+      "steps": [
+        {
+          "text": "Preheat the oven to 180 °C. Heat the milk without letting it boil."
+        },
+        {
+          "text": "Beat the eggs as for an omelette. Add the grated Gruyère. Pour over the very hot milk and stir thoroughly until the cheese has melted. Season lightly with salt."
+        },
+        {
+          "text": "Pour the mixture into a buttered soufflé dish. Bake in the hot oven in a water bath for 40 to 45 minutes, depending on the thickness of the flan. The custard must not boil."
+        },
+        {
+          "text": "Add the crème fraîche to the tomato sauce. Reheat very gently."
+        },
+        {
+          "text": "Once the flan is cooked, turn it out onto a deep serving dish, cover with the sauce and serve piping hot."
+        }
+      ],
+      "tips": [
+        "The original recipe serves 4 to 5 people; the quantities shown here use 4 servings as the base.",
+        "The source lists a cooking time of 30 to 40 minutes in the heading, but specifies 40 to 45 minutes in the method. Follow the latter, allowing for the thickness of the flan."
+      ],
+      "history": "A recipe from Germaine, Amélie's great-grandmother."
+    },
+    "it": {
+      "title": "Sformato al formaggio con salsa di pomodoro",
+      "description": "Uno sformato al gruviera cotto a bagnomaria, ricoperto da una salsa di pomodoro alla crème fraîche e servito ben caldo.",
+      "tags": [
+        "formaggio",
+        "uova",
+        "forno",
+        "bagnomaria",
+        "francese",
+        "piatto-principale",
+        "fondente",
+        "caldo",
+        "facile",
+        "economico",
+        "ricetta-di-famiglia"
+      ],
+      "ingredients": [
+        {
+          "items": [
+            "4 uova",
+            "1/2 l di latte",
+            "100 g di gruviera grattugiato",
+            "1 cucchiaio di crème fraîche",
+            "1 scatoletta di salsa di pomodoro",
+            "Sale",
+            "Burro per lo stampo"
+          ]
+        }
+      ],
+      "steps": [
+        {
+          "text": "Preriscaldare il forno a 180 °C. Scaldare il latte senza farlo bollire."
+        },
+        {
+          "text": "Sbattere le uova come per una frittata. Aggiungere il gruviera grattugiato. Versare sopra il latte molto caldo e mescolare con cura finché il formaggio si scioglie. Salare moderatamente."
+        },
+        {
+          "text": "Versare il composto in uno stampo da soufflé imburrato. Cuocere nel forno caldo a bagnomaria per 40-45 minuti, secondo lo spessore dello sformato. La crema non deve bollire."
+        },
+        {
+          "text": "Aggiungere la crème fraîche alla salsa di pomodoro. Scaldare molto dolcemente."
+        },
+        {
+          "text": "Quando lo sformato è cotto, sformarlo su un piatto fondo da portata, coprirlo con la salsa e servirlo ben caldo."
+        }
+      ],
+      "tips": [
+        "La ricetta originale è per 4-5 persone; le quantità indicate qui hanno come base 4 porzioni.",
+        "La fonte indica 30-40 minuti di cottura nel titolo, ma precisa 40-45 minuti nel procedimento. Seguire questa seconda indicazione, tenendo conto dello spessore dello sformato."
+      ],
+      "history": "Ricetta di Germaine, la bisnonna di Amélie."
+    }
+  }
+}
