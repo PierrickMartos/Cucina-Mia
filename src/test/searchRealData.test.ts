@@ -4,6 +4,12 @@ import { describe, it, expect } from "vitest"
 import { bySlug as byslug, recipes, search } from "./helpers/realSearch"
 
 describe("search on the real recipes", () => {
+  it("finds the cheese flan with tomato sauce", () => {
+    expect(search("flan au fromage")).toContain("flan-au-fromage-sauce-tomate")
+    expect(search("cheese flan")).toContain("flan-au-fromage-sauce-tomate")
+    expect(search("sformato formaggio pomodoro")).toContain("flan-au-fromage-sauce-tomate")
+  })
+
   it("finds every curry, including those without 'curry' in the title", () => {
     const results = search("curry")
     expect(results).toEqual(expect.arrayContaining(["poulet-au-curry", "curry-vert-de-pierrick", "poulet-korma-riz-basmati", "poulet-tikka-massala"]))
