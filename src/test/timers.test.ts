@@ -67,4 +67,37 @@ describe("cooking timers", () => {
     expect(formatCountdown(3_723_000)).toBe("1:02:03")
     expect(formatCountdown(400)).toBe("0:01")
   })
+
+  it("shows a system notification through the service worker when the page is hidden", async () => {
+    const showNotification = vi.fn().mockResolvedValue(undefined)
+    vi.stubGlobal("Notification", Object.assign(vi.fn(), { permission: "granted" }))
+    Object.defineProperty(navigator, "serviceWorker", {
+      configurable: true,
+      value: { controller: {}, ready: Promise.resolve({ showNotification }) },
+    })
+    const visibility = vi.spyOn(document, "visibilityState", "get").mockReturnValue("hidden")
+    try {
+      act(() => startTimer(input))
+      act(() => { vi.advanceTimersByTime(5 * 60_000) })
+      await vi.waitFor(() => expect(showNotification).toHaveBeenCalledTimes(1))
+      const [title, options] = showNotification.mock.calls[0]
+      expect(title).toContain("Timer")
+      expect(options).toMatchObject({ tag: input.id, body: expect.stringContaining("Pasta"), data: { url: expect.stringContaining("#/recipe/pasta") } })
+      expect(Notification).not.toHaveBeenCalled()
+    } finally {
+      visibility.mockRestore()
+      vi.unstubAllGlobals()
+      delete (navigator as { serviceWorker?: unknown }).serviceWorker
+    }
+  })
+
+  it("rings as soon as the page is visible again", () => {
+    const { result } = renderHook(() => useTimers())
+    act(() => startTimer(input))
+    // A frozen page misses the ticks: only the clock moves
+    vi.setSystemTime(Date.now() + 6 * 60_000)
+    expect(result.current.timers[0].status).toBe("running")
+    act(() => { document.dispatchEvent(new Event("visibilitychange")) })
+    expect(result.current.timers[0].status).toBe("done")
+  })
 })

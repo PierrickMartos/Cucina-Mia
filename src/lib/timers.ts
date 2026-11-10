@@ -1,8 +1,12 @@
 import { useSyncExternalStore } from "react"
+import i18n from "i18next"
 
 // Cooking timers started from recipe steps. They live in a module-level store (not in a page)
 // so they keep running while browsing other recipes, and are persisted with their absolute end
 // time so a reload or a phone going to sleep does not lose them.
+// A web page cannot ring while the phone is locked: the tray keeps the screen awake while a timer
+// runs (see TimerTray), a system notification is shown when the page is in the background, and an
+// elapsed timer rings as soon as the page is visible again.
 
 export type TimerStatus = "running" | "paused" | "done"
 
@@ -151,11 +155,30 @@ function ring() {
   } catch { /* Web Audio not available */ }
 }
 
+const BASE = import.meta.env.BASE_URL
+
 function notify(timer: CookingTimer) {
   try {
     if (typeof Notification === "undefined" || Notification.permission !== "granted") return
     if (document.visibilityState === "visible") return
-    new Notification(timer.recipeTitle, { body: `⏰ ${formatDuration(timer.durationMs / 60_000)}`, tag: timer.id })
+    const title = i18n.t("timer.notificationTitle")
+    const options = {
+      body: `${timer.recipeTitle} · ${i18n.t("recipe.step", { number: timer.step + 1 })} · ${formatDuration(timer.durationMs / 60_000)}`,
+      tag: timer.id,
+      icon: `${BASE}favicon-192x192.png`,
+      requireInteraction: true,
+      // Not in TypeScript's NotificationOptions yet
+      renotify: true,
+      vibrate: [300, 150, 300, 150, 300],
+      data: { url: `${BASE}#/recipe/${timer.slug}` },
+    } as NotificationOptions
+    // Android only shows notifications from a service worker (`new Notification()` throws there)
+    const worker = navigator.serviceWorker
+    if (worker?.controller) {
+      void worker.ready.then((registration) => registration.showNotification(title, options)).catch(() => {})
+      return
+    }
+    new Notification(title, options)
   } catch { /* Notifications not available */ }
 }
 
@@ -249,6 +272,12 @@ export function useTimers(): Snapshot {
 if (typeof window !== "undefined") {
   settle()
   sync()
+  // Background tabs and locked phones pause or slow down the tick: catch up as soon as the cook is back
+  const catchUp = () => {
+    if (document.visibilityState === "visible" && snapshot.timers.length > 0) tick()
+  }
+  document.addEventListener("visibilitychange", catchUp)
+  window.addEventListener("pageshow", catchUp)
 }
 
 /** Human duration for a timer button: "30 s", "5 min", "5 min 30", "1 h 30", "12 h". */

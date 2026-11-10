@@ -1,5 +1,5 @@
-import { useState, useMemo } from "react"
-import { Link } from "react-router-dom"
+import { useState, useMemo, useEffect } from "react"
+import { Link, useSearchParams } from "react-router-dom"
 import { ChevronRight, Refrigerator, Search, SlidersHorizontal } from "lucide-react"
 import { Input } from "@/components/ui/input"
 import { Skeleton } from "@/components/ui/skeleton"
@@ -10,6 +10,7 @@ import { localizeRecipeSummary } from "@/lib/localize"
 import { useRecipeSearch } from "@/hooks/useRecipeSearch"
 import { SemanticSearchIndicator } from "@/components/SemanticSearchIndicator"
 import { RecentlyViewed } from "@/components/RecentlyViewed"
+import { LoadError } from "@/components/LoadError"
 import { useTranslation } from "react-i18next"
 import type { RecipeSummary } from "@/types/recipe"
 
@@ -60,7 +61,14 @@ interface CategoryCard {
 
 export function HomePage() {
   const { recipes, loading, error, retry } = useRecipeIndex()
-  const [search, setSearch] = useState("")
+  // The search lives in the URL too, so coming back from a recipe shows the same results
+  const [searchParams, setSearchParams] = useSearchParams()
+  const [search, setSearch] = useState(() => searchParams.get("q") ?? "")
+  useEffect(() => {
+    const query = search.trim()
+    if ((searchParams.get("q") ?? "") === query) return
+    setSearchParams(query ? { q: query } : {}, { replace: true })
+  }, [search, searchParams, setSearchParams])
   const { t, i18n } = useTranslation()
   const localizedRecipes = useMemo(
     () => recipes.map((r) => localizeRecipeSummary(r, i18n.language)),
@@ -103,7 +111,7 @@ export function HomePage() {
           <h1 className="font-headline text-3xl text-primary font-bold tracking-[-0.02em] leading-none">
             {t("home.title")}
           </h1>
-          <span className="font-body text-secondary text-[10px] uppercase tracking-[0.2em] block mt-3">
+          <span className="font-body text-secondary text-xs uppercase tracking-[0.2em] block mt-3">
             {!loading && recipes.length > 0 && (
               <span className="mr-1 text-primary font-semibold">{recipes.length} ·</span>
             )}
@@ -147,16 +155,7 @@ export function HomePage() {
       {/* Content: search results or category cards */}
       <section className="pb-2">
         {error ? (
-          <div role="alert" className="flex flex-col items-center justify-center py-16 text-center gap-4">
-            <p className="text-sm text-muted-foreground">{t("common.loadError")}</p>
-            <button
-              type="button"
-              onClick={retry}
-              className="rounded-full bg-surface-high px-5 py-2 text-sm font-medium text-foreground hover:bg-surface-container transition-colors"
-            >
-              {t("common.tryAgain")}
-            </button>
-          </div>
+          <LoadError onRetry={retry} />
         ) : isSearching ? (
           searchResults.length === 0 ? <RecipesNotFound /> : <RecipeGrid recipes={searchResults} />
         ) : loading ? (
@@ -187,7 +186,7 @@ export function HomePage() {
                     decoding="async"
                   />
                   <div className="vignette-overlay absolute inset-0 flex flex-col justify-end p-3.5 sm:p-5">
-                    <span className="text-white/80 font-body uppercase tracking-widest text-[10px] mb-1">
+                    <span className="text-white/80 font-body uppercase tracking-widest text-xs mb-1">
                       {cat.count} · {cat.category}
                     </span>
                     <h3 className="font-headline text-lg leading-tight hyphens-auto sm:text-3xl sm:leading-normal text-white font-bold tracking-[-0.02em] transition-transform duration-700 group-hover:-translate-y-2">

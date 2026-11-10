@@ -26,7 +26,7 @@ export function RecentlyViewed({ recipes }: { recipes: RecipeSummary[] }) {
   return (
     <section aria-labelledby="recently-viewed-title" className="mb-6">
       <div className="flex items-baseline justify-between mb-3">
-        <h2 id="recently-viewed-title" className="font-body text-[10px] uppercase tracking-[0.2em] font-semibold text-secondary">
+        <h2 id="recently-viewed-title" className="font-body text-xs uppercase tracking-[0.2em] font-semibold text-secondary">
           {t("home.recentlyViewed")}
         </h2>
         <button

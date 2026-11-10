@@ -5,6 +5,7 @@ import type { Plugin } from "vite"
 import react from "@vitejs/plugin-react"
 import tailwindcss from "@tailwindcss/vite"
 import { sharePages } from "./scripts/vite-plugin-share-pages.ts"
+import { serviceWorker } from "./scripts/vite-plugin-service-worker.ts"
 
 // Original recipe sources (source.*, source-*: photos of handwritten recipes, PDFs…) live next to the
 // recipe images in public/ but are never displayed: keep them out of the build.
@@ -30,7 +31,7 @@ function excludeRecipeSources(): Plugin {
 
 export default defineConfig({
   base: process.env.VITE_BASE_PATH || "/Cucina-Mia/",
-  plugins: [react(), tailwindcss(), excludeRecipeSources(), sharePages()],
+  plugins: [react(), tailwindcss(), excludeRecipeSources(), sharePages(), serviceWorker()],
   build: {
     rolldownOptions: {
       output: {

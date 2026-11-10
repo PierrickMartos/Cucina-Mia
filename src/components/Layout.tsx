@@ -1,5 +1,5 @@
 import { Outlet, Link, useLocation } from "react-router-dom"
-import { Home, BookOpen, Heart, PlusCircle, Info } from "lucide-react"
+import { Home, BookOpen, Heart, PlusCircle, Info, WifiOff } from "lucide-react"
 import { useTranslation } from "react-i18next"
 import { motion, useReducedMotion } from "motion/react"
 import { useState, useRef, useEffect, useId } from "react"
@@ -7,6 +7,7 @@ import { preloadMammaMia, sayMammaMia } from "@/lib/mammaMia"
 import { runWhenIdle } from "@/lib/utils"
 import { TimerTray } from "@/components/CookingTimers"
 import { LANG_STORAGE_KEY } from "@/i18n/languages"
+import { useOnline } from "@/lib/serviceWorker"
 
 const LANGUAGES = [
   { code: "en", label: "English" },
@@ -90,6 +91,7 @@ export function Layout() {
   const { pathname } = useLocation()
   const { t } = useTranslation()
   const reduceMotion = useReducedMotion()
+  const online = useOnline()
 
   // Not needed for the first paint: wait until the page has settled
   useEffect(() => runWhenIdle(preloadMammaMia, 5000), [])
@@ -162,6 +164,13 @@ export function Layout() {
         </div>
       </nav>
 
+      {!online && (
+        <p role="status" className="shrink-0 flex items-center justify-center gap-2 px-4 py-1.5 bg-inverse-surface text-inverse-on-surface text-xs font-medium text-center print:hidden">
+          <WifiOff className="h-3.5 w-3.5 shrink-0" aria-hidden="true" />
+          {t("common.offline")}
+        </p>
+      )}
+
       {/* Main Content */}
       <main id="main-content" tabIndex={-1} className="focus:outline-none flex-1 overflow-y-auto overflow-x-hidden">
         <motion.div
@@ -200,7 +209,7 @@ export function Layout() {
                 />
               )}
               <Icon className="relative z-10 h-5 w-5" strokeWidth={active ? 2.5 : 2} />
-              <span className="relative z-10 text-[9px] uppercase tracking-widest whitespace-nowrap font-semibold mt-0.5">
+              <span className="relative z-10 text-xs uppercase tracking-wider whitespace-nowrap font-semibold mt-0.5">
                 {label}
               </span>
             </Link>
@@ -214,7 +223,7 @@ export function Layout() {
           className="flex max-[360px]:hidden flex-col items-center justify-center text-outline px-1 sm:px-5 py-1 hover:text-primary transition-colors"
         >
           <PlusCircle className="h-5 w-5" strokeWidth={2} />
-          <span className="text-[9px] uppercase tracking-widest whitespace-nowrap font-semibold mt-0.5">
+          <span className="text-xs uppercase tracking-wider whitespace-nowrap font-semibold mt-0.5">
             {t("nav.add")}
           </span>
         </a>

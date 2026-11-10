@@ -1,4 +1,4 @@
-import { Routes, Route, useLocation } from "react-router-dom"
+import { Routes, Route } from "react-router-dom"
 import { lazy, Suspense, useEffect, type ReactNode } from "react"
 import { Layout } from "./components/Layout"
 import { HomePage } from "./pages/HomePage"
@@ -6,6 +6,8 @@ import { HomePage } from "./pages/HomePage"
 import { RecipePage } from "./pages/RecipePage"
 import { runWhenIdle } from "./lib/utils"
 import { useShareableAddress } from "./lib/shareableAddress"
+import { useScrollRestoration } from "./lib/scrollRestoration"
+import { useOfflineFavorites } from "./lib/serviceWorker"
 
 // Secondary pages are split out of the main bundle so the first page renders sooner.
 const loadRecipesPage = () => import("./pages/RecipesPage")
@@ -26,14 +28,6 @@ function usePrefetchPages() {
   }, [])
 }
 
-function ScrollToTop() {
-  const { pathname } = useLocation()
-  useEffect(() => {
-    document.querySelector("main")?.scrollTo(0, 0)
-  }, [pathname])
-  return null
-}
-
 function Page({ children }: { children: ReactNode }) {
   return <Suspense fallback={null}>{children}</Suspense>
 }
@@ -41,9 +35,10 @@ function Page({ children }: { children: ReactNode }) {
 export default function App() {
   usePrefetchPages()
   useShareableAddress()
+  useScrollRestoration()
+  useOfflineFavorites()
   return (
     <>
-      <ScrollToTop />
       <Routes>
       <Route element={<Layout />}>
         <Route path="/" element={<HomePage />} />

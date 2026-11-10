@@ -35,7 +35,7 @@ export function AboutPage() {
 
         {/* Hero title */}
         <div className="absolute bottom-12 left-6 sm:left-10">
-          <p className="text-white/60 text-[10px] uppercase tracking-[0.25em] font-body mb-2">
+          <p className="text-white/60 text-xs uppercase tracking-[0.25em] font-body mb-2">
             {t("nav.about")}
           </p>
           <h1 className="font-headline font-bold leading-[1.05] drop-shadow-lg">
@@ -151,7 +151,7 @@ export function AboutPage() {
           </p>
           <p className="text-sm text-muted-foreground">{t("about.thanksDetail")}</p>
         </div>
-        <p className="text-[10px] text-muted-foreground/40">
+        <p className="text-xs text-muted-foreground">
           {t("credits.photosBy")}{" "}
           <a href="https://pixabay.com/users/stocksnap-894430/" target="_blank" rel="noopener noreferrer" className="underline">StockSnap</a>
           {", "}

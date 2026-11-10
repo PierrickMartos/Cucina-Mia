@@ -47,14 +47,14 @@ export function RecipeCard({ recipe: rawRecipe, children }: { recipe: RecipeSumm
         </div>
         <CardContent className="relative px-5 pb-5 pt-0">
           <div className="flex flex-wrap items-center gap-2 mb-3">
-            <Badge variant="secondary" className="text-[10px] uppercase tracking-wider">
+            <Badge variant="secondary" className="text-xs uppercase tracking-wider">
               {t(`categories.${recipe.category}`, recipe.category)}
             </Badge>
-            <Badge variant="outline" className="text-muted-foreground text-[10px]">
+            <Badge variant="outline" className="text-muted-foreground text-xs">
               {t(`difficulties.${recipe.difficulty}`, recipe.difficulty)}
             </Badge>
             {recipe.origin && recipe.origin !== "none" && (
-              <Badge variant="outline" className="text-primary/80 border-primary/30 text-[10px]">
+              <Badge variant="outline" className="text-primary/80 border-primary/30 text-xs">
                 {t(`origins.${recipe.origin}`, recipe.origin)}
               </Badge>
             )}

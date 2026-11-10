@@ -10,7 +10,9 @@
     "close": "Fermer",
     "tryAgain": "Réessayer",
     "loadError": "Le chargement a échoué. Veuillez réessayer.",
-    "skipToContent": "Aller au contenu"
+    "skipToContent": "Aller au contenu",
+    "offline": "Hors ligne · les recettes déjà ouvertes et vos favoris restent disponibles",
+    "offlineError": "Vous êtes hors ligne et cette page n'a pas encore été ouverte sur cet appareil. Elle se chargera dès le retour de la connexion."
   },
   "language": {
     "switch": "Changer de langue"
@@ -90,7 +92,8 @@
     "addMinute": "Ajouter 1 minute",
     "stopAlarm": "Arrêter l'alarme",
     "done": "Terminé !",
-    "tray": "Minuteurs"
+    "tray": "Minuteurs",
+    "notificationTitle": "⏰ Minuteur terminé"
   },
   "cookingMode": {
     "start": "Mode cuisine",

@@ -10,7 +10,9 @@
     "close": "Chiudi",
     "tryAgain": "Riprova",
     "loadError": "Caricamento non riuscito. Riprova.",
-    "skipToContent": "Vai al contenuto"
+    "skipToContent": "Vai al contenuto",
+    "offline": "Offline · le ricette già aperte e i preferiti restano disponibili",
+    "offlineError": "Sei offline e questa pagina non è ancora stata aperta su questo dispositivo. Si caricherà appena torna la connessione."
   },
   "language": {
     "switch": "Cambia lingua"
@@ -90,7 +92,8 @@
     "addMinute": "Aggiungi 1 minuto",
     "stopAlarm": "Ferma la sveglia",
     "done": "Finito!",
-    "tray": "Timer"
+    "tray": "Timer",
+    "notificationTitle": "⏰ Timer finito"
   },
   "cookingMode": {
     "start": "Modalità cucina",

@@ -13,6 +13,7 @@ import {
   timerId,
   useTimers,
 } from "@/lib/timers"
+import { useWakeLock } from "@/hooks/useWakeLock"
 
 interface StepTimerButtonsProps {
   slug: string
@@ -90,6 +91,8 @@ export function StepTimerButtons({ slug, recipeTitle, step, timers, size = "defa
 export function TimerTray() {
   const { t } = useTranslation()
   const { timers, now } = useTimers()
+  // A locked phone stops the page, and with it the alarm: keep the screen on while a timer runs or rings
+  useWakeLock(timers.some((timer) => timer.status !== "paused"))
   if (timers.length === 0) return null
 
   return (
@@ -114,8 +117,8 @@ export function TimerTray() {
             >
               {done ? <BellRing className="h-4 w-4 shrink-0" /> : <AlarmClock className="h-4 w-4 shrink-0 text-primary" />}
               <span className="flex flex-col leading-tight min-w-0">
-                <span className="text-[11px] font-semibold truncate max-w-[9rem]">{timer.recipeTitle}</span>
-                <span className={`text-[10px] ${done ? "" : "text-muted-foreground"}`}>
+                <span className="text-xs font-semibold truncate max-w-[9rem]">{timer.recipeTitle}</span>
+                <span className={`text-xs ${done ? "" : "text-muted-foreground"}`}>
                   {t("recipe.step", { number: timer.step + 1 })} · {formatDuration(timer.durationMs / 60_000)}
                 </span>
               </span>
@@ -137,7 +140,7 @@ export function TimerTray() {
               type="button"
               onClick={() => addMinute(timer.id)}
               aria-label={t("timer.addMinute")}
-              className={`h-8 px-2 inline-flex items-center justify-center rounded-full text-[11px] font-semibold cursor-pointer ${done ? "hover:bg-white/20" : "hover:bg-surface-high"}`}
+              className={`h-8 px-2 inline-flex items-center justify-center rounded-full text-xs font-semibold cursor-pointer ${done ? "hover:bg-white/20" : "hover:bg-surface-high"}`}
             >
               <Plus className="h-3 w-3" />1
             </button>

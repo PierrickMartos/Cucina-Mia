@@ -188,7 +188,7 @@ export function FilterDrawer({
       >
         <SlidersHorizontal className="h-4 w-4" />
         {activeCount > 0 && (
-          <span className="absolute -top-1 -right-1 bg-lemon-zest text-foreground h-4 w-4 rounded-full text-[10px] flex items-center justify-center font-bold">
+          <span className="absolute -top-1 -right-1 bg-lemon-zest text-foreground h-5 min-w-5 px-1 rounded-full text-xs flex items-center justify-center font-bold">
             {activeCount}
           </span>
         )}
@@ -212,7 +212,7 @@ export function FilterDrawer({
 
           <div className="mt-6 space-y-6 overflow-y-auto flex-1 pb-20">
             <div>
-              <h4 className="font-semibold text-[10px] uppercase tracking-widest text-muted-foreground mb-3">
+              <h4 className="font-semibold text-xs uppercase tracking-widest text-muted-foreground mb-3">
                 {t("filter.collections")}
               </h4>
               <div className="flex flex-wrap gap-2">
@@ -232,7 +232,7 @@ export function FilterDrawer({
             </div>
 
             <div>
-              <h4 className="font-semibold text-[10px] uppercase tracking-widest text-muted-foreground mb-3">
+              <h4 className="font-semibold text-xs uppercase tracking-widest text-muted-foreground mb-3">
                 {t("filter.category")}
               </h4>
               <div className="flex flex-wrap gap-2">
@@ -255,7 +255,7 @@ export function FilterDrawer({
             </div>
 
             <div>
-              <h4 className="font-semibold text-[10px] uppercase tracking-widest text-muted-foreground mb-3">
+              <h4 className="font-semibold text-xs uppercase tracking-widest text-muted-foreground mb-3">
                 {t("filter.difficulty")}
               </h4>
               <div className="flex flex-wrap gap-2">
@@ -278,7 +278,7 @@ export function FilterDrawer({
             </div>
 
             <div>
-              <h4 className="font-semibold text-[10px] uppercase tracking-widest text-muted-foreground mb-3">
+              <h4 className="font-semibold text-xs uppercase tracking-widest text-muted-foreground mb-3">
                 {t("filter.time")}
               </h4>
               <div className="flex flex-wrap gap-2">
@@ -301,7 +301,7 @@ export function FilterDrawer({
             </div>
 
             <div>
-              <h4 className="font-semibold text-[10px] uppercase tracking-widest text-muted-foreground mb-3">
+              <h4 className="font-semibold text-xs uppercase tracking-widest text-muted-foreground mb-3">
                 {t("filter.prep")}
               </h4>
               <div className="flex flex-wrap gap-2">
@@ -324,7 +324,7 @@ export function FilterDrawer({
             </div>
 
             <div>
-              <h4 className="font-semibold text-[10px] uppercase tracking-widest text-muted-foreground mb-3">
+              <h4 className="font-semibold text-xs uppercase tracking-widest text-muted-foreground mb-3">
                 {t("filter.steps")}
               </h4>
               <div className="flex flex-wrap gap-2">
@@ -347,7 +347,7 @@ export function FilterDrawer({
             </div>
 
             <div>
-              <h4 className="font-semibold text-[10px] uppercase tracking-widest text-muted-foreground mb-3">
+              <h4 className="font-semibold text-xs uppercase tracking-widest text-muted-foreground mb-3">
                 {t("filter.ingredients")}
               </h4>
               <div className="flex flex-wrap gap-2">
@@ -370,7 +370,7 @@ export function FilterDrawer({
             </div>
 
             <div>
-              <h4 className="font-semibold text-[10px] uppercase tracking-widest text-muted-foreground mb-3">
+              <h4 className="font-semibold text-xs uppercase tracking-widest text-muted-foreground mb-3">
                 {t("filter.diet")}
               </h4>
               <div className="flex flex-wrap gap-2">
@@ -393,7 +393,7 @@ export function FilterDrawer({
             </div>
 
             <div>
-              <h4 className="font-semibold text-[10px] uppercase tracking-widest text-muted-foreground mb-3">
+              <h4 className="font-semibold text-xs uppercase tracking-widest text-muted-foreground mb-3">
                 {t("filter.season")}
               </h4>
               <div className="flex flex-wrap gap-2">
@@ -416,7 +416,7 @@ export function FilterDrawer({
             </div>
 
             <div>
-              <h4 className="font-semibold text-[10px] uppercase tracking-widest text-muted-foreground mb-3">
+              <h4 className="font-semibold text-xs uppercase tracking-widest text-muted-foreground mb-3">
                 {t("filter.origin")}
               </h4>
               <div className="flex flex-wrap gap-2">
