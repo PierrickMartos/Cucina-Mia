@@ -5,6 +5,7 @@ import { ChevronDown, ChevronUp, X } from "lucide-react"
 import { SearchBar } from "@/components/SearchBar"
 import { FilterDrawer, type TimeBucket, type PrepTimeBucket, type StepsBucket, type IngredientsBucket } from "@/components/FilterDrawer"
 import { RecipeGrid } from "@/components/RecipeGrid"
+import { LoadError } from "@/components/LoadError"
 import { sortCategories, sortDifficulties } from "@/lib/categories"
 import { localizeRecipeSummary } from "@/lib/localize"
 import { useRecipeIndex } from "@/lib/recipeData"
@@ -366,7 +367,7 @@ export function RecipesPage() {
             <span className="text-secondary font-light"> · {t(`categories.${selectedCategories[0]}`, selectedCategories[0])}</span>
           )}
         </h1>
-        <span className="font-body text-secondary text-[10px] uppercase tracking-[0.2em] block mt-2">
+        <span className="font-body text-secondary text-xs uppercase tracking-[0.2em] block mt-2">
           {!loading && filtered.length > 0 && (
             <span className="mr-1 text-primary font-semibold">{filtered.length} ·</span>
           )}
@@ -522,16 +523,7 @@ export function RecipesPage() {
       )}
 
       {error ? (
-        <div role="alert" className="flex flex-col items-center justify-center py-16 text-center gap-4">
-          <p className="text-sm text-muted-foreground">{t("common.loadError")}</p>
-          <button
-            type="button"
-            onClick={retry}
-            className="rounded-full bg-surface-high px-5 py-2 text-sm font-medium text-foreground hover:bg-surface-container transition-colors"
-          >
-            {t("common.tryAgain")}
-          </button>
-        </div>
+        <LoadError onRetry={retry} />
       ) : (
         <RecipeGrid recipes={filtered} loading={loading} />
       )}

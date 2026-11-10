@@ -12,19 +12,20 @@
   --card-foreground: #1b1c15;
   --popover: #F7F6EA;
   --popover-foreground: #1b1c15;
-  --primary: #C05A3E;
+  /* Text colours reach 4.5:1 (WCAG AA) on every surface, and white text 4.5:1 on primary buttons */
+  --primary: #B2533A;
   --primary-foreground: #ffffff;
-  --secondary: #6B705C;
+  --secondary: #656A57;
   --secondary-foreground: #ffffff;
   --muted: #EBEADE;
-  --muted-foreground: #6B705C;
+  --muted-foreground: #656A57;
   --accent: #E2E5D4;
   --accent-foreground: #1b1c15;
   --destructive: #ba1a1a;
   --destructive-foreground: #ffffff;
   --border: #ddc0b9;
   --input: #EBEADE;
-  --ring: #C05A3E;
+  --ring: #B2533A;
 
   /* Extended palette */
   --surface: #FDFCF0;
@@ -33,9 +34,11 @@
   --surface-container-low: #F7F6EA;
   --surface-container-lowest: #FAF9ED;
   --surface-variant: #E6E5D9;
-  --outline: #89726c;
+  --outline: #76635D;
   --outline-variant: #89726c;
   --primary-container: #D4775E;
+  /* Shadow side of the primary gradient */
+  --primary-deep: #9A452F;
   --secondary-container: #E2E5D4;
   --tertiary: #F4D35E;
   --tertiary-container: #F4D35E;
@@ -104,9 +107,10 @@
   box-shadow: inset 0 0 0 1px rgba(137, 114, 108, 0.15);
 }
 
-/* Primary gradient for CTAs, mimics sunlight on stucco */
+/* Primary gradient for CTAs, mimics sunlight on stucco. Its lightest point is the primary colour,
+   so white text keeps a 4.5:1 contrast everywhere on it */
 .gradient-primary {
-  background: radial-gradient(ellipse at 30% 0%, var(--primary-container) 0%, var(--primary) 100%);
+  background: radial-gradient(ellipse at 30% 0%, var(--primary) 0%, var(--primary-deep) 100%);
 }
 
 /* Tertiary accent gradient */

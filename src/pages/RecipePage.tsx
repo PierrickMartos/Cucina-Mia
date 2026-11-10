@@ -18,6 +18,7 @@ import { useWakeLock } from "@/hooks/useWakeLock"
 import { toLanguage } from "@/i18n/languages"
 import { sharePath } from "@/lib/sharePath"
 import { FavoriteButton } from "@/components/FavoriteButton"
+import { LoadError } from "@/components/LoadError"
 import { markViewed } from "@/lib/savedRecipes"
 import type { RecipeDetail } from "@/types/recipe"
 
@@ -64,7 +65,7 @@ function IngredientChecklist({ groups, checked, onToggle, display, idPrefix }: I
     {groups.map((group, gi) => (
       <div key={gi} className="mb-6">
         {group.group && (
-          <h3 className="font-semibold text-[10px] uppercase tracking-widest text-muted-foreground mb-4">
+          <h3 className="font-semibold text-xs uppercase tracking-widest text-muted-foreground mb-4">
             {group.group}
           </h3>
         )}
@@ -409,16 +410,7 @@ export function RecipePage() {
 
   if (error) {
     return (
-      <div role="alert" className="flex flex-col items-center justify-center py-16 px-6 text-center gap-4">
-        <p className="text-sm text-muted-foreground">{t("common.loadError")}</p>
-        <button
-          type="button"
-          onClick={retry}
-          className="rounded-full bg-surface-high px-5 py-2 text-sm font-medium text-foreground hover:bg-surface-container transition-colors"
-        >
-          {t("common.tryAgain")}
-        </button>
-      </div>
+      <LoadError onRetry={retry} className="px-6" />
     )
   }
 
@@ -548,13 +540,13 @@ export function RecipePage() {
         className="relative -mt-16 mx-4 bg-background rounded-[1.5rem] pt-8 pb-6 px-6 text-center shadow-lg"
       >
         {/* Category & origin label */}
-        <span className="text-[11px] uppercase tracking-[0.2em] text-primary font-semibold">
+        <span className="text-xs uppercase tracking-[0.2em] text-primary font-semibold">
           {t(`categories.${recipe.category}`, recipe.category)}
         </span>
         {recipe.origin && recipe.origin !== "none" && (
           <Link
             to={`/recipes?origin=${encodeURIComponent(recipe.origin)}`}
-            className="block text-[10px] uppercase tracking-[0.15em] text-muted-foreground mt-1 hover:text-primary transition-colors"
+            className="block text-xs uppercase tracking-[0.15em] text-muted-foreground mt-1 hover:text-primary transition-colors"
           >
             {t(`origins.${recipe.origin}`, recipe.origin)}
           </Link>
@@ -574,19 +566,19 @@ export function RecipePage() {
         >
           <motion.div variants={reduceMotion ? itemVariantsReduced : itemVariants} className="flex flex-col items-center gap-1.5">
             <Clock className="h-5 w-5 text-primary" />
-            <span className="text-[10px] uppercase tracking-widest text-muted-foreground font-medium">{t("recipe.prep")}</span>
+            <span className="text-xs uppercase tracking-widest text-muted-foreground font-medium">{t("recipe.prep")}</span>
             <span className="text-sm font-bold">{formatTime(recipe.prepTime)}</span>
           </motion.div>
           <motion.div variants={reduceMotion ? itemVariantsReduced : itemVariants} className="w-px h-10 bg-border" />
           <motion.div variants={reduceMotion ? itemVariantsReduced : itemVariants} className="flex flex-col items-center gap-1.5">
             <CookingPot className="h-5 w-5 text-primary" />
-            <span className="text-[10px] uppercase tracking-widest text-muted-foreground font-medium">{t("recipe.cook")}</span>
+            <span className="text-xs uppercase tracking-widest text-muted-foreground font-medium">{t("recipe.cook")}</span>
             <span className="text-sm font-bold">{formatTime(recipe.cookTime)}</span>
           </motion.div>
           <motion.div variants={reduceMotion ? itemVariantsReduced : itemVariants} className="w-px h-10 bg-border" />
           <motion.div variants={reduceMotion ? itemVariantsReduced : itemVariants} className="flex flex-col items-center gap-1.5">
             <ChefHat className="h-5 w-5 text-primary" />
-            <span className="text-[10px] uppercase tracking-widest text-muted-foreground font-medium">{t("recipe.difficulty")}</span>
+            <span className="text-xs uppercase tracking-widest text-muted-foreground font-medium">{t("recipe.difficulty")}</span>
             <span className="text-sm font-bold">{t(`difficulties.${recipe.difficulty}`, recipe.difficulty)}</span>
           </motion.div>
         </motion.div>
@@ -605,7 +597,7 @@ export function RecipePage() {
             {recipe.tags.map((tag) => (
               <motion.div key={tag} variants={reduceMotion ? itemVariantsReduced : itemVariants}>
                 <Link to={`/recipes?tag=${encodeURIComponent(tag)}`}>
-                  <Badge variant="outline" className="text-[10px] text-outline rounded-full cursor-pointer hover:bg-primary/10 hover:border-primary/30 hover:text-primary transition-colors">
+                  <Badge variant="outline" className="text-xs text-outline rounded-full cursor-pointer hover:bg-primary/10 hover:border-primary/30 hover:text-primary transition-colors">
                     {tag}
                   </Badge>
                 </Link>
@@ -884,7 +876,7 @@ export function RecipePage() {
       {recipe.source && (
         <div className="rounded-[1.5rem] bg-surface-container p-6 flex items-center gap-4 max-w-4xl mx-auto">
           <div>
-            <span className="text-[10px] uppercase tracking-widest text-primary font-semibold block">
+            <span className="text-xs uppercase tracking-widest text-primary font-semibold block">
               {t("recipe.source")}
             </span>
             <span className="font-semibold text-foreground">{recipe.source}</span>
@@ -905,7 +897,7 @@ export function RecipePage() {
               onClick={() => setIngredientsSheetFor(slug ?? null)}
               onPanEnd={(_, info) => { if (info.offset.y < -20) setIngredientsSheetFor(slug ?? null) }}
               aria-haspopup="dialog"
-              className="absolute left-1/2 -translate-x-1/2 bottom-full -mb-px touch-none inline-flex items-center gap-1.5 rounded-t-2xl border border-b-0 border-border bg-background px-4 pt-1.5 pb-1 text-[10px] font-semibold uppercase tracking-widest text-muted-foreground hover:text-primary transition-colors cursor-pointer"
+              className="absolute left-1/2 -translate-x-1/2 bottom-full -mb-px touch-none inline-flex items-center gap-1.5 rounded-t-2xl border border-b-0 border-border bg-background px-4 pt-1.5 pb-1 text-xs font-semibold uppercase tracking-widest text-muted-foreground hover:text-primary transition-colors cursor-pointer"
             >
               <ChevronUp className="h-3.5 w-3.5" />
               {t("recipe.ingredients")}

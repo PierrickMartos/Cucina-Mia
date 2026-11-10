@@ -10,7 +10,9 @@
     "close": "Close",
     "tryAgain": "Try again",
     "loadError": "Failed to load. Please try again.",
-    "skipToContent": "Skip to content"
+    "skipToContent": "Skip to content",
+    "offline": "Offline · recipes you have opened and your favorites are still available",
+    "offlineError": "You are offline and this page has not been opened on this device yet. It will load as soon as you are back online."
   },
   "language": {
     "switch": "Switch language"
@@ -90,7 +92,8 @@
     "addMinute": "Add 1 minute",
     "stopAlarm": "Stop alarm",
     "done": "Done!",
-    "tray": "Timers"
+    "tray": "Timers",
+    "notificationTitle": "⏰ Timer done"
   },
   "cookingMode": {
     "start": "Cooking mode",

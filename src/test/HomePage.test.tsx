@@ -32,9 +32,9 @@ const mockRecipes = [
   },
 ]
 
-function renderHomePage() {
+function renderHomePage(url = "/") {
   return render(
-    <MemoryRouter>
+    <MemoryRouter initialEntries={[url]}>
       <HomePage />
     </MemoryRouter>
   )
@@ -123,6 +123,15 @@ describe("HomePage", () => {
 
     await waitFor(() => {
       expect(screen.getByText("Mamma mia, the pot is empty!")).toBeInTheDocument()
+      expect(screen.queryByText(/1 · Antipasti/)).not.toBeInTheDocument()
+    })
+  })
+
+  it("shows the search from the URL, so going back keeps the results", async () => {
+    renderHomePage("/?q=carbonara")
+    expect(screen.getByPlaceholderText("Search a recipe...")).toHaveValue("carbonara")
+    await waitFor(() => {
+      expect(screen.getByText("Pasta alla Carbonara")).toBeInTheDocument()
       expect(screen.queryByText(/1 · Antipasti/)).not.toBeInTheDocument()
     })
   })

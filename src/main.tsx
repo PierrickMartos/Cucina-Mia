@@ -4,6 +4,7 @@ import { HashRouter } from "react-router-dom"
 import App from "./App"
 import "./i18n"
 import "./index.css"
+import { registerServiceWorker } from "./lib/serviceWorker"
 
 createRoot(document.getElementById("root")!).render(
   <StrictMode>
@@ -12,3 +13,5 @@ createRoot(document.getElementById("root")!).render(
     </HashRouter>
   </StrictMode>
 )
+
+registerServiceWorker()

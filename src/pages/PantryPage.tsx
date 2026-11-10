@@ -6,6 +6,7 @@ import { Input } from "@/components/ui/input"
 import { Skeleton } from "@/components/ui/skeleton"
 import { AnimateInView, RecipesNotFound } from "@/components/RecipeGrid"
 import { RecipeCard } from "@/components/RecipeCard"
+import { LoadError } from "@/components/LoadError"
 import { loadSearchDocuments, useRecipeIndex } from "@/lib/recipeData"
 import { normalize } from "@/lib/search/text"
 import { cn } from "@/lib/utils"
@@ -86,7 +87,7 @@ function MatchSummary({ match }: { match: PantryMatch }) {
         >
           <div className="h-full gradient-primary rounded-full" style={{ width: `${(have / match.total) * 100}%` }} />
         </div>
-        <span className="text-[11px] font-semibold text-primary whitespace-nowrap">
+        <span className="text-xs font-semibold text-primary whitespace-nowrap">
           {t("pantry.matched", { count: have, total: match.total })}
         </span>
       </div>
@@ -160,25 +161,13 @@ export function PantryPage() {
     <div className="px-6 py-6">
       <div className="mb-6">
         <h1 className="font-headline text-3xl font-bold text-primary tracking-[-0.02em]">{t("pantry.title")}</h1>
-        <span className="font-body text-secondary text-[10px] uppercase tracking-[0.2em] block mt-2">
+        <span className="font-body text-secondary text-xs uppercase tracking-[0.2em] block mt-2">
           {t("pantry.subtitle")}
         </span>
       </div>
 
       {error ? (
-        <div role="alert" className="flex flex-col items-center justify-center py-16 text-center gap-4">
-          <p className="text-sm text-muted-foreground">{t("common.loadError")}</p>
-          <button
-            type="button"
-            onClick={() => {
-              if (recipesError) retryRecipes()
-              if (needsError) retryNeeds()
-            }}
-            className="rounded-full bg-surface-high px-5 py-2 text-sm font-medium text-foreground hover:bg-surface-container transition-colors"
-          >
-            {t("common.tryAgain")}
-          </button>
-        </div>
+        <LoadError onRetry={() => { if (recipesError) retryRecipes(); if (needsError) retryNeeds() }} />
       ) : (
         <div className="lg:grid lg:grid-cols-[minmax(0,2fr)_minmax(0,3fr)] lg:gap-10 lg:items-start">
           {/* Ingredient picker */}
@@ -199,7 +188,7 @@ export function PantryPage() {
             {selected.length > 0 && (
               <div className="mb-5 rounded-[1.25rem] bg-surface-lowest p-4">
                 <div className="flex items-center justify-between mb-3">
-                  <span className="text-[10px] uppercase tracking-[0.2em] font-semibold text-secondary">
+                  <span className="text-xs uppercase tracking-[0.2em] font-semibold text-secondary">
                     {t("pantry.selected", { count: selected.length })}
                   </span>
                   <button
