@@ -21,6 +21,10 @@ const mockRecipe = {
   tips: ["Usare solo pecorino romano."],
 }
 
+// An ingredient line is split in two (bold quantity + the rest): match the whole line of the checklist label
+const ingredient = (text: string) => (_: string, element: Element | null) =>
+  !!element?.matches("label > span") && element.textContent === text
+
 function renderRecipePage(slug: string) {
   return render(
     <MemoryRouter initialEntries={[`/recipe/${slug}`]}>
@@ -53,9 +57,9 @@ describe("RecipePage", () => {
   it("renders prep and cook times", async () => {
     renderRecipePage("pasta-carbonara")
     await waitFor(() => {
-      expect(screen.getByText(/Prep:/)).toBeInTheDocument()
+      expect(screen.getByText("Prep")).toBeInTheDocument()
       expect(screen.getByText("10 min")).toBeInTheDocument()
-      expect(screen.getByText(/Cook:/)).toBeInTheDocument()
+      expect(screen.getByText("Cook")).toBeInTheDocument()
       expect(screen.getByText("15 min")).toBeInTheDocument()
     })
   })
@@ -64,14 +68,14 @@ describe("RecipePage", () => {
     const user = userEvent.setup()
     renderRecipePage("pasta-carbonara")
     await waitFor(() => {
-      expect(screen.getAllByText("400g spaghetti")[0]).toBeInTheDocument()
-      expect(screen.getAllByText("200g guanciale")[0]).toBeInTheDocument()
+      expect(screen.getAllByText(ingredient("400g spaghetti"))[0]).toBeInTheDocument()
+      expect(screen.getAllByText(ingredient("200g guanciale"))[0]).toBeInTheDocument()
     })
 
     // Click label to check an ingredient (first occurrence = mobile section)
-    const label = screen.getAllByText("400g spaghetti")[0].closest("label")!
+    const label = screen.getAllByText(ingredient("400g spaghetti"))[0].closest("label")!
     await user.click(label)
-    expect(screen.getAllByText("400g spaghetti")[0]).toHaveClass("line-through")
+    expect(screen.getAllByText(ingredient("400g spaghetti"))[0]).toHaveClass("line-through")
   })
 
   it("keeps the tab switcher sticky at the top on mobile/tablet", async () => {
@@ -92,7 +96,7 @@ describe("RecipePage", () => {
     const user = userEvent.setup()
     renderRecipePage("pasta-carbonara")
     await waitFor(() => {
-      expect(screen.getAllByText("400g spaghetti")[0]).toBeInTheDocument()
+      expect(screen.getAllByText(ingredient("400g spaghetti"))[0]).toBeInTheDocument()
     })
 
     await user.click(screen.getByRole("tab", { name: "Instructions" }))
@@ -103,8 +107,8 @@ describe("RecipePage", () => {
   it("opens the ingredients sheet from the step navigator, sharing the checked state", async () => {
     const user = userEvent.setup()
     renderRecipePage("pasta-carbonara")
-    await waitFor(() => expect(screen.getAllByText("400g spaghetti")[0]).toBeInTheDocument())
-    await user.click(screen.getAllByText("400g spaghetti")[0].closest("label")!)
+    await waitFor(() => expect(screen.getAllByText(ingredient("400g spaghetti"))[0]).toBeInTheDocument())
+    await user.click(screen.getAllByText(ingredient("400g spaghetti"))[0].closest("label")!)
 
     // No handle on the ingredients tab: the list is already there
     expect(screen.queryByRole("button", { name: /^Ingredients\s*1\/2$/ })).not.toBeInTheDocument()
@@ -112,8 +116,8 @@ describe("RecipePage", () => {
     await user.click(screen.getByRole("button", { name: /^Ingredients\s*1\/2$/ }))
 
     const sheet = screen.getByRole("dialog", { name: /Ingredients/ })
-    expect(within(sheet).getByText("400g spaghetti")).toHaveClass("line-through")
-    await user.click(within(sheet).getByText("200g guanciale").closest("label")!)
+    expect(within(sheet).getByText(ingredient("400g spaghetti"))).toHaveClass("line-through")
+    await user.click(within(sheet).getByText(ingredient("200g guanciale")).closest("label")!)
     expect(within(sheet).getByText("2/2")).toBeInTheDocument()
 
     await user.keyboard("{Escape}")
@@ -201,8 +205,8 @@ describe("RecipePage", () => {
 
     await user.selectOptions(select, "2")
     expect(select).toHaveValue("2")
-    expect(screen.getAllByText("200g spaghetti")[0]).toBeInTheDocument()
-    expect(screen.getAllByText("100g guanciale")[0]).toBeInTheDocument()
+    expect(screen.getAllByText(ingredient("200g spaghetti"))[0]).toBeInTheDocument()
+    expect(screen.getAllByText(ingredient("100g guanciale"))[0]).toBeInTheDocument()
     // Mobile ingredients tab + desktop ingredients column, both with the reset link
     expect(screen.getAllByText(/Quantities adjusted \(recipe written for 4\)/)).toHaveLength(2)
     expect(screen.getAllByRole("button", { name: "Back to 4" })).toHaveLength(2)
@@ -215,7 +219,7 @@ describe("RecipePage", () => {
 
     await user.click(screen.getAllByRole("button", { name: "Back to 4" })[0])
     expect(select).toHaveValue("4")
-    expect(screen.getAllByText("400g spaghetti")[0]).toBeInTheDocument()
+    expect(screen.getAllByText(ingredient("400g spaghetti"))[0]).toBeInTheDocument()
   })
 
   describe("share button", () => {

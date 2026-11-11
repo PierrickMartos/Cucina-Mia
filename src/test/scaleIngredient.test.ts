@@ -1,5 +1,5 @@
 import { describe, it, expect } from "vitest"
-import { parseQuantity, scaleIngredient, servingOptions } from "@/lib/scaleIngredient"
+import { parseQuantity, scaleIngredient, splitQuantity, servingOptions } from "@/lib/scaleIngredient"
 
 describe("parseQuantity", () => {
   it.each([
@@ -71,5 +71,20 @@ describe("servingOptions", () => {
   it("offers 1 to 12, or up to twice the recipe servings", () => {
     expect(servingOptions(4)).toEqual([1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12])
     expect(servingOptions(12)).toHaveLength(24)
+  })
+})
+
+describe("splitQuantity", () => {
+  it("separates the leading quantity, with its metric unit, from the rest of the line", () => {
+    expect(splitQuantity("600 g de farine")).toEqual(["600 g", " de farine"])
+    expect(splitQuantity("400g spaghetti")).toEqual(["400g", " spaghetti"])
+    expect(splitQuantity("2 à 3 œufs")).toEqual(["2 à 3", " œufs"])
+    expect(splitQuantity("½ cube de levure")).toEqual(["½", " cube de levure"])
+    expect(splitQuantity("8 cuillères à soupe de sucre")).toEqual(["8", " cuillères à soupe de sucre"])
+  })
+
+  it("leaves lines without a leading quantity whole", () => {
+    expect(splitQuantity("Sel, poivre")).toEqual(["", "Sel, poivre"])
+    expect(splitQuantity("Farine T55")).toEqual(["", "Farine T55"])
   })
 })

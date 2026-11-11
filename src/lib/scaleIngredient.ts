@@ -122,6 +122,16 @@ export function scaleIngredient(text: string, factor: number, lang = "fr"): stri
   return head + rest
 }
 
+/** Splits a line into its leading quantity (number or range, plus a metric unit if any) and the rest, for display. */
+export function splitQuantity(text: string): [quantity: string, rest: string] {
+  const leading = text.match(LEADING_RE)
+  if (!leading) return ["", text]
+  let end = leading[0].length
+  const unit = text.slice(end).match(METRIC_UNIT_START_RE)
+  if (unit) end += unit[0].length
+  return [text.slice(0, end), text.slice(end)]
+}
+
 export function servingOptions(base: number) {
   const max = Math.max(12, base * 2)
   return Array.from({ length: max }, (_, i) => i + 1)

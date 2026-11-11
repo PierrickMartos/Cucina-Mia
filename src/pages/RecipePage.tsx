@@ -4,13 +4,12 @@ import { createPortal } from "react-dom"
 import { useParams, Link, useNavigate } from "react-router-dom"
 import { useTranslation } from "react-i18next"
 import { ArrowLeft, Clock, CookingPot, ChefHat, UtensilsCrossed, Printer, Share2, Check, Volume2, VolumeX, BookOpen, Maximize2, ChevronUp, X } from "lucide-react"
-import { AnimatePresence, motion, useMotionValue, useTransform, useReducedMotion, type Variants } from "motion/react"
-import { Badge } from "@/components/ui/badge"
+import { AnimatePresence, motion, useMotionValue, useTransform, useReducedMotion } from "motion/react"
 import { Skeleton } from "@/components/ui/skeleton"
 import { ServingsSelect } from "@/components/ServingsSelect"
 import { localizeRecipeDetail } from "@/lib/localize"
 import { useRecipe } from "@/lib/recipeData"
-import { scaleIngredient } from "@/lib/scaleIngredient"
+import { scaleIngredient, splitQuantity } from "@/lib/scaleIngredient"
 import { StepTimerButtons } from "@/components/CookingTimers"
 import { RelatedRecipes } from "@/components/RelatedRecipes"
 import { CookingMode } from "@/components/CookingMode"
@@ -30,25 +29,9 @@ function toIsoDuration(minutes: number) {
   return `PT${minutes}M`
 }
 
-const itemVariants: Variants = {
-  hidden: { opacity: 0, y: 12 },
-  visible: { opacity: 1, y: 0, transition: { duration: 0.4, ease: [0.25, 0.1, 0.25, 1] } },
-}
-
-const itemVariantsReduced: Variants = {
-  hidden: { opacity: 1, y: 0 },
-  visible: { opacity: 1, y: 0 },
-}
-
-const staggerContainer: Variants = {
-  hidden: {},
-  visible: { transition: { staggerChildren: 0.07, delayChildren: 0.15 } },
-}
-
-const staggerContainerReduced: Variants = {
-  hidden: {},
-  visible: {},
-}
+// Share and print: round icon buttons on phones, labelled pills from `sm` (same shape as the favourite pill)
+const SECONDARY_ACTION =
+  "items-center justify-center gap-2 rounded-full border border-border h-11 w-11 sm:h-10 sm:w-auto sm:px-4 text-xs font-semibold uppercase tracking-widest text-muted-foreground hover:text-primary hover:border-primary/40 transition-colors cursor-pointer print:hidden"
 
 interface IngredientChecklistProps {
   groups: RecipeDetail["ingredients"]
@@ -74,6 +57,7 @@ function IngredientChecklist({ groups, checked, onToggle, display, idPrefix }: I
             const key = `${gi}-${ii}`
             const isChecked = !!checked[key]
             const inputId = `${idPrefix}-${key}`
+            const [quantity, rest] = splitQuantity(display(item))
             return (
               <li key={key}>
                 <label
@@ -92,7 +76,7 @@ function IngredientChecklist({ groups, checked, onToggle, display, idPrefix }: I
                     className={`h-6 w-6 rounded-lg shrink-0 flex items-center justify-center transition-colors ${
                       isChecked
                         ? "gradient-primary"
-                        : "bg-surface-high group-hover:bg-surface-container"
+                        : "bg-surface-lowest shadow-[inset_0_0_0_1.5px_var(--outline-variant)] group-hover:bg-surface-high"
                     } peer-focus-visible:ring-2 peer-focus-visible:ring-ring peer-focus-visible:ring-offset-2`}
                   >
                     {isChecked && (
@@ -118,7 +102,9 @@ function IngredientChecklist({ groups, checked, onToggle, display, idPrefix }: I
                         : "text-foreground"
                     }`}
                   >
-                    {display(item)}
+                    {/* The quantity stands out, so the list can be scanned while weighing */}
+                    {quantity && <strong className="font-bold">{quantity}</strong>}
+                    {rest}
                   </span>
                 </label>
               </li>
@@ -532,17 +518,20 @@ export function RecipePage() {
         )}
       </div>
 
-      {/* Recipe Info Card, overlaps image, settles in on mount */}
+      {/* Recipe Info Card, overlaps image, settles in on mount. Same width as the content below on large screens */}
       <motion.div
         initial={reduceMotion ? { opacity: 1, y: 0 } : { opacity: 0, y: 24 }}
         animate={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.5, ease: "easeOut" }}
-        className="relative -mt-16 mx-4 bg-background rounded-[1.5rem] pt-8 pb-6 px-6 text-center shadow-lg"
+        className="relative -mt-16 mx-4 lg:mx-auto lg:max-w-4xl bg-background rounded-[1.5rem] pt-7 pb-6 px-6 sm:px-10 text-center shadow-lg"
       >
         {/* Category & origin label */}
-        <span className="text-xs uppercase tracking-[0.2em] text-primary font-semibold">
+        <Link
+          to={`/recipes?category=${encodeURIComponent(recipe.category)}`}
+          className="text-xs uppercase tracking-[0.2em] text-primary font-semibold hover:underline underline-offset-4"
+        >
           {t(`categories.${recipe.category}`, recipe.category)}
-        </span>
+        </Link>
         {recipe.origin && recipe.origin !== "none" && (
           <Link
             to={`/recipes?origin=${encodeURIComponent(recipe.origin)}`}
@@ -553,85 +542,60 @@ export function RecipePage() {
         )}
 
         {/* Title */}
-        <h1 className="font-headline text-3xl sm:text-4xl font-bold tracking-[-0.02em] leading-tight mt-3 mb-6">
+        <h1 className="font-headline text-3xl sm:text-4xl font-bold tracking-[-0.02em] leading-tight mt-3 text-balance">
           {recipe.title}
         </h1>
+        {recipe.description && (
+          <p className="mt-3 mx-auto max-w-xl text-[15px] leading-relaxed text-muted-foreground text-pretty">
+            {recipe.description}
+          </p>
+        )}
 
-        {/* Time + Difficulty, staggered */}
-        <motion.div
-          variants={reduceMotion ? staggerContainerReduced : staggerContainer}
-          initial="hidden"
-          animate="visible"
-          className="flex items-center justify-center gap-8 mb-5"
-        >
-          <motion.div variants={reduceMotion ? itemVariantsReduced : itemVariants} className="flex flex-col items-center gap-1.5">
-            <Clock className="h-5 w-5 text-primary" />
-            <span className="text-xs uppercase tracking-widest text-muted-foreground font-medium">{t("recipe.prep")}</span>
-            <span className="text-sm font-bold">{formatTime(recipe.prepTime)}</span>
-          </motion.div>
-          <motion.div variants={reduceMotion ? itemVariantsReduced : itemVariants} className="w-px h-10 bg-border" />
-          <motion.div variants={reduceMotion ? itemVariantsReduced : itemVariants} className="flex flex-col items-center gap-1.5">
-            <CookingPot className="h-5 w-5 text-primary" />
-            <span className="text-xs uppercase tracking-widest text-muted-foreground font-medium">{t("recipe.cook")}</span>
-            <span className="text-sm font-bold">{formatTime(recipe.cookTime)}</span>
-          </motion.div>
-          <motion.div variants={reduceMotion ? itemVariantsReduced : itemVariants} className="w-px h-10 bg-border" />
-          <motion.div variants={reduceMotion ? itemVariantsReduced : itemVariants} className="flex flex-col items-center gap-1.5">
-            <ChefHat className="h-5 w-5 text-primary" />
-            <span className="text-xs uppercase tracking-widest text-muted-foreground font-medium">{t("recipe.difficulty")}</span>
-            <span className="text-sm font-bold">{t(`difficulties.${recipe.difficulty}`, recipe.difficulty)}</span>
-          </motion.div>
-        </motion.div>
+        {/* Time + Difficulty: the value first, it is what the cook looks for */}
+        <dl className="grid grid-cols-3 divide-x divide-border border-y border-border mt-6 py-4">
+          {[
+            { Icon: Clock, label: t("recipe.prep"), value: formatTime(recipe.prepTime) },
+            { Icon: CookingPot, label: t("recipe.cook"), value: formatTime(recipe.cookTime) },
+            { Icon: ChefHat, label: t("recipe.difficulty"), value: t(`difficulties.${recipe.difficulty}`, recipe.difficulty) },
+          ].map(({ Icon, label, value }) => (
+            <div key={label} className="flex flex-col items-center px-1">
+              {/* Shown as icon, value, label; the label stays first in the markup for screen readers */}
+              <dt className="order-3 mt-0.5 text-xs text-muted-foreground">{label}</dt>
+              <dd className="order-2 font-headline text-xl font-bold tracking-[-0.02em]">{value}</dd>
+              <dd className="order-1 mb-1.5" aria-hidden="true"><Icon className="h-5 w-5 text-primary" /></dd>
+            </div>
+          ))}
+        </dl>
 
-        {/* Servings & Tags, staggered */}
-        <motion.div
-          variants={reduceMotion ? staggerContainerReduced : staggerContainer}
-          initial="hidden"
-          animate="visible"
-          className="flex items-center justify-center gap-4 pt-4 border-t border-border"
-        >
-          <motion.div variants={reduceMotion ? itemVariantsReduced : itemVariants}>
+        {/* Servings on the left, actions on the right; on phones the cooking mode button takes its own full-width row */}
+        <div className="flex flex-wrap items-center gap-x-2 gap-y-4 mt-4">
+          <div className="mr-auto">
             <ServingsSelect base={recipe.servings} value={servings} onChange={setServings} />
-          </motion.div>
-          <div className="flex flex-wrap justify-center gap-1.5">
-            {recipe.tags.map((tag) => (
-              <motion.div key={tag} variants={reduceMotion ? itemVariantsReduced : itemVariants}>
-                <Link to={`/recipes?tag=${encodeURIComponent(tag)}`}>
-                  <Badge variant="outline" className="text-xs text-outline rounded-full cursor-pointer hover:bg-primary/10 hover:border-primary/30 hover:text-primary transition-colors">
-                    {tag}
-                  </Badge>
-                </Link>
-              </motion.div>
-            ))}
           </div>
-        </motion.div>
-
-        {/* Cooking mode, favourite and share buttons, and print button on desktop only */}
-        <div className="flex flex-wrap justify-center gap-3 mt-5 print:hidden">
           {recipe.steps.length > 0 && (
             <button
               type="button"
               onClick={(e) => openCookingMode(e.currentTarget)}
-              className="inline-flex items-center gap-2 rounded-full gradient-primary px-4 py-2 text-xs font-semibold uppercase tracking-widest text-primary-foreground cursor-pointer"
+              className="order-last w-full sm:order-none sm:w-auto inline-flex items-center justify-center gap-2 rounded-full gradient-primary px-5 h-12 sm:h-10 text-sm sm:text-xs font-semibold uppercase tracking-widest text-primary-foreground cursor-pointer print:hidden"
             >
-              <ChefHat className="h-3.5 w-3.5" />
+              <ChefHat className="h-4 w-4 sm:h-3.5 sm:w-3.5" />
               {t("cookingMode.start")}
             </button>
           )}
-          <FavoriteButton slug={recipe.slug} title={recipe.title} variant="pill" />
+          <FavoriteButton slug={recipe.slug} title={recipe.title} variant="pill" className="print:hidden" />
           <button
             type="button"
             onClick={shareRecipe}
-            className="inline-flex items-center gap-2 rounded-full border border-border px-4 py-2 text-xs font-semibold uppercase tracking-widest text-muted-foreground hover:text-primary hover:border-primary/40 transition-colors cursor-pointer"
+            className={`${SECONDARY_ACTION} inline-flex`}
             aria-label={t("recipe.shareRecipe")}
           >
-            {linkCopied ? <Check className="h-3.5 w-3.5" /> : <Share2 className="h-3.5 w-3.5" />}
-            {linkCopied ? t("recipe.linkCopied") : t("recipe.share")}
+            {linkCopied ? <Check className="h-4 w-4 sm:h-3.5 sm:w-3.5" /> : <Share2 className="h-4 w-4 sm:h-3.5 sm:w-3.5" />}
+            <span className="sr-only sm:not-sr-only">{linkCopied ? t("recipe.linkCopied") : t("recipe.share")}</span>
           </button>
           <button
             type="button"
             onClick={() => window.print()}
-            className="hidden md:inline-flex items-center gap-2 rounded-full border border-border px-4 py-2 text-xs font-semibold uppercase tracking-widest text-muted-foreground hover:text-primary hover:border-primary/40 transition-colors cursor-pointer"
+            className={`${SECONDARY_ACTION} hidden md:inline-flex`}
             aria-label={t("recipe.print", "Print recipe")}
           >
             <Printer className="h-3.5 w-3.5" />
@@ -882,6 +846,22 @@ export function RecipePage() {
             <span className="font-semibold text-foreground">{recipe.source}</span>
           </div>
         </div>
+      )}
+
+      {/* Tags: a way out to similar recipes, so they come after the recipe itself */}
+      {recipe.tags.length > 0 && (
+        <ul className="flex flex-wrap gap-2 max-w-4xl mx-auto mt-8 print:hidden">
+          {recipe.tags.map((tag) => (
+            <li key={tag}>
+              <Link
+                to={`/recipes?tag=${encodeURIComponent(tag)}`}
+                className="inline-flex items-center rounded-full border border-border px-3 py-1.5 text-sm text-muted-foreground hover:bg-primary/10 hover:border-primary/30 hover:text-primary transition-colors"
+              >
+                {tag}
+              </Link>
+            </li>
+          ))}
+        </ul>
       )}
 
       {recipe.related && recipe.related.length > 0 && <RelatedRecipes slugs={recipe.related} />}
