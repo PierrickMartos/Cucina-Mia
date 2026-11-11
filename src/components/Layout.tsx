@@ -6,6 +6,7 @@ import { useState, useRef, useEffect, useId } from "react"
 import { preloadMammaMia, sayMammaMia } from "@/lib/mammaMia"
 import { runWhenIdle } from "@/lib/utils"
 import { TimerTray } from "@/components/CookingTimers"
+import { InstallBanner } from "@/components/InstallBanner"
 import { LANG_STORAGE_KEY } from "@/i18n/languages"
 import { useOnline } from "@/lib/serviceWorker"
 
@@ -170,6 +171,8 @@ export function Layout() {
           {t("common.offline")}
         </p>
       )}
+
+      <InstallBanner />
 
       {/* Main Content */}
       <main id="main-content" tabIndex={-1} className="focus:outline-none flex-1 overflow-y-auto overflow-x-hidden">

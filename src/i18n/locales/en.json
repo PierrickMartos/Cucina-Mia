@@ -258,5 +258,10 @@
     "quickest": "Quickest",
     "easiest": "Easiest",
     "alpha": "A to Z"
+  },
+  "install": {
+    "title": "Install Cucina Mia on your iPhone",
+    "howTo": "Tap <share/> Share (in the ⋯ menu if needed), then <strong>Add to Home Screen</strong>.",
+    "share": "Share"
   }
 }
