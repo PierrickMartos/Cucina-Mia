@@ -1,27 +1,19 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+  <!-- Cucina Mia: cream cherry tomato with a basil leaf on terracotta, same motif as the app icon -->
   <defs>
-    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0%" stop-color="#DC2626"/>
-      <stop offset="100%" stop-color="#B91C1C"/>
-    </linearGradient>
+    <radialGradient id="bg" cx="0.15" cy="0.1" r="1.1">
+      <stop offset="0" stop-color="#C96A4E"/>
+      <stop offset="1" stop-color="#A84C34"/>
+    </radialGradient>
   </defs>
-  <!-- Background circle -->
-  <circle cx="256" cy="256" r="256" fill="url(#bg)"/>
-  <!-- Fork -->
-  <g transform="translate(256,260) rotate(-15)" fill="none" stroke="#FFF" stroke-width="16" stroke-linecap="round" stroke-linejoin="round">
-    <!-- Handle -->
-    <line x1="0" y1="40" x2="0" y2="150"/>
-    <!-- Head -->
-    <path d="M-36,-60 C-36,-10 -24,30 0,40 24,30 36,-10 36,-60"/>
-    <!-- Tines -->
-    <line x1="-24" y1="-60" x2="-24" y2="0"/>
-    <line x1="0" y1="-60" x2="0" y2="10"/>
-    <line x1="24" y1="-60" x2="24" y2="0"/>
-  </g>
-  <!-- Steam wisps -->
-  <g fill="none" stroke="#FFF" stroke-width="8" stroke-linecap="round" opacity="0.6">
-    <path d="M200,-10 C195,-30 205,-50 200,-70" transform="translate(0,100)"/>
-    <path d="M256,-10 C251,-35 261,-55 256,-80" transform="translate(0,90)"/>
-    <path d="M312,-10 C307,-30 317,-50 312,-70" transform="translate(0,100)"/>
-  </g>
+  <rect width="64" height="64" rx="14" fill="url(#bg)"/>
+  <!-- Tomato -->
+  <circle cx="25" cy="40" r="14" fill="#FDFCF0"/>
+  <!-- Calyx -->
+  <path d="M25 27 l-9 1.5 6 2.5 -2.5 6 5.5-4.5 5.5 4.5 -2.5-6 6-2.5z" fill="#A84C34"/>
+  <!-- Vine -->
+  <path d="M25 29 C26 20 31 17 37 15 C39 13 40 11 41 9" fill="none" stroke="#FDFCF0" stroke-width="3" stroke-linecap="round"/>
+  <!-- Basil leaf -->
+  <path d="M35 17 C49 12 57 25 52 39 C41 38 33 30 35 17z" fill="#FDFCF0"/>
+  <path d="M36.5 19 C42 24 46 30 50 36" fill="none" stroke="#A84C34" stroke-width="1.1" stroke-linecap="round"/>
 </svg>
