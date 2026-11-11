@@ -68,6 +68,23 @@ describe("HomePage", () => {
     expect(screen.getByPlaceholderText("Search a recipe...")).toBeInTheDocument()
   })
 
+  it("shows the recipe of the day above the categories, linking to the recipe", async () => {
+    renderHomePage()
+    const heading = await screen.findByRole("heading", { name: "Recipe of the day" })
+    const link = heading.closest("a")
+    expect(link).toHaveAttribute("href", expect.stringMatching(/^\/recipe\/(pasta-carbonara|tiramisu)$/))
+  })
+
+  it("hides the recipe of the day while searching", async () => {
+    const user = userEvent.setup()
+    renderHomePage()
+    await screen.findByRole("heading", { name: "Recipe of the day" })
+    await user.type(screen.getByPlaceholderText("Search a recipe..."), "carbonara")
+    await waitFor(() => {
+      expect(screen.queryByRole("heading", { name: "Recipe of the day" })).not.toBeInTheDocument()
+    })
+  })
+
   it("links category cards to filtered recipes page", async () => {
     renderHomePage()
     await waitFor(() => {

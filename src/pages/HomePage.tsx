@@ -10,6 +10,7 @@ import { localizeRecipeSummary } from "@/lib/localize"
 import { useRecipeSearch } from "@/hooks/useRecipeSearch"
 import { SemanticSearchIndicator } from "@/components/SemanticSearchIndicator"
 import { RecentlyViewed } from "@/components/RecentlyViewed"
+import { RecipeOfTheDay } from "@/components/RecipeOfTheDay"
 import { LoadError } from "@/components/LoadError"
 import { useTranslation } from "react-i18next"
 import type { RecipeSummary } from "@/types/recipe"
@@ -168,6 +169,7 @@ export function HomePage() {
           </div>
         ) : (
           <>
+          <RecipeOfTheDay recipes={recipes} />
           <RecentlyViewed recipes={recipes} />
           <div className="grid grid-cols-2 lg:grid-cols-3 gap-3 sm:gap-4">
             {categories.map((cat, index) => (
@@ -181,8 +183,8 @@ export function HomePage() {
                     {...cat.image}
                     alt=""
                     className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105"
-                    // The first row is visible right away: don't wait for layout to start loading it
-                    loading={index < 3 ? "eager" : "lazy"}
+                    // The first cards are close to the first screen: don't wait for layout to start loading them
+                    loading={index < 2 ? "eager" : "lazy"}
                     decoding="async"
                   />
                   <div className="vignette-overlay absolute inset-0 flex flex-col justify-end p-3.5 sm:p-5">

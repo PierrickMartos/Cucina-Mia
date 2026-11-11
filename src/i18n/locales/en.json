@@ -23,7 +23,8 @@
     "searchPlaceholder": "Search a recipe...",
     "pantryLink": "What can I make with what I have?",
     "recentlyViewed": "Recently viewed",
-    "clearRecent": "Clear"
+    "clearRecent": "Clear",
+    "recipeOfTheDay": "Recipe of the day"
   },
   "about": {
     "heroTitle": "The Heart of",

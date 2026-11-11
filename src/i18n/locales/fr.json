@@ -23,7 +23,8 @@
     "searchPlaceholder": "Chercher une recette...",
     "pantryLink": "Que cuisiner avec ce que j'ai ?",
     "recentlyViewed": "Vues récemment",
-    "clearRecent": "Effacer"
+    "clearRecent": "Effacer",
+    "recipeOfTheDay": "Recette du jour"
   },
   "about": {
     "heroTitle": "Le Cœur de",
