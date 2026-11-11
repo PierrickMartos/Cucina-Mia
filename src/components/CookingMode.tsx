@@ -182,7 +182,7 @@ export function CookingMode({
         role="dialog"
         aria-modal="true"
         aria-labelledby={titleId}
-        className="fixed inset-0 z-[55] flex flex-col bg-surface text-foreground print:hidden"
+        className="fixed inset-0 z-[55] flex flex-col bg-surface text-foreground pt-[env(safe-area-inset-top)] pl-[env(safe-area-inset-left)] pr-[env(safe-area-inset-right)] print:hidden"
         onTouchStart={onTouchStart}
         onTouchEnd={onTouchEnd}
       >

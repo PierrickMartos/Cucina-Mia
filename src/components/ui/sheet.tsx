@@ -61,7 +61,7 @@ function SheetContent({
       aria-modal="true"
       aria-labelledby={titleId}
       className={cn(
-        "fixed inset-y-0 right-0 z-50 flex h-full w-3/4 max-w-sm flex-col gap-4 bg-surface/70 backdrop-blur-[20px] p-6 shadow-ambient transition-transform overflow-hidden",
+        "fixed inset-y-0 right-0 z-50 flex h-full w-3/4 max-w-sm flex-col gap-4 bg-surface/70 backdrop-blur-[20px] p-6 pt-[max(1.5rem,env(safe-area-inset-top))] pb-[max(1.5rem,env(safe-area-inset-bottom))] pr-[max(1.5rem,env(safe-area-inset-right))] shadow-ambient transition-transform overflow-hidden",
         className
       )}
     >

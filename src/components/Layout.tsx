@@ -108,7 +108,7 @@ export function Layout() {
   const addRecipeUrl = "https://github.com/PierrickMartos/Cucina-Mia/issues"
 
   return (
-    <div className="h-dvh flex flex-col bg-surface overflow-hidden">
+    <div className="h-dvh flex flex-col bg-surface overflow-hidden pl-[env(safe-area-inset-left)] pr-[env(safe-area-inset-right)]">
       <a
         href="#main-content"
         onClick={(e) => {
@@ -120,7 +120,7 @@ export function Layout() {
         {t("common.skipToContent")}
       </a>
       {/* Top App Bar */}
-      <nav className="shrink-0 relative flex items-center gap-6 px-6 h-14 bg-surface/70 backdrop-blur-md z-50 print:hidden">
+      <nav className="shrink-0 relative flex items-center gap-6 px-6 h-14 box-content pt-[env(safe-area-inset-top)] bg-surface/70 backdrop-blur-md z-50 print:hidden">
         {/* Holds the recipe page's back button: left of the centred logo on small screens, after the logo on large ones */}
         <div id="header-left-slot" className="w-24 shrink-0 lg:order-2 lg:w-auto" />
         <Link to="/" onClick={sayMammaMia} className="absolute left-1/2 -translate-x-1/2 lg:static lg:translate-x-0 lg:order-1">
@@ -186,7 +186,7 @@ export function Layout() {
       <TimerTray />
 
       {/* Bottom Nav Bar */}
-      <nav className="lg:hidden shrink-0 flex justify-around items-center px-1 sm:px-4 pb-1.5 pt-1.5 bg-surface/70 backdrop-blur-[20px] rounded-t-xl z-50 print:hidden">
+      <nav className="lg:hidden shrink-0 flex justify-around items-center px-1 sm:px-4 pb-[max(0.375rem,env(safe-area-inset-bottom))] pt-1.5 bg-surface/70 backdrop-blur-[20px] rounded-t-xl z-50 print:hidden">
         {navItems.map(({ to, icon: Icon, label }) => {
           const active = isActive(to)
           return (

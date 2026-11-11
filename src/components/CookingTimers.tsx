@@ -98,7 +98,7 @@ export function TimerTray() {
   return (
     <section
       aria-label={t("timer.tray")}
-      className="fixed right-3 bottom-[5.5rem] lg:bottom-20 z-[60] flex flex-col items-end gap-2 max-w-[calc(100vw-1.5rem)] print:hidden"
+      className="fixed right-3 bottom-[calc(5.5rem+env(safe-area-inset-bottom))] lg:bottom-20 mr-[env(safe-area-inset-right)] z-[60] flex flex-col items-end gap-2 max-w-[calc(100vw-1.5rem)] print:hidden"
     >
       {timers.map((timer) => {
         const done = timer.status === "done"

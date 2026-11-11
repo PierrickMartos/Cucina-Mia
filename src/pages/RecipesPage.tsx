@@ -533,7 +533,7 @@ export function RecipesPage() {
           type="button"
           onClick={handleScrollTop}
           aria-label={t("recipes.goToTop")}
-          className="cursor-pointer fixed bottom-24 right-5 z-40 flex h-12 w-12 items-center justify-center rounded-full gradient-primary text-primary-foreground shadow-ambient transition-transform hover:-translate-y-0.5 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 focus-visible:ring-offset-surface sm:right-8 print:hidden"
+          className="cursor-pointer fixed bottom-[calc(6rem+env(safe-area-inset-bottom))] right-5 z-40 flex h-12 w-12 items-center justify-center rounded-full gradient-primary text-primary-foreground shadow-ambient transition-transform hover:-translate-y-0.5 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 focus-visible:ring-offset-surface sm:right-8 print:hidden"
         >
           <ChevronUp className="h-6 w-6" strokeWidth={2.5} />
         </button>

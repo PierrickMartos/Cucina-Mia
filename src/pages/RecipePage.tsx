@@ -460,7 +460,7 @@ export function RecipePage() {
       {/* Scroll progress bar, fixed at top of viewport, portaled to body */}
       {!reduceMotion && createPortal(
         <motion.div
-          className="fixed top-0 left-0 right-0 h-1 bg-primary z-50 origin-left print:hidden"
+          className="fixed top-[env(safe-area-inset-top)] left-0 right-0 h-1 bg-primary z-50 origin-left print:hidden"
           style={{ scaleX: scrollProgress }}
         />,
         document.body
@@ -869,7 +869,7 @@ export function RecipePage() {
 
       {/* Step navigator sticky bar, mobile only, portaled to body */}
       {recipe.steps.length > 0 && createPortal(
-        <div className="lg:hidden fixed bottom-0 inset-x-0 z-50 bg-background border-t border-border print:hidden">
+        <div className="lg:hidden fixed bottom-0 inset-x-0 z-50 bg-background border-t border-border pb-[env(safe-area-inset-bottom)] pl-[env(safe-area-inset-left)] pr-[env(safe-area-inset-right)] print:hidden">
           {/* Ingredients handle: tap or pull up to check quantities without leaving the steps */}
           {activeTab === "instructions" && !ingredientsSheetOpen && (
             <motion.button
@@ -976,7 +976,7 @@ export function RecipePage() {
                 role="dialog"
                 aria-modal="true"
                 aria-labelledby={ingredientsSheetTitleId}
-                className="absolute inset-x-0 bottom-0 flex max-h-[75dvh] flex-col rounded-t-3xl bg-background shadow-ambient"
+                className="absolute inset-x-0 bottom-0 flex max-h-[75dvh] flex-col rounded-t-3xl bg-background shadow-ambient pb-[env(safe-area-inset-bottom)]"
                 initial={reduceMotion ? { opacity: 0 } : { y: "100%" }}
                 animate={reduceMotion ? { opacity: 1 } : { y: 0 }}
                 exit={reduceMotion ? { opacity: 0 } : { y: "100%" }}

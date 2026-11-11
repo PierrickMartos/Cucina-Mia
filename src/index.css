@@ -91,9 +91,26 @@
 }
 
 @layer base {
+  html {
+    -webkit-text-size-adjust: 100%;
+    text-size-adjust: 100%;
+    -webkit-tap-highlight-color: transparent;
+  }
   body {
     @apply bg-background text-foreground;
     font-family: var(--font-body);
+    /* Pages scroll inside <main>: stop the whole app from rubber-banding on iOS */
+    overscroll-behavior: none;
+  }
+}
+
+/* iOS Safari zooms into any field under 16px when it gets focus.
+   Outside the layers so it wins over text-sm utilities on touch screens */
+@media (pointer: coarse) {
+  input:not([type="checkbox"]):not([type="radio"]),
+  select,
+  textarea {
+    font-size: max(16px, 1em);
   }
 }
 
