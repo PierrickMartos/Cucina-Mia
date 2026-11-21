@@ -21126,5 +21126,99 @@
     },
     "stepCount": 5,
     "ingredientCount": 7
+  },
+  {
+    "slug": "crumble-aux-pommes",
+    "title": "Crumble aux pommes",
+    "description": "Une compote de pommes sous une pâte dorée, à servir tiède avec de la crème fraîche.",
+    "images": {
+      "cover": "images/recipes/crumble-aux-pommes/cover.webp",
+      "web": "images/recipes/crumble-aux-pommes/web.webp"
+    },
+    "prepTime": 20,
+    "cookTime": 50,
+    "servings": 6,
+    "difficulty": "Facile",
+    "category": "Dolci",
+    "tags": [
+      "four",
+      "dessert",
+      "végétarien",
+      "fruits",
+      "croustillant"
+    ],
+    "translations": {
+      "en": {
+        "title": "Apple crumble",
+        "description": "Soft stewed apples under golden crumbs, served warm with crème fraîche.",
+        "tags": [
+          "oven",
+          "dessert",
+          "vegetarian",
+          "fruit",
+          "crispy"
+        ]
+      },
+      "it": {
+        "title": "Crumble di mele",
+        "description": "Mele cotte sotto uno strato di briciole dorate, da servire tiepide con crème fraîche.",
+        "tags": [
+          "forno",
+          "dolce",
+          "vegetariano",
+          "frutta",
+          "croccante"
+        ]
+      }
+    },
+    "stepCount": 4,
+    "ingredientCount": 7
+  },
+  {
+    "slug": "crumble-aux-fruits-et-aux-flocons-d-avoine",
+    "title": "Crumble aux fruits et aux flocons d’avoine",
+    "description": "Les fruits cuisent sous une couche croustillante de cassonade et de flocons d’avoine.",
+    "images": {
+      "cover": "images/recipes/crumble-aux-fruits-et-aux-flocons-d-avoine/cover.webp",
+      "web": "images/recipes/crumble-aux-fruits-et-aux-flocons-d-avoine/web.webp"
+    },
+    "prepTime": 10,
+    "cookTime": 30,
+    "servings": 2,
+    "difficulty": "Facile",
+    "category": "Dolci",
+    "tags": [
+      "four",
+      "dessert",
+      "végétarien",
+      "fruits",
+      "croustillant"
+    ],
+    "translations": {
+      "en": {
+        "title": "Fruit and oat crumble",
+        "description": "Fruit baked under a crisp brown sugar and oat topping.",
+        "tags": [
+          "oven",
+          "dessert",
+          "vegetarian",
+          "fruit",
+          "crispy"
+        ]
+      },
+      "it": {
+        "title": "Crumble di frutta con fiocchi d’avena",
+        "description": "Frutta al forno con una crosta croccante di zucchero di canna e fiocchi d’avena.",
+        "tags": [
+          "forno",
+          "dolce",
+          "vegetariano",
+          "frutta",
+          "croccante"
+        ]
+      }
+    },
+    "stepCount": 3,
+    "ingredientCount": 6
   }
 ]

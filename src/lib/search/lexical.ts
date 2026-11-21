@@ -47,6 +47,7 @@ interface Match {
 
 export class LexicalIndex {
   private slugs: string[] = []
+  private titleWords = new Set<string>()
   private terms: string[] = []
   private termIds = new Map<string, number>()
   /** termId -> (docIndex -> accumulated field weight) */
@@ -63,6 +64,9 @@ export class LexicalIndex {
     this.aliases = aliases
     documents.forEach((doc, docIndex) => {
       this.slugs.push(doc.slug)
+      for (const title of doc.fields.title ?? []) {
+        for (const word of normalize(title).split(" ")) this.titleWords.add(word)
+      }
       this.titles.push((doc.fields.title ?? []).map((title) => new Set(tokenize(title))))
       const weights = new Map<string, number>()
       const strong = new Set<string>()
@@ -173,7 +177,7 @@ export class LexicalIndex {
   }
 
   private matchTyped(word: string): Match[] | null {
-    if (word === stem(word)) return null
+    if (word === stem(word) || this.titleWords.has(word)) return null
     const matches: Match[] = []
     this.terms.forEach((term, termIndex) => {
       if (term.startsWith(word)) matches.push({ termIndex, factor: term === word ? 1 : PREFIX_FACTOR })

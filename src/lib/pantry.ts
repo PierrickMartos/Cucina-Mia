@@ -112,6 +112,7 @@ export const PANTRY_ITEMS: PantryItem[] = [
   item("rhubarb", "fruit", "Rhubarbe", "Rhubarb", "Rabarbaro", ["rhubarb", "rhubarb stalk"]),
   item("quince", "fruit", "Coings", "Quinces", "Mele cotogne", ["quince"]),
   item("citrus", "fruit", "Agrumes", "Citrus fruits", "Agrumi", ["citrus fruit", "citrus"]),
+  item("fresh-fruit", "fruit", "Fruits au choix", "Fruit of your choice", "Frutta a scelta", ["fruit of your choice"]),
   item("fruit-puree", "fruit", "Purée de fruits", "Fruit purée", "Purea di frutta", ["fruit puree", "fruit pulp", "red berry pulp", "red berry"]),
   item("apricot", "fruit", "Abricots", "Apricots", "Albicocche", ["apricot"]),
   item("kiwi", "fruit", "Kiwis", "Kiwis", "Kiwi", ["kiwi"]),
