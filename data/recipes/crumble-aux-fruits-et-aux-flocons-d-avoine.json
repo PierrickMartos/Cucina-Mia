@@ -1,0 +1,141 @@
+{
+  "slug": "crumble-aux-fruits-et-aux-flocons-d-avoine",
+  "title": "Crumble aux fruits et aux flocons d’avoine",
+  "description": "Les fruits cuisent sous une couche croustillante de cassonade et de flocons d’avoine.",
+  "tags": [
+    "four",
+    "dessert",
+    "végétarien",
+    "fruits",
+    "croustillant"
+  ],
+  "ingredients": [
+    {
+      "items": [
+        "200 g de fruits au choix",
+        "60 g de cassonade",
+        "35 g de farine",
+        "40 g de beurre",
+        "18 g de flocons d’avoine",
+        "1 pincée de sel"
+      ]
+    }
+  ],
+  "steps": [
+    {
+      "text": "Préchauffer le four à 180 °C. Répartir les fruits dans un petit plat allant au four."
+    },
+    {
+      "text": "Mélanger la cassonade, la farine, les flocons d’avoine et le sel. Incorporer le beurre du bout des doigts pour former des miettes."
+    },
+    {
+      "text": "Couvrir les fruits de miettes et enfourner. Vérifier la cuisson après 25 minutes. Si nécessaire, poursuivre environ 5 minutes, jusqu’à ce que les fruits soient tendres et le dessus doré et croustillant.",
+      "timers": [
+        25,
+        5
+      ]
+    }
+  ],
+  "tips": [
+    "La fiche donne les quantités pour un quart de la recette. La méthode et la cuisson sont proposées à titre indicatif."
+  ],
+  "images": {
+    "cover": "images/recipes/crumble-aux-fruits-et-aux-flocons-d-avoine/cover.webp",
+    "web": "images/recipes/crumble-aux-fruits-et-aux-flocons-d-avoine/web.webp"
+  },
+  "imageCredit": {
+    "author": "Jessica Johnston",
+    "url": "https://unsplash.com/@jdjohnston"
+  },
+  "prepTime": 10,
+  "cookTime": 30,
+  "servings": 2,
+  "difficulty": "Facile",
+  "category": "Dolci",
+  "originalSource": {
+    "type": "image",
+    "data": "images/recipes/crumble-aux-fruits-et-aux-flocons-d-avoine/source.jpg"
+  },
+  "related": [
+    "crumble-aux-pommes",
+    "crumble-ananas-mangue",
+    "gratin-de-pommes",
+    "tarte-a-la-rhubarbe-et-aux-pommes"
+  ],
+  "translations": {
+    "en": {
+      "title": "Fruit and oat crumble",
+      "description": "Fruit baked under a crisp brown sugar and oat topping.",
+      "tags": [
+        "oven",
+        "dessert",
+        "vegetarian",
+        "fruit",
+        "crispy"
+      ],
+      "ingredients": [
+        {
+          "items": [
+            "200 g fruit of your choice",
+            "60 g brown sugar",
+            "35 g flour",
+            "40 g butter",
+            "18 g rolled oats",
+            "1 pinch of salt"
+          ]
+        }
+      ],
+      "steps": [
+        {
+          "text": "Preheat the oven to 180 °C. Place the fruit in a small baking dish."
+        },
+        {
+          "text": "Mix the brown sugar, flour, oats and salt. Rub in the butter with your fingertips to form crumbs."
+        },
+        {
+          "text": "Cover the fruit with the crumbs and bake. Check after 25 minutes. If needed, bake for about 5 more minutes, until the fruit is tender and the topping is golden and crisp."
+        }
+      ],
+      "tips": [
+        "The handwritten quantities make a quarter batch. The method and baking time are suggestions."
+      ]
+    },
+    "it": {
+      "title": "Crumble di frutta con fiocchi d’avena",
+      "description": "Frutta al forno con una crosta croccante di zucchero di canna e fiocchi d’avena.",
+      "tags": [
+        "forno",
+        "dolce",
+        "vegetariano",
+        "frutta",
+        "croccante"
+      ],
+      "ingredients": [
+        {
+          "items": [
+            "200 g di frutta a scelta",
+            "60 g di zucchero di canna",
+            "35 g di farina",
+            "40 g di burro",
+            "18 g di fiocchi d’avena",
+            "1 pizzico di sale"
+          ]
+        }
+      ],
+      "steps": [
+        {
+          "text": "Scaldare il forno a 180 °C. Distribuire la frutta in una piccola pirofila."
+        },
+        {
+          "text": "Mescolare lo zucchero di canna, la farina, i fiocchi d’avena e il sale. Unire il burro e lavorare con la punta delle dita fino a ottenere delle briciole."
+        },
+        {
+          "text": "Coprire la frutta con le briciole e infornare. Controllare dopo 25 minuti. Se necessario, cuocere per altri 5 minuti circa, finché la frutta è tenera e la superficie dorata e croccante."
+        }
+      ],
+      "tips": [
+        "Le dosi del manoscritto corrispondono a un quarto della ricetta. Il procedimento e la cottura sono indicativi."
+      ]
+    }
+  }
+}

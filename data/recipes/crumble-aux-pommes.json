@@ -1,0 +1,176 @@
+{
+  "slug": "crumble-aux-pommes",
+  "title": "Crumble aux pommes",
+  "description": "Une compote de pommes sous une pâte dorée, à servir tiède avec de la crème fraîche.",
+  "tags": [
+    "four",
+    "dessert",
+    "végétarien",
+    "fruits",
+    "croustillant"
+  ],
+  "ingredients": [
+    {
+      "group": "Pâte",
+      "items": [
+        "200 g de farine",
+        "125 g de beurre",
+        "125 g de sucre en poudre"
+      ]
+    },
+    {
+      "group": "Compote",
+      "items": [
+        "1 kg de pommes au minimum",
+        "Un peu de sucre en poudre"
+      ]
+    },
+    {
+      "group": "Pour le plat et le service",
+      "items": [
+        "Beurre pour le plat",
+        "Crème fraîche"
+      ]
+    }
+  ],
+  "steps": [
+    {
+      "text": "Faire cuire les pommes en compote avec un peu de sucre."
+    },
+    {
+      "text": "Couper le beurre en petits morceaux. Le mélanger du bout des doigts avec la farine tamisée et le sucre pour former des miettes."
+    },
+    {
+      "text": "Préchauffer le four au thermostat 6 à 7. Beurrer un plat, y verser la compote et la couvrir de miettes."
+    },
+    {
+      "text": "Enfourner environ 35 minutes, jusqu’à ce que la pâte soit dorée. Servir tiède avec la crème fraîche.",
+      "timers": [
+        35
+      ]
+    }
+  ],
+  "images": {
+    "cover": "images/recipes/crumble-aux-pommes/cover.webp",
+    "web": "images/recipes/crumble-aux-pommes/web.webp"
+  },
+  "imageCredit": {
+    "author": "Alex Bayev",
+    "url": "https://unsplash.com/@alexbayev"
+  },
+  "prepTime": 20,
+  "cookTime": 50,
+  "servings": 6,
+  "difficulty": "Facile",
+  "category": "Dolci",
+  "originalSource": {
+    "type": "image",
+    "data": "images/recipes/crumble-aux-pommes/source.jpg"
+  },
+  "related": [
+    "crumble-aux-fruits-et-aux-flocons-d-avoine",
+    "crumble-ananas-mangue",
+    "gratin-de-pommes",
+    "tarte-a-la-rhubarbe-et-aux-pommes"
+  ],
+  "translations": {
+    "en": {
+      "title": "Apple crumble",
+      "description": "Soft stewed apples under golden crumbs, served warm with crème fraîche.",
+      "tags": [
+        "oven",
+        "dessert",
+        "vegetarian",
+        "fruit",
+        "crispy"
+      ],
+      "ingredients": [
+        {
+          "group": "Topping",
+          "items": [
+            "200 g flour",
+            "125 g butter",
+            "125 g caster sugar"
+          ]
+        },
+        {
+          "group": "Stewed apples",
+          "items": [
+            "1 kg apples or more",
+            "A little caster sugar"
+          ]
+        },
+        {
+          "group": "For the dish and serving",
+          "items": [
+            "Butter for the dish",
+            "Crème fraîche"
+          ]
+        }
+      ],
+      "steps": [
+        {
+          "text": "Cook the apples with a little sugar until soft enough to mash."
+        },
+        {
+          "text": "Cut the butter into small pieces and rub into the sifted flour and sugar with your fingertips to form crumbs."
+        },
+        {
+          "text": "Preheat the oven to 180 to 210 °C. Butter a baking dish, spoon in the apples and cover with the crumbs."
+        },
+        {
+          "text": "Bake for about 35 minutes until golden. Serve warm with crème fraîche."
+        }
+      ]
+    },
+    "it": {
+      "title": "Crumble di mele",
+      "description": "Mele cotte sotto uno strato di briciole dorate, da servire tiepide con crème fraîche.",
+      "tags": [
+        "forno",
+        "dolce",
+        "vegetariano",
+        "frutta",
+        "croccante"
+      ],
+      "ingredients": [
+        {
+          "group": "Impasto",
+          "items": [
+            "200 g di farina",
+            "125 g di burro",
+            "125 g di zucchero semolato"
+          ]
+        },
+        {
+          "group": "Composta",
+          "items": [
+            "1 kg di mele o più",
+            "Poco zucchero semolato"
+          ]
+        },
+        {
+          "group": "Per la pirofila e il servizio",
+          "items": [
+            "Burro per la pirofila",
+            "Crème fraîche"
+          ]
+        }
+      ],
+      "steps": [
+        {
+          "text": "Cuocere le mele con poco zucchero fino a ottenere una composta."
+        },
+        {
+          "text": "Tagliare il burro a pezzetti e lavorarlo con la punta delle dita insieme alla farina setacciata e allo zucchero fino a ottenere delle briciole."
+        },
+        {
+          "text": "Scaldare il forno a 180-210 °C. Imburrare una pirofila, versarvi la composta e coprire con le briciole."
+        },
+        {
+          "text": "Cuocere per circa 35 minuti fino a doratura. Servire tiepido con la crème fraîche."
+        }
+      ]
+    }
+  }
+}
